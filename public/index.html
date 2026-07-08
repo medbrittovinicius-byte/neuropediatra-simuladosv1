@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Simulado Pediatria + Saúde Coletiva — CEREM-BA / ABAEM</title>
+<title>Simulado Neurologia + Pediatria — CEREM-BA / ABAEM</title>
 <style>
   :root{
     --navy:#0f2c4c; --navy-dark:#0a1f36; --blue:#1c5a8f; --green:#1e8f5a; --green-bg:#e6f7ee;
@@ -79,14 +79,14 @@
 <body>
 
 <header>
-  <h1>Simulado Pediatria + Saúde Coletiva — Estilo CEREM-BA / ABAEM</h1>
+  <h1>Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM</h1>
   <p id="header-sub">Estudo diário automatizado</p>
   <p class="note">Formato: situações-problema com 3 perguntas cada (diagnóstico/mecanismo → exame/classificação → conduta/prognóstico), 4 alternativas (A–D), calibrado para o nível de dificuldade das provas reais.</p>
   <span class="badge" id="header-badge">Selecione quem está respondendo</span>
 </header>
 
 <div class="who-bar" id="who-bar">
-  Respondendo como <b id="who-name"></b> · <a onclick="trocarUsuario()">trocar</a> · <a href="painel.html">ver painel de fragilidades</a>
+  <span id="simulado-numero"></span> · Respondendo como <b id="who-name"></b> · <a onclick="trocarUsuario()">trocar</a> · <a href="historico.html">simulados anteriores</a> · <a href="painel.html">painel de fragilidades</a>
 </div>
 
 <div id="progress-wrap">
@@ -100,6 +100,8 @@
     <p>O resultado é registrado individualmente para cada pessoa.</p>
     <button class="user-btn" onclick="escolherUsuario('Vinicius')">Vinicius</button>
     <button class="user-btn" onclick="escolherUsuario('Leonardo')">Leonardo</button>
+    <a class="link-muted" href="historico.html">Ver simulados anteriores</a>
+    <br>
     <a class="link-muted" href="painel.html">Ver painel de fragilidades</a>
   </div>
 
@@ -128,7 +130,7 @@
   <button class="btn" id="finish-btn" onclick="showSummary()" disabled>Responda todas as questões para ver o resultado</button>
 </div>
 
-<footer>Gerado automaticamente para fins de estudo · Pediatria/Saúde Coletiva · Baseado no estilo real das provas CEREM-BA/ABAEM</footer>
+<footer>Gerado automaticamente para fins de estudo · Neurologia + Pediatria/Saúde Coletiva · Baseado no estilo real das provas CEREM-BA/ABAEM</footer>
 
 <script>
 let currentUser = null;
@@ -155,7 +157,7 @@ function escolherUsuario(nome){
   document.getElementById('user-select').style.display = 'none';
   document.getElementById('who-bar').style.display = 'flex';
   document.getElementById('who-name').textContent = nome;
-  document.getElementById('header-badge').textContent = 'Vinicius · Estudo diário automatizado';
+  document.getElementById('header-badge').textContent = nome + ' · Estudo diário automatizado';
   carregarSimulado();
 }
 
@@ -165,16 +167,34 @@ function trocarUsuario(){
   location.reload();
 }
 
+async function getSimuladoNumero(date){
+  try{
+    const res = await fetch('quizzes/index.json', {cache:'no-store'});
+    if(!res.ok) return null;
+    const lista = await res.json();
+    const idx = lista.indexOf(date);
+    if(idx >= 0) return idx + 1;
+    return lista.length + 1;
+  }catch(e){
+    return null;
+  }
+}
+
 async function carregarSimulado(){
   const date = getDateParam();
   document.getElementById('header-sub').textContent = `Carregando simulado de ${date}...`;
   try{
-    const res = await fetch(`quizzes/${date}.json`, {cache:'no-store'});
+    const [res, numero] = await Promise.all([
+      fetch(`quizzes/${date}.json`, {cache:'no-store'}),
+      getSimuladoNumero(date),
+    ]);
     if(!res.ok){
       throw new Error('not-found');
     }
     quizData = await res.json();
-    document.getElementById('header-sub').textContent = `Simulado de ${date}`;
+    const numeroTxt = numero ? `Simulado nº ${numero} — ${date}` : `Simulado de ${date}`;
+    document.getElementById('header-sub').textContent = numeroTxt;
+    document.getElementById('simulado-numero').textContent = numero ? `Simulado nº ${numero}` : date;
     montarQuestions();
     render();
     updateProgress();
@@ -184,7 +204,7 @@ async function carregarSimulado(){
     document.getElementById('header-sub').textContent = '';
     const el = document.getElementById('load-error');
     el.style.display = 'block';
-    el.innerHTML = `<h2 style="color:var(--navy)">Simulado de ${date} ainda não disponível</h2><p>O simulado diário costuma ser publicado pela manhã. Tente novamente mais tarde, ou avise a Claude no chat se o link não estiver funcionando.</p><a class="link-muted" href="painel.html">Ver painel de fragilidades</a>`;
+    el.innerHTML = `<h2 style="color:var(--navy)">Simulado de ${date} ainda não disponível</h2><p>O simulado diário costuma ser publicado pela manhã. Tente novamente mais tarde, ou avise a Claude no chat se o link não estiver funcionando.</p><a class="link-muted" href="historico.html">Ver simulados anteriores</a><br><a class="link-muted" href="painel.html">Ver painel de fragilidades</a>`;
   }
 }
 

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulados anteriores — Neurologia + Pediatria</title>
+<style>
+  :root{
+    --navy:#0f2c4c; --navy-dark:#0a1f36; --blue:#1c5a8f; --green:#1e8f5a; --green-bg:#e6f7ee;
+    --bg:#f4f6f9; --card:#ffffff; --text:#1c2733; --muted:#5c6b7a; --border:#dde3ea;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--text); line-height:1.5;}
+  header{background:linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%); color:#fff; padding:26px 20px 20px; text-align:center; box-shadow:0 2px 10px rgba(0,0,0,.15);}
+  header h1{margin:0 0 6px; font-size:1.3rem;}
+  header p{margin:2px 0; color:#c9d6e3; font-size:.88rem;}
+  header a{color:#cfe0f2;}
+  main{max-width:640px; margin:0 auto; padding:24px 16px 60px;}
+  .list{background:var(--card); border:1px solid var(--border); border-radius:14px; overflow:hidden; box-shadow:0 1px 3px rgba(0,0,0,.04);}
+  .item{display:flex; align-items:center; justify-content:space-between; padding:14px 20px; text-decoration:none; color:var(--text); border-bottom:1px solid var(--border);}
+  .item:last-child{border-bottom:none;}
+  .item:hover{background:#eef4fa;}
+  .item .num{font-weight:800; color:var(--navy); min-width:80px;}
+  .item .date{color:var(--muted); font-size:.9rem;}
+  .item .arrow{color:var(--blue); font-size:1.1rem;}
+  .empty{color:var(--muted); text-align:center; padding:40px 20px;}
+  footer{text-align:center; padding:20px; color:var(--muted); font-size:.78rem;}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Simulados anteriores</h1>
+  <p>Acesse qualquer simulado já publicado pelo número ou pela data</p>
+  <p><a href="index.html">← voltar ao simulado de hoje</a> · <a href="painel.html">painel de fragilidades</a></p>
+</header>
+
+<main>
+  <div id="list-wrap" class="list"><div class="empty">Carregando...</div></div>
+</main>
+
+<footer>Um novo simulado é publicado automaticamente todo dia · Neurologia + Pediatria/Saúde Coletiva</footer>
+
+<script>
+async function carregar(){
+  const wrap = document.getElementById('list-wrap');
+  try{
+    const res = await fetch('quizzes/index.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('sem index');
+    const lista = await res.json();
+    if(!lista.length){
+      wrap.innerHTML = '<div class="empty">Nenhum simulado publicado ainda.</div>';
+      return;
+    }
+    wrap.innerHTML = '';
+    const numbered = lista.map((date, i) => ({ date, numero: i + 1 }));
+    numbered.reverse(); // mais recente primeiro
+    numbered.forEach(({date, numero})=>{
+      const a = document.createElement('a');
+      a.className = 'item';
+      a.href = `index.html?date=${date}`;
+      a.innerHTML = `<span class="num">Simulado nº ${numero}</span><span class="date">${date}</span><span class="arrow">→</span>`;
+      wrap.appendChild(a);
+    });
+  }catch(e){
+    wrap.innerHTML = '<div class="empty">Não foi possível carregar a lista agora. Tente novamente em instantes.</div>';
+  }
+}
+carregar();
+</script>
+
+</body>
+</html>
