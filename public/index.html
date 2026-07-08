@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulado Pediatria + Saúde Coletiva — CEREM-BA / ABAEM</title>
+<style>
+  :root{
+    --navy:#0f2c4c; --navy-dark:#0a1f36; --blue:#1c5a8f; --green:#1e8f5a; --green-bg:#e6f7ee;
+    --red:#c0392b; --red-bg:#fdecea; --bg:#f4f6f9; --card:#ffffff; --text:#1c2733; --muted:#5c6b7a; --border:#dde3ea;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--text); line-height:1.5;}
+  header{background:linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%); color:#fff; padding:26px 20px 20px; text-align:center; box-shadow:0 2px 10px rgba(0,0,0,.15);}
+  header h1{margin:0 0 6px; font-size:1.35rem;}
+  header p{margin:2px 0; color:#c9d6e3; font-size:.9rem;}
+  header .note{max-width:660px; margin:10px auto 0; font-size:.78rem; color:#a9bdd2; line-height:1.4;}
+  .badge{display:inline-block; background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.3); padding:3px 10px; border-radius:20px; font-size:.78rem; margin-top:8px;}
+  .who-bar{display:none; align-items:center; justify-content:center; gap:10px; padding:8px 16px; background:#eef2f7; border-bottom:1px solid var(--border); font-size:.85rem; color:var(--navy); flex-wrap:wrap;}
+  .who-bar a{color:var(--blue); cursor:pointer; text-decoration:underline;}
+  #progress-wrap{position:sticky; top:0; z-index:50; background:var(--card); border-bottom:1px solid var(--border); padding:10px 16px; display:none; align-items:center; gap:12px; box-shadow:0 2px 6px rgba(0,0,0,.06);}
+  #progress-bar-bg{flex:1; height:10px; background:#e4e9ef; border-radius:6px; overflow:hidden;}
+  #progress-bar-fill{height:100%; width:0%; background:linear-gradient(90deg,var(--blue),var(--green)); transition:width .3s;}
+  #progress-text{font-size:.85rem; color:var(--muted); white-space:nowrap; min-width:74px; text-align:right;}
+  main{max-width:840px; margin:0 auto; padding:20px 16px 60px;}
+  .center-box{max-width:460px; margin:60px auto; background:var(--card); border:1px solid var(--border); border-radius:14px; padding:32px 26px; text-align:center; box-shadow:0 1px 3px rgba(0,0,0,.04);}
+  .center-box h2{margin-top:0; color:var(--navy); font-size:1.15rem;}
+  .center-box p{color:var(--muted); font-size:.9rem;}
+  .user-btn{display:block; width:100%; padding:16px; margin:10px 0; border-radius:10px; border:2px solid var(--border); background:#fbfcfd; font-size:1.05rem; font-weight:700; color:var(--navy); cursor:pointer; transition:border-color .15s, background .15s;}
+  .user-btn:hover{border-color:var(--blue); background:#eef4fa;}
+  .link-muted{display:inline-block; margin-top:18px; font-size:.82rem; color:var(--muted); text-decoration:none;}
+  .link-muted:hover{color:var(--blue);}
+  .bloco{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:0; margin-bottom:22px; overflow:hidden; box-shadow:0 1px 3px rgba(0,0,0,.04);}
+  .bloco-head{background:#eef2f7; padding:10px 20px; font-size:.78rem; font-weight:700; color:var(--navy); letter-spacing:.03em; text-transform:uppercase;}
+  .vinheta{padding:16px 20px 4px; font-size:.96rem; color:var(--text); border-bottom:1px dashed var(--border); margin-bottom:6px;}
+  .vinheta b{color:var(--navy);}
+  .q-card{padding:16px 20px 18px;}
+  .q-card + .q-card{border-top:1px solid var(--border);}
+  .q-head{display:flex; justify-content:space-between; align-items:baseline; margin-bottom:8px; gap:10px;}
+  .q-num{font-weight:700; color:var(--blue); font-size:.92rem;}
+  .q-enun{margin:0 0 14px; font-size:.97rem;}
+  .opt{display:flex; align-items:flex-start; gap:10px; width:100%; text-align:left; background:#fbfcfd; border:1px solid var(--border); border-radius:8px; padding:10px 12px; margin-bottom:8px; cursor:pointer; font-size:.93rem; color:var(--text); transition:background .15s, border-color .15s;}
+  .opt:hover:not(.locked){background:#eef4fa; border-color:var(--blue);}
+  .opt .letra{flex-shrink:0; width:22px; height:22px; border-radius:50%; background:var(--navy); color:#fff; font-size:.75rem; display:flex; align-items:center; justify-content:center; font-weight:700;}
+  .opt.correct{background:var(--green-bg); border-color:var(--green);}
+  .opt.correct .letra{background:var(--green);}
+  .opt.incorrect{background:var(--red-bg); border-color:var(--red);}
+  .opt.incorrect .letra{background:var(--red);}
+  .opt.locked{cursor:default;}
+  .comment{display:none; margin-top:12px; padding:12px 14px; border-radius:8px; background:#f7f9fc; border-left:4px solid var(--blue); font-size:.89rem; color:var(--text);}
+  .comment.show{display:block; animation:fade .3s ease;}
+  @keyframes fade{from{opacity:0; transform:translateY(-4px);} to{opacity:1; transform:translateY(0);}}
+  .comment b{color:var(--navy);}
+  .feedback-tag{display:inline-block; font-weight:700; font-size:.8rem; padding:2px 9px; border-radius:6px; margin-bottom:8px;}
+  .feedback-tag.ok{background:var(--green); color:#fff;}
+  .feedback-tag.no{background:var(--red); color:#fff;}
+  #summary{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:22px; margin-top:10px; display:none;}
+  #summary.show{display:block;}
+  #summary h2{margin-top:0; color:var(--navy);}
+  #score-circle{width:96px; height:96px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.3rem; font-weight:800; color:#fff; margin:0 auto 14px; background:conic-gradient(var(--green) calc(var(--pct,0)*1%), #e4e9ef 0);}
+  #score-circle span{background:var(--navy-dark); width:74px; height:74px; border-radius:50%; display:flex; align-items:center; justify-content:center;}
+  #wrong-list{margin:14px 0; padding-left:20px;}
+  #wrong-list li{margin-bottom:4px; font-size:.92rem;}
+  .send-status{margin-top:16px; padding:12px 14px; border-radius:8px; font-size:.88rem; text-align:center;}
+  .send-status.sending{background:#eef4fa; color:var(--blue);}
+  .send-status.ok{background:var(--green-bg); color:var(--green);}
+  .send-status.err{background:var(--red-bg); color:var(--red);}
+  .btn{background:var(--blue); color:#fff; border:none; padding:9px 16px; border-radius:8px; cursor:pointer; font-size:.88rem; font-weight:600; margin-top:10px;}
+  .btn:hover{background:var(--navy);}
+  .btn:disabled{opacity:.5; cursor:default;}
+  .btn-secondary{background:#fff; color:var(--blue); border:1px solid var(--blue);}
+  .btn-secondary:hover{background:#eef4fa;}
+  footer{text-align:center; padding:20px; color:var(--muted); font-size:.78rem;}
+  #finish-bar{position:sticky; bottom:0; background:var(--card); border-top:1px solid var(--border); padding:12px 16px; text-align:center; z-index:40; display:none;}
+  #finish-bar button{width:100%; max-width:400px;}
+  #load-error{max-width:520px; margin:60px auto; text-align:center; color:var(--muted);}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Simulado Pediatria + Saúde Coletiva — Estilo CEREM-BA / ABAEM</h1>
+  <p id="header-sub">Estudo diário automatizado</p>
+  <p class="note">Formato: situações-problema com 3 perguntas cada (diagnóstico/mecanismo → exame/classificação → conduta/prognóstico), 4 alternativas (A–D), calibrado para o nível de dificuldade das provas reais.</p>
+  <span class="badge" id="header-badge">Selecione quem está respondendo</span>
+</header>
+
+<div class="who-bar" id="who-bar">
+  Respondendo como <b id="who-name"></b> · <a onclick="trocarUsuario()">trocar</a> · <a href="painel.html">ver painel de fragilidades</a>
+</div>
+
+<div id="progress-wrap">
+  <div id="progress-bar-bg"><div id="progress-bar-fill"></div></div>
+  <div id="progress-text">0 / 0</div>
+</div>
+
+<main>
+  <div id="user-select" class="center-box">
+    <h2>Quem está respondendo hoje?</h2>
+    <p>O resultado é registrado individualmente para cada pessoa.</p>
+    <button class="user-btn" onclick="escolherUsuario('Vinicius')">Vinicius</button>
+    <button class="user-btn" onclick="escolherUsuario('Leonardo')">Leonardo</button>
+    <a class="link-muted" href="painel.html">Ver painel de fragilidades</a>
+  </div>
+
+  <div id="load-error" style="display:none;"></div>
+
+  <div id="quiz"></div>
+  <div id="summary">
+    <h2>Resultado do simulado</h2>
+    <div id="score-circle"><span id="score-num">0%</span></div>
+    <p id="score-text" style="text-align:center; color:var(--muted);"></p>
+    <div id="wrong-block" style="display:none;">
+      <p><b>Questões erradas (revise os temas abaixo):</b></p>
+      <ul id="wrong-list"></ul>
+    </div>
+    <div id="perfect-block" style="display:none;">
+      <p style="text-align:center;">🎯 Você acertou todas as questões!</p>
+    </div>
+    <div id="send-status" class="send-status" style="display:none;"></div>
+    <div style="text-align:center;">
+      <a href="painel.html" class="btn btn-secondary" style="display:inline-block; text-decoration:none;">Ver painel de fragilidades</a>
+    </div>
+  </div>
+</main>
+
+<div id="finish-bar">
+  <button class="btn" id="finish-btn" onclick="showSummary()" disabled>Responda todas as questões para ver o resultado</button>
+</div>
+
+<footer>Gerado automaticamente para fins de estudo · Pediatria/Saúde Coletiva · Baseado no estilo real das provas CEREM-BA/ABAEM</footer>
+
+<script>
+let currentUser = null;
+let quizData = null;
+let questions = [];
+let answered = {};
+
+function todayStr(){
+  const d = new Date();
+  const yyyy = d.getFullYear();
+  const mm = String(d.getMonth()+1).padStart(2,'0');
+  const dd = String(d.getDate()).padStart(2,'0');
+  return `${yyyy}-${mm}-${dd}`;
+}
+
+function getDateParam(){
+  const params = new URLSearchParams(window.location.search);
+  return params.get('date') || todayStr();
+}
+
+function escolherUsuario(nome){
+  currentUser = nome;
+  localStorage.setItem('np_user', nome);
+  document.getElementById('user-select').style.display = 'none';
+  document.getElementById('who-bar').style.display = 'flex';
+  document.getElementById('who-name').textContent = nome;
+  document.getElementById('header-badge').textContent = 'Vinicius · Estudo diário automatizado';
+  carregarSimulado();
+}
+
+function trocarUsuario(){
+  currentUser = null;
+  localStorage.removeItem('np_user');
+  location.reload();
+}
+
+async function carregarSimulado(){
+  const date = getDateParam();
+  document.getElementById('header-sub').textContent = `Carregando simulado de ${date}...`;
+  try{
+    const res = await fetch(`quizzes/${date}.json`, {cache:'no-store'});
+    if(!res.ok){
+      throw new Error('not-found');
+    }
+    quizData = await res.json();
+    document.getElementById('header-sub').textContent = `Simulado de ${date}`;
+    montarQuestions();
+    render();
+    updateProgress();
+    document.getElementById('progress-wrap').style.display = 'flex';
+    document.getElementById('finish-bar').style.display = 'block';
+  }catch(e){
+    document.getElementById('header-sub').textContent = '';
+    const el = document.getElementById('load-error');
+    el.style.display = 'block';
+    el.innerHTML = `<h2 style="color:var(--navy)">Simulado de ${date} ainda não disponível</h2><p>O simulado diário costuma ser publicado pela manhã. Tente novamente mais tarde, ou avise a Claude no chat se o link não estiver funcionando.</p><a class="link-muted" href="painel.html">Ver painel de fragilidades</a>`;
+  }
+}
+
+function montarQuestions(){
+  questions = [];
+  quizData.blocos.forEach(b=>{
+    b.perguntas.forEach(p=>{
+      questions.push({tema:b.tema, tier:b.tier, enunciado:p.enunciado, alternativas:p.alternativas, correta:p.correta, comentario:p.comentario});
+    });
+  });
+  if(quizData.avulsa){
+    const av = quizData.avulsa;
+    questions.push({tema:av.tema, tier:av.tier, enunciado:av.enunciado, alternativas:av.alternativas, correta:av.correta, comentario:av.comentario, avulsa:true});
+  }
+}
+
+function renderOptions(q, idx){
+  const letras = ['a','b','c','d'];
+  let html = '';
+  letras.forEach(l=>{
+    html += `<button class="opt" data-l="${l}" onclick="answer(${idx}, '${l}')">
+      <span class="letra">${l.toUpperCase()}</span><span>${q.alternativas[l]}</span>
+    </button>`;
+  });
+  return html;
+}
+
+function render(){
+  const quiz = document.getElementById('quiz');
+  quiz.innerHTML = '';
+  let qIndex = 0;
+  quizData.blocos.forEach((b)=>{
+    const startNum = qIndex+1;
+    const endNum = qIndex+b.perguntas.length;
+    const blocoDiv = document.createElement('div');
+    blocoDiv.className = 'bloco';
+    let inner = `<div class="bloco-head">Situação-Problema — Questões ${startNum} a ${endNum}</div>
+      <div class="vinheta">${b.vinheta}</div>`;
+    b.perguntas.forEach((p)=>{
+      const myIdx = qIndex;
+      inner += `<div class="q-card" id="q-${myIdx}">
+        <div class="q-head"><span class="q-num">Questão ${myIdx+1}</span></div>
+        <p class="q-enun">${p.enunciado}</p>
+        <div class="opts">${renderOptions(questions[myIdx], myIdx)}</div>
+        <div class="comment" id="comment-${myIdx}"></div>
+      </div>`;
+      qIndex++;
+    });
+    blocoDiv.innerHTML = inner;
+    quiz.appendChild(blocoDiv);
+  });
+  if(quizData.avulsa){
+    const avIdx = qIndex;
+    const avDiv = document.createElement('div');
+    avDiv.className = 'bloco';
+    avDiv.innerHTML = `<div class="bloco-head">Questão avulsa — Questão ${avIdx+1}</div>
+      <div class="q-card" id="q-${avIdx}">
+        <div class="q-head"><span class="q-num">Questão ${avIdx+1}</span></div>
+        <p class="q-enun">${questions[avIdx].enunciado}</p>
+        <div class="opts">${renderOptions(questions[avIdx], avIdx)}</div>
+        <div class="comment" id="comment-${avIdx}"></div>
+      </div>`;
+    quiz.appendChild(avDiv);
+  }
+}
+
+function answer(i, letra){
+  if(answered[i] !== undefined) return;
+  answered[i] = letra;
+  const q = questions[i];
+  const card = document.getElementById('q-'+i);
+  const opts = card.querySelectorAll('.opt');
+  opts.forEach(o=>{
+    o.classList.add('locked');
+    if(o.dataset.l === q.correta) o.classList.add('correct');
+    else if(o.dataset.l === letra) o.classList.add('incorrect');
+  });
+  const isCorrect = letra === q.correta;
+  const commentEl = document.getElementById('comment-'+i);
+  commentEl.innerHTML = `<span class="feedback-tag ${isCorrect?'ok':'no'}">${isCorrect?'✓ Correto':'✗ Incorreto'}</span><br><b>Comentário:</b> ${q.comentario}`;
+  commentEl.classList.add('show');
+  updateProgress();
+}
+
+function updateProgress(){
+  const total = questions.length;
+  const done = Object.keys(answered).length;
+  const pct = total > 0 ? Math.round((done/total)*100) : 0;
+  document.getElementById('progress-bar-fill').style.width = pct+'%';
+  document.getElementById('progress-text').textContent = done+' / '+total;
+  const btn = document.getElementById('finish-btn');
+  if(total > 0 && done === total){
+    btn.disabled = false;
+    btn.textContent = 'Ver resultado final';
+  } else {
+    btn.disabled = true;
+    btn.textContent = `Responda todas as questões para ver o resultado (${done}/${total})`;
+  }
+}
+
+async function showSummary(){
+  const total = questions.length;
+  let correct = 0;
+  const wrong = [];
+  const answersDetail = [];
+  questions.forEach((q,i)=>{
+    const acertou = answered[i] === q.correta;
+    if(acertou) correct++;
+    else wrong.push({num:i+1, tema:q.tema});
+    answersDetail.push({num:i+1, tema:q.tema, tier:q.tier, correta:q.correta, escolhida:answered[i], acertou});
+  });
+  const pct = Math.round((correct/total)*100);
+  document.getElementById('score-circle').style.setProperty('--pct', pct);
+  document.getElementById('score-num').textContent = pct+'%';
+  document.getElementById('score-text').textContent = `${correct} de ${total} questões corretas`;
+
+  const summary = document.getElementById('summary');
+  summary.classList.add('show');
+
+  if(wrong.length === 0){
+    document.getElementById('perfect-block').style.display='block';
+    document.getElementById('wrong-block').style.display='none';
+  } else {
+    document.getElementById('wrong-block').style.display='block';
+    document.getElementById('perfect-block').style.display='none';
+    const ul = document.getElementById('wrong-list');
+    ul.innerHTML = '';
+    wrong.forEach(w=>{
+      const li = document.createElement('li');
+      li.textContent = `Questão ${w.num} — ${w.tema}`;
+      ul.appendChild(li);
+    });
+  }
+  summary.scrollIntoView({behavior:'smooth'});
+
+  await enviarResultado({
+    user: currentUser,
+    date: quizData.date,
+    total,
+    correct,
+    answers: answersDetail,
+  });
+}
+
+async function enviarResultado(payload){
+  const statusEl = document.getElementById('send-status');
+  statusEl.style.display = 'block';
+  statusEl.className = 'send-status sending';
+  statusEl.textContent = 'Enviando resultado...';
+  try{
+    const res = await fetch('/api/submit-result', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify(payload),
+    });
+    if(!res.ok) throw new Error('falha no envio');
+    statusEl.className = 'send-status ok';
+    statusEl.textContent = `Resultado registrado automaticamente para ${payload.user}. ✅`;
+  }catch(e){
+    statusEl.className = 'send-status err';
+    statusEl.textContent = 'Não foi possível registrar automaticamente o resultado. Verifique sua conexão e tente novamente mais tarde, ou avise a Claude no chat.';
+  }
+}
+
+(function init(){
+  const saved = localStorage.getItem('np_user');
+  if(saved === 'Vinicius' || saved === 'Leonardo'){
+    escolherUsuario(saved);
+  }
+})();
+</script>
+
+</body>
+</html>

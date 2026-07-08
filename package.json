@@ -1,0 +1,9 @@
+{
+  "name": "neuropediatria-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simulados diários de Pediatria + Saúde Coletiva (CEREM-BA/ABAEM) com registro individualizado de resultados",
+  "dependencies": {
+    "@netlify/blobs": "^8.2.0"
+  }
+}

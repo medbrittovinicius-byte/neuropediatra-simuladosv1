@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel de Fragilidades — Simulado Pediatria + Saúde Coletiva</title>
+<style>
+  :root{
+    --navy:#0f2c4c; --navy-dark:#0a1f36; --blue:#1c5a8f; --green:#1e8f5a; --green-bg:#e6f7ee;
+    --red:#c0392b; --red-bg:#fdecea; --amber:#b8860b; --amber-bg:#fdf3e0;
+    --bg:#f4f6f9; --card:#ffffff; --text:#1c2733; --muted:#5c6b7a; --border:#dde3ea;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--text); line-height:1.5;}
+  header{background:linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%); color:#fff; padding:26px 20px 20px; text-align:center; box-shadow:0 2px 10px rgba(0,0,0,.15);}
+  header h1{margin:0 0 6px; font-size:1.3rem;}
+  header p{margin:2px 0; color:#c9d6e3; font-size:.88rem;}
+  header a{color:#cfe0f2;}
+  main{max-width:960px; margin:0 auto; padding:24px 16px 60px;}
+  .grid{display:grid; grid-template-columns:1fr; gap:20px;}
+  @media(min-width:760px){ .grid{grid-template-columns:1fr 1fr;} }
+  .card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,.04);}
+  .card h2{margin:0 0 4px; color:var(--navy); font-size:1.1rem;}
+  .stat-row{display:flex; justify-content:space-between; gap:10px; margin:14px 0; flex-wrap:wrap;}
+  .stat{flex:1; min-width:100px; text-align:center; background:#f7f9fc; border-radius:10px; padding:10px 6px;}
+  .stat .num{font-size:1.4rem; font-weight:800; color:var(--navy);}
+  .stat .lbl{font-size:.72rem; color:var(--muted); text-transform:uppercase; letter-spacing:.03em;}
+  table{width:100%; border-collapse:collapse; margin-top:10px; font-size:.86rem;}
+  th, td{text-align:left; padding:7px 8px; border-bottom:1px solid var(--border);}
+  th{font-size:.72rem; text-transform:uppercase; color:var(--muted); letter-spacing:.03em;}
+  .tag{display:inline-block; padding:1px 8px; border-radius:10px; font-size:.72rem; font-weight:700;}
+  .tag.high{background:var(--red-bg); color:var(--red);}
+  .tag.mid{background:var(--amber-bg); color:var(--amber);}
+  .tag.low{background:var(--green-bg); color:var(--green);}
+  .tier-pill{font-size:.68rem; color:var(--muted); border:1px solid var(--border); border-radius:10px; padding:0 6px;}
+  .empty{color:var(--muted); font-size:.88rem; padding:14px 0; text-align:center;}
+  .hist{display:flex; gap:6px; flex-wrap:wrap; margin-top:10px;}
+  .hist-item{background:#f7f9fc; border:1px solid var(--border); border-radius:8px; padding:6px 9px; font-size:.78rem; text-align:center; min-width:64px;}
+  .hist-item .d{color:var(--muted); font-size:.66rem;}
+  .hist-item .p{font-weight:700; color:var(--navy);}
+  footer{text-align:center; padding:20px; color:var(--muted); font-size:.78rem;}
+  .refresh-note{text-align:center; font-size:.78rem; color:var(--muted); margin-top:-8px; margin-bottom:18px;}
+  .loading{text-align:center; padding:60px 20px; color:var(--muted);}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Painel de Fragilidades</h1>
+  <p>Ranking individual de temas com maior taxa de erro — Vinicius e Leonardo</p>
+  <p><a href="index.html">← voltar ao simulado</a></p>
+</header>
+
+<main>
+  <p class="refresh-note" id="refresh-note"></p>
+  <div id="loading" class="loading">Carregando dados...</div>
+  <div class="grid" id="grid" style="display:none;"></div>
+</main>
+
+<footer>Atualizado automaticamente a cada resultado enviado · Requer pelo menos 2 respostas no tema para entrar no ranking</footer>
+
+<script>
+function tagClass(taxa){
+  if(taxa >= 0.5) return 'high';
+  if(taxa >= 0.25) return 'mid';
+  return 'low';
+}
+
+function renderUserCard(nome, dados){
+  const card = document.createElement('div');
+  card.className = 'card';
+
+  let statsHtml = '';
+  if(dados.simulados === 0){
+    statsHtml = `<div class="empty">Nenhum simulado registrado ainda para ${nome}.</div>`;
+  } else {
+    statsHtml = `
+      <div class="stat-row">
+        <div class="stat"><div class="num">${dados.simulados}</div><div class="lbl">Simulados</div></div>
+        <div class="stat"><div class="num">${dados.totalQuestoes}</div><div class="lbl">Questões</div></div>
+        <div class="stat"><div class="num">${dados.percentualGeral ?? '—'}%</div><div class="lbl">Acerto geral</div></div>
+      </div>`;
+  }
+
+  let rankingHtml = '';
+  if(dados.rankingFragilidades && dados.rankingFragilidades.length > 0){
+    rankingHtml = `<table><thead><tr><th>Tema</th><th>Erros</th><th>Taxa</th></tr></thead><tbody>`;
+    dados.rankingFragilidades.slice(0, 10).forEach(t=>{
+      const pct = Math.round(t.taxaErro*100);
+      rankingHtml += `<tr>
+        <td>${t.tema} <span class="tier-pill">${t.tier}</span></td>
+        <td>${t.erros}/${t.total}</td>
+        <td><span class="tag ${tagClass(t.taxaErro)}">${pct}%</span></td>
+      </tr>`;
+    });
+    rankingHtml += `</tbody></table>`;
+  } else if(dados.simulados > 0){
+    rankingHtml = `<div class="empty">Ainda sem temas com dados suficientes (mínimo 2 respostas no tema).</div>`;
+  }
+
+  let histHtml = '';
+  if(dados.historico && dados.historico.length > 0){
+    histHtml = '<div class="hist">' + dados.historico.slice(-10).map(h=>
+      `<div class="hist-item"><div class="d">${h.date.slice(5)}</div><div class="p">${h.pct}%</div></div>`
+    ).join('') + '</div>';
+  }
+
+  card.innerHTML = `<h2>${nome}</h2>${statsHtml}${rankingHtml}${histHtml}`;
+  return card;
+}
+
+async function carregarPainel(){
+  try{
+    const res = await fetch('/api/stats', {cache:'no-store'});
+    if(!res.ok) throw new Error('erro ao buscar stats');
+    const data = await res.json();
+
+    document.getElementById('loading').style.display = 'none';
+    const grid = document.getElementById('grid');
+    grid.style.display = 'grid';
+    grid.innerHTML = '';
+    ['Vinicius', 'Leonardo'].forEach(nome=>{
+      const dados = data[nome] || {simulados:0, totalQuestoes:0, totalAcertos:0, percentualGeral:null, rankingFragilidades:[], historico:[]};
+      grid.appendChild(renderUserCard(nome, dados));
+    });
+    document.getElementById('refresh-note').textContent = 'Dados atualizados em ' + new Date().toLocaleString('pt-BR');
+  }catch(e){
+    document.getElementById('loading').textContent = 'Não foi possível carregar o painel agora. Tente novamente em instantes.';
+  }
+}
+
+carregarPainel();
+</script>
+
+</body>
+</html>
