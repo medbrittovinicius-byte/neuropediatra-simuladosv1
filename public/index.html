@@ -153,6 +153,23 @@ function loadProgress(){
     return raw ? JSON.parse(raw) : {};
   }catch(e){ return {}; }
 }
+async function fetchRemoteAttempt(date){
+  try{
+    const res = await fetch(`/api/get-attempt?user=${encodeURIComponent(currentUser)}&date=${encodeURIComponent(date)}`, {cache:'no-store'});
+    if(!res.ok) return null;
+    const data = await res.json();
+    if(!data.found || !data.record) return null;
+    const map = {};
+    (data.record.answers || []).forEach(a=>{
+      if(a.escolhida !== undefined && a.escolhida !== null){
+        map[a.num - 1] = a.escolhida;
+      }
+    });
+    return Object.keys(map).length ? map : null;
+  }catch(e){
+    return null;
+  }
+}
 
 function todayStr(){
   const d = new Date();
@@ -213,6 +230,14 @@ async function carregarSimulado(){
     document.getElementById('simulado-numero').textContent = numero ? `Simulado nº ${numero}` : date;
     montarQuestions();
     answered = loadProgress();
+    if(Object.keys(answered).length === 0){
+      const remote = await fetchRemoteAttempt(date);
+      if(remote){
+        answered = remote;
+        saveProgress();
+        try{ localStorage.setItem(submittedKey(), '1'); }catch(e){}
+      }
+    }
     render();
     Object.keys(answered).forEach(k=>{
       applyAnsweredUI(parseInt(k, 10), answered[k]);
