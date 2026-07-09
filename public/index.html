@@ -138,6 +138,22 @@ let quizData = null;
 let questions = [];
 let answered = {};
 
+function progressKey(){
+  return `np_progress_${quizData.date}_${currentUser}`;
+}
+function submittedKey(){
+  return `np_submitted_${quizData.date}_${currentUser}`;
+}
+function saveProgress(){
+  try{ localStorage.setItem(progressKey(), JSON.stringify(answered)); }catch(e){}
+}
+function loadProgress(){
+  try{
+    const raw = localStorage.getItem(progressKey());
+    return raw ? JSON.parse(raw) : {};
+  }catch(e){ return {}; }
+}
+
 function todayStr(){
   const d = new Date();
   const yyyy = d.getFullYear();
@@ -196,10 +212,20 @@ async function carregarSimulado(){
     document.getElementById('header-sub').textContent = numeroTxt;
     document.getElementById('simulado-numero').textContent = numero ? `Simulado nº ${numero}` : date;
     montarQuestions();
+    answered = loadProgress();
     render();
+    Object.keys(answered).forEach(k=>{
+      applyAnsweredUI(parseInt(k, 10), answered[k]);
+    });
     updateProgress();
     document.getElementById('progress-wrap').style.display = 'flex';
     document.getElementById('finish-bar').style.display = 'block';
+    const total = questions.length;
+    const done = Object.keys(answered).length;
+    const wasSubmitted = localStorage.getItem(submittedKey()) === '1';
+    if(total > 0 && done === total && wasSubmitted){
+      showSummary(true);
+    }
   }catch(e){
     document.getElementById('header-sub').textContent = '';
     const el = document.getElementById('load-error');
@@ -271,11 +297,10 @@ function render(){
   }
 }
 
-function answer(i, letra){
-  if(answered[i] !== undefined) return;
-  answered[i] = letra;
+function applyAnsweredUI(i, letra){
   const q = questions[i];
   const card = document.getElementById('q-'+i);
+  if(!card) return;
   const opts = card.querySelectorAll('.opt');
   opts.forEach(o=>{
     o.classList.add('locked');
@@ -286,6 +311,13 @@ function answer(i, letra){
   const commentEl = document.getElementById('comment-'+i);
   commentEl.innerHTML = `<span class="feedback-tag ${isCorrect?'ok':'no'}">${isCorrect?'✓ Correto':'✗ Incorreto'}</span><br><b>Comentário:</b> ${q.comentario}`;
   commentEl.classList.add('show');
+}
+
+function answer(i, letra){
+  if(answered[i] !== undefined) return;
+  answered[i] = letra;
+  applyAnsweredUI(i, letra);
+  saveProgress();
   updateProgress();
 }
 
@@ -305,7 +337,7 @@ function updateProgress(){
   }
 }
 
-async function showSummary(){
+async function showSummary(skipSubmit){
   const total = questions.length;
   let correct = 0;
   const wrong = [];
@@ -340,13 +372,20 @@ async function showSummary(){
   }
   summary.scrollIntoView({behavior:'smooth'});
 
-  await enviarResultado({
-    user: currentUser,
-    date: quizData.date,
-    total,
-    correct,
-    answers: answersDetail,
-  });
+  if(skipSubmit){
+    const statusEl = document.getElementById('send-status');
+    statusEl.style.display = 'block';
+    statusEl.className = 'send-status ok';
+    statusEl.textContent = `Resultado já havia sido registrado para ${currentUser}. ✅`;
+  } else {
+    await enviarResultado({
+      user: currentUser,
+      date: quizData.date,
+      total,
+      correct,
+      answers: answersDetail,
+    });
+  }
 }
 
 async function enviarResultado(payload){
@@ -363,6 +402,7 @@ async function enviarResultado(payload){
     if(!res.ok) throw new Error('falha no envio');
     statusEl.className = 'send-status ok';
     statusEl.textContent = `Resultado registrado automaticamente para ${payload.user}. ✅`;
+    try{ localStorage.setItem(submittedKey(), '1'); }catch(e){}
   }catch(e){
     statusEl.className = 'send-status err';
     statusEl.textContent = 'Não foi possível registrar automaticamente o resultado. Verifique sua conexão e tente novamente mais tarde, ou avise a Claude no chat.';
