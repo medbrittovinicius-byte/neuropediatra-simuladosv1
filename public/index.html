@@ -263,12 +263,12 @@ function montarQuestions(){
   questions = [];
   quizData.blocos.forEach(b=>{
     b.perguntas.forEach(p=>{
-      questions.push({tema:b.tema, tier:b.tier, enunciado:p.enunciado, alternativas:p.alternativas, correta:p.correta, comentario:p.comentario});
+      questions.push({tema:b.tema, tier:b.tier, enunciado:p.enunciado, alternativas:p.alternativas, correta:p.correta, comentario:p.comentario, dificuldade:p.dificuldade || null});
     });
   });
   if(quizData.avulsa){
     const av = quizData.avulsa;
-    questions.push({tema:av.tema, tier:av.tier, enunciado:av.enunciado, alternativas:av.alternativas, correta:av.correta, comentario:av.comentario, avulsa:true});
+    questions.push({tema:av.tema, tier:av.tier, enunciado:av.enunciado, alternativas:av.alternativas, correta:av.correta, comentario:av.comentario, dificuldade:av.dificuldade || null, avulsa:true});
   }
 }
 
@@ -371,7 +371,7 @@ async function showSummary(skipSubmit){
     const acertou = answered[i] === q.correta;
     if(acertou) correct++;
     else wrong.push({num:i+1, tema:q.tema});
-    answersDetail.push({num:i+1, tema:q.tema, tier:q.tier, correta:q.correta, escolhida:answered[i], acertou});
+    answersDetail.push({num:i+1, tema:q.tema, tier:q.tier, dificuldade:q.dificuldade || null, correta:q.correta, escolhida:answered[i], acertou});
   });
   const pct = Math.round((correct/total)*100);
   document.getElementById('score-circle').style.setProperty('--pct', pct);

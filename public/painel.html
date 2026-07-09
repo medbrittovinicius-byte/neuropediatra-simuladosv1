@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Painel de Fragilidades — Simulado Pediatria + Saúde Coletiva</title>
+<title>Painel de Fragilidades — Simulado Neurologia + Pediatria</title>
 <style>
   :root{
     --navy:#0f2c4c; --navy-dark:#0a1f36; --blue:#1c5a8f; --green:#1e8f5a; --green-bg:#e6f7ee;
@@ -19,8 +19,9 @@
   main{max-width:960px; margin:0 auto; padding:24px 16px 60px;}
   .grid{display:grid; grid-template-columns:1fr; gap:20px;}
   @media(min-width:760px){ .grid{grid-template-columns:1fr 1fr;} }
-  .card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,.04);}
+  .card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:20px; box-shadow:0 1px 3px rgba(0,0,0,.04); margin-bottom:20px;}
   .card h2{margin:0 0 4px; color:var(--navy); font-size:1.1rem;}
+  .card h3{margin:18px 0 6px; color:var(--navy); font-size:.92rem;}
   .stat-row{display:flex; justify-content:space-between; gap:10px; margin:14px 0; flex-wrap:wrap;}
   .stat{flex:1; min-width:100px; text-align:center; background:#f7f9fc; border-radius:10px; padding:10px 6px;}
   .stat .num{font-size:1.4rem; font-weight:800; color:var(--navy);}
@@ -32,6 +33,11 @@
   .tag.high{background:var(--red-bg); color:var(--red);}
   .tag.mid{background:var(--amber-bg); color:var(--amber);}
   .tag.low{background:var(--green-bg); color:var(--green);}
+  .dif-pill{display:inline-block; padding:1px 8px; border-radius:10px; font-size:.7rem; font-weight:700; text-transform:capitalize;}
+  .dif-pill.facil{background:var(--green-bg); color:var(--green);}
+  .dif-pill.moderada{background:var(--amber-bg); color:var(--amber);}
+  .dif-pill.dificil{background:var(--red-bg); color:var(--red);}
+  .dif-pill.desconhecida{background:#eef2f7; color:var(--muted);}
   .tier-pill{font-size:.68rem; color:var(--muted); border:1px solid var(--border); border-radius:10px; padding:0 6px;}
   .empty{color:var(--muted); font-size:.88rem; padding:14px 0; text-align:center;}
   .hist{display:flex; gap:6px; flex-wrap:wrap; margin-top:10px;}
@@ -41,14 +47,34 @@
   footer{text-align:center; padding:20px; color:var(--muted); font-size:.78rem;}
   .refresh-note{text-align:center; font-size:.78rem; color:var(--muted); margin-top:-8px; margin-bottom:18px;}
   .loading{text-align:center; padding:60px 20px; color:var(--muted);}
+  .evo-svg{width:100%; height:110px; display:block; margin-top:8px;}
+  .evo-svg .line{fill:none; stroke:var(--blue); stroke-width:2;}
+  .evo-svg .pt{fill:var(--navy);}
+  .evo-svg .lbl{font-size:9px; fill:var(--muted);}
+  .evo-svg .val{font-size:9px; fill:var(--navy); font-weight:700;}
+  details.err-group{border:1px solid var(--border); border-radius:10px; margin-top:10px; overflow:hidden;}
+  details.err-group summary{cursor:pointer; padding:10px 14px; background:#f7f9fc; font-size:.86rem; font-weight:700; color:var(--navy); list-style:none;}
+  details.err-group summary::-webkit-details-marker{display:none;}
+  details.err-group summary:before{content:'▸ '; color:var(--blue);}
+  details.err-group[open] summary:before{content:'▾ '; }
+  .err-q{padding:12px 16px; border-top:1px solid var(--border);}
+  .err-q + .err-q{border-top:1px dashed var(--border);}
+  .err-q .enun{font-size:.9rem; margin:0 0 8px;}
+  .err-q .alt{display:flex; gap:8px; align-items:baseline; padding:3px 0; font-size:.84rem;}
+  .err-q .alt .l{font-weight:700; min-width:16px;}
+  .err-q .alt.correct{color:var(--green);}
+  .err-q .alt.wrong{color:var(--red); text-decoration:line-through;}
+  .err-q .comment{margin-top:8px; padding:10px 12px; background:#f7f9fc; border-left:3px solid var(--blue); border-radius:6px; font-size:.83rem;}
+  .err-q .meta{font-size:.72rem; color:var(--muted); margin-top:6px;}
+  .btn-mini{background:none; border:1px solid var(--blue); color:var(--blue); border-radius:6px; padding:3px 10px; font-size:.76rem; cursor:pointer; margin-left:6px;}
 </style>
 </head>
 <body>
 
 <header>
   <h1>Painel de Fragilidades</h1>
-  <p>Ranking individual de temas com maior taxa de erro — Vinicius e Leonardo</p>
-  <p><a href="index.html">← voltar ao simulado</a></p>
+  <p>Ranking, evolução e revisão individual de erros — Vinicius e Leonardo</p>
+  <p><a href="index.html">← voltar ao simulado</a> · <a href="historico.html">simulados anteriores</a></p>
 </header>
 
 <main>
@@ -57,13 +83,149 @@
   <div class="grid" id="grid" style="display:none;"></div>
 </main>
 
-<footer>Atualizado automaticamente a cada resultado enviado · Requer pelo menos 2 respostas no tema para entrar no ranking</footer>
+<footer>Atualizado automaticamente a cada resultado enviado · Ranking de temas requer pelo menos 2 respostas no tema · Dificuldade disponível a partir dos simulados de 10/07/2026</footer>
 
 <script>
+const quizCache = {};
+
 function tagClass(taxa){
   if(taxa >= 0.5) return 'high';
   if(taxa >= 0.25) return 'mid';
   return 'low';
+}
+
+async function getQuiz(date){
+  if(quizCache[date]) return quizCache[date];
+  try{
+    const res = await fetch(`quizzes/${date}.json`, {cache:'no-store'});
+    if(!res.ok) return null;
+    const data = await res.json();
+    const flat = [];
+    (data.blocos || []).forEach(b=>{
+      (b.perguntas || []).forEach(p=>{
+        flat.push({enunciado:p.enunciado, alternativas:p.alternativas, correta:p.correta, comentario:p.comentario});
+      });
+    });
+    if(data.avulsa){
+      flat.push({enunciado:data.avulsa.enunciado, alternativas:data.avulsa.alternativas, correta:data.avulsa.correta, comentario:data.avulsa.comentario});
+    }
+    quizCache[date] = flat;
+    return flat;
+  }catch(e){
+    return null;
+  }
+}
+
+function renderEvolucao(historico){
+  if(!historico || historico.length === 0) return '';
+  const pontos = historico.slice(-14); // ultimos 14 simulados
+  const w = 600, h = 90, padX = 10, padY = 14;
+  const n = pontos.length;
+  const stepX = n > 1 ? (w - padX*2) / (n-1) : 0;
+  const scaleY = (pct)=> h - padY - ((pct ?? 0)/100)*(h - padY*2);
+
+  let path = '';
+  let dots = '';
+  let labels = '';
+  pontos.forEach((p, i)=>{
+    const x = padX + i*stepX;
+    const y = scaleY(p.pct);
+    path += (i===0 ? 'M' : 'L') + x.toFixed(1) + ',' + y.toFixed(1) + ' ';
+    dots += `<circle class="pt" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="2.6"></circle>`;
+    labels += `<text class="val" x="${x.toFixed(1)}" y="${(y-6).toFixed(1)}" text-anchor="middle">${p.pct ?? '-'}%</text>`;
+    if(i === 0 || i === n-1 || n <= 6 || i % Math.ceil(n/6) === 0){
+      labels += `<text class="lbl" x="${x.toFixed(1)}" y="${h-2}" text-anchor="middle">${p.date.slice(5)}</text>`;
+    }
+  });
+
+  return `
+    <h3>Evolução do desempenho (últimos ${n} simulados)</h3>
+    <svg class="evo-svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet">
+      <path class="line" d="${path.trim()}"></path>
+      ${dots}
+      ${labels}
+    </svg>`;
+}
+
+function renderDificuldade(ranking){
+  if(!ranking || ranking.length === 0) return '';
+  const rows = ranking.filter(r=>r.total > 0).map(r=>{
+    const pct = Math.round(r.taxaErro*100);
+    const label = r.dificuldade === 'desconhecida' ? 'Sem dado (antes de 10/07)' : r.dificuldade;
+    return `<tr>
+      <td><span class="dif-pill ${r.dificuldade}">${label}</span></td>
+      <td>${r.erros}/${r.total}</td>
+      <td><span class="tag ${tagClass(r.taxaErro)}">${pct}%</span></td>
+    </tr>`;
+  }).join('');
+  if(!rows) return '';
+  return `
+    <h3>Acerto por dificuldade</h3>
+    <table><thead><tr><th>Dificuldade</th><th>Erros</th><th>Taxa de erro</th></tr></thead>
+    <tbody>${rows}</tbody></table>`;
+}
+
+async function renderErrosDetalhados(container, erros){
+  if(!erros || erros.length === 0){
+    container.innerHTML = '<div class="empty">Nenhum erro registrado ainda — ou zero erros até agora. 🎉</div>';
+    return;
+  }
+  const porData = {};
+  erros.forEach(e=>{
+    if(!porData[e.date]) porData[e.date] = [];
+    porData[e.date].push(e);
+  });
+  const datasOrdenadas = Object.keys(porData).sort().reverse();
+
+  for(const date of datasOrdenadas){
+    const lista = porData[date];
+    const det = document.createElement('details');
+    det.className = 'err-group';
+    const summary = document.createElement('summary');
+    summary.textContent = `${date} — ${lista.length} questão(ões) errada(s)`;
+    det.appendChild(summary);
+
+    const body = document.createElement('div');
+    body.innerHTML = '<div class="empty">Carregando questões...</div>';
+    det.appendChild(body);
+    container.appendChild(det);
+
+    det.addEventListener('toggle', async function onToggle(){
+      if(!det.open || det.dataset.loaded) return;
+      det.dataset.loaded = '1';
+      const flat = await getQuiz(date);
+      if(!flat){
+        body.innerHTML = '<div class="empty">Não foi possível carregar as questões desse simulado.</div>';
+        return;
+      }
+      body.innerHTML = '';
+      lista.sort((a,b)=>a.num-b.num).forEach(e=>{
+        const q = flat[e.num - 1];
+        const wrap = document.createElement('div');
+        wrap.className = 'err-q';
+        if(!q){
+          wrap.innerHTML = `<div class="meta">Questão ${e.num} — dados indisponíveis.</div>`;
+          body.appendChild(wrap);
+          return;
+        }
+        let altsHtml = '';
+        ['a','b','c','d'].forEach(l=>{
+          let cls = '';
+          if(l === q.correta) cls = 'correct';
+          else if(l === e.escolhida) cls = 'wrong';
+          altsHtml += `<div class="alt ${cls}"><span class="l">${l.toUpperCase()})</span><span>${q.alternativas[l]}</span></div>`;
+        });
+        const difBadge = e.dificuldade ? `<span class="dif-pill ${e.dificuldade}">${e.dificuldade}</span>` : '';
+        wrap.innerHTML = `
+          <div class="meta">Questão ${e.num} · ${e.tema} <span class="tier-pill">${e.tier}</span> ${difBadge}</div>
+          <p class="enun">${q.enunciado}</p>
+          ${altsHtml}
+          <div class="comment"><b>Comentário:</b> ${q.comentario}</div>
+        `;
+        body.appendChild(wrap);
+      });
+    });
+  }
 }
 
 function renderUserCard(nome, dados){
@@ -84,7 +246,7 @@ function renderUserCard(nome, dados){
 
   let rankingHtml = '';
   if(dados.rankingFragilidades && dados.rankingFragilidades.length > 0){
-    rankingHtml = `<table><thead><tr><th>Tema</th><th>Erros</th><th>Taxa</th></tr></thead><tbody>`;
+    rankingHtml = `<h3>Temas mais fracos</h3><table><thead><tr><th>Tema</th><th>Erros</th><th>Taxa</th></tr></thead><tbody>`;
     dados.rankingFragilidades.slice(0, 10).forEach(t=>{
       const pct = Math.round(t.taxaErro*100);
       rankingHtml += `<tr>
@@ -98,14 +260,18 @@ function renderUserCard(nome, dados){
     rankingHtml = `<div class="empty">Ainda sem temas com dados suficientes (mínimo 2 respostas no tema).</div>`;
   }
 
-  let histHtml = '';
-  if(dados.historico && dados.historico.length > 0){
-    histHtml = '<div class="hist">' + dados.historico.slice(-10).map(h=>
-      `<div class="hist-item"><div class="d">${h.date.slice(5)}</div><div class="p">${h.pct}%</div></div>`
-    ).join('') + '</div>';
-  }
+  const evoHtml = renderEvolucao(dados.historico);
+  const difHtml = renderDificuldade(dados.rankingDificuldade);
 
-  card.innerHTML = `<h2>${nome}</h2>${statsHtml}${rankingHtml}${histHtml}`;
+  card.innerHTML = `<h2>${nome}</h2>${statsHtml}${rankingHtml}${evoHtml}${difHtml}`;
+
+  const errosSection = document.createElement('div');
+  errosSection.innerHTML = '<h3>Questões erradas (para revisar)</h3>';
+  const errosContainer = document.createElement('div');
+  errosSection.appendChild(errosContainer);
+  card.appendChild(errosSection);
+  renderErrosDetalhados(errosContainer, dados.errosDetalhados);
+
   return card;
 }
 
@@ -120,7 +286,7 @@ async function carregarPainel(){
     grid.style.display = 'grid';
     grid.innerHTML = '';
     ['Vinicius', 'Leonardo'].forEach(nome=>{
-      const dados = data[nome] || {simulados:0, totalQuestoes:0, totalAcertos:0, percentualGeral:null, rankingFragilidades:[], historico:[]};
+      const dados = data[nome] || {simulados:0, totalQuestoes:0, totalAcertos:0, percentualGeral:null, rankingFragilidades:[], rankingDificuldade:[], errosDetalhados:[], historico:[]};
       grid.appendChild(renderUserCard(nome, dados));
     });
     document.getElementById('refresh-note').textContent = 'Dados atualizados em ' + new Date().toLocaleString('pt-BR');
