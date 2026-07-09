@@ -1,0 +1,606 @@
+{
+  "date": "2026-07-09",
+  "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+  "blocos": [
+    {
+      "tema": "Neurologia — AVC (hemorragia pós-trombólise)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Paciente de 68 anos, hipertenso, foi admitido com quadro de AVC isquêmico de artéria cerebral média esquerda há 3 horas, dentro da janela terapêutica, sendo submetido à trombólise endovenosa com alteplase. Duas horas após o início da infusão, evolui com rebaixamento do nível de consciência e nova hemiparesia à direita mais intensa. Tomografia de crânio de controle evidencia hemorragia intraparenquimatosa de 35 mL com efeito de massa, em paciente previamente independente para atividades da vida diária.",
+      "perguntas": [
+        {
+          "enunciado": "Diante da evolução clínica e do achado tomográfico, qual complicação ocorreu e qual seu mecanismo?",
+          "alternativas": {
+            "a": "Transformação hemorrágica pós-trombólise, por consumo de fatores de coagulação e fibrinogênio induzido pelo ativador do plasminogênio tecidual",
+            "b": "Ressangramento de aneurisma cerebral não diagnosticado previamente, sem relação com a trombólise",
+            "c": "Hematoma subdural agudo por trauma cranioencefálico não relatado",
+            "d": "Transformação hemorrágica decorrente exclusivamente de hipertensão arterial não controlada, sem relação com o uso de alteplase"
+          },
+          "correta": "a",
+          "comentario": "A alteplase degrada fibrinogênio e fatores de coagulação, aumentando o risco de sangramento — mecanismo direto da transformação hemorrágica pós-trombólise. Ressangramento de aneurisma não diagnosticado e trauma não relatado são hipóteses sem base no caso; hipertensão não controlada é fator de risco associado, mas não o mecanismo direto testado aqui."
+        },
+        {
+          "enunciado": "Qual a conduta imediata mais adequada e o parâmetro laboratorial utilizado para guiar a reposição?",
+          "alternativas": {
+            "a": "Reposição com crioprecipitado, com meta de fibrinogênio sérico ≥ 150 mg/dL",
+            "b": "Reposição com plasma fresco congelado isoladamente, sem meta laboratorial definida",
+            "c": "Reversão com vitamina K endovenosa, por mecanismo semelhante ao dos anticoagulantes antagonistas da vitamina K",
+            "d": "Protamina endovenosa, por analogia ao antídoto da heparina"
+          },
+          "correta": "a",
+          "comentario": "A reposição de fibrinogênio com crioprecipitado, com meta de fibrinogênio sérico ≥ 150 mg/dL, é a conduta indicada na hemorragia pós-alteplase. Vitamina K e protamina são antídotos específicos de outras classes de anticoagulantes, não da trombólise com alteplase; plasma fresco isolado sem meta definida não é a conduta padronizada."
+        },
+        {
+          "enunciado": "Considerando o volume da hemorragia e o estado funcional prévio do paciente, qual a conduta mais adequada?",
+          "alternativas": {
+            "a": "Correção cirúrgica indicada, pelo volume da hemorragia (> 30 mL) associado a efeito de massa em paciente previamente funcional",
+            "b": "Conduta exclusivamente conservadora em qualquer volume de hemorragia intraparenquimatosa pós-trombólise, pelo alto risco cirúrgico",
+            "c": "Craniectomia descompressiva contraindicada em hemorragias supratentoriais, independentemente do volume",
+            "d": "Indicação cirúrgica reservada apenas a hemorragias de fossa posterior, nunca a hemorragias supratentoriais"
+          },
+          "correta": "a",
+          "comentario": "Hemorragia intraparenquimatosa > 30 mL com efeito de massa em paciente previamente independente é indicação cirúrgica reconhecida. A conduta conservadora universal e a contraindicação cirúrgica absoluta em hemorragias supratentoriais não correspondem à prática — cirurgia também pode ser indicada nessa topografia conforme volume e repercussão."
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroinfecção (meningite bacteriana)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Adolescente de 15 anos é levado ao pronto-socorro com febre alta, cefaleia intensa, rigidez de nuca e exantema petequial disseminado, evoluindo em poucas horas para hipotensão e extremidades frias. Punção lombar, realizada após avaliação de sinais de hipertensão intracraniana (ausentes), revela líquor turvo, com Gram evidenciando diplococos gram-negativos intracelulares.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico mais provável e o agente etiológico sugerido pelo Gram?",
+          "alternativas": {
+            "a": "Meningite por Neisseria meningitidis (meningococo), diplococos gram-negativos",
+            "b": "Meningite por Streptococcus pneumoniae, diplococos gram-positivos",
+            "c": "Meningite viral por enterovírus, com predomínio linfomonocitário no líquor",
+            "d": "Meningite por Haemophilus influenzae tipo b, bacilos gram-negativos"
+          },
+          "correta": "a",
+          "comentario": "Diplococos gram-negativos ao Gram são característicos de Neisseria meningitidis, coerente com o exantema petequial e a evolução para choque. Pneumococo é gram-positivo; enterovírus não seria visto ao Gram e cursaria com líquor claro; Haemophilus são bacilos, não diplococos."
+        },
+        {
+          "enunciado": "Qual a conduta imediata mais adequada, segundo o protocolo do Ministério da Saúde?",
+          "alternativas": {
+            "a": "Antibioticoterapia empírica endovenosa imediata, sem aguardar resultado de cultura, associada a suporte hemodinâmico",
+            "b": "Aguardar confirmação por cultura e antibiograma antes de iniciar antibiótico, para direcionar a terapia",
+            "c": "Corticoide isolado como primeira conduta, postergando o antibiótico até estabilização hemodinâmica",
+            "d": "Tratamento ambulatorial com antibiótico oral, dado o diagnóstico já sugerido pelo Gram"
+          },
+          "correta": "a",
+          "comentario": "Diante de meningite bacteriana com sinais de choque, a antibioticoterapia empírica deve ser iniciada imediatamente, sem aguardar confirmação por cultura, associada a suporte hemodinâmico agressivo — retardar o antibiótico aumenta significativamente a mortalidade."
+        },
+        {
+          "enunciado": "Em relação à complicação presente e à conduta de vigilância epidemiológica, é correto afirmar:",
+          "alternativas": {
+            "a": "O quadro é compatível com coagulação intravascular disseminada (púrpura fulminante), exigindo suporte intensivo, notificação compulsória imediata e quimioprofilaxia dos contactantes próximos",
+            "b": "O quadro é compatível com síndrome hemolítico-urêmica, sem necessidade de notificação compulsória",
+            "c": "O quadro é compatível com choque anafilático, sendo a adrenalina intramuscular a conduta prioritária",
+            "d": "A notificação compulsória é facultativa, a critério da equipe assistente, sem prazo definido"
+          },
+          "correta": "a",
+          "comentario": "Exantema petequial evoluindo para choque em doença meningocócica é compatível com CIVD/púrpura fulminante (Waterhouse-Friderichsen). A doença meningocócica é de notificação compulsória imediata, com quimioprofilaxia indicada aos contactantes próximos — não é facultativa nem dispensável."
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Cefaleias (cefaleia em salvas)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 34 anos relata episódios de dor orbitária unilateral direita, de forte intensidade, com duração de 20 a 40 minutos, ocorrendo até quatro vezes ao dia há duas semanas, com predomínio nos horários noturnos. Durante as crises, apresenta lacrimejamento e congestão nasal ipsilaterais, além de agitação psicomotora. Refere piora dos episódios após consumo de bebida alcoólica.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Cefaleia em salvas (cluster), pela dor orbitária unilateral intensa, curta duração, sintomas autonômicos ipsilaterais e padrão cronológico característico",
+            "b": "Enxaqueca sem aura, pela unilateralidade e intensidade da dor",
+            "c": "Neuralgia do trigêmeo, pela distribuição unilateral da dor facial",
+            "d": "Cefaleia em trovoada por hemorragia subaracnóidea, pela intensidade súbita da dor"
+          },
+          "correta": "a",
+          "comentario": "A tríade de dor orbitária unilateral intensa e breve, sintomas autonômicos ipsilaterais (lacrimejamento, congestão nasal) e periodicidade em salvas é característica da cefaleia em salvas. Enxaqueca tem duração mais longa (4-72h) e não tem esse padrão autonômico proeminente; neuralgia do trigêmeo tem dor em choque, não em crises prolongadas; a cefaleia em trovoada da HSA é de início súbito e não recorrente nesse padrão."
+        },
+        {
+          "enunciado": "Qual o tratamento agudo mais adequado para essa crise?",
+          "alternativas": {
+            "a": "Sumatriptano por via subcutânea",
+            "b": "Paracetamol oral em dose única",
+            "c": "Amitriptilina oral, como primeira escolha para crise aguda",
+            "d": "Ibuprofeno oral associado a repouso em ambiente escuro"
+          },
+          "correta": "a",
+          "comentario": "O sumatriptano subcutâneo é o tratamento agudo de escolha na cefaleia em salvas, pela rapidez de ação necessária diante de crises curtas e intensas. Analgésicos orais comuns são pouco eficazes pela curta duração da crise; amitriptilina é medicação profilática, não de crise aguda."
+        },
+        {
+          "enunciado": "Em relação à profilaxia e aos fatores desencadeantes, é correto afirmar:",
+          "alternativas": {
+            "a": "Verapamil é a profilaxia de primeira escolha, com orientação para evitar álcool durante o período de salva",
+            "b": "Topiramato é a profilaxia de primeira escolha, sem restrição alimentar necessária",
+            "c": "Não há indicação de profilaxia medicamentosa para cefaleia em salvas, apenas tratamento sintomático",
+            "d": "Betabloqueador é a profilaxia de primeira escolha, no mesmo esquema usado na enxaqueca"
+          },
+          "correta": "a",
+          "comentario": "Verapamil é a profilaxia de primeira escolha na cefaleia em salvas, e o álcool é gatilho reconhecido durante o período ativo, devendo ser evitado. Topiramato e betabloqueador não são primeira linha nesse contexto, e a profilaxia medicamentosa é sim indicada, especialmente em salvas frequentes."
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Epilepsia (crise focal temporal mesial)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 26 anos é trazida por episódios recorrentes, há 8 meses, caracterizados por sensação súbita de medo intenso e déjà vu, seguidos de olhar fixo, automatismos de lambedura labial e movimentos das mãos, com duração de cerca de 1 a 2 minutos, e período de confusão mental após os episódios. Não perde o tônus postural nem apresenta abalos generalizados.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico e a topografia mais provável dessas crises?",
+          "alternativas": {
+            "a": "Crise de início focal, com origem em lobo temporal mesial/hipocampo",
+            "b": "Crise de ausência típica, de origem generalizada",
+            "c": "Crise focal de origem occipital, pela semiologia visual predominante",
+            "d": "Síncope convulsiva, de origem cardiogênica"
+          },
+          "correta": "a",
+          "comentario": "Automatismos oroalimentares, déjà vu e confusão pós-ictal são característicos de crise focal do lobo temporal mesial/hipocampo. Crise de ausência não tem automatismos complexos nem confusão pós-ictal prolongada; a semiologia não é predominantemente visual (occipital); síncope não cursa com automatismos oroalimentares nem déjà vu ictal."
+        },
+        {
+          "enunciado": "Em relação à classificação do déjà vu relatado, é correto afirmar:",
+          "alternativas": {
+            "a": "O déjà vu constitui aura, ou seja, já é o início ictal da crise focal com consciência preservada nesse momento, não um pródromo pré-ictal",
+            "b": "O déjà vu constitui pródromo, fenômeno pré-ictal que antecede em horas o início da crise",
+            "c": "O déjà vu constitui fenômeno pós-ictal, decorrente da confusão mental após a crise",
+            "d": "O déjà vu não tem relação com atividade epiléptica, sendo achado psiquiátrico isolado nesse contexto"
+          },
+          "correta": "a",
+          "comentario": "A aura é, por definição, já o início ictal de uma crise focal com consciência preservada — o déjà vu, nesse contexto, não é pródromo (que precederia horas antes) nem fenômeno pós-ictal, mas parte inicial da própria crise."
+        },
+        {
+          "enunciado": "Qual o fármaco de primeira linha mais adequado para esse tipo de crise?",
+          "alternativas": {
+            "a": "Carbamazepina, fármaco de escolha para crises focais",
+            "b": "Etossuximida, fármaco de escolha para esse tipo de crise com automatismos",
+            "c": "Fenobarbital, fármaco de primeira linha em adultos com crise focal de início recente",
+            "d": "Clonazepam, fármaco de primeira linha para manutenção em crises focais recorrentes"
+          },
+          "correta": "a",
+          "comentario": "Carbamazepina é classicamente fármaco de primeira linha para crises de início focal. Etossuximida é específica para crises de ausência, não crises focais; fenobarbital e clonazepam não são primeira linha para manutenção nesse contexto, pelo perfil de efeitos adversos e indicações mais restritas."
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Miastenia Gravis (crise miastênica)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 45 anos, com diagnóstico prévio de miastenia gravis em uso de piridostigmina e prednisona, é internada por infecção do trato urinário, sendo prescrito ciprofloxacino. Nas 48 horas seguintes, evolui com fraqueza progressiva, disfagia, uso de musculatura acessória respiratória e gasometria arterial evidenciando PaCO2 de 52 mmHg.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico mais provável e o mecanismo relacionado ao fármaco prescrito?",
+          "alternativas": {
+            "a": "Crise miastênica precipitada pelo ciprofloxacino, que interfere na transmissão neuromuscular, agravando a fraqueza",
+            "b": "Crise colinérgica por excesso de piridostigmina, sem relação com o antibiótico prescrito",
+            "c": "Pneumonia aspirativa isolada, sem relação com a miastenia de base",
+            "d": "Síndrome de Guillain-Barré desencadeada pela infecção urinária"
+          },
+          "correta": "a",
+          "comentario": "Fluoroquinolonas (como o ciprofloxacino) são fármacos reconhecidamente precipitantes de crise miastênica, por interferência na transmissão neuromuscular. Não há dados sugestivos de crise colinérgica (que cursaria com sinais muscarínicos exuberantes); o quadro é compatível com piora miastênica, não com Guillain-Barré (que teria outro padrão evolutivo e liquórico)."
+        },
+        {
+          "enunciado": "Qual o manejo inicial mais adequado diante da insuficiência respiratória hipercápnica instalada?",
+          "alternativas": {
+            "a": "Plasmaférese ou imunoglobulina humana endovenosa, com suporte ventilatório conforme necessidade",
+            "b": "Aumento isolado da dose de piridostigmina, sem outra intervenção",
+            "c": "Aumento isolado da dose de prednisona, sem necessidade de suporte respiratório",
+            "d": "Observação clínica sem intervenção medicamentosa adicional, aguardando resolução espontânea"
+          },
+          "correta": "a",
+          "comentario": "Na crise miastênica com comprometimento respiratório, o manejo é plasmaférese ou imunoglobulina endovenosa associadas a suporte ventilatório conforme a gravidade — apenas aumentar piridostigmina pode inclusive precipitar crise colinérgica e não trata a crise miastênica estabelecida com insuficiência respiratória."
+        },
+        {
+          "enunciado": "Em relação à conduta pós-crise e à prevenção de novos episódios, é correto afirmar:",
+          "alternativas": {
+            "a": "Deve-se considerar introdução de imunossupressor poupador de corticoide (como azatioprina) e orientar a evitar fluoroquinolonas e aminoglicosídeos no futuro",
+            "b": "Deve-se suspender definitivamente a piridostigmina, substituindo por corticoide isolado em altas doses",
+            "c": "Deve-se indicar timectomia de urgência ainda durante a crise aguda, antes de qualquer estabilização",
+            "d": "Não há necessidade de qualquer ajuste terapêutico após resolução da crise"
+          },
+          "correta": "a",
+          "comentario": "Após a crise, deve-se otimizar o tratamento de manutenção (incluindo poupadores de corticoide) e orientar sobre fármacos precipitantes a serem evitados (aminoglicosídeos, fluoroquinolonas, macrolídeos, entre outros). Timectomia é procedimento eletivo, não de urgência durante a crise; suspender a piridostigmina não é indicado nesse contexto."
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Transtornos do Movimento (parkinsonismo farmacológico)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 58 anos apresenta bradicinesia, rigidez em roda denteada e tremor de repouso bilateral, de início há 3 meses, coincidindo com o uso frequente de metoclopramida para tratamento de dispepsia. Nega manifestações não motoras como hiposmia, constipação ou distúrbio comportamental do sono REM.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico mais provável e seu mecanismo?",
+          "alternativas": {
+            "a": "Parkinsonismo farmacológico induzido pela metoclopramida, por bloqueio de receptores dopaminérgicos D2",
+            "b": "Doença de Parkinson idiopática, por deposição de alfa-sinucleína em neurônios da substância negra",
+            "c": "Degeneração corticobasal, por acometimento cortical assimétrico",
+            "d": "Tremor essencial, por disfunção do circuito cerebelo-tálamo-cortical"
+          },
+          "correta": "a",
+          "comentario": "O uso recente e frequente de metoclopramida (antagonista D2) associado a parkinsonismo bilateral de início relativamente agudo, sem manifestações não motoras prodrômicas (hiposmia, constipação, distúrbio de sono REM), sugere parkinsonismo farmacológico, e não doença de Parkinson idiopática, cujo mecanismo é degenerativo (alfa-sinucleína) e de instalação insidiosa com pródromos não motores."
+        },
+        {
+          "enunciado": "Qual exame permite diferenciar essa condição da doença de Parkinson idiopática?",
+          "alternativas": {
+            "a": "Cintilografia com transportador de dopamina (DAT-scan), tipicamente normal no parkinsonismo farmacológico e alterada na doença de Parkinson idiopática",
+            "b": "Ressonância magnética de crânio, capaz de diferenciar diretamente as duas condições pela presença de atrofia da substância negra",
+            "c": "Eletroencefalograma, com padrão específico para cada uma das condições",
+            "d": "Dosagem sérica de ceruloplasmina, para diferenciar de doença de Wilson"
+          },
+          "correta": "a",
+          "comentario": "O DAT-scan avalia a integridade da via dopaminérgica nigroestriatal: é normal no parkinsonismo farmacológico (mecanismo pós-sináptico, por bloqueio de receptor) e alterado na doença de Parkinson idiopática (degeneração pré-sináptica). RM de crânio não diferencia diretamente essas condições na prática clínica de rotina; ceruloplasmina é para investigar doença de Wilson, não é o diferencial em questão aqui."
+        },
+        {
+          "enunciado": "Qual a conduta mais adequada diante do diagnóstico de parkinsonismo farmacológico?",
+          "alternativas": {
+            "a": "Suspender a metoclopramida, sem necessidade de iniciar levodopa nesse momento, com reavaliação da evolução",
+            "b": "Iniciar levodopa imediatamente, independentemente da suspensão do fármaco causador",
+            "c": "Indicar estimulação cerebral profunda como conduta inicial",
+            "d": "Manter a metoclopramida e apenas associar anticolinérgico para controle sintomático"
+          },
+          "correta": "a",
+          "comentario": "A conduta correta é suspender o fármaco causador, já que o quadro tende a resolver (podendo levar semanas a meses) sem necessidade de levodopa ou intervenções mais invasivas como DBS, reservadas à doença de Parkinson idiopática refratária."
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroimunologia (encefalite lúpica)",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 24 anos, previamente hígida, é internada por primeira crise convulsiva tônico-clônica, precedida por duas semanas de alteração do comportamento, alucinações visuais e labilidade emocional. Exames laboratoriais mostram consumo de complemento (C3 e C4 reduzidos). Líquor com pleocitose linfocitária discreta, e ressonância magnética de encéfalo com hipersinal em T2/FLAIR em lobos temporais, sem realce após contraste.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro clínico e laboratorial, qual o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Encefalite lúpica, sugerida pelo consumo de complemento associado ao quadro neuropsiquiátrico",
+            "b": "Encefalite anti-receptor NMDA, pelo quadro isolado de alteração comportamental e crise convulsiva",
+            "c": "Encefalite herpética, pela topografia temporal do hipersinal em T2/FLAIR",
+            "d": "Vasculite primária do sistema nervoso central, pelo quadro neuropsiquiátrico subagudo"
+          },
+          "correta": "a",
+          "comentario": "O consumo de complemento (C3/C4 baixos) é a pista que direciona para atividade lúpica sistêmica com acometimento neuropsiquiátrico (encefalite lúpica), achado não esperado na encefalite anti-NMDA. A encefalite herpética tipicamente cursa com quadro mais agudo/grave, muitas vezes com necrose e realce temporal mais exuberante; vasculite primária do SNC não explica o consumo de complemento."
+        },
+        {
+          "enunciado": "Qual o mecanismo fisiopatológico envolvido nesse quadro?",
+          "alternativas": {
+            "a": "Autoanticorpos que atravessam a barreira hematoencefálica e causam disfunção neuronal, no contexto de atividade lúpica sistêmica",
+            "b": "Infecção direta do parênquima cerebral pelo vírus herpes simples tipo 1",
+            "c": "Desmielinização mediada por linfócitos T específicos contra proteína básica da mielina",
+            "d": "Depósito de proteína beta-amiloide em vasos corticais"
+          },
+          "correta": "a",
+          "comentario": "Na encefalite lúpica, autoanticorpos (e outros mediadores imunes) atravessam a barreira hematoencefálica e promovem disfunção neuronal, no contexto de doença sistêmica ativa — mecanismo distinto de infecção viral direta, desmielinização primária ou angiopatia amiloide."
+        },
+        {
+          "enunciado": "Qual o tratamento de primeira linha mais adequado?",
+          "alternativas": {
+            "a": "Pulsoterapia com metilprednisolona, seguida de imunossupressor de manutenção",
+            "b": "Aciclovir endovenoso isolado, sem necessidade de imunossupressão",
+            "c": "Antiepiléptico isolado, sem necessidade de terapia imunomoduladora",
+            "d": "Plasmaférese isolada, sem uso de corticosteroide"
+          },
+          "correta": "a",
+          "comentario": "O tratamento de primeira linha da encefalite lúpica é a pulsoterapia com metilprednisolona, seguida de imunossupressor de manutenção — aciclovir seria indicado para encefalite herpética (não é o caso), e o controle da crise convulsiva isolado, sem tratar a causa de base, é insuficiente."
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas",
+      "tier": "ALTO",
+      "vinheta": "Paciente de 32 anos, em pós-operatório de exérese de tumor cerebral, evolui no segundo dia com rebaixamento do nível de consciência, papiledema bilateral ao exame de fundo de olho, bradicardia associada a hipertensão arterial, e tomografia de crânio mostrando ventriculomegalia com apagamento das cisternas basais.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico e o mecanismo fisiopatológico envolvido?",
+          "alternativas": {
+            "a": "Hipertensão intracraniana, com reflexo de Cushing (bradicardia associada a hipertensão) e comprometimento da complacência craniana (doutrina de Monro-Kellie)",
+            "b": "Choque neurogênico, com hipotensão e bradicardia por lesão medular",
+            "c": "Síndrome de secreção inapropriada de hormônio antidiurético, explicando isoladamente o rebaixamento do sensório",
+            "d": "Meningite pós-operatória isolada, sem relação com hipertensão intracraniana"
+          },
+          "correta": "a",
+          "comentario": "Papiledema, bradicardia com hipertensão (reflexo de Cushing) e apagamento de cisternas basais são compatíveis com hipertensão intracraniana grave, explicada pela doutrina de Monro-Kellie (volume craniano fixo). Choque neurogênico cursaria com hipotensão (não hipertensão); SIADH não explica papiledema nem o reflexo de Cushing; não há descrição de febre ou outros sinais que sustentem meningite isoladamente."
+        },
+        {
+          "enunciado": "Em relação à realização de punção lombar nesse momento, é correto afirmar:",
+          "alternativas": {
+            "a": "A punção lombar está contraindicada nesse momento, pelo risco de herniação diante de sinais de hipertensão intracraniana com efeito de massa",
+            "b": "A punção lombar está indicada imediatamente para elucidação diagnóstica, independentemente dos sinais de hipertensão intracraniana",
+            "c": "A punção lombar está indicada apenas se houver febre associada, sem relação com os achados de imagem",
+            "d": "A punção lombar é o exame inicial de escolha em qualquer rebaixamento do nível de consciência pós-operatório"
+          },
+          "correta": "a",
+          "comentario": "Diante de sinais de hipertensão intracraniana com efeito de massa e apagamento de cisternas basais, a punção lombar é contraindicada pelo risco de herniação — a avaliação de imagem deve preceder qualquer decisão sobre puncionar, especialmente nesse contexto pós-operatório."
+        },
+        {
+          "enunciado": "Qual a conduta terapêutica inicial mais adequada?",
+          "alternativas": {
+            "a": "Medidas gerais (cabeceira elevada a 30°, normovolemia) como primeira linha, antes de osmoterapia com manitol ou salina hipertônica, evitando hiperventilação agressiva",
+            "b": "Manitol em bolus como primeira conduta, antes de qualquer medida geral",
+            "c": "Hiperventilação agressiva mantida cronicamente como principal estratégia terapêutica",
+            "d": "Craniectomia descompressiva imediata, independentemente da resposta às medidas clínicas iniciais"
+          },
+          "correta": "a",
+          "comentario": "O escalonamento terapêutico da hipertensão intracraniana começa por medidas gerais (posicionamento, normovolemia, controle de temperatura/dor), progredindo para osmoterapia e, se refratário, sedação e cirurgia — hiperventilação agressiva crônica é deletéria (vasoconstrição excessiva) e cirurgia não é a primeira conduta antes de medidas clínicas."
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neonatologia (prematuridade tardia)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Recém-nascido pré-termo, 35 semanas e 2 dias de idade gestacional ao nascer, peso de 2.100g, permaneceu 5 dias em alojamento conjunto por dificuldade de sucção e icterícia leve, recebendo alta em aleitamento materno exclusivo. Retorna para consulta de seguimento com 2 meses de idade cronológica.",
+      "perguntas": [
+        {
+          "enunciado": "Em relação à classificação da idade gestacional ao nascimento, esse recém-nascido é classificado como:",
+          "alternativas": {
+            "a": "Prematuro tardio, por nascer entre 34 semanas e 36 semanas e 6 dias",
+            "b": "Prematuro moderado, por nascer entre 32 e 33 semanas e 6 dias",
+            "c": "Muito prematuro, por nascer entre 28 e 31 semanas e 6 dias",
+            "d": "A termo precoce, por nascer entre 37 e 38 semanas e 6 dias"
+          },
+          "correta": "a",
+          "comentario": "35 semanas e 2 dias está dentro da faixa de 34 a 36 semanas e 6 dias, classificando-se como prematuro tardio — categoria que, apesar de menor risco que prematuros extremos, ainda exige atenção redobrada a dificuldades de sucção, icterícia e desenvolvimento."
+        },
+        {
+          "enunciado": "Qual a idade corrigida aproximada dessa criança na consulta de 2 meses de idade cronológica?",
+          "alternativas": {
+            "a": "Aproximadamente 1 mês e 3 semanas",
+            "b": "2 meses exatos, sem necessidade de correção nessa faixa de prematuridade",
+            "c": "3 meses, superestimando a idade cronológica",
+            "d": "1 mês, subestimando significativamente a correção"
+          },
+          "correta": "a",
+          "comentario": "Faltaram aproximadamente 4 semanas e 5 dias para completar 40 semanas (nasceu com 35 semanas e 2 dias); subtraindo esse valor dos 2 meses cronológicos, a idade corrigida fica em torno de 1 mês e 3 semanas — a correção é recomendada mesmo em prematuros tardios, não exclusiva de prematuros extremos."
+        },
+        {
+          "enunciado": "Em relação ao seguimento apropriado para um prematuro tardio, é correto afirmar:",
+          "alternativas": {
+            "a": "Deve haver seguimento ambulatorial com atenção a dificuldades de sucção/nutrição e vigilância do desenvolvimento, usando idade corrigida até cerca de 24 meses",
+            "b": "Prematuros tardios têm risco populacional igual ao de recém-nascidos a termo, dispensando acompanhamento diferenciado",
+            "c": "Deve-se usar exclusivamente a idade cronológica (não corrigida) desde o nascimento para todas as avaliações de desenvolvimento",
+            "d": "A suplementação de ferro é contraindicada em prematuros tardios antes dos 6 meses de vida"
+          },
+          "correta": "a",
+          "comentario": "Prematuros tardios têm maior risco de dificuldades alimentares, icterícia e atraso leve de desenvolvimento comparados a recém-nascidos a termo, justificando seguimento diferenciado com uso de idade corrigida. A suplementação de ferro é recomendada, não contraindicada, em prematuros de forma geral."
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neonatologia (sepse precoce por corioamnionite)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Recém-nascido a termo, mãe com quadro de corioamnionite clínica durante o trabalho de parto (febre materna intraparto, taquicardia fetal e líquido amniótico fétido). Ao nascer, o recém-nascido apresenta desconforto respiratório leve, e nas primeiras 6 horas de vida evolui com taquipneia progressiva, hipoatividade e recusa alimentar.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico mais provável diante do fator de risco materno e da evolução clínica?",
+          "alternativas": {
+            "a": "Sepse neonatal precoce, pelo fator de risco materno (corioamnionite) e sinais clínicos precoces",
+            "b": "Taquipneia transitória do recém-nascido, sem relação com fatores de risco infecciosos maternos",
+            "c": "Síndrome do desconforto respiratório por deficiência de surfactante, esperada apenas em prematuros",
+            "d": "Cardiopatia congênita cianótica, sugerida pela taquipneia progressiva"
+          },
+          "correta": "a",
+          "comentario": "Corioamnionite clínica é fator de risco maior para sepse neonatal precoce, e a evolução com taquipneia progressiva, hipoatividade e recusa alimentar nas primeiras horas de vida reforça essa hipótese. Taquipneia transitória tende a ser autolimitada e sem esses fatores de risco infecciosos; SDR por surfactante é esperado em prematuros, não RN a termo; não há dados sugestivos de cardiopatia cianótica."
+        },
+        {
+          "enunciado": "Qual a conduta laboratorial e terapêutica inicial mais adequada?",
+          "alternativas": {
+            "a": "Coleta de hemocultura e início imediato de antibioticoterapia empírica com ampicilina e aminoglicosídeo",
+            "b": "Observação clínica por 48 horas antes de qualquer intervenção laboratorial ou terapêutica",
+            "c": "Radiografia de tórax isolada, sem necessidade de exames microbiológicos",
+            "d": "Antibioticoterapia oral ambulatorial, dado o quadro respiratório inicialmente leve"
+          },
+          "correta": "a",
+          "comentario": "Diante de fator de risco materno maior e sinais clínicos sugestivos, colhe-se hemocultura e inicia-se antibioticoterapia empírica imediatamente (ampicilina + aminoglicosídeo), sem aguardar 48h de observação, dado o risco de deterioração rápida na sepse neonatal precoce."
+        },
+        {
+          "enunciado": "Em relação à prevenção da sepse neonatal precoce por Streptococcus do grupo B, é correto afirmar:",
+          "alternativas": {
+            "a": "O rastreio materno para Streptococcus agalactiae (grupo B) entre 35-37 semanas de gestação, com profilaxia intraparto quando indicado, reduz a incidência de sepse neonatal precoce",
+            "b": "Não há estratégia de rastreio validada para prevenção de sepse neonatal precoce",
+            "c": "A profilaxia intraparto deve ser realizada em todas as gestantes, independentemente do resultado do rastreio para GBS",
+            "d": "O rastreio para GBS é realizado no primeiro trimestre da gestação"
+          },
+          "correta": "a",
+          "comentario": "O rastreio universal para GBS entre 35-37 semanas, com profilaxia antibiótica intraparto para gestantes colonizadas (ou com outros fatores de risco), é estratégia validada e recomendada para reduzir a sepse neonatal precoce — não é realizado no primeiro trimestre, e a profilaxia não é indicada indiscriminadamente a todas as gestantes."
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nutrição (aleitamento materno e retorno ao trabalho)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mãe de lactente de 3 meses, em aleitamento materno exclusivo, retornará ao trabalho em 30 dias e procura a UBS para orientações sobre ordenha e armazenamento do leite materno, além de dúvidas sobre a manutenção da amamentação após o retorno.",
+      "perguntas": [
+        {
+          "enunciado": "Qual a orientação correta sobre armazenamento do leite materno ordenhado?",
+          "alternativas": {
+            "a": "O leite materno ordenhado pode ser armazenado em geladeira por até 12 horas, ou congelado por até 15 dias, mantendo suas propriedades nutricionais e imunológicas",
+            "b": "O leite materno ordenhado deve ser descartado após 2 horas em temperatura ambiente, sem possibilidade de refrigeração ou congelamento",
+            "c": "O leite materno ordenhado só pode ser armazenado em recipientes de vidro esterilizados, sendo contraindicado o uso de recipientes plásticos apropriados",
+            "d": "O leite materno congelado deve ser descongelado em forno de micro-ondas para preservar nutrientes"
+          },
+          "correta": "a",
+          "comentario": "As recomendações vigentes orientam armazenamento em geladeira por até 12 horas ou congelamento por até 15 dias. O descongelamento deve ser em banho-maria ou geladeira, nunca em micro-ondas (que destrói componentes imunológicos e pode causar queimaduras); recipientes plásticos próprios para esse fim são aceitos, não exclusivamente vidro."
+        },
+        {
+          "enunciado": "Qual a orientação mais adequada para manutenção do aleitamento após o retorno ao trabalho?",
+          "alternativas": {
+            "a": "Orientar ordenha regular no período de trabalho para manter a produção láctea e oferta do leite ordenhado à criança, mantendo a amamentação direta nos períodos em que estiverem juntas",
+            "b": "Orientar introdução de fórmula infantil exclusiva a partir do retorno ao trabalho, suspendendo o aleitamento materno",
+            "c": "Orientar que a amamentação só pode continuar se a mãe tiver direito a creche no local de trabalho",
+            "d": "Orientar desmame completo antes do retorno ao trabalho, para facilitar a adaptação da criança"
+          },
+          "correta": "a",
+          "comentario": "A orientação correta é manter a produção láctea por ordenha regular durante o trabalho, oferecendo o leite ordenhado à criança, e retomar a amamentação direta nos momentos em que mãe e filho estiverem juntos — não há necessidade de desmame nem de suspensão do aleitamento pelo retorno ao trabalho."
+        },
+        {
+          "enunciado": "Qual direito trabalhista relacionado à amamentação está previsto na legislação brasileira (CLT)?",
+          "alternativas": {
+            "a": "Direito a dois descansos especiais de meia hora cada, durante a jornada de trabalho, para amamentar o próprio filho até os 6 meses de idade",
+            "b": "Direito a licença-maternidade de 12 meses corridos, garantida a todas as trabalhadoras",
+            "c": "Direito a jornada de trabalho reduzida em 50% até os 2 anos da criança, sem redução salarial",
+            "d": "Não há previsão legal específica sobre pausas para amamentação no ambiente de trabalho"
+          },
+          "correta": "a",
+          "comentario": "A CLT prevê dois descansos especiais de 30 minutos cada durante a jornada, para amamentação, até os 6 meses de idade da criança (prazo que pode ser estendido por critério médico). A licença-maternidade padrão é de 120 dias (podendo ser estendida em programas específicos), não 12 meses; não há previsão de redução de jornada de 50% nesse contexto."
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nutrição (anemia ferropriva por excesso de leite de vaca)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Criança de 18 meses, com histórico de ingestão excessiva de leite de vaca integral (mais de 1 litro/dia) e baixa aceitação de alimentos sólidos, é levada à consulta por palidez cutâneo-mucosa. Hemograma: hemoglobina 9,2 g/dL, VCM reduzido, RDW aumentado.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o mecanismo mais provável da anemia apresentada por essa criança?",
+          "alternativas": {
+            "a": "Anemia ferropriva por baixa ingestão de ferro alimentar associada a possível microssangramento intestinal induzido pelo excesso de leite de vaca integral",
+            "b": "Anemia por deficiência de vitamina B12, decorrente do excesso de leite de vaca",
+            "c": "Anemia falciforme, desencadeada pela dieta rica em laticínios",
+            "d": "Anemia de doença crônica, por processo inflamatório associado à intolerância à lactose"
+          },
+          "correta": "a",
+          "comentario": "O excesso de leite de vaca integral em substituição a alimentos sólidos ricos em ferro é causa clássica de anemia ferropriva em lactentes/pré-escolares, tanto por baixa ingestão de ferro quanto por possível microssangramento intestinal induzido pelas proteínas do leite. As demais hipóteses não são compatíveis com o quadro microcítico com RDW aumentado descrito."
+        },
+        {
+          "enunciado": "Qual a conduta nutricional mais adequada especificamente para esse caso?",
+          "alternativas": {
+            "a": "Reduzir a oferta de leite de vaca para no máximo 500 mL/dia, associada à melhora da diversidade alimentar com alimentos fontes de ferro",
+            "b": "Manter a ingestão atual de leite de vaca, sem necessidade de ajuste, focando apenas na suplementação medicamentosa",
+            "c": "Substituir totalmente o leite de vaca por bebida vegetal à base de soja, sem necessidade de ajustar outros alimentos",
+            "d": "Suspender completamente qualquer laticínio da dieta até os 3 anos de idade"
+          },
+          "correta": "a",
+          "comentario": "A conduta recomendada é reduzir o volume de leite de vaca (geralmente para até 500 mL/dia) e melhorar a diversidade e qualidade da alimentação complementar com alimentos fontes de ferro — suspensão total de laticínios ou substituição isolada por bebida vegetal sem ajustar a dieta geral não resolve o problema nutricional de base."
+        },
+        {
+          "enunciado": "Qual a conduta medicamentosa mais adequada, segundo o Programa Nacional de Suplementação de Ferro?",
+          "alternativas": {
+            "a": "Suplementação de ferro medicamentoso em dose terapêutica até normalização e reposição dos estoques, associada às medidas dietéticas",
+            "b": "Apenas orientação dietética, sem suplementação medicamentosa em nenhuma circunstância",
+            "c": "Transfusão sanguínea, dado o valor de hemoglobina apresentado",
+            "d": "Suplementação de vitamina B12 isolada, sem necessidade de ferro"
+          },
+          "correta": "a",
+          "comentario": "Diante de anemia ferropriva confirmada, indica-se suplementação medicamentosa de ferro em dose terapêutica até normalização e reposição dos estoques, associada a medidas dietéticas — transfusão é reservada a anemias graves com instabilidade clínica, não é o caso aqui (Hb 9,2 g/dL sem sinais de descompensação)."
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Endocrinologia (hipotireoidismo congênito)",
+      "tier": "ALTO",
+      "vinheta": "Recém-nascido, triagem neonatal (teste do pezinho) realizada no 4º dia de vida mostra TSH elevado, acima do ponto de corte estabelecido para a idade. A criança encontra-se assintomática ao exame físico nesse momento, com icterícia leve residual.",
+      "perguntas": [
+        {
+          "enunciado": "Qual a hipótese diagnóstica mais provável e a conduta imediata mais adequada?",
+          "alternativas": {
+            "a": "Suspeita de hipotireoidismo congênito; deve-se confirmar com TSH e T4 livre séricos e iniciar levotiroxina o quanto antes, idealmente antes dos 14 dias de vida",
+            "b": "Hipertireoidismo neonatal transitório, sem necessidade de tratamento imediato",
+            "c": "Resultado normal para a idade, sem necessidade de qualquer conduta adicional",
+            "d": "Erro laboratorial provável, devendo-se apenas repetir a triagem em 6 meses"
+          },
+          "correta": "a",
+          "comentario": "TSH elevado na triagem neonatal é fortemente sugestivo de hipotireoidismo congênito, devendo-se confirmar com exames séricos e iniciar tratamento o mais precocemente possível (idealmente antes dos 14 dias de vida), sem aguardar resolução espontânea, dado o risco neurológico do atraso terapêutico."
+        },
+        {
+          "enunciado": "Por que o início precoce do tratamento é considerado prioritário nessa condição?",
+          "alternativas": {
+            "a": "O início precoce da levotiroxina previne o comprometimento do desenvolvimento neuropsicomotor e intelectual, que é o principal risco do hipotireoidismo congênito não tratado",
+            "b": "O tratamento precoce previne exclusivamente a baixa estatura, sem impacto sobre o desenvolvimento cognitivo",
+            "c": "O atraso no início do tratamento não traz consequências relevantes, desde que iniciado até os 5 anos de idade",
+            "d": "O objetivo principal do tratamento precoce é prevenir cardiopatia congênita associada"
+          },
+          "correta": "a",
+          "comentario": "O principal risco do hipotireoidismo congênito não tratado precocemente é o comprometimento irreversível do desenvolvimento neuropsicomotor e intelectual — daí a urgência do início do tratamento nas primeiras semanas de vida, período crítico para o neurodesenvolvimento."
+        },
+        {
+          "enunciado": "Como deve ser conduzido o seguimento dessa criança após o início da levotiroxina?",
+          "alternativas": {
+            "a": "Monitorização periódica de TSH e T4 livre para ajuste da dose de levotiroxina, com acompanhamento do crescimento e desenvolvimento ao longo da infância",
+            "b": "Uma vez iniciada a levotiroxina, não há necessidade de monitorização laboratorial adicional",
+            "c": "O tratamento deve ser suspenso aos 12 meses de idade, independentemente dos níveis hormonais",
+            "d": "A dose de levotiroxina é fixa e não deve ser ajustada conforme o crescimento da criança"
+          },
+          "correta": "a",
+          "comentario": "O seguimento exige monitorização periódica de TSH e T4 livre, com ajuste de dose conforme crescimento e necessidade metabólica da criança — a suspensão do tratamento (quando indicada, em casos de dúvida diagnóstica) é decisão individualizada, não uma regra fixa aos 12 meses, e a dose deve ser reajustada ao longo do crescimento."
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Oncologia (tumor de Wilms)",
+      "tier": "MÉDIO",
+      "vinheta": "Criança de 3 anos é levada à consulta pela mãe, que notou aumento do volume abdominal e, ao dar banho, percebeu uma massa palpável em flanco direito. Ao exame físico, massa abdominal firme, não dolorosa, que não ultrapassa a linha média, sem hepatoesplenomegalia.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Tumor de Wilms (nefroblastoma), tumor renal mais comum da infância, tipicamente unilateral e assintomático até ser notado como massa abdominal",
+            "b": "Neuroblastoma, que tipicamente ultrapassa a linha média e pode se apresentar com síndrome paraneoplásica",
+            "c": "Hepatoblastoma, tipicamente associado a hepatomegalia maciça",
+            "d": "Linfoma de Burkitt, com massa abdominal de crescimento extremamente rápido associado a síndrome de lise tumoral espontânea"
+          },
+          "correta": "a",
+          "comentario": "Massa abdominal unilateral, firme, indolor, que não ultrapassa a linha média, em criança pré-escolar, é o padrão clássico do tumor de Wilms. O neuroblastoma tipicamente ultrapassa a linha média (diferente deste caso); hepatoblastoma cursaria com hepatomegalia associada; linfoma de Burkitt tem crescimento muito mais rápido e agressivo, com outros achados sistêmicos."
+        },
+        {
+          "enunciado": "Qual o exame de escolha para a investigação inicial dessa massa abdominal?",
+          "alternativas": {
+            "a": "Ultrassonografia abdominal como exame inicial, seguida de tomografia computadorizada ou ressonância magnética para estadiamento",
+            "b": "Biópsia percutânea como primeiro exame, antes de qualquer imagem",
+            "c": "Radiografia simples de abdome como exame suficiente para diagnóstico definitivo",
+            "d": "Cintilografia óssea como exame inicial de escolha"
+          },
+          "correta": "a",
+          "comentario": "A investigação inicial de massa abdominal suspeita de tumor de Wilms começa pela ultrassonografia, complementada por tomografia ou ressonância para estadiamento — biópsia percutânea não é o primeiro passo pelo risco de disseminação tumoral, e radiografia simples é insuficiente para caracterização adequada."
+        },
+        {
+          "enunciado": "Em relação à conduta diagnóstica e ao risco de biópsia pré-operatória, é correto afirmar:",
+          "alternativas": {
+            "a": "Deve-se evitar biópsia percutânea pré-operatória fora de protocolo específico, pelo risco de ruptura tumoral e disseminação; a abordagem inicial é cirúrgica ou por protocolo quimioterápico pré-operatório conforme diretriz",
+            "b": "Biópsia percutânea é sempre o primeiro passo obrigatório antes de qualquer tratamento",
+            "c": "A conduta é exclusivamente expectante, com reavaliação em 6 meses",
+            "d": "Radioterapia isolada é a conduta de escolha antes de qualquer abordagem cirúrgica"
+          },
+          "correta": "a",
+          "comentario": "A biópsia percutânea pré-operatória fora de protocolo específico deve ser evitada, pelo risco de ruptura tumoral e pior estadiamento — a conduta padrão envolve avaliação por equipe especializada, com abordagem cirúrgica e/ou quimioterapia pré-operatória conforme protocolo, nunca conduta expectante prolongada nem radioterapia isolada como primeira medida."
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Cardiologia (Tetralogia de Fallot)",
+      "tier": "MÉDIO",
+      "vinheta": "Lactente de 4 meses apresenta episódios de cianose que se intensificam durante o choro e a alimentação, associados a sopro sistólico ejetivo em foco pulmonar. Durante um desses episódios, apresenta piora súbita da cianose, taquipneia e irritabilidade, aliviando parcialmente ao ser colocado na posição genupeitoral pela mãe.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Tetralogia de Fallot, com crise hipoxêmica, pela associação de cianose progressiva, sopro ejetivo pulmonar e melhora com posição genupeitoral",
+            "b": "Comunicação interventricular isolada, que não cursa com cianose nem crises hipoxêmicas",
+            "c": "Persistência do canal arterial isolada, tipicamente acianótica",
+            "d": "Estenose pulmonar valvar isolada leve, sem repercussão clínica significativa"
+          },
+          "correta": "a",
+          "comentario": "A associação de cianose que piora com choro/alimentação, sopro ejetivo pulmonar e melhora com posição genupeitoral (que aumenta a resistência vascular sistêmica, reduzindo o shunt direita-esquerda) é característica de crise hipoxêmica na Tetralogia de Fallot. CIV isolada e PCA isolada tipicamente não cursam com cianose desse padrão; estenose pulmonar leve isolada não causaria crises hipoxêmicas."
+        },
+        {
+          "enunciado": "Qual o exame de escolha para confirmação diagnóstica?",
+          "alternativas": {
+            "a": "Ecocardiograma transtorácico com Doppler, permitindo identificar os quatro componentes anatômicos (CIV, obstrução da via de saída do ventrículo direito, dextroposição da aorta e hipertrofia de ventrículo direito)",
+            "b": "Radiografia de tórax isolada, suficiente para diagnóstico definitivo",
+            "c": "Eletrocardiograma isolado, sem necessidade de exame de imagem cardíaca",
+            "d": "Cateterismo cardíaco como primeiro exame diagnóstico, antes do ecocardiograma"
+          },
+          "correta": "a",
+          "comentario": "O ecocardiograma transtorácico com Doppler é o exame de escolha, permitindo visualizar os quatro componentes clássicos da Tetralogia de Fallot e avaliar a repercussão hemodinâmica, sem necessidade de cateterismo como primeira abordagem diagnóstica."
+        },
+        {
+          "enunciado": "Qual a conduta mais adequada diante da crise hipoxêmica aguda descrita?",
+          "alternativas": {
+            "a": "Posição genupeitoral, oxigênio suplementar e, se necessário, morfina e/ou expansão volêmica, evitando manobras que aumentem o estresse da criança",
+            "b": "Furosemida endovenosa imediata como primeira conduta",
+            "c": "Adrenalina intramuscular como primeira conduta, como em anafilaxia",
+            "d": "Manobra de Valsalva induzida como conduta padrão em lactentes"
+          },
+          "correta": "a",
+          "comentario": "O manejo da crise hipoxêmica inclui posição genupeitoral (ou joelhos ao peito), oxigênio, calma/redução do estresse, e se necessário morfina e expansão volêmica — furosemida e adrenalina não são condutas apropriadas para esse mecanismo fisiopatológico específico, e a manobra de Valsalva induzida não é prática padrão em lactentes com Tetralogia de Fallot."
+        }
+      ]
+    }
+  ]
+}
