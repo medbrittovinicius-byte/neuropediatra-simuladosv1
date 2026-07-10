@@ -1,0 +1,651 @@
+{
+  "date": "2026-07-10",
+  "titulo": "Simulado 2026-07-10",
+  "blocos": [
+    {
+      "tema": "Neurologia — Vertigem (VPPB)",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 34 anos procura atendimento por episódios de vertigem rotatória intensa, com duração de poucos segundos a menos de um minuto, desencadeados especificamente ao virar-se na cama para o lado direito ou ao inclinar a cabeça para trás. Nega hipoacusia, zumbido ou sintomas neurológicos associados. Entre as crises, permanece assintomática. Ao exame, realizada a manobra de Dix-Hallpike com a cabeça rodada 45° para a direita, observa-se nistagmo rotatório de início após breve latência, com duração inferior a 30 segundos, que se exaure espontaneamente.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro clínico e do achado na manobra de Dix-Hallpike, qual o diagnóstico mais provável?",
+          "alternativas": {
+            "d": "Vertigem posicional paroxística benigna (VPPB) de canal posterior direito",
+            "a": "AVC de fossa posterior",
+            "b": "Neurite vestibular",
+            "c": "Doença de Ménière"
+          },
+          "correta": "d",
+          "comentario": "A VPPB decorre do deslocamento de otólitos (canalitíase) para dentro de um canal semicircular, mais frequentemente o posterior, gerando vertigem rotatória breve (segundos a menos de 1 minuto) desencadeada por mudanças posicionais específicas. O achado-chave é o nistagmo com latência curta, caráter rotatório, duração inferior a 30-40 segundos e fatigabilidade ao repetir a manobra — exatamente o descrito. A doença de Ménière é descartada pela ausência da tríade obrigatória (vertigem + hipoacusia flutuante + zumbido/plenitude aural) e por ter crises mais longas (minutos a horas), não segundos. A neurite vestibular causa vertigem contínua por dias, não episódica e ligada à posição, além de cursar com teste do impulso cefálico (HIT) alterado. O AVC de fossa posterior deve sempre ser afastado em vertigem aguda, mas o padrão aqui — nistagmo com latência, fatigável, sem outros sinais neurológicos focais — é tipicamente periférico; nistagmo central costuma ser sem latência, não fatigável e pode mudar de direção.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual manobra diagnóstica é mais adequada caso a suspeita clínica recaia sobre o canal semicircular horizontal em vez do posterior?",
+          "alternativas": {
+            "c": "Head Roll-Test (manobra de Pagnini-McClure)",
+            "a": "Teste do impulso cefálico (HIT)",
+            "b": "Manobra de Epley",
+            "d": "Dix-Hallpike"
+          },
+          "correta": "c",
+          "comentario": "O Head Roll-Test (Pagnini-McClure), realizado com o paciente em decúbito dorsal e rotação rápida da cabeça para cada lado, é a manobra indicada quando se suspeita de VPPB de canal horizontal (lateral), pois reproduz o nistagmo horizontal geotrópico ou ageotrópico característico desse canal. A manobra de Dix-Hallpike testa especificamente os canais posterior e anterior, não o horizontal — usá-la aqui não reproduziria o nistagmo esperado. A manobra de Epley é terapêutica (reposicionamento otolítico para canal posterior), não diagnóstica. O teste do impulso cefálico (HIT) faz parte do protocolo HINTS para diferenciar vertigem periférica de central na síndrome vestibular aguda contínua, mas não localiza qual canal semicircular está acometido na VPPB. Essa distinção de qual manobra usar conforme o canal suspeito é pegadinha recorrente em prova.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual a conduta terapêutica de primeira linha para esta paciente?",
+          "alternativas": {
+            "a": "Manobra de reposicionamento otolítico (Epley)",
+            "b": "Flunarizina profilática",
+            "c": "Supressores vestibulares (benzodiazepínicos) de uso prolongado",
+            "d": "Betaistina oral contínua"
+          },
+          "correta": "a",
+          "comentario": "A manobra de Epley (reposicionamento canalitíase) é o tratamento de primeira linha para VPPB de canal posterior, com resolução da maioria dos casos em uma a duas sessões, por reposicionar mecanicamente os otólitos deslocados de volta ao utrículo. A betaistina, embora amplamente prescrita na prática, tem evidência fraca e não substitui a manobra de reposicionamento como tratamento definitivo. A flunarizina profilática é usada em enxaqueca vestibular e em algumas vertigens recorrentes, mas não é primeira linha para VPPB. Supressores vestibulares (benzodiazepínicos, anti-histamínicos) têm papel apenas sintomático em curto prazo; o uso prolongado é contraindicado por atrapalhar a compensação vestibular central e cronificar a instabilidade.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — AVC (endocardite infecciosa embólica)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 24 anos, usuário de drogas injetáveis, é levado ao pronto-socorro por febre há 10 dias, cefaleia holocraniana e episódio de fraqueza súbita em hemicorpo esquerdo com duração de 40 minutos e resolução completa. Ao exame, sopro sistólico em foco tricúspide, lesões eritematosas dolorosas em polpas digitais e petéquias em conjuntiva. Fundoscopia revela manchas hemorrágicas retinianas com centro esbranquiçado. Hemograma com leucocitose e PCR elevado.",
+      "perguntas": [
+        {
+          "enunciado": "Qual a principal hipótese diagnóstica que unifica o quadro sistêmico e o episódio neurológico?",
+          "alternativas": {
+            "a": "Endocardite infecciosa com embolização séptica cerebral",
+            "b": "Meningite bacteriana subaguda",
+            "c": "Vasculite primária do sistema nervoso central",
+            "d": "Encefalite viral"
+          },
+          "correta": "a",
+          "comentario": "A combinação de febre prolongada, sopro cardíaco novo, fenômenos vasculíticos/embólicos periféricos (nódulos de Osler nas polpas digitais, petéquias) e manchas de Roth na fundoscopia (hemorragias retinianas com centro claro) compõe os critérios clínicos clássicos (Duke) de endocardite infecciosa, especialmente em usuário de drogas injetáveis — fator de risco maior para acometimento valvar. O episódio neurológico transitório é explicado por embolização séptica cerebral a partir de vegetação valvar. A vasculite primária do SNC não explica o sopro cardíaco nem as lesões digitais/oculares periféricas. A meningite bacteriana subaguda não justificaria os achados de pele e fundoscopia nem o sopro. A encefalite viral não explica o sopro, as lesões cutâneas dolorosas nem os achados retinianos — nenhuma dessas alternativas integra todo o quadro como a endocardite infecciosa.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual a dupla de exames prioritária para confirmação diagnóstica?",
+          "alternativas": {
+            "a": "Hemoculturas seriadas e ecocardiograma (transtorácico ou transesofágico)",
+            "b": "Punção lombar e cultura do líquor",
+            "c": "Ressonância magnética de crânio e sorologia para HIV",
+            "d": "Tomografia de tórax e D-dímero"
+          },
+          "correta": "a",
+          "comentario": "Os critérios de Duke para endocardite infecciosa têm como critérios maiores justamente hemoculturas positivas para microrganismo típico (coletadas antes de iniciar antibiótico, idealmente 3 amostras de sítios diferentes) e evidência de comprometimento endocárdico ao ecocardiograma (vegetação, abscesso, nova regurgitação valvar) — a dupla exata para confirmação diagnóstica. A ressonância de crânio pode documentar lesões embólicas cerebrais, mas isoladamente não confirma a fonte cardíaca; sorologia para HIV é relevante como triagem em usuário de drogas injetáveis, mas não confirma endocardite. Punção lombar não está indicada na ausência de sinais meníngeos e não estabelece o diagnóstico de endocardite. Tomografia de tórax e D-dímero são úteis para investigar tromboembolismo pulmonar, quadro diferente do descrito.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual a conduta terapêutica inicial mais apropriada diante da suspeita confirmada de endocardite infecciosa?",
+          "alternativas": {
+            "b": "Antibioticoterapia empírica de amplo espectro por via endovenosa, guiada posteriormente pelo antibiograma",
+            "a": "Trombólise endovenosa por conta do déficit neurológico focal",
+            "c": "Anticoagulação plena imediata para prevenir novos êmbolos",
+            "d": "Corticoterapia em pulso para redução do processo inflamatório"
+          },
+          "correta": "b",
+          "comentario": "Após a coleta de hemoculturas, a antibioticoterapia empírica endovenosa de amplo espectro deve ser iniciada prontamente e depois ajustada conforme o agente isolado e o antibiograma — pilar do tratamento da endocardite infecciosa. A anticoagulação plena não é recomendada de rotina na endocardite infecciosa, pois os êmbolos são sépticos (não trombóticos primários) e a anticoagulação aumenta o risco de transformação hemorrágica de infartos embólicos e de sangramento de aneurismas micóticos. A trombólise é contraindicada nesse contexto: o déficit já foi transitório (resolução completa em 40 minutos, sugerindo AIT) e, mais importante, êmbolos sépticos elevam muito o risco hemorrágico com trombolíticos. Corticoterapia não tem papel no tratamento da endocardite infecciosa e pode piorar o quadro infeccioso ao imunossuprimir o paciente.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Medula e Cauda Equina (mielorradiculopatia esquistossomótica)",
+      "tier": "ALTO",
+      "vinheta": "Adolescente de 15 anos, procedente de município do interior da Bahia com histórico de contato frequente com águas de rio, é trazido por dor lombar em queimação há 12 dias, com irradiação para membros inferiores, piora ao sentar-se, e relato de dificuldade progressiva para urinar (jato fraco, sensação de esvaziamento incompleto) e leve aumento na frequência das evacuações, por vezes com raias de sangue. Ao exame: hepatomegalia de borda romba e consistência elástica, sem esplenomegalia; paraparesia assimétrica em membros inferiores, com hiperreflexia patelar à esquerda e hiporreflexia aquileana bilateral; hipoestesia em sela incompleta. Hemograma revela eosinofilia de 18%.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do conjunto de achados, qual o diagnóstico mais provável?",
+          "alternativas": {
+            "c": "Mielorradiculopatia esquistossomótica",
+            "a": "Síndrome de Guillain-Barré",
+            "b": "Compressão medular por tumor extradural",
+            "d": "Mielite transversa idiopática"
+          },
+          "correta": "c",
+          "comentario": "A combinação de procedência rural do interior da Bahia com exposição a águas de rio, dor lombar em queimor, sintomas urinários e intestinais, hepatomegalia de consistência elástica (fibrose periportal de Symmers) e eosinofilia acentuada aponta para mielorradiculopatia esquistossomótica — reação granulomatosa medular a ovos ectópicos de Schistosoma mansoni, emergência neurológica endêmica em áreas rurais da Bahia e frequentemente subdiagnosticada. Tumor extradural não explicaria a eosinofilia, a hepatomegalia nem a exposição epidemiológica típica. Mielite transversa idiopática é diagnóstico de exclusão e não justifica os achados sistêmicos (hepatomegalia, eosinofilia). Guillain-Barré classicamente causa fraqueza ascendente simétrica com arreflexia global, sem hepatomegalia ou eosinofilia, e o padrão aqui é assimétrico com reflexos mistos (hiper e hiporreflexia) — incompatível com um quadro puramente desmielinizante periférico.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual exame é mais adequado para confirmar a etiologia do quadro?",
+          "alternativas": {
+            "c": "Biópsia de mucosa retal com pesquisa de ovos de Schistosoma mansoni e sorologia ELISA",
+            "a": "Parasitológico de fezes isolado (método de Kato-Katz)",
+            "b": "Tinta da China no líquor",
+            "d": "Citologia oncótica do líquido cefalorraquidiano"
+          },
+          "correta": "c",
+          "comentario": "A biópsia de mucosa retal tem sensibilidade superior ao exame parasitológico de fezes isolado para detectar ovos de S. mansoni em mielorradiculopatia, já que a carga parasitária fecal pode ser baixa apesar de granulomas teciduais ativos; a sorologia ELISA reforça a suspeita etiológica. A tinta da China é método para pesquisa de Cryptococcus no líquor, não tem relação com esquistossomose. O parasitológico de fezes por Kato-Katz isolado pode ser falso-negativo mesmo com doença ativa, sendo menos sensível que a biópsia retal nesse contexto clínico específico. A citologia oncótica do líquor é voltada para investigação de neoplasias, não sendo o exame indicado aqui.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual a conduta terapêutica adequada?",
+          "alternativas": {
+            "b": "Corticoterapia sistêmica associada a praziquantel",
+            "a": "Descompressão cirúrgica de urgência sem tratamento antiparasitário",
+            "c": "Imunoglobulina humana intravenosa isolada",
+            "d": "Antifúngico sistêmico de amplo espectro"
+          },
+          "correta": "b",
+          "comentario": "O tratamento combina corticoterapia sistêmica, para reduzir a reação inflamatória granulomatosa ao redor dos ovos ectópicos, com praziquantel, para eliminar o parasita adulto e impedir nova oviposição — as duas frentes são necessárias e complementares. Imunoglobulina intravenosa isolada não trata a causa parasitária nem a inflamação granulomatosa medular, sendo indicada em outros contextos (ex.: Guillain-Barré). Antifúngico sistêmico não tem indicação, pois não se trata de doença fúngica. Cirurgia descompressiva isolada, sem tratamento antiparasitário e anti-inflamatório concomitante, não trata a causa de base e é reservada para casos refratários ou com compressão estrutural associada, não como conduta inicial isolada.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroimunologia (esclerose múltipla)",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 27 anos relata perda visual progressiva no olho direito há 4 dias, associada a dor à movimentação ocular. Refere que há cerca de 3 meses apresentou episódio de fraqueza em membro inferior esquerdo que resolveu espontaneamente em poucas semanas, sem investigação na ocasião. Ao exame: acuidade visual reduzida à direita, reflexo fotomotor direto diminuído com consensual preservado à direita. Ressonância magnética de crânio evidencia múltiplas lesões hiperintensas em T2/FLAIR de localização periventricular, justacortical e infratentorial.",
+      "perguntas": [
+        {
+          "enunciado": "Qual achado no exame ocular descrito é característico e como se denomina?",
+          "alternativas": {
+            "a": "Defeito pupilar aferente relativo (pupila de Marcus Gunn)",
+            "b": "Síndrome de Horner",
+            "c": "Oftalmoplegia internuclear",
+            "d": "Anisocoria por lesão do III par craniano"
+          },
+          "correta": "a",
+          "comentario": "O defeito pupilar aferente relativo ocorre porque a via aferente (nervo óptico) está lesada pela neurite óptica, reduzindo a resposta fotomotora direta ao estímulo luminoso naquele olho, enquanto a via eferente (III par) permanece íntegra — por isso o reflexo consensual (vindo do olho contralateral saudável) permanece preservado. É o achado clássico do teste da lanterna oscilante na neurite óptica. Lesão do III par causaria ptose e midríase fixa não reagente à luz de forma direta e consensual naquele olho (comprometimento eferente, diferente do padrão aferente aqui). A síndrome de Horner cursa com miose, ptose parcial e anidrose, não com o padrão descrito. A oftalmoplegia internuclear é outro achado possível na esclerose múltipla, caracterizado por falha de adução do olho ipsilateral à lesão do fascículo longitudinal medial com nistagmo do olho abdutor contralateral — sinal diferente do relatado nesta vinheta.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual o critério diagnóstico central preenchido por este quadro?",
+          "alternativas": {
+            "b": "Dispersão no tempo e no espaço (critérios de McDonald)",
+            "a": "Hipersinal isolado em substância branca supratentorial",
+            "c": "Positividade para anticorpo antiaquaporina-4",
+            "d": "Presença isolada de bandas oligoclonais no líquor"
+          },
+          "correta": "b",
+          "comentario": "Os critérios de McDonald exigem demonstração de dispersão no tempo (pelo menos dois surtos distintos, aqui a fraqueza em membro inferior há 3 meses e a neurite óptica atual, separados por mais de um mês) e no espaço (acometimento de diferentes topografias do SNC, aqui via motora/medular e nervo óptico, reforçado pelas lesões multifocais na RM em localizações periventricular, justacortical e infratentorial). Não é necessário documentar por imagem cada surto isoladamente quando a dispersão já está clinicamente demonstrada. As bandas oligoclonais no líquor são um dado de apoio, mas não constituem sozinhas o critério central preenchido no caso. A positividade para antiaquaporina-4 é característica de neuromielite óptica (doença de Devic), diagnóstico diferencial a ser afastado, não confirmado aqui. Hipersinal isolado sem dispersão temporal caracterizaria apenas síndrome radiologicamente isolada, insuficiente para diagnóstico de esclerose múltipla clinicamente definida.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual a terapia modificadora de doença mais adequada para início neste momento?",
+          "alternativas": {
+            "b": "Acetato de glatirâmer",
+            "a": "Metilprednisolona em pulsoterapia isolada",
+            "c": "Anticoagulação oral plena",
+            "d": "Riluzol"
+          },
+          "correta": "b",
+          "comentario": "O acetato de glatirâmer é uma das terapias modificadoras de doença de primeira linha na esclerose múltipla remitente-recorrente, reduzindo a frequência de surtos e a progressão da carga lesional a longo prazo — indicada para início neste momento, após confirmação diagnóstica. A pulsoterapia com metilprednisolona trata apenas o surto agudo (pode já ter sido usada para a neurite óptica atual), mas não modifica a evolução da doença a longo prazo, não substituindo a terapia modificadora. O riluzol é fármaco específico para esclerose lateral amiotrófica, sem qualquer papel na esclerose múltipla. A anticoagulação oral não tem indicação, pois a esclerose múltipla é doença autoimune desmielinizante, não trombótica.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuropatias Periféricas (Charcot-Marie-Tooth)",
+      "tier": "ALTO",
+      "vinheta": "Homem de 19 anos procura avaliação por dificuldade progressiva para caminhar, com quedas frequentes há cerca de 5 anos, notando que 'tropeça facilmente e levanta muito a perna ao andar'. Pai apresenta quadro semelhante, também com deformidade dos pés. Ao exame: pés cavos bilaterais com dedos em garra, atrofia da musculatura distal das pernas (aspecto de 'perna em garrafa de champanhe invertida'), fraqueza para dorsiflexão bilateral, arreflexia aquileana, e hipoestesia em bota. Força e trofismo de coxas preservados.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico mais provável diante do padrão de herança e do fenótipo descrito?",
+          "alternativas": {
+            "d": "Doença de Charcot-Marie-Tooth (neuropatia sensitivo-motora hereditária)",
+            "a": "Síndrome de Guillain-Barré",
+            "b": "Polineuropatia diabética",
+            "c": "Distrofia muscular de Duchenne"
+          },
+          "correta": "d",
+          "comentario": "A doença de Charcot-Marie-Tooth é a neuropatia hereditária mais comum, de herança tipicamente autossômica dominante (compatível com o pai afetado), com fraqueza e atrofia de predomínio distal poupando a musculatura proximal, pé cavo com dedos em garra e o aspecto característico de 'perna em garrafa de champanhe invertida' — todos presentes no caso. A distrofia muscular de Duchenne tem herança ligada ao X (afeta meninos, mas por mutação materna, não por pai afetado), acomete predominantemente musculatura proximal com pseudo-hipertrofia de panturrilhas e manifesta-se muito mais precocemente na infância, com sinal de Gowers. A polineuropatia diabética exige diagnóstico prévio de diabetes/hiperglicemia, ausente no caso. A síndrome de Guillain-Barré é um quadro agudo/subagudo de fraqueza ascendente, não uma condição hereditária progressiva ao longo de 5 anos com história familiar idêntica.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Qual o mecanismo fisiopatológico da deformidade em pé cavo observada?",
+          "alternativas": {
+            "c": "Desequilíbrio entre a fraqueza dos músculos fibulares e a força relativamente preservada do tibial posterior",
+            "a": "Espasticidade piramidal por lesão de neurônio motor superior",
+            "b": "Depósito amiloide em tecido periarticular",
+            "d": "Contratura por imobilização articular prolongada"
+          },
+          "correta": "c",
+          "comentario": "Na doença de Charcot-Marie-Tooth, os músculos fibulares (peroneais) e extensores dos dedos, mais distais, degeneram precocemente e de forma mais intensa que o tibial posterior, criando um desequilíbrio de forças que tracion a o pé para varo e cavo ao longo dos anos de crescimento — mecanismo puramente de neurônio motor inferior. Não há espasticidade piramidal nesse quadro, pois trata-se de doença do nervo periférico, com reflexos reduzidos (arreflexia aquileana), não exaltados, e sem sinais de liberação piramidal. Não há história de imobilização prolongada que justificasse contratura por desuso. Depósito amiloide periarticular é mecanismo de outras condições (amiloidose), não descrito ou sugerido neste caso.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual exame complementar é fundamental para a confirmação e a caracterização do subtipo da doença?",
+          "alternativas": {
+            "d": "Estudo de eletroneuromiografia associado a teste genético molecular",
+            "a": "Eletroencefalograma",
+            "b": "Biópsia muscular isolada",
+            "c": "Dosagem de creatinoquinase isolada"
+          },
+          "correta": "d",
+          "comentario": "A eletroneuromiografia diferencia as formas desmielinizantes (CMT1, com redução importante da velocidade de condução) das axonais (CMT2), e o teste genético molecular identifica a mutação específica (a duplicação do gene PMP22 é a causa mais comum, correspondendo ao CMT1A), confirmando o subtipo e permitindo aconselhamento genético familiar. A biópsia muscular isolada é mais útil na investigação de miopatias primárias, não sendo o exame de escolha para neuropatia hereditária. O eletroencefalograma avalia atividade cortical, irrelevante numa doença do nervo periférico. A dosagem isolada de creatinoquinase pode estar discretamente alterada, mas é inespecífica e não confirma nem subtipifica a doença de Charcot-Marie-Tooth.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Doença do Neurônio Motor (ELA)",
+      "tier": "ALTO",
+      "vinheta": "Homem de 61 anos relata fraqueza e atrofia progressivas na mão direita há 8 meses, com fasciculações visíveis no antebraço, associadas a cãibras frequentes. Nos últimos 2 meses, notou dificuldade para engolir alimentos sólidos e alteração da fala, tornando-a mais arrastada. Ao exame: atrofia e fasciculações em musculatura intrínseca da mão direita, reflexos exaltados globalmente com clônus aquileano bilateral e sinal de Babinski presente bilateralmente. Sensibilidade tátil, dolorosa e vibratória preservadas em todos os segmentos.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico mais provável diante da associação de sinais encontrados?",
+          "alternativas": {
+            "a": "Esclerose lateral amiotrófica (ELA)",
+            "b": "Polineuropatia desmielinizante crônica",
+            "c": "Mielopatia cervical espondilótica",
+            "d": "Miastenia gravis"
+          },
+          "correta": "a",
+          "comentario": "A coexistência de sinais de neurônio motor superior (hiper-reflexia, clônus, Babinski) e de neurônio motor inferior (atrofia, fasciculações) nos mesmos segmentos, associada a comprometimento bulbar (disfagia, disartria) e sensibilidade completamente preservada, é o padrão clínico definidor da esclerose lateral amiotrófica. A mielopatia cervical espondilótica poderia gerar sinais piramidais abaixo do nível da lesão, mas tipicamente cursa com alterações sensitivas e cervicalgia, e não explica isoladamente a atrofia/fasciculações na mão associada a sintomas bulbares. A miastenia gravis causa fraqueza flutuante e fatigável, sem fasciculações, atrofia ou sinais piramidais. A polineuropatia desmielinizante crônica cursa com reflexos reduzidos e comprometimento sensitivo-motor, exatamente o oposto do padrão hiper-reflexo e sem déficit sensitivo encontrado aqui.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual estrutura anatômica está comprometida para explicar os sintomas bulbares apresentados?",
+          "alternativas": {
+            "b": "Núcleos motores dos nervos cranianos no tronco encefálico",
+            "a": "Córtex occipital bilateral",
+            "c": "Gânglios da base",
+            "d": "Cerebelo e vias cerebelares"
+          },
+          "correta": "b",
+          "comentario": "Os sintomas bulbares da ELA (disartria, disfagia) resultam da degeneração dos neurônios motores inferiores localizados nos núcleos motores dos nervos cranianos no bulbo (tronco encefálico), como o núcleo do hipoglosso e o núcleo ambíguo, que controlam a musculatura da língua, faringe e laringe. O córtex occipital relaciona-se ao processamento visual, sem relação com fala ou deglutição. O cerebelo e suas vias, quando lesados, causam ataxia e dismetria, um padrão diferente do descrito, que combina sinais de NMS e NMI sem ataxia cerebelar. Os gânglios da base relacionam-se a distúrbios do movimento (parkinsonismo, coreia), não ao quadro misto piramidal/bulbar apresentado.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual exame complementar deve ser solicitado antes da confirmação diagnóstica definitiva?",
+          "alternativas": {
+            "d": "Eletroneuromiografia",
+            "a": "Punção lombar com pesquisa de bandas oligoclonais",
+            "b": "Ressonância magnética de crânio isoladamente",
+            "c": "Biópsia de nervo sural"
+          },
+          "correta": "d",
+          "comentario": "A eletroneuromiografia é essencial para documentar o acometimento difuso do neurônio motor inferior (fibrilações, fasciculações, sinais de denervação crônica com reinervação) em múltiplas regiões corporais, conforme os critérios de El Escorial, além de ajudar a excluir diagnósticos diferenciais tratáveis, como a neuropatia motora multifocal. A ressonância de crânio isoladamente não confirma ELA — seu papel principal é excluir lesões estruturais que mimetizem o quadro (ex.: mielopatia cervical, tumor de tronco), não sendo suficiente sozinha para o diagnóstico. A biópsia de nervo sural é utilizada na investigação de neuropatias periféricas específicas (vasculíticas, amiloidóticas), não sendo exame padrão para ELA. A pesquisa de bandas oligoclonais no líquor é voltada para investigação de esclerose múltipla, sem relação com o diagnóstico de doença do neurônio motor.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Demências (Doença de Alzheimer)",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 70 anos é trazida pela filha por esquecimento progressivo há 2 anos, inicialmente para compromissos recentes e, mais tarde, dificuldade para administrar as próprias finanças e medicações, antes realizadas com autonomia. Nega alterações motoras, alucinações ou flutuação cognitiva. Ao exame, MEEM de 21/30, com maior prejuízo em memória episódica e atenção. Exames laboratoriais de rotina (função tireoidiana, vitamina B12, sorologias) dentro da normalidade.",
+      "perguntas": [
+        {
+          "enunciado": "Qual a principal hipótese diagnóstica diante do padrão de declínio cognitivo descrito?",
+          "alternativas": {
+            "b": "Doença de Alzheimer",
+            "a": "Demência com corpos de Lewy",
+            "c": "Demência frontotemporal",
+            "d": "Depressão com pseudodemência"
+          },
+          "correta": "b",
+          "comentario": "O declínio insidioso e progressivo da memória episódica ao longo de anos, com perda gradual de autonomia para atividades instrumentais (finanças, medicações), ausência de flutuação cognitiva, alucinações ou parkinsonismo, e exames laboratoriais de rotina normais (excluindo causas secundárias reversíveis) compõem o quadro clássico de doença de Alzheimer. A demência com corpos de Lewy exige flutuação cognitiva marcante, alucinações visuais recorrentes e parkinsonismo, nenhum presente aqui. A demência frontotemporal costuma iniciar por alterações comportamentais/de personalidade ou de linguagem, com relativa preservação inicial da memória episódica, padrão inverso ao descrito. A pseudodemência depressiva geralmente tem início mais agudo, sintomas de humor proeminentes e respostas do tipo 'não sei' em vez de erros efetivos nos testes cognitivos — o quadro insidioso e progressivo aqui favorece doença neurodegenerativa primária.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Qual exame adicional tem maior valor para apoiar a confirmação diagnóstica neste contexto?",
+          "alternativas": {
+            "a": "Biomarcadores liquóricos (beta-amiloide e proteína tau)",
+            "b": "Dosagem sérica de cobre e ceruloplasmina",
+            "c": "Eletroencefalograma de rotina",
+            "d": "Cintilografia óssea"
+          },
+          "correta": "a",
+          "comentario": "Os biomarcadores liquóricos (redução da beta-amiloide 42 e elevação da proteína tau total e fosforilada) refletem a patologia amiloide/tau característica da doença de Alzheimer e são cada vez mais incorporados aos critérios diagnósticos atuais como apoio à impressão clínica. O eletroencefalograma de rotina não é exame diagnóstico para Alzheimer, sendo mais útil em quadros como doença de Creutzfeldt-Jakob ou epilepsia. A dosagem de cobre e ceruloplasmina é voltada à investigação de doença de Wilson, irrelevante nesta faixa etária e apresentação. A cintilografia óssea não tem qualquer papel na investigação de demência.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual a conduta mais apropriada para o manejo inicial dos sintomas cognitivos?",
+          "alternativas": {
+            "d": "Inibidor da acetilcolinesterase (ex.: donepezila)",
+            "a": "Benzodiazepínico de uso contínuo",
+            "b": "Antipsicótico atípico em dose regular",
+            "c": "Memantina isolada como primeira escolha em fase leve"
+          },
+          "correta": "d",
+          "comentario": "Os inibidores da acetilcolinesterase (donepezila, rivastigmina, galantamina) são a primeira linha para o tratamento dos sintomas cognitivos na doença de Alzheimer leve a moderada, atuando sobre o déficit colinérgico central. Antipsicóticos atípicos carregam alerta de aumento de mortalidade e risco cerebrovascular em idosos com demência, sendo reservados com cautela para sintomas comportamentais graves refratários a medidas não farmacológicas — não indicados para os sintomas cognitivos isoladamente. Benzodiazepínicos pioram a cognição, aumentam o risco de quedas e devem ser evitados em pacientes com demência. A memantina, antagonista NMDA, costuma ser reservada para fases moderadas a graves ou associada aos inibidores da colinesterase, não sendo a primeira escolha isolada na fase leve.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Cefaleias (enxaqueca com aura prolongada)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 32 anos, com história de enxaqueca com aura visual desde a adolescência, procura atendimento porque, no episódio atual, o escotoma cintilante e a parestesia em face e mão direita persistiram por 90 minutos antes da instalação da cefaleia pulsátil hemicraniana, associada a náusea e fotofobia. Refere que os episódios anteriores de aura duravam sempre menos de 30 minutos.",
+      "perguntas": [
+        {
+          "enunciado": "Qual a definição temporal que caracteriza esta aura como prolongada?",
+          "alternativas": {
+            "d": "Duração superior a 60 minutos",
+            "a": "Duração superior a 15 minutos",
+            "b": "Duração superior a 24 horas",
+            "c": "Duração inferior a 5 minutos"
+          },
+          "correta": "d",
+          "comentario": "A aura típica na enxaqueca dura entre 5 e 60 minutos; quando ultrapassa 60 minutos, é classificada como aura prolongada, categoria que exige atenção especial por levantar suspeita de infarto migranoso ou de causa estrutural, sobretudo quando representa mudança do padrão habitual do paciente — exatamente o caso, em que a aura excedeu 90 minutos frente a episódios prévios sempre inferiores a 30 minutos. Superior a 15 minutos ainda está dentro da faixa normal de aura típica, não caracterizando prolongamento. Superior a 24 horas descreveria uma entidade distinta (aura persistente sem infarto, definida por critérios próprios de duração ainda maior). Inferior a 5 minutos sequer preenche os critérios mínimos de uma aura típica.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Diante da mudança no padrão da aura, qual conduta diagnóstica adicional é obrigatória?",
+          "alternativas": {
+            "c": "Investigação por neuroimagem para excluir infarto migranoso ou outra causa estrutural",
+            "a": "Punção lombar de rotina",
+            "b": "Eletroencefalograma de urgência",
+            "d": "Nenhum exame adicional é necessário, tratando-se apenas de variante do padrão habitual"
+          },
+          "correta": "c",
+          "comentario": "Uma aura prolongada, especialmente quando representa mudança em relação ao padrão prévio do paciente, constitui sinal de alarme que exige investigação por neuroimagem (preferencialmente ressonância magnética) para excluir infarto migranoso ou uma causa estrutural secundária (acidente vascular cerebral, malformação arteriovenosa, lesão expansiva) antes de atribuir o quadro apenas à enxaqueca. Não é apropriado assumir benignidade sem investigação diante dessa mudança de padrão. O eletroencefalograma não é o exame de escolha para avaliação de aura enxaquecosa, sendo mais útil quando há suspeita de crise epiléptica como diagnóstico diferencial. A punção lombar de rotina não está indicada na ausência de sinais de infecção, hemorragia subaracnóidea ou hipertensão intracraniana.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual fármaco é o mais adequado para o tratamento agudo deste episódio, considerando a duração prolongada da aura?",
+          "alternativas": {
+            "c": "Analgésico/anti-inflamatório não hormonal, evitando triptanos durante a fase de aura prolongada",
+            "a": "Sumatriptano subcutâneo imediatamente no início da aura",
+            "b": "Ergotamina oral",
+            "d": "Opioide potente como primeira escolha"
+          },
+          "correta": "c",
+          "comentario": "Triptanos e ergotamínicos são vasoconstritores e, por precaução teórica de risco isquêmico, costumam ser evitados durante a fase de aura, especialmente quando prolongada ou atípica — nesses casos, um anti-inflamatório não hormonal é opção mais segura para o tratamento agudo. O sumatriptano subcutâneo é eficaz para o tratamento da crise de enxaqueca típica, mas seu uso durante uma aura prolongada é justamente a armadilha desta questão, pela preocupação vasoconstritora nesse contexto específico. A ergotamina oral tem perfil vasoconstritor ainda mais pronunciado, reforçando a mesma preocupação. Opioides não são primeira linha no tratamento da enxaqueca, pelo risco de dependência e de cefaleia por uso excessivo de medicação, ficando reservados a situações refratárias.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Emergências (Síndrome da Morte Súbita do Lactente)",
+      "tier": "ALTO",
+      "vinheta": "Lactente de 3 meses, previamente hígido, nascido a termo, é encontrado sem vida no berço pela manhã pela mãe, que relata tê-lo colocado para dormir em decúbito ventral na noite anterior, em ambiente aquecido com uso de cobertor pesado. Mãe tabagista durante toda a gestação. Não havia sinais de trauma ou doença prévia. Necropsia completa e investigação da cena da morte não identificaram causa específica para o óbito.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico mais adequado diante da ausência de causa identificável após investigação completa?",
+          "alternativas": {
+            "d": "Síndrome da Morte Súbita do Lactente (SMSL)",
+            "a": "Cardiopatia congênita não diagnosticada",
+            "b": "Sepse fulminante não diagnosticada",
+            "c": "Asfixia mecânica intencional"
+          },
+          "correta": "d",
+          "comentario": "A SMSL é diagnóstico de exclusão, definido como morte súbita e inesperada de lactente menor de 12 meses que permanece sem explicação mesmo após investigação completa — necropsia detalhada, revisão da história clínica e investigação da cena do óbito — exatamente o que o enunciado descreve. A asfixia mecânica intencional exigiria achados específicos de lesão ou evidência de intencionalidade, ausentes na descrição; trata-se de categoria diagnóstica diferente, que não deve ser presumida sem evidência concreta. Sepse fulminante e cardiopatia congênita, se presentes, costumam deixar achados identificáveis à necropsia (sinais de infecção sistêmica, alterações estruturais cardíacas), os quais, por definição do enunciado, não foram encontrados.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Quais fatores de risco presentes na história estão classicamente associados à síndrome?",
+          "alternativas": {
+            "c": "Posição prona para dormir, tabagismo materno na gestação e superaquecimento do ambiente",
+            "a": "Parto cesariano eletivo e macrossomia fetal",
+            "b": "Aleitamento materno exclusivo e sono em berço próprio",
+            "d": "Idade materna avançada e pós-maturidade"
+          },
+          "correta": "c",
+          "comentario": "Os fatores de risco clássicos e modificáveis da SMSL incluem posição prona ao dormir, tabagismo materno durante a gestação, superaquecimento/excesso de roupas de cama e prematuridade — todos presentes nesta vinheta (decúbito ventral, tabagismo gestacional, cobertor pesado em ambiente aquecido). Idade materna avançada e pós-maturidade não são fatores de risco classicamente estabelecidos para a síndrome. Parto cesariano eletivo e macrossomia fetal também não constam entre os fatores de risco reconhecidos. Pelo contrário, aleitamento materno exclusivo e sono em berço próprio no mesmo quarto dos pais (sem compartilhar a cama) são fatores PROTETORES, e não de risco — alternativa propositalmente invertida.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Em qual faixa etária a incidência da síndrome é classicamente mais elevada?",
+          "alternativas": {
+            "c": "Entre 2 e 4 meses de vida",
+            "a": "Entre 9 e 12 meses de vida",
+            "b": "Entre 6 e 9 meses de vida",
+            "d": "No primeiro mês de vida (período neonatal)"
+          },
+          "correta": "c",
+          "comentario": "O pico de incidência da SMSL ocorre classicamente entre 2 e 4 meses de vida — compatível com o lactente de 3 meses do caso —, período relacionado à maturação ainda incompleta dos mecanismos autonômicos de despertar e controle cardiorrespiratório. A síndrome é rara no período neonatal (primeiro mês) e sua incidência declina progressivamente após os 6 meses, tornando-se pouco frequente entre 9 e 12 meses. Vale reforçar, como ponto de saúde coletiva, que os Comitês de Prevenção do Óbito Infantil e Fetal atuam em nível estadual, municipal e também hospitalar na investigação e prevenção desses casos.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nutrição (raquitismo carencial)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Lactente de 14 meses, iniciou marcha há 2 meses, é trazido por deformidade progressiva dos membros inferiores, notada pelos pais como 'pernas tortas' (arqueamento). Relato de exposição solar mínima (família residindo em apartamento, uso constante de protetor solar) e dieta pobre em produtos lácteos. Ao exame: geno varo bilateral, alargamento das epífises de punhos, baixa estatura desproporcional para a idade. Exames laboratoriais: cálcio sérico normal-baixo, fósforo sérico reduzido, fosfatase alcalina marcadamente elevada, aminoacidúria presente na urina.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico mais provável diante do quadro clínico e laboratorial?",
+          "alternativas": {
+            "b": "Raquitismo carencial por deficiência de vitamina D",
+            "a": "Hipofosfatemia genética ligada ao X",
+            "c": "Osteogênese imperfeita",
+            "d": "Displasia esquelética congênita"
+          },
+          "correta": "b",
+          "comentario": "A associação de fatores de risco clássicos (exposição solar mínima, dieta pobre em laticínios), deformidade que surge após o início da marcha, geno varo, alargamento epifisário de punhos, baixa estatura desproporcional e o padrão laboratorial característico — cálcio normal-baixo, fósforo baixo, fosfatase alcalina muito elevada e aminoacidúria — define o raquitismo carencial por deficiência de vitamina D. A hipofosfatemia genética ligada ao X também cursa com fósforo baixo, mas tipicamente sem aminoacidúria e sem resposta à reposição usual de vitamina D, diferenciando-se laboratorial e terapeuticamente. A displasia esquelética congênita costuma manifestar-se desde o nascimento com padrão radiográfico próprio, não como deformidade adquirida por carência nutricional. A osteogênese imperfeita cursa com fragilidade óssea, fraturas de repetição e esclera azulada, não com o padrão laboratorial descrito.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual achado laboratorial é fundamental para diferenciar esta condição da hipofosfatemia genética primária?",
+          "alternativas": {
+            "d": "Presença de aminoacidúria associada à resposta terapêutica à vitamina D",
+            "a": "Presença de geno varo ao exame físico",
+            "b": "Idade de início dos sintomas",
+            "c": "Nível de fosfatase alcalina isoladamente"
+          },
+          "correta": "d",
+          "comentario": "Embora ambas as condições cursem com fósforo sérico baixo, o raquitismo carencial classicamente apresenta aminoacidúria (secundária ao hiperparatireoidismo secundário que afeta o túbulo proximal) e responde bem à reposição usual de vitamina D — enquanto a hipofosfatemia genética ligada ao X (mutação do gene PHEX) não cursa com aminoacidúria relevante e não responde às doses habituais de vitamina D, exigindo tratamento específico com fosfato e calcitriol (ou burosumabe). A fosfatase alcalina pode estar elevada em ambas as condições, não sendo o diferenciador isolado. O geno varo também ocorre nas duas entidades. A idade de início se sobrepõe entre as duas condições e não é critério confiável de diferenciação isolada.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual o tratamento mais adequado para esta condição?",
+          "alternativas": {
+            "a": "Reposição com calcitriol ou colecalciferol (vitamina D ativa/precursora) associada a cálcio",
+            "b": "Reposição isolada de fosfato oral",
+            "c": "Cirurgia corretiva imediata da deformidade óssea",
+            "d": "Suplementação isolada de ferro e ácido fólico"
+          },
+          "correta": "a",
+          "comentario": "O tratamento do raquitismo carencial baseia-se na reposição de vitamina D (colecalciferol/ergocalciferol, ou calcitriol em situações específicas) associada a cálcio adequado — as deformidades ósseas costumam melhorar ou resolver espontaneamente com o tratamento clínico em crianças ainda em crescimento, dado o potencial de remodelação óssea. A reposição isolada de fosfato seria o tratamento da hipofosfatemia genética, não do raquitismo carencial, cuja deficiência primária é de vitamina D. A cirurgia corretiva imediata não é a conduta inicial, sendo reservada para deformidades residuais graves após a maturidade esquelética, quando o tratamento clínico foi insuficiente. A suplementação isolada de ferro e ácido fólico não tem relação com a mineralização óssea neste contexto.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Transtornos do Neurodesenvolvimento (enurese noturna)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menino de 7 anos é trazido pela mãe por perda involuntária de urina durante o sono, ocorrendo quase todas as noites desde sempre, sem período prévio de controle vesical noturno adequado. Nega sintomas urinários diurnos, constipação ou alterações do jato urinário. Exame físico e urina rotina normais. Desenvolvimento neuropsicomotor adequado para a idade.",
+      "perguntas": [
+        {
+          "enunciado": "Qual a classificação correta do quadro descrito?",
+          "alternativas": {
+            "b": "Enurese noturna monossintomática primária",
+            "a": "Incontinência urinária diurna funcional",
+            "c": "Enurese noturna secundária",
+            "d": "Bexiga hiperativa"
+          },
+          "correta": "b",
+          "comentario": "A enurese é classificada como primária quando a criança nunca alcançou um período consistente de controle vesical noturno, como no caso ('desde sempre'), e como monossintomática quando não há sintomas do trato urinário inferior diurnos associados (aqui ausentes: sem sintomas diurnos, constipação ou alteração do jato). A enurese secundária pressupõe um período prévio de controle adequado (geralmente ≥6 meses seco) seguido de recidiva, o que não é o caso aqui. A incontinência urinária diurna funcional e a bexiga hiperativa envolvem, por definição, sintomas DIURNOS, explicitamente ausentes nesta vinheta.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Qual a evolução esperada da maioria dos casos semelhantes a este, sem tratamento específico?",
+          "alternativas": {
+            "a": "Resolução espontânea até o final da adolescência na maior parte dos casos",
+            "b": "Associação obrigatória com distúrbio psiquiátrico subjacente",
+            "c": "Necessidade obrigatória de intervenção cirúrgica",
+            "d": "Progressão inevitável para incontinência urinária na vida adulta"
+          },
+          "correta": "a",
+          "comentario": "A enurese noturna monossintomática primária tem taxa de resolução espontânea elevada, com a maioria das crianças alcançando continência até o final da adolescência, sendo a orientação e o acolhimento familiar parte essencial do manejo inicial. Não há progressão inevitável para incontinência na vida adulta — a evolução natural é francamente favorável. A cirurgia não tem qualquer papel no manejo da enurese monossintomática isolada. Embora o impacto psicossocial (autoestima, socialização) deva ser considerado e acolhido, a presença de um transtorno psiquiátrico subjacente não é uma associação obrigatória nem esperada na maioria dos casos.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Caso opte-se por tratamento farmacológico devido a impacto psicossocial significativo, quais são as opções descritas como primeira linha medicamentosa?",
+          "alternativas": {
+            "c": "Desmopressina ou imipramina, associadas a medidas comportamentais",
+            "a": "Antibioticoterapia profilática contínua",
+            "b": "Corticoterapia sistêmica",
+            "d": "Anticolinérgico isolado sem medidas comportamentais associadas"
+          },
+          "correta": "c",
+          "comentario": "As medidas comportamentais (restrição hídrica noturna, rotina miccional, alarme sensor de umidade) são a base do tratamento; quando indicada terapia farmacológica adicional, a desmopressina (reduz o volume urinário noturno) e a imipramina (antidepressivo tricíclico, opção de segunda linha pelo risco de cardiotoxicidade em superdosagem) são as opções classicamente descritas, sempre associadas — não em substituição — às medidas comportamentais. A antibioticoprofilaxia contínua não tem indicação na ausência de infecção urinária de repetição. O uso de anticolinérgico isolado, sem medidas comportamentais associadas, não é a abordagem padrão, sendo esses fármacos mais relacionados ao componente de urgência/bexiga hiperativa, não ao caso monossintomático descrito. A corticoterapia sistêmica não tem qualquer papel neste contexto.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Endocrinologia (estatura-alvo genética)",
+      "tier": "ALTO",
+      "vinheta": "Menina de 9 anos é encaminhada por baixa estatura, com altura atualmente no percentil 3 para idade e sexo, velocidade de crescimento normal para a idade, idade óssea compatível com a idade cronológica. Pai mede 1,62 m e mãe mede 1,50 m. Exame físico sem dismorfismos, puberdade ainda não iniciada (Tanner 1), compatível com a idade.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o cálculo correto da estatura-alvo genética prevista para esta paciente?",
+          "alternativas": {
+            "a": "Aproximadamente 149,5 cm, com margem de ± 8,5 cm",
+            "b": "Aproximadamente 156 cm, sem margem de variação",
+            "c": "Aproximadamente 140 cm, com margem de ± 15 cm",
+            "d": "Aproximadamente 165 cm, com margem de ± 8,5 cm"
+          },
+          "correta": "a",
+          "comentario": "A fórmula da estatura-alvo genética para meninas é [(estatura do pai − 13) + estatura da mãe] / 2, com margem de ± 8,5 cm: [(162 − 13) + 150] / 2 = [149 + 150] / 2 = 149,5 cm. As demais alternativas representam erros de cálculo da fórmula ou uso de margem incorreta — a margem de ± 8,5 cm é o valor padronizado a ser memorizado e aplicado corretamente, não um valor arbitrário ou omitido.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Diante da estatura atual no percentil 3, velocidade de crescimento normal e idade óssea compatível com a cronológica, qual a interpretação mais adequada?",
+          "alternativas": {
+            "d": "Baixa estatura familiar, provavelmente compatível com o potencial genético calculado",
+            "a": "Atraso constitucional do crescimento e da puberdade",
+            "b": "Hipotireoidismo adquirido",
+            "c": "Deficiência de hormônio do crescimento"
+          },
+          "correta": "d",
+          "comentario": "A combinação de velocidade de crescimento normal, idade óssea compatível com a idade cronológica (não atrasada) e estatura baixa compatível com a estatura-alvo calculada a partir de pais também baixos configura baixa estatura familiar — variante do normal, não uma condição patológica. A deficiência de hormônio de crescimento tipicamente cursa com REDUÇÃO da velocidade de crescimento e ATRASO da idade óssea em relação à cronológica, padrão diferente do descrito. O atraso constitucional do crescimento e da puberdade classicamente apresenta idade óssea ATRASADA em relação à cronológica e história familiar de 'desenvolvimento tardio', não o padrão de idade óssea concordante encontrado aqui. O hipotireoidismo adquirido cursaria com redução da velocidade de crescimento, atraso de idade óssea e outros sinais clínicos (fadiga, constipação), ausentes no caso.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual conduta é mais apropriada neste momento?",
+          "alternativas": {
+            "c": "Acompanhamento clínico periódico com curva de crescimento, sem necessidade de investigação hormonal extensa neste momento",
+            "a": "Iniciar hormônio de crescimento recombinante imediatamente",
+            "b": "Investigação cariotípica obrigatória independente da história familiar",
+            "d": "Encaminhamento imediato para cirurgia de alongamento ósseo"
+          },
+          "correta": "c",
+          "comentario": "Diante de baixa estatura familiar com velocidade de crescimento normal e idade óssea concordante com a cronológica, compatível com a estatura-alvo calculada, a conduta apropriada é o acompanhamento clínico periódico com monitorização da curva de crescimento, reservando investigação adicional para caso surjam sinais de alerta (queda da velocidade de crescimento, discordância com o alvo genético). A reposição de hormônio de crescimento não está indicada na ausência de deficiência documentada. A investigação cariotípica (rastreio de síndrome de Turner, por exemplo) é indicada diante de dismorfismos ou estatura discordante da história familiar, ausentes neste caso. O alongamento ósseo cirúrgico é conduta extrema e não pertinente nesta fase, tampouco indicada para variante normal de estatura.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Infecciosas (bronquiolite viral aguda)",
+      "tier": "ALTO",
+      "vinheta": "Lactente de 4 meses, previamente hígido, apresenta há 2 dias coriza, tosse e, nas últimas 12 horas, taquipneia progressiva e sibilância audível. Ao exame: frequência respiratória de 58 irpm, tiragem subcostal leve, saturação de oxigênio em ar ambiente de 94%, sibilos difusos bilaterais à ausculta, sem toxemia. Este é o primeiro episódio de sibilância da criança, em período de maior circulação de vírus respiratórios.",
+      "perguntas": [
+        {
+          "enunciado": "Qual o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Bronquiolite viral aguda",
+            "b": "Crise de asma",
+            "c": "Coqueluche",
+            "d": "Pneumonia bacteriana"
+          },
+          "correta": "a",
+          "comentario": "O primeiro episódio de sibilância em lactente menor de 2 anos, precedido de pródromo catarral, ocorrendo em período de maior circulação viral e com sibilos difusos bilaterais e taquipneia, é o quadro típico de bronquiolite viral aguda. A crise de asma, nessa faixa etária e como primeiro episódio, não é o diagnóstico mais adequado — o rótulo de asma pressupõe padrão recorrente e é evitado como primeira hipótese em lactentes pequenos. A pneumonia bacteriana costuma cursar com maior toxemia, febre mais alta e achados focais à ausculta, diferente do padrão difuso descrito. A coqueluche caracteriza-se por tosse paroxística, guincho inspiratório e vômitos pós-tosse, não pelo padrão de sibilância difusa e dessaturação leve descrito.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Qual o agente etiológico mais frequentemente implicado neste quadro?",
+          "alternativas": {
+            "a": "Vírus sincicial respiratório (VSR)",
+            "b": "Mycoplasma pneumoniae",
+            "c": "Bordetella pertussis",
+            "d": "Streptococcus pneumoniae"
+          },
+          "correta": "a",
+          "comentario": "O vírus sincicial respiratório é o agente etiológico mais comum da bronquiolite viral aguda em lactentes, especialmente no padrão epidemiológico clássico descrito. O Mycoplasma pneumoniae está mais associado a pneumonias atípicas em crianças maiores e adolescentes, não ao quadro clássico de bronquiolite do lactente. A Bordetella pertussis é o agente da coqueluche, com apresentação clínica distinta. O Streptococcus pneumoniae é patógeno bacteriano associado a pneumonia, otite e outras infecções, não sendo o agente típico da bronquiolite viral.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Qual a conduta terapêutica mais adequada neste momento?",
+          "alternativas": {
+            "b": "Suporte clínico (hidratação, desobstrução nasal, monitorização), sem broncodilatador ou antibiótico de rotina",
+            "a": "Antibioticoterapia empírica de amplo espectro",
+            "c": "Broncodilatador inalatório de rotina associado a corticoide sistêmico",
+            "d": "Nebulização com adrenalina racêmica de rotina em todos os casos leves"
+          },
+          "correta": "b",
+          "comentario": "As diretrizes atuais recomendam suporte clínico como conduta principal na bronquiolite viral aguda — desobstrução nasal, hidratação adequada, oxigenoterapia se houver hipoxemia e monitorização — sem uso rotineiro de broncodilatadores inalatórios ou corticoide sistêmico, já que estudos não demonstram benefício consistente dessas medidas na maioria dos casos, apesar de ainda serem usadas na prática por hábito (essa é justamente a armadilha da questão, testando conhecimento da diretriz atual e não da prática antiga). Antibioticoterapia não está indicada na ausência de evidência de infecção bacteriana associada, tratando-se de doença viral. A adrenalina racêmica nebulizada não é recomendada de rotina para todos os casos leves, tendo evidência restrita e não sendo conduta padrão universal.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Adolescência (hemorragia uterina disfuncional)",
+      "tier": "MÉDIO",
+      "vinheta": "Adolescente de 13 anos, menarca há 8 meses, procura atendimento com a mãe por sangramento menstrual volumoso e prolongado (durando 10 dias), trocando absorvente a cada 1-2 horas, com ciclos irregulares desde a menarca (intervalos variando de 20 a 45 dias). Nega atividade sexual, uso de medicações ou histórico familiar de coagulopatia. Exame físico sem alterações, estadiamento puberal Tanner 3, sem sinais de hiperandrogenismo.",
+      "perguntas": [
+        {
+          "enunciado": "Qual a causa mais provável do sangramento uterino anormal nesta faixa etária e tempo desde a menarca?",
+          "alternativas": {
+            "a": "Ciclo anovulatório por imaturidade do eixo hipotálamo-hipófise-ovário",
+            "b": "Síndrome dos ovários policísticos estabelecida",
+            "c": "Miomatose uterina",
+            "d": "Endometriose pélvica"
+          },
+          "correta": "a",
+          "comentario": "Nos primeiros um a dois anos após a menarca, ciclos anovulatórios decorrentes da imaturidade do eixo hipotálamo-hipófise-ovário (sem pico de LH consistente) são a causa mais comum de sangramento uterino volumoso e irregular em adolescentes, padrão compatível com os intervalos variáveis (20 a 45 dias) descritos. Miomatose uterina e endometriose são condições predominantemente da mulher adulta em idade reprodutiva, raras e pouco prováveis tão precocemente após a menarca. A síndrome dos ovários policísticos como diagnóstico estabelecido exige critérios mais sustentados no tempo e, tipicamente, sinais de hiperandrogenismo, ausentes neste caso — o ciclo anovulatório fisiológico da adolescência recente é a explicação mais direta e frequente.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual é o principal diagnóstico diferencial de coagulopatia que deve ser excluído nesta faixa etária?",
+          "alternativas": {
+            "d": "Doença de von Willebrand",
+            "a": "Púrpura trombocitopênica idiopática",
+            "b": "Hemofilia A",
+            "c": "Deficiência de fator XIII"
+          },
+          "correta": "d",
+          "comentario": "A doença de von Willebrand é o distúrbio hemorrágico hereditário mais prevalente na população geral e a coagulopatia mais frequentemente identificada em adolescentes com sangramento menstrual volumoso sem outra causa aparente, devendo ser ativamente rastreada (história pessoal/familiar de sangramento, exames de triagem de coagulação) na investigação. A hemofilia A tem herança recessiva ligada ao X e acomete quase exclusivamente indivíduos do sexo masculino, não sendo o diagnóstico esperado numa adolescente. A púrpura trombocitopênica idiopática cursa tipicamente com petéquias e equimoses disseminadas associadas à plaquetopenia, sendo menos especificamente associada ao sangramento menstrual isolado como a principal coagulopatia a rastrear. A deficiência de fator XIII é extremamente rara, não sendo prioridade de rastreio nesse contexto.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Diante do sangramento volumoso atual, qual a conduta mais apropriada?",
+          "alternativas": {
+            "c": "Avaliação laboratorial (hemograma, ferritina, triagem de coagulopatia) e terapia hormonal para controle do sangramento, conforme gravidade",
+            "a": "Histerectomia em caráter de urgência",
+            "b": "Conduta expectante isolada, sem avaliação laboratorial, por se tratar de achado esperado nesta idade",
+            "d": "Curetagem uterina como primeira conduta"
+          },
+          "correta": "c",
+          "comentario": "A conduta padrão envolve avaliar a repercussão do sangramento (hemograma, ferritina) e rastrear coagulopatia (dada a prevalência de doença de von Willebrand nessa população), associando terapia hormonal (contraceptivos combinados ou progestagênios, conforme gravidade e contraindicações) para controlar o sangramento agudo e regularizar os ciclos — condutas cirúrgicas ficam reservadas a casos raros e refratários. A histerectomia nunca é apropriada numa adolescente para essa condição benigna e habitualmente manejável clinicamente. A conduta puramente expectante, sem qualquer avaliação laboratorial, arrisca não identificar anemia significativa ou uma coagulopatia de base — inadequada diante do volume e da duração do sangramento descritos. A curetagem uterina não é conduta de primeira linha em adolescentes, sendo reservada a casos raros não responsivos ao tratamento clínico, e o manejo medicamentoso é a abordagem inicial preferida nessa faixa etária.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nutrição (proctocolite alérgica)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Lactente de 6 semanas, em aleitamento materno exclusivo, é trazido por episódios de fezes com raias de sangue vivo e muco há 5 dias, sem febre, vômitos ou irritabilidade importante. Ganho ponderal adequado, exame físico sem alterações relevantes, sem fissura anal identificável ao exame proctológico cuidadoso. Mãe nega mudanças recentes na própria dieta, mas consome laticínios regularmente.",
+      "perguntas": [
+        {
+          "enunciado": "Qual a hipótese diagnóstica mais provável?",
+          "alternativas": {
+            "b": "Proctocolite alérgica induzida por proteína alimentar",
+            "a": "Fissura anal",
+            "c": "Infecção bacteriana entérica",
+            "d": "Invaginação intestinal"
+          },
+          "correta": "b",
+          "comentario": "Fezes com raias de sangue vivo e muco em lactente em aleitamento materno exclusivo, com bom estado geral, ganho ponderal adequado e ausência de fissura anal ao exame cuidadoso, é o quadro clássico de proctocolite alérgica — reação imune a proteínas da dieta materna (mais comumente a proteína do leite de vaca) transmitidas pelo leite materno. A fissura anal foi ativamente afastada pelo exame proctológico descrito no enunciado. A invaginação intestinal cursa com dor em cólica, fezes em 'geleia de framboesa', massa palpável e comprometimento do estado geral, quadro bem mais grave e diferente do descrito. A infecção bacteriana entérica costuma cursar com febre e sintomas sistêmicos mais evidentes, não com esse padrão benigno e bem tolerado.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Qual proteína alimentar é a mais frequentemente implicada nesta condição?",
+          "alternativas": {
+            "d": "Proteína do leite de vaca",
+            "a": "Proteína do ovo",
+            "b": "Glúten",
+            "c": "Proteína da soja isoladamente, sem relação com leite de vaca"
+          },
+          "correta": "d",
+          "comentario": "A proteína do leite de vaca, ingerida pela mãe e transmitida através do leite materno, é de longe o principal desencadeante da proctocolite alérgica em lactentes amamentados exclusivamente — compatível com o consumo regular de laticínios relatado pela mãe. A proteína do ovo pode ocasionalmente estar envolvida, mas é bem menos frequente como causa principal. O glúten relaciona-se à doença celíaca, entidade clínica distinta, incompatível com a apresentação tão precoce e o mecanismo descrito. A soja é, na verdade, um alérgeno frequentemente reativo em conjunto com a proteína do leite de vaca (reatividade cruzada), não uma causa isolada e independente — por isso essa alternativa está formulada de forma propositalmente incorreta.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual a conduta mais adequada?",
+          "alternativas": {
+            "b": "Exclusão de leite de vaca e derivados da dieta materna, mantendo o aleitamento materno",
+            "a": "Investigação cirúrgica imediata",
+            "c": "Antibioticoterapia empírica",
+            "d": "Suspensão do aleitamento materno com substituição por fórmula infantil padrão"
+          },
+          "correta": "b",
+          "comentario": "O manejo consiste em excluir o leite de vaca e seus derivados da dieta MATERNA, mantendo o aleitamento materno, que continua sendo a melhor forma de nutrição para o lactente — os sintomas tendem a resolver com o ajuste da dieta materna, sem necessidade de interromper a amamentação. Substituir o aleitamento materno por fórmula infantil padrão não resolveria o problema, pois as fórmulas convencionais também são à base de proteína do leite de vaca, além de retirar desnecessariamente os benefícios do leite materno; se uma fórmula fosse necessária, precisaria ser extensamente hidrolisada ou à base de aminoácidos, não padrão. A antibioticoterapia não tem indicação, pois não se trata de processo infeccioso. A investigação cirúrgica não é pertinente diante de um quadro benigno e autolimitado, sem sinais de abdome cirúrgico.",
+          "dificuldade": "dificil"
+        }
+      ]
+    }
+  ]
+}
