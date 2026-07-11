@@ -47,6 +47,9 @@
   .opt.incorrect{background:var(--red-bg); border-color:var(--red);}
   .opt.incorrect .letra{background:var(--red);}
   .opt.locked{cursor:default;}
+  .opt.selected{background:#e7eef6; border-color:var(--navy);}
+  .opt.selected .letra{background:var(--navy);}
+  .comment .wait-note{color:#667085; font-style:italic;}
   .comment{display:none; margin-top:12px; padding:12px 14px; border-radius:8px; background:#f7f9fc; border-left:4px solid var(--blue); font-size:.89rem; color:var(--text);}
   .comment.show{display:block; animation:fade .3s ease;}
   @keyframes fade{from{opacity:0; transform:translateY(-4px);} to{opacity:1; transform:translateY(0);}}
@@ -138,6 +141,7 @@ let currentUser = null;
 let quizData = null;
 let questions = [];
 let answered = {};
+let blocks = [];
 
 function progressKey(){
   return `np_progress_${quizData.date}_${currentUser}`;
@@ -262,14 +266,19 @@ async function carregarSimulado(){
 
 function montarQuestions(){
   questions = [];
+  blocks = [];
   quizData.blocos.forEach(b=>{
+    const idxs = [];
     b.perguntas.forEach(p=>{
+      idxs.push(questions.length);
       questions.push({tema:b.tema, tier:b.tier, enunciado:p.enunciado, alternativas:p.alternativas, correta:p.correta, comentario:p.comentario, dificuldade:p.dificuldade || null});
     });
+    blocks.push(idxs);
   });
   if(quizData.avulsa){
     const av = quizData.avulsa;
     questions.push({tema:av.tema, tier:av.tier, enunciado:av.enunciado, alternativas:av.alternativas, correta:av.correta, comentario:av.comentario, dificuldade:av.dificuldade || null, avulsa:true});
+    blocks.push([questions.length - 1]);
   }
 }
 
@@ -323,13 +332,34 @@ function render(){
   }
 }
 
-function applyAnsweredUI(i, letra){
+function blockOf(i){
+  for(const bl of blocks){ if(bl.indexOf(i) !== -1) return bl; }
+  return [i];
+}
+
+// Trava a opção escolhida sem revelar acerto/erro nem comentário.
+function markSelected(i, letra){
+  const card = document.getElementById('q-'+i);
+  if(!card) return;
+  card.querySelectorAll('.opt').forEach(o=>{
+    o.classList.add('locked');
+    if(o.dataset.l === letra) o.classList.add('selected');
+  });
+  const commentEl = document.getElementById('comment-'+i);
+  if(commentEl){
+    commentEl.innerHTML = `<span class="wait-note">Resposta registrada. O comentário e a correção aparecem quando as 3 questões desta situação-problema forem respondidas.</span>`;
+    commentEl.classList.add('show');
+  }
+}
+
+// Revela acerto/erro e comentário de uma questão.
+function revealQuestion(i, letra){
   const q = questions[i];
   const card = document.getElementById('q-'+i);
   if(!card) return;
-  const opts = card.querySelectorAll('.opt');
-  opts.forEach(o=>{
+  card.querySelectorAll('.opt').forEach(o=>{
     o.classList.add('locked');
+    o.classList.remove('selected');
     if(o.dataset.l === q.correta) o.classList.add('correct');
     else if(o.dataset.l === letra) o.classList.add('incorrect');
   });
@@ -339,12 +369,27 @@ function applyAnsweredUI(i, letra){
   commentEl.classList.add('show');
 }
 
+// Quando todas as questões do bloco estão respondidas, revela o bloco inteiro.
+function maybeRevealBlock(i){
+  const bl = blockOf(i);
+  if(bl.every(idx => answered[idx] !== undefined)){
+    bl.forEach(idx => revealQuestion(idx, answered[idx]));
+  }
+}
+
+// Compatibilidade: restaura o estado correto ao recarregar a página.
+function applyAnsweredUI(i, letra){
+  markSelected(i, letra);
+  maybeRevealBlock(i);
+}
+
 function answer(i, letra){
   if(answered[i] !== undefined) return;
   answered[i] = letra;
-  applyAnsweredUI(i, letra);
+  markSelected(i, letra);
   saveProgress();
   updateProgress();
+  maybeRevealBlock(i);
 }
 
 function updateProgress(){
