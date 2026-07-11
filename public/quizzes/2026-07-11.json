@@ -1,0 +1,651 @@
+{
+  "date": "2026-07-11",
+  "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+  "blocos": [
+    {
+      "tema": "Neurologia — Neuroinfecção (neurocisticercose)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 34 anos, natural do interior da Bahia, é levado ao pronto-socorro após primeira crise tônico-clônica generalizada presenciada em casa. Nega febre, cefaleia intensa ou déficit focal. A tomografia de crânio sem contraste evidencia lesões císticas com ponto hiperdenso excêntrico em seu interior, além de pequenas calcificações puntiformes no parênquima.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, identifique a hipótese diagnóstica mais provável.",
+          "alternativas": {
+            "a": "Neurotoxoplasmose",
+            "b": "Abscesso cerebral piogênico",
+            "c": "Neurocisticercose",
+            "d": "Tuberculoma cerebral"
+          },
+          "correta": "c",
+          "comentario": "A neurocisticercose é a causa parasitária mais comum de crise epiléptica adquirida no Brasil e deve ser a primeira hipótese em paciente jovem, procedente de área endêmica, com primeira crise e imagem mostrando cisto com escólex (o ponto hiperdenso excêntrico dentro do cisto) e calcificações parenquimatosas — achado praticamente patognomônico. O tuberculoma tende a formar lesão sólida com realce anelar, geralmente com sintomas sistêmicos de tuberculose e evolução mais arrastada. A neurotoxoplasmose ocorre tipicamente em imunossuprimidos (HIV com CD4 baixo), com múltiplas lesões com realce em anel e edema perilesional importante, não cistos com escólex. O abscesso piogênico cursa com febre, cefaleia e sinais de infecção aguda, com realce anelar de parede espessa. Pérola de prova: cisto + escólex visível = neurocisticercose até prova em contrário.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Especifique o exame que confirma a etiologia do quadro.",
+          "alternativas": {
+            "a": "Hemocultura seriada para germes piogênicos",
+            "b": "Antígeno criptocócico (látex) no líquor",
+            "c": "Pesquisa de BAAR e cultura para micobactéria",
+            "d": "Sorologia específica (ELISA/immunoblot) para cisticercose no soro e líquor"
+          },
+          "correta": "d",
+          "comentario": "A confirmação etiológica da neurocisticercose associa a imagem característica à sorologia específica: o immunoblot (EITB) tem alta sensibilidade e especificidade, e o ELISA no soro e no líquor auxilia, sobretudo nas formas com múltiplas lesões viáveis. Os critérios de Del Brutto combinam achados de imagem, sorologia, clínica e exposição epidemiológica. A pesquisa de BAAR/cultura investiga tuberculose, cujo padrão de imagem e clínica são distintos. O antígeno criptocócico avalia criptococose, típica de imunossuprimidos com meningite subaguda, não cistos com escólex. A hemocultura seria útil em abscesso piogênico/endocardite, contexto clínico diferente. Observação: em lesão única calcificada, a sorologia pode ser negativa, e o diagnóstico apoia-se na imagem e na epidemiologia.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica mais adequada.",
+          "alternativas": {
+            "a": "Apenas anticonvulsivante, sem terapia antiparasitária",
+            "b": "Albendazol, corticoide e anticonvulsivante",
+            "c": "Esquema RIPE por seis meses",
+            "d": "Ressecção cirúrgica imediata de todas as lesões"
+          },
+          "correta": "b",
+          "comentario": "Nas formas com cistos viáveis/em degeneração, o tratamento combina albendazol (antiparasitário) com corticoide — este último essencial para conter a resposta inflamatória desencadeada pela morte do parasita, que pode agravar o edema e as crises — e anticonvulsivante para controle das crises. Tratar só com anticonvulsivante é insuficiente quando há lesões ativas, embora nas lesões apenas calcificadas (inativas) o antiparasitário não seja necessário e o foco seja o controle das crises. A cirurgia é reservada a situações específicas (hidrocefalia, forma racemosa/intraventricular), não como conduta de rotina para todas as lesões. O esquema RIPE trata tuberculose, diagnóstico diferente. Pegadinha clássica: antes de iniciar albendazol, deve-se excluir cisticercose ocular e avaliar hipertensão intracraniana, pela possibilidade de piora inflamatória.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Epilepsia (estado de mal epiléptico)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 25 anos, epiléptica em uso irregular de medicação, é trazida em crise tônico-clônica generalizada contínua. Passados oito minutos da chegada, mantém abalos e não recupera a consciência entre eles. Sinais vitais estáveis, glicemia capilar normal.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, identifique a definição diagnóstica correta.",
+          "alternativas": {
+            "a": "Estado de mal epiléptico",
+            "b": "Síncope convulsiva",
+            "c": "Crise focal com automatismos",
+            "d": "Crise febril complexa"
+          },
+          "correta": "a",
+          "comentario": "Define-se estado de mal epiléptico como crise com duração igual ou superior a 5 minutos, ou crises repetidas sem recuperação da consciência entre elas — conceito operacional (t1 = 5 min) adotado para deflagrar tratamento precoce, já que após esse tempo a crise dificilmente cessa espontaneamente. A crise febril complexa ocorre em crianças pequenas com febre, com duração prolongada ou recorrência em 24h, contexto etário e febril ausentes aqui. A crise focal com automatismos preserva ou altera parcialmente a consciência, sem atividade tônico-clônica generalizada contínua. A síncope convulsiva é breve, autolimitada, com recuperação rápida da consciência e gatilho postural/vasovagal. Pérola: o segundo limiar temporal (t2 ≈ 30 min) marca o risco de lesão neuronal permanente — por isso a urgência do tratamento.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Especifique a medicação de primeira linha para abortar a crise.",
+          "alternativas": {
+            "a": "Benzodiazepínico endovenoso (diazepam ou midazolam)",
+            "b": "Fenitoína endovenosa como primeira escolha",
+            "c": "Propofol em infusão contínua imediata",
+            "d": "Fenobarbital por via oral"
+          },
+          "correta": "a",
+          "comentario": "O tratamento de primeira linha do estado de mal epiléptico é um benzodiazepínico por via endovenosa (diazepam ou midazolam; lorazepam onde disponível), pela rapidez de ação em potencializar o GABA e interromper a crise; se não houver acesso venoso, midazolam intramuscular/nasal é alternativa validada. A fenitoína é droga de segunda linha (controle após o benzodiazepínico), não de abortamento inicial. O fenobarbital oral não tem papel na emergência — a via oral é inadequada em paciente em crise contínua. O propofol em infusão é reservado ao estado de mal refratário, em ambiente de UTI, após falha das linhas anteriores e com via aérea protegida. Pegadinha: subdose de benzodiazepínico é erro comum e perpetua a crise; deve-se usar a dose plena e, se necessário, repetir uma vez.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Indique a conduta caso a crise persista após a primeira linha.",
+          "alternativas": {
+            "a": "Repetir benzodiazepínico indefinidamente",
+            "b": "Administrar manitol endovenoso",
+            "c": "Iniciar fármaco de segunda linha endovenoso (fenitoína, valproato ou levetiracetam)",
+            "d": "Iniciar dieta cetogênica de urgência"
+          },
+          "correta": "c",
+          "comentario": "Se a crise persiste após dose(s) adequada(s) de benzodiazepínico, avança-se para o fármaco de segunda linha endovenoso — fenitoína/fosfenitoína, ácido valproico ou levetiracetam — com dose de ataque, mantendo suporte de vias aéreas e monitorização. Repetir benzodiazepínico indefinidamente eleva o risco de depressão respiratória sem controlar a crise refratária. O manitol trata hipertensão intracraniana/edema, não a crise em si. A dieta cetogênica tem papel em epilepsias refratárias crônicas (e no estado de mal super-refratário como medida adjuvante), jamais como conduta aguda de primeira ou segunda linha. Pérola: sempre investigar e corrigir causas reversíveis (hipoglicemia, distúrbios eletrolíticos, intoxicações, suspensão de fármaco) em paralelo ao escalonamento medicamentoso.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Junção Neuromuscular (miastenia gravis)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 30 anos relata, há três meses, queda das pálpebras e visão dupla que pioram ao longo do dia e melhoram após repouso. Refere ainda cansaço para mastigar no fim das refeições e voz anasalada ao falar por tempo prolongado. Exame com força preservada ao repouso, reflexos normais e sensibilidade intacta.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, identifique a hipótese diagnóstica.",
+          "alternativas": {
+            "a": "Miastenia gravis",
+            "b": "Esclerose lateral amiotrófica",
+            "c": "Síndrome de Guillain-Barré",
+            "d": "Distrofia miotônica"
+          },
+          "correta": "a",
+          "comentario": "A miastenia gravis caracteriza-se por fraqueza flutuante e fatigável da musculatura voluntária, com predileção inicial por músculos oculares (ptose e diplopia) e bulbares (mastigação, deglutição, fala), piorando com o esforço e ao longo do dia e melhorando com repouso — exatamente o padrão descrito, sem alteração sensitiva ou reflexa. A síndrome de Guillain-Barré cursa com fraqueza ascendente arreflexa e frequente comprometimento sensitivo, de instalação em dias, não com fatigabilidade flutuante de meses. A ELA associa sinais de neurônio motor superior e inferior (atrofia, fasciculações, hiperreflexia, Babinski) sem flutuação e sem melhora com repouso. A distrofia miotônica tem fraqueza fixa progressiva, miotonia (dificuldade de relaxamento) e traços sistêmicos (catarata, calvície), sem o padrão fatigável. Pérola: fatigabilidade que piora ao entardecer é a marca semiológica da miastenia.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Especifique o anticorpo mais associado ao diagnóstico.",
+          "alternativas": {
+            "a": "Anticorpo anti-receptor de acetilcolina",
+            "b": "Anticorpo anti-Hu",
+            "c": "Anticorpo anti-aquaporina 4",
+            "d": "Anticorpo anti-gangliosídeo GQ1b"
+          },
+          "correta": "a",
+          "comentario": "O anticorpo anti-receptor de acetilcolina (anti-AChR) é o mais prevalente e específico na miastenia gravis generalizada (positivo na maioria dos casos); quando negativo, pesquisa-se anti-MuSK ou anti-LRP4. O anti-aquaporina 4 define a neuromielite óptica, doença desmielinizante do SNC, não da junção neuromuscular. O anti-GQ1b associa-se à variante de Miller-Fisher da síndrome de Guillain-Barré (oftalmoplegia, ataxia e arreflexia). O anti-Hu é anticorpo onconeural paraneoplásico, ligado a encefalomielite/neuronopatia sensitiva, tipicamente no câncer de pequenas células do pulmão. Pérola de prova: além dos anticorpos, testes eletrofisiológicos (estimulação repetitiva com decremento; jitter aumentado na eletromiografia de fibra única) apoiam o diagnóstico.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta inicial adequada.",
+          "alternativas": {
+            "a": "Riluzol",
+            "b": "Plasmaférese mensal profilática de rotina",
+            "c": "Imunoglobulina como tratamento crônico de primeira linha",
+            "d": "Anticolinesterásico (piridostigmina) e rastreio de timoma com tomografia de tórax"
+          },
+          "correta": "d",
+          "comentario": "O manejo inicial da miastenia gravis combina o anticolinesterásico piridostigmina (alívio sintomático ao aumentar a acetilcolina disponível na fenda) com a investigação obrigatória de timoma por tomografia de tórax, pois a timectomia altera o prognóstico e o timoma pode exigir ressecção. A imunoglobulina (assim como a plasmaférese) é reservada a crises/exacerbações agudas, não como tratamento crônico de manutenção de primeira linha. O riluzol é droga da ELA (prolonga a sobrevida), sem papel na miastenia. A plasmaférese mensal profilática de rotina não é conduta padrão — a imunomodulação de manutenção baseia-se em corticoide e poupadores (azatioprina, micofenolato). Pegadinha: aminoglicosídeos, fluoroquinolonas, macrolídeos e magnésio pioram a transmissão neuromuscular e devem ser evitados.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Transtornos do Movimento (Parkinson idiopático)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 65 anos apresenta, há dois anos, tremor de repouso que começou na mão direita, lentidão para atividades diárias e rigidez à mobilização passiva. Relata constipação de longa data e perda do olfato. Houve melhora clara dos sintomas motores após introdução de levodopa.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, identifique o diagnóstico.",
+          "alternativas": {
+            "a": "Tremor essencial",
+            "b": "Parkinsonismo induzido por fármaco",
+            "c": "Paralisia supranuclear progressiva",
+            "d": "Doença de Parkinson idiopática"
+          },
+          "correta": "d",
+          "comentario": "A doença de Parkinson idiopática é definida pela síndrome rígido-acinética assimétrica (tremor de repouso, bradicinesia e rigidez em roda denteada) com início unilateral e excelente resposta à levodopa, decorrente da degeneração dos neurônios dopaminérgicos da substância negra com depósito de alfa-sinucleína. O parkinsonismo farmacológico surge após uso de bloqueadores dopaminérgicos (metoclopramida, antipsicóticos), costuma ser simétrico e melhora ao suspender o agente — não há esse antecedente aqui. O tremor essencial é tremor de ação/postural (não de repouso), frequentemente bilateral, com história familiar e melhora com álcool, sem bradicinesia. A paralisia supranuclear progressiva cursa com quedas precoces, paralisia do olhar vertical e resposta pobre à levodopa. Pérola: resposta robusta à levodopa reforça fortemente o Parkinson idiopático.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Especifique o conjunto de manifestações não motoras característico.",
+          "alternativas": {
+            "a": "Alucinações visuais precoces e flutuação cognitiva",
+            "b": "Constipação, hiposmia e distúrbio comportamental do sono REM",
+            "c": "Quedas precoces com paralisia do olhar vertical",
+            "d": "Crises oculógiras de repetição"
+          },
+          "correta": "b",
+          "comentario": "As manifestações não motoras clássicas e frequentemente precoces (podendo anteceder o quadro motor em anos) são constipação, hiposmia e o distúrbio comportamental do sono REM — refletindo o acometimento de estruturas não dopaminérgicas segundo a progressão de Braak. Quedas precoces com paralisia do olhar vertical caracterizam a paralisia supranuclear progressiva, um parkinsonismo atípico. Alucinações visuais precoces com flutuação cognitiva sugerem demência com corpos de Lewy, cujo diagnóstico exige demência de início próximo/anterior ao parkinsonismo. Crises oculógiras são típicas do parkinsonismo farmacológico agudo/reações distônicas a bloqueadores dopaminérgicos. Pérola: sintomas não motores impactam muito a qualidade de vida e frequentemente são subvalorizados na prática.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o alvo cirúrgico usual da estimulação cerebral profunda nesta doença.",
+          "alternativas": {
+            "a": "Núcleo rubro",
+            "b": "Núcleo subtalâmico",
+            "c": "Córtex motor primário",
+            "d": "Núcleo caudado"
+          },
+          "correta": "b",
+          "comentario": "A estimulação cerebral profunda na doença de Parkinson tem como alvos consagrados o núcleo subtalâmico e o globo pálido interno, indicada em pacientes com flutuações motoras e discinesias refratárias apesar de tratamento medicamentoso otimizado, preservando a resposta à levodopa como critério de boa seleção. O núcleo rubro não é alvo em Parkinson (participa de vias cerebelo-rubro-espinais e do tremor de Holmes, contexto distinto). O núcleo caudado não é alvo terapêutico da DBS no Parkinson. O córtex motor primário é alvo de estimulação em outros contextos (dor central), não da DBS motora do Parkinson. Pérola: o núcleo subtalâmico permite reduzir a dose de levodopa e as discinesias, enquanto o globo pálido interno tem efeito antidiscinético direto — a escolha considera o perfil de sintomas e cognição do paciente.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Hipertensão Intracraniana e Emergências",
+      "tier": "ALTO",
+      "vinheta": "Homem de 40 anos, vítima de traumatismo cranioencefálico grave em acidente automobilístico, chega com Escala de Coma de Glasgow 6. Ao exame, a pupila direita está dilatada e pouco reativa, a pressão arterial é 190x100 mmHg e a frequência cardíaca, 48 bpm, com respiração irregular.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, identifique o mecanismo responsável pelos achados.",
+          "alternativas": {
+            "a": "Estado pós-ictal prolongado",
+            "b": "Hipertensão intracraniana com herniação uncal",
+            "c": "Choque neurogênico",
+            "d": "Intoxicação exógena por opioide"
+          },
+          "correta": "b",
+          "comentario": "O conjunto rebaixamento importante do nível de consciência, anisocoria com midríase fixa unilateral e a resposta autonômica (hipertensão com bradicardia e respiração irregular) traduz hipertensão intracraniana grave com herniação uncal — a pupila dilatada ipsilateral reflete compressão do III nervo craniano pela borda do tentório. O choque neurogênico cursa com hipotensão e bradicardia (por perda do tônus simpático em lesão medular alta), o oposto da hipertensão observada. A intoxicação por opioide causa miose (pupilas puntiformes) e depressão respiratória, não midríase unilateral com hipertensão. O estado pós-ictal é transitório, sem sinal focal pupilar fixo e sem a resposta de Cushing. Pérola: anisocoria em paciente com TCE e rebaixamento é herniação até prova em contrário — exige ação imediata.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Especifique a tríade clínica presente neste paciente.",
+          "alternativas": {
+            "a": "Tríade de Cushing",
+            "b": "Tríade de Charcot",
+            "c": "Tríade de Whipple",
+            "d": "Tríade de Beck"
+          },
+          "correta": "a",
+          "comentario": "A tríade de Cushing — hipertensão arterial, bradicardia e alteração do padrão respiratório — é a resposta fisiológica à hipertensão intracraniana grave, mediada por reflexo do tronco encefálico na tentativa de manter a pressão de perfusão cerebral, e sinaliza herniação iminente. A tríade de Charcot (febre, icterícia e dor no hipocôndrio direito) indica colangite, contexto abdominal. A tríade de Beck (hipotensão, turgência jugular e abafamento de bulhas) aponta tamponamento cardíaco. A tríade de Whipple relaciona-se à hipoglicemia (sintomas neuroglicopênicos, glicemia baixa documentada e alívio com glicose). Pérola: a tríade de Cushing é um sinal tardio e ominoso; sua presença exige medidas antiedema imediatas e neurocirurgia.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Indique a intervenção inicial de primeira escolha para a hipertensão intracraniana.",
+          "alternativas": {
+            "a": "Punção lombar de alívio imediata",
+            "b": "Medidas gerais: cabeceira a 30°, normocapnia e normovolemia",
+            "c": "Manitol endovenoso imediato como primeira medida",
+            "d": "Hiperventilação agressiva profilática"
+          },
+          "correta": "b",
+          "comentario": "O manejo escalonado da hipertensão intracraniana inicia por medidas gerais que otimizam a drenagem venosa e a perfusão sem efeitos deletérios: cabeceira elevada a 30° com cabeça em posição neutra, controle da dor/agitação, normocapnia, normovolemia e correção de hipóxia/hipotensão. A osmoterapia (manitol ou salina hipertônica) é o próximo degrau, não a primeira medida isolada. A hiperventilação agressiva profilática é contraindicada, pois a vasoconstrição excessiva reduz o fluxo sanguíneo cerebral e agrava a isquemia — reserva-se apenas como medida temporária de resgate na herniação iminente. A punção lombar é formalmente contraindicada na hipertensão intracraniana com efeito de massa, pelo risco de precipitar herniação. Pérola: o alvo é manter a pressão de perfusão cerebral adequada, tratando de forma escalonada.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuropediatria específica (síndrome de West)",
+      "tier": "MÉDIO",
+      "vinheta": "Lactente de 6 meses é levado à consulta porque, há três semanas, apresenta episódios de flexão súbita do tronco e dos membros, em salvas, sobretudo ao acordar. Os pais notaram ainda perda de aquisições que a criança já tinha, como o sorriso social e o sustento cefálico.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, identifique a hipótese diagnóstica.",
+          "alternativas": {
+            "a": "Síndrome de West",
+            "b": "Crise febril simples",
+            "c": "Epilepsia mioclônica juvenil",
+            "d": "Síndrome de Sandifer"
+          },
+          "correta": "a",
+          "comentario": "A síndrome de West é uma encefalopatia epiléptica do lactente definida pela tríade espasmos epilépticos (contrações súbitas em flexão/extensão, em salvas, comuns ao despertar), regressão do desenvolvimento neuropsicomotor e padrão eletrencefalográfico de hipsarritmia. A crise febril simples ocorre entre 6 meses e 5 anos associada à febre, é breve, generalizada e sem regressão do desenvolvimento. A epilepsia mioclônica juvenil manifesta-se na adolescência, com mioclonias matinais e crises tônico-clônicas, não em lactente com regressão. A síndrome de Sandifer é um distúrbio motor associado ao refluxo gastroesofágico (posturas distônicas e torcicolo relacionados às mamadas), sem natureza epiléptica nem hipsarritmia. Pérola: espasmos + regressão + hipsarritmia = West; o reconhecimento precoce muda o prognóstico neurológico.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Especifique o achado eletrencefalográfico característico.",
+          "alternativas": {
+            "a": "Complexo ponta-onda a 3 Hz",
+            "b": "Padrão surto-supressão",
+            "c": "Descargas centrotemporais (rolândicas)",
+            "d": "Hipsarritmia"
+          },
+          "correta": "d",
+          "comentario": "A hipsarritmia é o padrão eletrencefalográfico típico da síndrome de West: atividade caótica, de alta voltagem, com ondas lentas e espículas multifocais assíncronas, desorganizando completamente o traçado. O complexo ponta-onda generalizado a 3 Hz é a marca das crises de ausência típica. O padrão surto-supressão associa-se a encefalopatias graves do recém-nascido, como a síndrome de Ohtahara, ou a coma/anóxia, não à West clássica. As descargas centrotemporais (rolândicas) caracterizam a epilepsia benigna da infância com pontas centrotemporais, de bom prognóstico e sem regressão. Pérola: o vídeo-EEG (idealmente em sono) é fundamental, pois a hipsarritmia pode ser mais evidente durante o sono e confirma o diagnóstico diante da clínica de espasmos.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica de primeira linha.",
+          "alternativas": {
+            "a": "Fenitoína",
+            "b": "Carbamazepina",
+            "c": "Hormônio adrenocorticotrófico (ACTH) ou vigabatrina",
+            "d": "Dieta isenta de glúten"
+          },
+          "correta": "c",
+          "comentario": "O tratamento de primeira linha da síndrome de West é o ACTH (ou corticoide em altas doses) ou a vigabatrina, esta última especialmente indicada quando há esclerose tuberosa associada, sendo o controle precoce dos espasmos e da hipsarritmia determinante para o prognóstico do desenvolvimento. A carbamazepina não só é ineficaz como pode agravar crises generalizadas/espasmos, sendo evitada. A fenitoína não é a droga de escolha para espasmos epilépticos e não trata a hipsarritmia. A dieta isenta de glúten não tem qualquer papel na síndrome de West (a dieta cetogênica, sim, é opção em casos refratários, mas não é dieta sem glúten). Pérola: sempre investigar etiologia (neuroimagem, triagem metabólica, avaliação para esclerose tuberosa), pois a causa orienta a droga preferencial e o prognóstico.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Doença Cerebrovascular (hemorragia subaracnóidea)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 48 anos, com doença renal policística conhecida, apresenta subitamente a pior cefaleia da vida, de início explosivo durante esforço, acompanhada de vômitos e rigidez de nuca. Chega ao pronto-socorro com Glasgow 15 e sem déficit motor focal.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, identifique a hipótese diagnóstica.",
+          "alternativas": {
+            "a": "Enxaqueca sem aura",
+            "b": "Cefaleia tensional",
+            "c": "Meningite bacteriana",
+            "d": "Hemorragia subaracnóidea"
+          },
+          "correta": "d",
+          "comentario": "A cefaleia em trovoada (thunderclap) — dor de intensidade máxima em segundos, a pior da vida, muitas vezes ao esforço — com sinais meníngeos e vômitos é a apresentação clássica da hemorragia subaracnóidea, geralmente por ruptura de aneurisma sacular. A associação com doença renal policística autossômica dominante reforça a hipótese, pela maior prevalência de aneurismas intracranianos nesses pacientes. A enxaqueca instala-se de forma gradual (minutos a horas), é recorrente e estereotipada, sem início explosivo súbito. A meningite bacteriana cursa com febre e evolução em horas/dias, não com dor explosiva instantânea em paciente afebril. A cefaleia tensional é de baixa/moderada intensidade, em aperto/pressão, sem sinais meníngeos ou início ictal. Pérola: toda cefaleia em trovoada deve ser investigada como hemorragia subaracnóidea até prova em contrário.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Especifique o exame inicial de escolha.",
+          "alternativas": {
+            "a": "Eletroencefalograma",
+            "b": "Ressonância ponderada em T1 com gadolínio",
+            "c": "Doppler transcraniano",
+            "d": "Tomografia de crânio sem contraste"
+          },
+          "correta": "d",
+          "comentario": "O exame inicial de escolha na suspeita de hemorragia subaracnóidea é a tomografia de crânio sem contraste, com altíssima sensibilidade nas primeiras 6 horas, evidenciando hiperdensidade nas cisternas da base e fissuras (inter-hemisférica e sylviana). Quando a tomografia é negativa e a suspeita persiste, indica-se punção lombar em busca de xantocromia/hemácias. A ressonância com gadolínio não é o primeiro passo na fase aguda — é menos disponível e menos prática que a TC para sangue agudo. O eletroencefalograma não tem papel diagnóstico na hemorragia subaracnóidea. O Doppler transcraniano é útil no seguimento para detectar vasoespasmo, não no diagnóstico inicial. Pérola: após confirmar o sangramento, a angiotomografia/angiografia localiza o aneurisma para tratamento.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta adequada após a confirmação.",
+          "alternativas": {
+            "a": "Corticoterapia em altas doses",
+            "b": "Anticoagulação plena com heparina",
+            "c": "Trombólise endovenosa com alteplase",
+            "d": "Nimodipino e exclusão do aneurisma por clipagem ou embolização"
+          },
+          "correta": "d",
+          "comentario": "Após confirmar a hemorragia subaracnóidea aneurismática, a conduta inclui o nimodipino (bloqueador de canais de cálcio que reduz o desfecho isquêmico do vasoespasmo cerebral) e a exclusão precoce do aneurisma por clipagem cirúrgica ou embolização endovascular, prevenindo o ressangramento — complicação de altíssima letalidade. A trombólise com alteplase é conduta do AVC isquêmico e é absolutamente contraindicada em hemorragia, pois agravaria o sangramento. A anticoagulação plena está contraindicada pelo mesmo motivo. A corticoterapia em altas doses não faz parte do tratamento padrão da hemorragia subaracnóidea. Pérola: gradua-se a gravidade por Hunt-Hess (clínica) e Fisher (sangue na TC), que orientam prognóstico e risco de vasoespasmo.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Cefaleias (cefaleia em salvas)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 35 anos relata crises de dor excruciante ao redor do olho esquerdo, com duração de 20 a 30 minutos, que se repetem várias vezes ao dia, muitas à noite. Durante as crises, há lacrimejamento e obstrução nasal do mesmo lado, e o paciente fica agitado, sem conseguir ficar parado.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, identifique o diagnóstico.",
+          "alternativas": {
+            "a": "Neuralgia do trigêmeo",
+            "b": "Enxaqueca sem aura",
+            "c": "Cefaleia em salvas",
+            "d": "Cefaleia tensional"
+          },
+          "correta": "c",
+          "comentario": "A cefaleia em salvas (cluster) é uma cefaleia trigêmino-autonômica marcada por dor orbitária/periorbitária unilateral, muito intensa, de curta duração (15 a 180 minutos), com alta frequência (até várias por dia), predomínio noturno e sintomas autonômicos ipsilaterais (lacrimejamento, congestão/rinorreia, ptose/miose), além de inquietação/agitação motora durante a crise. A enxaqueca dura de horas a dias, associa-se a fotofobia/fonofobia e náuseas, e o paciente prefere repouso no escuro — não a agitação típica da salva. A neuralgia do trigêmeo produz choques de segundos deflagrados por estímulos na face, sem sintomas autonômicos proeminentes. A cefaleia tensional é bilateral, em aperto, de intensidade leve a moderada, sem fenômenos autonômicos. Pérola: a inquietação motora ajuda a diferenciar a salva da enxaqueca.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Especifique o tratamento da crise aguda.",
+          "alternativas": {
+            "a": "Sumatriptano subcutâneo (ou oxigênio a 100%)",
+            "b": "Paracetamol por via oral",
+            "c": "Carbamazepina",
+            "d": "Propranolol"
+          },
+          "correta": "a",
+          "comentario": "O tratamento agudo da cefaleia em salvas baseia-se no sumatriptano subcutâneo e/ou na inalação de oxigênio a 100% sob alto fluxo com máscara — ambos com início de ação rápido, compatível com a curta duração das crises. O paracetamol oral é ineficaz e de absorção lenta demais para crises que duram minutos. A carbamazepina é droga da neuralgia do trigêmeo, não da salva. O propranolol é profilático da enxaqueca, sem papel abortivo e não é a profilaxia de escolha da salva. Pérola: analgésicos orais e opioides são inadequados; a via subcutânea e o oxigênio são as escolhas por sua rapidez.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a profilaxia de primeira escolha.",
+          "alternativas": {
+            "a": "Amitriptilina",
+            "b": "Verapamil",
+            "c": "Lítio como primeira linha",
+            "d": "Topiramato"
+          },
+          "correta": "b",
+          "comentario": "A profilaxia de primeira escolha da cefaleia em salvas é o verapamil (bloqueador de canais de cálcio), com necessidade de monitorização eletrocardiográfica pelo risco de bloqueios de condução ao se aumentar a dose. O lítio é opção profilática de segunda linha (mais usado na forma crônica), não a primeira, e exige controle de níveis séricos pela estreita janela terapêutica. O topiramato pode ser adjuvante, mas não é a primeira escolha. A amitriptilina é profilático de cefaleia tensional/enxaqueca, sem papel de primeira linha na salva. Pérola clínica: o álcool é gatilho clássico durante os períodos de crise (cluster) e deve ser evitado; um curso curto de corticoide pode servir de ponte até o verapamil atingir efeito.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neonatologia (citomegalovírus congênito)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Recém-nascido a termo, pequeno para a idade gestacional, apresenta ao nascer microcefalia, petéquias difusas, hepatoesplenomegalia e icterícia. A ultrassonografia transfontanela evidencia calcificações intracranianas periventriculares, e o recém-nascido falha na triagem auditiva neonatal.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, identifique a hipótese diagnóstica.",
+          "alternativas": {
+            "a": "Toxoplasmose congênita",
+            "b": "Sífilis congênita",
+            "c": "Citomegalovírus congênito",
+            "d": "Síndrome congênita do zika"
+          },
+          "correta": "c",
+          "comentario": "A infecção congênita por citomegalovírus é a causa infecciosa não genética mais comum de perda auditiva neurossensorial e cursa classicamente com restrição de crescimento, microcefalia, petéquias/púrpura (por trombocitopenia), hepatoesplenomegalia, icterícia e calcificações intracranianas de distribuição periventricular. A toxoplasmose congênita também dá calcificações, mas tipicamente difusas pelo parênquima, com a tétrade que inclui coriorretinite e hidrocefalia. A sífilis congênita cursa com rinite serossanguinolenta, lesões cutâneas/mucosas, alterações ósseas (periostite) e pseudoparalisia, com VDRL reagente. A síndrome congênita do zika associa-se a microcefalia grave com padrão de desproporção craniofacial e calcificações subcorticais, em contexto epidemiológico específico. Pérola: calcificações periventriculares apontam CMV; difusas, toxoplasmose.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Especifique o exame que confirma o diagnóstico.",
+          "alternativas": {
+            "a": "Fundoscopia isolada",
+            "b": "Sorologia IgG materna para citomegalovírus",
+            "c": "VDRL do recém-nascido",
+            "d": "PCR para citomegalovírus em urina ou saliva nas primeiras três semanas de vida"
+          },
+          "correta": "d",
+          "comentario": "A confirmação da infecção congênita por citomegalovírus exige a detecção do vírus (PCR ou cultura) em urina ou saliva coletadas nas primeiras 2 a 3 semanas de vida — após esse período, não é possível distinguir infecção congênita de aquisição pós-natal (perinatal ou pelo leite). A sorologia IgG materna apenas indica exposição prévia da mãe, sem confirmar infecção fetal. O VDRL investiga sífilis, diagnóstico diferente. A fundoscopia isolada avalia coriorretinite (mais associada à toxoplasmose) e não confirma o CMV. Pegadinha de prova: o momento da coleta é decisivo — depois de 3 semanas, um exame positivo perde o valor para definir infecção congênita. A pesquisa em sangue seco de teste do pezinho pode ser usada retrospectivamente em casos selecionados.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica nos casos sintomáticos.",
+          "alternativas": {
+            "a": "Apenas seguimento clínico, sem terapia antiviral",
+            "b": "Espiramicina",
+            "c": "Penicilina cristalina",
+            "d": "Ganciclovir ou valganciclovir"
+          },
+          "correta": "d",
+          "comentario": "Nos recém-nascidos com citomegalovírus congênito sintomático, especialmente com acometimento do sistema nervoso central, indica-se terapia antiviral com ganciclovir endovenoso ou valganciclovir oral por período prolongado, com benefício demonstrado na audição e no neurodesenvolvimento, exigindo monitorização da neutropenia. A penicilina cristalina é o tratamento da sífilis congênita, não do CMV. A espiramicina é usada na toxoplasmose (gestacional, para reduzir transmissão), não no CMV neonatal. Apenas observar seria inadequado no caso sintomático, pois se perde a janela de benefício neurológico e auditivo do antiviral. Pérola: o tratamento é reservado a formas sintomáticas/com doença de SNC; o rastreio e seguimento audiológico são fundamentais mesmo após o término da terapia, pela possibilidade de perda auditiva tardia.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neonatologia (icterícia neonatal)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Recém-nascido a termo, com 3 dias de vida, em aleitamento materno, apresenta icterícia que progride da face ao abdome. A bilirrubina total é de 18 mg/dL, com predomínio da fração indireta. Não há hepatoesplenomegalia nem colúria/acolia.",
+      "perguntas": [
+        {
+          "enunciado": "Diante de níveis muito elevados de bilirrubina indireta, identifique a principal complicação a ser evitada.",
+          "alternativas": {
+            "a": "Colestase neonatal",
+            "b": "Kernicterus (encefalopatia bilirrubínica)",
+            "c": "Cirrose hepática",
+            "d": "Anemia hemolítica autoimune"
+          },
+          "correta": "b",
+          "comentario": "A complicação temida da hiperbilirrubinemia indireta grave é o kernicterus, ou encefalopatia bilirrubínica, causada pela deposição de bilirrubina não conjugada (lipossolúvel) nos núcleos da base e tronco encefálico, que atravessa a barreira hematoencefálica imatura — pode deixar sequelas permanentes (paralisia cerebral discinética, surdez neurossensorial, paralisia do olhar). A cirrose hepática não é desfecho da hiperbilirrubinemia indireta neonatal. A colestase caracteriza-se por aumento da bilirrubina direta, com colúria e acolia — quadro diferente do descrito, que é de fração indireta. A anemia hemolítica autoimune não é complicação da bilirrubina alta, e sim uma possível causa de hemólise. Pérola: sinais precoces de encefalopatia (letargia, hipotonia, sucção débil, choro agudo) exigem intervenção imediata para evitar dano irreversível.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Especifique a ferramenta adequada para decidir a necessidade de tratamento.",
+          "alternativas": {
+            "a": "Nomograma de Bhutani (bilirrubina por hora de vida)",
+            "b": "Avaliação apenas clínica da icterícia",
+            "c": "Escala de Kramer como critério isolado de tratamento",
+            "d": "Coombs sempre define a indicação de fototerapia"
+          },
+          "correta": "a",
+          "comentario": "A decisão terapêutica na icterícia neonatal baseia-se na dosagem da bilirrubina total plotada no nomograma de Bhutani, que estratifica o risco conforme o valor e a hora de vida (não apenas o dia), orientando os limiares de fototerapia e exsanguineotransfusão de acordo com idade gestacional e fatores de risco. A escala de Kramer (progressão craniocaudal) é útil como triagem clínica para estimar a gravidade, mas não substitui a dosagem sérica para decidir tratamento. A avaliação apenas clínica subestima ou superestima os níveis e é insuficiente para conduta. O teste de Coombs ajuda a investigar hemólise imune (incompatibilidade), mas não é o que define, isoladamente, a indicação de fototerapia. Pérola: sempre interpretar a bilirrubina em função da hora de vida e dos fatores de risco, não do valor absoluto isolado.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica inicial diante de nível em faixa de tratamento.",
+          "alternativas": {
+            "a": "Fenobarbital de rotina",
+            "b": "Imunoglobulina para todos os casos",
+            "c": "Suspensão definitiva do aleitamento materno",
+            "d": "Fototerapia"
+          },
+          "correta": "d",
+          "comentario": "A fototerapia é o tratamento inicial da hiperbilirrubinemia indireta que atinge a faixa terapêutica, atuando por fotoisomerização da bilirrubina em produtos hidrossolúveis excretáveis, sendo eficaz e segura; a exsanguineotransfusão fica reservada a níveis muito elevados ou a sinais de encefalopatia. Suspender definitivamente o aleitamento é inadequado — mantém-se a amamentação, garantindo boa oferta láctea, pois o desmame não é a conduta. O fenobarbital não é usado de rotina na icterícia neonatal. A imunoglobulina tem indicação restrita à doença hemolítica imune grave (isoimunização), não a todos os casos. Pérola: assegurar hidratação e amamentação frequente potencializa a eliminação da bilirrubina e é parte do manejo.",
+          "dificuldade": "facil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Desenvolvimento e Puericultura",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menino de 18 meses é levado à unidade básica para consulta de puericultura. Não anda sem apoio e não fala nenhuma palavra com significado. O peso para a idade situa-se no escore Z -2, e o comprimento, no escore Z -1. A mãe relata pouco contato visual e brincar repetitivo.",
+      "perguntas": [
+        {
+          "enunciado": "Especifique a interpretação técnica correta do escore Z -2 para peso.",
+          "alternativas": {
+            "a": "Indica obrigatoriamente desnutrição grave",
+            "b": "Corresponde exatamente ao percentil 50",
+            "c": "Corresponde ao limite inferior da normalidade (dois desvios-padrão abaixo da mediana)",
+            "d": "Está acima da mediana de referência"
+          },
+          "correta": "c",
+          "comentario": "O escore Z expressa quantos desvios-padrão um valor está distante da mediana da população de referência da OMS; o escore Z -2 corresponde ao limite inferior da faixa de normalidade (equivalente a cerca do percentil 3), servindo de ponto de corte de alerta que exige acompanhamento, não um rótulo automático de doença. Dizer que indica obrigatoriamente desnutrição grave é incorreto: baixo peso grave costuma ser considerado abaixo do escore Z -3, e o diagnóstico nutricional integra outros índices (peso/estatura, estatura/idade) e a curva evolutiva. Afirmar que corresponde ao percentil 50 é errado — o percentil 50 é a própria mediana (escore Z 0). Dizer que está acima da mediana também é falso, pois o valor é negativo. Pérola: interpretar sempre a tendência da curva ao longo do tempo, e não um ponto isolado.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Diante da ausência de marcha aos 18 meses, identifique a conduta correta.",
+          "alternativas": {
+            "a": "É sinal de alerta do desenvolvimento e exige investigação",
+            "b": "É variação normal; reavaliar apenas aos 24 meses",
+            "c": "Considerar normal por se tratar de menino",
+            "d": "Indicar fisioterapia sem qualquer investigação"
+          },
+          "correta": "a",
+          "comentario": "A marcha independente costuma ser adquirida até cerca de 15 a 18 meses; sua ausência aos 18 meses, sobretudo somada ao atraso de linguagem e aos sinais de alteração da interação social, é um sinal de alerta do desenvolvimento que exige investigação ativa, conforme os instrumentos de vigilância da Caderneta da Criança. Considerar variação normal e adiar para os 24 meses posterga uma avaliação necessária e pode atrasar a estimulação precoce. Indicar fisioterapia sem investigar ignora a busca da causa (neurológica, muscular, genética, ambiental). Atribuir a normalidade ao sexo masculino não tem respaldo. Pérola: a atuação precoce, com estimulação e projeto terapêutico singular, melhora o prognóstico; sinais de alerta devem sempre disparar investigação, não conduta expectante.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o exame inicial mais adequado diante da suspeita de transtorno do neurodesenvolvimento.",
+          "alternativas": {
+            "a": "Início empírico de risperidona",
+            "b": "Avaliação audiológica",
+            "c": "Cariótipo como primeiro exame",
+            "d": "Ressonância magnética de crânio imediata"
+          },
+          "correta": "b",
+          "comentario": "Diante de atraso de linguagem e sinais sugestivos de transtorno do espectro autista, a avaliação audiológica é passo inicial obrigatório, pois a deficiência auditiva é causa tratável e mimetiza/agrava atraso de linguagem e de interação — investigar a audição antes de exames genéticos é pegadinha recorrente de prova. O cariótipo e outros testes genéticos podem ser indicados na investigação etiológica, mas não são o primeiro exame. A ressonância de crânio não é rastreio inicial de rotina, reservando-se a achados focais/regressão/micro-macrocefalia. Iniciar risperidona empírica é inadequado como conduta inicial — o manejo é multiprofissional, com estimulação precoce, e a medicação tem indicações restritas (ex.: irritabilidade/agressividade). Pérola: ouvir bem é pré-requisito para falar; por isso a audiometria vem antes.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nutrição (obesidade e DHGNA no adolescente)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Adolescente de 14 anos é avaliado por ganho de peso progressivo. O índice de massa corporal encontra-se no percentil 97 para idade e sexo. Ao exame, há acantose nigricans no pescoço. Exames mostram ALT elevada e ultrassonografia com esteatose hepática.",
+      "perguntas": [
+        {
+          "enunciado": "Especifique a classificação nutricional deste adolescente.",
+          "alternativas": {
+            "a": "Magreza",
+            "b": "Sobrepeso",
+            "c": "Eutrofia",
+            "d": "Obesidade"
+          },
+          "correta": "d",
+          "comentario": "Na faixa de 5 a 19 anos, a classificação por índice de massa corporal usa percentis/escore Z: sobrepeso corresponde a IMC entre os percentis 85 e 95 (escore Z entre +1 e +2), e obesidade, a IMC igual ou acima do percentil 95 (escore Z acima de +2). Com percentil 97, o adolescente é classificado como obeso. Sobrepeso é incorreto, pois o valor ultrapassa o percentil 95. Eutrofia (entre os percentis 3 e 85) não se aplica a um valor tão elevado. Magreza corresponde a valores baixos (abaixo do percentil 3), o oposto do caso. Pérola: obesidade grave costuma ser definida acima do percentil 99 (ou escore Z acima de +3); decorar os cortes exatos é frequentemente cobrado, assim como a associação com resistência insulínica (acantose nigricans).",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Especifique o marcador laboratorial mais sensível para a doença hepática associada.",
+          "alternativas": {
+            "a": "Fosfatase alcalina",
+            "b": "AST (TGO) isolada",
+            "c": "Bilirrubina total",
+            "d": "ALT (TGP)"
+          },
+          "correta": "d",
+          "comentario": "Na doença hepática gordurosa não alcoólica da criança/adolescente, a ALT (TGP) é o marcador laboratorial mais sensível e utilizado no rastreio e seguimento, refletindo a lesão hepatocelular da esteato-hepatite. A AST isolada é menos específica para o fígado (também se eleva em músculo e hemácias) e, na doença gordurosa, costuma acompanhar de forma menos sensível que a ALT — cuidado com a pegadinha de trocar a ordem AST/ALT. A bilirrubina total geralmente é normal nas fases iniciais e não serve de marcador de rastreio. A fosfatase alcalina, no adolescente, eleva-se fisiologicamente com o crescimento ósseo, sendo pouco útil e potencialmente confundidora. Pérola: o padrão-ouro diagnóstico é a biópsia, mas o rastreio ambulatorial apoia-se na ALT associada à imagem.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta inicial de escolha.",
+          "alternativas": {
+            "a": "Metformina como primeira medida",
+            "b": "Orlistate como primeira linha",
+            "c": "Cirurgia bariátrica",
+            "d": "Mudança de estilo de vida (dieta e atividade física)"
+          },
+          "correta": "d",
+          "comentario": "A conduta inicial da obesidade e da doença hepática gordurosa no adolescente é a mudança de estilo de vida — reeducação alimentar, aumento da atividade física, redução do tempo de tela e abordagem familiar —, base do tratamento e capaz de reverter a esteatose com a perda ponderal. A metformina não é primeira medida; é reservada a situações específicas (ex.: resistência insulínica/diabetes) e sempre associada às mudanças comportamentais. A cirurgia bariátrica na adolescência é excepcional, exigindo maturidade óssea avançada, comorbidades e falha do tratamento clínico — não é conduta inicial. O orlistate não é primeira linha nessa faixa etária. Pérola: a intervenção comportamental precoce, com metas realistas e acompanhamento multiprofissional, previne a progressão para esteato-hepatite e fibrose.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Saúde Coletiva e Ética (suspeita de abuso sexual)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menina de 5 anos é levada à unidade de saúde por infecções urinárias de repetição e comportamento sexualizado incomum para a idade. Durante o atendimento, a mãe relata suspeitar de abuso sexual praticado pelo padrasto. A criança está clinicamente estável.",
+      "perguntas": [
+        {
+          "enunciado": "Diante da suspeita, identifique o dever imediato do médico.",
+          "alternativas": {
+            "a": "Encaminhar somente se houver confirmação pela autoridade policial",
+            "b": "Manter sigilo absoluto e não notificar sem provas concretas",
+            "c": "Notificar imediatamente ao Conselho Tutelar, independentemente de autorização da família",
+            "d": "Solicitar autorização do responsável antes de qualquer providência"
+          },
+          "correta": "c",
+          "comentario": "Diante de suspeita de violência contra criança ou adolescente, o Estatuto da Criança e do Adolescente torna a notificação compulsória e imediata ao Conselho Tutelar — basta a suspeita, não sendo exigida comprovação nem autorização da família, e o objetivo é proteger a criança e acionar a rede de cuidado. Manter sigilo absoluto e não notificar viola a lei e desprotege a vítima; o sigilo médico cede diante do dever legal de proteção. Pedir autorização do responsável é inadequado, sobretudo quando o suspeito integra o núcleo familiar. Aguardar confirmação policial posterga a proteção e não é condição para notificar. Pérola: notificação e cuidado clínico caminham juntos — notificar não substitui o acolhimento, e a suspeita já é suficiente para deflagrar a proteção.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Especifique a conduta correta na avaliação clínica inicial.",
+          "alternativas": {
+            "a": "Colher depoimento detalhado e repetido da criança sobre os fatos",
+            "b": "Acolher, examinar com cuidado e preservar eventuais vestígios, evitando exames repetidos e desnecessários",
+            "c": "Realizar exame de conjunção carnal invasivo de rotina em todos os casos",
+            "d": "Adiar toda a avaliação até uma decisão judicial"
+          },
+          "correta": "b",
+          "comentario": "A avaliação inicial deve priorizar o acolhimento humanizado, com exame físico cuidadoso e completo apenas quando indicado, preservando vestígios quando presentes e evitando a repetição desnecessária de exames e da inquirição, que revitimizam a criança. Realizar exame invasivo de rotina em todos os casos é inadequado e potencialmente traumático — os exames são norteados pela história e pela necessidade clínica/forense. Adiar toda a avaliação até decisão judicial pode comprometer o cuidado e a coleta oportuna de vestígios. Colher depoimento detalhado e repetido não é papel do médico e expõe a criança à revitimização — a escuta especializada segue protocolos próprios (depoimento especial). Pérola: menos é mais na abordagem — evitar reexames e reinquirições protege a criança e a qualidade da prova.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a afirmação correta sobre a responsabilidade legal do médico.",
+          "alternativas": {
+            "a": "Apenas o Conselho de Medicina pode efetuar a notificação",
+            "b": "A notificação é compulsória, e sua omissão acarreta responsabilização ética e legal",
+            "c": "A notificação é facultativa e depende exclusivamente do desejo dos pais",
+            "d": "A responsabilidade recai somente sobre a escola da criança"
+          },
+          "correta": "b",
+          "comentario": "A notificação de suspeita ou confirmação de maus-tratos contra criança e adolescente é compulsória para o profissional de saúde, e a sua omissão configura infração, com responsabilização ética (perante o Conselho de Medicina) e legal, além de multa prevista no Estatuto da Criança e do Adolescente. Dizer que é facultativa e dependente do desejo dos pais é incorreto e perigoso, pois a proteção da criança é dever legal indisponível. Afirmar que só o Conselho de Medicina pode notificar confunde os papéis: a notificação vai ao Conselho Tutelar (e à vigilância epidemiológica), sendo dever do próprio médico realizá-la. Atribuir a responsabilidade apenas à escola é falso — todos os que têm contato com a criança e tomam conhecimento têm o dever de notificar. Pérola: notificar de boa-fé, diante de suspeita, não gera responsabilização do profissional.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Imunização (Programa Nacional de Imunizações)",
+      "tier": "ALTO",
+      "vinheta": "Uma mãe leva o filho de 5 meses à unidade básica para vacinação. Ao revisar a caderneta, a equipe percebe que a criança ainda não recebeu nenhuma dose da vacina oral contra o rotavírus humano.",
+      "perguntas": [
+        {
+          "enunciado": "Diante da situação, identifique a conduta correta quanto ao rotavírus.",
+          "alternativas": {
+            "a": "Não administrar a primeira dose, pois a idade máxima para iniciar já foi ultrapassada",
+            "b": "Reiniciar o esquema desde o começo",
+            "c": "Administrar até os 6 meses sem restrições",
+            "d": "Administrar a primeira dose normalmente aos 5 meses"
+          },
+          "correta": "a",
+          "comentario": "A vacina oral contra o rotavírus tem limites etários rígidos: a primeira dose deve ser aplicada até 3 meses e 15 dias de idade, e a segunda, até 7 meses e 29 dias; fora dessas janelas, as doses não devem ser administradas. Assim, aos 5 meses sem nenhuma dose prévia, a janela de início foi perdida e não se deve iniciar o esquema. Administrar aos 5 meses ou até os 6 meses sem restrições contraria a norma e o motivo de segurança. Reiniciar o esquema não se aplica, pois nem a primeira dose pode mais ser dada. Pérola: esses prazos existem por segurança — fora da faixa etária recomendada, há maior preocupação com o risco de intussuscepção; por isso o cumprimento das datas é crítico.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Especifique o principal motivo do limite de idade dessa vacina.",
+          "alternativas": {
+            "a": "Risco de intussuscepção fora da faixa etária recomendada",
+            "b": "Ineficácia por interferência com a BCG",
+            "c": "Risco de convulsão febril",
+            "d": "Risco de poliomielite associada à vacina"
+          },
+          "correta": "a",
+          "comentario": "O limite etário rígido da vacina de rotavírus decorre do risco aumentado de intussuscepção intestinal quando administrada fora da faixa recomendada, associação que motivou a definição estrita das janelas de aplicação. O risco de convulsão febril não é o motivo do limite dessa vacina. A interferência com a BCG não fundamenta o corte de idade do rotavírus (são imunobiológicos e vias distintas). A poliomielite associada à vacina relaciona-se à antiga vacina oral contra poliomielite (poliovírus atenuado), não ao rotavírus. Pérola: orientar os pais sobre sinais de intussuscepção (dor abdominal em cólica, choro intenso, fezes em geleia de framboesa, vômitos) faz parte do cuidado pós-vacinal, e o respeito às datas é medida de segurança.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta correta diante de um evento adverso pós-vacinação.",
+          "alternativas": {
+            "a": "Notificar ao sistema de vigilância todo evento adverso pós-vacinação",
+            "b": "Notificar somente se a relação causal já estiver comprovada",
+            "c": "Contraindicar automaticamente todas as vacinas futuras",
+            "d": "Notificar apenas os eventos classificados como graves"
+          },
+          "correta": "a",
+          "comentario": "A conduta correta é notificar ao sistema de vigilância epidemiológica todo evento adverso pós-vacinação, grave ou não grave, pois a vigilância monitora a segurança dos imunobiológicos e investiga a causalidade a partir das notificações. Restringir a notificação apenas aos eventos graves subnotifica e prejudica o monitoramento. Contraindicar automaticamente todas as vacinas futuras é incorreto — a maioria dos eventos não contraindica doses subsequentes, e a decisão é individualizada conforme o tipo e a gravidade do evento. Exigir relação causal comprovada antes de notificar inverte a lógica: notifica-se a suspeita, e a investigação posterior é que avalia a causalidade. Pérola: a notificação oportuna alimenta o sistema de farmacovigilância e protege a confiança na imunização.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Hematologia (doença falciforme)",
+      "tier": "MÉDIO",
+      "vinheta": "Lactente de 10 meses é levado ao pronto-socorro com edema doloroso simétrico das mãos e dos pés (dactilite), palidez e irritabilidade. Ao exame, há esplenomegalia. A mãe informa que a triagem neonatal veio alterada, mas não houve seguimento.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, identifique a hipótese diagnóstica.",
+          "alternativas": {
+            "a": "Beta-talassemia minor",
+            "b": "Esferocitose hereditária",
+            "c": "Doença falciforme (anemia falciforme)",
+            "d": "Anemia ferropriva"
+          },
+          "correta": "c",
+          "comentario": "A dactilite (síndrome mão-pé) em lactente — edema doloroso de mãos e pés por infarto ósseo microvascular — é uma das primeiras manifestações da doença falciforme, que também cursa com anemia hemolítica crônica, palidez e esplenomegalia nos primeiros anos (antes da autoesplenectomia), sobretudo com triagem neonatal alterada não seguida. A esferocitose hereditária causa anemia hemolítica com esplenomegalia e icterícia, mas não a dactilite típica nem o padrão de triagem para hemoglobinopatia. A anemia ferropriva provoca palidez, porém não dá dactilite nem esplenomegalia por hemólise, e associa-se a erro alimentar. A beta-talassemia minor é geralmente assintomática, com microcitose discreta, sem crises vaso-oclusivas. Pérola: dactilite em lactente é sinal de alerta clássico para doença falciforme.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Especifique o exame que confirma o diagnóstico.",
+          "alternativas": {
+            "a": "Dosagem de ferritina sérica",
+            "b": "Teste de Coombs direto",
+            "c": "Eletroforese de hemoglobina",
+            "d": "Teste de fragilidade osmótica"
+          },
+          "correta": "c",
+          "comentario": "O diagnóstico da doença falciforme é confirmado pela eletroforese de hemoglobina (ou HPLC/focalização isoelétrica), que identifica o padrão de hemoglobina S — na forma SS, predomínio de HbS com ausência de HbA. O teste de fragilidade osmótica investiga esferocitose hereditária, não a falciforme. A dosagem de ferritina avalia os estoques de ferro (útil na anemia ferropriva), sem confirmar hemoglobinopatia. O teste de Coombs direto investiga hemólise autoimune, mecanismo distinto do da doença falciforme. Pérola: o teste do pezinho já faz a triagem por HPLC/eletroforese, mas o diagnóstico deve ser confirmado e o seguimento iniciado precocemente; o teste de solubilidade positiva a HbS, mas não distingue traço de doença — por isso a eletroforese é o exame definidor.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a medida profilática essencial nesta criança.",
+          "alternativas": {
+            "a": "Esplenectomia imediata",
+            "b": "Penicilina profilática e imunização para germes encapsulados",
+            "c": "Quelação de ferro de rotina",
+            "d": "Corticoterapia contínua"
+          },
+          "correta": "b",
+          "comentario": "A profilaxia essencial na doença falciforme inclui a penicilina profilática (iniciada precocemente e mantida nos primeiros anos de vida) e a imunização reforçada contra germes encapsulados (pneumococo, meningococo, Haemophilus), pois a asplenia funcional expõe a criança à sepse fulminante por esses agentes — principal causa de óbito precoce evitável. A quelação de ferro é indicada em pacientes politransfundidos com sobrecarga de ferro, não como rotina em todos. A corticoterapia contínua não faz parte do manejo de base. A esplenectomia imediata não é conduta padrão — reserva-se a situações específicas, como sequestro esplênico recorrente. Pérola: além da profilaxia infecciosa, orienta-se hidratação, ácido fólico e reconhecimento precoce de complicações (sequestro esplênico, síndrome torácica aguda), com hidroxiureia em casos indicados.",
+          "dificuldade": "dificil"
+        }
+      ]
+    }
+  ]
+}
