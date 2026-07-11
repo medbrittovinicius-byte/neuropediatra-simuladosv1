@@ -1,6 +1,6 @@
 import { getStore } from "@netlify/blobs";
 
-const USERS = ["Vinicius", "Leonardo"];
+const USERS = ["Vinicius", "Leonardo", "Ana Teresa"];
 const MAX_ERROS_DETALHADOS = 200;
 
 export default async (req, context) => {

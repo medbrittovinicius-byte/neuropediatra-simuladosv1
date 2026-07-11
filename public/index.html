@@ -100,6 +100,7 @@
     <p>O resultado é registrado individualmente para cada pessoa.</p>
     <button class="user-btn" onclick="escolherUsuario('Vinicius')">Vinicius</button>
     <button class="user-btn" onclick="escolherUsuario('Leonardo')">Leonardo</button>
+    <button class="user-btn" onclick="escolherUsuario('Ana Teresa')">Ana Teresa</button>
     <a class="link-muted" href="historico.html">Ver simulados anteriores</a>
     <br>
     <a class="link-muted" href="painel.html">Ver painel de fragilidades</a>
@@ -436,7 +437,7 @@ async function enviarResultado(payload){
 
 (function init(){
   const saved = localStorage.getItem('np_user');
-  if(saved === 'Vinicius' || saved === 'Leonardo'){
+  if(saved === 'Vinicius' || saved === 'Leonardo' || saved === 'Ana Teresa'){
     escolherUsuario(saved);
   }
 })();

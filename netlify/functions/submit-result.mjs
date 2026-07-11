@@ -1,6 +1,6 @@
 import { getStore } from "@netlify/blobs";
 
-const VALID_USERS = ["Vinicius", "Leonardo"];
+const VALID_USERS = ["Vinicius", "Leonardo", "Ana Teresa"];
 
 export default async (req, context) => {
   if (req.method !== "POST") {

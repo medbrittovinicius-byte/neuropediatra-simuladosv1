@@ -73,7 +73,7 @@
 
 <header>
   <h1>Painel de Fragilidades</h1>
-  <p>Ranking, evolução e revisão individual de erros — Vinicius e Leonardo</p>
+  <p>Ranking, evolução e revisão individual de erros — Vinicius, Leonardo e Ana Teresa</p>
   <p><a href="index.html">← voltar ao simulado</a> · <a href="historico.html">simulados anteriores</a></p>
 </header>
 
@@ -285,7 +285,7 @@ async function carregarPainel(){
     const grid = document.getElementById('grid');
     grid.style.display = 'grid';
     grid.innerHTML = '';
-    ['Vinicius', 'Leonardo'].forEach(nome=>{
+    ['Vinicius', 'Leonardo', 'Ana Teresa'].forEach(nome=>{
       const dados = data[nome] || {simulados:0, totalQuestoes:0, totalAcertos:0, percentualGeral:null, rankingFragilidades:[], rankingDificuldade:[], errosDetalhados:[], historico:[]};
       grid.appendChild(renderUserCard(nome, dados));
     });
