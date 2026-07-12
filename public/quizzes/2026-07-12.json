@@ -1,0 +1,651 @@
+{
+  "date": "2026-07-12",
+  "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+  "blocos": [
+    {
+      "tema": "Neurologia — Doença Cerebrovascular (AVC) [REAL: SUS-BA R+ 2025]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem, 68 anos de idade, com histórico de hipertensão e diabetes mellitus tipo 2, é admitido no Pronto-Socorro. Deitou-se para cochilar e, ao despertar, apresentava fraqueza do lado direito do corpo e dificuldade para falar. No exame neurológico, apresenta disartria e hemiplegia direita. A tomografia de crânio, sem contraste, é realizada e não mostra sinais de hemorragia intracraniana. A glicemia capilar é de 145 mg/dL, e os sinais vitais estão estáveis.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando o caso, em relação ao manejo, é correto:",
+          "alternativas": {
+            "a": "Considerar o início dos sintomas e o momento em que o paciente acordou, descartando-se trombólise e indicando terapia endovascular.",
+            "b": "Realizar angiotomografia para avaliar áreas de penumbra e possibilidade de trombólise ou terapia endovascular.",
+            "c": "Estimar que, como o paciente cochilou, deve estar na janela terapêutica e realizar trombólise ou terapia endovascular.",
+            "d": "Realizar ressonância magnética com perfusão para avaliar “mismatch” perfusão-difusão e definir a melhor conduta."
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ 2025] Trata-se de um wake-up stroke (AVC ao despertar): o horário real de instalação é DESCONHECIDO, pois o déficit já estava presente ao acordar. Nessa situação o relógio não pode ser contado a partir do momento em que o paciente foi visto bem pela última vez de forma simplista — usa-se neuroimagem avançada. A ressonância com sequências de difusão (DWI) e perfusão permite estimar o tecido salvável pelo mismatch DWI-FLAIR ou perfusão-difusão, habilitando reperfusão mesmo sem horário definido (base dos estudos WAKE-UP/DAWN/DEFUSE-3). A alternativa que “descarta trombólise” por não saber o horário está errada porque o método moderno justamente resgata esses pacientes. Assumir que “se cochilou está na janela” é presunção perigosa — o tempo é indeterminado. A angiotomografia mostra o vaso ocluído, mas quantifica pior a penumbra que a RM de perfusão; por isso a RM é a resposta da banca. Pérola: nunca ofereça trombólise “no chute” de janela em wake-up stroke.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "A conduta mais adequada em relação à meta pressórica, nesse momento, é:",
+          "alternativas": {
+            "a": "Manter a pressão arterial abaixo de 140x90 mmHg.",
+            "b": "Reduzir a pressão arterial para menos de 160x100 mmHg.",
+            "c": "Permitir uma pressão arterial de até 200x120 mmHg.",
+            "d": "Manter a pressão arterial abaixo de 180x110 mmHg."
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ 2025] No AVC isquêmico agudo candidato à reperfusão, tolera-se hipertensão permissiva até o limite de ~185x110 mmHg antes e ~180x105 mmHg após a trombólise, para preservar a perfusão da penumbra isquêmica; abaixar demais a PA reduz o fluxo colateral e amplia o infarto. Por isso o alvo “abaixo de 180x110” é o mais adequado entre as opções. Manter <140x90 é agressivo demais e pode piorar a isquemia. Permitir até 200x120 ultrapassa o teto seguro para reperfusão, elevando o risco de transformação hemorrágica. Reduzir a <160x100 também é excessivo no cenário de reperfusão (esse alvo mais baixo se aplica melhor ao AVC hemorrágico). Regra prática: no AVCi que vai reperfundir, PA-alvo <185x110; no AVC hemorrágico, controle mais rígido (PAS ~140).",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Em relação à meta glicêmica, nas primeiras 24 horas, a conduta mais adequada é:",
+          "alternativas": {
+            "a": "Controlar, rigorosamente, a glicemia, mantendo-a entre 140 e 180 mg/dL.",
+            "b": "Manter hiperglicemia permissiva, sem intervenções, até 200 mg/dL.",
+            "c": "Manter a glicemia abaixo de 100 mg/dL, com insulina em BIC.",
+            "d": "Manter a glicemia acima de 200 mg/dL, para evitar hipoglicemia."
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ 2025] Tanto a hiperglicemia quanto a hipoglicemia pioram o desfecho no AVC agudo: a hiperglicemia agrava o dano isquêmico e a transformação hemorrágica, enquanto a hipoglicemia mimetiza e agrava déficit neurológico. As diretrizes recomendam manter a glicemia entre ~140 e 180 mg/dL nas primeiras 24 horas, faixa da alternativa correta. Buscar <100 mg/dL com insulina em bomba é arriscado pelo risco de hipoglicemia iatrogênica. Manter >200 mg/dL deliberadamente “para evitar hipoglicemia” é conduta errada, pois a hiperglicemia sustentada é deletéria. A hiperglicemia permissiva até 200 sem intervenção também não é recomendada. Pérola: 140-180 mg/dL é o alvo glicêmico do doente neurocrítico/AVC, o mesmo intervalo usado em muitos protocolos de UTI.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuropatias Periféricas [REAL: SUS-BA R+ 2024]",
+      "tier": "ALTO",
+      "vinheta": "Homem, 60 anos de idade, com diagnóstico de Diabetes Mellitus tipo 2 há 15 anos, procura a UBS queixando-se de formigamento e sensação de dormência nos pés, piorando ao longo dos últimos meses. As queixas pioram à noite. Relata também dificuldade em controlar a glicemia apesar de estar seguindo as orientações da dieta e tomando a medicação prescrita. Ao exame físico, observa-se sensibilidade cutânea plantar reduzida e reflexo aquileu reduzido bilateralmente. (Considerar as Diretrizes da Sociedade Brasileira de Diabetes.)",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro clínico, indique o mecanismo fisiopatológico predominante da queixa atual:",
+          "alternativas": {
+            "a": "Compressão axonal.",
+            "b": "Esclerose dos neurônios sensoriais.",
+            "c": "Desmielinização dos axônios periféricos.",
+            "d": "Microaneurismas perineurais."
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ 2024] A polineuropatia diabética distal simétrica resulta de dano metabólico crônico à fibra nervosa: hiperglicemia sustentada gera estresse oxidativo, acúmulo de sorbitol pela via dos polióis, glicação de proteínas e isquemia microvascular dos vasa nervorum, levando a lesão axonal e desmielinização segmentar das fibras periféricas — a alternativa que aponta desmielinização/dano axonal periférico é a que melhor descreve o mecanismo cobrado pela banca. “Microaneurismas perineurais” não é o mecanismo (microaneurismas são achado da retinopatia). “Compressão axonal” descreve neuropatias compressivas (ex.: túnel do carpo), não a polineuropatia difusa metabólica. “Esclerose dos neurônios sensoriais” não corresponde à fisiopatologia diabética. Padrão clínico clássico: parestesia/dormência em bota e luva, pior à noite, com perda do aquileu — rastrear com monofilamento de 10 g e diapasão de 128 Hz.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a abordagem terapêutica de primeira linha para o quadro descrito:",
+          "alternativas": {
+            "a": "Reposição de vitamina B12 – cianocobalamina.",
+            "b": "Prescrição de anticonvulsivantes como a gabapentina.",
+            "c": "Utilização de agentes antioxidantes como a vitamina E.",
+            "d": "Administração de opioides de ação central como o tramadol."
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ 2024] A dor neuropática diabética tem como primeira linha, segundo a Sociedade Brasileira de Diabetes e diretrizes internacionais, os anticonvulsivantes gabapentinoides (gabapentina, pregabalina), os antidepressivos duais (duloxetina, venlafaxina) e os tricíclicos (amitriptilina). A gabapentina é, portanto, a opção correta. Vitamina E (antioxidante) não tem eficácia estabelecida no controle da dor neuropática. Opioides como tramadol ficam reservados a casos refratários (segunda/terceira linha), pelo risco de dependência e efeitos adversos — não são primeira escolha. Reposição de B12 só se corrige quando há deficiência comprovada (que também causa neuropatia, mas não é o caso metabólico diabético típico). Pérola: controle glicêmico rigoroso previne progressão, mas não alivia a dor já instalada — por isso associa-se fármaco sintomático.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Pelo mesmo mecanismo fisiopatológico da queixa atual, é provável encontrar:",
+          "alternativas": {
+            "a": "Diarreia e disfunção erétil.",
+            "b": "Dispneia e incontinência urinária.",
+            "c": "Disfagia e afasia.",
+            "d": "Ataxia e tosse."
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ 2024] O mesmo processo que lesa as fibras somáticas também acomete o sistema nervoso autonômico no diabético: a neuropatia autonômica manifesta-se com sintomas gastrointestinais (gastroparesia, diarreia diabética, constipação), disfunção erétil, hipotensão ortostática, bexiga neurogênica e hipoglicemia assintomática. O par “diarreia e disfunção erétil” reflete diretamente esse comprometimento autonômico — resposta correta. “Ataxia e tosse” não compõem a síndrome autonômica diabética. “Disfagia e afasia” são sintomas de acometimento central (tronco/córtex), não de neuropatia periférica/autonômica. “Dispneia e incontinência urinária” mistura um sintoma cardiorrespiratório inespecífico com um urinário; embora a bexiga neurogênica ocorra, a dispneia não é manifestação típica. Pérola: a disfunção erétil é frequentemente o primeiro sinal de neuropatia autonômica no homem diabético.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Emergências / neuro-correlato (intoxicação por metanol) [REAL: SUS-BA R+ 2026]",
+      "tier": "ALTO",
+      "vinheta": "Homem, 42 anos de idade, etilista crônico, é encontrado desacordado e trazido ao Pronto-Socorro. Familiares relatam que ele estava bebendo nas últimas 12 horas. Ao exame, está em coma (Glasgow 7), com leve hálito alcoólico, pupilas midriáticas e pouco reativas. A respiração é profunda e rápida (respiração de Kussmaul). Gasometria arterial revela pH 7,10; pCO2 20 mmHg; bicarbonato 8 mEq/L. Exames: sódio 140 mEq/L, potássio 4,0 mEq/L, cloro 100 mEq/L, ureia 28 mg/dL, glicose 90 mg/dL. A osmolaridade sérica medida é de 350 mOsm/kg H2O.",
+      "perguntas": [
+        {
+          "enunciado": "Identifique o distúrbio ácido-básico primário do paciente:",
+          "alternativas": {
+            "a": "Acidose metabólica com ânion gap elevado.",
+            "b": "Alcalose respiratória aguda.",
+            "c": "Alcalose respiratória crônica.",
+            "d": "Acidose metabólica com ânion gap normal."
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ 2026] pH 7,10 com bicarbonato 8 mEq/L define acidose metabólica; o ânion gap = Na − (Cl + HCO3) = 140 − (100 + 8) = 32 (muito elevado, normal ~8-12). Logo, acidose metabólica com ânion gap ALTO — resposta correta. A pCO2 de 20 mmHg é compensação respiratória (Kussmaul), não um distúrbio primário. Não é ânion gap normal (isso ocorreria em perdas de bicarbonato, como diarreia ou acidose tubular renal). Não é alcalose respiratória crônica nem aguda, pois o pH está ácido e o distúrbio primário é metabólico. Detalhe-chave adicional: a osmolaridade medida (350) muito acima da calculada gera GAP OSMOLAR elevado — a combinação ânion gap alto + gap osmolar alto aponta para intoxicação por álcoois tóxicos (metanol, etilenoglicol). Mnemônico do AG alto: MUDPILES.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o principal metabólito responsável pelo quadro apresentado:",
+          "alternativas": {
+            "a": "Acetona.",
+            "b": "Formaldeído.",
+            "c": "Ácido fórmico (formato).",
+            "d": "Ácido acético."
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ 2026] O metanol é metabolizado pela álcool-desidrogenase a formaldeído e, deste, pela aldeído-desidrogenase a ácido fórmico (formato) — este último é o metabólito responsável pela toxicidade: inibe a citocromo-oxidase, causa acidose metabólica grave e lesa o nervo óptico e os núcleos da base (necrose putaminal), explicando a cegueira e o coma. Por isso a resposta é ácido fórmico. O formaldeído é intermediário fugaz e não o principal tóxico acumulado. A acetona é produto do metabolismo do isopropanol (que causa cetose SEM acidose com ânion gap elevado importante), não do metanol. O ácido acético é o produto final do etanol, não do metanol. Pérola de prova: sintoma visual (“vejo como numa nevasca”) + acidose com gap osmolar = metanol até prova em contrário.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Diante do caso, indique as medidas terapêuticas mais adequadas neste momento:",
+          "alternativas": {
+            "a": "Infusão de etanol oral para antagonizar o metanol, hidratação vigorosa e alcalinização urinária com bicarbonato.",
+            "b": "Correção da acidose com bicarbonato, uso de fomepizol e ácido fólico, além de hemodiálise.",
+            "c": "Infusão de insulina regular associada à solução glicosada e administração intravenosa de tiamina.",
+            "d": "Administração de naloxona intravenosa, seguida de lavagem gástrica, intubação e suporte ventilatório."
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ 2026] O tratamento da intoxicação por metanol combina: (1) bloquear a álcool-desidrogenase com FOMEPIZOL (antídoto de escolha; o etanol EV é alternativa quando não há fomepizol), impedindo a formação de mais formato; (2) ácido FOLÍNICO/fólico, que acelera a metabolização do formato a CO2 e água; (3) BICARBONATO para corrigir a acidose grave; e (4) HEMODIÁLISE, que remove metanol e formato e corrige acidose/distúrbios — indicada em acidose refratária, alteração visual ou níveis altos. A alternativa correta reúne esses pilares. Insulina + glicose + tiamina trata cetoacidose/encefalopatia de Wernicke, não metanol. Naloxona + lavagem gástrica trata intoxicação por opioide — não se aplica. Etanol ORAL com “alcalinização urinária” está incorreto: o etanol seria por via controlada (idealmente EV) e a alcalinização urinária não é o cerne (útil em salicilato).",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Vertigem e Síndromes Vestibulares (neurite vestibular)",
+      "tier": "ALTO",
+      "vinheta": "Homem de 52 anos, hipertenso, procura o pronto-socorro por vertigem rotatória intensa e contínua iniciada há 18 horas, acompanhada de náuseas e vômitos, sem hipoacusia ou zumbido. Ao exame, apresenta nistagmo espontâneo horizonto-torcional unidirecional que reduz com a fixação do olhar; o teste de impulso cefálico (head impulse) é positivo à esquerda; não há dismetria, disartria ou déficit motor; a marcha é possível, com desvio para a esquerda.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Doença de Ménière.",
+            "b": "AVC de fossa posterior.",
+            "c": "Neurite vestibular.",
+            "d": "Vertigem posicional paroxística benigna."
+          },
+          "correta": "c",
+          "comentario": "A neurite vestibular cursa com vertigem rotatória CONTÍNUA de início agudo, durando dias, com náuseas/vômitos intensos, SEM sintomas auditivos e SEM déficit neurológico focal — exatamente o quadro. O nistagmo periférico é unidirecional, horizonto-torcional e suprimido pela fixação, e o head impulse é positivo (sacada de correção), tudo apontando para lesão periférica. A VPPB é descartada porque causa vertigem BREVE (segundos), desencadeada por mudança de posição, e não vertigem contínua por horas. A doença de Ménière exige a tríade vertigem episódica + hipoacusia flutuante + zumbido/plenitude aural — aqui não há queixa auditiva. O AVC de fossa posterior é o diagnóstico “que não se pode perder”, mas cursaria com head impulse NORMAL, nistagmo que muda de direção ou vertical e/ou skew — padrão central ausente neste caso. Pérola: em vertigem aguda contínua, o protocolo HINTS diferencia periférico de central.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Identifique o achado do protocolo HINTS que indica origem periférica da vertigem:",
+          "alternativas": {
+            "a": "Teste de impulso cefálico normal.",
+            "b": "Presença de desvio vertical do olhar (skew deviation).",
+            "c": "Nistagmo que muda de direção com o olhar.",
+            "d": "Teste de impulso cefálico positivo (sacada de correção)."
+          },
+          "correta": "d",
+          "comentario": "O protocolo HINTS (Head Impulse, Nystagmus, Test of Skew) diferencia a síndrome vestibular aguda periférica da central. Paradoxalmente, no HINTS um head impulse ANORMAL/positivo (com sacada de correção ao girar rápido a cabeça) indica lesão PERIFÉRICA, sendo a resposta correta e tranquilizadora neste contexto. Os três sinais que sugerem causa CENTRAL (AVC) são justamente os distratores: nistagmo que muda de direção conforme a mira, presença de skew deviation (desalinhamento vertical dos olhos) e head impulse NORMAL (mnemônico INFARCT). Portanto, o head impulse normal seria o dado preocupante — o oposto do que muitos intuem. Pérola de prova: “head impulse positivo tranquiliza, head impulse normal em paciente muito vertiginoso preocupa”. O HINTS bem feito supera a sensibilidade da TC precoce para AVC de fossa posterior.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o tratamento sintomático de primeira linha na fase aguda:",
+          "alternativas": {
+            "a": "Sintomáticos por curto período e reabilitação vestibular.",
+            "b": "Betaistina como terapia curativa definitiva.",
+            "c": "Manobra de Epley.",
+            "d": "Trombólise endovenosa imediata."
+          },
+          "correta": "a",
+          "comentario": "O tratamento inicial da neurite vestibular é sintomático e por CURTO período: supressores vestibulares (anti-histamínicos como dimenidrinato/meclizina, ou benzodiazepínicos) e antieméticos para controlar a vertigem e os vômitos na fase aguda, associados precocemente à reabilitação vestibular, que acelera a compensação central — resposta correta. Corticoide pode ser considerado nas primeiras 72 h em alguns protocolos, mas o núcleo da conduta sintomática é este. A manobra de Epley trata a VPPB (canal semicircular posterior), não a neurite. Trombólise é conduta de AVC isquêmico — aqui o padrão é periférico, sem indicação. A betaistina é usada na doença de Ménière e não é “cura definitiva” da neurite. Pérola: manter supressor vestibular por muitos dias ATRAPALHA a compensação central — usar por poucos dias e estimular a reabilitação.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Demências (demência por corpos de Lewy)",
+      "tier": "ALTO",
+      "vinheta": "Homem de 73 anos é levado pela esposa por declínio cognitivo flutuante há um ano, com períodos de confusão e desatenção que variam muito ao longo do dia. Apresenta alucinações visuais vívidas e recorrentes (vê animais e pessoas), lentidão motora com rigidez e episódios de agitação durante o sono com movimentos que reproduzem sonhos. Recebeu haloperidol para agitação, evoluindo com piora acentuada da rigidez.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Demência com corpos de Lewy.",
+            "b": "Delirium.",
+            "c": "Doença de Alzheimer.",
+            "d": "Demência frontotemporal."
+          },
+          "correta": "a",
+          "comentario": "A demência com corpos de Lewy (DCL) é definida por um núcleo clínico característico: flutuação cognitiva marcante (atenção/alerta que variam ao longo do dia), alucinações visuais recorrentes e bem formadas, parkinsonismo espontâneo e transtorno comportamental do sono REM — todos presentes na vinheta. A grave sensibilidade aos neurolépticos (piora da rigidez com haloperidol) é altamente sugestiva e serve de alerta. A doença de Alzheimer inicia-se tipicamente por perda de memória episódica progressiva, sem alucinações visuais precoces nem flutuação tão intensa nem parkinsonismo inicial. A demência frontotemporal cursa com desinibição/apatia e alteração de linguagem/comportamento, não com alucinações visuais e parkinsonismo. O delirium é agudo e tem fator precipitante identificável (infecção, droga, distúrbio metabólico), enquanto aqui o quadro é crônico de um ano — embora a flutuação possa confundir. Pérola: DCL + antipsicótico típico = risco de piora grave, inclusive síndrome neuroléptica maligna.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Identifique o exame complementar de apoio que ajuda a confirmar o diagnóstico:",
+          "alternativas": {
+            "a": "Biomarcadores liquóricos de amiloide e tau alterados.",
+            "b": "Atrofia frontotemporal na ressonância.",
+            "c": "EEG com complexos periódicos trifásicos.",
+            "d": "Cintilografia do transportador de dopamina (DAT-scan) reduzida."
+          },
+          "correta": "d",
+          "comentario": "Na demência com corpos de Lewy, o exame funcional de suporte é o DAT-scan (cintilografia com transportador de dopamina), que mostra REDUÇÃO da captação nos núcleos da base, refletindo a degeneração nigroestriatal — biomarcador indicativo que ajuda a separar DCL da doença de Alzheimer, sendo a resposta correta. Os biomarcadores liquóricos de amiloide/tau alterados apontam para doença de Alzheimer, não DCL. A atrofia frontotemporal na RM caracteriza a demência frontotemporal. Os complexos periódicos/trifásicos no EEG sugerem doença priônica (Creutzfeldt-Jakob) ou encefalopatia metabólica, não DCL. Outros achados de apoio na DCL incluem cintilografia miocárdica com MIBG reduzida e polissonografia confirmando o transtorno do sono REM. Pérola: preservação relativa do hipocampo na RM (comparada ao Alzheimer) também favorece DCL.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica mais adequada:",
+          "alternativas": {
+            "a": "Benzodiazepínico contínuo de manutenção.",
+            "b": "Haloperidol para controlar as alucinações.",
+            "c": "Anticolinesterásico e evitar neurolépticos típicos.",
+            "d": "Levodopa em altas doses como primeira medida."
+          },
+          "correta": "c",
+          "comentario": "O tratamento da demência com corpos de Lewy prioriza os inibidores da colinesterase (rivastigmina, donepezila), que melhoram cognição, flutuação e sintomas psicóticos, e EVITA rigorosamente os antipsicóticos típicos pela sensibilidade neuroléptica grave — resposta correta. O haloperidol está formalmente contraindicado: pode desencadear rigidez extrema, deterioração e síndrome neuroléptica maligna; se um antipsicótico for imprescindível, prefere-se um atípico de baixa potência (quetiapina/clozapina) em dose mínima. A levodopa em altas doses tende a piorar as alucinações e a confusão, além de resposta motora limitada na DCL — usa-se com cautela e na menor dose eficaz. Benzodiazepínico contínuo agrava a cognição e o risco de quedas; se houver transtorno do sono REM, o melhor é melatonina. Pérola: os sintomas comportamentais devem ser manejados primeiro com medidas não farmacológicas.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroimunologia (encefalite anti-receptor de NMDA)",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 23 anos, previamente hígida, é internada após duas semanas de mudança de comportamento, insônia, delírios e agitação psicomotora. Evolui com crises convulsivas, movimentos involuntários da face e da língua (discinesias orofaciais) e instabilidade autonômica. A ressonância é praticamente normal; o líquor mostra pleocitose linfocítica; o complemento sérico (C3/C4) está normal. Um exame de imagem pélvico identificou uma massa anexial.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Surto psicótico primário.",
+            "b": "Encefalite lúpica.",
+            "c": "Encefalite anti-receptor de NMDA.",
+            "d": "Encefalite herpética."
+          },
+          "correta": "c",
+          "comentario": "A encefalite anti-receptor de NMDA acomete tipicamente mulheres jovens e evolui em fases: pródromo viral, sintomas psiquiátricos (comportamento, delírios, catatonia), depois crises, discinesias orofaciais características, redução do nível de consciência e disautonomia — exatamente a progressão descrita. A associação a TERATOMA de ovário (a massa anexial) é clássica e reforça o diagnóstico paraneoplásico. A encefalite lúpica é descartada pelo complemento NORMAL (no lúpus ativo há consumo de C3/C4 e habitualmente anti-DNA positivo). A encefalite herpética costuma dar febre, rebaixamento e RM com lesão temporal (hipersinal), com PCR de HSV positivo no líquor — aqui a RM é normal e faltam esses achados. O surto psicótico primário não explica crises, discinesias, disautonomia nem a pleocitose liquórica — atenção à armadilha de rotular como “psiquiátrico” e perder a encefalite. Pérola: mulher jovem com psicose de início agudo + discinesia orofacial = investigar anti-NMDA e pesquisar teratoma.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o exame que confirma o diagnóstico:",
+          "alternativas": {
+            "a": "Anti-DNA positivo com consumo de complemento.",
+            "b": "Anticorpos anti-NMDA no líquor.",
+            "c": "Bandas oligoclonais isoladas no líquor.",
+            "d": "PCR para herpes-vírus positiva no líquor."
+          },
+          "correta": "b",
+          "comentario": "A confirmação diagnóstica é a detecção de anticorpos contra a subunidade GluN1 do receptor de NMDA, com maior sensibilidade quando pesquisados no LÍQUOR (podem ser negativos só no soro) — resposta correta. Simultaneamente, deve-se rastrear tumor associado (teratoma ovariano na mulher jovem), pois sua remoção faz parte do tratamento. A PCR de HSV positiva definiria encefalite herpética, diagnóstico diferencial que precisa ser afastado/tratado empiricamente até exclusão, mas não é o caso. Anti-DNA com consumo de complemento apontaria lúpus/encefalite lúpica — incompatível com o complemento normal aqui. Bandas oligoclonais isoladas são inespecíficas e mais associadas a esclerose múltipla; podem ocorrer, mas não confirmam a encefalite anti-NMDA. Pérola: sempre colher o painel de anticorpos no líquor E no soro e não se contentar com soro negativo.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica mais adequada:",
+          "alternativas": {
+            "a": "Pulsoterapia apenas se houver recidiva.",
+            "b": "Antipsicótico como único tratamento.",
+            "c": "Aciclovir endovenoso isolado.",
+            "d": "Imunoterapia e ressecção do teratoma."
+          },
+          "correta": "d",
+          "comentario": "O tratamento da encefalite anti-NMDA combina imunoterapia de primeira linha (corticoide em pulso, imunoglobulina e/ou plasmaférese) com a REMOÇÃO do tumor quando presente (teratoma), etapa que acelera a recuperação e reduz recidiva — resposta correta; casos refratários recebem segunda linha (rituximabe, ciclofosfamida). O aciclovir isolado trata herpes e, embora seja iniciado empiricamente enquanto se afasta HSV, não é o tratamento da encefalite autoimune. Antipsicótico isolado apenas maquia os sintomas psiquiátricos, sem tratar a doença de base — e pode piorar a disautonomia; usa-se com cautela. Esperar a recidiva para só então tratar é conduta errada: a imunoterapia deve ser PRECOCE, pois quanto antes iniciada melhor o prognóstico funcional. Pérola: recuperação costuma ser lenta (meses), mas frequentemente boa quando o teratoma é retirado.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Medula, Cauda Equina e Dor (mielopatia cervical espondilótica)",
+      "tier": "ALTO",
+      "vinheta": "Homem de 60 anos relata, há um ano, dificuldade progressiva para caminhar, com sensação de rigidez e desequilíbrio nas pernas, além de perda de destreza fina nas mãos (dificuldade para abotoar a camisa e manusear moedas). Ao exame há tetraparesia espástica leve, hiper-reflexia global, sinal de Hoffmann bilateral e sinal de Babinski, com nível sensitivo cervical e marcha espástica. Não há dor lombar nem alteração esfincteriana precoce.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Polineuropatia periférica.",
+            "b": "Síndrome da cauda equina.",
+            "c": "Esclerose lateral amiotrófica.",
+            "d": "Mielopatia cervical espondilótica."
+          },
+          "correta": "d",
+          "comentario": "A mielopatia cervical espondilótica é a causa mais comum de disfunção medular no adulto acima dos 55 anos: a degeneração discovertebral cervical comprime a medula, gerando marcha espástica, desequilíbrio, perda de destreza fina nas mãos e sinais de neurônio motor superior (hiper-reflexia, Hoffmann, Babinski) associados a nível sensitivo — exatamente o quadro. A ELA também dá sinais de NMS, mas NÃO cursa com nível sensitivo nem alteração de sensibilidade (é puramente motora) — o nível sensitivo cervical aqui a afasta. A síndrome da cauda equina produz padrão de neurônio motor INFERIOR (arreflexia, flacidez), anestesia em sela e disfunção esfincteriana precoce, o oposto do padrão espástico observado. A polineuropatia periférica dá fraqueza distal com hipo/arreflexia e padrão em bota/luva, sem sinais piramidais nem nível sensitivo. Pérola: sinais de NMS nos membros + nível sensitivo + mãos desajeitadas = pensar em compressão medular cervical.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o exame complementar de escolha para confirmação:",
+          "alternativas": {
+            "a": "Eletroneuromiografia.",
+            "b": "Radiografia simples da coluna lombar.",
+            "c": "Tomografia de crânio.",
+            "d": "Ressonância magnética da coluna cervical."
+          },
+          "correta": "d",
+          "comentario": "O exame de escolha para confirmar a mielopatia cervical espondilótica é a ressonância magnética da coluna CERVICAL, que demonstra a compressão medular, a estenose do canal e eventual mielomalácia (hipersinal intramedular em T2) — resposta correta. A eletroneuromiografia avalia nervo periférico e músculo e pode ajudar no diferencial com ELA/neuropatia, mas não visualiza a compressão medular nem fecha o diagnóstico topográfico. A radiografia simples da coluna LOMBAR está no segmento errado (o problema é cervical) e não mostra a medula. A tomografia de crânio investiga o encéfalo, não a medula cervical — fora do alvo. Pérola: quando há suspeita de compressão medular com sinais piramidais, a RM do segmento suspeito é mandatória e urgente, pois o tratamento precoce evita dano irreversível.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica definitiva mais adequada:",
+          "alternativas": {
+            "a": "Descompressão cirúrgica.",
+            "b": "Corticoide em pulsoterapia.",
+            "c": "Imunoglobulina endovenosa.",
+            "d": "Fisioterapia isolada por tempo indefinido."
+          },
+          "correta": "a",
+          "comentario": "Na mielopatia cervical espondilótica com déficit progressivo e sinais medulares, o tratamento definitivo é a DESCOMPRESSÃO CIRÚRGICA (por via anterior ou posterior, conforme o nível e a morfologia), que interrompe a progressão e pode melhorar a função — resposta correta, sobretudo em quadros moderados a graves ou com piora. A fisioterapia isolada por tempo indefinido pode ser opção só em casos leves e estáveis, mas não trata uma mielopatia progressiva e não deve postergar a cirurgia indicada. O corticoide em pulsoterapia é conduta de doença inflamatória/desmielinizante (ex.: mielite, esclerose múltipla), não de compressão mecânica degenerativa. A imunoglobulina endovenosa trata doenças imunomediadas (Guillain-Barré, miastenia), sem papel na espondilose. Pérola: o tempo de compressão é o principal determinante prognóstico — quanto mais precoce a descompressão, melhor a recuperação.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Transtornos do Movimento (parkinsonismo farmacológico)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 58 anos apresenta, há três meses, bradicinesia, rigidez e tremor, de instalação relativamente simétrica e progressão em poucas semanas. Faz uso diário de metoclopramida há quatro meses para náuseas e dispepsia. Não há hiposmia, constipação nem relato de sonhos vívidos. O exame não mostra assimetria importante e não há resposta prévia a levodopa.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o mecanismo fisiopatológico predominante:",
+          "alternativas": {
+            "a": "Desmielinização das vias nigroestriatais.",
+            "b": "Bloqueio dos receptores dopaminérgicos D2.",
+            "c": "Degeneração idiopática da substância negra.",
+            "d": "Deposição de alfa-sinucleína (corpos de Lewy)."
+          },
+          "correta": "b",
+          "comentario": "O parkinsonismo farmacológico resulta do BLOQUEIO dos receptores dopaminérgicos D2 no estriado por fármacos antidopaminérgicos — antipsicóticos (típicos e alguns atípicos) e, muito cobrado em prova, a metoclopramida e a bromoprida (antieméticos/procinéticos) — reduzindo a neurotransmissão dopaminérgica funcional sem destruir os neurônios, o que explica a reversibilidade ao suspender a droga; é a resposta correta. A deposição de alfa-sinucleína (corpos de Lewy) é o mecanismo da doença de Parkinson idiopática e da demência com corpos de Lewy, não do parkinsonismo por drogas. A degeneração idiopática da substância negra também define o Parkinson idiopático, tipicamente ASSIMÉTRICO e de progressão lenta, com sintomas não motores (hiposmia, constipação, sono REM). A desmielinização nigroestriatal não corresponde a nenhuma dessas entidades. Pérola: quadro simétrico, rápido, em paciente usando antiemético/antipsicótico = suspeitar de causa medicamentosa.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o comportamento esperado da cintilografia do transportador de dopamina (DAT-scan):",
+          "alternativas": {
+            "a": "Ressonância com atrofia mesencefálica.",
+            "b": "Líquor com alfa-sinucleína reduzida.",
+            "c": "DAT-scan com redução assimétrica da captação.",
+            "d": "DAT-scan normal."
+          },
+          "correta": "d",
+          "comentario": "A cintilografia do transportador de dopamina (DAT-scan) é NORMAL no parkinsonismo farmacológico, porque não há perda dos neurônios dopaminérgicos pré-sinápticos — o defeito é pós-sináptico (bloqueio do receptor). Esse é o exame que SEPARA o parkinsonismo por droga da doença de Parkinson idiopática, na qual o DAT-scan mostra REDUÇÃO (tipicamente assimétrica) da captação; por isso o distrator da “redução assimétrica” descreve o Parkinson idiopático, não este caso. A atrofia mesencefálica (sinal do “beija-flor”) sugere paralisia supranuclear progressiva, um parkinsonismo atípico. Alfa-sinucleína reduzida no líquor não é marcador consagrado usado nesse diferencial. Pérola: diante de parkinsonismo em paciente usando bloqueador D2, a conduta prática é suspender a droga e reavaliar em semanas a meses; o DAT-scan normal confirma a etiologia farmacológica quando há dúvida.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta mais adequada neste momento:",
+          "alternativas": {
+            "a": "Indicar estimulação cerebral profunda.",
+            "b": "Iniciar levodopa imediatamente.",
+            "c": "Suspender a metoclopramida.",
+            "d": "Iniciar pramipexol."
+          },
+          "correta": "c",
+          "comentario": "A conduta correta é SUSPENDER o fármaco causador (a metoclopramida) e aguardar a resolução, que costuma ocorrer em semanas a meses (podendo levar até ~6 meses) — o parkinsonismo farmacológico é, na maioria das vezes, reversível. Iniciar levodopa “no automático” é erro: além de tratar a doença errada, a resposta tende a ser pobre porque o problema é bloqueio do receptor, não falta de dopamina. Iniciar pramipexol (agonista dopaminérgico) tem a mesma lógica equivocada e pode causar efeitos adversos desnecessários. A estimulação cerebral profunda é reservada à doença de Parkinson idiopática avançada com flutuações motoras apesar de tratamento otimizado — jamais indicada para parkinsonismo medicamentoso. Pérola: se o antiemético/procinético for imprescindível, prefira a domperidona, que atravessa pouco a barreira hematoencefálica e causa menos parkinsonismo.",
+          "dificuldade": "facil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Infecciosas regionais (leishmaniose visceral) [REAL: SUS-BA R+ Pediatria 2021]",
+      "tier": "ALTO",
+      "vinheta": "Menina, 7 anos de idade, é regulada do interior para internamento com quadro de febre há cerca de 40 dias, fraqueza, palidez, perda de apetite e de peso, diarreia e aumento do volume abdominal. Ao exame, está hipoativa e febril; ausculta cardíaca com bulhas rítmicas e taquicárdicas; há hepatoesplenomegalia. Exames: hemoglobina 8,2 g/dL; leucócitos 1.080/mm³ (linfócitos 60%, segmentados 35%, bastões 1%, eosinófilos 2%); plaquetas 50.000/mm³; VHS 70; albumina 2,5 g/dL; globulina 3,1 g/dL.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a principal suspeita diagnóstica com base nos dados apresentados:",
+          "alternativas": {
+            "a": "Hepatite crônica.",
+            "b": "Leishmaniose visceral.",
+            "c": "Doença hepática autoimune.",
+            "d": "Esquistossomose hepatoesplênica."
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A tríade febre arrastada (semanas) + hepatoesplenomegalia volumosa + PANCITOPENIA (anemia, leucopenia e plaquetopenia), com hipoalbuminemia e hipergamaglobulinemia (inversão albumina/globulina) em criança procedente de área endêmica, é o quadro clássico da leishmaniose visceral (calazar), causada por Leishmania infantum/chagasi e transmitida pelo flebotomíneo — endêmica no interior da Bahia e Nordeste. A hepatite crônica não explica a pancitopenia intensa nem a esplenomegalia volumosa com esse hemograma. A doença hepática autoimune cursaria com marcadores autoimunes e padrão hepatocelular, sem a pancitopenia infecciosa arrastada típica. A esquistossomose hepatoesplênica dá hipertensão portal e esplenomegalia, mas classicamente com EOSINOFILIA e sem a febre prolongada com pancitopenia grave do calazar (aqui os eosinófilos estão baixos). Pérola: pancitopenia + febre prolongada + esplenomegalia + procedência endêmica = pensar em calazar e não em “leucemia” de imediato.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Identifique o exame considerado padrão-ouro para confirmação diagnóstica:",
+          "alternativas": {
+            "a": "Pesquisa direta em material de medula óssea.",
+            "b": "Anatomopatológico pós-biópsia hepática.",
+            "c": "Parasitológico de fezes.",
+            "d": "Pesquisa de anticorpos."
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O padrão-ouro para confirmar a leishmaniose visceral é a demonstração DIRETA do parasita (formas amastigotas de Leishmania) no aspirado de medula óssea (mielograma), método de maior especificidade e seguro em pediatria; o aspirado esplênico tem sensibilidade ainda maior, porém maior risco de sangramento. O parasitológico de fezes não detecta Leishmania (serve para helmintos/protozoários intestinais). A pesquisa de anticorpos (sorologia, ex.: RIFI, ELISA, teste rápido rK39) é útil para triagem e tem boa sensibilidade, mas é indireta e pode ter reações cruzadas — não é o padrão-ouro. A biópsia hepática não é o exame de escolha e é mais invasiva/menos rentável que a punção medular. Pérola: no SUS, o teste rápido rK39 auxilia o rastreio, mas a confirmação parasitológica se dá pelo encontro do parasita na medula.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Especifique a droga preferencial, disponível no SUS, para o tratamento inicial:",
+          "alternativas": {
+            "a": "Antimoniais pentavalentes.",
+            "b": "Oxamniquina.",
+            "c": "Interferon gama.",
+            "d": "Pentamidina."
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O tratamento de primeira linha disponibilizado pelo SUS para a leishmaniose visceral é o antimonial pentavalente (antimoniato de N-metilglucamina/Glucantime); a anfotericina B (preferencialmente lipossomal) é indicada em grupos de maior risco — crianças muito pequenas, gestantes, imunossuprimidos, formas graves ou com contraindicação ao antimonial — e vem ganhando espaço como primeira escolha em vários protocolos. O interferon gama não é terapia padrão do calazar. A oxamniquina trata ESQUISTOSSOMOSE, não leishmaniose — é o distrator que pune quem confundiu os diagnósticos. A pentamidina é droga de segunda/terceira linha, com toxicidade relevante, reservada a falhas terapêuticas. Pérola: sinais de gravidade (sangramento, icterícia, edema, infecção associada, plaquetopenia acentuada) indicam anfotericina B lipossomal e internação — vale checar o protocolo vigente do Ministério da Saúde ao definir a droga.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Saúde Coletiva e APS (Marco Legal da Primeira Infância) [REAL: SUS-BA R+ Pediatria 2024]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Uma Unidade Básica de Saúde (UBS) está se preparando para implementar um programa abrangente de atenção à Primeira Infância com base no Marco Legal da Primeira Infância, visando melhorar a saúde e o desenvolvimento dessa parcela da população.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a faixa etária que compreende a Primeira Infância:",
+          "alternativas": {
+            "a": "Dos 3 aos 6 anos de idade.",
+            "b": "Do nascimento até 3 anos de idade.",
+            "c": "Do nascimento até 6 anos de idade.",
+            "d": "Do nascimento até 1 ano de idade."
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O Marco Legal da Primeira Infância (Lei nº 13.257/2016) define a PRIMEIRA INFÂNCIA como o período que abrange os primeiros 6 anos completos ou 72 meses de vida da criança — ou seja, do nascimento até os 6 anos, resposta correta. É uma janela crítica de desenvolvimento cerebral, com prioridade absoluta de políticas públicas intersetoriais (saúde, educação, assistência social). As demais faixas são recortes incorretos: “dos 3 aos 6 anos” exclui os três primeiros anos, justamente os mais sensíveis; “até 1 ano” e “até 3 anos” subestimam o período legal. Pérola: não confundir o conceito legal (0-6 anos do Marco Legal) com os cortes usados por outros programas ou pela primeira “infância precoce” (0-3 anos) da literatura do desenvolvimento — a banca gosta de trocar esses números.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Indique o período mínimo recomendado de aleitamento materno exclusivo, segundo a OMS:",
+          "alternativas": {
+            "a": "Até 4 meses.",
+            "b": "Até 6 meses.",
+            "c": "Até 1 mês.",
+            "d": "Até 12 meses."
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A Organização Mundial da Saúde e o Ministério da Saúde recomendam o ALEITAMENTO MATERNO EXCLUSIVO até os 6 meses de idade — sem água, chás ou outros alimentos —, resposta correta. Nesse período o leite materno supre todas as necessidades nutricionais e hídricas do lactente e confere proteção imunológica. “Até 1 mês” e “até 4 meses” encurtam indevidamente a recomendação (a introdução alimentar antes dos 6 meses aumenta risco de infecções e alergias). “Até 12 meses” confunde exclusivo com complementar: aos 6 meses inicia-se a alimentação complementar, mantendo-se o aleitamento até 2 anos ou mais. Pérola clássica de prova: distinguir aleitamento EXCLUSIVO (até 6 meses) de aleitamento COMPLEMENTADO/continuado (mantido até 24 meses ou mais) — são números diferentes cobrados na mesma questão.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Segundo o Programa Amamenta e Alimenta Brasil, indique o período mínimo recomendado para manter o aleitamento materno:",
+          "alternativas": {
+            "a": "36 meses ou mais.",
+            "b": "24 meses ou mais.",
+            "c": "6 meses ou mais.",
+            "d": "12 meses ou mais."
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Segundo o Programa Amamenta e Alimenta Brasil (Ministério da Saúde), alinhado à OMS, o aleitamento materno deve ser mantido por 24 meses ou mais (2 anos ou mais), agora de forma COMPLEMENTADA pela alimentação a partir dos 6 meses — resposta correta. “6 meses ou mais” corresponde ao período do aleitamento exclusivo, não ao tempo total recomendado. “12 meses ou mais” subestima a recomendação oficial. “36 meses ou mais” ultrapassa a meta padronizada de 24 meses (embora amamentar além disso não seja prejudicial, não é a recomendação mínima cobrada). Pérola: a banca costura na mesma situação-problema três números fáceis de confundir — 6 meses (exclusivo, OMS), 6 anos/72 meses (primeira infância, Marco Legal) e 24 meses (continuado, Amamenta e Alimenta Brasil) — decore cada um com sua fonte.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Reumatologia (artrite idiopática juvenil sistêmica)",
+      "tier": "MÉDIO",
+      "vinheta": "Menina de 4 anos apresenta, há três semanas, febre alta diária com dois picos vespertinos que retornam à normalidade entre os episódios, acompanhada de exantema rosado evanescente que surge junto com a febre e some depois. Tem artrite em punhos e joelhos, hepatoesplenomegalia e linfonodomegalia. Exames: leucocitose com neutrofilia, plaquetose, ferritina muito elevada, VHS e PCR altos; fator antinuclear e fator reumatoide negativos; hemoculturas negativas.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Leucemia linfoblástica aguda.",
+            "b": "Febre reumática.",
+            "c": "Lúpus eritematoso sistêmico.",
+            "d": "Artrite idiopática juvenil sistêmica."
+          },
+          "correta": "d",
+          "comentario": "A artrite idiopática juvenil sistêmica (doença de Still da infância) é definida por febre em picos diários (quotidiana), exantema salmão/rosado evanescente que acompanha a febre, artrite, e envolvimento sistêmico (hepatoesplenomegalia, linfonodomegalia, serosite), com marcadores inflamatórios muito altos e ferritina elevada — exatamente o quadro; FAN e fator reumatoide costumam ser NEGATIVOS. A febre reumática exige evidência de infecção estreptocócica e critérios de Jones (cardite, coreia, artrite migratória, eritema marginado, nódulos), com padrão diferente de febre e exantema. O lúpus tende a cursar com FAN positivo, consumo de complemento e outros critérios (nefrite, citopenias autoimunes) — o FAN negativo e o padrão febril/exantema aqui não são típicos. A leucemia é o diferencial “que não se pode perder” (febre, dor óssea, organomegalia, citopenias), mas aqui há leuco/plaquetose, não citopenia — ainda assim, na dúvida, o mielograma antecede corticoide. Pérola: ferritina muito elevada + febre em picos + rash evanescente aponta fortemente para AIJ sistêmica.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o principal mecanismo fisiopatológico envolvido:",
+          "alternativas": {
+            "a": "Autoanticorpos anti-DNA de dupla hélice.",
+            "b": "Ativação de IL-1, IL-6 e IL-18.",
+            "c": "Infiltração blástica da medula óssea.",
+            "d": "Imunocomplexos pós-infecção estreptocócica."
+          },
+          "correta": "b",
+          "comentario": "A artrite idiopática juvenil sistêmica é uma doença AUTOINFLAMATÓRIA (imunidade inata), na qual há ativação exagerada de citocinas pró-inflamatórias, sobretudo interleucina-1 (IL-1), IL-6 e IL-18 — mecanismo que explica a febre, o rash, a resposta de fase aguda e a base do tratamento com bloqueadores dessas vias; é a resposta correta. Os autoanticorpos anti-DNA de dupla hélice caracterizam o lúpus (doença autoimune por imunidade adaptativa/autoanticorpos), não a AIJ sistêmica. Os imunocomplexos pós-estreptocócicos remetem à febre reumática/glomerulonefrite pós-estreptocócica. A infiltração blástica medular é o mecanismo da leucemia. Pérola: o perfil de citocinas justifica o uso de anti-IL-1 (anacinra, canacinumabe) e anti-IL-6 (tocilizumabe) como terapias-alvo, e a IL-18 muito elevada associa-se ao risco de síndrome de ativação macrofágica, complicação grave a vigiar.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica mais adequada:",
+          "alternativas": {
+            "a": "Antibioticoterapia empírica de amplo espectro.",
+            "b": "Penicilina benzatina profilática mensal.",
+            "c": "Apenas anti-inflamatório, por ser autolimitada.",
+            "d": "Corticoide e imunobiológico anti-IL-1 ou anti-IL-6."
+          },
+          "correta": "d",
+          "comentario": "O tratamento da artrite idiopática juvenil sistêmica moderada a grave baseia-se em corticoide para controle rápido e imunobiológicos-alvo — bloqueadores de IL-1 (anacinra, canacinumabe) ou de IL-6 (tocilizumabe) —, que revolucionaram o prognóstico; AINE ajuda nos sintomas leves iniciais, mas não controla a doença sistêmica; é a resposta correta. A penicilina benzatina profilática é a conduta da FEBRE REUMÁTICA (profilaxia secundária), não da AIJ. A antibioticoterapia empírica trataria uma sepse/infecção — importante afastar infecção, mas as hemoculturas são negativas e o quadro é inflamatório. Considerar a doença “autolimitada” e usar só anti-inflamatório é erro: a AIJ sistêmica pode ter curso persistente e complicar com síndrome de ativação macrofágica. Pérola: piora súbita com febre contínua, queda das linhagens, hiperferritinemia extrema e hipertrigliceridemia sugere ativação macrofágica — emergência reumatológica.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Cardiologia (comunicação interventricular)",
+      "tier": "MÉDIO",
+      "vinheta": "Lactente de 3 meses é avaliado por cansaço e sudorese durante as mamadas, com ganho de peso insuficiente e infecções respiratórias de repetição. Ao exame há taquipneia e um sopro holossistólico rude em borda esternal esquerda baixa, com frêmito. Não há cianose e os pulsos são simétricos.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Comunicação interventricular.",
+            "b": "Tetralogia de Fallot.",
+            "c": "Estenose pulmonar.",
+            "d": "Persistência do canal arterial."
+          },
+          "correta": "a",
+          "comentario": "A comunicação interventricular (CIV) é a cardiopatia congênita acianótica mais comum e cursa, quando de moderada a grande, com sinais de hiperfluxo pulmonar e insuficiência cardíaca no lactente (cansaço às mamadas, sudorese, baixo ganho ponderal, infecções respiratórias de repetição) e sopro HOLOSSISTÓLICO rude em borda esternal esquerda baixa, muitas vezes com frêmito — exatamente o descrito, sem cianose. A tetralogia de Fallot é cianótica e cursa com sopro de estenose pulmonar (ejetivo) e crises hipoxêmicas, não com sopro holossistólico e ausência de cianose. A persistência do canal arterial produz sopro CONTÍNUO (“em maquinaria”) infraclavicular e pulsos amplos, não holossistólico. A estenose pulmonar dá sopro sistólico EJETIVO em foco pulmonar com clique, sem o padrão holossistólico regurgitante baixo. Pérola: sopro holossistólico em borda esternal esquerda baixa com frêmito no lactente é a assinatura semiológica da CIV.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o exame complementar de escolha para o diagnóstico:",
+          "alternativas": {
+            "a": "Cateterismo cardíaco de urgência.",
+            "b": "Eletrocardiograma isolado.",
+            "c": "Ecocardiograma.",
+            "d": "Radiografia de tórax isolada."
+          },
+          "correta": "c",
+          "comentario": "O exame de escolha para diagnóstico e caracterização da CIV é o ECOCARDIOGRAMA com Doppler, que localiza e mede o defeito, estima o shunt e o gradiente, avalia repercussão sobre câmaras e pressão pulmonar — resposta correta e não invasivo. O cateterismo cardíaco é reservado a situações específicas (avaliação hemodinâmica de hipertensão pulmonar, intervenção percutânea), não é o exame inicial nem “de urgência” aqui. A radiografia de tórax mostra cardiomegalia e trama pulmonar aumentada, mas é inespecífica e não define a anatomia. O eletrocardiograma pode sugerir sobrecarga de câmaras, porém também não fecha o diagnóstico. Pérola: em qualquer sopro patológico do lactente (rude, holossistólico, com frêmito, ou associado a sintomas), o ecocardiograma é o próximo passo padrão.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Indique a conduta/evolução mais adequada para o caso:",
+          "alternativas": {
+            "a": "Cirurgia de urgência em todos os casos.",
+            "b": "Tratar a insuficiência cardíaca e acompanhar (fechamento espontâneo é frequente).",
+            "c": "Profilaxia antibiótica contínua até a adolescência.",
+            "d": "Prostaglandina para manter o canal arterial."
+          },
+          "correta": "b",
+          "comentario": "Muitas CIVs — sobretudo as musculares e as pequenas — FECHAM espontaneamente nos primeiros anos de vida, de modo que a conduta na presença de insuficiência cardíaca é clínica (diuréticos, otimização calórica, controle das intercorrências) com acompanhamento cardiológico, reservando a correção cirúrgica/percutânea aos defeitos grandes, com IC refratária, baixo ganho ponderal persistente ou hipertensão pulmonar — resposta correta. “Cirurgia de urgência em todos os casos” é excessivo e incorreto, pois grande parte não opera. A profilaxia antibiótica contínua não é recomendada de rotina: a profilaxia de endocardite ficou restrita a situações de alto risco específicas. Prostaglandina é usada para MANTER o canal arterial aberto em cardiopatias canal-dependentes (ex.: transposição, atresia pulmonar) — não se aplica à CIV. Pérola: a decisão cirúrgica na CIV é guiada por tamanho do shunt, sintomas e pressão pulmonar, não pela mera presença do defeito.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Oncologia (retinoblastoma)",
+      "tier": "MÉDIO",
+      "vinheta": "Menina de 18 meses é levada porque a mãe notou, em fotografias com flash, um reflexo esbranquiçado na pupila do olho direito (“olho de gato”), além de estrabismo de início recente. Ao teste do reflexo vermelho há leucocoria à direita, com ausência do reflexo vermelho normal desse lado. Não há dor evidente nem história familiar conhecida.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Retinoblastoma.",
+            "b": "Toxocaríase ocular.",
+            "c": "Catarata congênita.",
+            "d": "Hemorragia vítrea."
+          },
+          "correta": "a",
+          "comentario": "O retinoblastoma é o tumor intraocular maligno mais comum da infância e manifesta-se classicamente por LEUCOCORIA (reflexo pupilar esbranquiçado, o “olho de gato”) e/ou estrabismo em criança pequena — exatamente a apresentação. Toda leucocoria/ausência de reflexo vermelho é retinoblastoma até prova em contrário e exige avaliação oftalmológica urgente. A catarata congênita também causa leucocoria, mas é uma opacidade do cristalino (não uma massa retiniana) e é o principal diferencial benigno — daí a importância do exame oftalmológico com fundoscopia e imagem. A toxocaríase ocular pode causar leucocoria por granuloma/uveíte, porém é menos frequente e cursa com sinais inflamatórios. A hemorragia vítrea é causa rara nessa idade e geralmente tem contexto traumático/sistêmico. Pérola: o teste do reflexo vermelho (“teste do olhinho”) na puericultura é a ferramenta de rastreio que permite o diagnóstico precoce e salva visão e vida.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o exame complementar de escolha na avaliação inicial:",
+          "alternativas": {
+            "a": "Tomografia como primeira linha.",
+            "b": "Angiografia fluoresceínica.",
+            "c": "Ultrassonografia ocular.",
+            "d": "Biópsia da lesão intraocular."
+          },
+          "correta": "c",
+          "comentario": "A avaliação inicial do retinoblastoma inclui o exame de fundo de olho sob midríase (e frequentemente sob anestesia) e a ULTRASSONOGRAFIA OCULAR, que demonstra a massa e as CALCIFICAÇÕES intratumorais características, sendo exame de escolha inicial, acessível e sem radiação — resposta correta; a ressonância de órbitas/crânio complementa para avaliar extensão e nervo óptico. A tomografia NÃO é a primeira linha, pois expõe a criança à radiação ionizante (indesejável, sobretudo nas formas hereditárias com risco de segundos tumores). A biópsia é CONTRAINDICADA no retinoblastoma pelo risco de disseminação tumoral extraocular — o diagnóstico é clínico-imagenológico. A angiografia fluoresceínica não é o método diagnóstico padrão dessa lesão. Pérola: evitar TC pela radiação e jamais biopsiar são dois pontos frequentemente cobrados em prova.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Identifique a faixa etária de maior prevalência da doença:",
+          "alternativas": {
+            "a": "Distribuição uniforme em todas as idades.",
+            "b": "Mais comum após os 10 anos.",
+            "c": "Predomínio na idade escolar.",
+            "d": "Maior prevalência antes dos 3 anos de idade."
+          },
+          "correta": "d",
+          "comentario": "O retinoblastoma é um tumor do lactente e pré-escolar: a maioria dos casos é diagnosticada ANTES dos 3 anos de idade, e as formas bilaterais/hereditárias (mutação germinativa no gene RB1) tendem a se apresentar ainda mais cedo que as unilaterais esporádicas — resposta correta. Não predomina na idade escolar nem após os 10 anos (é raro nessa faixa). Também não tem distribuição uniforme por idade, concentrando-se nos primeiros anos de vida. O prognóstico é excelente quando o diagnóstico é precoce e o tumor está confinado ao olho, com sobrevida alta; o atraso diagnóstico piora muito o desfecho e pode custar o olho ou a vida. Pérola: história familiar e bilateralidade sugerem a forma hereditária, que demanda aconselhamento genético e vigilância para segundos tumores (ex.: osteossarcoma).",
+          "dificuldade": "facil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neonatologia (sepse neonatal precoce)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Recém-nascido a termo, cuja mãe teve ruptura de membranas há 22 horas e trabalho de parto prolongado, sem rastreio para estreptococo do grupo B na gestação, apresenta nas primeiras 24 horas de vida letargia, instabilidade térmica, taquipneia com gemência e tempo de enchimento capilar prolongado.",
+      "perguntas": [
+        {
+          "enunciado": "Dentre os dados apresentados, identifique o principal fator de risco associado ao quadro:",
+          "alternativas": {
+            "a": "Uso materno de ácido fólico na gestação.",
+            "b": "Trabalho de parto curto.",
+            "c": "Ruptura prolongada de membranas (superior a 18 horas).",
+            "d": "Parto cesáreo eletivo."
+          },
+          "correta": "c",
+          "comentario": "A sepse neonatal PRECOCE (nas primeiras 72 h, em geral <24 h) associa-se a fatores de risco periparto bem definidos: ruptura prolongada de membranas (>18 h), corioamnionite, febre materna, colonização/bacteriúria por estreptococo do grupo B sem profilaxia adequada, prematuridade e trabalho de parto prolongado. A ruptura de membranas por 22 h é justamente o fator de risco presente — resposta correta. O parto cesáreo ELETIVO (com membranas íntegras, sem trabalho de parto) NÃO é fator de risco para sepse precoce, ao contrário. Trabalho de parto CURTO também não é fator de risco (o prolongado é que se associa). O uso materno de ácido fólico é benéfico (previne defeitos de tubo neural) e não tem relação com sepse. Pérola: a banca costuma listar vários dados na vinheta e pedir qual REALMENTE é fator de risco — reconhecer a bolsa rota prolongada é a chave.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Indique o agente etiológico mais provável:",
+          "alternativas": {
+            "a": "Haemophilus influenzae tipo b.",
+            "b": "Streptococcus do grupo B.",
+            "c": "Staphylococcus epidermidis.",
+            "d": "Pseudomonas aeruginosa."
+          },
+          "correta": "b",
+          "comentario": "O agente mais frequente da sepse neonatal PRECOCE em recém-nascidos a termo é o Streptococcus agalactiae (estreptococo do grupo B, GBS), adquirido por transmissão vertical do trato genital materno; a Escherichia coli é o segundo agente clássico (e o principal em prematuros), e a Listeria monocytogenes completa a tríade cobrada em prova — resposta correta: GBS. O Staphylococcus epidermidis (coagulase-negativo) é típico da sepse TARDIA/relacionada a cateter, sobretudo em prematuros internados, não da precoce. A Pseudomonas aeruginosa também se associa a infecções tardias/hospitalares, não à transmissão vertical precoce. O Haemophilus influenzae tipo b não é agente típico da sepse neonatal precoce e teve incidência reduzida pela vacinação. Pérola: a profilaxia intraparto com penicilina/ampicilina em gestantes GBS-positivas (ou com fatores de risco) reduz drasticamente a doença precoce por GBS.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica mais adequada:",
+          "alternativas": {
+            "a": "Ampicilina e gentamicina empíricas após colher culturas.",
+            "b": "Aguardar o resultado das culturas antes de qualquer antibiótico.",
+            "c": "Ceftriaxona em monoterapia.",
+            "d": "Apenas observação clínica e reavaliação em 24 horas."
+          },
+          "correta": "a",
+          "comentario": "Diante de recém-nascido sintomático com fatores de risco, a conduta é iniciar ANTIBIOTICOTERAPIA EMPÍRICA precoce após coleta de hemocultura (e demais culturas/exames), sem esperar resultados — o esquema clássico da sepse neonatal precoce é ampicilina + aminoglicosídeo (gentamicina), que cobre GBS, Listeria e enterobactérias como a E. coli; é a resposta correta. Aguardar as culturas para só então tratar um neonato séptico é conduta perigosa e errada, pela rápida deterioração possível. A ceftriaxona em monoterapia é EVITADA no período neonatal: desloca a bilirrubina da albumina (risco de kernicterus no RN ictérico) e pode precipitar com cálcio — pegadinha clássica; quando se opta por cefalosporina, prefere-se cefotaxima. Apenas observar um RN com letargia, instabilidade térmica e má perfusão é inadmissível. Pérola: “tratar primeiro, ajustar depois” conforme cultura e antibiograma no neonato com suspeita de sepse.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Infecciosas/Exantemáticas (sarampo)",
+      "tier": "ALTO",
+      "vinheta": "Criança de 3 anos, sem comprovação de vacinação, apresenta febre alta, tosse, coriza e conjuntivite há 3 dias, seguidas de exantema maculopapular que se iniciou na região retroauricular e na face e progrediu no sentido craniocaudal. Na mucosa jugal, foram observadas pequenas manchas brancas com halo eritematoso.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Exantema súbito (roséola).",
+            "b": "Escarlatina.",
+            "c": "Sarampo.",
+            "d": "Rubéola."
+          },
+          "correta": "c",
+          "comentario": "O sarampo cursa com pródromo de febre alta e o trio catarral (tosse, coriza e conjuntivite), seguido de exantema maculopapular morbiliforme que começa na região retroauricular/face e progride em sentido CRANIOCAUDAL; o sinal patognomônico é a mancha de Koplik (pequenas manchas brancas com halo eritematoso na mucosa jugal), presente na vinheta — resposta correta. A rubéola dá exantema mais discreto, febre baixa e adenopatia retroauricular/occipital marcante, sem Koplik nem o pródromo catarral intenso. O exantema súbito (roséola, por herpes-vírus 6) caracteriza-se por febre alta que CESSA quando o rash surge, tipicamente no tronco, em lactentes — padrão temporal oposto. A escarlatina apresenta exantema micropapular áspero (“lixa”), língua em framboesa e faringite estreptocócica, sem coriza/conjuntivite nem Koplik. Pérola: a mancha de Koplik antecede o exantema e é o achado que fecha o diagnóstico clínico de sarampo.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica específica recomendada, além do suporte:",
+          "alternativas": {
+            "a": "Corticoide sistêmico como tratamento padrão.",
+            "b": "Administrar vitamina A.",
+            "c": "Antibiótico de rotina para todos os casos.",
+            "d": "Aciclovir oral."
+          },
+          "correta": "b",
+          "comentario": "O tratamento do sarampo é de suporte, e o Ministério da Saúde/OMS recomendam a administração de VITAMINA A para TODAS as crianças com sarampo (duas doses, em dias consecutivos, conforme a idade), pois reduz a gravidade, as complicações e a mortalidade, especialmente onde há hipovitaminose A — resposta correta. O antibiótico NÃO é usado de rotina (sarampo é viral); reserva-se para complicações bacterianas secundárias, como otite média ou pneumonia. O corticoide sistêmico não é tratamento padrão do sarampo não complicado. O aciclovir trata infecções por herpes-vírus (varicela, herpes simples), não o sarampo. Pérola: além da vitamina A, são pilares o isolamento respiratório (aerossóis) e a busca de complicações (pneumonia é a principal causa de óbito; encefalite e, tardiamente, a PEESS são temidas).",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta de saúde pública mais adequada:",
+          "alternativas": {
+            "a": "Notificação imediata e vacinação de bloqueio dos contatos suscetíveis.",
+            "b": "Notificação apenas na consolidação mensal do serviço.",
+            "c": "Isolamento respiratório é desnecessário no sarampo.",
+            "d": "Não há indicação de vacina de bloqueio para os contatos."
+          },
+          "correta": "a",
+          "comentario": "O sarampo é doença de notificação COMPULSÓRIA IMEDIATA (em até 24 horas) por sua altíssima transmissibilidade e potencial epidêmico; diante de caso suspeito, aciona-se a vigilância, faz-se a coleta para confirmação e a VACINAÇÃO DE BLOQUEIO dos contatos suscetíveis (idealmente em até 72 h da exposição), além de isolamento respiratório — resposta correta. Notificar “apenas na consolidação mensal” é errado: a notificação é imediata, não mensal. Afirmar que o isolamento respiratório é desnecessário é grave equívoco: o vírus transmite-se por aerossóis, exigindo precaução respiratória. Dizer que não há vacina de bloqueio contradiz a estratégia oficial de controle de surtos. Pérola: em contatos com contraindicação à vacina (imunossuprimidos, gestantes, lactentes muito jovens), a imunoglobulina pode ser indicada para profilaxia pós-exposição.",
+          "dificuldade": "dificil"
+        }
+      ]
+    }
+  ]
+}
