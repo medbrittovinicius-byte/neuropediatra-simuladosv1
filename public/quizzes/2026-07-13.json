@@ -1,0 +1,651 @@
+{
+ "date": "2026-07-13",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Neuroinfecção (meningite bacteriana/meningococcemia) [REAL: SUS-BA R+ 2026]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 54 anos de idade, é trazido ao pronto-socorro com história de febre alta (39,5 °C), cefaleia intensa e vômitos há 24 horas. Nas últimas horas, evoluiu com confusão mental e rigidez de nuca. Ao exame, apresenta-se sonolento, com sinais de Kernig e Brudzinski positivos. Petéquias difusas são notadas no tronco e em membros inferiores. PA = 90x50 mmHg; FC = 120 bpm. Uma punção lombar é realizada de imediato e aguarda-se o resultado.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, indique o achado mais provavelmente encontrado no Gram do líquor:",
+     "alternativas": {
+      "a": "Diplococos gram negativos.",
+      "b": "Cocobacilos gram positivos.",
+      "c": "Cocos gram positivos em cadeias.",
+      "d": "Cocobacilos gram negativos."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ 2026] A associação de síndrome meníngea aguda (febre alta, cefaleia, vômitos, Kernig e Brudzinski) com exantema petequial disseminado e instabilidade hemodinâmica é a assinatura clínica da doença meningocócica invasiva, causada por Neisseria meningitidis. Ao Gram do líquor, esse agente aparece como diplococo gram-negativo, frequentemente em posição intracelular dentro de neutrófilos — achado que praticamente sela o diagnóstico à beira do leito, antes da cultura. Cocos gram-positivos em cadeias correspondem a estreptococos (o pneumococo, agente mais comum de meningite bacteriana no adulto, é diplococo gram-positivo lanceolado, e não forma cadeias longas típicas) e não cursam com púrpura fulminante. Cocobacilos gram-positivos remetem a Listeria monocytogenes, agente de extremos etários, gestantes e imunossuprimidos, cujo quadro costuma ser mais arrastado, com rombencefalite, sem petéquias. Cocobacilos gram-negativos correspondem a Haemophilus influenzae, hoje raro em vacinados e sem o padrão purpúrico. Pérola de prova: a tríade petéquias + meningite + choque deve disparar imediatamente antibiótico empírico endovenoso (não esperar a punção), notificação compulsória imediata e quimioprofilaxia dos contatos próximos (rifampicina, conforme o Guia de Vigilância em Saúde do Ministério da Saúde). O atraso do antibiótico para 'aguardar o líquor' é erro grave e cobrado com frequência.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante do caso clínico, indique a conduta terapêutica imediata, considerando os protocolos do Ministério da Saúde:",
+     "alternativas": {
+      "a": "Ceftriaxona e ampicilina.",
+      "b": "Ceftriaxona e vancomicina.",
+      "c": "Penicilina cristalina em altas doses.",
+      "d": "Apenas dexametasona, enquanto espera o resultado do líquor."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ 2026] Gabarito oficial da banca. A lógica adotada é a da antibioticoterapia empírica ampliada da meningite bacteriana comunitária no adulto, em que a cefalosporina de terceira geração cobre meningococo, pneumococo e Haemophilus, e a ampicilina é acrescentada para cobrir Listeria monocytogenes — cobertura que o protocolo do Ministério da Saúde recomenda quando não se pode excluir esse agente. O ponto central da questão é temporal: a terapia é empírica e imediata, nunca condicionada ao resultado do líquor. Penicilina cristalina isolada, embora seja o tratamento dirigido do meningococo confirmado, é inadequada como esquema empírico inicial, pois não cobre pneumococo resistente nem Listeria. Dexametasona isolada é erro conceitual grave: o corticoide é adjuvante (reduz sequela auditiva, sobretudo na meningite pneumocócica) e deve ser administrado junto ou imediatamente antes da primeira dose do antibiótico — jamais como monoterapia. Vale registrar, como nota de estudo, que muitos serviços associam vancomicina em vez de ampicilina quando a preocupação principal é pneumococo com sensibilidade reduzida; a escolha varia com a faixa etária e os fatores de risco, e a banca ancorou-se no protocolo nacional. Pérola: antibiótico na primeira hora, hemoculturas antes se não atrasar, e suporte hemodinâmico agressivo, pois a mortalidade da meningococcemia é dominada pelo choque.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Diante do caso clínico, indique a complicação provavelmente presente no caso:",
+     "alternativas": {
+      "a": "Síndrome Hemolítico-Urêmica (SHU).",
+      "b": "Púrpura Trombocitopênica Trombótica (PTT).",
+      "c": "Vasculite leucocitoclástica cutânea.",
+      "d": "Coagulação Intravascular Disseminada (CIVD)."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ 2026] A endotoxina (lipo-oligossacarídeo) do meningococo é um dos mais potentes ativadores da cascata inflamatória e da via extrínseca da coagulação: há expressão maciça de fator tecidual, consumo de fatores e plaquetas, trombose microvascular e sangramento simultâneos — ou seja, coagulação intravascular disseminada. Clinicamente traduz-se por petéquias que confluem em púrpura, extremidades frias, choque refratário e, na forma extrema, necrose hemorrágica das adrenais (síndrome de Waterhouse-Friderichsen). A PTT é uma microangiopatia por deficiência/inibição da ADAMTS13, com pêntade clássica (anemia hemolítica microangiopática, plaquetopenia, febre, alteração neurológica e disfunção renal), sem foco infeccioso meníngeo agudo e com fibrinogênio tipicamente normal. A SHU associa-se a diarreia por E. coli produtora de toxina Shiga, predomina em crianças e cursa com insuficiência renal aguda como eixo, não com meningite purulenta. Vasculite leucocitoclástica cutânea produz púrpura palpável, mas é limitada à pele e não explica o choque nem a síndrome meníngea. Pérola laboratorial da CIVD: plaquetopenia, TP e TTPa alargados, fibrinogênio baixo e D-dímero muito elevado — o fibrinogênio consumido é o que a diferencia da PTT/SHU.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição / Anemia ferropriva [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, 9 meses de idade, foi trazida à UBS por sua mãe, pois tem observado cansaço, fraqueza e palidez na pele, nas últimas semanas. Além disso, está irritadiça e com apetite reduzido. Sua mãe também percebeu que a bebê parece estar crescendo mais lentamente do que o esperado para sua idade. Relata que a introdução de alimentos sólidos na dieta da criança tem sido difícil. Foi exclusivamente amamentada até os 6 meses, no entanto houve dificuldade em introduzir alimentos sólidos depois disso, continuando a priorizar o leite materno. Ao exame, a criança está em regular estado geral, com peso e altura logo abaixo da linha do percentil 50 nos dois parâmetros. Apresenta desenvolvimento neuropsicomotor compatível com a idade, embora pouco ativa aos estímulos. Há palidez cutâneo-mucosa. Após avaliação clínico-laboratorial, foi confirmada a suspeita de Anemia Ferropriva.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a causa mais provável da anemia, nessa criança:",
+     "alternativas": {
+      "a": "Hipovitaminose.",
+      "b": "Inadequação alimentar.",
+      "c": "Distúrbio da lactação.",
+      "d": "Deficiência enzimática."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Aos 6 meses, as reservas de ferro acumuladas na vida intrauterina se esgotam e o leite materno — apesar de ter ferro de alta biodisponibilidade — passa a ser insuficiente em quantidade para suprir a demanda de um lactente em crescimento acelerado. A partir daí, a alimentação complementar rica em ferro (carnes, vísceras, leguminosas associadas a fonte de vitamina C) torna-se indispensável. A vinheta explicita a falha: dificuldade na introdução de sólidos e manutenção do leite como alimento prioritário — ou seja, inadequação alimentar, causa amplamente dominante de anemia ferropriva nessa faixa etária. Hipovitaminose é um termo vago; nenhuma vitamina isolada explica esse quadro, e a deficiência de vitaminas B12/folato produziria anemia macrocítica, não ferropriva. Distúrbio da lactação não é entidade que cause anemia ferropriva: o problema não está no leite materno, e o erro clássico seria culpar a amamentação e suspendê-la. Deficiência enzimática (por exemplo, de glicose-6-fosfato desidrogenase ou piruvatoquinase) causaria anemia hemolítica, com icterícia, reticulocitose e esplenomegalia — nada disso está descrito. Pérola: a anemia ferropriva é a carência nutricional mais prevalente do mundo e a principal causa de anemia na infância, com impacto documentado sobre o desenvolvimento cognitivo, o que reforça a importância da profilaxia com ferro preconizada pela SBP e pelo Ministério da Saúde.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Identifique os resultados de exames mais importantes para confirmar a suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Volume globular médio e contagem de eritrócitos reduzidos.",
+      "b": "Contagem de eritrócitos reduzida e ferro sérico baixo.",
+      "c": "Hemoglobina baixa e Hematócrito baixo.",
+      "d": "Hemoglobina baixa e níveis reduzidos de ferro sérico."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A questão emprega a técnica de 'par de achados': as quatro opções combinam dois exames, e apenas um par sustenta especificamente o diagnóstico de anemia ferropriva. Hemoglobina baixa documenta a anemia; o ferro sérico reduzido aponta a etiologia carencial de ferro — é a combinação que une o 'que' e o 'porquê'. Hemoglobina baixa com hematócrito baixo apenas repete a mesma informação por dois caminhos: confirma anemia, mas não diz nada sobre a causa, servindo igualmente para anemia de doença crônica, talassemia ou hemólise. Contagem de eritrócitos reduzida com ferro sérico baixo é a alternativa mais tentadora, mas a contagem eritrocitária isolada é parâmetro pobre — na ferropriva típica os eritrócitos podem estar até relativamente preservados às custas de microcitose, e na beta-talassemia menor a contagem costuma ser alta apesar da anemia. Volume globular médio com eritrócitos reduzidos não caracteriza direção alguma sem os valores. Pérola diagnóstica: o perfil completo da ferropriva é hemoglobina baixa, VCM e HCM baixos (microcitose e hipocromia), RDW elevado (anisocitose precoce), ferritina baixa (o marcador mais precoce e específico, embora seja proteína de fase aguda e possa elevar-se em inflamação), ferro sérico baixo, capacidade total de ligação do ferro aumentada e saturação de transferrina reduzida.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada nessa situação:",
+     "alternativas": {
+      "a": "Suspender o leite materno e introduzir fórmula com cereais e alimentos ricos em ferro.",
+      "b": "Manter aleitamento materno como principal alimento e introduzir suplemento de ferro.",
+      "c": "Manter aleitamento materno, orientar introdução de alimentos variados e suplementar ferro.",
+      "d": "Suspender o leite materno e introduzir fórmula e alimentos sólidos ricos em ferro."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A conduta correta reúne três ações simultâneas: manter o aleitamento materno (que segue recomendado até 2 anos ou mais), corrigir o erro alimentar com introdução efetiva e variada de alimentos complementares ricos em ferro heme e facilitadores de absorção, e tratar a anemia já instalada com ferro elementar em dose terapêutica — 3 a 5 mg/kg/dia, por 3 a 6 meses, mantido por pelo menos 2 a 3 meses após a normalização da hemoglobina para repor os estoques. Manter o leite materno 'como principal alimento' e apenas suplementar ferro é insuficiente e perpetua a causa: aos 9 meses o leite não pode mais ser o alimento prioritário, e a falha na alimentação complementar é justamente o problema. As duas alternativas que suspendem o leite materno estão erradas e representam a pegadinha nuclear do tema: a amamentação nunca é a vilã da anemia ferropriva e não deve ser interrompida — suspendê-la retira proteção imunológica e vínculo sem qualquer benefício hematológico. Pérolas: ofertar o ferro preferencialmente longe de leite e derivados (o cálcio compete pela absorção) e associar fonte de vitamina C, que reduz o ferro férrico a ferroso e aumenta a absorção; a resposta reticulocitária aparece em 5 a 10 dias e a hemoglobina sobe cerca de 1 g/dL por mês — falha de resposta sugere má adesão, sangramento oculto ou diagnóstico alternativo.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Epilepsia (epilepsia mioclônica juvenil)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 19 anos de idade, é atendida no ambulatório após a primeira crise tônico-clônica bilateral, ocorrida ao acordar, depois de uma noite de privação de sono e ingestão alcoólica em uma festa. Ao ser interrogada dirigidamente, refere que há cerca de dois anos apresenta, nas primeiras horas da manhã, abalos súbitos e breves dos membros superiores, que a fazem derrubar a escova de dentes e a xícara de café, sem perda de consciência — nunca havia relatado esses episódios a um médico. Nega febre, trauma craniano, uso de drogas ilícitas e antecedentes perinatais. O exame neurológico é normal. A ressonância magnética de crânio não mostra alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a síndrome epiléptica mais provável:",
+     "alternativas": {
+      "a": "Epilepsia de ausência da infância.",
+      "b": "Epilepsia do lobo temporal mesial.",
+      "c": "Epilepsia focal estrutural do lobo frontal.",
+      "d": "Epilepsia mioclônica juvenil."
+     },
+     "correta": "d",
+     "comentario": "A epilepsia mioclônica juvenil é uma epilepsia generalizada genética que se instala na adolescência e reúne três tipos de crise: mioclonias matinais (o dado que a paciente escondia por não valorizar), crises tônico-clônicas generalizadas e, em cerca de um terço, ausências. A relação com despertar, privação de sono e álcool é característica, e exame neurológico e ressonância normais são a regra. A epilepsia do lobo temporal mesial cursa com crises focais disperceptivas — parada comportamental, automatismos oromanuais, aura epigástrica ou déjà vu — e confusão pós-ictal prolongada, geralmente com esclerose hipocampal na ressonância; não produz mioclonias matinais. A epilepsia de ausência da infância inicia entre 4 e 10 anos, com ausências típicas de segundos, várias vezes ao dia, deflagradas por hiperpneia, e não com mioclonias ao acordar. Epilepsia focal estrutural do lobo frontal exigiria lesão na imagem e daria crises hipercinéticas noturnas, breves e estereotipadas. Pérola clássica de prova: o diagnóstico depende de perguntar ativamente sobre mioclonias — o paciente costuma interpretá-las como 'nervosismo' ou 'desastrado de manhã', e é comum a síndrome ser rotulada como crise única não provocada por anos.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o achado eletrencefalográfico esperado nesse caso:",
+     "alternativas": {
+      "a": "Complexos espícula-onda generalizados a 3 Hz.",
+      "b": "Surto-supressão intercalado com padrão hipsarrítmico.",
+      "c": "Descargas focais em região temporal anterior.",
+      "d": "Complexos de poliponta-onda generalizados, com fotossensibilidade."
+     },
+     "correta": "d",
+     "comentario": "O eletroencefalograma da epilepsia mioclônica juvenil mostra, tipicamente, descargas generalizadas de poliponta-onda a 4-6 Hz, simétricas e síncronas, com fundo normal e resposta fotoparoxística em cerca de um terço dos pacientes — a fotossensibilidade é uma marca da síndrome e explica crises deflagradas por luz estroboscópica ou telas. Descargas focais em região temporal anterior seriam o padrão da epilepsia do lobo temporal mesial, e não de uma epilepsia generalizada genética. Espícula-onda generalizada a 3 Hz, clássica e monomórfica, deflagrada por hiperpneia, corresponde à epilepsia de ausência da infância — a frequência mais lenta e o padrão de ponta única é a distinção clássica cobrada em prova. Surto-supressão e hipsarritmia são padrões de encefalopatias epilépticas graves do lactente (síndrome de Ohtahara e síndrome de West, respectivamente), incompatíveis com uma adolescente neurologicamente normal. Pérola técnica: o EEG deve ser feito preferencialmente após privação de sono e incluir fotoestimulação intermitente e hiperpneia; um EEG interictal normal em vigília não exclui a síndrome, e por isso o registro em sono é essencial quando a suspeita clínica é alta.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta farmacológica mais adequada, considerando a paciente e o perfil da síndrome:",
+     "alternativas": {
+      "a": "Levetiracetam, com orientação sobre higiene do sono e contracepção.",
+      "b": "Carbamazepina em monoterapia.",
+      "c": "Nenhum fármaco, apenas evitar privação de sono e álcool.",
+      "d": "Ácido valproico em monoterapia, sem outras orientações."
+     },
+     "correta": "a",
+     "comentario": "Trata-se de mulher em idade fértil com epilepsia generalizada genética que já teve crise tônico-clônica e mioclonias — há indicação formal de tratamento, e a escolha precisa levar em conta a teratogenicidade. O ácido valproico é o fármaco mais eficaz na epilepsia mioclônica juvenil, mas é o mais teratogênico (defeitos de tubo neural e comprometimento do neurodesenvolvimento) e deve ser evitado em mulheres em idade fértil sempre que houver alternativa; por isso, monoterapia com valproato sem qualquer orientação é a opção errada mais tentadora. O levetiracetam cobre mioclonias e crises generalizadas com perfil de segurança gestacional favorável, e a conduta completa inclui higiene do sono, abstinência alcoólica, ácido fólico e discussão de contracepção. Carbamazepina é um erro grave e cobrado com frequência: bloqueadores de canal de sódio como carbamazepina, oxcarbazepina, fenitoína e gabapentina podem agravar mioclonias e ausências nas epilepsias generalizadas. Não tratar é inadequado diante de crise tônico-clônica documentada e mioclonias recorrentes de dois anos; as medidas comportamentais são necessárias, mas insuficientes. Pérola: a epilepsia mioclônica juvenil costuma exigir tratamento por tempo prolongado — a recidiva após retirada do fármaco é alta, diferente da epilepsia de ausência da infância, que frequentemente remite.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Transtornos do Neurodesenvolvimento (TDAH e metilfenidato)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 8 anos de idade, é levado à UBS por queixa escolar. A professora relata que ele não conclui as tarefas, perde material, parece não escutar quando lhe dirigem a palavra, levanta-se da carteira repetidamente e responde antes de a pergunta terminar. Em casa, a mãe refere comportamento semelhante desde os 5 anos, com dificuldade para organizar-se e frequentes acidentes domésticos por impulsividade. Interage bem com colegas, mantém contato visual, tem linguagem e reciprocidade social preservadas e não apresenta comportamentos repetitivos ou interesses restritos. O desempenho intelectual estimado é normal para a idade. A avaliação audiológica é normal e o exame neurológico não mostra alterações focais.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Deficiência intelectual leve.",
+      "b": "Transtorno de déficit de atenção e hiperatividade.",
+      "c": "Transtorno do espectro autista.",
+      "d": "Transtorno específico da aprendizagem."
+     },
+     "correta": "b",
+     "comentario": "O TDAH exige sintomas de desatenção e/ou hiperatividade-impulsividade presentes antes dos 12 anos, em pelo menos dois contextos (aqui, escola e casa), com prejuízo funcional claro e não explicados por outro transtorno. O caso descreve os dois domínios sintomáticos de forma exemplar. O transtorno do espectro autista é afastado explicitamente pelo enunciado: há reciprocidade social, contato visual e linguagem preservados, e ausência de comportamentos repetitivos ou interesses restritos — a banca costuma testar exatamente essa separação, e o pareamento TEA/TDAH é o diferencial mais cobrado. Deficiência intelectual leve cursa com desempenho intelectual abaixo da média e prejuízo em domínios adaptativos amplos; o enunciado afirma inteligência normal. Transtorno específico da aprendizagem (dislexia, discalculia) produz dificuldade circunscrita a um domínio acadêmico, com atenção preservada em outras atividades — não explica a hiperatividade nem a impulsividade em casa. Pérolas: a avaliação audiológica normal é um passo obrigatório antes de rotular qualquer queixa escolar, pois hipoacusia é grande imitadora de desatenção; o TDAH tem alta comorbidade com transtorno de aprendizagem, transtorno opositor-desafiador e ansiedade, que devem ser rastreados; e o diagnóstico é clínico, não existindo exame de imagem, eletroencefalograma ou teste laboratorial confirmatório.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o mecanismo de ação do metilfenidato:",
+     "alternativas": {
+      "a": "Bloqueio de receptores dopaminérgicos D2.",
+      "b": "Inibição da recaptação de dopamina e noradrenalina.",
+      "c": "Agonismo sobre receptores GABA-A.",
+      "d": "Inibição seletiva da recaptação de serotonina."
+     },
+     "correta": "b",
+     "comentario": "O metilfenidato é um psicoestimulante que bloqueia os transportadores de dopamina e de noradrenalina na fenda sináptica, aumentando a disponibilidade dessas catecolaminas no córtex pré-frontal e nos circuitos fronto-estriatais — justamente as vias implicadas no controle inibitório, na memória de trabalho e na atenção sustentada. Inibição seletiva da recaptação de serotonina é o mecanismo dos antidepressivos ISRS (fluoxetina, sertralina), sem papel de primeira linha no TDAH. Agonismo GABA-A corresponde aos benzodiazepínicos, que são sedativos e pioram a cognição — o oposto do desejado. Bloqueio de receptores D2 é o mecanismo dos antipsicóticos, associado a parkinsonismo farmacológico e discinesias, e reduziria a transmissão dopaminérgica, agravando o quadro. Pérolas frequentemente cobradas sobre 'mitos' do metilfenidato: os efeitos adversos habituais são redução do apetite, insônia inicial, cefaleia, dor abdominal, irritabilidade no fim do efeito e discreta elevação de frequência cardíaca e pressão arterial — e não convulsão ou hipertermia; em uso terapêutico supervisionado não há evidência de que induza dependência ou aumente o risco futuro de abuso de substâncias (ao contrário, o TDAH não tratado é que se associa a maior risco); e o impacto sobre a velocidade de crescimento é pequeno, exigindo apenas monitorização de peso e estatura.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta inicial mais adequada, considerando a organização do cuidado na Atenção Primária:",
+     "alternativas": {
+      "a": "Iniciar metilfenidato imediatamente e solicitar eletroencefalograma de rotina.",
+      "b": "Encaminhar diretamente para neurologista e aguardar avaliação especializada antes de qualquer intervenção.",
+      "c": "Intervenções comportamentais e psicoeducacionais com família e escola, com acompanhamento na UBS.",
+      "d": "Solicitar ressonância magnética de crânio e cariótipo antes de qualquer intervenção."
+     },
+     "correta": "c",
+     "comentario": "A Atenção Primária é o ponto de coordenação do cuidado da criança com queixa escolar: a conduta inicial envolve intervenções comportamentais e psicoeducacionais dirigidas à família e à escola (treinamento parental, adequações de sala de aula, rotina e organização), com acompanhamento longitudinal e, se necessário, matriciamento e projeto terapêutico singular. Em escolares, o tratamento farmacológico é indicado quando há prejuízo funcional moderado a grave ou resposta insuficiente às medidas iniciais — e não como primeiro ato, sem avaliação estruturada. Encaminhar e simplesmente aguardar a fila do especialista é abandono do cuidado e contraria a lógica de coordenação da APS — a UBS não deve transferir o caso, e sim conduzi-lo e compartilhá-lo. Iniciar metilfenidato de imediato com eletroencefalograma de rotina soma dois erros: precipitação terapêutica e exame sem indicação — o EEG só se justifica se houver suspeita de crise epiléptica, o que não existe aqui. Ressonância de crânio e cariótipo não fazem parte da investigação de TDAH típico com exame neurológico normal e sem dismorfismos; seriam indicados diante de sinais focais, regressão de marcos ou dismorfias. Pérola: a documentação escolar (relatório do professor, escalas padronizadas preenchidas por pais e professores) é parte essencial do diagnóstico e frequentemente esquecida.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias/dor facial (neuralgia do trigêmeo) [REAL: SUS-BA R1 2023]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 76 anos de idade, procura atendimento na UBS por episódios de dor intensa em hemiface esquerda, principalmente em região maxilar e de mandíbula, graduando até 8/10 na escala de dor. O quadro se repete há 3 anos, associado à sensação de choques e é precipitado pela mastigação ou frio. Tem hipertensão arterial sistêmica em uso de hidroclorotiazida e enalapril. Ao exame, apresenta-se em bom estado geral, com sinais vitais estáveis, com alodínia térmica em hemiface esquerda. Demais exames segmentares sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o caso clínico descrito, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Arterite de células gigantes.",
+      "b": "Cefaleia em salvas.",
+      "c": "Nevralgia do nervo facial.",
+      "d": "Nevralgia do nervo trigêmeo."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R1 2023] A neuralgia do trigêmeo é definida pela ICHD-3 como dor facial paroxística, unilateral, em choque elétrico, de segundos a até 2 minutos, restrita ao território de um ou mais ramos do trigêmeo (aqui V2 maxilar e V3 mandibular) e desencadeada por estímulos inócuos em zonas-gatilho — mastigar, falar, escovar os dentes, vento ou frio na face, exatamente como descrito. A alodínia térmica reforça a sensibilização do território trigeminal. A neuralgia do nervo facial não é uma entidade clássica de dor: o VII par é essencialmente motor para a mímica; sua lesão dá paralisia facial, não dor paroxística em choque. A cefaleia em salvas produz dor orbitária/periorbitária estritamente unilateral, de 15 a 180 minutos, com agitação psicomotora e sinais autonômicos ipsilaterais (lacrimejamento, congestão nasal, ptose), tipicamente em homens de meia-idade e com ritmo circadiano — nada disso aparece aqui, e a dor não é deflagrada pela mastigação. A arterite de células gigantes é o diferencial que 'não se pode perder' em idosa com dor craniofacial: cursa com cefaleia temporal contínua, claudicação de mandíbula, hipersensibilidade do couro cabeludo, VHS/PCR muito elevados e risco de amaurose — porém a dor é contínua, não em choques de segundos, e há sintomas sistêmicos. Pérola: neuralgia do trigêmeo em paciente jovem obriga a investigar esclerose múltipla; em idoso, a causa mais comum é a compressão neurovascular por alça da artéria cerebelar superior.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "O exame complementar mais adequado para o diagnóstico etiológico nesse caso:",
+     "alternativas": {
+      "a": "Ressonância magnética de crânio.",
+      "b": "Eletroencefalograma.",
+      "c": "Biópsia de artéria temporal.",
+      "d": "Tomografia computadorizada de crânio."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R1 2023] O diagnóstico de neuralgia do trigêmeo é clínico, mas a investigação etiológica exige neuroimagem — e a ressonância magnética de crânio, com sequências dedicadas ao ângulo ponto-cerebelar (T2 de alta resolução e angio-RM), é o exame de escolha: demonstra o conflito neurovascular (alça arterial comprimindo a raiz do trigêmeo em sua zona de entrada no tronco) e afasta causas secundárias como placa desmielinizante de esclerose múltipla, schwannoma do trigêmeo, meningioma ou lesão de tronco. A tomografia de crânio tem resolução insuficiente para a raiz do nervo e para lesões de fossa posterior, sendo prejudicada por artefatos ósseos — serve para hemorragia aguda, não para este propósito. O eletroencefalograma avalia atividade epileptiforme; a dor em choque da neuralgia não é crise epiléptica e o EEG é normal, sem qualquer valor diagnóstico aqui. A biópsia de artéria temporal é o exame confirmatório da arterite de células gigantes, um diferencial deste caso, mas só se justificaria se houvesse cefaleia contínua, claudicação de mandíbula e elevação de provas inflamatórias. Pérola: mesmo na neuralgia 'clássica' (compressão neurovascular), a RM é recomendada, pois cerca de 15% dos casos são secundários e a conduta muda completamente.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante do quadro, indique a melhor opção terapêutica para controle da dor:",
+     "alternativas": {
+      "a": "Tramadol e oxigenioterapia.",
+      "b": "Carbamazepina, oxcarbamazepina ou gabapentina.",
+      "c": "Analgésico comum e escalonar para opioides, conforme resposta.",
+      "d": "Analgésico comum associado à corticoterapia."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R1 2023] A dor da neuralgia do trigêmeo é neuropática e responde a bloqueadores de canais de sódio voltagem-dependentes, que estabilizam a membrana do neurônio hiperexcitável: a carbamazepina é a primeira linha, com maior nível de evidência (número necessário para tratar em torno de 2), e a oxcarbazepina é a alternativa com melhor perfil de tolerabilidade; gabapentina e pregabalina são opções de segunda linha ou adjuvantes. Analgésicos comuns e opioides têm eficácia limitada na dor neuropática paroxística — escalonar para opioide, além de ineficaz, expõe idosos a delirium, constipação e quedas, e por isso a estratégia de 'analgésico comum e escalonar' está errada. Tramadol com oxigenioterapia mistura dois tratamentos inadequados: o oxigênio a alto fluxo é o tratamento agudo da cefaleia em salvas, não da neuralgia. Corticoterapia é conduta da arterite de células gigantes (prednisona em dose alta imediata para prevenir cegueira), não desta condição. Pérolas: monitorar hiponatremia e leucopenia com carbamazepina/oxcarbazepina em idosos, sobretudo em uso concomitante de tiazídico, como esta paciente, que usa hidroclorotiazida — combinação clássica de hiponatremia. Se houver falha ou intolerância medicamentosa, considerar descompressão microvascular ou procedimentos percutâneos/radiocirurgia.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia / Prematuridade e idade corrigida [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, nascida com 32 semanas de gestação, foi admitida em Unidade de Terapia Intensiva Neonatal (UTIN), onde recebeu cuidados especiais para bebês prematuros. Não se confirmou uma causa para a prematuridade nessa criança. No momento, aos 6 meses de idade cronológica, está sendo acompanhada por pediatras e mostra um desenvolvimento neuropsicomotor normal para a sua idade corrigida: está sorrindo, fazendo contato visual, rolando, pegando objetos, sentando com apoio e balbuciando. Seu peso e crescimento estão dentro dos parâmetros esperados para bebês nascidos prematuramente.",
+   "perguntas": [
+    {
+     "enunciado": "Indique, entre as condições seguintes, a causa comum de prematuridade:",
+     "alternativas": {
+      "a": "Herança genética.",
+      "b": "Consumo excessivo de ácido fólico durante a gravidez.",
+      "c": "Ganho de peso materno excessivo na gravidez.",
+      "d": "Infecção viral durante a gravidez."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Infecções maternas — virais, urinárias e, sobretudo, a corioamnionite — estão entre as causas mais frequentes e mais bem estabelecidas de trabalho de parto prematuro, por deflagrarem resposta inflamatória com liberação de citocinas e prostaglandinas que precipitam contratilidade uterina e ruptura prematura de membranas. Herança genética não é causa comum de prematuridade: embora haja discreta agregação familiar e maior risco quando a própria mãe nasceu prematura, não é fator dominante nem explica a maioria dos casos. Ganho de peso materno excessivo associa-se a diabetes gestacional, macrossomia e complicações do parto, não a prematuridade — o oposto (baixo peso materno, desnutrição e ganho ponderal insuficiente) é que aumenta o risco. Consumo de ácido fólico é fator protetor, não de risco: sua suplementação periconcepcional previne defeitos de fechamento do tubo neural e é recomendada rotineiramente; a alternativa é um distrator absurdo travestido de plausibilidade. Pérola epidemiológica: os principais fatores de risco para prematuridade são prematuridade prévia, gestação múltipla, infecção (incluindo periodontite materna), síndromes hipertensivas da gestação, intervalo interpartal curto, tabagismo e ausência ou inadequação do pré-natal — este último, o mais importante do ponto de vista de saúde pública, por ser modificável.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a idade corrigida dessa criança, para fins de avaliação de saúde, no momento da consulta atual, considerando como critério a gestação a Termo Pleno:",
+     "alternativas": {
+      "a": "7 meses.",
+      "b": "5 meses.",
+      "c": "4 meses.",
+      "d": "6 meses."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A idade corrigida é obtida subtraindo-se da idade cronológica o número de semanas que faltaram para o termo. Adotando-se o termo pleno como 40 semanas, a criança nasceu com 32 semanas, ou seja, 8 semanas (aproximadamente 2 meses) antes do termo. Com 6 meses de idade cronológica, a idade corrigida é 6 − 2 = 4 meses. As demais opções decorrem de erros clássicos: 5 meses resulta de considerar o termo como 36 semanas (equívoco frequente, pois 37 semanas é o limite inferior do termo, e não o 'termo pleno'); 6 meses ignora a correção — erro grave, pois levaria a rotular indevidamente a criança como atrasada; 7 meses inverte o sinal da operação, somando em vez de subtrair. Repare que os marcos descritos na vinheta (sorriso social, rolar, preensão de objetos, sentar com apoio, balbucio) são exatamente os esperados por volta dos 4 meses — a coerência entre o cálculo e o exame clínico confirma a resposta. Pérolas: a idade corrigida deve ser usada na avaliação do crescimento e do desenvolvimento até pelo menos 2 anos de idade (alguns serviços mantêm até 3 anos nos prematuros extremos); o calendário vacinal, ao contrário, segue a idade cronológica, sem correção — pegadinha recorrente em provas.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o prognóstico esperado, na maioria dos casos, para o desenvolvimento de crianças prematuras como esta:",
+     "alternativas": {
+      "a": "Desenvolvimento neuropsicomotor prejudicado permanentemente.",
+      "b": "Atrasos no desenvolvimento durante a Primeira Infância.",
+      "c": "Desenvolvimento neuropsicomotor igual a crianças nascidas a Termo.",
+      "d": "Probabilidade elevada de desenvolvimento de Autismo."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Trata-se de uma prematura moderada (32 semanas), sem intercorrências relatadas, com crescimento adequado e desenvolvimento normal para a idade corrigida aos 6 meses. Nesse cenário, o prognóstico é bom: a maioria dessas crianças alcança desenvolvimento neuropsicomotor comparável ao de nascidos a termo ao longo da primeira infância. A alternativa que afirma probabilidade elevada de autismo é falsa como regra: a prematuridade extrema aumenta modestamente o risco de transtornos do neurodesenvolvimento, mas não se aplica como prognóstico esperado para a maioria dos prematuros moderados. 'Atrasos no desenvolvimento durante a primeira infância' descreve um risco possível, sobretudo se não houver correção da idade, mas não é o desfecho esperado na maioria; e a própria vinheta mostra desenvolvimento adequado. Comprometimento neuropsicomotor permanente é o desfecho de uma minoria, associado a prematuridade extrema (menos de 28 semanas), hemorragia peri-intraventricular grave, leucomalácia periventricular ou displasia broncopulmonar — não é o caso. Pérolas: o seguimento ambulatorial do prematuro deve incluir triagem auditiva e visual (retinopatia da prematuridade), vigilância do neurodesenvolvimento com idade corrigida, suporte nutricional e o Método Canguru, que melhora vínculo, ganho ponderal e desfechos neurológicos.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Junção Neuromuscular (crise miastênica)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 42 anos de idade, com miastenia gravis diagnosticada há 4 anos, em uso regular de piridostigmina e prednisona em dose baixa, procura a emergência com piora progressiva da fraqueza há 4 dias. Iniciou, há uma semana, tratamento para infecção urinária com ciprofloxacino, prescrito em outro serviço. Refere disfagia para líquidos, voz anasalada e cansaço aos mínimos esforços. Ao exame, apresenta ptose bilateral, fraqueza cervical (não sustenta a cabeça), uso de musculatura acessória e taquipneia. A gasometria arterial mostra pH 7,29, PaCO2 52 mmHg e PaO2 78 mmHg em ar ambiente. As pupilas estão normais e não há sialorreia, diarreia ou fasciculações.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Crise miastênica.",
+      "b": "Botulismo alimentar.",
+      "c": "Síndrome de Guillain-Barré.",
+      "d": "Crise colinérgica."
+     },
+     "correta": "a",
+     "comentario": "Crise miastênica é a exacerbação da miastenia gravis com insuficiência ventilatória, definida pela necessidade de suporte ventilatório ou por hipoventilação iminente — aqui evidenciada por PaCO2 de 52 mmHg com acidose respiratória, uso de musculatura acessória e fraqueza cervical, que é um marcador clínico precoce de fraqueza diafragmática. O gatilho é claro: fluoroquinolona (ciprofloxacino), fármaco que bloqueia a transmissão neuromuscular. A crise colinérgica, hoje rara, decorre de excesso de anticolinesterásico e cursa com sinais muscarínicos — miose, sialorreia, broncorreia, diarreia, cólicas, bradicardia e fasciculações; o enunciado nega explicitamente todos eles, e as pupilas normais praticamente afastam essa hipótese. A síndrome de Guillain-Barré causa fraqueza ascendente com arreflexia e dissociação proteinocitológica no líquor, geralmente após infecção gastrintestinal ou respiratória, e não ocorre em paciente com miastenia previamente conhecida e piora após antibiótico. O botulismo produz paralisia descendente com midríase paralítica e disautonomia, após ingestão de conserva contaminada. Pérola: decore a lista de fármacos precipitantes — aminoglicosídeos, fluoroquinolonas, macrolídeos, betabloqueadores, magnésio, bloqueadores neuromusculares e contrastes iodados.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o parâmetro mais adequado para monitorizar a necessidade de suporte ventilatório nessa paciente:",
+     "alternativas": {
+      "a": "Eletroneuromiografia com estimulação repetitiva.",
+      "b": "Oximetria de pulso contínua.",
+      "c": "Capacidade vital forçada seriada.",
+      "d": "Dosagem seriada do anticorpo anti-receptor de acetilcolina."
+     },
+     "correta": "c",
+     "comentario": "Na crise miastênica, a falência é ventilatória (bomba muscular), não de troca gasosa — por isso a monitorização deve ser mecânica: capacidade vital forçada e pressão inspiratória máxima à beira do leito, seriadas. A regra dos 20/30/40 é a pérola clássica: capacidade vital abaixo de 20 mL/kg, pressão inspiratória máxima menos negativa que −30 cmH2O ou pressão expiratória máxima abaixo de 40 cmH2O indicam intubação eletiva. A oximetria de pulso é traiçoeira e é a armadilha da questão: a saturação permanece normal até muito tarde, pois o paciente hipoventila com pulmão normal; quando a saturação cai, a parada respiratória é iminente. A dosagem seriada de anticorpo anti-receptor de acetilcolina tem valor diagnóstico, mas o título não acompanha a gravidade clínica e não guia a decisão de intubar. A eletroneuromiografia com estimulação repetitiva (decremento maior que 10%) também é diagnóstica, e não uma ferramenta de monitorização em tempo real na emergência. Pérola adicional: nunca aguardar a hipercapnia franca para intubar — a acidose respiratória, como neste caso, já é sinal tardio de exaustão.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica imediata mais adequada:",
+     "alternativas": {
+      "a": "Aumentar a dose de piridostigmina.",
+      "b": "Iniciar azatioprina e manter observação clínica.",
+      "c": "Administrar atropina e suspender a piridostigmina.",
+      "d": "Suspender o ciprofloxacino e iniciar plasmaférese ou imunoglobulina intravenosa."
+     },
+     "correta": "d",
+     "comentario": "O tratamento da crise miastênica tem dois eixos imediatos: remover o precipitante (retirar a fluoroquinolona e tratar a infecção com antibiótico seguro) e instituir terapia de ação rápida — plasmaférese ou imunoglobulina intravenosa, ambas com eficácia comparável; a plasmaférese tende a agir um pouco mais rápido, a imunoglobulina é mais disponível e menos dependente de acesso venoso central. Corticoide em dose alta é usado, mas com cautela, pois pode causar piora paradoxal transitória nos primeiros dias. Aumentar a piridostigmina é conduta errada e potencialmente perigosa: não reverte a crise, aumenta secreções brônquicas em paciente com via aérea já ameaçada e pode precipitar crise colinérgica; em muitos serviços a piridostigmina é temporariamente suspensa durante a crise. Atropina com suspensão da piridostigmina seria o tratamento da crise colinérgica, que já foi afastada pelas pupilas normais e ausência de sinais muscarínicos. Azatioprina é imunossupressor poupador de corticoide para manutenção, com início de ação de 3 a 6 meses — inútil na urgência. Pérola: a conduta pós-crise inclui justamente introduzir o poupador de corticoide e discutir timectomia em pacientes anti-AChR positivos com timoma ou abaixo de 50-65 anos.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição / Alimentação complementar",
+   "tier": "ESSENCIAL",
+   "vinheta": "Lactente do sexo masculino, 7 meses de idade, comparece à consulta de puericultura. A mãe informa que, desde os 6 meses, oferece uma \"papinha\" liquidificada uma vez ao dia, além de suco de caixinha adoçado, chá com açúcar entre as mamadas, e que ofertou mel diluído em água \"para adoçar\" em algumas ocasiões. Mantém o aleitamento materno em livre demanda. O menor está em bom estado geral, com peso e comprimento adequados para a idade, escore Z entre −1 e 0, sem palidez, com desenvolvimento neuropsicomotor normal. A mãe pergunta se a alimentação está adequada e diz ter medo de que \"a comida em pedaços\" cause engasgo.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do relato alimentar, indique o erro de maior potencial de dano à saúde do lactente:",
+     "alternativas": {
+      "a": "Consistência liquidificada da refeição.",
+      "b": "Manutenção do aleitamento em livre demanda.",
+      "c": "Oferta de mel.",
+      "d": "Oferta de suco adoçado."
+     },
+     "correta": "c",
+     "comentario": "Todos os itens do relato são erros alimentares, mas apenas um implica risco de doença grave e potencialmente fatal a curto prazo: o mel, que pode conter esporos de Clostridium botulinum e causar botulismo do lactente em menores de 1 ano, cuja microbiota intestinal ainda não é capaz de impedir a germinação dos esporos. O quadro é dramático: constipação, hipotonia com 'bebê molhinho', ptose, choro fraco, dificuldade de sucção e paralisia flácida descendente, podendo evoluir para insuficiência respiratória — por isso a proibição do mel antes dos 12 meses é absoluta. Suco adoçado e chá com açúcar são erros relevantes, e a recomendação atual do Guia Alimentar para Crianças Brasileiras Menores de 2 Anos é de não oferecer açúcar, sucos, refrigerantes nem ultraprocessados antes dos 2 anos, pelo risco de cárie, obesidade e deslocamento de alimentos nutritivos — mas o dano é cumulativo e não agudo. A consistência liquidificada é inadequada (a orientação é amassar com o garfo, mantendo pedaços macios, para estimular mastigação e evitar diluição calórica), porém não configura risco fatal. Manter o aleitamento em livre demanda não é erro algum — é a conduta correta e deve ser encorajada até 2 anos ou mais. Pérola: o botulismo do lactente é notificação e exige suporte ventilatório e imunoglobulina específica; a única prevenção eficaz é não ofertar mel.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a orientação correta quanto à alimentação complementar nesta idade, segundo o Ministério da Saúde:",
+     "alternativas": {
+      "a": "Duas refeições diárias liquidificadas, com introdução de leite de vaca integral.",
+      "b": "Uma refeição diária, aumentando gradualmente até os 12 meses.",
+      "c": "Três refeições diárias com consistência de alimentos amassados, mantendo o aleitamento materno.",
+      "d": "Cinco refeições diárias com alimentos em pedaços grandes, suspendendo o aleitamento noturno."
+     },
+     "correta": "c",
+     "comentario": "Aos 7 meses, a criança amamentada deve receber, de acordo com o Guia Alimentar do Ministério da Saúde, aproximadamente três refeições ao dia — duas papas principais (almoço e jantar) e uma fruta ou lanche — evoluindo para cinco refeições por volta dos 9 a 11 meses, sempre mantendo o aleitamento materno em livre demanda. A consistência deve ser de alimentos amassados com o garfo, nunca liquidificados ou peneirados: a textura estimula a mastigação, o desenvolvimento da fala e a aceitação futura, além de garantir densidade calórica. Duas refeições liquidificadas com leite de vaca integral erra duas vezes: subestima o número de refeições e introduz leite de vaca antes de 1 ano, prática associada a microssangramento intestinal, sobrecarga renal de solutos e anemia ferropriva. Uma refeição diária é claramente insuficiente para a demanda energética e de ferro nessa fase. Cinco refeições com pedaços grandes e suspensão do aleitamento noturno é excessivo para a idade, aumenta risco de engasgo com a textura inadequada e contraria a recomendação de manter a amamentação. Pérola: a alimentação complementar deve ser oferecida em colher, com oferta de água nos intervalos, respeitando os sinais de fome e saciedade — e a recusa inicial é normal, podendo ser necessária a exposição repetida ao mesmo alimento de 8 a 15 vezes.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta a ser adotada quanto à suplementação profilática nesta consulta:",
+     "alternativas": {
+      "a": "Suplementação de zinco e cálcio de rotina para todos os lactentes.",
+      "b": "Nenhuma suplementação neste momento.",
+      "c": "Sulfato ferroso profilático e vitamina D, mantendo a suplementação conforme o preconizado.",
+      "d": "Megadose de vitamina A imediatamente."
+     },
+     "correta": "c",
+     "comentario": "A profilaxia com ferro é recomendada para lactentes a termo e com peso adequado a partir dos 3 meses (ou a partir da introdução da alimentação complementar, conforme a fonte adotada) até os 24 meses, na dose de 1 mg/kg/dia de ferro elementar — e independe de a criança estar bem nutrida, pois é medida preventiva populacional. A vitamina D é suplementada desde a primeira semana de vida até os 24 meses (400 UI/dia até 12 meses e 600 UI/dia dos 12 aos 24 meses), também de rotina, mesmo em crianças em aleitamento exclusivo e com boa exposição solar. Portanto, 'nenhuma suplementação porque o crescimento está adequado' inverte a lógica da profilaxia: espera-se o dano para depois agir. A megadose de vitamina A do PNSVA é indicada a partir dos 6 meses, porém em esquema periódico definido (100.000 UI dos 6 aos 11 meses e 200.000 UI dos 12 aos 59 meses, a cada 6 meses) e nas áreas e grupos priorizados — a alternativa erra ao sugerir administração imediata como conduta automática desta consulta, sem considerar o esquema. Zinco e cálcio não são suplementados de rotina em lactentes eutróficos; o zinco tem indicação específica no tratamento coadjuvante da diarreia aguda. Pérola: as três frentes de prevenção nutricional na puericultura são aleitamento, alimentação complementar adequada e suplementação (ferro, vitamina D e vitamina A conforme o programa).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença do Neurônio Motor (ELA) [REAL: SUS-BA R+ 2026]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 58 anos de idade, previamente hígido, é avaliado por fraqueza progressiva no braço direito há 9 meses. O quadro iniciou com dificuldade para manipular objetos e evoluiu para atrofia da musculatura da mão. Nos últimos 3 meses notou fasciculações no braço e ombro direitos, além de cãibras. Relata também episódios de engasgo com líquidos e uma fala \"arrastada\". Ao exame neurológico, observa-se atrofia e fasciculações em músculos da mão e antebraço direito, fraqueza muscular assimétrica (força grau 3/5 no membro superior direito e 4/5 no esquerdo). Os reflexos profundos estão aumentados em todos os membros, com clônus no tornozelo direito. O reflexo cutâneo-plantar é extensor à direita (sinal de Babinski). A sensibilidade e a função cerebelar estão normais.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, indique o diagnóstico mais provável para o quadro clínico apresentado:",
+     "alternativas": {
+      "a": "Esclerose Lateral Amiotrófica (ELA).",
+      "b": "Miastenia gravis, forma generalizada.",
+      "c": "Mielopatia cervical espondilótica com compressão medular.",
+      "d": "Esclerose múltipla, forma primariamente progressiva."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ 2026] A chave da ELA é a coexistência, no mesmo paciente e frequentemente na mesma região corporal, de sinais de neurônio motor inferior (atrofia, fasciculações, cãibras, fraqueza) e de neurônio motor superior (hiper-reflexia, clônus, Babinski), com sensibilidade e cerebelo rigorosamente normais e curso progressivo. O acometimento bulbar (disartria e engasgos) completa o quadro. A esclerose múltipla primariamente progressiva causa síndrome piramidal progressiva, mas quase sempre acompanha alterações sensitivas, esfincterianas, disfunção visual e lesões desmielinizantes na ressonância — não produz atrofia com fasciculações difusas. A miastenia gravis generalizada dá fraqueza flutuante, fatigável, com ptose e diplopia, sem atrofia precoce e com reflexos normais ou reduzidos — jamais Babinski. A mielopatia cervical espondilótica é o grande imitador da ELA: pode dar amiotrofia de mãos com hiper-reflexia em membros inferiores, mas explica-se por um nível medular, costuma cursar com nível sensitivo, dor cervical e não justifica sintomas bulbares (que ficam acima da lesão). Pérola de prova: fraqueza progressiva com atrofia e Babinski sem qualquer déficit sensitivo é ELA até prova em contrário; a presença de sintoma bulbar exclui a hipótese de lesão cervical isolada e reforça o diagnóstico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante do caso clínico, indique a estrutura neurológica comprometida, evidenciada pelos episódios de engasgo e fala \"arrastada\" do paciente:",
+     "alternativas": {
+      "a": "Gânglios da base, com disfunção dos circuitos extrapiramidais responsáveis pela coordenação motora.",
+      "b": "Junção neuromuscular da musculatura orofaríngea, com bloqueio da transmissão colinérgica.",
+      "c": "Cerebelo, com incoordenação dos movimentos da musculatura orofaríngea e laríngea.",
+      "d": "Núcleos dos nervos cranianos motores no tronco encefálico (comprometimento bulbar)."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ 2026] Disfagia e disartria na ELA decorrem da degeneração dos motoneurônios inferiores nos núcleos motores do tronco encefálico — sobretudo os núcleos ambíguo e do hipoglosso, que inervam a musculatura faríngea, laríngea e lingual — além do componente pseudobulbar por lesão do trato corticobulbar. Ao exame, isso se traduz por atrofia e fasciculações de língua, reflexo nauseoso alterado e labilidade emocional. Os gânglios da base produzem disartria hipocinética (voz monótona, hipofônica, como no Parkinson) acompanhada de bradicinesia, rigidez e tremor — nenhum desses sinais está presente. O cerebelo gera disartria escandida/atáxica, com dismetria, nistagmo e ataxia de marcha; o enunciado afirma explicitamente que a função cerebelar está normal. A junção neuromuscular (miastenia) causa disfagia e disartria fatigáveis, que pioram ao longo do dia e melhoram com repouso e anticolinesterásico, sem atrofia nem sinais piramidais. Pérola: o início bulbar da ELA é marcador de pior prognóstico, com sobrevida menor; a avaliação fonoaudiológica e a discussão precoce de gastrostomia (idealmente antes de a capacidade vital forçada cair abaixo de 50%) e de ventilação não invasiva fazem parte do cuidado padrão.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Diante do caso clínico, indique o exame complementar antes da confirmação diagnóstica:",
+     "alternativas": {
+      "a": "Eletroneuromiografia (ENMG).",
+      "b": "Análise do Líquido Cefalorraquidiano (LCR).",
+      "c": "Biópsia muscular.",
+      "d": "Ressonância magnética de crânio e coluna cervical."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ 2026] A eletroneuromiografia é o exame que sustenta o diagnóstico de ELA: demonstra denervação ativa (fibrilações, ondas positivas agudas) e reinervação crônica (potenciais de unidade motora de grande amplitude e longa duração, recrutamento reduzido) em múltiplos segmentos — bulbar, cervical, torácico e lombossacro — com condução sensitiva preservada. É essa disseminação de acometimento do neurônio motor inferior em regiões clinicamente poupadas que confirma a doença e alimenta os critérios de El Escorial/Awaji. A ressonância de crânio e coluna cervical é importante, mas seu papel é de exclusão (afastar mielopatia compressiva, lesão de tronco, desmielinização) — não confirma a ELA, apenas descarta imitadores; a banca pediu o exame que antecede a confirmação diagnóstica em termos de valor diagnóstico positivo. A biópsia muscular mostra atrofia neurogênica inespecífica e só é indicada quando se suspeita de miopatia, o que não é o caso. O líquor pode apresentar discreta hiperproteinorraquia, mas não tem achado específico e serve apenas para afastar processos inflamatórios/infecciosos. Pérola: não existe marcador único de ELA — o diagnóstico é clínico-eletrofisiológico, e o riluzol (único fármaco modificador disponível no SUS) prolonga a sobrevida em poucos meses; o suporte multiprofissional é o que mais impacta qualidade de vida.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição / Desnutrição energético-proteica (Kwashiorkor)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 2 anos e 4 meses de idade, procedente de área rural, é levado à unidade de saúde por \"inchaço\" nas pernas há cerca de 3 semanas. A mãe relata que a alimentação é baseada quase exclusivamente em mingau de farinha de mandioca com água, com raríssimo consumo de carnes, ovos ou leguminosas. Ao exame, apresenta-se apático, com edema bilateral em dorso dos pés e pernas, que deixa cacifo, abdome distendido com hepatomegalia, cabelos finos, quebradiços e despigmentados, e lesões de pele descamativas em áreas de atrito, com aspecto de \"pintura descascada\". O peso está abaixo do esperado, mas mascarado pelo edema. Não há febre, diarreia no momento nem sinais de choque.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Enteropatia perdedora de proteínas.",
+      "b": "Kwashiorkor.",
+      "c": "Síndrome nefrótica.",
+      "d": "Marasmo."
+     },
+     "correta": "b",
+     "comentario": "O Kwashiorkor é a forma edematosa da desnutrição energético-proteica, típica de dieta rica em carboidratos e muito pobre em proteína — exatamente o mingau de mandioca descrito. A tétrade clássica está toda presente: edema depressível de extremidades, hepatomegalia (por esteatose secundária à síntese deficiente de apolipoproteínas), alterações de cabelo (finos, quebradiços, despigmentados, com o clássico 'sinal da bandeira') e dermatose descamativa em 'pintura descascada'. A apatia e a irritabilidade completam o quadro. O marasmo é a forma não edematosa: há emagrecimento extremo, perda de gordura subcutânea e massa muscular, fácies senil ou simiesca, com criança geralmente alerta e faminta — e sem edema, o que é o divisor de águas entre as duas formas. A síndrome nefrótica também causa edema e hipoalbuminemia, mas o edema é tipicamente periorbitário e ascendente, há proteinúria maciça e não se acompanha das alterações de cabelo, pele e da história de privação proteica — a ausência de proteinúria afasta. A enteropatia perdedora de proteínas cursa com diarreia crônica e perda entérica de albumina, sem o contexto dietético e sem as alterações tegumentares descritas. Pérola: a forma mista, Kwashiorkor marasmático, reúne emagrecimento grave e edema; e a presença de edema, por si só, já classifica a desnutrição como grave, independentemente do peso.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a classificação da desnutrição, segundo os critérios da Organização Mundial da Saúde, neste caso:",
+     "alternativas": {
+      "a": "Desnutrição aguda grave.",
+      "b": "Desnutrição crônica (baixa estatura para idade).",
+      "c": "Risco nutricional, com reavaliação em 30 dias.",
+      "d": "Desnutrição aguda moderada."
+     },
+     "correta": "a",
+     "comentario": "Pela classificação da OMS, a desnutrição aguda grave é definida por qualquer um destes critérios, isoladamente: peso para estatura com escore Z abaixo de −3, perímetro braquial inferior a 115 mm em crianças de 6 a 59 meses, ou presença de edema bilateral de origem nutricional. O edema bilateral é critério independente e suficiente — mesmo que o peso pareça 'aceitável', pois está mascarado pelo próprio edema, como o enunciado alerta. Classificar como moderada é erro: o edema não permite grau intermediário, e a impossibilidade de calcular corretamente o peso não impede o diagnóstico. Desnutrição crônica (stunting) é definida por baixa estatura para a idade, escore Z abaixo de −2, e traduz privação prolongada — pode coexistir, mas não é o que classifica a gravidade aguda deste momento. Rotular como 'risco nutricional' com reavaliação em 30 dias é conduta potencialmente fatal: a desnutrição aguda grave tem alta letalidade e exige intervenção imediata. Pérola: a busca ativa de sinais de perigo (hipoglicemia, hipotermia, desidratação, infecção, distúrbio eletrolítico) deve ser sistemática, pois a criança gravemente desnutrida pode não apresentar febre nem leucocitose mesmo com infecção grave — a resposta inflamatória está comprometida, e infecção deve ser presumida e tratada.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta inicial mais adequada no manejo hospitalar deste paciente:",
+     "alternativas": {
+      "a": "Realimentação hipercalórica e hiperproteica imediata.",
+      "b": "Albumina intravenosa e diurético de alça.",
+      "c": "Estabilização com prevenção de hipoglicemia/hipotermia, antibiótico e fórmula F-75.",
+      "d": "Expansão volêmica rápida com solução cristaloide isotônica."
+     },
+     "correta": "c",
+     "comentario": "O protocolo da OMS para desnutrição aguda grave divide o cuidado em fase de estabilização e fase de reabilitação, e os primeiros passos são: prevenir e tratar hipoglicemia e hipotermia, corrigir desidratação e distúrbios eletrolíticos com solução específica de baixo sódio e rica em potássio (ReSoMal, quando indicada), tratar infecção presumida com antibiótico mesmo sem febre, corrigir micronutrientes e iniciar alimentação cautelosa com fórmula de baixa osmolaridade e baixo teor proteico (F-75), em pequenos volumes e alta frequência. A realimentação hipercalórica e hiperproteica imediata é a principal armadilha: precipita a síndrome de realimentação, com queda abrupta de fósforo, potássio e magnésio, retenção hídrica e risco de insuficiência cardíaca e morte súbita. Albumina e diurético estão contraindicados: o edema do Kwashiorkor não responde a diurético, e sua retirada forçada agrava a depleção intravascular e os distúrbios eletrolíticos. Expansão volêmica rápida com cristaloide é perigosa na criança gravemente desnutrida — o miocárdio está atrofiado e a sobrecarga pode causar insuficiência cardíaca; a reidratação deve ser lenta, preferencialmente oral, e a via intravenosa reservada ao choque comprovado, com volumes reduzidos e monitorização estrita. Pérola: a fórmula F-100 (mais calórica) só entra na fase de reabilitação, quando há retorno do apetite e desaparecimento do edema.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropediatria específica (crise febril)",
+   "tier": "MÉDIO",
+   "vinheta": "Menino, 18 meses de idade, previamente hígido e com desenvolvimento neuropsicomotor normal, é levado à emergência após episódio de crise tônico-clônica generalizada com duração aproximada de 3 minutos, ocorrida em casa no contexto de febre de 39,2 °C, iniciada há cerca de 6 horas, associada a coriza e hiperemia de orofaringe. Recuperou plenamente a consciência em cerca de 15 minutos, sem déficit focal residual. Nega crise prévia. Ao exame, encontra-se ativo, hidratado, com fontanela normotensa, sem rigidez de nuca, sem exantema e sem sinais de irritação meníngea. Um tio materno teve episódio semelhante na infância.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a classificação correta do episódio:",
+     "alternativas": {
+      "a": "Crise sintomática aguda por neuroinfecção.",
+      "b": "Crise febril simples.",
+      "c": "Estado de mal epiléptico febril.",
+      "d": "Crise febril complexa."
+     },
+     "correta": "b",
+     "comentario": "A crise febril simples é definida por três critérios que devem coexistir: crise generalizada, duração inferior a 15 minutos e episódio único em 24 horas, em criança entre 6 meses e 5 anos, com febre e sem infecção do sistema nervoso central nem distúrbio metabólico. O caso preenche todos: crise tônico-clônica generalizada de 3 minutos, única, aos 18 meses, com foco infeccioso banal de via aérea superior e recuperação completa. A crise febril complexa é aquela com pelo menos um dos seguintes: caráter focal, duração igual ou superior a 15 minutos, ou recorrência em 24 horas — nada disso ocorreu. O estado de mal epiléptico febril exige duração igual ou superior a 30 minutos (ou crises repetidas sem recuperação da consciência entre elas). Crise sintomática aguda por neuroinfecção é o diagnóstico que jamais se pode perder, mas a criança está ativa, sem sinais meníngeos, com fontanela normotensa e recuperação completa do sensório — a favor de crise febril, e não de meningite ou encefalite. Pérolas: a história familiar positiva é frequente (há forte componente genético); o pico de incidência fica entre 12 e 18 meses; e cerca de 2 a 5% das crianças apresentam ao menos uma crise febril, sendo a causa mais comum de crise na infância.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a conduta em relação à investigação complementar neste momento:",
+     "alternativas": {
+      "a": "Punção lombar de rotina.",
+      "b": "Nenhum exame complementar de rotina; investigar apenas o foco da febre.",
+      "c": "Eletroencefalograma nas primeiras 24 horas.",
+      "d": "Ressonância magnética de crânio ainda na emergência."
+     },
+     "correta": "b",
+     "comentario": "Na crise febril simples, com criança bem, vacinada, sem sinais meníngeos e com nível de consciência recuperado, não há indicação de nenhum exame complementar neurológico de rotina — nem punção lombar, nem eletroencefalograma, nem neuroimagem. A investigação deve se dirigir à causa da febre (otoscopia, exame de orofaringe, urinálise conforme o caso). A punção lombar deixou de ser rotina por faixa etária: hoje é indicada quando há sinais ou sintomas meníngeos, quando a criança está toxemiada ou com sensório alterado de forma persistente, quando é menor de 6 a 12 meses com imunização incompleta para Haemophilus influenzae tipo b e pneumococo, ou quando já recebeu antibiótico que possa mascarar meningite — este paciente não preenche nenhum critério. O eletroencefalograma não prediz recorrência de crise febril nem epilepsia futura e não deve ser feito na crise febril simples. A neuroimagem fica reservada a crise focal, déficit neurológico persistente, macro/microcefalia ou sinais de hipertensão intracraniana. Pérola: a maior 'armadilha' da questão é a antiga regra da punção lombar obrigatória abaixo de 18 meses — desatualizada; o julgamento clínico e o estado vacinal é que orientam.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a orientação correta a ser dada aos pais quanto ao prognóstico e à profilaxia:",
+     "alternativas": {
+      "a": "Risco de recorrência em torno de 30%, sem indicação de anticonvulsivante contínuo.",
+      "b": "Risco elevado de epilepsia, com indicação de fenobarbital contínuo.",
+      "c": "Diazepam intermitente na febre é obrigatório em todos os casos.",
+      "d": "Uso de antitérmico programado previne a recorrência das crises."
+     },
+     "correta": "a",
+     "comentario": "O prognóstico da crise febril simples é excelente: cerca de um terço das crianças apresentará nova crise febril (o risco é maior quanto menor a idade do primeiro episódio, quanto menor a temperatura no momento da crise e quando há história familiar positiva, como aqui), mas o risco de epilepsia ao longo da vida é apenas discretamente superior ao da população geral — em torno de 1 a 2%, contra cerca de 1%. Não há indicação de anticonvulsivante contínuo: fenobarbital e valproato reduzem recorrência, mas os efeitos adversos cognitivos e comportamentais superam largamente o benefício em uma condição benigna e autolimitada. Antitérmicos servem para o conforto da criança e para tratar a febre, mas foram testados em ensaios clínicos e não previnem a recorrência da crise febril — essa é a pegadinha mais frequente do tema, pois é contraintuitiva. Diazepam intermitente durante os episódios febris pode ser considerado em casos selecionados, com recorrências muito frequentes e ansiedade familiar importante, mas não é obrigatório nem rotineiro. Pérola prática: o essencial é orientar os pais sobre posicionamento em decúbito lateral, não introduzir objetos na boca, cronometrar a crise e procurar atendimento se ultrapassar 5 minutos — quando se indica midazolam bucal/intranasal ou diazepam retal.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências Pediátricas (anafilaxia)",
+   "tier": "ALTO",
+   "vinheta": "Menina, 6 anos de idade, é trazida à emergência cerca de 20 minutos após ingerir, pela primeira vez, um doce contendo castanha. Iniciou com prurido em lábios e placas urticariformes disseminadas, evoluindo, nos últimos minutos, com tosse seca persistente, sensação de \"aperto na garganta\" e vômitos. Ao exame, encontra-se ansiosa, com urticária generalizada e edema labial, FR 38 ipm, com sibilos difusos à ausculta, estridor inspiratório leve, FC 148 bpm, PA 88x50 mmHg e tempo de enchimento capilar de 3 segundos. Saturação de oxigênio de 92% em ar ambiente. Não tem diagnóstico prévio de asma e não faz uso de medicações contínuas.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Reação vasovagal.",
+      "b": "Crise de broncoespasmo por asma.",
+      "c": "Anafilaxia.",
+      "d": "Urticária aguda isolada."
+     },
+     "correta": "c",
+     "comentario": "O diagnóstico de anafilaxia é clínico e se estabelece quando há início agudo de envolvimento de pele/mucosa (urticária, edema labial) associado a comprometimento de pelo menos um outro sistema — respiratório (tosse, sibilos, estridor, hipoxemia) ou cardiovascular (hipotensão, má perfusão) — ou, alternativamente, hipotensão após exposição a alérgeno conhecido. A paciente preenche com folga: pele, via aérea, pulmão, aparelho digestivo e circulação estão todos envolvidos. Urticária aguda isolada limita-se à pele, sem sintomas respiratórios ou hemodinâmicos — reconhecê-la como 'isolada' aqui seria subestimar uma emergência e retardar a adrenalina, erro que mata. Crise de broncoespasmo por asma explicaria sibilos, mas não a urticária, o edema labial, o estridor e a hipotensão, e a paciente não tem antecedente de asma; além disso, o gatilho alimentar imediato é inequívoco. Reação vasovagal cursa com bradicardia, palidez e sudorese, com recuperação rápida em decúbito — aqui há taquicardia, urticária e broncoespasmo. Pérolas: a hipotensão em crianças é definida por valores ajustados à idade (pressão sistólica abaixo de 70 + 2 × idade em anos, entre 1 e 10 anos — aqui, abaixo de 82 mmHg), e a anafilaxia pode ocorrer sem qualquer manifestação cutânea em cerca de 10 a 20% dos casos, o que a torna ainda mais traiçoeira.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica prioritária neste momento:",
+     "alternativas": {
+      "a": "Adrenalina intramuscular na face anterolateral da coxa.",
+      "b": "Corticoide intravenoso em dose alta.",
+      "c": "Anti-histamínico intravenoso.",
+      "d": "Adrenalina intravenosa em bolus."
+     },
+     "correta": "a",
+     "comentario": "A adrenalina intramuscular é o único tratamento de primeira linha da anafilaxia e não tem contraindicação absoluta nesse contexto. A dose é de 0,01 mg/kg da solução 1:1000 (máximo de 0,3 a 0,5 mg), aplicada na face anterolateral da coxa (vasto lateral), que garante absorção mais rápida e picos séricos mais altos que a via subcutânea ou deltoide; pode ser repetida a cada 5 a 15 minutos, se necessário. Seu efeito alfa-1 reverte o edema de via aérea e a vasodilatação, e o beta-2 broncodilata — nenhum outro fármaco faz isso. Anti-histamínicos aliviam apenas prurido e urticária, não atuam sobre broncoespasmo, edema laríngeo nem hipotensão, e usá-los como conduta principal é o erro clássico e mais letal do tema. Corticoides têm início de ação lento (horas) e nem sequer há evidência robusta de que previnam a reação bifásica; são adjuvantes, jamais tratamento inicial. Adrenalina intravenosa em bolus é perigosa — associa-se a arritmias e isquemia miocárdica — e fica reservada ao choque refratário, em infusão contínua, com monitorização. Pérola: além da adrenalina, deve-se posicionar a criança em decúbito dorsal com membros inferiores elevados (nunca sentá-la ou levantá-la bruscamente, pelo risco de síndrome do ventrículo vazio), ofertar oxigênio e obter acesso venoso para expansão com cristaloide.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a orientação de alta mais adequada, após a estabilização do quadro:",
+     "alternativas": {
+      "a": "Prescrição de anti-histamínico contínuo por 30 dias como profilaxia.",
+      "b": "Teste de provocação oral com castanha imediatamente.",
+      "c": "Prescrição de adrenalina autoinjetável, plano de ação escrito e encaminhamento ao alergista.",
+      "d": "Alta imediata após resolução dos sintomas, sem observação adicional."
+     },
+     "correta": "c",
+     "comentario": "Após a anafilaxia, o cuidado não termina com a estabilização. A alta deve incluir três pilares: prescrição de adrenalina autoinjetável (ou, na indisponibilidade, orientação sobre acesso ao serviço de emergência e, em alguns serviços, kit com ampola e seringa), plano de ação escrito de emergência para família e escola, e encaminhamento ao alergista para investigação e orientação de evitação. A alta imediata sem observação é inadequada: recomenda-se período de observação de pelo menos 4 a 6 horas (podendo ser prolongado para 12 a 24 horas em reações graves, com hipotensão ou necessidade de múltiplas doses de adrenalina), pelo risco de reação bifásica, que ocorre em até 5 a 20% dos casos, tipicamente nas primeiras 8 horas. Anti-histamínico contínuo não previne anafilaxia — pode inclusive mascarar os sintomas cutâneos iniciais de uma nova reação, atrasando o reconhecimento. Teste de provocação oral com o alimento suspeito, logo após anafilaxia confirmada por história inequívoca, está formalmente contraindicado — seria expor deliberadamente a criança a nova reação potencialmente fatal. Pérola: a alergia a castanhas e amendoim, ao contrário da alergia ao leite e ao ovo, tende a persistir na vida adulta, o que reforça a necessidade de plano de longo prazo.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (hemorragia intracerebral pós-trombólise)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 71 anos de idade, hipertenso, foi admitido com hemiparesia esquerda e disartria de início há 2 horas, NIHSS 14, e recebeu alteplase endovenosa após tomografia de crânio sem sinais precoces extensos de isquemia. Cerca de 40 minutos após o início da infusão, apresenta cefaleia súbita e intensa, vômitos, queda do nível de consciência e piora do déficit motor. A infusão é imediatamente interrompida. A pressão arterial é de 196x108 mmHg. Uma nova tomografia de crânio mostra hematoma intraparenquimatoso frontotemporal direito, com volume estimado em 38 mL e desvio de linha média de 6 mm.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a conduta hemostática imediata mais adequada:",
+     "alternativas": {
+      "a": "Sulfato de protamina.",
+      "b": "Crioprecipitado.",
+      "c": "Concentrado de complexo protrombínico.",
+      "d": "Plasma fresco congelado."
+     },
+     "correta": "b",
+     "comentario": "A alteplase é um ativador do plasminogênio que gera plasmina e consome fibrinogênio; a hemorragia sintomática pós-trombólise é, portanto, uma coagulopatia por hipofibrinogenemia. O tratamento de escolha é a reposição de fibrinogênio com crioprecipitado (habitualmente 10 unidades), idealmente guiado pela dosagem sérica, com alvo de fibrinogênio igual ou superior a 150 mg/dL; o ácido tranexâmico é alternativa/adjuvante antifibrinolítico quando o crioprecipitado não está disponível. O plasma fresco congelado contém fibrinogênio em concentração muito baixa e exigiria grandes volumes, com risco de sobrecarga — não é a primeira escolha. O concentrado de complexo protrombínico é o antídoto da anticoagulação por antagonistas da vitamina K (varfarina) e de alguns anticoagulantes orais diretos, mas não repõe fibrinogênio e não reverte a fibrinólise induzida pela alteplase. O sulfato de protamina reverte heparina não fracionada, situação clínica completamente diferente. Pérolas de conduta associadas: suspender a infusão imediatamente ao primeiro sinal de deterioração, solicitar tomografia de urgência, colher hemograma, coagulograma e fibrinogênio, controlar a pressão arterial e acionar a neurocirurgia. A hemorragia sintomática ocorre em cerca de 2 a 6% dos trombolisados e é a complicação mais temida do procedimento.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a meta pressórica a ser adotada neste momento:",
+     "alternativas": {
+      "a": "Permitir hipertensão até 220x120 mmHg.",
+      "b": "Pressão arterial sistólica entre 130 e 150 mmHg.",
+      "c": "Pressão arterial sistólica abaixo de 185 mmHg.",
+      "d": "Reduzir a pressão arterial média em pelo menos 40% na primeira hora."
+     },
+     "correta": "b",
+     "comentario": "Uma vez instalada a hemorragia intracerebral, o alvo pressórico muda radicalmente em relação ao do AVC isquêmico: recomenda-se redução precoce e controlada da pressão arterial sistólica para a faixa de 130 a 150 mmHg (com início nas primeiras horas e evitando quedas abruptas), pois níveis mais altos favorecem a expansão do hematoma. O limite de 185x110 mmHg é a meta específica do candidato à trombólise — antes e nas primeiras 24 horas após a alteplase quando não há hemorragia; aplicá-lo agora seria permissivo demais e é a alternativa mais tentadora. Permitir 220x120 mmHg é a chamada hipertensão permissiva do AVC isquêmico não trombolisado, conduta inadequada e perigosa diante de sangramento ativo. Reduções agressivas, com queda de mais de 40% da pressão arterial média em uma hora, são deletérias: podem reduzir a perfusão da zona perilesional e piorar o desfecho — o cuidado é reduzir de forma suave e sustentada, preferencialmente com fármacos endovenosos tituláveis. Pérola: os grandes ensaios (INTERACT e ATACH) mostraram que a redução intensiva é segura e reduz o crescimento do hematoma, mas o benefício depende de evitar variabilidade pressórica ampla — estabilidade importa tanto quanto o número absoluto.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a situação em que a evacuação cirúrgica do hematoma supratentorial é mais claramente indicada:",
+     "alternativas": {
+      "a": "Hematoma profundo em tálamo, independentemente do volume.",
+      "b": "Todo hematoma com volume superior a 20 mL.",
+      "c": "Todo paciente com Glasgow igual ou inferior a 8.",
+      "d": "Hematoma com efeito de massa e deterioração neurológica progressiva em paciente previamente funcional."
+     },
+     "correta": "d",
+     "comentario": "A indicação cirúrgica na hemorragia intracerebral supratentorial não é definida por um único número, mas pela combinação de efeito de massa significativo, deterioração neurológica progressiva e potencial de recuperação funcional (paciente previamente independente) — exatamente o cenário deste caso, com 38 mL, desvio de linha média e queda do nível de consciência. Um limiar de volume isolado, como 20 mL, não indica cirurgia por si só: hematomas volumosos mas estáveis, em paciente sem deterioração, podem ser manejados clinicamente. Glasgow igual ou inferior a 8 indica proteção de via aérea e cuidados intensivos, e por si só não define a indicação cirúrgica; ao contrário, pontuações muito baixas com lesão extensa podem indicar prognóstico ruim independentemente da drenagem. Hematomas profundos, em tálamo e gânglios da base, são justamente aqueles em que a evacuação convencional traz maior dano ao tecido são sobrejacente e não demonstrou benefício consistente — a craniotomia é mais favorável nos hematomas lobares superficiais. Pérola: a exceção clássica, quase sempre cobrada, é o hematoma cerebelar com mais de 3 cm ou com compressão de tronco e hidrocefalia, em que a descompressão é urgente e claramente benéfica — regra distinta da dos hematomas supratentoriais.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Endocrinologia / Baixa estatura (atraso constitucional do crescimento e da puberdade)",
+   "tier": "ALTO",
+   "vinheta": "Adolescente do sexo masculino, 14 anos e 2 meses de idade, é levado ao ambulatório porque é \"o menor da turma\" e ainda não teve estirão de crescimento. Está no percentil 3 de estatura, mas a velocidade de crescimento é de 5 cm por ano, e sua curva vem acompanhando o próprio canal de crescimento desde os 4 anos, sem cruzamento de percentis. Ao exame, encontra-se eutrófico, sem dismorfismos, sem bócio, com pelos pubianos em estágio 2 de Tanner e volume testicular de 5 mL bilateralmente. O pai relata ter tido \"desenvolvimento tardio\", com estirão apenas por volta dos 17 anos, e a mãe teve menarca aos 15 anos. A idade óssea, avaliada por radiografia de mão e punho, é compatível com 12 anos.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Hipotireoidismo adquirido.",
+      "b": "Baixa estatura familiar.",
+      "c": "Atraso constitucional do crescimento e da puberdade.",
+      "d": "Deficiência de hormônio de crescimento."
+     },
+     "correta": "c",
+     "comentario": "O atraso constitucional do crescimento e da puberdade é a causa mais comum de baixa estatura com puberdade tardia em meninos e reúne exatamente os achados descritos: estatura baixa mas com velocidade de crescimento normal ou no limite inferior, curva paralela ao canal de crescimento, idade óssea atrasada em relação à cronológica (aqui, 12 anos para uma idade de 14 anos), história familiar de 'desenvolvimento tardio' em pais e ausência de qualquer estigma sindrômico ou sinal de doença. Já há entrada em puberdade (volume testicular de 5 mL indica início puberal, pois o corte é 4 mL), apenas tardiamente. Na baixa estatura familiar, a idade óssea é compatível com a idade cronológica e a puberdade ocorre no tempo esperado — o que separa as duas entidades é justamente a idade óssea, e é o ponto que a banca testa. Na deficiência de hormônio de crescimento haveria desaceleração da velocidade de crescimento com cruzamento descendente de percentis, frequentemente com adiposidade central e fácies característica — a velocidade normal de 5 cm/ano afasta. O hipotireoidismo adquirido cursa com queda importante da velocidade de crescimento, ganho ponderal desproporcional, bradicardia, pele seca e, muitas vezes, bócio — nada disso está presente. Pérola: a idade óssea atrasada é boa notícia — significa potencial de crescimento remanescente e prognóstico de estatura final dentro do alvo genético.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta diagnóstica complementar mais adequada neste momento:",
+     "alternativas": {
+      "a": "Exames laboratoriais de triagem (hemograma, função tireoidiana, sorologia para doença celíaca) e observação.",
+      "b": "Ressonância magnética de sela túrcica.",
+      "c": "Teste de estímulo do hormônio de crescimento imediatamente.",
+      "d": "Cariótipo com bandeamento G."
+     },
+     "correta": "a",
+     "comentario": "Antes de assumir o atraso constitucional — que é diagnóstico de exclusão —, é obrigatório afastar doenças crônicas ocultas que cursam com baixa estatura e atraso puberal: hemograma (anemia, doença inflamatória), velocidade de hemossedimentação, função renal, função tireoidiana e, muito importante, sorologia para doença celíaca, cuja apresentação monossintomática com baixa estatura é clássica e frequentemente esquecida. Com triagem normal, história familiar sugestiva, velocidade de crescimento preservada e idade óssea atrasada, a conduta é observação com reavaliação semestral. O teste de estímulo do hormônio de crescimento não está indicado neste momento: além de invasivo, ele produz resultados falsamente baixos em adolescentes pré-púberes com atraso constitucional, se não houver 'priming' com esteroide sexual — armadilha clássica que leva a diagnósticos equivocados de deficiência de GH. A ressonância de sela túrcica só se justifica se houver deficiência hormonal confirmada, sinais neurológicos, cefaleia ou alteração de campo visual. O cariótipo é indicado em meninas com baixa estatura (para investigar síndrome de Turner, causa que jamais deve ser esquecida) e em meninos com dismorfismos ou hipogonadismo — não há indicação aqui. Pérola: a fórmula da estatura-alvo para meninos é [estatura do pai + (estatura da mãe + 13)] / 2, com faixa de ± 8,5 cm — a comparação da estatura prevista com esse alvo é parte essencial do raciocínio.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a orientação prognóstica correta a ser dada à família:",
+     "alternativas": {
+      "a": "É indicada terapia com testosterona contínua até o fechamento das epífises.",
+      "b": "É indicada reposição imediata de hormônio de crescimento para evitar prejuízo à estatura final.",
+      "c": "A baixa estatura será definitiva, com estatura final abaixo do alvo genético.",
+      "d": "A estatura final tende a situar-se dentro do alvo genético, sem necessidade de terapia hormonal."
+     },
+     "correta": "d",
+     "comentario": "No atraso constitucional, a maturação esquelética atrasada preserva o potencial de crescimento: as epífises fecham mais tarde, o estirão puberal acontece com atraso e a estatura final costuma situar-se dentro do alvo genético — a tranquilização, com acompanhamento periódico, é a conduta padrão, e nenhum tratamento é obrigatório. Afirmar que a baixa estatura será definitiva é incorreto e desnecessariamente iatrogênico do ponto de vista emocional. A reposição de hormônio de crescimento não tem indicação: o eixo é normal, e o uso nessa situação não altera de forma clinicamente relevante a estatura final, além de expor o adolescente a custo e efeitos adversos — este é o erro mais tentador da questão. A testosterona pode ser considerada, mas jamais como terapia contínua até o fechamento epifisário: quando o impacto psicossocial é importante, usa-se um curso curto de testosterona em dose baixa, por 3 a 6 meses, apenas para deflagrar os caracteres sexuais secundários e acelerar o crescimento — uso prolongado ou em dose alta acelera a maturação óssea e pode, paradoxalmente, reduzir a estatura final. Pérola: o sofrimento psicossocial (bullying, isolamento, baixa autoestima) é a principal indicação de intervenção nesses adolescentes, e deve ser ativamente investigado, e não minimizado com o argumento de que 'vai crescer depois'.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtornos do Movimento (coreia de Sydenham)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, 11 anos de idade, é levada ao ambulatório por movimentos involuntários há 3 semanas, descritos pela mãe como \"caretas\" e movimentos bruscos e irregulares dos braços, que atrapalham a escrita e fazem a criança derrubar objetos. Os professores relatam queda no rendimento escolar, choro fácil e irritabilidade recentes. Refere faringoamigdalite há cerca de 2 meses, tratada apenas com sintomáticos. Ao exame, apresenta movimentos rápidos, aleatórios e migratórios que fluem de um segmento a outro, hipotonia, impersistência motora ao manter a língua protrusa e mãos em \"colher\" na elevação dos braços. Não há febre no momento, nem artrite ou sopro cardíaco audível.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Tique motor complexo (síndrome de Tourette).",
+      "b": "Coreia de Huntington de início juvenil.",
+      "c": "Distonia idiopática de início na infância.",
+      "d": "Coreia de Sydenham."
+     },
+     "correta": "d",
+     "comentario": "A coreia de Sydenham é a manifestação neurológica da febre reumática e a causa mais comum de coreia adquirida na infância. O quadro é típico: movimentos coreicos aleatórios e migratórios, hipotonia, impersistência motora (a criança não sustenta a língua protrusa nem o aperto de mão — o clássico 'sinal do ordenhador'), postura das mãos em colher com os braços elevados, e um componente neuropsiquiátrico proeminente (labilidade emocional, irritabilidade, sintomas obsessivo-compulsivos), tudo isso semanas a meses após faringoamigdalite estreptocócica não tratada, com período de latência longo. Tiques da síndrome de Tourette são estereotipados, repetitivos, precedidos por urgência premonitória e suprimíveis voluntariamente por algum tempo — a coreia não é nada disso, é fluida, imprevisível e não suprimível. A doença de Huntington juvenil (variante de Westphal) manifesta-se tipicamente com parkinsonismo, rigidez, crises epilépticas e declínio cognitivo, com história familiar autossômica dominante — não com coreia isolada pós-infecciosa. A distonia é caracterizada por contrações sustentadas com posturas anômalas e torções, não por movimentos rápidos e fugazes. Pérola: a coreia de Sydenham é critério maior isolado de Jones — sua presença permite o diagnóstico de febre reumática mesmo sem outros critérios e mesmo sem evidência de infecção estreptocócica prévia, justamente porque surge tardiamente, quando ASLO e cultura já podem ter negativado.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame de maior relevância para avaliar o prognóstico a longo prazo dessa paciente:",
+     "alternativas": {
+      "a": "Dosagem seriada de ASLO.",
+      "b": "Ecocardiograma.",
+      "c": "Eletroencefalograma.",
+      "d": "Ressonância magnética de crânio com contraste."
+     },
+     "correta": "b",
+     "comentario": "O que determina o prognóstico a longo prazo na febre reumática não é a coreia — que é autolimitada e regride em semanas a meses na maioria dos casos, sem sequela motora — mas a cardite, cuja consequência é a doença valvar reumática crônica, principal causa de valvopatia adquirida em jovens no Brasil. Por isso, todo paciente com coreia de Sydenham deve realizar ecocardiograma: a cardite subclínica, sem sopro audível, é frequente (detectada em cerca de metade dos casos com coreia isolada) e muda a duração da profilaxia secundária. A ressonância de crânio pode mostrar hipersinal em núcleos da base, mas é inespecífica e não altera prognóstico nem conduta. O eletroencefalograma não tem papel: coreia não é fenômeno epiléptico. A dosagem seriada de ASLO é útil para documentar contato prévio com o estreptococo, mas frequentemente já está em queda ou normal quando a coreia aparece (latência de 1 a 6 meses) e, sobretudo, o título não guarda relação com gravidade ou prognóstico — dosar em série é erro clássico. Pérola: um ASLO negativo não exclui coreia de Sydenham, e é justamente por isso que ela vale como critério maior isolado.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada neste momento:",
+     "alternativas": {
+      "a": "Apenas observação clínica.",
+      "b": "Penicilina benzatina em profilaxia secundária, com tratamento sintomático da coreia.",
+      "c": "Haloperidol contínuo, sem antibioticoterapia.",
+      "d": "Imunoglobulina intravenosa como primeira linha."
+     },
+     "correta": "b",
+     "comentario": "O pilar do tratamento é a profilaxia secundária com penicilina G benzatina intramuscular a cada 21 dias (ou a cada 15 dias em situações de maior risco), que previne novos surtos de febre reumática e, portanto, a progressão da lesão valvar. Na presença de coreia, a profilaxia deve ser mantida por, no mínimo, até os 21 anos de idade ou 10 anos após o último surto (o que for mais longo) — e por muito mais tempo se houver cardite com sequela valvar. O controle sintomático da coreia, quando os movimentos são incapacitantes, pode ser feito com ácido valproico, carbamazepina ou antipsicóticos como a risperidona; casos refratários respondem a corticoide. Apenas observar é insuficiente: mesmo que a coreia regrida sozinha, deixar de fazer a profilaxia expõe a criança a novo surto e a cardite. Haloperidol contínuo sem antibiótico erra no essencial — trata o sintoma e ignora a doença; além disso, o haloperidol tem risco significativo de parkinsonismo e discinesia nesta faixa etária. Imunoglobulina e plasmaférese ficam reservadas a casos graves e refratários, nunca como primeira linha. Pérola: em paciente com alergia comprovada à penicilina, a alternativa é a sulfadiazina (ou macrolídeo), e a dessensibilização deve ser considerada, pois nenhuma alternativa é tão eficaz quanto a penicilina benzatina.",
+     "dificuldade": "dificil"
+    }
+   ]
+  }
+ ]
+}
