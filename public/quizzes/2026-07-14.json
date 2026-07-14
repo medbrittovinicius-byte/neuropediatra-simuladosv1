@@ -1,0 +1,651 @@
+{
+ "date": "2026-07-14",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (síndrome vestibular aguda central / AVC cerebelar) [REVISÃO ESPAÇADA]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 58 anos de idade, hipertenso, diabético e tabagista, procura a emergência com tontura rotatória contínua iniciada há 8 horas, acompanhada de náuseas e vômitos. Refere instabilidade tão intensa que não consegue permanecer em pé mesmo com apoio. Nega perda auditiva, zumbido, cefaleia ou déficit motor. Ao exame: consciente, orientado, sem paresias. Nistagmo horizontal que muda de direção conforme o lado do olhar. Teste de impulso cefálico (head impulse) sem sacada de correção. Presença de desalinhamento vertical dos olhos ao teste de cobertura alternada. Tomografia de crânio sem contraste, realizada na admissão, não mostra alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o padrão do exame vestibular à beira do leito, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Vertigem posicional paroxística benigna",
+      "b": "Acidente vascular cerebral isquêmico cerebelar",
+      "c": "Neurite vestibular",
+      "d": "Doença de Ménière"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "O protocolo HINTS (Head Impulse — Nystagmus — Test of Skew) é a ferramenta de maior acurácia à beira do leito na síndrome vestibular aguda, superando inclusive a ressonância com difusão nas primeiras 24-48 horas. O padrão CENTRAL (INFARCT) é: impulso cefálico NORMAL (sem sacada de correção), nistagmo que MUDA de direção com o olhar, e skew deviation presente — exatamente os três achados do caso. Impulso cefálico normal significa que o reflexo vestíbulo-ocular periférico está íntegro; se o labirinto/nervo vestibular estivesse lesado (causa periférica), haveria sacada de correção. A neurite vestibular (alternativa C) daria o padrão oposto: impulso cefálico ALTERADO, nistagmo unidirecional que bate sempre para o lado sadio e ausência de skew — além disso, o paciente costuma conseguir deambular com apoio. A vertigem posicional paroxística benigna (alternativa A) cursa com crises breves (segundos), desencadeadas por mudança de posição da cabeça, e não com vertigem contínua de 8 horas. A doença de Ménière (alternativa D) exige a tríade vertigem episódica + hipoacusia flutuante + zumbido, ausentes aqui. Pérola de prova: a incapacidade de permanecer em pé mesmo com apoio (ataxia truncal grave) é um sinal de alarme para lesão central. TC de crânio normal NÃO afasta AVC de fossa posterior — sua sensibilidade nas primeiras horas é inferior a 20% na circulação posterior."
+    },
+    {
+     "enunciado": "Indique o exame complementar mais adequado para confirmar a suspeita:",
+     "alternativas": {
+      "a": "Nova tomografia computadorizada de crânio em 24 horas",
+      "b": "Videonistagmografia com prova calórica",
+      "c": "Manobra de Dix-Hallpike",
+      "d": "Ressonância magnética de encéfalo com sequência de difusão"
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "A ressonância magnética com sequência de difusão (DWI) é o exame de escolha para confirmar infarto de fossa posterior, com sensibilidade muito superior à tomografia. Vale a ressalva didática: mesmo a RM-DWI tem falso-negativo em até 15-20% dos infartos de tronco/cerebelo nas primeiras 24-48 horas, sobretudo em lesões pequenas — por isso o HINTS bem executado tem valor diagnóstico independente e não deve ser abandonado diante de uma RM precoce normal. Repetir a tomografia (alternativa A) apenas retardaria o diagnóstico e não tem sensibilidade adequada para a fossa posterior por causa dos artefatos ósseos. A videonistagmografia com prova calórica (alternativa B) é ferramenta ambulatorial para caracterização de vestibulopatia periférica crônica, sem papel na urgência. A manobra de Dix-Hallpike (alternativa C) serve para diagnosticar a vertigem posicional benigna do canal posterior, quadro clinicamente incompatível com vertigem contínua e persistente. Pegadinha clássica: a banca oferece a TC como opção porque foi o exame já realizado — mas TC normal em quadro vestibular agudo com sinais centrais é achado esperado, não tranquilizador."
+    },
+    {
+     "enunciado": "Indique a conduta mais adequada neste momento:",
+     "alternativas": {
+      "a": "Internação em unidade de acidente vascular cerebral, com vigilância neurológica seriada",
+      "b": "Manobra de reposicionamento canalicular de Epley e alta",
+      "c": "Betaistina por via oral em regime ambulatorial",
+      "d": "Corticoterapia oral em dose alta por 5 dias"
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "O paciente está fora da janela terapêutica de trombólise (8 horas de instalação, com déficit não incapacitante clássico), mas isso não muda a necessidade de internação em unidade especializada. O motivo é o risco de EDEMA CEREBELAR: infartos cerebelares extensos podem evoluir, entre o 2º e o 4º dia, com efeito de massa sobre o IV ventrículo, hidrocefalia obstrutiva aguda e compressão de tronco — complicação potencialmente fatal, mas com excelente prognóstico se tratada precocemente por craniectomia suboccipital descompressiva e/ou derivação ventricular. Daí a vigilância neurológica seriada. Além disso, a internação permite investigação etiológica (Doppler de vasos cervicais, angio-TC/angio-RM, ecocardiograma, Holter) e início de prevenção secundária. A manobra de Epley (alternativa B) trata a vertigem posicional benigna e seria não apenas inútil como perigosa aqui, pela alta chance de mascarar a deterioração. Betaistina (alternativa C) é sintomático usado na doença de Ménière e o uso prolongado de supressores vestibulares atrapalha a compensação central. Corticoide (alternativa D) tem indicação discutível na neurite vestibular, não no AVC. Pérola: supressores vestibulares (dimenidrinato, benzodiazepínicos) devem ser limitados a 24-72 horas."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia / Icterícia neonatal (incompatibilidade ABO) [REAL: SUS-BA R+ Pediatria 2021]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino nascido de parto natural, com idade gestacional de 36 semanas e 5 dias, pesando 2.800 g, apresenta, dezesseis horas após o nascimento, icterícia que atinge a zona II de Kramer. Está ativo, sugando o seio adequadamente e já eliminou mecônio. Os exames mostram sangue tipo B positivo do recém-nascido; e a mãe tem sangue O positivo. Coombs direto positivo; bilirrubinas totais: 9,2 mg/dL; bilirrubina indireta: 8,8 mg/dL.",
+   "perguntas": [
+    {
+     "enunciado": "Identifique a extensão anatômica que corresponde à zona afetada pela icterícia:",
+     "alternativas": {
+      "a": "Membros apenas.",
+      "b": "Cabeça e tórax.",
+      "c": "Tórax e membros superiores.",
+      "d": "Pescoço e membros superiores."
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] As zonas de Kramer descrevem a progressão CRANIOCAUDAL da icterícia neonatal e permitem uma estimativa grosseira, à beira do leito, do nível de bilirrubina: Zona I = cabeça e pescoço (aproximadamente 4-8 mg/dL); Zona II = até o umbigo, ou seja, cabeça e tronco superior/tórax (5-12 mg/dL); Zona III = até os joelhos (8-16 mg/dL); Zona IV = braços e pernas abaixo dos joelhos (11-18 mg/dL); Zona V = palmas e plantas (acima de 15 mg/dL). Pela banca, a zona II corresponde a cabeça e tórax — coerente com a bilirrubina total de 9,2 mg/dL encontrada. 'Membros apenas' (alternativa A) e 'tórax e membros superiores' (alternativa C) não correspondem a nenhuma zona da escala, pois a progressão é obrigatoriamente descendente e contínua, sempre partindo da cabeça. 'Pescoço e membros superiores' (alternativa D) inverte a lógica ao pular o tronco. Pérola de segurança: a avaliação visual é NOTORIAMENTE imprecisa, sobretudo em recém-nascidos de pele mais pigmentada e após o início da fototerapia — subestima e superestima. Por isso a conduta jamais deve se basear só na inspeção: exige bilirrubina transcutânea ou sérica plotada em nomograma horário (Bhutani), que considera a idade em HORAS de vida e os fatores de risco."
+    },
+    {
+     "enunciado": "Identifique a alternativa que apresenta a melhor categorização do quadro ictérico descrito:",
+     "alternativas": {
+      "a": "Icterícia por amamentação.",
+      "b": "Hiperbilirrubinemia fisiológica.",
+      "c": "Hiperbilirrubinemia por condição metabólica.",
+      "d": "Hiperbilirrubinemia hemolítica."
+     },
+     "correta": "d",
+     "dificuldade": "facil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O caso reúne todos os elementos da doença hemolítica por incompatibilidade ABO: mãe do grupo O (produtora natural de anti-A e anti-B da classe IgG, que atravessam a placenta), recém-nascido do grupo B, teste de Coombs DIRETO POSITIVO (comprovando anticorpos ligados às hemácias fetais) e icterícia de início PRECOCE, com menos de 24 horas de vida. A hiperbilirrubinemia fisiológica (alternativa B) é definida justamente pelo início APÓS 24 horas de vida, pico entre o 3º e o 5º dia no termo, elevação lenta (menos de 5 mg/dL/dia) e Coombs negativo — o início com 16 horas exclui esse diagnóstico de imediato. A icterícia por amamentação (alternativa A), ou icterícia do aleitamento insuficiente, decorre de baixa ingesta com aumento da circulação êntero-hepática, surge por volta do 2º ao 4º dia e cursa com perda ponderal e eliminação escassa de mecônio — mas aqui o recém-nascido está ativo, sugando bem e já eliminou mecônio. Uma causa metabólica (alternativa C), como o hipotireoidismo congênito ou a galactosemia, tem instalação bem mais tardia e outros achados sistêmicos. REGRA DE OURO: TODA icterícia com menos de 24 horas de vida é patológica até prova em contrário, e a hemólise é a primeira hipótese. Pesquisar também deficiência de G6PD, prevalente e frequentemente coexistente."
+    },
+    {
+     "enunciado": "Identifique a conduta terapêutica indicada, nesse momento, para esse recém-nascido:",
+     "alternativas": {
+      "a": "Fenobarbital.",
+      "b": "Exsanguineotransfusão.",
+      "c": "Fototerapia.",
+      "d": "Banhos de sol."
+     },
+     "correta": "c",
+     "dificuldade": "facil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A fototerapia é a conduta indicada: recém-nascido de 36 semanas e 5 dias (portanto prematuro tardio, fator de risco), com 16 horas de vida, bilirrubina total de 9,2 mg/dL e doença hemolítica confirmada — nível claramente acima da linha de tratamento do nomograma de Bhutani para essa faixa horária no grupo de risco. A luz azul (comprimento de onda de 460 a 490 nm) converte a bilirrubina não conjugada em fotoisômeros hidrossolúveis (lumirrubina), excretados sem necessidade de conjugação hepática. A exsanguineotransfusão (alternativa B) é reservada para níveis muito superiores, para a falha da fototerapia intensiva ou para sinais de encefalopatia bilirrubínica aguda (hipertonia, opistótono, choro agudo, letargia) — indicá-la agora seria expor o recém-nascido a um procedimento com mortalidade não desprezível sem necessidade. O fenobarbital (alternativa A) induz a glicuroniltransferase, mas tem início de ação lento (dias), é sedativo e não tem lugar no tratamento agudo. O banho de sol (alternativa D) está formalmente CONTRAINDICADO pelas sociedades de pediatria: irradiação incontrolável, risco de queimadura, hipertermia e desidratação, e eficácia irrisória — é uma prática culturalmente arraigada que a prova cobra justamente para desconstruir. Monitorar hidratação, manter aleitamento e repetir bilirrubina em 4 a 6 horas."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroimunologia (transtorno do espectro da neuromielite óptica) [REVISÃO ESPAÇADA]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 34 anos de idade, negra, refere que há duas semanas apresentou dor à movimentação ocular seguida de perda visual grave e bilateral, com acuidade de contar dedos a um metro em ambos os olhos. Nos últimos três dias evoluiu com fraqueza progressiva nos membros inferiores, nível sensitivo em T6 e retenção urinária. A ressonância magnética da medula mostra lesão hiperintensa em T2 estendendo-se continuamente de C7 a T7. A ressonância de encéfalo não evidencia lesões periventriculares perpendiculares ao corpo caloso. O líquido cefalorraquidiano revela 40 células/mm³, com predomínio de neutrófilos, e ausência de bandas oligoclonais.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Encefalomielite disseminada aguda",
+      "b": "Transtorno do espectro da neuromielite óptica",
+      "c": "Esclerose múltipla remitente-recorrente",
+      "d": "Mielite transversa idiopática"
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "A combinação de neurite óptica BILATERAL e grave com mielite LONGITUDINALMENTE EXTENSA (lesão contígua acometendo três ou mais segmentos vertebrais — aqui, de C7 a T7) é a assinatura clínico-radiológica do espectro da neuromielite óptica. Reforçam o diagnóstico: ausência de bandas oligoclonais, pleocitose acentuada com neutrófilos no liquor e encéfalo sem as lesões típicas. A esclerose múltipla (alternativa C) cursa tipicamente com neurite óptica UNILATERAL e de recuperação boa, mielite CURTA (menos de dois segmentos, geralmente parcial e periférica), bandas oligoclonais presentes em mais de 85% dos casos e lesões periventriculares em dedos de Dawson — todos ausentes aqui. A encefalomielite disseminada aguda (alternativa A) é predominantemente monofásica, pediátrica, pós-infecciosa, e cursa com encefalopatia (alteração de consciência/comportamento), que não existe no caso. A mielite transversa idiopática (alternativa D) é diagnóstico de exclusão e não explicaria a neurite óptica bilateral concomitante. Pérola: pleocitose acima de 50 células ou presença de neutrófilos no liquor praticamente afasta esclerose múltipla e aponta para neuromielite óptica."
+    },
+    {
+     "enunciado": "Indique o exame que melhor confirma a hipótese diagnóstica:",
+     "alternativas": {
+      "a": "Pesquisa de anticorpo IgG antiaquaporina-4 no soro",
+      "b": "Pesquisa de bandas oligoclonais no líquido cefalorraquidiano",
+      "c": "Potencial evocado visual",
+      "d": "Dosagem sérica de enzima conversora de angiotensina"
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "O anticorpo IgG antiaquaporina-4 (anti-AQP4), pesquisado preferencialmente por ensaio baseado em células (cell-based assay, sensibilidade em torno de 75-80% e especificidade acima de 99%), é o marcador que fecha o diagnóstico e diferencia a doença da esclerose múltipla. A aquaporina-4 é o canal de água mais abundante do sistema nervoso central, expresso nos pés astrocitários perivasculares — o alvo é o astrócito, o que faz da doença uma astrocitopatia, e não uma doença primariamente desmielinizante. As bandas oligoclonais (alternativa B) já foram pesquisadas e vieram negativas; além disso, são marcador de esclerose múltipla, não desta condição. O potencial evocado visual (alternativa C) confirma lesão da via óptica, mas é inespecífico e não distingue as etiologias. A enzima conversora de angiotensina (alternativa D) é marcador auxiliar de neurossarcoidose — diferencial válido, mas com baixa acurácia e sem os achados sistêmicos (adenomegalia hilar, uveíte, hipercalcemia) do caso. Pérola: se o anti-AQP4 for negativo, deve-se pesquisar o anti-MOG, que define outra entidade, com prognóstico e tratamento distintos."
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica adequada para o surto atual e a profilaxia de longo prazo:",
+     "alternativas": {
+      "a": "Interferona beta-1a e acompanhamento ambulatorial",
+      "b": "Natalizumabe mensal",
+      "c": "Metilprednisolona endovenosa em pulso, seguida de rituximabe",
+      "d": "Fingolimode por via oral"
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "O tratamento do surto é pulsoterapia com metilprednisolona endovenosa (1 g/dia por 3 a 5 dias); na ausência de resposta — situação frequente nesta doença, especialmente em surtos graves como o descrito — indica-se plasmaférese precoce (5 a 7 sessões em dias alternados), que melhora substancialmente o desfecho visual e motor. Para a prevenção de novos surtos usam-se imunossupressores: rituximabe (anti-CD20), azatioprina ou micofenolato; já há também os biológicos aprovados especificamente (eculizumabe, satralizumabe, inebilizumabe). O ponto CRÍTICO desta questão — e pegadinha clássica de prova — é que as drogas modificadoras clássicas da esclerose múltipla PIORAM esta doença: interferona beta (alternativa A) aumenta a frequência e a gravidade dos surtos; natalizumabe (alternativa B) e fingolimode (alternativa D) também estão associados a exacerbação grave. Por isso a distinção diagnóstica não é acadêmica: tratar como esclerose múltipla causa dano direto. Cada surto deixa sequela cumulativa e a recuperação espontânea é ruim, o que torna o início precoce da imunossupressão uma urgência funcional."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Adolescência / Amenorreia primária (amenorreia hipotalâmica funcional) [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "MÉDIO",
+   "vinheta": "Adolescente, sexo feminino, 15 anos de idade, é trazida ao ambulatório pela mãe devido à ausência de menstruação. A mãe informa que a filha nunca menstruou; que pratica balé clássico em nível competitivo, treinando 4 horas por dia, 6 dias por semana. A mãe também menciona que a filha é muito rigorosa com a alimentação para manter o peso. Ao exame, a adolescente está em bom estado geral, com peso de 42 kg e altura de 1,65 m (IMC = 15,4 kg/m²). O desenvolvimento mamário é completo (Tanner M5) e os pelos pubianos também (Tanner P5). O restante do exame físico é normal.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a condição mais provável que explica a ausência de menstruação nessa paciente:",
+     "alternativas": {
+      "a": "Síndrome dos Ovários Policísticos (SOP).",
+      "b": "Amenorreia hipotalâmica funcional.",
+      "c": "Síndrome de Turner.",
+      "d": "Imperfuração do hímen."
+     },
+     "correta": "b",
+     "dificuldade": "facil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A tríade que define o caso é exercício de alta intensidade + restrição alimentar deliberada + IMC de 15,4 kg/m² (magreza acentuada, muito abaixo do percentil 5). A adolescente completou toda a maturação puberal (Tanner M5 P5), o que prova que o eixo hipotálamo-hipófise-gonadal funcionou normalmente até certo ponto: houve telarca, estirão e desenvolvimento completo — só faltou a menarca. Isso caracteriza a amenorreia hipotalâmica FUNCIONAL, por supressão adquirida do gerador de pulsos de GnRH. A síndrome de Turner (alternativa C) cursaria com BAIXA estatura (a paciente tem 1,65 m), ausência de desenvolvimento mamário espontâneo por disgenesia gonadal, pescoço alado, tórax em escudo e cúbito valgo. A imperforação himenal (alternativa D) é uma causa OBSTRUTIVA: haveria criptomenorreia, com dor pélvica cíclica progressiva, massa abdominal por hematocolpo e abaulamento azulado do hímen ao exame — o enunciado explicita que o restante do exame é normal e não há dor. A síndrome dos ovários policísticos (alternativa A) é a rasteira mais tentadora, por ser a causa mais comum de amenorreia na adolescência em geral, mas cursa com hiperandrogenismo (hirsutismo, acne), sobrepeso/obesidade e resistência insulínica — o oposto do fenótipo aqui. Pérola: amenorreia primária é definida como ausência de menarca aos 15 anos COM caracteres sexuais secundários, ou aos 13 anos SEM eles — a paciente preenche exatamente o primeiro critério."
+    },
+    {
+     "enunciado": "Indique o mecanismo fisiopatológico central que leva à supressão do ciclo menstrual desta adolescente:",
+     "alternativas": {
+      "a": "Balanço energético negativo que suprime a pulsatilidade do GnRH no hipotálamo.",
+      "b": "Produção excessiva de andrógenos pelos ovários, que impede a ovulação.",
+      "c": "Obstrução mecânica do fluxo menstrual na saída do útero.",
+      "d": "Defeito genético nos ovários que os impede de responder ao FSH e LH."
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O mecanismo é a DEFICIÊNCIA ENERGÉTICA RELATIVA: o gasto do exercício intenso supera a ingesta, gerando balanço calórico negativo. A queda da leptina (produzida pelo tecido adiposo, e que é sinal permissivo de saciedade energética para o hipotálamo), somada à elevação do cortisol e da grelina, suprime os neurônios de kisspeptina e, consequentemente, a pulsatilidade do GnRH. Sem pulsos adequados de GnRH, a hipófise não secreta FSH e LH de forma cíclica, os ovários não são estimulados, o estradiol permanece baixo e não há ovulação nem menstruação — trata-se, portanto, de um hipogonadismo HIPOgonadotrófico. É um mecanismo ADAPTATIVO: o organismo desliga a reprodução em situação de escassez. O excesso de andrógenos ovarianos (alternativa B) descreve a síndrome dos ovários policísticos. A obstrução mecânica (alternativa C) descreve a imperforação himenal ou o septo vaginal transverso, em que o eixo hormonal está intacto e há menstruação retida. O defeito gonadal primário com falta de resposta a FSH e LH (alternativa D) descreve o hipogonadismo HIPERgonadotrófico (Turner, disgenesia gonadal), em que FSH e LH estão ELEVADOS — a distinção laboratorial entre gonadotrofinas baixas/normais e altas é o divisor de águas na investigação da amenorreia."
+    },
+    {
+     "enunciado": "Indique o principal foco do tratamento para a adolescente, visando à normalização da sua função menstrual e a proteção da saúde óssea a longo prazo:",
+     "alternativas": {
+      "a": "Uso de medicamentos indutores da ovulação.",
+      "b": "Administração de TSH.",
+      "c": "Terapia de reposição hormonal com estrogênio e progesterona.",
+      "d": "Aumento da ingestão calórica e redução da intensidade do esforço físico."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O tratamento ataca a CAUSA: restabelecer o balanço energético positivo, com aumento da ingestão calórica e redução da carga de treino, idealmente conduzido por equipe multiprofissional (pediatra/hebiatra, nutricionista, psicólogo, e rastreamento ativo de transtorno alimentar). Corrigida a disponibilidade energética, a pulsatilidade do GnRH se restaura e a menstruação retorna espontaneamente. Esse é também o único caminho que protege de fato o osso: a adolescência concentra a aquisição do pico de massa óssea, e o hipoestrogenismo prolongado nessa fase gera osteopenia/osteoporose precoce e fraturas por estresse — compondo, com a baixa disponibilidade energética e a disfunção menstrual, a chamada tríade da mulher atleta (hoje ampliada no conceito de RED-S, deficiência energética relativa no esporte). A reposição hormonal com estrogênio e progesterona (alternativa C) é a armadilha clássica: ela induz sangramento de privação, dando a FALSA impressão de melhora, mas não corrige o déficit energético e a evidência mostra ganho ósseo limitado — pode inclusive atrasar o diagnóstico do transtorno alimentar subjacente. Os indutores de ovulação (alternativa A) tratam infertilidade e não têm indicação em adolescente com causa reversível. O TSH (alternativa B) não é medicamento e não faz sentido terapêutico; a dosagem de TSH, sim, entra na investigação diferencial, junto de prolactina, FSH, LH e beta-HCG."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias trigêmino-autonômicas (hemicrania paroxística) [REVISÃO ESPAÇADA — cota individual]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 41 anos de idade, relata há seis meses crises de dor intensa, estritamente unilateral, em região orbitária e supraorbitária esquerda, descritas como perfurantes. Cada crise dura de 10 a 20 minutos e se repete de 15 a 20 vezes ao dia, inclusive durante o sono. Durante os episódios apresenta lacrimejamento, hiperemia conjuntival, congestão nasal e rinorreia, todos à esquerda, além de discreta ptose ipsilateral. Nega agitação psicomotora marcante durante as crises. Não há náuseas, fotofobia ou fonofobia. O exame neurológico intercrítico é normal.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Cefaleia em salvas",
+      "b": "Neuralgia do trigêmeo",
+      "c": "Hemicrania paroxística",
+      "d": "Enxaqueca sem aura"
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "As cefaleias trigêmino-autonômicas compartilham dor unilateral periorbitária com sinais autonômicos ipsilaterais; o que as separa é a DURAÇÃO e a FREQUÊNCIA das crises. Hemicrania paroxística: crises de 2 a 30 minutos, mais de 5 por dia (tipicamente 10 a 20), predomínio no sexo feminino, e resposta absoluta à indometacina — exatamente o perfil descrito. A cefaleia em salvas (alternativa A) tem crises mais LONGAS (15 a 180 minutos) e menos frequentes (1 a 8 por dia), predomina em homens, ocorre em surtos separados por meses de remissão, e cursa caracteristicamente com agitação psicomotora intensa (o paciente anda pelo quarto, não consegue deitar) — sinal explicitamente negado no caso. A neuralgia do trigêmeo (alternativa B) produz choques de SEGUNDOS, deflagrados por gatilhos como mastigar, falar ou tocar a face, e não cursa com esse conjunto de fenômenos autonômicos exuberantes. A enxaqueca sem aura (alternativa D) tem crises de 4 a 72 horas, com náusea/fotofobia/fonofobia, ausentes aqui. Pérola de prova: a SUNCT/SUNA é o outro diferencial, com crises ainda mais curtas (1 a 600 segundos) e dezenas a centenas por dia."
+    },
+    {
+     "enunciado": "Indique o exame complementar indispensável antes de se firmar o diagnóstico de cefaleia primária neste caso:",
+     "alternativas": {
+      "a": "Eletroencefalograma",
+      "b": "Ressonância magnética de encéfalo com atenção à região selar e ao seio cavernoso",
+      "c": "Tomografia computadorizada dos seios da face",
+      "d": "Polissonografia"
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "Toda cefaleia trigêmino-autonômica exige neuroimagem — de preferência ressonância magnética com estudo dedicado da região selar/parasselar, do seio cavernoso e da fossa posterior — antes de ser rotulada como primária. A razão é que quadros clinicamente indistinguíveis podem ser SECUNDÁRIOS a adenomas hipofisários, meningiomas do seio cavernoso, dissecção de carótida, malformações arteriovenosas e lesões de fossa posterior. Séries clássicas mostram prevalência não desprezível de adenoma hipofisário em pacientes com cefaleias trigêmino-autonômicas aparentemente típicas. O eletroencefalograma (alternativa A) não tem qualquer papel na investigação de cefaleia, salvo suspeita de crise epiléptica associada. A tomografia de seios da face (alternativa C) é a armadilha clássica: a rinorreia e a congestão nasal fazem o clínico desavisado pensar em sinusite, mas aqui esses achados são fenômenos autonômicos trigeminais, estritamente unilaterais e sincrônicos com a dor. A polissonografia (alternativa D) tem papel na cefaleia hípnica e na apneia associada à cefaleia em salvas, não neste contexto. Pérola: dor estritamente unilateral, SEMPRE do mesmo lado (side-locked), é sinal de alerta que aumenta o limiar de suspeita para causa estrutural."
+    },
+    {
+     "enunciado": "Indique o tratamento de escolha:",
+     "alternativas": {
+      "a": "Verapamil",
+      "b": "Indometacina",
+      "c": "Oxigênio a 100% sob máscara não reinalante",
+      "d": "Carbamazepina"
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "A hemicrania paroxística é definida, inclusive nos critérios da Classificação Internacional das Cefaleias, pela resposta ABSOLUTA à indometacina — a ponto de a ausência de resposta obrigar a revisão do diagnóstico. Faz-se o teste terapêutico (indotest) com escalonamento até 150 mg/dia por via oral, e a melhora costuma ser completa em 24 a 72 horas; depois titula-se para a menor dose eficaz de manutenção, sempre com inibidor de bomba de prótons pelo risco gastrointestinal. Verapamil (alternativa A) é a profilaxia de primeira linha da cefaleia em salvas, exigindo eletrocardiogramas seriados pelo risco de bloqueio atrioventricular — mas não é o tratamento desta entidade. Oxigênio a 100%, 12 a 15 L/min por 15 minutos (alternativa C), é o tratamento ABORTIVO da crise de salvas, sem eficácia estabelecida aqui e, além disso, inviável para quem tem 20 crises diárias. Carbamazepina (alternativa D) é primeira linha na neuralgia do trigêmeo. Pérola: a hemicrania contínua — dor unilateral CONTÍNUA com exacerbações autonômicas — também responde de forma absoluta à indometacina; ambas compõem as chamadas cefaleias indometacino-responsivas."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroinfecção (neurocisticercose subaracnóidea com hidrocefalia)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 39 anos de idade, procedente de zona rural do interior da Bahia, refere cefaleia holocraniana progressiva há dois meses, que piora pela manhã e ao tossir, associada a vômitos em jato e visão turva. Nas últimas duas semanas passou a apresentar sonolência excessiva e desequilíbrio à marcha. Ao exame: sonolento, papiledema bilateral, marcha atáxica de base alargada. A tomografia mostra dilatação dos quatro ventrículos. A ressonância evidencia múltiplas formações císticas multiloculadas nas cisternas basais e no espaço subaracnóideo, sem escólex identificável, com realce leptomeníngeo adjacente.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Toxoplasmose cerebral",
+      "b": "Neurocisticercose subaracnóidea (forma racemosa)",
+      "c": "Neurocisticercose parenquimatosa calcificada",
+      "d": "Tuberculoma intracraniano"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "Cistos multiloculados, em cacho de uvas, ocupando cisternas basais e espaço subaracnóideo, SEM escólex identificável, definem a forma racemosa (subaracnóidea/extraparenquimatosa) da neurocisticercose — a apresentação de pior prognóstico, porque o parasita cresce livremente no espaço liquórico, provoca aracnoidite basal intensa e leva à hidrocefalia comunicante ou obstrutiva, além de vasculite com risco de infarto. A forma parenquimatosa calcificada (alternativa C) representa a fase involutiva inativa: nódulos calcificados, cuja manifestação típica é epilepsia, e não hipertensão intracraniana progressiva. O tuberculoma (alternativa D) aparece como lesão sólida com realce anelar espesso e centro caseoso hipointenso em T2, geralmente com sinais sistêmicos e liquor com hipoglicorraquia acentuada e ADA elevada — padrão distinto. A toxoplasmose cerebral (alternativa A) ocorre em imunossuprimidos, tipicamente com CD4 abaixo de 100, e produz lesões com realce anelar em gânglios da base e junção córtico-subcortical, com efeito de massa e edema. Pérola epidemiológica: a neurocisticercose é a principal causa evitável de epilepsia adquirida no mundo e permanece endêmica em regiões do Nordeste com saneamento precário e criação domiciliar de suínos."
+    },
+    {
+     "enunciado": "Indique o achado liquórico que mais reforça a suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Pleocitose neutrofílica com glicose muito baixa",
+      "b": "Líquor com pleocitose e eosinofilia, com ELISA reagente",
+      "c": "Bandas oligoclonais restritas ao líquor",
+      "d": "Líquor rigorosamente normal em todos os parâmetros"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "Na forma subaracnóidea ativa, a inflamação leptomeníngea produz pleocitose linfocítica com EOSINOFILIA liquórica (achado bastante sugestivo, embora não patognomônico), hiperproteinorraquia e, muitas vezes, hipoglicorraquia leve. O ELISA e, sobretudo, o immunoblot (EITB) para antígenos de Taenia solium no liquor têm sensibilidade elevada justamente nas formas extraparenquimatosas e com múltiplas lesões — ao contrário do que ocorre na lesão parenquimatosa única, em que a sorologia frequentemente é negativa. Pleocitose neutrofílica com glicose muito baixa (alternativa A) é o padrão de meningite bacteriana aguda, incompatível com dois meses de evolução insidiosa. As bandas oligoclonais (alternativa C) são marcador de doença desmielinizante inflamatória, sem relação com o quadro. Um liquor rigorosamente normal (alternativa D) seria esperado na forma calcificada inativa, não na doença ativa com aracnoidite e hidrocefalia. Atenção prática: diante de hipertensão intracraniana com papiledema, a punção lombar só deve ser feita após neuroimagem e, na hidrocefalia obstrutiva, é contraindicada pelo risco de herniação — no caso, a coleta ocorre habitualmente pelo cateter ventricular após a derivação."
+    },
+    {
+     "enunciado": "Indique a conduta inicial mais adequada:",
+     "alternativas": {
+      "a": "Albendazol imediato em monoterapia",
+      "b": "Corticoterapia isolada em dose alta",
+      "c": "Derivação ventricular, seguida de albendazol com corticoide",
+      "d": "Fenitoína e observação clínica"
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "A prioridade absoluta é resolver a hipertensão intracraniana: com hidrocefalia, papiledema e rebaixamento do nível de consciência, o paciente precisa de derivação liquórica (ventriculoperitoneal ou derivação ventricular externa) ANTES de qualquer coisa. Só depois se inicia o antiparasitário, e sempre sob cobertura de corticoide em dose alta (dexametasona ou prednisona), porque a morte dos cistos desencadeia intensa resposta inflamatória que pode agravar o edema, precipitar crises e piorar a hidrocefalia. Na forma subaracnóidea, o esquema recomendado é prolongado (frequentemente albendazol associado a praziquantel, por 4 semanas ou mais, com ciclos repetidos até a resolução radiológica). Iniciar albendazol isoladamente (alternativa A) sem derivação e sem corticoide é a conduta mais perigosa possível neste cenário — é o erro que a questão quer punir. Corticoide isolado (alternativa B) alivia a inflamação, mas não trata o parasita nem descomprime o sistema ventricular. Fenitoína e observação (alternativa D) ignoram a hipertensão intracraniana instalada; ademais, o paciente não apresentou crises. Pérola: sempre pesquisar cisticercose ocular (fundoscopia) antes do antiparasitário, pois cistos intraoculares podem causar perda visual irreversível ao morrer."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Imunização (PNI) / Paralisia flácida aguda e poliomielite [REAL: SUS-BA R1 2023]",
+   "tier": "ALTO",
+   "vinheta": "Criança, 5 anos de idade, iniciou quadro febril agudo seguido de cefaleia e mialgias. Foi levada ao Hospital de Doenças Infectocontagiosas, onde teve o diagnóstico de meningite viral, tendo alta com três dias por apresentar-se bem na evolução. Já em casa, sete dias após a alta, passa a apresentar perda súbita de força muscular em perna direita, com flacidez muscular. Em três dias não houve progressão, mas também não houve melhora. Os reflexos osteotendíneos estão diminuídos e a sensibilidade está preservada. Membro inferior esquerdo e demais dados do exame neurológico atual sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Quanto ao diagnóstico de poliomielite viral no quadro, pode-se dizer que:",
+     "alternativas": {
+      "a": "O quadro clínico é incompatível, pois não houve contactantes com sintomas da doença.",
+      "b": "O quadro clínico é compatível e deve ser considerado como tal até que a doença seja afastada.",
+      "c": "O quadro clínico é compatível, embora a paralisia mais comum nessa condição seja espástica.",
+      "d": "O quadro clínico é compatível com a Síndrome de Guillain-Barré, de forma típica."
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R1 Acesso Direto 2023] TODO caso de paralisia flácida aguda em menor de 15 anos, independentemente da hipótese etiológica, é de NOTIFICAÇÃO COMPULSÓRIA IMEDIATA (em até 24 horas) e deve ser investigado como poliomielite ATÉ QUE ELA SEJA DESCARTADA — essa é a espinha dorsal da vigilância epidemiológica que sustenta a certificação de erradicação. A investigação exige duas amostras de fezes coletadas com intervalo mínimo de 24 horas, dentro dos primeiros 14 dias do início do déficit, e reavaliação neurológica em 60 dias para verificar sequela. O caso é altamente sugestivo: quadro febril prodrômico com meningite asséptica, seguido, após intervalo, de paralisia flácida ASSIMÉTRICA (só a perna direita), com arreflexia, SEM alteração de sensibilidade — a poliomielite acomete o corno anterior da medula, exclusivamente motor. A alternativa A erra porque a ausência de contactantes sintomáticos nada afasta: mais de 95% das infecções por poliovírus são assintomáticas ou inaparentes. A alternativa C erra no ponto central: a paralisia é FLÁCIDA (neurônio motor inferior), nunca espástica. A alternativa D erra porque a Síndrome de Guillain-Barré é tipicamente SIMÉTRICA, ASCENDENTE e com parestesias/queixas sensitivas — ela é, sim, o principal diagnóstico diferencial de paralisia flácida aguda, mas não o quadro típico aqui."
+    },
+    {
+     "enunciado": "Quanto à situação da poliomielite viral no Brasil, pode-se afirmar que:",
+     "alternativas": {
+      "a": "Encontra-se controlada, com casos apenas episódicos, devido à baixa cobertura vacinal dos últimos anos.",
+      "b": "Encontra-se erradicada e, considerando os riscos vacinais, não há indicação de vacina.",
+      "c": "Encontra-se erradicada, porém com taxas de cobertura vacinal reduzidas, o que pode reintroduzir a doença no país.",
+      "d": "Encontra-se em fase pré-epidêmica, pois casos episódicos já indicam risco de disseminação."
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R1 Acesso Direto 2023] O Brasil não registra caso autóctone de poliomielite por poliovírus selvagem desde 1989 (último caso, na Paraíba) e recebeu o certificado de erradicação nas Américas em 1994. Erradicação, porém, é uma conquista CONDICIONADA à manutenção de coberturas vacinais altas: a meta é de 95%, e o país vem operando bem abaixo disso nos últimos anos, o que levou a Organização Pan-Americana da Saúde a classificar o Brasil como de ALTO RISCO de reintrodução. Com o poliovírus selvagem ainda circulando de forma endêmica no Afeganistão e no Paquistão, e com surtos de poliovírus derivados de vacina em vários países, um único caso importado em uma população suscetível pode reacender a transmissão. A alternativa A erra ao dizer 'controlada, com casos episódicos' — não há casos no Brasil. A alternativa B contém o erro mais perigoso do ponto de vista de saúde pública: propor suspender a vacinação porque a doença foi erradicada é exatamente a lógica que produz o retorno de doenças imunopreveníveis (o mesmo raciocínio equivocado já devolveu o sarampo ao país em 2018-2019). A alternativa D erra ao afirmar existência de casos episódicos. Pérola: paralisia flácida aguda é doença de notificação imediata justamente porque a vigilância precisa detectar a reintrodução antes que ela se espalhe."
+    },
+    {
+     "enunciado": "Quanto à vacina mais empregada no Brasil para prevenção da poliomielite, pode-se afirmar que:",
+     "alternativas": {
+      "a": "É feita de vírus mortos e pode complicar com a Síndrome de Guillain-Barré.",
+      "b": "É feita com RNA viral isolado e pode desencadear reações autoimunes.",
+      "c": "É feita com DNA viral isolado e pode desencadear reações autoimunes.",
+      "d": "É feita com vírus vivos, provocando complicações raras por mutação viral."
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R1 Acesso Direto 2023] O gabarito da banca aponta a vacina oral (VOP/Sabin), de vírus VIVO ATENUADO, cuja complicação característica — rara, na ordem de 1 caso por 2,4 milhões de doses — é a poliomielite associada à vacina (VAPP), decorrente da reversão do vírus atenuado à neurovirulência; a mesma reversão, quando o vírus circula prolongadamente em população pouco vacinada, origina os poliovírus derivados de vacina (cVDPV). É importante o candidato conhecer a evolução do calendário brasileiro: por muitos anos o esquema era sequencial, com VIP (Salk, vírus INATIVADO, intramuscular) nas doses iniciais e VOP nos reforços; desde 2024 o Ministério da Saúde adotou o esquema EXCLUSIVAMENTE com VIP (aos 2, 4 e 6 meses, com reforço aos 15 meses), abolindo a VOP e, com ela, o risco de VAPP e de cVDPV — mudança alinhada à estratégia global. A alternativa A descreve a vacina inativada, mas atribui a ela a Síndrome de Guillain-Barré, associação não estabelecida para a vacina da poliomielite (o vínculo histórico com Guillain-Barré é da vacina contra influenza suína de 1976). As alternativas B e C são cientificamente falsas: não existem vacinas antipólio compostas por RNA ou DNA viral isolado em uso, e o mecanismo alegado (reação autoimune) não corresponde ao perfil de eventos adversos dessas vacinas."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropatias Periféricas (síndrome de Guillain-Barré)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 28 anos de idade, previamente hígido, refere quadro de diarreia aquosa autolimitada há três semanas. Há cinco dias iniciou parestesias em pés, seguidas de fraqueza nas pernas que ascendeu progressivamente. Hoje não consegue subir escadas nem levantar-se da cadeira sem apoio. Ao exame: força grau 3 em membros inferiores e grau 4 em membros superiores, simétrica; arreflexia global; sensibilidade superficial preservada, sem nível sensitivo; ausência de disfunção esfincteriana. Relata leve dificuldade para engolir líquidos. Capacidade vital forçada medida à beira do leito: 22 mL/kg.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Síndrome de Guillain-Barré",
+      "b": "Mielite transversa aguda",
+      "c": "Miastenia gravis",
+      "d": "Botulismo"
+     },
+     "correta": "a",
+     "dificuldade": "facil",
+     "comentario": "Fraqueza flácida, simétrica, ASCENDENTE, com arreflexia global e dissociação entre déficit motor importante e sintomas sensitivos discretos, precedida em 1 a 4 semanas por infecção gastrointestinal, é o quadro clássico da polirradiculoneuropatia inflamatória aguda. O agente antecedente mais associado é o Campylobacter jejuni (diarreia), por mimetismo molecular entre lipo-oligossacarídeos bacterianos e gangliosídeos do nervo periférico. A mielite transversa (alternativa B) produziria NÍVEL SENSITIVO bem definido, disfunção esfincteriana precoce e, após a fase de choque medular, sinais de neurônio motor superior (hiperreflexia, Babinski) — nada disso está presente. A miastenia gravis (alternativa C) cursa com fatigabilidade flutuante, acometimento ocular (ptose, diplopia) em mais de 85% dos casos e REFLEXOS PRESERVADOS, além de não ter padrão ascendente. O botulismo (alternativa D) causa paralisia DESCENDENTE, com acometimento precoce de nervos cranianos, midríase paralítica e boca seca, precedido por ingestão de conservas — o oposto do descrito. Pérola: a arreflexia é o achado mais valioso do exame; sua presença em fraqueza aguda ascendente praticamente sela o diagnóstico."
+    },
+    {
+     "enunciado": "Indique o achado esperado no exame do líquido cefalorraquidiano após a primeira semana de evolução:",
+     "alternativas": {
+      "a": "Pleocitose linfocítica acentuada com proteína normal",
+      "b": "Dissociação albuminocitológica",
+      "c": "Hipoglicorraquia com predomínio de neutrófilos",
+      "d": "Presença de bandas oligoclonais"
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "A dissociação albuminocitológica — proteína elevada (frequentemente acima de 45-55 mg/dL, podendo passar de 100) com celularidade normal ou quase normal (até 10 células/mm³) — é o achado liquórico característico, decorrente da inflamação das raízes nervosas na saída do saco dural, que aumenta a permeabilidade da barreira sangue-nervo. ARMADILHA DE PROVA, muito cobrada: na PRIMEIRA semana esse achado está ausente em até 50% dos casos, e só se torna típico entre a segunda e a terceira semanas — ou seja, liquor normal precoce NÃO afasta o diagnóstico, que é essencialmente clínico. Pleocitose linfocítica acentuada (alternativa A) deve levantar suspeita de causa infecciosa associada, sobretudo HIV agudo, doença de Lyme, citomegalovírus ou linfoma — se houver mais de 50 células, o diagnóstico deve ser reconsiderado. Hipoglicorraquia com neutrófilos (alternativa C) é padrão de meningite bacteriana. As bandas oligoclonais (alternativa D) apontam para doença desmielinizante do sistema nervoso CENTRAL. Complemento útil: a eletroneuromiografia mostra prolongamento das latências distais, dispersão temporal, bloqueios de condução e, precocemente, ausência da onda F e do reflexo H."
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada:",
+     "alternativas": {
+      "a": "Metilprednisolona endovenosa em pulso por 5 dias",
+      "b": "Piridostigmina por via oral",
+      "c": "Imunoglobulina humana endovenosa, com monitorização respiratória",
+      "d": "Antibioticoterapia dirigida ao agente antecedente"
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "O tratamento imunomodulador é imunoglobulina humana endovenosa (0,4 g/kg/dia por 5 dias) OU plasmaférese (5 sessões), com eficácia equivalente; não há benefício em associar as duas. Iniciar precocemente, idealmente nas primeiras duas semanas do início da fraqueza, em todo paciente que perdeu a capacidade de deambular sem apoio — exatamente o caso. Igualmente crítico é o suporte: a capacidade vital forçada de 22 mL/kg é sinal de alarme (a regra dos 20/30/40 — capacidade vital abaixo de 20 mL/kg, pressão inspiratória máxima menos negativa que -30 cmH2O, pressão expiratória máxima abaixo de 40 cmH2O — indica risco iminente de insuficiência respiratória e necessidade de vaga em terapia intensiva com preparo para intubação). Também é obrigatória a monitorização cardíaca pela disautonomia (arritmias, labilidade pressórica), causa importante de morte. O corticoide (alternativa A) é a pegadinha central: ensaios controlados mostraram que ele NÃO tem eficácia nesta doença — diferente da forma crônica (polirradiculoneuropatia desmielinizante inflamatória crônica), em que é eficaz. Piridostigmina (alternativa B) trata miastenia. Antibiótico (alternativa D) não altera o curso, pois a diarreia já se resolveu e o dano é imunomediado."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia / Infecções congênitas (sífilis congênita)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Recém-nascido a termo, adequado para a idade gestacional, filho de mãe de 22 anos que realizou seis consultas de pré-natal em Unidade Básica de Saúde. No terceiro trimestre, a gestante apresentou teste treponêmico reagente e VDRL 1:8; recebeu uma dose de penicilina benzatina 2.400.000 UI, aplicada 15 dias antes do parto. O parceiro não foi testado nem tratado. Ao exame do recém-nascido, no segundo dia de vida: secreção nasal serossanguinolenta, lesões descamativas em palmas e plantas, hepatoesplenomegalia e choro à mobilização passiva do membro superior direito, que permanece imóvel. VDRL do recém-nascido: 1:32.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Rubéola congênita",
+      "b": "Toxoplasmose congênita",
+      "c": "Sífilis congênita",
+      "d": "Infecção congênita por citomegalovírus"
+     },
+     "correta": "c",
+     "dificuldade": "facil",
+     "comentario": "A combinação de rinite serossanguinolenta (a chamada 'coriza sifilítica', altamente sugestiva e riquíssima em treponemas), lesões descamativas palmoplantares, hepatoesplenomegalia e pseudoparalisia de Parrot (imobilidade dolorosa do membro por osteocondrite) compõe o quadro clássico da sífilis congênita precoce. Reforça o diagnóstico o VDRL do recém-nascido (1:32) ser DUAS DILUIÇÕES maior que o materno (1:8), o que indica produção própria de anticorpos e não apenas transferência passiva transplacentária. O tratamento materno foi INADEQUADO por dois motivos independentes, ambos suficientes: dose única (a sífilis latente de tempo indeterminado exige 3 doses semanais) e término há menos de 30 dias do parto. A toxoplasmose congênita (alternativa B) tem como tríade clássica retinocoroidite, hidrocefalia e calcificações intracranianas DIFUSAS. O citomegalovírus congênito (alternativa D) cursa com microcefalia, calcificações PERIVENTRICULARES, petéquias/'blueberry muffin' e, sobretudo, surdez neurossensorial — mas não com pseudoparalisia nem coriza sanguinolenta. A rubéola congênita (alternativa A) traz a tríade de Gregg: catarata, surdez e cardiopatia (persistência do canal arterial, estenose de artéria pulmonar). Pérola: a sífilis congênita é evento sentinela da qualidade do pré-natal e permanece em curva ascendente no Brasil."
+    },
+    {
+     "enunciado": "Indique o exame de imagem que melhor complementa a investigação do achado ósseo:",
+     "alternativas": {
+      "a": "Ultrassonografia transfontanela",
+      "b": "Radiografia de ossos longos",
+      "c": "Ecocardiograma transtorácico",
+      "d": "Tomografia computadorizada de crânio"
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "A radiografia de ossos longos integra obrigatoriamente a propedêutica de todo caso suspeito e demonstra as lesões ósseas presentes em até 60 a 90% dos recém-nascidos sintomáticos: osteocondrite metafisária (a mais precoce), periostite com duplo contorno da cortical, e o sinal de Wimberger — erosão da metáfise medial proximal da tíbia, bastante característico. É justamente a osteocondrite dolorosa que produz a pseudoparalisia de Parrot: a criança não move o membro por DOR, não por paralisia verdadeira — a força está preservada, e esse detalhe semiológico é cobrado com frequência. Além da radiografia, o protocolo do Ministério da Saúde exige hemograma, perfil hepático, eletrólitos, VDRL do recém-nascido em sangue periférico (nunca de cordão) e PUNÇÃO LOMBAR para pesquisa de neurossífilis (VDRL no liquor, celularidade e proteinorraquia), pois o achado altera a duração do tratamento. A ultrassonografia transfontanela (alternativa A) e a tomografia de crânio (alternativa D) rastreiam calcificações e hidrocefalia — mais úteis em toxoplasmose e citomegalovirose, e não avaliam a lesão óssea apendicular. O ecocardiograma (alternativa C) é fundamental na rubéola congênita, mas a sífilis não tem cardiopatia estrutural característica no período neonatal."
+    },
+    {
+     "enunciado": "Indique o esquema terapêutico adequado para este recém-nascido:",
+     "alternativas": {
+      "a": "Penicilina G benzatina intramuscular em dose única",
+      "b": "Azitromicina por via oral por 10 dias",
+      "c": "Ceftriaxona intramuscular por 14 dias",
+      "d": "Penicilina G cristalina endovenosa por 10 dias"
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "Recém-nascido de mãe INADEQUADAMENTE tratada e SINTOMÁTICO deve receber penicilina G cristalina endovenosa (50.000 UI/kg/dose, a cada 12 horas nos primeiros 7 dias de vida e a cada 8 horas depois) por 10 dias — esquema obrigatório quando há alterações clínicas, laboratoriais ou radiológicas, e o único aceitável se houver neurossífilis. A alternativa é a penicilina G procaína intramuscular, 50.000 UI/kg/dia, por 10 dias, mas SOMENTE quando o liquor está normal. A penicilina benzatina em dose única (alternativa A) é reservada exclusivamente ao recém-nascido ASSINTOMÁTICO, com todos os exames normais, VDRL não reagente ou com titulação menor ou igual à materna, filho de mãe adequadamente tratada e com garantia de seguimento — cenário oposto ao do caso; usá-la aqui subtrataria uma criança já com doença ativa e risco de neurossífilis. A azitromicina (alternativa B) NÃO é opção: há resistência documentada do Treponema pallidum aos macrolídeos e ela não atinge o sistema nervoso central adequadamente. A ceftriaxona (alternativa C) tem eficácia questionável e não é recomendada pelo protocolo brasileiro; ademais, deve ser evitada no neonato ictérico pelo deslocamento da bilirrubina da albumina. Pérola: se qualquer dose for perdida, o esquema deve ser REINICIADO integralmente. Seguimento com VDRL aos 1, 3, 6, 12 e 18 meses."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Medula, Cauda Equina e Dor Lombar (síndrome da cauda equina)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 45 anos de idade, motorista, com lombalgia mecânica há três meses. Há 24 horas, após esforço para levantar uma carga, apresentou piora abrupta da dor, agora irradiada para a face posterior de ambas as coxas. Refere que desde ontem não consegue urinar espontaneamente, mas apresenta escape urinário involuntário, e não percebe a passagem das fezes. Ao exame: anestesia em região perineal e face interna das coxas, com distribuição em sela; força grau 3 para dorsiflexão dos pés bilateralmente; reflexos aquileus abolidos; tônus do esfíncter anal reduzido; sinal de Babinski ausente. Bexigoma palpável.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico sindrômico mais provável:",
+     "alternativas": {
+      "a": "Síndrome da cauda equina",
+      "b": "Síndrome do cone medular",
+      "c": "Mielopatia compressiva torácica",
+      "d": "Lombociatalgia por hérnia discal não complicada"
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "Anestesia em sela, retenção urinária com incontinência por transbordamento, perda do tônus esfincteriano, déficit motor flácido assimétrico e ARREFLEXIA constituem a síndrome da cauda equina — lesão de raízes lombossacras abaixo do cone medular (portanto, lesão de neurônio motor INFERIOR, o que explica arreflexia, hipotonia e ausência de Babinski). A síndrome do cone medular (alternativa B) é o diferencial fino e a rasteira clássica: instala-se de forma mais SIMÉTRICA e súbita, cursa com disfunção esfincteriana precoce e proeminente, dor menos intensa, e mistura sinais de neurônio motor superior e inferior — podendo haver Babinski e preservação de alguns reflexos, além de reflexo bulbocavernoso e anal alterados. Aqui, a assimetria relativa, a dor radicular exuberante e a arreflexia pura apontam para cauda equina. A mielopatia torácica (alternativa C) daria nível sensitivo em tronco, espasticidade, hiperreflexia e Babinski presente. Uma lombociatalgia simples (alternativa D) não cursa com disfunção esfincteriana nem anestesia em sela — a presença desses sinais é exatamente o que transforma uma hérnia banal em emergência cirúrgica. Pérola: retenção urinária é o achado mais SENSÍVEL; a anestesia em sela, o mais específico."
+    },
+    {
+     "enunciado": "Indique o exame de imagem que deve ser solicitado com urgência:",
+     "alternativas": {
+      "a": "Radiografia de coluna lombossacra em duas incidências",
+      "b": "Eletroneuromiografia de membros inferiores",
+      "c": "Cintilografia óssea",
+      "d": "Ressonância magnética de coluna lombossacra"
+     },
+     "correta": "d",
+     "dificuldade": "facil",
+     "comentario": "A ressonância magnética de coluna lombossacra é o padrão-ouro e deve ser feita em caráter de EMERGÊNCIA, sem esperar horário comercial: define o nível, a extensão e a natureza da compressão (hérnia discal extrusa volumosa é a causa mais comum, seguida de tumor, abscesso epidural e hematoma). Se houver contraindicação absoluta à ressonância (marca-passo antigo, corpo estranho metálico), a alternativa é a mielotomografia. A radiografia simples (alternativa A) mostra apenas o osso e é incapaz de visualizar disco, raízes ou o conteúdo do canal — não afasta nada. A eletroneuromiografia (alternativa B) é exame funcional que leva semanas para mostrar denervação (fibrilações surgem após 2 a 3 semanas) e não tem lugar na urgência. A cintilografia óssea (alternativa C) serve à pesquisa de metástase óssea, mas não define compressão neural nem muda a conduta imediata. Pérola de responsabilidade médica: a síndrome da cauda equina é uma das principais causas de litígio em ortopedia e neurocirurgia justamente pelo atraso diagnóstico — todo paciente com lombalgia e queixa urinária nova deve ter o resíduo pós-miccional aferido e a sensibilidade perineal testada."
+    },
+    {
+     "enunciado": "Indique a conduta definitiva:",
+     "alternativas": {
+      "a": "Descompressão cirúrgica em caráter de emergência",
+      "b": "Corticoide endovenoso em dose alta e repouso no leito",
+      "c": "Bloqueio radicular guiado por imagem",
+      "d": "Fisioterapia motora e analgesia multimodal"
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "A descompressão cirúrgica é a única conduta capaz de preservar função e deve ser realizada o mais precocemente possível — a literatura aponta melhor prognóstico esfincteriano e sexual quando a cirurgia ocorre dentro das primeiras 24 a 48 horas do início da disfunção urinária; após esse período, o risco de sequela permanente (bexiga neurogênica, incontinência fecal, disfunção erétil, anestesia perineal definitiva) cresce de forma expressiva. Vale notar a distinção prognóstica clássica: pacientes com retenção urinária já estabelecida (cauda equina 'com retenção') evoluem pior do que aqueles ainda em fase incompleta, com apenas alteração de sensibilidade urinária — motivo pelo qual reconhecer o quadro ANTES da retenção é o objetivo. Corticoide e repouso (alternativa B) podem ter papel adjuvante na compressão neoplásica enquanto se organiza o tratamento definitivo, mas jamais substituem a descompressão em compressão discal aguda. O bloqueio radicular (alternativa C) trata dor radicular crônica sem déficit e seria intervenção fútil e perigosa aqui. Fisioterapia e analgesia (alternativa D) constituem o manejo da lombalgia inespecífica, não de uma emergência neurocirúrgica com déficit progressivo."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Desenvolvimento e Puericultura (sinais de alerta do desenvolvimento neuropsicomotor)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, 9 meses de idade, é levada à consulta de puericultura na Unidade Básica de Saúde. Nasceu a termo, após parto complicado por sofrimento fetal agudo, com Apgar 3 no primeiro minuto e 6 no quinto, tendo permanecido internada por 12 dias. A mãe relata que a filha 'é bem quietinha'. Ao exame: não senta sem apoio, não transfere objetos de uma mão para a outra e não emite sílabas repetidas. Mantém as mãos predominantemente fechadas, com o polegar incluso na palma. À suspensão vertical, apresenta extensão e adução dos membros inferiores, com cruzamento das pernas. Peso e comprimento situam-se em escore Z entre -1 e 0.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Encefalopatia crônica não progressiva da infância",
+      "b": "Atraso simples do desenvolvimento, de bom prognóstico",
+      "c": "Transtorno do espectro autista",
+      "d": "Amiotrofia espinhal progressiva"
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "O conjunto — antecedente de asfixia perinatal grave (Apgar 3/6 com internação prolongada), atraso GLOBAL do desenvolvimento e, sobretudo, sinais de LESÃO PIRAMIDAL ao exame (persistência do polegar incluso após os 3 meses, hipertonia com postura em tesoura à suspensão) — configura a encefalopatia crônica não progressiva da infância, isto é, paralisia cerebral. O ponto central é que não se trata apenas de atraso: há SINAIS NEUROLÓGICOS ANORMAIS, o que distingue o quadro de um simples atraso maturativo (alternativa B), no qual o exame neurológico é normal e a criança apenas alcança marcos com defasagem discreta — a persistência de reflexos primitivos e a hipertonia excluem essa hipótese, e rotulá-la assim atrasaria a intervenção. O transtorno do espectro autista (alternativa C) compromete primariamente a comunicação social e o comportamento (contato visual, atenção compartilhada, interesses restritos), NÃO o desenvolvimento motor grosso, e não cursa com hipertonia piramidal. A amiotrofia espinhal (alternativa D) é doença do neurônio motor inferior: cursaria com HIPOtonia grave, arreflexia, fasciculações de língua e fraqueza progressiva — exatamente o oposto da hipertonia descrita. Marcos de referência aos 9 meses: sentar sem apoio (esperado aos 6-8 meses), transferir objetos entre as mãos (6-7 meses), balbuciar sílabas (6-9 meses)."
+    },
+    {
+     "enunciado": "Indique o achado do exame físico que melhor caracteriza o comprometimento do neurônio motor superior:",
+     "alternativas": {
+      "a": "Hipotonia axial isolada",
+      "b": "Arreflexia profunda generalizada",
+      "c": "Hipertonia em membros inferiores com postura em tesoura",
+      "d": "Fasciculações da língua em repouso"
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "A hipertonia em extensão e adução dos membros inferiores, com cruzamento das pernas à suspensão vertical (postura em tesoura), é o marcador semiológico clássico de espasticidade — traduz liberação do trato corticoespinhal, ou seja, lesão do neurônio motor SUPERIOR. Compõem a mesma síndrome a hiperreflexia, o clônus, o sinal de Babinski (que, atenção, é fisiológico até cerca de 12-24 meses e por isso perde valor isolado nessa idade) e a persistência ANORMAL de reflexos primitivos — o polegar incluso na palma além dos 3 meses e a persistência do reflexo tônico-cervical assimétrico além dos 6 meses são sinais de alerta consagrados. A hipotonia axial isolada (alternativa A) pode acompanhar formas discinéticas ou fases iniciais ('paralisia cerebral de início hipotônico'), mas não caracteriza a lesão piramidal e é achado inespecífico, comum em síndromes genéticas e miopatias. A arreflexia generalizada (alternativa B) e as fasciculações de língua (alternativa D) são sinais cardinais de comprometimento do neurônio motor INFERIOR — típicos da amiotrofia espinhal tipo 1 (doença de Werdnig-Hoffmann) — e apontariam em direção diametralmente oposta. Pérola de puericultura: 'bebê quietinho demais' e 'que não incomoda' é queixa que deve ACENDER o alerta, nunca tranquilizar."
+    },
+    {
+     "enunciado": "Indique a conduta mais adequada na Unidade Básica de Saúde:",
+     "alternativas": {
+      "a": "Encaminhar para estimulação precoce multiprofissional e manter o acompanhamento longitudinal na atenção primária",
+      "b": "Reavaliar aos 12 meses antes de qualquer encaminhamento",
+      "c": "Solicitar cariótipo com bandas de alta resolução e aguardar o resultado",
+      "d": "Iniciar aplicação de toxina botulínica nos membros inferiores"
+     },
+     "correta": "a",
+     "dificuldade": "facil",
+     "comentario": "A conduta é o encaminhamento IMEDIATO para o programa de estimulação precoce, com equipe multiprofissional (fisioterapia, terapia ocupacional, fonoaudiologia), mantendo o vínculo e o acompanhamento longitudinal na atenção primária — que segue responsável pela coordenação do cuidado, pela vigilância do desenvolvimento, pela vacinação e pelo suporte à família (Rede de Cuidados à Pessoa com Deficiência, e diretrizes do Ministério da Saúde). O princípio que sustenta essa urgência é a NEUROPLASTICIDADE: a intervenção nos primeiros dois anos de vida produz ganhos funcionais substancialmente maiores, e cada mês de espera é oportunidade perdida. Adiar para os 12 meses (alternativa B) é a resposta mais tentadora e a mais danosa — 'esperar para ver' diante de sinais neurológicos francos, e não de mera variação de ritmo, é erro conceitual. Solicitar cariótipo e aguardar (alternativa C) inverte prioridades: a investigação etiológica (incluindo neuroimagem, que aqui seria mais rendosa que o cariótipo, dado o antecedente hipóxico-isquêmico) corre em PARALELO e jamais deve retardar a reabilitação. A toxina botulínica (alternativa D) tem papel na espasticidade focal incapacitante, mas em criança maior, com objetivo funcional definido e após tentativa de manejo conservador — não é conduta inicial em lactente de 9 meses na atenção primária."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Demências (demência frontotemporal, variante comportamental)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 59 anos de idade, engenheiro, é trazido pela esposa por mudança progressiva de comportamento nos últimos dois anos. Passou a fazer comentários grosseiros a desconhecidos, urinou em local público sem constrangimento e foi demitido por conduta inadequada. Tornou-se indiferente ao adoecimento da própria mãe e deixou de se importar com a higiene pessoal. Desenvolveu preferência marcante por doces, comendo compulsivamente. A esposa afirma que ele lembra bem de datas e compromissos e se orienta sem dificuldade na cidade. Ao exame: presença de reflexos de preensão palmar e de sucção. A ressonância mostra atrofia assimétrica dos lobos frontais e temporais anteriores.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Doença de Alzheimer de início precoce",
+      "b": "Demência frontotemporal, variante comportamental",
+      "c": "Demência com corpos de Lewy",
+      "d": "Demência vascular subcortical"
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "Início antes dos 65 anos, com desinibição social, perda precoce de EMPATIA, apatia, comportamento estereotipado/compulsivo, hiperoralidade com preferência por carboidratos e doces, e — decisivo — MEMÓRIA EPISÓDICA E ORIENTAÇÃO RELATIVAMENTE PRESERVADAS. Esse é o quadro nuclear da variante comportamental da degeneração frontotemporal; os critérios de Rascovsky exigem 3 de 6 desses domínios, todos presentes aqui. A atrofia frontal e temporal anterior assimétrica e os reflexos primitivos (preensão, sucção, palmomentoniano) — sinais de liberação frontal — confirmam a topografia. A doença de Alzheimer (alternativa A) começa por amnésia episódica anterógrada com desorientação, e as alterações comportamentais surgem em fases mais tardias; a atrofia é temporal MESIAL (hipocampo) e parietal. A demência com corpos de Lewy (alternativa C) exige flutuação cognitiva, alucinações visuais bem formadas, parkinsonismo e transtorno comportamental do sono REM, ausentes no caso. A demência vascular subcortical (alternativa D) cursa com lentificação, disfunção executiva, alterações de marcha e fatores de risco vasculares, com leucoaraiose extensa na imagem. Pérola: a queixa que abre o caso NÃO é 'esquecimento' — é conduta; nesta doença quem sofre é a família, e o paciente costuma ter anosognosia."
+    },
+    {
+     "enunciado": "Indique o achado esperado no estudo funcional por imagem:",
+     "alternativas": {
+      "a": "Hipometabolismo frontal e temporal anterior",
+      "b": "Hipometabolismo temporoparietal e no cíngulo posterior",
+      "c": "Redução da captação do transportador de dopamina nos núcleos da base",
+      "d": "Hipometabolismo occipital com preservação do cíngulo posterior"
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "O PET com fluordesoxiglicose (FDG-PET), ou alternativamente o SPECT de perfusão, mostra hipometabolismo/hipoperfusão FRONTAL e TEMPORAL ANTERIOR, frequentemente assimétrico, correlacionando-se à atrofia estrutural. É útil sobretudo nos casos precoces, em que a ressonância ainda pode ser pouco alterada. O padrão temporoparietal com envolvimento do cíngulo posterior e precúneo (alternativa B) é a assinatura metabólica da doença de Alzheimer. A redução da captação do transportador de dopamina (DaTscan) nos núcleos da base (alternativa C) é marcador de degeneração nigroestriatal, presente na demência com corpos de Lewy e na doença de Parkinson — e é justamente um critério indicativo daquela, não desta. O hipometabolismo OCCIPITAL com preservação relativa do cíngulo posterior (alternativa D, o chamado 'sinal da ilha do cíngulo') é outro achado descrito na demência com corpos de Lewy. Complemento didático: cerca de 30 a 40% dos casos desta doença são familiares, com mutações em C9orf72, MAPT e GRN; há sobreposição clínica e genética com a esclerose lateral amiotrófica (C9orf72), de modo que a presença de fasciculações e amiotrofia deve ser sempre procurada ao exame."
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais apropriada:",
+     "alternativas": {
+      "a": "Donepezila",
+      "b": "Memantina",
+      "c": "Haloperidol em dose baixa",
+      "d": "Manejo ambiental do comportamento e inibidor seletivo da recaptação de serotonina"
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "Não há tratamento modificador de doença. O manejo é primariamente NÃO farmacológico — estruturação da rotina, remoção de gatilhos ambientais, orientação e suporte ao cuidador (o desgaste familiar é maior do que na doença de Alzheimer), avaliação de segurança quanto a direção veicular, manejo de finanças e risco legal. Quando o comportamento é disruptivo, os inibidores seletivos da recaptação de serotonina (sertralina, citalopram, trazodona) são os agentes com melhor evidência para desinibição, compulsões e hiperoralidade. Os inibidores da colinesterase (alternativa A: donepezila) NÃO têm eficácia demonstrada e podem PIORAR a agitação e a desinibição — pegadinha clássica, pois o candidato tende a aplicar automaticamente a receita da doença de Alzheimer a qualquer demência. A memantina (alternativa B) também foi testada e não demonstrou benefício nesta doença. O haloperidol (alternativa C) deve ser evitado: antipsicóticos típicos aumentam mortalidade em idosos com demência (alerta de agência regulatória) e conferem risco alto de parkinsonismo iatrogênico; se um antipsicótico for imprescindível, prefere-se um atípico, na menor dose e pelo menor tempo possível. Pérola: sempre reavaliar deglutição e nutrição, pois a hiperfagia pode coexistir com engasgos por acometimento bulbar."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Saúde Coletiva, APS e Ética (sigilo e atenção à saúde do adolescente)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Adolescente, sexo feminino, 14 anos de idade, comparece desacompanhada à Unidade Básica de Saúde solicitando orientação sobre contracepção. Relata que iniciou vida sexual há dois meses, com parceiro de 15 anos, em relação consensual, e que utilizam preservativo de forma irregular. Refere que os pais desconhecem a situação e pede expressamente que não sejam informados, temendo punição. Nega qualquer forma de coerção, violência, uso de substâncias ou envolvimento com pessoa adulta. Apresenta-se orientada, com discurso coerente e demonstra compreender as informações que lhe são apresentadas. O exame físico não evidencia sinais de violência.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a conduta ética e legalmente adequada do médico neste atendimento:",
+     "alternativas": {
+      "a": "Atender a adolescente e prescrever a contracepção, mantendo o sigilo da consulta",
+      "b": "Condicionar o atendimento à presença de um responsável legal",
+      "c": "Comunicar imediatamente o Conselho Tutelar e os pais antes de qualquer conduta",
+      "d": "Orientar apenas sobre abstinência sexual e agendar retorno com os pais"
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "O adolescente tem direito a atendimento desacompanhado e ao SIGILO, conforme o Estatuto da Criança e do Adolescente, o Código de Ética Médica e as resoluções do Conselho Federal de Medicina, desde que demonstre capacidade de discernimento — critério plenamente atendido no caso (discurso coerente, compreensão das informações). O sigilo não é um favor: é condição para o vínculo e, portanto, para a própria efetividade da prevenção. Recusar o atendimento sem responsável (alternativa B) é uma das principais barreiras de acesso e afasta justamente quem mais precisa de contracepção e de prevenção de infecções sexualmente transmissíveis. Acionar o Conselho Tutelar e os pais imediatamente (alternativa C) seria quebra injustificada de sigilo: não há indício de violência, a relação é consensual e a adolescente tem 14 anos completos, o parceiro 15 — não se configura, aqui, a presunção de violência do Código Penal, que se aplica a menores de 14 anos. Atenção ao ponto que a banca costuma explorar: se a adolescente tivesse 13 anos, ou se o parceiro fosse adulto, ou se houvesse qualquer sinal de coerção ou exploração, a notificação seria OBRIGATÓRIA. Orientar apenas abstinência (alternativa D) é conduta moralista, ineficaz e contrária às diretrizes do Ministério da Saúde — o adolescente já tem vida sexual ativa, e negar-lhe método é expô-lo à gravidez não planejada."
+    },
+    {
+     "enunciado": "Indique a situação que autoriza a quebra do sigilo no atendimento ao adolescente:",
+     "alternativas": {
+      "a": "Sempre que houver relato de atividade sexual",
+      "b": "Sempre que o paciente tiver menos de 16 anos de idade",
+      "c": "Mediante solicitação formal dos pais ou responsáveis",
+      "d": "Risco de vida ou de dano relevante à própria pessoa ou a terceiros"
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "A quebra do sigilo é EXCEÇÃO e só se justifica quando a manutenção da confidencialidade acarreta risco relevante: ideação ou tentativa de suicídio, abuso ou exploração sexual, violência intrafamiliar, uso abusivo de substâncias com risco, gravidez que demande cuidados, transtorno mental grave, ou risco a terceiros. Ainda assim, o procedimento correto é comunicar PREVIAMENTE ao adolescente a necessidade e a extensão da quebra, buscando sua adesão e envolvendo a família da forma menos danosa possível — o que preserva o vínculo terapêutico. O relato de atividade sexual em si (alternativa A) NÃO autoriza quebra alguma: se assim fosse, o direito ao sigilo seria letra morta para toda a população adolescente sexualmente ativa. A idade abaixo de 16 anos (alternativa B) não é critério: o parâmetro ético é a CAPACIDADE DE DISCERNIMENTO, avaliada individualmente, e não um marco etário rígido. A solicitação dos pais (alternativa C) não obriga o médico a revelar: o titular do direito ao sigilo é o próprio adolescente, e o profissional deve, respeitosamente, explicar aos responsáveis os limites éticos do atendimento. Pérola: o registro em prontuário deve ser completo e cuidadoso, pois o prontuário também é protegido pelo sigilo."
+    },
+    {
+     "enunciado": "Indique a orientação contraceptiva mais adequada para esta adolescente:",
+     "alternativas": {
+      "a": "Recomendar exclusivamente o uso correto e consistente do preservativo",
+      "b": "Associar preservativo a método contraceptivo hormonal, configurando dupla proteção",
+      "c": "Prescrever apenas contraceptivo oral combinado, dispensando o preservativo",
+      "d": "Aguardar a realização de exames de rotina antes de prescrever qualquer método"
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "A recomendação do Ministério da Saúde e das sociedades de pediatria e de ginecologia é a DUPLA PROTEÇÃO: preservativo (masculino ou feminino) em todas as relações, como única barreira contra infecções sexualmente transmissíveis, ASSOCIADO a um método contraceptivo de maior eficácia — contraceptivo hormonal ou, preferencialmente, um método reversível de longa duração (LARC: implante de etonogestrel ou dispositivo intrauterino), que não dependem de adesão diária e têm as menores taxas de falha em uso típico, sendo hoje formalmente recomendados para adolescentes, incluindo nulíparas. O preservativo isolado (alternativa A) tem falha em uso típico em torno de 13 a 18% ao ano — e o enunciado já informa uso IRREGULAR, tornando a estratégia ainda mais frágil. O hormonal isolado (alternativa C) protege da gravidez, mas deixa a adolescente inteiramente exposta às infecções sexualmente transmissíveis, incluindo HIV, sífilis e HPV — erro grave. Adiar a prescrição até realizar exames (alternativa D) é barreira desnecessária e contrária às diretrizes: nenhum exame laboratorial ou ginecológico é pré-requisito para iniciar contracepção hormonal em adolescente saudável; exigir exames só produz mais uma consulta perdida e mais um mês de exposição. Aproveitar a consulta para atualizar a vacinação contra HPV e ofertar testagem rápida é conduta exemplar."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Hipertensão Intracraniana / neuro-oncologia e cuidados de suporte [REAL: SUS-BA R+ 2025]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 62 anos de idade, com diagnóstico de glioblastoma multiforme há 10 meses, previamente tratado com cirurgia, radioterapia e quimioterapia com temozolomida, comparece ao ambulatório com quadro de cefaleia intensa, piora progressiva nas últimas semanas, associada a episódios de confusão mental, estando restrito ao leito ou na cadeira de rodas todo o tempo. O exame neurológico revela hemiparesia direita e papiledema. A família relata que o paciente se tornou mais sonolento e não consegue se alimentar. A ressonância magnética recente mostra crescimento tumoral significativo com edema peritumoral.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique a conduta mais adequada no momento:",
+     "alternativas": {
+      "a": "Aumento da dose de temozolomida.",
+      "b": "Cirurgia de urgência para descompressão tumoral.",
+      "c": "Introdução de dexametasona em altas doses.",
+      "d": "Início de morfina para controle da dor."
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ 2025] O sintoma que domina o quadro é a hipertensão intracraniana por EDEMA PERITUMORAL vasogênico — cefaleia progressiva, confusão, sonolência e papiledema. A dexametasona em dose alta (tipicamente 16 mg/dia, podendo iniciar com bolus de 10 mg) é a medida de maior impacto imediato: reduz a permeabilidade da barreira hematoencefálica lesada pelo tumor, diminuindo o edema em 24 a 72 horas, com melhora clínica frequentemente dramática. É corticoide de escolha por ter mínima atividade mineralocorticoide e meia-vida longa. Aumentar a temozolomida (alternativa A) não faz sentido: houve progressão sob o esquema, não há benefício em escalonar dose e o efeito antitumoral levaria semanas, tempo que o paciente não tem. A cirurgia de urgência (alternativa B) é a armadilha: trata-se de glioblastoma recidivado, com paciente de péssimo status funcional, restrito ao leito — a reoperação nesse contexto não aumenta sobrevida e traz morbidade elevada; a indicação cirúrgica exige bom desempenho funcional e doença ressecável. A morfina (alternativa D) trata a dor, mas não a causa; pior, pode agravar a sonolência e mascarar a deterioração neurológica. Pérola: o corticoide alivia sintomas, mas não modifica a sobrevida, e seu uso prolongado traz miopatia, hiperglicemia e imunossupressão — deve ser titulado para a menor dose eficaz."
+    },
+    {
+     "enunciado": "Considerando a nutrição desse paciente, diante do estágio da doença, a conduta mais adequada é:",
+     "alternativas": {
+      "a": "Introduzir cuidados de suporte com foco na prevenção de desconforto.",
+      "b": "Manter dieta oral e suplementação nutricional via oral.",
+      "c": "Iniciar nutrição enteral imediata via sonda nasogástrica.",
+      "d": "Fazer suplementação parenteral total para manter o estado nutricional."
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ 2025] Trata-se de doença oncológica avançada, incurável, em progressão após tratamento completo, com paciente totalmente dependente e sobrevida esperada muito curta. Nesse cenário, a incapacidade de se alimentar não é um problema nutricional a ser corrigido — é uma manifestação do processo de terminalidade. A literatura de cuidados paliativos é consistente: nutrição artificial em doença terminal com baixo status funcional NÃO prolonga a sobrevida, NÃO melhora a qualidade de vida e aumenta complicações (broncoaspiração, sobrecarga hídrica, distensão, contenção física para manter a sonda). O objetivo passa a ser o CONFORTO: higiene oral, umidificação de mucosas, oferta de alimento por prazer conforme tolerância, controle de sintomas. Manter dieta oral com suplementação (alternativa B) desconsidera que o paciente já não consegue se alimentar. A sonda nasogástrica imediata (alternativa C) é justamente a intervenção de baixo valor que se busca evitar. A nutrição parenteral total (alternativa D) é ainda mais agressiva, com risco de infecção de cateter e distúrbios metabólicos, sem qualquer benefício demonstrado. Pérola ética: a decisão deve ser compartilhada com a família, esclarecendo que não alimentar artificialmente não é 'deixar morrer de fome' — é evitar iatrogenia."
+    },
+    {
+     "enunciado": "Com base na Escala de Performance da Eastern Cooperative Oncology Group (ECOG), a classificação funcional do paciente é:",
+     "alternativas": {
+      "a": "ECOG 0.",
+      "b": "ECOG 1.",
+      "c": "ECOG 5.",
+      "d": "ECOG 4."
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ 2025] A escala ECOG vai de 0 a 5: ECOG 0 = totalmente ativo, sem restrição; ECOG 1 = restrição a atividades físicas extenuantes, mas deambula e realiza trabalho leve; ECOG 2 = deambula e é capaz de autocuidado, mas incapaz de qualquer trabalho, fora do leito mais de 50% das horas acordado; ECOG 3 = capaz de autocuidado apenas limitado, confinado ao leito ou cadeira mais de 50% das horas acordado; ECOG 4 = completamente incapaz, sem qualquer autocuidado, totalmente confinado ao leito ou cadeira; ECOG 5 = óbito. O enunciado descreve o paciente 'restrito ao leito ou na cadeira de rodas TODO O TEMPO' e sem conseguir se alimentar — portanto ECOG 4. ECOG 0 (alternativa A) e ECOG 1 (alternativa B) descrevem pacientes funcionalmente independentes, incompatíveis com o caso. ECOG 5 (alternativa C) é a pegadinha mais frequente: muitos candidatos escolhem o número mais alto por acharem que representa 'o pior estado clínico', esquecendo que ECOG 5 significa ÓBITO. Pérola prática: o ECOG (ou o Karnofsky) é decisivo em oncologia porque pacientes com ECOG 3-4 em geral não são candidatos a quimioterapia sistêmica nem a reabordagem cirúrgica — a escala não é burocracia, é o que define a elegibilidade terapêutica e a transição para cuidados exclusivamente paliativos."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas / Arboviroses (dengue com sinais de alarme)",
+   "tier": "ALTO",
+   "vinheta": "Menino, 8 anos de idade, residente em Salvador, é levado à emergência no quarto dia de doença. Apresentou febre alta contínua nos três primeiros dias, com mialgia e cefaleia retro-orbitária. Hoje encontra-se afebril, porém iniciou dor abdominal intensa e contínua, com vômitos persistentes, e a mãe o descreve como 'muito quieto e sonolento'. Ao exame: letárgico, mucosas úmidas, tempo de enchimento capilar de 2 segundos, pressão arterial 100x70 mmHg, frequência cardíaca 110 bpm, fígado palpável a 3 cm do rebordo costal direito. Prova do laço positiva. Exames: hematócrito 45% (valor prévio, do segundo dia: 38%); plaquetas 60.000/mm³; leucócitos 3.200/mm³.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a classificação de risco deste paciente, segundo o Ministério da Saúde:",
+     "alternativas": {
+      "a": "Dengue sem sinais de alarme e sem condição especial (grupo A)",
+      "b": "Dengue grave (grupo D)",
+      "c": "Dengue com sinais de alarme (grupo C)",
+      "d": "Dengue sem sinais de alarme, com condição especial (grupo B)"
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "O paciente apresenta ao menos quatro sinais de alarme: dor abdominal intensa e contínua, vômitos persistentes, letargia/irritabilidade e hepatomegalia maior que 2 cm — além de hemoconcentração. Isso o coloca no GRUPO C, que exige internação e hidratação endovenosa imediata. Note o momento: a defervescência (queda da febre), entre o 3º e o 7º dia, marca a entrada na FASE CRÍTICA, exatamente quando ocorre o extravasamento plasmático — a melhora da febre é falsamente tranquilizadora e é a armadilha número um da dengue. O grupo A (alternativa A) reúne pacientes sem sinais de alarme, sem comorbidade e sem risco social, manejados em domicílio com hidratação oral. O grupo B (alternativa D) tem sangramento espontâneo de pele (como a prova do laço positiva isolada) ou condição especial (lactente, gestante, idoso, comorbidade), mas SEM sinais de alarme — a prova do laço positiva, sozinha, não sobe o paciente para o grupo C. O grupo D (alternativa B) exige choque (pulso fino, enchimento capilar acima de 2 segundos, hipotensão, pressão de pulso convergente menor ou igual a 20 mmHg), sangramento grave ou disfunção orgânica — aqui o enchimento capilar é de 2 segundos e a pressão de pulso é de 30 mmHg, ainda sem choque, embora o paciente esteja à beira dele. Reclassificar continuamente é obrigatório."
+    },
+    {
+     "enunciado": "Indique o achado laboratorial que melhor traduz o extravasamento plasmático:",
+     "alternativas": {
+      "a": "Elevação do hematócrito acima de 10% em relação ao valor basal",
+      "b": "Contagem de plaquetas abaixo de 100.000/mm³",
+      "c": "Leucopenia com linfocitose relativa",
+      "d": "Prova do laço positiva"
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "A hemoconcentração — elevação do hematócrito acima de 10% em relação ao valor basal do próprio paciente, ou acima dos valores de referência para idade e sexo — é o marcador laboratorial que traduz a perda de plasma para o terceiro espaço, mecanismo central da gravidade na dengue. No caso, o hematócrito subiu de 38% para 45%, um aumento de 18%, claramente significativo. Outros indicadores de extravasamento são a hipoalbuminemia e a demonstração de derrames cavitários (a ultrassonografia à beira do leito, com pesquisa de líquido perivesicular, derrame pleural e ascite, é ferramenta cada vez mais recomendada). A PLAQUETOPENIA (alternativa B) é a pegadinha mais frequente e mais perigosa da prática: ela NÃO define gravidade nem se correlaciona bem com sangramento ou com choque na dengue — pacientes com 20.000 plaquetas podem estar estáveis, e pacientes com 90.000 podem chocar. Ela isoladamente não indica internação nem transfusão. A leucopenia (alternativa C) é achado esperado da fase febril e não tem valor prognóstico. A prova do laço (alternativa D) avalia fragilidade capilar e tendência hemorrágica, não extravasamento plasmático — pode inclusive negativar no choque. Pérola de conduta: a transfusão profilática de plaquetas é FORMALMENTE CONTRAINDICADA, reservada apenas a sangramento grave ativo."
+    },
+    {
+     "enunciado": "Indique a conduta imediata:",
+     "alternativas": {
+      "a": "Hidratação oral com sais de reidratação e reavaliação em 48 horas",
+      "b": "Transfusão profilática de concentrado de plaquetas",
+      "c": "Expansão volêmica com 20 mL/kg de solução cristaloide em 20 minutos",
+      "d": "Hidratação endovenosa com 10 mL/kg de solução cristaloide em 1 hora, com reavaliação clínica e laboratorial"
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "Para o grupo C, o protocolo do Ministério da Saúde determina hidratação endovenosa IMEDIATA com 10 mL/kg de soro fisiológico a 0,9% (ou Ringer lactato) infundidos em 1 hora, em ambiente hospitalar, com reavaliação clínica e do hematócrito ao final de cada etapa. A fase de expansão pode ser repetida até TRÊS vezes; havendo melhora (queda do hematócrito, retorno da diurese acima de 1 mL/kg/h, estabilidade hemodinâmica, melhora dos sinais de alarme), passa-se à fase de manutenção com 25 mL/kg em 6 horas e depois em 8 horas. Se não houver melhora após as três etapas, o paciente é reclassificado como GRUPO D e conduzido como choque. A hidratação oral com alta (alternativa A) é o manejo do grupo A e seria um erro potencialmente fatal aqui — o paciente está na fase crítica e precisa de vigilância hospitalar. A transfusão profilática de plaquetas (alternativa B) é contraindicada: não previne sangramento, consome recurso escasso e expõe a reações transfusionais. A expansão com 20 mL/kg em 20 minutos (alternativa C) é a conduta do grupo D (choque), não do grupo C — aplicá-la a um paciente ainda sem choque pode causar sobrecarga volêmica, especialmente perigosa quando o extravasamento cessa e o líquido retorna ao intravascular, na fase de recuperação."
+    }
+   ]
+  }
+ ]
+}
