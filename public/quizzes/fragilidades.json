@@ -1,0 +1,882 @@
+{
+ "geradoEm": "2026-07-14T03:21:41.429Z",
+ "tentativasLidas": 9,
+ "usuarios": {
+  "Vinicius": {
+   "simulados": 7,
+   "totalQuestoes": 315,
+   "percentualGeral": 77,
+   "temasFracos": [
+    {
+     "tema": "Neurologia — Vertigem (VPPB)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 6,
+     "ultimoErro": "2026-07-10",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (esclerose múltipla)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 6,
+     "ultimoErro": "2026-07-10",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Neuroinfecção (neurocisticercose)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-11",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Vertigem e Síndromes Vestibulares (neurite vestibular)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-12",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (encefalite anti-receptor de NMDA)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-12",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Medula, Cauda Equina e Dor (mielopatia cervical espondilótica)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-12",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Pediatria — Neonatologia / Prematuridade e idade corrigida",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 4,
+     "ultimoErro": "2026-07-13",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Neuropediatria específica (síndrome de West)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-11",
+     "taxaErro": 67
+    }
+   ],
+   "rankingCompleto": [
+    {
+     "tema": "Neurologia — Vertigem (VPPB)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 6,
+     "ultimoErro": "2026-07-10",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (esclerose múltipla)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 6,
+     "ultimoErro": "2026-07-10",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Neuroinfecção (neurocisticercose)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-11",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Vertigem e Síndromes Vestibulares (neurite vestibular)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-12",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (encefalite anti-receptor de NMDA)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-12",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Medula, Cauda Equina e Dor (mielopatia cervical espondilótica)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-12",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Pediatria — Neonatologia / Prematuridade e idade corrigida",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 4,
+     "ultimoErro": "2026-07-13",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Neuropediatria específica (síndrome de West)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-11",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Emergências / neuro-correlato (intoxicação por metanol)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-12",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Demências (demência por corpos de Lewy)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-12",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Transtornos do Movimento (parkinsonismo farmacológico)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 3,
+     "ultimoErro": "2026-07-12",
+     "taxaErro": 50
+    },
+    {
+     "tema": "Neurologia — Neuropatias Periféricas (Charcot-Marie-Tooth)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-10",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Demências (Doença de Alzheimer)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-10",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Emergências (Síndrome da Morte Súbita do Lactente)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-10",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Nutrição (raquitismo carencial)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-10",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Endocrinologia (estatura-alvo genética)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-10",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Neuroinfecção (meningite bacteriana/meningococcemia)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-13",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Nutrição / Anemia ferropriva",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-13",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Epilepsia (epilepsia mioclônica juvenil)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-13",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Cefaleias/dor facial (neuralgia do trigêmeo)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-13",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Junção Neuromuscular (crise miastênica)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-13",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Doença Cerebrovascular (hemorragia intracerebral pós-trombólise)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-13",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Transtornos do Movimento (coreia de Sydenham)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-13",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Epilepsia (crise focal temporal mesial)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (encefalite lúpica)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Transtornos do Movimento (Parkinson idiopático)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-11",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Neonatologia (citomegalovírus congênito)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-11",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Nutrição (obesidade e DHGNA no adolescente)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-11",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Imunização (Programa Nacional de Imunizações)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-11",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Hematologia (doença falciforme)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-11",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Neuropatias Periféricas",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-12",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Saúde Coletiva e APS (Marco Legal da Primeira Infância)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-12",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Oncologia (retinoblastoma)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-12",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Doença do Neurônio Motor (ELA)",
+     "tier": "ALTO",
+     "total": 12,
+     "erros": 2,
+     "ultimoErro": "2026-07-13",
+     "taxaErro": 17
+    },
+    {
+     "tema": "Neurologia — AVC (hemorragia pós-trombólise)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Neuroinfecção (meningite bacteriana)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Cefaleias (cefaleia em salvas)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Miastenia Gravis (crise miastênica)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Neonatologia (prematuridade tardia)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Neonatologia (sepse precoce por corioamnionite)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Nutrição (aleitamento materno e retorno ao trabalho)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Nutrição (anemia ferropriva por excesso de leite de vaca)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Endocrinologia (hipotireoidismo congênito)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Oncologia (tumor de Wilms)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Cardiologia (Tetralogia de Fallot)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — AVC (endocardite infecciosa embólica)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Medula e Cauda Equina (mielorradiculopatia esquistossomótica)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Cefaleias (enxaqueca com aura prolongada)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Transtornos do Neurodesenvolvimento (enurese noturna)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Infecciosas (bronquiolite viral aguda)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Adolescência (hemorragia uterina disfuncional)",
+     "tier": "MÉDIO",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Nutrição (proctocolite alérgica)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Epilepsia (estado de mal epiléptico)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Junção Neuromuscular (miastenia gravis)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Hipertensão Intracraniana e Emergências",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Doença Cerebrovascular (hemorragia subaracnóidea)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Neonatologia (icterícia neonatal)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Desenvolvimento e Puericultura",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Saúde Coletiva e Ética (suspeita de abuso sexual)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Doença Cerebrovascular (AVC)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Infecciosas regionais (leishmaniose visceral)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Reumatologia (artrite idiopática juvenil sistêmica)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Cardiologia (comunicação interventricular)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Neonatologia (sepse neonatal precoce)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Infecciosas/Exantemáticas (sarampo)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Transtornos do Neurodesenvolvimento (TDAH e metilfenidato)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Nutrição / Alimentação complementar",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Nutrição / Desnutrição energético-proteica (Kwashiorkor)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Neuropediatria específica (crise febril)",
+     "tier": "MÉDIO",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Emergências Pediátricas (anafilaxia)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Endocrinologia / Baixa estatura (atraso constitucional do crescimento e da puberdade)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    }
+   ],
+   "porDificuldade": [
+    {
+     "dificuldade": "desconhecida",
+     "total": 45,
+     "erros": 3,
+     "taxaErro": 7
+    },
+    {
+     "dificuldade": "moderada",
+     "total": 139,
+     "erros": 27,
+     "taxaErro": 19
+    },
+    {
+     "dificuldade": "dificil",
+     "total": 89,
+     "erros": 36,
+     "taxaErro": 40
+    },
+    {
+     "dificuldade": "facil",
+     "total": 42,
+     "erros": 7,
+     "taxaErro": 17
+    }
+   ]
+  },
+  "Leonardo": {
+   "simulados": 2,
+   "totalQuestoes": 90,
+   "percentualGeral": 84,
+   "temasFracos": [
+    {
+     "tema": "Neurologia — Cefaleias (cefaleia em salvas)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Epilepsia (crise focal temporal mesial)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (encefalite lúpica)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Neonatologia (prematuridade tardia)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Nutrição (aleitamento materno e retorno ao trabalho)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Endocrinologia (hipotireoidismo congênito)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    }
+   ],
+   "rankingCompleto": [
+    {
+     "tema": "Neurologia — Cefaleias (cefaleia em salvas)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Epilepsia (crise focal temporal mesial)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (encefalite lúpica)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Neonatologia (prematuridade tardia)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Nutrição (aleitamento materno e retorno ao trabalho)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Endocrinologia (hipotireoidismo congênito)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-09",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — AVC (hemorragia pós-trombólise)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Neuroinfecção (meningite bacteriana)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Miastenia Gravis (crise miastênica)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Transtornos do Movimento (parkinsonismo farmacológico)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Neonatologia (sepse precoce por corioamnionite)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Nutrição (anemia ferropriva por excesso de leite de vaca)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Oncologia (tumor de Wilms)",
+     "tier": "MÉDIO",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Cardiologia (Tetralogia de Fallot)",
+     "tier": "MÉDIO",
+     "total": 6,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    }
+   ],
+   "porDificuldade": [
+    {
+     "dificuldade": "desconhecida",
+     "total": 90,
+     "erros": 14,
+     "taxaErro": 16
+    }
+   ]
+  },
+  "Ana Teresa": {
+   "simulados": 0,
+   "totalQuestoes": 0,
+   "percentualGeral": null,
+   "temasFracos": [],
+   "rankingCompleto": [],
+   "porDificuldade": []
+  }
+ }
+}
