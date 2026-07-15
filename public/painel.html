@@ -67,6 +67,12 @@
   .err-q .comment{margin-top:8px; padding:10px 12px; background:#f7f9fc; border-left:3px solid var(--blue); border-radius:6px; font-size:.83rem;}
   .err-q .meta{font-size:.72rem; color:var(--muted); margin-top:6px;}
   .btn-mini{background:none; border:1px solid var(--blue); color:var(--blue); border-radius:6px; padding:3px 10px; font-size:.76rem; cursor:pointer; margin-left:6px;}
+  .dom-split{margin:10px 0 4px;}
+  .dom-split-bar{display:flex; height:14px; border-radius:7px; overflow:hidden; border:1px solid var(--border);}
+  .dom-split-bar .sn{background:var(--blue);} .dom-split-bar .sp{background:var(--green);}
+  .dom-split-cap{display:flex; justify-content:space-between; font-size:.72rem; color:var(--muted); margin-top:4px;}
+  .dom-half{display:inline-block; font-size:.66rem; font-weight:800; padding:0 5px; border-radius:5px; margin-right:2px;}
+  .dom-half.n{background:#e8f0fd; color:var(--blue);} .dom-half.p{background:var(--green-bg); color:var(--green);}
 </style>
 </head>
 <body>
@@ -228,6 +234,74 @@ async function renderErrosDetalhados(container, erros){
   }
 }
 
+// Agrupa os temas (por vinheta) em DOMÍNIOS clínicos e agrega erro/total — visão consolidada.
+function domainOf(tema){
+  const t=(tema||'').toLowerCase();
+  const ped=(tema||'').trim().toLowerCase().indexOf('pediatria')===0;
+  const has=(...ws)=>ws.some(w=>t.indexOf(w)!==-1);
+  if(has('vertigem','vestibular')) return ['NEURO','Vertigem / síndromes vestibulares'];
+  if(has('neuroimun','esclerose múltipla','nmda','neuromielite','lúpica')) return ['NEURO','Neuroimunologia (EM / encefalites / NMO)'];
+  if(has('neuroinfec')) return ['NEURO','Neuroinfecção'];
+  if(has('transtornos do movimento','parkinson','coreia','wilson')) return ['NEURO','Transtornos do movimento'];
+  if(has('demência')) return ['NEURO','Demências'];
+  if(has('medula','cauda equina','mielo')) return ['NEURO','Medula / cauda equina'];
+  if(has('cefaleia','trigêmeo','enxaqueca','hemicrania')) return ['NEURO','Cefaleias'];
+  if(has('epilepsia')) return ['NEURO','Epilepsia'];
+  if(has('neuropatia','guillain','charcot')) return ['NEURO','Neuropatias periféricas'];
+  if(has('cerebrovascular','subaracnóidea','endocardite') || /\bavc\b/.test(t)) return ['NEURO','AVC / cerebrovascular'];
+  if(has('neurônio motor') || /\(ela\)/.test(t)) return ['NEURO','ELA'];
+  if(has('miasten','junção neuromuscular')) return ['NEURO','Miastenia / JNM'];
+  if(has('hipertensão intracraniana','neuro-onco','metanol','emergências / neuro')) return ['NEURO','HIC / emergências neuro'];
+  if(has('neuropediatria','crise febril','west')) return ['NEURO','Neuropediatria'];
+  if(has('neonatolog','prematur','icterícia','sepse','sífilis','citomegalo')) return ['PED','Neonatologia'];
+  if(has('nutrição','anemia','raquitismo','desnutrição','aleitamento','alimentação','dhgna','obesidade','proctocolite')) return ['PED','Nutrição / metabolismo'];
+  if(has('oncologia')) return ['PED','Oncologia'];
+  if(has('imunização','poliomielite')) return ['PED','Imunização'];
+  if(has('endocrino','estatura','hipotireoidismo','puberdade')) return ['PED','Endócrino / crescimento'];
+  if(has('cardiolog','fallot','interventricular')) return ['PED','Cardiologia'];
+  if(has('reumato','kawasaki')) return ['PED','Reumato / vasculites'];
+  if(has('emergênc','anafilaxia','morte súbita')) return ['PED','Emergências'];
+  if(has('saúde coletiva','aps','ética','abuso','marco legal','sigilo')) return ['PED','Saúde coletiva / ética'];
+  if(has('infecciosa','arbovir','dengue','sarampo','leishman','bronquiolite')) return ['PED','Infecto / exantemáticas'];
+  if(has('hematolog','falciforme')) return ['PED','Hematologia'];
+  if(has('adolesc','amenorreia','hemorragia uterina')) return ['PED','Adolescência'];
+  if(has('neurodesenvolv','tdah','tea','enurese')) return ['PED','Neurodesenvolvimento'];
+  if(has('desenvolvimento','puericultura')) return ['PED','Desenvolvimento / puericultura'];
+  return [ped?'PED':'NEURO','Outros'];
+}
+
+function renderDominio(ranking){
+  if(!ranking || ranking.length === 0) return '';
+  const agg={}; const half={NEURO:[0,0], PED:[0,0]};
+  ranking.forEach(tm=>{
+    const d=domainOf(tm.tema); const h=d[0], dom=d[1]; const key=h+'|'+dom;
+    if(!agg[key]) agg[key]={half:h, dom:dom, erros:0, total:0, tier:tm.tier};
+    agg[key].erros+=tm.erros; agg[key].total+=tm.total;
+    half[h][0]+=tm.erros; half[h][1]+=tm.total;
+  });
+  let rows=Object.keys(agg).map(k=>{const d=agg[k]; d.taxa=d.total? d.erros/d.total:0; return d;})
+            .filter(d=>d.erros>0).sort((a,b)=> b.erros-a.erros || b.taxa-a.taxa);
+  if(rows.length === 0) return '';
+  const nE=half.NEURO[0], nT=half.NEURO[1], pE=half.PED[0], pT=half.PED[1];
+  const nTaxa=nT? Math.round(100*nE/nT):0, pTaxa=pT? Math.round(100*pE/pT):0;
+  const totErr=(nE+pE)||1;
+  const splitBar=`<div class="dom-split"><div class="dom-split-bar">`+
+    `<span class="sn" style="width:${(100*nE/totErr).toFixed(1)}%"></span>`+
+    `<span class="sp" style="width:${(100*pE/totErr).toFixed(1)}%"></span></div>`+
+    `<div class="dom-split-cap"><span>Neuro ${nTaxa}% erro (${nE}/${nT})</span>`+
+    `<span>Pediatria ${pTaxa}% erro (${pE}/${pT})</span></div></div>`;
+  let tbl=`<table><thead><tr><th>Domínio clínico</th><th>Erros</th><th>Taxa</th></tr></thead><tbody>`;
+  rows.forEach(d=>{
+    const pct=Math.round(d.taxa*100);
+    const hp=d.half==='NEURO'?'Neuro':'Ped';
+    const hc=d.half==='NEURO'?'n':'p';
+    tbl+=`<tr><td><span class="dom-half ${hc}">${hp}</span>${d.dom} <span class="tier-pill">${d.tier||''}</span></td>`+
+         `<td>${d.erros}/${d.total}</td><td><span class="tag ${tagClass(d.taxa)}">${pct}%</span></td></tr>`;
+  });
+  tbl+=`</tbody></table>`;
+  return `<h3>Fragilidades por domínio clínico</h3>${splitBar}${tbl}`;
+}
+
 function renderUserCard(nome, dados){
   const card = document.createElement('div');
   card.className = 'card';
@@ -260,10 +334,11 @@ function renderUserCard(nome, dados){
     rankingHtml = `<div class="empty">Ainda sem temas com dados suficientes (mínimo 2 respostas no tema).</div>`;
   }
 
+  const domHtml = renderDominio(dados.rankingFragilidades);
   const evoHtml = renderEvolucao(dados.historico);
   const difHtml = renderDificuldade(dados.rankingDificuldade);
 
-  card.innerHTML = `<h2>${nome}</h2>${statsHtml}${rankingHtml}${evoHtml}${difHtml}`;
+  card.innerHTML = `<h2>${nome}</h2>${statsHtml}${domHtml}${rankingHtml}${evoHtml}${difHtml}`;
 
   const errosSection = document.createElement('div');
   errosSection.innerHTML = '<h3>Questões erradas (para revisar)</h3>';
