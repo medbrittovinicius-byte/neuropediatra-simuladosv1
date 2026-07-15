@@ -17,7 +17,16 @@ function dedupLatestPerDate(recs) {
   return Array.from(byDate.values());
 }
 
+const CORS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "GET, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type",
+};
+
 export default async (req, context) => {
+  if (req.method === "OPTIONS") {
+    return new Response(null, { status: 204, headers: CORS });
+  }
   const store = getStore("quiz-attempts");
   const { blobs } = await store.list();
 
@@ -106,7 +115,7 @@ export default async (req, context) => {
 
   return new Response(JSON.stringify(result), {
     status: 200,
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "application/json", ...CORS },
   });
 };
 
