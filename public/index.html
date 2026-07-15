@@ -341,13 +341,14 @@ function blockOf(i){
 function markSelected(i, letra){
   const card = document.getElementById('q-'+i);
   if(!card) return;
+  // NÃO trava: mantém as opções clicáveis para permitir trocar a escolha
+  // enquanto o bloco não foi revelado. Apenas realça a alternativa marcada.
   card.querySelectorAll('.opt').forEach(o=>{
-    o.classList.add('locked');
-    if(o.dataset.l === letra) o.classList.add('selected');
+    o.classList.toggle('selected', o.dataset.l === letra);
   });
   const commentEl = document.getElementById('comment-'+i);
   if(commentEl){
-    commentEl.innerHTML = `<span class="wait-note">Resposta registrada. O comentário e a correção aparecem quando as 3 questões desta situação-problema forem respondidas.</span>`;
+    commentEl.innerHTML = `<span class="wait-note">Resposta registrada — você ainda pode trocá-la até responder as 3 questões desta situação-problema. O comentário e a correção aparecem quando as 3 forem respondidas (e aí a resposta trava).</span>`;
     commentEl.classList.add('show');
   }
 }
@@ -383,8 +384,16 @@ function applyAnsweredUI(i, letra){
   maybeRevealBlock(i);
 }
 
+function isBlockRevealed(i){
+  // Um bloco está revelado (correção à mostra, tudo travado) quando TODAS
+  // as suas questões já foram respondidas.
+  return blockOf(i).every(idx => answered[idx] !== undefined);
+}
+
 function answer(i, letra){
-  if(answered[i] !== undefined) return;
+  // Depois que o bloco foi revelado, a resposta trava (não dá pra mudar
+  // depois de ver o gabarito). Antes disso, o clique troca livremente a escolha.
+  if(isBlockRevealed(i)) return;
   answered[i] = letra;
   markSelected(i, letra);
   saveProgress();
