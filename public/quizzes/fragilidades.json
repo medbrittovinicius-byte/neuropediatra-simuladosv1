@@ -1,11 +1,11 @@
 {
- "geradoEm": "2026-07-14T03:21:41.429Z",
- "tentativasLidas": 9,
+ "geradoEm": "2026-07-15T09:01:00.234Z",
+ "tentativasLidas": 10,
  "usuarios": {
   "Vinicius": {
-   "simulados": 7,
-   "totalQuestoes": 315,
-   "percentualGeral": 77,
+   "simulados": 8,
+   "totalQuestoes": 360,
+   "percentualGeral": 76,
    "temasFracos": [
     {
      "tema": "Neurologia — Vertigem (VPPB)",
@@ -151,6 +151,38 @@
      "total": 3,
      "erros": 2,
      "ultimoErro": "2026-07-12",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Vertigem e Síndromes Vestibulares (síndrome vestibular aguda central / AVC cerebelar)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-14",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Cefaleias trigêmino-autonômicas (hemicrania paroxística)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-14",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Pediatria — Imunização (PNI) / Paralisia flácida aguda e poliomielite",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-14",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Hipertensão Intracraniana / neuro-oncologia e cuidados de suporte",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-14",
      "taxaErro": 67
     },
     {
@@ -335,6 +367,38 @@
      "total": 3,
      "erros": 1,
      "ultimoErro": "2026-07-12",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (transtorno do espectro da neuromielite óptica)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-14",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Neonatologia / Infecções congênitas (sífilis congênita)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-14",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Medula, Cauda Equina e Dor Lombar (síndrome da cauda equina)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-14",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Demências (demência frontotemporal, variante comportamental)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-14",
      "taxaErro": 33
     },
     {
@@ -648,6 +712,62 @@
      "erros": 0,
      "ultimoErro": null,
      "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Neonatologia / Icterícia neonatal (incompatibilidade ABO)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Adolescência / Amenorreia primária (amenorreia hipotalâmica funcional)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Neuroinfecção (neurocisticercose subaracnóidea com hidrocefalia)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Neuropatias Periféricas (síndrome de Guillain-Barré)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Desenvolvimento e Puericultura (sinais de alerta do desenvolvimento neuropsicomotor)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Saúde Coletiva, APS e Ética (sigilo e atenção à saúde do adolescente)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Infecciosas / Arboviroses (dengue com sinais de alarme)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
     }
    ],
    "porDificuldade": [
@@ -659,21 +779,21 @@
     },
     {
      "dificuldade": "moderada",
-     "total": 139,
-     "erros": 27,
-     "taxaErro": 19
+     "total": 162,
+     "erros": 33,
+     "taxaErro": 20
     },
     {
      "dificuldade": "dificil",
-     "total": 89,
-     "erros": 36,
+     "total": 104,
+     "erros": 42,
      "taxaErro": 40
     },
     {
      "dificuldade": "facil",
-     "total": 42,
+     "total": 49,
      "erros": 7,
-     "taxaErro": 17
+     "taxaErro": 14
     }
    ]
   },
