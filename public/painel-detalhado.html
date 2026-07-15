@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel Detalhado — Fragilidades por domínio</title>
+<style>
+  :root{
+    --navy:#0f2c4c; --navy-dark:#0a1f36; --blue:#1c5a8f; --green:#1e8f5a; --green-bg:#e6f7ee;
+    --red:#c0392b; --red-bg:#fdecea; --amber:#b8860b; --amber-bg:#fdf3e0;
+    --bg:#f4f6f9; --card:#ffffff; --text:#1c2733; --muted:#5c6b7a; --border:#dde3ea;
+    color-scheme: light;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--text); line-height:1.5;}
+  header{background:linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%); color:#fff; padding:24px 20px 18px; text-align:center; box-shadow:0 2px 10px rgba(0,0,0,.15);}
+  header h1{margin:0 0 6px; font-size:1.25rem;}
+  header p{margin:2px 0; color:#c9d6e3; font-size:.85rem;}
+  header a{color:#cfe0f2;}
+  .users{display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:12px;}
+  .ubtn{background:rgba(255,255,255,.12); color:#fff; border:1px solid rgba(255,255,255,.3); border-radius:20px; padding:6px 16px; font-size:.86rem; cursor:pointer;}
+  .ubtn.active{background:#fff; color:var(--navy); font-weight:700; border-color:#fff;}
+  main{max-width:820px; margin:0 auto; padding:22px 16px 60px;}
+  .refresh-note{text-align:center; font-size:.78rem; color:var(--muted); margin:0 0 16px;}
+  .loading{text-align:center; padding:60px 20px; color:var(--muted);}
+  h2{font-size:1rem; color:var(--navy); margin:24px 0 10px;}
+  .kpis{display:grid; grid-template-columns:repeat(3,1fr); gap:12px;}
+  .kpi{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:14px 15px;}
+  .kpi .lbl{font-size:.7rem; color:var(--muted); text-transform:uppercase; letter-spacing:.04em;}
+  .kpi .val{font-size:1.7rem; font-weight:800; margin-top:2px;}
+  .kpi .val small{font-size:.8rem; font-weight:600; color:var(--muted);}
+  .kpi.neuro .val{color:var(--blue);} .kpi.ped .val{color:var(--green);}
+  .kpi .sub{font-size:.72rem; color:var(--muted);}
+  .split{display:flex; height:15px; border-radius:8px; overflow:hidden; margin:7px 0 3px; border:1px solid var(--border);}
+  .split .sn{background:var(--blue);} .split .sp{background:var(--green);}
+  .split-cap{font-size:.7rem; color:var(--muted); display:flex; justify-content:space-between;}
+  .prio{background:var(--red-bg); border:1px solid #f3c9c9; border-radius:12px; padding:12px 15px; margin-bottom:8px;}
+  .prio h3{margin:0 0 3px; font-size:.95rem; color:var(--red);}
+  .prio p{margin:2px 0; font-size:.85rem; color:#7a2e2e;}
+  .prio .badge{background:#fff; border:1px solid #f0c0c0; color:var(--red); font-size:.72rem; font-weight:800; padding:1px 7px; border-radius:8px;}
+  .card{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:6px 15px 12px;}
+  .row{display:grid; grid-template-columns:1fr 78px; align-items:center; gap:10px; padding:9px 0; border-bottom:1px solid var(--border);}
+  .row:last-child{border-bottom:none;}
+  .dname{font-size:.87rem; font-weight:600; display:flex; align-items:center; gap:6px; flex-wrap:wrap;}
+  .tag{font-size:.62rem; font-weight:800; padding:1px 6px; border-radius:6px;}
+  .tag.n{background:#e8f0fd; color:var(--blue);} .tag.p{background:var(--green-bg); color:var(--green);}
+  .tier{font-size:.62rem; color:var(--muted); border:1px solid var(--border); border-radius:6px; padding:0 5px;}
+  .critb{background:var(--red-bg); color:var(--red); font-size:.62rem; font-weight:800; padding:1px 6px; border-radius:6px;}
+  .bar{height:9px; background:#eef0f4; border-radius:6px; overflow:hidden; margin-top:6px;}
+  .bar>span{display:block; height:100%; border-radius:6px;}
+  .frac{text-align:right; font-variant-numeric:tabular-nums; font-size:.8rem; color:var(--muted);}
+  .frac b{font-size:.92rem; color:var(--text);}
+  .diffgrid{display:grid; grid-template-columns:repeat(3,1fr); gap:12px;}
+  .diff{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:12px; text-align:center;}
+  .diff .d{font-size:.75rem; color:var(--muted); text-transform:capitalize;}
+  .diff .p{font-size:1.5rem; font-weight:800; margin:2px 0;}
+  .diff .n{font-size:.72rem; color:var(--muted);}
+  .toggle{background:none; border:1px solid var(--border); border-radius:8px; padding:6px 11px; font-size:.78rem; color:var(--muted); cursor:pointer; margin-top:10px;}
+  .toggle:hover{background:#eef2f7;}
+  .empty{color:var(--muted); font-size:.88rem; padding:20px 0; text-align:center;}
+  footer{text-align:center; padding:18px; color:var(--muted); font-size:.76rem;}
+  @media(max-width:560px){.kpis,.diffgrid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Painel Detalhado</h1>
+  <p>Fragilidades consolidadas por domínio clínico · dados ao vivo</p>
+  <p><a href="painel.html">← painel padrão</a> · <a href="index.html">simulado</a> · <a href="historico.html">anteriores</a></p>
+  <div class="users" id="users"></div>
+</header>
+
+<main>
+  <p class="refresh-note" id="refresh-note"></p>
+  <div id="loading" class="loading">Carregando dados...</div>
+  <div id="content" style="display:none;"></div>
+</main>
+
+<footer>Agrupa os temas por domínio clínico e agrega o erro. Atualiza a cada resultado enviado · Requer ≥2 respostas no tema.</footer>
+
+<script>
+const USERS = ['Vinicius','Leonardo','Ana Teresa'];
+let STATS = null, currentUser = 'Vinicius', showZero = false;
+const $ = id => document.getElementById(id);
+
+function domainOf(tema){
+  const t=(tema||'').toLowerCase();
+  const ped=(tema||'').trim().toLowerCase().indexOf('pediatria')===0;
+  const has=(...ws)=>ws.some(w=>t.indexOf(w)!==-1);
+  if(has('vertigem','vestibular')) return ['NEURO','Vertigem / síndromes vestibulares'];
+  if(has('neuroimun','esclerose múltipla','nmda','neuromielite','lúpica')) return ['NEURO','Neuroimunologia (EM / encefalites / NMO)'];
+  if(has('neuroinfec')) return ['NEURO','Neuroinfecção'];
+  if(has('transtornos do movimento','parkinson','coreia','wilson')) return ['NEURO','Transtornos do movimento'];
+  if(has('demência')) return ['NEURO','Demências'];
+  if(has('medula','cauda equina','mielo')) return ['NEURO','Medula / cauda equina'];
+  if(has('cefaleia','trigêmeo','enxaqueca','hemicrania')) return ['NEURO','Cefaleias'];
+  if(has('epilepsia')) return ['NEURO','Epilepsia'];
+  if(has('neuropatia','guillain','charcot')) return ['NEURO','Neuropatias periféricas'];
+  if(has('cerebrovascular','subaracnóidea','endocardite') || /\bavc\b/.test(t)) return ['NEURO','AVC / cerebrovascular'];
+  if(has('neurônio motor') || /\(ela\)/.test(t)) return ['NEURO','ELA'];
+  if(has('miasten','junção neuromuscular')) return ['NEURO','Miastenia / JNM'];
+  if(has('hipertensão intracraniana','neuro-onco','metanol','emergências / neuro')) return ['NEURO','HIC / emergências neuro'];
+  if(has('neuropediatria','crise febril','west')) return ['NEURO','Neuropediatria'];
+  if(has('neonatolog','prematur','icterícia','sepse','sífilis','citomegalo')) return ['PED','Neonatologia'];
+  if(has('nutrição','anemia','raquitismo','desnutrição','aleitamento','alimentação','dhgna','obesidade','proctocolite')) return ['PED','Nutrição / metabolismo'];
+  if(has('oncologia')) return ['PED','Oncologia'];
+  if(has('imunização','poliomielite')) return ['PED','Imunização'];
+  if(has('endocrino','estatura','hipotireoidismo','puberdade')) return ['PED','Endócrino / crescimento'];
+  if(has('cardiolog','fallot','interventricular')) return ['PED','Cardiologia'];
+  if(has('reumato','kawasaki')) return ['PED','Reumato / vasculites'];
+  if(has('emergênc','anafilaxia','morte súbita')) return ['PED','Emergências'];
+  if(has('saúde coletiva','aps','ética','abuso','marco legal','sigilo')) return ['PED','Saúde coletiva / ética'];
+  if(has('infecciosa','arbovir','dengue','sarampo','leishman','bronquiolite')) return ['PED','Infecto / exantemáticas'];
+  if(has('hematolog','falciforme')) return ['PED','Hematologia'];
+  if(has('adolesc','amenorreia','hemorragia uterina')) return ['PED','Adolescência'];
+  if(has('neurodesenvolv','tdah','tea','enurese')) return ['PED','Neurodesenvolvimento'];
+  if(has('desenvolvimento','puericultura')) return ['PED','Desenvolvimento / puericultura'];
+  return [ped?'PED':'NEURO','Outros'];
+}
+
+function aggregate(ranking){
+  const agg={}, half={NEURO:[0,0], PED:[0,0]};
+  (ranking||[]).forEach(tm=>{
+    const d=domainOf(tm.tema), h=d[0], dom=d[1], key=h+'|'+dom;
+    if(!agg[key]) agg[key]={half:h, dom:dom, erros:0, total:0, tier:tm.tier};
+    agg[key].erros+=tm.erros; agg[key].total+=tm.total;
+    half[h][0]+=tm.erros; half[h][1]+=tm.total;
+  });
+  const rows=Object.keys(agg).map(k=>{const d=agg[k]; d.taxa=d.total? d.erros/d.total:0; return d;})
+              .sort((a,b)=> b.erros-a.erros || b.taxa-a.taxa);
+  return {rows, half};
+}
+
+const tagClass = t => t>=0.5?'high':t>=0.25?'mid':'low';
+const barColor = t => t>=0.7?'var(--red)': t>=0.35?'var(--amber)':'var(--blue)';
+
+function buildUsers(){
+  $('users').innerHTML = USERS.map(u=>`<button class="ubtn${u===currentUser?' active':''}" onclick="selectUser('${u}')">${u}</button>`).join('');
+}
+function selectUser(u){ currentUser=u; buildUsers(); render(); }
+function toggleZero(){ showZero=!showZero; render(); }
+
+function render(){
+  const d = (STATS && STATS[currentUser]) || null;
+  const box = $('content');
+  if(!d || !d.simulados){
+    box.innerHTML = `<div class="empty">Nenhum simulado registrado ainda para ${currentUser}.</div>`;
+    return;
+  }
+  const {rows, half} = aggregate(d.rankingFragilidades);
+  const nE=half.NEURO[0], nT=half.NEURO[1], pE=half.PED[0], pT=half.PED[1];
+  const nTaxa=nT?Math.round(100*nE/nT):0, pTaxa=pT?Math.round(100*pE/pT):0;
+  const totErr=(nE+pE)||1;
+
+  const kpis = `<div class="kpis">
+    <div class="kpi"><div class="lbl">Acerto geral</div><div class="val">${d.percentualGeral ?? '—'}<small>%</small></div>
+      <div class="split"><div class="sn" style="width:${(100*nE/totErr).toFixed(1)}%"></div><div class="sp" style="width:${(100*pE/totErr).toFixed(1)}%"></div></div>
+      <div class="split-cap"><span>Neuro</span><span>Pediatria</span></div></div>
+    <div class="kpi neuro"><div class="lbl">Erro em Neuro</div><div class="val">${nTaxa}<small>%</small></div><div class="sub">${nE}/${nT} erradas</div></div>
+    <div class="kpi ped"><div class="lbl">Erro em Pediatria</div><div class="val">${pTaxa}<small>%</small></div><div class="sub">${pE}/${pT} erradas</div></div>
+  </div>`;
+
+  const crit = rows.filter(r=>r.taxa>=0.7 && r.erros>=4).slice(0,4);
+  const prio = crit.length ? `<h2>🔴 Prioridade máxima</h2>` + crit.map(r=>`
+    <div class="prio"><h3>${r.dom} — ${Math.round(r.taxa*100)}% <span class="badge">${r.erros}/${r.total}</span></h3>
+    <p>Tema ${r.tier||''}. Erro repetido em casos diferentes do mesmo assunto — lacuna de conteúdo, não azar.</p></div>` ).join('') : '';
+
+  const list = rows.filter(r=>showZero || r.erros>0);
+  const ranking = `<h2>Ranking por domínio clínico</h2><div class="card">` + (list.length ? list.map(r=>{
+    const critB = r.taxa>=0.7&&r.erros>=4 ? `<span class="critb">crítico</span>` : '';
+    return `<div class="row"><div>
+      <div class="dname"><span class="tag ${r.half==='NEURO'?'n':'p'}">${r.half==='NEURO'?'NEURO':'PED'}</span>${r.dom}
+        <span class="tier">${r.tier||''}</span>${critB}</div>
+      <div class="bar"><span style="width:${Math.max(Math.round(r.taxa*100),2)}%;background:${barColor(r.taxa)}"></span></div></div>
+      <div class="frac"><b>${Math.round(r.taxa*100)}%</b><br>${r.erros}/${r.total}</div></div>`;
+  }).join('') : `<div class="empty">Sem temas com dados suficientes ainda.</div>`) + `</div>` +
+    (rows.some(r=>r.erros===0) ? `<button class="toggle" onclick="toggleZero()">${showZero?'Ocultar':'Mostrar'} domínios dominados (0% de erro)</button>` : '');
+
+  const dif = (d.rankingDificuldade||[]).filter(x=>x.total>0);
+  const difHtml = dif.length ? `<h2>Desempenho por dificuldade</h2><div class="diffgrid">` + dif.map(x=>{
+    const pct=Math.round(x.taxaErro*100);
+    const cor = pct>=35?'var(--red)': pct>=20?'var(--amber)':'var(--green)';
+    const label = x.dificuldade==='desconhecida' ? 'sem dado' : x.dificuldade;
+    return `<div class="diff"><div class="d">${label}</div><div class="p" style="color:${cor}">${pct}%</div><div class="n">${x.erros}/${x.total} erradas</div></div>`;
+  }).join('') + `</div>` : '';
+
+  box.innerHTML = kpis + prio + ranking + difHtml;
+}
+
+async function load(){
+  try{
+    const res = await fetch('/api/stats', {cache:'no-store'});
+    if(!res.ok) throw new Error('stats');
+    STATS = await res.json();
+    try{ const saved = localStorage.getItem('np_user'); if(saved && USERS.includes(saved)) currentUser = saved; }catch(e){}
+    $('loading').style.display='none';
+    $('content').style.display='block';
+    buildUsers();
+    render();
+    $('refresh-note').textContent = 'Dados atualizados em ' + new Date().toLocaleString('pt-BR');
+  }catch(e){
+    $('loading').textContent = 'Não foi possível carregar o painel agora. Tente novamente em instantes.';
+  }
+}
+buildUsers();
+load();
+</script>
+</body>
+</html>
