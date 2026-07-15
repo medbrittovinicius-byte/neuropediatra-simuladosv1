@@ -1,0 +1,651 @@
+{
+ "date": "2026-07-15",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (VPPB de canal posterior) [REVISÃO ESPAÇADA]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 52 anos de idade, sem comorbidades, relata que há cinco dias apresenta crises de tontura rotatória de curtíssima duração, sempre desencadeadas ao virar-se na cama, ao deitar e ao levantar a cabeça para pegar objetos em prateleiras altas. Cada episódio dura menos de um minuto e cessa espontaneamente se ela fica imóvel. Nega perda auditiva, zumbido, cefaleia ou qualquer déficit neurológico focal. O exame neurológico é inteiramente normal, incluindo marcha e provas cerebelares. À manobra diagnóstica realizada no consultório, ao ser rapidamente reclinada com a cabeça rodada 45 graus para a direita e em leve extensão, surge, após breve latência, nistagmo vertical-torcional (batendo para cima e para a direita), acompanhado de vertigem intensa que se esgota em cerca de 30 segundos.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Doença de Ménière",
+      "b": "Síndrome vestibular central",
+      "c": "Vertigem posicional paroxística benigna do canal posterior direito",
+      "d": "Neurite vestibular direita"
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "O quadro é o protótipo da vertigem posicional paroxística benigna (VPPB): crises de vertigem de SEGUNDOS, deflagradas por mudanças de posição da cabeça em relação à gravidade (deitar, virar na cama, estender o pescoço), com exame neurológico normal e sem sintomas auditivos. A manobra descrita é a de Dix-Hallpike, e o nistagmo vertical-torcional (geotrópico, batendo para a fronte e para o lado testado), com LATÊNCIA de alguns segundos, caráter PAROXÍSTICO/FATIGÁVEL e duração inferior a um minuto, é a assinatura do acometimento do canal semicircular POSTERIOR — o mais afetado, por ser o mais declive. A neurite vestibular (alternativa D) causa vertigem CONTÍNUA por dias, com nistagmo espontâneo unidirecional e impulso cefálico alterado, não vertigem posicional de segundos. A doença de Ménière (alternativa A) exige a tríade de vertigem episódica de minutos a horas + hipoacusia flutuante + zumbido/plenitude aural, ausentes aqui. A síndrome central (alternativa B) daria nistagmo que não fatiga, sem latência, frequentemente puramente vertical para baixo (downbeat) ou mudando de direção, com outros sinais neurológicos — tudo ausente. Pérola: na VPPB o mecanismo é a canalitíase (debris de otocônia deslocada do utrículo para o canal), e por isso o nistagmo segue o plano do canal estimulado."
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica de escolha para resolver o quadro:",
+     "alternativas": {
+      "a": "Corticoterapia oral por sete dias",
+      "b": "Labirintectomia química com gentamicina",
+      "c": "Prescrição contínua de dimenidrinato",
+      "d": "Manobra de reposicionamento de Epley"
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "O tratamento de escolha da VPPB de canal posterior é a manobra de reposicionamento canalicular de Epley, que conduz a otocônia de volta ao utrículo por uma sequência de posições da cabeça; sua eficácia é alta, com resolução em uma a três sessões na maioria dos casos, e pode ser ensinada ao paciente para execução domiciliar. A manobra de Semont é alternativa igualmente eficaz. Os supressores vestibulares, como o dimenidrinato (alternativa C), só devem ser usados por 24 a 72 horas em sintomas muito intensos: seu uso CONTÍNUO é um erro clássico, pois atrapalha a compensação central, causa sonolência e quedas no idoso e não trata a causa mecânica — a VPPB não é doença 'de labirinto inflamado' a ser sedada. A labirintectomia química com gentamicina (alternativa B) é procedimento ablativo reservado à doença de Ménière refratária e incapacitante, jamais indicado na VPPB, que é benigna e autolimitada. A corticoterapia (alternativa A) tem papel discutível na neurite vestibular, não aqui. Pérola de prova: sempre reavaliar com Dix-Hallpike após a manobra para confirmar a negativação do nistagmo; se o nistagmo for HORIZONTAL, suspeitar de acometimento do canal LATERAL, cujo tratamento é a manobra de Lempert (barbecue), diferente do Epley."
+    },
+    {
+     "enunciado": "Indique o achado que, se estivesse presente, obrigaria a investigação de causa central com neuroimagem:",
+     "alternativas": {
+      "a": "Vertigem intensa acompanhada de náusea durante a manobra",
+      "b": "Nistagmo posicional vertical inferior (downbeat) persistente, sem latência e sem fadiga",
+      "c": "Esgotamento do nistagmo à repetição da manobra",
+      "d": "Latência de alguns segundos antes do início do nistagmo"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "O nistagmo posicional que bate persistentemente para BAIXO (downbeat), SEM latência, SEM fadiga e desproporcional aos sintomas, é o principal sinal de alarme de VPPB 'central' ou de lesão de fossa posterior (malformação de Chiari, degeneração cerebelar, lesão de tronco), e obriga ressonância de encéfalo. As demais opções descrevem características TÍPICAS e tranquilizadoras da VPPB benigna periférica: a latência de segundos (alternativa D) reflete o tempo para a otocônia começar a se mover na endolinfa; a fadigabilidade/esgotamento à repetição (alternativa C) é marca da canalitíase e ajuda a distinguir de causa central (que não fatiga); e a vertigem com náusea durante a manobra (alternativa A) é esperada e apenas confirma a resposta, sem qualquer valor de alarme. Pérolas que a banca adora: o nistagmo da VPPB de canal posterior é vertical-TORCIONAL e geotrópico, respeita o plano do canal, e é fatigável — três atributos que, quando ausentes, mudam o raciocínio para o sistema nervoso central. Este bloco reforça, por outro ângulo, o conceito de distinguir vertigem periférica de central, tema em que você vem errando repetidamente."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição / Obesidade e DHGNA no adolescente [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Adolescente do sexo masculino, 14 anos de idade, retorna à consulta com sua mãe que refere que o menor tem ganhado peso e passa muito tempo em frente ao computador. Refere dieta hipercalórica. Nega etilismo e uso de medicamentos. História médica pessoal e familiar sem informações contributórias. Ao exame físico: peso 78 kg; altura 1,66 m (IMC = 28,3 kg/m², acima do percentil 95 para idade e sexo); PA = 130x85 mmHg. Hidratado, corado, sem alterações em pele e fâneros. Auscultas cardíaca e pulmonar sem alterações. Abdome: fígado palpável a 2 cm abaixo do rebordo costal direito, borda romba, superfície lisa. Exames laboratoriais: glicemia de jejum = 105 mg/dL; AST = 48 U/L; ALT = 82 U/L; triglicerídeos = 215 mg/dL; HDL = 36 mg/dL; ultrassonografia abdominal: fígado com ecogenicidade difusamente aumentada.",
+   "perguntas": [
+    {
+     "enunciado": "Com base nos dados apresentados, indique o diagnóstico mais provável para o adolescente:",
+     "alternativas": {
+      "a": "Doença hepática gordurosa não alcoólica.",
+      "b": "Doença de Wilson.",
+      "c": "Hepatite viral crônica.",
+      "d": "Deficiência de alfa-1-antitripsina."
+     },
+     "correta": "a",
+     "dificuldade": "facil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O conjunto obesidade (IMC acima do percentil 95) + dieta hipercalórica e sedentarismo + hepatomegalia de borda romba + elevação de transaminases com predomínio de ALT + dislipidemia (triglicerídeos altos, HDL baixo) + esteatose à ultrassonografia, na ausência de etilismo e de outras causas, define a doença hepática gordurosa não alcoólica (hoje também denominada esteatose hepática associada à disfunção metabólica) — a hepatopatia crônica mais prevalente na infância e adolescência, diretamente ligada à epidemia de obesidade e à resistência insulínica (note a glicemia limítrofe e a hipertensão, compondo o cenário de síndrome metabólica). A deficiência de alfa-1-antitripsina (alternativa D) costuma manifestar-se com colestase neonatal ou doença hepática/pulmonar, sem esse contexto metabólico. A hepatite viral crônica (alternativa C) exigiria fator de risco/sorologia e não se explica pela obesidade; a história é não contributória. A doença de Wilson (alternativa B) é o diferencial 'não perder' em jovem com hepatopatia, mas cursaria com sinais neuropsiquiátricos, anel de Kayser-Fleischer e ceruloplasmina baixa — ausentes; ainda assim, em adolescente com esteatose atípica ou refratária, é mandatório rastreá-la. Pérola: o diagnóstico é de exclusão e a biópsia fica reservada a dúvidas ou suspeita de esteato-hepatite avançada."
+    },
+    {
+     "enunciado": "Indique o marcador laboratorial mais sensível na avaliação do distúrbio identificado:",
+     "alternativas": {
+      "a": "ALT mais elevada do que AST.",
+      "b": "Gama-GT elevada.",
+      "c": "Hiperbilirrubinemia direta importante.",
+      "d": "AST mais elevada do que ALT."
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Na doença hepática gordurosa não alcoólica o padrão típico é a ALT (alanina aminotransferase) MAIS elevada que a AST, refletindo a lesão hepatocelular predominante — a ALT é a transaminase mais sensível e mais específica do fígado, e a relação AST/ALT costuma ser menor que 1 nas fases iniciais. Isso contrasta com a doença hepática ALCOÓLICA, em que a AST supera a ALT (relação AST/ALT maior que 2, pela deficiência de piridoxina e pelo dano mitocondrial) — distinção clássica de prova. Por isso, 'AST mais elevada do que ALT' (alternativa D) descreve justamente o padrão alcoólico, incompatível com o caso. A gama-GT (alternativa B) é sensível para colestase e para consumo alcoólico, mas é INESPECÍFICA e não é o melhor marcador da esteatose metabólica. A hiperbilirrubinemia direta importante (alternativa C) indicaria colestase/obstrução, não esteatose — aqui a bilirrubina não é o marcador. Pérola: a inversão da relação AST/ALT (AST passando a predominar) na doença gordurosa pode sinalizar progressão para fibrose avançada, sendo um sinal de alerta evolutivo."
+    },
+    {
+     "enunciado": "Indique a conduta inicial mais adequada para esse paciente:",
+     "alternativas": {
+      "a": "Iniciar fibrato de imediato para reduzir triglicerídeos.",
+      "b": "Solicitar biópsia hepática para confirmação diagnóstica.",
+      "c": "Iniciar reeducação alimentar, atividade física regular e controle do peso.",
+      "d": "Prescrever corticoide por 14 dias para reduzir o processo inflamatório."
+     },
+     "correta": "c",
+     "dificuldade": "facil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A base do tratamento é a mudança do estilo de vida: reeducação alimentar, atividade física regular e perda de peso gradual — medidas que reduzem a esteatose, melhoram as transaminases, o perfil lipídico e a resistência insulínica, e são a única intervenção com benefício consistente na doença hepática gordurosa da criança e do adolescente. Uma perda ponderal sustentada de cerca de 7 a 10% pode reverter a esteatose e até a esteato-hepatite. O fibrato de imediato (alternativa A) não é a prioridade: os triglicerídeos de 215 mg/dL respondem à mudança de estilo de vida, e o tratamento farmacológico da dislipidemia no adolescente segue critérios específicos, não sendo a conduta inicial. A biópsia hepática (alternativa B) é invasiva e reservada a casos duvidosos ou com suspeita de fibrose/esteato-hepatite significativa — não é necessária para iniciar o manejo neste quadro típico. O corticoide (alternativa D) não tem qualquer indicação: a doença não é uma hepatite autoimune e o corticoide pioraria o ganho de peso e a resistência insulínica, agravando a esteatose. Pérola: o acompanhamento inclui rastrear e tratar comorbidades da síndrome metabólica (hipertensão, pré-diabetes, dislipidemia) e reforçar a adesão familiar, pois a criança raramente muda hábitos sozinha."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroimunologia (esclerose múltipla remitente-recorrente) [REVISÃO ESPAÇADA]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 29 anos de idade, procura atendimento por embaçamento visual e dor à movimentação do olho esquerdo, instalados há uma semana, com perda parcial da visão de cores. Relata que, há oito meses, teve um episódio de dormência ascendente na perna direita que durou três semanas e regrediu espontaneamente, ao qual não deu importância. Ao exame: acuidade visual reduzida à esquerda com defeito pupilar aferente relativo nesse olho; ao solicitar o olhar horizontal para a direita, o olho esquerdo não ultrapassa a linha média e o olho direito apresenta nistagmo. A ressonância de encéfalo mostra múltiplas lesões ovoides hiperintensas em T2, periventriculares, justacorticais e uma infratentorial, algumas com realce pelo gadolínio e outras não. O líquido cefalorraquidiano apresenta bandas oligoclonais restritas ao líquor.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Esclerose múltipla remitente-recorrente",
+      "b": "Encefalomielite disseminada aguda",
+      "c": "Transtorno do espectro da neuromielite óptica",
+      "d": "Neurossarcoidose"
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "O caso reúne disseminação no ESPAÇO (neurite óptica esquerda + oftalmoplegia internuclear por lesão do fascículo longitudinal medial + lesões em topografias características na ressonância) e no TEMPO (episódio sensitivo há oito meses, mais o atual, mais lesões que realçam e lesões que não realçam simultaneamente — sinal de idades diferentes), preenchendo os critérios de McDonald para esclerose múltipla remitente-recorrente. A oftalmoplegia internuclear (olho aduzido que não passa da linha média com nistagmo do olho contralateral abduzido), sobretudo BILATERAL ou em jovem, é praticamente um cartão de visitas da doença. As bandas oligoclonais restritas ao líquor reforçam e permitem demonstrar disseminação no tempo. A neuromielite óptica (alternativa C) cursaria com neurite óptica geralmente bilateral e grave, mielite longitudinalmente extensa, ausência de bandas oligoclonais e anti-AQP4 positivo — perfil oposto. A encefalomielite disseminada aguda (alternativa B) é tipicamente monofásica, pós-infecciosa, com encefalopatia e lesões grandes e confluentes, mais comum em crianças. A neurossarcoidose (alternativa D) costuma dar realce leptomeníngeo basal, acometimento de nervos cranianos (facial), hilo pulmonar alargado e enzima conversora elevada. Pérola: as lesões periventriculares perpendiculares ao corpo caloso são os 'dedos de Dawson'."
+    },
+    {
+     "enunciado": "Indique o exame que melhor demonstra a disseminação no tempo e no espaço, quando a clínica é insuficiente:",
+     "alternativas": {
+      "a": "Ressonância magnética com gadolínio",
+      "b": "Dosagem sérica de vitamina B12",
+      "c": "Tomografia de crânio com contraste",
+      "d": "Potencial evocado somatossensitivo isolado"
+     },
+     "correta": "a",
+     "dificuldade": "facil",
+     "comentario": "A ressonância magnética com gadolínio é o exame central: demonstra a disseminação no ESPAÇO (lesões em pelo menos duas de quatro topografias típicas — periventricular, justacortical/cortical, infratentorial e medular) e no TEMPO (coexistência de lesões que captam e que não captam contraste, ou surgimento de nova lesão em exame de seguimento). Os critérios de McDonald de 2017 permitem, inclusive, firmar o diagnóstico já no primeiro surto quando há bandas oligoclonais no líquor, substituindo a disseminação no tempo. A tomografia (alternativa C) é grosseiramente insensível para as placas desmielinizantes, especialmente as infratentoriais e medulares — não tem papel diagnóstico. O potencial evocado (alternativa D), sobretudo o visual, pode evidenciar lesão subclínica da via óptica, mas isoladamente não estabelece disseminação temporoespacial e hoje é adjuvante. A vitamina B12 (alternativa B) entra apenas no diagnóstico diferencial de mielopatia/neuropatia, não confirma esclerose múltipla. Pérola: bandas oligoclonais estão presentes em mais de 85% dos casos e, quando ausentes, deve-se reconsiderar o diagnóstico e ampliar a investigação para outras causas."
+    },
+    {
+     "enunciado": "Indique a conduta para o surto atual e para a modificação do curso da doença:",
+     "alternativas": {
+      "a": "Imunoglobulina endovenosa mensal como tratamento de base",
+      "b": "Anticoagulação plena e antiagregação",
+      "c": "Apenas observação, pois os surtos são autolimitados",
+      "d": "Metilprednisolona em pulso para o surto e início de terapia modificadora da doença"
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "O surto agudo incapacitante (aqui, a neurite óptica) é tratado com pulso de metilprednisolona endovenosa (1 g/dia por 3 a 5 dias), que ACELERA a recuperação do surto, embora não altere a incapacidade a longo prazo; na falha, considera-se plasmaférese. Em paralelo, confirmado o diagnóstico de esclerose múltipla remitente-recorrente com atividade (dois eventos, lesões que realçam), está indicada uma terapia modificadora da doença para reduzir a taxa de surtos e o acúmulo de incapacidade — o espectro vai de agentes de eficácia moderada (interferona beta, acetato de glatirâmer, teriflunomida, dimetilfumarato) a alta eficácia (natalizumabe, ocrelizumabe, cladribina, fingolimode), com tendência atual de escalonamento precoce em doença ativa. Apenas observar (alternativa C) é erro grave: cada surto pode deixar sequela e a janela terapêutica precoce é decisiva no prognóstico. A imunoglobulina mensal (alternativa A) não é terapia de base padrão na esclerose múltipla (tem uso restrito e evidência fraca). A anticoagulação (alternativa B) não tem qualquer racional — a doença é inflamatória desmielinizante, não vascular. Pérola crucial e que se conecta ao seu ponto fraco: distinguir esclerose múltipla de neuromielite óptica é terapeuticamente vital, porque interferona e fingolimode PIORAM a neuromielite óptica; por isso o anti-AQP4 deve ser checado antes de tratar quando há qualquer dúvida."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências / Asma (crise grave e controle) [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 6 anos de idade, é levada à UPA por apresentar dispneia há 8 horas. Usou salbutamol spray, dois jatos a cada 4 horas, mas mantém o quadro, e a dificuldade de respirar aumentou. Utiliza budesonida inalatória diariamente, mas tem acordado durante a noite quase todos os dias. Ao exame: temperatura 36,8°C, taquicardia, taquipneia, saturação de oxigênio de 90%, tiragem intercostal, fala entrecortada e sibilos bilaterais à ausculta.",
+   "perguntas": [
+    {
+     "enunciado": "Identifique o diagnóstico mais provável e a classificação quanto à gravidade do quadro descrito:",
+     "alternativas": {
+      "a": "Asma brônquica – crise moderada.",
+      "b": "Asma brônquica – crise leve.",
+      "c": "Sibilância por infecção viral das vias aéreas – crise moderada.",
+      "d": "Asma brônquica – crise grave."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A paciente tem asma já conhecida (uso diário de budesonida) e apresenta uma exacerbação com marcadores de GRAVIDADE: saturação de 90% (abaixo de 92% é sinal de crise grave em pediatria), fala ENTRECORTADA (incapacidade de completar frases), tiragem intercostal (uso de musculatura acessória), taquipneia e taquicardia, sem resposta ao broncodilatador domiciliar. Esse conjunto define crise GRAVE. A crise leve (alternativa B) cursa com dispneia mínima, fala em frases completas, saturação normal e boa resposta ao beta-2. A crise moderada (alternativa A) tem sintomas intermediários, saturação entre 92 e 95%, fala em frases curtas — a saturação de 90% e a fala entrecortada já ultrapassam esse patamar. A sibilância viral (alternativa C) é a armadilha: embora infecções virais desencadeiem sibilância, aqui há diagnóstico prévio de asma com tratamento de manutenção e despertares noturnos frequentes (sinal de controle inadequado), o que caracteriza exacerbação asmática, não um episódio viral isolado; além disso, a gravidade foi subclassificada como moderada na opção. Pérola: sinais de crise MUITO grave/iminência de parada seriam sonolência, tórax silencioso, cianose e bradicardia — vigiar."
+    },
+    {
+     "enunciado": "Indique a conduta farmacológica imediata preconizada:",
+     "alternativas": {
+      "a": "Corticosteroide spray e beta-2-agonista de curta duração em nebulização.",
+      "b": "Oxigenoterapia, corticosteroide sistêmico e beta-2-agonista de curta duração em nebulização.",
+      "c": "Beta-2-agonista de curta duração, spray com espaçador, 2 jatos a cada 2 horas.",
+      "d": "Corticosteroide oral isolado e observação clínica."
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Na crise GRAVE, a tríade imediata é: OXIGÊNIO (alvo de saturação ≥ 94-95%, pois a paciente está a 90%), BETA-2-agonista de curta duração em nebulização (idealmente contínua ou a cada 20 minutos na primeira hora; associar brometo de ipratrópio nas crises graves potencializa a broncodilatação) e CORTICOSTEROIDE SISTÊMICO precoce (oral ou endovenoso — prednisolona 1 a 2 mg/kg), que reduz a inflamação, previne recaídas e encurta a crise, com benefício tanto maior quanto mais cedo administrado. A opção C (beta-2 com espaçador a cada 2 horas, sem corticoide sistêmico nem oxigênio) subtrata uma crise grave e mantém intervalo longo demais entre as doses. A opção A troca o corticoide sistêmico por corticoide inalatório em spray, insuficiente para controlar a inflamação de uma crise grave em curso. A opção D (corticoide oral isolado e observação) omite o broncodilatador e o oxigênio, que são o alicerce do alívio imediato da obstrução — conduta claramente incompleta. Pérola: o sulfato de magnésio endovenoso é a medida de resgate na crise grave refratária à primeira hora de tratamento, antes de escalar para ventilação."
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica para controle da doença nesta paciente:",
+     "alternativas": {
+      "a": "Associação de fluticasona e fenoterol por via inalatória.",
+      "b": "Associação de budesonida e formoterol por via inalatória.",
+      "c": "Budesonida inalatória e corticosteroide sistêmico contínuo.",
+      "d": "Budesonida inalatória, corticosteroide sistêmico e antileucotrieno."
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A paciente tem asma MAL CONTROLADA em monoterapia com corticoide inalatório (despertares noturnos quase diários e exacerbação grave), o que indica ESCALONAR o tratamento de manutenção (step up). A escolha correta é associar ao corticoide inalatório um beta-2 de LONGA duração, na forma da combinação budesonida + formoterol — esquema que, além de manutenção, pode ser usado como estratégia de alívio (MART), reduzindo exacerbações. A combinação fluticasona + FENOTEROL (alternativa A) é inadequada, pois o fenoterol é beta-2 de CURTA duração (resgate), não de longa — não serve como controlador de base. A opção D acrescenta corticoide sistêmico de rotina e antileucotrieno à budesonida: corticoide sistêmico contínuo NÃO é terapia de manutenção da asma (reservado a casos graves refratários, pelos efeitos adversos), e o antileucotrieno é adjuvante de menor eficácia que o beta-2 de longa. A opção C também mantém corticoide sistêmico contínuo, igualmente inapropriado. Pérola: o objetivo do controle é usar a menor dose eficaz para manter a paciente sem sintomas e sem exacerbações, reavaliando a técnica inalatória e a adesão antes de subir degrau — má técnica e não adesão são as causas mais comuns de 'asma de difícil controle'."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Epilepsia (epilepsia do lobo temporal / esclerose mesial temporal) [REVISÃO ESPAÇADA — cota individual]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 24 anos de idade, é levado ao ambulatório por crises recorrentes desde a adolescência. Descreve que os episódios começam com uma sensação epigástrica ascendente acompanhada de medo intenso e de uma percepção de já ter vivido a cena (déjà-vu). Em seguida, segundo testemunhas, ele fica com o olhar parado, faz movimentos repetitivos de mastigação e manipula as próprias roupas com a mão direita, sem responder a chamados, por cerca de um minuto, com confusão e dificuldade para falar por vários minutos depois. Relata que aos três anos teve uma crise febril muito prolongada, que exigiu internação. O exame neurológico intercrítico é normal. A ressonância mostra redução volumétrica do hipocampo esquerdo com hipersinal em FLAIR.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Crise psicogênica não epiléptica",
+      "b": "Epilepsia do lobo temporal mesial por esclerose hipocampal",
+      "c": "Epilepsia mioclônica juvenil",
+      "d": "Crises de ausência típicas"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "A semiologia é clássica de crise focal com comprometimento da consciência originada no lobo temporal MESIAL: aura epigástrica ascendente e fenômenos experienciais (medo, déjà-vu) por descarga na amígdala/hipocampo, seguida de parada comportamental com automatismos oroalimentares (mastigação) e manuais (manipular roupas), e período pós-ictal com confusão e disfasia (sugerindo hemisfério dominante). O antecedente de crise febril prolongada na infância e a ressonância com atrofia hipocampal e hipersinal em FLAIR fecham a esclerose mesial temporal — a causa mais comum de epilepsia focal farmacorresistente do adulto. A epilepsia mioclônica juvenil (alternativa C) cursa com mielocronias matinais, crises tônico-clônicas generalizadas e ausências, com eletroencefalograma de poliponta-onda generalizada e ressonância normal — perfil totalmente distinto. As ausências típicas (alternativa D) são breves (segundos), sem aura, sem automatismos complexos e sem confusão pós-ictal, com padrão de ponta-onda a 3 Hz, próprias da infância. A crise psicogênica (alternativa A) não teria a estereotipia, a aura epigástrica característica nem, sobretudo, o correlato estrutural na ressonância. Pérola: a tríade crise febril complexa na infância + aura epigástrica/déjà-vu + esclerose hipocampal é altíssimo valor de prova."
+    },
+    {
+     "enunciado": "Indique o exame que melhor caracteriza a origem eletrográfica das crises:",
+     "alternativas": {
+      "a": "Eletroencefalograma, preferencialmente prolongado com privação de sono",
+      "b": "Tomografia de crânio sem contraste",
+      "c": "Doppler transcraniano",
+      "d": "Eletroneuromiografia"
+     },
+     "correta": "a",
+     "dificuldade": "facil",
+     "comentario": "O eletroencefalograma é o exame que caracteriza a atividade epileptiforme; na epilepsia do lobo temporal mesial, o achado típico são descargas (pontas ou ondas agudas) na região temporal anterior, muitas vezes evidenciadas apenas em registro PROLONGADO, com privação de sono ou em vídeo-eletroencefalografia, já que o traçado interictal de rotina pode ser normal em boa parte dos pacientes. Quando se cogita cirurgia, a monitorização vídeo-EEG prolongada é essencial para lateralizar o foco e correlacioná-lo à lesão estrutural. A tomografia (alternativa B) é pouco sensível para esclerose hipocampal — a ressonância com protocolo de epilepsia é que evidencia a atrofia e o hipersinal, mas ela avalia a ESTRUTURA, não a atividade elétrica, que é o que a pergunta pede. A eletroneuromiografia (alternativa D) estuda nervo periférico e músculo, sem qualquer papel aqui. O Doppler transcraniano (alternativa C) avalia fluxo em artérias intracranianas, irrelevante para epilepsia. Pérola: a combinação de ressonância (lesão) + vídeo-EEG (foco elétrico concordante) + avaliação neuropsicológica é a base da seleção para cirurgia de epilepsia."
+    },
+    {
+     "enunciado": "Sabendo que o paciente já não responde a dois fármacos antiepilépticos bem indicados e em doses adequadas, indique a conduta mais apropriada:",
+     "alternativas": {
+      "a": "Suspender toda a medicação e apenas observar",
+      "b": "Encaminhar para avaliação em centro de cirurgia de epilepsia",
+      "c": "Associar um terceiro, um quarto e um quinto fármacos em sequência",
+      "d": "Indicar dieta cetogênica como única medida"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "A falha de DOIS fármacos antiepilépticos apropriados, bem tolerados e em doses adequadas, define epilepsia FARMACORRESISTENTE (conceito da Liga Internacional contra a Epilepsia). Nesse cenário, especialmente com lesão estrutural bem definida e concordante — esclerose mesial temporal —, a conduta de maior impacto é encaminhar a um centro de cirurgia de epilepsia: a lobectomia temporal/amígdalo-hipocampectomia proporciona controle de crises (Engel I) em cerca de 60 a 70% desses pacientes, resultado muito superior ao de qualquer novo fármaco. Ensaios randomizados demonstraram superioridade da cirurgia sobre o tratamento clínico continuado nessa população. Empilhar um terceiro, quarto e quinto fármacos (alternativa C) tem probabilidade baixíssima de controlar as crises (cada droga adicional após a segunda falha rende poucos por cento de chance de liberdade de crises) e apenas soma efeitos adversos e adia a solução — é justamente o erro que a questão pune. A dieta cetogênica (alternativa D) tem papel em epilepsias refratárias sobretudo pediátricas e como adjuvante, não como única medida em candidato cirúrgico ideal. Suspender tudo e observar (alternativa A) exporia o paciente a crises e ao risco de morte súbita na epilepsia (SUDEP). Pérola: a farmacorresistência com lesão ressecável é indicação de referência PRECOCE, não de última hora."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (AVC isquêmico agudo / reperfusão)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 68 anos de idade, hipertensa e com fibrilação atrial, é trazida ao pronto-socorro 1 hora e 40 minutos após início súbito de fraqueza no dimídio direito e dificuldade para falar, presenciado pela família. Ao exame: vígil, afasia de expressão, desvio do olhar conjugado para a esquerda, hemiplegia direita e hemi-hipoestesia direita, com pontuação 16 na escala do National Institutes of Health. A glicemia capilar é de 110 mg/dL e a pressão arterial de 168x92 mmHg. A tomografia de crânio sem contraste não mostra hemorragia nem hipodensidade extensa estabelecida; a angiotomografia evidencia oclusão do segmento M1 da artéria cerebral média esquerda.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o mecanismo mais provável do evento:",
+     "alternativas": {
+      "a": "Cardioembolia por fibrilação atrial",
+      "b": "Doença de pequenos vasos (lacunar)",
+      "c": "Trombose venosa cerebral",
+      "d": "Vasoespasmo por hemorragia subaracnóidea"
+     },
+     "correta": "a",
+     "dificuldade": "facil",
+     "comentario": "O quadro é de AVC isquêmico de grande artéria com oclusão proximal (M1) e déficit cortical extenso (afasia, desvio do olhar, hemiplegia, escala 16), em paciente com FIBRILAÇÃO ATRIAL — o substrato clássico da cardioembolia, mecanismo responsável por cerca de 20 a 30% dos AVC isquêmicos e tipicamente associado a oclusões de grandes vasos e déficits graves de instalação súbita e máxima desde o início. A doença de pequenos vasos/lacunar (alternativa B) produz síndromes lacunares puras (motora pura, sensitiva pura, disártrica-mão inábil), SEM afasia, sem desvio do olhar e com escala baixa, por lesão subcortical pequena — incompatível com oclusão de M1. A trombose venosa cerebral (alternativa C) cursa com cefaleia progressiva, crises epilépticas, edema e sinais que não respeitam território arterial, geralmente em jovens com estados protrombóticos. O vasoespasmo da hemorragia subaracnóidea (alternativa D) ocorre dias após uma cefaleia explosiva sentinela e a tomografia mostraria sangue nas cisternas — aqui não há hemorragia. Pérola: a fibrilação atrial exige, na prevenção secundária, anticoagulação plena, iniciada após um intervalo que depende do tamanho do infarto (regra prática 1-3-6-12 dias)."
+    },
+    {
+     "enunciado": "Considerando a janela terapêutica e a oclusão de grande vaso, indique a estratégia de reperfusão indicada:",
+     "alternativas": {
+      "a": "Ácido acetilsalicílico isolado, por via oral",
+      "b": "Anticoagulação plena imediata com heparina",
+      "c": "Redução agressiva e imediata da pressão para valores normais",
+      "d": "Trombólise endovenosa seguida de trombectomia mecânica"
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "A paciente está dentro da janela de 4,5 horas, sem contraindicações citadas, com tomografia sem hemorragia e sem grande área já estabelecida — portanto candidata a TROMBÓLISE endovenosa (alteplase ou tenecteplase). Além disso, tem oclusão de grande vaso proximal (M1) demonstrada na angiotomografia, o que a torna candidata a TROMBECTOMIA mecânica; a estratégia atual é o tratamento combinado (trombólise seguida de trombectomia) quando ambos são elegíveis, pois a terapia endovascular aumenta expressivamente a chance de independência funcional em oclusões proximais. O ácido acetilsalicílico isolado (alternativa A) é indicado quando NÃO há elegibilidade para reperfusão, ou após 24 horas da trombólise — usá-lo agora desperdiçaria a janela terapêutica. A anticoagulação plena imediata (alternativa B) é contraindicada na fase aguda do AVC extenso pelo alto risco de transformação hemorrágica, mesmo na fibrilação atrial — a anticoagulação entra na prevenção secundária, depois. A redução agressiva da pressão (alternativa C) é deletéria: no candidato à trombólise permite-se até 185x110 mmHg, e reduções bruscas comprometem a penumbra isquêmica. Pérola: 'tempo é cérebro' — cerca de 1,9 milhão de neurônios são perdidos por minuto de oclusão."
+    },
+    {
+     "enunciado": "Indique o parâmetro que mais influencia o benefício da terapia de reperfusão:",
+     "alternativas": {
+      "a": "O sexo do paciente",
+      "b": "O valor absoluto da pressão diastólica na admissão",
+      "c": "O tempo decorrido desde o início dos sintomas",
+      "d": "A presença de cefaleia associada"
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "O TEMPO é a variável determinante: quanto mais precoce a reperfusão, maior a proporção de tecido salvável (penumbra) e melhor o desfecho funcional, tanto para a trombólise (benefício decrescente ao longo das 4,5 horas) quanto para a trombectomia (janela padrão de até 6 horas, estendida a 24 horas em casos selecionados por neuroimagem de perfusão com mismatch favorável, conforme os estudos DAWN e DEFUSE-3). Daí os indicadores de qualidade porta-agulha (idealmente abaixo de 60 minutos) e porta-punção. A pressão diastólica isolada (alternativa B) importa como critério de elegibilidade e segurança, mas não é o fator que mais governa o benefício. O sexo (alternativa A) não é determinante do benefício da reperfusão. A cefaleia (alternativa D) é pouco comum no AVC isquêmico e não influencia a decisão de reperfundir. Pérola operacional: em todo paciente com déficit focal súbito, deve-se estabelecer com precisão o horário de início (ou o último momento visto bem, no caso do AVC ao despertar), pois é ele que define a janela — e, quando o horário é desconhecido, a neuroimagem avançada (mismatch difusão-FLAIR ou perfusão) pode habilitar o tratamento."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas / Infecção do trato urinário no lactente [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "ALTO",
+   "vinheta": "Menino de 6 meses de idade é levado à UPA com relato de febre alta e irritação há cerca de 36 horas. O exame físico mostra regular estado geral, temperatura de 38,7°C, hidratado e corado, sem alterações ao exame segmentar. A mãe informa episódios de infecção urinária aos 3 meses e há 6 semanas, tratados com sulfametoxazol-trimetoprima e cefalexina, respectivamente.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o exame que é padrão-ouro para avaliar foco inflamatório renal ativo e sequelas de infecções anteriores:",
+     "alternativas": {
+      "a": "Tomografia de abdome.",
+      "b": "Ultrassonografia de rins e vias urinárias.",
+      "c": "Radiografia simples de abdome.",
+      "d": "Cintilografia renal com DMSA."
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A cintilografia renal com DMSA (ácido dimercaptossuccínico marcado com tecnécio-99m) é o padrão-ouro para detectar pielonefrite aguda (áreas de captação reduzida por inflamação do parênquima) e, feita tardiamente (após 4 a 6 meses), para identificar CICATRIZES renais permanentes — desfecho que se busca prevenir. A ultrassonografia de rins e vias urinárias (alternativa B) é o exame inicial de imagem e avalia anatomia, dilatação, tamanho renal e malformações, mas tem BAIXA sensibilidade para pielonefrite aguda e para cicatrizes discretas — não é padrão-ouro para foco inflamatório. A tomografia de abdome (alternativa A) detecta pielonefrite, mas expõe a criança a radiação elevada e contraste, sem vantagem sobre o DMSA para essa finalidade. A radiografia simples (alternativa C) é praticamente inútil para avaliar o parênquima renal. Contexto importante: neste lactente com ITU FEBRIL DE REPETIÇÃO, a investigação de imagem (ultrassom e, conforme achados, uretrocistografia miccional para pesquisar refluxo vesicoureteral, além do DMSA) é mandatória. Pérola: a uretrocistografia miccional é o exame que diagnostica e gradua o refluxo vesicoureteral, principal fator predisponente a ITU de repetição e a cicatriz renal na infância."
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais apropriada neste caso:",
+     "alternativas": {
+      "a": "Iniciar amoxicilina-clavulanato oral por 10 dias.",
+      "b": "Repetir cefalexina por via oral.",
+      "c": "Suspender antibiótico até confirmação microbiológica.",
+      "d": "Introduzir ceftriaxona parenteral até resultado da cultura."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Trata-se de lactente com ITU febril de REPETIÇÃO e histórico de uso recente de dois antibióticos (sulfametoxazol-trimetoprima e cefalexina), cenário de risco elevado para germes RESISTENTES. A conduta mais segura é iniciar antibioticoterapia PARENTERAL de amplo espectro empírica — ceftriaxona — após coleta de urocultura, ajustando conforme o antibiograma. A escolha empírica deve cobrir os uropatógenos habituais (Escherichia coli à frente) considerando o padrão de resistência local e a exposição prévia. Repetir a cefalexina (alternativa B) é inadequado, pois foi usada há 6 semanas e pode ter selecionado resistência, além de ter cobertura limitada para pielonefrite. A amoxicilina-clavulanato oral (alternativa A) poderia ser opção em ITU não complicada de baixo risco, mas neste lactente com recorrência e exposição recente prefere-se a via parenteral inicial. Suspender antibiótico e aguardar cultura (alternativa C) é conduta perigosa: a ITU febril no lactente é pielonefrite até prova em contrário e o tratamento empírico precoce previne dano renal — não se espera a cultura para começar. Pérola: coletar a urina de forma adequada (jato médio no continente, ou cateterização/punção suprapúbica no lactente) é essencial para evitar contaminação e diagnóstico equivocado."
+    },
+    {
+     "enunciado": "Indique a complicação mais temida de episódios recorrentes de infecção urinária nesta faixa etária:",
+     "alternativas": {
+      "a": "Alterações transitórias do pH urinário.",
+      "b": "Pielonefrite aguda sem sequelas.",
+      "c": "Cálculo vesical.",
+      "d": "Cicatriz renal e hipertensão arterial secundária."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A complicação mais temida da ITU febril de repetição na primeira infância é a CICATRIZ RENAL (nefropatia de refluxo/cicatricial), que resulta do dano inflamatório repetido do parênquima, sobretudo quando há refluxo vesicoureteral associado. As cicatrizes reduzem a massa de néfrons funcionantes e, a longo prazo, levam a HIPERTENSÃO ARTERIAL secundária, proteinúria e, nos casos extensos e bilaterais, doença renal crônica — daí a importância de diagnosticar e tratar precocemente e de investigar o refluxo. A pielonefrite aguda 'sem sequelas' (alternativa B) descreve o episódio agudo, não a complicação de longo prazo, e o próprio termo 'sem sequelas' contradiz o que se teme. O cálculo vesical (alternativa C) pode associar-se a ITU por germes produtores de urease, mas não é a complicação principal nem a mais temida nesta faixa. Alterações transitórias do pH urinário (alternativa A) são achados laboratoriais banais e reversíveis, sem repercussão clínica relevante. Pérola: por isso as diretrizes recomendam, após ITU febril em lactente, seguimento com controle pressórico e vigilância da função renal, além de investigar e manejar o refluxo vesicoureteral (medidas comportamentais, profilaxia em casos selecionados, correção cirúrgica em graus altos refratários)."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Junção Neuromuscular (miastenia gravis)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 32 anos de idade, refere que há três meses apresenta queda das pálpebras e visão dupla que pioram ao longo do dia, sobretudo à noite e quando lê por tempo prolongado, melhorando após repouso. Nas últimas semanas passou a notar cansaço para mastigar alimentos duros, engasgos com líquidos e voz anasalada ao fim de conversas longas. Nega dor, alteração de sensibilidade ou de esfíncteres. Ao exame: ptose bilateral que se acentua ao olhar para cima de forma sustentada; a força proximal dos membros diminui após esforço repetido e se recupera com o descanso. Os reflexos e a sensibilidade estão preservados. Aplicada bolsa de gelo sobre a pálpebra por dois minutos, há melhora evidente da ptose.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Oftalmoplegia por lesão do III nervo",
+      "b": "Síndrome de Guillain-Barré",
+      "c": "Miastenia gravis",
+      "d": "Distrofia miotônica"
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "A tríade fatigabilidade + flutuação + piora vespertina, acometendo musculatura ocular (ptose, diplopia), bulbar (disfagia, disartria, voz anasalada) e proximal de membros, com poupança de sensibilidade, reflexos e esfíncteres, é o quadro típico da miastenia gravis — doença autoimune por anticorpos contra o receptor de acetilcolina na membrana pós-sináptica da junção neuromuscular. O teste do gelo positivo (melhora da ptose após resfriamento, que reduz a atividade da acetilcolinesterase) é simples e bastante sugestivo. A síndrome de Guillain-Barré (alternativa B) cursa com fraqueza ASCENDENTE, ARREFLEXIA e frequentemente parestesias, sem o padrão flutuante e fatigável ocular. A paralisia do III nervo (alternativa A) daria ptose e oftalmoparesia FIXAS, geralmente com midríase e sem fatigabilidade — e não explicaria os sintomas bulbares e de membros. A distrofia miotônica (alternativa D) apresenta miotonia (dificuldade de relaxamento muscular), fraqueza distal, catarata, calvície e envolvimento sistêmico, com quadro crônico e progressivo, não flutuante. Pérola: a fraqueza que PIORA com o uso e MELHORA com o repouso é a marca semiológica; peça ao paciente para manter o olhar para cima e observe a ptose se instalar."
+    },
+    {
+     "enunciado": "Indique a investigação complementar mais específica para confirmar o diagnóstico:",
+     "alternativas": {
+      "a": "Dosagem de anticorpos antirreceptor de acetilcolina",
+      "b": "Ressonância magnética de encéfalo",
+      "c": "Biópsia muscular com dosagem de distrofina",
+      "d": "Punção lombar para pesquisa de bandas oligoclonais"
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "A dosagem de anticorpos antirreceptor de acetilcolina (anti-AChR) é o exame mais específico e o primeiro a solicitar: positivo em cerca de 85% das formas generalizadas (e em proporção menor, 50 a 70%, das puramente oculares). Quando negativo, pesquisa-se o anti-MuSK e, na sequência, o anti-LRP4; os casos sem anticorpos detectáveis são ditos soronegativos. A eletroneuromiografia com estimulação repetitiva (queda/decremento maior que 10% da amplitude) e, sobretudo, a eletromiografia de fibra única (aumento do jitter, o teste mais sensível) complementam a confirmação, especialmente nos soronegativos. É obrigatório, ainda, solicitar tomografia de tórax para investigar TIMOMA, presente em cerca de 10 a 15% e associado à doença. A ressonância de encéfalo (alternativa B) é normal e serve apenas para afastar diferenciais. A biópsia com distrofina (alternativa C) investiga distrofinopatias (Duchenne/Becker), quadro clínico distinto. A punção lombar com bandas oligoclonais (alternativa D) pesquisa doença desmielinizante central, sem relação com a junção neuromuscular. Pérola: solicitar sempre função tireoidiana, pois doenças autoimunes tireoidianas coexistem com frequência."
+    },
+    {
+     "enunciado": "Indique o tratamento sintomático inicial de escolha para o controle dos sintomas:",
+     "alternativas": {
+      "a": "Timectomia imediata em todos os casos",
+      "b": "Piridostigmina",
+      "c": "Prednisona em pulso único",
+      "d": "Imunoglobulina endovenosa mensal profilática"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "O tratamento sintomático de primeira linha é a piridostigmina, um inibidor da acetilcolinesterase que aumenta a disponibilidade de acetilcolina na fenda sináptica e melhora a força de forma rápida, embora não modifique o curso autoimune da doença. Para controle de fundo, associam-se imunossupressores — corticoide (introduzido de forma gradual e ambulatorial, pois o início abrupto em dose alta pode causar piora paradoxal transitória, inclusive crise), azatioprina, micofenolato; nas formas refratárias, rituximabe ou eculizumabe. A imunoglobulina e a plasmaférese ficam reservadas às CRISES miastênicas e à preparação pré-operatória, não como profilaxia mensal de rotina (alternativa D). A prednisona em pulso único (alternativa C) não é o esquema adequado e, iniciada sem cuidado, pode agravar a fraqueza. A timectomia (alternativa A) está indicada em pacientes com timoma e é benéfica em pacientes jovens com miastenia generalizada anti-AChR positiva sem timoma, mas NÃO em 'todos os casos' — não se indica de rotina na forma puramente ocular nem na doença anti-MuSK. Pegadinha clássica de prova: diversos fármacos pioram a miastenia (aminoglicosídeos, fluoroquinolonas, macrolídeos, betabloqueadores, magnésio) e devem ser evitados."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas / Otite média aguda no lactente [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "ALTO",
+   "vinheta": "Menina de 8 meses é levada à UPA por febre há 3 dias e irritabilidade, com sono agitado e choro frequente. A mãe relata que, há cerca de uma semana, o bebê apresentou nariz entupido, coriza hialina e tosse leve, sintomas que haviam melhorado, quase totalmente, antes da febre reiniciar. Nega vômitos ou diarreia. Alimentação e diurese mantidas, porém chora ao mamar e ao deitar. A lactente nasceu a termo, sem comorbidades; tem vacinas em dia. Ao exame físico, mostra-se irritada, chorosa, sem sinais de toxemia. Temperatura 38,7°C; FC 132 bpm; FR 32 irpm. Narinas com discreta obstrução, secreção seromucosa. Orofaringe levemente hiperemiada, sem exsudato. Sem linfonodomegalia cervical ou sinais meníngeos. Auscultas cardíaca e pulmonar normais; abdome sem alterações. Otoscopia à direita: membrana timpânica hiperemiada, abaulada, opaca, sem reflexo luminoso, com líquido retrotimpânico visível. À esquerda: membrana íntegra, translúcida, reflexo luminoso preservado.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a explicação fisiopatológica para o surgimento do quadro atual:",
+     "alternativas": {
+      "a": "Migração de bactérias hematogênicas para o ouvido médio.",
+      "b": "Colonização da nasofaringe por agente viral de alta replicação.",
+      "c": "Edema da mucosa nasal e disfunção da tuba auditiva, com contaminação do ouvido médio.",
+      "d": "Inflamação viral e infecção secundária da membrana timpânica."
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A otite média aguda tipicamente sucede uma infecção viral das vias aéreas superiores (como a descrita: coriza e obstrução que melhoraram e depois a febre retornou). O mecanismo é o EDEMA da mucosa nasofaríngea e a DISFUNÇÃO da tuba auditiva (de Eustáquio), que no lactente é mais curta, horizontalizada e complacente: o comprometimento da drenagem e da ventilação do ouvido médio gera pressão negativa, acúmulo de secreção e ascensão de patógenos da nasofaringe para a orelha média, onde proliferam. A migração hematogênica (alternativa A) não é o mecanismo da otite média aguda comum, que é por CONTIGUIDADE via tuba auditiva. A colonização apenas viral da nasofaringe (alternativa B) descreve o pródromo, mas não explica a otite bacteriana instalada com abaulamento timpânico. 'Infecção secundária da membrana timpânica' (alternativa D) localiza erroneamente o processo na própria membrana (isso seria a miringite), quando a doença é do OUVIDO MÉDIO (a cavidade retrotimpânica), com a membrana apenas refletindo o processo (abaulada, opaca, com líquido atrás). Pérola: os achados otoscópicos de OMA são abaulamento (o mais específico), opacificação e hiperemia da membrana, com derrame retrotimpânico — a hiperemia isolada, sem abaulamento, não fecha o diagnóstico."
+    },
+    {
+     "enunciado": "Indique o agente etiológico mais frequentemente envolvido nesse tipo de infecção em lactentes:",
+     "alternativas": {
+      "a": "Haemophilus influenzae tipo b.",
+      "b": "Moraxella catarrhalis.",
+      "c": "Vírus sincicial respiratório.",
+      "d": "Streptococcus pneumoniae."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O agente bacteriano mais frequente da otite média aguda é o Streptococcus pneumoniae (pneumococo), seguido pelo Haemophilus influenzae NÃO tipável e pela Moraxella catarrhalis. Mesmo após a vacinação pneumocócica conjugada — que reduziu os sorotipos vacinais e a doença invasiva —, o pneumococo permanece como principal causa isolada nas otites. A Moraxella catarrhalis (alternativa B) é causa comum, mas menos frequente que o pneumococo, e cursa com maior taxa de resolução espontânea. O vírus sincicial respiratório (alternativa C) e outros vírus participam do pródromo e podem coexistir no derrame, mas a pergunta se refere ao agente da INFECÇÃO bacteriana estabelecida, e a otite média aguda purulenta é predominantemente bacteriana. O Haemophilus influenzae tipo B (alternativa A) é a pegadinha importante: o agente da otite é o Haemophilus NÃO tipável, e não o tipo b — este último causa doença invasiva (meningite, epiglotite) e foi drasticamente reduzido pela vacina. Pérola: a distinção entre H. influenzae não tipável (otite, sinusite) e H. influenzae tipo b (doença invasiva) é cobrada com frequência e muda completamente a epidemiologia."
+    },
+    {
+     "enunciado": "Considerando a idade e o quadro clínico apresentados, indique a conduta terapêutica mais adequada:",
+     "alternativas": {
+      "a": "Cefalosporina e timpanostomia com aspiração da secreção.",
+      "b": "Corticoide sistêmico e anti-histamínico por 5 dias.",
+      "c": "Amoxicilina em dose habitual e timpanostomia.",
+      "d": "Amoxicilina em dose alta e analgesia."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Em lactente MENOR de 2 anos com otite média aguda confirmada (abaulamento timpânico, otalgia manifesta pelo choro ao mamar/deitar) e febre, indica-se antibioticoterapia — não se aplica aqui a conduta expectante (observação por 48-72 horas), reservada a crianças maiores, com doença unilateral e sintomas leves. O antibiótico de primeira linha é a AMOXICILINA em DOSE ALTA (80 a 90 mg/kg/dia), para superar pneumococos com resistência intermediária à penicilina, sempre associada a ANALGESIA/antitérmico (a dor é frequentemente subvalorizada e é queixa central). A amoxicilina em dose habitual (alternativa C) é insuficiente para cobrir o pneumococo de sensibilidade reduzida, e a timpanostomia não é conduta de primeira linha na otite aguda não complicada. O corticoide e anti-histamínico (alternativa B) NÃO têm eficácia comprovada na otite média aguda e não devem ser usados. A cefalosporina com timpanostomia e aspiração (alternativa A) é conduta excessiva para o primeiro episódio: a timpanocentese/timpanostomia fica reservada a falha terapêutica, complicações supurativas ou casos selecionados. Pérola: amoxicilina-clavulanato entra como segunda linha (falha em 48-72 horas, uso recente de amoxicilina, otite-conjuntivite associada sugerindo Haemophilus produtor de betalactamase)."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença do Neurônio Motor (esclerose lateral amiotrófica)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 57 anos de idade, procura atendimento por fraqueza progressiva e assimétrica iniciada na mão direita há oito meses, com dificuldade crescente para abotoar roupas e girar chaves, e agora começa a tropeçar. Relata cãibras frequentes e percepção de 'tremores finos' sob a pele. Nega dor, alteração sensitiva, distúrbio visual ou esfincteriano. Ao exame: atrofia e fasciculações nos músculos das mãos e da língua; força reduzida assimétrica; reflexos profundos VIVOS mesmo em segmentos atróficos, com sinal de Hoffmann à direita e reflexo cutâneo-plantar em extensão bilateral; sensibilidade normal em todas as modalidades. A função cognitiva está preservada.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Mielopatia cervical espondilótica isolada",
+      "b": "Esclerose lateral amiotrófica",
+      "c": "Polineuropatia desmielinizante inflamatória crônica",
+      "d": "Atrofia muscular espinhal do adulto"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "A coexistência, no mesmo paciente e em múltiplas regiões, de sinais de neurônio motor INFERIOR (atrofia, fasciculações em mãos e língua, cãibras) e de neurônio motor SUPERIOR (reflexos vivos em segmentos atróficos — combinação altamente sugestiva —, Hoffmann, Babinski), com progressão e ausência absoluta de comprometimento sensitivo, esfincteriano e, aqui, cognitivo, define a esclerose lateral amiotrófica. A dissociação entre atrofia importante e reflexos exaltados é quase patognomônica. A polineuropatia desmielinizante crônica (alternativa C) é doença puramente do neurônio motor/sensitivo inferior, com fraqueza, arreflexia e frequentemente déficit SENSITIVO — não há sinais piramidais. A mielopatia cervical espondilótica (alternativa A) pode dar sinais mistos nos membros (inferior nos superiores por lesão radicular, superior nos inferiores por compressão medular), mas cursa tipicamente com nível sensitivo, dor cervical e não explica as fasciculações de LÍNGUA (que denunciam acometimento bulbar, acima do canal cervical). A atrofia muscular espinhal do adulto (alternativa D) é doença apenas do neurônio motor inferior, sem sinais piramidais. Pérola: fasciculações de língua com atrofia apontam para acometimento do neurônio motor inferior bulbar e ajudam a diferenciar de compressão medular cervical."
+    },
+    {
+     "enunciado": "Indique o exame que mais contribui para sustentar o diagnóstico e afastar diferenciais tratáveis:",
+     "alternativas": {
+      "a": "Eletroneuromiografia de agulha em múltiplos segmentos",
+      "b": "Dosagem de creatinofosfoquinase isolada",
+      "c": "Tomografia de crânio sem contraste",
+      "d": "Eletroencefalograma"
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "A eletroneuromiografia de agulha é o exame-chave: demonstra denervação ativa (fibrilações, ondas agudas positivas) e crônica (potenciais de unidade motora largos e polifásicos, com recrutamento reduzido) e, sobretudo, evidencia acometimento do neurônio motor inferior em múltiplas regiões corporais (bulbar, cervical, torácica, lombossacra), muitas vezes revelando comprometimento SUBCLÍNICO que expande a distribuição além do que o exame físico mostra — pilar dos critérios diagnósticos (El Escorial/Awaji). É indispensável, em paralelo, a ressonância de coluna cervical para afastar mielopatia compressiva (diferencial tratável e clássico), além de exames laboratoriais (função tireoidiana e paratireoidiana, anti-GM1, eletroforese de proteínas, chumbo, HIV) para excluir mimetizadores. A tomografia de crânio (alternativa C) não tem papel. A creatinofosfoquinase (alternativa B) pode estar levemente elevada, mas é inespecífica e isoladamente não diagnostica nada. O eletroencefalograma (alternativa D) é irrelevante nesta doença. Pérola: por ser diagnóstico de exclusão com grande impacto prognóstico, é mandatório descartar as causas tratáveis antes de firmar o rótulo."
+    },
+    {
+     "enunciado": "Indique a medida com impacto comprovado na sobrevida:",
+     "alternativas": {
+      "a": "Imunoglobulina endovenosa periódica",
+      "b": "Fisioterapia motora intensiva isolada",
+      "c": "Corticoterapia crônica em dose alta",
+      "d": "Riluzol e suporte ventilatório não invasivo"
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "As duas medidas com benefício demonstrado em SOBREVIDA são o riluzol (antiglutamatérgico que prolonga a sobrevida em alguns meses) e, sobretudo, a ventilação não invasiva iniciada precocemente diante da insuficiência respiratória, que agrega ganho de sobrevida e de qualidade de vida maior que o do fármaco. O edaravone (antioxidante) está disponível em alguns países com benefício mais modesto e restrito a subgrupos. Fundamental é o cuidado MULTIDISCIPLINAR — nutrição (gastrostomia quando há disfagia com risco de aspiração e perda ponderal), fonoaudiologia, manejo de sialorreia, comunicação alternativa e cuidados paliativos precoces, integrados desde o diagnóstico. O corticoide crônico (alternativa C) não tem eficácia e traz efeitos adversos — a doença não é inflamatória autoimune tratável por imunossupressão. A imunoglobulina (alternativa A) também não tem papel. A fisioterapia (alternativa B) preserva amplitude e previne contraturas e é parte importante do cuidado, mas isoladamente não altera a sobrevida. Pérola: a decisão sobre traqueostomia/ventilação invasiva e diretivas antecipadas de vontade deve ser conversada precocemente, respeitando a autonomia do paciente."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Reumatologia / Vasculites (doença de Kawasaki)",
+   "tier": "MÉDIO",
+   "vinheta": "Menino de 2 anos de idade é levado ao pronto-socorro por febre alta persistente há 6 dias, sem foco aparente, pouco responsiva a antitérmicos. Nos últimos dias surgiram olhos vermelhos sem secreção, lábios rachados e avermelhados, língua em aspecto de framboesa, exantema polimorfo no tronco e edema doloroso das mãos e dos pés. Ao exame há um linfonodo cervical de 1,8 cm, único, à direita. A criança está irritadiça. Exames iniciais mostram leucocitose com neutrofilia, plaquetas de 620.000/mm³, proteína C reativa e velocidade de hemossedimentação muito elevadas, além de leve elevação de transaminases.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Escarlatina",
+      "b": "Sarampo",
+      "c": "Doença de Kawasaki",
+      "d": "Adenovirose"
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "A doença de Kawasaki é uma vasculite de médios vasos da primeira infância, cujo diagnóstico é CLÍNICO: febre por cinco dias ou mais somada a pelo menos quatro de cinco critérios — conjuntivite bulbar bilateral não exsudativa, alterações de lábios/cavidade oral (lábios rachados, língua em framboesa), exantema polimorfo, alterações de extremidades (edema/eritema e depois descamação periungueal) e linfadenopatia cervical (geralmente maior que 1,5 cm, única). O caso preenche todos. A escarlatina (alternativa A) cursa com exantema micropapular áspero (em lixa), palidez perioral, língua em framboesa e faringite estreptocócica, respondendo a antibiótico — mas não causa conjuntivite bulbar nem edema de extremidades, e a febre cede com penicilina. O sarampo (alternativa B) tem pródromo catarral com tosse, coriza e conjuntivite, manchas de Koplik e exantema morbiliforme craniocaudal, em criança geralmente não vacinada, sem o edema doloroso de mãos e pés nem a trombocitose. A adenovirose (alternativa D) pode dar febre, faringoconjuntivite e exantema, sendo o principal MIMETIZADOR, mas não explica o conjunto completo de critérios nem a trombocitose e a resposta inflamatória tão intensas. Pérola: a complicação temida é o aneurisma de artéria coronária, e a trombocitose marcada costuma surgir na segunda semana."
+    },
+    {
+     "enunciado": "Indique o exame complementar indispensável para avaliar a principal complicação:",
+     "alternativas": {
+      "a": "Ecocardiograma",
+      "b": "Eletroencefalograma",
+      "c": "Ultrassonografia abdominal",
+      "d": "Radiografia de tórax"
+     },
+     "correta": "a",
+     "dificuldade": "facil",
+     "comentario": "O ecocardiograma é indispensável: a complicação mais grave da doença de Kawasaki é o acometimento das artérias CORONÁRIAS (dilatação e aneurismas), que ocorre em até 20 a 25% dos não tratados e cai para cerca de 3 a 5% com tratamento oportuno. O ecocardiograma deve ser feito ao diagnóstico e repetido no seguimento (tipicamente em torno de 1-2 semanas e 4-6 semanas), para detectar e acompanhar os aneurismas, que determinam o prognóstico e a necessidade de antiagregação/anticoagulação prolongada. O eletroencefalograma (alternativa B) não tem papel — não é doença primariamente neurológica. A radiografia de tórax (alternativa D) é inespecífica e não avalia coronárias. A ultrassonografia abdominal (alternativa C) pode mostrar hidropsia de vesícula, achado ocasional, mas não avalia a complicação que define o prognóstico. Pérola: existe a forma INCOMPLETA (atípica) de Kawasaki, especialmente em lactentes, com febre prolongada e menos critérios — nela os marcadores inflamatórios e o ecocardiograma ajudam a decidir tratar, e o limiar de suspeita deve ser baixo, pois os lactentes têm maior risco coronariano."
+    },
+    {
+     "enunciado": "Indique a terapia de primeira linha a ser instituída com urgência:",
+     "alternativas": {
+      "a": "Apenas sintomáticos e observação domiciliar",
+      "b": "Imunoglobulina endovenosa e ácido acetilsalicílico",
+      "c": "Antibioticoterapia com penicilina benzatina",
+      "d": "Corticoterapia isolada em dose baixa"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "O tratamento de primeira linha é a imunoglobulina humana endovenosa em dose única alta (2 g/kg), idealmente administrada nos primeiros 10 dias de doença (e o quanto antes dentro dessa janela), pois reduz drasticamente o risco de aneurismas coronarianos, associada ao ácido acetilsalicílico (em dose anti-inflamatória na fase aguda e depois em dose antiagregante até a normalização dos parâmetros e do ecocardiograma). A antibioticoterapia (alternativa C) não trata Kawasaki, que não é infecção bacteriana — seria útil apenas se houvesse escarlatina, diagnóstico já afastado. O corticoide isolado em dose baixa (alternativa D) não é o esquema padrão inicial; corticoides entram como adjuvantes em pacientes de alto risco ou resistentes à imunoglobulina, não como monoterapia de primeira linha. Apenas sintomáticos e observação (alternativa A) é conduta perigosa: retardaria o tratamento e elevaria muito o risco coronariano. Pérola importante e contraintuitiva: nesta doença o ácido acetilsalicílico é usado em CRIANÇA apesar do receio de síndrome de Reye, porque o benefício antiagregante/anti-inflamatório supera o risco no contexto — é uma das poucas indicações formais de AAS na pediatria; vigiar coinfecção por influenza/varicela."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtornos do Movimento (doença de Wilson)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 22 anos de idade, é levado por familiares por alterações progressivas há um ano: tremor postural e de intenção nos membros superiores, lentidão dos movimentos, fala arrastada e escrita cada vez menor. Os pais relatam também mudança de comportamento, com irritabilidade, queda no rendimento acadêmico e episódios depressivos. No exame: disartria, rigidez, tremor grosseiro que se acentua com os braços estendidos (tremor 'em bater de asas' quando os braços são mantidos abduzidos), e discreta distonia da face. Há história de icterícia inexplicada na adolescência. Os exames mostram elevação de transaminases e o exame oftalmológico com lâmpada de fenda revela anel acastanhado na periferia da córnea.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Distonia idiopática de torção",
+      "b": "Doença de Parkinson de início precoce",
+      "c": "Coreia de Huntington",
+      "d": "Doença de Wilson"
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "Um adulto JOVEM com síndrome extrapiramidal mista (tremor, rigidez, bradicinesia, distonia, disartria), sintomas PSIQUIÁTRICOS proeminentes, disfunção HEPÁTICA (icterícia prévia, transaminases elevadas) e o anel de Kayser-Fleischer na córnea tem doença de Wilson até prova em contrário — distúrbio autossômico recessivo do gene ATP7B que causa acúmulo tóxico de cobre no fígado, nos núcleos da base e na córnea. O tremor 'em bater de asas' (wing-beating) é bastante característico. É a causa de parkinsonismo/distonia mais importante a lembrar antes dos 40 anos, justamente por ser TRATÁVEL. A doença de Parkinson (alternativa B) é rara nessa idade, não cursa com disfunção hepática, anel corneano nem esse perfil psiquiátrico, e tem tremor de repouso assimétrico. A coreia de Huntington (alternativa C) manifesta-se com coreia, alterações comportamentais e demência, em geral após os 35 anos, com história familiar autossômica dominante e sem envolvimento hepático ou anel de Kayser-Fleischer. A distonia idiopática de torção (alternativa A) é puramente motora, sem hepatopatia, sem sinais psiquiátricos e sem alteração corneana. Pérola: todo jovem com movimento anormal + hepatopatia + sintoma psiquiátrico deve ser rastreado para Wilson, pois o tratamento precoce muda o prognóstico."
+    },
+    {
+     "enunciado": "Indique o conjunto de exames que melhor confirma a suspeita:",
+     "alternativas": {
+      "a": "Pesquisa da expansão de trinucleotídeos CAG",
+      "b": "Cobre sérico total elevado isoladamente",
+      "c": "Dosagem de ferritina e saturação de transferrina",
+      "d": "Ceruloplasmina sérica baixa e cobre urinário de 24 horas elevado"
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "A confirmação laboratorial apoia-se em ceruloplasmina sérica REDUZIDA (a proteína que transporta cobre está baixa por falha de incorporação) somada à excreção URINÁRIA de cobre em 24 horas ELEVADA (o cobre não incorporado circula livre e é filtrado), além do anel de Kayser-Fleischer à lâmpada de fenda. O padrão-ouro histológico é o cobre hepático aumentado na biópsia, e a análise do gene ATP7B confirma nos casos duvidosos. O cobre sérico TOTAL (alternativa B) pode estar normal ou até baixo, porque a maior parte circula ligada à ceruloplasmina, que está reduzida — o que importa é o cobre LIVRE, não o total; por isso essa dosagem isolada engana. A ferritina e a saturação de transferrina (alternativa C) investigam hemocromatose, outra doença de sobrecarga metálica, mas de FERRO, não de cobre. A expansão de trinucleotídeos CAG (alternativa A) é o teste da doença de Huntington. Pérola: a ressonância pode mostrar o sinal da 'face do panda gigante' no mesencéfalo, achado clássico, embora não obrigatório."
+    },
+    {
+     "enunciado": "Indique a base do tratamento:",
+     "alternativas": {
+      "a": "Reposição de cobre por via oral",
+      "b": "Transplante hepático imediato em todos os casos",
+      "c": "Levodopa em dose plena como terapia definitiva",
+      "d": "Quelação do cobre e restrição dietética, de forma contínua"
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "O tratamento é a redução do cobre corporal de maneira CONTÍNUA e por toda a vida: quelantes como a D-penicilamina ou a trientina (que aumentam a excreção urinária de cobre) e/ou o zinco (que bloqueia a absorção intestinal, útil na manutenção e em pré-sintomáticos), associados à restrição dietética de alimentos ricos em cobre (fígado, frutos do mar, nozes, chocolate, cogumelos). O tratamento precoce pode estabilizar e até reverter parte das manifestações neurológicas e hepáticas — daí a importância de diagnosticar. Repor cobre (alternativa A) é exatamente o oposto do necessário e agravaria a intoxicação. A levodopa (alternativa C) não trata a causa e tem resposta pobre no parkinsonismo do Wilson, que decorre de dano estrutural dos núcleos da base, não de deficiência dopaminérgica nigroestriatal pura. O transplante hepático (alternativa B) é reservado à insuficiência hepática fulminante ou à cirrose descompensada refratária, não é conduta inicial 'para todos'. Pegadinha: a D-penicilamina pode causar piora neurológica paradoxal transitória no início — por isso alguns preferem iniciar com trientina ou zinco nas formas neurológicas."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Oncologia (neuroblastoma)",
+   "tier": "MÉDIO",
+   "vinheta": "Menina de 2 anos de idade é levada ao pediatra por irritabilidade, recusa alimentar e aumento do volume abdominal há semanas, com perda de peso. Ao exame palpa-se massa abdominal firme, irregular, que ultrapassa a linha média, indolor, fixa. A mãe notou também 'olheiras arroxeadas' e uma protrusão de um dos olhos. Chamam atenção, ainda, movimentos oculares caóticos e rápidos e abalos musculares breves e irregulares do tronco e dos membros. A radiografia mostra calcificações na massa; os exames evidenciam elevação de catecolaminas urinárias.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Hepatoblastoma",
+      "b": "Tumor de Wilms",
+      "c": "Neuroblastoma",
+      "d": "Linfoma de Burkitt abdominal"
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "O neuroblastoma é o tumor sólido extracraniano mais comum da infância, originado da crista neural (medula adrenal e gânglios simpáticos paravertebrais). Favorecem o diagnóstico: massa abdominal que CRUZA A LINHA MÉDIA, irregular e com CALCIFICAÇÕES; equimoses periorbitárias e proptose (metástases para órbita, os 'olhos de guaxinim'); a síndrome de opsoclonia-mioclonia (movimentos oculares caóticos e mioclonias, uma manifestação paraneoplásica quase específica); e a elevação de CATECOLAMINAS urinárias (ácido vanilmandélico e homovanílico). O tumor de Wilms (nefroblastoma, alternativa B) é a principal armadilha: também é massa abdominal do pré-escolar, mas costuma ser LISA, unilateral, que geralmente NÃO ultrapassa a linha média, sem calcificações grosseiras típicas e sem catecolaminas elevadas nem opsoclonia-mioclonia. O linfoma de Burkitt (alternativa D) cursa com massa de crescimento rapidíssimo, frequentemente ileocecal, com síndrome de lise tumoral, sem catecolaminas nem calcificação típica. O hepatoblastoma (alternativa A) é massa hepática com alfafetoproteína elevada, não catecolaminas. Pérola: cruzar a linha média + calcificações + catecolaminas altas aponta neuroblastoma; massa que não cruza a linha média aponta Wilms."
+    },
+    {
+     "enunciado": "Indique o exame laboratorial que corrobora o diagnóstico:",
+     "alternativas": {
+      "a": "Catecolaminas séricas suprimidas",
+      "b": "Ácido vanilmandélico e ácido homovanílico urinários",
+      "c": "Alfafetoproteína sérica",
+      "d": "Beta-HCG sérico"
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "A dosagem urinária dos metabólitos das catecolaminas — ácido vanilmandélico (VMA) e ácido homovanílico (HVA) — está ELEVADA na grande maioria dos neuroblastomas e é o exame bioquímico que corrobora o diagnóstico, refletindo a origem do tumor em tecido do sistema nervoso simpático produtor de catecolaminas. A alfafetoproteína (alternativa C) é marcador de hepatoblastoma e de tumores germinativos, não do neuroblastoma. O beta-HCG (alternativa D) é marcador de tumores germinativos/trofoblásticos, sem relação. Catecolaminas séricas SUPRIMIDAS (alternativa A) é o oposto do esperado — no neuroblastoma há aumento da produção e da excreção de catecolaminas e seus metabólitos. A confirmação definitiva é histológica (biópsia), complementada pelo estadiamento e por marcadores biológicos de prognóstico, com destaque para a amplificação do oncogene MYCN, que indica doença de alto risco. Pérola: a cintilografia com MIBG (metaiodobenzilguanidina) é o exame de imagem funcional específico, captado pelo tecido neuroblástico, útil no estadiamento e no seguimento."
+    },
+    {
+     "enunciado": "Sobre o comportamento biológico deste tumor, indique a afirmativa correta:",
+     "alternativas": {
+      "a": "Nunca produz metástases à distância",
+      "b": "Pode desde regredir espontaneamente até ter curso muito agressivo, conforme o risco",
+      "c": "Tem sempre curso indolente e bom prognóstico",
+      "d": "É insensível a qualquer forma de tratamento"
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "O neuroblastoma é notável pela heterogeneidade de comportamento: em lactentes pequenos e em certos estádios (como o estádio 4S, com metástases limitadas a pele, fígado e medula óssea em bebês) pode haver REGRESSÃO ESPONTÂNEA ou maturação para tumor benigno, com excelente prognóstico; no extremo oposto, em crianças maiores, com doença metastática e/ou amplificação do MYCN, o curso é muito AGRESSIVO e de prognóstico reservado, exigindo tratamento multimodal intensivo (quimioterapia, cirurgia, radioterapia, transplante autólogo, imunoterapia anti-GD2 e ácido retinoico). Por isso a estratificação de RISCO (idade, estádio, histologia, MYCN, ploidia) define a intensidade terapêutica. As demais opções são falsas: nem sempre é indolente (alternativa C), pois há formas letais; PRODUZ metástases à distância (medula óssea, ossos, fígado, órbita) — a alternativa A é incorreta; e NÃO é insensível ao tratamento (alternativa D), respondendo em graus variados conforme o risco. Pérola: a idade abaixo de 18 meses e a ausência de amplificação do MYCN são fatores de bom prognóstico; a apresentação com opsoclonia-mioclonia, curiosamente, associa-se a tumores de melhor prognóstico oncológico, embora as sequelas neurológicas possam persistir."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropediatria específica (distrofia muscular de Duchenne)",
+   "tier": "MÉDIO",
+   "vinheta": "Menino de 4 anos de idade é levado à consulta porque anda na ponta dos pés, cai com frequência, tem dificuldade para correr e para subir escadas, e demora a se levantar do chão. A mãe observa que, ao levantar-se, ele 'escala o próprio corpo', apoiando as mãos nas coxas. O desenvolvimento da linguagem foi um pouco lento. Não há meninas afetadas na família, mas um tio materno faleceu jovem por 'problema muscular'. Ao exame: hipertrofia das panturrilhas com consistência endurecida, fraqueza proximal de cinturas, marcha anserina (gingada) e hiperlordose lombar. Os reflexos aquileus estão presentes e os patelares, reduzidos. A dosagem de creatinofosfoquinase está muito elevada (acima de 50 vezes o valor normal).",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Distrofia muscular de Duchenne",
+      "b": "Dermatomiosite juvenil",
+      "c": "Miastenia gravis juvenil",
+      "d": "Atrofia muscular espinhal tipo III"
+     },
+     "correta": "a",
+     "dificuldade": "facil",
+     "comentario": "Menino (herança recessiva ligada ao X) com fraqueza proximal progressiva de cinturas iniciada na primeira infância, sinal de Gowers (escalar o próprio corpo para levantar-se), pseudo-hipertrofia de panturrilhas (substituição do músculo por tecido fibroadiposo), marcha anserina, hiperlordose, discreto atraso de linguagem e creatinofosfoquinase muito elevada, com história de tio materno afetado, é o retrato da distrofia muscular de Duchenne — causada por mutação no gene da DISTROFINA. A atrofia muscular espinhal tipo III (alternativa D) é doença do neurônio motor inferior: cursa com fraqueza e HIPOtonia, arreflexia e fasciculações, SEM pseudo-hipertrofia e com creatinofosfoquinase normal ou pouco elevada. A miastenia gravis juvenil (alternativa C) dá fraqueza FLUTUANTE e fatigável, com ptose e diplopia, sem elevação de creatinofosfoquinase nem pseudo-hipertrofia. A dermatomiosite juvenil (alternativa B) associa fraqueza proximal a lesões cutâneas características (heliótropo, pápulas de Gottron) e sinais inflamatórios, com curso diferente. Pérola: a creatinofosfoquinase muito elevada (dezenas de vezes) em menino com fraqueza proximal deve sempre levantar Duchenne; a forma de Becker é alélica, mais leve e de início mais tardio."
+    },
+    {
+     "enunciado": "Indique o exame que confirma o diagnóstico de forma definitiva:",
+     "alternativas": {
+      "a": "Análise genética do gene da distrofina",
+      "b": "Radiografia de coluna lombar",
+      "c": "Eletroneuromiografia isolada",
+      "d": "Dosagem de anticorpo antirreceptor de acetilcolina"
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "A confirmação atual é a análise GENÉTICA do gene DMD (que codifica a distrofina): a maioria dos casos decorre de deleções ou duplicações de éxons, detectáveis por MLPA, e o restante por sequenciamento para mutações de ponto. O teste genético substituiu, na maior parte das situações, a biópsia muscular; quando necessária, a biópsia com imuno-histoquímica mostra AUSÊNCIA de distrofina na membrana. A eletroneuromiografia (alternativa C) pode sugerir padrão miopático, mas é inespecífica, desconfortável na criança e não define a etiologia — não confirma o diagnóstico. A radiografia de coluna (alternativa B) apenas documentaria a hiperlordose/escoliose secundária, sem valor diagnóstico etiológico. O anticorpo antirreceptor de acetilcolina (alternativa D) investiga miastenia, diagnóstico já afastado pela clínica e pela creatinofosfoquinase muito elevada. Importante: confirmada a mutação, indica-se aconselhamento genético e rastreio de portadoras na família (a mãe e possíveis irmãs), pois portadoras podem ter cardiomiopatia. Pérola: definir a mutação exata é hoje também terapêutico, pois algumas terapias (como as que promovem skipping de éxon) dependem do tipo específico de mutação."
+    },
+    {
+     "enunciado": "Indique a intervenção farmacológica que comprovadamente retarda a progressão da fraqueza:",
+     "alternativas": {
+      "a": "Corticoterapia (prednisona ou deflazacorte)",
+      "b": "Reposição de vitamina D como única medida",
+      "c": "Imunoglobulina endovenosa",
+      "d": "Suplementação de creatina isolada"
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "A corticoterapia crônica (prednisona/prednisolona ou deflazacorte) é o pilar farmacológico com benefício comprovado: prolonga a deambulação, retarda a perda de força e o surgimento de escoliose e preserva a função respiratória e cardíaca por mais tempo, apesar dos efeitos adversos (ganho de peso, baixa estatura, osteoporose, catarata) que exigem monitorização. O cuidado é MULTIDISCIPLINAR e vitalício: vigilância CARDÍACA (a cardiomiopatia dilatada é causa maior de óbito, com uso de inibidores da enzima conversora/betabloqueadores), RESPIRATÓRIA (ventilação não invasiva quando indicada), fisioterapia para prevenir contraturas, manejo ortopédico da escoliose e suporte à família. Já existem terapias moleculares específicas por mutação (skipping de éxon, agentes para mutações de parada prematura). A creatina isolada (alternativa D) tem, no máximo, efeito adjuvante modesto e não altera o curso. A imunoglobulina (alternativa C) não tem papel — a doença é genético-estrutural, não autoimune. A vitamina D isolada (alternativa B) é parte do suporte ósseo (junto de cálcio, sobretudo sob corticoide), mas não retarda a fraqueza. Pérola: iniciar corticoide tipicamente por volta dos 4 a 6 anos, quando a função motora atinge platô, é conduta consagrada."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Cardiologia (cardiopatias congênitas cianóticas / Tetralogia de Fallot)",
+   "tier": "MÉDIO",
+   "vinheta": "Lactente de 8 meses de idade é trazido ao pronto-socorro após episódio, durante o choro intenso, de cianose súbita e acentuada, com respiração rápida e profunda, irritabilidade e depois hipotonia e sonolência. A mãe relata que, quando isso acontece, a criança 'fica roxa' e que ela costuma agachá-lo com as perninhas dobradas sobre o tórax, o que o acalma. Refere cianose leve dos lábios desde alguns meses e baixo ganho de peso. Ao exame, fora da crise: sopro sistólico ejetivo em foco pulmonar, com segunda bulha única, e discreto baqueteamento digital. A radiografia de tórax mostra área cardíaca em formato de 'bota', com trama vascular pulmonar diminuída.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Comunicação interatrial",
+      "b": "Comunicação interventricular isolada",
+      "c": "Tetralogia de Fallot",
+      "d": "Persistência do canal arterial"
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "A cianose com crises hipoxêmicas ('crises de tet') aliviadas pela posição de CÓCORAS (genupeitoral), cianose crônica com baqueteamento, sopro sistólico ejetivo pulmonar, segunda bulha única e o coração 'em bota' (coeur en sabot) com hipofluxo pulmonar na radiografia compõem a Tetralogia de Fallot — a cardiopatia congênita CIANÓTICA mais comum após o primeiro ano de vida. Seus quatro componentes são: estenose/obstrução da via de saída do ventrículo direito, comunicação interventricular, dextroposição da aorta (aorta 'cavalgando' o septo) e hipertrofia do ventrículo direito. A posição de cócoras aumenta a resistência vascular sistêmica e reduz o shunt direita-esquerda, melhorando a saturação — explicação do gesto materno. A comunicação interventricular isolada (alternativa B) é cardiopatia ACIANÓTICA, com shunt esquerda-direita e hiperfluxo pulmonar, sopro holossistólico rude, sem crises de cianose. A persistência do canal arterial (alternativa D) dá sopro contínuo 'em maquinaria' e também é acianótica com hiperfluxo. A comunicação interatrial (alternativa A) é acianótica, com desdobramento fixo da segunda bulha e sopro pulmonar suave. Pérola: a segunda bulha ÚNICA reflete a hipofonese/atresia do componente pulmonar."
+    },
+    {
+     "enunciado": "Indique a conduta imediata na crise hipoxêmica:",
+     "alternativas": {
+      "a": "Nifedipino sublingual",
+      "b": "Estimular o choro para expandir os pulmões",
+      "c": "Posição genupeitoral, oxigênio e acalmar a criança",
+      "d": "Furosemida endovenosa em bolus"
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "Na crise hipoxêmica, as primeiras medidas visam AUMENTAR a resistência vascular sistêmica e reduzir o consumo de oxigênio: colocar a criança em posição GENUPEITORAL (joelhos fletidos sobre o tórax, imitando o cócoras), oferecer oxigênio e, sobretudo, ACALMAR e reduzir o estímulo (colo da mãe, evitar procedimentos dolorosos), pois o choro e a agitação perpetuam a crise. Se persistir, escalam-se morfina (reduz o drive respiratório e o espasmo infundibular), expansão volêmica com cristaloide, e vasoconstritores sistêmicos como a fenilefrina; betabloqueador pode ser usado. A furosemida (alternativa D) é ERRO grave: diminui a pré-carga e a volemia, agravando a obstrução dinâmica da via de saída e piorando a crise — na Fallot quer-se ENCHER o ventrículo, não depletá-lo. O nifedipino sublingual (alternativa A) é vasodilatador que REDUZ a resistência sistêmica, exatamente o oposto do necessário, intensificando o shunt direita-esquerda. Estimular o choro (alternativa B) é contraproducente, pois a agitação sustenta a crise. Pérola: as crises são mais comuns pela manhã, ao acordar, e após esforço/choro; o tratamento definitivo é cirúrgico."
+    },
+    {
+     "enunciado": "Indique a complicação para a qual esses pacientes têm risco aumentado e que exige profilaxia específica:",
+     "alternativas": {
+      "a": "Estenose mitral reumática",
+      "b": "Endocardite infecciosa",
+      "c": "Febre reumática",
+      "d": "Miocardiopatia hipertrófica adquirida"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "Cardiopatias congênitas cianóticas, como a Tetralogia de Fallot (não corrigidas, ou com material protético/derivações), estão entre as condições de ALTO risco para endocardite infecciosa, e por isso figuram nas diretrizes que recomendam profilaxia antibiótica em procedimentos odontológicos com manipulação gengival/perfuração da mucosa. O fluxo turbulento e o endotélio anormal favorecem a adesão bacteriana em bacteriemias transitórias. A febre reumática (alternativa C) decorre de infecção estreptocócica de orofaringe e acomete válvulas previamente normais, sem relação causal com a cardiopatia congênita cianótica — sua profilaxia é o tratamento adequado da faringite estreptocócica. A miocardiopatia hipertrófica (alternativa D) é doença genética do sarcômero, não uma complicação adquirida da Fallot. A estenose mitral reumática (alternativa A) é sequela de febre reumática, contexto distinto. Pérolas de manejo: além da profilaxia de endocardite, esses pacientes têm risco de eventos por hiperviscosidade (policitemia secundária à hipóxia crônica), abscesso cerebral e AVC (o shunt direita-esquerda permite embolia paradoxal), exigindo boa hidratação e vigilância; a correção cirúrgica precoce reduz essas complicações."
+    }
+   ]
+  }
+ ]
+}
