@@ -3,6 +3,20 @@ import { getStore } from "@netlify/blobs";
 const USERS = ["Vinicius", "Leonardo", "Ana Teresa"];
 const MAX_ERROS_DETALHADOS = 200;
 
+// Deduplica por data: mantem apenas a tentativa MAIS RECENTE (maior timestamp)
+// de cada (user, date). Evita contagem multiplicada quando o mesmo simulado
+// foi enviado mais de uma vez (refresh/reenvio geram blobs com timestamps diferentes).
+function dedupLatestPerDate(recs) {
+  const byDate = new Map();
+  for (const r of recs) {
+    const prev = byDate.get(r.date);
+    if (!prev || String(r.timestamp || "") > String(prev.timestamp || "")) {
+      byDate.set(r.date, r);
+    }
+  }
+  return Array.from(byDate.values());
+}
+
 export default async (req, context) => {
   const store = getStore("quiz-attempts");
   const { blobs } = await store.list();
@@ -16,8 +30,7 @@ export default async (req, context) => {
   const result = {};
 
   for (const user of USERS) {
-    const userRecords = records
-      .filter((r) => r.user === user)
+    const userRecords = dedupLatestPerDate(records.filter((r) => r.user === user))
       .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
 
     const temaStats = {};

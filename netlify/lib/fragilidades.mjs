@@ -20,11 +20,23 @@ const REPO = process.env.GITHUB_REPO || "medbrittovinicius-byte/neuropediatra-si
 const PATH = "public/quizzes/fragilidades.json";
 const MIN_QUESTOES_TEMA = 2;
 
+// Deduplica por data: mantem apenas a tentativa MAIS RECENTE de cada (user, date),
+// para nao multiplicar a contagem quando o mesmo simulado foi enviado varias vezes.
+function dedupLatestPerDate(recs) {
+  const byDate = new Map();
+  for (const r of recs) {
+    const prev = byDate.get(r.date);
+    if (!prev || String(r.timestamp || "") > String(prev.timestamp || "")) {
+      byDate.set(r.date, r);
+    }
+  }
+  return Array.from(byDate.values());
+}
+
 function agregar(records) {
   const out = {};
   for (const user of USERS) {
-    const userRecords = records
-      .filter((r) => r.user === user)
+    const userRecords = dedupLatestPerDate(records.filter((r) => r.user === user))
       .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
 
     const temaStats = {};
