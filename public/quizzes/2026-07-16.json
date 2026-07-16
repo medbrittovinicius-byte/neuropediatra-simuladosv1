@@ -1,0 +1,651 @@
+{
+  "date": "2026-07-16",
+  "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+  "blocos": [
+    {
+      "tema": "Neurologia — Vertigem e Síndromes Vestibulares (doença de Ménière) [REVISÃO ESPAÇADA]",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 46 anos relata, há oito meses, crises recorrentes de vertigem rotatória intensa que duram de 30 minutos a 3 horas, acompanhadas de náusea e desequilíbrio. Cada crise vem precedida de uma sensação de pressão (plenitude) no ouvido esquerdo, zumbido de tom grave e piora da audição desse lado, que melhora parcialmente entre os episódios. Nega febre, cefaleia ou déficit focal. A audiometria realizada fora da crise mostra perda auditiva neurossensorial de predomínio nas baixas frequências à esquerda.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o diagnóstico mais provável:",
+          "alternativas": {
+            "d": "Vertigem posicional paroxística benigna",
+            "b": "Doença de Ménière",
+            "a": "Neurite vestibular",
+            "c": "Schwannoma vestibular"
+          },
+          "correta": "b",
+          "comentario": "A tríade de vertigem episódica de minutos a horas + hipoacusia neurossensorial flutuante + zumbido/plenitude aural define a doença de Ménière (hidropisia endolinfática). A duração das crises (30 min a 3 h) e o acometimento coclear (perda em baixas frequências) são a chave. A VPPB (alternativa D) causa vertigem de SEGUNDOS, desencadeada por movimentos da cabeça, SEM sintomas auditivos — perfil oposto. A neurite vestibular (alternativa A) provoca vertigem CONTÍNUA por dias, também sem sintomas cocleares, e é monofásica, não recorrente. O schwannoma vestibular (alternativa C) tipicamente cursa com hipoacusia progressiva UNILATERAL e zumbido, mas a vertigem, quando existe, é insidiosa e desequilíbrio crônico, não crises episódicas típicas — ainda assim é o diferencial que obriga imagem quando a perda é fixa e progressiva. Pérola: na Ménière a perda auditiva flutua e começa nas baixas frequências, diferente da maioria das outras causas.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o exame que melhor caracteriza o comprometimento auditivo desta doença:",
+          "alternativas": {
+            "a": "Audiometria tonal",
+            "d": "Tomografia de mastoide",
+            "b": "Potencial evocado auditivo de tronco",
+            "c": "Eletronistagmografia"
+          },
+          "correta": "a",
+          "comentario": "A audiometria tonal é o exame que documenta e acompanha a perda neurossensorial flutuante de baixas frequências, marca coclear da Ménière, sendo essencial para o diagnóstico e o seguimento. A tomografia de mastoide (alternativa D) avalia estruturas ósseas e é útil em colesteatoma/otite crônica, não na hidropisia endolinfática. O potencial evocado auditivo de tronco (alternativa B) é ferramenta para triar lesão retrococlear (ex.: schwannoma) e não caracteriza a flutuação coclear típica. A eletronistagmografia (alternativa C) avalia a função vestibular e o nistagmo, complementar, mas não define o padrão auditivo. Pérola de prova: a eletrococleografia e o exame de imagem (RM com contraste) podem ser usados em casos atípicos, mas a audiometria seriada é o pilar. O diagnóstico permanece essencialmente clínico-audiométrico.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta de primeira linha para reduzir a frequência das crises:",
+          "alternativas": {
+            "b": "Labirintectomia cirúrgica",
+            "a": "Corticoterapia sistêmica contínua",
+            "d": "Restrição de sódio e diurético",
+            "c": "Manobra de Epley"
+          },
+          "correta": "d",
+          "comentario": "O manejo profilático inicial da Ménière é comportamental e clínico: restrição de sódio (dieta hipossódica), redução de cafeína/álcool e uso de diurético (tiazídico), medidas que diminuem a pressão endolinfática e a frequência das crises; a betaistina é adjuvante muito usada. A labirintectomia (alternativa B) é procedimento ablativo destrutivo, reservado a casos incapacitantes e refratários com audição já perdida — jamais primeira linha. A corticoterapia sistêmica contínua (alternativa A) não é tratamento de manutenção (há uso intratimpânico de corticoide ou gentamicina em casos selecionados, não corticoide oral crônico). A manobra de Epley (alternativa C) trata a VPPB (canalitíase), condição totalmente distinta, sem qualquer papel aqui. Na crise aguda, usam-se supressores vestibulares e antieméticos por curto período. Pérola: escalona-se do conservador ao intratimpânico e, só por último, ao cirúrgico.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroimunologia (encefalite autoimune anti-LGI1) [REVISÃO ESPAÇADA]",
+      "tier": "ALTO",
+      "vinheta": "Homem de 63 anos apresenta, há três semanas, episódios muito breves (segundos) e frequentes — dezenas por dia — de contração distônica involuntária de uma hemiface associada ao braço do mesmo lado, sem perda de consciência. Concomitantemente, a família nota piora progressiva da memória recente, desorientação e insônia. Exames laboratoriais mostram sódio de 125 mEq/L. A ressonância revela discreto hipersinal em FLAIR nas regiões mesiais temporais, e o líquor tem discreta pleocitose linfocítica.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o diagnóstico mais provável:",
+          "alternativas": {
+            "d": "Acidente vascular cerebral de repetição",
+            "c": "Encefalite herpética",
+            "a": "Encefalite autoimune anti-LGI1",
+            "b": "Epilepsia mesial temporal idiopática"
+          },
+          "correta": "a",
+          "comentario": "As crises distônicas faciobraquiais (breves, muito frequentes, hemiface + braço), associadas a declínio cognitivo subagudo e HIPONATREMIA, são a assinatura quase patognomônica da encefalite autoimune por anticorpo anti-LGI1 — a causa mais comum de encefalite límbica autoimune soronegativa para o complexo VGKC clássico. O AVC de repetição (alternativa D) não explica crises estereotipadas dezenas de vezes ao dia nem a hiponatremia, e daria déficits focais persistentes. A encefalite herpética (alternativa C) é o principal diferencial de encefalite límbica, mas costuma ser mais aguda, febril, com LCR mais inflamatório e hemácias, e não cursa com crises faciobraquiais nem hiponatremia típicas. A epilepsia mesial idiopática (alternativa B) não explica o declínio cognitivo subagudo, a hiponatremia nem as alterações de RM/LCR. Pérola: as crises faciobraquiais frequentemente ANTECEDEM a fase amnéstica e respondem melhor à imunoterapia que a antiepilépticos.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a alteração laboratorial classicamente associada a essa encefalite:",
+          "alternativas": {
+            "d": "Hipernatremia",
+            "a": "Hiponatremia",
+            "b": "Hipercalcemia",
+            "c": "Hipoglicemia"
+          },
+          "correta": "a",
+          "comentario": "A hiponatremia é achado clássico da encefalite anti-LGI1, presente em grande parte dos casos, atribuída à expressão de LGI1 no hipotálamo e no rim, gerando um quadro de secreção inapropriada de ADH (SIADH). Sua presença em um paciente com encefalite límbica e crises faciobraquiais reforça fortemente a hipótese. A hipernatremia (alternativa D) apontaria para diabetes insipidus ou desidratação, não é o padrão. A hipercalcemia (alternativa B) associa-se a encefalopatia metabólica e a síndromes paraneoplásicas de outra natureza, não a esse anticorpo. A hipoglicemia (alternativa C) causa neuroglicopenia e crises, mas não o quadro subagudo descrito. A confirmação diagnóstica se dá pela pesquisa do anticorpo anti-LGI1 no soro e no líquor. Pérola: corrigir a hiponatremia isoladamente não melhora a encefalite — o tratamento é imunológico.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica de escolha:",
+          "alternativas": {
+            "a": "Imunoterapia com corticoide e imunoglobulina",
+            "b": "Aciclovir endovenoso",
+            "c": "Apenas antiepiléptico em monoterapia",
+            "d": "Trombólise endovenosa"
+          },
+          "correta": "a",
+          "comentario": "A encefalite anti-LGI1 responde bem à imunoterapia de primeira linha: corticoide em altas doses e/ou imunoglobulina humana endovenosa (ou plasmaférese), com boa recuperação quando iniciada precocemente — daí a importância do reconhecimento rápido. O aciclovir (alternativa B) trata a encefalite herpética e deve ser iniciado empiricamente quando há dúvida, mas, definido o diagnóstico autoimune, não é o tratamento. O antiepiléptico isolado (alternativa C) controla parcialmente as crises, porém NÃO trata a causa imunomediada e costuma ser pouco eficaz nas crises faciobraquiais — que melhoram é com imunoterapia. A trombólise (alternativa D) não tem qualquer indicação. Deve-se ainda rastrear neoplasia oculta (associação paraneoplásica, embora menos frequente que em outros anticorpos). Pérola: quanto mais precoce a imunoterapia, menor a chance de sequela amnéstica e de esclerose hipocampal.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroinfecção (encefalite herpética por HSV-1)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 39 anos é levado ao pronto-socorro por familiares devido a febre alta há três dias, cefaleia intensa e, nas últimas horas, comportamento bizarro, dificuldade para nomear objetos e uma crise convulsiva focal. Ao exame está febril, sonolento e com afasia. O líquor mostra pleocitose com predomínio linfocitário, discreta hiperproteinorraquia, glicose normal e presença de hemácias sem punção traumática. A ressonância evidencia hipersinal em FLAIR acometendo o lobo temporal mesial e a região insular de forma assimétrica.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Meningite meningocócica",
+            "d": "Encefalite herpética",
+            "c": "Neurocisticercose",
+            "b": "AVC isquêmico de artéria cerebral média"
+          },
+          "correta": "d",
+          "comentario": "Febre + alteração de comportamento/afasia + crise focal + acometimento temporal mesial e insular assimétrico na RM, com LCR linfocitário e hemácias, compõem o quadro típico de encefalite herpética por HSV-1, a encefalite esporádica fatal mais comum. O tropismo do vírus pelo sistema límbico explica as alterações comportamentais e de linguagem. A meningite meningocócica (alternativa A) cursa com LCR purulento (neutrofílico, glicose baixa), rigidez de nuca e petéquias, não com foco temporal. A neurocisticercose (alternativa C) manifesta-se sobretudo com crises e lesões císticas/calcificadas, num curso crônico, não com encefalite febril aguda. O AVC de ACM (alternativa B) tem instalação súbita, sem febre nem pródromo infeccioso, e segue território vascular. Pérola: o acometimento temporal bilateral, porém assimétrico, é altamente sugestivo de HSV.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o exame que confirma a etiologia:",
+          "alternativas": {
+            "b": "PCR para HSV no líquor",
+            "a": "Cultura bacteriana do líquor",
+            "c": "Eletroencefalograma isolado",
+            "d": "Sorologia sérica para HSV"
+          },
+          "correta": "b",
+          "comentario": "A reação em cadeia da polimerase (PCR) para HSV no líquor é o exame de escolha para confirmação, com alta sensibilidade e especificidade, tendo substituído a biópsia cerebral. A cultura bacteriana (alternativa A) é negativa numa encefalite viral e serve para excluir bacteriana. O EEG isolado (alternativa C) pode mostrar descargas periódicas lateralizadas (PLEDs) temporais, achado sugestivo mas inespecífico, não confirmatório. A sorologia sérica (alternativa D) tem valor limitado na fase aguda, pois a soroprevalência de HSV na população é altíssima e não indica infecção do SNC. Importante: uma PCR negativa nas primeiras 72 h não exclui o diagnóstico — pode repetir. Pérola: o tratamento NÃO deve esperar o resultado da PCR (ver próxima questão).",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta inicial mais adequada:",
+          "alternativas": {
+            "a": "Aguardar o resultado da PCR para iniciar o tratamento",
+            "b": "Iniciar aciclovir endovenoso empírico imediatamente",
+            "d": "Prescrever apenas ceftriaxona",
+            "c": "Iniciar corticoide isolado"
+          },
+          "correta": "b",
+          "comentario": "Diante da suspeita de encefalite herpética, inicia-se aciclovir endovenoso empírico IMEDIATAMENTE, sem aguardar exames — o retardo do antiviral aumenta drasticamente mortalidade e sequelas neurológicas. Aguardar a PCR (alternativa A) é erro grave: horas importam. A ceftriaxona isolada (alternativa D) cobre bactérias, mas frequentemente se associa cobertura antibiótica empírica ATÉ excluir meningite bacteriana; sozinha não trata o HSV. O corticoide isolado (alternativa C) não é o pilar — seu uso adjuvante é discutível e nunca substitui o antiviral. A dose usual é aciclovir 10 mg/kg EV de 8/8 h por 14 a 21 dias, com hidratação para proteção renal. Pérola clássica de prova: 'suspeitou de encefalite herpética, iniciou aciclovir' — a conduta é reflexa e não depende de confirmação laboratorial prévia.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Cefaleias (arterite de células gigantes / arterite temporal)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 74 anos procura atendimento por cefaleia nova, de localização temporal direita, contínua há três semanas, associada a dor no couro cabeludo ao pentear o cabelo e dor na mandíbula ao mastigar que a obriga a interromper as refeições. Refere ainda mal-estar, febrícula e dores nos ombros e quadris pela manhã. Hoje apresentou um episódio de perda visual transitória no olho direito. Ao exame, a artéria temporal direita está endurecida e dolorosa. O VHS é de 92 mm/h.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Enxaqueca de início tardio",
+            "b": "Neuralgia do trigêmeo",
+            "d": "Arterite de células gigantes",
+            "c": "Cefaleia tensional crônica"
+          },
+          "correta": "d",
+          "comentario": "Cefaleia temporal nova em pessoa acima de 50 anos + claudicação de mandíbula + hipersensibilidade do couro cabeludo + sintomas de polimialgia reumática + VHS muito elevado + amaurose fugaz configuram arterite de células gigantes (arterite temporal), vasculite de grandes e médios vasos. A claudicação de mandíbula e a alteração visual são sinais de alarme de isquemia. A enxaqueca tardia (alternativa A) é diagnóstico de exclusão e não cursa com claudicação de mandíbula, VHS altíssimo ou amaurose. A neuralgia do trigêmeo (alternativa B) causa dor paroxística em choque no território do nervo, de segundos, não dor contínua com sintomas sistêmicos. A cefaleia tensional (alternativa C) é bilateral, em aperto/peso, sem sinais inflamatórios ou visuais. Pérola: claudicação de mandíbula é o sintoma com maior razão de verossimilhança para o diagnóstico.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o exame que confirma o diagnóstico:",
+          "alternativas": {
+            "b": "Angiotomografia de crânio",
+            "c": "Biópsia da artéria temporal",
+            "d": "Fundoscopia isolada",
+            "a": "Punção lombar"
+          },
+          "correta": "c",
+          "comentario": "A biópsia da artéria temporal é o padrão-ouro, demonstrando inflamação granulomatosa com células gigantes multinucleadas e fragmentação da lâmina elástica interna. Como o acometimento é segmentar (lesões salteadas), colhe-se um segmento amplo, e a biópsia pode permanecer positiva por dias mesmo após início do corticoide — por isso NÃO se atrasa o tratamento aguardando o exame. A angiotomografia de crânio (alternativa B) não avalia a parede da artéria temporal; ultrassom com sinal do halo e RM/PET de grandes vasos são adjuntos, mas não substituem a histologia clássica de prova. A fundoscopia (alternativa D) pode mostrar neuropatia óptica isquêmica se já houver acometimento, mas não estabelece a etiologia. A punção lombar (alternativa A) não tem papel. O VHS e a PCR elevados apoiam, mas são inespecíficos. Pérola: biópsia negativa não exclui, dado o caráter salteado.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta imediata mais adequada:",
+          "alternativas": {
+            "a": "Iniciar corticoide em alta dose imediatamente",
+            "d": "Aguardar a biópsia para iniciar o tratamento",
+            "c": "Prescrever apenas ácido acetilsalicílico",
+            "b": "Prescrever anti-inflamatório não hormonal"
+          },
+          "correta": "a",
+          "comentario": "Diante de arterite de células gigantes com sintomas visuais, inicia-se corticoide sistêmico em alta dose IMEDIATAMENTE (frequentemente pulsoterapia com metilprednisolona quando há perda visual), pois o risco é de cegueira irreversível bilateral por neuropatia óptica isquêmica — uma emergência. Aguardar a biópsia (alternativa D) é erro: o corticoide não negativa a histologia nos primeiros dias, então trata-se primeiro e biopsia-se depois. O AAS isolado (alternativa C) é adjuvante para reduzir eventos isquêmicos, mas não controla a vasculite. O anti-inflamatório não hormonal (alternativa B) é insuficiente. O corticoide é mantido em desmame lento por meses a anos, e poupadores (tocilizumabe, metotrexato) reduzem a dose cumulativa. Pérola de prova: 'suspeita de arterite temporal com sintoma visual = corticoide já, biópsia depois'.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuropatias Periféricas (hanseníase / neuropatia hansênica)",
+      "tier": "ALTO",
+      "vinheta": "Homem de 34 anos, morador do interior da Bahia, procura a unidade de saúde por manchas na pele que não coçam e onde ele não sente dor nem temperatura. Ao exame há placas hipocrômicas com bordas elevadas e perda de sensibilidade, além de espessamento palpável e doloroso do nervo ulnar direito e do nervo fibular comum esquerdo, com hipoestesia em luva/bota incompleta e discreta fraqueza para dorsiflexão do pé esquerdo. Não há febre nem outros sintomas sistêmicos.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o diagnóstico mais provável:",
+          "alternativas": {
+            "c": "Neuropatia diabética",
+            "d": "Hanseníase",
+            "b": "Síndrome de Guillain-Barré",
+            "a": "Doença de Charcot-Marie-Tooth"
+          },
+          "correta": "d",
+          "comentario": "Lesões cutâneas com perda de sensibilidade térmica/dolorosa + espessamento de nervos periféricos (ulnar, fibular) constituem o quadro típico da hanseníase, doença negligenciada ainda endêmica no Brasil, especialmente no Nordeste. O comprometimento é de nervos periféricos específicos, com espessamento palpável — achado que praticamente sela o diagnóstico no contexto de manchas anestésicas. A neuropatia diabética (alternativa C) é simétrica, distal, dependente de duração do diabetes, sem manchas anestésicas nem espessamento de troncos nervosos isolados. A síndrome de Guillain-Barré (alternativa B) é uma polirradiculoneuropatia aguda, ascendente, arreflexa, sem lesões de pele. A Charcot-Marie-Tooth (alternativa A) é hereditária, com atrofia distal ('pernas de cegonha') e história familiar, sem manchas anestésicas. Pérola: a perda de sensibilidade térmica é frequentemente a mais precoce nas manchas hansênicas.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a classificação operacional que define o esquema de tratamento:",
+          "alternativas": {
+            "b": "Paucibacilar",
+            "d": "Multibacilar",
+            "c": "Indeterminada não classificável",
+            "a": "Neural pura sem classificação"
+          },
+          "correta": "d",
+          "comentario": "Para fins operacionais do Ministério da Saúde, conta-se o número de lesões cutâneas: até 5 lesões = paucibacilar; mais de 5 lesões OU mais de um tronco nervoso acometido OU baciloscopia positiva = multibacilar. Este paciente tem placas e DOIS nervos acometidos (ulnar e fibular), o que o classifica como multibacilar, definindo poliquimioterapia mais longa. A forma paucibacilar (alternativa B) exigiria quadro mais limitado (≤5 lesões, um único tronco). A 'indeterminada não classificável' (alternativa C) não é a classificação operacional de tratamento — a forma indeterminada é uma apresentação clínica inicial, e mesmo ela entra em pauci/multibacilar pela contagem. 'Neural pura sem classificação' (alternativa A) não isenta de classificar: a hanseníase neural pura é tratada conforme baciloscopia/número de nervos. Pérola: o número de troncos nervosos acometidos, por si, já pode definir multibacilar.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o tratamento específico indicado:",
+          "alternativas": {
+            "b": "Poliquimioterapia com rifampicina, dapsona e clofazimina",
+            "d": "Corticoterapia isolada prolongada",
+            "a": "Imunoglobulina endovenosa",
+            "c": "Talidomida como monoterapia curativa"
+          },
+          "correta": "b",
+          "comentario": "O tratamento da hanseníase é a poliquimioterapia (PQT) padronizada pelo Ministério da Saúde: rifampicina + dapsona + clofazimina, com duração e doses conforme a classificação (6 meses no paucibacilar, 12 meses no multibacilar). É fornecida gratuitamente pelo SUS e cura a doença, interrompendo a transmissão. A corticoterapia isolada (alternativa D) tem papel no manejo dos estados reacionais e das neurites (reação tipo 1), mas não trata a infecção pelo M. leprae. A imunoglobulina (alternativa A) não tem indicação. A talidomida (alternativa C) é usada na reação tipo 2 (eritema nodoso hansênico), não como monoterapia curativa, e é contraindicada em gestantes pela teratogenicidade. Deve-se ainda avaliar contatos e vacinar com BCG conforme protocolo. Pérola: a rifampicina é a droga mais bactericida e a dose mensal é supervisionada.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Hipertensão Intracraniana e Emergências (hipertensão intracraniana idiopática)",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 27 anos, com obesidade, queixa-se de cefaleia holocraniana diária e progressiva há dois meses, pior ao deitar e ao acordar, com piora em manobras de esforço. Refere episódios de escurecimento visual transitório de segundos, sobretudo ao levantar, e visão dupla horizontal. Ao exame, há paresia bilateral da abdução ocular (acometimento do VI par) e, à fundoscopia, papiledema bilateral. A ressonância de encéfalo com venografia é normal, sem lesão expansiva nem trombose venosa.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o diagnóstico mais provável:",
+          "alternativas": {
+            "d": "Tumor de fossa posterior",
+            "b": "Hipertensão intracraniana idiopática",
+            "a": "Trombose de seio venoso",
+            "c": "Enxaqueca crônica"
+          },
+          "correta": "b",
+          "comentario": "Mulher jovem com obesidade + cefaleia de padrão de hipertensão intracraniana + obscurecimentos visuais transitórios + papiledema bilateral + paresia do VI par (falso sinal localizatório), com neuroimagem normal, define a hipertensão intracraniana idiopática (pseudotumor cerebri). A paresia do abducente ocorre pelo estiramento do nervo por aumento da pressão, sem valor localizatório. O tumor de fossa posterior (alternativa D) é excluído pela RM normal. A trombose de seio venoso (alternativa A) é o principal diferencial e pode causar quadro idêntico, mas foi afastada pela venografia normal — por isso a venografia é obrigatória antes de rotular como idiopática. A enxaqueca crônica (alternativa C) não causa papiledema nem paresia do VI par. Pérola: o maior risco é a perda visual permanente por papiledema crônico; a acuidade pode estar preservada mesmo com campo já comprometido.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o exame que confirma o diagnóstico:",
+          "alternativas": {
+            "a": "Tomografia sem contraste",
+            "c": "Punção lombar com medida da pressão de abertura",
+            "d": "Campimetria isolada",
+            "b": "Eletroencefalograma"
+          },
+          "correta": "c",
+          "comentario": "Após excluir lesão expansiva e trombose venosa por neuroimagem/venografia, a confirmação exige punção lombar com PRESSÃO DE ABERTURA elevada (tipicamente > 25 cmH2O no adulto) e composição do líquor NORMAL — os critérios de Dandy modificados. A tomografia sem contraste (alternativa A) costuma ser normal ou mostrar sinais indiretos (sela vazia, estenose de seios), mas não confirma. A campimetria (alternativa D) é fundamental para monitorar e detectar perda de campo visual, porém não estabelece a pressão elevada — é ferramenta de seguimento, não de diagnóstico etiológico. O EEG (alternativa B) não tem papel. A punção, além de diagnóstica, alivia sintomas temporariamente. Pérola: a punção deve ser feita em decúbito lateral para medida fidedigna da pressão de abertura; líquor com celularidade/proteína alteradas afasta a forma idiopática.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta inicial mais adequada:",
+          "alternativas": {
+            "a": "Acetazolamida associada à perda de peso",
+            "b": "Corticoterapia sistêmica contínua",
+            "c": "Derivação ventriculoperitoneal em todos os casos",
+            "d": "Apenas analgésico comum"
+          },
+          "correta": "a",
+          "comentario": "O tratamento de primeira linha combina acetazolamida (inibidor da anidrase carbônica que reduz a produção de líquor) com perda de peso, que é intervenção modificadora da doença. Monitora-se o campo visual seriadamente, pois a decisão de escalonar depende da função visual. A corticoterapia contínua (alternativa B) não é tratamento de manutenção (pode até piorar por ganho de peso e efeito rebote). A derivação (alternativa C) e a fenestração da bainha do nervo óptico são reservadas a casos com perda visual progressiva apesar do tratamento clínico — não indicadas a todos. O analgésico isolado (alternativa D) trata só o sintoma e ignora o risco de cegueira. Punções de repetício e stent de seio venoso são opções em cenários selecionados. Pérola: a prioridade absoluta é preservar a visão — perda de campo progressiva indica cirurgia urgente.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Encefalopatia hepática / cirrose (neuro-correlato) [REAL: SUS-BA R+ 2025]",
+      "tier": "MÉDIO",
+      "vinheta": "Homem, 58 anos de idade, com histórico de etilismo (80 g/dia por 30 anos) e cirrose hepática diagnosticada há 2 anos, apresenta-se ao ambulatório com ascite moderada, asterixis, icterícia e relato de dois episódios prévios de encefalopatia hepática. Faz uso de lactulose. Exames revelam bilirrubina total: 5,4 mg/dL, albumina sérica: 2,2 g/dL, creatinina: 1,6 mg/dL, INR: 2,1, sódio: 127 mEq/L. Ultrassonografia abdominal mostra fígado de contornos irregulares e ausência de nódulos.",
+      "perguntas": [
+        {
+          "enunciado": "Especifique o mecanismo mais importante envolvido na fisiopatologia da hiponatremia:",
+          "alternativas": {
+            "a": "Ativação do sistema renina-angiotensina-aldosterona e aumento da secreção de vasopressina.",
+            "c": "Insuficiência adrenal secundária à atrofia do córtex adrenal em hepatopatas crônicos.",
+            "d": "Síndrome hepatorrenal tipo 2 com retenção preferencial de sódio no espaço extravascular.",
+            "b": "Diluição secundária à administração excessiva de fluidos isotônicos para reposição volêmica."
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ 2025] Na cirrose com hipertensão portal há vasodilatação esplâncnica que reduz o volume arterial efetivo; o organismo interpreta isso como hipovolemia e ativa o sistema renina-angiotensina-aldosterona e a secreção não osmótica de vasopressina (ADH). O excesso de ADH promove retenção de água livre desproporcional ao sódio, gerando a hiponatremia DILUCIONAL típica do cirrótico — marcador de doença avançada e pior prognóstico. A insuficiência adrenal (alternativa C) pode ocorrer no doente crítico, mas não é o mecanismo central da hiponatremia do cirrótico. A síndrome hepatorrenal tipo 2 (alternativa D) cursa com retenção de sódio e água, mas o eixo do distúrbio do sódio sérico é o excesso de ADH/água livre, não 'retenção preferencial no extravascular'. A diluição iatrogênica por fluidos (alternativa B) pode contribuir, porém não é o mecanismo fisiopatológico primário. Pérola: a hiponatremia do cirrótico é hipervolêmica (edema/ascite) e trata-se restringindo água livre, não infundindo salina de rotina.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "O principal papel da lactulose nesse cenário é:",
+          "alternativas": {
+            "a": "Inibir a absorção de toxinas bacterianas no cólon.",
+            "d": "Diminuir a absorção de nitrogênio pela flora intestinal.",
+            "b": "Estimular a motilidade intestinal e diminuir a absorção de proteínas.",
+            "c": "Promover a conversão da amônia em amônio, que é menos absorvível."
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ 2025] A lactulose é um dissacarídeo não absorvível que, fermentado pelas bactérias colônicas, acidifica a luz intestinal; nesse pH ácido, a amônia (NH3, difusível e neurotóxica) é convertida em amônio (NH4+, ionizado e pouco absorvível), que é eliminado nas fezes — reduzindo a amônia que chega ao cérebro na encefalopatia hepática. Também tem efeito catártico que acelera a eliminação de compostos nitrogenados. 'Inibir absorção de toxinas bacterianas' (alternativa A) é vago e não descreve o mecanismo. 'Diminuir a absorção de nitrogênio pela flora' (alternativa D) e 'estimular a motilidade e diminuir absorção de proteínas' (alternativa B) tocam efeitos secundários, mas o mecanismo PRINCIPAL cobrado é a conversão NH3→NH4+ pela acidificação. A meta prática é 2 a 3 evacuações pastosas por dia. Pérola: a rifaximina é adjuvante que reduz a flora produtora de amônia e previne recorrências.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Identifique o fator mais importante a ser investigado para confirmar a elegibilidade para transplante hepático:",
+          "alternativas": {
+            "b": "Nível de adesão prévia aos fármacos, incluindo diuréticos e lactulose.",
+            "c": "Evidências de abuso ativo de álcool, com avaliação psiquiátrica para transtorno de uso de substâncias.",
+            "d": "Alterações vasculares, como trombose da veia porta ou hipertensão portal grave.",
+            "a": "Necessidade de suporte nutricional parenteral devido à desnutrição proteica avançada."
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ 2025] Na cirrose de etiologia alcoólica, a avaliação e a documentação de ABSTINÊNCIA são pré-requisito para a elegibilidade ao transplante, com abordagem psiquiátrica/psicossocial do transtorno por uso de álcool e habitualmente um período de abstinência comprovada — pois o abuso ativo compromete a sobrevida do enxerto e é contraindicação. A adesão prévia a fármacos (alternativa B) importa no cuidado, mas não é o fator determinante da elegibilidade. As alterações vasculares como trombose de porta (alternativa D) influenciam a técnica cirúrgica e o risco, mas não são o critério central de elegibilidade neste contexto. O suporte nutricional parenteral (alternativa A) faz parte do cuidado perioperatório, não define elegibilidade. A gravidade da doença é estimada por escores como MELD e Child-Pugh. Pérola: cessação do álcool é, simultaneamente, tratamento da doença de base e condição para o transplante.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Transtorno de insônia (neuro-correlato) [REAL: SUS-BA R+ 2024]",
+      "tier": "MÉDIO",
+      "vinheta": "Mulher, 48 anos de idade, procura atendimento ambulatorial com queixa de insônia nos últimos cinco meses. Relata dificuldade para adormecer e acorda várias vezes durante a noite, o que a deixa cansada e com dificuldade de concentração durante o dia. A paciente nega histórico de transtornos psiquiátricos e não faz uso regular de medicamentos. Seu exame físico não apresenta anormalidades relevantes. (Considerar as Diretrizes da Associação Brasileira do Sono.)",
+      "perguntas": [
+        {
+          "enunciado": "Para o diagnóstico de transtorno de insônia, neste caso, pode-se afirmar:",
+          "alternativas": {
+            "c": "É necessária a dosagem de melatonina.",
+            "d": "É suficiente a história clínica da paciente.",
+            "a": "É obrigatória a exclusão de comorbidades, como hipertiroidismo.",
+            "b": "É necessária a realização de polissonografia."
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ 2024] O diagnóstico de transtorno de insônia é essencialmente CLÍNICO: baseia-se na queixa de dificuldade para iniciar/manter o sono (ou despertar precoce) com repercussão diurna, por tempo e frequência definidos, na presença de oportunidade adequada de sono. A dosagem de melatonina (alternativa C) não faz parte da rotina diagnóstica. Embora seja boa prática rastrear comorbidades, dizer que é OBRIGATÓRIA a exclusão de hipertireoidismo (alternativa A) extrapola — a investigação é guiada pela clínica, e o diagnóstico não depende disso. A polissonografia (alternativa B) NÃO é necessária para a insônia primária; reserva-se a suspeita de outros distúrbios do sono (apneia, movimentos periódicos de membros) ou a casos refratários/atípicos. Pérola: um diário do sono e a anamnese detalhada, incluindo higiene do sono, substituem exames na maioria dos casos.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a estratégia terapêutica não farmacológica com maior evidência neste caso:",
+          "alternativas": {
+            "c": "Terapia cognitivo-comportamental.",
+            "a": "Técnicas de relaxamento.",
+            "d": "Hipnose.",
+            "b": "Exercícios físicos."
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ 2024] A terapia cognitivo-comportamental para insônia (TCC-I) é a intervenção de PRIMEIRA LINHA e a de maior nível de evidência, superior e mais duradoura que o tratamento farmacológico. Combina controle de estímulos, restrição de sono, reestruturação cognitiva das crenças disfuncionais sobre o sono, higiene do sono e técnicas de relaxamento. As técnicas de relaxamento isoladas (alternativa A) são apenas UM componente da TCC-I, com efeito menor quando usadas sozinhas. A hipnose (alternativa D) não tem evidência robusta como tratamento de escolha. Os exercícios físicos (alternativa B) ajudam a higiene do sono e a saúde geral, mas não são a estratégia estruturada de maior evidência. Pérola: a TCC-I deve ser oferecida antes de hipnóticos sempre que disponível, inclusive em formatos digitais quando o acesso é limitado.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Indique a estratégia terapêutica farmacológica mais recomendada para o caso:",
+          "alternativas": {
+            "c": "Clonazepam, se necessário.",
+            "a": "Melatonina ou agomelatina à noite.",
+            "b": "Zolpidem em baixa dosagem.",
+            "d": "Dexclorfeniramina ou passiflora."
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ 2024] Quando se opta por farmacoterapia (após ou junto à TCC-I), preferem-se os hipnóticos NÃO benzodiazepínicos ('drogas Z'), como o zolpidem em baixa dose e por curto prazo, com melhor perfil que os benzodiazepínicos. O clonazepam (alternativa C) é um benzodiazepínico de longa ação, a ser evitado como rotina por risco de tolerância, dependência, sedação residual e quedas — especialmente inadequado para uso contínuo. A melatonina/agomelatina (alternativa A) tem papel sobretudo em distúrbios do ritmo circadiano e é opção adjuvante, mas não a 'mais recomendada' para a insônia de manutenção descrita nesta questão da banca. Dexclorfeniramina/passiflora (alternativa D) — anti-histamínico e fitoterápico — carecem de evidência e podem causar sedação diurna e efeitos anticolinérgicos. Pérola: qualquer hipnótico deve ser prescrito pelo menor tempo possível e reavaliado, nunca como solução permanente.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Emergências / Asma (avaliação de controle e step-up) [REVISÃO ESPAÇADA — cota individual: Leonardo]",
+      "tier": "ALTO",
+      "vinheta": "Menino de 7 anos, com diagnóstico prévio de asma, retorna à unidade básica para reavaliação. A mãe conta que ele usa apenas salbutamol quando tem chiado. No último mês, apresentou tosse e chiado diurnos cerca de quatro vezes por semana, acordou à noite por falta de ar em duas ocasiões e precisou do salbutamol três vezes por semana. Não houve idas ao pronto-socorro nem limitação para brincar. Ao exame de hoje está bem, afebril, com ausculta pulmonar limpa e saturação normal.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o mecanismo fisiopatológico central da asma:",
+          "alternativas": {
+            "b": "Inflamação crônica das vias aéreas com hiper-responsividade brônquica",
+            "a": "Destruição irreversível do parênquima alveolar",
+            "d": "Fibrose intersticial pulmonar progressiva",
+            "c": "Obstrução fixa por corpo estranho"
+          },
+          "correta": "b",
+          "comentario": "A asma é uma doença inflamatória crônica das vias aéreas que cursa com hiper-responsividade brônquica e obstrução ao fluxo aéreo tipicamente REVERSÍVEL (espontaneamente ou com broncodilatador). A inflamação (eosinofílica na maioria das crianças) leva a edema, broncoespasmo e hipersecreção, explicando a natureza episódica e variável dos sintomas. A destruição alveolar irreversível (alternativa A) descreve o enfisema/DPOC, não a asma da criança. A fibrose intersticial (alternativa D) é doença restritiva, com padrão e evolução distintos. A obstrução fixa por corpo estranho (alternativa C) causa sibilância localizada e súbita, sem o caráter crônico e variável descrito. Pérola: a reversibilidade da obstrução (melhora do VEF1 após broncodilatador) é o que caracteriza funcionalmente a asma e a separa das obstruções fixas.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Indique a classificação do controle da asma neste momento:",
+          "alternativas": {
+            "d": "Asma controlada",
+            "a": "Asma parcialmente controlada",
+            "c": "Asma não controlada",
+            "b": "Asma intermitente sem necessidade de reavaliação"
+          },
+          "correta": "c",
+          "comentario": "Pelos critérios de controle (GINA), avaliam-se nas últimas 4 semanas: sintomas diurnos mais de 2x/semana, qualquer despertar noturno pela asma, uso de resgate mais de 2x/semana e qualquer limitação de atividade. Este menino tem TRÊS desses itens alterados (sintomas diurnos 4x/semana, despertares noturnos e uso de resgate 3x/semana), o que caracteriza asma NÃO controlada (3 a 4 itens presentes). A asma controlada (alternativa D) exigiria nenhum item presente. A parcialmente controlada (alternativa A) corresponde a 1 a 2 itens — menos do que este caso apresenta. Dizer que é intermitente e dispensa reavaliação (alternativa B) é erro conceitual perigoso: a classificação atual valoriza controle, não a antiga 'intermitente/persistente', e o mau controle exige ação. Pérola: a ausência de crise grave ou de sintomas no dia da consulta NÃO significa asma controlada — avalia-se o período recente.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta mais adequada para o controle a longo prazo:",
+          "alternativas": {
+            "c": "Iniciar corticoide inalatório de manutenção diário",
+            "b": "Manter apenas salbutamol conforme necessário",
+            "d": "Prescrever corticoide oral contínuo",
+            "a": "Iniciar antibiótico profilático"
+          },
+          "correta": "c",
+          "comentario": "Uma criança com asma NÃO controlada usando só broncodilatador de resgate precisa de terapia de manutenção (controlador), e o pilar é o corticoide inalatório em dose baixa diário, que trata a inflamação subjacente e reduz crises, sintomas e risco futuro. Manter só o salbutamol (alternativa B) é justamente o erro que perpetua o descontrole — o SABA alivia, mas não trata a inflamação. O corticoide oral contínuo (alternativa D) é inaceitável como manutenção pelos efeitos sistêmicos (crescimento, eixo adrenal, osso); reserva-se a cursos curtos nas crises. O antibiótico profilático (alternativa A) não tem papel na asma. Deve-se ainda revisar técnica inalatória, adesão, gatilhos ambientais e plano de ação escrito. Pérola: a abordagem atual (GINA) recomenda que mesmo asmáticos leves usem corticoide inalatório, evitando o uso isolado de SABA; escalona-se ('step-up') se persistir o descontrole.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neonatologia / Triagem neonatal (teste do pezinho)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Recém-nascido a termo, saudável, com cinco dias de vida, comparece com a mãe à unidade básica de saúde para a coleta do exame de triagem neonatal. A mãe pergunta à equipe qual a importância do exame, qual o momento certo de coletá-lo e o que fazer se algum resultado vier alterado. O bebê está mamando bem, sem icterícia significativa e com exame físico normal.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a doença rastreada cujo tratamento precoce previne, sobretudo, a deficiência intelectual:",
+          "alternativas": {
+            "a": "Hipotireoidismo congênito",
+            "c": "Diabetes mellitus tipo 1",
+            "d": "Cardiopatia congênita",
+            "b": "Displasia do desenvolvimento do quadril"
+          },
+          "correta": "a",
+          "comentario": "O hipotireoidismo congênito é uma das principais justificativas da triagem neonatal: é uma causa PREVENÍVEL de deficiência intelectual, e o início precoce da levotiroxina (idealmente nas primeiras semanas) preserva o neurodesenvolvimento, pois o hormônio tireoidiano é essencial para a maturação do sistema nervoso. A fenilcetonúria também se enquadra nessa lógica de dano neurológico evitável. O diabetes tipo 1 (alternativa C) não é rastreado pelo teste do pezinho. A cardiopatia congênita (alternativa D) é rastreada por outro teste — a oximetria de pulso ('teste do coraçãozinho'), não pelo pezinho. A displasia do quadril (alternativa B) é buscada pelo exame físico (manobras de Ortolani/Barlow) e ultrassom, não pela triagem sanguínea. Pérola: o teste do pezinho ampliado do SUS inclui, entre outras, hipotireoidismo congênito, fenilcetonúria, hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita e deficiência de biotinidase.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o período ideal para a coleta do teste do pezinho:",
+          "alternativas": {
+            "a": "Nas primeiras 24 horas de vida",
+            "b": "Entre o 3º e o 5º dia de vida",
+            "c": "Somente após o 15º dia de vida",
+            "d": "Apenas no primeiro mês, em qualquer dia"
+          },
+          "correta": "b",
+          "comentario": "O período ideal de coleta é entre o 3º e o 5º dia de vida. Esse intervalo equilibra dois fatores: dar tempo suficiente para o recém-nascido ingerir proteína (leite) e permitir a detecção de doenças como a fenilcetonúria (que depende da exposição à fenilalanina da dieta), e ao mesmo tempo não atrasar o diagnóstico de doenças de tratamento urgente, como o hipotireoidismo congênito e a hiperplasia adrenal congênita. Coletar nas primeiras 24 horas (alternativa A) pode gerar falsos negativos por exposição alimentar insuficiente e interferências hormonais. Coletar só após o 15º dia (alternativa C) atrasa perigosamente o diagnóstico de condições que causam dano precoce. 'Qualquer dia do primeiro mês' (alternativa D) é impreciso e permite atraso inaceitável. Pérola: mesmo fora da janela ideal, nunca se deve deixar de coletar — melhor tardio que nunca, mas o alvo é 3º a 5º dia.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Diante de uma triagem alterada sugerindo hipotireoidismo congênito, indique a conduta correta:",
+          "alternativas": {
+            "a": "Repetir o exame apenas aos 6 meses de idade",
+            "b": "Confirmar com dosagens séricas e iniciar levotiroxina o mais precocemente possível",
+            "d": "Aguardar o surgimento de sintomas para tratar",
+            "c": "Encaminhar para cirurgia de tireoide"
+          },
+          "correta": "b",
+          "comentario": "Uma triagem alterada é apenas um rastreamento; deve-se CONFIRMAR com dosagens séricas (TSH e T4 livre) e, confirmado o hipotireoidismo congênito, iniciar levotiroxina o mais precocemente possível — o benefício neurológico depende criticamente da janela de tempo, idealmente nas primeiras duas a quatro semanas de vida. Repetir só aos 6 meses (alternativa A) desperdiça a janela terapêutica e condena a criança ao dano cognitivo. Aguardar sintomas (alternativa D) é erro grave: o objetivo da triagem é justamente tratar ANTES do quadro clínico se instalar, pois quando surgem os sintomas (hipotonia, icterícia prolongada, hérnia umbilical, macroglossia) já pode haver dano. A cirurgia de tireoide (alternativa C) não tem indicação — o tratamento é a reposição hormonal. Pérola: a rapidez entre triagem alterada, confirmação e início da levotiroxina é o principal determinante do prognóstico intelectual.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Transtornos do Neurodesenvolvimento (transtorno do espectro autista)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menino de 2 anos é levado à consulta porque a mãe está preocupada: ele não aponta para pedir ou mostrar coisas, quase não faz contato visual e não responde quando é chamado pelo nome, embora ouça bem sons do ambiente. Fala pouquíssimas palavras, alinha carrinhos em fileira repetidamente e fica muito incomodado com mudanças de rotina, apresentando movimentos repetitivos das mãos quando animado. O restante do exame físico é normal.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a hipótese diagnóstica mais provável:",
+          "alternativas": {
+            "b": "Transtorno do espectro autista",
+            "c": "Deficiência auditiva isolada",
+            "d": "Mutismo seletivo",
+            "a": "Desenvolvimento típico para a idade"
+          },
+          "correta": "b",
+          "comentario": "O conjunto de déficit persistente na comunicação social (não aponta, pouco contato visual, não responde ao nome) somado a comportamentos restritos e repetitivos (enfileirar carrinhos, estereotipias manuais, insistência em rotinas) caracteriza o transtorno do espectro autista (TEA). A deficiência auditiva isolada (alternativa C) prejudicaria a resposta a sons, mas a criança ouve sons do ambiente e o problema é a comunicação social qualitativa — ainda assim, a audiometria deve ser feita para excluir surdez associada. O mutismo seletivo (alternativa D) é a ausência de fala em contextos específicos numa criança que fala normalmente em outros, geralmente mais velha, sem os comportamentos repetitivos. Desenvolvimento típico (alternativa A) está afastado pelos claros sinais de alerta. Pérola: não apontar (ausência de gesto protodeclarativo), não responder ao nome e ausência de atenção compartilhada aos 18-24 meses são bandeiras vermelhas clássicas.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Indique o instrumento recomendado para o rastreamento do autismo nessa faixa etária:",
+          "alternativas": {
+            "d": "M-CHAT-R/F",
+            "a": "Escala de coma de Glasgow",
+            "b": "Teste de Apgar",
+            "c": "Curva de crescimento da OMS"
+          },
+          "correta": "d",
+          "comentario": "O M-CHAT-R/F (Modified Checklist for Autism in Toddlers, revisado, com entrevista de seguimento) é o instrumento de rastreamento validado para TEA, aplicado aos pais entre 16 e 30 meses (classicamente aos 18 e 24 meses), justamente a faixa deste paciente. Um rastreio positivo indica avaliação diagnóstica especializada. A Escala de Glasgow (alternativa A) avalia nível de consciência em emergências, sem relação. O teste de Apgar (alternativa B) avalia a vitalidade no primeiro e quinto minutos de vida, no nascimento. A curva de crescimento da OMS (alternativa C) monitora peso/estatura, não neurodesenvolvimento específico. Vale lembrar que o M-CHAT é rastreio, não diagnóstico — o diagnóstico de TEA é clínico, baseado em critérios (DSM-5) e avaliação multiprofissional. Pérola: a vigilância do desenvolvimento em TODAS as consultas de puericultura é complementar ao rastreio dirigido.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta mais adequada após a suspeita:",
+          "alternativas": {
+            "c": "Encaminhar para intervenção precoce multiprofissional",
+            "d": "Apenas observar e reavaliar somente aos 4 anos",
+            "a": "Iniciar antipsicótico como primeira medida",
+            "b": "Prescrever dieta sem glúten e caseína como tratamento"
+          },
+          "correta": "c",
+          "comentario": "Diante da suspeita de TEA, a conduta é encaminhar para avaliação diagnóstica e iniciar intervenção precoce multiprofissional (fonoaudiologia, terapia ocupacional, abordagens comportamentais como as baseadas em ABA/modelos naturalistas, apoio à família), pois a plasticidade cerebral nos primeiros anos torna a intervenção precoce o principal fator modificável de prognóstico — não se espera 'confirmar tudo' para começar a estimular. Observar até os 4 anos (alternativa D) desperdiça a janela crítica de neurodesenvolvimento. O antipsicótico (alternativa A) não é primeira medida; risperidona/aripiprazol têm papel restrito e sintomático (irritabilidade/agressividade graves), não tratam o núcleo do TEA. A dieta sem glúten/caseína (alternativa B) não tem evidência de eficácia e não deve ser indicada como tratamento. Pérola: intervir cedo, mesmo antes do diagnóstico fechado, é a recomendação central.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nutrição / Aleitamento materno (contraindicações)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Uma puérpera é acompanhada no alojamento conjunto após o parto de um recém-nascido a termo. Durante a orientação sobre amamentação, a equipe revisa o cartão de pré-natal e discute em quais situações o aleitamento materno estaria contraindicado, e como conduzir cada caso, uma vez que a mãe deseja muito amamentar e tem dúvidas sobre a segurança do leite.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a condição materna que contraindica de forma definitiva o aleitamento no Brasil:",
+          "alternativas": {
+            "c": "Mastite puerperal",
+            "b": "Infecção materna pelo HIV",
+            "a": "Hepatite B com recém-nascido imunizado",
+            "d": "Uso de amoxicilina"
+          },
+          "correta": "b",
+          "comentario": "No Brasil, a infecção materna pelo HIV é contraindicação DEFINITIVA ao aleitamento (assim como a infecção pelo HTLV-1/2), pela possibilidade de transmissão vertical pelo leite; a orientação é substituir por fórmula infantil e suprimir a lactação. A mastite puerperal (alternativa C) NÃO contraindica — pelo contrário, manter a mama esvaziada faz parte do tratamento (só se suspende temporariamente e localmente em situações específicas como abscesso drenado). A hepatite B (alternativa A) não contraindica o aleitamento quando o recém-nascido recebe a imunoprofilaxia adequada (vacina + imunoglobulina). O uso de amoxicilina (alternativa D) é compatível com a amamentação, como a maioria dos antibióticos comuns. Pérola: no Brasil, HIV e HTLV são as contraindicações maternas clássicas de prova; sempre checar compatibilidade de fármacos em fontes específicas antes de suspender a mama.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a doença do recém-nascido que contraindica o leite materno:",
+          "alternativas": {
+            "b": "Galactosemia clássica",
+            "a": "Icterícia fisiológica",
+            "c": "Refluxo gastroesofágico",
+            "d": "Cólica do lactente"
+          },
+          "correta": "b",
+          "comentario": "A galactosemia clássica é a condição do próprio bebê que contraindica o leite materno (e as fórmulas comuns à base de lactose), pois a criança não metaboliza a galactose — presente na lactose do leite — e o acúmulo é tóxico, exigindo fórmula especial isenta de lactose/galactose. A icterícia fisiológica (alternativa A) não contraindica; o aleitamento deve ser mantido e estimulado (a chamada icterícia do leite materno também não exige suspensão na maioria das vezes). O refluxo gastroesofágico (alternativa C) e a cólica do lactente (alternativa D) são condições benignas e comuns que NÃO contraindicam a amamentação — suspendê-la seria um erro. Pérola: a galactosemia é o exemplo clássico de contraindicação POR DOENÇA DO BEBÊ, contrastando com HIV/HTLV, que são contraindicações por doença MATERNA.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Indique a conduta correta diante de uma mãe com diagnóstico de HIV:",
+          "alternativas": {
+            "d": "Fornecer fórmula infantil e orientar a supressão da lactação",
+            "b": "Manter o aleitamento desde que em uso de antirretroviral",
+            "c": "Oferecer leite materno ordenhado cru em casa",
+            "a": "Recomendar aleitamento cruzado por outra nutriz"
+          },
+          "correta": "d",
+          "comentario": "Na mãe com HIV, a conduta no Brasil é NÃO amamentar: fornece-se fórmula infantil (garantida pelo SUS) e orienta-se a supressão farmacológica da lactação (por exemplo, cabergolina) e o enfaixamento, evitando o ingurgitamento. Manter o aleitamento mesmo com antirretroviral (alternativa B) não é a recomendação brasileira, pois persiste risco residual de transmissão pelo leite. Oferecer leite materno cru da própria mãe (alternativa C) mantém o risco de transmissão e é contraindicado. O aleitamento cruzado — amamentação por outra nutriz (alternativa A) — é formalmente proibido pelo risco de transmissão de HIV e outros agentes, e nunca deve ser recomendado. Pérola: a prevenção da transmissão vertical inclui TARV na gestação/parto, profilaxia no RN e NÃO amamentação; leite humano de banco (pasteurizado) é para indicações específicas, não para contornar essa contraindicação.",
+          "dificuldade": "facil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nutrição / Saúde Coletiva (hipovitaminose A / xeroftalmia)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Criança de 3 anos, moradora de uma região do semiárido nordestino, é levada à consulta porque a mãe percebeu que ela tropeça e tem dificuldade de enxergar ao entardecer e em ambientes com pouca luz. Ao exame oftalmológico há ressecamento da conjuntiva e manchas espumosas esbranquiçadas na conjuntiva bulbar. A criança tem dieta pobre em alimentos de origem animal e em vegetais alaranjados, e há relato de episódios repetidos de diarreia e infecções respiratórias.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o diagnóstico mais provável:",
+          "alternativas": {
+            "b": "Conjuntivite alérgica",
+            "c": "Hipovitaminose A (xeroftalmia)",
+            "a": "Catarata congênita",
+            "d": "Deficiência de vitamina C"
+          },
+          "correta": "c",
+          "comentario": "Cegueira noturna (nictalopia) + xerose conjuntival + manchas de Bitot (as placas espumosas esbranquiçadas descritas), em criança com dieta pobre em vitamina A e infecções de repetição, definem a hipovitaminose A com xeroftalmia — importante causa evitável de cegueira infantil, ainda relevante em áreas de vulnerabilidade como o semiárido. A conjuntivite alérgica (alternativa B) cursa com prurido, hiperemia e lacrimejamento, não com cegueira noturna nem manchas de Bitot. A catarata congênita (alternativa A) causa leucocoria e baixa visão desde o nascimento, com curso e exame distintos. A deficiência de vitamina C (alternativa D) causa escorbuto (gengivorragia, dor óssea, petéquias), não xeroftalmia. Pérola: a vitamina A é essencial para a regeneração da rodopsina (visão noturna) e para a integridade epitelial e a imunidade — daí a associação com infecções e diarreia.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o sintoma/sinal MAIS precoce dessa deficiência:",
+          "alternativas": {
+            "a": "Cegueira noturna (nictalopia)",
+            "d": "Perfuração de córnea",
+            "c": "Manchas de Bitot",
+            "b": "Ceratomalácia"
+          },
+          "correta": "a",
+          "comentario": "A cegueira noturna (nictalopia) é a manifestação MAIS precoce e sensível da deficiência de vitamina A, refletindo a queda da rodopsina nos bastonetes retinianos, responsáveis pela visão em baixa luminosidade — por isso a mãe nota a dificuldade ao entardecer. As manchas de Bitot (alternativa C) surgem depois, já como sinal de xerose conjuntival estabelecida. A ceratomalácia (alternativa B), amolecimento da córnea, e a perfuração de córnea (alternativa D) são estágios TARDIOS e graves da xeroftalmia, que levam à cegueira irreversível. Reconhecer a nictalopia precoce permite tratar antes do dano corneano permanente. Pérola: a progressão clássica da xeroftalmia é nictalopia → xerose conjuntival/manchas de Bitot → xerose corneana → ceratomalácia → cicatriz/cegueira; quanto mais precoce a reposição, melhor o desfecho.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica e de saúde pública recomendada:",
+          "alternativas": {
+            "b": "Apenas colírio lubrificante",
+            "a": "Megadose de vitamina A conforme o protocolo do Ministério da Saúde",
+            "d": "Transplante de córnea imediato",
+            "c": "Suplementação de ferro isolada"
+          },
+          "correta": "a",
+          "comentario": "O tratamento é a administração de megadose de vitamina A por via oral seguindo o protocolo do Ministério da Saúde (esquema de doses conforme a idade, geralmente no diagnóstico, no dia seguinte e uma dose de reforço), que reverte a nictalopia e previne a progressão para lesão corneana. Apenas colírio lubrificante (alternativa B) trata o sintoma local, mas não a carência sistêmica que é a causa. O transplante de córnea (alternativa D) só se cogitaria em sequela cicatricial avançada, não como conduta inicial. A suplementação de ferro isolada (alternativa C) corrige anemia, não a hipovitaminose A. No âmbito da saúde coletiva, o Brasil mantém o Programa Nacional de Suplementação de Vitamina A para crianças de 6 a 59 meses em áreas de risco, além de estímulo à dieta rica em vitamina A e ao aleitamento. Pérola: em criança com sarampo e desnutrição, a suplementação de vitamina A também reduz gravidade e mortalidade.",
+          "dificuldade": "facil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Endocrinologia / Crescimento (puberdade precoce central)",
+      "tier": "ALTO",
+      "vinheta": "Menina de 6 anos é levada à consulta por desenvolvimento de mamas iniciado há alguns meses, acompanhado de aparecimento de pelos pubianos, aceleração do crescimento (a mãe precisou trocar as roupas com frequência) e odor axilar. Não há uso de cremes hormonais nem exposição a medicamentos. Ao exame, apresenta broto mamário bilateral (Tanner M2-M3) e pelos pubianos (P2). A idade óssea, avaliada por radiografia de mão e punho, está avançada em relação à idade cronológica.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o diagnóstico mais provável:",
+          "alternativas": {
+            "b": "Telarca precoce isolada benigna",
+            "a": "Puberdade precoce central",
+            "c": "Hiperplasia adrenal congênita forma clássica",
+            "d": "Adrenarca prematura isolada"
+          },
+          "correta": "a",
+          "comentario": "O surgimento de caracteres sexuais secundários (telarca + pubarca) antes dos 8 anos na menina, ACOMPANHADO de aceleração do crescimento e avanço da idade óssea, caracteriza puberdade precoce — e o padrão progressivo e completo, com ativação do eixo, aponta para a forma CENTRAL (GnRH-dependente, 'verdadeira'). A telarca precoce isolada benigna (alternativa B) é apenas desenvolvimento mamário, sem estirão, sem avanço de idade óssea nem pubarca — evolução não progressiva. A hiperplasia adrenal congênita clássica (alternativa C) manifesta-se em geral no período neonatal (virilização/perda de sal) e é causa de puberdade precoce PERIFÉRICA (independente de GnRH), tipicamente com virilização mais do que telarca. A adrenarca prematura isolada (alternativa D) é só o aparecimento de pelos/odor por androgênios adrenais, sem telarca nem estirão importante. Pérola: idade óssea avançada + estirão puberal + telarca progressiva favorecem a forma central; na menina, a maioria das causas centrais é idiopática, mas exige excluir lesão do SNC.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o exame que confirma a ativação do eixo hipotálamo-hipófise-gonadal:",
+          "alternativas": {
+            "c": "Dosagem de 17-hidroxiprogesterona",
+            "a": "Teste de estímulo com análogo de GnRH (resposta puberal do LH)",
+            "d": "Cariótipo",
+            "b": "Dosagem de TSH"
+          },
+          "correta": "a",
+          "comentario": "A confirmação da puberdade precoce CENTRAL se faz demonstrando a ativação do eixo: o teste de estímulo com análogo de GnRH mostra resposta puberal do LH (pico de LH elevado, com predomínio de LH sobre FSH); um LH basal já elevado por método sensível também sugere ativação. A 17-hidroxiprogesterona (alternativa C) é usada para investigar hiperplasia adrenal congênita, uma causa PERIFÉRICA, não confirma ativação central. O cariótipo (alternativa D) investiga disgenesias/anomalias cromossômicas (ex.: Turner na baixa estatura), sem papel aqui. O TSH (alternativa B) rastreia tireoidopatia, que só raramente se associa a puberdade precoce (hipotireoidismo grave), não é o exame confirmatório. Após confirmar a origem central, indica-se ressonância de encéfalo para excluir lesão hipotalâmico-hipofisária, sobretudo em meninos e em meninas muito jovens. Pérola: predomínio de LH sobre FSH ao estímulo é a marca da puberdade central.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica de escolha:",
+          "alternativas": {
+            "d": "Apenas observação, sem tratamento",
+            "c": "Análogo de GnRH (agonista de ação prolongada)",
+            "b": "Reposição de testosterona",
+            "a": "Corticoterapia sistêmica contínua"
+          },
+          "correta": "c",
+          "comentario": "O tratamento da puberdade precoce central é o análogo de GnRH de ação prolongada (agonista, como a leuprolida), que, pela estimulação contínua, DESSENSIBILIZA os receptores hipofisários e suprime a secreção de gonadotrofinas, interrompendo a progressão puberal. Os objetivos são preservar o potencial de estatura final (evitando o fechamento precoce das cartilagens pelo avanço da idade óssea) e reduzir o impacto psicossocial. A simples observação (alternativa D) é aceitável apenas em formas lentamente progressivas ou variantes benignas, não neste caso com estirão e idade óssea avançada. A reposição de testosterona (alternativa B) é o oposto do necessário — agravaria a virilização/avanço ósseo. A corticoterapia contínua (alternativa A) não trata a puberdade central (tem papel na hiperplasia adrenal congênita, causa periférica). Pérola: o tratamento é tanto mais benéfico para a estatura final quanto mais precoce, antes que a idade óssea avance demais.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Hematologia / Oncologia (leucemia linfoblástica aguda)",
+      "tier": "MÉDIO",
+      "vinheta": "Menino de 4 anos apresenta, há três semanas, palidez progressiva, cansaço, febre baixa intermitente e manchas roxas (equimoses e petéquias) pelo corpo sem trauma. A mãe nota que ele reclama de dor nas pernas e anda menos. Ao exame há palidez cutâneo-mucosa, petéquias, linfonodos aumentados no pescoço e hepatoesplenomegalia. O hemograma mostra anemia, plaquetopenia e leucometria alterada com presença de células jovens (blastos) no sangue periférico.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Púrpura trombocitopênica imune",
+            "c": "Leucemia linfoblástica aguda",
+            "d": "Anemia ferropriva",
+            "b": "Mononucleose infecciosa"
+          },
+          "correta": "c",
+          "comentario": "A tríade de insuficiência medular — anemia (palidez, fadiga), plaquetopenia (petéquias/equimoses) e neutropenia/febre — somada a dor óssea, linfonodomegalia, hepatoesplenomegalia e BLASTOS no sangue periférico é o quadro clássico da leucemia linfoblástica aguda (LLA), a neoplasia maligna mais frequente da infância. A infiltração medular pelos blastos suprime as três linhagens, e a infiltração óssea explica a dor nas pernas. A púrpura trombocitopênica imune (alternativa A) cursa com plaquetopenia ISOLADA, sem anemia, sem blastos, sem hepatoesplenomegalia — a presença de outras citopenias e organomegalia afasta. A anemia ferropriva (alternativa D) causa só anemia, sem plaquetopenia, blastos, febre ou visceromegalia. A mononucleose (alternativa B) dá linfonodomegalia e esplenomegalia, mas com linfócitos atípicos (não blastos) e sem a pancitopenia com dor óssea descrita. Pérola: dor óssea + citopenias + blastos periféricos em criança = investigar leucemia com urgência.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o exame que confirma o diagnóstico:",
+          "alternativas": {
+            "d": "Mielograma (aspirado de medula óssea)",
+            "c": "Ferritina sérica",
+            "b": "Sorologia para vírus Epstein-Barr",
+            "a": "Tempo de sangramento"
+          },
+          "correta": "d",
+          "comentario": "A confirmação da leucemia se faz pelo mielograma (aspirado de medula óssea), que demonstra a infiltração por blastos (classicamente ≥ 20-25% conforme o critério adotado), complementado pela imunofenotipagem (que define a linhagem — B ou T na LLA) e por citogenética/biologia molecular, essenciais para estratificar risco e guiar o tratamento. A ferritina (alternativa C) avalia estoques de ferro (anemia ferropriva), sem papel diagnóstico aqui. A sorologia para Epstein-Barr (alternativa B) investigaria mononucleose, diagnóstico já improvável pela presença de blastos e pancitopenia. O tempo de sangramento (alternativa A) é teste inespecífico e obsoleto, não confirma leucemia. O sangue periférico pode sugerir, mas a medula é o padrão. Pérola: a imunofenotipagem distingue LLA de leucemia mieloide aguda e orienta protocolos distintos — etapa indispensável.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Sobre o prognóstico da leucemia linfoblástica aguda na infância, indique a afirmativa correta:",
+          "alternativas": {
+            "d": "É invariavelmente fatal em poucos meses",
+            "c": "É a neoplasia infantil mais comum e apresenta altas taxas de cura com o tratamento atual",
+            "b": "Nunca acomete o sistema nervoso central",
+            "a": "Dispensa quimioterapia, bastando transfusões"
+          },
+          "correta": "c",
+          "comentario": "A LLA é a neoplasia maligna mais comum da infância e, com os protocolos quimioterápicos modernos e a estratificação de risco, apresenta ALTAS taxas de cura (sobrevida em torno de 85-90% nos subtipos de bom prognóstico) — um dos maiores sucessos da oncologia pediátrica. Dizer que é invariavelmente fatal (alternativa D) é falso e desatualizado. Afirmar que nunca acomete o SNC (alternativa B) é incorreto: o sistema nervoso central é santuário de infiltração leucêmica, e por isso o tratamento inclui profilaxia/terapia intratecal e o exame do líquor faz parte do estadiamento. Dizer que dispensa quimioterapia (alternativa A) é grave erro — o tratamento é a poliquimioterapia em fases (indução, consolidação, manutenção) por cerca de 2 a 3 anos; transfusões são apenas suporte. Fatores de melhor prognóstico incluem idade entre 1 e 10 anos, leucometria inicial mais baixa, linhagem B e boa resposta precoce. Pérola: a doença residual mínima ao fim da indução é hoje um dos mais fortes marcadores prognósticos.",
+          "dificuldade": "dificil"
+        }
+      ]
+    }
+  ]
+}
