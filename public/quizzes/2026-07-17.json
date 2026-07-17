@@ -115,7 +115,7 @@
      },
      "correta": "d",
      "comentario": "A ressonância magnética de toda a coluna, com e sem contraste, é o exame de escolha: define o nível, a extensão e a presença de compressão do cordão, além de detectar lesões em outros segmentos (frequentemente múltiplas nas metástases). Avaliar apenas o segmento suspeito pode subestimar a doença, por isso rastreia-se toda a coluna. A tomografia de crânio não avalia a medula. A eletroneuromiografia estuda nervo/músculo periférico e é inútil para compressão medular aguda. A radiografia simples pode mostrar lesões ósseas, mas tem baixa sensibilidade e não visualiza o cordão nem o espaço epidural. Diante de forte suspeita, o corticoide não deve aguardar a imagem.",
-     "dificuldade": "moderada"
+     "dificuldade": "facil"
     },
     {
      "enunciado": "Indique a conduta imediata mais adequada:",
@@ -244,7 +244,7 @@
      },
      "correta": "b",
      "comentario": "A doença de Huntington resulta da expansão instável de repetições do trinucleotídeo CAG no gene HTT (cromossomo 4), que codifica a huntingtina; alelos com 40 ou mais repetições causam a doença de forma completamente penetrante, e 36 a 39 conferem penetrância reduzida. A herança é autossômica dominante, com o fenômeno de antecipação (início mais precoce em gerações sucessivas, sobretudo na transmissão paterna). A mutação recessiva do transporte de cobre corresponde à doença de Wilson; a autoimunidade pós-estreptocócica, à coreia de Sydenham; o bloqueio crônico de receptores dopaminérgicos, à discinesia tardia. O aconselhamento genético é parte central do cuidado, inclusive para familiares assintomáticos.",
-     "dificuldade": "moderada"
+     "dificuldade": "facil"
     },
     {
      "enunciado": "Indique a conduta terapêutica mais adequada:",
@@ -342,7 +342,7 @@
      },
      "correta": "d",
      "comentario": "O manejo global associa o tratamento específico da toxoplasmose ao controle da doença de base, com otimização/início da terapia antirretroviral para reconstituir a imunidade — pilar do prognóstico. A radioterapia de encéfalo seria conduta do linfoma primário, não confirmado. A anfotericina B trata infecções fúngicas, como a criptococose, que tem outra apresentação (meningite, tinta da China no líquor). Apenas anticonvulsivante e observação deixariam a infecção sem tratamento. Atenção ao momento de iniciar a terapia antirretroviral e ao risco de síndrome inflamatória de reconstituição imune, manejados conforme protocolo.\n\n📚 Leitura sugerida (bloco): Adams & Victor, cap. 'Infections of the Nervous System'; Ministério da Saúde, Protocolo Clínico e Diretrizes Terapêuticas para manejo da infecção pelo HIV (infecções oportunistas do SNC).",
-     "dificuldade": "moderada"
+     "dificuldade": "facil"
     }
    ]
   },
@@ -373,7 +373,7 @@
      },
      "correta": "b",
      "comentario": "A confirmação é bioquímica: TSH elevado com T4 livre baixo estabelece o hipotireoidismo congênito primário. A triagem neonatal (teste do pezinho) usa o TSH como marcador principal, mas o diagnóstico se confirma com o perfil tireoidiano sérico. O cariótipo investiga síndrome de Down; a biópsia retal, a doença de Hirschsprung; a ultrassonografia de abdome não faz o diagnóstico da tireoide (a cintilografia/ultrassom de tireoide apenas ajudam depois a definir a etiologia — disgenesia, ectopia ou disormonogênese). O essencial em prova é reconhecer que TSH e T4 livre confirmam a doença e que o tempo até o tratamento determina o prognóstico neurológico.",
-     "dificuldade": "moderada"
+     "dificuldade": "facil"
     },
     {
      "enunciado": "Indique a conduta terapêutica mais adequada:",
@@ -533,7 +533,7 @@
      },
      "correta": "b",
      "comentario": "[Questao real - SUS-BA R+ Pediatria 2025] O quadro é de bronquiolite viral aguda, primeira sibilância no lactente após pródromo de vias aéreas superiores, com taquipneia, sibilos, retrações e hiperinsuflação — na maioria das vezes causada pelo vírus sincicial respiratório. A doença é mais comum e mais grave em menores de 6 meses, faixa de maior risco de desconforto e hospitalização, especialmente prematuros e cardiopatas. Não predomina em maiores de 5 anos nem atinge igualmente adultos e crianças, e está entre as principais causas de internação no lactente, ao contrário do que afirmam os distratores. Reconhecer a epidemiologia orienta a vigilância dos sinais de gravidade (esforço, hipoxemia, dificuldade alimentar), presentes neste caso.",
-     "dificuldade": "moderada"
+     "dificuldade": "facil"
     },
     {
      "enunciado": "Considerando a faixa etária e a apresentação clínica, indique o principal diagnóstico diferencial a ser considerado nesse caso:",
