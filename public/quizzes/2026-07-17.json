@@ -1,0 +1,651 @@
+{
+ "date": "2026-07-17",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (VPPB de canal horizontal) [REVISAO ESPACADA]",
+   "tier": "ALTO",
+   "vinheta": "Mulher de 54 anos refere crises de vertigem rotatória intensa desencadeadas ao rolar na cama de um lado para o outro, com duração de cerca de 30 segundos a 1 minuto, acompanhadas de náuseas. Nega hipoacusia, zumbido ou plenitude auricular. Nega cefaleia, diplopia ou déficit focal. Ao exame, a manobra de Dix-Hallpike é pouco elucidativa, mas o teste de rolamento cefálico em decúbito dorsal desencadeia nistagmo horizontal que muda de direção conforme o lado para o qual a cabeça é girada. Não há sinais cerebelares e o teste de impulso cefálico é normal.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Vertigem posicional paroxística benigna de canal posterior",
+      "b": "Vertigem posicional paroxística benigna de canal horizontal",
+      "c": "Neurite vestibular",
+      "d": "Doença de Ménière"
+     },
+     "correta": "b",
+     "comentario": "A VPPB é a causa mais comum de vertigem posicional: crises breves (segundos a cerca de 1 minuto) desencadeadas por mudança de posição da cabeça, sem sintomas auditivos nem sinais centrais. O detalhe que define o canal acometido é o padrão do nistagmo. No canal horizontal (lateral), o teste de rolamento supino provoca nistagmo horizontal que troca de direção conforme o lado — geotrópico na canalolitíase, apogeotrópico na cupulolitíase —, diferente do canal posterior, cujo nistagmo é vertical-torcional e aparece no Dix-Hallpike. A neurite vestibular é descartada porque cursa com vertigem contínua por dias e teste de impulso cefálico positivo, não crises posicionais recorrentes. A doença de Ménière exige a tríade com hipoacusia flutuante, zumbido e plenitude auricular, ausentes aqui. A VPPB de canal posterior seria confirmada pelo Dix-Hallpike, mas o nistagmo horizontal aponta o canal lateral. Pérola: escolher a manobra diagnóstica certa para cada canal é pegadinha clássica de prova.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a manobra apropriada para confirmar o canal acometido neste caso:",
+     "alternativas": {
+      "a": "Manobra de Epley",
+      "b": "Teste de impulso cefálico (HINTS)",
+      "c": "Manobra de Dix-Hallpike",
+      "d": "Teste de rolamento cefálico supino (Pagnini-McClure)"
+     },
+     "correta": "d",
+     "comentario": "O canal semicircular horizontal é avaliado pelo teste de rolamento cefálico em decúbito dorsal (Pagnini-McClure/head-roll): com o paciente supino e a cabeça fletida cerca de 30 graus, gira-se a cabeça rapidamente para cada lado, observando o nistagmo horizontal e sua direção. O Dix-Hallpike é a manobra do canal posterior (nistagmo vertical-torcional) e por isso foi pouco elucidativo aqui. A manobra de Epley é terapêutica e específica do canal posterior, não diagnóstica do horizontal. O protocolo HINTS (impulso cefálico, nistagmo, skew) serve para diferenciar síndrome vestibular aguda periférica de central, não para localizar o canal na VPPB posicional. Usar a manobra correta para o canal suspeito evita diagnósticos falsos e tratamento ineficaz.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica de primeira escolha:",
+     "alternativas": {
+      "a": "Manobra de reposicionamento de canalólitos (Lempert/barbecue roll)",
+      "b": "Corticoterapia em pulso",
+      "c": "Restrição de sódio e diurético",
+      "d": "Betaistina de uso contínuo"
+     },
+     "correta": "a",
+     "comentario": "O tratamento da VPPB é mecânico, por manobras de reposicionamento específicas do canal. No canal horizontal, usam-se a manobra de Lempert (barbecue roll, rotação de 360 graus) ou a de Gufoni, e não a de Epley (canal posterior). A betaistina e a associação restrição de sódio com diurético são estratégias da doença de Ménière, não da VPPB. A corticoterapia é conduta da neurite vestibular em casos selecionados, também sem papel aqui. Supressores vestibulares (anti-histamínicos, benzodiazepínicos) podem aliviar náusea aguda, mas não corrigem a causa e, se usados por tempo prolongado, atrasam a compensação central. A orientação sobre recorrência e exercícios vestibulares completa o manejo.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroimunologia (encefalomielite aguda disseminada) [REVISAO ESPACADA]",
+   "tier": "ALTO",
+   "vinheta": "Menino de 7 anos, previamente hígido, é levado ao pronto-socorro com sonolência, cefaleia e fraqueza nos quatro membros iniciadas há 2 dias. Há relato de infecção de vias aéreas superiores com febre cerca de duas semanas antes, já resolvida. Ao exame, apresenta-se torporoso, com tetraparesia, sinais piramidais e paralisia do olhar conjugado; sem rigidez de nuca importante. O líquor mostra discreta pleocitose linfocítica e proteína levemente elevada. A ressonância de encéfalo revela múltiplas lesões extensas e mal delimitadas em substância branca subcortical e nos tálamos, com captação irregular de contraste, todas de aparência semelhante.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Encefalite herpética",
+      "b": "Encefalomielite aguda disseminada",
+      "c": "Leucoencefalopatia multifocal progressiva",
+      "d": "Esclerose múltipla em primeiro surto"
+     },
+     "correta": "b",
+     "comentario": "A encefalomielite aguda disseminada é uma doença desmielinizante inflamatória tipicamente monofásica e pós-infecciosa (ou pós-vacinal), mais comum em crianças, que surge dias a semanas após um quadro infeccioso. A presença obrigatória de encefalopatia (rebaixamento de consciência ou alteração comportamental) associada a déficits multifocais é a chave clínica. A esclerose múltipla em primeiro surto raramente cursa com encefalopatia e costuma poupar o nível de consciência, com lesões de idades diferentes. A encefalite herpética produz lesões tipicamente temporais/límbicas com necrose e hemorragia, febre alta e crises, tratada empiricamente com aciclovir. A leucoencefalopatia multifocal progressiva ocorre em imunossuprimidos (vírus JC), com lesões de substância branca sem realce nem efeito de massa e evolução mais arrastada. O quadro pós-infeccioso, a encefalopatia e as lesões grandes de mesma idade favorecem a encefalomielite aguda disseminada.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o achado que mais favorece este diagnóstico em relação à esclerose múltipla:",
+     "alternativas": {
+      "a": "Disseminação no tempo com lesões de idades diferentes",
+      "b": "Lesões periventriculares perpendiculares ao corpo caloso",
+      "c": "Lesões de mesma idade e presença de encefalopatia",
+      "d": "Bandas oligoclonais restritas ao líquor"
+     },
+     "correta": "c",
+     "comentario": "Na encefalomielite aguda disseminada as lesões costumam ser grandes, bilaterais, relativamente simétricas e todas com a mesma idade (surgem juntas no evento único), acompanhadas de encefalopatia — critério que a distingue da esclerose múltipla. Bandas oligoclonais restritas ao líquor, lesões periventriculares perpendiculares ao corpo caloso (dedos de Dawson) e, sobretudo, a disseminação no tempo (lesões de idades diferentes, com realce em algumas e não em outras) são marcadores de esclerose múltipla. Como a encefalomielite aguda disseminada é habitualmente monofásica, a ausência de novas lesões ao longo do tempo apoia o diagnóstico; a recorrência levaria a rever para formas multifásicas ou para esclerose múltipla. A encefalopatia num evento desmielinizante infantil é o dado mais discriminante em prova.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o tratamento de primeira linha:",
+     "alternativas": {
+      "a": "Pulsoterapia com metilprednisolona",
+      "b": "Aciclovir intravenoso",
+      "c": "Natalizumabe",
+      "d": "Interferona beta de manutenção"
+     },
+     "correta": "a",
+     "comentario": "O tratamento de primeira linha da encefalomielite aguda disseminada é a corticoterapia em altas doses (pulsoterapia com metilprednisolona), com imunoglobulina intravenosa ou plasmaférese como resgate nos casos refratários. A interferona beta e o natalizumabe são terapias modificadoras de esclerose múltipla, sem papel na doença monofásica e potencialmente inadequadas. O aciclovir intravenoso é o tratamento empírico da encefalite herpética; embora seja razoável iniciá-lo enquanto a herpética não é afastada, o tratamento definitivo do caso, uma vez caracterizada a desmielinização pós-infecciosa, é o corticoide. O prognóstico costuma ser favorável, com boa recuperação na maioria das crianças.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Medula, Cauda Equina e Dor (compressão medular metastática epidural)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 63 anos com adenocarcinoma de próstata metastático procura o pronto-socorro por dor torácica em faixa há 3 semanas, agora com fraqueza progressiva nas pernas há 2 dias, dificuldade para deambular e um episódio de perda urinária. Ao exame, apresenta paraparesia de predomínio proximal, nível sensitivo em T6, reflexos exaltados nos membros inferiores com sinal de Babinski bilateral e bexiga palpável.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Compressão medular metastática epidural",
+      "b": "Síndrome da cauda equina",
+      "c": "Mielite transversa idiopática",
+      "d": "Síndrome de Guillain-Barré"
+     },
+     "correta": "a",
+     "comentario": "A combinação de câncer conhecido, dor em faixa (radicular/vertebral), paraparesia com nível sensitivo definido, hiper-reflexia com Babinski e disfunção esfincteriana caracteriza compressão medular por metástase epidural — uma emergência oncológica. O nível sensitivo torácico e os sinais piramidais localizam a lesão na medula (neurônio motor superior), não em raízes. A síndrome de Guillain-Barré cursa com fraqueza ascendente arreflexa e sem nível sensitivo, com dissociação proteinocitológica no líquor. A síndrome da cauda equina dá sinais de neurônio motor inferior (arreflexia), anestesia em sela e é lombossacra, não torácica. A mielite transversa idiopática entra no diferencial, mas o contexto de neoplasia com dor vertebral aponta compressão estrutural até prova em contrário. Reconhecer cedo preserva a capacidade de deambular.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame de escolha para confirmar o diagnóstico:",
+     "alternativas": {
+      "a": "Eletroneuromiografia",
+      "b": "Ressonância magnética de toda a coluna",
+      "c": "Tomografia de crânio",
+      "d": "Radiografia simples de coluna"
+     },
+     "correta": "b",
+     "comentario": "A ressonância magnética de toda a coluna, com e sem contraste, é o exame de escolha: define o nível, a extensão e a presença de compressão do cordão, além de detectar lesões em outros segmentos (frequentemente múltiplas nas metástases). Avaliar apenas o segmento suspeito pode subestimar a doença, por isso rastreia-se toda a coluna. A tomografia de crânio não avalia a medula. A eletroneuromiografia estuda nervo/músculo periférico e é inútil para compressão medular aguda. A radiografia simples pode mostrar lesões ósseas, mas tem baixa sensibilidade e não visualiza o cordão nem o espaço epidural. Diante de forte suspeita, o corticoide não deve aguardar a imagem.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a conduta imediata mais adequada:",
+     "alternativas": {
+      "a": "Imunoglobulina intravenosa",
+      "b": "Antibioticoterapia empírica",
+      "c": "Reabilitação motora ambulatorial",
+      "d": "Corticoide em dose alta com radioterapia ou descompressão cirúrgica urgentes"
+     },
+     "correta": "d",
+     "comentario": "A conduta é iniciar dexametasona em dose alta imediatamente (reduz edema e dor e pode preservar função) e acionar tratamento definitivo urgente — radioterapia e/ou cirurgia descompressiva, conforme estabilidade da coluna, radiossensibilidade do tumor e estado funcional. O tempo é crítico: o prognóstico neurológico depende do grau de déficit no início do tratamento. Reabilitação ambulatorial isolada ignora a emergência. A imunoglobulina intravenosa trataria Guillain-Barré, diagnóstico afastado pelo nível sensitivo e sinais piramidais. Antibiótico seria para abscesso epidural/espondilodiscite, sem febre nem contexto infeccioso aqui. A analgesia e a avaliação oncológica multidisciplinar completam o manejo.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Demências (hidrocefalia de pressão normal)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 74 anos é trazido pela família por declínio cognitivo há 1 ano, com lentificação, esquecimentos e apatia. Associadamente, apresenta marcha alargada, lenta e como que 'grudada ao chão' (magnética), com quedas, e passou a ter urgência e incontinência urinária. O exame não mostra sinais focais. A ressonância evidencia ventriculomegalia desproporcional à atrofia cortical, com dilatação dos cornos temporais sem atrofia hipocampal marcante.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Doença de Parkinson",
+      "b": "Demência vascular subcortical",
+      "c": "Hidrocefalia de pressão normal",
+      "d": "Doença de Alzheimer"
+     },
+     "correta": "c",
+     "comentario": "A tríade de Hakim-Adams — distúrbio da marcha (apraxia/marcha magnética), incontinência urinária e declínio cognitivo — associada a ventriculomegalia desproporcional à atrofia caracteriza a hidrocefalia de pressão normal, uma das poucas causas de demência potencialmente reversíveis. A marcha costuma ser o sintoma mais precoce e o que mais responde ao tratamento. Na doença de Alzheimer o quadro é dominado por amnésia episódica com atrofia hipocampal, e distúrbio de marcha/esfíncter é tardio. A demência vascular subcortical cursa com fatores de risco e lesões isquêmicas na imagem. A doença de Parkinson traz tremor de repouso, rigidez e bradicinesia com boa resposta à levodopa, sem a ventriculomegalia desproporcional. Reconhecer a hidrocefalia de pressão normal é importante porque a derivação pode reverter parte dos sintomas.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame que melhor prediz a resposta ao tratamento:",
+     "alternativas": {
+      "a": "Cintilografia de transportador de dopamina",
+      "b": "Eletroencefalograma",
+      "c": "Teste de retirada liquórica (tap test)",
+      "d": "Biomarcadores liquóricos beta-amiloide e tau"
+     },
+     "correta": "c",
+     "comentario": "O tap test (punção lombar com retirada de 30 a 50 mL de líquor e reavaliação da marcha antes e depois) é o principal preditor de resposta à derivação: a melhora objetiva da marcha após a drenagem indica bom prognóstico cirúrgico. Os biomarcadores liquóricos beta-amiloide e tau apoiam o diagnóstico de doença de Alzheimer, não da hidrocefalia de pressão normal. A cintilografia de transportador de dopamina diferencia parkinsonismos, sem papel aqui. O eletroencefalograma não contribui para essa distinção. A avaliação quantitativa da marcha antes e depois do tap test é mais informativa que a impressão subjetiva.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica definitiva mais adequada:",
+     "alternativas": {
+      "a": "Derivação ventrículo-peritoneal",
+      "b": "Anticolinesterásico",
+      "c": "Anticoagulação plena",
+      "d": "Levodopa"
+     },
+     "correta": "a",
+     "comentario": "O tratamento definitivo da hidrocefalia de pressão normal é a derivação ventrículo-peritoneal, sobretudo nos pacientes com boa resposta ao tap test; a marcha é o domínio que mais melhora, seguido pela cognição e continência. O anticolinesterásico é usado na doença de Alzheimer e não corrige a hidrocefalia. A levodopa trata a doença de Parkinson. A anticoagulação plena não tem indicação e ainda aumentaria o risco de hematoma subdural, complicação já mais comum nesses pacientes idosos com espaço subdural aumentado. Seleção criteriosa dos candidatos maximiza o benefício e reduz complicações da derivação.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (dissecção arterial cervical no jovem)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 38 anos, sem fatores de risco cardiovascular, inicia cervicalgia e cefaleia unilateral à esquerda após sessão intensa de manipulação cervical, evoluindo em horas com hemiparesia direita e disartria. Ao exame, notam-se ptose e miose à esquerda, sem anidrose facial marcante, associadas à hemiparesia direita. A tomografia de crânio não mostra hemorragia.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Enxaqueca com aura motora",
+      "b": "Dissecção da artéria carótida interna esquerda",
+      "c": "Trombose venosa cerebral",
+      "d": "Arterite de células gigantes"
+     },
+     "correta": "b",
+     "comentario": "Dissecção arterial cervical é causa importante de AVC no jovem, tipicamente após trauma ou manipulação cervical. A tríade clássica é dor cervical/facial ipsilateral, síndrome de Horner parcial (ptose e miose, com preservação relativa da sudorese facial, porque as fibras sudomotoras acompanham a carótida externa) e isquemia cerebral ou retiniana no território correspondente. A trombose venosa cerebral cursa com cefaleia progressiva, crises e fatores pró-trombóticos, com sinal do delta vazio na imagem. A enxaqueca com aura motora produz sintomas transitórios e reversíveis, sem Horner nem infarto. A arterite de células gigantes acomete idosos, com claudicação de mandíbula, VHS muito elevado e risco de amaurose. O contexto de manipulação cervical, dor e Horner parcial aponta a dissecção carotídea.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame mais adequado para confirmar a etiologia:",
+     "alternativas": {
+      "a": "Angiotomografia ou angiorressonância dos vasos cervicais",
+      "b": "Ecocardiograma transtorácico isolado",
+      "c": "Eletroencefalograma",
+      "d": "Punção lombar"
+     },
+     "correta": "a",
+     "comentario": "A confirmação é feita por estudo angiográfico dos vasos cervicais — angiotomografia ou angiorressonância —, que evidencia o afilamento em chama de vela, o hematoma mural (crescente hiperintenso na sequência com supressão de gordura) ou o falso lúmen. A punção lombar não avalia dissecção e seria arriscada; o eletroencefalograma não localiza doença vascular; o ecocardiograma transtorácico isolado investiga fonte cardioembólica, que não é a suspeita principal aqui. A imagem vascular cervical é o exame-chave para fechar o diagnóstico e guiar a conduta.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada:",
+     "alternativas": {
+      "a": "Corticoterapia em pulso",
+      "b": "Anticonvulsivante profilático",
+      "c": "Antitrombótico, com trombólise se dentro da janela e elegível",
+      "d": "Apenas analgesia e observação"
+     },
+     "correta": "c",
+     "comentario": "O tratamento da dissecção cervical com isquemia baseia-se em antitrombótico — antiagregação plaquetária ou anticoagulação, com evidência semelhante entre as estratégias na maioria dos casos — para prevenir eventos embólicos a partir do trombo mural. A dissecção em si não contraindica a trombólise intravenosa quando o paciente está dentro da janela e é elegível, medida que não deve ser negada por causa do diagnóstico. A corticoterapia em pulso trataria vasculite/arterite, não dissecção. Apenas analgesia e observação deixam o paciente sob risco de novo AVC. O anticonvulsivante profilático não tem indicação sem crises. O prognóstico costuma ser bom, com recanalização frequente ao longo de semanas.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtornos do Movimento (doença de Huntington)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 45 anos apresenta movimentos involuntários rápidos, irregulares e sem finalidade nos membros e na face há 2 anos, associados a irritabilidade, impulsividade e queda de rendimento cognitivo. O pai faleceu com quadro semelhante por volta dos 50 anos. Ao exame, observam-se coreia generalizada, impersistência motora e prejuízo de funções executivas.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Doença de Huntington",
+      "b": "Coreia de Sydenham",
+      "c": "Discinesia tardia",
+      "d": "Doença de Wilson"
+     },
+     "correta": "a",
+     "comentario": "A associação de coreia progressiva, sintomas psiquiátricos/comportamentais (irritabilidade, impulsividade) e declínio cognitivo subcortical, com história familiar de padrão dominante, caracteriza a doença de Huntington. A coreia de Sydenham ocorre em crianças/adolescentes, é pós-estreptocócica e autolimitada, sem demência progressiva nem herança dominante. A discinesia tardia decorre do uso crônico de bloqueadores de receptores dopaminérgicos (antipsicóticos, metoclopramida), com movimentos orofaciais e história medicamentosa. A doença de Wilson surge em jovens, com parkinsonismo/distonia, hepatopatia e anéis de Kayser-Fleischer, por acúmulo de cobre. A idade de início na meia-idade, a coreia e a herança paterna apontam Huntington.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o mecanismo genético da doença:",
+     "alternativas": {
+      "a": "Autoimunidade pós-estreptocócica",
+      "b": "Bloqueio crônico de receptores dopaminérgicos",
+      "c": "Mutação recessiva do transporte de cobre",
+      "d": "Expansão de repetições CAG no gene HTT, com herança autossômica dominante"
+     },
+     "correta": "d",
+     "comentario": "A doença de Huntington resulta da expansão instável de repetições do trinucleotídeo CAG no gene HTT (cromossomo 4), que codifica a huntingtina; alelos com 40 ou mais repetições causam a doença de forma completamente penetrante, e 36 a 39 conferem penetrância reduzida. A herança é autossômica dominante, com o fenômeno de antecipação (início mais precoce em gerações sucessivas, sobretudo na transmissão paterna). A mutação recessiva do transporte de cobre corresponde à doença de Wilson; a autoimunidade pós-estreptocócica, à coreia de Sydenham; o bloqueio crônico de receptores dopaminérgicos, à discinesia tardia. O aconselhamento genético é parte central do cuidado, inclusive para familiares assintomáticos.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada:",
+     "alternativas": {
+      "a": "Suspensão do antipsicótico causador",
+      "b": "Quelação de cobre com penicilamina",
+      "c": "Penicilina benzatina profilática",
+      "d": "Tratamento sintomático da coreia e suporte multidisciplinar"
+     },
+     "correta": "d",
+     "comentario": "Não há tratamento modificador da doença de Huntington; o manejo é sintomático e multidisciplinar. A coreia incapacitante pode ser controlada com inibidores da VMAT2 (tetrabenazina, deutetrabenazina) ou antipsicóticos, e os sintomas psiquiátricos, com antidepressivos e estabilizadores, além de fonoaudiologia, fisioterapia e suporte familiar. A penicilina benzatina profilática é conduta da febre reumática/coreia de Sydenham. A quelação de cobre com penicilamina trata a doença de Wilson. Suspender antipsicótico corrige a discinesia tardia, não a Huntington. O prognóstico é de progressão ao longo de 15 a 20 anos, e o aconselhamento genético deve ser oferecido.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Junção Neuromuscular (síndrome miastênica de Lambert-Eaton)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 62 anos, tabagista pesado, apresenta fraqueza proximal de membros inferiores e fadiga há meses, além de boca seca e constipação. Refere que a força melhora transitoriamente após alguns segundos de exercício. Ao exame, os reflexos profundos estão hipoativos, mas se acentuam após contração muscular sustentada; não há ptose importante nem diplopia.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Miastenia gravis",
+      "b": "Síndrome miastênica de Lambert-Eaton",
+      "c": "Polimiosite",
+      "d": "Esclerose lateral amiotrófica"
+     },
+     "correta": "b",
+     "comentario": "A síndrome miastênica de Lambert-Eaton é um distúrbio pré-sináptico da junção neuromuscular: a tríade fraqueza proximal, disautonomia (boca seca, constipação, disfunção erétil) e facilitação (aumento de força e de reflexos após exercício breve) a distingue da miastenia gravis. Esta última é pós-sináptica, cursa com fatigabilidade (piora com esforço), acometimento ocular precoce (ptose, diplopia) e reflexos normais. A polimiosite causa fraqueza proximal com CPK elevada, mas sem disautonomia nem facilitação. A esclerose lateral amiotrófica combina sinais de neurônio motor superior e inferior sem disautonomia nem melhora com exercício. A melhora paradoxal com o esforço é a pista semiológica mais característica.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o mecanismo imunológico envolvido:",
+     "alternativas": {
+      "a": "Anticorpos contra canais de cálcio voltagem-dependentes pré-sinápticos",
+      "b": "Anticorpos anti-canais de potássio",
+      "c": "Anticorpos anti-receptor de acetilcolina",
+      "d": "Anticorpos anti-MuSK"
+     },
+     "correta": "a",
+     "comentario": "Na síndrome de Lambert-Eaton, autoanticorpos contra canais de cálcio voltagem-dependentes do tipo P/Q na membrana pré-sináptica reduzem o influxo de cálcio e, portanto, a liberação de acetilcolina; com a atividade repetida, o cálcio se acumula e a transmissão melhora, explicando a facilitação e o incremento de amplitude na estimulação repetitiva de alta frequência à eletroneuromiografia. Os anticorpos anti-receptor de acetilcolina e anti-MuSK são da miastenia gravis (pós-sináptica). Anticorpos anti-canais de potássio associam-se a outras síndromes (por exemplo, neuromiotonia e encefalites autoimunes), não ao Lambert-Eaton. Esse mecanismo pré-sináptico é a base tanto da clínica quanto do padrão eletrofisiológico.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a investigação prioritária a ser realizada:",
+     "alternativas": {
+      "a": "Investigar timoma como principal associação",
+      "b": "Rastrear carcinoma de pulmão de pequenas células",
+      "c": "Prescrever anticolinesterásico como tratamento curativo",
+      "d": "Repor vitamina B12"
+     },
+     "correta": "b",
+     "comentario": "A síndrome de Lambert-Eaton é frequentemente paraneoplásica, com forte associação ao carcinoma de pulmão de pequenas células, que pode preceder o diagnóstico oncológico; por isso é mandatório rastrear tórax (tomografia e, se necessário, PET) e vigiar ao longo do seguimento, sobretudo em tabagistas. O timoma associa-se à miastenia gravis, não ao Lambert-Eaton. A reposição de vitamina B12 não tem relação com o mecanismo. O anticolinesterásico isolado não cura; o tratamento inclui a abordagem do tumor e sintomáticos como a 3,4-diaminopiridina, além de imunoterapia (corticoide, imunoglobulina, imunossupressores). Identificar o tumor muda o prognóstico e o tratamento.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroinfecção (neurotoxoplasmose no HIV)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 34 anos, HIV positivo sem uso regular de antirretroviral, apresenta cefaleia, febre baixa e hemiparesia direita instaladas em 1 semana, além de uma crise convulsiva. A contagem de CD4 é de 45 células/mm3. A ressonância mostra múltiplas lesões com realce anelar e edema perilesional, predominando nos gânglios da base.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Leucoencefalopatia multifocal progressiva",
+      "b": "Linfoma primário do sistema nervoso central",
+      "c": "Neurotoxoplasmose",
+      "d": "Tuberculoma"
+     },
+     "correta": "c",
+     "comentario": "Em pessoa vivendo com HIV e imunodepressão avançada (CD4 abaixo de 100), múltiplas lesões com realce anelar e edema em gânglios da base sugerem fortemente neurotoxoplasmose, por reativação do Toxoplasma gondii. O linfoma primário do sistema nervoso central costuma dar lesão única, periventricular, com realce mais homogêneo, sorologia para toxoplasma negativa e EBV detectável no líquor. A leucoencefalopatia multifocal progressiva (vírus JC) produz lesões de substância branca sem realce nem efeito de massa, com quadro mais insidioso. O tuberculoma entra no diferencial em áreas endêmicas, muitas vezes com meningite basal associada. A apresentação multifocal com realce anelar em núcleos da base é o padrão típico da toxoplasmose.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta diagnóstica mais apropriada:",
+     "alternativas": {
+      "a": "Corticoterapia isolada como teste",
+      "b": "Biópsia cerebral imediata",
+      "c": "Pesquisa de vírus JC no líquor",
+      "d": "Prova terapêutica antitoxoplasmose com reavaliação por imagem em cerca de 2 semanas"
+     },
+     "correta": "d",
+     "comentario": "Diante do quadro típico, a conduta padrão é a prova terapêutica empírica (sulfadiazina com pirimetamina e ácido folínico) e a reavaliação clínico-radiológica em cerca de duas semanas: a melhora confirma a neurotoxoplasmose. A biópsia cerebral fica reservada para os casos que não respondem à prova terapêutica ou com apresentação atípica, quando o linfoma se torna mais provável. A pesquisa de vírus JC no líquor investiga leucoencefalopatia multifocal progressiva, diagnóstico menos provável aqui. Corticoide isolado como teste confunde o quadro, pois reduz edema e pode melhorar transitoriamente lesões de várias etiologias (inclusive linfoma); usa-se corticoide apenas se houver efeito de massa importante, com cautela.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica global mais adequada:",
+     "alternativas": {
+      "a": "Anfotericina B",
+      "b": "Radioterapia de encéfalo",
+      "c": "Iniciar antitoxoplasmose e otimizar a terapia antirretroviral",
+      "d": "Apenas anticonvulsivante e observação"
+     },
+     "correta": "c",
+     "comentario": "O manejo global associa o tratamento específico da toxoplasmose ao controle da doença de base, com otimização/início da terapia antirretroviral para reconstituir a imunidade — pilar do prognóstico. A radioterapia de encéfalo seria conduta do linfoma primário, não confirmado. A anfotericina B trata infecções fúngicas, como a criptococose, que tem outra apresentação (meningite, tinta da China no líquor). Apenas anticonvulsivante e observação deixariam a infecção sem tratamento. Atenção ao momento de iniciar a terapia antirretroviral e ao risco de síndrome inflamatória de reconstituição imune, manejados conforme protocolo.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Endocrinologia (hipotireoidismo congênito) [REVISAO ESPACADA - cota individual: Leonardo]",
+   "tier": "ALTO",
+   "vinheta": "Lactente de 45 dias, do sexo feminino, é levada à consulta por icterícia prolongada, hipoatividade, choro rouco e dificuldade para mamar. A mãe relata constipação e que a bebê 'dorme demais'. Ao exame, observam-se fontanela posterior ampla, macroglossia, hérnia umbilical, pele seca e hipotonia. A família não retornou para buscar o resultado da triagem neonatal.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Síndrome de Down",
+      "b": "Icterícia do leite materno",
+      "c": "Hipotireoidismo congênito",
+      "d": "Doença de Hirschsprung"
+     },
+     "correta": "c",
+     "comentario": "O conjunto icterícia prolongada, hipoatividade, choro rouco, macroglossia, hérnia umbilical, fontanelas amplas, constipação, pele seca e hipotonia é o quadro clássico do hipotireoidismo congênito, principal causa evitável de deficiência intelectual na infância. Os sinais costumam ser sutis nas primeiras semanas, o que justifica a triagem neonatal. A síndrome de Down tem fácies característica e cariótipo alterado, podendo, aliás, coexistir com hipotireoidismo. A doença de Hirschsprung manifesta-se por constipação/distensão e atraso na eliminação de mecônio, sem os sinais metabólicos globais. A icterícia do leite materno ocorre em lactente ativo, com bom ganho de peso e sem os demais achados. A ausência do resultado da triagem reforça a necessidade de investigar prontamente.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame que confirma o diagnóstico:",
+     "alternativas": {
+      "a": "Dosagem de TSH e T4 livre",
+      "b": "Ultrassonografia de abdome",
+      "c": "Cariótipo",
+      "d": "Biópsia retal"
+     },
+     "correta": "a",
+     "comentario": "A confirmação é bioquímica: TSH elevado com T4 livre baixo estabelece o hipotireoidismo congênito primário. A triagem neonatal (teste do pezinho) usa o TSH como marcador principal, mas o diagnóstico se confirma com o perfil tireoidiano sérico. O cariótipo investiga síndrome de Down; a biópsia retal, a doença de Hirschsprung; a ultrassonografia de abdome não faz o diagnóstico da tireoide (a cintilografia/ultrassom de tireoide apenas ajudam depois a definir a etiologia — disgenesia, ectopia ou disormonogênese). O essencial em prova é reconhecer que TSH e T4 livre confirmam a doença e que o tempo até o tratamento é o que determina o prognóstico.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada:",
+     "alternativas": {
+      "a": "Aguardar resolução espontânea",
+      "b": "Suplementar iodo isoladamente",
+      "c": "Fototerapia",
+      "d": "Iniciar levotiroxina o mais precocemente possível"
+     },
+     "correta": "d",
+     "comentario": "O tratamento é a reposição com levotiroxina, iniciada o quanto antes — idealmente nas primeiras duas semanas de vida — para preservar o neurodesenvolvimento; cada semana de atraso pode custar pontos de quociente intelectual. A dose é ajustada por peso e monitorada por TSH e T4 livre. A fototerapia trata hiperbilirrubinemia, não a causa de base. Aguardar resolução espontânea é inaceitável, pois o dano cognitivo é irreversível. A suplementação isolada de iodo só teria papel em deficiência de iodo, que não é a situação típica no rastreio brasileiro. O seguimento inclui reavaliações do perfil tireoidiano e do desenvolvimento; formas transitórias podem ser reavaliadas após os 3 anos.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Adolescência (hemorragia uterina disfuncional) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "MÉDIO",
+   "vinheta": "Menina, 13 anos de idade, chega à UPA com quadro de menometrorragia e tontura. Conta que sua menarca ocorreu há 15 meses e os ciclos, que são oligomenorreicos, duram 4 a 5 dias, e ocorrem irregularmente - geralmente a cada 28 a 30 dias, mas chegando a espaçar por mais de 60 dias. Esse é o primeiro episódio de sangramento anormal. Nega atividade sexual. Nega dismenorreia. Ao exame, mucosas hipocoradas +/IV; caracteres sexuais secundários próprios da idade; sem alterações ao exame segmentar. A suspeita diagnóstica foi de Hemorragia Uterina Disfuncional.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a conduta para o estabelecimento do diagnóstico:",
+     "alternativas": {
+      "a": "Dosar hormônio luteinizante",
+      "b": "Realizar histeroscopia",
+      "c": "Proceder e excluir diáteses hemorrágicas",
+      "d": "Realizar ecografia transvaginal"
+     },
+     "correta": "c",
+     "comentario": "[Questao real - SUS-BA R+ Pediatria 2022] A hemorragia uterina disfuncional da adolescente é um diagnóstico de exclusão; nessa faixa etária, o primeiro passo diante de sangramento uterino anormal significativo é afastar coagulopatia (diátese hemorrágica), pois distúrbios como a doença de von Willebrand podem se manifestar já na menarca. Histeroscopia e ecografia transvaginal investigam causas estruturais (miomas, pólipos), muito improváveis e pouco apropriadas numa virgem de 13 anos com útero sem alterações ao exame. Dosar isoladamente o hormônio luteinizante não estabelece o diagnóstico nem exclui as causas mais relevantes. A avaliação inclui hemograma com plaquetas, coagulograma e investigação de von Willebrand quando o sangramento é volumoso ou desde a menarca. O reconhecimento da anovulação e a exclusão de coagulopatia orientam todo o manejo subsequente.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a causa mais provável, nesse caso:",
+     "alternativas": {
+      "a": "Miomatose",
+      "b": "Ciclo anovulatório",
+      "c": "Endometriose",
+      "d": "Ovários policísticos"
+     },
+     "correta": "b",
+     "comentario": "[Questao real - SUS-BA R+ Pediatria 2022] Nos primeiros anos após a menarca, o eixo hipotálamo-hipófise-ovário ainda é imaturo, e os ciclos anovulatórios são a causa mais comum de sangramento uterino anormal: sem ovulação, não há progesterona para estabilizar o endométrio, que descama de forma irregular e por vezes volumosa. A miomatose e a endometriose são típicas de mulheres mais velhas e não explicam o quadro de uma adolescente logo após a menarca. A síndrome dos ovários policísticos pode causar irregularidade menstrual, mas costuma vir com hiperandrogenismo (acne, hirsutismo) e não é a explicação mais provável para este primeiro episódio isolado. A imaturidade do eixo, portanto, é a causa esperada e habitualmente autolimitada.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o principal diagnóstico diferencial relacionado a distúrbio da hemostasia, considerando a frequência com que ocorre nessa faixa etária:",
+     "alternativas": {
+      "a": "Púrpura trombocitopênica idiopática",
+      "b": "Hemofilia A",
+      "c": "Doença de von Willebrand",
+      "d": "Deficiência do fator V"
+     },
+     "correta": "c",
+     "comentario": "[Questao real - SUS-BA R+ Pediatria 2022] A doença de von Willebrand é a coagulopatia hereditária mais prevalente e a principal causa de sangramento menstrual excessivo de origem hemostática em adolescentes, devendo ser ativamente investigada diante de menorragia desde a menarca. A hemofilia A é ligada ao X e manifesta-se sobretudo em homens; mulheres portadoras raramente têm sangramento menstrual grave como apresentação. A deficiência do fator V é rara. A púrpura trombocitopênica idiopática cursa com plaquetopenia e sangramentos cutâneo-mucosos, mas é menos frequente que a von Willebrand como causa de menorragia isolada nessa idade. Por isso, a triagem para von Willebrand (fator VIII, antígeno e atividade de cofator de ristocetina) faz parte da investigação da hemorragia uterina disfuncional volumosa na adolescente.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrizao e Metabolismo osseo (raquitismo/hipofosfatemia) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 18 meses, é trazido ao ambulatório de referência porque apresenta arqueamento de membros inferiores. A genitora informa ter observado que essa característica tem aumentado, após a criança deambular. Sem outras queixas. Foi alimentado, exclusivamente, com leite materno até 6 meses, passando a complementar com novos alimentos, e come de tudo, atualmente. Usou suplementação com vitaminas A e D, segundo orientação do pediatra. Ao exame, encontra-se no percentil 50 para o peso e no percentil 5 para altura. Está em bom estado geral, ativo, com dados vitais normais; corado. A única anormalidade perceptível ao exame segmentar é o arqueamento dos membros inferiores com geno varo.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável para o caso:",
+     "alternativas": {
+      "a": "Deficiência na oferta de vitamina D",
+      "b": "Deficiência na absorção de colecalciferol",
+      "c": "Osteodistrofia",
+      "d": "Hipofosfatemia genética primária"
+     },
+     "correta": "d",
+     "comentario": "[Questao real - SUS-BA R+ Pediatria 2022] O ponto central é que a criança recebeu suplementação adequada de vitamina D e come de tudo, o que torna improvável o raquitismo carencial; o arqueamento que piora com a deambulação, a baixa estatura desproporcional e a ausência de outras carências apontam para hipofosfatemia genética primária (raquitismo hipofosfatêmico, classicamente ligado ao X), no qual há perda renal de fosfato. A osteodistrofia (renal) viria com doença renal crônica e alterações do cálcio/PTH, ausentes. As opções de deficiência de oferta ou de absorção de vitamina D esbarram justamente no histórico de suplementação correta e boa alimentação. A chave da questão é distinguir raquitismo carencial de raquitismo hipofosfatêmico pela história nutricional e pelo padrão laboratorial.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique o resultado esperado dos exames solicitados para confirmar a principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Cálcio sérico baixo; fosfato normal; fosfatase alcalina elevada; aminoácidos na urina elevados",
+      "b": "Cálcio sérico normal; fosfato baixo; fosfatase alcalina elevada; aminoácidos na urina elevados",
+      "c": "Cálcio sérico baixo; fosfato normal; fosfatase alcalina normal; aminoácidos na urina normal",
+      "d": "Cálcio sérico normal; fosfato baixo; fosfatase alcalina elevada; aminoácidos na urina normal"
+     },
+     "correta": "d",
+     "comentario": "[Questao real - SUS-BA R+ Pediatria 2022] No raquitismo hipofosfatêmico ligado ao X, a perda renal isolada de fosfato produz fosfato sérico baixo, com cálcio normal e fosfatase alcalina elevada (marcador de atividade osteoblástica/doença óssea); crucialmente, NÃO há aminoacidúria, o que o separa da síndrome de Fanconi, na qual a disfunção tubular proximal generalizada cursa com perda de fosfato, glicose e aminoácidos (aminoácidos urinários elevados). As opções com cálcio baixo e fosfato normal correspondem mais ao raquitismo carencial por vitamina D (onde o cálcio tende a cair e o PTH sobe). Portanto, o padrão cálcio normal, fósforo baixo, fosfatase alcalina alta e aminoacidúria ausente é a assinatura laboratorial da hipofosfatemia genética primária. Esse detalhe da aminoacidúria é a pegadinha do bloco.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o tratamento farmacológico para a condição apresentada no caso:",
+     "alternativas": {
+      "a": "Paratormônio",
+      "b": "Colecalciferol",
+      "c": "Fosfato",
+      "d": "Calcitriol"
+     },
+     "correta": "c",
+     "comentario": "[Questao real - SUS-BA R+ Pediatria 2022] Como o defeito é a perda renal de fosfato, a reposição de fosfato é o pilar do tratamento clássico do raquitismo hipofosfatêmico, habitualmente associada a calcitriol (vitamina D ativa) para otimizar a mineralização e prevenir hiperparatireoidismo secundário; entre as opções, o fosfato é o que ataca diretamente o distúrbio. O colecalciferol isolado (vitamina D comum) não corrige a perda renal de fosfato e é o tratamento do raquitismo carencial, aqui afastado. O paratormônio não tem esse papel terapêutico e agravaria a fosfatúria. Vale lembrar que terapias-alvo modernas (anticorpo anti-FGF23) mudaram o manejo, mas, no formato clássico cobrado pela banca, a resposta esperada é a reposição de fosfato. A distinção com o raquitismo carencial define toda a conduta.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergencias e Saude Coletiva (morte subita do lactente) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "ALTO",
+   "vinheta": "O termo 'Síndrome de Morte Súbita na Infância' diz respeito à morte repentina de uma criança com idade inferior a 12 meses, para a qual, mesmo após investigação do caso, não foi encontrado quadro clínico de doença nem causas que possam explicar o óbito. A denominação deve ficar restrita aos casos completamente estudados, o que inclui exame post mortem com necropsia completa; casos com características semelhantes, porém incompletamente estudados, devem ser definidos como morte por causa indeterminada, para fins de emissão da Declaração de Óbito, a fim de formar uma casuística fidedigna e dimensionar o problema.",
+   "perguntas": [
+    {
+     "enunciado": "Assinale a alternativa que apresenta fatores de risco para a Síndrome de Morte Súbita na Infância:",
+     "alternativas": {
+      "a": "Pós-maturidade; dormir em decúbito ventral",
+      "b": "Idade materna acima de 40 anos; dormir em decúbito ventral",
+      "c": "Tabagismo materno na gravidez; pós-maturidade",
+      "d": "Baixo peso ao nascer; superaquecimento"
+     },
+     "correta": "d",
+     "comentario": "[Questao real - SUS-BA R+ Pediatria 2022] São fatores de risco reconhecidos para a síndrome da morte súbita do lactente: posição prona (decúbito ventral) para dormir, tabagismo materno na gestação, superaquecimento, prematuridade e baixo peso ao nascer, colchão mole e compartilhamento de leito. A única alternativa em que os DOIS itens são fatores de risco verdadeiros é baixo peso ao nascer com superaquecimento. As demais misturam um fator real com um distrator: a idade materna avançada isolada e a pós-maturidade NÃO são fatores estabelecidos (a maior associação é com a prematuridade, não com a pós-maturidade). A campanha de dormir em decúbito dorsal reduziu drasticamente a incidência. Atenção ao formato de 'par de achados', em que basta um item errado para invalidar a opção.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "A idade associada à maior incidência da Síndrome da Morte Súbita na Infância ocorre:",
+     "alternativas": {
+      "a": "Em menores de 2 meses",
+      "b": "Até 7 dias",
+      "c": "Em menores de 4 meses",
+      "d": "Até 30 dias"
+     },
+     "correta": "c",
+     "comentario": "[Questao real - SUS-BA R+ Pediatria 2022] O pico de incidência da síndrome da morte súbita do lactente situa-se entre 2 e 4 meses de vida, sendo rara no período neonatal imediato (primeiros dias/semanas) e declinando após os 6 meses. Por isso, entre as opções, 'menores de 4 meses' é a que engloba o período de maior risco. As faixas 'até 7 dias' e 'até 30 dias' correspondem ao período neonatal, quando o risco ainda é baixo, e 'menores de 2 meses' subestima o pico. As orientações de sono seguro (decúbito dorsal, berço próprio, sem objetos macios, evitar superaquecimento e tabagismo) devem ser reforçadas justamente nesse intervalo de maior vulnerabilidade.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Identifique a alternativa correta em relação aos níveis de atuação dos Comitês de Prevenção do Óbito Infantil e Fetal:",
+     "alternativas": {
+      "a": "Apenas estadual",
+      "b": "Estadual, municipal e hospitalar",
+      "c": "Estadual e municipal",
+      "d": "Apenas municipal"
+     },
+     "correta": "b",
+     "comentario": "[Questao real - SUS-BA R+ Pediatria 2022] Os Comitês de Prevenção do Óbito Infantil e Fetal atuam em três níveis — estadual, municipal e hospitalar —, com a tarefa de identificar, investigar e analisar os óbitos para conhecer o perfil de morbimortalidade e propor intervenções, integrando a vigilância do óbito infantil e fetal no SUS. Restringir a atuação a apenas um nível (só estadual ou só municipal) ou a dois (estadual e municipal) desconsidera o papel dos comitês hospitalares na investigação dos óbitos ocorridos nas instituições. A investigação do óbito infantil é estratégia de saúde pública para reduzir a mortalidade evitável, e a articulação entre os três níveis é o que dá capilaridade ao processo.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas respiratorias (bronquiolite viral aguda) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 6 meses de vida, foi trazido à Emergência com histórico de tosse e coriza há cinco dias, com febre de 37,8°C. Nos últimos dois dias, a tosse piorou, a criança apresenta respiração rápida e chiado no peito. Há dificuldade para se alimentar e a diurese diminuiu nas últimas 24 horas. Nega quadro semelhante anteriormente. Ao exame, apresentou FR: 60 ipm e SatO2: 91%; há retrações subcostais e sibilos à ausculta. Orofaringe e otoscopia sem alterações. Exames laboratoriais: hemograma com leucócitos totais 11.000/mm3 (neutrófilos 60%, linfócitos 30%, monócitos 8%). Raio-X de tórax: hiperinsuflação pulmonar e espessamento peribrônquico.",
+   "perguntas": [
+    {
+     "enunciado": "Em relação à epidemiologia do quadro apresentado, é correto afirmar que:",
+     "alternativas": {
+      "a": "Atinge igualmente adultos e crianças",
+      "b": "Raramente causa hospitalização",
+      "c": "É mais comum em menores de 6 meses",
+      "d": "Ocorre, predominantemente, em crianças acima de 5 anos"
+     },
+     "correta": "c",
+     "comentario": "[Questao real - SUS-BA R+ Pediatria 2025] O quadro é de bronquiolite viral aguda, primeira sibilância no lactente após pródromo de vias aéreas superiores, com taquipneia, sibilos, retrações e hiperinsuflação — na maioria das vezes causada pelo vírus sincicial respiratório. A doença é mais comum e mais grave em menores de 6 meses, faixa de maior risco de desconforto e hospitalização, especialmente prematuros e cardiopatas. Não predomina em maiores de 5 anos nem atinge igualmente adultos e crianças, e está entre as principais causas de internação no lactente, ao contrário do que afirmam os distratores. Reconhecer a epidemiologia orienta a vigilância dos sinais de gravidade (esforço, hipoxemia, dificuldade alimentar), presentes neste caso.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Considerando a faixa etária e a apresentação clínica, indique o principal diagnóstico diferencial a ser considerado nesse caso:",
+     "alternativas": {
+      "a": "Pneumonia bacteriana",
+      "b": "Aspiração de corpo estranho",
+      "c": "Asma brônquica",
+      "d": "Laringite estridulosa"
+     },
+     "correta": "a",
+     "comentario": "[Questao real - SUS-BA R+ Pediatria 2025] Entre as opções, a pneumonia bacteriana é o diferencial que mais preocupa em um lactente com febre, taquipneia e desconforto, pois muda a conduta (necessidade eventual de antibiótico) e deve ser considerada quando há febre alta persistente, aspecto tóxico ou consolidação radiológica — aqui a radiografia mostra hiperinsuflação e espessamento peribrônquico, típicos de bronquiolite, e não condensação. A asma brônquica é pouco provável em primeira sibilância nessa idade e sem episódios prévios. A laringite estridulosa cursa com estridor inspiratório e tosse ladrante, não sibilos expiratórios. A aspiração de corpo estranho costuma ter início súbito e achados assimétricos, sem o pródromo viral de cinco dias. O diferencial com pneumonia é o mais cobrado por implicar decisão terapêutica.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "No caso de recorrências do quadro clínico, a abordagem terapêutica mais apropriada é:",
+     "alternativas": {
+      "a": "Broncodilatador inalatório de uso contínuo",
+      "b": "Profilaxia com antibióticos",
+      "c": "Administração de ribavirina",
+      "d": "Administração de palivizumabe"
+     },
+     "correta": "d",
+     "comentario": "[Questao real - SUS-BA R+ Pediatria 2025] O palivizumabe é anticorpo monoclonal anti-vírus sincicial respiratório usado como imunoprofilaxia em grupos de risco (por exemplo, prematuros conforme critérios, cardiopatas e pneumopatas), aplicado em doses mensais na sazonalidade do vírus para reduzir hospitalização — daí ser a resposta para prevenção de recorrências graves. A profilaxia com antibióticos não previne infecção viral. A ribavirina tem uso muito restrito e não é conduta de rotina. O broncodilatador inalatório contínuo não está indicado na bronquiolite, cujo tratamento é essencialmente de suporte (oxigênio, hidratação, higiene nasal), sem broncodilatador ou corticoide de rotina. Vale lembrar que o palivizumabe é imunoprofilaxia passiva, e não vacina, e obedece a critérios de elegibilidade definidos pelo Ministério da Saúde.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Transtornos do Neurodesenvolvimento (enurese noturna)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino de 8 anos é levado à UBS porque ainda urina na cama durante o sono, cerca de 3 noites por semana. Nunca ficou seco à noite por período prolongado. Durante o dia não há perdas, urgência, disúria ou constipação. O desenvolvimento e o exame físico são normais; a urina tipo I não mostra alterações. A família está preocupada com a repercussão emocional.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Bexiga hiperativa",
+      "b": "Infecção urinária de repetição",
+      "c": "Enurese noturna secundária",
+      "d": "Enurese noturna monossintomática primária"
+     },
+     "correta": "d",
+     "comentario": "A enurese noturna monossintomática primária define-se pela perda de urina durante o sono em criança que nunca alcançou controle noturno prolongado, sem sintomas urinários diurnos e com exame e urina normais. É condição comum, com forte componente maturacional e hereditário, e tende a resolver-se espontaneamente ao longo da infância e adolescência. A enurese secundária é a recidiva após pelo menos seis meses de controle estabelecido e obriga a investigar causas como diabetes, infecção urinária, constipação ou estresse. A bexiga hiperativa cursa com urgência e perdas diurnas. A infecção urinária de repetição traria disúria e alterações na urina. A ausência de sintomas diurnos e a normalidade dos exames caracterizam a forma monossintomática primária.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a avaliação inicial mais apropriada:",
+     "alternativas": {
+      "a": "Diário miccional e exame de urina",
+      "b": "Ressonância de coluna lombossacra",
+      "c": "Estudo urodinâmico invasivo",
+      "d": "Uretrocistografia miccional"
+     },
+     "correta": "a",
+     "comentario": "A avaliação inicial da enurese monossintomática é clínica e simples: anamnese dirigida, diário miccional (frequência, volumes, ingestão hídrica noturna, noites secas) e exame de urina (tipo I, com glicosúria e densidade). Exames invasivos ou de imagem — uretrocistografia miccional, estudo urodinâmico, ressonância de coluna — ficam reservados para quadros com sintomas diurnos, infecções urinárias, suspeita de bexiga neurogênica ou anormalidades ao exame, nenhuma presente aqui. A investigação excessiva expõe a criança a procedimentos desnecessários. Uma boa história e a exclusão de causas orgânicas simples bastam para conduzir a maioria dos casos com segurança.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica de primeira linha:",
+     "alternativas": {
+      "a": "Orientação e medidas comportamentais, incluindo alarme de enurese",
+      "b": "Oxibutinina em dose alta",
+      "c": "Desmopressina como primeira e única opção",
+      "d": "Antibioticoprofilaxia contínua"
+     },
+     "correta": "a",
+     "comentario": "A primeira linha é não farmacológica: desmistificação, evitar culpabilização, medidas comportamentais (redução de líquidos à noite, micção antes de dormir, registro de progresso) e o alarme de enurese, que tem as maiores taxas de cura sustentada por condicionamento. A desmopressina é opção farmacológica útil em situações pontuais (viagens, acampamentos) e em casos selecionados, mas tem recidiva alta ao suspender, não sendo a primeira e única escolha. A oxibutinina serve para sintomas de hiperatividade vesical, ausentes aqui. A antibioticoprofilaxia não tem indicação sem infecção urinária. O apoio à família e a abordagem da repercussão emocional são parte essencial do cuidado.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Saude Coletiva, APS e Etica (seguimento da crianca com sindrome de Down na APS)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Lactente de 10 meses com síndrome de Down é acompanhado na Estratégia Saúde da Família. Nasceu com defeito do septo atrioventricular já corrigido cirurgicamente. A família tem acesso irregular a especialidades por morar em zona rural, e a mãe pergunta como organizar o cuidado. O desenvolvimento apresenta atraso motor leve; não há intercorrências agudas no momento.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a conduta central da Atenção Primária neste seguimento:",
+     "alternativas": {
+      "a": "Priorizar apenas o acompanhamento cardiológico",
+      "b": "Coordenar o cuidado por meio de projeto terapêutico singular",
+      "c": "Encaminhar e transferir o seguimento ao especialista",
+      "d": "Restringir-se às consultas de puericultura de rotina"
+     },
+     "correta": "b",
+     "comentario": "A Atenção Primária é a coordenadora do cuidado da criança com síndrome de Down, e não apenas uma porta de encaminhamento. O eixo é o projeto terapêutico singular, que integra puericultura, estimulação precoce, seguimento das comorbidades e articulação com a rede especializada, garantindo longitudinalidade. Encaminhar e transferir o caso fragmenta o cuidado e sobrecarrega a família, sobretudo em zona rural com acesso irregular. Priorizar apenas a cardiologia ignora as demais necessidades (tireoide, audição, visão, desenvolvimento). Limitar-se à puericultura de rotina desconsidera as particularidades da condição. A coordenação pela equipe de saúde da família, com apoio matricial, é a resposta mais completa e alinhada aos princípios do SUS.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique os rastreios periódicos prioritários a serem assegurados na Atenção Primária:",
+     "alternativas": {
+      "a": "Cariótipo de repetição anual",
+      "b": "Triagem periódica de tireoide (TSH) e avaliação auditiva",
+      "c": "Endoscopia digestiva de rotina",
+      "d": "Tomografia de crânio seriada"
+     },
+     "correta": "b",
+     "comentario": "Crianças com síndrome de Down têm maior risco de hipotireoidismo e de perda auditiva, de modo que a triagem periódica da função tireoidiana (TSH) e a avaliação auditiva estão entre os rastreios prioritários e factíveis na Atenção Primária, ao lado da avaliação oftalmológica, da vigilância cardiológica e da atenção à instabilidade atlantoaxial e ao desenvolvimento. O cariótipo confirma o diagnóstico uma vez, não se repetindo anualmente. A tomografia de crânio seriada não é rastreio de rotina e expõe a radiação. A endoscopia digestiva não é exame de triagem populacional nessa condição. Protocolos de seguimento (por exemplo, da Sociedade Brasileira de Pediatria e do Ministério da Saúde) organizam esses rastreios por faixa etária.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a estratégia mais adequada para garantir a continuidade do cuidado:",
+     "alternativas": {
+      "a": "Suspender o acompanhamento em caso de falta a uma consulta",
+      "b": "Assegurar busca ativa pelo agente comunitário e articulação com a rede de apoio",
+      "c": "Delegar integralmente à família a marcação de consultas",
+      "d": "Condicionar o cuidado à presença de comorbidade aguda"
+     },
+     "correta": "b",
+     "comentario": "A continuidade do cuidado depende de busca ativa, papel central do agente comunitário de saúde, e da articulação da equipe com a rede de apoio (especialidades, reabilitação, assistência social, educação), especialmente diante de barreiras de acesso na zona rural. Condicionar o cuidado à existência de comorbidade aguda contraria a lógica do acompanhamento longitudinal e preventivo. Delegar integralmente à família a marcação de consultas transfere a responsabilidade da coordenação e aprofunda iniquidades. Suspender o acompanhamento por uma falta é inadequado e antiético; a conduta correta diante do absenteísmo é justamente a busca ativa. Equidade e vínculo são princípios que sustentam o seguimento dessas crianças no SUS.",
+     "dificuldade": "moderada"
+    }
+   ]
+  }
+ ]
+}
