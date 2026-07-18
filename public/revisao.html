@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Revisão Ativa — Erros e Fragilidades</title>
+<style>
+  :root{
+    --navy:#0f2c4c; --navy-dark:#0a1f36; --blue:#1c5a8f; --green:#1e8f5a; --green-bg:#e6f7ee;
+    --red:#c0392b; --red-bg:#fdecea; --amber:#b8860b; --amber-bg:#fdf3e0;
+    --bg:#f4f6f9; --card:#ffffff; --text:#1c2733; --muted:#5c6b7a; --border:#dde3ea;
+    color-scheme: light;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--text); line-height:1.5;}
+  header{background:linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%); color:#fff; padding:24px 20px 16px; text-align:center; box-shadow:0 2px 10px rgba(0,0,0,.15);}
+  header h1{margin:0 0 6px; font-size:1.25rem;}
+  header p{margin:2px 0; color:#c9d6e3; font-size:.85rem;}
+  header a{color:#cfe0f2;}
+  .users{display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:12px;}
+  .ubtn{background:rgba(255,255,255,.12); color:#fff; border:1px solid rgba(255,255,255,.3); border-radius:20px; padding:6px 16px; font-size:.86rem; cursor:pointer;}
+  .ubtn.active{background:#fff; color:var(--navy); font-weight:700; border-color:#fff;}
+  .tabs{display:flex; gap:4px; justify-content:center; flex-wrap:wrap; margin-top:14px;}
+  .tab{background:rgba(255,255,255,.08); color:#dfe8f2; border:1px solid rgba(255,255,255,.22); border-bottom:none; border-radius:10px 10px 0 0; padding:9px 16px; font-size:.85rem; cursor:pointer; font-weight:600;}
+  .tab.active{background:var(--bg); color:var(--navy); border-color:var(--bg);}
+  main{max-width:840px; margin:0 auto; padding:20px 16px 60px;}
+  .refresh-note{text-align:center; font-size:.76rem; color:var(--muted); margin:0 0 14px;}
+  .loading{text-align:center; padding:60px 20px; color:var(--muted);}
+  .intro{font-size:.85rem; color:var(--muted); background:#eef2f7; border:1px solid var(--border); border-radius:10px; padding:10px 14px; margin-bottom:16px;}
+  h2{font-size:1.02rem; color:var(--navy); margin:22px 0 10px;}
+  .empty{color:var(--muted); font-size:.9rem; padding:24px 0; text-align:center;}
+
+  /* Plano cards */
+  .plan{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:14px 16px; margin-bottom:12px; box-shadow:0 1px 3px rgba(0,0,0,.04);}
+  .plan .top{display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:6px;}
+  .plan .dom{font-weight:700; color:var(--navy); font-size:.98rem;}
+  .tag{font-size:.62rem; font-weight:800; padding:1px 7px; border-radius:6px;}
+  .tag.n{background:#e8f0fd; color:var(--blue);} .tag.p{background:var(--green-bg); color:var(--green);}
+  .tier{font-size:.64rem; color:var(--muted); border:1px solid var(--border); border-radius:6px; padding:0 6px;}
+  .when{margin-left:auto; font-size:.72rem; font-weight:800; padding:2px 9px; border-radius:8px;}
+  .when.now{background:var(--red-bg); color:var(--red);} .when.soon{background:var(--amber-bg); color:var(--amber);} .when.later{background:var(--green-bg); color:var(--green);}
+  .bar{height:9px; background:#eef0f4; border-radius:6px; overflow:hidden; margin:8px 0 4px;}
+  .bar>span{display:block; height:100%; border-radius:6px;}
+  .meta{font-size:.78rem; color:var(--muted); display:flex; gap:14px; flex-wrap:wrap;}
+  .meta b{color:var(--text);}
+  .leitura{font-size:.8rem; color:var(--text); background:#f7f9fc; border-left:3px solid var(--blue); border-radius:6px; padding:7px 10px; margin-top:9px; word-break:break-word;}
+  .leitura a{color:var(--blue);}
+  .plan-actions{display:flex; gap:8px; margin-top:10px; flex-wrap:wrap;}
+  .btn{background:var(--blue); color:#fff; border:none; padding:7px 13px; border-radius:8px; cursor:pointer; font-size:.8rem; font-weight:600;}
+  .btn:hover{background:var(--navy);}
+  .btn.sec{background:#fff; color:var(--blue); border:1px solid var(--blue);}
+  .btn.sec:hover{background:#eef4fa;}
+  .btn:disabled{opacity:.5; cursor:default;}
+
+  /* Revisar erradas */
+  details.grp{border:1px solid var(--border); border-radius:10px; margin-bottom:10px; overflow:hidden; background:var(--card);}
+  details.grp>summary{cursor:pointer; padding:11px 15px; background:#f7f9fc; font-size:.9rem; font-weight:700; color:var(--navy); list-style:none; display:flex; justify-content:space-between; gap:10px; align-items:center;}
+  details.grp>summary::-webkit-details-marker{display:none;}
+  details.grp>summary .cnt{font-size:.72rem; font-weight:800; background:var(--red-bg); color:var(--red); border-radius:8px; padding:1px 8px;}
+  details.grp>summary:before{content:'▸'; color:var(--blue); margin-right:4px;}
+  details.grp[open]>summary:before{content:'▾';}
+  .errq{padding:13px 16px; border-top:1px solid var(--border);}
+  .errq .qmeta{font-size:.72rem; color:var(--muted); margin-bottom:6px; display:flex; gap:10px; flex-wrap:wrap;}
+  .dif-pill{display:inline-block; padding:0 7px; border-radius:9px; font-size:.66rem; font-weight:700; text-transform:capitalize;}
+  .dif-pill.facil{background:var(--green-bg); color:var(--green);}
+  .dif-pill.moderada{background:var(--amber-bg); color:var(--amber);}
+  .dif-pill.dificil{background:var(--red-bg); color:var(--red);}
+  .dif-pill.desconhecida{background:#eef2f7; color:var(--muted);}
+  .vinh{font-size:.86rem; color:#39424d; background:#fafbfc; border:1px dashed var(--border); border-radius:8px; padding:8px 11px; margin-bottom:8px;}
+  .enun{font-size:.92rem; margin:0 0 9px; font-weight:600;}
+  .opt{display:flex; gap:9px; align-items:flex-start; border:1px solid var(--border); border-radius:8px; padding:8px 11px; margin-bottom:6px; font-size:.88rem; background:#fbfcfd;}
+  .opt .l{flex-shrink:0; width:20px; height:20px; border-radius:50%; background:var(--navy); color:#fff; font-size:.7rem; display:flex; align-items:center; justify-content:center; font-weight:700;}
+  .opt.correct{background:var(--green-bg); border-color:var(--green);} .opt.correct .l{background:var(--green);}
+  .opt.chosen-wrong{background:var(--red-bg); border-color:var(--red);} .opt.chosen-wrong .l{background:var(--red);}
+  .flag{font-size:.66rem; font-weight:800; margin-left:auto; align-self:center; padding:0 6px; border-radius:6px;}
+  .flag.ok{background:var(--green); color:#fff;} .flag.no{background:var(--red); color:#fff;}
+  .cmt{font-size:.85rem; background:#f7f9fc; border-left:4px solid var(--blue); border-radius:8px; padding:10px 12px; margin-top:8px; white-space:pre-wrap;}
+  .cmt b{color:var(--navy);}
+
+  /* Treino */
+  .train-setup{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin-bottom:16px;}
+  .chk{display:flex; align-items:center; gap:8px; padding:7px 0; font-size:.88rem; border-bottom:1px solid var(--border);}
+  .chk:last-of-type{border-bottom:none;}
+  .chk input{width:17px; height:17px;}
+  .chk .frac{margin-left:auto; font-size:.76rem; color:var(--muted); font-variant-numeric:tabular-nums;}
+  .setup-row{display:flex; align-items:center; gap:10px; margin-top:14px; flex-wrap:wrap;}
+  select{padding:7px 10px; border-radius:8px; border:1px solid var(--border); font-size:.86rem; background:#fff;}
+  .train-score{position:sticky; top:0; z-index:20; background:var(--card); border:1px solid var(--border); border-radius:10px; padding:9px 14px; margin-bottom:12px; font-size:.86rem; display:flex; justify-content:space-between; align-items:center; box-shadow:0 1px 4px rgba(0,0,0,.06);}
+  .train-score b{color:var(--navy);}
+  .tq{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:14px 16px; margin-bottom:14px; box-shadow:0 1px 3px rgba(0,0,0,.04);}
+  .tq .src{font-size:.7rem; color:var(--muted); margin-bottom:7px; display:flex; gap:10px; flex-wrap:wrap;}
+  .topt{display:flex; gap:9px; align-items:flex-start; border:1px solid var(--border); border-radius:8px; padding:9px 12px; margin-bottom:7px; font-size:.9rem; cursor:pointer; background:#fbfcfd;}
+  .topt:hover:not(.locked){background:#eef4fa; border-color:var(--blue);}
+  .topt .l{flex-shrink:0; width:21px; height:21px; border-radius:50%; background:var(--navy); color:#fff; font-size:.72rem; display:flex; align-items:center; justify-content:center; font-weight:700;}
+  .topt.locked{cursor:default;}
+  .topt.correct{background:var(--green-bg); border-color:var(--green);} .topt.correct .l{background:var(--green);}
+  .topt.wrong{background:var(--red-bg); border-color:var(--red);} .topt.wrong .l{background:var(--red);}
+  footer{text-align:center; padding:18px; color:var(--muted); font-size:.76rem;}
+</style>
+</head>
+<body>
+<header>
+  <h1>Revisão Ativa — erros &amp; fragilidades</h1>
+  <p>Estudar pelos próprios erros: plano de revisão, questões erradas comentadas e treino direcionado.</p>
+  <p><a href="index.html">simulado de hoje</a> · <a href="painel.html">painel</a> · <a href="painel-detalhado.html">por domínio</a> · <a href="historico.html">anteriores</a></p>
+  <div class="users" id="users"></div>
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-tab="plano" onclick="selTab('plano')">📋 Plano de revisão</button>
+    <button class="tab" data-tab="erros" onclick="selTab('erros')">🔎 Revisar erradas</button>
+    <button class="tab" data-tab="treino" onclick="selTab('treino')">🎯 Treino direcionado</button>
+  </div>
+</header>
+
+<main>
+  <p class="refresh-note" id="refresh-note"></p>
+  <div id="loading" class="loading">Carregando seus dados e os simulados publicados...</div>
+  <div id="tab-plano" class="tabpane" style="display:none;"></div>
+  <div id="tab-erros" class="tabpane" style="display:none;"></div>
+  <div id="tab-treino" class="tabpane" style="display:none;"></div>
+</main>
+
+<footer>Ferramenta de estudo ativo · dados ao vivo do painel (atualizam a cada simulado enviado) · o treino é local, não registra novo resultado.</footer>
+
+<script>
+const USERS = ['Vinicius','Leonardo','Ana Teresa'];
+let STATS=null, POOL=[], BYKEY={}, DOMAIN_LEITURA={}, INDEX=[];
+let currentUser='Vinicius', currentTab='plano';
+let erroFilter=null; // domínio selecionado ao vir do plano
+const $ = id => document.getElementById(id);
+const esc = s => (s==null?'':String(s)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+/* ---- classificação em domínios clínicos (mesma lógica do painel-detalhado) ---- */
+function stripAcc(s){ return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,''); }
+function domainOf(tema){
+  const t=stripAcc((tema||'').toLowerCase());   // minúsculo e sem acentos (robusto a temas digitados sem acento)
+  const ped=t.trim().indexOf('pediatria')===0;
+  const has=(...ws)=>ws.some(w=>t.indexOf(w)!==-1);
+  if(has('vertigem','vestibular','meniere')) return ['NEURO','Vertigem / síndromes vestibulares'];
+  if(has('neuroimun','esclerose multipla','nmda','neuromielite','lupica','lupus','desmielinizante','adem','lgi1')) return ['NEURO','Neuroimunologia (EM / encefalites / NMO)'];
+  if(has('neuroinfec','meningite','neurossifilis','neurotoxo','herpetica','neurocisticercose')) return ['NEURO','Neuroinfecção'];
+  if(has('transtornos do movimento','parkinson','coreia','wilson','huntington','tremor')) return ['NEURO','Transtornos do movimento'];
+  if(has('demencia','alzheimer','frontotemporal','corpos de lewy','hidrocefalia de pressao')) return ['NEURO','Demências'];
+  if(has('medula','cauda equina','mielo')) return ['NEURO','Medula / cauda equina'];
+  if(has('cefaleia','trigemeo','enxaqueca','hemicrania','salvas','arterite')) return ['NEURO','Cefaleias'];
+  if(has('epilepsia','ausencia')) return ['NEURO','Epilepsia'];
+  if(has('neuropatia','guillain','charcot','hansen','marie')) return ['NEURO','Neuropatias periféricas'];
+  if(has('cerebrovascular','subaracnoidea','endocardite','disseccao','trombose venosa') || /\bavc\b/.test(t)) return ['NEURO','AVC / cerebrovascular'];
+  if(has('neuronio motor') || /\(ela\)/.test(t) || /lateral amiotrofica/.test(t)) return ['NEURO','ELA'];
+  if(has('miasten','juncao neuromuscular','lambert')) return ['NEURO','Miastenia / JNM'];
+  if(has('hipertensao intracraniana','neuro-onco','metanol','glioblastoma','encefalopatia hepatica','insonia','emergencias / neuro')) return ['NEURO','HIC / emergências neuro'];
+  if(has('neuropediatria','crise febril','west','duchenne')) return ['NEURO','Neuropediatria'];
+  if(has('neonatolog','prematur','ictericia','sepse','sifilis','citomegalo','triagem neonatal','pezinho')) return ['PED','Neonatologia'];
+  if(has('nutricao','anemia','raquitismo','desnutricao','aleitamento','alimentacao','dhgna','obesidade','proctocolite','vitamina a','xeroftalmia')) return ['PED','Nutrição / metabolismo'];
+  if(has('oncologia','neuroblastoma','retinoblastoma','leucemia')) return ['PED','Oncologia / hemato-onco'];
+  if(has('imunizacao','poliomielite','vacin')) return ['PED','Imunização'];
+  if(has('endocrino','estatura','hipotireoidismo','puberdade','diabetes')) return ['PED','Endócrino / crescimento'];
+  if(has('cardiolog','fallot','interventricular','cardiopatia')) return ['PED','Cardiologia'];
+  if(has('reumato','kawasaki','artrite idiopatica')) return ['PED','Reumato / vasculites'];
+  if(has('emergenc','anafilaxia','morte subita','desidratacao','trauma','choque')) return ['PED','Emergências / trauma'];
+  if(has('saude coletiva','aps','etica','abuso','marco legal','sigilo','primeira infancia')) return ['PED','Saúde coletiva / ética'];
+  if(has('infecciosa','arbovir','dengue','sarampo','leishman','bronquiolite','pneumonia','otite','itu','esquistoss','hepatite','acne')) return ['PED','Infecto / respiratório / pele'];
+  if(has('nefrolog','nefrotica','nefrotico','glomerul')) return ['PED','Nefrologia'];
+  if(has('hematolog','falciforme','hemofilia','purpura')) return ['PED','Hematologia'];
+  if(has('adolesc','amenorreia','hemorragia uterina')) return ['PED','Adolescência'];
+  if(has('neurodesenvolv','tdah','tea','autista','enurese')) return ['PED','Neurodesenvolvimento'];
+  if(has('desenvolvimento','puericultura')) return ['PED','Desenvolvimento / puericultura'];
+  return [ped?'PED':'NEURO','Outros'];
+}
+const domKey = tema => domainOf(tema).join('|');
+const domName = tema => domainOf(tema)[1];
+const domHalf = tema => domainOf(tema)[0];
+
+/* ---- flatten de um quiz igual ao index.html (blocos -> perguntas -> avulsa) ---- */
+function flatten(quiz){
+  const out=[]; let n=0;
+  (quiz.blocos||[]).forEach(b=>{
+    (b.perguntas||[]).forEach(p=>{
+      n++;
+      out.push({date:quiz.date, num:n, tema:b.tema, tier:b.tier, vinheta:b.vinheta,
+        enunciado:p.enunciado, alternativas:p.alternativas, correta:p.correta,
+        comentario:p.comentario, dificuldade:p.dificuldade||null});
+    });
+  });
+  if(quiz.avulsa){ n++; const av=quiz.avulsa;
+    out.push({date:quiz.date, num:n, tema:av.tema, tier:av.tier, vinheta:av.vinheta||'',
+      enunciado:av.enunciado, alternativas:av.alternativas, correta:av.correta,
+      comentario:av.comentario, dificuldade:av.dificuldade||null}); }
+  return out;
+}
+function leituraDo(comentario){
+  if(!comentario) return null;
+  const i = comentario.indexOf('📚 Leitura sugerida (bloco):');
+  if(i<0) return null;
+  return comentario.slice(i + '📚 Leitura sugerida (bloco):'.length).trim();
+}
+function linkify(txt){
+  return esc(txt).replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+}
+
+/* ---- carga ---- */
+async function getQuiz(date){
+  try{
+    const r = await fetch(`quizzes/${date}.json`, {cache:'no-store'});
+    if(!r.ok) return null;
+    const q = await r.json(); q.date = q.date || date; return q;
+  }catch(e){ return null; }
+}
+async function loadAll(){
+  try{
+    const [statsR, idxR] = await Promise.all([
+      fetch('/api/stats', {cache:'no-store'}),
+      fetch('quizzes/index.json', {cache:'no-store'})
+    ]);
+    if(!statsR.ok) throw new Error('stats');
+    STATS = await statsR.json();
+    INDEX = idxR.ok ? await idxR.json() : [];
+    const quizzes = (await Promise.all(INDEX.map(getQuiz))).filter(Boolean);
+    POOL=[]; BYKEY={}; DOMAIN_LEITURA={};
+    quizzes.forEach(q=>{
+      flatten(q).forEach(item=>{
+        item.domKey=domKey(item.tema); item.domName=domName(item.tema); item.domHalf=domHalf(item.tema);
+        POOL.push(item);
+        BYKEY[item.date+'/'+item.num]=item;
+        const l=leituraDo(item.comentario);
+        if(l){ const prev=DOMAIN_LEITURA[item.domKey];
+          if(!prev || item.date > prev.date) DOMAIN_LEITURA[item.domKey]={date:item.date, leitura:l}; }
+      });
+    });
+    try{ const saved=localStorage.getItem('np_user'); if(saved && USERS.includes(saved)) currentUser=saved; }catch(e){}
+    $('loading').style.display='none';
+    buildUsers();
+    render();
+    $('refresh-note').textContent = 'Dados atualizados em '+new Date().toLocaleString('pt-BR')+' · '+POOL.length+' questões no banco de treino';
+  }catch(e){
+    $('loading').textContent='Não foi possível carregar os dados agora. Tente novamente em instantes.';
+  }
+}
+
+function buildUsers(){
+  $('users').innerHTML = USERS.map(u=>`<button class="ubtn${u===currentUser?' active':''}" onclick="selUser('${u}')">${u}</button>`).join('');
+}
+function selUser(u){ currentUser=u; erroFilter=null; try{localStorage.setItem('np_user',u);}catch(e){} buildUsers(); render(); }
+function selTab(t){ currentTab=t; document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active', b.dataset.tab===t)); render(); }
+
+function render(){
+  ['plano','erros','treino'].forEach(t=>$('tab-'+t).style.display = (t===currentTab?'block':'none'));
+  const d = (STATS && STATS[currentUser]) || null;
+  if(currentTab==='plano') renderPlano(d);
+  else if(currentTab==='erros') renderErros(d);
+  else renderTreino(d);
+}
+
+/* ---- agregação por domínio a partir do ranking ---- */
+function aggDomains(d){
+  const agg={};
+  (d && d.rankingFragilidades || []).forEach(tm=>{
+    const k=domKey(tm.tema);
+    if(!agg[k]) agg[k]={key:k, half:domHalf(tm.tema), dom:domName(tm.tema), erros:0, total:0, tier:tm.tier};
+    agg[k].erros+=tm.erros; agg[k].total+=tm.total;
+    // guarda o tier mais "forte"
+    const ord={ESSENCIAL:0,ALTO:1,'MÉDIO':2}; if((ord[tm.tier]??9)<(ord[agg[k].tier]??9)) agg[k].tier=tm.tier;
+  });
+  // último erro por domínio
+  (d && d.errosDetalhados || []).forEach(e=>{
+    const k=domKey(e.tema); if(agg[k]){ if(!agg[k].ultimoErro || e.date>agg[k].ultimoErro) agg[k].ultimoErro=e.date; }
+  });
+  return Object.values(agg).map(a=>{a.taxa=a.total? a.erros/a.total:0; return a;})
+          .sort((x,y)=> y.taxa-x.taxa || y.erros-x.erros);
+}
+const barColor = t => t>=0.7?'var(--red)': t>=0.35?'var(--amber)':'var(--blue)';
+function daysBetween(a,b){ return Math.round((new Date(b)-new Date(a))/86400000); }
+function todayStr(){ const d=new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); }
+
+/* ---- TAB 1: PLANO DE REVISÃO ESPAÇADA ---- */
+function renderPlano(d){
+  const box=$('tab-plano');
+  if(!d || !d.simulados){ box.innerHTML=`<div class="empty">Nenhum simulado registrado ainda para ${esc(currentUser)}.<br>Responda um simulado para o plano aparecer.</div>`; return; }
+  const rows = aggDomains(d).filter(r=>r.erros>0);
+  if(!rows.length){ box.innerHTML=`<div class="intro">Sem temas com erro registrado ainda para ${esc(currentUser)} — continue respondendo os simulados. 🎯</div>`; return; }
+  const today=todayStr();
+  let html = `<div class="intro"><b>Como usar:</b> a lista abaixo prioriza os domínios em que você mais erra. A cor e o selo indicam quando revisar (revisão espaçada: quanto maior a taxa de erro e mais recente o erro, mais cedo revisar). Cada card leva às suas questões erradas do tema e a um treino direcionado.</div>`;
+  rows.forEach(r=>{
+    const pct=Math.round(r.taxa*100);
+    const dias = r.ultimoErro ? daysBetween(r.ultimoErro, today) : null;
+    // intervalo de revisão sugerido conforme a taxa
+    const intervalo = r.taxa>=0.7?1 : r.taxa>=0.4?3 : 7;
+    let cls='later', txt='revisar em ~1 semana';
+    if(dias!=null){
+      const restante = intervalo - dias;
+      if(restante<=0){ cls='now'; txt='revisar agora'; }
+      else if(restante<=2){ cls='soon'; txt='revisar em '+restante+(restante===1?' dia':' dias'); }
+      else { cls='later'; txt='revisar em '+restante+' dias'; }
+    } else if(r.taxa>=0.7){ cls='now'; txt='revisar agora'; }
+    const leit = DOMAIN_LEITURA[r.key];
+    const leitHtml = leit ? `<div class="leitura">📚 <b>Leitura:</b> ${linkify(leit.leitura)}</div>` : '';
+    html += `<div class="plan">
+      <div class="top">
+        <span class="tag ${r.half==='NEURO'?'n':'p'}">${r.half==='NEURO'?'NEURO':'PED'}</span>
+        <span class="dom">${esc(r.dom)}</span>
+        <span class="tier">${esc(r.tier||'')}</span>
+        <span class="when ${cls}">${txt}</span>
+      </div>
+      <div class="bar"><span style="width:${Math.max(pct,3)}%;background:${barColor(r.taxa)}"></span></div>
+      <div class="meta"><span>Taxa de erro <b>${pct}%</b></span><span><b>${r.erros}</b>/${r.total} questões erradas</span>${dias!=null?`<span>último erro há <b>${dias}</b> ${dias===1?'dia':'dias'}</span>`:''}</div>
+      ${leitHtml}
+      <div class="plan-actions">
+        <button class="btn sec" onclick="irErros('${r.key}')">🔎 Ver minhas erradas</button>
+        <button class="btn" onclick="irTreino('${r.key}')">🎯 Treinar este tema</button>
+      </div>
+    </div>`;
+  });
+  box.innerHTML = html;
+}
+function irErros(key){ erroFilter=key; selTab('erros'); }
+function irTreino(key){ pendingTrainDomain=key; selTab('treino'); }
+
+/* ---- TAB 2: REVISAR ERRADAS (por tema) ---- */
+function renderErros(d){
+  const box=$('tab-erros');
+  if(!d || !d.simulados){ box.innerHTML=`<div class="empty">Nenhum simulado registrado ainda para ${esc(currentUser)}.</div>`; return; }
+  const erros = (d.errosDetalhados||[]);
+  if(!erros.length){ box.innerHTML=`<div class="intro">Nenhuma questão errada registrada para ${esc(currentUser)}. 🎉</div>`; return; }
+  // agrupa por domínio
+  const groups={};
+  erros.forEach(e=>{ const k=domKey(e.tema); if(!groups[k]) groups[k]={key:k, half:domHalf(e.tema), dom:domName(e.tema), items:[]}; groups[k].items.push(e); });
+  let list = Object.values(groups).sort((a,b)=> b.items.length-a.items.length);
+  const filterInfo = erroFilter ? `<div class="intro">Mostrando <b>${esc((groups[erroFilter]||{}).dom||'tema selecionado')}</b>. <a href="#" onclick="erroFilter=null;renderErros(STATS['+"'"+currentUser+"'"+']);return false;">ver todos os temas</a></div>` : `<div class="intro"><b>Revisão ativa:</b> cada questão errada com o enunciado, a alternativa que você marcou, a correta e o comentário completo. Agrupadas por domínio, das que mais erra para as que menos erra.</div>`;
+  if(erroFilter && groups[erroFilter]) list=[groups[erroFilter]];
+  let html = filterInfo;
+  list.forEach((g,gi)=>{
+    const openAttr = (erroFilter || gi===0) ? ' open' : '';
+    let inner='';
+    // ordena por data desc
+    g.items.slice().sort((a,b)=> a.date<b.date?1:a.date>b.date?-1:a.num-b.num).forEach(e=>{
+      inner += renderErrQuestion(e);
+    });
+    html += `<details class="grp"${openAttr}><summary><span>${g.half==='NEURO'?'🧠':'👶'} ${esc(g.dom)}</span><span class="cnt">${g.items.length} erro${g.items.length>1?'s':''}</span></summary>${inner}</details>`;
+  });
+  box.innerHTML = html;
+}
+function renderErrQuestion(e){
+  const q = BYKEY[e.date+'/'+e.num];
+  const difClass = (e.dificuldade||'desconhecida');
+  const head = `<div class="qmeta"><span>📅 ${esc(e.date)} · Q${e.num}</span><span class="dif-pill ${difClass}">${difClass==='desconhecida'?'sem dado':difClass}</span><span>${esc(e.tema||'')}</span></div>`;
+  if(!q){
+    return `<div class="errq">${head}<div class="empty" style="text-align:left">Conteúdo completo indisponível (simulado fora do índice). Você marcou <b>${esc((e.escolhida||'?').toUpperCase())}</b>; correta <b>${esc((e.correta||'?').toUpperCase())}</b>.</div></div>`;
+  }
+  const letras=['a','b','c','d'];
+  let opts='';
+  letras.forEach(l=>{
+    let cls='opt', flag='';
+    if(l===q.correta){ cls+=' correct'; flag='<span class="flag ok">correta</span>'; }
+    else if(l===e.escolhida){ cls+=' chosen-wrong'; flag='<span class="flag no">você marcou</span>'; }
+    opts += `<div class="${cls}"><span class="l">${l.toUpperCase()}</span><span>${esc(q.alternativas[l]||'')}</span>${flag}</div>`;
+  });
+  const vinh = q.vinheta ? `<div class="vinh">${esc(q.vinheta)}</div>` : '';
+  return `<div class="errq">${head}${vinh}<p class="enun">${esc(q.enunciado)}</p>${opts}<div class="cmt"><b>Comentário:</b> ${esc(q.comentario)}</div></div>`;
+}
+
+/* ---- TAB 3: TREINO DIRECIONADO ---- */
+let pendingTrainDomain=null, trainState=null;
+function renderTreino(d){
+  const box=$('tab-treino');
+  if(!d || !d.simulados){ box.innerHTML=`<div class="empty">Nenhum simulado registrado ainda para ${esc(currentUser)}.<br>O treino usa seus temas fracos — responda um simulado primeiro.</div>`; return; }
+  if(trainState){ renderTrainRun(); return; }
+  const rows = aggDomains(d).filter(r=>r.erros>0);
+  if(!rows.length){ box.innerHTML=`<div class="intro">Sem temas fracos registrados ainda para ${esc(currentUser)}.</div>`; return; }
+  // pré-seleciona top 3 (ou o domínio vindo do plano)
+  const preset = new Set(pendingTrainDomain ? [pendingTrainDomain] : rows.slice(0,3).map(r=>r.key));
+  let html = `<div class="intro"><b>Treino direcionado:</b> monta um mini-simulado só com questões dos seus temas fracos (do banco de simulados já publicados), para revisão ativa. Você responde e vê na hora o gabarito e o comentário. Não registra novo resultado no painel.</div>`;
+  html += `<div class="train-setup"><div style="font-weight:700;color:var(--navy);margin-bottom:6px;">Escolha os temas para treinar</div>`;
+  rows.forEach(r=>{
+    const avail = POOL.filter(p=>p.domKey===r.key).length;
+    const checked = preset.has(r.key)?'checked':'';
+    const dis = avail===0?'disabled':'';
+    html += `<label class="chk"><input type="checkbox" value="${r.key}" ${checked} ${dis}>
+      <span><span class="tag ${r.half==='NEURO'?'n':'p'}">${r.half==='NEURO'?'NEURO':'PED'}</span> ${esc(r.dom)} — ${Math.round(r.taxa*100)}% de erro</span>
+      <span class="frac">${avail} quest.</span></label>`;
+  });
+  html += `<div class="setup-row">
+      <label>Nº de questões:
+        <select id="train-n"><option value="5">5</option><option value="8" selected>8</option><option value="12">12</option><option value="15">15</option></select>
+      </label>
+      <label><input type="checkbox" id="train-hard"> só moderada/difícil</label>
+      <button class="btn" onclick="startTrain()">Montar treino ▶</button>
+    </div></div>`;
+  box.innerHTML = html;
+  pendingTrainDomain=null;
+}
+function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function startTrain(){
+  const keys = Array.from(document.querySelectorAll('#tab-treino input[type=checkbox]:checked')).map(c=>c.value).filter(v=>v!=='on'&&v);
+  const sel = keys.filter(k=>k.indexOf('|')>0);
+  if(!sel.length){ alert('Selecione ao menos um tema.'); return; }
+  const n = parseInt($('train-n').value,10)||8;
+  const onlyHard = $('train-hard').checked;
+  let cand = POOL.filter(p=>sel.includes(p.domKey));
+  if(onlyHard) cand = cand.filter(p=> p.dificuldade==='moderada' || p.dificuldade==='dificil');
+  if(!cand.length){ alert('Não há questões disponíveis para os filtros escolhidos.'); return; }
+  const pick = shuffle(cand.slice()).slice(0, Math.min(n, cand.length));
+  trainState = { questions:pick, answers:{}, i:0 };
+  renderTrainRun();
+}
+function renderTrainRun(){
+  const box=$('tab-treino');
+  const st=trainState; const total=st.questions.length;
+  const done=Object.keys(st.answers).length;
+  const correct=Object.values(st.answers).filter(a=>a.ok).length;
+  let html = `<div class="train-score"><span>Treino: <b>${done}/${total}</b> respondidas</span><span>Acertos: <b>${correct}</b>${done?` (${Math.round(100*correct/done)}%)`:''}</span></div>`;
+  html += `<div style="margin-bottom:12px;"><button class="btn sec" onclick="endTrain()">↩ voltar à montagem</button></div>`;
+  st.questions.forEach((q,idx)=>{
+    const ans=st.answers[idx];
+    const letras=['a','b','c','d'];
+    let opts='';
+    letras.forEach(l=>{
+      let cls='topt';
+      if(ans){ cls+=' locked';
+        if(l===q.correta) cls+=' correct';
+        else if(l===ans.escolhida) cls+=' wrong'; }
+      opts += `<div class="${cls}" ${ans?'':`onclick="trainAnswer(${idx},'${l}')"`}><span class="l">${l.toUpperCase()}</span><span>${esc(q.alternativas[l]||'')}</span></div>`;
+    });
+    const src = `<div class="src"><span>${q.domHalf==='NEURO'?'🧠':'👶'} ${esc(q.domName)}</span><span>📅 ${esc(q.date)} · Q${q.num}</span>${q.dificuldade?`<span class="dif-pill ${q.dificuldade}">${q.dificuldade}</span>`:''}</div>`;
+    const vinh = q.vinheta ? `<div class="vinh">${esc(q.vinheta)}</div>` : '';
+    const cmt = ans ? `<div class="cmt"><b>${ans.ok?'✓ Correto':'✗ Incorreto'} — Comentário:</b> ${esc(q.comentario)}</div>` : '';
+    html += `<div class="tq">${src}${vinh}<p class="enun">${esc(q.enunciado)}</p>${opts}${cmt}</div>`;
+  });
+  box.innerHTML = html;
+}
+function trainAnswer(idx, letra){
+  if(trainState.answers[idx]) return;
+  const q=trainState.questions[idx];
+  trainState.answers[idx]={escolhida:letra, ok: letra===q.correta};
+  renderTrainRun();
+}
+function endTrain(){ trainState=null; render(); }
+
+buildUsers();
+loadAll();
+</script>
+</body>
+</html>

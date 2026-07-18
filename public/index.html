@@ -89,7 +89,7 @@
 </header>
 
 <div class="who-bar" id="who-bar">
-  <span id="simulado-numero"></span> · Respondendo como <b id="who-name"></b> · <a onclick="trocarUsuario()">trocar</a> · <a href="historico.html">simulados anteriores</a> · <a href="painel.html">painel de fragilidades</a>
+  <span id="simulado-numero"></span> · Respondendo como <b id="who-name"></b> · <a onclick="trocarUsuario()">trocar</a> · <a href="historico.html">simulados anteriores</a> · <a href="painel.html">painel de fragilidades</a> · <a href="revisao.html">revisão ativa</a>
 </div>
 
 <div id="progress-wrap">
@@ -107,6 +107,8 @@
     <a class="link-muted" href="historico.html">Ver simulados anteriores</a>
     <br>
     <a class="link-muted" href="painel.html">Ver painel de fragilidades</a>
+    <br>
+    <a class="link-muted" href="revisao.html">🎯 Revisão ativa (estudar pelos erros)</a>
   </div>
 
   <div id="load-error" style="display:none;"></div>
@@ -260,7 +262,9 @@ async function carregarSimulado(){
     document.getElementById('header-sub').textContent = '';
     const el = document.getElementById('load-error');
     el.style.display = 'block';
-    el.innerHTML = `<h2 style="color:var(--navy)">Simulado de ${date} ainda não disponível</h2><p>O simulado diário costuma ser publicado pela manhã. Tente novamente mais tarde, ou avise a Claude no chat se o link não estiver funcionando.</p><a class="link-muted" href="historico.html">Ver simulados anteriores</a><br><a class="link-muted" href="painel.html">Ver painel de fragilidades</a>`;
+    el.innerHTML = `<h2 style="color:var(--navy)">Simulado de ${date} ainda não disponível</h2><p>O simulado diário costuma ser publicado pela manhã. Tente novamente mais tarde, ou avise a Claude no chat se o link não estiver funcionando.</p><a class="link-muted" href="historico.html">Ver simulados anteriores</a><br><a class="link-muted" href="painel.html">Ver painel de fragilidades</a>
+    <br>
+    <a class="link-muted" href="revisao.html">🎯 Revisão ativa (estudar pelos erros)</a>`;
   }
 }
 
