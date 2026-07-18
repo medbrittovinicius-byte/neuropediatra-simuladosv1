@@ -1,0 +1,651 @@
+{
+  "date": "2026-07-18",
+  "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+  "blocos": [
+    {
+      "tema": "Neurologia — Epilepsia (epilepsia de ausência da infância)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menina de 7 anos é levada à unidade por queixa escolar: a professora relata que, várias vezes ao dia, ela subitamente interrompe a atividade, fica com olhar fixo e leve piscar de olhos por cerca de 5 a 10 segundos, e depois retoma o que fazia como se nada tivesse acontecido, sem queda, sem confusão e sem lembrança do episódio. O desenvolvimento neuropsicomotor é normal e o exame neurológico não mostra alterações. A hiperventilação em consultório reproduz um episódio.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando o quadro, indique a hipótese diagnóstica mais provável:",
+          "comentario": "As crises de ausência típica se caracterizam por lapsos súbitos e breves de consciência (5–10 s), com parada da atividade, olhar fixo e automatismos discretos (piscar), início e fim abruptos, sem aura, sem período pós-ictal e com amnésia do evento — exatamente o descrito. A reprodução pela hiperventilação é altamente sugestiva e explorada em consultório. A crise focal disperceptiva do lobo temporal costuma durar mais (1–2 min), tem aura (déjà vu, medo, epigastralgia) e confusão pós-ictal marcante, o que não ocorre aqui. A crise tônico-clônica cursa com perda de consciência, abalo motor bilateral e pós-ictal prolongado, incompatível com episódios de segundos sem queda. A crise atônica provoca perda súbita do tônus com quedas/traumatismos, ausente no caso. Pico de incidência entre 4 e 10 anos, predomínio no sexo feminino.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Crise tônico-clônica generalizada",
+            "b": "Epilepsia de ausência da infância",
+            "c": "Crise focal disperceptiva do lobo temporal",
+            "d": "Crise atônica"
+          },
+          "correta": "b"
+        },
+        {
+          "enunciado": "Diante da principal hipótese, indique o achado eletroencefalográfico esperado:",
+          "comentario": "O marcador eletrográfico da ausência típica é o complexo ponta-onda generalizado, simétrico e síncrono, na frequência clássica de 3 Hz, tipicamente deflagrado pela hiperventilação — dado que fecha o diagnóstico. A hipsarritmia (traçado caótico, de alta amplitude, com pontas multifocais) é o padrão da síndrome de West no lactente, com espasmos e atraso do desenvolvimento, contexto diferente. O complexo ponta-onda lento a 2–2,5 Hz caracteriza a síndrome de Lennox-Gastaut, que cursa com múltiplos tipos de crise, atraso cognitivo e refratariedade. Descargas focais temporais indicariam epilepsia focal, não a generalização típica da ausência. O EEG interictal fora da crise pode ser normal, por isso a ativação por hiperventilação (e a fotoestimulação) é essencial.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Descargas focais em região temporal",
+            "b": "Complexo ponta-onda lento a 2–2,5 Hz",
+            "c": "Complexo ponta-onda generalizado a 3 Hz",
+            "d": "Hipsarritmia"
+          },
+          "correta": "c"
+        },
+        {
+          "enunciado": "Indique o fármaco antiepiléptico de primeira escolha para o caso:",
+          "comentario": "A etossuximida é a primeira escolha para ausências típicas sem crises tônico-clônicas associadas — é a droga mais eficaz e com melhor perfil cognitivo nesse cenário (ensaio clássico etossuximida × ácido valproico × lamotrigina). Quando há também crises tônico-clônicas, o valproato é preferido por cobrir os dois tipos. A carbamazepina é formalmente contraindicada: pode agravar e precipitar ausências e mioclonias (assim como fenitoína, gabapentina e vigabatrina em epilepsias generalizadas). A vigabatrina tem indicação nos espasmos infantis/West (sobretudo na esclerose tuberosa), não em ausências. A fenitoína não controla ausências e pode piorá-las. Prognóstico habitualmente bom, com remissão frequente na adolescência. 📚 Leitura sugerida (bloco): Adams & Victor, cap. “Epilepsy and Other Seizure Disorders”; classificação ILAE 2017 e PCDT de Epilepsia do Ministério da Saúde (BVSMS).",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Carbamazepina",
+            "b": "Fenitoína",
+            "c": "Vigabatrina",
+            "d": "Etossuximida"
+          },
+          "correta": "d"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Cefaleias (enxaqueca com aura)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 28 anos relata, há três anos, crises recorrentes de dor de cabeça latejante em um dos lados, de forte intensidade, que pioram com esforço e vêm acompanhadas de náuseas, fotofobia e fonofobia. Antes da dor, surgem pontos luminosos cintilantes no campo visual que se ampliam progressivamente ao longo de cerca de 20 minutos e depois desaparecem, sendo então seguidos pela cefaleia. Entre as crises fica assintomática; o exame neurológico é normal.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando o quadro, indique o diagnóstico mais provável:",
+          "comentario": "O caso reúne os critérios de enxaqueca com aura: sintomas neurológicos focais totalmente reversíveis (aura visual com escotoma cintilante que se expande em 5–20 min e dura até 60 min), seguidos de cefaleia com características migranosas (unilateral, pulsátil, moderada a forte, piora com esforço, náusea, foto e fonofobia). A cefaleia em salvas é estritamente unilateral, periorbitária, de curta duração (15–180 min), com sintomas autonômicos ipsilaterais (lacrimejamento, rinorreia) e agitação, sem aura visual progressiva. O ataque isquêmico transitório costuma ter instalação súbita (não a marcha gradual da aura), ocorre em pacientes com fatores de risco vascular e não é seguido de cefaleia migranosa estereotipada. A cefaleia tensional é bilateral, em aperto, sem náusea significativa nem aura. O exame intercrítico normal reforça a benignidade.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Cefaleia do tipo tensional",
+            "b": "Enxaqueca com aura",
+            "c": "Ataque isquêmico transitório occipital",
+            "d": "Cefaleia em salvas"
+          },
+          "correta": "b"
+        },
+        {
+          "enunciado": "Indique o mecanismo fisiopatológico que melhor explica a aura visual:",
+          "comentario": "A aura decorre da depressão alastrante cortical: uma onda de despolarização neuronal e glial que se propaga lentamente pelo córtex (cerca de 3 mm/min), seguida de supressão da atividade elétrica, o que explica a marcha visual progressiva (do centro à periferia) e a reversibilidade. Essa velocidade lenta distingue a aura do déficit súbito de origem isquêmica. O vasoespasmo trombótico produziria déficit abrupto e persistente (AVC), não um fenômeno positivo migratório e reversível. A descarga epiléptica occipital gera fenômenos visuais mais breves (segundos), muitas vezes coloridos/circulares e pode evoluir para crise, com alterações no EEG. A hipertensão liquórica causa cefaleia difusa com papiledema e sintomas posturais, não aura visual estereotipada. Pérola: aura prolongada ou atípica obriga a neuroimagem para excluir causa estrutural.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Depressão alastrante cortical",
+            "b": "Vasoespasmo trombótico da artéria cerebral posterior",
+            "c": "Hipertensão do líquido cefalorraquidiano",
+            "d": "Descarga epiléptica do córtex occipital"
+          },
+          "correta": "a"
+        },
+        {
+          "enunciado": "Diante de crises frequentes e incapacitantes, indique a conduta profilática de primeira linha:",
+          "comentario": "Nas crises frequentes/incapacitantes, a profilaxia de primeira linha inclui betabloqueadores (propranolol), antidepressivos tricíclicos (amitriptilina), antiepilépticos (topiramato, valproato) e candesartana — o propranolol é opção consagrada e barata, disponível no SUS. O tratamento agudo é feito com triptano (ex.: sumatriptano) e/ou AINE, mas triptano de uso diário contínuo é inadequado e causa cefaleia por uso excessivo de medicação, além de risco vascular. Opioides programados devem ser evitados (dependência, cefaleia rebote, baixa eficácia na enxaqueca). Ergotamina diária também induz cefaleia de rebote e tem risco de ergotismo. Alerta de prova: enxaqueca COM aura associada a tabagismo e anticoncepcional combinado eleva o risco de AVC isquêmico — nessas pacientes prefira contracepção sem estrogênio. 📚 Leitura sugerida (bloco): Adams & Victor, cap. “Headache and Other Craniofacial Pains”; classificação ICHD-3 e consensos brasileiros de cefaleia (Arquivos de Neuro-Psiquiatria/ABN).",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Propranolol",
+            "b": "Sumatriptano de uso diário contínuo",
+            "c": "Opioide oral programado",
+            "d": "Ergotamina diária"
+          },
+          "correta": "a"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Doença Cerebrovascular (trombose venosa cerebral)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 32 anos, puérpera de 15 dias e em uso de anticoncepcional combinado, procura a emergência com cefaleia holocraniana progressiva há cinco dias, que piora ao deitar e com manobras de Valsalva. Hoje apresentou uma crise convulsiva focal no membro superior esquerdo. Ao exame, está consciente, com papiledema bilateral e leve paresia à esquerda. A tomografia de crânio sem contraste evidencia, no corte com contraste realizado a seguir, falha de enchimento triangular no seio sagital superior.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando o quadro, indique a hipótese diagnóstica mais provável:",
+          "comentario": "O contexto é típico de trombose venosa cerebral: mulher jovem em estado pró-trombótico (puerpério + anticoncepcional), cefaleia subaguda progressiva com sinais de hipertensão intracraniana (papiledema, piora ao deitar/Valsalva), crise focal e sinal do delta vazio (falha de enchimento no seio sagital superior após contraste). A hemorragia subaracnóidea cursa com cefaleia súbita “em trovoada” (pior da vida) e rigidez de nuca, padrão temporal distinto do subagudo aqui. O AVC isquêmico arterial dá déficit focal de instalação abrupta em território arterial, não crises com HIC progressiva e sinal venoso. A enxaqueca com aura não causa papiledema, crise convulsiva nem achado tomográfico de trombo. Convulsão e hemorragia “que cruza territórios arteriais” são pistas clássicas de origem venosa.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "AVC isquêmico arterial de território da cerebral média",
+            "b": "Hemorragia subaracnóidea aneurismática",
+            "c": "Trombose venosa cerebral",
+            "d": "Enxaqueca com aura"
+          },
+          "correta": "c"
+        },
+        {
+          "enunciado": "Indique o exame mais adequado para confirmar o diagnóstico etiológico:",
+          "comentario": "A confirmação se faz por venografia (venoRM com RM de encéfalo, ou angio-TC venosa), que demonstra a ausência de fluxo/trombo no seio dural e o parênquima acometido (infarto venoso, muitas vezes hemorrágico). A arteriografia dos quatro vasos avalia o sistema arterial e o aneurisma — não é o método de escolha para o sistema venoso e é invasiva. A tomografia sem contraste normal NÃO exclui trombose venosa (é frequentemente inespecífica); sinais diretos como a corda/densidade do seio são pouco sensíveis, por isso exige-se estudo venoso dedicado. A punção lombar pode medir/aliviar a pressão e ajudar a excluir infecção, mas não confirma a trombose e não substitui a venografia; deve ser ponderada quando há efeito de massa. O D-dímero, se normal, torna o diagnóstico menos provável, mas não o afasta em quadros arrastados.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Venografia por ressonância magnética",
+            "b": "Punção lombar de alívio isolada",
+            "c": "Arteriografia digital dos quatro vasos",
+            "d": "Tomografia sem contraste, que se normal exclui o diagnóstico"
+          },
+          "correta": "a"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica inicial mais adequada:",
+          "comentario": "O tratamento de base é a anticoagulação plena (heparina não fracionada ou de baixo peso), mesmo na presença de infarto venoso hemorrágico — a anticoagulação previne a propagação do trombo e melhora a drenagem, e o benefício supera o risco de sangramento nesse cenário (recomendação das diretrizes AHA/ABN). A trombólise intravenosa de rotina não é indicada e se reserva a casos selecionados refratários; procedimentos endovasculares ficam para deterioração apesar de anticoagulação. O AAS isolado é insuficiente para tratar a trombose venosa estabelecida. Suspender a anticoagulação pelo componente hemorrágico é justamente o erro clássico: a hemorragia é consequência da estase venosa e tende a melhorar com a recanalização. Medidas associadas: controle das crises, manejo da hipertensão intracraniana e investigação de trombofilia; retirar o anticoncepcional combinado. 📚 Leitura sugerida (bloco): Adams & Victor, cap. “Cerebrovascular Diseases”; diretrizes de trombose venosa cerebral (AHA/ASA e ABN) e Linha de Cuidado em AVC do Ministério da Saúde.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Anticoagulação plena com heparina",
+            "b": "Ácido acetilsalicílico como terapia isolada",
+            "c": "Suspender qualquer anticoagulação por haver componente hemorrágico",
+            "d": "Trombólise intravenosa com alteplase de rotina"
+          },
+          "correta": "a"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Transtornos do Movimento (tremor essencial)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 60 anos queixa-se de tremor nas mãos há muitos anos, que atrapalha atividades como escrever, servir um copo e levar a colher à boca. O tremor surge quando ele mantém as mãos estendidas e durante a ação, melhora nitidamente após ingestão de bebida alcoólica e piora com ansiedade. O pai tinha quadro semelhante. Ao exame, há tremor postural e de ação nas mãos e leve tremor cefálico, sem bradicinesia, sem rigidez e sem tremor de repouso; a marcha é normal.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando o quadro, indique o diagnóstico mais provável:",
+          "comentario": "O tremor essencial é o distúrbio do movimento mais comum: tremor postural e cinético (de ação), tipicamente bilateral nas mãos, podendo acometer cabeça e voz, com forte carga familiar (autossômico dominante) e melhora clássica com álcool. A ausência de bradicinesia, rigidez e tremor de repouso afasta a doença de Parkinson, cujo tremor é de repouso (“contar moedas”), assimétrico no início e acompanhado de lentidão e rigidez. O tremor distônico associa-se a posturas anômalas e é irregular/direcional, geralmente sem melhora com álcool tão marcante. O tremor do hipertireoidismo é fino, postural, mas vem com taquicardia, perda de peso, intolerância ao calor e bócio — ausentes aqui — e some ao tratar a tireoide. A melhora com álcool e a história paterna são as pistas mais fortes.",
+          "dificuldade": "facil",
+          "alternativas": {
+            "a": "Tremor distônico",
+            "b": "Doença de Parkinson idiopática",
+            "c": "Tremor do hipertireoidismo",
+            "d": "Tremor essencial"
+          },
+          "correta": "d"
+        },
+        {
+          "enunciado": "Indique o achado que melhor distingue esse quadro da doença de Parkinson:",
+          "comentario": "O melhor marcador para separar tremor essencial de parkinsonismo é a integridade da via nigroestriatal: no tremor essencial o DAT-scan é normal, enquanto na doença de Parkinson há redução da captação estriatal. A bradicinesia e a rigidez em roda denteada são sinais cardinais do parkinsonismo — se estivessem presentes, o diagnóstico mudaria; no caso não existem. O predomínio de tremor em repouso é característico do Parkinson, ao passo que o tremor essencial é postural/de ação. A resposta dramática à levodopa é típica do Parkinson idiopático; o tremor essencial não responde a levodopa. Assim, clínica (tipo de tremor, sinais associados) somada, quando necessário, ao DAT-scan resolve a dúvida.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Predomínio do tremor em repouso",
+            "b": "Presença de bradicinesia e rigidez em roda denteada",
+            "c": "Resposta dramática à levodopa",
+            "d": "Cintilografia de transportador de dopamina (DAT-scan) normal"
+          },
+          "correta": "d"
+        },
+        {
+          "enunciado": "Indique a conduta farmacológica de primeira linha, considerando o impacto funcional:",
+          "comentario": "Quando o tremor essencial compromete a função, as opções de primeira linha são o betabloqueador propranolol e o antiepiléptico primidona (isolados ou combinados). A levodopa não tem papel — trata o Parkinson, não o tremor essencial. A metoclopramida é bloqueador dopaminérgico e pode INDUZIR parkinsonismo farmacológico e outros movimentos anormais, sendo o oposto do desejado. A toxina botulínica é útil em casos selecionados e refratários (sobretudo tremor cefálico/vocal), mas não é primeira linha universal. Medidas gerais incluem reduzir cafeína e tratar ansiedade; casos graves e refratários podem se beneficiar de estimulação cerebral profunda do núcleo ventral intermédio do tálamo. 📚 Leitura sugerida (bloco): Adams & Victor, cap. “Abnormalities of Movement and Posture”; Tratado ABN, Seção de Transtornos do Movimento.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Levodopa",
+            "b": "Propranolol",
+            "c": "Toxina botulínica como primeira linha para todos os casos",
+            "d": "Metoclopramida"
+          },
+          "correta": "b"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroinfecção (neurossífilis)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 45 anos, vivendo com HIV e com má adesão ao tratamento, é levado por familiares por mudança progressiva de comportamento, esquecimentos, irritabilidade e delírios de grandeza nos últimos meses, com declínio da funcionalidade. Ao exame, apresenta pupilas mióticas que não reagem à luz, porém contraem à convergência para perto, além de leve disartria. O teste treponêmico e o VDRL séricos são reagentes em título elevado.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando o quadro, indique a hipótese diagnóstica mais provável:",
+          "comentario": "O conjunto — alteração cognitivo-comportamental progressiva, delírios de grandeza, disartria e pupila de Argyll-Robertson (miose que não reage à luz mas acomoda para perto) em paciente com sífilis reagente e imunossupressão pelo HIV — configura neurossífilis na forma parenquimatosa (paralisia geral). A neurotoxoplasmose costuma dar quadro focal agudo/subagudo com lesões com realce anelar e edema, febre e rebaixamento, não demência com pupila de Argyll-Robertson. A demência frontotemporal tem curso degenerativo, sem sorologia treponêmica reagente nem alteração pupilar específica. A encefalite herpética é aguda, febril, com crises e acometimento temporal na imagem, não o quadro arrastado descrito. O HIV acelera e agrava a neurossífilis, tornando a investigação liquórica mandatória.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Encefalite herpética",
+            "b": "Neurossífilis",
+            "c": "Neurotoxoplasmose",
+            "d": "Demência frontotemporal"
+          },
+          "correta": "b"
+        },
+        {
+          "enunciado": "Indique o exame que confirma o acometimento do sistema nervoso central:",
+          "comentario": "A confirmação se faz pela análise do líquor: VDRL liquórico reagente é altamente específico para neurossífilis, geralmente acompanhado de pleocitose linfocítica e hiperproteinorraquia; o FTA-Abs liquórico, muito sensível, ajuda a afastar o diagnóstico quando negativo. A PCR para vírus JC investiga leucoencefalopatia multifocal progressiva, outra complicação do HIV, mas com quadro e imagem distintos (lesões da substância branca sem realce). A tinta da China pesquisa criptococo (meningite fúngica), não treponema. As bandas oligoclonais são inespecíficas e associadas a doenças desmielinizantes/inflamatórias, sem confirmar sífilis. Vale lembrar que VDRL liquórico negativo não exclui neurossífilis — por isso valoriza-se o conjunto clínico-liquórico e o FTA-Abs.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "PCR para vírus JC no líquor",
+            "b": "VDRL reagente no líquor com pleocitose",
+            "c": "Bandas oligoclonais isoladas no líquor",
+            "d": "Pesquisa com tinta da China no líquor"
+          },
+          "correta": "b"
+        },
+        {
+          "enunciado": "Indique o esquema terapêutico de escolha:",
+          "comentario": "O tratamento da neurossífilis é a penicilina G cristalina (aquosa) intravenosa em altas doses por 10 a 14 dias — o esquema que atinge níveis treponemicidas no sistema nervoso central. A penicilina benzatina intramuscular, usada na sífilis recente/tardia sem neurossífilis, NÃO alcança concentração liquórica adequada e é inadequada aqui (erro clássico de prova). A ceftriaxona é alternativa apenas em situações específicas de alergia, em geral parenteral e por tempo prolongado, não “oral por 7 dias”. O aciclovir trata a encefalite herpética, diagnóstico diferencial que não se aplica. Reforçar adesão à terapia antirretroviral, notificar, rastrear e tratar parceiros, e acompanhar a resposta com VDRL sérico/liquórico seriado. 📚 Leitura sugerida (bloco): MS — Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às IST (sífilis) e Guia de Vigilância em Saúde; Adams & Victor, cap. “Infections of the Nervous System”.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Penicilina G cristalina intravenosa por 14 dias",
+            "b": "Aciclovir intravenoso por 21 dias",
+            "c": "Penicilina G benzatina intramuscular em dose única",
+            "d": "Ceftriaxona oral por 7 dias"
+          },
+          "correta": "a"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuropatias Periféricas (doença de Charcot-Marie-Tooth)",
+      "tier": "ALTO",
+      "vinheta": "Homem de 20 anos procura atendimento por dificuldade para correr e tropeços frequentes desde a adolescência. Relata que o pai tem 'problema parecido nas pernas'. Ao exame, observam-se pés cavos com dedos em garra, atrofia da musculatura distal das pernas com panturrilhas afiladas (aspecto de 'pernas de cegonha'), pé caído bilateral com marcha escarvante e arreflexia aquileia, com preservação relativa da força proximal e queixa sensitiva discreta.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando o quadro, indique a hipótese diagnóstica mais provável:",
+          "comentario": "O fenótipo — início insidioso na 1ª/2ª décadas, história familiar, atrofia distal simétrica (“pernas de cegonha”), pés cavos com dedos em garra, pé caído e marcha escarvante, arreflexia aquileia — é típico da doença de Charcot-Marie-Tooth (neuropatia hereditária sensitivo-motora). A síndrome de Guillain-Barré é aguda/subaguda, com fraqueza ascendente em dias e dissociação proteinocitológica no líquor, sem história familiar nem deformidade crônica dos pés. A distrofia de cinturas acomete predominantemente a musculatura proximal (dificuldade para subir escadas, sinal de Gowers), não o padrão distal com pé cavo. A sequela de poliomielite é assimétrica, sem herança familiar e ligada a episódio febril prévio na infância. As deformidades ortopédicas crônicas (pé cavo) denunciam cronicidade e origem hereditária.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Síndrome de Guillain-Barré",
+            "b": "Doença de Charcot-Marie-Tooth",
+            "c": "Distrofia muscular de cinturas",
+            "d": "Sequela de poliomielite"
+          },
+          "correta": "b"
+        },
+        {
+          "enunciado": "Indique o mecanismo/achado eletrofisiológico esperado na forma clássica da doença:",
+          "comentario": "A forma clássica (tipo 1, a mais frequente, ligada à duplicação do gene PMP22) é uma neuropatia desmielinizante hereditária: a eletroneuromiografia mostra redução acentuada e uniforme das velocidades de condução nervosa, refletindo a desmielinização. A neuropatia axonal por vasculite é adquirida, dolorosa, assimétrica (mononeurite múltipla) e com sinais sistêmicos inflamatórios, diferente do padrão hereditário simétrico. O bloqueio da junção neuromuscular caracteriza miastenia/Lambert-Eaton, com fatigabilidade e resposta decremental/incremental à estimulação repetitiva, sem atrofia distal com pé cavo. A canalopatia muscular com miotonia cursa com rigidez/relaxamento lento à contração e fenômeno miotônico à eletroneuromiografia, não neuropatia. O diagnóstico é confirmado por teste genético.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Neuropatia desmielinizante com redução da velocidade de condução",
+            "b": "Neuropatia puramente axonal por vasculite",
+            "c": "Bloqueio da transmissão na junção neuromuscular",
+            "d": "Canalopatia muscular com miotonia"
+          },
+          "correta": "a"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica mais adequada:",
+          "comentario": "Não há terapia curativa: o manejo é de suporte, com fisioterapia, terapia ocupacional, órteses tornozelo-pé para o pé caído, cuidados ortopédicos (correção de deformidades quando indicado) e aconselhamento genético. É fundamental evitar fármacos neurotóxicos que agravam a neuropatia — o exemplo mais cobrado é a vincristina, além de atenção a outros agentes. A corticoterapia em pulsos e a imunoglobulina são tratamentos de neuropatias imunomediadas (como GBS/CIDP), sem papel na doença hereditária. A timectomia trata a miastenia gravis, condição da junção neuromuscular, não a neuropatia hereditária. O prognóstico é de progressão lenta, com preservação da deambulação na maioria. 📚 Leitura sugerida (bloco): Adams & Victor, cap. “Diseases of the Peripheral Nerves”; Tratado ABN, Seção de Doenças Neuromusculares.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Imunoglobulina intravenosa",
+            "b": "Corticoterapia em pulsos",
+            "c": "Timectomia",
+            "d": "Reabilitação e órtese tornozelo-pé, evitando fármacos neurotóxicos"
+          },
+          "correta": "d"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Vertigem e Síndromes Vestibulares (migrânea vestibular) [REVISÃO ESPAÇADA]",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 40 anos, com história de enxaqueca desde a adolescência, relata há um ano episódios recorrentes de vertigem rotatória com duração de minutos a poucas horas, por vezes desencadeados por privação de sono e desacompanhados de perda auditiva. Em cerca de metade das crises há fotofobia e cefaleia pulsátil; nas demais, apenas a tontura. Entre as crises, a audiometria é normal e o exame neuro-otológico não mostra nistagmo espontâneo nem alterações.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando o quadro, indique a hipótese diagnóstica mais provável:",
+          "comentario": "O diagnóstico é migrânea vestibular: paciente com história de enxaqueca, crises recorrentes de vertigem de duração variável (minutos a horas), parte delas com sintomas migranosos (cefaleia pulsátil, fotofobia), sem hipoacusia persistente e com audiometria normal entre as crises. A doença de Ménière exige a tríade com hipoacusia neurossensorial flutuante, zumbido e plenitude aural, ausentes aqui — este é o principal diferencial e a pegadinha. A vertigem posicional paroxística benigna provoca crises brevíssimas (segundos) exclusivamente desencadeadas por mudança de posição da cabeça, com Dix-Hallpike positivo, diferente da tontura espontânea de minutos a horas. A neurite vestibular é um episódio único, agudo e contínuo por dias, com nistagmo espontâneo e teste de impulso cefálico positivo, não crises recorrentes. Revisão espaçada: mesmo grupo (síndromes vestibulares, tema de erro recorrente), atacado por um ângulo novo — a superposição enxaqueca–vertigem.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Doença de Ménière",
+            "b": "Neurite vestibular",
+            "c": "Migrânea vestibular",
+            "d": "Vertigem posicional paroxística benigna"
+          },
+          "correta": "c"
+        },
+        {
+          "enunciado": "Indique o achado que melhor sustenta o diagnóstico e afasta o principal diferencial:",
+          "comentario": "O ponto que sustenta migrânea vestibular e afasta a doença de Ménière é a ausência de perda auditiva: a audiometria normal intercrise mostra que não há o dano coclear flutuante/progressivo do Ménière. A hipoacusia neurossensorial flutuante seria justamente o critério do Ménière, não da migrânea vestibular. O nistagmo espontâneo persistente por dias aponta para síndrome vestibular aguda (neurite/AVC), quadro contínuo e único, não recorrente. O Dix-Hallpike positivo com nistagmo de posicionamento definiria vertigem posicional benigna, cujas crises duram segundos e dependem do movimento cefálico. Critérios diagnósticos (Bárány/ICHD-3) exigem história de enxaqueca, crises vestibulares de intensidade moderada a grave (5 min a 72 h) e associação temporal com sintomas migranosos em pelo menos metade dos episódios — todos presentes.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Nistagmo espontâneo que persiste por dias",
+            "b": "Hipoacusia neurossensorial flutuante progressiva",
+            "c": "Dix-Hallpike com nistagmo de posicionamento típico",
+            "d": "Audição preservada com audiometria normal entre as crises"
+          },
+          "correta": "d"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica mais adequada para reduzir a frequência das crises:",
+          "comentario": "O tratamento da migrânea vestibular espelha o da enxaqueca: identificação e controle de gatilhos (sono, jejum, estresse, alguns alimentos) e profilaxia farmacológica com betabloqueador (propranolol), topiramato, amitriptilina ou flunarizina, reduzindo a frequência e a intensidade das crises; nas crises agudas, sintomáticos vestibulares e/ou triptano. A manobra de Epley trata a vertigem posicional benigna (reposiciona otólitos no canal), sem papel aqui. A pulsoterapia com corticoide é usada em neurite vestibular grave/síndromes inflamatórias, não na migrânea vestibular. A gentamicina intratimpânica é medida ablativa reservada à doença de Ménière refratária, inadequada e potencialmente lesiva neste caso. 📚 Leitura sugerida (bloco): Critérios de Bárány/ICHD-3 para migrânea vestibular; Adams & Victor, cap. “Deafness, Dizziness, and Disorders of Equilibrium”.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Gentamicina intratimpânica",
+            "b": "Corticoide em pulsoterapia",
+            "c": "Manobra de reposicionamento de Epley",
+            "d": "Profilaxia de enxaqueca com propranolol ou topiramato"
+          },
+          "correta": "d"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroimunologia (lúpus neuropsiquiátrico / encefalite lúpica) [REVISÃO ESPAÇADA]",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 24 anos, previamente com artralgias e lesões cutâneas fotossensíveis, é internada após a primeira crise tônico-clônica generalizada, precedida por duas semanas de alteração do comportamento, insônia e alucinações. Exames mostram consumo de complemento (C3 e C4 baixos) e fator antinuclear reagente em título alto. O líquor revela pleocitose linfocítica discreta e a ressonância magnética mostra hipersinal em T2/FLAIR em substância branca e cortical, sem realce pelo contraste.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando o quadro, indique a hipótese diagnóstica mais provável:",
+          "comentario": "A pista decisiva é o consumo de complemento (C3/C4 baixos) com fator antinuclear em título alto e história de fotossensibilidade/artralgias: trata-se de lúpus neuropsiquiátrico (encefalite lúpica), em que a atividade imunológica sistêmica compromete o sistema nervoso central causando psicose, crises e alteração comportamental. A encefalite anti-NMDA também dá psicose e crises em mulher jovem, mas cursa com complemento normal e frequentemente discinesias orofaciais e disautonomia, além de associação a teratoma — a diferença do complemento é o divisor. A encefalite herpética é febril, aguda, com acometimento temporal e realce/necrose, e o líquor tem PCR positiva para HSV. A esclerose múltipla dá lesões desmielinizantes disseminadas no tempo e espaço, sem consumo de complemento nem quadro psicótico agudo como manifestação inaugural. Revisão espaçada: neuroimunologia (tema de erro recorrente) revista por outro diagnóstico do mesmo diferencial.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Encefalite herpética",
+            "b": "Encefalite anti-receptor de NMDA",
+            "c": "Esclerose múltipla",
+            "d": "Encefalite lúpica (lúpus neuropsiquiátrico)"
+          },
+          "correta": "d"
+        },
+        {
+          "enunciado": "Indique o dado que melhor diferencia essa condição da encefalite anti-receptor de NMDA:",
+          "comentario": "O marcador que separa a encefalite lúpica da encefalite anti-NMDA é o consumo de complemento: no lúpus em atividade, C3/C4 caem por consumo imune, enquanto na anti-NMDA o complemento costuma estar normal e o diagnóstico é firmado pela detecção do anticorpo anti-NMDA no líquor. As discinesias orofaciais e a disautonomia são mais típicas da anti-NMDA, assim como a associação a teratoma de ovário — características que apontam para o outro diagnóstico, não para o lúpus. Dizer que responde “apenas a imunoterapia de segunda linha” é incorreto: ambas podem responder a corticoide e imunossupressores, e a anti-NMDA muitas vezes exige escalonamento (rituximabe/ciclofosfamida) e retirada do tumor. Autoanticorpos (anti-DNA dupla-hélice, anti-Sm, antirribossomal-P) e a clínica sistêmica reforçam o lúpus.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Presença de discinesias orofaciais",
+            "b": "Associação a teratoma de ovário",
+            "c": "Consumo de complemento (C3 e C4 reduzidos)",
+            "d": "Resposta apenas a imunoterapia de segunda linha"
+          },
+          "correta": "c"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica de primeira linha:",
+          "comentario": "O lúpus neuropsiquiátrico grave (crises, psicose, meningoencefalite) é tratado com imunossupressão: pulsoterapia com metilprednisolona seguida de imunossupressor (ciclofosfamida ou, conforme o caso, micofenolato/rituximabe), além de controle das crises e das manifestações sistêmicas. O aciclovir empírico é iniciado quando há suspeita de encefalite herpética até excluí-la, mas não é a terapia definitiva de uma encefalite autoimune do lúpus. A plasmaférese pode compor casos refratários/graves, porém não como monoterapia de manutenção — o alicerce é o corticoide com imunossupressor. O interferon-beta é terapia da esclerose múltipla e pode inclusive agravar o lúpus, sendo contraindicado. Confirmar atividade lúpica, tratar precocemente e monitorar complemento e autoanticorpos como parâmetros de resposta. 📚 Leitura sugerida (bloco): Diretrizes de lúpus eritematoso sistêmico (SBR) e PCDT; Tratado ABN, Seção de Neuroimunologia; Arquivos de Neuro-Psiquiatria (“neuropsychiatric lupus”).",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Pulsoterapia com metilprednisolona e imunossupressor",
+            "b": "Interferon-beta",
+            "c": "Aciclovir intravenoso empírico como terapia definitiva",
+            "d": "Plasmaférese isolada de manutenção"
+          },
+          "correta": "a"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neonatologia (prematuridade tardia) [REVISÃO ESPAÇADA — cota individual: Leonardo]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Recém-nascido de 35 semanas de idade gestacional, peso 2.400 g, encontra-se em alojamento conjunto com a mãe no segundo dia de vida. A equipe observa sucção fraca com pega intermitente ao seio, um episódio de temperatura axilar de 36,0 °C e icterícia em face e tórax. A mãe, sentindo-se bem, solicita alta hospitalar precoce para casa. O exame do recém-nascido é, no mais, sem outras alterações.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando a idade gestacional, indique o principal motivo pelo qual esse recém-nascido é considerado de risco aumentado:",
+          "comentario": "O prematuro tardio, embora pareça vigoroso, tem imaturidade fisiológica relevante: menor reserva de gordura marrom e de glicogênio, controle térmico e da glicemia ainda instáveis, imaturidade da sucção-deglutição (dificuldade alimentar), maior atividade da via da bilirrubina imatura (icterícia) e risco de desconforto respiratório — tudo compatível com a sucção fraca, a hipotermia e a icterícia observadas. Dizer que tem maturidade equivalente ao termo é o equívoco central: justamente por ser “quase termo” costuma ser subestimado. O risco não se limita a malformações congênitas — as complicações predominantes são metabólicas, térmicas, alimentares e ictéricas. E o peso acima de 2.000 g não confere proteção: a idade gestacional é o determinante do risco, não apenas o peso. Reconhecer essa vulnerabilidade orienta a vigilância antes da alta.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Maturidade equivalente à do recém-nascido a termo",
+            "b": "Imaturidade fisiológica com menor reserva metabólica e térmica",
+            "c": "Risco aumentado apenas de malformações congênitas",
+            "d": "Ausência de risco por peso acima de 2.000 g"
+          },
+          "correta": "b"
+        },
+        {
+          "enunciado": "Indique a classificação correta desse recém-nascido quanto à idade gestacional:",
+          "comentario": "Recém-nascido com 35 semanas enquadra-se como prematuro tardio, faixa definida entre 34 semanas e 36 semanas e 6 dias. O termo precoce corresponde a 37 a 38 semanas e 6 dias — não se aplica a 35 semanas. O prematuro moderado situa-se entre 32 e 33 semanas e 6 dias, abaixo da idade do caso. O prematuro extremo é aquele com menos de 28 semanas, situação clínica muito mais grave e distinta. A classificação por idade gestacional (extremo < 28; muito prematuro 28–31; moderado 32–33; tardio 34–36) é cobrada com frequência porque orienta o risco e a conduta — o prematuro tardio responde por grande parcela dos nascimentos prematuros e das reinternações neonatais.",
+          "dificuldade": "facil",
+          "alternativas": {
+            "a": "Prematuro extremo",
+            "b": "Recém-nascido a termo precoce",
+            "c": "Prematuro tardio",
+            "d": "Prematuro moderado"
+          },
+          "correta": "c"
+        },
+        {
+          "enunciado": "Diante do pedido de alta precoce, indique a conduta mais adequada:",
+          "comentario": "A conduta correta é não apressar a alta: o prematuro tardio precisa de observação mais prolongada, com apoio efetivo ao aleitamento (avaliar pega, sucção e ganho ponderal), controle da temperatura e da glicemia, vigilância da icterícia com dosagem de bilirrubina em nomograma e garantia de seguimento ambulatorial próximo. Conceder alta em 24 horas como rotina de recém-nascido a termo ignora o maior risco de hipoglicemia, hipotermia, desidratação e reinternação por icterícia — erro frequente. Prescrever fórmula de rotina e suspender o aleitamento é inadequado: o leite materno é prioritário, e a suplementação, quando necessária, é individualizada sem abandonar a amamentação. Transferir obrigatoriamente para UTI não se justifica em um recém-nascido estável, apenas de risco — a resposta é vigilância qualificada, não intensificação desnecessária. 📚 Leitura sugerida (bloco): aula de Neonatologia — R+ Pediatria 2024 MEDGRUPO (Drive do Vinicius): https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view ; e Diretrizes de seguimento do prematuro e Método Canguru (SBP/Ministério da Saúde).",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Transferir obrigatoriamente para UTI neonatal",
+            "b": "Prescrever fórmula de rotina e suspender o aleitamento",
+            "c": "Conceder alta em 24 horas de rotina, como no recém-nascido a termo",
+            "d": "Adiar a alta e garantir controle térmico, glicêmico, da bilirrubina e do aleitamento"
+          },
+          "correta": "d"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Emergências / Desidratação grave e diarreia aguda [REAL: SUS-BA R+ Pediatria 2021]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menino, 2 anos, é levado a uma UBS com quadro diarreico há uma semana, com 6 a 7 dejeções ao dia, com fezes semilíquidas com rajas de sangue. Há vômitos e dor abdominal, e a temperatura mantém-se em torno de 37,5 °C. A genitora observou que ele não urina há, aproximadamente, 8 horas e procurou a UBS. Usou antitérmicos e não vem aceitando a solução reidratante caseira. Ao exame: letárgico; apresenta estado geral comprometido; frequência cardíaca: 70 bpm; enchimento capilar acima de 6 segundos; palidez cutâneo-mucosa e distensão abdominal discreta; reage à palpação abdominal não permitindo a palpação profunda. Houve três tentativas de punção venosa periférica, sem êxito.",
+      "perguntas": [
+        {
+          "enunciado": "Identifique a alternativa que apresenta os dois agentes etiológicos mais prováveis:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A diarreia com sangue (disenteria), muco e dor abdominal aponta para diarreia invasiva/inflamatória, cujos agentes clássicos incluem Escherichia coli (sobretudo enteroinvasiva/entero-hemorrágica) e Shigella, esta última a causa bacteriana mais associada à disenteria com toxemia e complicações neurológicas na criança. A dupla Shigella e Salmonella é possível, mas a Salmonella dá mais frequentemente diarreia com febre alta/bacteriemia do que o padrão apresentado, sendo a combinação com E. coli mais representativa. Rotavírus e Campylobacter é inadequada porque o rotavírus causa tipicamente diarreia aquosa, não sanguinolenta. E. coli e rotavírus tem o mesmo problema do componente viral aquoso. Atenção à E. coli entero-hemorrágica (O157:H7) pelo risco de síndrome hemolítico-urêmica — motivo pelo qual antibiótico na disenteria deve ser criterioso.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Rotavírus e Campylobacter",
+            "b": "Shigella e Salmonella",
+            "c": "Escherichia coli e Rotavírus",
+            "d": "Escherichia coli e Shigella"
+          },
+          "correta": "d"
+        },
+        {
+          "enunciado": "Indique a conduta correta para administrar hidratação, no momento:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A criança está em choque hipovolêmico descompensado (letargia, enchimento capilar > 6 s, bradicardia relativa que sinaliza gravidade) e falharam três tentativas de acesso venoso periférico: a diretriz é obter acesso intraósseo de imediato, via rápida e segura para reanimação volêmica na criança grave. Buscar acesso venoso central consome tempo, exige treinamento e tem mais complicações — não é a primeira medida na emergência. Tentar aceitação oral fracionada é inadequado em criança letárgica, com vômitos e choque, pelo risco de aspiração e pela impossibilidade de reidratar a tempo por essa via. A dissecção de vaso periférico é procedimento demorado e em desuso frente ao intraósseo. Regra prática: após 2–3 tentativas de acesso periférico sem sucesso (ou ~90 segundos) na criança em choque, parte-se para o intraósseo.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Tentar aceitação oral fracionada",
+            "b": "Realizar punção intraóssea",
+            "c": "Obter acesso venoso central",
+            "d": "Realizar dissecção de vaso periférico"
+          },
+          "correta": "b"
+        },
+        {
+          "enunciado": "Indique a solução para reidratação e o volume (mL/kg) a ser infundido inicialmente:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Na reanimação do choque hipovolêmico pediátrico, a expansão é feita com cristaloide isotônico (soro fisiológico 0,9% ou Ringer lactato) em bolus de 20 mL/kg, infundido rapidamente e reavaliado, podendo ser repetido conforme a resposta. O volume de 10 mL/kg é insuficiente para a expansão inicial no choque (aproxima-se mais da estratégia usada em cardiopatas/desnutridos graves, não o caso). As soluções glicofisiológicas (glicose + salina em proporção) são hipotônicas e destinadas à hidratação de manutenção, não à expansão do choque — infundir 50 mL/kg de solução 1:1 é conduta equivocada e perigosa. A solução glicofisiológica 1:4 também é de manutenção, inadequada para expansão. Após estabilizar, calcula-se a reposição de manutenção e das perdas. 📚 Leitura sugerida (bloco): 'Choque em Pediatria' (Drive do Vinicius): https://drive.google.com/file/d/11Wx8xIUFnHO1M-dvnxHASuSgNWNSz9H8/view ; e manejo da diarreia aguda e terapia de reidratação (AIDPI / Ministério da Saúde).",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Solução fisiológica 0,9% – 20 mL/kg",
+            "b": "Solução glicofisiológica 1:1 – 50 mL/kg",
+            "c": "Solução glicofisiológica 1:4 – 20 mL/kg",
+            "d": "Solução fisiológica 0,9% – 10 mL/kg"
+          },
+          "correta": "a"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Infecciosas respiratórias (pneumonia afebril do lactente) [REAL: SUS-BA R+ Pediatria 2022]",
+      "tier": "ALTO",
+      "vinheta": "Menina, 6 semanas de vida, nascida de parto natural a termo, sem intercorrências, é levada à UBS com relato de que, há uma semana, vem cursando com coriza e lacrimejamento; e que, há aproximadamente 48 horas, apresenta respiração rápida. Nega febre. Ao exame, ativa, hidratada, temperatura 37,2 °C; taquipneica (FR 55 ipm). Observa-se hiperemia conjuntival bilateral, com lacrimejamento e coriza fluida. A ausculta cardíaca é normal; os campos pulmonares apresentam murmúrio vesicular bem distribuído, com crepitações disseminadas e raros sibilos. Abdome globoso, timpânico, sem visceromegalias.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando os achados e a epidemiologia, indique o diagnóstico desse caso:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O quadro é de pneumonia afebril do lactente: taquipneia (FR 55) com crepitações disseminadas em lactente de 6 semanas, sem febre, precedida de conjuntivite/coriza — apresentação característica da pneumonia por Chlamydia trachomatis. A bronquite é entidade mal definida no lactente e não explica a taquipneia com crepitações difusas nesse contexto. A bronquiolite, embora curse com taquipneia e sibilos, tipicamente ocorre em surtos sazonais por vírus sincicial respiratório, com predomínio de sibilância e esforço expiratório, e não se associa à conjuntivite neonatal antecedente da clamídia. A traqueobronquite é quadro alto, com tosse e sem o comprometimento parenquimatoso sugerido pelas crepitações. A ausência de febre num lactente com pneumonia e conjuntivite prévia é a chave epidemiológica.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Bronquite",
+            "b": "Bronquiolite",
+            "c": "Traqueobronquite",
+            "d": "Pneumonia"
+          },
+          "correta": "d"
+        },
+        {
+          "enunciado": "Considerando os achados e a epidemiologia, identifique o agente mais provável:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A tríade idade (4–12 semanas), conjuntivite prévia e pneumonia afebril com taquipneia aponta para Chlamydia trachomatis, adquirida no canal de parto e responsável por conjuntivite neonatal e, semanas depois, pneumonia intersticial. O vírus sincicial respiratório causa bronquiolite/pneumonia viral, geralmente com sibilância e em surtos, sem a conjuntivite de inclusão. O Streptococcus do grupo B provoca doença precoce grave (sepse/pneumonia nas primeiras horas-dias de vida), não este quadro subagudo e afebril na 6ª semana. A Moraxella catarrhalis associa-se mais a otite e sinusite do que a essa pneumonia afebril do lactente. Achados de apoio incluem eosinofilia e infiltrado intersticial na radiografia. Investigar e tratar a mãe e o parceiro é parte da conduta.",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Vírus sincicial respiratório",
+            "b": "Moraxella catarrhalis",
+            "c": "Chlamydia trachomatis",
+            "d": "Streptococcus do grupo B"
+          },
+          "correta": "c"
+        },
+        {
+          "enunciado": "Considerando os achados e a epidemiologia, indique o tratamento farmacológico recomendado:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O tratamento da pneumonia/conjuntivite por Chlamydia trachomatis é um macrolídeo — classicamente eritromicina por via oral por 14 dias (azitromicina é alternativa) —, que cobre o agente intracelular. A amoxicilina com clavulanato cobre germes como pneumococo e Haemophilus, mas não é a escolha para a clamídia intracelular. O salbutamol é broncodilatador para broncoespasmo e não trata a infecção; teria papel apenas sintomático limitado. O aciclovir é antiviral para herpes, sem relação com o caso. Vale lembrar o alerta de segurança: o uso de eritromicina (e azitromicina) em lactentes jovens associa-se a estenose hipertrófica de piloro, exigindo orientação à família sobre vômitos. Rastrear e tratar a mãe e o parceiro é medida de saúde pública. 📚 Leitura sugerida (bloco): aula de Infecções respiratórias (bronquiolite e pneumonia) — R+ Pediatria 2024 MEDGRUPO (Drive do Vinicius): https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view ; e Documentos Científicos da SBP sobre pneumonias na infância.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Eritromicina",
+            "b": "Aciclovir",
+            "c": "Amoxicilina + clavulanato",
+            "d": "Salbutamol"
+          },
+          "correta": "a"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Endocrinologia / Crescimento (baixa estatura) [REAL: SUS-BA R+ Pediatria 2026]",
+      "tier": "ALTO",
+      "vinheta": "Menina, 10 anos de idade, vai à UBS porque, segundo a sua mãe, 'tem crescido muito devagar'. Nasceu de parto normal, com peso e comprimento normais. Há 2 anos apresenta ganho de estatura menor que 4 cm/ano. Exame físico: proporções corporais preservadas, sem dismorfismos. Pele seca, fácies apática, frequência cardíaca de 60 bpm. Idade óssea atrasada em 3 anos.",
+      "perguntas": [
+        {
+          "enunciado": "Diante desse quadro, identifique a principal hipótese diagnóstica a ser investigada:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A desaceleração do crescimento (< 4 cm/ano) com pele seca, fácies apática, bradicardia e idade óssea muito atrasada, em menina com proporções corporais preservadas, aponta fortemente para hipotireoidismo adquirido (em geral tireoidite de Hashimoto nessa faixa). A doença celíaca também causa baixa estatura, mas costuma vir com sintomas gastrointestinais, distensão e déficit ponderal desproporcional, sem os sinais de hipometabolismo descritos. A síndrome de Turner deve ser lembrada em toda menina com baixa estatura, porém tipicamente cursa com dismorfismos (pescoço alado, tórax em escudo, cúbito valgo) e/ou atraso puberal, ausentes aqui. A deficiência de GH provoca baixa estatura com velocidade reduzida e idade óssea atrasada, mas sem os sinais clínicos de hipotireoidismo (pele seca, bradicardia, apatia) que dominam o caso. A dosagem de TSH e T4 livre é o primeiro passo.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Deficiência de hormônio do crescimento (GH)",
+            "b": "Hipotireoidismo",
+            "c": "Doença celíaca",
+            "d": "Síndrome de Turner"
+          },
+          "correta": "b"
+        },
+        {
+          "enunciado": "Identifique o principal mecanismo responsável pela baixa estatura da paciente:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O hormônio tireoidiano é essencial para o crescimento linear e a maturação esquelética: sua deficiência reduz o metabolismo celular, a condrogênese na placa de crescimento e a maturação óssea, resultando em desaceleração do crescimento e idade óssea atrasada — exatamente o mecanismo do caso. Afirmar aumento de GH e IGF-1 é o oposto do esperado: o hipotireoidismo tende a reduzir a ação do eixo GH/IGF-1. A deficiência de esteroides sexuais afeta sobretudo o estirão puberal e o fechamento epifisário, não explica a apatia, a pele seca e a bradicardia. Hipercatabolismo com aumento da velocidade de crescimento seria um estado hipermetabólico (como o hipertireoidismo), incompatível com o quadro de hipometabolismo apresentado. Por isso a repercussão é global e reversível com o tratamento adequado.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Hipercatabolismo e aumento da velocidade de crescimento",
+            "b": "Aumento da secreção de GH e IGF-1",
+            "c": "Deficiência de testosterona e estrogênio",
+            "d": "Redução do metabolismo celular e da maturação óssea"
+          },
+          "correta": "d"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica de escolha para a paciente:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O tratamento é a reposição de levotiroxina, com ajuste de dose guiado por clínica e por TSH/T4 livre; ao normalizar a função tireoidiana, observa-se recuperação (catch-up) do crescimento. O hormônio de crescimento recombinante trata a deficiência de GH e a síndrome de Turner, não o hipotireoidismo — dá-lo aqui seria tratar a causa errada. Esteroides anabolizantes com dieta hipercalórica não corrigem a hipofunção tireoidiana e trazem efeitos adversos (fechamento epifisário precoce, virilização), sendo inapropriados. A suplementação de vitamina D e cálcio é medida de saúde óssea geral, mas não resolve a baixa estatura de causa tireoidiana. Monitorar a resposta e investigar autoimunidade (anti-TPO) completa a abordagem. 📚 Leitura sugerida (bloco): aula de Endocrinologia (hipotireoidismo, baixa estatura, puberdade) — R+ Pediatria 2024 MEDGRUPO (Drive do Vinicius): https://drive.google.com/file/d/1DfkaSxC7e73geDJxpMCfbVbx-VX53efB/view ; e Documentos Científicos da SBP (Endocrinologia).",
+          "dificuldade": "facil",
+          "alternativas": {
+            "a": "Administração de hormônio do crescimento recombinante",
+            "b": "Suplementação de vitamina D e cálcio",
+            "c": "Uso de esteroides anabolizantes e dieta hipercalórica",
+            "d": "Reposição de levotiroxina com acompanhamento clínico e laboratorial"
+          },
+          "correta": "d"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nefrologia (síndrome nefrótica idiopática) [REAL: SUS-BA R+ Pediatria 2025]",
+      "tier": "ALTO",
+      "vinheta": "Menina, 6 anos de idade, foi trazida à Emergência com 'inchaço' no rosto há aproximadamente uma semana, que progrediu para as pernas e o abdome. Refere cansaço e urina espumosa. Ao exame, apresenta edema periocular, edema em membros inferiores e ascite moderada. Exames laboratoriais mostram: albumina sérica de 2,0 g/dL; proteinúria 4+; colesterol total de 300 mg/dL; ureia de 50 mg/dL; creatinina de 0,7 mg/dL; PA 90/60 mmHg.",
+      "perguntas": [
+        {
+          "enunciado": "Em relação à epidemiologia do diagnóstico mais provável, é correto afirmar:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O quadro (edema progressivo, proteinúria maciça 4+, hipoalbuminemia de 2,0 g/dL e hipercolesterolemia, com função renal e pressão preservadas) define síndrome nefrótica, cuja forma idiopática por lesões mínimas predomina no pré-escolar, com pico entre 2 e 8 anos e leve predomínio no sexo masculino. Dizer que é igualmente comum em ambos os sexos e em todas as idades ignora esse padrão etário e a discreta preponderância em meninos. Afirmar que ocorre apenas em crianças com doenças congênitas é incorreto: a forma mais comum na infância é idiopática, não sindrômica/congênita (esta é rara e precoce, no primeiro ano). Restringir a doença aos adolescentes contraria a epidemiologia — nessa faixa aumentam as glomerulopatias secundárias, mas o típico da síndrome nefrótica idiopática é o pré-escolar. A tétrade edema + proteinúria + hipoalbuminemia + dislipidemia é a assinatura clínica.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Ocorre predominantemente em adolescentes",
+            "b": "É igualmente comum em meninos e meninas, em todas as idades",
+            "c": "Ocorre apenas em crianças com doenças congênitas",
+            "d": "É mais comum em meninos do que em meninas, entre 2 e 8 anos"
+          },
+          "correta": "d"
+        },
+        {
+          "enunciado": "Indique o mecanismo fisiopatológico subjacente mais provável:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Na doença por lesões mínimas, a proteinúria decorre de disfunção imunomediada dos podócitos (fatores circulantes/desregulação de linfócitos T) que altera a barreira de filtração glomerular, com perda seletiva de albumina — daí a boa resposta a corticoide. A alteração genética em proteínas do colágeno remete à síndrome de Alport (hematúria, surdez, alterações oculares), não à síndrome nefrótica por lesões mínimas. A disfunção tubular causa proteinúria de baixo peso molecular e outros distúrbios tubulares, não a proteinúria glomerular maciça e seletiva descrita. A queda da síntese hepática de albumina é consequência secundária/compensação insuficiente, não a causa primária — o fígado até aumenta a produção, mas não compensa a perda urinária. Por isso a lesão é glomerular (podocitária), imunomediada.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Diminuição da síntese hepática de albumina",
+            "b": "Alteração genética em proteínas do colágeno glomerular",
+            "c": "Ativação do sistema imune causando lesão glomerular",
+            "d": "Disfunção tubular renal levando à perda de proteína"
+          },
+          "correta": "c"
+        },
+        {
+          "enunciado": "Quanto ao acompanhamento a longo prazo, após estabilização do quadro, a conduta mais importante será:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O seguimento da síndrome nefrótica idiopática baseia-se na vigilância clínica e laboratorial — controle da pressão arterial e monitoramento da proteinúria (fita/relação proteína-creatinina) para detectar recaídas precocemente, além de orientar a família sobre sinais de recidiva e infecções. A suspensão imediata dos corticosteroides é errada: o corticoide é retirado de forma gradual e programada, pois a interrupção abrupta favorece recaída e insuficiência adrenal. A ciclosporina (ou outros poupadores de corticoide) é reservada a casos corticorresistentes ou corticodependentes/recidivantes frequentes, não como profilaxia de rotina. A biópsia renal anual não é indicada; a biópsia se reserva a apresentações atípicas, corticorresistência ou suspeita de outra glomerulopatia. Atenção às complicações: infecções (peritonite por pneumococo), tromboembolismo e dislipidemia. 📚 Leitura sugerida (bloco): aula de Nefrologia pediátrica — R+ Pediatria 2024 MEDGRUPO (Drive do Vinicius): https://drive.google.com/file/d/1KuvXkP9naQp1_JIcYrTNEDsoqD5K3DXG/view ; e Documentos Científicos da SBP (Nefrologia).",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Terapia com ciclosporina para prevenir recidivas",
+            "b": "Monitoramento regular da pressão arterial e da proteinúria",
+            "c": "Suspensão imediata dos corticosteroides",
+            "d": "Realização de biópsia renal anual"
+          },
+          "correta": "b"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Emergências / Trauma (atendimento pré-hospitalar) [REAL: SUS-BA R+ Pediatria 2024]",
+      "tier": "ALTO",
+      "vinheta": "O Serviço de Atendimento Pré-Hospitalar é acionado para um acidente. O primeiro socorrista constata uma cena de acidente de trânsito envolvendo uma criança de 5 anos. A criança estava no banco traseiro de um veículo que colidiu com outro carro. O impacto foi significativo. A criança está consciente, chorando e queixando-se de dor abdominal. Está presa na cadeirinha do carro. Há danos no veículo.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando as diretrizes do PHTLS e do ATLS, indique o parâmetro a constituir a primeira avaliação na criança:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O atendimento ao trauma segue a sequência sistematizada do ABCDE: a prioridade inicial é garantir vias aéreas pérvias com proteção da coluna cervical e avaliar a respiração — sem via aérea e ventilação, nada mais salva o paciente. A avaliação da pulsação (circulação) vem depois, no “C”, e não antecede a via aérea. A saturação de oxigênio é um dado de monitorização importante, mas é complementar e não substitui a checagem direta de via aérea/respiração no primeiro contato. O exame neurológico completo corresponde a etapas posteriores (“D” e avaliação secundária); realizá-lo primeiro atrasaria intervenções que salvam vida. A regra é hierárquica e sequencial, adaptada às particularidades anatômicas da criança (occipúcio proeminente, via aérea mais estreita).",
+          "dificuldade": "facil",
+          "alternativas": {
+            "a": "O exame neurológico completo",
+            "b": "A permeabilidade das vias aéreas e a respiração",
+            "c": "A saturação de oxigênio",
+            "d": "A pulsação da criança"
+          },
+          "correta": "b"
+        },
+        {
+          "enunciado": "Identifique a melhor abordagem para imobilização e transporte da criança:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Após colisão de alto impacto, presume-se lesão de coluna até prova em contrário: a conduta é imobilizar rigidamente a coluna cervical (controle manual e colar apropriado) e então remover a criança da cadeirinha de forma controlada, transferindo-a para dispositivo de imobilização adequado ao transporte. Transportar a criança dentro da própria cadeirinha do carro não é seguro nem permite reavaliação/reanimação adequadas em um trauma significativo. Usar colar e transportar na cadeirinha mantém o mesmo problema — a cadeirinha do automóvel não é meio de transporte para vítima de trauma grave. Remover a criança sem controle cervical adequado arrisca agravar eventual lesão medular. O alinhamento neutro na criança exige atenção ao occipúcio proeminente (às vezes um coxim sob o dorso), para evitar flexão cervical.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Realizar imobilização rígida da coluna cervical e, então, removê-la da cadeirinha",
+            "b": "Usar colar cervical na posição encontrada e transportá-la na cadeirinha",
+            "c": "Imobilizar a criança na posição em que está e transportá-la na cadeirinha",
+            "d": "Remover a criança da cadeirinha e imobilizá-la na maca em posição neutra sem controle cervical"
+          },
+          "correta": "a"
+        },
+        {
+          "enunciado": "Indique a conduta apropriada da equipe em relação à dor abdominal referida pela criança:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A dor abdominal após trauma de alto impacto sinaliza possível lesão de víscera/hemorragia interna: a conduta pré-hospitalar é reconhecer o sinal de alerta, evitar manipulação/palpação desnecessária (que pode agravar sangramento ou lesão) e priorizar o transporte rápido a um serviço com recursos cirúrgicos, mantendo suporte e monitorização. Realizar ultrassonografia no local não é padrão do atendimento pré-hospitalar básico e não deve retardar o transporte. Pressionar o abdome com firmeza para “confirmar a dor” é iatrogênico e potencialmente lesivo. Uma incisão abdominal de emergência em cena é conduta absurda e fora de qualquer protocolo. O princípio é “load and go” nas lesões graves, com avaliação hospitalar definitiva (imagem e cirurgia quando indicadas). 📚 Leitura sugerida (bloco): PHTLS/PALS — atendimento pré-hospitalar ao trauma pediátrico; e Documentos Científicos da SBP sobre emergências e trauma na criança.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Evitar palpação abdominal repetida e transportar a criança para o hospital",
+            "b": "Realizar incisão abdominal de emergência para avaliar os órgãos internos",
+            "c": "Pressionar a área abdominal com firmeza para verificar se realmente há dor",
+            "d": "Realizar ultrassonografia abdominal no local do acidente"
+          },
+          "correta": "a"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Adolescência (acne) [REAL: SUS-BA R+ Pediatria 2022]",
+      "tier": "MÉDIO",
+      "vinheta": "Adolescente de 14 anos vai ao ambulatório especializado por apresentar acne há mais de 1 ano. Já foi medicado na Unidade Básica de Saúde com peróxido de benzoíla e clindamicina tópicas, e seguiu as medidas recomendadas, mas não obteve bom resultado. Antecedentes médicos não contributórios; nega uso de outros medicamentos e de suplementos alimentares. Ao exame, apresenta comedões abertos e fechados, pápulas, pústulas e alguns nódulos em face e na região superior do dorso, onde há também alguns cistos.",
+      "perguntas": [
+        {
+          "enunciado": "Em relação à doença apresentada, é correto afirmar:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A acne é doença inflamatória do folículo pilossebáceo com quatro pilares: hiperprodução sebácea androgênio-dependente, hiperqueratinização folicular, colonização e proliferação de Cutibacterium acnes (antigo Propionibacterium acnes) e inflamação — daí a participação importante dessa bactéria. Não é doença infecciosa contagiosa: a bactéria é da microbiota, e não há transmissão pessoa a pessoa. O predomínio de comedões caracteriza a forma comedoniana/leve, não a grave — a gravidade é marcada por nódulos, cistos e risco de cicatrizes, como neste paciente. E a forma grave (incluindo a acne conglobata) predomina no sexo masculino, não no feminino. Reconhecer a acne nódulo-cística que não respondeu a tópicos define a necessidade de escalonar o tratamento.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Tem participação importante da bactéria Cutibacterium acnes",
+            "b": "A forma grave ocorre principalmente no sexo feminino",
+            "c": "É uma doença infecciosa e contagiosa",
+            "d": "O predomínio de comedões indica a forma grave de apresentação"
+          },
+          "correta": "a"
+        },
+        {
+          "enunciado": "Indique o medicamento de escolha, no momento, para o tratamento desse paciente:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Trata-se de acne nódulo-cística grave, refratária a tópicos: a droga de escolha é a isotretinoína oral, único agente que atua nos quatro mecanismos da doença e previne cicatrizes. As tetraciclinas (tetraciclina, minociclina, doxiciclina) são antibióticos orais úteis na acne inflamatória moderada, geralmente combinados a tópicos, mas não são a melhor escolha para a forma nódulo-cística grave que já falhou com tópicos e tende a cicatrizar. Além disso, tetraciclinas são contraindicadas antes dos 8–9 anos (manchas dentárias) — aqui o paciente tem 14, mas ainda assim a gravidade indica isotretinoína. Atenção aos cuidados da isotretinoína: forte teratogenicidade (contracepção rigorosa em meninas), monitorização de lipídios e transaminases e orientação sobre efeitos mucocutâneos.",
+          "dificuldade": "moderada",
+          "alternativas": {
+            "a": "Minociclina",
+            "b": "Doxiciclina",
+            "c": "Isotretinoína",
+            "d": "Tetraciclina"
+          },
+          "correta": "c"
+        },
+        {
+          "enunciado": "A característica principal da forma de acne denominada 'conglobata' é:",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A acne conglobata é uma forma grave e supurativa, caracterizada por nódulos, abscessos e fístulas/trajetos intercomunicantes que drenam e deixam cicatrizes desfigurantes, muitas vezes no tronco e integrando o espectro da hidradenite/foliculite. Um número elevado de lesões isoladas descreveria uma acne extensa, porém sem o traço definidor da conglobata, que é a interconexão dos abscessos por fístulas. A excessiva produção sebácea (seborreia) é um fator fisiopatológico presente em várias formas de acne, não a marca específica da conglobata. Folículos fechados com sebo e queratina são os comedões fechados, lesão elementar da forma comedoniana/leve, o oposto da apresentação grave. Reconhecer a conglobata reforça a indicação de isotretinoína e acompanhamento especializado. 📚 Leitura sugerida (bloco): Consenso Brasileiro de Acne (Sociedade Brasileira de Dermatologia); e Documentos Científicos da SBP (Departamento de Adolescência).",
+          "dificuldade": "dificil",
+          "alternativas": {
+            "a": "Folículos fechados com sebo e queratina",
+            "b": "Número elevado de lesões isoladas",
+            "c": "Abscessos e fístulas intercomunicantes",
+            "d": "Excessiva produção sebácea"
+          },
+          "correta": "c"
+        }
+      ]
+    }
+  ]
+}
