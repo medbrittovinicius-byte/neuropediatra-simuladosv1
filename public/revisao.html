@@ -77,6 +77,25 @@
   .cmt{font-size:.85rem; background:#f7f9fc; border-left:4px solid var(--blue); border-radius:8px; padding:10px 12px; margin-top:8px; white-space:pre-wrap;}
   .cmt b{color:var(--navy);}
 
+  /* Aula do tema / módulo */
+  .mod-list-item{background:var(--card); border:1px solid var(--border); border-radius:10px; padding:12px 15px; margin-bottom:9px; display:flex; align-items:center; gap:10px; flex-wrap:wrap; box-shadow:0 1px 3px rgba(0,0,0,.04);}
+  .mod-list-item .t{font-weight:700; color:var(--navy); font-size:.95rem;}
+  .mod-list-item .btn{margin-left:auto;}
+  .mod-head{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 18px; margin-bottom:14px; box-shadow:0 1px 3px rgba(0,0,0,.04);}
+  .mod-head h2{margin:2px 0 8px; font-size:1.2rem;}
+  .mod-head .resumo{font-size:.9rem; color:#39424d;}
+  .sec-h{font-size:1rem; color:var(--navy); font-weight:700; margin:20px 0 6px; padding-bottom:4px; border-bottom:2px solid #e4ebf2;}
+  .sec-c{font-size:.92rem; color:var(--text); margin:0 0 6px;}
+  .box{border-radius:10px; padding:12px 15px; margin-top:12px; font-size:.9rem;}
+  .box.peg{background:var(--amber-bg); border:1px solid #efd9a8;}
+  .box.dir{background:#eef2f7; border:1px solid var(--border);}
+  .box h3{margin:0 0 7px; font-size:.86rem; color:var(--navy); text-transform:uppercase; letter-spacing:.03em;}
+  .box ul{margin:0; padding-left:18px;} .box li{margin-bottom:5px;}
+  .box.dir a{color:var(--blue); word-break:break-word;}
+  .foco{display:inline-block; font-size:.68rem; font-weight:800; background:#e8f0fd; color:var(--blue); border-radius:6px; padding:1px 8px; margin-bottom:6px;}
+  .sub-h{font-size:1.02rem; color:var(--navy); margin:24px 0 4px;}
+  .sub-sub{font-size:.8rem; color:var(--muted); margin:0 0 10px;}
+
   /* Treino */
   .train-setup{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin-bottom:16px;}
   .chk{display:flex; align-items:center; gap:8px; padding:7px 0; font-size:.88rem; border-bottom:1px solid var(--border);}
@@ -106,6 +125,7 @@
   <div class="users" id="users"></div>
   <div class="tabs" id="tabs">
     <button class="tab active" data-tab="plano" onclick="selTab('plano')">📋 Plano de revisão</button>
+    <button class="tab" data-tab="modulo" onclick="selTab('modulo')">📖 Aula do tema</button>
     <button class="tab" data-tab="erros" onclick="selTab('erros')">🔎 Revisar erradas</button>
     <button class="tab" data-tab="treino" onclick="selTab('treino')">🎯 Treino direcionado</button>
   </div>
@@ -115,17 +135,22 @@
   <p class="refresh-note" id="refresh-note"></p>
   <div id="loading" class="loading">Carregando seus dados e os simulados publicados...</div>
   <div id="tab-plano" class="tabpane" style="display:none;"></div>
+  <div id="tab-modulo" class="tabpane" style="display:none;"></div>
   <div id="tab-erros" class="tabpane" style="display:none;"></div>
   <div id="tab-treino" class="tabpane" style="display:none;"></div>
 </main>
 
 <footer>Ferramenta de estudo ativo · dados ao vivo do painel (atualizam a cada simulado enviado) · o treino é local, não registra novo resultado.</footer>
 
+<script src="revisao-modulos.js"></script>
 <script>
 const USERS = ['Vinicius','Leonardo','Ana Teresa'];
+const MODS = window.REVISAO_MODULOS || {};
 let STATS=null, POOL=[], BYKEY={}, DOMAIN_LEITURA={}, INDEX=[];
 let currentUser='Vinicius', currentTab='plano';
-let erroFilter=null; // domínio selecionado ao vir do plano
+let erroFilter=null;      // domínio selecionado ao vir do plano
+let moduloSel=null;       // módulo (domínio) aberto
+let moduloAns={};         // respostas das questões didáticas do módulo
 const $ = id => document.getElementById(id);
 const esc = s => (s==null?'':String(s)).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 
@@ -243,9 +268,10 @@ function selUser(u){ currentUser=u; erroFilter=null; try{localStorage.setItem('n
 function selTab(t){ currentTab=t; document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active', b.dataset.tab===t)); render(); }
 
 function render(){
-  ['plano','erros','treino'].forEach(t=>$('tab-'+t).style.display = (t===currentTab?'block':'none'));
+  ['plano','modulo','erros','treino'].forEach(t=>$('tab-'+t).style.display = (t===currentTab?'block':'none'));
   const d = (STATS && STATS[currentUser]) || null;
   if(currentTab==='plano') renderPlano(d);
+  else if(currentTab==='modulo') renderModulo(d);
   else if(currentTab==='erros') renderErros(d);
   else renderTreino(d);
 }
@@ -304,8 +330,9 @@ function renderPlano(d){
       <div class="meta"><span>Taxa de erro <b>${pct}%</b></span><span><b>${r.erros}</b>/${r.total} questões erradas</span>${dias!=null?`<span>último erro há <b>${dias}</b> ${dias===1?'dia':'dias'}</span>`:''}</div>
       ${leitHtml}
       <div class="plan-actions">
+        ${MODS[r.key] ? `<button class="btn" onclick="irModulo('${r.key}')">📖 Aula do tema</button>` : ''}
         <button class="btn sec" onclick="irErros('${r.key}')">🔎 Ver minhas erradas</button>
-        <button class="btn" onclick="irTreino('${r.key}')">🎯 Treinar este tema</button>
+        <button class="btn sec" onclick="irTreino('${r.key}')">🎯 Treinar este tema</button>
       </div>
     </div>`;
   });
@@ -355,6 +382,91 @@ function renderErrQuestion(e){
   });
   const vinh = q.vinheta ? `<div class="vinh">${esc(q.vinheta)}</div>` : '';
   return `<div class="errq">${head}${vinh}<p class="enun">${esc(q.enunciado)}</p>${opts}<div class="cmt"><b>Comentário:</b> ${esc(q.comentario)}</div></div>`;
+}
+
+/* ---- TAB: AULA DO TEMA (módulo de estudo aprofundado) ---- */
+function irModulo(key){ moduloSel=key; moduloAns={}; selTab('modulo'); }
+function renderModulo(d){
+  const box=$('tab-modulo');
+  const keys=Object.keys(MODS);
+  if(!keys.length){ box.innerHTML=`<div class="empty">Nenhum módulo de estudo disponível ainda.</div>`; return; }
+  if(moduloSel && MODS[moduloSel]){ box.innerHTML=renderModuloView(d, moduloSel); box.scrollIntoView({behavior:'smooth',block:'start'}); return; }
+  // lista de módulos: primeiro os que são fraqueza do usuário
+  const fracas = d ? aggDomains(d).filter(r=>r.erros>0) : [];
+  const fracoKeys = new Set(fracas.map(r=>r.key));
+  const ordered = keys.slice().sort((a,b)=>{
+    const fa=fracoKeys.has(a)?0:1, fb=fracoKeys.has(b)?0:1;
+    if(fa!==fb) return fa-fb;
+    return (MODS[a].titulo||'').localeCompare(MODS[b].titulo||'');
+  });
+  let html=`<div class="intro"><b>Aula do tema:</b> cada módulo traz o assunto aprofundado (fisiopatologia, como a banca cobra, diagnóstico, conduta, pegadinhas e diretrizes), depois as suas questões erradas do tema e, no fim, questões didáticas novas focadas nos pontos onde você mais erra. Os módulos em destaque são as suas fraquezas atuais.</div>`;
+  ordered.forEach(k=>{
+    const m=MODS[k]; const fraco=fracoKeys.has(k);
+    const fr = fracas.find(r=>r.key===k);
+    html+=`<div class="mod-list-item">
+      <span class="tag ${m.half==='NEURO'?'n':'p'}">${m.half==='NEURO'?'NEURO':'PED'}</span>
+      <span class="t">${esc(m.titulo)}</span>
+      ${fraco?`<span class="when now">fraqueza${fr?` · ${Math.round(fr.taxa*100)}%`:''}</span>`:''}
+      <button class="btn" onclick="irModulo('${k}')">📖 Abrir aula</button>
+    </div>`;
+  });
+  box.innerHTML=html;
+}
+function renderModuloView(d, key){
+  const m=MODS[key];
+  let h=`<button class="btn sec" onclick="moduloSel=null;render();" style="margin-bottom:12px;">↩ todos os módulos</button>`;
+  h+=`<div class="mod-head"><span class="tag ${m.half==='NEURO'?'n':'p'}">${m.half==='NEURO'?'NEURO':'PED'}</span>
+      <h2>${esc(m.titulo)}</h2><div class="resumo">${esc(m.resumo||'')}</div></div>`;
+  // aula
+  (m.secoes||[]).forEach(s=>{ h+=`<div class="sec-h">${esc(s.h)}</div><p class="sec-c">${esc(s.c)}</p>`; });
+  // pegadinhas
+  if(m.pegadinhas && m.pegadinhas.length){
+    h+=`<div class="box peg"><h3>⚠️ Pegadinhas clássicas</h3><ul>${m.pegadinhas.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>`;
+  }
+  // diretrizes
+  if(m.diretrizes && m.diretrizes.length){
+    h+=`<div class="box dir"><h3>📚 Diretrizes e fontes</h3><ul>${m.diretrizes.map(x=>`<li>${linkify(x)}</li>`).join('')}</ul></div>`;
+  }
+  // flashcards (se houver)
+  if(m.flashcards && m.flashcards.length){
+    h+=`<h3 class="sub-h">Flashcards de fixação</h3>`;
+    m.flashcards.forEach(f=>{ h+=`<details class="grp"><summary><span>${esc(f.p)}</span></summary><div class="errq">${esc(f.r)}</div></details>`; });
+  }
+  // suas questões erradas neste tema
+  const erros = (d && d.errosDetalhados || []).filter(e=>domKey(e.tema)===key);
+  h+=`<h3 class="sub-h">🔎 Suas questões erradas neste tema</h3>`;
+  if(erros.length){
+    h+=`<p class="sub-sub">Reveja onde você errou antes de treinar de novo.</p>`;
+    h+=`<details class="grp" open><summary><span>${erros.length} questão(ões) errada(s)</span><span class="cnt">${erros.length}</span></summary>`;
+    erros.slice().sort((a,b)=> a.date<b.date?1:a.date>b.date?-1:a.num-b.num).forEach(e=>{ h+=renderErrQuestion(e); });
+    h+=`</details>`;
+  } else {
+    h+=`<p class="sub-sub">Nenhuma questão errada registrada neste tema para ${esc(currentUser)} — aproveite para consolidar com as questões abaixo. 🎯</p>`;
+  }
+  // questões didáticas novas
+  h+=`<h3 class="sub-h">🎯 Questões didáticas (direcionadas às falhas)</h3>`;
+  h+=`<p class="sub-sub">Questões novas, feitas para os pontos onde a banca (e você) costuma escorregar. Responda e veja o comentário-aula.</p>`;
+  (m.questoes||[]).forEach((q,idx)=>{ h+=renderModuloQ(q, idx); });
+  return h;
+}
+function renderModuloQ(q, idx){
+  const ans=moduloAns[idx];
+  const letras=['a','b','c','d'];
+  let opts='';
+  letras.forEach(l=>{
+    let cls='topt';
+    if(ans){ cls+=' locked'; if(l===q.correta) cls+=' correct'; else if(l===ans.escolhida) cls+=' wrong'; }
+    opts+=`<div class="${cls}" ${ans?'':`onclick="moduloAnswer(${idx},'${l}')"`}><span class="l">${l.toUpperCase()}</span><span>${esc(q.alternativas[l]||'')}</span></div>`;
+  });
+  const foco = q.foco?`<span class="foco">foco: ${esc(q.foco)}</span><br>`:'';
+  const cmt = ans?`<div class="cmt"><b>${ans.ok?'✓ Correto':'✗ Incorreto'} — Comentário:</b> ${esc(q.comentario)}</div>`:'';
+  return `<div class="tq">${foco}<p class="enun">${esc(q.enunciado)}</p>${opts}${cmt}</div>`;
+}
+function moduloAnswer(idx, letra){
+  if(moduloAns[idx]) return;
+  const q=MODS[moduloSel].questoes[idx];
+  moduloAns[idx]={escolhida:letra, ok: letra===q.correta};
+  renderModulo((STATS&&STATS[currentUser])||null);
 }
 
 /* ---- TAB 3: TREINO DIRECIONADO ---- */
