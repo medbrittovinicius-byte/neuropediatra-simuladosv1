@@ -1,10 +1,10 @@
 {
- "geradoEm": "2026-07-16T09:07:32.687Z",
- "tentativasLidas": 16,
+ "geradoEm": "2026-07-18T09:11:07.402Z",
+ "tentativasLidas": 18,
  "usuarios": {
   "Vinicius": {
-   "simulados": 7,
-   "totalQuestoes": 315,
+   "simulados": 8,
+   "totalQuestoes": 360,
    "percentualGeral": 78,
    "temasFracos": [
     {
@@ -64,12 +64,12 @@
      "taxaErro": 100
     },
     {
-     "tema": "Neurologia — Neuropediatria específica (síndrome de West)",
+     "tema": "Neurologia — Transtorno de insônia (neuro-correlato)",
      "tier": "MÉDIO",
      "total": 3,
-     "erros": 2,
-     "ultimoErro": "2026-07-11",
-     "taxaErro": 67
+     "erros": 3,
+     "ultimoErro": "2026-07-16",
+     "taxaErro": 100
     }
    ],
    "rankingCompleto": [
@@ -127,6 +127,14 @@
      "total": 3,
      "erros": 3,
      "ultimoErro": "2026-07-15",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Transtorno de insônia (neuro-correlato)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-16",
      "taxaErro": 100
     },
     {
@@ -191,6 +199,14 @@
      "total": 3,
      "erros": 2,
      "ultimoErro": "2026-07-14",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Encefalopatia hepática / cirrose (neuro-correlato)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-16",
      "taxaErro": 67
     },
     {
@@ -431,6 +447,38 @@
      "total": 3,
      "erros": 1,
      "ultimoErro": "2026-07-15",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Vertigem e Síndromes Vestibulares (doença de Ménière)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-16",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Neuropatias Periféricas (hanseníase / neuropatia hansênica)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-16",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Neonatologia / Triagem neonatal (teste do pezinho)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-16",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Nutrição / Saúde Coletiva (hipovitaminose A / xeroftalmia)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-16",
      "taxaErro": 33
     },
     {
@@ -880,6 +928,78 @@
      "erros": 0,
      "ultimoErro": null,
      "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (encefalite autoimune anti-LGI1)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Neuroinfecção (encefalite herpética por HSV-1)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Cefaleias (arterite de células gigantes / arterite temporal)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Hipertensão Intracraniana e Emergências (hipertensão intracraniana idiopática)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Emergências / Asma (avaliação de controle e step-up)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Transtornos do Neurodesenvolvimento (transtorno do espectro autista)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Nutrição / Aleitamento materno (contraindicações)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Endocrinologia / Crescimento (puberdade precoce central)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Hematologia / Oncologia (leucemia linfoblástica aguda)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
     }
    ],
    "porDificuldade": [
@@ -891,21 +1011,21 @@
     },
     {
      "dificuldade": "moderada",
-     "total": 138,
-     "erros": 31,
+     "total": 161,
+     "erros": 35,
      "taxaErro": 22
     },
     {
      "dificuldade": "dificil",
-     "total": 90,
-     "erros": 31,
-     "taxaErro": 34
+     "total": 105,
+     "erros": 34,
+     "taxaErro": 32
     },
     {
      "dificuldade": "facil",
-     "total": 42,
-     "erros": 5,
-     "taxaErro": 12
+     "total": 49,
+     "erros": 7,
+     "taxaErro": 14
     }
    ]
   },
