@@ -356,78 +356,150 @@ Fora essas, lembrar de **criptococose** (meningite fúngica — cefaleia arrasta
 },
 
 "NEURO|Medula / cauda equina": {
- titulo: "Medula espinal, cauda equina e mielopatias",
- half: "NEURO",
- resumo: "O eixo é topográfico e de urgência: reconhecer a emergência (compressão medular / cauda equina), pedir o exame certo (RM) sem atraso, e localizar a lesão pelo padrão (nível sensitivo, NMS × NMI, sela e esfíncteres).",
- secoes: [
-  {h:"1. Localização: as síndromes medulares", c:`A medula organiza-se em tratos cujo acometimento gera síndromes reconhecíveis:
-- **Transecção completa:** perda motora e sensitiva abaixo do nível + disfunção esfincteriana; na fase aguda, **choque medular** (flacidez e arreflexia transitórias).
-- **Síndrome de Brown-Séquard (hemissecção):** paresia e perda de propriocepção **ipsilaterais** + perda de dor/temperatura **contralateral** (2–3 níveis abaixo).
-- **Síndrome centromedular:** fraqueza que predomina em membros superiores, dissociação sensitiva "em capa"; típica de trauma em hiperextensão no idoso com canal estreito.
-- **Síndrome da artéria espinal anterior:** paraplegia + perda de dor/temperatura com **preservação da propriocepção** (cordões posteriores poupados).
-- **Cordões posteriores** (B12, tabes, cobre): ataxia sensitiva, Romberg positivo.`},
-
-  {h:"2. Cauda equina × cone medular", c:`Ponto clássico de prova:
-- **Síndrome da cauda equina:** lesão das raízes lombossacras (abaixo de L1-L2). Predomina **neurônio motor inferior** — fraqueza assimétrica, arreflexia, **dor radicular intensa**, **anestesia em sela**, retenção urinária que tende a ser mais tardia. É **emergência cirúrgica**.
-- **Síndrome do cone medular:** lesão do segmento sacral da medula. Mais **simétrica**, com disfunção **esfincteriana e sexual precoce**, anestesia em sela, dor menos proeminente, podendo ter sinais de neurônio motor superior (Babinski).
-
-Na prática, muitos casos são mistos (conus-cauda). O que importa é reconhecer a bandeira e agir.`},
-
-  {h:"3. Emergências: compressão medular e cauda equina", c:`A **síndrome medular aguda** com déficit motor/sensitivo, nível sensitivo e disfunção esfincteriana é emergência. Causas: hérnia discal maciça, trauma, abscesso epidural (febre + dor + déficit, sobretudo em usuário de droga IV/diabético), hematoma epidural (anticoagulado) e **compressão medular metastática** (próstata, mama, pulmão, mieloma).
-
-Conduta:
-- **RM de toda a coluna** de urgência (o exame de escolha — não TC, não eletroneuromiografia).
-- Na compressão metastática: **corticoide em alta dose (dexametasona) imediatamente**, sem esperar a radioterapia, e definição de RT/cirurgia (cirurgia se instabilidade, tumor radiorresistente ou compressão única com boa expectativa).
-- Antibiótico empírico + drenagem no abscesso; reversão da anticoagulação no hematoma.
-
-**Bandeira vermelha da dor lombar:** déficit progressivo, retenção/incontinência, anestesia em sela, febre, perda ponderal, câncer conhecido, dor que piora deitado/à noite.`},
-
-  {h:"4. Mielopatia cervical espondilótica × ELA", c:`Causa mais comum de mielopatia no idoso. Marcha espástica progressiva, mãos "desajeitadas", **sinais de NMS abaixo da lesão** (hiper-reflexia, Babinski, Hoffmann) com NMI no nível. O diferencial cobrado é **ELA**: a ELA combina NMS + NMI **sem** qualquer alteração sensitiva e **sem nível sensitivo**. A presença de hipoestesia/nível sensitivo aponta para a mielopatia compressiva (RM cervical confirma; casos progressivos são cirúrgicos).`},
-
-  {h:"5. Mielopatias não compressivas (regionais e sistêmicas)", c:`- **Neuroesquistossomose medular:** tema regional (Bahia/Nordeste). Adolescente/jovem de área rural com dor lombar, mielorradiculopatia e eosinofilia; diagnóstico por biópsia retal + sorologia para S. mansoni; tratamento com **corticoide + praziquantel**.
-- **Mielopatia por HTLV-1 (paraparesia espástica tropical):** paraparesia espástica progressiva + bexiga neurogênica em área endêmica.
-- **Degeneração combinada subaguda** (deficiência de **B12**, e cobre): cordões posteriores + laterais; tratável — repor precocemente.
-- **Mielite transversa** (idiopática/NMO/MOGAD/pós-infecciosa): déficit em horas-dias; investigar e tratar com corticoide.`},
+ "titulo": "Medula espinal, cauda equina e mielopatias",
+ "half": "NEURO",
+ "resumo": "O eixo da medula é topográfico e de urgência: reconhecer a emergência (compressão medular / cauda equina), pedir o exame certo (RM) sem atraso, e localizar a lesão pelo padrão (nível sensitivo, NMS × NMI, sela e esfíncteres). Este texto reconstrói o tema do zero — o que a medula faz, como ler um 'nível', e um caminho de decisão que separa a mielopatia cervical (onde você mais erra) da ELA e das emergências que não se pode perder.",
+ "secoes": [
+  {
+   "h": "1. Comece pelo começo: o que a medula faz e por que 'nível' importa",
+   "c": "A medula é um **cabo** que liga o cérebro ao corpo. Por dentro dela correm três \"fios\" principais, e entender por onde cada um passa (e onde cruza) explica quase toda a semiologia:\n\n- **Trato corticoespinal (motor):** desce do córtex, **cruza no bulbo** (bem acima da medula) e desce pelo lado de mesmo nome. Consequência: uma lesão na medula dá fraqueza **do mesmo lado** (ipsilateral) abaixo dela.\n- **Trato espinotalâmico (dor e temperatura):** entra pela raiz e **cruza dentro da própria medula em 1–2 segmentos**, subindo pelo lado oposto. Consequência: perda de dor/temperatura **do lado contrário** à lesão.\n- **Cordões posteriores (propriocepção/vibração):** sobem **ipsilaterais** e só cruzam lá no bulbo. Consequência: perda de propriocepção **do mesmo lado** da lesão.\n\nDuas ideias-chave nascem daí. Primeira, o **nível sensitivo**: como cada segmento medular corresponde a um dermátomo, uma lesão que atravessa a medula cria uma linha no tronco a partir da qual \"some\" a sensibilidade — achar essa linha **localiza a lesão** (ex.: nível em T4 = mamilos). Segunda, o par **NMS × NMI**: a lesão medular destrói o corpo do neurônio motor inferior **naquele segmento** (dando fraqueza flácida/atrofia/arreflexia **no nível**) e interrompe o trato corticoespinal que passa, gerando sinais de **neurônio motor superior abaixo** (espasticidade, hiper-reflexia, Babinski). Guardar esse \"no nível é NMI, abaixo é NMS\" é o que permite dizer onde está a doença só pelo exame."
+  },
+  {
+   "h": "2. As síndromes medulares (padrões que se reconhecem)",
+   "c": "A medula organiza-se em tratos cujo acometimento gera síndromes reconhecíveis:\n- **Transecção completa:** perda motora e sensitiva abaixo do nível + disfunção esfincteriana; na fase aguda, **choque medular** (flacidez e arreflexia transitórias).\n- **Síndrome de Brown-Séquard (hemissecção):** paresia e perda de propriocepção **ipsilaterais** + perda de dor/temperatura **contralateral** (2–3 níveis abaixo).\n- **Síndrome centromedular:** fraqueza que predomina em membros superiores, dissociação sensitiva \"em capa\"; típica de trauma em hiperextensão no idoso com canal estreito.\n- **Síndrome da artéria espinal anterior:** paraplegia + perda de dor/temperatura com **preservação da propriocepção** (cordões posteriores poupados).\n- **Cordões posteriores** (B12, tabes, cobre): ataxia sensitiva, Romberg positivo."
+  },
+  {
+   "h": "3. Cauda equina × cone medular",
+   "c": "Ponto clássico de prova:\n- **Síndrome da cauda equina:** lesão das raízes lombossacras (abaixo de L1-L2). Predomina **neurônio motor inferior** — fraqueza assimétrica, arreflexia, **dor radicular intensa**, **anestesia em sela**, retenção urinária que tende a ser mais tardia. É **emergência cirúrgica**.\n- **Síndrome do cone medular:** lesão do segmento sacral da medula. Mais **simétrica**, com disfunção **esfincteriana e sexual precoce**, anestesia em sela, dor menos proeminente, podendo ter sinais de neurônio motor superior (Babinski).\n\nNa prática, muitos casos são mistos (conus-cauda). O que importa é reconhecer a bandeira e agir."
+  },
+  {
+   "h": "4. Emergências: compressão medular e cauda equina",
+   "c": "A **síndrome medular aguda** com déficit motor/sensitivo, nível sensitivo e disfunção esfincteriana é emergência. Causas: hérnia discal maciça, trauma, abscesso epidural (febre + dor + déficit, sobretudo em usuário de droga IV/diabético), hematoma epidural (anticoagulado) e **compressão medular metastática** (próstata, mama, pulmão, mieloma).\n\nConduta:\n- **RM de toda a coluna** de urgência (o exame de escolha — não TC, não eletroneuromiografia).\n- Na compressão metastática: **corticoide em alta dose (dexametasona) imediatamente**, sem esperar a radioterapia, e definição de RT/cirurgia (cirurgia se instabilidade, tumor radiorresistente ou compressão única com boa expectativa).\n- Antibiótico empírico + drenagem no abscesso; reversão da anticoagulação no hematoma.\n\n**Bandeira vermelha da dor lombar:** déficit progressivo, retenção/incontinência, anestesia em sela, febre, perda ponderal, câncer conhecido, dor que piora deitado/à noite.\n\nUm detalhe de prova sobre a **compressão metastática**: os tumores que mais a causam são **próstata, mama e pulmão** (e mieloma), e a coluna **torácica** é o sítio mais frequente. A conduta que salva função é sequência fixa: **suspeitou → dexametasona em dose alta imediatamente → RM de TODA a coluna (lesões múltiplas são comuns) → definir radioterapia e/ou cirurgia**. O melhor preditor de voltar a andar é **o estado neurológico no momento em que se trata** — por isso a pressa. Regra prática: paciente oncológico com dor dorsal nova que piora deitado/à noite deve fazer RM **antes** de instalar déficit, não depois."
+  },
+  {
+   "h": "5. Mielopatia cervical espondilótica — o seu ponto de erro, do zero",
+   "c": "É a **causa mais comum de disfunção medular no idoso**, e o tema onde você mais erra. Vale construí-la do começo.\n\n**O que é / mecanismo.** Com a idade, os discos cervicais desidratam e perdem altura, surgem **osteófitos** (bicos de osso) nas margens vertebrais e o **ligamento amarelo hipertrofia** e \"enruga\" — tudo isso **estreita o canal** e comprime cronicamente a medula cervical. Some-se um componente **dinâmico**: em extensão do pescoço o canal fica ainda menor. A medula sofre por dois caminhos: **compressão mecânica direta** e **isquemia microvascular** (compressão das artérias que a nutrem). Por isso o dano é lento, progressivo e \"em degraus\".\n\n**Clínica (a que se cobra).** Instalação **insidiosa**: marcha espástica que vai enrijecendo, quedas, **mãos \"desajeitadas\"** (dificuldade para abotoar, escrever, segurar moedas), dormência/parestesia em mãos, e o **sinal de Lhermitte** (choque que desce pela coluna ao fletir o pescoço). Ao exame: **NMS abaixo da lesão** (hiper-reflexia nos MMII, **Babinski**, clônus), **NMI no nível cervical** (atrofia/hiporreflexia em MMSS), **sinal de Hoffmann** e frequentemente **hipoestesia com nível sensitivo**. Esfíncteres costumam ser afetados **tardiamente**.\n\n**Diagnóstico.** **RM da coluna cervical** é o exame — mostra o estreitamento, a compressão e, quando há sofrimento medular, **hipersinal em T2** (mielomalácia). A gravidade pode ser graduada (escala mJOA). A eletroneuromiografia serve para o diferencial com neuropatia/radiculopatia, não para \"ver\" a medula.\n\nCausa mais comum de mielopatia no idoso. Marcha espástica progressiva, mãos \"desajeitadas\", **sinais de NMS abaixo da lesão** (hiper-reflexia, Babinski, Hoffmann) com NMI no nível. O diferencial cobrado é **ELA**: a ELA combina NMS + NMI **sem** qualquer alteração sensitiva e **sem nível sensitivo**. A presença de hipoestesia/nível sensitivo aponta para a mielopatia compressiva (RM cervical confirma; casos progressivos são cirúrgicos).\n\n**Tratamento.** Casos **leves e estáveis** podem ser observados com fisioterapia e reavaliação. Casos **moderados a graves, ou progressivos**, são **cirúrgicos** (descompressão — discectomia/corpectomia anterior ou laminoplastia/laminectomia posterior): a cirurgia **estabiliza e frequentemente melhora**, e quanto **mais precoce**, melhor o resultado (déficit instalado há muito tende a não reverter). Mensagem para a prova: mielopatia cervical **progressiva** não é para \"esperar\" — é para operar."
+  },
+  {
+   "h": "6. Mielopatia cervical × ELA — como não errar o diferencial",
+   "c": "Este é o par que mais te derruba, então isolamos a regra. **O que as duas têm em comum:** idoso, marcha espástica, hiper-reflexia, Babinski (ambas dão sinais de NMS). **O que só a ELA tem:** combinação de **NMS + NMI difusa** (fasciculações, atrofia, língua com fasciculações, disartria/disfagia bulbar) **SEM nenhuma alteração sensitiva e SEM nível sensitivo**; a eletroneuromiografia mostra **desnervação difusa** em múltiplos segmentos. **O que só a mielopatia compressiva tem:** **hipoestesia / nível sensitivo**, Lhermitte, e a **compressão visível na RM**.\n\nRegra de ouro: **presença de déficit sensitivo/nível sensitivo → NÃO é ELA** (a ELA poupa a sensibilidade). E o passo obrigatório: **toda suspeita de ELA faz RM cervical antes**, porque uma mielopatia compressiva é tratável (cirúrgica) e \"imita\" ELA — deixá-la passar como ELA é erro grave."
+  },
+  {
+   "h": "7. Mielopatias não compressivas (regionais e sistêmicas)",
+   "c": "- **Neuroesquistossomose medular:** tema regional (Bahia/Nordeste). Adolescente/jovem de área rural com dor lombar, mielorradiculopatia e eosinofilia; diagnóstico por biópsia retal + sorologia para S. mansoni; tratamento com **corticoide + praziquantel**.\n- **Mielopatia por HTLV-1 (paraparesia espástica tropical):** paraparesia espástica progressiva + bexiga neurogênica em área endêmica.\n- **Degeneração combinada subaguda** (deficiência de **B12**, e cobre): cordões posteriores + laterais; tratável — repor precocemente.\n- **Mielite transversa** (idiopática/NMO/MOGAD/pós-infecciosa): déficit em horas-dias; investigar e tratar com corticoide."
+  },
+  {
+   "h": "8. Semiologia de cabeceira: como examinar",
+   "c": "O exame confirma a topografia sem imagem. Faça na ordem:\n\n- **Marcha:** espástica (pernas rígidas, passos curtos, \"em tesoura\") aponta trato corticoespinal; atáxica/Romberg aponta cordão posterior.\n- **Nível sensitivo:** com um estímulo (alfinete/algodão), suba pelo tronco até achar a linha onde a sensibilidade **muda** — ali está o segmento. Teste dor/temperatura (espinotalâmico) **e** vibração/propriocepção (cordão posterior) separadamente: **dissociação** entre eles localiza qual trato foi pego.\n- **Força e reflexos:** procure **NMI no nível** (fraqueza/atrofia/arreflexia segmentar) e **NMS abaixo** (hiper-reflexia, clônus, **Babinski**).\n- **Sinais de liberação:** **Hoffmann** (MMSS) e Babinski (MMII) sugerem NMS.\n- **Sela e esfíncteres:** teste **sensibilidade perineal (em sela)**, tônus do esfíncter anal e pergunte sobre **retenção/incontinência** — a \"bandeira\" que transforma o caso em emergência.\n\nSanvito é a referência para a técnica de cada manobra."
+  },
+  {
+   "h": "9. Algoritmo final (o fio condutor)",
+   "c": "Junte tudo numa sequência única:\n\n1) **Há bandeira vermelha?** (anestesia em sela, retenção/incontinência, febre + dor, câncer conhecido, déficit motor progressivo, dor que piora deitado/à noite) → **RM de coluna URGENTE**.\n2) **É emergência compressiva?** cauda equina / cone / **compressão metastática** (dexametasona já) / **abscesso epidural** (febre + dor + déficit → ATB + drenagem) / **hematoma** (anticoagulado → reverter). Age-se em horas.\n3) **É crônica e compressiva?** **mielopatia cervical espondilótica** (NMS abaixo + NMI no nível + nível sensitivo; RM cervical; progressiva → cirurgia). Diferencie de **ELA** (sem sensitivo).\n4) **É não compressiva?** RM sem compressão → investigar **B12/cobre** (degeneração combinada), **HTLV-1**, **esquistossomose medular** (Bahia!), **mielite transversa** (NMO/MOGAD/pós-infecciosa → corticoide).\n\nDecorada essa árvore, os casos se separam quase sozinhos — e a emergência nunca passa despercebida."
+  }
  ],
- flashcards: [
-  {p:"Tríade que grita cauda equina?", r:"Anestesia em sela + retenção urinária + déficit motor de MMII (com dor radicular) → RM urgente."},
-  {p:"Exame de escolha na síndrome medular aguda?", r:"Ressonância magnética da coluna (toda a coluna se suspeita de metástase)."},
-  {p:"O que torna a ELA improvável numa mielopatia?", r:"Alteração sensitiva com nível sensitivo (a ELA não tem déficit sensitivo)."},
-  {p:"Compressão medular metastática: primeira medida junto à RM?", r:"Corticoide em alta dose (dexametasona), imediatamente."},
-  {p:"Brown-Séquard: o que fica contralateral?", r:"A perda de dor e temperatura (motor e propriocepção são ipsilaterais)."},
+ "flashcards": [
+  {
+   "p": "Tríade que grita cauda equina?",
+   "r": "Anestesia em sela + retenção urinária + déficit motor de MMII (com dor radicular) → RM urgente."
+  },
+  {
+   "p": "Exame de escolha na síndrome medular aguda?",
+   "r": "Ressonância magnética da coluna (toda a coluna se suspeita de metástase)."
+  },
+  {
+   "p": "O que torna a ELA improvável numa mielopatia?",
+   "r": "Alteração sensitiva com nível sensitivo (a ELA não tem déficit sensitivo)."
+  },
+  {
+   "p": "Compressão medular metastática: primeira medida junto à RM?",
+   "r": "Corticoide em alta dose (dexametasona), imediatamente."
+  },
+  {
+   "p": "Brown-Séquard: o que fica contralateral?",
+   "r": "A perda de dor e temperatura (motor e propriocepção são ipsilaterais)."
+  },
+  {
+   "p": "Por que uma lesão medular dá fraqueza ipsilateral abaixo dela?",
+   "r": "Porque o trato corticoespinal já cruzou no bulbo; na medula ele desce do mesmo lado."
+  },
+  {
+   "p": "Sinal de Lhermitte — o que é e o que sugere?",
+   "r": "Choque que desce pela coluna ao fletir o pescoço; sugere lesão dos cordões posteriores cervicais (mielopatia cervical, EM)."
+  },
+  {
+   "p": "Mielopatia cervical progressiva: observar ou operar?",
+   "r": "Operar (descompressão) — quanto mais precoce, melhor; 'esperar' é erro."
+  }
  ],
- pegadinhas: [
+ "pegadinhas": [
   "Anestesia em sela + retenção urinária + dor lombar = cauda equina até prova em contrário → RM URGENTE.",
   "O exame de escolha é RM, não TC nem eletroneuromiografia.",
   "Mielopatia cervical tem alteração sensitiva/nível sensitivo; ELA NÃO — esse é o diferencial.",
   "Compressão medular metastática: corticoide em alta dose já, sem esperar a radioterapia.",
   "Dor lombar que piora deitado/à noite e desperta o paciente é bandeira vermelha.",
   "Febre + dor nas costas + déficit = abscesso epidural (não perder em diabético/usuário de droga IV).",
+  "Déficit sensitivo / nível sensitivo → NÃO é ELA (a ELA poupa a sensibilidade).",
+  "Toda suspeita de ELA faz RM cervical ANTES — a mielopatia compressiva imita ELA e é tratável.",
+  "Compressão metastática: tumores de próstata, mama e pulmão; coluna torácica é o sítio mais comum."
  ],
- diretrizes: [
+ "diretrizes": [
   "Tratado de Neurologia da ABN (3ª ed., 2025), cap. 114 — Radiculopatias e Plexopatias; cap. 169 — Mielopatias Metabólicas e Tóxicas; cap. 146 — Neuroesquistossomose; cap. 153 — Mielopatia associada ao HTLV-1 (ver materiais_neuro.md).",
   "Merritt, Tratado de Neurologia (13ª ed.), Seção 15 — Doenças da Medula Espinal; Seção 2 — Síndromes Raquimedulares Agudas.",
-  "Adams & Victor — “Diseases of the Spinal Cord” e “Pain in the Back, Neck, and Extremities”.",
+  "Adams & Victor — “Diseases of the Spinal Cord” e “Pain in the Back, Neck, and Extremities”."
  ],
- questoes: [
-  {foco:"Reconhecer a emergência e o exame (seu ponto de erro)",
-   enunciado:"Homem de 45 anos com lombalgia há meses, agora com fraqueza de membros inferiores, anestesia perineal e retenção urinária com gotejamento há 24 horas. Qual a conduta imediata?",
-   alternativas:{a:"Repouso e AINE, reavaliar em 2 semanas",b:"Eletroneuromiografia ambulatorial",c:"Ressonância magnética de coluna lombossacra de urgência",d:"Tomografia de crânio"},
-   correta:"c",
-   comentario:"O quadro é síndrome da cauda equina — emergência neurocirúrgica. A conduta é RM de coluna lombossacra de urgência para confirmar e localizar a compressão, seguida de descompressão precoce (previne incontinência permanente). Repouso/AINE atrasam uma emergência. A eletroneuromiografia não é o exame agudo de escolha. TC de crânio não tem relação. Tríade a memorizar: anestesia em sela + retenção urinária + déficit motor de MMII."},
-  {foco:"Mielopatia cervical × ELA",
-   enunciado:"Homem de 60 anos com marcha espástica progressiva, hiper-reflexia e Babinski, mas também com hipoestesia em mãos e nível sensitivo cervical. Qual dado torna a ELA improvável?",
-   alternativas:{a:"A presença de sinais de neurônio motor superior",b:"A alteração sensitiva com nível sensitivo",c:"A marcha espástica",d:"A idade do paciente"},
-   correta:"b",
-   comentario:"A ELA acomete neurônios motores superior e inferior SEM alteração sensitiva. A presença de hipoestesia com nível sensitivo aponta para lesão medular (mielopatia cervical espondilótica), não ELA. Sinais de neurônio motor superior e marcha espástica ocorrem em ambas e não discriminam. A idade também não separa. RM cervical confirma a compressão; a ausência de déficit sensitivo é justamente o que caracteriza a ELA."},
-  {foco:"Compressão medular metastática",
-   enunciado:"Homem de 63 anos com câncer de próstata metastático, dor dorsal que piora deitado e paraparesia com nível sensitivo torácico. Além da RM de toda a coluna, qual medida deve ser iniciada imediatamente?",
-   alternativas:{a:"Corticoide em dose alta",b:"Anticoagulação plena",c:"Aguardar biópsia antes de qualquer tratamento",d:"Punção lombar de alívio"},
-   correta:"a",
-   comentario:"Na compressão medular metastática, o corticoide em dose alta (dexametasona) deve ser iniciado imediatamente para reduzir o edema e proteger a função neurológica, enquanto se define radioterapia e/ou cirurgia — não se espera a RT. Anticoagulação não trata a compressão. Esperar biópsia atrasa e pode custar a deambulação. Punção lombar é contraindicada/inútil aqui e pode piorar. Dor que piora deitado/à noite + nível sensitivo em paciente oncológico é a apresentação clássica."},
- ]
+ "questoes": [
+  {
+   "foco": "Reconhecer a emergência e o exame (seu ponto de erro)",
+   "enunciado": "Homem de 45 anos com lombalgia há meses, agora com fraqueza de membros inferiores, anestesia perineal e retenção urinária com gotejamento há 24 horas. Qual a conduta imediata?",
+   "alternativas": {
+    "a": "Repouso e AINE, reavaliar em 2 semanas",
+    "b": "Eletroneuromiografia ambulatorial",
+    "c": "Ressonância magnética de coluna lombossacra de urgência",
+    "d": "Tomografia de crânio"
+   },
+   "correta": "c",
+   "comentario": "O quadro é síndrome da cauda equina — emergência neurocirúrgica. A conduta é RM de coluna lombossacra de urgência para confirmar e localizar a compressão, seguida de descompressão precoce (previne incontinência permanente). Repouso/AINE atrasam uma emergência. A eletroneuromiografia não é o exame agudo de escolha. TC de crânio não tem relação. Tríade a memorizar: anestesia em sela + retenção urinária + déficit motor de MMII."
+  },
+  {
+   "foco": "Mielopatia cervical × ELA",
+   "enunciado": "Homem de 60 anos com marcha espástica progressiva, hiper-reflexia e Babinski, mas também com hipoestesia em mãos e nível sensitivo cervical. Qual dado torna a ELA improvável?",
+   "alternativas": {
+    "a": "A presença de sinais de neurônio motor superior",
+    "b": "A alteração sensitiva com nível sensitivo",
+    "c": "A marcha espástica",
+    "d": "A idade do paciente"
+   },
+   "correta": "b",
+   "comentario": "A ELA acomete neurônios motores superior e inferior SEM alteração sensitiva. A presença de hipoestesia com nível sensitivo aponta para lesão medular (mielopatia cervical espondilótica), não ELA. Sinais de neurônio motor superior e marcha espástica ocorrem em ambas e não discriminam. A idade também não separa. RM cervical confirma a compressão; a ausência de déficit sensitivo é justamente o que caracteriza a ELA."
+  },
+  {
+   "foco": "Compressão medular metastática",
+   "enunciado": "Homem de 63 anos com câncer de próstata metastático, dor dorsal que piora deitado e paraparesia com nível sensitivo torácico. Além da RM de toda a coluna, qual medida deve ser iniciada imediatamente?",
+   "alternativas": {
+    "a": "Corticoide em dose alta",
+    "b": "Anticoagulação plena",
+    "c": "Aguardar biópsia antes de qualquer tratamento",
+    "d": "Punção lombar de alívio"
+   },
+   "correta": "a",
+   "comentario": "Na compressão medular metastática, o corticoide em dose alta (dexametasona) deve ser iniciado imediatamente para reduzir o edema e proteger a função neurológica, enquanto se define radioterapia e/ou cirurgia — não se espera a RT. Anticoagulação não trata a compressão. Esperar biópsia atrasa e pode custar a deambulação. Punção lombar é contraindicada/inútil aqui e pode piorar. Dor que piora deitado/à noite + nível sensitivo em paciente oncológico é a apresentação clássica."
+  },
+  {
+   "foco": "Mielopatia cervical — mecanismo e conduta (seu ponto de erro)",
+   "enunciado": "Homem de 66 anos com 1 ano de marcha rígida progressiva, mãos desajeitadas e sinal de Lhermitte; ao exame, hiper-reflexia e Babinski em MMII, Hoffmann positivo e hipoestesia com nível cervical. RM mostra estenose cervical com hipersinal medular em T2. Qual a conduta mais adequada?",
+   "alternativas": {
+    "a": "Observação clínica indefinida, pois o quadro é degenerativo e não tratável",
+    "b": "Descompressão cirúrgica, pois há mielopatia compressiva progressiva com sofrimento medular",
+    "c": "Iniciar riluzol por provável ELA",
+    "d": "Eletroneuromiografia seriada e AINE, adiando imagem"
+   },
+   "correta": "b",
+   "comentario": "O quadro é mielopatia cervical espondilótica com sinais de sofrimento medular (NMS abaixo + Hoffmann + nível sensitivo) e hipersinal em T2 na RM — e é progressivo. A conduta é descompressão cirúrgica, tanto mais eficaz quanto mais precoce. Observação indefinida deixa evoluir um déficit potencialmente reversível. A hipoestesia com nível sensitivo AFASTA ELA (que não tem déficit sensitivo), então riluzol está errado. A imagem já foi feita e é o exame-chave; adiá-la por ENMG/AINE atrasa. Lição: nível sensitivo = compressão, não ELA; progressiva = operar."
+  }
+ ],
+ "fontes": "Base: Tratado de Neurologia da ABN 3ª ed. (cap. 114 — Radiculopatias e Plexopatias; cap. 169 — Mielopatias Metabólicas e Tóxicas; cap. 146 — Neuroesquistossomose; cap. 153 — Mielopatia por HTLV-1), Merritt 13ª ed. (Seção 15 — Doenças da Medula Espinal; Seção 2 — Síndromes Raquimedulares Agudas), Adams & Victor 12ª ed. (Diseases of the Spinal Cord; Pain in the Back, Neck and Extremities) e Sanvito (semiologia: nível sensitivo, NMS × NMI, sinais de Hoffmann/Babinski). Ver materiais_neuro.md.",
+ "notaErro": "Nos seus registros, **mielopatia cervical espondilótica** aparece com taxa de erro de **100%** (tier ALTO), e o eixo da medula como um todo é dos que mais derrubam. O erro raramente é \"não saber a doença\" — é **não separar duas coisas parecidas** e **não reconhecer a bandeira de emergência a tempo**. Três armadilhas explicam quase todas as quedas, e este texto foi montado para desarmar cada uma:\n\n- **Você confunde mielopatia cervical com ELA.** As duas dão marcha espástica, hiper-reflexia e Babinski num idoso. A pista que separa é UMA: **a mielopatia tem alteração sensitiva e NÍVEL SENSITIVO; a ELA NÃO tem déficit sensitivo nenhum** (seção 6). Se há hipoestesia/nível, é compressão até prova em contrário — e a RM cervical é obrigatória **antes** de rotular ELA.\n- **Você pede o exame errado (ou nenhum).** Diante de síndrome medular aguda, o exame é **RM de coluna**, não TC nem eletroneuromiografia — e é **urgente** (seção 4). Trocar o exame devolve um resultado \"normal\" e o diagnóstico se perde.\n- **Você subestima a emergência.** Anestesia em sela + retenção + déficit de MMII = **cauda equina**, cirúrgica em horas; dor que piora deitado/à noite em paciente oncológico = **compressão metastática**, que exige **corticoide em dose alta JÁ** (seções 3–4). Hesitar custa a deambulação/continência definitivas.\n\n**Como zerar o erro:** para cada caso, responda NESTA ordem — (1) **há bandeira vermelha/emergência?** (sela, esfíncter, febre, câncer, déficit progressivo) → RM urgente; (2) **onde está a lesão?** (nível sensitivo; NMS abaixo × NMI no nível; cauda × cone); (3) **é compressiva ou não?** (compressiva → RM + descompressão/corticoide; não compressiva → investigar B12, HTLV-1, esquistossomose, mielite). As questões ao final batem exatamente nesses três tropeços."
 },
-
 "NEURO|Demências": {
  titulo: "Demências e neurologia do envelhecimento",
  half: "NEURO",
@@ -537,73 +609,152 @@ O objetivo dessa etapa é duplo: **rotular o tipo** e, principalmente, **não de
 },
 
 "NEURO|HIC / emergências neuro": {
- titulo: "Hipertensão intracraniana e emergências neurológicas",
- half: "NEURO",
- resumo: "Domínio que se sobrepõe à UTI: doutrina de Monro-Kellie e pressão de perfusão cerebral, tríade de Cushing, escalonamento do tratamento da HIC, quando NÃO puncionar (sem atrasar o antibiótico) e os princípios de morte encefálica.",
- secoes: [
-  {h:"1. Fisiopatologia — Monro-Kellie e perfusão", c:`O crânio é uma caixa rígida com três compartimentos: parênquima (~80%), sangue (~10%) e liquor (~10%). Pela **doutrina de Monro-Kellie**, o aumento de um volume exige a redução de outro (deslocamento de liquor e sangue venoso). Esgotada a complacência, pequenos aumentos de volume elevam muito a **pressão intracraniana (PIC)**.
-
-O que importa para o cérebro é a **pressão de perfusão cerebral (PPC) = PAM − PIC**. Portanto, PIC alta ou PAM baixa reduzem a perfusão. Alvos habituais em neurointensivismo: manter **PIC < 20–22 mmHg** e **PPC ~60–70 mmHg**, evitando tanto isquemia quanto hiperemia.`},
-
-  {h:"2. Reconhecer a HIC", c:`Sintomas: cefaleia que piora deitado e pela manhã, vômitos (por vezes em jato), turvação visual, papiledema, paralisia do VI par (falso localizatório) e rebaixamento do nível de consciência.
-
-A **tríade de Cushing** (hipertensão arterial + bradicardia + respiração irregular) é sinal **tardio e grave**, de HIC crítica/herniação iminente. As **síndromes de herniação** (uncal — midríase ipsilateral e hemiparesia; central; tonsilar) são emergências que exigem ação imediata.`},
-
-  {h:"3. Escalonamento terapêutico da HIC", c:`Trate por etapas, do menos ao mais agressivo:
-- **Medidas gerais (primeiro):** cabeceira a **30°**, cabeça na **linha média** (para não obstruir a drenagem venosa jugular), normovolemia, controle de dor/febre/agitação, **normocapnia** (PaCO2 35–40), normonatremia-alvo e evitar hipotensão.
-- **Osmoterapia:** **manitol** (0,25–1 g/kg; atenção à hipovolemia/lesão renal) ou **salina hipertônica** (preferida no choque/hipovolemia).
-- **Sedação/analgesia** otimizadas; drenagem liquórica por cateter ventricular; coma barbitúrico em casos refratários.
-- **Cirurgia:** craniectomia descompressiva / remoção de lesão.
-
-A **hiperventilação agressiva** (PaCO2 < 30) causa vasoconstrição e risco de **isquemia** — é medida de **resgate temporário** para herniação, não de rotina.`},
-
-  {h:"4. Quando NÃO puncionar — sem atrasar o antibiótico", c:`Na suspeita de meningite com sinais de HIC/efeito de massa (**papiledema, déficit focal, rebaixamento, crises, imunossupressão**), faça **neuroimagem antes da punção lombar** pelo risco de herniação.
-
-**Regra de ouro:** isso **não** deve atrasar o tratamento — colha **hemoculturas** e inicie **antibiótico empírico** (± **dexametasona** antes/junto da primeira dose, sobretudo pneumococo) **imediatamente**, sem esperar a TC nem o resultado do liquor. Atrasar o antibiótico pela imagem é o erro que aumenta mortalidade.`},
-
-  {h:"5. Coma e morte encefálica", c:`Avaliação do coma: estabilizar (ABC), glicemia, e diferenciar causa **estrutural** (déficit focal, sinais de tronco assimétricos) de **metabólica/tóxica** (simétrica, reflexos preservados). Escala de coma de Glasgow orienta a gravidade.
-
-**Morte encefálica** (Resolução CFM 2.173/2017) é diagnóstico **clínico**, com **pré-requisitos**: causa conhecida e irreversível, e exclusão de confundidores (**hipotermia, drogas/sedação, distúrbios metabólicos/hidroeletrolíticos graves, hipotensão**). Exige **coma aperceptivo**, **ausência de reflexos de tronco**, **teste de apneia** positivo, dois exames por médicos distintos (um capacitado) com intervalo, e um **exame complementar** comprobatório de ausência de fluxo/atividade.`},
+ "titulo": "Hipertensão intracraniana e emergências neurológicas",
+ "half": "NEURO",
+ "resumo": "Domínio amplo que reúne emergências neurológicas (HIC: doutrina de Monro-Kellie, pressão de perfusão, tríade de Cushing, escalonamento, quando NÃO puncionar, morte encefálica) e — no ponto onde você mais erra — o **transtorno de insônia**: o que é o sono normal, quando a insônia vira 'transtorno' com critério, e por que o tratamento começa por comportamento (TCC-I), não por remédio.",
+ "secoes": [
+  {
+   "h": "1. Fisiopatologia — Monro-Kellie e perfusão",
+   "c": "O crânio é uma caixa rígida com três compartimentos: parênquima (~80%), sangue (~10%) e liquor (~10%). Pela **doutrina de Monro-Kellie**, o aumento de um volume exige a redução de outro (deslocamento de liquor e sangue venoso). Esgotada a complacência, pequenos aumentos de volume elevam muito a **pressão intracraniana (PIC)**.\n\nO que importa para o cérebro é a **pressão de perfusão cerebral (PPC) = PAM − PIC**. Portanto, PIC alta ou PAM baixa reduzem a perfusão. Alvos habituais em neurointensivismo: manter **PIC < 20–22 mmHg** e **PPC ~60–70 mmHg**, evitando tanto isquemia quanto hiperemia."
+  },
+  {
+   "h": "2. Reconhecer a HIC",
+   "c": "Sintomas: cefaleia que piora deitado e pela manhã, vômitos (por vezes em jato), turvação visual, papiledema, paralisia do VI par (falso localizatório) e rebaixamento do nível de consciência.\n\nA **tríade de Cushing** (hipertensão arterial + bradicardia + respiração irregular) é sinal **tardio e grave**, de HIC crítica/herniação iminente. As **síndromes de herniação** (uncal — midríase ipsilateral e hemiparesia; central; tonsilar) são emergências que exigem ação imediata."
+  },
+  {
+   "h": "3. Escalonamento terapêutico da HIC",
+   "c": "Trate por etapas, do menos ao mais agressivo:\n- **Medidas gerais (primeiro):** cabeceira a **30°**, cabeça na **linha média** (para não obstruir a drenagem venosa jugular), normovolemia, controle de dor/febre/agitação, **normocapnia** (PaCO2 35–40), normonatremia-alvo e evitar hipotensão.\n- **Osmoterapia:** **manitol** (0,25–1 g/kg; atenção à hipovolemia/lesão renal) ou **salina hipertônica** (preferida no choque/hipovolemia).\n- **Sedação/analgesia** otimizadas; drenagem liquórica por cateter ventricular; coma barbitúrico em casos refratários.\n- **Cirurgia:** craniectomia descompressiva / remoção de lesão.\n\nA **hiperventilação agressiva** (PaCO2 < 30) causa vasoconstrição e risco de **isquemia** — é medida de **resgate temporário** para herniação, não de rotina."
+  },
+  {
+   "h": "4. Quando NÃO puncionar — sem atrasar o antibiótico",
+   "c": "Na suspeita de meningite com sinais de HIC/efeito de massa (**papiledema, déficit focal, rebaixamento, crises, imunossupressão**), faça **neuroimagem antes da punção lombar** pelo risco de herniação.\n\n**Regra de ouro:** isso **não** deve atrasar o tratamento — colha **hemoculturas** e inicie **antibiótico empírico** (± **dexametasona** antes/junto da primeira dose, sobretudo pneumococo) **imediatamente**, sem esperar a TC nem o resultado do liquor. Atrasar o antibiótico pela imagem é o erro que aumenta mortalidade."
+  },
+  {
+   "h": "5. Coma e morte encefálica",
+   "c": "Avaliação do coma: estabilizar (ABC), glicemia, e diferenciar causa **estrutural** (déficit focal, sinais de tronco assimétricos) de **metabólica/tóxica** (simétrica, reflexos preservados). Escala de coma de Glasgow orienta a gravidade.\n\n**Morte encefálica** (Resolução CFM 2.173/2017) é diagnóstico **clínico**, com **pré-requisitos**: causa conhecida e irreversível, e exclusão de confundidores (**hipotermia, drogas/sedação, distúrbios metabólicos/hidroeletrolíticos graves, hipotensão**). Exige **coma aperceptivo**, **ausência de reflexos de tronco**, **teste de apneia** positivo, dois exames por médicos distintos (um capacitado) com intervalo, e um **exame complementar** comprobatório de ausência de fluxo/atividade."
+  },
+  {
+   "h": "6. Mudando de assunto: o sono normal (base para entender a insônia)",
+   "c": "Para entender insônia, é preciso saber como o sono é regulado. Dois processos, que agem juntos, decidem quando e quão bem dormimos (modelo dos \"dois processos\"):\n\n- **Processo S (homeostático):** quanto mais tempo acordado, maior a \"pressão de sono\" (acúmulo de adenosina, entre outros). Cochilos longos e a cafeína (que bloqueia a adenosina) **descarregam** essa pressão e atrapalham o sono da noite.\n- **Processo C (circadiano):** o \"relógio\" do **núcleo supraquiasmático** sincroniza o corpo ao ciclo dia/noite, principalmente pela **luz**; à noite a ausência de luz libera **melatonina**, que sinaliza \"hora de dormir\".\n\nO sono em si alterna **NREM** (fases N1–N3; a N3 é o sono profundo, restaurador) e **REM** (sono dos sonhos, com atonia muscular), em ciclos de ~90 minutos. Insônia não é \"falta de sono\" apenas — é um estado de **hiperalerta** (fisiológico e cognitivo) que impede o sistema de \"desligar\", mesmo com pressão de sono adequada. Essa noção explica por que o tratamento eficaz mira o **comportamento e a cognição**, não só um sedativo."
+  },
+  {
+   "h": "7. Transtorno de insônia — definição e diagnóstico",
+   "c": "**Definição (ICSD-3 / DSM-5-TR).** Queixa de **dificuldade para iniciar o sono, para mantê-lo, ou despertar precoce**, associada a **prejuízo diurno** (fadiga, humor irritável, déficit de atenção/memória, sonolência, queda de desempenho), ocorrendo **≥ 3 noites por semana**, e — o ponto que muitos esquecem — **apesar de oportunidade e circunstâncias adequadas para dormir**. Se dura **≥ 3 meses**, é **insônia crônica**; abaixo disso, **insônia de curta duração/aguda** (em geral ligada a estressor).\n\n**O diagnóstico é clínico.** Ferramentas úteis: **diário do sono** (2 semanas) e questionários; a **polissonografia NÃO é rotina** — reserva-se para suspeita de **apneia do sono**, movimentos periódicos ou casos atípicos/refratários.\n\n**Excluir o que imita insônia (obrigatório):**\n- **Apneia obstrutiva do sono** (ronco, pausas, sonolência diurna, obesidade) — pedir polissonografia.\n- **Síndrome das pernas inquietas** (urgência de mexer as pernas ao repouso, à noite, que alivia com movimento; ligada a **ferritina baixa** — repor ferro).\n- **Depressão/ansiedade** (despertar precoce é clássico da depressão).\n- **Dor, nictúria, refluxo, doenças da tireoide.**\n- **Substâncias:** cafeína, álcool (fragmenta o sono na 2ª metade da noite), nicotina, **corticoide**, estimulantes, alguns antidepressivos.\n- **Transtornos do ritmo circadiano** (adolescente \"coruja\" com atraso de fase — não é insônia verdadeira)."
+  },
+  {
+   "h": "8. Tratamento da insônia — a ordem certa (onde se erra)",
+   "c": "**1ª linha = terapia cognitivo-comportamental para insônia (TCC-I)** — mais eficaz e mais duradoura que fármaco, com resposta que se mantém após o fim das sessões. Componentes:\n\n- **Controle de estímulos:** cama só para dormir (e sexo); se não dormiu em ~20 min, levantar e voltar só com sono — reassociando a cama ao sono, não ao \"esforço de dormir\".\n- **Restrição de sono:** limitar o tempo na cama ao tempo realmente dormido para aumentar a pressão de sono e a eficiência, expandindo depois gradualmente.\n- **Reestruturação cognitiva:** desarmar crenças catastróficas (\"se eu não dormir 8 h, meu dia está arruinado\") que alimentam o hiperalerta.\n- **Higiene do sono** (adjuvante, não basta sozinha): horários regulares, quarto escuro/silencioso/fresco, sem telas e cafeína à noite, sem cochilos longos, exercício de dia.\n\n**Fármacos = adjuvantes/curto prazo**, quando a TCC-I não basta ou há muito sofrimento:\n- **Agonistas de melatonina** (melatonina, ramelteon): úteis sobretudo em componente circadiano/idoso, bom perfil de segurança.\n- **Doxepina em dose baixa** e alguns sedativos ajudam na manutenção do sono.\n- **\"Drogas Z\" (zolpidem) e benzodiazepínicos:** eficazes a curto prazo, mas com **tolerância, dependência, quedas e piora cognitiva** — **evitar uso crônico**, e **muita cautela no idoso** (risco de queda/fratura e confusão).\n- **Antagonistas de orexina** (quando disponíveis): opção mais nova para manutenção do sono.\n\n**Mensagem para a prova:** insônia crônica se trata **primeiro com comportamento (TCC-I)**; o comprimido é coadjuvante e temporário — e nunca antes de excluir apneia, pernas inquietas, humor e substâncias."
+  }
  ],
- flashcards: [
-  {p:"Fórmula da pressão de perfusão cerebral?", r:"PPC = PAM − PIC (alvo PPC ~60–70; PIC < 20–22 mmHg)."},
-  {p:"O que é a tríade de Cushing e o que significa?", r:"HAS + bradicardia + respiração irregular = HIC tardia / herniação iminente."},
-  {p:"Primeira etapa do tratamento da HIC?", r:"Medidas gerais (cabeceira 30°, linha média, normovolemia, normocapnia) antes da osmoterapia."},
-  {p:"Meningite com sinais de HIC: e o antibiótico?", r:"Neuroimagem antes da punção, mas antibiótico empírico (± dexametasona) imediato — não esperar."},
-  {p:"Pré-requisito indispensável para abrir protocolo de morte encefálica?", r:"Causa conhecida/irreversível e exclusão de hipotermia, drogas e distúrbios metabólicos."},
+ "flashcards": [
+  {
+   "p": "Fórmula da pressão de perfusão cerebral?",
+   "r": "PPC = PAM − PIC (alvo PPC ~60–70; PIC < 20–22 mmHg)."
+  },
+  {
+   "p": "O que é a tríade de Cushing e o que significa?",
+   "r": "HAS + bradicardia + respiração irregular = HIC tardia / herniação iminente."
+  },
+  {
+   "p": "Primeira etapa do tratamento da HIC?",
+   "r": "Medidas gerais (cabeceira 30°, linha média, normovolemia, normocapnia) antes da osmoterapia."
+  },
+  {
+   "p": "Meningite com sinais de HIC: e o antibiótico?",
+   "r": "Neuroimagem antes da punção, mas antibiótico empírico (± dexametasona) imediato — não esperar."
+  },
+  {
+   "p": "Pré-requisito indispensável para abrir protocolo de morte encefálica?",
+   "r": "Causa conhecida/irreversível e exclusão de hipotermia, drogas e distúrbios metabólicos."
+  },
+  {
+   "p": "Critério temporal para insônia CRÔNICA?",
+   "r": "Dificuldade de dormir/manter o sono ≥3x/semana por ≥3 meses, com prejuízo diurno e oportunidade adequada de dormir."
+  },
+  {
+   "p": "Qual a 1ª linha de tratamento da insônia crônica?",
+   "r": "TCC-I (terapia cognitivo-comportamental para insônia) — não o fármaco."
+  },
+  {
+   "p": "Dois processos que regulam o sono?",
+   "r": "Processo S (homeostático, pressão de sono/adenosina) e Processo C (circadiano, núcleo supraquiasmático/melatonina)."
+  },
+  {
+   "p": "Insônia + urgência de mexer as pernas ao repouso à noite = ?",
+   "r": "Síndrome das pernas inquietas (checar ferritina; repor ferro)."
+  }
  ],
- pegadinhas: [
+ "pegadinhas": [
   "Tríade de Cushing (HAS + bradicardia + respiração irregular) é sinal TARDIO de HIC/herniação.",
   "Primeiro as medidas gerais (cabeceira 30°, normovolemia) ANTES de manitol/salina.",
   "Hiperventilação agressiva não é rotina — vasoconstrição causa isquemia; é resgate temporário.",
   "Sinais de HIC/efeito de massa → neuroimagem antes da punção; mas antibiótico empírico NÃO espera a imagem.",
   "Morte encefálica exige causa conhecida e exclusão de hipotermia/drogas/distúrbios metabólicos antes de testar.",
   "Paralisia do VI par pode ser falso localizatório na HIC (não indica lesão pontina focal).",
+  "Insônia crônica: 1ª linha é TCC-I, não benzodiazepínico.",
+  "Critério de insônia exige 'oportunidade adequada para dormir' + prejuízo diurno — não é só 'dormir pouco'.",
+  "Benzodiazepínico/zolpidem: curto prazo; evitar crônico e ter cautela no idoso (quedas, cognição).",
+  "Antes de rotular insônia primária, excluir apneia do sono, pernas inquietas, depressão e substâncias (cafeína, álcool, corticoide).",
+  "Despertar precoce é pista clássica de depressão; 'coruja' adolescente é atraso de fase circadiana, não insônia."
  ],
- diretrizes: [
+ "diretrizes": [
   "Tratado de Neurologia da ABN (3ª ed., 2025), cap. 163 — Hipertensão Intracraniana em Terapia Intensiva; cap. 162 — Manejo do TCE; cap. 171 — Hipertensão Intracraniana Idiopática; cap. 22 — Transtornos do Nível de Consciência (ver materiais_neuro.md).",
   "Merritt, Tratado de Neurologia (13ª ed.), Seção 5 — Neurotrauma; Seção 14 — Hidrocefalia e Edema Cerebral; Seção 2 — Torpor e Coma / Morte Encefálica.",
-  "Resolução CFM 2.173/2017 (morte encefálica); Adams & Victor — “Coma...” e “Intracranial Pressure”.",
+  "Resolução CFM 2.173/2017 (morte encefálica); Adams & Victor — “Coma...” e “Intracranial Pressure”."
  ],
- questoes: [
-  {foco:"Escalonamento da HIC",
-   enunciado:"Paciente com hipertensão intracraniana confirmada. Qual a primeira medida terapêutica antes de escalonar para osmoterapia?",
-   alternativas:{a:"Manitol em bolus",b:"Medidas gerais: cabeceira a 30°, linha média, normovolemia e normocapnia",c:"Hiperventilação agressiva mantida",d:"Craniectomia descompressiva imediata"},
-   correta:"b",
-   comentario:"O tratamento da HIC é escalonado: começa pelas medidas gerais (cabeceira a 30°, cabeça na linha média para não obstruir a drenagem venosa, normovolemia, controle de febre/dor/agitação e normocapnia) antes de partir para osmoterapia (manitol/salina hipertônica), sedação e cirurgia. A hiperventilação agressiva mantida causa vasoconstrição e risco de isquemia — é resgate temporário, não rotina. A craniectomia é medida final, não a primeira."},
-  {foco:"Quando não puncionar",
-   enunciado:"Homem com febre, rigidez de nuca, papiledema e hemiparesia. Qual a conduta correta quanto à punção lombar e ao antibiótico?",
-   alternativas:{a:"Punção lombar imediata antes de qualquer antibiótico",b:"Neuroimagem antes da punção; iniciar antibiótico empírico sem esperar o liquor",c:"Adiar o antibiótico até o resultado do liquor",d:"Nenhum antibiótico até a tomografia ficar pronta"},
-   correta:"b",
-   comentario:"Há sinais de HIC/efeito de massa (papiledema, déficit focal): a punção lombar deve ser adiada para depois da neuroimagem, pelo risco de herniação. Porém o antibiótico empírico (± dexametasona) NÃO deve esperar — inicia-se imediatamente após colher hemoculturas, pois o atraso aumenta a mortalidade da meningite bacteriana. Puncionar antes da imagem, nesse contexto, é perigoso; e adiar o antibiótico pela imagem/liquor é o erro que mata."},
-  {foco:"Morte encefálica (pré-requisitos)",
-   enunciado:"Antes de iniciar o protocolo de morte encefálica, qual condição é indispensável?",
-   alternativas:{a:"Causa do coma conhecida e exclusão de hipotermia, drogas e distúrbios metabólicos",b:"Apenas um exame clínico por um único médico",c:"Presença de reflexos de tronco preservados",d:"Dispensar exame complementar em todos os casos"},
-   correta:"a",
-   comentario:"O diagnóstico de morte encefálica exige pré-requisitos: causa conhecida e irreversível do coma e exclusão de confundidores (hipotermia, intoxicação/sedação, distúrbios hidroeletrolíticos/metabólicos graves). É preciso coma aperceptivo com AUSÊNCIA de reflexos de tronco (não preservados), teste de apneia positivo, exames repetidos por examinadores distintos e um exame complementar comprobatório, conforme a Resolução CFM 2.173/2017. Por isso a alternativa que reúne causa conhecida + exclusão de confundidores é a correta."},
- ]
+ "questoes": [
+  {
+   "foco": "Escalonamento da HIC",
+   "enunciado": "Paciente com hipertensão intracraniana confirmada. Qual a primeira medida terapêutica antes de escalonar para osmoterapia?",
+   "alternativas": {
+    "a": "Manitol em bolus",
+    "b": "Medidas gerais: cabeceira a 30°, linha média, normovolemia e normocapnia",
+    "c": "Hiperventilação agressiva mantida",
+    "d": "Craniectomia descompressiva imediata"
+   },
+   "correta": "b",
+   "comentario": "O tratamento da HIC é escalonado: começa pelas medidas gerais (cabeceira a 30°, cabeça na linha média para não obstruir a drenagem venosa, normovolemia, controle de febre/dor/agitação e normocapnia) antes de partir para osmoterapia (manitol/salina hipertônica), sedação e cirurgia. A hiperventilação agressiva mantida causa vasoconstrição e risco de isquemia — é resgate temporário, não rotina. A craniectomia é medida final, não a primeira."
+  },
+  {
+   "foco": "Quando não puncionar",
+   "enunciado": "Homem com febre, rigidez de nuca, papiledema e hemiparesia. Qual a conduta correta quanto à punção lombar e ao antibiótico?",
+   "alternativas": {
+    "a": "Punção lombar imediata antes de qualquer antibiótico",
+    "b": "Neuroimagem antes da punção; iniciar antibiótico empírico sem esperar o liquor",
+    "c": "Adiar o antibiótico até o resultado do liquor",
+    "d": "Nenhum antibiótico até a tomografia ficar pronta"
+   },
+   "correta": "b",
+   "comentario": "Há sinais de HIC/efeito de massa (papiledema, déficit focal): a punção lombar deve ser adiada para depois da neuroimagem, pelo risco de herniação. Porém o antibiótico empírico (± dexametasona) NÃO deve esperar — inicia-se imediatamente após colher hemoculturas, pois o atraso aumenta a mortalidade da meningite bacteriana. Puncionar antes da imagem, nesse contexto, é perigoso; e adiar o antibiótico pela imagem/liquor é o erro que mata."
+  },
+  {
+   "foco": "Morte encefálica (pré-requisitos)",
+   "enunciado": "Antes de iniciar o protocolo de morte encefálica, qual condição é indispensável?",
+   "alternativas": {
+    "a": "Causa do coma conhecida e exclusão de hipotermia, drogas e distúrbios metabólicos",
+    "b": "Apenas um exame clínico por um único médico",
+    "c": "Presença de reflexos de tronco preservados",
+    "d": "Dispensar exame complementar em todos os casos"
+   },
+   "correta": "a",
+   "comentario": "O diagnóstico de morte encefálica exige pré-requisitos: causa conhecida e irreversível do coma e exclusão de confundidores (hipotermia, intoxicação/sedação, distúrbios hidroeletrolíticos/metabólicos graves). É preciso coma aperceptivo com AUSÊNCIA de reflexos de tronco (não preservados), teste de apneia positivo, exames repetidos por examinadores distintos e um exame complementar comprobatório, conforme a Resolução CFM 2.173/2017. Por isso a alternativa que reúne causa conhecida + exclusão de confundidores é a correta."
+  },
+  {
+   "foco": "Transtorno de insônia — 1ª linha (seu ponto de erro)",
+   "enunciado": "Mulher de 40 anos com dificuldade para iniciar o sono ≥4 noites/semana há 6 meses, com fadiga e queda de concentração diurnas; nega ronco/apneia, pernas inquietas ou sintomas depressivos, e tem boa oportunidade de dormir. Qual a conduta inicial mais adequada?",
+   "alternativas": {
+    "a": "Iniciar clonazepam de uso contínuo",
+    "b": "Terapia cognitivo-comportamental para insônia (TCC-I), com higiene do sono",
+    "c": "Zolpidem em uso crônico por tempo indefinido",
+    "d": "Solicitar polissonografia antes de qualquer medida"
+   },
+   "correta": "b",
+   "comentario": "O quadro preenche critério de transtorno de insônia crônica (dificuldade ≥3x/semana por ≥3 meses, com prejuízo diurno e oportunidade adequada de dormir) e já foram afastadas causas secundárias óbvias (apneia, pernas inquietas, depressão). A 1ª linha é a TCC-I (controle de estímulos, restrição de sono, reestruturação cognitiva) + higiene do sono — mais eficaz e duradoura que fármaco. Benzodiazepínico/zolpidem de uso contínuo trazem tolerância, dependência e risco de quedas/cognição, sendo no máximo adjuvantes de curto prazo. A polissonografia não é rotina: só se houver suspeita de apneia/movimentos periódicos ou refratariedade."
+  }
+ ],
+ "fontes": "Base (HIC/emergências): Tratado de Neurologia da ABN 3ª ed. (cap. 22 — Transtornos do Nível de Consciência; caps. 162–163 — TCE/HIC em terapia intensiva; cap. 171 — HIC idiopática), Merritt 13ª ed. (Seções 2, 5 e 14), Resolução CFM 2.173/2017. Base (insônia): Tratado de Neurologia da ABN 3ª ed. (Distúrbios do Sono / Transtorno de Insônia), classificação ICSD-3 (AASM) / DSM-5-TR e diretrizes de insônia (TCC-I como 1ª linha). Ver materiais_neuro.md.",
+ "notaErro": "No seu perfil, **transtorno de insônia (neuro-correlato)** está com taxa de erro de **100%**. Como o tema entra \"de carona\" num módulo de emergências, é fácil estudá-lo mal. Os tropeços clássicos:\n\n- **Você trata insônia como \"sintoma\" e vai direto ao remédio.** A insônia crônica é um **transtorno com critério diagnóstico**: dificuldade de iniciar/manter o sono (ou despertar precoce) **≥ 3 vezes/semana por ≥ 3 meses**, **com prejuízo diurno** e **apesar de oportunidade e circunstância adequadas** para dormir. E a **1ª linha NÃO é fármaco: é a TCC-I** (terapia cognitivo-comportamental para insônia) (seções de insônia abaixo).\n- **Você prescreve benzodiazepínico de rotina.** BZD e \"drogas Z\" (zolpidem) servem para **curto prazo**, com risco de tolerância, dependência, quedas e piora cognitiva — sobretudo no **idoso**. Não são a base do tratamento crônico.\n- **Você ignora o diferencial.** Antes de rotular insônia \"primária\", exclua **higiene do sono ruim, apneia obstrutiva do sono, síndrome das pernas inquietas, depressão/ansiedade, dor e substâncias** (cafeína, álcool, nicotina, corticoide, estimulantes) — tratar a causa costuma resolver a \"insônia\".\n\n**Como zerar:** para cada caso — (1) **preenche critério** de transtorno de insônia (frequência, duração ≥ 3 meses, prejuízo diurno, oportunidade adequada)? (2) **há causa secundária** a excluir (apneia, SPI, humor, dor, substância)? (3) **tratamento na ordem certa**: higiene do sono + **TCC-I primeiro**; fármaco só adjuvante/curto prazo, com cautela no idoso. A questão nova ao final bate nesse ponto."
 },
-
 "NEURO|Transtornos do movimento": {
  titulo: "Transtornos do movimento",
  half: "NEURO",
@@ -744,76 +895,149 @@ Saber a natureza da vacina resolve quase toda questão de contraindicação e de
 },
 
 "PED|Oncologia / hemato-onco": {
- titulo: "Oncologia pediátrica e sinais de alerta hemato-oncológicos",
- half: "PED",
- resumo: "O objetivo é reconhecer cedo os sinais de alerta que exigem investigação rápida: leucocoria (retinoblastoma), massa abdominal (neuroblastoma × Wilms) e o quadro de leucemia. Cada um tem uma pista e um exame que confirma.",
- secoes: [
-  {h:"1. Panorama e sinais de alerta gerais", c:`O câncer é causa importante de morte por doença na infância, e o **diagnóstico precoce** muda o prognóstico. Sinais de alerta que devem acender o alarme oncológico e acelerar a investigação:
-- Palidez progressiva, **febre prolongada** sem foco, sangramentos/petéquias.
-- **Dor óssea** que desperta à noite, claudicação sem trauma.
-- **Massa** ou linfonodomegalia que cresce, hepatoesplenomegalia.
-- **Leucocoria** (reflexo branco à pupila), estrabismo de início recente.
-- Cefaleia matinal com vômitos, alterações neurológicas/visuais, aumento do perímetro cefálico.
-- Perda de peso inexplicada.`},
-
-  {h:"2. Leucemia linfoblástica aguda (LLA)", c:`Neoplasia **mais comum** da infância (pico 2–5 anos). A infiltração medular gera **falência medular**: anemia (palidez, fadiga), **neutropenia** (febre, infecções) e **plaquetopenia** (petéquias, sangramentos), além de **dor óssea**, hepatoesplenomegalia e adenomegalia; pode haver massa mediastinal (mais na LLA-T).
-
-- **Hemograma** levanta a suspeita (citopenias, blastos), mas a **confirmação é o MIELOGRAMA** (aspirado de medula) com imunofenotipagem e citogenética/molecular, que definem o subtipo e o risco.
-- Fatores de bom prognóstico: idade 1–10 anos, leucometria baixa ao diagnóstico, LLA-B comum, certas alterações citogenéticas, boa resposta precoce.
-- Cuidado com a **síndrome de lise tumoral** ao iniciar tratamento (hidratação, alopurinol/rasburicase).`},
-
-  {h:"3. Retinoblastoma", c:`Tumor intraocular maligno mais comum da infância (lactente/pré-escolar). Sinal clássico: **leucocoria** — reflexo pupilar **branco** (notado em fotos com flash), traduzindo perda do **reflexo vermelho**; pode haver estrabismo.
-
-- Conduta: **avaliação oftalmológica urgente** (fundoscopia sob midríase / exame sob anestesia) e imagem; **é emergência oncológica**.
-- Pode ser **hereditário** (mutação RB1, frequentemente **bilateral**) — indicar aconselhamento genético.
-- O **teste do reflexo vermelho** na puericultura existe justamente para captar isso cedo; reflexo alterado exige encaminhamento imediato.`},
-
-  {h:"4. Neuroblastoma × tumor de Wilms", c:`Ambos aparecem como **massa abdominal** na criança pequena; diferenciá-los é ponto de prova:
-- **Neuroblastoma:** origem na crista neural (adrenal/cadeia simpática). Massa que costuma **cruzar a linha média**, com **calcificações**, elevação de **catecolaminas urinárias (VMA/HVA)**; pode ter síndromes paraneoplásicas (**opsoclonus-mioclonus**, "olhos dançantes"), hipertensão, nódulos subcutâneos e metástases (medula, osso, fígado, pele). Marca da agressividade: amplificação de **N-MYC**.
-- **Tumor de Wilms (nefroblastoma):** tumor **renal**, geralmente em criança um pouco maior (2–5 anos), massa que **não costuma cruzar a linha média**, às vezes com hematúria/HAS; associa-se a síndromes (WAGR, Beckwith-Wiedemann). **Evitar palpação abdominal repetida** (risco de ruptura).`},
-
-  {h:"5. Outros a lembrar", c:`- **Tumores do SNC** (2º grupo mais comum): cefaleia matinal com vômitos, ataxia, sinais focais, macrocefalia no lactente.
-- **Linfomas** (Hodgkin e não-Hodgkin, ex.: Burkitt abdominal de crescimento rápido).
-- **Sarcomas** (rabdomiossarcoma, osteossarcoma/Ewing — dor óssea e massa).
-- **Púrpura** e citopenias podem ser leucemia — não rotular como PTI sem excluir blastos/medula quando há sinais atípicos (dor óssea, hepatoesplenomegalia, outras citopenias).`},
+ "titulo": "Oncologia pediátrica e sinais de alerta hemato-oncológicos",
+ "half": "PED",
+ "resumo": "O objetivo é reconhecer cedo os sinais de alerta que exigem investigação rápida — leucocoria (retinoblastoma), massa abdominal (neuroblastoma × Wilms), falência medular (leucemia) — e, no tema onde você mais erra, montar o neuroblastoma do zero: o que é, como se apresenta (inclusive de formas 'estranhas'), como diferenciá-lo do Wilms e o que muda o prognóstico.",
+ "secoes": [
+  {
+   "h": "1. Panorama e sinais de alerta gerais",
+   "c": "O câncer é causa importante de morte por doença na infância, e o **diagnóstico precoce** muda o prognóstico. Sinais de alerta que devem acender o alarme oncológico e acelerar a investigação:\n- Palidez progressiva, **febre prolongada** sem foco, sangramentos/petéquias.\n- **Dor óssea** que desperta à noite, claudicação sem trauma.\n- **Massa** ou linfonodomegalia que cresce, hepatoesplenomegalia.\n- **Leucocoria** (reflexo branco à pupila), estrabismo de início recente.\n- Cefaleia matinal com vômitos, alterações neurológicas/visuais, aumento do perímetro cefálico.\n- Perda de peso inexplicada."
+  },
+  {
+   "h": "2. Leucemia linfoblástica aguda (LLA)",
+   "c": "Neoplasia **mais comum** da infância (pico 2–5 anos). A infiltração medular gera **falência medular**: anemia (palidez, fadiga), **neutropenia** (febre, infecções) e **plaquetopenia** (petéquias, sangramentos), além de **dor óssea**, hepatoesplenomegalia e adenomegalia; pode haver massa mediastinal (mais na LLA-T).\n\n- **Hemograma** levanta a suspeita (citopenias, blastos), mas a **confirmação é o MIELOGRAMA** (aspirado de medula) com imunofenotipagem e citogenética/molecular, que definem o subtipo e o risco.\n- Fatores de bom prognóstico: idade 1–10 anos, leucometria baixa ao diagnóstico, LLA-B comum, certas alterações citogenéticas, boa resposta precoce.\n- Cuidado com a **síndrome de lise tumoral** ao iniciar tratamento (hidratação, alopurinol/rasburicase)."
+  },
+  {
+   "h": "3. Retinoblastoma",
+   "c": "Tumor intraocular maligno mais comum da infância (lactente/pré-escolar). Sinal clássico: **leucocoria** — reflexo pupilar **branco** (notado em fotos com flash), traduzindo perda do **reflexo vermelho**; pode haver estrabismo.\n\n- Conduta: **avaliação oftalmológica urgente** (fundoscopia sob midríase / exame sob anestesia) e imagem; **é emergência oncológica**.\n- Pode ser **hereditário** (mutação RB1, frequentemente **bilateral**) — indicar aconselhamento genético.\n- O **teste do reflexo vermelho** na puericultura existe justamente para captar isso cedo; reflexo alterado exige encaminhamento imediato."
+  },
+  {
+   "h": "O que é o neuroblastoma (construindo do zero)",
+   "c": "O neuroblastoma nasce da **crista neural** — o tecido embrionário que dá origem ao **sistema nervoso simpático** e à **medula da suprarrenal**. Por isso ele pode surgir **em qualquer ponto da cadeia simpática**: mais comum na **adrenal/abdome**, mas também no tórax (mediastino posterior), pescoço e pelve. É o **tumor sólido extracraniano mais comum da infância** e o câncer mais frequente **no lactente**, com idade mediana ao diagnóstico em torno de **18 meses**.\n\nO que o torna peculiar é a **enorme variação biológica**: no mesmo \"nome\" cabem tumores que **regridem sozinhos** e tumores altamente agressivos e metastáticos. Essa dualidade é a razão de tantas apresentações diferentes — e de a prova insistir na estratificação de risco. Como é um tumor de tecido simpático, ele frequentemente **produz catecolaminas**, cujos metabólitos (**ácido vanilmandélico — VMA — e ácido homovanílico — HVA**) sobem na urina e viram uma pista diagnóstica barata e específica."
+  },
+  {
+   "h": "Apresentações que enganam (metástases e paraneoplásicas)",
+   "c": "Além da massa abdominal, o neuroblastoma pode \"entrar\" por sinais aparentemente não oncológicos — reconhecê-los é o que separa quem acerta:\n\n- **Opsoclonus-mioclonus** (\"olhos dançantes\" + mioclonias + ataxia): síndrome **paraneoplásica** quase patognomônica; pode preceder a massa.\n- **Equimose periorbitária/proptose** (\"olho de guaxinim\"): metástase para os ossos da órbita.\n- **Nódulos subcutâneos azulados** no lactente (\"blueberry muffin\" quando múltiplos): metástase cutânea.\n- **Síndrome de Horner** (ptose + miose + anidrose): tumor cervical/torácico da cadeia simpática.\n- **Hipertensão** (catecolaminas) e, às vezes, **diarreia secretora** (por peptídeo intestinal vasoativo — VIP).\n- **Dor óssea/citopenias**: metástase para **medula óssea** (sítio metastático clássico, junto de osso, fígado e pele).\n\nSítios metastáticos típicos: **medula óssea, osso, fígado e pele**. Guardar essa lista evita rotular como \"trauma\", \"PTI\" ou \"estrabismo benigno\" o que é, na verdade, um neuroblastoma."
+  },
+  {
+   "h": "4. Neuroblastoma × tumor de Wilms",
+   "c": "Ambos aparecem como **massa abdominal** na criança pequena; diferenciá-los é ponto de prova:\n- **Neuroblastoma:** origem na crista neural (adrenal/cadeia simpática). Massa que costuma **cruzar a linha média**, com **calcificações**, elevação de **catecolaminas urinárias (VMA/HVA)**; pode ter síndromes paraneoplásicas (**opsoclonus-mioclonus**, \"olhos dançantes\"), hipertensão, nódulos subcutâneos e metástases (medula, osso, fígado, pele). Marca da agressividade: amplificação de **N-MYC**.\n- **Tumor de Wilms (nefroblastoma):** tumor **renal**, geralmente em criança um pouco maior (2–5 anos), massa que **não costuma cruzar a linha média**, às vezes com hematúria/HAS; associa-se a síndromes (WAGR, Beckwith-Wiedemann). **Evitar palpação abdominal repetida** (risco de ruptura)."
+  },
+  {
+   "h": "Diagnóstico, estadiamento e o que muda o prognóstico",
+   "c": "**Como confirmar:** (1) **catecolaminas urinárias (VMA/HVA)** elevadas; (2) **imagem** (US/TC/RM) mostrando massa que cruza a linha média com **calcificações**; (3) **cintilografia com MIBG** (marca tecido simpático — útil para o tumor primário e metástases); (4) **biópsia** (histologia) e **avaliação de medula óssea** (aspirado/biópsia bilateral). A **amplificação de N-MYC** é pesquisada no tumor porque define agressividade.\n\n**O que muda o prognóstico (estratificação de risco):** os principais fatores são **idade** (< 18 meses tende a ser melhor), **estágio** (localizado × metastático), **status de N-MYC** (amplificado = pior), **histologia** e **ploidia**. Um ponto de prova precioso: o **estágio MS** (lactente com metástases limitadas a pele, fígado e medula, sem envolvimento ósseo cortical) tem alta chance de **regressão espontânea** — ou seja, mesmo \"metastático\" pode ter ótimo prognóstico no bebê.\n\n**Tratamento (visão geral):** varia conforme o risco — de **observação/cirurgia isolada** nos de baixo risco (incluindo o MS que regride) até **quimioterapia + cirurgia + radioterapia + transplante autólogo + imunoterapia anti-GD2 + ácido retinoico** nos de alto risco (N-MYC amplificado, > 18 meses, metastático). A mensagem para a prova: **não** existe \"conduta única\" — estratifica-se antes de tratar."
+  },
+  {
+   "h": "5. Outros a lembrar",
+   "c": "- **Tumores do SNC** (2º grupo mais comum): cefaleia matinal com vômitos, ataxia, sinais focais, macrocefalia no lactente.\n- **Linfomas** (Hodgkin e não-Hodgkin, ex.: Burkitt abdominal de crescimento rápido).\n- **Sarcomas** (rabdomiossarcoma, osteossarcoma/Ewing — dor óssea e massa).\n- **Púrpura** e citopenias podem ser leucemia — não rotular como PTI sem excluir blastos/medula quando há sinais atípicos (dor óssea, hepatoesplenomegalia, outras citopenias)."
+  }
  ],
- flashcards: [
-  {p:"Leucocoria em lactente = ?", r:"Retinoblastoma até prova em contrário → oftalmologia urgente (emergência oncológica)."},
-  {p:"O que confirma leucemia?", r:"Mielograma (aspirado de medula) com imunofenotipagem — o hemograma só levanta a suspeita."},
-  {p:"Massa abdominal que cruza a linha média + catecolaminas urinárias altas?", r:"Neuroblastoma (VMA/HVA; pode ter opsoclonus-mioclonus)."},
-  {p:"Cuidado no exame do tumor de Wilms?", r:"Evitar palpação abdominal repetida (risco de ruptura)."},
-  {p:"Síndrome paraneoplásica típica do neuroblastoma?", r:"Opsoclonus-mioclonus (olhos dançantes)."},
+ "flashcards": [
+  {
+   "p": "Leucocoria em lactente = ?",
+   "r": "Retinoblastoma até prova em contrário → oftalmologia urgente (emergência oncológica)."
+  },
+  {
+   "p": "O que confirma leucemia?",
+   "r": "Mielograma (aspirado de medula) com imunofenotipagem — o hemograma só levanta a suspeita."
+  },
+  {
+   "p": "Massa abdominal que cruza a linha média + catecolaminas urinárias altas?",
+   "r": "Neuroblastoma (VMA/HVA; pode ter opsoclonus-mioclonus)."
+  },
+  {
+   "p": "Cuidado no exame do tumor de Wilms?",
+   "r": "Evitar palpação abdominal repetida (risco de ruptura)."
+  },
+  {
+   "p": "Síndrome paraneoplásica típica do neuroblastoma?",
+   "r": "Opsoclonus-mioclonus (olhos dançantes)."
+  },
+  {
+   "p": "De que tecido embrionário nasce o neuroblastoma?",
+   "r": "Da crista neural (sistema nervoso simpático e medula da adrenal) — daí surgir na cadeia simpática/adrenal."
+  },
+  {
+   "p": "Estágio de neuroblastoma que pode regredir espontaneamente?",
+   "r": "Estágio MS no lactente (metástases em pele, fígado e medula, sem osso cortical)."
+  },
+  {
+   "p": "Marcador molecular de agressividade no neuroblastoma?",
+   "r": "Amplificação de N-MYC (pior prognóstico)."
+  },
+  {
+   "p": "'Olho de guaxinim' (equimose periorbitária) na criança sugere?",
+   "r": "Metástase orbitária de neuroblastoma."
+  }
  ],
- pegadinhas: [
+ "pegadinhas": [
   "Leucocoria (reflexo branco/perda do reflexo vermelho) = retinoblastoma → oftalmo urgente.",
   "Leucemia se confirma por mielograma; hemograma só levanta a suspeita.",
   "Neuroblastoma tende a cruzar a linha média e eleva catecolaminas urinárias (VMA/HVA); Wilms costuma não cruzar.",
   "No tumor de Wilms, evitar palpação abdominal repetida (risco de ruptura).",
   "Dor óssea que desperta à noite + citopenias em criança = investigar leucemia.",
   "Cefaleia matinal com vômitos + sinais focais/ataxia na criança = pensar em tumor de SNC.",
+  "Neuroblastoma tem enorme variação biológica: de regressão espontânea (MS no lactente) a alto risco (N-MYC).",
+  "Opsoclonus-mioclonus ('olhos dançantes') é síndrome paraneoplásica clássica do neuroblastoma.",
+  "Cintilografia com MIBG marca tecido simpático — útil para primário e metástases do neuroblastoma.",
+  "Sítios metastáticos clássicos: medula óssea, osso, fígado e pele."
  ],
- diretrizes: [
+ "diretrizes": [
   "SBP — Documentos Científicos (Oncologia pediátrica; sinais de alerta) e SBOP — diagnóstico precoce.",
   "Ministério da Saúde — Diagnóstico precoce do câncer na criança e no adolescente.",
-  "Materiais do Drive do Vinicius (miscelânea/oncologia pediátrica) quando o tema casar (ver materiais_drive.md).",
+  "Materiais do Drive do Vinicius (miscelânea/oncologia pediátrica) quando o tema casar (ver materiais_drive.md)."
  ],
- questoes: [
-  {foco:"Leucocoria / retinoblastoma",
-   enunciado:"Mãe de menina de 18 meses nota, em fotos com flash, um reflexo esbranquiçado em uma pupila; na consulta, o reflexo vermelho está ausente nesse olho. Qual a conduta?",
-   alternativas:{a:"Reavaliar em 6 meses",b:"Encaminhamento oftalmológico urgente por suspeita de retinoblastoma",c:"Prescrever colírio e alta",d:"Solicitar apenas hemograma"},
-   correta:"b",
-   comentario:"Leucocoria (reflexo branco/ausência do reflexo vermelho) é o sinal clássico do retinoblastoma e uma emergência oncológica: exige encaminhamento oftalmológico urgente para fundoscopia sob midríase/exame sob anestesia e imagem. Reavaliar em meses atrasa um tumor que ameaça a visão e a vida e pode ser bilateral/hereditário. Colírio/alta e hemograma isolado não abordam a lesão intraocular. O teste do reflexo vermelho na puericultura é justamente para pegar isso cedo."},
-  {foco:"Confirmação da leucemia",
-   enunciado:"Menino de 4 anos com palidez, febre, petéquias, dor óssea e hepatoesplenomegalia; hemograma com anemia, plaquetopenia e blastos. Qual exame confirma o diagnóstico?",
-   alternativas:{a:"Mielograma (aspirado de medula óssea)",b:"Nova coleta de hemograma em 30 dias",c:"Ultrassonografia abdominal",d:"Dosagem de ferritina"},
-   correta:"a",
-   comentario:"O quadro é altamente sugestivo de leucemia aguda; a confirmação diagnóstica é o mielograma (aspirado de medula óssea), com imunofenotipagem e citogenética para classificar e definir prognóstico/tratamento. O hemograma levanta a suspeita (citopenias + blastos), mas não confirma nem substitui a medula. Repetir hemograma atrasa. Ultrassom e ferritina não fazem o diagnóstico. Dor óssea que desperta à noite com citopenias é bandeira clássica."},
-  {foco:"Neuroblastoma × Wilms",
-   enunciado:"Criança de 2 anos com massa abdominal que cruza a linha média, calcificações à imagem e catecolaminas urinárias (VMA/HVA) elevadas. Qual o diagnóstico mais provável?",
-   alternativas:{a:"Tumor de Wilms (nefroblastoma)",b:"Neuroblastoma",c:"Linfoma de Burkitt",d:"Hepatoblastoma"},
-   correta:"b",
-   comentario:"Massa que cruza a linha média, com calcificações e elevação de catecolaminas urinárias (VMA/HVA), aponta para neuroblastoma (tumor da crista neural/adrenal e cadeia simpática), que pode cursar com síndrome opsoclonus-mioclonus. O tumor de Wilms é renal, geralmente NÃO cruza a linha média e não eleva catecolaminas — e deve-se evitar palpação repetida pelo risco de ruptura. Burkitt e hepatoblastoma têm apresentações distintas. A dupla “cruza a linha média + catecolaminas” fecha neuroblastoma."},
- ]
+ "questoes": [
+  {
+   "foco": "Leucocoria / retinoblastoma",
+   "enunciado": "Mãe de menina de 18 meses nota, em fotos com flash, um reflexo esbranquiçado em uma pupila; na consulta, o reflexo vermelho está ausente nesse olho. Qual a conduta?",
+   "alternativas": {
+    "a": "Reavaliar em 6 meses",
+    "b": "Encaminhamento oftalmológico urgente por suspeita de retinoblastoma",
+    "c": "Prescrever colírio e alta",
+    "d": "Solicitar apenas hemograma"
+   },
+   "correta": "b",
+   "comentario": "Leucocoria (reflexo branco/ausência do reflexo vermelho) é o sinal clássico do retinoblastoma e uma emergência oncológica: exige encaminhamento oftalmológico urgente para fundoscopia sob midríase/exame sob anestesia e imagem. Reavaliar em meses atrasa um tumor que ameaça a visão e a vida e pode ser bilateral/hereditário. Colírio/alta e hemograma isolado não abordam a lesão intraocular. O teste do reflexo vermelho na puericultura é justamente para pegar isso cedo."
+  },
+  {
+   "foco": "Confirmação da leucemia",
+   "enunciado": "Menino de 4 anos com palidez, febre, petéquias, dor óssea e hepatoesplenomegalia; hemograma com anemia, plaquetopenia e blastos. Qual exame confirma o diagnóstico?",
+   "alternativas": {
+    "a": "Mielograma (aspirado de medula óssea)",
+    "b": "Nova coleta de hemograma em 30 dias",
+    "c": "Ultrassonografia abdominal",
+    "d": "Dosagem de ferritina"
+   },
+   "correta": "a",
+   "comentario": "O quadro é altamente sugestivo de leucemia aguda; a confirmação diagnóstica é o mielograma (aspirado de medula óssea), com imunofenotipagem e citogenética para classificar e definir prognóstico/tratamento. O hemograma levanta a suspeita (citopenias + blastos), mas não confirma nem substitui a medula. Repetir hemograma atrasa. Ultrassom e ferritina não fazem o diagnóstico. Dor óssea que desperta à noite com citopenias é bandeira clássica."
+  },
+  {
+   "foco": "Neuroblastoma × Wilms",
+   "enunciado": "Criança de 2 anos com massa abdominal que cruza a linha média, calcificações à imagem e catecolaminas urinárias (VMA/HVA) elevadas. Qual o diagnóstico mais provável?",
+   "alternativas": {
+    "a": "Tumor de Wilms (nefroblastoma)",
+    "b": "Neuroblastoma",
+    "c": "Linfoma de Burkitt",
+    "d": "Hepatoblastoma"
+   },
+   "correta": "b",
+   "comentario": "Massa que cruza a linha média, com calcificações e elevação de catecolaminas urinárias (VMA/HVA), aponta para neuroblastoma (tumor da crista neural/adrenal e cadeia simpática), que pode cursar com síndrome opsoclonus-mioclonus. O tumor de Wilms é renal, geralmente NÃO cruza a linha média e não eleva catecolaminas — e deve-se evitar palpação repetida pelo risco de ruptura. Burkitt e hepatoblastoma têm apresentações distintas. A dupla “cruza a linha média + catecolaminas” fecha neuroblastoma."
+  },
+  {
+   "foco": "Neuroblastoma — prognóstico e estratificação (seu ponto de erro)",
+   "enunciado": "Lactente de 5 meses com hepatomegalia, nódulos subcutâneos e infiltração de medula óssea; imagem sem envolvimento ósseo cortical; catecolaminas urinárias elevadas e N-MYC não amplificado. Qual afirmação é correta?",
+   "alternativas": {
+    "a": "Trata-se de estágio MS, que pode ter regressão espontânea e bom prognóstico",
+    "b": "A doença metastática nesse lactente indica prognóstico uniformemente péssimo",
+    "c": "O diagnóstico mais provável é tumor de Wilms",
+    "d": "A conduta imediata é palpação abdominal repetida para estadiar"
+   },
+   "correta": "a",
+   "comentario": "O quadro é neuroblastoma estágio MS: lactente < 18 meses com metástases limitadas a pele, fígado e medula, SEM envolvimento ósseo cortical, e N-MYC não amplificado — perfil de bom prognóstico, com possibilidade de regressão espontânea (às vezes só observação/cirurgia). Por isso 'metastático = sempre péssimo' está errado. Tumor de Wilms é renal, não cursa com esse padrão de metástase cutânea/hepática nem eleva catecolaminas. Palpação abdominal repetida é o cuidado a EVITAR no Wilms (risco de ruptura), não uma forma de estadiar. Lição: no neuroblastoma, estratifique por idade + estágio + N-MYC antes de prever desfecho."
+  }
+ ],
+ "fontes": "Base: SBP — Documentos Científicos (Oncologia pediátrica; sinais de alerta) e SBOP; Ministério da Saúde / INCA — Diagnóstico precoce do câncer na criança e no adolescente; e materiais de Pediatria do Drive do Vinicius quando o tema casar (ver materiais_drive.md).",
+ "notaErro": "**Neuroblastoma** aparece nos seus registros com taxa de erro de **100%**. O tumor é \"o grande imitador\" da pediatria — apresenta-se de mil formas — e a prova cobra as **pistas que o fecham** e o **diferencial com o Wilms**. As armadilhas:\n\n- **Você troca neuroblastoma por tumor de Wilms.** Ambos são massa abdominal do pré-escolar. As pistas que decidem: neuroblastoma **cruza a linha média**, tem **calcificações**, eleva **catecolaminas urinárias (VMA/HVA)** e pode dar **opsoclonus-mioclonus** (\"olhos dançantes\"); o Wilms é **renal**, **não costuma cruzar a linha média** e pode dar hematúria/HAS (seções 5–6).\n- **Você não reconhece as apresentações \"estranhas\".** Nódulos subcutâneos azulados no lactente, **proptose com equimose periorbitária** (\"olho de guaxinim\"), síndrome de Horner, hipertensão, diarreia secretora — tudo pode ser neuroblastoma metastático/paraneoplásico (seção 5).\n- **Você acha que \"tumor = sempre péssimo\".** A biologia varia: **amplificação de N-MYC** e idade > 18 meses **pioram**; **lactente < 18 meses**, sobretudo o **estágio MS**, pode até **regredir espontaneamente** (seção 6). Não estratificar é errar a conduta.\n\n**Como zerar:** diante de massa abdominal na criança, pergunte NESTA ordem — (1) **cruza a linha média?** (2) **tem calcificação / catecolaminas urinárias altas?** (3) **há sinal paraneoplásico (opsoclonus) ou metástase típica (osso, órbita, pele, medula)?** Se sim, é neuroblastoma: confirme com catecolaminas urinárias, imagem, cintilografia com **MIBG** e biópsia, e estratifique por idade/estágio/N-MYC. As questões ao final batem nesse raciocínio."
 },
-
 };
