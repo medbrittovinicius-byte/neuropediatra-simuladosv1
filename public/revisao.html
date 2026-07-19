@@ -97,6 +97,11 @@
   .box ul{margin:0; padding-left:18px;} .box li{margin-bottom:5px;}
   .box.dir a{color:var(--blue); word-break:break-word;}
   .foco{display:inline-block; font-size:.68rem; font-weight:800; background:#e8f0fd; color:var(--blue); border-radius:6px; padding:1px 8px; margin-bottom:6px;}
+  .nota-erro{background:#fff4f3; border:1px solid #f3c9c9; border-left:5px solid var(--red); border-radius:10px; padding:14px 16px; margin:14px 0 6px;}
+  .nota-erro h3{margin:0 0 8px; font-size:.9rem; color:var(--red); text-transform:uppercase; letter-spacing:.03em;}
+  .nota-erro p, .nota-erro li{font-size:.92rem; line-height:1.6;}
+  .nota-erro strong{color:#8f2a20;}
+  .aula-meta{font-size:.74rem; color:var(--muted); margin:2px 0 0;}
   .sub-h{font-size:1.02rem; color:var(--navy); margin:24px 0 4px;}
   .sub-sub{font-size:.8rem; color:var(--muted); margin:0 0 10px;}
 
@@ -436,7 +441,9 @@ function renderModuloView(d, key){
   const m=MODS[key];
   let h=`<button class="btn sec" onclick="moduloSel=null;render();" style="margin-bottom:12px;">↩ todos os módulos</button>`;
   h+=`<div class="mod-head"><span class="tag ${m.half==='NEURO'?'n':'p'}">${m.half==='NEURO'?'NEURO':'PED'}</span>
-      <h2>${esc(m.titulo)}</h2><div class="resumo">${esc(m.resumo||'')}</div></div>`;
+      <h2>${esc(m.titulo)}</h2><div class="resumo">${esc(m.resumo||'')}</div>${m.fontes?`<p class="aula-meta">${esc(m.fontes)}</p>`:''}</div>`;
+  // nota direcionada ao erro (por que erra e como zerar)
+  if(m.notaErro){ h+=`<div class="nota-erro"><h3>⚠️ Por que este tema derruba você — e como zerar o erro</h3>${fmtBody(m.notaErro)}</div>`; }
   // aula
   (m.secoes||[]).forEach(s=>{ h+=`<div class="sec-h">${esc(s.h)}</div>${fmtBody(s.c)}`; });
   // pegadinhas

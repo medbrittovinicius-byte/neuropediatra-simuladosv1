@@ -12,67 +12,120 @@ window.REVISAO_MODULOS = {
 "NEURO|Vertigem / síndromes vestibulares": {
  titulo: "Vertigem e síndromes vestibulares",
  half: "NEURO",
- resumo: "Tontura é queixa altíssima na emergência e o erro clássico é confundir uma causa periférica (benigna) com um AVC de fossa posterior. O raciocínio moderno não parte do 'tipo' de tontura, e sim do PADRÃO TEMPORAL + gatilho, refinado pelo exame de cabeceira (HINTS).",
+ resumo: "Tontura é uma das queixas mais comuns do plantão e o campo onde mais se erra — porque se decoram rótulos (VPPB, Ménière, neurite) sem o raciocínio que os liga. Este texto reconstrói o tema do zero: o que é tontura, como o equilíbrio funciona, e um caminho de decisão (tempo → gatilho → sintoma auditivo → exame de cabeceira) que separa sozinho os cinco diagnósticos e o AVC que não se pode perder.",
+ fontes: "Base: Tratado de Neurologia da ABN 3ª ed. (caps. 20 e 135–138), Merritt 13ª ed. (Seção 2 — Tontura, Vertigem e Perda Auditiva), Adams & Victor (Deafness, Dizziness) e Sanvito (semiologia do nistagmo e exame vestibular). Ver materiais_neuro.md.",
+ notaErro: `Nos seus registros, **este é o tema em que você mais erra** (taxa de 100% em vertigem/VPPB e em neurite vestibular). O erro quase nunca é falta de decoreba — é falta de um **fio condutor**. Três armadilhas explicam a maioria das quedas, e este texto foi montado para desarmar cada uma:
+
+- **Você tenta classificar pelo "tipo" de tontura** (é rotatória? é desequilíbrio?). A prova abandonou isso porque o paciente descreve mal o sintoma. O caminho certo começa por **tempo + gatilho** (seção 3) — não pelo adjetivo da tontura.
+- **Você troca as manobras.** Usa Dix-Hallpike para tudo. Dix-Hallpike é do canal **posterior**; o canal **horizontal** é o head-roll. Manobra errada devolve um exame "negativo" e o diagnóstico se perde (seção 7).
+- **Você deixa o fator de risco vascular decidir** e, no susto, rotula "central" (ou o contrário) sem fazer o **HINTS**. O HINTS bem lido inverte a intuição: na vertigem aguda e contínua, **impulso cefálico normal aponta para AVC** (seção 5).
+
+**Como zerar o erro:** diante de qualquer caso, responda três perguntas NESTA ordem — (1) o quadro é agudo e contínuo, episódico com gatilho posicional, ou episódico espontâneo? (2) há sintoma auditivo (hipoacusia/zumbido/plenitude)? (3) o que dizem o HINTS e/ou a manobra do canal? Treine essa sequência e os cinco diagnósticos se separam quase sozinhos. As três questões ao final batem exatamente nesses três tropeços.`,
  secoes: [
-  {h:"1. Definições e a mudança de paradigma", c:`**Vertigem** é a ilusão de movimento (em geral rotatório) e traduz assimetria aguda do tônus vestibular entre os dois labirintos/vias. Historicamente ensinava-se a classificar a queixa pelo "tipo" (vertigem rotatória × pré-síncope × desequilíbrio × tontura inespecífica), mas os pacientes descrevem o sintoma de forma inconsistente e essa abordagem leva a erro.
+  {h:"1. Comece pelo começo: tontura não é uma coisa só", c:`"Tontura" é um guarda-chuva. Debaixo dele cabem coisas com causas bem diferentes, e confundi-las é a origem de metade dos erros. Separe quatro sensações:
 
-O modelo atual (ATTEST/TiTrATE) organiza pela **síndrome temporal**:
-- **Síndrome vestibular aguda (SVA):** tontura contínua por dias, de início agudo, com nistagmo, intolerância ao movimento e instabilidade — aqui mora a dúvida neurite (periférico) × AVC (central).
-- **Síndrome vestibular episódica desencadeada:** crises de segundos provocadas por mudança de posição (VPPB) ou por manobras/pressão.
-- **Síndrome vestibular episódica espontânea:** crises recorrentes de minutos a horas sem gatilho posicional (Ménière, migrânea vestibular, AIT).
+- **Vertigem:** a ilusão de que você (ou o ambiente) está **girando** ou se movendo. É o sintoma do sistema **vestibular** (labirinto/nervo/vias no cérebro).
+- **Pré-síncope:** sensação de que **vai desmaiar**, escurecimento visual, "cabeça leve". Costuma ser **cardiovascular** (queda de fluxo cerebral) — não é o nosso foco aqui.
+- **Desequilíbrio:** instabilidade ao **ficar em pé/andar**, sem giro. Aponta para cerebelo, propriocepção, visão, fraqueza.
+- **Tontura inespecífica:** vaga, difícil de nomear (ansiedade, medicamentos).
 
-Definir a síndrome temporal antes de qualquer exame é o que direciona a investigação.`},
+Uma imagem ajuda: o cérebro é como um piloto que só voa bem quando três instrumentos concordam. Quando um deles envia um sinal errado de repente, o piloto sente o "chão girar" — isso é a vertigem. O objetivo do estudo é descobrir **qual instrumento falhou e por quê**.`},
 
-  {h:"2. Anatomia funcional (por que os sinais aparecem)", c:`O labirinto tem três canais semicirculares (detectam aceleração angular) e os órgãos otolíticos — utrículo e sáculo (aceleração linear e gravidade). O sinal segue pelo nervo vestibular até os núcleos vestibulares no tronco, que se conectam ao cerebelo (flóculo/nódulo), aos núcleos oculomotores (via fascículo longitudinal medial) e à medula.
+  {h:"2. Como o corpo se equilibra — os três sensores", c:`O equilíbrio nasce de três fontes de informação que o cérebro cruza o tempo todo:
 
-Duas conexões explicam a semiologia:
-- **Reflexo vestíbulo-ocular (RVO):** mantém o olhar estável durante o movimento da cabeça. Sua lesão periférica gera o **teste do impulso cefálico (HIT) positivo** (sacada de correção).
-- **Vias vestíbulo-espinais e cerebelo:** o cerebelo normalmente "freia" e calibra; lesão central libera nistagmo que muda de direção, desvio skew e ataxia desproporcional.`},
+- **Sistema vestibular (o labirinto), no ouvido interno:** tem três **canais semicirculares** (sentem a cabeça **girando**) e os órgãos otolíticos — **utrículo e sáculo** (sentem a **gravidade** e a aceleração em linha reta). É o instrumento mais especializado em movimento.
+- **Visão:** confirma para onde estamos indo.
+- **Propriocepção** (sensores nos músculos e articulações): diz onde estão os pés e o corpo no espaço.
 
-  {h:"3. HINTS — o exame que decide periférico × central na SVA", c:`Em paciente com **síndrome vestibular aguda** (tontura contínua + nistagmo), o **HINTS** tem sensibilidade para AVC maior que a RM com difusão nas primeiras 24–48 h. São três testes:
+Esses sinais chegam aos **núcleos vestibulares** no tronco encefálico, que conversam com o **cerebelo** (o "revisor" que calibra), com os **músculos dos olhos** e com a **medula**. Em condições normais, os dois labirintos (direito e esquerdo) mandam sinais **simétricos**. **Vertigem aguda = assimetria súbita** entre os dois lados (um labirinto/nervo "cala" ou "grita"). Guarde essa frase: quase tudo em vertigem é assimetria de tônus vestibular.`},
 
-- **HI (Head Impulse):** giro rápido e pequeno da cabeça enquanto o paciente fixa o nariz do examinador. **Sacada de correção (HIT positivo/anormal) = periférico** (RVO lesado). **HIT normal na SVA = central** (contraintuitivo — o reflexo intacto num paciente muito tonto sugere que o problema não é o labirinto).
-- **N (Nystagmus):** periférico = unidirecional, horizonto-torcional, bate para o lado são, **inibe com fixação**. Central = muda de direção com o olhar, vertical puro ou torcional puro, não inibe com fixação.
-- **TS (Test of Skew):** desvio vertical à cobertura alternada dos olhos = central.
+  {h:"3. O passo que muda tudo: pense em TEMPO e GATILHO (não no “tipo”)", c:`Durante anos ensinou-se a perguntar "sua tontura é rotatória ou é desequilíbrio?". O problema: o paciente é péssimo em descrever isso, e a resposta muda conforme se pergunta. A abordagem moderna (modelos ATTEST/TiTrATE, no Merritt e na ABN) troca a pergunta por **duas melhores**: **há quanto tempo dura?** e **o que a desencadeia?** Isso gera três "síndromes" que já apontam o diagnóstico:
 
-Regra mnemônica **INFARCT** (sinais centrais): **I**mpulse **N**ormal, **F**ast-phase **A**lternating, **R**efixation on **C**over **T**est. Basta UM sinal central para tratar como central. HINTS só vale na SVA contínua com nistagmo — não use em paciente sem nistagmo ou em tontura episódica.`},
+- **Síndrome vestibular aguda (SVA):** tontura que começou de forma aguda e é **contínua por dias**, com náuseas, nistagmo e dificuldade de andar. Aqui mora a dúvida cara: **neurite vestibular (benigna) × AVC de fossa posterior (grave)**.
+- **Síndrome episódica DESENCADEADA:** crises de **segundos**, sempre provocadas por **mudar a cabeça de posição** (deitar, virar na cama, olhar para cima). É a cara da **VPPB**.
+- **Síndrome episódica ESPONTÂNEA:** crises de **minutos a horas**, que vêm **sem gatilho** posicional. Aqui vivem a **doença de Ménière**, a **migrânea vestibular** e o AIT.
 
-  {h:"4. Os grandes diagnósticos", c:`- **VPPB (vertigem posicional paroxística benigna):** otólitos deslocados para um canal (posterior na maioria). Crises de **segundos** ao deitar/virar na cama, sem sintoma auditivo. Diagnóstico e tratamento são **manobras** (ver seção 5).
-- **Neurite vestibular:** SVA contínua por dias, HIT positivo, nistagmo periférico, **sem** hipoacusia; provável origem viral/inflamatória. Se há perda auditiva associada, fala-se em labirintite.
-- **Doença de Ménière:** hidropisia endolinfática. Crises espontâneas de **20 min a 12 h** com a **tríade**: hipoacusia neurossensorial flutuante (baixas frequências), zumbido e plenitude aural. Evolui com perda auditiva permanente.
-- **Migrânea vestibular:** causa mais comum de vertigem episódica espontânea recorrente; história de enxaqueca, crises de 5 min a 72 h, sintomas migranosos em parte delas, **audição preservada**.
-- **AVC de fossa posterior (cerebelo/tronco):** o "não pode perder". Pode simular periférico; pistas: sinais centrais no HINTS, cefaleia/cervicalgia occipital, ataxia de tronco desproporcional, outros déficits de tronco. Fatores de risco vascular aumentam a suspeita, mas **não** bastam para decidir (paciente vascular também tem neurite).`},
+Fixe o reflexo: antes de qualquer exame, encaixe o caso em uma dessas três caixas. Metade do trabalho está feita.`},
 
-  {h:"5. Manobras diagnósticas e terapêuticas por canal", c:`A pegadinha recorrente é casar a manobra certa com o canal certo:
-- **Canal posterior (o mais comum):** diagnóstico pelo **Dix-Hallpike** (nistagmo torcional-para-cima geotrópico, com latência e fatigabilidade); tratamento pela **manobra de Epley**.
-- **Canal horizontal:** diagnóstico pelo **head-roll / teste de Pagnini-McClure** (paciente supino, roda-se a cabeça para cada lado); tratamento pela **manobra de barbecue** (rotação em 360°) ou Gufoni.
+  {h:"4. Anatomia mínima para entender os sinais do exame", c:`Dois circuitos explicam tudo o que você vai testar:
 
-Erros clássicos: aplicar Dix-Hallpike no canal horizontal (dá falso-negativo) e tratar VPPB com medicação. **Supressores vestibulares** (anti-histamínicos, benzodiazepínicos) servem só para alívio sintomático de 24–72 h na SVA; usados por muito tempo **atrapalham a compensação central** e não tratam a VPPB.`},
+- **Reflexo vestíbulo-ocular (RVO):** quando você vira a cabeça, os olhos giram automaticamente para o lado oposto e **mantêm a imagem estável**. Esse reflexo depende do labirinto e do nervo vestibular. Se esse caminho **periférico** está lesado (ex.: neurite), o reflexo falha — e é isso que o **teste do impulso cefálico** flagra.
+- **Cerebelo (flóculo/nódulo) como freio:** ele calibra o sistema. Quando o cerebelo/tronco está lesado (**central**, ex.: AVC), o freio some — e aparecem sinais que o labirinto sozinho **nunca** faz: nistagmo que **muda de direção**, nistagmo **vertical puro**, e o desvio vertical dos olhos (**skew**).
 
-  {h:"6. Quando pedir imagem", c:`- **TC de crânio é ruim** para fossa posterior e isquemia aguda — TC normal **não** exclui AVC de tronco/cerebelo.
-- O exame de escolha diante de suspeita central é a **RM com difusão** (lembrando que até ~20% das RM precoces de AVC de tronco podem ser falsamente normais nas primeiras horas — por isso o HINTS bem feito supera a RM precoce).
-- Imagem também se justifica em nistagmo puramente vertical/torcional, cefaleia súbita associada, déficit focal e fatores de risco com HINTS duvidoso.`},
+Ou seja: **periférico** = problema no "sensor" (RVO falha, mas o resto do cérebro compensa). **Central** = problema no "processador" (o RVO pode estar intacto, mas surgem sinais estranhos). É por isso que, contraintuitivamente, um RVO **normal** numa pessoa muito tonta é um sinal de alarme.`},
+
+  {h:"5. O exame que decide: HINTS, passo a passo", c:`Na **síndrome vestibular aguda** (tontura contínua COM nistagmo), o **HINTS** — três testes de cabeceira — separa periférico de central melhor que uma RM feita cedo demais. Só use HINTS nesse cenário (SVA com nistagmo); não serve para tontura episódica nem para quem não tem nistagmo.
+
+- **HI — Head Impulse (impulso cefálico):** peça ao paciente para fixar o seu nariz; gire a cabeça dele rápido e num ângulo pequeno. Se, ao voltar, os olhos precisam dar uma **"sacada de correção"**, o teste é **positivo/anormal = PERIFÉRICO** (o RVO daquele lado falhou). Se os olhos ficam grudados no alvo (**normal**) numa pessoa em plena vertigem aguda, isso é **CENTRAL** até prova em contrário. (Este é o ponto que mais derruba: HIT normal na SVA não tranquiliza — assusta.)
+- **N — Nystagmus (nistagmo):** **periférico** bate sempre para o mesmo lado (unidirecional), é horizonto-torcional e **diminui quando o paciente fixa o olhar**. **Central** **muda de direção** conforme o olhar, ou é **vertical/torcional puro**, e **não** melhora com a fixação.
+- **TS — Test of Skew (desvio skew):** cubra e descubra um olho de cada vez; se um olho **corrige para cima/baixo**, há skew = **CENTRAL**.
+
+Mnemônico dos sinais centrais: **INFARCT** — **I**mpulse **N**ormal, **F**ast-phase **A**lternating, **R**efixation on **C**over **T**est. **Basta UM** sinal central para tratar como central e pedir imagem. Detalhe que salva vida: some ao HINTS o teste do sussurro/audição (HINTS "plus") — perda auditiva nova aguda pode ser AVC da artéria cerebelar ântero-inferior, não "labirintite".`},
+
+  {h:"6. Lendo o nistagmo sem decorar tabelas", c:`Nistagmo é um "vai-e-volta" dos olhos: uma fase lenta (o labirinto empurrando) e uma fase rápida de correção (que dá o "nome" da direção). Regras práticas:
+
+- **Periférico:** direção **fixa** (sempre para o lado são), horizonto-torcional, **inibido pela fixação** (por isso melhora ao olhar um ponto e piora com óculos de Frenzel/no escuro). Vem junto com HIT positivo e sem outros sinais de tronco.
+- **Central:** **troca de direção** com o olhar (bate para a direita ao olhar à direita, para a esquerda ao olhar à esquerda), ou é **puramente vertical** (para cima/para baixo) ou **puramente torcional**. **Não** se inibe com a fixação. Costuma vir com skew, ataxia desproporcional ou outros sinais de tronco/cerebelo.
+
+Se você só levar uma coisa: **nistagmo vertical puro ou que muda de direção = central**, ponto.`},
+
+  {h:"7. Os cinco diagnósticos, um a um", c:`**1) VPPB (vertigem posicional paroxística benigna) — a mais comum.** Otólitos (cristais) se soltam do utrículo e caem num canal semicircular (na maioria, o **posterior**). Ao mexer a cabeça, os cristais "arrastam" o líquido e disparam **crises de segundos** (até ~1 min), sem sintoma auditivo. Diagnóstico e tratamento são **manobras** (seção 8), não remédio.
+
+**2) Neurite vestibular.** Inflamação (provável viral) do nervo vestibular → **SVA contínua por dias**, com HIT **positivo**, nistagmo periférico e **sem** perda auditiva (se há hipoacusia junto, chama-se labirintite). Melhora em dias a semanas com a compensação central.
+
+**3) Doença de Ménière.** Excesso de endolinfa (hidropisia). Crises **espontâneas de 20 min a 12 h** com a **tríade**: **hipoacusia neurossensorial flutuante** (grave nas frequências baixas) + **zumbido** + **plenitude aural** (ouvido "cheio"). Com os anos, a audição vai se perdendo.
+
+**4) Migrânea vestibular.** É a causa **mais comum** de vertigem episódica espontânea recorrente. Paciente **com história de enxaqueca**, crises de **5 min a 72 h**, com sintomas migranosos (dor pulsátil, fotofobia) em pelo menos metade delas, e **audição preservada**. É o grande diferencial da Ménière — o que os separa é a **ausência de hipoacusia persistente**.
+
+**5) AVC de fossa posterior — o que não se pode perder.** Cerebelo/tronco. Pode **imitar** um quadro periférico. Pistas: sinais **centrais** no HINTS, cefaleia/cervicalgia occipital nova, ataxia de tronco que não bate com a queixa, outros déficits (diplopia, disartria, dormência facial). Fatores de risco vascular **aumentam a suspeita, mas não decidem** — paciente vascular também tem neurite. Quem decide é o exame.`},
+
+  {h:"8. Manobras por canal — a pegadinha que mais custa pontos", c:`A regra é simples e cai muito: **casar a manobra certa com o canal certo.**
+
+- **Canal posterior (o mais comum):** diagnóstico pela manobra de **Dix-Hallpike** (deita-se o paciente com a cabeça rodada 45° e pendente; surge nistagmo torcional-para-cima, **com latência de alguns segundos e que se esgota** — fatigável). Tratamento pela manobra de **Epley** (recoloca os cristais no utrículo).
+- **Canal horizontal/lateral:** diagnóstico pelo **head-roll (teste de Pagnini-McClure)** — paciente deitado de barriga para cima, roda-se a cabeça para cada lado. Tratamento pela manobra de **barbecue** (rotação de 360°) ou Gufoni.
+
+**Onde você erra:** aplicar Dix-Hallpike quando o canal é o horizontal → o teste dá "negativo" e você descarta VPPB por engano. E tratar VPPB com remédio (betaistina, flunarizina) em vez de manobra — não resolve. **Supressores vestibulares** (anti-histamínicos, benzodiazepínicos) só servem para aliviar as primeiras 24–72 h da SVA; usados por muito tempo **atrapalham a compensação** do cérebro e mascaram o quadro.`},
+
+  {h:"9. Tratamento e quando pedir imagem", c:`**Tratamento por diagnóstico:**
+- **VPPB:** manobra de reposicionamento (Epley/barbecue). Reabilitação vestibular se recorrente.
+- **Neurite vestibular:** sintomáticos por poucos dias + **corticoide** precoce em casos selecionados + **reabilitação vestibular** (o que mais acelera a recuperação).
+- **Ménière:** restrição de sódio, diuréticos, sintomáticos nas crises; casos refratários → gentamicina intratimpânica/cirurgia.
+- **Migrânea vestibular:** controle de gatilhos + **profilaxia de enxaqueca** (propranolol, topiramato, amitriptilina, flunarizina).
+- **AVC:** protocolo de AVC (unidade de AVC, neuroimagem, reperfusão quando cabível).
+
+**Imagem:** a **TC de crânio é ruim** para fossa posterior e para isquemia aguda — **TC normal NÃO exclui** AVC de tronco/cerebelo. O exame de escolha diante de suspeita central é a **RM com difusão** — lembrando que ela pode ser **falso-negativa nas primeiras 24–48 h** de um pequeno AVC de tronco, motivo pelo qual o **HINTS bem feito supera a RM precoce**. Peça imagem quando houver qualquer sinal central, cefaleia súbita associada, déficit focal, ou HINTS duvidoso em paciente de risco.`},
+
+  {h:"10. O algoritmo em seis frases (leve isto para a prova)", c:`- Encaixe o caso em **uma** síndrome temporal: **aguda contínua**, **episódica desencadeada** ou **episódica espontânea**.
+- **Episódica desencadeada** (segundos, posicional, sem audição) = **VPPB** → manobra do **canal certo** (posterior: Dix-Hallpike/Epley; horizontal: head-roll/barbecue).
+- **Episódica espontânea** = **Ménière** (tem tríade auditiva) **ou** **migrânea vestibular** (sem hipoacusia, com enxaqueca). A audição decide.
+- **Aguda contínua** = faça **HINTS**: qualquer sinal **central** (impulso normal, nistagmo que troca de direção, skew) → tratar como **AVC** e pedir **RM com difusão**.
+- **Fator de risco vascular não decide** — o exame decide.
+- **TC normal não afasta AVC** de fossa posterior.`},
  ],
  flashcards: [
-  {p:"Na síndrome vestibular aguda, HIT (impulso cefálico) NORMAL sugere o quê?", r:"Causa central (AVC de fossa posterior) — o reflexo intacto num paciente muito tonto é bandeira vermelha."},
-  {p:"Qual manobra diagnostica o canal posterior e qual o trata?", r:"Diagnóstico: Dix-Hallpike. Tratamento: manobra de Epley."},
-  {p:"Tríade da doença de Ménière?", r:"Hipoacusia neurossensorial flutuante + zumbido + plenitude aural, em crises de 20 min a 12 h."},
-  {p:"Vertigem episódica recorrente sem hipoacusia, em paciente com enxaqueca?", r:"Migrânea vestibular — tratar com profilaxia de enxaqueca."},
-  {p:"Sigla dos sinais centrais no HINTS?", r:"INFARCT: Impulse Normal, Fast-phase Alternating, Refixation on Cover Test."},
+  {p:"Quais são as três síndromes temporais da tontura?", r:"Aguda contínua (neurite × AVC); episódica desencadeada/posicional (VPPB); episódica espontânea (Ménière, migrânea vestibular)."},
+  {p:"Na síndrome vestibular aguda, o que significa impulso cefálico NORMAL?", r:"Causa central (AVC) — o reflexo intacto num paciente muito tonto é bandeira vermelha."},
+  {p:"Qual manobra diagnostica e qual trata o canal posterior?", r:"Diagnóstico: Dix-Hallpike. Tratamento: Epley."},
+  {p:"E o canal horizontal?", r:"Diagnóstico: head-roll (Pagnini-McClure). Tratamento: barbecue (ou Gufoni)."},
+  {p:"O que separa Ménière de migrânea vestibular?", r:"A audição: Ménière tem hipoacusia flutuante + zumbido + plenitude; migrânea vestibular tem audição preservada."},
+  {p:"Sinais centrais no HINTS (sigla)?", r:"INFARCT: Impulse Normal, Fast-phase Alternating, Refixation on Cover Test."},
+  {p:"TC de crânio normal afasta AVC de fossa posterior?", r:"Não — baixa sensibilidade; o exame é RM com difusão (que ainda pode ser falso-negativa nas primeiras 24–48 h)."},
  ],
  pegadinhas: [
   "Dix-Hallpike é para o canal POSTERIOR; canal horizontal usa head-roll (Pagnini-McClure) — manobra errada dá falso-negativo.",
   "SVA contínua com impulso cefálico NORMAL = suspeitar de AVC (central), não relaxar.",
-  "TC de crânio tem baixa sensibilidade para isquemia de fossa posterior — o exame é RM com difusão (e mesmo ela pode ser falso-negativa nas primeiras horas).",
+  "TC de crânio tem baixa sensibilidade para isquemia de fossa posterior; RM com difusão é o exame (e pode ser falso-negativa cedo).",
   "Sem hipoacusia não é Ménière: pense migrânea vestibular ou VPPB.",
-  "Betaistina e flunarizina não são primeira linha da VPPB — o tratamento é a manobra de reposicionamento.",
-  "HINTS só se aplica à SVA contínua COM nistagmo; não use em tontura episódica ou sem nistagmo.",
-  "Fatores de risco vascular sozinhos não decidem central × periférico — use o exame.",
+  "Betaistina/flunarizina não são primeira linha da VPPB — o tratamento é a manobra.",
+  "HINTS só se aplica à SVA contínua COM nistagmo; não use em tontura episódica.",
+  "Perda auditiva nova aguda + vertigem pode ser AVC da AICA, não 'labirintite' (HINTS plus).",
+  "Fator de risco vascular sozinho não decide central × periférico — use o exame.",
  ],
  diretrizes: [
   "Tratado de Neurologia da ABN (3ª ed., 2025), caps. 135–138 (Síndrome Vestibular Aguda, Vertigem Recorrente, Vertigem Posicional, Síndrome Vestibular Crônica) e cap. 20 — Tonturas e Vertigem (ver materiais_neuro.md).",
   "Merritt, Tratado de Neurologia (13ª ed.), Seção 2 — Tontura, Vertigem e Perda Auditiva.",
-  "Critérios da Bárány Society (VPPB, migrânea vestibular, Ménière); Adams & Victor — “Deafness, Dizziness, and Disorders of Equilibrium”.",
+  "Adams & Victor — “Deafness, Dizziness, and Disorders of Equilibrium”; Sanvito — exame vestibular e nistagmo.",
+  "Critérios da Bárány Society (VPPB, migrânea vestibular, Ménière).",
  ],
  questoes: [
   {foco:"HINTS central (seu ponto de erro)",
