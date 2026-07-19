@@ -84,8 +84,12 @@
   .mod-head{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 18px; margin-bottom:14px; box-shadow:0 1px 3px rgba(0,0,0,.04);}
   .mod-head h2{margin:2px 0 8px; font-size:1.2rem;}
   .mod-head .resumo{font-size:.9rem; color:#39424d;}
-  .sec-h{font-size:1rem; color:var(--navy); font-weight:700; margin:20px 0 6px; padding-bottom:4px; border-bottom:2px solid #e4ebf2;}
-  .sec-c{font-size:.92rem; color:var(--text); margin:0 0 6px;}
+  .sec-h{font-size:1rem; color:var(--navy); font-weight:700; margin:22px 0 8px; padding-bottom:4px; border-bottom:2px solid #e4ebf2;}
+  .sec-c{font-size:.93rem; color:var(--text); margin:0 0 10px; line-height:1.62;}
+  .sec-c strong{color:var(--navy);}
+  .aula-ul{margin:0 0 10px; padding-left:20px;}
+  .aula-ul li{font-size:.93rem; margin-bottom:5px; line-height:1.55;}
+  .aula-ul li strong{color:var(--navy);}
   .box{border-radius:10px; padding:12px 15px; margin-top:12px; font-size:.9rem;}
   .box.peg{background:var(--amber-bg); border:1px solid #efd9a8;}
   .box.dir{background:#eef2f7; border:1px solid var(--border);}
@@ -220,6 +224,22 @@ function leituraDo(comentario){
 }
 function linkify(txt){
   return esc(txt).replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+}
+// formata o corpo de uma seção de aula: parágrafos (\n\n), listas (linhas com "- " ou "• "),
+// negrito **x**, e uma "mini-tabela" com linhas "termo :: valor".
+function inlineFmt(s){
+  return esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+               .replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+}
+function fmtBody(text){
+  if(!text) return '';
+  return String(text).split(/\n\s*\n/).map(block=>{
+    const lines = block.split(/\n/).map(l=>l.trim()).filter(Boolean);
+    if(lines.length && lines.every(l=>/^([-•])\s+/.test(l))){
+      return '<ul class="aula-ul">'+lines.map(l=>'<li>'+inlineFmt(l.replace(/^([-•])\s+/,''))+'</li>').join('')+'</ul>';
+    }
+    return '<p class="sec-c">'+inlineFmt(lines.join(' '))+'</p>';
+  }).join('');
 }
 
 /* ---- carga ---- */
@@ -418,7 +438,7 @@ function renderModuloView(d, key){
   h+=`<div class="mod-head"><span class="tag ${m.half==='NEURO'?'n':'p'}">${m.half==='NEURO'?'NEURO':'PED'}</span>
       <h2>${esc(m.titulo)}</h2><div class="resumo">${esc(m.resumo||'')}</div></div>`;
   // aula
-  (m.secoes||[]).forEach(s=>{ h+=`<div class="sec-h">${esc(s.h)}</div><p class="sec-c">${esc(s.c)}</p>`; });
+  (m.secoes||[]).forEach(s=>{ h+=`<div class="sec-h">${esc(s.h)}</div>${fmtBody(s.c)}`; });
   // pegadinhas
   if(m.pegadinhas && m.pegadinhas.length){
     h+=`<div class="box peg"><h3>⚠️ Pegadinhas clássicas</h3><ul>${m.pegadinhas.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>`;
