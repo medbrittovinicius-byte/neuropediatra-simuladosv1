@@ -149,36 +149,58 @@ Se você só levar uma coisa: **nistagmo vertical puro ou que muda de direção 
 "NEURO|Neuroimunologia (EM / encefalites / NMO)": {
  titulo: "Neuroimunologia — desmielinizantes e encefalites autoimunes",
  half: "NEURO",
- resumo: "Um espectro que a banca adora justamente porque os quadros se parecem. A chave é reconhecer a assinatura de cada doença: disseminação no tempo/espaço (EM), anti-AQP4 e mielite extensa (NMO), encefalopatia monofásica pós-infecciosa (ADEM), e o consumo de complemento que separa lúpus de anti-NMDA.",
+ resumo: "Um grupo de doenças em que o próprio sistema imune ataca o sistema nervoso. Parecem-se entre si, e é por isso que se erra. Este texto monta o mapa do zero — o que é desmielinização, o que é encefalite autoimune — e ensina a assinatura de cada doença (disseminação no tempo/espaço na EM; anti-AQP4 e mielite extensa na NMO; encefalopatia monofásica na ADEM; e o consumo de complemento que separa lúpus de anti-NMDA).",
+ fontes: "Base: Tratado de Neurologia da ABN 3ª ed. (caps. 85–91), Merritt 13ª ed. (Seção 10 — Doenças Desmielinizantes e Inflamatórias), Adams & Victor (Multiple Sclerosis and Allied Demyelinating Diseases) e PCDT de Esclerose Múltipla (MS). Ver materiais_neuro.md.",
+ notaErro: `Este é um dos temas em que você mais erra (100% em esclerose múltipla e em encefalite anti-NMDA). O motivo é que as doenças **se imitam** e a prova cobra a **pista que as separa** — não o quadro geral. As armadilhas:
+
+- **Tratar NMO como esclerose múltipla.** É o erro que mais custa: o **interferon-beta** (e vários modificadores de EM) **PIORAM a neuromielite óptica**. Por isso, diante de neurite óptica grave ou mielite longa, **dose anti-AQP4 antes** de rotular EM (seção 3).
+- **Confundir anti-NMDA com encefalite lúpica.** As duas dão psicose + crises em mulher jovem. A chave é o **complemento**: **baixo (consumido) = lúpus**; **normal = anti-NMDA** (seção 5).
+- **Não segurar o conceito de McDonald.** A EM se prova por **disseminação no tempo E no espaço** — é a frase que o examinador quer ver (seção 2).
+- **Esquecer o aciclovir empírico.** Numa encefalite aguda febril, cobre-se **herpes** até excluir, mesmo suspeitando de autoimune (seção 5).
+
+**Como zerar:** para cada caso, pergunte — (1) é **desmielinizante** (surtos, RM com placas) ou **encefalite** (psicose/crise subaguda)? (2) qual o **anticorpo/pista laboratorial** (anti-AQP4? anti-NMDA? complemento baixo? bandas oligoclonais?)? (3) o tratamento **muda** conforme a resposta (não trate NMO como EM; não esqueça o aciclovir). As questões ao final batem nesses pontos.`,
  secoes: [
-  {h:"1. Esclerose múltipla (EM) — conceito e fisiopatologia", c:`Doença inflamatória desmielinizante crônica do SNC, imunomediada, mais comum em **mulheres jovens (20–40 anos)**, com gradiente de latitude e associação a baixa vitamina D, tabagismo e vírus Epstein-Barr. Linfócitos T autorreativos atravessam a barreira hematoencefálica e, com linfócitos B e micróglia, produzem placas de desmielinização perivenular na substância branca (e cinzenta), com graus variados de dano axonal — este responsável pela incapacidade progressiva.
+  {h:"1. O mapa do território", c:`Neuroimunologia reúne doenças em que o sistema imune ataca o próprio sistema nervoso. Para não se perder, divida em dois grandes grupos:
 
-Fenótipos: **remitente-recorrente** (surtos com recuperação, o mais comum no início), **secundariamente progressiva** e **primariamente progressiva**. Um surto exige déficit neurológico > 24 h, na ausência de febre/infecção (que causam pseudossurto — fenômeno de Uhthoff: piora transitória com calor).`},
+- **Doenças desmielinizantes:** o alvo é a **mielina** (a "capa" que isola os axônios e acelera o impulso). Sem mielina, o sinal fica lento ou some. Aqui estão a **esclerose múltipla (EM)**, a **neuromielite óptica (NMO)**, a **ADEM** e a **MOGAD**. Clínica típica: surtos de déficit neurológico (neurite óptica, mielite, síndromes de tronco).
+- **Encefalites autoimunes:** anticorpos atacam **neurônios/receptores**, gerando quadro subagudo de **psicose, crises, alteração de comportamento e memória**. Exemplos: **anti-NMDA** e a **encefalite do lúpus** (LES neuropsiquiátrico).
 
-  {h:"2. Clínica e critérios de McDonald", c:`Apresentações típicas: neurite óptica (dor à movimentação + baixa visual monocular), mielite parcial, síndromes de tronco (oftalmoplegia internuclear, neuralgia do trigêmeo no jovem) e sintomas sensitivos/motores.
+Guardar essa divisão já orienta o raciocínio: "surtos com placas na RM" puxa para desmielinizante; "virou psicótico e teve crise em semanas" puxa para encefalite autoimune.`},
 
-O diagnóstico se apoia na **disseminação no tempo (DIT)** e **no espaço (DIS)** — a frase-chave dos **critérios de McDonald (2017)**:
-- **DIS:** ≥1 lesão em T2 em ≥2 de 4 topografias típicas (periventricular, cortical/justacortical, infratentorial, medular).
-- **DIT:** lesões novas em RM de seguimento, ou coexistência de lesões que captam e não captam gadolínio, **ou bandas oligoclonais no líquor** (que passaram a substituir DIT).
+  {h:"2. Esclerose múltipla — a mais importante", c:`Doença inflamatória desmielinizante **crônica** do SNC, imunomediada, típica de **mulheres jovens (20–40 anos)**, com fatores de risco como baixa vitamina D, tabagismo e vírus Epstein-Barr. Linfócitos autorreativos cruzam a barreira hematoencefálica e formam **placas** de desmielinização; o dano axonal acumulado explica a incapacidade a longo prazo.
 
-RM é o exame-chave; líquor mostra bandas oligoclonais IgG (síntese intratecal) em >85%.`},
+- **Fenótipos:** **remitente-recorrente** (surtos que remitem — o mais comum no início), **secundariamente progressiva** e **primariamente progressiva**.
+- **Surto** = déficit neurológico focal > 24 h **na ausência de febre/infecção**. Cuidado com o **pseudossurto**: calor ou febre pioram temporariamente sintomas antigos (**fenômeno de Uhthoff**) — isso **não** é surto verdadeiro e não muda o tratamento de fundo.
+- **Diagnóstico — critérios de McDonald (2017):** exige **disseminação no espaço (DIS)** — lesões em ≥2 de 4 topografias típicas (periventricular, cortical/justacortical, infratentorial, medular) — **e disseminação no tempo (DIT)** — lesões novas no seguimento, ou coexistência de lesões que captam e não captam gadolínio, **ou bandas oligoclonais no líquor** (que passaram a poder cumprir a DIT).
+- **Líquor:** bandas oligoclonais de IgG (síntese intratecal) em >85%.
+- **Tratamento:** **surto agudo → corticoide em pulso** (metilprednisolona); **doença → terapia modificadora** (acetato de glatirâmer, interferon, e agentes de alta eficácia como natalizumabe/ocrelizumabe conforme o caso).`},
 
-  {h:"3. Neuromielite óptica (NMOSD / anti-AQP4)", c:`Astrocitopatia autoimune contra o canal de água **aquaporina-4**, distinta da EM. Características: **neurite óptica grave** (muitas vezes bilateral, com pior prognóstico visual) e **mielite longitudinalmente extensa (≥3 corpos vertebrais)**, além de síndrome de área postrema (soluços/vômitos intratáveis). Anticorpo **anti-AQP4** positivo confirma.
+  {h:"3. Neuromielite óptica (NMOSD / anti-AQP4) — a pegadinha do tratamento", c:`Não é "uma EM mais grave" — é outra doença: uma **astrocitopatia** por anticorpo contra o canal de água **aquaporina-4 (anti-AQP4)**.
 
-**Pegadinha capital:** o tratamento típico da EM (**interferon-beta**, natalizumabe, fingolimode) **PIORA a NMO**. Por isso, diante de neurite óptica grave ou mielite extensa, dose-se anti-AQP4 antes de rotular como EM. Surto: corticoide em pulso ± plasmaférese. Manutenção: imunossupressão (rituximabe, eculizumabe, satralizumabe, inebilizumabe).`},
+- **Clínica:** **neurite óptica grave** (frequentemente bilateral, com pior recuperação visual) e **mielite longitudinalmente extensa** (lesão de **≥3 corpos vertebrais** na RM), além da síndrome de área postrema (**soluços/vômitos intratáveis**).
+- **Confirmação:** anticorpo **anti-AQP4** positivo.
+- **PEGADINHA CAPITAL:** o tratamento clássico da EM (**interferon-beta**, natalizumabe, fingolimode) **PIORA a NMO**. Por isso, sempre que houver neurite óptica grave/bilateral ou mielite extensa, **dose anti-AQP4 antes** de tratar como EM.
+- **Tratamento:** surto → corticoide em pulso ± **plasmaférese**; manutenção → **imunossupressão** (rituximabe, eculizumabe, satralizumabe, inebilizumabe).`},
 
-  {h:"4. ADEM e MOGAD", c:`**ADEM (encefalomielite disseminada aguda):** desmielinização **monofásica**, tipicamente pós-infecciosa ou pós-vacinal, mais em **crianças**, com **encefalopatia** (rebaixamento/confusão — obrigatória para o diagnóstico) + lesões multifocais grandes e mal delimitadas. Diferencia-se da EM por ser monofásica e cursar com encefalopatia. Trata-se com corticoide em pulso (± imunoglobulina/plasmaférese).
+  {h:"4. ADEM e MOGAD", c:`- **ADEM (encefalomielite disseminada aguda):** desmielinização **monofásica**, em geral **pós-infecciosa ou pós-vacinal**, mais em **crianças**, com **encefalopatia** (rebaixamento/confusão — obrigatória para o diagnóstico) + lesões grandes e difusas de substância branca. O que a separa da EM: ser **monofásica** e cursar com **encefalopatia**. Trata-se com **corticoide em pulso** (± imunoglobulina/plasmaférese).
+- **MOGAD** (doença associada ao anticorpo anti-MOG): espectro próprio — neurite óptica (muitas vezes bilateral/recorrente), quadros ADEM-like, mielite —, com **anti-MOG** positivo, costuma ter **melhor prognóstico** e boa resposta a corticoide, mas pode recair se a retirada for rápida.`},
 
-**MOGAD** (doença associada ao anticorpo anti-MOG): espectro próprio (neurite óptica recorrente, ADEM-like, mielite), anti-MOG positivo, geralmente melhor prognóstico e resposta a corticoide, mas com risco de recaída na retirada rápida.`},
+  {h:"5. Encefalites autoimunes: anti-NMDA × lúpica (e o herpes no meio)", c:`- **Encefalite anti-receptor de NMDA:** mulher jovem, muitas vezes com pródromo viral, evolui em semanas com **sintomas psiquiátricos/psicose**, **crises**, **discinesias orofaciais**, disautonomia e rebaixamento; associação clássica a **teratoma de ovário**. **Complemento normal**; diagnóstico pelo **anti-NMDA no líquor**. Tratamento: imunoterapia (corticoide, imunoglobulina, plasmaférese; 2ª linha rituximabe/ciclofosfamida) + **retirada do tumor**.
+- **Encefalite lúpica (LES neuropsiquiátrico):** psicose/crises/meningoencefalite no contexto de lúpus. **Pista decisiva: consumo de complemento (C3/C4 baixos)** com FAN/anti-dsDNA e clínica sistêmica (fotossensibilidade, artralgias). É o **complemento consumido** que aponta lúpus e não anti-NMDA. Tratamento: **pulso de metilprednisolona + imunossupressor** (ciclofosfamida).
+- **Não esqueça o herpes:** diante de encefalite **aguda e febril** (sobretudo com acometimento temporal), inicie **aciclovir empírico** e colha PCR para HSV **até excluir** — a encefalite herpética mata se não tratada, e não custa cobrir enquanto se investiga a causa autoimune.`},
 
-  {h:"5. Encefalites autoimunes: anti-NMDA × lúpica", c:`**Encefalite anti-receptor de NMDA:** mulher jovem, pródromo viral, evolui em semanas com sintomas psiquiátricos/psicose, crises, **discinesias orofaciais**, disautonomia e rebaixamento; associação a **teratoma de ovário**. Complemento **normal**; diagnóstico pelo anti-NMDA no líquor. Tratamento: imunoterapia (corticoide, IVIG, plasmaférese; 2ª linha rituximabe/ciclofosfamida) + retirada do tumor.
+  {h:"6. Armadilhas de imagem e líquor", c:`- Lesão desmielinizante que capta contraste em **anel aberto** favorece desmielinização (contra neoplasia/abscesso, que fazem **anel fechado**).
+- **Mielite curta e parcial** favorece EM; **mielite longa e central (≥3 segmentos)** favorece NMO.
+- **Bandas oligoclonais** apoiam EM e podem cumprir a disseminação no tempo.
+- **Complemento baixo** aponta lúpus; **anti-AQP4** aponta NMO; **anti-NMDA** aponta a encefalite homônima.
+- Sempre excluir **mimetizadores**: neurossífilis, HIV, deficiência de B12/cobre, sarcoidose, vasculite.`},
 
-**Encefalite lúpica (LES neuropsiquiátrico):** psicose/crises/meningoencefalite no contexto de lúpus. Pista decisiva: **consumo de complemento (C3/C4 baixos)** com FAN/anti-dsDNA e clínica sistêmica. É o **consumo de complemento** que separa lúpus (baixo) de anti-NMDA (normal). Tratamento: pulso de metilprednisolona + imunossupressor (ciclofosfamida).`},
-
-  {h:"6. Diferenciais e armadilhas de imagem", c:`- Lesão desmielinizante que **capta anel aberto** ao gadolínio favorece desmielinização (vs. neoplasia/abscesso, que fazem anel fechado).
-- Mielite **curta e parcial** favorece EM; mielite **longa e central** favorece NMO.
-- Sempre excluir mimetizadores: neurossífilis, HIV, deficiência de B12/cobre, sarcoidose, vasculite, LES.
-- Febre/infecção causam pseudossurto (Uhthoff) — não confundir com surto verdadeiro.`},
+  {h:"7. Síntese em seis frases", c:`- Separe **desmielinizante** (surtos/placas) de **encefalite autoimune** (psicose/crise subaguda).
+- **EM** se prova por **disseminação no tempo E no espaço** (McDonald); surto → corticoide, doença → modificador.
+- **NMO** (anti-AQP4) = neurite óptica grave + mielite ≥3 segmentos; **não** tratar como EM (interferon piora).
+- **ADEM** = monofásica + **encefalopatia**, pós-infecciosa na criança.
+- **Anti-NMDA** (complemento normal, teratoma) × **lúpus** (**complemento baixo**) — a pista é o complemento.
+- Encefalite aguda febril: **aciclovir empírico** até excluir herpes.`},
  ],
  flashcards: [
   {p:"Frase-chave do diagnóstico de esclerose múltipla?", r:"Disseminação no tempo E no espaço (critérios de McDonald)."},
@@ -186,13 +208,16 @@ RM é o exame-chave; líquor mostra bandas oligoclonais IgG (síntese intratecal
   {p:"Por que dosar anti-AQP4 antes de tratar como EM?", r:"Porque interferon-beta e vários modificadores de EM PIORAM a NMO."},
   {p:"O que define ADEM frente à EM?", r:"Quadro monofásico + encefalopatia (rebaixamento/confusão), em geral pós-infeccioso na criança."},
   {p:"Anti-NMDA em mulher jovem: o que rastrear?", r:"Teratoma de ovário."},
+  {p:"Mielite de ≥3 segmentos vertebrais sugere?", r:"Neuromielite óptica (NMO), não EM (que faz mielite curta/parcial)."},
+  {p:"Fenômeno de Uhthoff?", r:"Piora transitória de sintomas de EM com calor/febre — é pseudossurto, não surto verdadeiro."},
  ],
  pegadinhas: [
   "“Disseminação no tempo e no espaço” é a assinatura de McDonald (EM) — decore literalmente.",
   "Tratar NMO como EM (interferon-beta) PIORA a doença — dose anti-AQP4 antes.",
   "ADEM = monofásico + encefalopatia; EM não exige encefalopatia e é recorrente.",
   "Complemento baixo (C3/C4) na encefalite = pense lúpus (anti-NMDA tem complemento normal).",
-  "Bandas oligoclonais no líquor podem cumprir o critério de disseminação no tempo na EM.",
+  "Encefalite aguda febril: iniciar aciclovir empírico até excluir herpes.",
+  "Anel aberto ao contraste favorece desmielinização; anel fechado, abscesso/tumor.",
   "Febre/calor causam pseudossurto (Uhthoff) — não é surto verdadeiro.",
  ],
  diretrizes: [
@@ -216,6 +241,117 @@ RM é o exame-chave; líquor mostra bandas oligoclonais IgG (síntese intratecal
    alternativas:{a:"Positividade para anti-aquaporina-4",b:"Disseminação no tempo e no espaço",c:"Encefalopatia com lesão monofásica",d:"Consumo de complemento sérico"},
    correta:"b",
    comentario:"O diagnóstico de EM se apoia na disseminação no tempo (surtos em momentos diferentes) e no espaço (lesões em sítios típicos distintos) — os critérios de McDonald. O anti-AQP4 positivo apontaria NMO, não EM. Encefalopatia monofásica sugere ADEM. Consumo de complemento remete a lúpus. Bandas oligoclonais no líquor apoiam, mas o conceito-chave cobrado é a dupla disseminação temporal e espacial."},
+ ]
+},
+
+"NEURO|Neuroinfecção": {
+ titulo: "Neuroinfecção — meningites, encefalites e o SNC no HIV",
+ half: "NEURO",
+ resumo: "Infecções do sistema nervoso são emergências em que minutos e condutas na ordem certa salvam vidas. Este texto constrói o tema do zero: como pensar meningite (agente por idade, quando NÃO puncionar sem atrasar o antibiótico), encefalite herpética (aciclovir empírico), neurocisticercose (tema regional que você erra) e o SNC no HIV (toxoplasmose × LEMP × linfoma), além de neurossífilis e tuberculose meníngea.",
+ fontes: "Base: Tratado de Neurologia da ABN 3ª ed. (caps. 140–152), Merritt 13ª ed. (Seção 9 — Infecções do SNC), Adams & Victor (Infections of the Nervous System), Guia de Vigilância em Saúde e Diretrizes de Meningites do MS. Ver materiais_neuro.md.",
+ notaErro: `Este é um tema ESSENCIAL em que você tem errado (100% em neurocisticercose), e o padrão do erro é **condutas fora de ordem** e **diferenciais do HIV trocados**. As armadilhas:
+
+- **Atrasar o antibiótico da meningite** esperando a TC/o líquor. Quando há sinal de HIC/efeito de massa, a punção espera a imagem — **mas o antibiótico empírico (± dexametasona) NÃO espera** (seção 3). Marcar "adiar antibiótico até o líquor" é o erro que mata.
+- **Não reconhecer a neurocisticercose** (procedência endêmica, crise epiléptica no adulto, cisto/calcificação): a prova quer que você lembre do **anticonvulsivante + albendazol com corticoide** e das ressalvas (seção 5).
+- **Trocar toxoplasmose por LEMP no HIV.** Toxo = lesões com **realce anelar** e efeito de massa, CD4 baixo → **prova terapêutica**; LEMP = lesões de substância branca **sem** realce/efeito de massa, vírus **JC** → **otimizar TARV** (seção 6).
+- **Esquecer o aciclovir na encefalite** aguda febril com acometimento temporal (seção 4).
+
+**Como zerar:** para cada caso pergunte — (1) é **meníngeo** (rigidez, febre) ou **encefalítico** (alteração de comportamento/consciência, crises) ou **lesão focal**? (2) há **imunossupressão** (HIV, CD4)? (3) qual a **primeira medida** (antibiótico/aciclovir imediatos; quando adiar só a punção)? As questões ao final batem exatamente nisto.`,
+ secoes: [
+  {h:"1. O primeiro passo: onde a infecção está?", c:`"Neuroinfecção" abrange sítios diferentes, e localizar orienta tudo:
+
+- **Meningite:** inflamação das meninges. Domínio da **febre + rigidez de nuca + cefaleia**, com sinais de Kernig/Brudzinski. O líquor é o exame-chave.
+- **Encefalite:** inflamação do **parênquima** cerebral. Domínio da **alteração de comportamento/consciência, crises e déficits focais** (a herpética é o protótipo).
+- **Meningoencefalite:** os dois juntos.
+- **Lesões focais** (abscesso, neurocisticercose, toxoplasmose, tuberculoma, linfoma): dão **crise, déficit focal ou HIC**.
+
+Duas perguntas de triagem mudam a conduta: o paciente é **imunossuprimido** (HIV/CD4, transplante)? Há **sinal de hipertensão intracraniana/efeito de massa** (papiledema, déficit focal, rebaixamento, crises)? Guarde-as.`},
+
+  {h:"2. Meningite bacteriana aguda — agentes e liquor", c:`Emergência. Os **agentes variam pela idade/condição**:
+- **Recém-nascido:** Streptococcus do grupo B, E. coli, Listeria.
+- **Lactente/criança e adulto jovem:** meningococo (Neisseria meningitidis) e pneumococo (S. pneumoniae); Haemophilus caiu muito com a vacina.
+- **> 50 anos, gestante, imunossuprimido:** acrescentar cobertura para **Listeria** (ampicilina).
+
+**Liquor bacteriano típico:** pressão alta, aspecto turvo, **pleocitose de neutrófilos**, **glicose baixa** (consumo bacteriano) e **proteína alta**. O **Gram** ajuda a apontar o agente: **diplococos gram-negativos = meningococo**; diplococos gram-positivos = pneumococo.
+
+**Pista de gravidade:** **petéquias/púrpura + choque** = doença **meningocócica** com **coagulação intravascular disseminada (CIVD)** / síndrome de Waterhouse-Friderichsen (hemorragia adrenal). Meningococo é de **notificação compulsória** e exige **quimioprofilaxia dos contatos** próximos (rifampicina/ceftriaxona/ciprofloxacino).`},
+
+  {h:"3. A ordem que salva vida: antibiótico, dexametasona e quando NÃO puncionar", c:`Esta é a sequência mais cobrada — e a que você não pode inverter:
+
+- **Se há sinal de HIC/efeito de massa** (papiledema, déficit focal, rebaixamento importante, crises, imunossupressão): faça **neuroimagem antes da punção lombar**, pelo risco de **herniação**.
+- **MAS o tratamento não espera:** colha **hemoculturas** e **inicie o antibiótico empírico imediatamente** — não aguarde a TC nem o resultado do líquor. Atrasar o antibiótico aumenta a mortalidade.
+- **Dexametasona:** administrar **antes ou junto** da primeira dose de antibiótico (benefício sobretudo no pneumococo; reduz sequela auditiva/neurológica).
+- **Antibiótico empírico** conforme protocolo do MS/idade: em geral **ceftriaxona** (+ **vancomicina** onde há pneumococo resistente) e **ampicilina** quando há risco de Listeria (extremos de idade, gestante, imunossuprimido).
+
+Regra de ouro para a prova: **"não puncionar antes da imagem" nunca significa "não tratar antes da imagem".**`},
+
+  {h:"4. Encefalite viral — o herpes que não se pode perder", c:`A **encefalite herpética (HSV-1)** é a encefalite esporádica mais importante: febre, **alteração de comportamento/consciência**, crises e sinais focais, com predileção pelos **lobos temporais** (na RM e no EEG). O líquor pode ter hemácias/xantocromia (necrose) e a **PCR para HSV** confirma.
+
+- **Conduta:** **aciclovir intravenoso empírico já na suspeita**, sem esperar a PCR — o atraso piora muito o prognóstico. Mantém-se até excluir/confirmar.
+- Outros vírus: arboviroses (dengue, zika, chikungunya, e vigilância de Oropouche) podem dar encefalite/complicações neurológicas; enterovírus causam meningite viral (líquor com **linfócitos**, glicose normal, evolução benigna).`},
+
+  {h:"5. Neurocisticercose — o tema regional que você erra", c:`Causada pela forma larvar da **Taenia solium** (ingestão de ovos, via fecal-oral), é a causa parasitária mais comum de **epilepsia adquirida** em áreas endêmicas (Brasil incluído).
+
+- **Clínica:** depende da localização e do estágio. A forma parenquimatosa dá **crises epilépticas** (a apresentação mais comum no adulto que "começou a convulsionar"); as formas extraparenquimatosas (subaracnóidea/intraventricular) dão **hipertensão intracraniana e hidrocefalia**.
+- **Imagem:** cistos em diferentes estágios — vesicular (com escólex, o "cisto com pontinho"), coloidal (com realce/edema) e **calcificado** (a "clássica" calcificação puntiforme).
+- **Tratamento:** individualizado. Em geral **anticonvulsivante** para as crises + **albendazol** (± praziquantel nas formas com múltiplos cistos) **sempre associado a corticoide** (a morte dos cistos gera inflamação que pode piorar o edema). **Cuidado:** afastar cisticercose **ocular** antes de dar antiparasitário (risco de perda visual) e priorizar **derivação/manejo da HIC** nas formas com hidrocefalia antes do antiparasitário.`},
+
+  {h:"6. O sistema nervoso no HIV — o diferencial das lesões focais", c:`Com CD4 baixo, três causas de lesão cerebral competem — e a prova cobra separá-las:
+
+- **Neurotoxoplasmose:** a mais comum. **Múltiplas** lesões com **realce anelar** e **efeito de massa** (edema), CD4 geralmente < 100–200. Conduta: **prova terapêutica** com sulfadiazina + pirimetamina + ácido folínico; melhora clínica/radiológica em ~2 semanas confirma.
+- **Leucoencefalopatia multifocal progressiva (LEMP):** vírus **JC**. Lesões de **substância branca**, multifocais, **SEM realce** e **sem efeito de massa**; déficit focal progressivo. O líquor tem **baixa sensibilidade/alta especificidade** (PCR do JC). Conduta: **otimizar a TARV** (reconstituição imune) — não há antiviral específico.
+- **Linfoma primário do SNC:** lesão **única**, com realce, geralmente associada a EBV no líquor; entra quando a toxo "não responde" à prova terapêutica.
+
+Fora essas, lembrar de **criptococose** (meningite fúngica — cefaleia arrastada, **tinta da China** e antígeno criptocócico; tratar com anfotericina + flucitosina e **controlar a pressão do líquor** com punções de alívio).`},
+
+  {h:"7. Neurossífilis e tuberculose meníngea (não esquecer)", c:`- **Neurossífilis:** pode ser assintomática, meningovascular (AVC no jovem) ou parenquimatosa tardia (**paralisia geral** — demência/psicose; **tabes dorsalis** — ataxia sensitiva; **pupila de Argyll-Robertson** — acomoda mas não reage à luz). Confirma-se por **VDRL no líquor** (+ FTA-Abs). Tratamento: **penicilina G cristalina IV por 10–14 dias** (a benzatina IM **não** trata neurossífilis). O HIV acelera/agrava.
+- **Tuberculose meníngea:** meningite **subaguda** (dias a semanas), com **líquor de predomínio linfocítico, glicose baixa e proteína muito alta**, acometimento de **base do crânio** (paralisias de nervos cranianos, hidrocefalia) e AVC por vasculite. Tratamento: **esquema RIPE + corticoide**.`},
+
+  {h:"8. Síntese em seis frases", c:`- Localize: **meníngeo** (rigidez/febre) × **encefalítico** (comportamento/consciência/crise) × **lesão focal**.
+- Meningite com sinal de HIC: **imagem antes da punção**, mas **antibiótico + dexametasona imediatos** (nunca atrase o antibiótico).
+- **Petéquias + choque** = meningococo + **CIVD**; notificar e fazer **quimioprofilaxia** dos contatos.
+- Encefalite aguda febril temporal: **aciclovir empírico** já.
+- Adulto que "começou a ter crises" em área endêmica: pense **neurocisticercose** (anticonvulsivante + albendazol **com corticoide**; afastar cisto ocular/HIC).
+- HIV: **toxo** (anelar, efeito de massa → prova terapêutica) × **LEMP** (branca, sem realce, JC → otimizar TARV).`},
+ ],
+ flashcards: [
+  {p:"Meningite com sinais de HIC: e o antibiótico?", r:"Neuroimagem antes da punção, mas antibiótico empírico (± dexametasona) IMEDIATO — não esperar."},
+  {p:"Petéquias + choque + meningite = ?", r:"Doença meningocócica (diplococo gram-negativo) com CIVD/Waterhouse-Friderichsen; notificar e fazer quimioprofilaxia dos contatos."},
+  {p:"Encefalite aguda febril com acometimento temporal — conduta imediata?", r:"Aciclovir IV empírico (suspeita de HSV), sem esperar a PCR."},
+  {p:"Adulto com primeira crise epiléptica e cisto/calcificação cerebral em área endêmica?", r:"Neurocisticercose — anticonvulsivante + albendazol com corticoide (afastar cisto ocular e tratar HIC antes)."},
+  {p:"HIV: toxoplasmose × LEMP na imagem?", r:"Toxo = múltiplas lesões com realce anelar e efeito de massa (prova terapêutica); LEMP = substância branca, sem realce/massa, vírus JC (otimizar TARV)."},
+  {p:"Confirmação e tratamento da neurossífilis?", r:"VDRL no líquor; penicilina G cristalina IV 10–14 dias (benzatina não trata)."},
+ ],
+ pegadinhas: [
+  "‘Não puncionar antes da imagem’ nunca significa ‘não tratar’: o antibiótico/aciclovir empírico não espera.",
+  "Diplococo gram-negativo no líquor = meningococo; petéquias + choque = CIVD.",
+  "Dexametasona antes/junto da 1ª dose de antibiótico (benefício no pneumococo).",
+  "Neurocisticercose: dar corticoide junto do antiparasitário (a morte dos cistos inflama); afastar cisto ocular antes.",
+  "LEMP não tem realce nem efeito de massa (vírus JC); toxo tem anel e edema.",
+  "Penicilina benzatina IM NÃO trata neurossífilis — tem que ser cristalina IV.",
+  "Meningite viral/TB tem líquor linfocítico; a bacteriana é neutrofílica com glicose baixa.",
+ ],
+ diretrizes: [
+  "Tratado de Neurologia da ABN (3ª ed., 2025), caps. 140–152 (Meningites; AIDS e SN; Encefalite Viral; Neurocisticercose; Neurossífilis; Neurotuberculose; Fúngicas) (ver materiais_neuro.md).",
+  "Merritt, Tratado de Neurologia (13ª ed.), Seção 9 — Infecções do Sistema Nervoso Central.",
+  "MS — Guia de Vigilância em Saúde e Diretrizes para Enfrentamento das Meningites; Adams & Victor — “Infections of the Nervous System”.",
+ ],
+ questoes: [
+  {foco:"Neurocisticercose (seu ponto de erro)",
+   enunciado:"Homem de 34 anos, procedente de zona rural, tem a primeira crise tônico-clônica da vida; TC mostra uma lesão cística com um pequeno ponto interno (escólex) e discreto edema. Qual a conduta mais adequada?",
+   alternativas:{a:"Anticonvulsivante isolado, sem tratar o parasita",b:"Albendazol associado a corticoide, além do anticonvulsivante",c:"Praziquantel isolado, sem corticoide",d:"Apenas observação, pois a lesão é benigna"},
+   correta:"b",
+   comentario:"Primeira crise no adulto de área endêmica + cisto com escólex = neurocisticercose parenquimatosa. O tratamento junta anticonvulsivante (para as crises) e antiparasitário — albendazol (± praziquantel em múltiplos cistos) SEMPRE com corticoide, porque a morte dos cistos gera inflamação e edema que podem piorar o quadro. Anticonvulsivante isolado não trata o parasita quando há cisto viável; antiparasitário sem corticoide arrisca piora inflamatória; e não é caso de só observar. Antes do antiparasitário, afastar cisticercose ocular e, nas formas com hidrocefalia, manejar a HIC."},
+  {foco:"Ordem meningite: antibiótico não espera",
+   enunciado:"Homem de 54 anos com febre, rigidez de nuca, papiledema e hemiparesia. Qual a conduta correta quanto à punção lombar e ao antibiótico?",
+   alternativas:{a:"Punção lombar imediata antes de qualquer antibiótico",b:"Neuroimagem antes da punção; iniciar antibiótico empírico sem esperar o líquor",c:"Adiar o antibiótico até o resultado do líquor",d:"Nenhum antibiótico até a tomografia ficar pronta"},
+   correta:"b",
+   comentario:"Há sinais de HIC/efeito de massa (papiledema, déficit focal): a punção lombar deve aguardar a neuroimagem pelo risco de herniação. Mas o antibiótico empírico (± dexametasona antes/junto da 1ª dose) NÃO deve esperar — inicia-se logo após colher hemoculturas, pois o atraso aumenta a mortalidade. Puncionar antes da imagem nesse contexto é perigoso; adiar o antibiótico pela imagem/líquor é o erro que mata."},
+  {foco:"HIV: toxoplasmose × LEMP",
+   enunciado:"Homem com HIV e CD4 de 40 apresenta déficit focal progressivo; RM mostra lesões na substância branca, SEM realce ao contraste e sem efeito de massa. Qual o diagnóstico mais provável e a conduta?",
+   alternativas:{a:"Neurotoxoplasmose; prova terapêutica com sulfadiazina e pirimetamina",b:"Leucoencefalopatia multifocal progressiva (vírus JC); otimizar a terapia antirretroviral",c:"Linfoma primário do SNC; radioterapia imediata",d:"Meningite criptocócica; anfotericina B"},
+   correta:"b",
+   comentario:"Lesões de substância branca, multifocais, SEM realce e SEM efeito de massa, em HIV com CD4 muito baixo, apontam para LEMP (vírus JC); o líquor tem alta especificidade (PCR do JC) e não há antiviral específico — a conduta é otimizar a TARV para reconstituição imune. A neurotoxoplasmose faria lesões com realce anelar e efeito de massa (aí sim prova terapêutica). Linfoma primário costuma ser lesão única com realce (EBV no líquor). Criptococose é meningite (tinta da China/antígeno), não esse padrão de substância branca."},
  ]
 },
 
@@ -295,37 +431,77 @@ Conduta:
 "NEURO|Demências": {
  titulo: "Demências e neurologia do envelhecimento",
  half: "NEURO",
- resumo: "Reconhecer o padrão (Alzheimer, vascular, corpos de Lewy, frontotemporal), separar de delirium, caçar as causas reversíveis (com destaque para a hidrocefalia de pressão normal) e manejar os sintomas comportamentais na ordem certa (não farmacológico primeiro).",
+ resumo: "Demência não é 'ficar esquecido com a idade': é um declínio adquirido que rouba a autonomia. Este texto reconstrói o tema do zero — o que é (e o que não é) demência, como investigar direito, como reconhecer cada tipo, quais causas são reversíveis (não perca a hidrocefalia de pressão normal) e como manejar os sintomas de comportamento na ORDEM certa.",
+ fontes: "Base: Tratado de Neurologia da ABN 3ª ed. (caps. 96–102 e 106), Merritt 13ª ed. (Seção 6 — Demência; Seção 2 — Delirium/Memória), Adams & Victor (Dementia and the Neurology of Aging) e PCDT de Alzheimer (MS). Ver materiais_neuro.md.",
+ notaErro: `Este domínio te derruba porque as questões quase nunca perguntam "qual a demência?" — elas testam **conduta e armadilhas**. Os tropeços clássicos, todos endereçados neste texto:
+
+- **Tratar o comportamento com remédio primeiro.** Diante de agitação, a resposta que a prova quer é **medida não farmacológica**; antipsicótico é exceção (risco, dose baixa, tempo curto). Se você marca "antipsicótico/benzodiazepínico de rotina", erra (seção 6).
+- **Não reconhecer a causa REVERSÍVEL.** A hidrocefalia de pressão normal (tríade de Hakim-Adams) é a pegadinha nº 1: o examinador quer que você pense **tap test → derivação**, não donepezila (seção 5).
+- **Dar antipsicótico na demência com corpos de Lewy.** Há **hipersensibilidade** — pode causar rigidez grave. A prova adora esse caso (flutuação + alucinação visual + parkinsonismo) (seções 4 e 6).
+- **Confundir delirium com demência.** Delirium é **agudo, flutuante, com déficit de atenção** e causa orgânica reversível. Rotular como demência atrasa o tratamento (seção 1).
+
+**Como zerar:** para todo caso, faça três perguntas — (1) é agudo/flutuante (delirium) ou crônico? (2) há causa **reversível** a excluir (NPH, B12, tireoide, sífilis, subdural, depressão)? (3) qual o **padrão** (memória? comportamento? flutuação/alucinação? degraus vasculares?) e, com isso, qual a **conduta** (incluindo o cuidado com antipsicótico)? As questões ao final batem nesses quatro pontos.`,
  secoes: [
-  {h:"1. Demência × delirium × declínio normal", c:`**Demência (transtorno neurocognitivo maior):** declínio cognitivo adquirido, persistente, em ≥1 domínio (memória, funções executivas, linguagem, visuoespacial, social), com **perda de funcionalidade**. Diferencie sempre de:
-- **Delirium:** início **agudo**, curso **flutuante**, alteração da **atenção** e do nível de consciência, com causa orgânica (infecção, fármacos, distúrbio metabólico). É reversível e uma emergência — excluir antes de rotular demência.
-- **Comprometimento cognitivo leve (CCL):** declínio objetivo sem perda funcional significativa — pode preceder demência.`},
+  {h:"1. O que é demência — e o que não é", c:`**Demência (transtorno neurocognitivo maior)** é um declínio cognitivo **adquirido** (a pessoa perdeu algo que já tinha), **persistente** e que afeta **pelo menos um domínio** cognitivo a ponto de **comprometer a autonomia** (finanças, medicações, atividades do dia a dia). Os domínios são: memória, funções executivas (planejar, julgar), linguagem, habilidades visuoespaciais e cognição social.
 
-  {h:"2. Doença de Alzheimer", c:`Causa mais comum. Início insidioso, progressão lenta, com **memória episódica** afetada primeiro (esquece fatos recentes, repete perguntas), depois funções executivas, linguagem e visuoespacial. MEEM/MoCA alterados; biomarcadores (beta-amiloide baixo e tau/p-tau altos no líquor; PET amiloide) confirmam.
+Compare com o que NÃO é demência:
+- **Envelhecimento normal:** lentifica, esquece nomes na ponta da língua, mas **não perde funcionalidade**.
+- **Comprometimento cognitivo leve (CCL):** há declínio objetivo em testes, porém **sem** perda funcional relevante. É um estágio de risco (parte evolui para demência, parte não).
+- **Delirium:** o grande impostor (ver abaixo).
 
-Tratamento sintomático cognitivo: **anticolinesterásicos** (donepezila, rivastigmina, galantamina) nas fases leve-moderada; **memantina** (antagonista NMDA) na moderada-grave, isolada ou associada. Não modificam de forma robusta a progressão; anticorpos anti-amiloide são novidade de uso restrito.`},
+**Delirium × demência — a distinção que mais cai:** delirium tem início **agudo** (horas a dias), curso **flutuante**, e o marcador é a **alteração da atenção** e do nível de consciência, com uma causa orgânica por trás (infecção, fármaco, distúrbio metabólico, dor, retenção urinária). É **reversível** e uma emergência. Demência é insidiosa, estável no dia a dia e com atenção relativamente preservada no início. Regra prática: **todo idoso que "piorou da cabeça" de repente tem delirium até prova em contrário** — procure e trate a causa antes de falar em demência.`},
 
-  {h:"3. Os grandes diferenciais degenerativos e vascular", c:`- **Demência vascular / comprometimento cognitivo vascular:** curso em **degraus**, fatores de risco vascular, achados focais e lesões na imagem; disfunção executiva proeminente.
-- **Demência com corpos de Lewy:** **flutuação cognitiva** + **alucinações visuais precoces** + **parkinsonismo** + transtorno comportamental do sono REM. **Hipersensibilidade a antipsicóticos** (evitar; risco de rigidez grave).
-- **Demência frontotemporal (variante comportamental):** mudança de **personalidade/comportamento** (desinibição, apatia, perda de empatia, comportamento compulsivo) precede a perda de memória, em paciente **mais jovem** (50–65 anos).
-- **Doenças priônicas (Creutzfeldt-Jakob):** demência **rapidamente progressiva** + mioclonias + ataxia.`},
+  {h:"2. Como investigar (o que pedir, e de quem colher a história)", c:`A investigação começa na **anamnese com um informante** (familiar/cuidador) — o paciente costuma subestimar o próprio déficit. Caracterize: o que mudou, em quanto tempo, se foi gradual ou "em degraus", e o impacto funcional.
 
-  {h:"4. Causas reversíveis — não perder", c:`Toda demência merece rastreio de causas tratáveis:
-- **Hidrocefalia de pressão normal:** **tríade de Hakim-Adams** — distúrbio de marcha "magnética"/apráxica (o sintoma mais precoce e o que mais responde) + incontinência urinária + declínio cognitivo. Ventriculomegalia desproporcional à atrofia. **Tap test** (punção lombar de alívio) com melhora da marcha prediz resposta à **derivação ventriculoperitoneal**.
-- Outras: **deficiência de B12**, **hipotireoidismo**, **neurossífilis**, HIV, hematoma subdural crônico, depressão (**pseudodemência**), fármacos.`},
+- **Rastreios cognitivos:** MEEM (Mini-Exame do Estado Mental) e MoCA (mais sensível para disfunção executiva/CCL); avaliação neuropsicológica quando há dúvida.
+- **Laboratório para causas reversíveis (sempre):** **TSH/T4**, **vitamina B12** (± folato), função renal/hepática, cálcio, sódio, glicose, e **sorologias** (sífilis/VDRL, HIV) conforme o contexto.
+- **Neuroimagem estrutural (TC ou, melhor, RM):** exclui hematoma subdural, tumor, hidrocefalia e caracteriza atrofia/lesões vasculares.
+- **Biomarcadores** (líquor com beta-amiloide baixo e tau/p-tau altos; PET amiloide/FDG): confirmam Alzheimer em casos selecionados/atípicos.
 
-  {h:"5. Manejo dos sintomas comportamentais (ordem correta)", c:`Sintomas comportamentais e psicológicos da demência (agitação, agressividade, psicose, insônia):
-- **Primeira linha SEMPRE não farmacológica:** identificar gatilhos (dor, fome, constipação, infecção), ajustar ambiente e rotina, higiene do sono, orientar o cuidador.
-- **Antipsicótico só se risco** (agressividade/psicose com perigo), na **menor dose e menor tempo**, cientes do aumento de mortalidade/AVC em idosos com demência.
-- **Evitar benzodiazepínicos** (pioram cognição, quedas, delirium).
-- Na demência com corpos de Lewy, evitar antipsicóticos pela hipersensibilidade; se imprescindível, um atípico com cautela.`},
+O objetivo dessa etapa é duplo: **rotular o tipo** e, principalmente, **não deixar passar uma causa tratável**.`},
+
+  {h:"3. Doença de Alzheimer — a mais comum", c:`Neurodegeneração com acúmulo de **placas de beta-amiloide** e **emaranhados de tau**, começando em regiões da memória (hipocampo/córtex entorrinal) e se espalhando.
+
+- **Clínica:** início insidioso e progressão lenta; **memória episódica** primeiro (esquece fatos recentes, repete perguntas, perde objetos), depois funções executivas, linguagem e orientação visuoespacial; nas fases avançadas, dependência total.
+- **Diagnóstico:** clínico + rastreios + exclusão de reversíveis; biomarcadores quando necessário.
+- **Tratamento sintomático cognitivo:** **anticolinesterásicos** (donepezila, rivastigmina, galantamina) na fase leve-moderada; **memantina** (antagonista NMDA) na moderada-grave, isolada ou associada ao anticolinesterásico. Esses fármacos **estabilizam sintomas**, não curam. Anticorpos anti-amiloide são novidade de uso restrito.
+- **Sempre** tratar comorbidades, revisar fármacos que pioram cognição (anticolinérgicos, benzodiazepínicos) e apoiar o cuidador.`},
+
+  {h:"4. Os diferenciais — como distinguir os tipos", c:`- **Demência vascular / comprometimento cognitivo vascular:** curso **em degraus** (piora, estabiliza, piora), fatores de risco vascular, achados focais no exame e lesões vasculares na imagem; costuma afetar **funções executivas** e velocidade de processamento antes da memória.
+- **Demência com corpos de Lewy:** tríade **flutuação cognitiva** + **alucinações visuais precoces e bem formadas** + **parkinsonismo**; soma-se o transtorno comportamental do sono REM. **Hipersensibilidade a antipsicóticos** (evitar). Regra: se o parkinsonismo vem **junto ou antes** da demência, pense Lewy; se a demência surge **anos depois** de um Parkinson estabelecido, é demência da doença de Parkinson.
+- **Demência frontotemporal (variante comportamental):** muda a **personalidade/comportamento** primeiro — desinibição, apatia, perda de empatia, comportamentos compulsivos/alimentares — em paciente **mais jovem** (50–65 anos), com memória relativamente preservada no início.
+- **Doença priônica (Creutzfeldt-Jakob):** **demência rapidamente progressiva** (semanas a meses) + **mioclonias** + ataxia — pense nela quando a evolução é "rápida demais".`},
+
+  {h:"5. Causas reversíveis — a pegadinha que você não pode perder", c:`Antes de rotular como degenerativa, exclua o que tem tratamento:
+
+- **Hidrocefalia de pressão normal (HPN):** a estrela das provas. **Tríade de Hakim-Adams** — (1) **distúrbio de marcha** "magnética"/apráxica (pés como colados no chão; é o sintoma **mais precoce e o que mais melhora**), (2) **incontinência urinária**, (3) **declínio cognitivo**. Imagem com **ventriculomegalia desproporcional à atrofia**. O **tap test** (punção lombar de alívio de ~30–50 mL) que melhora a marcha **prediz boa resposta** à **derivação ventriculoperitoneal**. Reconhecer isso = não medicar como Alzheimer.
+- **Deficiência de vitamina B12**, **hipotireoidismo**, **neurossífilis**, **HIV**.
+- **Hematoma subdural crônico** (idoso, queda, anticoagulante).
+- **Depressão (pseudodemência):** humor deprimido com queixa cognitiva que melhora ao tratar a depressão.
+- **Fármacos** (anticolinérgicos, benzodiazepínicos, opioides).`},
+
+  {h:"6. Manejo dos sintomas comportamentais — a ordem correta", c:`Os sintomas comportamentais e psicológicos da demência (agitação, agressividade, perambulação, psicose, insônia, apatia) são a maior causa de sofrimento e de internação — e o ponto onde a conduta é mais cobrada.
+
+- **Primeira linha SEMPRE é não farmacológica:** procure e trate **gatilhos** (dor, fome, sede, constipação, retenção urinária, infecção, ambiente barulhento), estabeleça **rotina**, higiene do sono, comunicação calma e **orientação ao cuidador**. Muitas "crises" somem ao resolver uma dor ou uma ITU.
+- **Antipsicótico apenas se houver risco** (agressividade/psicose com perigo a si ou a outros), na **menor dose e pelo menor tempo**, cientes do **aumento de mortalidade e AVC** em idosos com demência (alerta de bula).
+- **Evitar benzodiazepínicos** (pioram cognição, quedas, delirium) e anticolinérgicos.
+- **Demência com corpos de Lewy:** **não** usar antipsicótico (hipersensibilidade → rigidez grave, piora); se imprescindível, um atípico (ex.: quetiapina) com muita cautela. Anticolinesterásicos costumam **ajudar** nas alucinações desses pacientes.`},
+
+  {h:"7. Síntese em seis frases (leve para a prova)", c:`- Demência = declínio **adquirido** + **perda de autonomia**; delirium = **agudo, flutuante, desatento** → sempre excluir primeiro.
+- **Investigue causas reversíveis** em todo caso: TSH, B12, VDRL, imagem — não perca a **HPN**.
+- **HPN** = marcha magnética + incontinência + cognição; **tap test → derivação** (não donepezila).
+- **Alzheimer** = memória episódica primeiro; trata com **anticolinesterásico** (± memantina), que estabiliza, não cura.
+- **Corpos de Lewy** = flutuação + alucinação visual + parkinsonismo; **evitar antipsicótico**.
+- Sintoma de comportamento = **não farmacológico primeiro**; antipsicótico só se risco, dose baixa, curto prazo.`},
  ],
  flashcards: [
-  {p:"Como diferenciar delirium de demência?", r:"Delirium: agudo, flutuante, atenção prejudicada, causa orgânica reversível."},
-  {p:"Tríade de Hakim-Adams (hidrocefalia de pressão normal)?", r:"Marcha magnética + incontinência urinária + declínio cognitivo; tap test → derivação VP."},
-  {p:"Demência com alucinações visuais precoces + flutuação + parkinsonismo?", r:"Demência com corpos de Lewy — evitar antipsicóticos (hipersensibilidade)."},
+  {p:"Como diferenciar delirium de demência?", r:"Delirium: início agudo, curso flutuante, déficit de ATENÇÃO, causa orgânica reversível."},
+  {p:"Tríade da hidrocefalia de pressão normal e o que ela prediz o tratamento?", r:"Marcha magnética + incontinência urinária + declínio cognitivo; tap test que melhora a marcha → derivação ventriculoperitoneal."},
+  {p:"Demência com flutuação + alucinações visuais precoces + parkinsonismo?", r:"Demência com corpos de Lewy — evitar antipsicóticos (hipersensibilidade)."},
   {p:"Primeira linha para agitação na demência?", r:"Medidas não farmacológicas; antipsicótico só se risco, dose baixa e curto prazo."},
-  {p:"Demência que muda personalidade antes da memória, no paciente mais jovem?", r:"Demência frontotemporal (variante comportamental)."},
+  {p:"Demência que muda a personalidade antes da memória, no paciente mais jovem?", r:"Demência frontotemporal (variante comportamental)."},
+  {p:"Demência rapidamente progressiva com mioclonias?", r:"Doença priônica (Creutzfeldt-Jakob)."},
+  {p:"Exames mínimos para causas reversíveis de demência?", r:"TSH/T4, vitamina B12, VDRL (± HIV), função metabólica e neuroimagem."},
  ],
  pegadinhas: [
   "Sintoma comportamental: primeira linha é NÃO farmacológica; antipsicótico só se necessário, dose baixa, tempo curto.",
@@ -333,7 +509,8 @@ Tratamento sintomático cognitivo: **anticolinesterásicos** (donepezila, rivast
   "Hidrocefalia de pressão normal é reversível: tríade de Hakim-Adams + resposta ao tap test → derivação.",
   "Excluir delirium (agudo, atencional) e causas reversíveis (B12, TSH, sífilis) antes de rotular demência.",
   "Na frontotemporal, muda a personalidade/comportamento antes da memória — e o paciente é mais jovem.",
-  "Demência rapidamente progressiva com mioclonias: pensar em doença priônica.",
+  "Demência rapidamente progressiva + mioclonias = pensar em doença priônica.",
+  "A marcha é o primeiro e mais reversível sintoma da HPN — valorize-a.",
  ],
  diretrizes: [
   "Tratado de Neurologia da ABN (3ª ed., 2025), caps. 96–102 (Demências; Corpos de Lewy; Alzheimer; Frontotemporal; Cognitivo Vascular; Hidrocefalia de Pressão Normal) e cap. 106 — Tratamento dos Transtornos Comportamentais nas Demências (ver materiais_neuro.md).",
