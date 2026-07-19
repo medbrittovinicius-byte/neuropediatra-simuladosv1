@@ -1,0 +1,651 @@
+{
+ "date": "2026-07-19",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (schwannoma vestibular / ângulo pontocerebelar) [RE-ranking]",
+   "tier": "ALTO",
+   "vinheta": "Mulher de 52 anos relata, há cerca de 10 meses, sensação progressiva de desequilíbrio e instabilidade à marcha, sem crises rotatórias breves. Associa perda auditiva lentamente progressiva no ouvido direito e zumbido contínuo ipsilateral. Nega hipoacusia flutuante e nega episódios paroxísticos desencadeados por mudança de posição. Ao exame, hipoacusia neurossensorial à direita, teste de impulso cefálico sem sacadas corretivas, discreta hipoestesia da hemiface direita e leve dismetria à direita. A audiometria mostra perda neurossensorial unilateral direita com queda da discriminação vocal.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a hipótese diagnóstica mais provável.",
+     "alternativas": {
+      "a": "Neurite vestibular direita.",
+      "b": "Schwannoma vestibular (neurinoma do acústico).",
+      "c": "Vertigem posicional paroxística benigna.",
+      "d": "Doença de Ménière direita."
+     },
+     "correta": "b",
+     "comentario": "A combinação de hipoacusia neurossensorial unilateral lentamente progressiva, zumbido ipsilateral e desequilíbrio crônico (e não vertigem rotatória aguda) aponta para lesão retrococlear no ângulo pontocerebelar, o schwannoma vestibular. A hipoestesia da hemiface por compressão do trigêmeo e a dismetria por compressão cerebelar reforçam a origem central/retrococlear. A neurite vestibular causa síndrome vestibular aguda contínua por dias, com HIT positivo e SEM perda auditiva — não cursa com hipoacusia progressiva de meses. A VPPB dá crises de segundos desencadeadas por mudança de posição, com Dix-Hallpike positivo e audição normal — o oposto do padrão crônico auditivo aqui. A doença de Ménière cursa com vertigem episódica associada a hipoacusia FLUTUANTE e plenitude aural, não com hipoacusia progressiva unidirecional e sinais de tronco/cerebelo. Pérola: perda auditiva neurossensorial assimétrica/unilateral obriga a investigar tumor do ângulo pontocerebelar.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame complementar de escolha para confirmar a hipótese.",
+     "alternativas": {
+      "a": "Manobra de Dix-Hallpike.",
+      "b": "Tomografia de crânio sem contraste.",
+      "c": "Ressonância magnética de crânio com gadolínio focada no ângulo pontocerebelar e no conduto auditivo interno.",
+      "d": "Videonistagmografia isolada."
+     },
+     "correta": "c",
+     "comentario": "O padrão-ouro para lesões do ângulo pontocerebelar e do conduto auditivo interno é a RM com gadolínio, que demonstra a massa captante emergindo do VIII par, com alta sensibilidade mesmo para tumores pequenos intracanaliculares. A manobra de Dix-Hallpike serve para diagnosticar VPPB de canal posterior (deslocamento de otólitos), não tem papel aqui. A TC sem contraste tem baixa resolução para partes moles na fossa posterior e pode não mostrar o tumor, sendo útil apenas para osso/alargamento do CAI. A videonistagmografia caracteriza o padrão do nistagmo e a função vestibular, mas não identifica a etiologia estrutural — é complementar, não confirmatória. Diretriz prática: hipoacusia neurossensorial assimétrica → audiometria seguida de RM com contraste do CAI.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta mais adequada para a maioria dos casos semelhantes.",
+     "alternativas": {
+      "a": "Manobra de reposicionamento de Epley.",
+      "b": "Corticoterapia sistêmica em pulso.",
+      "c": "Betaistina em dose plena contínua.",
+      "d": "Observação com RM seriada nos tumores pequenos; radiocirurgia ou microcirurgia se crescem ou dão efeito de massa."
+     },
+     "correta": "d",
+     "comentario": "O manejo do schwannoma vestibular é estratificado pelo tamanho e pela velocidade de crescimento: lesões pequenas, intracanaliculares e com sintomas leves podem ser acompanhadas com RM seriada (‘observar e escanear’), pois muitas crescem pouco; radiocirurgia estereotáxica (ex.: Gamma Knife) é opção para tumores pequenos/médios; a microcirurgia é indicada em tumores grandes, com efeito de massa sobre o tronco/cerebelo ou hidrocefalia. A manobra de Epley trata a VPPB de canal posterior — não tem qualquer papel num tumor. Corticoide em pulso trata surtos desmielinizantes/inflamatórios, não neoplasia benigna do VIII par. Betaistina é sintomático usado na doença de Ménière para reduzir crises, não altera a história natural de um schwannoma. Pérola de prova: nem todo schwannoma opera de imediato — a conduta depende de tamanho, crescimento e sintomas.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 138 — Síndrome Vestibular Crônica; e cap. 155 — Neoplasias Primárias do SNC (schwannoma vestibular).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroimunologia (doença associada ao anticorpo anti-MOG / MOGAD) [RE-ranking]",
+   "tier": "ALTO",
+   "vinheta": "Mulher de 29 anos apresenta, há 5 dias, dor à movimentação ocular e redução da acuidade visual em AMBOS os olhos, com edema de papila à fundoscopia. Refere um episódio prévio, há 8 meses, de sintomas visuais que se recuperaram quase totalmente. A ressonância mostra lesão do nervo óptico bilateral com realce extenso e edema perineural; encéfalo com poucas lesões inespecíficas e medula sem lesões longitudinais. Sorologia: anticorpo anti-aquaporina-4 (anti-AQP4) NEGATIVO e anticorpo anti-MOG POSITIVO em título elevado (ensaio baseado em células).",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável para o quadro.",
+     "alternativas": {
+      "a": "MOGAD (doença do espectro anti-MOG).",
+      "b": "Esclerose múltipla remitente-recorrente.",
+      "c": "Neuromielite óptica por anti-AQP4.",
+      "d": "Neurite óptica idiopática isolada."
+     },
+     "correta": "a",
+     "comentario": "A neurite óptica bilateral, dolorosa, com edema de papila proeminente e recuperação visual habitualmente boa, associada a anti-MOG positivo e anti-AQP4 negativo, define a MOGAD (doença do espectro associada ao anti-MOG). A esclerose múltipla tipicamente cursa com neurite óptica UNILATERAL, lesões desmielinizantes disseminadas no encéfalo (periventriculares/justacorticais) e bandas oligoclonais no líquor — o padrão de imagem e a bilateralidade aqui não são típicos de EM. A neuromielite óptica por anti-AQP4 exigiria anticorpo anti-AQP4 positivo e costuma dar mielite longitudinalmente extensa (≥3 segmentos) e neurite óptica grave com pior prognóstico visual — mas a sorologia AQP4 é negativa. Neurite óptica idiopática isolada é diagnóstico de exclusão e não explica a recorrência com anticorpo específico positivo. Pérola: anti-MOG e anti-AQP4 são mutuamente excludentes na prática e definem entidades distintas.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o achado laboratorial que melhor sustenta o diagnóstico.",
+     "alternativas": {
+      "a": "Bandas oligoclonais exclusivas no líquor.",
+      "b": "Anticorpo sérico anti-MOG positivo por ensaio baseado em células, com anti-AQP4 negativo.",
+      "c": "Anticorpo anti-aquaporina-4 positivo.",
+      "d": "Anticorpo anti-receptor de NMDA positivo."
+     },
+     "correta": "b",
+     "comentario": "O marcador que define a MOGAD é o anti-MOG sérico detectado por cell-based assay (mais específico que ELISA), idealmente em título elevado e persistente. As bandas oligoclonais restritas ao líquor são a assinatura da esclerose múltipla e costumam ser AUSENTES ou transitórias na MOGAD — sua presença aponta para EM. O anti-AQP4 positivo definiria a neuromielite óptica (NMOSD), entidade diferente com tratamento e prognóstico próprios; aqui é negativo. O anti-receptor de NMDA caracteriza a encefalite anti-NMDA (psicose, crises, discinesias, disautonomia), quadro clínico completamente distinto. Cuidado com falso-positivo de anti-MOG em títulos baixos: por isso valoriza-se título alto + quadro clínico compatível.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica de primeira linha no surto agudo.",
+     "alternativas": {
+      "a": "Natalizumabe como terapia de primeira linha.",
+      "b": "Apenas observação, por ser condição autolimitada.",
+      "c": "Riluzol para modificar o curso da doença.",
+      "d": "Corticoide EV em altas doses (pulsoterapia); imunoglobulina ou plasmaférese se refratário."
+     },
+     "correta": "d",
+     "comentario": "O surto agudo da MOGAD responde bem à pulsoterapia com metilprednisolona endovenosa em altas doses; nos casos graves ou refratários, escalona-se para imunoglobulina intravenosa ou plasmaférese. O prognóstico visual costuma ser favorável, mas o desmame rápido de corticoide associa-se a recaídas, o que muitas vezes justifica corticoide oral prolongado e, nas formas recorrentes, imunoterapia de manutenção. O natalizumabe é terapia modificadora da esclerose múltipla e NÃO é primeira linha na MOGAD — algumas terapias específicas de EM podem inclusive não beneficiar ou piorar doenças do espectro NMO/MOG. Tratar como ‘autolimitada’ e apenas observar é arriscado, pela possibilidade de perda visual e de recorrência. O riluzol é droga da esclerose lateral amiotrófica, sem qualquer papel aqui. Pegadinha clássica: confundir MOGAD/NMOSD com EM e prescrever DMT de EM.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 91 — MOGAD e GFAP; e cap. 88 — Espectro da Neuromielite Óptica.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (dissecção arterial cervical no jovem)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 34 anos, previamente hígido, procura a emergência com cervicalgia e cefaleia hemicraniana à direita iniciadas horas após uma sessão de manipulação cervical em quiropraxia. Evoluiu com hemiparesia esquerda leve e, ao exame, apresenta ptose e miose à direita (sem anidrose facial marcante) — uma síndrome de Horner parcial dolorosa. Nega hipertensão, diabetes, tabagismo ou fibrilação atrial. A tomografia de crânio sem contraste não mostra hemorragia.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o mecanismo/diagnóstico mais provável do quadro.",
+     "alternativas": {
+      "a": "Dissecção da artéria carótida interna cervical.",
+      "b": "Enxaqueca com aura motora.",
+      "c": "AVC isquêmico aterotrombótico.",
+      "d": "Trombose venosa cerebral."
+     },
+     "correta": "a",
+     "comentario": "A tríade dor cervical/cefaleia unilateral + síndrome de Horner dolorosa (por lesão das fibras simpáticas periarteriais) + isquemia cerebral em paciente jovem após trauma cervical menor é altamente sugestiva de dissecção de carótida interna — causa importante de AVC no jovem. A enxaqueca com aura pode dar déficit focal transitório, mas não explica a síndrome de Horner nem o gatilho traumático, e a aura é tipicamente positiva e migratória. AVC aterotrombótico é improvável em jovem sem fatores de risco vasculares clássicos. A trombose venosa cerebral cursa com cefaleia progressiva, hipertensão intracraniana, crises e déficits que não respeitam território arterial, e associa-se a estados pró-trombóticos, não a Horner doloroso pós-manipulação. Pérola: AVC no jovem + dor cervical + Horner = pensar dissecção.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame de imagem mais adequado para confirmar a etiologia.",
+     "alternativas": {
+      "a": "Doppler transcraniano isolado.",
+      "b": "Punção lombar com estudo do líquor.",
+      "c": "Eletroencefalograma.",
+      "d": "Angiorressonância (ou angiotomografia) dos vasos cervicais, buscando o hematoma mural / sinal do crescente."
+     },
+     "correta": "d",
+     "comentario": "A confirmação da dissecção depende da imagem vascular dos vasos do pescoço: a angio-RM com supressão de gordura mostra o hematoma intramural em crescente (sinal do crescente) e a estenose ‘em chama de vela’; a angio-TC é alternativa rápida e igualmente útil. O Doppler pode sugerir alteração de fluxo, mas isoladamente não caracteriza a parede arterial nem fecha o diagnóstico. A punção lombar é útil na hemorragia subaracnóidea/neuroinfecção e não avalia a artéria — além de desnecessária com TC sem sangue e quadro isquêmico. O EEG avalia atividade elétrica cortical (crises), sem papel na investigação vascular. Diretriz: na suspeita de dissecção cervical, priorizar angio-RM/angio-TC de vasos cervicais e intracranianos.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica inicial mais apropriada.",
+     "alternativas": {
+      "a": "Corticoterapia sistêmica em altas doses.",
+      "b": "Endarterectomia cirúrgica de urgência.",
+      "c": "Terapia antitrombótica (antiagregação ou anticoagulação) por 3 a 6 meses, com reavaliação por imagem.",
+      "d": "Apenas analgesia e alta, sem antitrombótico."
+     },
+     "correta": "c",
+     "comentario": "O tratamento padrão da dissecção cervical extracraniana é antitrombótico por 3 a 6 meses (antiagregante plaquetário ou anticoagulação — estudos como o CADISS mostraram eficácia semelhante entre as duas estratégias na prevenção de novos eventos), seguido de reimagem para documentar recanalização e decidir a manutenção. O corticoide não tem papel — a dissecção é lesão mecânica da parede, não inflamatória. A endarterectomia de urgência não é a conduta de rotina; intervenção endovascular fica reservada a casos selecionados com isquemia recorrente apesar do tratamento clínico ou pseudoaneurisma sintomático. Dar alta só com analgesia ignora o alto risco de AVC nas primeiras semanas. Observação: se o paciente estiver na janela e preencher critérios, a trombólise pode ser considerada na dissecção extracraniana; a decisão é individualizada.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 46 — Síndromes Vasculares Isquêmicas; e MS — Manual de Rotinas para Atenção ao AVC.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroinfecção (abscesso cerebral)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 45 anos, com história de otite média crônica à direita, apresenta há 8 dias cefaleia progressiva, febre baixa e, nas últimas 48 horas, hemiparesia esquerda e uma crise convulsiva focal. Ao exame, febril, com papiledema incipiente. A ressonância mostra lesão única temporal direita com realce anelar de paredes finas e regulares, edema perilesional importante e restrição à difusão no centro da lesão.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a principal hipótese diagnóstica.",
+     "alternativas": {
+      "a": "Abscesso cerebral.",
+      "b": "Glioblastoma multiforme.",
+      "c": "Neurotoxoplasmose.",
+      "d": "Metástase cerebral única."
+     },
+     "correta": "a",
+     "comentario": "A evolução subaguda com febre, foco parameníngeo (otite média crônica contígua), déficit focal, crise e lesão com realce anelar de paredes finas e — o dado mais discriminante — RESTRIÇÃO à difusão no centro necrótico-purulento define o abscesso cerebral. O glioblastoma também faz realce anelar, mas com paredes espessas/irregulares e SEM restrição central à difusão (o centro necrótico não restringe), além de curso sem febre. A neurotoxoplasmose ocorre em imunossuprimidos (HIV com CD4 baixo), costuma dar lesões múltiplas com realce nodular/anelar em núcleos da base — o paciente não tem contexto de imunossupressão. A metástase única é possível, mas o quadro infeccioso com foco otológico contíguo e a difusão restrita apontam fortemente para abscesso. Pérola: a difusão (DWI) é o que separa abscesso (restringe) de tumor cístico/necrótico (não restringe).",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o achado de imagem que melhor diferencia essa lesão de uma neoplasia necrótica.",
+     "alternativas": {
+      "a": "Realce anelar de paredes espessas e irregulares.",
+      "b": "Ausência de edema perilesional.",
+      "c": "Restrição à difusão (DWI) no interior da lesão, com baixo coeficiente de difusão aparente (ADC).",
+      "d": "Calcificações grosseiras no interior."
+     },
+     "correta": "c",
+     "comentario": "O centro de um abscesso é pus, com alta celularidade/viscosidade, o que gera restrição à difusão (hipersinal em DWI e queda do ADC) — o marcador mais confiável para diferenciá-lo de tumor cístico/necrótico, cujo centro NÃO restringe. Realce anelar de paredes espessas e irregulares é mais típico de neoplasia (glioblastoma/metástase), não o que distingue a favor de abscesso. Ausência de edema seria atípica: tanto abscesso quanto tumor costumam ter edema vasogênico importante, logo não serve para diferenciar. Calcificações grosseiras sugerem outras etiologias (ex.: neurocisticercose calcificada, alguns tumores), não abscesso piogênico agudo. Diretriz de neuroimagem: sempre incluir DWI/ADC na avaliação de lesão com realce anelar.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada.",
+     "alternativas": {
+      "a": "Punção lombar imediata para coleta de líquor.",
+      "b": "Corticoide isolado, sem antibiótico.",
+      "c": "Antibioticoterapia EV empírica prolongada + drenagem/aspiração neurocirúrgica.",
+      "d": "Antifúngico empírico como terapia única."
+     },
+     "correta": "c",
+     "comentario": "O abscesso cerebral com efeito de massa é tratado com antibioticoterapia EV empírica de amplo espectro (ajustada por cultura) por várias semanas, combinada à aspiração/drenagem neurocirúrgica, que também fornece material para cultura e descomprime a lesão. A punção lombar está CONTRAINDICADA diante de lesão com efeito de massa e papiledema, pelo risco de herniação, e raramente ajuda no diagnóstico do abscesso. Corticoide pode ser usado de forma adjuvante para controlar edema/HIC, mas nunca isolado — não trata a infecção. Antifúngico empírico como terapia única é inadequado em paciente imunocompetente com foco otológico bacteriano; a cobertura empírica inicial é antibacteriana. Pérola: origem contígua (otite/sinusite/mastoidite) exige também tratar o foco primário.\n📚 Leitura sugerida (bloco): Adams & Victor — Principles of Neurology, ‘Infections of the Nervous System’ (abscesso cerebral); e Tratado de Neurologia da ABN (3ª ed., 2025), Seção de Neuroinfecção.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias (cefaleia por uso excessivo de medicação)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 38 anos, com enxaqueca episódica desde a adolescência, relata que nos últimos meses a cefaleia tornou-se quase diária. Para aliviar a dor, passou a usar um analgésico combinado com cafeína praticamente todos os dias, além de um triptano em vários dias da semana. Refere que a dor melhora por poucas horas e retorna. Ao exame neurológico está normal, sem sinais de alarme. Relata cefaleia em ≥15 dias por mês há mais de 3 meses.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável.",
+     "alternativas": {
+      "a": "Enxaqueca crônica sem uso excessivo.",
+      "b": "Cefaleia do tipo tensional episódica.",
+      "c": "Cefaleia secundária a hipertensão intracraniana.",
+      "d": "Cefaleia por uso excessivo de medicação."
+     },
+     "correta": "d",
+     "comentario": "O padrão de cefaleia que se cronifica (≥15 dias/mês por >3 meses) em paciente com enxaqueca prévia que passou a usar sintomáticos com frequência excessiva caracteriza a cefaleia por uso excessivo de medicação (CUEM), na qual o próprio analgésico perpetua a dor. A enxaqueca crônica ‘pura’ compartilha a frequência ≥15 dias/mês, mas a chave aqui é o consumo abusivo de sintomático em vários dias por semana — sem isso, não se rotula CUEM; com ele, a CUEM é o diagnóstico e o alvo terapêutico. A cefaleia tensional episódica é infrequente e não explica a dor quase diária com abuso medicamentoso. A cefaleia por hipertensão intracraniana traria sinais de alarme (piora ao deitar/manobra de Valsalva, papiledema, déficit) — ausentes, com exame normal. Pérola: sempre perguntar quantos dias por mês o paciente usa analgésico/triptano.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o critério que define o uso excessivo de medicação sintomática.",
+     "alternativas": {
+      "a": "Uso de qualquer analgésico em 5 dias por mês por 1 mês.",
+      "b": "Uso de profilático diário por mais de 6 meses.",
+      "c": "Uso de sintomático apenas durante a aura visual.",
+      "d": "Triptano/ergot/opioide/combinado em ≥10 dias/mês, ou analgésico simples em ≥15 dias/mês, por >3 meses."
+     },
+     "correta": "d",
+     "comentario": "Pela ICHD-3, define-se uso excessivo quando o paciente toma triptanos, derivados do ergot, opioides ou analgésicos COMBINADOS em 10 ou mais dias por mês, OU analgésicos simples (AINE/paracetamol) em 15 ou mais dias por mês, por mais de 3 meses, em quem já tem cefaleia primária. A opção de ‘5 dias/mês por 1 mês’ está muito abaixo do limiar e do tempo exigido. ‘Profilático diário por mais de 6 meses’ descreve tratamento preventivo correto — o problema da CUEM é o abuso do SINTOMÁTICO, não do profilático. Usar sintomático só na aura não configura abuso (é uso pontual e apropriado). Números de prova: 10 dias/mês para triptano/ergot/opioide/combinação; 15 dias/mês para analgésico simples.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta de primeira linha.",
+     "alternativas": {
+      "a": "Aumentar a dose do analgésico combinado.",
+      "b": "Suspender (desmamar) a medicação em abuso e instituir tratamento profilático da enxaqueca.",
+      "c": "Substituir por opioide de uso diário.",
+      "d": "Solicitar neuroimagem urgente antes de qualquer conduta."
+     },
+     "correta": "b",
+     "comentario": "O manejo da CUEM baseia-se em duas frentes: retirar/desmamar o medicamento sobreutilizado (com possível cefaleia de rebote transitória) e iniciar profilaxia adequada da enxaqueca (ex.: betabloqueador, amitriptilina, topiramato, ou anticorpos anti-CGRP), além de orientação e, às vezes, uma medicação ‘ponte’. Aumentar a dose do analgésico perpetua e agrava o ciclo — é justamente o oposto do necessário. Trocar por opioide diário é ainda pior: opioides estão entre os que mais induzem CUEM e devem ser evitados. Neuroimagem urgente não é necessária em cefaleia crônica com exame normal e sem sinais de alarme (red flags); pedi-la de rotina não trata a causa. Pérola: educação do paciente sobre o limite de dias de uso mensal previne recorrência.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 45 — Cefaleia por Uso Excessivo de Medicamentos; e classificação ICHD-3.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Epilepsia (estado de mal epiléptico)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 40 anos, epiléptico em uso irregular de medicação, é trazido à emergência em crise tônico-clônica generalizada contínua que já dura cerca de 7 minutos, sem recuperação da consciência. Mantém-se com desvio ocular, abalos dos quatro membros e sialorreia. Sinais vitais: SatO2 90%, FC 130 bpm, glicemia capilar 88 mg/dL.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a definição operacional que classifica este quadro.",
+     "alternativas": {
+      "a": "Crise febril complexa.",
+      "b": "Estado de mal epiléptico (crise contínua por ≥5 minutos ou crises sem recuperação da consciência).",
+      "c": "Crise focal com consciência preservada.",
+      "d": "Pseudocrise não epiléptica psicogênica."
+     },
+     "correta": "b",
+     "comentario": "Estado de mal epiléptico convulsivo é definido operacionalmente por crise contínua com ≥5 minutos de duração OU por crises repetidas sem recuperação da consciência entre elas — o limiar de 5 minutos substituiu o antigo de 30 minutos justamente para acionar o tratamento precocemente e evitar lesão neuronal. Crise febril complexa ocorre em crianças pequenas no contexto de febre, não em adulto epiléptico. Crise focal com consciência preservada não cursa com abalos generalizados e perda de consciência prolongada. Pseudocrise (crise dissociativa) pode simular, mas o quadro contínuo com dessaturação, taquicardia e desvio ocular sustentado é compatível com atividade epiléptica real — e, na dúvida, trata-se como estado de mal. Pérola: tempo é cérebro no estado de mal — cronometre a crise.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a medicação de primeira linha a ser administrada imediatamente.",
+     "alternativas": {
+      "a": "Fenobarbital por via oral.",
+      "b": "Solução glicosada hipertônica em bolus.",
+      "c": "Sulfato de magnésio endovenoso.",
+      "d": "Benzodiazepínico endovenoso (diazepam ou lorazepam), repetível conforme resposta."
+     },
+     "correta": "d",
+     "comentario": "A primeira linha do estado de mal é o benzodiazepínico endovenoso (lorazepam, ou diazepam, e midazolam IM quando não há acesso), que interrompe a maioria das crises quando dado precocemente e em dose adequada — o subdosar é erro comum. Fenobarbital por via oral não tem ação rápida e é inviável em paciente convulsivando; o fenobarbital EV é opção de linha posterior, não a inicial. Glicose hipertônica só se justifica se houver hipoglicemia — a glicemia aqui é normal (88 mg/dL), portanto não é a conduta. Sulfato de magnésio é o tratamento das crises da eclâmpsia (gestante/puérpera), não do estado de mal epiléptico comum. Sequência: garantir via aérea/O2, acesso, glicemia, e BZD EV — nesta ordem, sem atrasar o BZD.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta caso as crises persistam após benzodiazepínico e um antiepiléptico de segunda linha.",
+     "alternativas": {
+      "a": "Repetir doses sucessivas apenas de benzodiazepínico.",
+      "b": "Iniciar anestésico endovenoso contínuo (midazolam ou propofol) em UTI, com intubação e ventilação mecânica.",
+      "c": "Aguardar resolução espontânea sob observação.",
+      "d": "Trocar para fenobarbital por via oral."
+     },
+     "correta": "b",
+     "comentario": "Se o estado de mal persiste após benzodiazepínico e um antiepiléptico de segunda linha (fenitoína, valproato ou levetiracetam EV), configura-se estado de mal refratário, cujo manejo é anestésico endovenoso contínuo (midazolam, propofol — e, em casos superrefratários, tiopental/cetamina) em UTI, sob intubação, ventilação mecânica e monitorização com EEG contínuo, titulando até controle de crises ou surto-supressão. Repetir apenas benzodiazepínico além de 2 doses aumenta o risco de depressão respiratória sem controlar as crises. ‘Aguardar resolução espontânea’ é inaceitável pelo risco de dano neuronal e complicações sistêmicas (rabdomiólise, hipertermia, arritmia). Fenobarbital VO não tem papel numa crise refratária ativa. Vantagem do intensivista: o manejo do estado de mal refratário é essencialmente cuidado de UTI.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 84 — Estado de Mal Epiléptico; e MS — PCDT da Epilepsia.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtornos do Movimento (doença de Huntington)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 42 anos é levado ao ambulatório por movimentos involuntários irregulares e ‘dançantes’ nos membros e na face, que se intensificaram no último ano. A família relata também irritabilidade, apatia e queda do rendimento no trabalho, com esquecimentos. O pai faleceu em instituição com quadro semelhante de movimentos anormais e ‘demência precoce’. Ao exame, há coreia generalizada, impersistência motora e leve declínio cognitivo, sem rigidez ou tremor de repouso.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável.",
+     "alternativas": {
+      "a": "Coreia de Sydenham.",
+      "b": "Doença de Wilson.",
+      "c": "Doença de Huntington.",
+      "d": "Discinesia tardia por neurolépticos."
+     },
+     "correta": "c",
+     "comentario": "A tríade de coreia progressiva + alterações psiquiátricas/comportamentais + declínio cognitivo em adulto de meia-idade, com história familiar compatível com herança autossômica dominante, é o quadro clássico da doença de Huntington. A coreia de Sydenham ocorre em crianças/adolescentes após infecção estreptocócica (febre reumática), é autolimitada e não cursa com demência progressiva nem herança dominante. A doença de Wilson acomete jovens e combina sintomas neuropsiquiátricos com hepatopatia e anéis de Kayser-Fleischer, com ceruloplasmina baixa — ausentes aqui. A discinesia tardia decorre do uso crônico de antipsicóticos/antieméticos bloqueadores D2, com movimentos orofaciais, sem história familiar e sem demência progressiva. Pérola: coreia + herança dominante + declínio cognitivo/psiquiátrico = Huntington até prova em contrário.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o achado que confirma a etiologia e a base fisiopatológica.",
+     "alternativas": {
+      "a": "Expansão de repetições CAG no gene HTT (cromossomo 4), com atrofia do núcleo caudado.",
+      "b": "Deficiência de cobre com ceruloplasmina reduzida.",
+      "c": "Anticorpo antiestreptocócico elevado.",
+      "d": "Hipersensibilidade de receptores dopaminérgicos por neuroléptico."
+     },
+     "correta": "a",
+     "comentario": "A doença de Huntington é causada pela expansão instável do trinucleotídeo CAG no gene HTT (cromossomo 4p), confirmada por teste genético; quanto maior o número de repetições, mais precoce o início (fenômeno de antecipação). A neuroimagem mostra atrofia do núcleo caudado com dilatação dos cornos frontais dos ventrículos. Ceruloplasmina reduzida e cobre alterado definem a doença de Wilson, não Huntington. Anticorpo antiestreptocócico (ASLO) elevado apontaria para coreia de Sydenham/febre reumática. A hipersensibilidade/‘up-regulation’ de receptores D2 por uso crônico de neuroléptico é o mecanismo proposto da discinesia tardia. Aconselhamento genético é essencial — o teste tem implicações familiares e reprodutivas profundas. Pérola: pedir o teste genético só após aconselhamento adequado.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais apropriada.",
+     "alternativas": {
+      "a": "Penicilamina para quelação de cobre.",
+      "b": "Sintomático da coreia (inibidor de VMAT2 ou antipsicótico) + aconselhamento genético; sem cura.",
+      "c": "Antibioticoprofilaxia com penicilina benzatina.",
+      "d": "Suspensão do antipsicótico como medida curativa."
+     },
+     "correta": "b",
+     "comentario": "Não há tratamento modificador da doença de Huntington; o manejo é sintomático e multidisciplinar. Para a coreia incapacitante, usam-se inibidores da VMAT2 (tetrabenazina, deutetrabenazina) ou antipsicóticos; os sintomas psiquiátricos (depressão, irritabilidade, psicose) e cognitivos também são tratados, e o aconselhamento genético para o paciente e familiares é parte central do cuidado. A penicilamina é quelante de cobre usado na doença de Wilson, sem papel aqui. A profilaxia com penicilina benzatina previne recorrências de febre reumática (contexto da coreia de Sydenham), não se aplica à Huntington. Suspender antipsicótico ‘como cura’ confunde com discinesia tardia — na Huntington a coreia é da própria doença, não medicamentosa. Pérola: o objetivo é qualidade de vida e função, com suporte à família.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 62 — Doença de Huntington e Síndromes Huntington-Like.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas (morte encefálica)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 48 anos deu entrada há 3 dias após traumatismo cranioencefálico grave por acidente automobilístico, evoluindo com coma profundo. Encontra-se em ventilação mecânica, sem sedativos há tempo suficiente, normotérmico (36,5°C), com pressão arterial estável sem necessidade de altas doses de vasopressor e sem distúrbios hidroeletrolíticos ou endócrinos graves. A equipe cogita a abertura do protocolo de determinação de morte encefálica.",
+   "perguntas": [
+    {
+     "enunciado": "Indique os pré-requisitos que devem estar presentes antes de iniciar o protocolo.",
+     "alternativas": {
+      "a": "Apenas coma de causa indeterminada com pupilas fixas.",
+      "b": "Somente ausência de reflexo de tosse ao aspirar.",
+      "c": "Causa irreversível conhecida, sem confundidores (hipotermia, sedação, distúrbio metabólico) e com estabilidade clínica.",
+      "d": "Apenas eletroencefalograma isolado sem exame clínico."
+     },
+     "correta": "c",
+     "comentario": "Antes de abrir o protocolo de morte encefálica é obrigatório ter uma causa conhecida, irreversível e capaz de justificar o quadro (aqui, TCE grave), além de excluir confundidores que possam simular ausência de função encefálica: hipotermia, uso de sedativos/bloqueadores neuromusculares, e distúrbios hidroeletrolíticos, ácido-básicos ou endócrinos graves; a temperatura corporal e a pressão arterial devem estar adequadas. Coma de causa indeterminada NÃO permite abrir o protocolo — a causa precisa ser estabelecida. A ausência isolada de um único reflexo não basta; a avaliação é sistemática de todos os reflexos de tronco. EEG isolado não substitui o exame clínico — o diagnóstico é primariamente clínico, com exame complementar comprobatório. Pérola: sem os pré-requisitos cumpridos, qualquer exame de morte encefálica é inválido.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique como deve ser conduzida a confirmação diagnóstica, conforme a normativa vigente.",
+     "alternativas": {
+      "a": "Um único exame clínico por qualquer médico da equipe.",
+      "b": "Apenas o teste de apneia, dispensando o exame clínico.",
+      "c": "Somente exame complementar, sem exame clínico.",
+      "d": "Dois exames clínicos por médicos diferentes, teste de apneia positivo e exame complementar comprobatório."
+     },
+     "correta": "d",
+     "comentario": "Pela Resolução CFM 2.173/2017, a determinação de morte encefálica exige DOIS exames clínicos realizados por médicos diferentes e capacitados (um deles com formação específica), demonstrando coma não perceptivo (aperceptivo) e ausência de todos os reflexos de tronco (fotomotor, córneo-palpebral, oculocefálico, oculovestibular, tosse), um teste de apneia positivo (ausência de movimentos respiratórios com PaCO2 elevada) e, obrigatoriamente, um exame complementar que comprove ausência de atividade encefálica (perfusão, atividade elétrica ou metabólica). Um único exame ou um médico só não satisfaz a norma. O teste de apneia é parte do exame, não o substitui. O exame complementar é complementar — jamais isolado, sem o exame clínico. Observa-se ainda intervalo mínimo entre os exames conforme a faixa etária. Pérola: a família deve ser informada durante todo o processo.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Após a confirmação, indique a conduta ética adequada.",
+     "alternativas": {
+      "a": "Aguardar assistolia espontânea antes de qualquer comunicação.",
+      "b": "Retirar o suporte imediatamente sem concluir o protocolo.",
+      "c": "Manter suporte indefinidamente independentemente do diagnóstico.",
+      "d": "Comunicar formalmente a família e considerar a possibilidade de doação de órgãos, conforme a legislação."
+     },
+     "correta": "d",
+     "comentario": "Confirmada a morte encefálica, o paciente está legalmente morto; a conduta ética e legal é comunicar formalmente a família de maneira clara e acolhedora e, quando aplicável, articular com a Central de Notificação, Captação e Distribuição de Órgãos a possibilidade de doação (respeitando a autorização familiar). Aguardar a assistolia para só então comunicar é incorreto — o diagnóstico de morte encefálica é a própria declaração de óbito. Retirar o suporte ‘imediatamente’ sem concluir todas as etapas do protocolo é inadequado e potencialmente ilegal; toda a sequência precisa estar documentada. Manter suporte indefinidamente após o diagnóstico confirmado, sem finalidade de doação, também não se justifica. Pérola: morte encefálica = morte; a comunicação sensível à família e a possibilidade de doação são deveres do time assistencial.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 22 — Transtornos do Nível de Consciência; e Resolução CFM 2.173/2017 (determinação de morte encefálica).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição / Aleitamento materno e retorno ao trabalho [RE-cota individual: Leonardo]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mãe de um lactente de 3 meses, em aleitamento materno exclusivo e com bom ganho de peso, comparece à UBS preocupada porque vai retornar ao trabalho na próxima semana e teme ‘ser obrigada a desmamar’. Pergunta o que fazer para continuar amamentando e como oferecer o leite quando estiver ausente. A criança está saudável, com desenvolvimento adequado.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a orientação mais adequada para manter a amamentação.",
+     "alternativas": {
+      "a": "Orientar a ordenha e o armazenamento do leite materno para manter o aleitamento exclusivo até os 6 meses.",
+      "b": "Introduzir fórmula infantil como substituto principal a partir de agora.",
+      "c": "Iniciar alimentação complementar aos 3 meses para reduzir as mamadas.",
+      "d": "Recomendar o desmame por causa do retorno ao trabalho."
+     },
+     "correta": "a",
+     "comentario": "O retorno ao trabalho não é indicação de desmame: a conduta é orientar a mãe a ordenhar o leite (manual ou com bomba) e armazená-lo corretamente para ser oferecido à criança em sua ausência, mantendo o aleitamento materno exclusivo até os 6 meses, como recomendam a OMS, o Ministério da Saúde e a SBP. Introduzir fórmula como alimento principal é desnecessário e reduz a produção láctea por diminuir o estímulo de sucção. Iniciar alimentação complementar aos 3 meses é errado — a introdução alimentar deve começar aos 6 meses; antes disso aumenta risco de infecções e alergias e prejudica o aleitamento. Recomendar o desmame contraria as diretrizes e os direitos da mulher trabalhadora. Pérola: manter a frequência de esvaziamento da mama (por sucção ou ordenha) é o que sustenta a produção.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a orientação correta sobre a conservação do leite materno ordenhado cru (domiciliar).",
+     "alternativas": {
+      "a": "Deve ser sempre fervido antes de oferecer à criança.",
+      "b": "Pode ser conservado na geladeira por até 12 horas e no congelador/freezer por até 15 dias, descongelado em banho-maria e sem ferver.",
+      "c": "Pode permanecer em temperatura ambiente por até 12 horas.",
+      "d": "Só pode ser conservado se aquecido em forno de micro-ondas."
+     },
+     "correta": "b",
+     "comentario": "As recomendações do Ministério da Saúde/Rede de Bancos de Leite para o leite ordenhado cru no domicílio são: conservação sob refrigeração (geladeira) por até 12 horas e no congelador/freezer por até 15 dias; o descongelamento e o aquecimento devem ser feitos em banho-maria (fora do fogo), agitando suavemente, sem ferver e sem micro-ondas. Ferver o leite destrói fatores imunológicos e nutrientes — não deve ser feito. Deixar em temperatura ambiente por 12 horas é inadequado, pelo risco de proliferação bacteriana (à temperatura ambiente o tempo seguro é muito curto). O micro-ondas é contraindicado porque aquece de forma desigual (risco de queimadura) e degrada componentes do leite. Pérola: identificar o frasco com data/hora e usar primeiro o mais antigo.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique os direitos legais que apoiam a manutenção da amamentação da mulher trabalhadora.",
+     "alternativas": {
+      "a": "Licença-maternidade e pausas diárias para amamentar até os 6 meses de vida do filho, previstas na legislação trabalhista.",
+      "b": "Nenhum direito específico assegura tempo para amamentar no trabalho.",
+      "c": "Obrigatoriedade de desmame ao término da licença-maternidade.",
+      "d": "Direito exclusivo a trabalho remoto permanente para todas as lactantes."
+     },
+     "correta": "a",
+     "comentario": "A legislação brasileira ampara a amamentação da trabalhadora: a licença-maternidade (120 dias, podendo ser ampliada em programas como o Empresa Cidadã) e, no retorno ao trabalho, o direito a dois descansos especiais de meia hora cada durante a jornada para amamentar até que o filho complete 6 meses (CLT), além de creche/local para amamentação em determinadas situações. Afirmar que não há direito algum é falso e contraria a CLT. Não existe ‘obrigatoriedade de desmame’ ao fim da licença — ao contrário, a lei busca viabilizar a continuidade da amamentação. Trabalho remoto permanente não é um direito universal das lactantes. Do ponto de vista de saúde coletiva, políticas de proteção à amamentação (Marco Legal da Primeira Infância, NBCAL, Estratégia Amamenta e Alimenta Brasil) reduzem morbimortalidade infantil. Pérola: informar a mãe sobre seus direitos é parte do cuidado na APS.\n📚 Leitura sugerida (bloco): Nutrição em Pediatria na Prática Clínica (Sarni, 2021) — https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view; e SBP — Guia Prático de Aleitamento Materno.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia / Infecções congênitas (citomegalovírus congênito) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Recém-nascido, 7 dias de vida, nascido “pequeno para a idade gestacional”, que apresentou icterícia, é trazido ao ambulatório de seguimento do hospital com relato de dificuldade para mamar e consequente baixo ganho de peso. A gravidez foi tranquila, mas, no segundo trimestre, a mãe apresentou febre e uma erupção cutânea discreta, que desapareceu sem tratamento. Ao exame físico, o bebê apresenta manutenção da icterícia com a qual saiu da maternidade, e hepatoesplenomegalia. Diante da história, o pediatra suspeitou de uma infecção congênita e pretende solicitar exames laboratoriais para investigação.",
+   "perguntas": [
+    {
+     "enunciado": "Com base no caso clínico, indique, dentre os mecanismos fisiopatológicos citados, o que mais provavelmente causou a icterícia, nesse contexto:",
+     "alternativas": {
+      "a": "Aumento da produção de hemoglobina fetal.",
+      "b": "Hemólise intrauterina causada pela presença de um agente infeccioso.",
+      "c": "Aumento da reabsorção de bilirrubina intestinal.",
+      "d": "Inibição da síntese de bilirrubina direta pelo fígado."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O conjunto RN PIG + icterícia persistente + hepatoesplenomegalia + história materna de febre e exantema na gestação configura infecção congênita (TORCHZ), sendo o citomegalovírus a causa mais comum de infecção congênita no Brasil. Nesse contexto, a icterícia decorre em grande parte de hemólise desencadeada pelo agente infeccioso (além de comprometimento hepático), o que aumenta a bilirrubina. ‘Aumento da produção de hemoglobina fetal’ não é mecanismo de icterícia — a HbF é fisiológica e sua troca não explica a colestase/hemólise do quadro. ‘Reabsorção intestinal aumentada de bilirrubina’ (circulação êntero-hepática) contribui na icterícia do aleitamento, mas não é o mecanismo central numa infecção congênita com hepatoesplenomegalia. ‘Inibição da síntese de bilirrubina direta pelo fígado’ está conceitualmente incorreta — o fígado conjuga (não ‘sintetiza’) a bilirrubina, e a hepatopatia infecciosa cursa com aumento, não bloqueio isolado da fração direta. Pérola: PIG + icterícia + hepatoesplenomegalia = investigar TORCHZ.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame mais sensível e específico para confirmar a suspeita diagnóstica de infecção congênita nesse caso:",
+     "alternativas": {
+      "a": "Reação em Cadeia da Polimerase (PCR).",
+      "b": "Sorologia IgG e IgM.",
+      "c": "Ressonância magnética de crânio.",
+      "d": "Teste de triagem auditiva neonatal."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Para o CMV congênito, o exame de escolha é a PCR (detecção do DNA viral, idealmente na urina ou saliva) coletada nas primeiras 2–3 semanas de vida — janela que diferencia infecção congênita de perinatal, com alta sensibilidade e especificidade. A sorologia IgG/IgM tem limitações no período neonatal: o IgG é transferido da mãe e o IgM tem sensibilidade menor, podendo dar falsos resultados. A ressonância de crânio ajuda a avaliar sequelas (calcificações periventriculares, malformações), mas não confirma a etiologia. A triagem auditiva é fundamental no seguimento (o CMV é causa importante de surdez neurossensorial), porém detecta a consequência, não faz o diagnóstico etiológico. Pérola: PCR para CMV precisa ser coletada precocemente (≤3 semanas) para caracterizar infecção congênita.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o fármaco mais adequado para tratamento desse recém-nascido, caso seja confirmada a principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Valganciclovir.",
+      "b": "Azitromicina.",
+      "c": "Fluconazol.",
+      "d": "Cidofovir."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Confirmado o CMV congênito sintomático (especialmente com acometimento do SNC ou risco auditivo), o tratamento é o valganciclovir oral (ou ganciclovir EV), que reduz a progressão da perda auditiva e melhora desfechos de neurodesenvolvimento, exigindo monitorização de neutropenia. A azitromicina é macrolídeo para infecções bacterianas/atípicas (ex.: pneumonia por Chlamydia), sem ação sobre o CMV. O fluconazol é antifúngico, também sem papel aqui. O cidofovir tem atividade anti-CMV, mas é nefrotóxico e reservado a situações especiais/resistência — não é a primeira escolha no neonato. Diretriz: tratar CMV congênito sintomático por tempo prolongado (usualmente 6 meses) com valganciclovir, sob vigilância hematológica. Diferencial de conduta: nem toda infecção congênita se trata com antiviral — sífilis é penicilina, toxoplasmose é sulfadiazina+pirimetamina+ácido folínico.\n📚 Leitura sugerida (bloco): Videoaula R+ Pediatria MEDGRUPO — Infecções congênitas / TORCHZ (https://drive.google.com/file/d/1CiChqEowE8tDT6gxfUZ28CbmYkemZLiL/view); e SBP — Documento Científico sobre infecções congênitas.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Cardiologia (comunicação interventricular) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "MÉDIO",
+   "vinheta": "Recém-nascida, 15 dias de vida, é levada ao pediatra por apresentar dificuldade respiratória, especialmente ao se alimentar, o que a faz interromper as mamadas frequentemente. A mãe relata que a bebê sua excessivamente. Ao exame físico, apresenta taquipneia e à ausculta mostra sopro cardíaco holossistólico, de timbre rude, mais audível à nível da borda esternal esquerda, nos 2/3 inferiores, sem outros sintomas.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o caso clínico, indique a suspeita diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Comunicação interventricular.",
+      "b": "Persistência do canal arterial.",
+      "c": "Tetralogia de Fallot.",
+      "d": "Estenose pulmonar."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O sopro HOLOSSISTÓLICO rude em borda esternal esquerda baixa (2/3 inferiores), associado a sinais de insuficiência cardíaca com hiperfluxo pulmonar (taquipneia, sudorese e cansaço às mamadas) em lactente jovem, é o quadro clássico da comunicação interventricular — o defeito cardíaco congênito mais comum. A persistência do canal arterial gera sopro CONTÍNUO ‘em maquinária’ em região infraclavicular, não holossistólico em foco esquerdo baixo. A tetralogia de Fallot é cardiopatia CIANÓTICA, com sopro de estenose pulmonar e crises hipoxêmicas — a paciente é acianótica, com padrão de hiperfluxo. A estenose pulmonar isolada dá sopro SISTÓLICO EJETIVO em foco pulmonar (borda esternal esquerda alta), com clique, e não holossistólico baixo. Pérola: localizar o sopro e definir o timbre orienta o diagnóstico topográfico da cardiopatia.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame complementar mais importante nesse caso:",
+     "alternativas": {
+      "a": "Eletrocardiograma.",
+      "b": "Ressonância Magnética.",
+      "c": "Ecocardiograma.",
+      "d": "Cintilografia miocárdica."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O ecocardiograma com Doppler é o exame de escolha para as cardiopatias congênitas: define a anatomia do defeito, o tamanho da CIV, a direção e a magnitude do shunt e a repercussão hemodinâmica, sem radiação e à beira do leito. O eletrocardiograma pode mostrar sobrecarga de câmaras, mas não define a anatomia nem confirma o defeito. A ressonância magnética cardíaca é útil em anatomias complexas ou quando o eco é insuficiente, não sendo o exame inicial. A cintilografia miocárdica avalia perfusão/isquemia, situação de adultos com doença coronariana, sem papel no diagnóstico de CIV no lactente. Diretriz: sopro cardíaco com sinais de repercussão em lactente → ecocardiograma.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Quanto à conduta terapêutica para esse caso, é correto afirmar que, na maioria dos casos semelhantes:",
+     "alternativas": {
+      "a": "Diuréticos são medicamentos obrigatórios.",
+      "b": "Ocorre correção, sem tratamento, até o segundo ano de vida.",
+      "c": "Está indicado o uso de antibióticos como profilaxia de endocardite.",
+      "d": "Procedimento cirúrgico para correção deve ser realizado prontamente."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A maioria das CIVs, sobretudo as pequenas e musculares, fecha espontaneamente nos primeiros anos de vida (boa parte até o segundo ano), o que justifica acompanhamento clínico nos casos sem repercussão importante. Diuréticos NÃO são obrigatórios — são usados apenas quando há insuficiência cardíaca com sobrecarga volêmica sintomática, não em toda CIV. A profilaxia de endocardite com antibiótico não é indicada rotineiramente na CIV isolada não operada (as diretrizes restringiram muito as indicações de profilaxia); logo, afirmar que ‘está indicada’ é incorreto. Cirurgia ‘prontamente’ não se aplica à maioria — ela é reservada a CIVs grandes com insuficiência cardíaca refratária, hiperfluxo importante ou hipertensão pulmonar. Pérola: CIV pequena e assintomática = observar; a intervenção é para a repercussão hemodinâmica significativa.\n📚 Leitura sugerida (bloco): Videoaula R+ Pediatria MEDGRUPO — Cardiopatias congênitas (https://drive.google.com/file/d/1x1mvuTc7zSmYjdHwK5PqK9aEZxSp7pO7/view); e SBP — Documento Científico de Cardiologia Pediátrica.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Reumatologia (artrite idiopática juvenil sistêmica) [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "MÉDIO",
+   "vinheta": "Menino, 5 anos de idade, é levado à UPA com história de febre de até 39,5℃, diária, vespertina, e manchas na pele há 3 semanas, caracterizadas como exantema rosado transitório. Há dor difusa em punhos e joelhos, perda de apetite e fadiga. Ao exame, há febre, linfonodomegalia cervical, hepatomegalia leve e artrite em punhos. Sem exantema no momento.",
+   "perguntas": [
+    {
+     "enunciado": "Identifique a hipótese diagnóstica mais compatível com o quadro descrito:",
+     "alternativas": {
+      "a": "Artrite idiopática juvenil sistêmica.",
+      "b": "Leucemia linfoblástica.",
+      "c": "Febre reumática subclínica.",
+      "d": "Lúpus eritematoso sistêmico."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A combinação de febre alta diária de padrão vespertino (‘em picos’), exantema rosado evanescente que acompanha a febre, artrite, hepatomegalia e linfonodomegalia é o quadro clássico da artrite idiopática juvenil de início sistêmico (doença de Still). A leucemia linfoblástica é um diferencial obrigatório (febre, dor óssea, hepatoesplenomegalia, adenomegalia) e sempre deve ser afastada com hemograma/mielograma antes de iniciar corticoide — porém o exantema evanescente típico e a artrite periférica sustentam a AIJ. A febre reumática exige evidência de estreptococcia prévia e cursa com poliartrite migratória de grandes articulações, cardite e critérios de Jones — não com febre alta diária + rash evanescente. O LES pode dar febre e artrite, mas costuma trazer autoanticorpos (FAN, anti-DNA), acometimento renal/hematológico e rash malar, não o exantema evanescente febre-dependente. Pérola: rash rosado que ‘aparece e some’ com os picos febris é a assinatura da AIJ sistêmica.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Identifique o principal mecanismo fisiopatológico envolvido:",
+     "alternativas": {
+      "a": "Produção excessiva de autoanticorpos específicos contra o colágeno.",
+      "b": "Deposição de imunocomplexos renais e articulares.",
+      "c": "Invasão de células afetadas em tecido sinovial.",
+      "d": "Ativação exagerada do sistema imune inato, com liberação de IL-1, IL-6 e IL-18."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A AIJ sistêmica é considerada uma doença predominantemente autoINFLAMATÓRIA, com ativação do imune inato e papel central das citocinas IL-1, IL-6 e IL-18 — o que explica a febre alta, o rash, a resposta a bloqueadores de IL-1/IL-6 e o risco de síndrome de ativação macrofágica. A ‘produção de autoanticorpos contra o colágeno’ não descreve a AIJ sistêmica (que costuma ser FAN e fator reumatoide negativos); autoanticorpos são mais próprios de doenças autoimunes como o LES/AR. A ‘deposição de imunocomplexos renais e articulares’ é mecanismo de doenças por imunocomplexos (ex.: nefrite lúpica, vasculites), não o eixo da AIJ sistêmica. ‘Invasão de células em tecido sinovial’ é uma descrição vaga e não corresponde ao mecanismo citocina-mediado da doença. Pérola: pensar em IL-1/IL-6/IL-18 orienta tanto o diagnóstico quanto o tratamento biológico.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a afirmativa correta sobre o prognóstico e a conduta terapêutica para esse caso:",
+     "alternativas": {
+      "a": "Corticoides são ineficazes e devem ser evitados.",
+      "b": "A doença é autolimitada e não requer tratamento.",
+      "c": "Imunossupressores e agentes biológicos podem ser necessários.",
+      "d": "O uso de antibióticos de amplo espectro é essencial."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O tratamento da AIJ sistêmica frequentemente exige corticoterapia e, em muitos casos, imunossupressores e agentes biológicos — sobretudo os inibidores de IL-1 (anacinra, canaquinumabe) e de IL-6 (tocilizumabe), que revolucionaram o controle da doença e reduzem a corticodependência. Dizer que ‘corticoides são ineficazes’ é incorreto — eles são muito usados no controle inicial (a ressalva é afastar leucemia antes). Não é ‘autolimitada e sem tratamento’: sem terapia há risco de artrite destrutiva, atraso de crescimento e da temida síndrome de ativação macrofágica. Antibiótico de amplo espectro não trata AIJ (não é infecção bacteriana) — embora, na UPA, se investigue e cubra sepse até afastar. Pérola: sempre excluir infecção e leucemia antes de assumir AIJ e iniciar imunossupressão.\n📚 Leitura sugerida (bloco): SBP — Documentos Científicos do Departamento de Reumatologia (artrite idiopática juvenil): https://www.sbp.com.br/documentos-cientificos/",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Oncologia (retinoblastoma) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "MÉDIO",
+   "vinheta": "Menina, 26 meses, apresenta uma mancha branca nos olhos que parece refletir a luz como “olho de gato”. Sua mãe informa que a criança reclama de dores oculares. A criança fora encaminhada para avaliação com oftalmologista.",
+   "perguntas": [
+    {
+     "enunciado": "Com base no caso, indique a principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Neuroblastoma.",
+      "b": "Hemorragia vítrea.",
+      "c": "Retinoblastoma.",
+      "d": "Toxocaríase ocular."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A leucocoria (reflexo pupilar branco, o ‘reflexo do olho de gato’) associada a dor ocular em criança pequena é o sinal cardinal do retinoblastoma, o tumor intraocular maligno mais comum da infância. O neuroblastoma é tumor de origem simpática (adrenal/cadeia paravertebral) e, embora possa dar metástase orbitária com equimose periorbital (‘olhos de guaxinim’), não se manifesta como leucocoria primária. A hemorragia vítrea pode causar alteração do reflexo, mas surge em contexto de trauma/discrasia e não é a principal hipótese diante de leucocoria clássica em criança pequena. A toxocaríase ocular pode simular leucocoria (granuloma retiniano) e é um diferencial, mas é menos provável que o retinoblastoma como primeira suspeita. Pérola: toda leucocoria/alteração do reflexo vermelho exige avaliação oftalmológica urgente para excluir retinoblastoma.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Identifique o exame mais importante para elucidar o diagnóstico desse caso:",
+     "alternativas": {
+      "a": "Ultrassonografia ocular.",
+      "b": "Tomografia de crânio.",
+      "c": "Dosar marcador tumoral.",
+      "d": "Ressonância magnética cerebral."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A ultrassonografia ocular é exame de primeira linha, acessível e sem radiação, que demonstra a massa intraocular e as calcificações características do retinoblastoma; o exame oftalmológico sob dilatação/anestesia (mapeamento de retina) complementa. A tomografia de crânio evita-se de rotina por expor a criança à radiação — relevante justamente porque muitos retinoblastomas são hereditários (mutação do gene RB1) com maior sensibilidade a radiação e risco de segundos tumores. A dosagem de marcador tumoral não é o exame definidor no retinoblastoma. A ressonância magnética é útil para avaliar extensão (nervo óptico, invasão extraocular, pinealoblastoma associado no retinoblastoma trilateral), mas entra após a suspeita, não como primeiro passo. Pérola: USG e fundoscopia sob dilatação vêm antes de métodos com radiação.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a faixa etária em que essa condição patológica apresenta maior prevalência:",
+     "alternativas": {
+      "a": "Até os 6 meses.",
+      "b": "Entre 3 e 5 anos.",
+      "c": "Antes dos 3 anos.",
+      "d": "Acima dos 5 anos."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O retinoblastoma é um tumor da primeira infância: a maioria dos casos é diagnosticada antes dos 3 anos de idade, com pico entre 1 e 2 anos; as formas hereditárias (bilaterais) tendem a se manifestar ainda mais cedo. ‘Até os 6 meses’ é precoce demais para ser o período de maior prevalência (embora casos congênitos/muito precoces ocorram nas formas hereditárias). ‘Entre 3 e 5 anos’ e ‘acima dos 5 anos’ estão além do pico habitual — apresentações após os 5 anos são raras e devem levantar dúvida diagnóstica. Por isso, o teste do reflexo vermelho (teste do olhinho) na puericultura é ferramenta essencial de triagem precoce. Prognóstico: quando diagnosticado cedo e intraocular, as taxas de cura são altas; o atraso piora muito o desfecho (invasão do nervo óptico, metástases). Pérola: leucocoria em menor de 3 anos = urgência oftalmológica.\n📚 Leitura sugerida (bloco): SBP — Documento Científico ‘Sinais de alerta do câncer na criança e no adolescente’ (SBP/INCA): https://www.sbp.com.br/documentos-cientificos/",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Gastroenterologia / Hepatologia (hepatite viral aguda) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 8 anos de idade, é levado à UPA devido a náuseas, vômitos e prurido intenso. Há relato de febre, cansaço e anorexia nas últimas semanas. Refere fezes esbranquiçadas. Os pais negam histórico médico significativo. Ao exame, observa-se pele e escleróticas ictéricas; há hepatomegalia dolorosa.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico, indique a principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Cálculos biliares.",
+      "b": "Intoxicação exógena.",
+      "c": "Hepatite Aguda Viral.",
+      "d": "Colestase familiar."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Em criança previamente hígida com quadro subagudo de anorexia, náuseas/vômitos, febre, icterícia, hepatomegalia dolorosa e colestase (prurido, acolia/fezes esbranquiçadas), a principal hipótese é hepatite viral aguda (no Brasil, sobretudo hepatite A, de transmissão fecal-oral). Cálculos biliares (colelitíase) são raros nessa idade sem fator predisponente (hemólise crônica, obesidade) e dariam dor biliar cólica, sendo mais um diferencial que a hipótese principal. Intoxicação exógena/hepatite medicamentosa é possível, mas os pais negam exposição e o curso é típico de infecção viral. Colestase familiar progressiva costuma manifestar-se mais precocemente (lactente) e de forma crônica, não como episódio agudo febril aos 8 anos. Pérola: icterícia + acolia + colúria + hepatomegalia dolorosa em criança = pensar hepatite viral aguda e notificar.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Com base no caso, identifique um diagnóstico diferencial possível:",
+     "alternativas": {
+      "a": "Colelitíase.",
+      "b": "Pancreatite.",
+      "c": "Fibrose cística.",
+      "d": "Uso de medicamentos."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Entre as opções, a colelitíase é o diferencial listado como resposta oficial: também causa icterícia obstrutiva/colestase (com prurido e acolia) e dor no hipocôndrio direito, entrando no diagnóstico diferencial de icterícia com padrão colestático. A pancreatite cursa tipicamente com dor abdominal em faixa e elevação de amilase/lipase, sem o padrão colestático descrito como núcleo do caso. A fibrose cística tem manifestação multissistêmica (pulmonar, insuficiência pancreática, história de longa data), não um episódio ictérico agudo isolado. ‘Uso de medicamentos’ (hepatite medicamentosa) seria um diferencial plausível, mas os pais negam exposição — por isso a banca o descarta neste caso. Observação: a distinção final entre colestase intra e extra-hepática apoia-se na clínica + laboratório + imagem. Pérola: em icterícia colestática, sempre avaliar vias biliares.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Sobre os exames a serem solicitados, é correto afirmar:",
+     "alternativas": {
+      "a": "Hemograma não tem utilidade para o diagnóstico.",
+      "b": "Espera-se elevações combinadas da Fosfatase alcalina e Gama GT.",
+      "c": "Ultrassonografia de abdome total é imprescindível nesse momento.",
+      "d": "Elevações das aminotransferases não indicam, necessariamente, lesão hepática."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Com o componente colestático evidente (prurido, acolia), espera-se elevação combinada de fosfatase alcalina e gama-GT, marcadores de colestase — a associação das duas aumenta a especificidade para origem hepatobiliar (a GGT confirma que a FA elevada é de origem hepática, não óssea). Dizer que o hemograma ‘não tem utilidade’ é incorreto — ele auxilia na avaliação global (anemia, plaquetas, sinais de infecção) e no diferencial. Afirmar que a USG é ‘imprescindível NESTE momento’ é exagero: na hepatite viral aguda típica o diagnóstico é clínico-laboratorial (sorologias virais, transaminases), reservando-se a USG para dúvida sobre obstrução biliar. E ‘aminotransferases elevadas não indicam lesão hepática’ é falso — ALT/AST elevadas são justamente marcadores de lesão hepatocelular (a ALT é a mais específica do fígado). Pérola: padrão hepatocelular (ALT/AST) x colestático (FA/GGT/bilirrubina direta) orienta a investigação.\n📚 Leitura sugerida (bloco): Videoaula R+ Pediatria MEDGRUPO — Gastroenterologia (https://drive.google.com/file/d/1rIrgkiZ_nqlMcMBeZ6RLspQk90rW_S3w/view); e MS — Guia de Vigilância em Saúde (hepatites virais).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Imunologia / Imunodeficiências (deficiência seletiva de IgA) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, 2 anos de idade, é levada ao ambulatório pediátrico, encaminhada pela UBS, por apresentar infecções respiratórias recorrentes, incluindo otites frequentes. A mãe relata que desde o nascimento a menor apresenta espirros e coriza constantes. Além disso, já ocorreram vários quadros de pneumonia e um de diarreia, sem necessidade de internação. Nega alterações dermatológicas. Foi amamentada até os 18 meses e, atualmente, tem dieta semelhante à da família, com proteínas animais, frutas e legumes, diariamente. Reside em rua calçada, com saneamento; nega mofo e umidade em casa. Faz acompanhamento na UBS, mas continua apresentando infecções muito frequentes, que não respondem bem aos tratamentos convencionais. É filha única, não frequenta creche e não há história familiar. Ao exame físico, é uma criança em bom estado geral e nutricional, sem outras alterações no momento, exceto condutos auditivos hiperemiados.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a suspeita diagnóstica mais provável para justificar as infecções recorrentes nessa criança:",
+     "alternativas": {
+      "a": "Alergia alimentar.",
+      "b": "Insalubridade ambiental.",
+      "c": "Deficiência de vitamina C.",
+      "d": "Deficiência seletiva de imunoglobulina A."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Infecções sinopulmonares e otites de repetição, com quadros respiratórios/diarreia recorrentes em criança em bom estado nutricional, com ambiente domiciliar salubre e sem outra causa aparente, levantam a suspeita de imunodeficiência — sendo a deficiência seletiva de IgA a imunodeficiência primária mais comum, justamente por comprometer a proteção das mucosas (respiratória e digestiva). A alergia alimentar cursa tipicamente com manifestações cutâneas/gastrointestinais relacionadas a alimentos, não com pneumonias e otites de repetição, e o enunciado nega alterações dermatológicas e relação com a dieta. A ‘insalubridade ambiental’ foi explicitamente afastada (rua calçada, saneamento, sem mofo/umidade). A deficiência de vitamina C (escorbuto) manifesta-se com sangramento gengival, petéquias, dor óssea e má cicatrização — não com infecções recorrentes; ademais a dieta é adequada. Pérola: infecções recorrentes que ‘não respondem bem’ ao tratamento habitual = investigar imunodeficiência.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante desse caso clínico, indique o exame mais útil para confirmar a suspeita clínica:",
+     "alternativas": {
+      "a": "Dosagem de IgE e testes cutâneos alimentares.",
+      "b": "Dosagem sérica de ácido ascórbico.",
+      "c": "Dosagem de IgE total.",
+      "d": "Dosagem sérica de imunoglobulinas."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A confirmação da deficiência seletiva de IgA é feita pela dosagem sérica das imunoglobulinas, que mostra IgA muito baixa (em geral <7 mg/dL) com IgG e IgM normais, em criança acima de 4 anos (a dosagem antes disso pode ser transitoriamente baixa, exigindo repetição). A dosagem de IgE e testes cutâneos alimentares investigam alergia, hipótese já pouco provável pelo quadro infeccioso de repetição. A dosagem de ácido ascórbico avaliaria deficiência de vitamina C (escorbuto), afastada pela dieta e pela clínica. A IgE total isolada é inespecífica e não confirma imunodeficiência humoral. Diretriz: diante de infecções de repetição, o rastreio imunológico inicial inclui hemograma e dosagem de imunoglobulinas (IgG, IgA, IgM, IgE). Pérola: repetir a dosagem após os 4 anos antes de firmar o diagnóstico definitivo.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o tratamento mais adequado para essa criança, no caso de confirmação da principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Uso contínuo de anti-histamínicos para controle alérgico.",
+      "b": "Uso profilático de antibióticos para prevenir infecções.",
+      "c": "Administração regular de imunoglobulina intravenosa.",
+      "d": "Uso de dosagem terapêutica de vitamina C."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O manejo da deficiência seletiva de IgA é essencialmente de suporte: tratar prontamente as infecções e, nos casos com infecções recorrentes, considerar antibioticoprofilaxia, além de manter vacinação e vigilância de doenças associadas (alergias, autoimunidade, doença celíaca). O ponto crítico e clássico de prova é que a administração regular de imunoglobulina intravenosa é, em regra, CONTRAINDICADA/evitada na deficiência isolada de IgA: além de a IVIG conter pouca IgA (não repõe adequadamente), esses pacientes podem ter anticorpos anti-IgA e desenvolver reações anafiláticas graves à infusão. Anti-histamínico contínuo trataria alergia, não a imunodeficiência. Vitamina C em dose terapêutica trataria escorbuto — sem relação com o caso. Pérola: em deficiência de IgA, cuidado redobrado com hemocomponentes/IVIG pelo risco de reação anafilática por anti-IgA.\n📚 Leitura sugerida (bloco): SBP — Documentos Científicos do Departamento de Alergia e Imunologia (imunodeficiências primárias): https://www.sbp.com.br/documentos-cientificos/",
+     "dificuldade": "dificil"
+    }
+   ]
+  }
+ ]
+}
