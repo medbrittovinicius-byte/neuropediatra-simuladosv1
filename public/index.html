@@ -77,6 +77,13 @@
   #finish-bar{position:sticky; bottom:0; background:var(--card); border-top:1px solid var(--border); padding:12px 16px; text-align:center; z-index:40; display:none;}
   #finish-bar button{width:100%; max-width:400px;}
   #load-error{max-width:520px; margin:60px auto; text-align:center; color:var(--muted);}
+
+/* --- player inline p/ links do Drive (videoaulas/PDFs) e links clicáveis nos comentários --- */
+.coment-link{color:#1a5fb4;text-decoration:underline;word-break:break-all}
+.drive-play{display:inline-flex;align-items:center;gap:6px;color:#0b5;background:#eafaf1;border:1px solid #bfe6cf;border-radius:8px;padding:4px 10px;font-weight:700;text-decoration:none;cursor:pointer}
+.drive-play:hover{background:#d8f5e3}
+.drive-embed{margin:10px 0}
+.drive-embed iframe{width:100%;max-width:680px;height:390px;border:1px solid #ccc;border-radius:10px;background:#000}
 </style>
 </head>
 <body>
@@ -357,6 +364,37 @@ function markSelected(i, letra){
   }
 }
 
+
+// Renderiza o comentário transformando URLs em links clicáveis e os links do Google Drive
+// (videoaulas/PDFs) em um player que abre e toca ali mesmo ao clicar.
+function escHtml(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function renderComentario(text){
+  let html = escHtml(text);
+  // Links do Drive -> botão que embute o player (/preview) ao clicar
+  html = html.replace(/https:\/\/drive\.google\.com\/file\/d\/([A-Za-z0-9_-]+)\/[^\s)]*/g, function(m, id){
+    return '<a href="#" class="drive-play" data-id="'+id+'" onclick="return toggleDrivePlayer(this)">▶ Assistir/abrir aqui</a>';
+  });
+  // Demais URLs -> links clicáveis (nova aba)
+  html = html.replace(/(https?:\/\/[^\s<)]+)/g, function(m){
+    let tail=''; while(/[.,;:]$/.test(m)){ tail=m.slice(-1)+tail; m=m.slice(0,-1); }
+    return '<a class="coment-link" href="'+m+'" target="_blank" rel="noopener">'+m+'</a>'+tail;
+  });
+  return html;
+}
+function toggleDrivePlayer(el){
+  const id = el.getAttribute('data-id');
+  const nxt = el.nextElementSibling;
+  if(nxt && nxt.classList && nxt.classList.contains('drive-embed')){
+    nxt.remove(); el.innerHTML='▶ Assistir/abrir aqui'; return false;
+  }
+  const wrap=document.createElement('div');
+  wrap.className='drive-embed';
+  wrap.innerHTML='<iframe src="https://drive.google.com/file/d/'+id+'/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>';
+  el.parentNode.insertBefore(wrap, el.nextSibling);
+  el.innerHTML='✕ Fechar player';
+  return false;
+}
+
 // Revela acerto/erro e comentário de uma questão.
 function revealQuestion(i, letra){
   const q = questions[i];
@@ -370,7 +408,7 @@ function revealQuestion(i, letra){
   });
   const isCorrect = letra === q.correta;
   const commentEl = document.getElementById('comment-'+i);
-  commentEl.innerHTML = `<span class="feedback-tag ${isCorrect?'ok':'no'}">${isCorrect?'✓ Correto':'✗ Incorreto'}</span><br><b>Comentário:</b> ${q.comentario}`;
+  commentEl.innerHTML = `<span class="feedback-tag ${isCorrect?'ok':'no'}">${isCorrect?'✓ Correto':'✗ Incorreto'}</span><br><b>Comentário:</b> ${renderComentario(q.comentario)}`;
   commentEl.classList.add('show');
 }
 
