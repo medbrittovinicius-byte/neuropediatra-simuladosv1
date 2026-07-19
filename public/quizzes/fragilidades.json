@@ -1,11 +1,11 @@
 {
- "geradoEm": "2026-07-18T09:11:07.402Z",
- "tentativasLidas": 18,
+ "geradoEm": "2026-07-19T09:01:11.084Z",
+ "tentativasLidas": 19,
  "usuarios": {
   "Vinicius": {
-   "simulados": 8,
-   "totalQuestoes": 360,
-   "percentualGeral": 78,
+   "simulados": 9,
+   "totalQuestoes": 405,
+   "percentualGeral": 77,
    "temasFracos": [
     {
      "tema": "Neurologia — Vertigem (VPPB)",
@@ -138,6 +138,14 @@
      "taxaErro": 100
     },
     {
+     "tema": "Neurologia — Demências (hidrocefalia de pressão normal)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-17",
+     "taxaErro": 100
+    },
+    {
      "tema": "Neurologia — Neuropediatria específica (síndrome de West)",
      "tier": "MÉDIO",
      "total": 3,
@@ -216,6 +224,22 @@
      "erros": 3,
      "ultimoErro": "2026-07-12",
      "taxaErro": 50
+    },
+    {
+     "tema": "Pediatria — Endocrinologia (hipotireoidismo congênito)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 3,
+     "ultimoErro": "2026-07-17",
+     "taxaErro": 50
+    },
+    {
+     "tema": "Pediatria — Adolescência (hemorragia uterina disfuncional)",
+     "tier": "MÉDIO",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-17",
+     "taxaErro": 33
     },
     {
      "tema": "Neurologia — Epilepsia (crise focal temporal mesial)",
@@ -482,6 +506,70 @@
      "taxaErro": 33
     },
     {
+     "tema": "Neurologia — Vertigem e Síndromes Vestibulares (VPPB de canal horizontal)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-17",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (encefalomielite aguda disseminada)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-17",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Medula, Cauda Equina e Dor (compressão medular metastática epidural)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-17",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Junção Neuromuscular (síndrome miastênica de Lambert-Eaton)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-17",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Neuroinfecção (neurotoxoplasmose no HIV)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-17",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Nutrizao e Metabolismo osseo (raquitismo/hipofosfatemia)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-17",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Emergencias e Saude Coletiva (morte subita do lactente)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-17",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Infecciosas respiratorias (bronquiolite viral aguda)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-17",
+     "taxaErro": 33
+    },
+    {
      "tema": "Neurologia — Doença do Neurônio Motor (ELA)",
      "tier": "ALTO",
      "total": 6,
@@ -562,14 +650,6 @@
      "taxaErro": 0
     },
     {
-     "tema": "Pediatria — Endocrinologia (hipotireoidismo congênito)",
-     "tier": "ALTO",
-     "total": 3,
-     "erros": 0,
-     "ultimoErro": null,
-     "taxaErro": 0
-    },
-    {
      "tema": "Pediatria — Oncologia (tumor de Wilms)",
      "tier": "MÉDIO",
      "total": 3,
@@ -620,14 +700,6 @@
     {
      "tema": "Pediatria — Infecciosas (bronquiolite viral aguda)",
      "tier": "ALTO",
-     "total": 3,
-     "erros": 0,
-     "ultimoErro": null,
-     "taxaErro": 0
-    },
-    {
-     "tema": "Pediatria — Adolescência (hemorragia uterina disfuncional)",
-     "tier": "MÉDIO",
      "total": 3,
      "erros": 0,
      "ultimoErro": null,
@@ -1000,6 +1072,38 @@
      "erros": 0,
      "ultimoErro": null,
      "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Doença Cerebrovascular (dissecção arterial cervical no jovem)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Transtornos do Movimento (doença de Huntington)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Cardiologia (endocardite infecciosa)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Endocrinologia (diabetes tipo 1 no adolescente)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
     }
    ],
    "porDificuldade": [
@@ -1011,21 +1115,21 @@
     },
     {
      "dificuldade": "moderada",
-     "total": 161,
-     "erros": 35,
-     "taxaErro": 22
+     "total": 183,
+     "erros": 43,
+     "taxaErro": 23
     },
     {
      "dificuldade": "dificil",
-     "total": 105,
-     "erros": 34,
-     "taxaErro": 32
+     "total": 123,
+     "erros": 41,
+     "taxaErro": 33
     },
     {
      "dificuldade": "facil",
-     "total": 49,
-     "erros": 7,
-     "taxaErro": 14
+     "total": 54,
+     "erros": 8,
+     "taxaErro": 15
     }
    ]
   },
