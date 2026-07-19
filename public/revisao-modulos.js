@@ -25,6 +25,7 @@ window.REVISAO_MODULOS = {
   "Betaistina e flunarizina não são primeira linha da VPPB — o tratamento é a manobra de reposicionamento.",
  ],
  diretrizes: [
+  "Tratado de Neurologia da ABN (3ª ed., 2025), caps. 135–138 (Síndrome Vestibular Aguda, Vertigem Recorrente, Vertigem Posicional, Síndrome Vestibular Crônica) e cap. 20 — Tonturas e Vertigem (ver materiais_neuro.md).",
   "Adams & Victor — cap. “Deafness, Dizziness, and Disorders of Equilibrium”.",
   "Critérios da Bárány Society (VPPB, migrânea vestibular, Ménière).",
   "Arquivos de Neuro-Psiquiatria (ABN) — buscar “HINTS” / “vestibular neuritis”: https://www.scielo.br/j/anp/",
@@ -66,6 +67,7 @@ window.REVISAO_MODULOS = {
   "Anti-NMDA em mulher jovem: rastrear teratoma de ovário.",
  ],
  diretrizes: [
+  "Tratado de Neurologia da ABN (3ª ed., 2025), caps. 85–91 (Esclerose Múltipla; Espectro da Neuromielite Óptica; ADEM; Encefalites Autoimunes e Paraneoplásicas; MOGAD/GFAP) (ver materiais_neuro.md).",
   "Adams & Victor — cap. “Multiple Sclerosis and Allied Demyelinating Diseases”.",
   "PCDT de Esclerose Múltipla (Ministério da Saúde/BVSMS).",
   "Tratado ABN — Seção de Neuroimunologia; Arquivos de Neuro-Psiquiatria (“autoimmune encephalitis”, “NMOSD”).",
@@ -107,6 +109,7 @@ window.REVISAO_MODULOS = {
   "Dor lombar que piora deitado/à noite e desperta o paciente é bandeira vermelha.",
  ],
  diretrizes: [
+  "Tratado de Neurologia da ABN (3ª ed., 2025), cap. 114 — Radiculopatias e Plexopatias; cap. 169 — Mielopatias Metabólicas e Tóxicas; cap. 146 — Neuroesquistossomose (medular) (ver materiais_neuro.md).",
   "Adams & Victor — caps. “Diseases of the Spinal Cord” e “Pain in the Back, Neck, and Extremities”.",
   "Sanvito — síndromes medulares e topografia.",
   "MS — PNPIC/PICS (dor lombar crônica na APS): https://www.gov.br/saude/pt-br/composicao/saps/pics",
@@ -147,6 +150,7 @@ window.REVISAO_MODULOS = {
   "Na frontotemporal, muda a personalidade/comportamento antes da memória — e o paciente é mais jovem.",
  ],
  diretrizes: [
+  "Tratado de Neurologia da ABN (3ª ed., 2025), caps. 96–102 (Demências; Corpos de Lewy; Alzheimer; Frontotemporal; Cognitivo Vascular; Hidrocefalia de Pressão Normal) e cap. 106 — Tratamento dos Transtornos Comportamentais nas Demências (ver materiais_neuro.md).",
   "Adams & Victor — cap. “Dementia and the Neurology of Aging”.",
   "PCDT da Doença de Alzheimer (Ministério da Saúde/BVSMS).",
   "Tratado ABN — Seção de Neurologia Cognitiva e do Comportamento.",
@@ -188,6 +192,7 @@ window.REVISAO_MODULOS = {
   "Morte encefálica exige causa conhecida e exclusão de hipotermia/drogas/distúrbios metabólicos antes de testar.",
  ],
  diretrizes: [
+  "Tratado de Neurologia da ABN (3ª ed., 2025), cap. 163 — Hipertensão Intracraniana em Terapia Intensiva; cap. 162 — Manejo do TCE; cap. 171 — Hipertensão Intracraniana Idiopática; cap. 22 — Transtornos do Nível de Consciência (ver materiais_neuro.md).",
   "Adams & Victor — caps. “Coma...” e “Disturbances of Cerebrospinal Fluid and Intracranial Pressure”.",
   "Resolução CFM 2.173/2017 (determinação de morte encefálica): https://portal.cfm.org.br/",
   "Tratado ABN — Seção de Neurologia Intensiva/Emergências.",
@@ -229,6 +234,7 @@ window.REVISAO_MODULOS = {
   "Metoclopramida e flunarizina/cinarizina são causas frequentemente esquecidas de parkinsonismo.",
  ],
  diretrizes: [
+  "Tratado de Neurologia da ABN (3ª ed., 2025), caps. 59–68 (Doença de Parkinson; Tremor Essencial; Distonias; Huntington; Transtornos do Movimento Infecciosos/Autoimunes; Induzidos por Drogas; Doença de Wilson; Parkinsonismo Atípico) (ver materiais_neuro.md).",
   "Adams & Victor — caps. “Abnormalities of Movement and Posture” e “Parkinson Disease”.",
   "PCDT da Doença de Parkinson (Ministério da Saúde/BVSMS).",
   "Tratado ABN — Seção de Transtornos do Movimento.",
