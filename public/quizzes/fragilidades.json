@@ -1,10 +1,10 @@
 {
- "geradoEm": "2026-07-19T09:01:11.084Z",
- "tentativasLidas": 19,
+ "geradoEm": "2026-07-20T09:10:09.660Z",
+ "tentativasLidas": 21,
  "usuarios": {
   "Vinicius": {
-   "simulados": 9,
-   "totalQuestoes": 405,
+   "simulados": 10,
+   "totalQuestoes": 450,
    "percentualGeral": 77,
    "temasFracos": [
     {
@@ -146,6 +146,14 @@
      "taxaErro": 100
     },
     {
+     "tema": "Pediatria — Infecciosas respiratórias (pneumonia afebril do lactente)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-18",
+     "taxaErro": 100
+    },
+    {
      "tema": "Neurologia — Neuropediatria específica (síndrome de West)",
      "tier": "MÉDIO",
      "total": 3,
@@ -215,6 +223,22 @@
      "total": 3,
      "erros": 2,
      "ultimoErro": "2026-07-16",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Neuropatias Periféricas (doença de Charcot-Marie-Tooth)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-18",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Pediatria — Adolescência (acne)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-18",
      "taxaErro": 67
     },
     {
@@ -570,6 +594,30 @@
      "taxaErro": 33
     },
     {
+     "tema": "Neurologia — Cefaleias (enxaqueca com aura)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-18",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Neuroinfecção (neurossífilis)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-18",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Emergências / Desidratação grave e diarreia aguda",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-18",
+     "taxaErro": 33
+    },
+    {
      "tema": "Neurologia — Doença do Neurônio Motor (ELA)",
      "tier": "ALTO",
      "total": 6,
@@ -620,7 +668,7 @@
     {
      "tema": "Pediatria — Neonatologia (prematuridade tardia)",
      "tier": "ESSENCIAL",
-     "total": 3,
+     "total": 6,
      "erros": 0,
      "ultimoErro": null,
      "taxaErro": 0
@@ -1104,6 +1152,70 @@
      "erros": 0,
      "ultimoErro": null,
      "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Epilepsia (epilepsia de ausência da infância)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Doença Cerebrovascular (trombose venosa cerebral)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Transtornos do Movimento (tremor essencial)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Vertigem e Síndromes Vestibulares (migrânea vestibular)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (lúpus neuropsiquiátrico / encefalite lúpica)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Endocrinologia / Crescimento (baixa estatura)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Nefrologia (síndrome nefrótica idiopática)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Emergências / Trauma (atendimento pré-hospitalar)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
     }
    ],
    "porDificuldade": [
@@ -1115,21 +1227,21 @@
     },
     {
      "dificuldade": "moderada",
-     "total": 183,
-     "erros": 43,
+     "total": 208,
+     "erros": 47,
      "taxaErro": 23
     },
     {
      "dificuldade": "dificil",
-     "total": 123,
-     "erros": 41,
-     "taxaErro": 33
+     "total": 139,
+     "erros": 47,
+     "taxaErro": 34
     },
     {
      "dificuldade": "facil",
-     "total": 54,
+     "total": 58,
      "erros": 8,
-     "taxaErro": 15
+     "taxaErro": 14
     }
    ]
   },
