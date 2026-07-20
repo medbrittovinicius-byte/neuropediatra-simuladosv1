@@ -1040,4 +1040,378 @@ Saber a natureza da vacina resolve quase toda questão de contraindicação e de
  "fontes": "Base: SBP — Documentos Científicos (Oncologia pediátrica; sinais de alerta) e SBOP; Ministério da Saúde / INCA — Diagnóstico precoce do câncer na criança e no adolescente; e materiais de Pediatria do Drive do Vinicius quando o tema casar (ver materiais_drive.md).",
  "notaErro": "**Neuroblastoma** aparece nos seus registros com taxa de erro de **100%**. O tumor é \"o grande imitador\" da pediatria — apresenta-se de mil formas — e a prova cobra as **pistas que o fecham** e o **diferencial com o Wilms**. As armadilhas:\n\n- **Você troca neuroblastoma por tumor de Wilms.** Ambos são massa abdominal do pré-escolar. As pistas que decidem: neuroblastoma **cruza a linha média**, tem **calcificações**, eleva **catecolaminas urinárias (VMA/HVA)** e pode dar **opsoclonus-mioclonus** (\"olhos dançantes\"); o Wilms é **renal**, **não costuma cruzar a linha média** e pode dar hematúria/HAS (seções 5–6).\n- **Você não reconhece as apresentações \"estranhas\".** Nódulos subcutâneos azulados no lactente, **proptose com equimose periorbitária** (\"olho de guaxinim\"), síndrome de Horner, hipertensão, diarreia secretora — tudo pode ser neuroblastoma metastático/paraneoplásico (seção 5).\n- **Você acha que \"tumor = sempre péssimo\".** A biologia varia: **amplificação de N-MYC** e idade > 18 meses **pioram**; **lactente < 18 meses**, sobretudo o **estágio MS**, pode até **regredir espontaneamente** (seção 6). Não estratificar é errar a conduta.\n\n**Como zerar:** diante de massa abdominal na criança, pergunte NESTA ordem — (1) **cruza a linha média?** (2) **tem calcificação / catecolaminas urinárias altas?** (3) **há sinal paraneoplásico (opsoclonus) ou metástase típica (osso, órbita, pele, medula)?** Se sim, é neuroblastoma: confirme com catecolaminas urinárias, imagem, cintilografia com **MIBG** e biópsia, e estratifique por idade/estágio/N-MYC. As questões ao final batem nesse raciocínio."
 },
+"PED|Infecto / respiratório / pele": {
+ titulo: "Infecto / respiratório / pele na criança",
+ half: "PED",
+ resumo: "As infecções respiratórias e febris do lactente são o campeão de atendimento pediátrico e de erro em prova, porque doenças com nomes diferentes compartilham os mesmos sintomas (tosse, febre, chiado) e a banca cobra a pista que separa uma da outra e a conduta na idade certa. Este texto reconstrói o tema do zero: como o pulmão e a via aérea da criança adoecem, por que a idade muda o agente e o raciocínio, e um caminho de decisão que separa bronquiolite, pneumonia típica, a pneumonia afebril do lactente, ITU e otite — mais um bloco de exantemas/arboviroses e a acne.",
+ fontes: "Base: SBP — Diretrizes de Bronquiolite, Pneumonia Adquirida na Comunidade e Infecção do Trato Urinário na criança; Ministério da Saúde — Guia de Vigilância em Saúde (arboviroses, sarampo) e AIDPI; e materiais de Pediatria do Drive do Vinicius (Infecções respiratórias — bronquiolite, pneumonia; Emergências respiratórias — ver materiais_drive.md).",
+ notaErro: `Nos seus registros, **pneumonia afebril do lactente** aparece com taxa de erro de **100%** (tier ALTO), e o eixo respiratório/infeccioso da criança como um todo derruba pontos. O erro quase nunca é "não conhecer a doença" — é **não deixar a IDADE e a FEBRE guiarem o raciocínio** e **tratar chiado com antibiótico**. Quatro armadilhas explicam a maioria das quedas, e este texto foi montado para desarmar cada uma:
+
+- **Você não reconhece a pneumonia afebril do lactente ("pneumonia atípica do lactente").** É um quadro entre 1 e 4 meses, de evolução arrastada, tosse em acessos (coqueluchoide) SEM febre ou com febre baixa, taquipneia e, muitas vezes, história de conjuntivite neonatal — o agente clássico é a **Chlamydia trachomatis** adquirida no canal de parto. O erro é rotular como pneumonia bacteriana comum e dar penicilina/amoxicilina: o tratamento é **macrolídeo** (azitromicina/eritromicina). Guarde o gatilho: **lactente pequeno + tosse arrastada + SEM febre = pense atípica/Chlamydia** (seção 5).
+
+- **Você troca bronquiolite por pneumonia e prescreve antibiótico.** Primeiro episódio de sibilância no lactente < 2 anos, com pródromo de coriza e depois taquipneia/tiragem/sibilos, no outono-inverno, é **bronquiolite viral** (VSR na maioria) — doença **viral**, cujo tratamento é **suporte** (oxigênio, hidratação, desobstrução nasal). Antibiótico, broncodilatador de rotina, corticoide e fisioterapia **não** mudam o curso (seção 4).
+
+- **Você deixa passar a ITU febril do lactente.** Lactente com **febre sem foco** é ITU até prova em contrário; o exame é **urina tipo I + urocultura por técnica adequada** (jato médio, cateterismo ou punção — NUNCA saco coletor para cultura). Perder isso arrisca cicatriz renal (seção 6).
+
+- **Você superdiagnostica otite e antibiotiza sem critério.** OMA exige **abaulamento** da membrana timpânica (não só hiperemia); e há a opção de **observação** em casos selecionados. Hiperemia isolada com choro/febre pode ser só a membrana congesta pelo choro (seção 7).
+
+**Como zerar o erro:** para toda criança com queixa respiratória/febril, responda NESTA ordem — (1) **que idade** tem (RN, lactente pequeno < 3–4 meses, lactente, pré-escolar)? (2) **tem ou não febre** e desde quando (agudo × arrastado)? (3) **onde está o problema** (via aérea alta, bronquíolo, alvéolo, trato urinário, ouvido, pele)? (4) **é viral ou bacteriano** — e, portanto, **precisa ou não de antibiótico**? As questões ao final batem exatamente nesses tropeços.`,
+ secoes: [
+  {h:"1. Comece pelo começo: por que a criança adoece diferente", c:`A via aérea e o pulmão da criança pequena não são "um adulto em miniatura". Três fatos anatômicos explicam quase tudo o que você vê no plantão:
+
+- **Calibres pequenos:** os brônquios e bronquíolos do lactente têm diâmetro reduzido. Um pouco de edema e muco (que num adulto passaria despercebido) já obstrui muito — daí o **sibilo** e a **tiragem** aparecerem com facilidade.
+- **Respiração nasal obrigatória** nos primeiros meses: o lactente respira quase só pelo nariz. Coriza e obstrução nasal, sozinhas, já causam dificuldade para mamar e desconforto — por isso **desobstruir o nariz** (soro fisiológico) é tratamento de verdade.
+- **Reserva menor e fadiga fácil:** a criança compensa a hipoxemia acelerando a frequência respiratória. Por isso a **taquipneia é o sinal mais sensível** de doença respiratória baixa, e a criança que "cansa" e fica bradipneica/sonolenta está grave.
+
+Uma imagem ajuda: pense na via aérea infantil como um canudo fino. Qualquer muco ou inchaço estreita muito a passagem; o corpo compensa "soprando mais rápido" (taquipneia) e "puxando com força" (tiragem). Quando o canudo entope de vez ou a criança se cansa de soprar, vem a insuficiência respiratória.`},
+
+  {h:"2. As ferramentas que valem mais que qualquer exame: contar a FR e ver o esforço", c:`Antes de qualquer radiografia, dois dados de beira-leito organizam o caso (padrão AIDPI/OMS):
+
+- **Taquipneia por faixa etária** (contar por 1 minuto, com a criança calma): **< 2 meses ≥ 60 irpm**; **2–11 meses ≥ 50 irpm**; **1–5 anos ≥ 40 irpm**. Taquipneia é o marcador mais sensível de pneumonia na criança.
+- **Sinais de esforço/gravidade:** **tiragem subcostal** (o AIDPI chama de "tiragem" e é sinal de pneumonia grave), batimento de asa de nariz, gemência, **saturação baixa** (< 92–95% conforme o serviço), incapacidade de aceitar líquidos, cianose, sonolência ou irritabilidade extrema.
+
+Regra prática: **febre + tosse + taquipneia = pneumonia** até prova em contrário, e a radiografia **não é obrigatória** para diagnosticar PAC ambulatorial típica (ela se reserva a dúvida, gravidade, internação ou complicação). Já o **sibilo** desloca o raciocínio para via aérea (bronquiolite, asma, sibilância viral).`},
+
+  {h:"3. O divisor de águas: FEBRE + IDADE separam os diagnósticos", c:`Este é o passo que muda tudo — e o que você não pode pular:
+
+- **Lactente < 3 meses com febre:** é sempre um alerta. Febre sem foco nessa idade obriga a investigar infecção bacteriana grave (ITU, pneumonia, bacteremia, meningite) com mais rigor.
+- **Quadro AGUDO com febre + tosse + taquipneia:** aponta para **pneumonia bacteriana típica** (pneumococo, o principal) ou, no lactente, **bronquiolite** (se houver sibilo e pródromo catarral).
+- **Quadro ARRASTADO, tosse persistente, SEM febre ou febre baixa, no lactente pequeno:** liga o alarme para a **pneumonia afebril/atípica do lactente** (Chlamydia trachomatis; também Ureaplasma, CMV) — o ponto que você mais erra.
+- **Pré-escolar/escolar com tosse arrastada, febre baixa e ausculta "pobre" para o tanto que tosse:** pense **pneumonia atípica por Mycoplasma pneumoniae** ("pneumonia andante") — também macrolídeo.
+
+Encaixe sempre o caso em uma dessas caixas ANTES de decidir exame ou antibiótico. Metade do trabalho está feita.`},
+
+  {h:"4. Bronquiolite viral aguda — o chiado que NÃO se antibiotiza", c:`É a infecção respiratória baixa mais comum do lactente. Definição clássica: **primeiro episódio de sibilância** em criança **< 2 anos** (pico 2–6 meses), no **outono-inverno**, precedido por **pródromo de vias aéreas superiores** (coriza, obstrução nasal), evoluindo em 2–3 dias com **taquipneia, tiragem, sibilos e/ou estertores**. O agente mais comum é o **vírus sincicial respiratório (VSR)**; outros: rinovírus, metapneumovírus, parainfluenza.
+
+- **Diagnóstico é CLÍNICO.** Radiografia e exames virais de rotina **não** são recomendados (a radiografia costuma mostrar hiperinsuflação e atelectasias que confundem e levam a antibiótico desnecessário).
+- **Tratamento = SUPORTE:** oxigênio se saturação baixa, **hidratação**, **desobstrução nasal** com soro fisiológico, cabeceira elevada, e observação. O que **NÃO** funciona de rotina: **broncodilatador** (não muda desfecho), **corticoide**, **antibiótico** (é vírus), **fisioterapia respiratória** de rotina, nebulização com adrenalina em casa.
+- **Quando internar:** hipoxemia persistente, esforço importante, apneia (comum em prematuros e < 2 meses), recusa alimentar/desidratação, idade < 3 meses ou comorbidade.
+- **Prevenção:** higiene, aleitamento materno; **palivizumabe/nirsevimabe** (imunização passiva contra VSR) para grupos de risco conforme o programa vigente.`},
+
+  {h:"5. Pneumonia na criança — típica × afebril do lactente (seu ponto de erro)", c:`Divida a pneumonia da criança em dois grandes cenários:
+
+**A) Pneumonia bacteriana TÍPICA (aguda, febril).** O agente dominante fora do período neonatal é o **Streptococcus pneumoniae (pneumococo)**. Quadro: **febre alta**, tosse, **taquipneia**, tiragem, ausculta com estertores/redução do murmúrio, às vezes dor pleurítica. Tratamento ambulatorial de escolha: **amoxicilina** (dose alta), pela alta cobertura ao pneumococo; internados, ampicilina/penicilina. Suspeitar de complicação (derrame/empiema, sobretudo por pneumococo ou S. aureus) quando há febre persistente, toxemia e redução localizada do murmúrio.
+
+**B) Pneumonia AFEBRIL / ATÍPICA do LACTENTE (arrastada, sem febre).** Este é o quadro que você erra. Perfil: lactente de **1 a 4 meses**, evolução **subaguda/arrastada**, **tosse em acessos (coqueluchoide) SEM febre** ou com febre baixa, taquipneia, às vezes sibilos e **eosinofilia**; história de **conjuntivite neonatal** (secreção ocular nas primeiras semanas) é a grande pista. O agente clássico é a **Chlamydia trachomatis** adquirida no canal de parto (também Ureaplasma urealyticum, CMV, Bordetella no diagnóstico diferencial de tosse coqueluchoide). Tratamento: **macrolídeo** — **azitromicina** ou **eritromicina** (atenção ao risco de estenose hipertrófica de piloro com macrolídeo em recém-nascidos, mas o benefício supera nesse quadro). Não adianta amoxicilina: o agente não tem parede celular alvo dos betalactâmicos.
+
+**C) Pneumonia ATÍPICA do escolar (Mycoplasma).** Criança maior/adolescente com tosse arrastada, febre baixa, cefaleia, mal-estar e ausculta discreta ("pneumonia andante"); RX às vezes pior que o exame físico. Tratamento: **macrolídeo** (azitromicina). Guarde a regra: **atípica = macrolídeo**, em qualquer idade.
+
+Fio condutor: **febre alta + agudo = típica (amoxicilina); arrastado + sem febre = atípica (macrolídeo)** — e, no lactente pequeno com tosse arrastada sem febre, pense **Chlamydia**.`},
+
+  {h:"6. Infecção do trato urinário — a febre sem foco do lactente", c:`Em todo **lactente com febre sem foco**, a ITU é o diagnóstico a excluir (é uma das causas mais comuns de bacteremia oculta e de cicatriz renal). O agente principal é a **Escherichia coli**.
+
+- **Como coletar a urina para CULTURA:** o método importa tanto quanto o exame. Para urocultura confiável, use **jato médio** (criança com controle), **cateterismo vesical** ou **punção suprapúbica** no lactente. **Saco coletor NUNCA serve para cultura** (contamina) — só presta para uma urina tipo I negativa afastar (alto valor preditivo negativo); se positiva, confirmar por método estéril.
+- **Diagnóstico:** urina tipo I sugestiva (leucocitúria, nitrito, esterase leucocitária) **+ urocultura** com contagem significativa pelo método.
+- **Tratamento:** antibiótico conforme idade/gravidade (lactente pequeno e toxemiado → internação e parenteral; demais, oral). Duração habitual 7–10 dias na ITU febril (pielonefrite).
+- **Investigação de imagem:** **ultrassonografia de rins e vias urinárias** após a primeira ITU febril; uretrocistografia miccional e outros exames em casos selecionados (ITU atípica/recorrente, US alterado) para buscar **refluxo vesicoureteral** e uropatias. O objetivo é prevenir cicatriz renal e doença renal crônica.`},
+
+  {h:"7. Otite média aguda — abaulamento manda, não a hiperemia", c:`A **otite média aguda (OMA)** é bacteriana/viral (pneumococo, Haemophilus não tipável, Moraxella) e comum após IVAS. O diagnóstico exige achado objetivo à otoscopia:
+
+- **Critério que decide: ABAULAMENTO da membrana timpânica** (indica pus na orelha média), com ou sem otalgia/febre. **Hiperemia isolada NÃO fecha OMA** — a membrana fica congesta só com o choro/febre, e superdiagnosticar leva a antibiótico à toa.
+- **Conduta:** analgesia SEMPRE. Quanto ao antibiótico, há a estratégia de **observação vigiada (48–72 h)** em crianças **> 2 anos**, sem otorreia, com quadro leve e bom acesso a reavaliação. **Antibiótico de escolha: amoxicilina** (dose alta); amoxicilina-clavulanato se falha, otite recente tratada ou conjuntivite associada (Haemophilus).
+- **Antibiótico obrigatório (sem observar):** < 6 meses; 6–24 meses com quadro grave/bilateral; otorreia (perfuração); toxemia.`},
+
+  {h:"8. Exantemas e arboviroses — o que a prova (e a vigilância) cobra", c:`Bloco de alto valor porque envolve **notificação** e saúde pública:
+
+- **Sarampo (reemergente):** febre alta, tosse, coriza, conjuntivite (os "3 C") e **manchas de Koplik** (enantema patognomônico) que precedem o **exantema maculopapular** crânio-caudal. **Notificação imediata**; conduta inclui **vitamina A**, isolamento e bloqueio vacinal dos contatos. Vacina é a prevenção (tríplice viral).
+- **Dengue:** febre + mialgia/cefaleia/dor retro-orbitária; vigiar **sinais de alarme** (dor abdominal intensa, vômitos persistentes, sangramento de mucosa, letargia, hepatomegalia dolorosa, queda de plaquetas com aumento do hematócrito) → hidratação guiada por estágio; prova do laço. Zika (exantema pruriginoso precoce, conjuntivite, risco de malformação na gestante) e chikungunya (artralgia intensa e persistente) completam o trio arboviral.
+- **Outros exantemas clássicos:** eritema infeccioso (parvovírus B19 — "face esbofeteada"), exantema súbito/roséola (HHV-6 — febre alta 3 dias que some quando surge o exantema), escarlatina (estreptococo — língua em framboesa, exantema em lixa, tratar com penicilina/amoxicilina), varicela.`},
+
+  {h:"9. Acne — a doença de pele do adolescente que também cai", c:`A **acne vulgar** é a dermatose mais comum da adolescência e tem fisiopatologia em quatro pilares: **hiperprodução sebácea** (estímulo androgênico), **hiperqueratinização** do folículo (forma o comedão), colonização por **Cutibacterium acnes** e **inflamação**.
+
+- **Classificação e tratamento (escalonado por gravidade):**
+- **Comedoniana (leve):** **retinoide tópico** (adapaleno/tretinoína) é a base — atua no comedão.
+- **Inflamatória leve-moderada (pápulas/pústulas):** retinoide tópico + **peróxido de benzoíla** e/ou **antibiótico tópico** (nunca antibiótico tópico isolado, pela resistência).
+- **Moderada-grave:** acrescentar **antibiótico oral** (tetraciclinas — doxiciclina/minociclina em quem já tem os dentes formados; evitar em < 8 anos e na gestante).
+- **Grave/nodulocística ou refratária/cicatricial:** **isotretinoína oral** — eficaz, mas **teratogênica** (exige contracepção rigorosa em meninas e controle laboratorial). 
+- **Pérola:** não é "falta de higiene" nem "comer gordura"; orientar o adolescente evita estigma e melhora adesão.`},
+
+  {h:"10. O algoritmo em seis frases (leve isto para a prova)", c:`- Comece por **idade + febre**: elas escolhem o agente e o raciocínio.
+- **Chiado no lactente < 2 anos, 1º episódio, com coriza prévia = bronquiolite (VSR)** → suporte, **sem antibiótico**.
+- **Febre alta + tosse + taquipneia = pneumonia típica (pneumococo)** → **amoxicilina**; RX não é obrigatória no caso ambulatorial.
+- **Lactente pequeno, tosse arrastada, SEM febre (± conjuntivite neonatal) = pneumonia afebril por Chlamydia** → **macrolídeo** (não amoxicilina).
+- **Febre sem foco no lactente = ITU até prova em contrário** → urina I + **urocultura por método estéril** (saco coletor não serve para cultura); US após a 1ª ITU febril.
+- **OMA precisa de ABAULAMENTO** (não só hiperemia); pode-se observar em > 2 anos leve, mas antibiótico de escolha é **amoxicilina**.`},
+ ],
+ flashcards: [
+  {p:"Lactente de 2 meses, tosse arrastada em acessos, SEM febre, história de conjuntivite neonatal — diagnóstico e tratamento?", r:"Pneumonia afebril do lactente por Chlamydia trachomatis; tratar com macrolídeo (azitromicina/eritromicina), não amoxicilina."},
+  {p:"Primeiro episódio de sibilância no lactente < 2 anos, com coriza prévia, no inverno — diagnóstico e conduta?", r:"Bronquiolite viral (VSR); tratamento de suporte (O2, hidratação, desobstrução nasal). Sem antibiótico/broncodilatador/corticoide de rotina."},
+  {p:"Valores de taquipneia por idade (AIDPI/OMS)?", r:"< 2 meses ≥ 60; 2–11 meses ≥ 50; 1–5 anos ≥ 40 irpm."},
+  {p:"Antibiótico de escolha da pneumonia bacteriana típica (pneumococo) ambulatorial?", r:"Amoxicilina em dose alta."},
+  {p:"Como coletar urina para urocultura no lactente?", r:"Jato médio, cateterismo vesical ou punção suprapúbica — saco coletor NUNCA serve para cultura."},
+  {p:"O que é obrigatório à otoscopia para diagnosticar OMA?", r:"Abaulamento da membrana timpânica (hiperemia isolada não fecha)."},
+  {p:"Os '3 C' e o sinal patognomônico do sarampo?", r:"Tosse, coriza, conjuntivite; manchas de Koplik (enantema) precedem o exantema. Notificação imediata + vitamina A."},
+  {p:"Tratamento da acne nodulocística grave/refratária e seu maior risco?", r:"Isotretinoína oral; risco de teratogenicidade (exige contracepção rigorosa)."},
+ ],
+ pegadinhas: [
+  "Tosse arrastada SEM febre no lactente pequeno = pensar Chlamydia (macrolídeo), não pneumonia bacteriana típica (amoxicilina).",
+  "Bronquiolite é viral: broncodilatador, corticoide e antibiótico de rotina NÃO mudam o desfecho.",
+  "Saco coletor só serve para urina I negativa afastar ITU; para cultura, método estéril sempre.",
+  "OMA exige abaulamento; hiperemia isolada pode ser só o choro.",
+  "RX de tórax NÃO é obrigatória para diagnosticar PAC típica ambulatorial.",
+  "Taquipneia é o sinal mais sensível de pneumonia — conte a FR por 1 minuto na criança calma.",
+  "Sarampo, dengue e outras arboviroses são de notificação; sarampo recebe vitamina A.",
+  "Atípica = macrolídeo em qualquer idade (Chlamydia no lactente, Mycoplasma no escolar).",
+ ],
+ diretrizes: [
+  "SBP — Diretrizes de Bronquiolite Viral Aguda; Pneumonia Adquirida na Comunidade na infância; Infecção do Trato Urinário na criança (Documentos Científicos).",
+  "Ministério da Saúde — AIDPI (Atenção Integrada às Doenças Prevalentes na Infância); Guia de Vigilância em Saúde (arboviroses, sarampo — notificação).",
+  "Materiais de Pediatria do Drive do Vinicius: 'Infecções respiratórias (bronquiolite, pneumonia)' e 'Emergências respiratórias' (ver materiais_drive.md).",
+ ],
+ questoes: [
+  {foco:"Pneumonia afebril do lactente (seu ponto de erro)",
+   enunciado:"Lactente de 2 meses com tosse seca em acessos há 2 semanas, taquipneia leve e SEM febre; a mãe relata secreção ocular tratada na maternidade. Ausculta com estertores finos; hemograma com eosinofilia. Qual o tratamento mais adequado?",
+   alternativas:{a:"Amoxicilina em dose alta",b:"Azitromicina (macrolídeo)",c:"Suporte apenas, pois é bronquiolite",d:"Ceftriaxona intravenosa"},
+   correta:"b",
+   comentario:"O conjunto — lactente pequeno, tosse arrastada em acessos, AUSÊNCIA de febre, história de conjuntivite neonatal e eosinofilia — é a pneumonia afebril (atípica) do lactente por Chlamydia trachomatis, adquirida no canal de parto. O tratamento é macrolídeo (azitromicina ou eritromicina). Amoxicilina não cobre Chlamydia (agente sem a parede-alvo dos betalactâmicos). Não é bronquiolite (que é 1º episódio de sibilância com pródromo catarral e febre, curso agudo) nem justifica ceftriaxona IV num lactente estável. Gatilho de prova: tosse arrastada + sem febre + conjuntivite neonatal = Chlamydia = macrolídeo."},
+  {foco:"Bronquiolite: não antibiotizar",
+   enunciado:"Lactente de 4 meses, em julho, com coriza há 3 dias e agora taquipneia, tiragem subcostal e sibilos difusos; primeiro episódio, saturação 95% em ar ambiente, aceitando dieta. Qual a conduta?",
+   alternativas:{a:"Amoxicilina-clavulanato oral",b:"Corticoide sistêmico e broncodilatador de horário",c:"Medidas de suporte (desobstrução nasal, hidratação) e observação",d:"Radiografia de tórax e antibiótico se infiltrado"},
+   correta:"c",
+   comentario:"Primeiro episódio de sibilância no lactente < 2 anos, no inverno, com pródromo de coriza = bronquiolite viral aguda (VSR na maioria). O tratamento é de suporte: desobstrução nasal com soro, hidratação, oxigênio se hipoxemia. Antibiótico não tem papel (é viral); corticoide e broncodilatador de rotina não alteram o desfecho; a radiografia de rotina só induz achados que levam a antibiótico desnecessário. Como a criança está estável (satura bem, aceita dieta), o manejo é ambulatorial com sinais de alarme orientados."},
+  {foco:"ITU febril: coleta correta",
+   enunciado:"Lactente de 8 meses com febre de 39°C há 2 dias, sem outro foco ao exame. Qual a melhor conduta diagnóstica para investigar infecção do trato urinário?",
+   alternativas:{a:"Urocultura colhida por saco coletor",b:"Urina tipo I e urocultura por jato médio, cateterismo ou punção suprapúbica",c:"Apenas antibiótico empírico, sem coletar urina",d:"Tomografia de abdome"},
+   correta:"b",
+   comentario:"Febre sem foco no lactente obriga a investigar ITU. O exame é urina tipo I somada à urocultura, e o método de coleta é decisivo: jato médio (se possível), cateterismo vesical ou punção suprapúbica. O saco coletor tem altíssima taxa de contaminação e NÃO vale para cultura (só uma urina I negativa por saco ajuda a afastar). Tratar às cegas sem coletar impede o diagnóstico microbiológico e o antibiograma; TC de abdome não é o exame inicial. Após a 1ª ITU febril confirmada, solicita-se ultrassonografia de rins e vias urinárias."},
+ ]
+},
+"NEURO|Cefaleias": {
+ titulo: "Cefaleias e dor facial",
+ half: "NEURO",
+ resumo: "Dor de cabeça é a queixa neurológica mais comum, e o campo onde se erra por dois motivos opostos: pedir tomografia para todo mundo (excesso) ou deixar passar a cefaleia que mata (falta). Este texto reconstrói o tema do zero: como a dor de cabeça nasce, o primeiro passo que separa a cefaleia primária (benigna) da secundária (perigosa) pelos SINAIS DE ALARME, e depois a assinatura de cada síndrome — enxaqueca, tensional, as trigêmino-autonômicas (salvas e hemicrania paroxística), a neuralgia do trigêmeo e a arterite temporal.",
+ fontes: "Base: Tratado de Neurologia da ABN 3ª ed. (caps. 32 — Cefaleia na Emergência; 37 — Migrânea; 38 — Cefaleia Tipo Tensão; 39 — Cefaleias Trigeminoautonômicas; 44 — Situações Especiais; 45 — Cefaleia por Uso Excessivo de Medicamentos), Merritt 13ª ed. (Seção 7 — Cefaleia e Síndromes Dolorosas), Adams & Victor (Headache and Other Craniofacial Pains) e Classificação Internacional das Cefaleias (ICHD-3). Ver materiais_neuro.md.",
+ notaErro: `Nos seus registros, as **cefaleias trigêmino-autonômicas (hemicrania paroxística)** aparecem com erro elevado (67%, tier ESSENCIAL), e vários subtemas de cefaleia (neuralgia do trigêmeo, enxaqueca com aura, arterite temporal, salvas) também derrubam pontos. O erro quase nunca é "não conhecer a enxaqueca" — é **não usar os sinais de alarme** e **confundir as cefaleias curtas e unilaterais entre si**, cada uma com um tratamento diferente. Três armadilhas explicam a maioria das quedas:
+
+- **Você não reconhece a hemicrania paroxística e a trata como cluster.** As duas são trigêmino-autonômicas (dor unilateral em volta do olho, com lacrimejamento/congestão nasal do mesmo lado). O que as separa é DURAÇÃO e FREQUÊNCIA e, sobretudo, a RESPOSTA À INDOMETACINA: a hemicrania paroxística tem crises **curtas (2–30 min), muito frequentes (mais de 5/dia)** e responde de forma **absoluta à indometacina** (é critério diagnóstico); a cefaleia em salvas tem crises **mais longas (15–180 min)**, menos numerosas, e NÃO responde à indometacina — trata-se com **oxigênio + triptano** (seção 5).
+
+- **Você confunde neuralgia do trigêmeo com as trigêmino-autonômicas.** A neuralgia do trigêmeo é dor em **choque/facada de segundos**, disparada por **gatilhos** (falar, mastigar, tocar a face), **sem** sintomas autonômicos; o tratamento é **carbamazepina** (seção 6). Trocar o diagnóstico troca o remédio.
+
+- **Você deixa passar a cefaleia secundária perigosa.** Cefaleia em trovoada (thunderclap) = hemorragia subaracnóidea até prova em contrário; cefaleia nova no idoso com claudicação de mandíbula/alteração visual e VHS alto = **arterite de células gigantes**, que exige **corticoide IMEDIATO** para não cegar (seção 7).
+
+**Como zerar o erro:** para toda dor de cabeça, faça NESTA ordem — (1) **há sinal de alarme** (SNNOOP10)? Se sim, é secundária até excluir → investigar. (2) Se primária, **quanto dura a crise** (segundos? minutos? horas? dias?) e é **unilateral com sinais autonômicos**? (3) **qual o tratamento específico** daquela síndrome (o teste da indometacina, o oxigênio das salvas, a carbamazepina da neuralgia). As questões ao final batem exatamente nesses pontos.`,
+ secoes: [
+  {h:"1. Comece pelo começo: de onde vem a dor de cabeça", c:`O cérebro em si **não dói** — não tem receptores de dor no parênquima. O que dói são as estruturas sensíveis à sua volta: os **vasos sanguíneos** (artérias da base, seios venosos), as **meninges** (dura-máter), os **nervos cranianos** (sobretudo o **trigêmeo**, o V par) e os músculos/couro cabeludo. Toda dor de cabeça é, no fundo, a ativação dessas vias, que convergem para um "centro" no tronco encefálico (núcleo trigeminocervical).
+
+Isso já explica dois fatos úteis: (1) uma dor de cabeça pode sinalizar problema em qualquer dessas estruturas (por isso há causas benignas e perigosas), e (2) o sistema **trigêmeo-vascular** é o eixo comum da enxaqueca e das cefaleias autonômicas — quando ele dispara, ativa também fibras que causam **lacrimejamento, congestão nasal e olho vermelho** do mesmo lado (os "sintomas autonômicos").
+
+Divida o universo em dois grandes grupos, e essa divisão organiza tudo: **cefaleias primárias** (a dor É a doença — enxaqueca, tensional, trigêmino-autonômicas) e **cefaleias secundárias** (a dor é SINTOMA de outra coisa — hemorragia, tumor, meningite, arterite, trombose venosa).`},
+
+  {h:"2. O passo que salva vidas: procurar SINAIS DE ALARME antes de tudo", c:`Antes de classificar qualquer cefaleia como "enxaqueca", pergunte se há bandeira vermelha de causa **secundária**. O mnemônico atual é o **SNNOOP10**; guarde os mais cobrados:
+
+- **S — Sistêmico:** febre, perda de peso, câncer, HIV/imunossupressão (pensar meningite, metástase, toxoplasmose).
+- **N — Neurológico:** déficit focal, rebaixamento, papiledema, crise (pensar lesão de massa, AVC, HIC).
+- **O — Onset (início) súbito:** a cefaleia **"em trovoada" (thunderclap)** — pico de intensidade em segundos, "a pior da vida" — é **hemorragia subaracnóidea** até prova em contrário.
+- **O — Older (idoso):** cefaleia **nova após os 50 anos** obriga a pensar arterite de células gigantes e lesão estrutural.
+- **P — Padrão que muda / Postural / Papiledema / gravidez:** dor que piora deitado ou com Valsalva (HIC), dor que só aparece de pé (hipotensão liquórica), padrão progressivo.
+
+Regra de ouro: **cefaleia primária tem história longa e estereotipada e exame normal.** Qualquer coisa "nova, diferente ou com achado no exame" desloca para secundária e pede investigação (neuroimagem; punção lombar se suspeita de HSA com TC normal ou de meningite; VHS/PCR se suspeita de arterite).`},
+
+  {h:"3. Enxaqueca (migrânea) — a primária que mais incapacita", c:`É uma desordem do sistema trigêmeo-vascular com hiperexcitabilidade cerebral, típica de **mulheres jovens**, com componente genético. Não é "só uma dor forte": é uma síndrome com fases.
+
+- **Critérios (ICHD-3), forma sem aura:** crises de **4 a 72 h** com **pelo menos 2** de — dor **unilateral**, **pulsátil**, **intensidade moderada/forte**, **piora com atividade física** — E **pelo menos 1** de — **náusea/vômito** ou **fotofobia e fonofobia**. Repare que a enxaqueca faz a pessoa querer **quarto escuro e silencioso e parada** (o oposto da agitação das salvas).
+- **Aura:** sintoma neurológico **focal, reversível, que se instala em 5–20 min e dura até 60 min**, geralmente **visual** (escotoma cintilante, linhas em zigue-zague que "marcham"). A marcha lenta e a reversibilidade a separam do AVC (súbito) e da crise epiléptica (segundos, positiva e rápida).
+- **Tratamento da crise:** analgésicos/AINEs no leve; **triptanos** (agonistas 5-HT1B/1D) no moderado-grave, quanto mais cedo melhor; antieméticos. **Cuidado:** triptanos e ergóticos são **vasoconstritores** — contraindicados em doença coronariana, AVC prévio e na **aura de tronco/hemiplégica**.
+- **Profilaxia** (quando as crises são frequentes/incapacitantes): **betabloqueador (propranolol)**, **topiramato**, **amitriptilina**, **flunarizina**, valproato; e os anti-CGRP nos refratários.
+- **Não esquecer:** o uso excessivo de analgésicos (≥ 10–15 dias/mês) causa **cefaleia por uso excessivo de medicamentos** — a dor que "não passa" porque o remédio virou o problema.`},
+
+  {h:"4. Cefaleia do tipo tensional — a mais comum de todas", c:`É a cefaleia primária mais **prevalente**. O perfil é quase o "negativo" da enxaqueca:
+
+- Dor **bilateral**, em **aperto/peso** (como uma faixa apertando a cabeça), **leve a moderada**, que **NÃO piora com esforço** e **NÃO tem** náusea/vômito (pode ter uma leve foto OU fonofobia, não as duas).
+- Pode ser episódica (esporádica/frequente) ou **crônica** (≥ 15 dias/mês por > 3 meses).
+- **Tratamento:** analgésicos simples/AINEs nas crises; na forma crônica, **amitriptilina** é a profilaxia de escolha, somada a medidas comportamentais (sono, postura, manejo do estresse, atividade física).
+
+Ponto de prova: a tensional é o grande diferencial "de baixo risco" — bilateral, em aperto, sem sinais autonômicos e sem piora ao esforço. Se aparecerem esses últimos, reconsidere o diagnóstico.`},
+
+  {h:"5. Cefaleias trigêmino-autonômicas — salvas × hemicrania paroxística (seu ponto de erro)", c:`Este grupo é o que você mais erra. Todas compartilham a **tríade**: dor **unilateral**, **peri/retro-orbitária, muito intensa**, acompanhada de **sinais autonômicos ipsilaterais** (lacrimejamento, olho vermelho, congestão/rinorreia nasal, ptose/miose, edema palpebral). O que as separa é **duração, frequência e resposta ao tratamento**:
+
+- **Cefaleia em salvas (cluster) — a mais conhecida.** Homem, crises **de 15 a 180 minutos**, **1 a 8 por dia**, em "salvas" que duram semanas e depois somem por meses (**ritmo circadiano** — acordam o paciente à mesma hora). O paciente fica **agitado, andando** (ao contrário da enxaqueca). **Tratamento da crise: OXIGÊNIO a 100% em alto fluxo + triptano** (sumatriptano subcutâneo/nasal). **Profilaxia: verapamil.**
+
+- **Hemicrania paroxística — a pegadinha clássica.** Crises **mais curtas (2 a 30 minutos)** e **mais frequentes (geralmente > 5 por dia)**. O traço que fecha o diagnóstico é a **resposta ABSOLUTA à indometacina** — a doença é "indometacina-responsiva" por definição. Se um caso de cefaleia autonômica curta e frequente **some com indometacina**, é hemicrania paroxística, não cluster.
+
+- **SUNCT/SUNA:** crises **ultracurtas** (segundos a 2 min), dezenas a centenas por dia, com sintomas autonômicos proeminentes. Não respondem à indometacina; tratam-se como neuralgia (lamotrigina/lidocaína).
+
+Fio condutor para não errar: **duração curtíssima (s) = SUNCT; curta (2–30 min) e muito frequente + responde à indometacina = hemicrania paroxística; média (15–180 min), agitação, oxigênio = salvas.**`},
+
+  {h:"6. Neuralgia do trigêmeo — dor em choque, sem sinal autonômico", c:`É uma dor **neuropática** do V par, não uma "cefaleia" no sentido comum. O perfil é inconfundível:
+
+- Dor em **choque elétrico/facada**, de **segundos**, em salvas, no território do trigêmeo (mais em V2/V3 — bochecha e mandíbula), **disparada por gatilhos banais**: mastigar, falar, escovar os dentes, tocar a face, vento no rosto ("zonas de gatilho").
+- **Sem sintomas autonômicos** (é isso que a separa das trigêmino-autonômicas) e com exame neurológico normal na forma clássica.
+- **Causa clássica:** compressão da raiz do trigêmeo por uma **alça vascular** (conflito neurovascular). **Atenção:** em paciente **jovem**, **bilateral** ou com **déficit sensitivo**, pense em **esclerose múltipla** ou lesão estrutural — peça RM.
+- **Tratamento: carbamazepina** (1ª linha; oxcarbazepina como alternativa). Refratários → cirurgia (descompressão microvascular) ou procedimentos percutâneos/radiocirurgia.`},
+
+  {h:"7. As secundárias que não se pode perder", c:`Três diagnósticos que a prova adora e que exigem ação imediata:
+
+- **Hemorragia subaracnóidea (HSA):** cefaleia **em trovoada** ("a pior da vida", pico em segundos), ± rigidez de nuca, náusea, rebaixamento. Conduta: **TC de crânio sem contraste** urgente; se **normal e a suspeita persiste**, **punção lombar** buscando **xantocromia/hemácias**. Não relaxe com TC normal precoce.
+- **Arterite de células gigantes (temporal):** **> 50 anos**, cefaleia nova temporal, **claudicação de mandíbula**, hipersensibilidade do couro cabeludo, sintomas de polimialgia reumática, **VHS/PCR muito altos** e risco de **amaurose** (neuropatia óptica isquêmica). Conduta: **corticoide em dose alta IMEDIATAMENTE**, sem esperar a biópsia da artéria temporal — o objetivo é salvar a visão do outro olho.
+- **Hipertensão intracraniana idiopática (pseudotumor cerebral):** mulher jovem obesa, cefaleia + **papiledema** + turvação/obscurações visuais + zumbido pulsátil; RM/venoRM excluem trombose venosa; punção com **pressão de abertura alta**. Trata com **acetazolamida** e perda de peso; risco de perda visual. Sempre excluir **trombose venosa cerebral** (cefaleia progressiva, crises, déficit — vê-se na venografia).`},
+
+  {h:"8. O algoritmo em seis frases (leve isto para a prova)", c:`- **Primeiro, sinais de alarme (SNNOOP10):** se houver, é **secundária** até excluir → neuroimagem/PL/VHS conforme a suspeita.
+- **Trovoada** = HSA (TC e, se normal, PL com xantocromia).
+- **Cefaleia nova > 50 anos + claudicação de mandíbula + VHS alto** = arterite temporal → **corticoide já**.
+- **Primária, crise de 4–72 h, unilateral pulsátil, foto/fonofobia, quer quarto escuro** = **enxaqueca** (triptano na crise; profilaxia se frequente).
+- **Unilateral periorbitária + sinais autonômicos:** cronometre — **2–30 min e > 5/dia respondendo à indometacina = hemicrania paroxística**; **15–180 min, agitação, oxigênio = salvas**.
+- **Dor facial em choque de segundos, com gatilhos, SEM autonômicos** = **neuralgia do trigêmeo** → **carbamazepina** (jovem/bilateral → investigar EM).`},
+ ],
+ flashcards: [
+  {p:"O que separa a hemicrania paroxística da cefaleia em salvas?", r:"Hemicrania paroxística: crises curtas (2–30 min), muito frequentes (>5/dia), resposta ABSOLUTA à indometacina. Salvas: 15–180 min, agitação, trata com oxigênio + triptano (não responde à indometacina)."},
+  {p:"Tratamento da crise de cefaleia em salvas?", r:"Oxigênio a 100% em alto fluxo + triptano (sumatriptano SC/nasal). Profilaxia: verapamil."},
+  {p:"Dor facial em choque de segundos, disparada por mastigar/falar, sem sinais autonômicos — diagnóstico e tratamento?", r:"Neuralgia do trigêmeo; carbamazepina (jovem/bilateral/déficit → investigar esclerose múltipla)."},
+  {p:"Critério de tempo da enxaqueca e da aura?", r:"Crise de 4–72 h; aura focal reversível que se instala em 5–20 min e dura até 60 min."},
+  {p:"Cefaleia em trovoada (thunderclap) — o que excluir e como?", r:"Hemorragia subaracnóidea: TC de crânio; se normal com suspeita mantida, punção lombar buscando xantocromia."},
+  {p:"Cefaleia nova no idoso com claudicação de mandíbula e VHS alto — diagnóstico e conduta?", r:"Arterite de células gigantes; corticoide em dose alta IMEDIATO (antes da biópsia) para prevenir cegueira."},
+  {p:"Contraindicação-chave dos triptanos?", r:"Doença coronariana/cerebrovascular e aura hemiplégica/de tronco (são vasoconstritores)."},
+ ],
+ pegadinhas: [
+  "Hemicrania paroxística responde à indometacina (é critério); cluster NÃO — cluster é oxigênio + triptano.",
+  "Neuralgia do trigêmeo NÃO tem sintomas autonômicos (isso a separa das trigêmino-autonômicas); trata com carbamazepina.",
+  "Neuralgia do trigêmeo jovem/bilateral/com déficit sensitivo = pensar esclerose múltipla (pedir RM).",
+  "Cefaleia em trovoada = HSA até prova em contrário; TC normal precoce NÃO exclui (fazer PL com xantocromia).",
+  "Arterite temporal: dar corticoide ANTES da biópsia — a espera custa a visão.",
+  "Na cefaleia em salvas o paciente fica agitado/andando; na enxaqueca quer ficar parado no escuro.",
+  "Uso de analgésico ≥ 10–15 dias/mês causa cefaleia por uso excessivo de medicamentos.",
+  "Triptano é vasoconstritor: não usar em coronariopata nem na aura hemiplégica/de tronco.",
+ ],
+ diretrizes: [
+  "Tratado de Neurologia da ABN (3ª ed., 2025): cap. 32 (Cefaleia na Emergência), 37 (Migrânea), 38 (Cefaleia Tipo Tensão), 39 (Cefaleias Trigeminoautonômicas), 44 (Situações Especiais), 45 (Uso Excessivo de Medicamentos) — ver materiais_neuro.md.",
+  "Merritt, Tratado de Neurologia (13ª ed.), Seção 7 — Cefaleia e Síndromes Dolorosas; Adams & Victor — 'Headache and Other Craniofacial Pains'.",
+  "Classificação Internacional das Cefaleias (ICHD-3) — critérios de enxaqueca, tensional, trigêmino-autonômicas e neuralgias.",
+ ],
+ questoes: [
+  {foco:"Hemicrania paroxística × salvas (seu ponto de erro)",
+   enunciado:"Mulher de 45 anos com crises de dor intensa ao redor do olho direito, com lacrimejamento e congestão nasal do mesmo lado, durando cerca de 15 minutos cada, ocorrendo 8 a 10 vezes por dia. As crises desaparecem completamente com indometacina. Qual o diagnóstico?",
+   alternativas:{a:"Cefaleia em salvas",b:"Hemicrania paroxística",c:"Enxaqueca com aura",d:"Neuralgia do trigêmeo"},
+   correta:"b",
+   comentario:"Crises curtas (2–30 min), muito frequentes (>5/dia), unilaterais periorbitárias com sintomas autonômicos e — o dado que fecha — resposta ABSOLUTA à indometacina definem a hemicrania paroxística (é uma cefaleia 'indometacina-responsiva' por critério). A cefaleia em salvas tem crises mais longas (15–180 min), menos numerosas, cursa com agitação e NÃO responde à indometacina (trata-se com oxigênio + triptano). Enxaqueca dura 4–72 h e não tem essa salva autonômica. Neuralgia do trigêmeo é dor em choque de segundos, com gatilhos e sem sintomas autonômicos. O teste da indometacina é o divisor de águas."},
+  {foco:"Neuralgia do trigêmeo (tratamento)",
+   enunciado:"Homem de 60 anos com paroxismos de dor em choque na hemiface direita (região da bochecha e mandíbula), de segundos, desencadeados ao mastigar e escovar os dentes, sem lacrimejamento ou congestão nasal; exame neurológico normal. Qual o tratamento de primeira linha?",
+   alternativas:{a:"Carbamazepina",b:"Oxigênio a 100%",c:"Indometacina",d:"Sumatriptano subcutâneo"},
+   correta:"a",
+   comentario:"Dor facial em choque, de segundos, com zonas de gatilho (mastigar, escovar os dentes) e SEM sintomas autonômicos é neuralgia do trigêmeo clássica (frequentemente por conflito neurovascular). O tratamento de 1ª linha é carbamazepina (alternativa: oxcarbazepina). Oxigênio trata cluster; indometacina trata hemicrania paroxística; triptano trata enxaqueca/salvas — todas cursam com sintomas autonômicos, ausentes aqui. Sinal de alerta: se fosse jovem, bilateral ou com déficit sensitivo, investigar esclerose múltipla com RM."},
+  {foco:"Sinal de alarme: arterite temporal",
+   enunciado:"Mulher de 72 anos com cefaleia temporal nova há 3 semanas, dor ao mastigar (claudicação de mandíbula), sensibilidade no couro cabeludo e um episódio de embaçamento visual; VHS de 90 mm/h. Qual a conduta imediata?",
+   alternativas:{a:"Prescrever amitriptilina e reavaliar em 30 dias",b:"Corticoide em dose alta imediatamente e programar biópsia da artéria temporal",c:"Sumatriptano e alta",d:"Tomografia de crânio; se normal, tranquilizar"},
+   correta:"b",
+   comentario:"Cefaleia nova após os 50 anos com claudicação de mandíbula, sensibilidade do couro cabeludo, sintoma visual e VHS muito alto é arterite de células gigantes (temporal) — emergência por risco de neuropatia óptica isquêmica e cegueira. A conduta é iniciar corticoide em dose alta IMEDIATAMENTE, sem esperar a biópsia da artéria temporal (que confirma depois e não perde o valor se feita nos primeiros dias). Amitriptilina/triptano/tranquilizar protelam uma causa que cega o outro olho em horas a dias. TC normal não afasta arterite (o exame é clínico + VHS/PCR + biópsia/US)."},
+ ]
+},
+"PED|Neonatologia": {
+ titulo: "Neonatologia — prematuridade, icterícia, sepse, infecções congênitas e triagem",
+ half: "PED",
+ resumo: "O período neonatal (0–28 dias) concentra decisões de alto risco e é campeão de erro em prova porque mistura conceitos que parecem próximos (idade cronológica × corrigida, icterícia fisiológica × patológica, sepse precoce × tardia) e siglas de triagem que se confundem. Este texto reconstrói o tema do zero: como classificar o recém-nascido, por que a prematuridade muda tudo (inclusive como se conta a idade dele), quando a icterícia é perigosa, como pensar sepse e as infecções congênitas (STORCH), e o que rastreiam os quatro testes da triagem neonatal.",
+ fontes: "Base: SBP — Documentos Científicos de Neonatologia (icterícia, sepse neonatal, seguimento do prematuro); Ministério da Saúde — Atenção à Saúde do Recém-Nascido, Triagem Neonatal (Programa Nacional) e Protocolos de Sífilis Congênita; e materiais de Pediatria do Drive do Vinicius ('Neonatologia'; 'Reanimação Neonatal' — ver materiais_drive.md).",
+ notaErro: `Nos seus registros, **prematuridade / idade corrigida** aparece com erro alto (67%, tier ESSENCIAL), e o eixo neonatal inteiro (icterícia, sepse, infecções congênitas, triagem) derruba pontos. O erro quase nunca é decoreba — é **misturar definições parecidas** e **não aplicar a idade corrigida** onde ela muda a interpretação. Quatro armadilhas explicam a maioria das quedas:
+
+- **Você não usa (ou usa errado) a idade corrigida.** No prematuro, para avaliar **crescimento e desenvolvimento neuropsicomotor**, conta-se a **idade corrigida** = idade cronológica menos as semanas que faltaram para 40 semanas. Um bebê nascido com 30 semanas, avaliado aos 4 meses de vida, tem idade corrigida de ~2 meses — e é isso que se espera dele no marco motor. Aplica-se a correção **até cerca de 2 anos** (alguns marcos até 3). Esquecer isso faz você "diagnosticar atraso" num bebê normal (seção 3).
+
+- **Você troca icterícia fisiológica por patológica (e vice-versa).** A patológica tem bandeiras: aparece **nas primeiras 24 h**, sobe rápido, é muito alta, dura demais, ou tem **fração DIRETA (conjugada) elevada** (que NUNCA é fisiológica e indica colestase — investigar atresia biliar). A fisiológica surge após 24 h, é indireta e limitada (seção 4).
+
+- **Você confunde sepse precoce com tardia.** **Precoce (< 48–72 h)** vem da mãe/canal de parto — **Streptococcus do grupo B (GBS)**, E. coli, Listeria; fatores: bolsa rota prolongada, corioamnionite, colonização materna por GBS. **Tardia (> 72 h)** costuma ser hospitalar/comunitária (Staph, Gram-negativos). O reconhecimento e a cobertura empírica mudam (seção 5).
+
+- **Você embaralha as siglas da triagem e das infecções congênitas.** Os quatro testes (pezinho, olhinho, orelhinha, coraçãozinho) rastreiam coisas diferentes; e o STORCH tem pistas próprias (calcificações periventriculares no CMV × difusas na toxo; sífilis com lesões ósseas e rinite) (seções 6–7).
+
+**Como zerar o erro:** diante de um recém-nascido, pergunte NESTA ordem — (1) **é a termo ou prematuro?** (e, se prematuro, **calcule a idade corrigida** para crescimento/DNPM); (2) **o problema começou quando?** (< 24 h da icterícia, < 72 h da sepse são bandeiras); (3) **é fisiológico ou patológico** — há sinal de alarme? As questões ao final batem exatamente nesses tropeços.`,
+ secoes: [
+  {h:"1. Comece pelo começo: como se classifica um recém-nascido", c:`Antes de qualquer conduta, todo RN é classificado por dois eixos, porque isso prevê os riscos dele:
+
+- **Idade gestacional (IG):** **a termo** = 37 a 41 semanas e 6 dias; **pré-termo (prematuro)** = < 37 semanas (subdividido em tardio 34–36+6, moderado 32–33+6, muito prematuro 28–31+6, extremo < 28); **pós-termo** = ≥ 42 semanas.
+- **Peso ao nascer:** baixo peso < 2500 g; muito baixo peso < 1500 g; extremo < 1000 g.
+- **Peso para a IG:** **PIG** (pequeno), **AIG** (adequado) ou **GIG** (grande) — usando curvas. Um PIG pode ter sofrido restrição de crescimento (risco de hipoglicemia, hipotermia, policitemia); um GIG levanta suspeita de **diabetes materno** (risco de hipoglicemia e tocotraumatismo).
+
+Por que isso importa: cada combinação prevê complicações. O prematuro, por imaturidade de órgãos, tem risco de **desconforto respiratório (doença da membrana hialina por deficiência de surfactante)**, apneia, hemorragia intraventricular, enterocolite necrosante, retinopatia da prematuridade, icterícia mais intensa e sepse. Guarde a lógica: **classificar = antecipar o que vai dar errado.**`},
+
+  {h:"2. Os primeiros minutos: Apgar e a lógica da reanimação", c:`O **boletim de Apgar** (no 1º e no 5º minuto) avalia cinco itens — frequência cardíaca, respiração, tônus, irritabilidade reflexa e cor — de 0 a 2 cada. Ele **documenta a transição e a resposta à reanimação**, mas **não é ele que decide** iniciar a reanimação: a decisão vem da avaliação imediata (respira/chora? tônus bom?) e, sobretudo, da **frequência cardíaca**.
+
+- Na sala de parto, o eixo é: passos iniciais (aquecer, posicionar, aspirar se necessário, secar/estimular); se apneia/gasping ou FC < 100 → **ventilação com pressão positiva (VPP)** — o passo mais importante e que resolve a maioria dos casos; se FC < 60 apesar de VPP efetiva → massagem cardíaca coordenada e, persistindo, adrenalina.
+- **Clampeamento oportuno do cordão** (tardio, ~1–3 min, no RN que não precisa de reanimação) melhora reservas de ferro e desfechos.
+
+Fixe: **a ventilação é a alma da reanimação neonatal** (o problema quase sempre é respiratório, não cardíaco primário), e o Apgar baixo isolado não faz diagnóstico de asfixia.`},
+
+  {h:"3. Prematuridade e IDADE CORRIGIDA — seu ponto de erro", c:`Este é o conceito que você mais erra, e é simples quando se entende o porquê. O prematuro "perdeu" semanas de gestação que ele completaria dentro do útero; para julgar o desenvolvimento dele com justiça, descontamos essas semanas.
+
+- **Idade cronológica:** tempo desde o nascimento (a que todo mundo usa no dia a dia).
+- **Idade corrigida (ou pós-concepcional ajustada):** **idade cronológica − (40 semanas − IG ao nascer)**. Exemplo: bebê nascido com **32 semanas** (faltaram 8 para 40); aos **3 meses** de vida (cronológica), a idade corrigida é **3 meses − 2 meses = 1 mês**. Ele deve sorrir/sustentar a cabeça como um bebê de 1 mês, não de 3.
+- **Para que serve:** avaliar **crescimento** (peso/estatura/PC nas curvas) e **desenvolvimento neuropsicomotor** e programar **introdução alimentar**. Usa-se a correção **até ~24 meses** (alguns serviços corrigem certos marcos até 3 anos).
+- **Para que NÃO muda:** o **calendário vacinal** segue a **idade cronológica** (vacina-se pela data de nascimento, não corrigida — o prematuro precisa é de proteção mais cedo), com poucas ressalvas (ex.: BCG conforme peso; esquema ampliado para VSR/palivizumabe em grupos de risco).
+
+Erro clássico de prova: "bebê de 4 meses nascido a 30 semanas não senta com apoio, não faz preensão" → antes de dizer "atraso", **corrija a idade** (4 − 2,5 ≈ 1,5 mês) e reavalie: pode estar perfeitamente normal.`},
+
+  {h:"4. Icterícia neonatal — fisiológica × patológica", c:`Icterícia (bilirrubina alta) é quase universal no RN, porque ele tem mais hemácias com meia-vida curta e um fígado imaturo para conjugar. A tarefa é separar o benigno do perigoso — porque a bilirrubina **indireta** muito alta é neurotóxica (**kernicterus**).
+
+- **Fisiológica:** aparece **APÓS 24 h**, é de **bilirrubina indireta**, tem pico moderado por volta do 3º–5º dia e regride em ~1–2 semanas (mais no prematuro e no bebê em aleitamento). RN clinicamente bem.
+- **Bandeiras de PATOLÓGICA (investigar):** início **nas primeiras 24 h**; velocidade de subida alta; **níveis elevados** para a idade em horas (usar o nomograma/curvas de Bhutani e as tabelas por horas de vida); icterícia **prolongada** (> 2 semanas); ou **fração DIRETA (conjugada) elevada** — esta **nunca é fisiológica** e obriga a investigar **colestase** (a grande preocupação é a **atresia de vias biliares**, cujo tratamento cirúrgico — portoenterostomia de Kasai — tem janela nas primeiras semanas).
+- **Causas de indireta precoce/intensa:** **incompatibilidade Rh** (mãe Rh− sensibilizada) e **ABO** (mãe O, bebê A/B — Coombs pode ser fraco), esferocitose, deficiência de G6PD, cefalo-hematoma.
+- **Tratamento:** **fototerapia** conforme os níveis por hora de vida e fatores de risco; **exsanguineotransfusão** nos níveis críticos ou sinais de encefalopatia bilirrubínica. A prevenção do kernicterus é o objetivo.`},
+
+  {h:"5. Sepse neonatal — precoce × tardia", c:`O RN tem imunidade imatura e adoece de forma **inespecífica** — por isso a suspeita é generosa. Separe por tempo, porque muda o agente e a fonte:
+
+- **Sepse PRECOCE (< 48–72 h de vida):** origem **materna/periparto**. Agentes: **Streptococcus do grupo B (GBS, Streptococcus agalactiae)** — o principal —, **E. coli** e **Listeria**. Fatores de risco: **colonização materna por GBS**, **bolsa rota > 18 h**, **corioamnionite** (febre materna), prematuridade, ITU materna. A **profilaxia intraparto com penicilina** na gestante GBS+ reduz muito a doença. Cobertura empírica clássica: **ampicilina + gentamicina**.
+- **Sepse TARDIA (> 72 h):** origem **hospitalar** (cateteres, ventilação — Staphylococcus coagulase-negativo, S. aureus, Gram-negativos, Candida) ou **comunitária**. A cobertura depende do perfil local.
+- **Sinais de alarme (inespecíficos):** instabilidade térmica (hipo ou hipertermia), recusa alimentar, letargia/irritabilidade, desconforto respiratório, apneia, distensão abdominal, icterícia, hipoglicemia, perfusão ruim. **"Bebê que não vai bem" = investigar sepse.**
+- **Conduta:** hemocultura (e culturas conforme o caso), hemograma/PCR como apoio (não excluem), e **antibiótico empírico precoce** — não se espera a cultura para tratar o RN grave; ponderar punção lombar conforme protocolo.`},
+
+  {h:"6. Infecções congênitas (STORCH) — pistas que decidem", c:`As infecções adquiridas na gestação/parto compartilham achados (restrição de crescimento, hepatoesplenomegalia, icterícia, plaquetopenia, alterações no SNC), mas têm assinaturas:
+
+- **Sífilis congênita (Treponema pallidum):** a mais cobrada no Brasil. Pode ser assintomática ou dar **rinite serossanguinolenta ("coriza sifilítica")**, **lesões cutâneas (pênfigo palmoplantar)**, **lesões ósseas (periostite, pseudoparalisia de Parrot)**, hepatoesplenomegalia. Diagnóstico e conduta guiam-se por **VDRL da mãe e do RN** e adequação do tratamento materno; trata-se com **penicilina**. É de **notificação** e amplamente evitável — a falha é não tratar a gestante e o parceiro.
+- **Toxoplasmose:** tríade de **Sabin** — **coriorretinite + hidrocefalia + calcificações intracranianas DIFUSAS**.
+- **Citomegalovírus (CMV):** a causa infecciosa mais comum de **surdez neurossensorial** e de microcefalia congênita; **calcificações PERIVENTRICULARES**, petéquias ("blueberry muffin"), PIG. (Truque: **CMV = periventricular; toxo = difusa.**)
+- **Rubéola:** catarata, **surdez** e **cardiopatia (persistência do canal arterial)** — a tríade de Gregg (rara hoje pela vacina).
+- **Zika:** microcefalia com desproporção craniofacial e calcificações; **Herpes** neonatal: quadro grave (vesículas, encefalite, sepse-like) — aciclovir.`},
+
+  {h:"7. Triagem neonatal — os quatro 'testes' do RN", c:`A triagem universal busca doenças tratáveis **antes** de darem sequela. Não confunda o que cada uma rastreia:
+
+- **Teste do PEZINHO (triagem biológica):** sangue do calcanhar, idealmente entre o **3º e o 5º dia**. O painel do SUS vem sendo **ampliado por etapas**; o núcleo clássico rastreia **hipotireoidismo congênito**, **fenilcetonúria**, **doença falciforme/hemoglobinopatias**, **fibrose cística**, **hiperplasia adrenal congênita** e **deficiência de biotinidase** (e novas condições na expansão). O **hipotireoidismo congênito** é o exemplo-mãe: assintomático ao nascer, causa deficiência intelectual irreversível se não tratado com **levotiroxina** precocemente — daí a triagem.
+- **Teste do OLHINHO (reflexo vermelho):** rastreia opacidades do eixo visual — **catarata congênita, retinoblastoma, glaucoma** — pela pesquisa do reflexo vermelho; reflexo ausente/branco (leucocoria) exige oftalmologista já.
+- **Teste da ORELHINHA (triagem auditiva — emissões otoacústicas):** detecta **surdez congênita** precocemente (CMV é causa comum), permitindo intervenção que preserva a linguagem.
+- **Teste do CORAÇÃOZINHO (oximetria de pulso):** mede a saturação em membro superior direito e um inferior; rastreia **cardiopatias congênitas críticas** (canal-dependentes) antes da alta.`},
+
+  {h:"8. O algoritmo em seis frases (leve isto para a prova)", c:`- **Classifique** o RN por IG e peso — isso antecipa os riscos.
+- No **prematuro**, use **idade corrigida** para crescimento e DNPM (até ~2 anos); **vacina segue idade cronológica**.
+- **Icterícia nas primeiras 24 h, ou fração DIRETA elevada, ou prolongada = patológica** (a direta indica colestase → investigar atresia biliar); fototerapia/exsanguíneo pela curva por hora.
+- **Sepse precoce (<72 h) = GBS/E. coli/Listeria** (ampicilina + gentamicina); **tardia (>72 h) = hospitalar** — sempre tratar cedo o RN que 'não vai bem'.
+- **STORCH:** sífilis (rinite, lesão óssea, VDRL, penicilina); **CMV = calcificação periventricular + surdez**; **toxo = calcificação difusa + coriorretinite + hidrocefalia**.
+- **Triagem:** pezinho (metabólico/endócrino/hemoglobina), olhinho (reflexo vermelho), orelhinha (audição), coraçãozinho (oximetria/cardiopatia crítica).`},
+ ],
+ flashcards: [
+  {p:"Como se calcula a idade corrigida do prematuro?", r:"Idade cronológica − (40 semanas − IG ao nascer). Ex.: nascido a 32 sem, aos 3 meses → 3 − 2 = 1 mês corrigido. Corrige-se até ~2 anos."},
+  {p:"A vacinação do prematuro segue idade cronológica ou corrigida?", r:"Cronológica (pela data de nascimento) — o prematuro precisa de proteção mais cedo."},
+  {p:"Que características tornam a icterícia neonatal PATOLÓGICA?", r:"Início < 24 h, subida rápida, níveis altos para a hora de vida, duração > 2 semanas, ou bilirrubina DIRETA elevada (colestase — nunca fisiológica)."},
+  {p:"Icterícia com fração direta (conjugada) elevada — o que investigar?", r:"Colestase neonatal; a grande preocupação é atresia de vias biliares (Kasai tem janela nas primeiras semanas)."},
+  {p:"Agentes da sepse neonatal precoce (<72 h) e cobertura empírica?", r:"Streptococcus do grupo B (GBS), E. coli, Listeria; ampicilina + gentamicina. Profilaxia intraparto com penicilina na gestante GBS+."},
+  {p:"Calcificações intracranianas: CMV × toxoplasmose?", r:"CMV = periventriculares (+ surdez neurossensorial); toxoplasmose = difusas (+ coriorretinite e hidrocefalia — tríade de Sabin)."},
+  {p:"O que rastreiam olhinho, orelhinha e coraçãozinho?", r:"Olhinho: reflexo vermelho (catarata/retinoblastoma/glaucoma). Orelhinha: surdez congênita (emissões otoacústicas). Coraçãozinho: cardiopatias congênitas críticas (oximetria de pulso)."},
+ ],
+ pegadinhas: [
+  "Antes de diagnosticar 'atraso' no prematuro, corrija a idade — o marco é julgado pela idade corrigida (até ~2 anos).",
+  "Vacina do prematuro é pela idade CRONOLÓGICA, não corrigida.",
+  "Bilirrubina DIRETA elevada nunca é fisiológica: pense colestase/atresia biliar.",
+  "Icterícia nas primeiras 24 h de vida é sempre patológica (pensar hemólise: Rh/ABO, G6PD).",
+  "Sepse precoce vem da mãe (GBS/E. coli/Listeria); tardia é hospitalar — o tempo (<72 h vs >72 h) decide.",
+  "CMV = calcificação periventricular e surdez; toxo = calcificação difusa e coriorretinite.",
+  "Sífilis congênita: rinite serossanguinolenta, pênfigo palmoplantar, lesão óssea; conduta guiada por VDRL e tratamento materno; penicilina.",
+  "Apgar documenta a transição, mas não decide iniciar reanimação — quem decide é a FC/respiração; a alma da reanimação é a ventilação.",
+ ],
+ diretrizes: [
+  "SBP — Documentos Científicos de Neonatologia: icterícia neonatal (manejo por horas de vida/curvas), sepse neonatal e seguimento do prematuro (idade corrigida).",
+  "Ministério da Saúde — Atenção à Saúde do Recém-Nascido; Programa Nacional de Triagem Neonatal (pezinho ampliado, olhinho, orelhinha, coraçãozinho); Protocolo de Sífilis Congênita (notificação).",
+  "Materiais de Pediatria do Drive do Vinicius: 'Neonatologia' e 'Reanimação Neonatal e PCR' (ver materiais_drive.md).",
+ ],
+ questoes: [
+  {foco:"Idade corrigida (seu ponto de erro)",
+   enunciado:"Lactente nascido com 30 semanas de idade gestacional é avaliado aos 4 meses de idade cronológica. Ainda não rola, não sustenta bem a cabeça e sorri pouco. Qual a conduta mais adequada?",
+   alternativas:{a:"Diagnosticar atraso do desenvolvimento e encaminhar com urgência",b:"Corrigir a idade (idade corrigida ~1,5 mês) e reavaliar os marcos por essa idade",c:"Iniciar estimulação por suspeita de paralisia cerebral",d:"Solicitar ressonância de crânio imediatamente"},
+   correta:"b",
+   comentario:"O bebê nasceu 10 semanas antes do termo (30 vs 40 semanas ≈ 2,5 meses). Aos 4 meses cronológicos, a idade corrigida é cerca de 1,5 mês — e um bebê de 1,5 mês legitimamente ainda não rola e sustenta pouco a cabeça. A conduta é corrigir a idade e julgar os marcos por ela (correção usada até ~2 anos). Rotular 'atraso', presumir paralisia cerebral ou pedir RM sem antes corrigir a idade é o erro clássico — gera diagnóstico e intervenção desnecessários. Se, já corrigida a idade, houver de fato defasagem ou sinais de alerta, aí sim investiga-se."},
+  {foco:"Icterícia: bilirrubina direta",
+   enunciado:"Recém-nascido de 3 semanas com icterícia persistente, colúria e acolia fecal; bilirrubina total elevada com fração DIRETA (conjugada) aumentada. Qual a principal hipótese e a urgência?",
+   alternativas:{a:"Icterícia fisiológica prolongada; apenas observar",b:"Icterícia do leite materno; manter aleitamento e reavaliar",c:"Colestase neonatal — investigar atresia de vias biliares com urgência",d:"Incompatibilidade ABO; fototerapia"},
+   correta:"c",
+   comentario:"Icterícia prolongada (>2 semanas) com fração DIRETA (conjugada) elevada, colúria e acolia é COLESTASE — e a fração direta nunca é fisiológica nem se explica pela icterícia do leite materno (que é indireta). A prioridade é investigar atresia de vias biliares, pois a cirurgia (portoenterostomia de Kasai) tem melhor resultado quanto mais cedo, idealmente nas primeiras 6–8 semanas. Incompatibilidade ABO causa icterícia INDIRETA e precoce, não esse padrão colestático. Observar ou atribuir ao leite materno perderia a janela cirúrgica."},
+  {foco:"Sepse precoce × tardia",
+   enunciado:"Recém-nascido a termo, 24 horas de vida, com desconforto respiratório, instabilidade térmica e recusa alimentar; a mãe teve bolsa rota há 20 horas e é colonizada por Streptococcus do grupo B. Qual a interpretação e a conduta empírica?",
+   alternativas:{a:"Sepse neonatal tardia; iniciar vancomicina",b:"Sepse neonatal precoce (GBS/E. coli/Listeria); hemocultura e ampicilina + gentamicina empíricas",c:"Apenas observação, pois pode ser taquipneia transitória",d:"Aguardar resultado da hemocultura antes de qualquer antibiótico"},
+   correta:"b",
+   comentario:"Início nas primeiras 48–72 h, com fatores maternos (bolsa rota >18 h, colonização por GBS), caracteriza sepse neonatal PRECOCE, cujos agentes são GBS, E. coli e Listeria. A conduta é colher hemocultura e iniciar antibiótico empírico precoce (classicamente ampicilina + gentamicina) — não se espera a cultura para tratar o RN sintomático, pois o atraso aumenta a mortalidade. Vancomicina cobre germes de sepse tardia/hospitalar, não é a empírica precoce. Atribuir a 'apenas taquipneia transitória' diante de sinais de sepse e fatores de risco maternos é o erro perigoso. A profilaxia intraparto com penicilina na mãe GBS+ é o que previne o quadro."},
+ ]
+},
 };
