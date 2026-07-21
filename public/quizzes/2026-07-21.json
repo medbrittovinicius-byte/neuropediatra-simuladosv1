@@ -1,0 +1,651 @@
+{
+ "date": "2026-07-21",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (deiscência do canal semicircular superior)",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 44 anos, procura ambulatório de otoneurologia relatando que, há cerca de um ano, sons intensos (buzinas, música alta) e esforços como assoar o nariz ou tossir desencadeiam breve sensação rotatória e oscilação visual. Queixa-se ainda de ouvir a própria voz e os próprios batimentos e passos de forma anormalmente alta no ouvido direito. Nega vertigem espontânea prolongada e nega crises recorrentes de horas. À otoscopia, membranas timpânicas normais. A audiometria mostra limiares aéreos discretamente rebaixados nas frequências graves com limiares ósseos supranormais (negativos) à direita, e o reflexo estapediano está preservado. A pressão no conduto auditivo externo e sons de 500 Hz reproduzem o nistagmo e a tontura.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Doença de Ménière",
+      "b": "Schwannoma vestibular",
+      "c": "Otosclerose",
+      "d": "Deiscência do canal semicircular superior"
+     },
+     "correta": "d",
+     "comentario": "A tríade de vertigem/oscilopsia induzida por som (fenômeno de Tullio) e por pressão (sinal de Hennebert), autofonia e hiperacusia para sons corporais (ouvir os próprios olhos mexerem, os passos, os batimentos) define a deiscência do canal semicircular superior: uma falha óssea no teto do canal cria uma 'terceira janela' que desvia energia sonora/pressórica para o labirinto. A audiometria é a assinatura: gap aéreo-ósseo nas graves à custa de LIMIARES ÓSSEOS SUPRANORMAIS (negativos) com reflexo estapediano PRESERVADO — o que separa da otosclerose, em que o gap decorre de fixação do estribo e o reflexo estapediano está ABOLIDO. A doença de Ménière cursa com crises espontâneas de vertigem de 20 min a horas + hipoacusia neurossensorial flutuante e zumbido, sem Tullio/Hennebert. O schwannoma vestibular dá hipoacusia neurossensorial unilateral progressiva e desequilíbrio, sem indução por som/pressão nem autofonia. Pérola: o gap aéreo-ósseo aqui é 'condutivo com reflexo presente' — pista de terceira janela, não de orelha média.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique o exame de imagem de escolha para confirmar a suspeita:",
+     "alternativas": {
+      "a": "Tomografia de ossos temporais com cortes finos e reconstrução de Pöschl",
+      "b": "Ressonância magnética de ângulo pontocerebelar com gadolínio",
+      "c": "Videonistagmografia com prova calórica",
+      "d": "Eletrococleografia"
+     },
+     "correta": "a",
+     "comentario": "A confirmação é anatômica: tomografia computadorizada de alta resolução dos ossos temporais com cortes submilimétricos e reconstruções nos planos de Pöschl (paralelo) e Stenvers (perpendicular ao canal superior), que demonstram a falha óssea no teto do canal. A RM com gadolínio de ângulo pontocerebelar é o exame do schwannoma, não desta condição. A videonistagmografia com prova calórica avalia função vestibular periférica global, mas não localiza a deiscência. A eletrococleografia pode estar alterada (aumento da razão SP/AP) e é um exame de apoio funcional, porém não é o padrão diagnóstico — a TC de ossos temporais é. Pegadinha clássica: pedir RM 'porque é tontura' quando a chave é o osso.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Diante da confirmação diagnóstica, indique a conduta inicial mais adequada:",
+     "alternativas": {
+      "a": "Orientação, evitar gatilhos e reavaliação; cirurgia reservada aos casos incapacitantes",
+      "b": "Manobra de Epley imediata",
+      "c": "Corticoterapia oral em altas doses",
+      "d": "Labirintectomia química com gentamicina intratimpânica"
+     },
+     "correta": "a",
+     "comentario": "A maioria dos pacientes tem sintomas leves e se beneficia de conduta conservadora: explicar a doença, orientar a evitar gatilhos sonoros e manobras de Valsalva e reavaliar; a correção cirúrgica (tamponamento/'plugging' ou recobrimento/'resurfacing' do canal por via de fossa média ou transmastoídea) fica reservada aos casos com vertigem/oscilopsia incapacitante ou perda funcional. A manobra de Epley trata VPPB de canal posterior (vertigem posicional em salvas de segundos ao deitar), não esta condição. A gentamicina intratimpânica é ablação vestibular usada na Ménière refratária — inadequada e deletéria aqui. Corticoide em alta dose não tem papel: não é doença inflamatória/autoimune. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 135–138 — Síndromes Vestibulares; e cap. 20 — Tonturas e Vertigem (semiologia).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroimunologia (encefalite límbica paraneoplásica anti-Hu)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 63 anos, tabagista de 45 maços-ano, é internado por quadro subagudo (6 semanas) de perda de memória para fatos recentes, desorientação temporal, irritabilidade e duas crises focais com automatismos. Perdeu 8 kg no período. Ao exame, desatento, com grave amnésia anterógrada e afeto lábil, sem sinais motores focais. RM de crânio mostra hipersinal em T2/FLAIR nas faces mesiais de ambos os lobos temporais, sem realce nem restrição à difusão. Líquor com pleocitose linfocítica discreta e bandas oligoclonais; PCR para herpes-vírus negativa. Anticorpos onconeurais séricos revelam positividade para anticorpo antineuronal nuclear tipo 1.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Doença de Alzheimer de início precoce",
+      "b": "Encefalite herpética por HSV-1",
+      "c": "Encefalite límbica paraneoplásica",
+      "d": "Encefalite autoimune por anticorpo anti-NMDA"
+     },
+     "correta": "c",
+     "comentario": "Amnésia anterógrada subaguda + crises temporais + hipersinal T2/FLAIR mesiotemporal bilateral define síndrome de encefalite límbica; a positividade do anticorpo antineuronal nuclear tipo 1 (anti-Hu), a perda ponderal e o tabagismo pesado apontam etiologia PARANEOPLÁSICA, tipicamente associada ao carcinoma de pequenas células do pulmão. O anti-Hu é anticorpo ONCONEURAL intracelular — marcador de câncer oculto, com resposta imunoterápica geralmente pobre. A encefalite herpética costuma ser mais aguda, febril, frequentemente assimétrica, com realce e RESTRIÇÃO À DIFUSÃO e PCR-HSV positiva (aqui negativa). A doença de Alzheimer é demência degenerativa insidiosa de anos, sem crises subagudas, sem pleocitose nem hipersinal límbico inflamatório. A encefalite anti-NMDA ocorre em mulheres jovens (± teratoma), com psicose, discinesias orofaciais e disautonomia, e anticorpo contra antígeno de SUPERFÍCIE (não anti-Hu).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Considerando a etiologia suspeita, indique a investigação prioritária:",
+     "alternativas": {
+      "a": "Nova punção lombar em 48 horas",
+      "b": "Eletroencefalograma prolongado de vídeo",
+      "c": "Biópsia cerebral estereotáxica",
+      "d": "Rastreio de neoplasia oculta com TC de tórax/abdome e PET-corpo inteiro"
+     },
+     "correta": "d",
+     "comentario": "Diante de anticorpo onconeural clássico (anti-Hu), a prioridade é caçar o tumor primário: TC de tórax e abdome e, se negativa, PET-FDG de corpo inteiro, dirigidos sobretudo ao pulmão (carcinoma de pequenas células) — encontrar e tratar o tumor é a intervenção que mais influencia o curso neurológico. Repetir a punção em 48 h não acrescenta e não é prioridade. A biópsia cerebral é invasiva e desnecessária quando o padrão de RM + anticorpo já fecham a síndrome. O EEG documenta as crises e ajuda no manejo epiléptico, mas não muda a estratégia central (achar/tratar a neoplasia). Pérola: em anti-Hu, se o rastreio inicial é negativo, repete-se em 3–6 meses, pois a síndrome neurológica frequentemente precede o diagnóstico do câncer.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a estratégia terapêutica inicial mais adequada:",
+     "alternativas": {
+      "a": "Aciclovir intravenoso empírico por 21 dias",
+      "b": "Plasmaférese isolada como terapia definitiva",
+      "c": "Tratamento oncológico do tumor primário e imunoterapia, com controle das crises",
+      "d": "Anticolinesterásico (donepezila) para o déficit cognitivo"
+     },
+     "correta": "c",
+     "comentario": "Nas encefalites paraneoplásicas por anticorpos intracelulares (anti-Hu), o pilar é o tratamento oncológico do tumor primário, associado a imunoterapia (corticoide em pulso, imunoglobulina humana), embora a resposta neurológica costume ser mais limitada do que nas encefalites por anticorpos de superfície; controlar as crises com fármaco anticrise é parte do manejo. Aciclovir empírico se justificaria enquanto herpes não estivesse afastado, mas com PCR-HSV negativa e padrão paraneoplásico definido, não é a terapia. Anticolinesterásico trata sintomaticamente Alzheimer, não muda encefalite inflamatória. A plasmaférese pode ser adjuvante, mas isolada não é 'definitiva' — a base é oncológico + imunoterapia. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 90 — Encefalites Autoimunes e Síndromes Paraneoplásicas.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas (hematoma extradural / síndrome de Cushing)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 28 anos, sofreu queda de motocicleta com trauma temporal esquerdo. Houve perda de consciência breve, seguida de recuperação e conversa normal com os socorristas (intervalo lúcido). Cerca de 90 minutos depois, evolui com cefaleia intensa, vômitos, sonolência progressiva e anisocoria (midríase à esquerda). À admissão: PA 190x100 mmHg, FC 48 bpm, respiração irregular; Glasgow em queda. A tomografia de crânio mostra coleção hiperdensa biconvexa (lentiforme) temporoparietal esquerda, com desvio de linha média de 8 mm e apagamento de cisternas.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Hemorragia subaracnóidea traumática",
+      "b": "Hematoma subdural agudo",
+      "c": "Contusão hemorrágica frontal",
+      "d": "Hematoma extradural (epidural)"
+     },
+     "correta": "d",
+     "comentario": "Trauma temporal + intervalo lúcido + deterioração rápida + coleção HIPERDENSA BICONVEXA (lentiforme) que não cruza suturas = hematoma extradural (epidural), tipicamente por laceração da artéria meníngea média sob fratura do osso temporal. O intervalo lúcido é o dado semiológico clássico. O hematoma subdural agudo tem forma de CRESCENTE (côncavo-convexa), acompanha a convexidade e cruza suturas, mais comum em idosos/atrofia e frequentemente com pior lesão parenquimatosa subjacente. A hemorragia subaracnóidea traumática mostra sangue nos sulcos/cisternas, não coleção biconvexa. A contusão frontal aparece como focos hemorrágicos no parênquima, não coleção extra-axial lentiforme. A tríade PA alta + bradicardia + respiração irregular é o reflexo de Cushing, sinal de hipertensão intracraniana grave e herniação iminente.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "A anisocoria com midríase à esquerda, no contexto, traduz:",
+     "alternativas": {
+      "a": "Crise convulsiva focal em curso",
+      "b": "Compressão do III nervo craniano por herniação uncal",
+      "c": "Comprometimento simpático cervical (síndrome de Horner)",
+      "d": "Lesão direta do nervo óptico esquerdo"
+     },
+     "correta": "b",
+     "comentario": "A midríase ipsilateral à lesão expansiva indica herniação uncal (transtentorial lateral): o unco do lobo temporal desloca-se medialmente e comprime o III nervo craniano (oculomotor) contra a borda do tentório; as fibras parassimpáticas pupiloconstritoras correm na periferia do nervo e são as primeiras a falhar, gerando midríase paralítica ('pupila fixa e dilatada') do mesmo lado da massa. Lesão direta do nervo óptico causa amaurose com defeito pupilar aferente, não midríase paralítica eferente. A síndrome de Horner é MIOSE (não midríase) com ptose e anidrose. Crise focal não explica anisocoria fixa com rebaixamento e Cushing. Pérola: pupila dilatada 'aponta' para o lado do hematoma — orienta a descompressão.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Enquanto se aciona a neurocirurgia, indique a sequência de conduta mais adequada:",
+     "alternativas": {
+      "a": "Manitol ou salina hipertônica isolados, mantendo o paciente em ar ambiente",
+      "b": "Medidas gerais e osmoterapia como ponte para a drenagem cirúrgica urgente",
+      "c": "Anti-hipertensivo endovenoso agressivo para normalizar rápido a pressão arterial",
+      "d": "Punção lombar imediata para medir e aliviar a pressão"
+     },
+     "correta": "b",
+     "comentario": "O hematoma extradural com efeito de massa e herniação é EMERGÊNCIA CIRÚRGICA (craniotomia/drenagem imediata). Enquanto se aciona a neurocirurgia, aplica-se o escalonamento da hipertensão intracraniana: medidas gerais primeiro (cabeceira a 30°, cabeça em linha média, via aérea protegida com normocapnia — evitar hipóxia/hipercapnia, normovolemia, analgesia/sedação, controle de temperatura) e osmoterapia (manitol ou salina hipertônica) como PONTE até a drenagem. A punção lombar é CONTRAINDICADA na hipertensão intracraniana com efeito de massa (risco de herniação fatal). Osmoterapia isolada, sem proteção de via aérea/oxigenação, é insuficiente. Reduzir agressivamente a PA é perigoso: a hipertensão pode ser resposta de Cushing para manter a pressão de perfusão cerebral — a solução é evacuar a massa. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 162 — Manejo do Traumatismo Cranioencefálico; e cap. 163 — Hipertensão Intracraniana em Terapia Intensiva Neurológica.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença do Neurônio Motor / ELA [REAL: SUS-BA R+ Clínica 2021]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 58 anos de idade, procura atendimento ambulatorial por queixa de fraqueza em membro superior direito, há alguns meses, associada a fasciculações. De antecedentes, possui hipotireoidismo, em uso de levotiroxina. Ao exame físico, lúcida e orientada, com sinais vitais estáveis. Exame neurológico com força muscular grau III em membro superior direito, presença de fasciculações, hiperreflexia e hipotrofia muscular. Força muscular grau IV nos demais membros, com sinal de Babinski bilateral. Sensibilidade preservada. Presença de fasciculações em língua. Demais exame segmentar sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável para a paciente:",
+     "alternativas": {
+      "a": "Síndrome de Guillain-Barré atípica",
+      "b": "Esclerose múltipla",
+      "c": "Esclerose lateral amiotrófica",
+      "d": "Síndrome de Eaton-Lambert"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2021] A combinação de sinais de neurônio motor SUPERIOR (hiperreflexia, sinal de Babinski bilateral) com neurônio motor INFERIOR (atrofia, fasciculações em membros E na língua) na AUSÊNCIA de déficit sensitivo é a assinatura da esclerose lateral amiotrófica. A distribuição assimétrica e progressiva e o acometimento bulbar (fasciculação lingual) reforçam. A síndrome de Eaton-Lambert é doença da junção neuromuscular (fraqueza proximal com facilitação pós-exercício, anti-VGCC, associada a CPPC) — não dá sinais piramidais. A Guillain-Barré cursa com ARREFLEXIA, componente sensitivo e curso agudo com dissociação proteinocitológica. A esclerose múltipla dá surtos com acometimento sensitivo/óptico e lesões desmielinizantes do SNC, sem fasciculações difúsas nem padrão de neurônio motor puro. Regra de ouro: NMS + NMI sem sensitivo = doença do neurônio motor.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Identifique o exame mais acurado para definição diagnóstica do caso:",
+     "alternativas": {
+      "a": "Anticorpo contra o receptor de acetilcolina",
+      "b": "Eletroneuromiografia",
+      "c": "Estudo do líquor",
+      "d": "Ressonância nuclear magnética de crânio e coluna cervical"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2021] A eletroneuromiografia é o exame-chave: demonstra denervação ativa e crônica (fibrilações, ondas positivas, fasciculações, potenciais de unidade motora de grande amplitude e recrutamento reduzido) em múltiplos segmentos/miótomos, confirmando o comprometimento difuso do neurônio motor inferior exigido pelos critérios diagnósticos (El Escorial/Awaji). A RM de crânio e coluna cervical serve para AFASTAR diferenciais (mielopatia compressiva), mas não confirma a ELA. O estudo do líquor pode excluir mimetizadores inflamatórios/infecciosos, sem ser diagnóstico. O anticorpo anti-receptor de acetilcolina é o exame da miastenia gravis, diferencial da fraqueza flutuante — não da ELA. Pegadinha: a RM é 'para excluir', a ENMG é 'para confirmar'.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando a principal hipótese diagnóstica, indique a conduta terapêutica mais adequada:",
+     "alternativas": {
+      "a": "Riluzol",
+      "b": "Imunoglobulina",
+      "c": "Piridostigmina",
+      "d": "Fingolimode"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2021] O riluzol é a única droga modificadora de doença amplamente estabelecida na esclerose lateral amiotrófica: antiglutamatérgico que reduz a excitotoxicidade e prolonga modestamente a sobrevida/tempo até traqueostomia; o cuidado é multidisciplinar (suporte respiratório, nutricional e de comunicação). A piridostigmina é anticolinesterásico da miastenia gravis, sem papel na ELA. O fingolimode é imunomodulador da esclerose múltipla, doença diferente. A imunoglobulina trata neuropatias imunomediadas (Guillain-Barré, CIDP), não a degeneração do neurônio motor. Pérola: riluzol modifica a doença; a nova geração inclui edaravona em contextos selecionados, mas riluzol é a resposta clássica de prova. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 108 — Esclerose Lateral Amiotrófica.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Medula e Cauda Equina / mielorradiculopatia esquistossomótica [REAL: SUS-BA R+ Clínica 2023]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 19 anos de idade, deu entrada no pronto-socorro queixando-se de dificuldade para deambular e ficar de pé, iniciada há 12 dias, associada à dor lombar e dificuldade para urinar e evacuar. Ao exame físico, apresenta-se com sinais vitais estáveis, ausculta cardiorrespiratória normal. Abdome com leve dor à palpação em fossa ilíaca esquerda, sem outros achados. Edema simétrico 2+/4 em membros inferiores. Ao exame neurológico, sem alterações nos nervos cranianos, força muscular preservada em membros superiores e grau 3 em membros inferiores. Reflexos abolidos em membros inferiores e anestesia em sela e região posterior das pernas. Realizados exames: Hb = 11,5 g/dL, Ht = 35%, leucócitos = 10500 céls/mm³ (66% de neutrófilos, 19% de linfócitos, 15% de eosinófilos), plaquetas = 400 mil/mm³, FAN não reagente, Fator reumatoide não reagente, sumário de urina sem alterações. Punção liquórica apresentando hiperproteinorraquia, hipercelularidade às custas de linfomononucleares e eosinofilia. Realizada ressonância nuclear magnética de coluna, com evidência de alargamento do cone medular, com captação de contraste.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o quadro clínico descrito, identifique o diagnóstico mais provável para este paciente:",
+     "alternativas": {
+      "a": "Mielorradiculopatia esquistossomótica",
+      "b": "Esclerose múltipla",
+      "c": "Síndrome de Guillain-Barré",
+      "d": "Abscesso em coluna lombar"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2023] Síndrome de cone medular/cauda equina (paraparesia, arreflexia, anestesia em sela, retenção urinária/fecal) em paciente jovem com EOSINOFILIA no sangue (15%) E no líquor, hiperproteinorraquia e RM com alargamento do cone captante = mielorradiculopatia esquistossomótica (neuroesquistossomose medular), emergência neurológica endêmica na Bahia rural. A eosinofilia liquórica é a pista de ouro. A Guillain-Barré cursa com dissociação proteinocitológica (proteína alta, células normais) SEM eosinofilia e é polirradiculoneuropatia, não mielopatia com nível/cone captante. O abscesso espinhal daria febre, dor intensa, coleção com realce anelar e quadro séptico. A esclerose múltipla é desmielinização do SNC com surtos e lesões multifocais, sem eosinofilia liquórica nem alargamento captante do cone. Padrão regional: dor lombar + eosinofilia + procedência rural = pensar S. mansoni.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Considerando o diagnóstico mais provável, identifique a fisiopatogenia envolvida:",
+     "alternativas": {
+      "a": "Infecção de origem hematogênica ou por contiguidade",
+      "b": "Desmielinização decorrente de reação autoimune",
+      "c": "Reação granulomatosa em torno dos ovos dos parasitas",
+      "d": "Reação autoimune geralmente precedida por uma infecção"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2023] Na neuroesquistossomose medular, os ovos de Schistosoma mansoni alcançam o plexo venoso perimedular (especialmente cone/cauda) e deflagram intensa REAÇÃO GRANULOMATOSA periovular, com inflamação e edema que comprimem e lesam raízes e medula — daí o alargamento captante do cone na RM e a eosinofilia. A desmielinização autoimune é o mecanismo da esclerose múltipla. Infecção hematogênica/por contiguidade descreve abscesso/osteomielite espinhal. Reação autoimune pós-infecciosa (mimetismo molecular) é a base do Guillain-Barré — não desta doença. Entender o granuloma explica por que o tratamento combina antiparasitário (mata o verme/reduz postura de ovos) com corticoide (contém a reação granulomatosa).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o tratamento mais adequado neste momento:",
+     "alternativas": {
+      "a": "Pulsoterapia com corticoide e imunobiológico",
+      "b": "Drenagem da coleção e antibioticoterapia",
+      "c": "Imunoglobulina e plasmaférese",
+      "d": "Pulsoterapia com corticoide e antiparasitários"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2023] O tratamento é corticoide em pulsoterapia (controla a reação granulomatosa/edema e protege a medula) associado a antiparasitário (praziquantel, que elimina o verme adulto). A drenagem + antibiótico trataria abscesso, não é o caso. Corticoide + imunobiológico não é o esquema da neuroesquistossomose. Imunoglobulina/plasmaférese tratam neuropatias imunomediadas (Guillain-Barré/CIDP), sem papel aqui. Detalhe importante: o corticoide costuma ser iniciado junto ou pouco antes do praziquantel para minimizar a piora inflamatória pela morte parasitária, e o desfecho neurológico depende da precocidade do tratamento. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 146 — Neuroesquistossomose (medular).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Junção Neuromuscular (miastenia gravis generalizada com timoma)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 32 anos, relata há 4 meses queda das pálpebras e visão dupla que pioram ao fim do dia e ao ler por tempo prolongado, melhorando após o repouso. Nas últimas semanas surgiram voz anasalada ao fim das refeições, dificuldade para mastigar carne e fraqueza para pentear o cabelo e subir escadas. Nega dor, alteração sensitiva ou de esfíncteres. Ao exame, ptose que se acentua ao olhar para cima de forma sustentada, fraqueza dos músculos proximais que melhora após breve descanso, reflexos e sensibilidade normais. As pupilas são normais.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o mecanismo fisiopatológico mais provável:",
+     "alternativas": {
+      "a": "Degeneração do corno anterior da medula",
+      "b": "Desmielinização segmentar de nervos periféricos",
+      "c": "Anticorpos contra canais de cálcio pré-sinápticos",
+      "d": "Anticorpos contra o receptor de acetilcolina na membrana pós-sináptica"
+     },
+     "correta": "d",
+     "comentario": "A fadigabilidade flutuante que piora com o esforço e melhora com o repouso, acometendo musculatura ocular (ptose, diplopia), bulbar (voz anasalada, disfagia) e proximal dos membros, com pupilas poupadas e sem alteração sensitiva, é a marca da miastenia gravis: autoanticorpos contra o RECEPTOR DE ACETILCOLINA na membrana pós-sináptica reduzem o número de receptores funcionais, diminuindo a margem de segurança da transmissão neuromuscular. Anticorpos anti-canal de cálcio pré-sináptico causam a síndrome de Lambert-Eaton, em que a força FACILITA com o exercício e há disautonomia (padrão oposto). Desmielinização de nervos periféricos daria déficit sensitivo-motor com arreflexia. Degeneração do corno anterior é doença do neurônio motor, com atrofia/fasciculações e sinais piramidais, sem flutuação nem acometimento ocular fadigável. Pupila normal ajuda a separar de lesões do III nervo.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique o exame que melhor confirma a etiologia autoimune suspeitada:",
+     "alternativas": {
+      "a": "Eletroencefalograma",
+      "b": "Dosagem de anticorpo anti-receptor de acetilcolina",
+      "c": "Biópsia de nervo sural",
+      "d": "Ressonância magnética de crânio"
+     },
+     "correta": "b",
+     "comentario": "A dosagem sérica de anticorpo anti-receptor de acetilcolina é o exame de maior especificidade para confirmar a miastenia gravis generalizada (positivo na maioria dos casos generalizados; quando negativo, pesquisar anti-MuSK/anti-LRP4). Complementam o eletrodiagnóstico (estimulação repetitiva com decremento >10%; eletromiografia de fibra única com jitter aumentado) e o teste do gelo na forma ocular. O EEG avalia atividade cortical (epilepsia), sem relação. A RM de crânio serve a lesões do SNC, não à junção neuromuscular — embora se deva pedir TC/RM de TÓRAX para rastrear TIMOMA, presente em cerca de 10–15% e associado a doença mais grave. A biópsia de nervo sural investiga neuropatias periféricas, não a junção. Pérola: confirmado o diagnóstico, sempre imaginar o mediastino atrás de um timoma.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica de base mais adequada para o controle sintomático inicial:",
+     "alternativas": {
+      "a": "Corticoide em pulso isolado como terapia definitiva",
+      "b": "Imunoglobulina domiciliar contínua",
+      "c": "Plasmaférese ambulatorial de manutenção mensal",
+      "d": "Piridostigmina, com imunossupressão conforme a gravidade e investigação de timoma"
+     },
+     "correta": "d",
+     "comentario": "O controle sintomático de base começa com o anticolinesterásico piridostigmina (aumenta a acetilcolina disponível na fenda), associado a imunossupressão (corticoide e poupadores como azatioprina/micofenolato) conforme a gravidade, além de investigar e tratar timoma (timectomia melhora o curso em selecionados, sobretudo com timoma ou anti-AChR positivo abaixo de ~50 anos). Plasmaférese e imunoglobulina são terapias de RESGATE para crise miastênica ou pré-operatório, não manutenção ambulatorial de rotina. Corticoide em pulso isolado não é 'definitivo' e pode até precipitar piora transitória no início. Cuidado com fármacos que agravam a doença (aminoglicosídeos, fluoroquinolonas, macrolídeos, betabloqueadores, magnésio). 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 110 — Miastenia Grave Adquirida.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropediatria específica (atrofia muscular espinhal tipo 1)",
+   "tier": "MÉDIO",
+   "vinheta": "Lactente de 4 meses, do sexo masculino, é levado à consulta porque 'não firma o pescoço' e está cada vez mais 'molinho'. Nasceu a termo, com movimentação normal ao nascer, mas nos últimos dois meses os pais notaram que ele quase não move as pernas contra a gravidade, chora fraco e mama com cansaço. Ao exame: hipotonia acentuada com postura em 'rã', ausência de sustentação cefálica, arreflexia global, fasciculações da língua e padrão respiratório paradoxal (tórax em sino), com face alerta e movimentos oculares e mímica preservados. Sensibilidade aparentemente preservada.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Paralisia cerebral discinética",
+      "b": "Atrofia muscular espinhal tipo 1",
+      "c": "Distrofia muscular de Duchenne",
+      "d": "Hipotireoidismo congênito"
+     },
+     "correta": "b",
+     "comentario": "Lactente hipotônico com fraqueza proximal simétrica, arreflexia, fasciculação de língua, respiração paradoxal (diafragmática) com tórax 'em sino' e — sinal marcante — FACE ALERTA/expressiva com cognição e movimentos oculares preservados aponta doença do neurônio motor inferior de início precoce: atrofia muscular espinhal tipo 1 (Werdnig-Hoffmann), por deleção/mutação bialélica do gene SMN1. A paralisia cerebral costuma evoluir para hipertonia/espasticidade com reflexos exaltados e sofrimento perinatal, não arreflexia com fasciculação lingual. A distrofia de Duchenne manifesta-se por volta dos 3–5 anos (marcha, Gowers, pseudo-hipertrofia de panturrilhas), não em lactente 'molinho' com arreflexia. O hipotireoidismo congênito dá hipotonia com letargia, icterícia prolongada, macroglossia e hérnia umbilical, sem fasciculação de língua nem arreflexia — e é rastreado pelo teste do pezinho. A face viva contrastando com o corpo flácido é a pérola.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique o exame que melhor confirma a etiologia do quadro:",
+     "alternativas": {
+      "a": "Biópsia muscular com dosagem de distrofina",
+      "b": "Ressonância magnética de encéfalo",
+      "c": "Teste genético para deleção/mutação do gene SMN1",
+      "d": "Dosagem de TSH e T4 livre"
+     },
+     "correta": "c",
+     "comentario": "A confirmação é molecular: teste genético que documenta a deleção homozigótica (ou mutação bialélica) do gene SMN1, com valor prognóstico adicional no número de cópias do SMN2. É exame de primeira linha, dispensando procedimentos invasivos. A biópsia muscular com dosagem de distrofina investiga distrofinopatias (Duchenne/Becker), diagnóstico diferente. A RM de encéfalo avalia lesões do SNC (paralisia cerebral, malformações), não a doença de neurônio motor inferior. TSH/T4 livre confirmam hipotireoidismo congênito — importante no diferencial do lactente hipotônico, mas não é o caso quando há fasciculação lingual e arreflexia. Nota: essa doença entrou como condição de triagem/terapia gênica, o que torna o diagnóstico precoce ainda mais decisivo.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Sobre a conduta e o prognóstico, assinale a afirmativa correta:",
+     "alternativas": {
+      "a": "A conduta central é fisioterapia motora isolada, sem vigilância respiratória",
+      "b": "Exige suporte respiratório/nutricional e terapias modificadoras específicas, com prognóstico historicamente grave",
+      "c": "O tratamento de escolha é corticoterapia crônica, como na miopatia inflamatória",
+      "d": "É condição benigna, com recuperação motora espontânea na maioria"
+     },
+     "correta": "b",
+     "comentario": "A forma tipo 1 exige cuidado multidisciplinar: vigilância e suporte RESPIRATÓRIO (a insuficiência ventilatória é a principal causa de óbito) e NUTRICIONAL (disfagia/aspiração), reabilitação e — mudança de era — terapias modificadoras específicas (reposição/modulação de SMN, incluindo terapia gênica e moduladores de splicing do SMN2), que alteram a história natural quando iniciadas cedo; historicamente, sem tratamento, o prognóstico é grave nos primeiros anos. Não é condição benigna nem se resolve espontaneamente. Corticoide crônico trata miopatias inflamatórias, não esta doença. Fisioterapia isolada, ignorando a função respiratória, é conduta insuficiente e perigosa. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 174 — Síndrome do Lactente Hipotônico; e cap. 109 — Atrofia Muscular Espinhal 5q.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Demências (comprometimento cognitivo vascular)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 74 anos, hipertenso e diabético de longa data, ex-tabagista, é trazido pela família por declínio cognitivo que se instalou 'em degraus' nos últimos 3 anos, com pioras abruptas seguidas de estabilização, algumas coincidindo com episódios transitórios de fraqueza. Predominam lentificação do pensamento, dificuldade de planejamento e atenção, além de labilidade emocional e marcha a passos curtos. A memória de fatos remotos está relativamente preservada. Ao exame, há reflexos primitivos, discreta assimetria de reflexos e sinal de Babinski à direita. A RM mostra múltiplos infartos lacunares e extensa hiperintensidade da substância branca periventricular.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Demência com corpos de Lewy",
+      "b": "Comprometimento cognitivo vascular (demência vascular)",
+      "c": "Doença de Alzheimer típica",
+      "d": "Demência frontotemporal variante comportamental"
+     },
+     "correta": "b",
+     "comentario": "Declínio cognitivo 'em degraus', com predomínio DISEXECUTIVO/atencional e lentificação (não amnésia hipocampal precoce), fatores de risco vascular, sinais focais ao exame e RM com infartos lacunares + doença extensa da substância branca definem o comprometimento cognitivo vascular. A doença de Alzheimer típica é insidiosa e progressiva, dominada por amnésia episódica anterógrada precoce, sem o curso em degraus nem os sinais focais. A demência com corpos de Lewy traz cognição flutuante, alucinações visuais precoces e parkinsonismo com hipersensibilidade a neurolépticos — não é o padrão aqui. A frontotemporal comportamental cursa com desinibição/apatia e perda precoce da conduta social em pacientes mais jovens, sem a carga vascular da imagem. Pérola: perfil executivo + marcha alterada + fatores vasculares + lacunas na RM = vascular.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Assinale o exame/achado que melhor apoia a etiologia suspeitada:",
+     "alternativas": {
+      "a": "Eletroencefalograma com surtos de ponta-onda 3 Hz",
+      "b": "Cintilografia de transportador de dopamina reduzida",
+      "c": "Neuroimagem (RM) demonstrando infartos e doença de substância branca",
+      "d": "Biomarcadores liquóricos com padrão de Alzheimer"
+     },
+     "correta": "c",
+     "comentario": "A neuroimagem estrutural (RM) é o pilar do diagnóstico do comprometimento cognitivo vascular: demonstra o substrato — infartos territoriais/lacunares, micro-hemorragias e leucoaraiose (hiperintensidade da substância branca) — e correlaciona a lesão com o declínio. Biomarcadores liquóricos com padrão amiloide/tau apontam Alzheimer, e sua alteração indicaria doença mista, não a etiologia vascular pura. A cintilografia de transportador de dopamina reduzida sugere parkinsonismo degenerativo/Lewy, fora do quadro. O EEG com ponta-onda 3 Hz é típico de epilepsia de ausência, sem relação. Vale controlar rigorosamente os fatores de risco vasculares, pois eles modificam a progressão.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a conduta mais adequada para modificar a evolução do quadro:",
+     "alternativas": {
+      "a": "Controle agressivo dos fatores de risco vascular e reabilitação",
+      "b": "Levodopa para a lentificação motora",
+      "c": "Anticolinesterásico em altas doses como terapia curativa",
+      "d": "Antipsicótico de rotina para a labilidade emocional"
+     },
+     "correta": "a",
+     "comentario": "Não há cura; a intervenção que muda o curso é o controle rigoroso e sustentado dos fatores de risco vascular — pressão arterial, glicemia, dislipidemia, antiagregação/anticoagulação conforme a indicação e cessação do tabagismo — associado a reabilitação cognitiva/motora e manejo de humor. Anticolinesterásicos têm benefício modesto e sintomático (sobretudo em doença mista com Alzheimer), não são curativos nem devem ser usados em 'altas doses' como terapia definitiva. Levodopa é para parkinsonismo dopa-responsivo, não para a lentificação vascular. Antipsicótico de rotina deve ser evitado (risco cerebrovascular e de mortalidade em idosos com demência); a labilidade maneja-se primeiro com estratégias não farmacológicas e tratamento de depressão, se presente. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 101 — Comprometimento Cognitivo Vascular.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia / Reanimação neonatal e Apgar [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, nascido de parto cesariano por apresentar idade gestacional de 42 semanas e 3 dias (de acordo com a ultrassonografia), nasceu cianótico e hipoativo, apresentando Apgar de 4 no primeiro minuto, cianótico, com Frequência Cardíaca: 80 bpm, respiração irregular, com débil flexão de membros, com reação facial ao estímulo táctil. Observou-se presença de líquido amniótico meconial.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando as recomendações do Ministério da Saúde e da Sociedade Brasileira de Pediatria para a atenção ao recém-nascido, assegurado o aquecimento, o próximo passo a ser seguido é:",
+     "alternativas": {
+      "a": "Instalar oxímetro de pulso",
+      "b": "Posicionar a cabeça e aspirar as vias aéreas",
+      "c": "Secar o recém-nascido com compressas",
+      "d": "Iniciar ventilação por pressão positiva"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Nos passos iniciais da estabilização (golden minute), após prover calor, a sequência é posicionar a cabeça em leve extensão para abrir a via aérea e aspirar quando necessário, seguido de secar e retirar campos úmidos e reavaliar. A questão testa a ORDEM dos passos iniciais: garantido o aquecimento, segue-se posicionar/permeabilizar a via aérea. Instalar o oxímetro é útil, mas não é o passo imediato de permeabilização. Iniciar ventilação com pressão positiva só se indica APÓS os passos iniciais, se o RN permanecer em apneia/respiração irregular ou FC < 100 bpm — não é o primeiro movimento. Secar é parte dos passos iniciais, mas vem na sequência do posicionamento da via aérea. Observação atual: perante líquido meconial, a conduta é guiada pela vitalidade — RN não vigoroso segue os passos iniciais e, se não responde, VPP (a aspiração traqueal de rotina não é mais recomendada).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o meio de avaliação mais adequado para definir e decidir as manobras de reanimação neonatal:",
+     "alternativas": {
+      "a": "Oximetria de pulso",
+      "b": "Ausculta precordial",
+      "c": "Palpação do cordão umbilical",
+      "d": "Monitorização cardíaca"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A frequência cardíaca é o principal indicador que guia as decisões da reanimação neonatal, e a MONITORIZAÇÃO CARDÍACA (monitor/ECG de 3 derivações) é o meio mais preciso e rápido para avaliá-la, sobretudo quando há necessidade de intervenção, superando métodos manuais. A oximetria de pulso informa a saturação e ajuda a titular oxigênio, mas responde de forma mais lenta e pode falhar em baixa perfusão — não é o melhor para decidir manobras. A ausculta precordial é útil, porém intermitente e sujeita a erro. A palpação do cordão subestima a FC real e é a menos confiável. Regra: a FC comanda a reanimação; o monitor cardíaco é o padrão para medi-la.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Informe os critérios utilizados para definir o Escore de Apgar no recém-nascido:",
+     "alternativas": {
+      "a": "Pulso, frequência respiratória, cor da pele, tônus muscular e reatividade",
+      "b": "Frequência cardíaca, reatividade, frequência respiratória, tônus muscular e choro",
+      "c": "Pulso, irritabilidade reflexa, cor da pele, choro e atividade",
+      "d": "Frequência cardíaca, aspecto das extremidades, respiração, reatividade e movimentação ativa"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O escore de Apgar avalia cinco parâmetros: frequência cardíaca (pulso), esforço/frequência respiratória, tônus muscular (atividade), irritabilidade reflexa e cor da pele — cada um de 0 a 2, no 1º e 5º minutos. A alternativa correta lista pulso, irritabilidade reflexa, cor, choro/respiração e atividade/tônus, contemplando os cinco itens. As demais trocam ou misturam parâmetros (ex.: 'frequência respiratória' e 'choro' como itens separados, ou 'aspecto das extremidades' isolado), não correspondendo aos cinco componentes clássicos. Importante: o Apgar NÃO define quando iniciar reanimação (isso é guiado por respiração/FC nos passos iniciais) — serve para descrever a resposta e a evolução. 📚 Leitura sugerida (bloco): SBP — Reanimação do recém-nascido ≥34 semanas (Diretrizes 2022); material do Vinicius (Drive): Flashcard Reanimação Neonatal e PCR (EMR 2023) — https://drive.google.com/file/d/1lQDZ-aXmmrhWhbUcQ_NCXQ5v8yPtMJEV/view",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Desenvolvimento/Puericultura e Imunização (PNI) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, 80 dias de vida, nascida de parto natural, sem intercorrências, em comunidade rural, é levada para à UBS pela primeira vez. É a segunda filha. Está em aleitamento materno exclusivo, mamando religiosamente a cada 4 horas. Há queixa de choro frequente e dejeções a cada mamada. Ao exame, peso: 4.500 g; comprimento: 58,5 cm; perímetro cefálico: 39 cm. Sorri a estímulos; marcha reflexa ausente; quando deitada; ao ser puxada para a posição sentada a cabeça pende. Exame segmentar não mostra alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o significado dos achados quanto ao desenvolvimento neuropsicomotor nessa criança:",
+     "alternativas": {
+      "a": "Atraso no desenvolvimento",
+      "b": "Presença de reflexos patológicos",
+      "c": "Falta de estímulo neurossensorial",
+      "d": "Desenvolvimento normal para a idade"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Aos ~2,5 meses, sorrir a estímulos (sorriso social surge por volta de 6–8 semanas) é marco esperado; a marcha reflexa (reflexo de marcha automática) NORMALMENTE desaparece por volta de 6–8 semanas — logo, sua ausência aos 80 dias é fisiológica, não patológica; e a sustentação cefálica ainda incompleta ('cabeça pende' à tração) é compatível com a idade, pois firmar a cabeça consolida-se por volta dos 3–4 meses. Portanto, o desenvolvimento é NORMAL para a idade. Não há reflexos patológicos (os primitivos em desaparecimento são esperados). Não há atraso, pois todos os marcos batem com a faixa etária. 'Falta de estímulo' não se sustenta diante de exame compatível com a idade. Pegadinha clássica: interpretar o SUMIÇO de um reflexo primitivo como anormalidade, quando é justamente o esperado.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Quanto aos sintomas relacionados à alimentação, indique a orientação adequada:",
+     "alternativas": {
+      "a": "Informar sobre as dejeções da bebê, orientar a dieta materna e oferecer mamadas em livre demanda",
+      "b": "Retirar alimentos laxantes da dieta materna e oferecer mamadas em livre demanda",
+      "c": "Informar sobre as dejeções da bebê, orientar a dieta materna e oferecer mamadas a cada 3 horas",
+      "d": "Inserir alimentos obstipantes na dieta materna e oferecer mamadas a cada 3 horas"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] As evacuações a cada mamada em lactente em aleitamento materno exclusivo, em bom estado e crescendo bem, correspondem ao reflexo gastrocólico fisiológico — não são diarreia; a conduta é tranquilizar/informar a família, e a orientação nutricional central é manter o aleitamento em LIVRE DEMANDA (e não em horários rígidos a cada 3–4 horas), pois a mamada por horário fixo é inadequada e pode comprometer a oferta e o vínculo. Restringir a dieta materna com alimentos 'obstipantes' não é indicado. Fixar mamadas a cada 3 horas contraria a recomendação de livre demanda. A chave é: livre demanda + acolhimento/orientação, sem intervenção dietética desnecessária.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique as vacinas que devem ser administradas nesse momento, de acordo com o Programa Nacional de Imunizações:",
+     "alternativas": {
+      "a": "BCG, anti-rotavírus, pentavalente, anti-pólio (VIP) e anti-pneumocócica",
+      "b": "BCG, anti-hepatite B, anti-rotavírus, pentavalente e anti-pólio (VIP)",
+      "c": "BCG, anti-hepatite B e anti-rotavírus",
+      "d": "BCG, anti-rotavírus, pentavalente e anti-pólio (VIP)"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Aos ~2,5 meses (criança que chega atrasada), aplicam-se as vacinas do esquema de 2 meses ainda não feitas: pentavalente (1ª), VIP/pólio inativada (1ª), pneumocócica 10-valente (1ª) e rotavírus (1ª dose, respeitando o prazo-limite de 3 meses e 15 dias). A BCG e a hepatite B ao nascer normalmente já teriam sido feitas na maternidade, mas como é a PRIMEIRA ida à UBS em comunidade rural, cabe atualizar a BCG se ausente; a alternativa que reúne BCG + rotavírus + pentavalente + VIP + pneumocócica é a mais completa para 'colocar em dia'. As opções que omitem a pneumocócica ou o esquema de 2 meses ficam incompletas. Atenção ao prazo do rotavírus (risco de intussuscepção fora da janela) — pegadinha recorrente do PNI. 📚 Leitura sugerida (bloco): Ministério da Saúde — Calendário Nacional de Vacinação (PNI): https://www.gov.br/saude/pt-br/vacinacao/calendario ; e Caderneta da Criança.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas / Doenças exantemáticas (sarampo) [REAL: SUS-BA R+ Pediatria 2021]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 5 meses de vida, chega à Unidade Básica de Saúde com quadro de febre, tosse, coriza e lacrimejamento há dois dias. No dia anterior, passou a apresentar manchas que inicialmente surgiram na cabeça e no pescoço, e estão espalhando-se pelo corpo. Ao exame, T.: 38,4°C; irritada; apresentando exantema maculopapular eritematoso intenso, nas áreas referidas, confluindo em algumas regiões. A ausculta respiratória mostra roncos de transmissão.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro apresentado, indique a principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Sarampo",
+      "b": "Roséola",
+      "c": "Exantema súbito",
+      "d": "Rubéola"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Febre alta com o trio catarral — tosse, coriza e conjuntivite/lacrimejamento — seguido de exantema maculopapular que começa na face/pescoço (retroauricular) e progride crânio-caudal, tornando-se confluente, é o quadro clássico do sarampo. A rubéola cursa com exantema mais discreto e fugaz, com linfadenopatia retroauricular/occipital proeminente e menos toxemia/catarro. A roséola (exantema súbito) caracteriza-se por febre alta de 3–5 dias que CESSA e só então surge o exantema, em criança geralmente em bom estado — padrão temporal oposto. 'Exantema súbito' é sinônimo de roséola, mesmo raciocínio. O pródromo catarral intenso + progressão crânio-caudal define o sarampo, doença de notificação compulsória e em ressurgência.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a alternativa que apresenta um conjunto de itens recomendados pelo Ministério da Saúde para o tratamento dessa criança:",
+     "alternativas": {
+      "a": "Aciclovir, antitérmico e hidratação",
+      "b": "Antitérmico e hidratação",
+      "c": "Antitérmico, hidratação e vitamina A",
+      "d": "Aciclovir, antitérmico, hidratação e vitamina A"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O sarampo não tem antiviral específico; o manejo é de suporte (antitérmico, hidratação, repouso) ACRESCIDO de vitamina A, recomendada pelo Ministério da Saúde/OMS para toda criança com sarampo (duas doses em dias consecutivos, conforme a faixa etária), pois reduz morbimortalidade e complicações oculares. O aciclovir é antiviral para herpes-vírus (não age no vírus do sarampo), logo as opções que o incluem estão erradas. Antitérmico + hidratação sem a vitamina A fica incompleto frente à recomendação oficial. Complementa a conduta: isolamento respiratório (aerossóis), notificação imediata e bloqueio vacinal dos contatos suscetíveis. Pérola de prova: 'sarampo = suporte + vitamina A'.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Correlacione a condição e o elemento diagnóstico, na ordem: ( ) Escarlatina ( ) Rubéola ( ) Sarampo ( ) Varicela — I. Sinal de Koplik; II. Sinais de Pastia e Filatov; III. Lesões em diferentes estágios evolutivos; IV. Adenomegalia cervical posterior e occipital.",
+     "alternativas": {
+      "a": "I-IV-II-III",
+      "b": "III-II-I-IV",
+      "c": "II-IV-I-III",
+      "d": "IV-I-III-II"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A correspondência correta é Escarlatina→II (sinais de Pastia — linhas hiperpigmentadas em dobras; e Filatov — palidez perioral com face esbofeteada), Rubéola→IV (linfadenopatia cervical posterior e occipital), Sarampo→I (manchas de Koplik — enantema patognomônico na mucosa jugal, que precede o exantema) e Varicela→III (lesões em diferentes estágios evolutivos — mácula, pápula, vesícula e crosta simultaneamente, o 'polimorfismo regional'), resultando na sequência II-IV-I-III. Trocar Koplik (sarampo) com Pastia/Filatov (escarlatina), ou atribuir o polimorfismo a outra doença, leva às alternativas erradas. Essas 'marcas' semiológicas são pegadinhas clássicas das exantemáticas. 📚 Leitura sugerida (bloco): Material do Vinicius (Drive): videoaula MEDGRUPO R+ Pediatria 2024 — Infectologia/Exantemáticas: https://drive.google.com/file/d/1ayloTkRXLIY0gA34-LDh7q546oquQs6h/view ; e MS — Guia de Vigilância em Saúde (sarampo).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências Pediátricas (anafilaxia) [REAL: SUS-BA R+ Pediatria 2021]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 5 anos de idade, chega à emergência com dificuldade para respirar, placas eritematosas disseminadas, sendo algumas coalescentes, além de vômitos e dor abdominal. Familiares informam que a menor havia lanchado empada de camarão, mas essa não foi a primeira vez que havia ingerido tal alimento, e que a menor nunca apresentou alergias, embora o pai e o irmão sejam asmáticos.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do relato, indique a suspeita diagnóstica (denominação do quadro):",
+     "alternativas": {
+      "a": "Edema de glote",
+      "b": "Anafilaxia",
+      "c": "Urticária colinérgica",
+      "d": "Alergia alimentar"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O acometimento AGUDO de dois ou mais sistemas após exposição a alérgeno provável (alimento) — pele/mucosa (urticária generalizada coalescente), respiratório (dispneia) e gastrointestinal (vômitos, dor abdominal) — preenche os critérios de anafilaxia, reação de hipersensibilidade sistêmica grave e potencialmente fatal. 'Edema de glote' é apenas UMA manifestação (obstrução de via aérea alta), não o diagnóstico sindrômico completo. A urticária colinérgica é desencadeada por calor/esforço, com micropápulas, sem comprometimento multissistêmico. 'Alergia alimentar' é o mecanismo/gatilho, mas o termo que denomina a apresentação grave multissistêmica é anafilaxia — a resposta mais precisa. Atenção: pode ocorrer mesmo com alimento já tolerado antes, e a atopia familiar é fator de risco.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Identifique a célula onde inicialmente ocorre o processo fisiopatológico que resulta no quadro clínico descrito:",
+     "alternativas": {
+      "a": "Linfócito",
+      "b": "Plasmócito",
+      "c": "Neutrófilo",
+      "d": "Mastócito"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Na anafilaxia mediada por IgE, o alérgeno liga-se à IgE fixada na superfície de MASTÓCITOS (e basófilos), promovendo sua degranulação e a liberação de mediadores pré-formados e neoformados — histamina, triptase, leucotrienos, prostaglandinas e PAF — responsáveis por vasodilatação, aumento da permeabilidade capilar, broncoespasmo e hipotensão. O linfócito participa da fase de sensibilização (o linfócito B/plasmócito produz a IgE), mas o evento efetor agudo é a degranulação mastocitária. O neutrófilo não é a célula central da reação de hipersensibilidade imediata. O plasmócito sintetiza anticorpos, atuando na sensibilização prévia, não no disparo agudo. Por isso a triptase sérica é marcador de ativação mastocitária.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Determine a medicação (droga) indicada para uso imediato e a via preferencial de administração, nesse caso:",
+     "alternativas": {
+      "a": "Metilprednisolona por via intravenosa",
+      "b": "Adrenalina por via subcutânea",
+      "c": "Metilprednisolona por via intramuscular",
+      "d": "Adrenalina por via intramuscular"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O tratamento de primeira linha e imediato da anafilaxia é a ADRENALINA por via INTRAMUSCULAR (face anterolateral da coxa/vasto lateral), que reverte broncoespasmo, vasodilatação e edema; a via intramuscular oferece absorção mais rápida e previsível que a subcutânea, esta última NÃO recomendada por absorção errática. Corticoide (metilprednisolona) e anti-histamínicos são adjuvantes de segunda linha, úteis para sintomas cutâneos e para reduzir reações bifásicas, mas NÃO substituem a adrenalina e não devem ser a droga inicial — retardá-la aumenta a mortalidade. Complementa-se com O2, posição supina com elevação de membros, expansão volêmica e monitorização. Pérola: diante de anafilaxia, adrenalina IM primeiro, sempre. 📚 Leitura sugerida (bloco): Material do Vinicius (Drive): Choque em Pediatria (PDF): https://drive.google.com/file/d/11Wx8xIUFnHO1M-dvnxHASuSgNWNSz9H8/view ; e SBP — Anafilaxia (Documentos Científicos).",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição / Desnutrição energético-proteica (marasmo)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Lactente de 11 meses é levado à unidade por emagrecimento acentuado e apatia. A mãe, muito jovem e em insegurança alimentar, relata desmame precoce aos 2 meses e diluição excessiva das mamadeiras nos últimos meses. Ao exame: muito emagrecido, irritado e depois apático, com desaparecimento do panículo adiposo, costelas visíveis, nádegas 'em bolsa de tabaco' e face 'senil/simiesca'. Não há edema; o cabelo está ralo mas sem despigmentação em bandas; peso muito abaixo do esperado para a idade, com estatura relativamente menos comprometida.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a hipótese diagnóstica nutricional mais provável:",
+     "alternativas": {
+      "a": "Baixa estatura familiar",
+      "b": "Marasmo",
+      "c": "Kwashiorkor",
+      "d": "Desnutrição aguda por perda hídrica (desidratação isolada)"
+     },
+     "correta": "b",
+     "comentario": "O emagrecimento extremo com desaparecimento total do panículo adiposo, atrofia muscular, face 'senil/simiesca', nádegas 'em bolsa de tabaco' e AUSÊNCIA de edema caracteriza o marasmo — forma de desnutrição energético-proteica por deficiência global e crônica de energia (aporte calórico insuficiente, aqui por desmame precoce e diluição das mamadeiras). O kwashiorkor decorre de carência predominantemente proteica e cursa com EDEMA, hepatomegalia (esteatose), dermatose e alterações do cabelo em bandas despigmentadas (sinal da bandeira) — ausentes neste caso. Desidratação isolada explica perda hídrica aguda, não a caquexia crônica com perda de gordura e músculo. Baixa estatura familiar é variante do crescimento sem sinais de consumo. A ausência de edema é o divisor entre marasmo e kwashiorkor.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Assinale a avaliação/classificação mais adequada para dimensionar a gravidade:",
+     "alternativas": {
+      "a": "Índices antropométricos (escore Z de peso e estatura, curvas da OMS)",
+      "b": "Idade óssea por radiografia de punho",
+      "c": "Apenas a dosagem isolada de hemoglobina",
+      "d": "Apenas o perímetro cefálico"
+     },
+     "correta": "a",
+     "comentario": "A classificação da desnutrição apoia-se em índices ANTROPOMÉTRICOS em escore Z das curvas da OMS: peso para estatura (identifica magreza/emaciação aguda), estatura para idade (déficit crônico/stunting) e peso para idade, complementados por perímetro braquial e pesquisa de edema — é isso que gradua a gravidade e orienta a conduta. Hemoglobina isolada avalia anemia associada, não classifica a desnutrição. A idade óssea investiga distúrbios de crescimento/puberdade, não a gravidade nutricional aguda. O perímetro cefálico isolado avalia crescimento cerebral/microcefalia, sem classificar desnutrição. No marasmo, o peso/estatura muito baixo com estatura relativamente preservada é a assinatura antropométrica.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta inicial mais adequada no manejo hospitalar da forma grave:",
+     "alternativas": {
+      "a": "Reposição isolada de ferro em dose alta antes de estabilizar",
+      "b": "Nutrição parenteral total como primeira escolha",
+      "c": "Estabilizar primeiro (hipoglicemia, hipotermia, eletrólitos, infecção) e só então realimentar gradualmente",
+      "d": "Realimentação hipercalórica rápida e plena desde a admissão"
+     },
+     "correta": "c",
+     "comentario": "No manejo da desnutrição grave segue-se o protocolo da OMS em duas fases: primeiro ESTABILIZAR — tratar/prevenir hipoglicemia e hipotermia, corrigir com cautela desidratação e distúrbios eletrolíticos (atenção ao potássio, magnésio e ao risco da síndrome de realimentação), tratar infecções (frequentemente oligossintomáticas) — e só então iniciar a realimentação de forma GRADUAL, progredindo para a fase de reabilitação/ganho de peso. Realimentação hipercalórica rápida é perigosa: precipita a síndrome de realimentação (queda de fósforo/potássio/magnésio, sobrecarga cardíaca). A nutrição parenteral não é a primeira escolha (prefere-se a via enteral). Repor ferro em dose alta na fase inicial é contraindicado (piora o estresse oxidativo e o risco infeccioso); o ferro entra na fase de reabilitação. 📚 Leitura sugerida (bloco): Material do Vinicius (Drive): Nutrição em Pediatria na Prática Clínica (Sarni, 2021): https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view ; e OMS/MS — manejo da desnutrição grave.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Hematologia (esferocitose hereditária)",
+   "tier": "MÉDIO",
+   "vinheta": "Menino de 6 anos é avaliado por palidez e icterícia intermitentes desde os primeiros anos. O pai teve 'anemia' e foi submetido a retirada do baço na juventude. Ao exame: icterícia de escleras, palidez de mucosas e esplenomegalia moderada. Exames: anemia com reticulócitos elevados, bilirrubina indireta aumentada, LDH alto e haptoglobina baixa; o esfregaço mostra hemácias pequenas, hipercrômicas e sem palidez central; o teste de Coombs direto é negativo. Há relato de cálculo biliar pigmentar em tia paterna jovem.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Esferocitose hereditária",
+      "b": "Anemia hemolítica autoimune",
+      "c": "Anemia ferropriva",
+      "d": "Beta-talassemia minor"
+     },
+     "correta": "a",
+     "comentario": "Anemia hemolítica (reticulocitose, bilirrubina indireta e LDH altos, haptoglobina baixa) com história FAMILIAR (herança autossômica dominante), esplenomegalia, esferócitos no esfregaço (hemácias pequenas, hipercrômicas, sem halo central) e Coombs direto NEGATIVO caracteriza a esferocitose hereditária — defeito de proteínas da membrana (anquirina, espectrina, banda 3) que torna a hemácia esférica e a faz ser destruída no baço. A anemia ferropriva é hipocrômica/microcítica, com reticulócitos BAIXOS e sem hemólise/esplenomegalia. A anemia hemolítica autoimune também é hemolítica, mas o Coombs direto é POSITIVO (é o dado que a separa da esferocitose). A beta-talassemia minor dá microcitose com anemia leve e cursa com alvócitos, sem esferócitos nem hemólise franca. Pistas: colelitíase pigmentar precoce e esplenectomia familiar reforçam hemólise crônica hereditária.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique o exame que melhor confirma a suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Teste de fragilidade osmótica / citometria com ligação à eosina-5-maleimida (EMA)",
+      "b": "Dosagem de ferritina e saturação de transferrina",
+      "c": "Pesquisa de anticorpos antinucleares",
+      "d": "Eletroforese de hemoglobina"
+     },
+     "correta": "a",
+     "comentario": "A confirmação apoia-se em testes que evidenciam o defeito de membrana: a fragilidade osmótica aumentada (as hemácias esféricas hemolisam mais em soluções hipotônicas) e, com maior sensibilidade/especificidade, a citometria de fluxo com ligação à eosina-5-maleimida (EMA), que quantifica a redução das proteínas de membrana. A eletroforese de hemoglobina diagnostica hemoglobinopatias (talassemias, doença falciforme), não a esferocitose. Ferritina e saturação de transferrina avaliam ferropenia, diferencial já afastado pela hemólise/reticulocitose. Anticorpos antinucleares investigam autoimunidade sistêmica, sem relação direta; e o Coombs negativo já afastou causa autoimune. A associação esferócitos + Coombs negativo + fragilidade osmótica aumentada fecha o diagnóstico.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Sobre a conduta e o prognóstico, assinale a afirmativa correta:",
+     "alternativas": {
+      "a": "A esplenectomia é sempre imediata, independentemente da gravidade e da idade",
+      "b": "A doença é adquirida e costuma remitir espontaneamente na adolescência",
+      "c": "Ácido fólico e vigilância de complicações; esplenectomia só em casos moderados/graves e após vacinar contra encapsulados",
+      "d": "O tratamento de escolha é reposição de ferro em dose alta e contínua"
+     },
+     "correta": "c",
+     "comentario": "O manejo baseia-se em ácido fólico (a hemólise crônica aumenta o consumo), hidratação e vigilância de complicações — crise hemolítica, crise aplásica (classicamente por parvovírus B19) e colelitíase pigmentar; a esplenectomia (total ou parcial) reduz a hemólise e é reservada aos casos MODERADOS a GRAVES, preferencialmente adiada para depois de certa idade e SEMPRE precedida de vacinação contra germes encapsulados (pneumococo, meningococo, Haemophilus) pelo risco de sepse fulminante pós-esplenectomia. Esplenectomia imediata e indiscriminada é incorreta. Ferro em dose alta não trata — e pode causar sobrecarga, já que a hemólise recicla ferro. A doença é HEREDITÁRIA e crônica, não adquirida nem autolimitada. 📚 Leitura sugerida (bloco): Sociedade Brasileira de Pediatria — Documentos Científicos (Hematologia): https://www.sbp.com.br/documentos-cientificos/ ; e material do Vinicius (Drive), Préteste de Hematologia na Pediatria.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Saúde Coletiva, APS e Ética (notificação de maus-tratos infantis)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino de 3 anos é atendido na UBS por 'queda'. É a terceira ida à emergência em 4 meses por lesões variadas. Ao exame, há equimoses em diferentes estágios de evolução no dorso e nas coxas, uma marca compatível com objeto e uma fratura antiga de úmero não relatada previamente. A história contada pelo acompanhante é vaga e incompatível com o padrão das lesões, e há atraso na procura por atendimento. A criança mostra-se retraída e assustada.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a principal hipótese a ser considerada:",
+     "alternativas": {
+      "a": "Maus-tratos / violência física contra a criança",
+      "b": "Osteogênese imperfeita",
+      "c": "Coagulopatia hereditária",
+      "d": "Acidentes domésticos habituais da idade"
+     },
+     "correta": "a",
+     "comentario": "O conjunto — lesões de repetição, equimoses em DIFERENTES estágios de evolução e em locais pouco usuais para quedas (dorso, coxas), marca compatível com objeto, fratura antiga não relatada, história vaga/incompatível com o exame, atraso na procura e criança amedrontada — configura forte suspeita de maus-tratos/violência física. Coagulopatia hereditária poderia dar equimoses fáceis, mas não explica marca de objeto, fratura oculta nem a incongruência da história; ainda assim deve ser investigada laboratorialmente como diferencial. Osteogênese imperfeita causa fraturas de repetição, mas costuma ter escleras azuladas/história familiar e não explica equimoses padronizadas por objeto. Atribuir tudo a 'acidentes da idade' ignora os sinais de alerta e é a armadilha da questão. Sinais de alerta: incompatibilidade história-lesão, atraso na procura e lesões em estágios variados.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique a conduta correta do médico quanto ao dever legal, neste caso:",
+     "alternativas": {
+      "a": "Solicitar autorização por escrito do acompanhante antes de qualquer comunicação externa",
+      "b": "Preencher a ficha de notificação e comunicar ao Conselho Tutelar, independentemente de autorização da família, mantendo o cuidado clínico",
+      "c": "Encaminhar apenas para acompanhamento ambulatorial, sem notificar",
+      "d": "Aguardar a confirmação diagnóstica definitiva antes de qualquer notificação"
+     },
+     "correta": "b",
+     "comentario": "A notificação de suspeita (não exige confirmação) de violência contra criança/adolescente é COMPULSÓRIA: preenche-se a ficha de notificação (SINAN) e comunica-se ao Conselho Tutelar, conforme o Estatuto da Criança e do Adolescente (ECA, art. 13 e 245) e as normas do Ministério da Saúde — INDEPENDENTEMENTE de autorização dos responsáveis, mantendo-se o cuidado clínico e a proteção da criança. Pedir autorização do acompanhante (potencial agressor) é conduta errada e perigosa. Aguardar 'confirmação definitiva' contraria a lei, que exige notificar a SUSPEITA e retarda a proteção. Encaminhar sem notificar descumpre o dever legal e ético. A omissão de notificação é infração passível de responsabilização; a notificação NÃO é denúncia policial, mas medida de proteção — não fere o sigilo, pois protege o incapaz.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Quanto à responsabilidade e ao seguimento, assinale a afirmativa correta:",
+     "alternativas": {
+      "a": "A conduta é exclusivamente policial, cabendo ao médico apenas tratar a lesão",
+      "b": "A responsabilidade recai somente sobre o serviço hospitalar, não sobre a APS",
+      "c": "O sigilo médico é absoluto e impede qualquer comunicação externa",
+      "d": "A proteção do incapaz e a notificação obrigatória prevalecem, cabendo articulação com a rede de proteção e acompanhamento longitudinal na APS"
+     },
+     "correta": "d",
+     "comentario": "No cuidado à criança vítima de violência, a proteção do incapaz e o dever de notificação PREVALECEM sobre a confidencialidade — o sigilo é relativo e cede diante da proteção de quem não pode se defender; cabe articular a REDE de proteção (Conselho Tutelar, assistência social, saúde mental, eventualmente autoridade judicial/segurança) e garantir acompanhamento longitudinal na Atenção Primária, com vínculo, busca ativa e vigilância do desenvolvimento. Afirmar sigilo 'absoluto' é incorreto do ponto de vista ético-legal. A abordagem não é 'exclusivamente policial': o médico tem papel de identificar, notificar, cuidar e acompanhar. A responsabilidade de notificação e cuidado é de TODO profissional/serviço que atende a criança, incluindo a APS — não só o hospital. 📚 Leitura sugerida (bloco): Estatuto da Criança e do Adolescente (Lei 8.069/1990); e Ministério da Saúde — Linha de Cuidado para a atenção a crianças/adolescentes em situação de violência.",
+     "dificuldade": "moderada"
+    }
+   ]
+  }
+ ]
+}
