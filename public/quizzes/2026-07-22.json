@@ -1,0 +1,651 @@
+{
+  "date": "2026-07-22",
+  "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+  "blocos": [
+    {
+      "tema": "Neurologia — Vertigem e Síndromes Vestibulares (paroxismia vestibular)",
+      "tier": "ALTO",
+      "vinheta": "Homem, 55 anos de idade, hipertenso, refere há cerca de 4 meses crises muito breves — de poucos segundos — de vertigem rotatória, que ocorrem várias vezes ao dia, com frequência desencadeadas ao virar a cabeça para determinado lado ou durante hiperventilação, acompanhadas de instabilidade e, ocasionalmente, um zumbido pulsátil transitório à direita. Entre as crises, encontra-se assintomático. Otoscopia, audiometria tonal e exame otoneurológico intercrises são normais; a manobra de Dix-Hallpike é negativa. A ressonância magnética de encéfalo com sequência de alta resolução da fossa posterior evidencia uma alça arterial (artéria cerebelar ântero-inferior) em contato com a zona de entrada da raiz do VIII nervo à direita.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, assinale o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Neurite vestibular",
+            "b": "Doença de Ménière",
+            "c": "Paroxismia vestibular",
+            "d": "Vertigem posicional paroxística benigna de canal posterior"
+          },
+          "correta": "c",
+          "comentario": "Crises vertiginosas estereotipadas, ultrabreves (segundos) e muito frequentes (várias por dia), desencadeadas por certas posições cefálicas ou por hiperventilação, com ressonância evidenciando conflito neurovascular (alça da AICA/PICA comprimindo a zona de entrada da raiz do VIII par), caracterizam a compressão vascular pulsátil do nervo vestibulococlear — mecanismo análogo ao da neuralgia do trigêmeo, com transmissão efática e descargas paroxísticas. A vertigem posicional paroxística benigna de canal posterior também é desencadeada por movimento, mas especificamente ao deitar ou rolar na cama, e o Dix-Hallpike é positivo, com nistagmo torsional-geotrópico, latência e fatigabilidade — aqui a manobra é negativa. A hidropisia endolinfática cursa com crises de minutos a horas (não segundos), hipoacusia neurossensorial flutuante e plenitude aural, com audiometria alterada, ausentes no caso. A inflamação aguda do nervo vestibular é episódio único e prolongado (dias) de vertigem espontânea, não crises recorrentes de segundos. Pérola: a resposta terapêutica a bloqueadores de canal de sódio é quase diagnóstica.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual achado complementar melhor sustenta o diagnóstico etiológico?",
+          "alternativas": {
+            "a": "Ressonância magnética fortemente ponderada em T2 (CISS/FIESTA) mostrando conflito neurovascular",
+            "b": "Audiometria tonal e vocal",
+            "c": "Potencial evocado miogênico vestibular (VEMP) cervical",
+            "d": "Videonistagmografia com prova calórica bitérmica"
+          },
+          "correta": "a",
+          "comentario": "A sequência volumétrica de altíssima resolução em T2 (CISS/FIESTA/DRIVE) é o exame que demonstra o contato pulsátil entre a alça arterial e a raiz do VIII par na cisterna do ângulo pontocerebelar, base fisiopatológica do quadro. A prova calórica bitérmica avalia hipofunção vestibular periférica e costuma ser normal ou inespecífica nessa condição, não confirmando o conflito vascular. A audiometria é útil para excluir hidropisia endolinfática ou causa retrococlear, mas é normal aqui e não define a etiologia compressiva. O VEMP investiga o sáculo/utrículo e a via vestíbulo-espinhal (por exemplo na deiscência de canal), não o conflito neurovascular. Vale lembrar que o achado de imagem isolado é comum em assintomáticos, de modo que o diagnóstico é clínico-radiológico: exige o padrão de crises típicas somado à imagem e, idealmente, à resposta medicamentosa.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual é a conduta de primeira linha?",
+          "alternativas": {
+            "a": "Corticoterapia em pulso",
+            "b": "Manobra de reposicionamento de Epley",
+            "c": "Carbamazepina ou oxcarbazepina em dose baixa",
+            "d": "Betaistina em altas doses"
+          },
+          "correta": "c",
+          "comentario": "O tratamento de escolha é o bloqueio das descargas ectópicas do nervo com um estabilizador de membrana — carbamazepina ou oxcarbazepina em dose baixa —, com resposta habitualmente rápida e sustentada, servindo inclusive como teste terapêutico; casos refratários e com conflito bem demonstrado podem ser encaminhados a descompressão microvascular. A manobra de Epley trata a vertigem posicional de canal posterior por reposicionamento de otólitos e não tem papel aqui. A corticoterapia em pulso é usada em neurite vestibular ou surtos desmielinizantes, não na compressão vascular. A betaistina é empregada de forma sintomática na doença de Ménière, sem eficácia estabelecida nesta condição. Diferencie sempre das outras causas de vertigem recorrente pela duração ultracurta e pela deflagração por hiperventilação.\n📚 Leitura sugerida (bloco): Merritt, Tratado de Neurologia (13ª ed.), Seção 2 — Tontura, Vertigem e Perda Auditiva; e Tratado de Neurologia da ABN (3ª ed., 2025), cap. 136 — Vertigem Recorrente.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroimunologia (encefalopatia de Hashimoto / SREAT)",
+      "tier": "ALTO",
+      "vinheta": "Mulher, 47 anos de idade, com tireoidite crônica autoimune conhecida e em uso irregular de levotiroxina, é trazida com quadro subagudo e flutuante, iniciado há cerca de 3 semanas, de confusão mental, lentificação psicomotora, mioclonias multifocais e duas crises convulsivas tônico-clônicas; apresenta também tremor postural. Encontra-se afebril. O líquido cefalorraquidiano mostra discreta hiperproteinorraquia sem pleocitose; a ressonância de encéfalo é normal/inespecífica; o eletroencefalograma revela lentificação difusa. O rastreio infeccioso e o rastreio tumoral são negativos, e o painel de anticorpos onconeurais e de superfície (anti-NMDA, anti-LGI1) é negativo.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Encefalite herpética",
+            "b": "Encefalopatia de Hashimoto (encefalopatia responsiva a esteroide associada a tireoidite autoimune)",
+            "c": "Doença de Creutzfeldt-Jakob",
+            "d": "Encefalite anti-receptor de NMDA"
+          },
+          "correta": "b",
+          "comentario": "O quadro de encefalopatia subaguda e flutuante, com crises, mioclonias e tremor, líquor apenas com hiperproteinorraquia, ressonância inespecífica e, sobretudo, painel de encefalites autoimunes negativo em uma paciente com tireoidite autoimune, aponta para a encefalopatia responsiva a esteroide associada a tireoidite autoimune (SREAT), também chamada encefalopatia de Hashimoto — um diagnóstico de exclusão, imunomediado, associado a títulos elevados de antitireoperoxidase. A encefalite anti-NMDA cursa tipicamente com síndrome psiquiátrica, discinesias orofaciais, disautonomia e anticorpo anti-NMDA positivo, ausente aqui. A encefalite herpética produz febre, quadro focal temporal, líquor com pleocitose linfocítica e lesão têmporo-mesial na ressonância, incompatíveis com a imagem normal e a ausência de febre. A doença priônica evolui com demência rapidamente progressiva e mioclonias, mas tem curso inexorável, RT-QuIC/proteína 14-3-3 e padrão característico de ressonância e EEG (complexos periódicos), não responde a corticoide e não se associa a tireoidite.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual exame melhor apoia o diagnóstico?",
+          "alternativas": {
+            "a": "PCR para herpes-vírus simples no líquor",
+            "b": "Anti-aquaporina-4 (anti-AQP4) no soro",
+            "c": "RT-QuIC positivo no líquor",
+            "d": "Anticorpos antitireoperoxidase (anti-TPO) séricos elevados"
+          },
+          "correta": "d",
+          "comentario": "A marca laboratorial da SREAT é a elevação expressiva dos anticorpos antitireoidianos, sobretudo o anti-TPO (e/ou antitireoglobulina), refletindo o pano de fundo autoimune — embora não sejam patogênicos nem específicos, sustentam o diagnóstico no contexto clínico adequado e após exclusão de outras causas. O anti-AQP4 define a neuromielite óptica (neurite óptica e mielite extensa), quadro distinto do apresentado. O RT-QuIC positivo confirmaria doença priônica, cujo curso e prognóstico diferem completamente. A PCR para herpes no líquor seria a chave da encefalite herpética, descartada pela ausência de febre, de pleocitose e de lesão temporal. Reforça-se que a normalidade da ressonância e do painel de anticorpos de superfície, somada à resposta ao corticoide, é o que fecha o raciocínio.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual é a conduta terapêutica de primeira linha?",
+          "alternativas": {
+            "a": "Plasmaférese isolada, sem corticoide",
+            "b": "Corticoterapia em altas doses (metilprednisolona)",
+            "c": "Imunoglobulina isolada como manutenção de longo prazo",
+            "d": "Aciclovir intravenoso empírico"
+          },
+          "correta": "b",
+          "comentario": "A resposta dramática à corticoterapia em altas doses (pulso de metilprednisolona) é característica e faz parte da própria definição da entidade ('responsiva a esteroide'), sendo a primeira linha; casos refratários podem escalonar para imunoglobulina, plasmaférese ou imunossupressores poupadores. O aciclovir empírico é mandatório enquanto se cogita encefalite herpética, mas aqui a PCR/quadro afastam essa hipótese, não sendo o tratamento definitivo. A imunoglobulina isolada como manutenção não é a escolha inicial e reserva-se a refratários. A plasmaférese pode ser adjuvante nos casos graves, mas não substitui o corticoide como primeira linha. Pérola de prova: sempre reavaliar o diagnóstico se não houver resposta ao esteroide, pois a SREAT é diagnóstico de exclusão.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 90 — Encefalites Autoimunes e Síndromes Paraneoplásicas.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Doença Cerebrovascular / Hemorragia subaracnóidea [REAL: SUS-BA Clínica 2021]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher, 53 anos de idade, dá entrada no pronto-socorro queixando-se de cefaleia intensa, holocraniana, 10/10 na escala de dor, há cerca de 4 horas, associada a náuseas e vômitos. Nega comorbidades. Tabagista de 30 anos/maço. Sinais vitais: temperatura axilar = 36,8°C; FC = 106 bpm; PA = 174x102 mmHg. Ao exame, apresenta-se com fácies de dor, corada, lúcida e orientada, com pupilas isocóricas e fotorreagentes, sem sinais focais. Apresenta discreta rigidez nucal. Ausculta cardiorrespiratória e exame abdominal sem achados. Realizada TC de crânio sem contraste, evidenciando hiperdensidade nas cisternas basais.",
+      "perguntas": [
+        {
+          "enunciado": "Identifique a alternativa com a informação mais adequada em relação ao diagnóstico do caso:",
+          "alternativas": {
+            "a": "O quadro provavelmente decorreu da ruptura de um aneurisma adquirido.",
+            "b": "O achado tomográfico permite classificar o quadro na escala de Hunt e Hess em grau 2.",
+            "c": "O quadro sugere um sangramento entre a dura-máter e a aracnoide.",
+            "d": "A tomografia sugere uma hemorragia subaracnoide não aneurismática."
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA Clínica 2021] Cefaleia em trovoada 10/10 de início súbito, com rigidez nucal e TC evidenciando hiperdensidade nas cisternas basais, é o retrato clássico da hemorragia subaracnóidea, cuja causa mais frequente é a ruptura de um aneurisma sacular adquirido — daí a alternativa correta. O sangramento 'entre a dura-máter e a aracnoide' descreve o hematoma subdural, coleção crescente sobre a convexidade, não o sangue cisternal aracnóideo do caso. A escala de Hunt e Hess é CLÍNICA (nível de consciência, cefaleia, rigidez, déficit), não tomográfica; uma paciente lúcida, orientada, com cefaleia intensa e rigidez nucal sem déficit corresponde a Hunt e Hess grau 2, mas afirmar que 'o achado tomográfico permite classificar' está incorreto — quem gradua o sangue na TC é a escala de Fisher. Dizer que é hemorragia não aneurismática (perimesencefálica benigna) contraria a distribuição em cisternas basais e o quadro dramático, que apontam para origem aneurismática. Pegadinha: distinguir escala clínica (Hunt-Hess/WFNS) da radiológica (Fisher).",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Com base no quadro, indique o exame complementar padrão-ouro para a avaliação etiológica:",
+          "alternativas": {
+            "a": "Angiorressonância cerebral",
+            "b": "Angiografia cerebral",
+            "c": "Exame do líquor",
+            "d": "PET scan"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA Clínica 2021] O padrão-ouro para investigar a etiologia (localizar e caracterizar o aneurisma) é a angiografia cerebral por cateter (arteriografia digital com subtração), que orienta o tratamento por clipagem ou embolização. O exame do líquor tem papel apenas quando a TC é normal e persiste a suspeita clínica (pesquisa de xantocromia/hemácias), servindo para confirmar o sangramento, não para definir sua causa — e aqui a TC já é diagnóstica. A angiorressonância e a angiotomografia são ótimos exames não invasivos de triagem vascular, mas têm menor sensibilidade para aneurismas pequenos e não são o padrão-ouro etiológico. O PET não tem qualquer papel na investigação de HSA. Pérola: TC de crânio sem contraste tem altíssima sensibilidade nas primeiras 6 horas; após esse período, sua negatividade não exclui HSA e indica punção lombar.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Diante do caso, identifique o tratamento mais adequado, neste momento:",
+          "alternativas": {
+            "a": "A paciente deveria receber transfusão de plaquetas, se estiver em uso de antiagregante plaquetário.",
+            "b": "Deverá ser iniciado nimodipino 60 mg a cada 4 horas, caso a paciente apresente vasoespasmo.",
+            "c": "A paciente deve ser mantida em hipotensão arterial leve para evitar ressangramento.",
+            "d": "A paciente deve, inicialmente, ser mantida preferencialmente em euvolemia."
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA Clínica 2021] O manejo inicial preconiza euvolemia (evitar hipovolemia), controle pressórico cuidadoso, analgesia, repouso e profilaxia do vasoespasmo, até a exclusão cirúrgica/endovascular do aneurisma. Manter a paciente em hipotensão arterial é errado: a hipotensão reduz a perfusão cerebral e aumenta o risco de isquemia — o alvo é controlar picos hipertensivos até o tratamento do aneurisma, não induzir hipotensão. A transfusão de plaquetas não é conduta de rotina e não se justifica só pelo uso de antiagregante nesse contexto. O nimodipino (60 mg VO a cada 4 horas por 21 dias) é indicado profilaticamente a TODOS os pacientes com HSA aneurismática para prevenir o déficit neurológico isquêmico tardio — e não apenas 'caso apresente vasoespasmo'; por isso a formulação condicional está incorreta. Lembre que o nimodipino melhora o desfecho neurológico sem necessariamente reverter o vasoespasmo angiográfico.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 57 — Hemorragia Subaracnóidea.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Epilepsia / crise tônico-clônica generalizada (primeira crise) [REAL: SUS-BA Clínica 2021]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher, 20 anos de idade, estava acompanhada da mãe no metrô quando apresentou perda da consciência, seguida de rigidez muscular, abalos musculares difusos e perda esfincteriana. A equipe do metrô iniciou rapidamente os primeiros socorros, colocando algo macio sob a cabeça da paciente até cessarem os abalos, que duraram cerca de um minuto. A mãe ficou bastante assustada e relatou que a paciente era portadora de diabetes mellitus tipo 1. Nega outras comorbidades. Nunca havia apresentado quadro semelhante. Neste momento, a paciente encontra-se ainda inconsciente, com ventilação espontânea.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a alternativa mais adequada em relação ao quadro:",
+          "alternativas": {
+            "a": "O quadro obrigatoriamente envolveu ambos os hemisférios cerebrais.",
+            "b": "Neste momento, provavelmente, a paciente se encontra em uma crise de ausência.",
+            "c": "A etiologia mais provável nesse caso é hiperglicemia.",
+            "d": "O 'grito epiléptico' ocorre durante a fase clônica da crise."
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA Clínica 2021] Uma crise tônico-clônica generalizada, por definição, tem origem em redes bilaterais e envolve ambos os hemisférios desde o início — daí a alternativa correta. A etiologia mais provável em uma diabética tipo 1 que convulsiona é a HIPOglicemia (não a hiperglicemia), causa metabólica reversível que sempre deve ser pesquisada. A paciente NÃO está em crise de ausência: ausências são episódios breves de desconexão sem componente motor tônico-clônico nem perda esfincteriana, típicos da infância; ela está no período pós-ictal, ainda inconsciente após uma crise convulsiva. O 'grito epiléptico' ocorre na fase TÔNICA, pela contração da musculatura expiratória contra a glote fechada, e não na fase clônica — pegadinha clássica. Reforço: toda primeira crise exige investigação de causa estrutural, metabólica e tóxica.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a principal conduta que deve ser tomada nesse momento:",
+          "alternativas": {
+            "a": "Encaminhar a paciente para o pronto-socorro",
+            "b": "Auxiliar a ventilação através de dispositivo bolsa-válvula-máscara",
+            "c": "Colocar a paciente lateralizada em posição de recuperação",
+            "d": "Colocar água com açúcar ou líquido adocicado sob a língua da paciente"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA Clínica 2021] Com os abalos já cessados e a paciente inconsciente mas respirando espontaneamente, a conduta imediata no pós-ictal é lateralizá-la em posição de recuperação, protegendo a via aérea contra broncoaspiração de secreções/vômito. A ventilação com bolsa-válvula-máscara só seria necessária se houvesse apneia ou insuficiência respiratória — ela ventila espontaneamente. Colocar qualquer coisa na boca (água com açúcar, colher, os dedos) é contraindicado: risco de aspiração, obstrução e trauma; o mito de 'segurar a língua' deve ser combatido. Encaminhar ao pronto-socorro é necessário na sequência, mas não é a PRIMEIRA medida no local — antes disso, garante-se a via aérea com a lateralização. Pérola de suporte básico: proteger a cabeça durante os abalos e lateralizar depois.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Indique o exame complementar e a medicação mais adequados nesse momento:",
+          "alternativas": {
+            "a": "Glicemia capilar e glucagon subcutâneo",
+            "b": "Eletroencefalograma e diazepam intravenoso",
+            "c": "Tomografia de crânio e diazepam intravenoso",
+            "d": "Glicemia capilar e insulina subcutânea"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA Clínica 2021] Diante de uma diabética tipo 1 que convulsionou, a prioridade é medir a glicemia capilar à beira do leito e, confirmada/presumida a hipoglicemia, corrigi-la — com glicose intravenosa se houver acesso ou glucagon subcutâneo/intramuscular quando não há acesso venoso e o paciente está inconsciente. A insulina subcutânea seria deletéria, pois agravaria uma hipoglicemia. O diazepam intravenoso (benzodiazepínico) é o tratamento do estado de mal epiléptico ou de crises persistentes — mas a crise já cessou espontaneamente em cerca de um minuto, e antes de tratar a crise é preciso afastar a hipoglicemia como causa reversível. O EEG e a TC de crânio fazem parte da investigação subsequente da primeira crise, não da conduta emergencial imediata. Regra prática: 'toda crise convulsiva tem glicemia até prova em contrário'.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 84 — Estado de Mal Epiléptico e cap. 79 — Definição e Classificação das Crises.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Cefaleias (cefaleia da tosse e malformação de Chiari I)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem, 44 anos de idade, procura atendimento por episódios recorrentes há cerca de 6 meses de cefaleia occipital súbita, explosiva, de curta duração (segundos a poucos minutos), desencadeada exclusivamente por tossir, espirrar, rir ou realizar esforço físico (manobra de Valsalva). Nega dor entre os gatilhos, náuseas ou fotofobia. O exame neurológico é normal. Nunca havia apresentado quadro semelhante.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a interpretação diagnóstica mais adequada?",
+          "alternativas": {
+            "a": "Enxaqueca sem aura",
+            "b": "Cefaleia da tosse, com necessidade de excluir causa secundária (malformação de Chiari tipo I)",
+            "c": "Cefaleia do tipo tensional",
+            "d": "Cefaleia em salvas"
+          },
+          "correta": "b",
+          "comentario": "A dor precipitada exclusivamente por manobras de Valsalva (tosse, espirro, esforço), de curtíssima duração e sem cefaleia interictal, define a cefaleia da tosse. Ainda que exista uma forma primária (benigna), especialmente em maiores de 40 anos ou com qualquer atipia é obrigatório excluir causa secundária — sobretudo a malformação de Chiari tipo I (herniação das tonsilas cerebelares pelo forame magno) e outras lesões de fossa posterior. A cefaleia em salvas é estritamente unilateral, periorbitária, com crises de 15-180 minutos e intensa disautonomia (lacrimejamento, rinorreia, ptose), padrão diferente do gatilho por Valsalva. A enxaqueca é pulsátil, dura de 4 a 72 horas e vem com náuseas/fotofobia, ausentes. A cefaleia tensional é opressiva, bilateral, de longa duração e não é deflagrada por tosse. Pegadinha: cefaleia da tosse 'nova' no adulto é secundária até prova em contrário.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual exame deve ser solicitado para a investigação?",
+          "alternativas": {
+            "a": "Punção lombar imediata",
+            "b": "Apenas fundoscopia",
+            "c": "Ressonância magnética de encéfalo com avaliação da transição craniocervical",
+            "d": "Tomografia dos seios da face"
+          },
+          "correta": "c",
+          "comentario": "A ressonância de encéfalo, com atenção à transição craniocervical (forame magno), é o exame de escolha para avaliar herniação tonsilar cerebelar da malformação de Chiari tipo I e outras lesões de fossa posterior que causam cefaleia da tosse secundária. A tomografia de seios da face investiga cefaleia rinossinusal, hipótese que não se encaixa no gatilho por Valsalva. A punção lombar não é o primeiro passo e seria arriscada antes de excluir lesão expansiva de fossa posterior por neuroimagem. A fundoscopia é útil para detectar papiledema (hipertensão intracraniana), mas isoladamente não substitui a neuroimagem, que é imprescindível. Critério prático: mesmo com exame neurológico normal, a cefaleia deflagrada por Valsalva merece ressonância.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Definida a investigação, qual é a conduta terapêutica correta?",
+          "alternativas": {
+            "a": "Indometacina na forma primária; descompressão de fossa posterior se houver Chiari sintomático",
+            "b": "Oxigênio a 100% sob máscara",
+            "c": "Sumatriptano subcutâneo",
+            "d": "Carbamazepina"
+          },
+          "correta": "a",
+          "comentario": "Na cefaleia da tosse PRIMÁRIA (exclusão de causa secundária), a indometacina é o tratamento de escolha, com resposta frequentemente marcante; quando a investigação revela malformação de Chiari tipo I sintomática, a conduta é a descompressão cirúrgica da fossa posterior. O sumatriptano subcutâneo e o oxigênio a 100% são tratamentos da crise de cefaleia em salvas, quadro que não corresponde ao gatilho por Valsalva. A carbamazepina é a droga da neuralgia do trigêmeo, dor facial paroxística em território trigeminal, também distinta. Pérola: a excelente resposta à indometacina caracteriza um grupo de cefaleias (da tosse, do esforço, da atividade sexual, hemicrania paroxística e hemicrania contínua), mas isso não dispensa a neuroimagem prévia.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 44 — Cefaleias em Situações Especiais; e Merritt, Seção 7 — Cefaleia e Síndromes Dolorosas.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroinfecção (meningite bacteriana aguda do adulto)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem, 62 anos de idade, diabético, é levado ao pronto-socorro com quadro de 24 horas de febre alta, cefaleia holocraniana intensa, rigidez de nuca e sonolência progressiva. A esposa refere otalgia e otorreia à direita há alguns dias. Ao exame: Glasgow 13, temperatura 39°C, rigidez de nuca com sinais de Kernig e Brudzinski presentes, otoscopia com otite média aguda à direita, sem rash cutâneo e sem déficit focal.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a principal hipótese diagnóstica?",
+          "alternativas": {
+            "a": "Hemorragia subaracnóidea",
+            "b": "Enxaqueca com aura",
+            "c": "Encefalite límbica autoimune",
+            "d": "Meningite bacteriana aguda"
+          },
+          "correta": "d",
+          "comentario": "A tríade febre, rigidez de nuca e alteração do estado mental, com sinais de irritação meníngea (Kernig e Brudzinski) e um foco parameníngeo (otite média), configura meningite bacteriana aguda, emergência infecciosa que exige tratamento imediato. A hemorragia subaracnóidea causa cefaleia em trovoada e rigidez nucal, mas classicamente é afebril no início e não se associa a foco otológico infeccioso. A enxaqueca com aura não cursa com febre, rigidez de nuca verdadeira ou rebaixamento progressivo. A encefalite límbica autoimune tem curso subagudo (semanas), com alterações comportamentais, de memória e crises, sem o padrão hiperagudo febril e a rigidez meníngea deste caso. Pérola: a otite/mastoidite e a sinusite são portas de entrada frequentes para o pneumococo.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual a sequência mais adequada de conduta imediata?",
+          "alternativas": {
+            "a": "Punção lombar imediata sem qualquer exame de imagem",
+            "b": "Aguardar resultado de culturas antes de iniciar antibiótico",
+            "c": "Hemoculturas, antibiótico e dexametasona precoces; TC de crânio antes da punção lombar",
+            "d": "Aciclovir isolado e alta com sintomáticos"
+          },
+          "correta": "c",
+          "comentario": "Diante de alteração do sensório (Glasgow 13), idade avançada e imunossupressão (diabetes), indica-se TC de crânio antes da punção lombar para afastar efeito de massa/risco de herniação, mas SEM atrasar o tratamento: coletam-se hemoculturas e inicia-se imediatamente antibiótico empírico associado a dexametasona (esta idealmente antes ou junto da primeira dose de antibiótico, pois reduz sequelas, sobretudo no pneumococo). Puncionar imediatamente sem imagem, havendo rebaixamento e fatores de risco, é inadequado. Aciclovir isolado com alta ignora a emergência bacteriana e a necessidade de internação. Esperar culturas para só então tratar é erro grave: cada hora de atraso piora o prognóstico. Regra: na suspeita de meningite bacteriana, antibiótico e corticoide não esperam a punção nem a imagem.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual o agente mais provável e o esquema empírico adequado?",
+          "alternativas": {
+            "a": "Vírus inespecífico; apenas suporte clínico",
+            "b": "Herpes-vírus simples; aciclovir isolado",
+            "c": "Streptococcus pneumoniae; ceftriaxona associada a vancomicina, com dexametasona",
+            "d": "Cryptococcus neoformans; anfotericina B"
+          },
+          "correta": "c",
+          "comentario": "Em adulto com foco otológico, o Streptococcus pneumoniae é o agente mais provável de meningite bacteriana comunitária, e o esquema empírico recomendado combina ceftriaxona (cobertura de pneumococo e meningococo) com vancomicina (para pneumococo resistente à penicilina), acrescido de dexametasona; em maiores de 50 anos ou imunossuprimidos, associa-se ampicilina para cobrir Listeria monocytogenes. O herpes com aciclovir isolado trata encefalite viral, quadro subagudo e focal, não este. O Cryptococcus é causa de meningite subaguda em imunodeprimidos graves (HIV avançado), com curso mais arrastado. Atribuir a um 'vírus inespecífico' e indicar apenas suporte subestima uma emergência bacteriana potencialmente fatal. Pérola: sempre reavaliar a cobertura para Listeria conforme idade e imunossupressão.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 140 — Meningite Bacteriana Aguda.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Transtornos do Movimento (paralisia supranuclear progressiva)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem, 68 anos de idade, é trazido pela família por quedas frequentes há cerca de 2 anos, quase sempre para trás, sem aviso, além de lentidão dos movimentos, rigidez predominantemente axial (de tronco e pescoço) e voz baixa. A esposa nota que ele tem dificuldade para olhar para baixo, tropeçando ao descer escadas e sujando-se ao comer. Ao exame, apresenta fácies de espanto (surpresa), com pouca resposta a uma prova terapêutica com levodopa em dose otimizada.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Atrofia de múltiplos sistemas",
+            "b": "Paralisia supranuclear progressiva",
+            "c": "Doença de Parkinson idiopática",
+            "d": "Tremor essencial"
+          },
+          "correta": "b",
+          "comentario": "A combinação de instabilidade postural precoce com quedas para trás, parkinsonismo simétrico de predomínio axial, dificuldade do olhar vertical (sobretudo para baixo), fácies de espanto e má resposta à levodopa caracteriza a paralisia supranuclear progressiva, uma taupatia de parkinsonismo atípico ('Parkinson-plus'). A doença de Parkinson idiopática tem início assimétrico, tremor de repouso, instabilidade postural TARDIA e boa resposta à levodopa, o oposto do caso. A atrofia de múltiplos sistemas cursa com disautonomia grave e precoce (hipotensão ortostática, disfunção urinária) e/ou sinais cerebelares, não predominando a paralisia do olhar vertical. O tremor essencial é um transtorno isolado de tremor de ação, sem rigidez, bradicinesia, quedas ou oftalmoparesia. Pegadinha: quedas para trás nos primeiros um a dois anos apontam para parkinsonismo atípico, não para Parkinson clássico.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual sinal, ao exame, mais reforça esse diagnóstico?",
+          "alternativas": {
+            "a": "Paralisia supranuclear do olhar vertical, sobretudo para baixo",
+            "b": "Tremor de repouso assimétrico em 'contar moedas'",
+            "c": "Hipotensão ortostática grave e precoce",
+            "d": "Nistagmo horizontal evocado no olhar excêntrico"
+          },
+          "correta": "a",
+          "comentario": "O achado semiológico mais característico é a limitação do olhar vertical voluntário — inicialmente para baixo —, de natureza supranuclear: o paciente não consegue olhar para baixo por comando, mas a manobra dos olhos de boneca (oculocefálica) preserva o movimento, provando que o núcleo e o nervo estão íntegros e a lesão é da via de comando supranuclear. O tremor de repouso assimétrico é típico da doença de Parkinson, não da paralisia supranuclear (que costuma ter pouco tremor). A hipotensão ortostática grave e precoce sugere atrofia de múltiplos sistemas. O nistagmo evocado pelo olhar indica disfunção cerebelar/vestibular central, achado inespecífico e não a paralisia supranuclear do olhar vertical. Dica: peça ao paciente para seguir o dedo para cima e para baixo e depois teste a manobra oculocefálica.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual é a conduta e o prognóstico esperados?",
+          "alternativas": {
+            "a": "Levodopa em altas doses, com excelente resposta esperada",
+            "b": "Cura com imunoterapia precoce",
+            "c": "Estimulação cerebral profunda como primeira linha",
+            "d": "Manejo sintomático e reabilitação com prevenção de quedas; má resposta à levodopa e evolução progressiva"
+          },
+          "correta": "d",
+          "comentario": "Não há tratamento modificador de doença; o cuidado é sintomático e multidisciplinar — fisioterapia e terapia ocupacional focadas na prevenção de quedas, fonoaudiologia para disfagia/disartria, adaptações ambientais e cuidados de suporte —, com prognóstico de deterioração progressiva. Uma prova de levodopa em dose otimizada é razoável, mas a resposta costuma ser pobre ou ausente, ao contrário da doença de Parkinson; portanto 'excelente resposta esperada' está errada. A estimulação cerebral profunda beneficia a doença de Parkinson avançada com flutuações, não a paralisia supranuclear, na qual não é indicada. Não se trata de doença imunomediada, de modo que não há cura com imunoterapia. Pérola: a alta taxa de quedas e a disfagia determinam o prognóstico e as principais complicações (aspiração).\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 68 — Parkinsonismo Atípico.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuropatias Periféricas (polirradiculoneuropatia desmielinizante inflamatória crônica)",
+      "tier": "ALTO",
+      "vinheta": "Homem, 50 anos de idade, procura atendimento por fraqueza simétrica de membros, tanto proximal quanto distal, de instalação progressiva ao longo de cerca de 3 meses, associada a parestesias em mãos e pés. Nega infecção prévia definida. Ao exame: fraqueza simétrica de quatro membros, hipoestesia distal e arreflexia global. O líquido cefalorraquidiano mostra dissociação albuminocitológica, e a eletroneuromiografia evidencia padrão desmielinizante, com bloqueios de condução e dispersão temporal.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Polineuropatia diabética distal",
+            "b": "Síndrome de Guillain-Barré",
+            "c": "Polirradiculoneuropatia desmielinizante inflamatória crônica (CIDP)",
+            "d": "Doença de Charcot-Marie-Tooth"
+          },
+          "correta": "c",
+          "comentario": "A neuropatia desmielinizante adquirida, simétrica, com acometimento proximal e distal, arreflexia, dissociação albuminocitológica e evolução PROGRESSIVA por mais de 8 semanas, define a forma crônica (CIDP). A síndrome de Guillain-Barré compartilha vários achados (arreflexia, dissociação albuminocitológica, desmielinização), mas é AGUDA/monofásica, com nadir em até 4 semanas e frequente antecedente infeccioso — aqui o curso arrastado de 3 meses a exclui. A polineuropatia diabética é tipicamente distal, sensitivo-dependente, 'em bota e luva', de padrão axonal e comprimento-dependente, sem bloqueios de condução nem dissociação albuminocitológica. A doença de Charcot-Marie-Tooth é hereditária, de instalação insidiosa desde a juventude, com pés cavos e história familiar, não um quadro adquirido de 3 meses. Chave: a duração acima de 8 semanas separa a forma crônica da aguda.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Quais achados complementares confirmam a natureza do quadro?",
+          "alternativas": {
+            "a": "Eletroneuromiografia com desmielinização e líquor com dissociação albuminocitológica",
+            "b": "Ressonância de crânio com lesões desmielinizantes periventriculares",
+            "c": "Anticorpo anti-AChR positivo",
+            "d": "Biópsia muscular com fibras rasgadas vermelhas"
+          },
+          "correta": "a",
+          "comentario": "A confirmação vem da eletroneuromiografia demonstrando desmielinização (redução da velocidade de condução, bloqueios de condução, dispersão temporal, prolongamento das latências distais) somada ao líquor com dissociação albuminocitológica (proteína elevada com celularidade normal). Lesões desmielinizantes periventriculares na ressonância de crânio caracterizam doença do sistema nervoso CENTRAL (esclerose múltipla), não uma neuropatia periférica. O anti-AChR positivo define miastenia gravis, doença da junção neuromuscular, com fatigabilidade e sem alteração sensitiva. A biópsia com fibras rasgadas vermelhas (ragged-red fibers) sugere miopatia mitocondrial, não neuropatia. Pérola: a eletroneuromiografia é o exame-chave para separar padrão desmielinizante (tratável com imunoterapia) de axonal.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual é o tratamento de primeira linha?",
+          "alternativas": {
+            "a": "Riluzol",
+            "b": "Corticoide, imunoglobulina intravenosa ou plasmaférese",
+            "c": "Apenas fisioterapia e observação",
+            "d": "Piridostigmina"
+          },
+          "correta": "b",
+          "comentario": "Diferentemente da síndrome de Guillain-Barré, a forma crônica RESPONDE a corticoide, e as opções de primeira linha incluem corticoterapia, imunoglobulina intravenosa e plasmaférese, com escolha guiada por gravidade, comorbidades e disponibilidade, além de terapia de manutenção para prevenir recaídas. Apenas fisioterapia e observação seriam inadequadas em uma doença tratável e potencialmente incapacitante. A piridostigmina é o sintomático da miastenia gravis, sem papel nas neuropatias desmielinizantes. O riluzol modifica discretamente a sobrevida na esclerose lateral amiotrófica (doença do neurônio motor), diagnóstico distinto, sem alterações sensitivas nem desmielinização. Pegadinha clássica de prova: 'a forma crônica responde a corticoide; a aguda (Guillain-Barré), não' — nesta usa-se imunoglobulina ou plasmaférese, jamais corticoide isolado.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 120 — CIDP e Variantes.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Emergências / Asma (diagnóstico e espirometria)",
+      "tier": "ALTO",
+      "vinheta": "Menino, 9 anos de idade, é levado à Unidade Básica de Saúde para investigação de tosse seca noturna recorrente e chiado no peito aos esforços há mais de um ano, com melhora parcial ao usar broncodilatador. No momento da consulta está assintomático, e a ausculta pulmonar é normal. Há história de rinite alérgica e dermatite atópica. Foi solicitada espirometria, que evidenciou distúrbio ventilatório obstrutivo, com aumento do volume expiratório forçado no primeiro segundo (VEF1) de 14% após a inalação de broncodilatador.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Disfunção de cordas vocais",
+            "b": "Bronquiolite obliterante pós-infecciosa",
+            "c": "Tosse por refluxo gastroesofágico",
+            "d": "Asma"
+          },
+          "correta": "d",
+          "comentario": "Sintomas respiratórios recorrentes e variáveis (tosse noturna, sibilância aos esforços), com melhora ao broncodilatador, em uma criança atópica (rinite e dermatite atópica), e espirometria demonstrando obstrução reversível, caracterizam a asma. A bronquiolite obliterante pós-infecciosa cursa com obstrução FIXA e pouco reversível, geralmente após infecção viral grave, com imagem de perfusão em mosaico — não com a reversibilidade observada. A tosse por refluxo tende a ser diurna/pós-prandial, sem obstrução reversível na espirometria e sem o padrão atópico. A disfunção de cordas vocais simula asma, mas provoca dispneia inspiratória com estridor laríngeo e espirometria com achatamento da alça inspiratória, sem resposta ao broncodilatador. Pérola: a variabilidade dos sintomas e a reversibilidade da obstrução são as marcas diagnósticas.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Como se interpreta o achado espirométrico apresentado?",
+          "alternativas": {
+            "a": "Distúrbio ventilatório obstrutivo com resposta significativa ao broncodilatador (aumento do VEF1 ≥12%)",
+            "b": "Distúrbio restritivo puro",
+            "c": "Espirometria normal, que exclui asma",
+            "d": "Obstrução fixa sem resposta ao broncodilatador"
+          },
+          "correta": "a",
+          "comentario": "O distúrbio obstrutivo (redução da relação VEF1/CVF) que melhora de forma significativa após o broncodilatador — aumento do VEF1 de pelo menos 12% (e, em critérios de valor absoluto, ~200 mL em adultos) — demonstra a limitação ao fluxo aéreo REVERSÍVEL típica da asma; o aumento de 14% do caso preenche esse critério. Não se trata de padrão restritivo (que reduz a CVF com relação VEF1/CVF normal ou aumentada), incompatível com obstrução. Afirmar que a espirometria é normal e 'exclui asma' é duplamente errado: ela está alterada, e mesmo uma espirometria normal, quando o paciente está assintomático, NÃO exclui asma — pode-se repetir ou usar teste de broncoprovocação. Obstrução fixa sem resposta ao broncodilatador apontaria para outra doença (por exemplo, bronquiolite obliterante). Critério prático GINA: reversibilidade de VEF1 ≥12% confirma a variabilidade da função pulmonar.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Confirmado o diagnóstico, qual é a conduta de manutenção adequada?",
+          "alternativas": {
+            "a": "Antibiótico de amplo espectro por 10 dias",
+            "b": "Broncodilatador de resgate isolado, sem corticoide",
+            "c": "Corticoide inalatório de manutenção, com broncodilatador de resgate, educação e controle ambiental",
+            "d": "Corticoide oral contínuo em dose alta"
+          },
+          "correta": "c",
+          "comentario": "O tratamento de manutenção da asma persistente baseia-se no corticoide inalatório (isoladamente ou combinado, conforme a etapa/idade), com broncodilatador de resgate para alívio, somado a educação sobre a técnica inalatória, plano de ação por escrito e controle de fatores ambientais e da rinite alérgica. Antibiótico de amplo espectro não trata asma — a inflamação é alérgica, não bacteriana. Depender apenas do broncodilatador de resgate, sem anti-inflamatório de controle, associa-se a pior controle e mais exacerbações, prática hoje desaconselhada pela GINA. Corticoide oral contínuo em dose alta acarreta efeitos adversos importantes (crescimento, osso, glicemia) e reserva-se a exacerbações ou asma grave refratária, não à manutenção habitual. Pérola: reavaliar controle e técnica inalatória antes de subir de etapa (step-up).\n📚 Leitura sugerida (bloco): Global Initiative for Asthma (GINA 2025) — manejo da asma; e videoaula 'Emergências respiratórias', R+ Pediatria MEDGRUPO 2024 (Drive): https://drive.google.com/file/d/1KBDnpdSl6HD4AEn95UWahWjutRsEUNM4/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neonatologia / Sepse neonatal precoce [REAL: SUS-BA R+ Pediatria 2025]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menino, 4 dias de vida, é levado à Emergência devido à letargia, recusa alimentar e episódios de febre desde o segundo dia de vida. O parto foi vaginal, sem complicações aparentes, e a alta ocorreu com 48 horas de vida. A mãe relata que durante a gestação não houve problemas significativos, mas o trabalho de parto foi prolongado e houve ruptura prematura de membranas 18 horas antes. Ao exame, criança pálida, hipotônica, com extremidades frias, taquicárdica e taquipneica. Apresenta episódios de apneia e tempo de enchimento capilar prolongado.",
+      "perguntas": [
+        {
+          "enunciado": "Indique, dentre os fatores de risco citados, qual se associa ao quadro clínico:",
+          "alternativas": {
+            "a": "Trabalho de parto de curta duração",
+            "b": "Parto cesariano eletivo",
+            "c": "Prematuridade extrema",
+            "d": "Bolsa rota há mais de 18 horas"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A ruptura prolongada de membranas (bolsa rota ≥18 horas) é fator de risco maior para sepse neonatal precoce, pois favorece a ascensão de bactérias do trato genital para o líquido amniótico e o recém-nascido; soma-se, aqui, o trabalho de parto prolongado. Um trabalho de parto de curta duração não aumenta o risco infeccioso — ao contrário, encurta a exposição. O parto cesariano eletivo (sem trabalho de parto e com bolsa íntegra) tende a REDUZIR o risco de sepse precoce, não a aumentá-lo. A prematuridade extrema é, de fato, fator de risco importante, mas o enunciado descreve um recém-nascido a termo com alta em 48 horas; portanto o fator presente e citado no caso é a bolsa rota prolongada. Outros fatores clássicos: colonização materna por estreptococo do grupo B, febre materna intraparto e infecção urinária materna.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Identifique o agente infeccioso mais provável nesse caso:",
+          "alternativas": {
+            "a": "Streptococcus do grupo B",
+            "b": "Klebsiella pneumoniae",
+            "c": "Staphylococcus aureus",
+            "d": "Escherichia coli"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O Streptococcus agalactiae (estreptococo do grupo B, EGB) é o agente mais frequente da sepse neonatal PRECOCE (primeiras 72 horas de vida), adquirido por transmissão vertical a partir da colonização materna do trato genital/anal — o que justifica a triagem e a profilaxia antibiótica intraparto. A Escherichia coli é o segundo agente mais comum da sepse precoce (e o primeiro em prematuros), mas fica atrás do EGB no recém-nascido a termo. O Staphylococcus aureus e a Klebsiella pneumoniae associam-se mais à sepse TARDIA e a infecções relacionadas à assistência hospitalar (cateteres, UTI neonatal), não ao padrão de transmissão vertical precoce deste caso. Pérola: a profilaxia intraparto para EGB reduziu drasticamente a incidência da sepse precoce por esse agente.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Com base no caso, indique a principal suspeita diagnóstica:",
+          "alternativas": {
+            "a": "Hipoglicemia neonatal",
+            "b": "Cardiopatia congênita",
+            "c": "Malformação pulmonar",
+            "d": "Sepse neonatal"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O recém-nascido com letargia, recusa alimentar, instabilidade térmica, palidez, hipotonia, taquicardia, taquipneia, apneia e má perfusão (enchimento capilar lento), no contexto de fatores de risco infecciosos, tem como principal suspeita a sepse neonatal — quadro grave que exige coleta de culturas e início IMEDIATO de antibioticoterapia empírica (classicamente ampicilina + gentamicina), sem aguardar confirmação. A cardiopatia congênita pode causar má perfusão e taquipneia, mas não explica a febre e o contexto infeccioso, e costuma ter sopro/cianose diferencial. A hipoglicemia neonatal provoca letargia e apneia, porém é rapidamente identificada e corrigida pela glicemia capilar, sendo parte da investigação, não o diagnóstico central. A malformação pulmonar tende a dar desconforto respiratório desde o nascimento, não um quadro séptico de instalação no 2º-4º dia. Regra de ouro: sinais inespecíficos no neonato são sepse até prova em contrário.\n📚 Leitura sugerida (bloco): Ministério da Saúde — Atenção à Saúde do Recém-Nascido (sepse neonatal); e videoaula 'Neonatologia', R+ Pediatria MEDGRUPO 2024 (Drive): https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view",
+          "dificuldade": "facil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Transtornos do Neurodesenvolvimento / TEA e TDAH [REAL: SUS-BA R+ Pediatria 2024]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menino, 36 meses de idade, filho único, é levado ao pediatra do Núcleo Ampliado de Saúde da Família por solicitação da escola. O menor não apresentou problemas em ficar na escola, embora não mostre qualquer interesse por brincar com outras crianças nem com os brinquedos diferentes que seus colegas levam à escola. Não pronuncia os 'R' de modo adequado e refere-se a si mesmo pelo nome. Sua brincadeira predileta é arrumar cubos em fileiras, seguidamente.",
+      "perguntas": [
+        {
+          "enunciado": "Com base nas informações, esta criança apresenta evidências de:",
+          "alternativas": {
+            "a": "Transtorno do Espectro Autista",
+            "b": "Distúrbios cognitivos",
+            "c": "Dificuldade de concentração",
+            "d": "Transtorno de Déficit de Atenção e Hiperatividade"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O desinteresse pela interação social (não brincar com outras crianças), o uso peculiar da linguagem (referir-se a si na terceira pessoa/pelo nome, alteração pragmática) e os interesses restritos e repetitivos (enfileirar cubos repetidamente) compõem o núcleo diagnóstico do Transtorno do Espectro Autista: déficit persistente na comunicação/interação social somado a comportamentos restritos e repetitivos. 'Distúrbios cognitivos' (deficiência intelectual) não são sugeridos: a criança frequenta a escola sem problema aparente e não há relato de atraso cognitivo global. 'Dificuldade de concentração' isolada e o TDAH manifestam-se por desatenção, hiperatividade e impulsividade — e não por déficit de reciprocidade social e comportamentos estereotipados, que aqui predominam. Pérola: enfileirar objetos e a alteração pragmática da linguagem são sinais de alerta clássicos do espectro autista.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique as evidências associadas ao diagnóstico de TDAH em crianças, já na Primeira Infância:",
+          "alternativas": {
+            "a": "Taquilalia e movimentos estereotipados",
+            "b": "Dislexia e inquietação",
+            "c": "Agressividade e tique motor",
+            "d": "Impulsividade e dificuldade de concentração"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O TDAH estrutura-se em torno de desatenção, hiperatividade e impulsividade; assim, impulsividade e dificuldade de concentração são as manifestações que melhor o caracterizam desde cedo. Movimentos estereotipados remetem ao espectro autista, e taquilalia (fala acelerada) não é critério de TDAH. Tiques motores definem transtornos de tique/Tourette (que podem coexistir, mas não caracterizam o TDAH), e agressividade é inespecífica. A dislexia é um transtorno específico de aprendizagem da leitura — pode ser comórbida, mas não é o cerne do TDAH; a inquietação, sozinha, é insuficiente. Observação de prova: o diagnóstico de TDAH exige sintomas em mais de um ambiente e prejuízo funcional, e é feito com cautela em crianças muito pequenas.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Identifique o indicador para o diagnóstico precoce do Transtorno do Espectro Autista na Primeira Infância:",
+          "alternativas": {
+            "a": "Desenvolve fala e linguagem de maneira típica para sua idade",
+            "b": "Habilidades sociais avançadas em comparação com seus colegas",
+            "c": "Há dificuldades significativas de comunicação e interação social",
+            "d": "Não apresenta interesse em brincar com brinquedos ou outras crianças"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O indicador que melhor sintetiza o diagnóstico precoce do espectro autista é o déficit significativo de comunicação e interação social, dimensão nuclear e transversal do transtorno. A opção 'não apresentar interesse em brincar com brinquedos ou outras crianças' descreve UM sinal isolado (parte do quadro), porém menos abrangente que o critério que engloba comunicação e interação — por isso é a distratora mais tentadora, mas incompleta como 'o' indicador diagnóstico. 'Habilidades sociais avançadas' e 'desenvolvimento típico de fala e linguagem' são o OPOSTO do que se observa no espectro autista e, portanto, incorretas. Vale reforçar as ferramentas de rastreio: a vigilância do desenvolvimento em toda consulta e o M-CHAT-R entre 16 e 30 meses, com encaminhamento e intervenção precoces quando há sinais de alerta.\n📚 Leitura sugerida (bloco): Sociedade Brasileira de Pediatria — Manual de Vigilância do Desenvolvimento e Transtorno do Espectro Autista; e Caderneta de Saúde da Criança (MS).",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Cardiologia / Coarctação da aorta [REAL: SUS-BA R+ Pediatria 2023]",
+      "tier": "MÉDIO",
+      "vinheta": "Recém-nascido, no segundo dia de vida, apresenta sopro sistólico leve, audível na axila esquerda, e frequência menor de pulsos nos membros inferiores. Nasceu a termo, com peso adequado para a idade gestacional. Observa-se divergência maior que 20 mmHg entre a pressão arterial aferida no membro superior direito e nos membros inferiores.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do caso, indique o diagnóstico provável:",
+          "alternativas": {
+            "a": "Comunicação interventricular",
+            "b": "Persistência do canal arterial",
+            "c": "Coarctação da aorta",
+            "d": "Comunicação interatrial"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O gradiente pressórico maior que 20 mmHg entre membros superiores e inferiores, com pulsos femorais diminuídos/retardados e sopro audível no dorso/axila, é o achado semiológico típico da coarctação da aorta — estreitamento do arco aórtico, em geral justaductal, que reduz a perfusão da metade inferior do corpo. A comunicação interatrial costuma ser oligossintomática, com desdobramento fixo de B2 e sopro sistólico pulmonar por hiperfluxo, sem gradiente de pulsos. A comunicação interventricular gera sopro holossistólico em borda esternal esquerda baixa, com pulsos simétricos e sem diferença de pressão entre membros. A persistência do canal arterial produz sopro contínuo 'em maquinaria' e pulsos amplos/em martelo d'água, o oposto da redução de pulsos nos membros inferiores. Pegadinha: sempre palpar pulsos femorais e medir pressão nos quatro membros no recém-nascido com sopro.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a consequência fisiopatológica da alteração básica dessa doença:",
+          "alternativas": {
+            "a": "Má perfusão pulmonar",
+            "b": "Cardiomegalia global de início imediato",
+            "c": "Hipertensão dos membros inferiores",
+            "d": "Hipertrofia do ventrículo esquerdo"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A obstrução ao fluxo aórtico impõe uma sobrecarga de PRESSÃO crônica ao ventrículo esquerdo, que responde com hipertrofia concêntrica; a montante da coarctação instala-se hipertensão nos membros SUPERIORES, enquanto a jusante há hipotensão e hipoperfusão dos membros inferiores. Por isso 'hipertensão dos membros inferiores' está invertida — a hipertensão é dos membros superiores. 'Má perfusão pulmonar' não é a consequência básica: a coarctação é uma obstrução da via sistêmica esquerda, não do leito pulmonar. A cardiomegalia global pode surgir tardiamente por insuficiência cardíaca, mas não é a consequência fisiopatológica direta e imediata da obstrução — a resposta primária é a hipertrofia ventricular esquerda. Pérola: a diferença de pressão e a HVE explicam as complicações a longo prazo (HAS, doença coronariana e aneurismas).",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Identifique a conduta terapêutica quando a alteração é diagnosticada como moderada a grave em bebês e crianças pequenas:",
+          "alternativas": {
+            "a": "Tratamento conservador com observação",
+            "b": "Angioplastia com implante de stent",
+            "c": "Correção cirúrgica",
+            "d": "Angioplastia com balão"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Em recém-nascidos, lactentes e crianças pequenas com coarctação moderada a grave, a correção CIRÚRGICA (por exemplo, ressecção com anastomose término-terminal) é o tratamento de escolha, com bons resultados a longo prazo e menor taxa de recoarctação nessa faixa etária. A angioplastia com balão isolada reserva-se a situações específicas, sobretudo à recoarctação após cirurgia, e tem maior recidiva quando usada como tratamento primário em neonatos. O implante de stent é preferido em adolescentes e adultos com vasos de maior calibre, não em bebês, pelo crescimento somático. O tratamento conservador não corrige a obstrução e mantém o risco de insuficiência cardíaca e hipertensão. Detalhe importante: no neonato crítico, a prostaglandina E1 mantém o canal arterial pérvio para estabilização até a correção.\n📚 Leitura sugerida (bloco): videoaula 'Cardiopatias congênitas', R+ Pediatria MEDGRUPO 2024 (Drive): https://drive.google.com/file/d/1x1mvuTc7zSmYjdHwK5PqK9aEZxSp7pO7/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nefrologia / Hidronefrose antenatal e refluxo vesicoureteral [REAL: SUS-BA R+ Pediatria 2022]",
+      "tier": "ALTO",
+      "vinheta": "Recém-nascido nas primeiras horas de vida, parto natural, a termo e sem intercorrências. Na 20ª semana de gestação, a ultrassonografia pré-natal evidenciou dilatação renal unilateral de 5 mm; novo exame ultrassonográfico, na 32ª semana, evidenciou dilatação renal, no mesmo lado, de 11 mm, com volume de líquido amniótico normal. Ao nascimento, verificou-se que o cordão umbilical apresentava artéria umbilical única.",
+      "perguntas": [
+        {
+          "enunciado": "O achado renal identificado no período intrauterino indica o diagnóstico de:",
+          "alternativas": {
+            "a": "Cisto renal",
+            "b": "Megaureter obstrutivo",
+            "c": "Malformação renal indeterminada",
+            "d": "Hidronefrose"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A dilatação progressiva da pelve renal detectada no pré-natal (de 5 mm no segundo trimestre para 11 mm no terceiro) caracteriza hidronefrose antenatal — a dilatação do sistema coletor, que é achado, não diagnóstico etiológico em si, exigindo investigação pós-natal. Um cisto renal apareceria como imagem arredondada anecoica separada do sistema coletor, não como dilatação pielocalicinal. 'Malformação renal indeterminada' é vaga e não corresponde ao achado específico de dilatação do sistema coletor. O megaureter obstrutivo implicaria dilatação predominante do URETER, uma causa possível, mas o dado descrito é a dilatação renal (hidronefrose), cuja causa será esclarecida depois. Pérola: o volume normal de líquido amniótico é tranquilizador quanto à função renal global; oligoâmnio indicaria comprometimento mais grave.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a mais provável causa do quadro apresentado:",
+          "alternativas": {
+            "a": "Refluxo vesicoureteral",
+            "b": "Estenose da junção ureterovesical",
+            "c": "Válvula de uretra posterior",
+            "d": "Ectopia ureteral"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Entre as causas de hidronefrose antenatal, o refluxo vesicoureteral é uma das mais frequentes, sobretudo em dilatações unilaterais leves a moderadas com líquido amniótico normal, e é a alternativa apontada como mais provável. A ectopia ureteral é causa menos comum e costuma associar-se a incontinência/duplicação. A válvula de uretra posterior é obstrução uretral de MENINOS que tipicamente causa hidronefrose BILATERAL, bexiga espessada e oligoâmnio (com risco pulmonar) — padrão diferente do caso unilateral com líquido normal, e por isso menos provável aqui. A estenose da junção ureterovesical (megaureter obstrutivo primário) dilata o ureter distal, sendo também possível, porém menos frequente que o refluxo. Observação: a artéria umbilical única aumenta a chance de anomalias, justificando a investigação nefrourológica.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Para classificar a doença quanto à gravidade e ao prognóstico, o principal exame a ser realizado após o nascimento é:",
+          "alternativas": {
+            "a": "Clearance de creatinina",
+            "b": "Uretrocistografia miccional",
+            "c": "Tomografia computadorizada de vias urinárias",
+            "d": "Ultrassonografia de vias urinárias"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O primeiro e principal exame pós-natal é a ultrassonografia das vias urinárias, idealmente após as primeiras 48-72 horas de vida (para evitar subestimar a dilatação pela oligúria fisiológica inicial), que gradua a hidronefrose, avalia o parênquima, a bexiga e os ureteres e orienta a necessidade de exames adicionais. A uretrocistografia miccional é o exame que confirma e gradua o REFLUXO vesicoureteral, mas é solicitada em uma segunda etapa, conforme os achados ultrassonográficos e a clínica — não é o primeiro passo de rastreio. O clearance de creatinina no recém-nascido reflete em parte a função materna nos primeiros dias e não classifica a uropatia. A tomografia expõe a criança a radiação e não é o exame inicial de escolha. Pérola: a ultrassonografia é o método de imagem inicial padrão na uropatia dilatada, por ser inócua e informativa.\n📚 Leitura sugerida (bloco): videoaula 'Nefrologia (ITU, hidronefrose)', R+ Pediatria MEDGRUPO 2024 (Drive): https://drive.google.com/file/d/1KuvXkP9naQp1_JIcYrTNEDsoqD5K3DXG/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neonatologia / Triagem neonatal (fenilcetonúria)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Lactente de 40 dias de vida, do sexo masculino, assintomático, é levado à Unidade Básica de Saúde para retorno. A triagem neonatal (teste do pezinho), coletada no 4º dia de vida, mostrou dosagem elevada de fenilalanina, confirmada em nova coleta quantitativa. O exame físico é normal, e a criança está em aleitamento materno exclusivo, com bom ganho de peso.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o diagnóstico e o mecanismo mais provável?",
+          "alternativas": {
+            "a": "Hipotireoidismo congênito",
+            "b": "Fenilcetonúria, por deficiência da enzima fenilalanina hidroxilase",
+            "c": "Deficiência de biotinidase",
+            "d": "Galactosemia clássica"
+          },
+          "correta": "b",
+          "comentario": "A elevação persistente e confirmada da fenilalanina na triagem neonatal indica fenilcetonúria, erro inato do metabolismo por deficiência da fenilalanina hidroxilase (ou de seu cofator, a tetra-hidrobiopterina), que impede a conversão de fenilalanina em tirosina e leva ao acúmulo tóxico do aminoácido, com risco de deficiência intelectual grave se não tratada. O hipotireoidismo congênito também é rastreado no teste do pezinho, mas se identifica pela elevação do TSH (e não da fenilalanina), com clínica de icterícia prolongada, hipotonia e hérnia umbilical. A galactosemia clássica cursa com vômitos, icterícia, hepatomegalia e sepse por E. coli após a introdução do leite, com triagem específica, não com hiperfenilalaninemia. A deficiência de biotinidase manifesta-se com crises, hipotonia, alopecia e dermatite, e é rastreada por dosagem da atividade da biotinidase. Pérola: o teste do pezinho ampliado do SUS rastreia várias dessas doenças simultaneamente.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual exame confirma a suspeita levantada pela triagem?",
+          "alternativas": {
+            "a": "Dosagem de TSH e T4 livre",
+            "b": "Cariótipo",
+            "c": "Ultrassonografia abdominal",
+            "d": "Dosagem quantitativa sérica de fenilalanina"
+          },
+          "correta": "d",
+          "comentario": "A confirmação é feita pela dosagem quantitativa sérica de fenilalanina (com avaliação da relação fenilalanina/tirosina e investigação do metabolismo da biopterina), que quantifica o acúmulo do aminoácido e orienta o tratamento dietético. A dosagem de TSH e T4 livre é o exame do hipotireoidismo congênito, não da hiperfenilalaninemia. A ultrassonografia abdominal não tem papel diagnóstico neste erro inato do metabolismo de aminoácidos. O cariótipo investiga anomalias cromossômicas (por exemplo, síndrome de Down), sem relação com o defeito enzimático em questão. Observação prática: a coleta do teste do pezinho tem janela ideal entre o 3º e o 5º dia de vida, após a ingestão proteica suficiente para não gerar falso-negativo.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Qual é a conduta e o prognóstico?",
+          "alternativas": {
+            "a": "Apenas observação, por ser condição benigna",
+            "b": "Dieta com restrição de fenilalanina, iniciada precocemente, para prevenir a deficiência intelectual",
+            "c": "Transfusões periódicas de hemácias",
+            "d": "Levotiroxina de reposição por toda a vida"
+          },
+          "correta": "b",
+          "comentario": "O tratamento é a instituição PRECOCE de uma dieta com restrição de fenilalanina (fórmulas metabólicas especiais isentas ou pobres no aminoácido, com controle do aporte proteico natural e monitorização dos níveis séricos), que, quando iniciada nas primeiras semanas de vida, previne a deterioração neurológica e permite desenvolvimento normal — daí a importância da triagem neonatal universal. A levotiroxina trata o hipotireoidismo congênito, diagnóstico distinto. 'Apenas observação' é inaceitável: sem tratamento, a fenilcetonúria evolui com deficiência intelectual grave, epilepsia e distúrbios comportamentais irreversíveis. As transfusões de hemácias tratam anemias/hemoglobinopatias, sem qualquer papel aqui. Pérola: a dieta deve ser mantida por toda a vida, e mulheres com a doença precisam de controle rigoroso na gestação (fenilcetonúria materna) para proteger o feto.\n📚 Leitura sugerida (bloco): Ministério da Saúde — Programa Nacional de Triagem Neonatal (Teste do Pezinho); e videoaula 'Neonatologia', R+ Pediatria MEDGRUPO 2024 (Drive): https://drive.google.com/file/d/1h4cx1neFKC_SZE8HuqfEDx6fMB2I-dkm/view",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nutrição / Anemia ferropriva do lactente",
+      "tier": "ESSENCIAL",
+      "vinheta": "Lactente de 11 meses de idade é levado à Unidade Básica de Saúde por palidez, irritabilidade e menor apetite percebidos nas últimas semanas. Nasceu a termo, esteve em aleitamento materno exclusivo até os 6 meses e, desde então, faz uso importante de leite de vaca integral com introdução alimentar pobre em ferro. Ao exame, apresenta palidez cutâneo-mucosa, sem visceromegalias. Hemograma: hemoglobina 8,5 g/dL, VCM baixo, RDW aumentado; ferritina reduzida.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Anemia de doença crônica",
+            "b": "Anemia ferropriva",
+            "c": "Esferocitose hereditária",
+            "d": "Talassemia menor (beta-talassemia)"
+          },
+          "correta": "b",
+          "comentario": "A anemia microcítica e hipocrômica (VCM baixo) com RDW aumentado (anisocitose) e ferritina reduzida, em um lactente com dieta pobre em ferro e alto consumo de leite de vaca, é o quadro típico da anemia ferropriva, a carência nutricional mais prevalente na infância. A talassemia menor também causa microcitose, mas cursa com ferritina NORMAL ou elevada, RDW frequentemente normal e microcitose desproporcional ao grau de anemia, além de história familiar. A anemia de doença crônica costuma ser normo/microcítica com ferritina NORMAL ou aumentada (ferro sequestrado), em contexto inflamatório/infeccioso, ausente aqui. A esferocitose hereditária é hemolítica, com icterícia, esplenomegalia, esferócitos e reticulocitose — a criança não tem visceromegalia nem sinais de hemólise. Pegadinha clássica: a ferritina baixa é o marcador mais específico da deficiência de ferro (podendo elevar-se falsamente em inflamação).",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Qual conjunto de achados laboratoriais melhor confirma o diagnóstico?",
+          "alternativas": {
+            "a": "Esferócitos e teste de Coombs direto positivo",
+            "b": "Microcitose e hipocromia com ferritina reduzida",
+            "c": "Macrocitose com hipersegmentação de neutrófilos",
+            "d": "Microcitose com ferritina elevada"
+          },
+          "correta": "b",
+          "comentario": "A confirmação vem do padrão de deficiência de ferro: microcitose e hipocromia (VCM e HCM baixos) com ferritina reduzida, refletindo o esgotamento dos estoques; podem completar o quadro a saturação de transferrina baixa, o ferro sérico baixo e a capacidade de ligação do ferro elevada. Microcitose com ferritina ELEVADA aponta para talassemia ou anemia de doença crônica, não para ferropenia. Macrocitose com neutrófilos hipersegmentados caracteriza anemia megaloblástica (deficiência de B12/folato), o oposto do padrão microcítico. Esferócitos com Coombs direto positivo indicam anemia hemolítica autoimune, quadro hemolítico distinto. Detalhe de prova: como a ferritina é reagente de fase aguda, na vigência de infecção ela pode estar falsamente normal, e outros índices do ferro ajudam a esclarecer.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual é a conduta terapêutica e de saúde pública adequada?",
+          "alternativas": {
+            "a": "Transfusão de concentrado de hemácias imediatamente",
+            "b": "Sulfato ferroso terapêutico, orientação alimentar e profilaxia de ferro conforme SBP/Ministério da Saúde",
+            "c": "Corticoterapia sistêmica prolongada",
+            "d": "Suspender a carne e aumentar o leite de vaca"
+          },
+          "correta": "b",
+          "comentario": "O tratamento é a reposição de ferro elementar por via oral (sulfato ferroso em dose terapêutica, cerca de 3-5 mg/kg/dia), reavaliando com contagem de reticulócitos e hemoglobina, associado a orientação alimentar (introduzir carnes, vísceras, feijão e vegetais verde-escuros, oferecer fontes de vitamina C e reduzir o excesso de leite de vaca, que compete com a absorção do ferro e pode causar microssangramento intestinal). No plano de saúde pública, a SBP e o Ministério da Saúde recomendam a suplementação profilática de ferro em lactentes conforme o Programa Nacional de Suplementação de Ferro. A transfusão reserva-se a anemia grave com repercussão hemodinâmica, não a este caso estável. Suspender a carne e aumentar o leite de vaca AGRAVARIA a deficiência. Corticoide não trata anemia carencial. Pérola: a resposta reticulocitária em 5-10 dias confirma a adesão e a resposta ao ferro.\n📚 Leitura sugerida (bloco): 'Nutrição em Pediatria na Prática Clínica' (Sarni, 2021) — anemia ferropriva (Drive): https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    }
+  ]
+}
