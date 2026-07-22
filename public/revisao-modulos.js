@@ -544,7 +544,26 @@ O objetivo dessa etapa é duplo: **rotular o tipo** e, principalmente, **não de
 - **Antipsicótico apenas se houver risco** (agressividade/psicose com perigo a si ou a outros), na **menor dose e pelo menor tempo**, cientes do **aumento de mortalidade e AVC** em idosos com demência (alerta de bula).
 - **Evitar benzodiazepínicos** (pioram cognição, quedas, delirium) e anticolinérgicos.
 - **Demência com corpos de Lewy:** **não** usar antipsicótico (hipersensibilidade → rigidez grave, piora); se imprescindível, um atípico (ex.: quetiapina) com muita cautela. Anticolinesterásicos costumam **ajudar** nas alucinações desses pacientes.`},
-  {h: `7. Síntese em seis frases (leve para a prova)`, c: `- Demência = declínio **adquirido** + **perda de autonomia**; delirium = **agudo, flutuante, desatento** → sempre excluir primeiro.
+  {h: `7. Aprofundando a hidrocefalia de pressão normal (o tema onde você mais erra)`, c: `Como a HPN é a sua pegadinha nº 1 e tem taxa de erro de 100%, vale reconstruí-la do zero — porque quem entende o **mecanismo** não confunde mais.
+
+**Por que "pressão normal"?** Na HPN, os ventrículos estão **dilatados**, mas a pressão liquórica medida em repouso é **normal** (por isso o nome). A hipótese fisiopatológica é uma **alteração crônica da dinâmica do liquor** (redução da absorção/complacência), que dilata os ventrículos de forma lenta. Essa dilatação **estica as fibras que sobem do centro para as pernas** (as fibras motoras e do controle esfincteriano dos membros inferiores, que passam justamente ao redor dos ventrículos laterais) — e é isso que explica a ordem dos sintomas.
+
+**Por que a marcha vem primeiro e melhora mais?** Porque as fibras dos **membros inferiores** e do controle vesical são as mais próximas dos ventrículos dilatados. Daí a **marcha "magnética"/apráxica** (passos curtos, base alargada, pés como "colados no chão", dificuldade de iniciar e de virar) ser o sintoma **mais precoce** e o **que mais responde** ao tratamento. A incontinência urinária vem depois, e o declínio cognitivo (mais subcortical/executivo, com lentificação) por último — por isso a HPN é uma **demência potencialmente reversível**.
+
+**A tríade de Hakim-Adams** — marcha + incontinência + cognição — nem sempre está completa; a **marcha** é a âncora. "3 W" em inglês ajuda: **Wobbly** (marcha instável), **Wet** (incontinência), **Weird/Wacky** (cognição).
+
+**Imagem:** ventriculomegalia **desproporcional à atrofia** (índice de Evans > 0,3), muitas vezes com o padrão **DESH** (sulcos apertados no alto da convexidade + fissuras silvianas alargadas). O ponto-chave da prova: a dilatação **não** é explicada apenas pela atrofia (que também alarga ventrículos — a chamada *hydrocephalus ex-vacuo*, que **não** responde a derivação).
+
+**Tap test → derivação:** a **punção lombar de alívio** (retirada de ~30–50 mL de liquor) que **melhora objetivamente a marcha** (cronometrar o tempo de caminhada antes e depois) **prediz boa resposta** à **derivação ventriculoperitoneal (DVP)**. É esse teste, e não a donepezila, que a questão quer. Reconhecer a HPN = oferecer uma cirurgia que pode devolver a marcha e a continência.`},
+  {h: `8. Comparando os tipos lado a lado (para não trocar Lewy, vascular e Parkinson)`, c: `A confusão entre demências com componente motor é fonte de erro. Fixe os contrastes:
+
+- **Demência com corpos de Lewy × demência da doença de Parkinson:** a **clínica é parecida** (parkinsonismo + declínio cognitivo), e a diferença é **temporal** — a "**regra de 1 ano**". Se a **demência** aparece **junto ou até 1 ano antes/depois** do parkinsonismo → **corpos de Lewy**. Se surge **anos depois** de uma doença de Parkinson já estabelecida → **demência da doença de Parkinson**. Em ambas há alfa-sinucleína; muda o rótulo e o enquadre, não a cautela com antipsicótico.
+- **Lewy — as pistas que a prova adora:** **flutuação** cognitiva marcante (varia de hora em hora), **alucinações visuais** precoces, **bem formadas** e recorrentes, **parkinsonismo** (mais simétrico, menos tremor de repouso que o Parkinson clássico) e **transtorno comportamental do sono REM** (fala/agita-se sonhando, às vezes anos antes). Some-se a **hipersensibilidade a antipsicóticos** (rigidez grave) e a boa resposta das alucinações aos **anticolinesterásicos**.
+- **Demência vascular:** história de **fatores de risco** (HAS, diabetes, fibrilação, tabagismo), curso **em degraus**, **sinais focais** ao exame (hemiparesia, reflexos, marcha) e lesões vasculares na imagem. Predominam **disfunção executiva e lentificação** antes da amnésia. Prevenção = **controlar os fatores vasculares** (o "tratamento" mais eficaz é evitar novos AVCs).
+- **Alzheimer:** **memória episódica** primeiro, curso lento e progressivo, **sem** parkinsonismo/flutuação precoces — o "molde" com que se comparam os outros.
+
+Regra prática de banca: **flutuação + alucinação visual precoce + parkinsonismo** → Lewy (não dê antipsicótico típico). **Degraus + focal + fator vascular** → vascular. **Parkinson há anos e só agora demenciou** → demência da doença de Parkinson.`},
+  {h: `9. Síntese em seis frases (leve para a prova)`, c: `- Demência = declínio **adquirido** + **perda de autonomia**; delirium = **agudo, flutuante, desatento** → sempre excluir primeiro.
 - **Investigue causas reversíveis** em todo caso: TSH, B12, VDRL, imagem — não perca a **HPN**.
 - **HPN** = marcha magnética + incontinência + cognição; **tap test → derivação** (não donepezila).
 - **Alzheimer** = memória episódica primeiro; trata com **anticolinesterásico** (± memantina), que estabiliza, não cura.
@@ -558,7 +577,11 @@ O objetivo dessa etapa é duplo: **rotular o tipo** e, principalmente, **não de
   {p: `Primeira linha para agitação na demência?`, r: `Medidas não farmacológicas; antipsicótico só se risco, dose baixa e curto prazo.`},
   {p: `Demência que muda a personalidade antes da memória, no paciente mais jovem?`, r: `Demência frontotemporal (variante comportamental).`},
   {p: `Demência rapidamente progressiva com mioclonias?`, r: `Doença priônica (Creutzfeldt-Jakob).`},
-  {p: `Exames mínimos para causas reversíveis de demência?`, r: `TSH/T4, vitamina B12, VDRL (± HIV), função metabólica e neuroimagem.`}
+  {p: `Exames mínimos para causas reversíveis de demência?`, r: `TSH/T4, vitamina B12, VDRL (± HIV), função metabólica e neuroimagem.`},
+  {p: `Por que a marcha é o 1º sintoma da HPN?`, r: `A dilatação ventricular estica as fibras periventriculares dos membros inferiores/esfíncteres — daí marcha e incontinência antes da cognição.`},
+  {p: `Índice de Evans e padrão de imagem na HPN?`, r: `Índice de Evans > 0,3 (ventriculomegalia desproporcional à atrofia), muitas vezes padrão DESH.`},
+  {p: `"Regra de 1 ano" entre corpos de Lewy e demência da doença de Parkinson?`, r: `Demência ≤1 ano do parkinsonismo → corpos de Lewy; anos após Parkinson estabelecido → demência da doença de Parkinson.`},
+  {p: `Sintoma que precede anos a demência com corpos de Lewy?`, r: `Transtorno comportamental do sono REM (agita-se/fala sonhando).`}
  ],
  pegadinhas: [
   `Sintoma comportamental: primeira linha é NÃO farmacológica; antipsicótico só se necessário, dose baixa, tempo curto.`,
@@ -567,7 +590,10 @@ O objetivo dessa etapa é duplo: **rotular o tipo** e, principalmente, **não de
   `Excluir delirium (agudo, atencional) e causas reversíveis (B12, TSH, sífilis) antes de rotular demência.`,
   `Na frontotemporal, muda a personalidade/comportamento antes da memória — e o paciente é mais jovem.`,
   `Demência rapidamente progressiva + mioclonias = pensar em doença priônica.`,
-  `A marcha é o primeiro e mais reversível sintoma da HPN — valorize-a.`
+  `A marcha é o primeiro e mais reversível sintoma da HPN — valorize-a.`,
+  `Ventriculomegalia por atrofia (ex-vacuo) NÃO responde a derivação; só a HPN verdadeira (desproporcional à atrofia) responde.`,
+  `Corpos de Lewy × Parkinson: use a "regra de 1 ano" para a ordem entre demência e parkinsonismo.`,
+  `Alucinação visual precoce e bem formada + flutuação = pense Lewy antes de rotular Alzheimer.`
  ],
  diretrizes: [
   `Tratado de Neurologia da ABN (3ª ed., 2025), caps. 96–102 (Demências; Corpos de Lewy; Alzheimer; Frontotemporal; Cognitivo Vascular; Hidrocefalia de Pressão Normal) e cap. 106 — Tratamento dos Transtornos Comportamentais nas Demências (ver materiais_neuro.md).`,
@@ -577,7 +603,8 @@ O objetivo dessa etapa é duplo: **rotular o tipo** e, principalmente, **não de
  questoes: [
   {enunciado: `Mulher de 78 anos com doença de Alzheimer apresenta agitação vespertina e insônia. Qual a conduta inicial mais adequada?`, alternativas: {a: `Iniciar antipsicótico de rotina`, b: `Benzodiazepínico ao deitar`, c: `Medidas não farmacológicas (rotina, ambiente, orientação do cuidador)`, d: `Suspender o anticolinesterásico`}, correta: "c", comentario: `Sintomas comportamentais e psicológicos da demência têm como primeira linha as medidas não farmacológicas: ajuste do ambiente, rotina, higiene do sono, manejo de gatilhos e orientação ao cuidador. Antipsicótico só se houver risco (agressividade/psicose com perigo), na menor dose e pelo menor tempo — de rotina, não. Benzodiazepínico piora cognição e quedas no idoso. Suspender o anticolinesterásico não trata a agitação e retira benefício cognitivo.`, foco: `Manejo de sintoma comportamental`},
   {enunciado: `Homem de 74 anos com marcha lenta e “grudada no chão”, incontinência urinária e declínio cognitivo há 1 ano; TC com ventriculomegalia desproporcional à atrofia. Qual conduta confirma a hipótese e orienta o tratamento?`, alternativas: {a: `Iniciar donepezila e reavaliar em 6 meses`, b: `Tap test (punção lombar de alívio); se houver melhora, derivação ventriculoperitoneal`, c: `Antipsicótico para a marcha`, d: `Anticoagulação para provável causa vascular`}, correta: "b", comentario: `A tríade de Hakim-Adams (marcha magnética + incontinência + declínio cognitivo) com ventriculomegalia sugere hidrocefalia de pressão normal, uma causa reversível. O tap test (retirada de liquor) que melhora a marcha prediz boa resposta à derivação ventriculoperitoneal. Donepezila trata Alzheimer, não a hidrocefalia. Antipsicótico não trata marcha e piora idoso. Anticoagulação não tem papel. Reconhecer a reversibilidade é o ponto de prova.`, foco: `Hidrocefalia de pressão normal (reversível)`},
-  {enunciado: `Homem de 73 anos com cognição flutuante, alucinações visuais precoces e parkinsonismo. Qual cuidado é essencial no manejo?`, alternativas: {a: `Usar haloperidol em dose plena para as alucinações`, b: `Evitar antipsicóticos por hipersensibilidade característica`, c: `Contraindicar anticolinesterásicos`, d: `Iniciar levodopa em alta dose imediatamente`}, correta: "b", comentario: `Na demência com corpos de Lewy há hipersensibilidade a antipsicóticos (sobretudo os típicos como haloperidol), que podem provocar rigidez grave e piora — devem ser evitados; se imprescindível, usar um atípico com muita cautela. Anticolinesterásicos costumam ajudar (não são contraindicados). A levodopa pode ser usada com parcimônia para o parkinsonismo, equilibrando piora das alucinações — não em alta dose de imediato. Flutuação + alucinações visuais precoces + parkinsonismo é a tríade a reconhecer.`, foco: `Corpos de Lewy e antipsicótico`}
+  {enunciado: `Homem de 73 anos com cognição flutuante, alucinações visuais precoces e parkinsonismo. Qual cuidado é essencial no manejo?`, alternativas: {a: `Usar haloperidol em dose plena para as alucinações`, b: `Evitar antipsicóticos por hipersensibilidade característica`, c: `Contraindicar anticolinesterásicos`, d: `Iniciar levodopa em alta dose imediatamente`}, correta: "b", comentario: `Na demência com corpos de Lewy há hipersensibilidade a antipsicóticos (sobretudo os típicos como haloperidol), que podem provocar rigidez grave e piora — devem ser evitados; se imprescindível, usar um atípico com muita cautela. Anticolinesterásicos costumam ajudar (não são contraindicados). A levodopa pode ser usada com parcimônia para o parkinsonismo, equilibrando piora das alucinações — não em alta dose de imediato. Flutuação + alucinações visuais precoces + parkinsonismo é a tríade a reconhecer.`, foco: `Corpos de Lewy e antipsicótico`},
+  {enunciado: `Idoso de 76 anos com marcha "magnética", incontinência e lentificação cognitiva há 1 ano. A RM mostra ventrículos dilatados. Qual achado favorece hidrocefalia de pressão normal (potencialmente reversível) em vez de dilatação por atrofia (ex-vacuo)?`, alternativas: {a: `Ventriculomegalia proporcional ao grau de atrofia cortical`, b: `Ventriculomegalia desproporcional à atrofia (índice de Evans > 0,3), padrão DESH, com melhora da marcha após tap test`, c: `Presença de micro-hemorragias corticais`, d: `Atrofia isolada do hipocampo`}, correta: "b", comentario: `A HPN verdadeira mostra ventrículos dilatados DESPROPORCIONALMENTE à atrofia (índice de Evans > 0,3), muitas vezes com padrão DESH (sulcos apertados no vértice + fissuras silvianas alargadas), e — o dado funcional decisivo — melhora objetiva da marcha após o tap test, o que prediz resposta à derivação. Se a dilatação é apenas proporcional à atrofia (ex-vacuo), NÃO há benefício com derivação. Micro-hemorragias sugerem angiopatia/vascular e atrofia hipocampal isolada aponta Alzheimer — nenhum define HPN. Distinguir HPN de ex-vacuo é o ponto que decide oferecer (ou não) a cirurgia.`, foco: `HPN × ex-vacuo (imagem e tap test)`}
  ]
 },
 
@@ -728,10 +755,137 @@ Diferença essencial do Parkinson: tremor de **ação** (essencial) × tremor de
  ]
 },
 
+"NEURO|Neuropediatria": {
+ titulo: `Neuropediatria — epilepsias da infância, crise febril e doenças neuromusculares`,
+ half: `NEURO`,
+ resumo: `O cérebro da criança não é um cérebro de adulto "menor": ele está em construção, e por isso as doenças neurológicas têm idades preferenciais, quadros e prognósticos próprios. Este texto reconstrói o tema do zero, com foco no que mais cai e mais confunde — as encefalopatias epilépticas do lactente (com a síndrome de West no centro), a crise febril (que NÃO é epilepsia) e a distrofia de Duchenne — explicando o porquê de cada conduta.`,
+ fontes: `Base: Tratado de Neurologia da ABN 3ª ed. (Seção 19 — Neurologia Pediátrica; caps. 172 — Exame Neurológico da Criança, 173 — Epilepsia na Infância, 174 — Lactente Hipotônico, 176 — Paralisia Cerebral, 180 — Síndromes Neurocutâneas), Merritt 13ª ed. (Seção de Epilepsias e Doenças Neuromusculares), Adams & Victor (Normal Development and Deviations; The Epilepsies) e Sanvito (exame neurológico e do desenvolvimento). Ver materiais_neuro.md.`,
+ notaErro: `Nos seus registros, a **neuropediatria específica (síndrome de West)** aparece com erro recorrente. O problema quase nunca é "não conhecer" a síndrome — é **não fechar a tríade** e **errar a droga**. Os tropeços clássicos, todos endereçados neste texto:
+
+- **Você não reconhece o espasmo como crise.** Os espasmos em flexão parecem "cólica", "susto" ou "reflexo de Moro" e vêm em **salvas** ao acordar. Quem os trata como refluxo/cólica perde meses (seção 3). A pista de ouro é a **salva** + a **regressão do desenvolvimento**.
+- **Você esquece o EEG.** West é uma **tríade**: espasmos + **hipsarritmia** no EEG + atraso/regressão do DNPM. Sem pedir o EEG (interictal, de preferência com sono), você não fecha o diagnóstico (seção 3).
+- **Você erra a primeira droga.** A 1ª linha é **ACTH (ou corticoide) ou vigabatrina** — e, na **esclerose tuberosa**, a **vigabatrina é a escolha**. Marcar "carbamazepina/fenitoína" é erro grave (podem até piorar) (seção 4).
+- **Confunde West com crise febril** ou acha que "toda crise na criança é epilepsia". Crise febril **simples NÃO é epilepsia**, não precisa de EEG/neuroimagem nem de droga contínua (seção 5).
+
+**Como zerar:** diante de um lactente com "movimentos anormais", pergunte NESTA ordem — (1) são **espasmos em salva**, sobretudo ao despertar? (2) houve **parada ou regressão** do desenvolvimento? (3) o **EEG** mostra **hipsarritmia**? Se sim, é West → investigue a **causa** (não perca a esclerose tuberosa) e trate com **ACTH/corticoide ou vigabatrina** (vigabatrina se esclerose tuberosa). As questões ao final batem exatamente nesses pontos.`,
+ secoes: [
+  {h: `1. Por que a neurologia da criança é um capítulo à parte`, c: `O sistema nervoso da criança está em **maturação ativa**: neurônios ainda migram, sinapses se formam e se podam, a mielinização avança por anos. Três consequências práticas nascem disso, e elas explicam quase tudo o que a prova cobra:
+
+- **Doenças têm "idade preferencial".** Um mesmo insulto (genético, metabólico, estrutural) produz síndromes diferentes conforme a idade em que o cérebro está — por isso as **encefalopatias epilépticas** se organizam por faixa etária (Ohtahara no recém-nascido, **West no lactente**, Lennox-Gastaut no pré-escolar). É o conceito de epilepsia **idade-dependente**.
+- **O desenvolvimento é o "sinal vital" do cérebro infantil.** Perder marcos ou **regredir** (parar de sorrir, de sentar, de pegar objetos) é um sinal de alarme tão importante quanto uma crise. Sempre pergunte pelo **desenvolvimento neuropsicomotor (DNPM)**.
+- **O exame é adaptado à idade.** Avaliamos tônus, postura, reflexos primitivos (Moro, preensão, sucção) e sua **extinção no tempo certo**, além dos marcos. Reflexo primitivo que **não some** ou assimetria de tônus são pistas de lesão.
+
+Guarde a moldura: em pediatria, **crise + regressão do desenvolvimento** é um alerta máximo — e o exemplo-mãe é a síndrome de West.`},
+  {h: `2. Como uma criança convulsiona — e a diferença entre crise, epilepsia e síndrome`, c: `Vale separar três palavras que a prova usa com precisão:
+
+- **Crise epiléptica:** o evento — uma descarga elétrica anormal e síncrona de neurônios, que se manifesta como abalos, rigidez, desconexão, espasmo etc. Uma crise isolada **não** é epilepsia.
+- **Epilepsia:** a **tendência** a ter crises não provocadas (em geral ≥ 2 crises separadas por > 24 h, ou 1 crise com alto risco de recorrência). "Não provocada" quer dizer **sem** um gatilho agudo como febre, distúrbio metabólico ou trauma.
+- **Síndrome epiléptica:** um "pacote" que agrupa tipo de crise + idade + padrão de EEG + prognóstico (ex.: West). Reconhecer a **síndrome** direciona o tratamento e o prognóstico — muito mais do que só nomear a crise.
+
+Por isso, diante de uma criança que "convulsionou", a pergunta certa não é só "que crise foi essa?", mas **"há uma síndrome por trás?"** e **"foi provocada (ex.: febre) ou não?"**.`},
+  {h: `3. Síndrome de West — o que é e como reconhecer (o coração do tema)`, c: `A **síndrome de West** é a encefalopatia epiléptica **do lactente** por excelência. Costuma começar entre **3 e 12 meses** (pico ~5–7 meses). É definida por uma **TRÍADE** — decore-a como um tripé, porque a prova exige os três:
+
+- **1) Espasmos epilépticos ("espasmos infantis"):** contrações **súbitas, breves (1–2 s), bilaterais**, em geral **em flexão** do pescoço, tronco e membros ("canivete"/"jack-knife") — às vezes em extensão ou mistas. O detalhe que fecha: vêm **em SALVAS** (dezenas seguidas) e tipicamente **ao despertar** ou ao adormecer. São facilmente confundidos com **cólica, susto, refluxo ou reflexo de Moro** — e essa confusão é a causa nº 1 de atraso diagnóstico.
+- **2) Hipsarritmia no EEG:** o padrão eletroencefalográfico clássico — atividade **caótica, desorganizada, de altíssima voltagem**, com ondas lentas e espículas multifocais, sem ritmo de base. O EEG (interictal, de preferência captando **sono**) é o que **confirma** e não pode faltar.
+- **3) Atraso ou REGRESSÃO do desenvolvimento:** a criança **estagna ou perde** marcos já adquiridos (deixa de sorrir, de fixar/seguir, de sustentar o tronco). É o sinal que transforma "movimentos estranhos" em emergência.
+
+Nem sempre os três aparecem completos no início (formas "incompletas" existem), mas a combinação **espasmos em salva + regressão** já obriga a pedir EEG **com urgência**. Reconhecer cedo importa porque **quanto mais rápido se controla, melhor o neurodesenvolvimento** — é uma emergência neurológica do lactente.`},
+  {h: `4. West — por que acontece (causas) e como tratar`, c: `**Causas (etiologia).** West é uma "via final comum" de muitas agressões ao cérebro em desenvolvimento. Divide-se didaticamente em:
+
+- **Estruturais/sintomáticas (maioria):** encefalopatia hipóxico-isquêmica (asfixia perinatal), malformações do desenvolvimento cortical, sequelas de infecções congênitas, AVC neonatal, e — a que **não se pode perder** — as **síndromes neurocutâneas**, sobretudo a **esclerose tuberosa** (procure manchas hipocrômicas "folha de freixo" à lâmpada de Wood, e faça imagem/genética).
+- **Metabólicas/genéticas:** erros inatos do metabolismo, síndromes genéticas.
+- **Desconhecida (idiopática/criptogênica):** subgrupo com melhor prognóstico quando o desenvolvimento era normal antes.
+
+Investigar a causa é parte do diagnóstico: **neuroimagem (RM de crânio)**, avaliação para esclerose tuberosa e, conforme o caso, triagem metabólica/genética.
+
+**Tratamento (o ponto que mais se erra).** A 1ª linha são **terapias hormonais — ACTH ou corticoide (prednisolona em dose alta)** — **ou a vigabatrina**. A regra que a banca adora:
+
+- **Esclerose tuberosa → vigabatrina é a 1ª escolha** (resposta especialmente boa nesse grupo).
+- Nas demais causas, **ACTH/corticoide ou vigabatrina**, conforme protocolo/disponibilidade.
+- **Antiepilépticos "clássicos" de crise focal (carbamazepina, fenitoína, oxcarbazepina) NÃO servem e podem PIORAR** os espasmos. Marcar um deles é o erro grave.
+
+O objetivo do tratamento não é só parar os espasmos, mas **apagar a hipsarritmia** (resolver o padrão de EEG), porque é isso que se associa a melhor desfecho cognitivo. Sem controle, West frequentemente **evolui para síndrome de Lennox-Gastaut** e deficiência intelectual.`},
+  {h: `5. Crise febril — o oposto de West: comum, benigna e que NÃO é epilepsia`, c: `A **crise febril** é a crise mais comum da infância e o grande contraponto de West: aqui, na imensa maioria, o prognóstico é **excelente**. Definição: crise associada a **febre**, em criança de **6 meses a 5 anos**, **sem** infecção do SNC (meningite/encefalite) e **sem** distúrbio metabólico que a explique. Ou seja, é uma crise **provocada** (pela febre) — **por isso não é epilepsia**.
+
+Classifica-se em:
+
+- **Simples (a grande maioria):** **generalizada**, **breve (< 15 min)**, **única em 24 h** e sem déficit neurológico residual. Conduta: **tratar a causa da febre e a criança**, orientar os pais, **sem** necessidade de EEG, neuroimagem ou punção lombar de rotina, e **sem** antiepiléptico contínuo. A punção lombar entra se houver **sinais meníngeos/sinais de infecção do SNC**, sinais de alarme, ou em lactente jovem com quadro atípico/toxemiado.
+- **Complexa:** **focal**, **prolongada (≥ 15 min)** ou **recorrente em 24 h**. Aqui há mais investigação e mais atenção.
+
+**Mensagens de prova:** crise febril simples **não** vira epilepsia na maioria; o principal "risco" é **repetir outra crise febril** (não epilepsia). O medo dos pais deve ser acolhido com orientação; antitérmico melhora o conforto, mas **não previne** de forma confiável a recorrência da crise. E a regra de segurança: febre + crise no lactente sempre obriga a **excluir meningite** pela clínica.`},
+  {h: `6. Distrofia muscular de Duchenne — a doença neuromuscular que mais cai`, c: `Sair do cérebro e ir ao músculo: a **distrofia muscular de Duchenne (DMD)** é a distrofia mais comum da infância. É **genética, ligada ao X recessivo** (afeta **meninos**; mães portadoras), por mutação no gene da **distrofina** — proteína que ancora a membrana da fibra muscular. Sem distrofina funcional, o músculo se degenera progressivamente.
+
+- **Clínica:** menino que, por volta dos **2–5 anos**, tem **atraso para andar**, quedas, dificuldade para correr/subir escadas, **marcha anserina** (gingada) e o clássico **sinal de Gowers** (para levantar do chão, "escala" o próprio corpo com as mãos). **Pseudo-hipertrofia das panturrilhas** (músculo substituído por gordura/fibrose). Progressão para perda da marcha na 2ª década, com envolvimento **respiratório e cardíaco** (miocardiopatia).
+- **Pistas laboratoriais:** **CK (creatinoquinase) muito elevada** (milhares) desde cedo — um menino com atraso motor e CK altíssima é DMD até prova em contrário.
+- **Confirmação:** **teste genético** (deleções/mutações do gene da distrofina); biópsia muscular quando necessário.
+- **Tratamento:** **corticoide** (prednisona/deflazacorte) retarda a perda de força e da marcha; suporte multidisciplinar (cardio, respiratório, ortopédico) e novas terapias gênicas. A variante **Becker** é a forma mais **branda** (distrofina parcialmente funcional).`},
+  {h: `7. O lactente hipotônico e a paralisia cerebral (dois clássicos do exame)`, c: `Duas situações completam a base da neuropediatria e frequentemente aparecem ao lado de West:
+
+**O lactente hipotônico ("bebê mole").** Hipotonia é a queixa que abre inúmeros diagnósticos; o passo-chave é **localizar** o problema. Pergunte: a fraqueza é do **neurônio motor/músculo** (hipotonia "periférica") ou do **cérebro** (hipotonia "central")?
+- **Central (acima do neurônio motor):** hipotonia **com** hiper-reflexia ou reflexos normais, atraso cognitivo, dismorfias, crises. Causas: encefalopatia hipóxico-isquêmica, síndromes genéticas (ex.: Down), erros do metabolismo. O bebê é "mole mas com reflexos".
+- **Periférica (unidade motora):** hipotonia **com fraqueza real e arreflexia/hiporreflexia**, sem déficit cognitivo. Causas: **atrofia muscular espinhal (AME)** — bebê alerta, "olhar vivo", língua com fasciculações, arreflexia —, miopatias congênitas, distrofias, doenças da junção. A **AME** é hoje diagnóstico obrigatório (tratamentos modificadores existem; entrou na triagem neonatal em vários lugares).
+A regra prática: **bebê mole + arreflexia + inteligência preservada → pense em doença da unidade motora (AME)**; **bebê mole + reflexos vivos + atraso global → causa central**.
+
+**Paralisia cerebral (PC).** É um **transtorno do movimento e da postura**, **não progressivo**, por uma lesão que ocorreu no cérebro **imaturo** (pré, peri ou pós-natal precoce). Pontos que a prova cobra:
+- É **estática** (a lesão não piora) — embora o quadro clínico "mude" com o crescimento. Se há **regressão/piora**, **não** é PC: reinvestigue (doença metabólica/degenerativa).
+- Forma mais comum: **espástica** (hipertonia, reflexos vivos, sinal de Babinski, tesoura/equino). Pode ser diplégica (típica do **prematuro** — leucomalácia periventricular), hemiplégica ou quadriplégica.
+- Vem com **comorbidades**: epilepsia, deficiência intelectual, disfagia, alterações visuais/auditivas, ortopédicas — o manejo é **multidisciplinar** e de **reabilitação**.
+Diferenciar PC (estática) de doença degenerativa (progressiva) é o mesmo raciocínio de West: **o desenvolvimento e sua trajetória contam a história**.`},
+  {h: `8. Síntese em seis frases (leve para a prova)`, c: `- Em pediatria, **crise + regressão do desenvolvimento** = alarme máximo → pense em **encefalopatia epiléptica**.
+- **West** = tríade **espasmos em salva** + **hipsarritmia (EEG)** + **atraso/regressão do DNPM**, no **lactente**.
+- West: procure a **causa** (não perca a **esclerose tuberosa**) e trate com **ACTH/corticoide ou vigabatrina** — **vigabatrina se esclerose tuberosa**; **nunca** carbamazepina/fenitoína.
+- **Crise febril simples** (6 m–5 a, generalizada, < 15 min, única) **não é epilepsia** → tratar a febre, orientar, **sem** EEG/imagem/droga contínua; excluir meningite pela clínica.
+- **Duchenne** = menino, atraso motor, **Gowers**, pseudo-hipertrofia de panturrilha, **CK altíssima** → genética; **corticoide** ajuda.
+- Sempre avalie o **DNPM** e os **reflexos primitivos**: o desenvolvimento é o sinal vital do cérebro da criança.`}
+ ],
+ flashcards: [
+  {p: `Qual a tríade da síndrome de West?`, r: `Espasmos epilépticos (em salva) + hipsarritmia no EEG + atraso/regressão do desenvolvimento neuropsicomotor.`},
+  {p: `Faixa etária típica da síndrome de West?`, r: `Lactente, entre 3 e 12 meses (pico ~5–7 meses).`},
+  {p: `Tratamento de 1ª linha da síndrome de West?`, r: `ACTH/corticoide (prednisolona) ou vigabatrina — vigabatrina é a escolha na esclerose tuberosa.`},
+  {p: `Qual causa estrutural de West não pode ser esquecida?`, r: `Esclerose tuberosa (procurar manchas hipocrômicas à lâmpada de Wood).`},
+  {p: `Antiepilépticos que podem PIORAR os espasmos de West?`, r: `Carbamazepina, fenitoína, oxcarbazepina (bloqueadores de canal de sódio para crise focal).`},
+  {p: `Definição de crise febril simples?`, r: `6 m–5 a, com febre, sem infecção do SNC; generalizada, < 15 min, única em 24 h, sem déficit residual.`},
+  {p: `Crise febril simples precisa de EEG, imagem ou antiepiléptico contínuo?`, r: `Não — tratar a febre, orientar os pais e excluir meningite pela clínica.`},
+  {p: `Sinal de Gowers e CK altíssima em menino com atraso motor?`, r: `Distrofia muscular de Duchenne (ligada ao X, gene da distrofina).`},
+  {p: `Herança da distrofia de Duchenne?`, r: `Recessiva ligada ao X (afeta meninos; mães portadoras).`}
+ ],
+ pegadinhas: [
+  `Espasmos infantis vêm EM SALVA e ao despertar — não confunda com cólica, susto ou refluxo.`,
+  `West é TRÍADE: sem o EEG (hipsarritmia) você não fecha o diagnóstico.`,
+  `Na esclerose tuberosa, a 1ª escolha para West é a VIGABATRINA.`,
+  `Carbamazepina/fenitoína não tratam West e podem PIORAR — nunca escolher.`,
+  `Regressão/parada do desenvolvimento é sinal de alarme tão importante quanto a crise.`,
+  `Crise febril simples NÃO é epilepsia e não precisa de EEG/imagem/droga contínua.`,
+  `Febre + crise no lactente: sempre excluir meningite pela clínica (punção se sinais de infecção do SNC).`,
+  `Antitérmico dá conforto, mas não previne de forma confiável a recorrência da crise febril.`,
+  `Menino com atraso motor + CK muito elevada = Duchenne até prova em contrário.`
+ ],
+ diretrizes: [
+  `Tratado de Neurologia da ABN (3ª ed., 2025), Seção 19 — Neurologia Pediátrica, cap. 173 (Epilepsia na Infância), cap. 172 (Exame Neurológico da Criança), cap. 174 (Lactente Hipotônico), cap. 180 (Síndromes Neurocutâneas) (ver materiais_neuro.md).`,
+  `Merritt, Tratado de Neurologia (13ª ed.) — Epilepsias (síndromes idade-dependentes) e Doenças Musculares (distrofinopatias); Adams & Victor — “Normal Development and Deviations” e “The Epilepsies”.`,
+  `SBP — Documentos Científicos (Neurologia/crise febril) e diretrizes de espasmos infantis; Sanvito — exame neurológico e do desenvolvimento.`
+ ],
+ questoes: [
+  {enunciado: `Lactente de 6 meses apresenta, há 3 semanas, episódios de flexão súbita da cabeça e tronco em salvas ao despertar, e os pais notam que "parou de sorrir e de segurar objetos". Qual exame confirma a principal hipótese?`, alternativas: {a: `Tomografia de crânio urgente`, b: `Eletroencefalograma (buscando hipsarritmia)`, c: `Dosagem de eletrólitos`, d: `Ecocardiograma`}, correta: "b", comentario: `Espasmos em flexão em salvas + regressão do desenvolvimento em um lactente é síndrome de West. O diagnóstico é uma tríade e o exame que a confirma é o EEG, mostrando hipsarritmia (interictal, de preferência com sono). A neuroimagem (RM, melhor que TC) é importante para a etiologia (ex.: esclerose tuberosa), mas não é o exame que fecha a síndrome. Eletrólitos e ecocardiograma não têm papel diagnóstico aqui. Valorizar a salva + a regressão evita meses de atraso rotulando como cólica/refluxo.`, foco: `Diagnóstico de West (EEG/hipsarritmia)`},
+  {enunciado: `Lactente com síndrome de West e manchas hipocrômicas na pele evidenciadas à lâmpada de Wood. Qual o tratamento de primeira escolha para os espasmos?`, alternativas: {a: `Carbamazepina`, b: `Fenitoína`, c: `Vigabatrina`, d: `Ácido valproico em monoterapia como 1ª linha universal`}, correta: "c", comentario: `As manchas hipocrômicas ("folha de freixo") indicam esclerose tuberosa — e, nesse contexto, a vigabatrina é a 1ª escolha para os espasmos (resposta especialmente boa). Nas demais etiologias, ACTH/corticoide ou vigabatrina. Carbamazepina e fenitoína (bloqueadores de sódio para crise focal) não tratam West e podem PIORAR os espasmos — erro grave. Reconhecer a esclerose tuberosa muda a droga; por isso sempre se procura a causa.`, foco: `Tratamento de West / esclerose tuberosa`},
+  {enunciado: `Menino de 2 anos, previamente hígido, tem uma crise tônico-clônica generalizada de 3 minutos durante pico febril por otite; exame neurológico normal após o episódio, sem sinais meníngeos. Qual a conduta mais adequada?`, alternativas: {a: `Iniciar antiepiléptico contínuo`, b: `Solicitar EEG e RM de crânio de rotina`, c: `Tratar a causa da febre, orientar os pais e observar, sem exames de rotina`, d: `Punção lombar obrigatória para todos`}, correta: "c", comentario: `É uma crise febril simples (6 m–5 a, generalizada, < 15 min, única em 24 h, sem infecção do SNC), que não é epilepsia. A conduta é tratar a febre/causa, orientar e tranquilizar os pais — sem EEG, neuroimagem ou antiepiléptico contínuo de rotina. A punção lombar não é obrigatória para todos: entra se houver sinais meníngeos/sinais de infecção do SNC ou quadro atípico/toxemiado. Medicar cronicamente uma crise febril simples é conduta excessiva e errada.`, foco: `Crise febril simples (conduta)`},
+  {enunciado: `Menino de 4 anos com quedas frequentes, dificuldade para subir escadas, marcha gingada e "escalada" do próprio corpo ao levantar do chão. Qual achado laboratorial é esperado e qual a principal hipótese?`, alternativas: {a: `CK muito elevada — distrofia muscular de Duchenne`, b: `CK normal — paralisia cerebral`, c: `Amônia elevada — erro inato do metabolismo`, d: `TSH elevado — hipotireoidismo`}, correta: "a", comentario: `Sinal de Gowers ("escalar" o corpo), marcha anserina, dificuldade para subir escadas e quedas em um menino sugerem distrofia muscular de Duchenne (ligada ao X, gene da distrofina). A CK está tipicamente muito elevada (milhares) desde cedo; a confirmação é genética. Costuma haver pseudo-hipertrofia de panturrilhas. Corticoide retarda a progressão. Os demais achados não explicam esse conjunto clínico clássico.`, foco: `Duchenne (Gowers/CK)`}
+ ]
+},
+
 "PED|Imunização": {
  titulo: `Imunização — PNI e calendário`,
  half: `PED`,
- resumo: `A banca cobra o tipo de vacina (viva × inativada) e o que decorre disso, as contraindicações reais × falsas, condutas do calendário do PNI, atraso/intervalos e a vigilância (paralisia flácida aguda, eventos adversos).`,
+ resumo: `Imunização é o tema em que se perde ponto "de graça": a banca cobra o raciocínio (tipo de vacina → o que decorre disso), as contraindicações reais × falsas, a lógica do calendário do PNI, o que fazer com atraso/intervalos e a vigilância (paralisia flácida aguda, eventos adversos). Este texto reconstrói tudo do zero, explicando o porquê de cada regra — para você parar de decorar e passar a deduzir.`,
+ fontes: `Base: Calendário Nacional de Vacinação — PNI/Ministério da Saúde (versão vigente); SBIm e SBP — Documentos Científicos (Imunizações); MS — Guia de Vigilância em Saúde (paralisia flácida aguda / poliomielite) e Manual de Eventos Adversos Pós-Vacinação (EAPV). Material de Pediatria do Drive (imunização/calendário vacinal) — ver materiais_drive.md.`,
+ notaErro: `No seu perfil, **imunização (PNI, paralisia flácida aguda e poliomielite)** aparece com erro recorrente. É um tema traiçoeiro porque parece "decoreba de calendário", mas a prova testa **raciocínio** e **condutas de vigilância**. Os tropeços clássicos, todos endereçados aqui:
+
+- **Você decora o calendário e esquece a lógica "viva × inativada".** Quase toda questão de contraindicação e de coadministração se resolve sabendo se a vacina é **viva atenuada** (cuidado em imunodeprimido grave e gestante) ou **inativada** (segura). Decore o conceito, não a tabela (seção 1).
+- **Você "adia por qualquer coisa".** Doença febril **leve**, uso de **antibiótico**, prematuridade e aleitamento **NÃO** contraindicam — adiar por isso derruba a cobertura, que é o que reintroduz sarampo e pólio (seção 3).
+- **Você reinicia o esquema no atraso.** Nunca se reinicia: **dose dada é dose contada**; completa-se o que falta respeitando intervalos mínimos (seção 4).
+- **Você subestima a paralisia flácida aguda (PFA).** Toda PFA em **< 15 anos** é **notificação compulsória imediata** e se investiga como pólio até afastar — e você confunde VOP (viva, risco raro de pólio vacinal) com VIP (inativada, esquema atual) (seção 2).
+
+**Como zerar:** para cada caso — (1) a vacina é **viva ou inativada**? (isso decide contraindicação/coadministração); (2) o que se alega é uma contraindicação **verdadeira** (anafilaxia; viva em imunodeprimido grave/gestante; encefalopatia pós-pertussis) ou **falsa**? (3) em atraso, **complete** (não reinicie); (4) diante de fraqueza flácida aguda no < 15 anos, **notifique já** e investigue pólio. As questões ao final batem nesses pontos.`,
  secoes: [
   {h: `1. Tipos de vacina — o conceito que resolve a maioria das questões`, c: `- **Vivas atenuadas:** BCG, **rotavírus**, **febre amarela**, **tríplice/tetra viral (SCR/SCRV)**, **varicela**, dengue (em indicações específicas). Em regra **contraindicadas em imunodepressão grave e gestação**; entre duas vacinas vivas parenterais, respeitar intervalo de 30 dias se não aplicadas no mesmo dia.
 - **Inativadas / subunidades / toxoides / conjugadas:** hepatite B, **pentavalente** (DTP+Hib+HepB), **VIP** (poliomielite inativada), pneumocócica, meningocócica, HPV, dTpa, influenza, hepatite A. **Seguras** em imunodeprimidos e gestantes.
@@ -758,14 +912,43 @@ Saber a natureza da vacina resolve quase toda questão de contraindicação e de
 - **Episódio hipotônico-hiporresponsivo** e febre alta após pertussis: em geral **não** contraindicam doses futuras (avaliar caso a caso; considerar acelular).
 - **Reação anafilática** a uma vacina contraindica **aquela** vacina.
 - Invaginação intestinal tem associação temporal com **rotavírus** — respeitar as **idades máximas** de administração das doses.
-- Conduta habitual: manter o calendário sempre que possível, orientar sintomáticos e notificar.`}
+- Conduta habitual: manter o calendário sempre que possível, orientar sintomáticos e notificar.`},
+  {h: `6. A lógica do calendário do PNI (por que as doses caem onde caem)`, c: `Você não precisa decorar datas se entender a **lógica** por trás do calendário do lactente. Três ideias organizam quase tudo:
+
+- **Proteger cedo o que mata cedo.** A **hepatite B** é dada **ao nascer** (idealmente nas primeiras 12–24 h) porque a transmissão vertical no parto tem alto risco de cronificação. A **BCG** também é neonatal (dose única), para prevenir as formas graves da tuberculose (miliar e meníngea) no lactente.
+- **Séries de 3 doses no 1º semestre + reforços.** As vacinas **inativadas** precisam de repetição para "amadurecer" a resposta imune. Por isso, aos **2, 4 e 6 meses**, aplicam-se **pentavalente** (DTP + Hib + hepatite B), **VIP** (pólio inativada) e **pneumocócica/meningocócica** conforme o esquema vigente, com **reforços** depois (ex.: DTP e pólio no 2º ano). O **rotavírus** (viva, oral) entra aos **2 e 4 meses**, com **idade máxima** para começar/terminar (risco de invaginação) — perdida a janela, não se aplica.
+- **Vacinas vivas virais depois de 1 ano.** A **tríplice viral (SCR)** e a **tetra viral (SCRV)** e a **varicela** ficam a partir dos **12–15 meses**, quando os anticorpos maternos já não neutralizam a vacina e a resposta é robusta. A **febre amarela** entra conforme a área de recomendação.
+
+A moral: **inativada = série + reforço**; **viva = geralmente dose(s) após o 1º ano**; **o que tem risco vertical/precoce (HepB, BCG) = ao nascer**. Sabendo isso, você deduz o calendário e acerta as questões de "qual vacina nessa idade/situação".`},
+  {h: `7. Poliomielite e vigilância da PFA (aprofundando o ponto de erro)`, c: `A poliomielite é causada por **poliovírus** (enterovírus) que, em uma minoria dos infectados, invade os **neurônios motores do corno anterior da medula**, produzindo **paralisia flácida assimétrica**, sem perda sensitiva. Está **erradicada no Brasil** (último caso autóctone em 1989; certificação em 1994), mas a **vigilância continua** porque a queda de cobertura reabre a porta para reintrodução.
+
+**VOP × VIP — entenda a troca:**
+- **VOP (Sabin, oral):** vírus **vivo atenuado**. Vantagem histórica: induz **imunidade de mucosa** e "circula", protegendo contatos. Desvantagem: pode, raramente, **reverter** e causar **poliomielite associada à vacina (VAPP)** ou gerar **poliovírus derivado vacinal (cVDPV)** — e é **contraindicada em imunodeprimidos e seus contatos**.
+- **VIP (Salk, injetável):** vírus **inativado**, **sem** risco de pólio vacinal, segura em imunodeprimidos. Por segurança, o Brasil migrou para esquema **integralmente VIP**.
+
+**Vigilância da paralisia flácida aguda (PFA):** o sistema não vigia "poliomielite" — vigia toda **PFA em menores de 15 anos**, que é **notificação compulsória IMEDIATA** e deve ser **investigada como possível pólio até se afastar**. Isso inclui:
+- Coleta de **duas amostras de fezes** (para isolamento viral) nos primeiros 14 dias do início do déficit.
+- Investigação do diferencial: **síndrome de Guillain-Barré** (a principal causa de PFA hoje), mielite transversa, neuropatias, trauma, etc.
+- A meta é sensibilidade máxima: **na dúvida, notifique** — deixar de notificar é o erro que compromete a certificação de país livre de pólio.`},
+  {h: `8. Vacinas específicas de alto rendimento (o que a banca gosta de perguntar)`, c: `Além do raciocínio geral, algumas vacinas têm "pegadinhas" próprias:
+
+- **BCG (viva, intradérmica):** dose única ao nascer (≥ 2 kg). A evolução **normal** é nódulo → úlcera → crosta → cicatriz em semanas — **não** é infecção nem motivo para antibiótico. Não se revacina quem não formou cicatriz (conduta atual). Filho de mãe com HIV tem conduta específica.
+- **Rotavírus (viva, oral):** protege contra a diarreia grave; respeitar **idade máxima** para 1ª e última dose (risco de **invaginação intestinal**). Se a criança **cuspir/vomitar**, em geral **não** se repete a dose.
+- **Tríplice viral / SCR (viva):** sarampo é a doença que mais se beneficia de cobertura alta; em surto, há **vacinação de bloqueio** (inclusive dose "zero" em lactente de 6–11 meses, que **não conta** no esquema). Contraindicada em gestante e imunodeprimido grave.
+- **Febre amarela (viva):** dose conforme área de recomendação; cuidado em imunodeprimidos, gestantes e **maiores de 60 anos** (avaliar risco-benefício); reação anafilática a **ovo** é a contraindicação clássica.
+- **HPV (inativada):** adolescentes (meninas e meninos), esquema de 2 doses na faixa preconizada; previne câncer de colo e outros — a proteção é **maior antes do início da vida sexual**.
+- **dTpa na gestante:** aplicada em **cada gestação** (a partir de 20 semanas) para gerar anticorpos que protegem o recém-nascido contra **coqueluche** por transferência transplacentária — estratégia de "**cocooning**"/proteção do bebê.
+- **Influenza (inativada):** anual, para grupos-alvo (crianças 6 m–<6 a, gestantes, idosos, comorbidades). Na **1ª vez** em criança < 9 anos, são **2 doses**.`}
  ],
  flashcards: [
   {p: `Doença febril leve, uso de antibiótico e prematuridade contraindicam vacina?`, r: `Não — são falsas contraindicações; deve-se vacinar.`},
   {p: `Vacinas vivas atenuadas de rotina na infância (exemplos)?`, r: `BCG, rotavírus, febre amarela, tríplice/tetra viral, varicela.`},
   {p: `Prematuro: vacinar por qual idade?`, r: `Idade cronológica (não a corrigida).`},
   {p: `PFA em menor de 15 anos — conduta de saúde pública?`, r: `Notificação compulsória imediata e investigar poliomielite (coleta de fezes).`},
-  {p: `Atraso vacinal: reinicia o esquema?`, r: `Não — completa as doses faltantes; dose dada é dose contada.`}
+  {p: `Atraso vacinal: reinicia o esquema?`, r: `Não — completa as doses faltantes; dose dada é dose contada.`},
+  {p: `Por que a hepatite B é dada ao nascer?`, r: `Alto risco de transmissão vertical no parto e de cronificação no lactente — proteger o quanto antes.`},
+  {p: `Diferença de risco entre VOP e VIP?`, r: `VOP (viva) pode causar pólio vacinal (VAPP/cVDPV) e é contraindicada em imunodeprimidos; VIP (inativada) não tem esse risco.`},
+  {p: `Principal causa de paralisia flácida aguda hoje (diferencial da pólio)?`, r: `Síndrome de Guillain-Barré — mas toda PFA em <15 anos é notificada e investigada como pólio.`}
  ],
  pegadinhas: [
   `Doença febril LEVE, uso de antibiótico e prematuridade NÃO contraindicam vacinar.`,
@@ -773,7 +956,10 @@ Saber a natureza da vacina resolve quase toda questão de contraindicação e de
   `VOP é vírus vivo (risco raro de pólio vacinal); VIP é inativada — o Brasil usa esquema só com VIP.`,
   `Paralisia flácida aguda em <15 anos = notificação imediata e investigar poliomielite.`,
   `Vacinas vivas: cuidado em imunodeprimido grave e gestante; inativadas são seguras.`,
-  `Atraso não reinicia esquema — completa o que falta.`
+  `Atraso não reinicia esquema — completa o que falta.`,
+  `Hepatite B e BCG são neonatais (risco vertical/precoce); vacinas vivas virais (SCR/varicela) a partir de 12–15 meses.`,
+  `Rotavírus (viva, oral) tem IDADE MÁXIMA para iniciar/completar (risco de invaginação) — perdida a janela, não aplica.`,
+  `A vigilância é da PFA (não só da "pólio"): notificar TODA fraqueza flácida aguda em <15 anos.`
  ],
  diretrizes: [
   `Calendário Nacional de Vacinação — PNI/Ministério da Saúde (versão vigente).`,
@@ -783,7 +969,8 @@ Saber a natureza da vacina resolve quase toda questão de contraindicação e de
  questoes: [
   {enunciado: `Lactente de 3 meses comparece para vacinação com coriza e temperatura de 37,6 °C, em uso de amoxicilina por otite. Qual a conduta?`, alternativas: {a: `Adiar todas as vacinas até terminar o antibiótico`, b: `Vacinar normalmente conforme o calendário`, c: `Contraindicar vacinas vivas para sempre`, d: `Só vacinar após 30 dias sem sintomas`}, correta: "b", comentario: `Doença febril leve e uso de antibiótico NÃO contraindicam vacinação — são falsas contraindicações. O lactente deve ser vacinado normalmente para não perder oportunidade. Só se adia em doença moderada a grave. Não há razão para contraindicar vacinas vivas de forma permanente. Perder a janela por quadros banais reduz cobertura — justamente o que aumenta o risco de doenças como o sarampo e a poliomielite.`, foco: `Contraindicação verdadeira × falsa`},
   {enunciado: `Criança com imunodeficiência celular grave precisa atualizar vacinas. Qual está, em regra, CONTRAINDICADA?`, alternativas: {a: `Hepatite B`, b: `Pneumocócica conjugada`, c: `VIP (poliomielite inativada)`, d: `Tríplice viral (sarampo, caxumba, rubéola)`}, correta: "d", comentario: `A tríplice viral (SCR) é de vírus VIVO atenuado e, em regra, contraindicada na imunodepressão grave (assim como BCG, rotavírus, febre amarela, varicela). Hepatite B, pneumocócica conjugada e VIP são inativadas/subunidades e seguras nesses pacientes. Reconhecer viva × inativada resolve a questão. Contatos podem precisar de estratégias de proteção (vacinar conviventes com vacinas seguras).`, foco: `Tipo de vacina / imunodeprimido`},
-  {enunciado: `Criança de 5 anos evolui, após quadro febril, com perda súbita de força e flacidez em um membro, reflexos diminuídos e sensibilidade preservada. Qual conduta de saúde pública é obrigatória?`, alternativas: {a: `Notificação compulsória imediata e investigação de poliomielite`, b: `Apenas observação domiciliar`, c: `Alta sem notificação por ser quadro viral`, d: `Iniciar corticoide e dispensar investigação`}, correta: "a", comentario: `Toda paralisia flácida aguda em menor de 15 anos é evento de notificação compulsória IMEDIATA e deve ser investigada como possível poliomielite até que se afaste (coleta de fezes para isolamento viral). A poliomielite está erradicada no Brasil, mas a vigilância é mantida porque a queda de cobertura vacinal ameaça reintrodução. Observar em casa, dar alta sem notificar ou tratar sem investigar violam o protocolo de vigilância.`, foco: `Paralisia flácida aguda / pólio`}
+  {enunciado: `Criança de 5 anos evolui, após quadro febril, com perda súbita de força e flacidez em um membro, reflexos diminuídos e sensibilidade preservada. Qual conduta de saúde pública é obrigatória?`, alternativas: {a: `Notificação compulsória imediata e investigação de poliomielite`, b: `Apenas observação domiciliar`, c: `Alta sem notificação por ser quadro viral`, d: `Iniciar corticoide e dispensar investigação`}, correta: "a", comentario: `Toda paralisia flácida aguda em menor de 15 anos é evento de notificação compulsória IMEDIATA e deve ser investigada como possível poliomielite até que se afaste (coleta de fezes para isolamento viral). A poliomielite está erradicada no Brasil, mas a vigilância é mantida porque a queda de cobertura vacinal ameaça reintrodução. Observar em casa, dar alta sem notificar ou tratar sem investigar violam o protocolo de vigilância.`, foco: `Paralisia flácida aguda / pólio`},
+  {enunciado: `Criança de 15 meses chega à UBS com apenas as vacinas do nascimento (BCG e hepatite B); a mãe faltou às consultas seguintes. Qual a conduta correta?`, alternativas: {a: `Reiniciar todo o esquema desde o começo`, b: `Completar as doses faltantes respeitando os intervalos mínimos, sem reiniciar`, c: `Considerar a criança perdida para vacinação e só retomar aos 4 anos`, d: `Aplicar apenas vacinas vivas e ignorar as inativadas`}, correta: "b", comentario: `No atraso vacinal NÃO se reinicia o esquema: "dose dada é dose contada". Aproveita-se a oportunidade para atualizar o cartão, completando as doses que faltam e respeitando os intervalos mínimos entre elas — inclusive aplicando várias vacinas no mesmo dia quando compatíveis. Reiniciar do zero é erro (desperdiça doses e adia proteção). Adiar para os 4 anos ou selecionar só vivas deixa a criança desprotegida justamente na fase de maior risco.`, foco: `Atraso vacinal (não reiniciar)`}
  ]
 },
 
