@@ -713,6 +713,14 @@ O sono em si alterna **NREM** (fases N1–N3; a N3 é o sono profundo, restaurad
  titulo: `Transtornos do movimento`,
  half: `NEURO`,
  resumo: `O foco é separar Parkinson idiopático de parkinsonismo secundário (sobretudo farmacológico) e atípico, reconhecer tremor essencial, e não perder o Wilson no jovem. Resposta à levodopa e DAT-scan ajudam a decidir.`,
+ fontes: `Base: Tratado de Neurologia da ABN 3ª ed. (caps. 59 — Doença de Parkinson; 60 — Tremor Essencial; 61 — Distonias; 62 — Huntington; 63 — Movimento Infeccioso/Autoimune e Sydenham; 64 — Induzidos por Drogas; 67 — Doença de Wilson; 68 — Parkinsonismo Atípico), Merritt 13ª ed. (Seção 11 — Distúrbios do Movimento), Adams & Victor 12ª ed. (Parkinson Disease; Abnormalities of Movement) e Sanvito (semiologia do tremor, tônus e movimentos involuntários). Ver materiais_neuro.md.`,
+ notaErro: `Nos seus registros, **o parkinsonismo farmacológico é um ponto recorrente de erro** (tema ESSENCIAL, com metade das questões erradas) e o Parkinson idiopático também escorrega. O problema não é decorar as doenças — é **misturar o reflexo "tremor = Parkinson = levodopa"**, que a prova explora de propósito. Três armadilhas concentram as quedas:
+
+- **Você vê tremor e pensa Parkinson.** Mas o tremor do Parkinson é de **repouso** (some ao agir), enquanto o tremor **essencial** é de **ação/postural** (aparece ao segurar o copo, melhora com álcool). Confundir os dois inverte o tratamento (levodopa × propranolol) — seções 4 e 6.
+- **Você esquece de perguntar o que o paciente toma.** O parkinsonismo **farmacológico** é a 2ª causa mais comum e a mais **reversível**: **metoclopramida, antipsicóticos, flunarizina/cinarizina** bloqueiam D2. A conduta certa é **suspender o fármaco**, NÃO iniciar levodopa. Sempre revise a lista de medicamentos antes de rotular "Parkinson" (seções 3 e 6).
+- **Você não pensa em Wilson no jovem.** Todo distúrbio do movimento **abaixo dos 40 anos**, ainda mais com hepatopatia, obriga a dosar **ceruloplasmina** e procurar **anéis de Kayser-Fleischer** — porque Wilson é **tratável** e perdê-lo é grave (seção 5/8).
+
+**Como zerar o erro:** diante de qualquer distúrbio do movimento, responda NESTA ordem — (1) é **hipocinético** (parkinsonismo) ou **hipercinético** (tremor/coreia/distonia)? (2) se parkinsonismo, **o paciente usa bloqueador D2**? é **simétrico** e **sem sintomas não motores** (favorece farmacológico) ou **assimétrico com hiposmia/constipação/sono REM** (favorece idiopático)? (3) **qual a idade** — jovem obriga descartar Wilson. O **DAT-scan normal** confirma farmacológico/tremor essencial; **anormal** confirma degeneração dopaminérgica. As questões ao final batem exatamente nesses tropeços.`,
  secoes: [
   {h: `1. Hipocinéticos × hipercinéticos`, c: `Os transtornos do movimento dividem-se em **hipocinéticos** (parkinsonismos — pobreza de movimento) e **hipercinéticos** (tremor, coreia, distonia, mioclonia, tiques, balismo). O **parkinsonismo** é uma síndrome: **bradicinesia** obrigatória + pelo menos um entre **rigidez** e **tremor de repouso** (instabilidade postural é tardia). Definir se há parkinsonismo e depois sua causa é o algoritmo.`},
   {h: `2. Doença de Parkinson idiopática`, c: `Neurodegeneração dopaminérgica da substância negra com **corpos de Lewy** (alfa-sinucleína). Clínica **assimétrica**: tremor de repouso "contar moedas", bradicinesia, rigidez em roda denteada; marcha em pequenos passos, festinação, hipomimia, micrografia.
@@ -726,14 +734,48 @@ Diferença essencial do Parkinson: tremor de **ação** (essencial) × tremor de
   {h: `5. Coreias, distonias e Wilson`, c: `- **Coreia de Sydenham:** pós-estreptocócica, criança/adolescente, autolimitada; critério maior de febre reumática.
 - **Doença de Huntington:** **coreia** + declínio **cognitivo/psiquiátrico** + herança **autossômica dominante** (expansão **CAG** no gene HTT), com antecipação.
 - **Distonias:** contrações sustentadas com posturas anômalas; focais (blefaroespasmo, torcicolo) tratam-se com **toxina botulínica**.
-- **Doença de Wilson:** **jovem (<40 anos)** com transtorno do movimento (tremor "em bater de asas", distonia, disartria) + **hepatopatia** + **anéis de Kayser-Fleischer**, **ceruloplasmina baixa** e cobre urinário alto. É **tratável** (quelantes — trientina/D-penicilamina — e zinco) — por isso não pode passar despercebida.`}
+- **Doença de Wilson:** **jovem (<40 anos)** com transtorno do movimento (tremor "em bater de asas", distonia, disartria) + **hepatopatia** + **anéis de Kayser-Fleischer**, **ceruloplasmina baixa** e cobre urinário alto. É **tratável** (quelantes — trientina/D-penicilamina — e zinco) — por isso não pode passar despercebida.`},
+  {h: `6. Como o cérebro controla o movimento (a fisiopatologia que explica tudo)`, c: `Para entender por que cada doença dá o que dá, pense nos **núcleos da base** como um "regulador de volume" do movimento, ajustado pela **dopamina** que vem da **substância negra**.
+
+- Existe uma **via direta** (facilita o movimento) e uma **via indireta** (freia o movimento). A **dopamina** aumenta a direta e reduz a indireta — ou seja, **dopamina "libera" o movimento**.
+- No **Parkinson**, morre a substância negra → **falta dopamina** → a via de freio predomina → **pobreza de movimento** (bradicinesia, rigidez). Faz sentido tratar **repondo dopamina** (levodopa).
+- No **parkinsonismo farmacológico**, a substância negra está **viva**, mas o **receptor D2 está bloqueado** pelo remédio → o cérebro "não escuta" a dopamina que existe. Por isso o **DAT-scan é NORMAL** (o transportador dopaminérgico pré-sináptico está íntegro) e a solução é **tirar o bloqueio** (suspender o fármaco), não jogar mais dopamina.
+- Na **coreia/Huntington**, há o oposto: perda de neurônios da via **indireta** (freio) → movimento "solto", involuntário, dançante (**hipercinético**).
+
+Essa lógica de "dopamina libera, bloqueio trava, perda de freio solta" organiza o tema inteiro e evita a decoreba.`},
+  {h: `7. DAT-scan e resposta à levodopa: os dois árbitros`, c: `Duas ferramentas resolvem a maioria das dúvidas de prova:
+
+- **DAT-scan (cintilografia do transportador de dopamina):** mede se os **terminais dopaminérgicos pré-sinápticos** estão vivos. Fica **ANORMAL** (captação reduzida) quando há **degeneração** da via nigroestriatal — Parkinson idiopático e parkinsonismos atípicos. Fica **NORMAL** quando a via está íntegra — **parkinsonismo farmacológico** e **tremor essencial**. É o exame que separa "degenerou" de "está bloqueado/é outro tremor".
+- **Resposta à levodopa:** o Parkinson idiopático responde **bem e de forma sustentada** (apoia o diagnóstico). Os **atípicos** ("Parkinson-plus") respondem **mal**. O farmacológico não deve ser tratado com levodopa — a conduta é **retirar o agente**.
+
+Regra de bolso: **tremor + DAT-scan normal + melhora com álcool** = tremor essencial; **parkinsonismo + DAT-scan normal + uso de bloqueador D2** = farmacológico; **parkinsonismo assimétrico + DAT-scan anormal + boa resposta à levodopa** = Parkinson idiopático.`},
+  {h: `8. Exame de cabeceira e sinais de alarme (red flags)`, c: `Como reconhecer cada quadro à beira do leito:
+
+- **Bradicinesia:** peça movimentos repetitivos rápidos (abrir/fechar a mão, bater o pé) e observe **lentidão e decremento progressivo da amplitude** — é o sinal obrigatório do parkinsonismo.
+- **Rigidez:** resistência ao movimento passivo; a **roda denteada** (sensação de catraca) aparece quando há tremor associado.
+- **Tremor:** classifique **de repouso** (mão pousada no colo, "contar moedas" — Parkinson) × **de ação/postural** (braços estendidos, ao escrever/segurar copo — essencial).
+- **Marcha:** passos curtos, festinação e redução do balanço dos braços (Parkinson); **quedas precoces** no primeiro ano falam a favor de **atípico** (paralisia supranuclear progressiva).
+
+**Red flags que afastam Parkinson idiopático e sugerem atípico/secundário:** simetria desde o início, ausência de tremor de repouso, **quedas precoces**, **paralisia do olhar vertical** (paralisia supranuclear progressiva), **disautonomia grave e precoce/ataxia** (atrofia de múltiplos sistemas), má resposta à levodopa e progressão rápida. Reconhecer red flags evita rotular tudo como Parkinson e tratar em vão.`},
+  {h: `9. Algoritmo final dos transtornos do movimento`, c: `- **Parkinsonismo (bradicinesia + rigidez/tremor de repouso):**
+  - usa metoclopramida/antipsicótico/flunarizina, simétrico, sem sintomas não motores → **parkinsonismo farmacológico** → **suspender o fármaco** (DAT-scan normal).
+  - assimétrico, hiposmia/constipação/sono REM, boa resposta à levodopa → **Parkinson idiopático** → levodopa/agonistas; avançado com flutuações → **DBS (subtalâmico/globo pálido interno)**.
+  - quedas/olhar vertical precoces, disautonomia/ataxia, má resposta à levodopa → **parkinsonismo atípico**.
+- **Tremor isolado de ação, familiar, melhora com álcool** → **tremor essencial** → **propranolol/primidona** (refratário: DBS do VIM).
+- **Coreia:** criança pós-faringite estreptocócica, autolimitada → **Sydenham**; adulto com declínio cognitivo/psiquiátrico e herança dominante → **Huntington (CAG no HTT)**.
+- **Posturas sustentadas/torções** → **distonia** → focal trata com **toxina botulínica**.
+- **Qualquer distúrbio do movimento < 40 anos (sobretudo com hepatopatia)** → dosar **ceruloplasmina** + procurar **Kayser-Fleischer** → não perder **Wilson** (tratável).`}
  ],
  flashcards: [
   {p: `Conduta no parkinsonismo por metoclopramida?`, r: `Suspender o fármaco (não iniciar levodopa); DAT-scan seria normal.`},
   {p: `O que separa tremor essencial de Parkinson?`, r: `Essencial = tremor de ação/postural, melhora com álcool, DAT-scan normal; Parkinson = repouso, responde à levodopa.`},
   {p: `Jovem com transtorno do movimento + hepatopatia: pensar em?`, r: `Doença de Wilson (ceruloplasmina baixa, anéis de Kayser-Fleischer) — tratável.`},
   {p: `Alvos da estimulação cerebral profunda no Parkinson?`, r: `Núcleo subtalâmico e globo pálido interno.`},
-  {p: `Herança e mutação da doença de Huntington?`, r: `Autossômica dominante, expansão CAG no gene HTT.`}
+  {p: `Herança e mutação da doença de Huntington?`, r: `Autossômica dominante, expansão CAG no gene HTT.`},
+  {p: `Por que o DAT-scan é NORMAL no parkinsonismo farmacológico?`, r: `Porque a via dopaminérgica pré-sináptica está íntegra — o problema é bloqueio do receptor D2, não degeneração.`},
+  {p: `Dois árbitros para separar os parkinsonismos?`, r: `DAT-scan (normal = farmacológico/tremor essencial; anormal = degenerativo) e resposta à levodopa (boa = idiopático; má = atípico).`},
+  {p: `Red flag que sugere parkinsonismo atípico e não Parkinson idiopático?`, r: `Quedas precoces no 1º ano, paralisia do olhar vertical, disautonomia/ataxia precoces e má resposta à levodopa.`},
+  {p: `Regra de idade que não pode ser esquecida no distúrbio do movimento?`, r: `Qualquer caso < 40 anos obriga descartar doença de Wilson (ceruloplasmina, Kayser-Fleischer) — é tratável.`}
  ],
  pegadinhas: [
   `Parkinsonismo farmacológico: SUSPENDER o fármaco (metoclopramida/antipsicótico), não iniciar levodopa.`,
@@ -741,7 +783,10 @@ Diferença essencial do Parkinson: tremor de **ação** (essencial) × tremor de
   `Tremor essencial é de AÇÃO/postural e melhora com álcool; Parkinson é de REPOUSO.`,
   `Jovem com distúrbio do movimento + hepatopatia = investigar Wilson (ceruloplasmina, K-F) — tratável.`,
   `Metoclopramida e flunarizina/cinarizina são causas frequentemente esquecidas de parkinsonismo.`,
-  `Má resposta à levodopa + quedas/olhar vertical precoces = pensar em parkinsonismo atípico.`
+  `Má resposta à levodopa + quedas/olhar vertical precoces = pensar em parkinsonismo atípico.`,
+  `Sempre revise a lista de medicamentos ANTES de diagnosticar Parkinson: metoclopramida e antipsicóticos são causa reversível.`,
+  `DAT-scan normal NÃO exclui doença — confirma que o problema não é degeneração pré-sináptica (farmacológico/tremor essencial).`,
+  `Distúrbio do movimento em menor de 40 anos = dosar ceruloplasmina e procurar Kayser-Fleischer (Wilson é tratável).`
  ],
  diretrizes: [
   `Tratado de Neurologia da ABN (3ª ed., 2025), caps. 59–68 (Parkinson; Tremor Essencial; Distonias; Huntington; Movimento Infeccioso/Autoimune; Induzidos por Drogas; Doença de Wilson; Parkinsonismo Atípico) (ver materiais_neuro.md).`,
@@ -751,7 +796,8 @@ Diferença essencial do Parkinson: tremor de **ação** (essencial) × tremor de
  questoes: [
   {enunciado: `Mulher de 58 anos com bradicinesia, rigidez e tremor há 3 meses, em uso de metoclopramida diária há meses. Qual a conduta mais adequada?`, alternativas: {a: `Iniciar levodopa`, b: `Suspender a metoclopramida`, c: `Iniciar antipsicótico`, d: `Solicitar teste genético para Parkinson`}, correta: "b", comentario: `O quadro sugere parkinsonismo farmacológico pela metoclopramida (bloqueador D2). A conduta é suspender o fármaco causador e reavaliar — a maioria melhora em semanas a meses. Iniciar levodopa é erro (trata Parkinson idiopático, não a causa iatrogênica). Antipsicótico agravaria (mais bloqueio dopaminérgico). O DAT-scan, se feito, seria normal — o que confirma a origem farmacológica e separa do Parkinson idiopático.`, foco: `Parkinsonismo farmacológico (conduta)`},
   {enunciado: `Homem de 62 anos com tremor bilateral das mãos que aparece ao segurar o copo e ao escrever, melhora com álcool, sem rigidez ou bradicinesia, com pai afetado. Qual o tratamento de primeira linha?`, alternativas: {a: `Levodopa`, b: `Propranolol`, c: `Metoclopramida`, d: `Toxina botulínica para todos os casos`}, correta: "b", comentario: `O quadro é tremor essencial (postural/de ação, familiar, melhora com álcool, sem sinais parkinsonianos). Primeira linha: propranolol ou primidona. Levodopa não tem papel (é do Parkinson). Metoclopramida pioraria (induz parkinsonismo). Toxina botulínica fica para casos selecionados/refratários (tremor cefálico ou vocal), não é primeira linha universal. O tremor de ação e a melhora com álcool são as pistas.`, foco: `Tremor essencial × Parkinson`},
-  {enunciado: `Homem de 22 anos com tremor, disartria e alterações de comportamento há 1 ano, além de hepatopatia. Qual investigação é prioritária por identificar causa tratável?`, alternativas: {a: `Dosagem de ceruloplasmina e pesquisa de anéis de Kayser-Fleischer`, b: `Teste genético para Huntington`, c: `Cintilografia DAT-scan`, d: `Dosagem de anti-estreptolisina O`}, correta: "a", comentario: `Jovem com distúrbio do movimento + hepatopatia obriga a investigar doença de Wilson: ceruloplasmina baixa, cobre urinário elevado e anéis de Kayser-Fleischer — condição TRATÁVEL (quelantes de cobre/zinco), por isso não pode passar. Huntington cursa com coreia + demência + herança dominante, mas não é tratável de forma curativa e não explica a hepatopatia. DAT-scan não faz o diagnóstico etiológico aqui. ASLO remete a Sydenham (coreia pós-estreptocócica), quadro diferente.`, foco: `Wilson (não perder no jovem)`}
+  {enunciado: `Homem de 22 anos com tremor, disartria e alterações de comportamento há 1 ano, além de hepatopatia. Qual investigação é prioritária por identificar causa tratável?`, alternativas: {a: `Dosagem de ceruloplasmina e pesquisa de anéis de Kayser-Fleischer`, b: `Teste genético para Huntington`, c: `Cintilografia DAT-scan`, d: `Dosagem de anti-estreptolisina O`}, correta: "a", comentario: `Jovem com distúrbio do movimento + hepatopatia obriga a investigar doença de Wilson: ceruloplasmina baixa, cobre urinário elevado e anéis de Kayser-Fleischer — condição TRATÁVEL (quelantes de cobre/zinco), por isso não pode passar. Huntington cursa com coreia + demência + herança dominante, mas não é tratável de forma curativa e não explica a hepatopatia. DAT-scan não faz o diagnóstico etiológico aqui. ASLO remete a Sydenham (coreia pós-estreptocócica), quadro diferente.`, foco: `Wilson (não perder no jovem)`},
+  {enunciado: `Idoso de 70 anos com bradicinesia e rigidez SIMÉTRICAS instaladas em 2 meses, sem tremor de repouso, sem hiposmia ou constipação, em uso de flunarizina para "labirintite" há 1 ano. O que melhor explica o quadro e qual a conduta?`, alternativas: {a: `Parkinson idiopático; iniciar levodopa`, b: `Parkinsonismo farmacológico pela flunarizina; suspender o fármaco`, c: `Parkinsonismo atípico; encaminhar para DBS`, d: `Tremor essencial; iniciar propranolol`}, correta: "b", comentario: `A flunarizina (assim como cinarizina, metoclopramida e antipsicóticos) bloqueia receptores D2 e é causa clássica e frequentemente esquecida de parkinsonismo farmacológico — a 2ª causa mais comum. Reforçam a origem iatrogênica a simetria, a instalação subaguda e a ausência de sintomas não motores (hiposmia, constipação, sono REM), que costumam acompanhar o Parkinson idiopático. A conduta é suspender o fármaco e reavaliar (a maioria melhora em semanas a meses); o DAT-scan, se feito, seria normal. Iniciar levodopa trata a doença errada e mascara a causa. DBS é para Parkinson idiopático avançado. Tremor essencial é tremor de ação/postural, não parkinsonismo simétrico.`, foco: `Parkinsonismo farmacológico (seu ponto de erro)`}
  ]
 },
 
@@ -1436,6 +1482,226 @@ Erro clássico de prova: "bebê de 4 meses nascido a 30 semanas não senta com a
   {enunciado: `Lactente nascido com 30 semanas de idade gestacional é avaliado aos 4 meses de idade cronológica. Ainda não rola, não sustenta bem a cabeça e sorri pouco. Qual a conduta mais adequada?`, alternativas: {a: `Diagnosticar atraso do desenvolvimento e encaminhar com urgência`, b: `Corrigir a idade (idade corrigida ~1,5 mês) e reavaliar os marcos por essa idade`, c: `Iniciar estimulação por suspeita de paralisia cerebral`, d: `Solicitar ressonância de crânio imediatamente`}, correta: "b", comentario: `O bebê nasceu 10 semanas antes do termo (30 vs 40 semanas ≈ 2,5 meses). Aos 4 meses cronológicos, a idade corrigida é cerca de 1,5 mês — e um bebê de 1,5 mês legitimamente ainda não rola e sustenta pouco a cabeça. A conduta é corrigir a idade e julgar os marcos por ela (correção usada até ~2 anos). Rotular 'atraso', presumir paralisia cerebral ou pedir RM sem antes corrigir a idade é o erro clássico — gera diagnóstico e intervenção desnecessários. Se, já corrigida a idade, houver de fato defasagem ou sinais de alerta, aí sim investiga-se.`, foco: `Idade corrigida (seu ponto de erro)`},
   {enunciado: `Recém-nascido de 3 semanas com icterícia persistente, colúria e acolia fecal; bilirrubina total elevada com fração DIRETA (conjugada) aumentada. Qual a principal hipótese e a urgência?`, alternativas: {a: `Icterícia fisiológica prolongada; apenas observar`, b: `Icterícia do leite materno; manter aleitamento e reavaliar`, c: `Colestase neonatal — investigar atresia de vias biliares com urgência`, d: `Incompatibilidade ABO; fototerapia`}, correta: "c", comentario: `Icterícia prolongada (>2 semanas) com fração DIRETA (conjugada) elevada, colúria e acolia é COLESTASE — e a fração direta nunca é fisiológica nem se explica pela icterícia do leite materno (que é indireta). A prioridade é investigar atresia de vias biliares, pois a cirurgia (portoenterostomia de Kasai) tem melhor resultado quanto mais cedo, idealmente nas primeiras 6–8 semanas. Incompatibilidade ABO causa icterícia INDIRETA e precoce, não esse padrão colestático. Observar ou atribuir ao leite materno perderia a janela cirúrgica.`, foco: `Icterícia: bilirrubina direta`},
   {enunciado: `Recém-nascido a termo, 24 horas de vida, com desconforto respiratório, instabilidade térmica e recusa alimentar; a mãe teve bolsa rota há 20 horas e é colonizada por Streptococcus do grupo B. Qual a interpretação e a conduta empírica?`, alternativas: {a: `Sepse neonatal tardia; iniciar vancomicina`, b: `Sepse neonatal precoce (GBS/E. coli/Listeria); hemocultura e ampicilina + gentamicina empíricas`, c: `Apenas observação, pois pode ser taquipneia transitória`, d: `Aguardar resultado da hemocultura antes de qualquer antibiótico`}, correta: "b", comentario: `Início nas primeiras 48–72 h, com fatores maternos (bolsa rota >18 h, colonização por GBS), caracteriza sepse neonatal PRECOCE, cujos agentes são GBS, E. coli e Listeria. A conduta é colher hemocultura e iniciar antibiótico empírico precoce (classicamente ampicilina + gentamicina) — não se espera a cultura para tratar o RN sintomático, pois o atraso aumenta a mortalidade. Vancomicina cobre germes de sepse tardia/hospitalar, não é a empírica precoce. Atribuir a 'apenas taquipneia transitória' diante de sinais de sepse e fatores de risco maternos é o erro perigoso. A profilaxia intraparto com penicilina na mãe GBS+ é o que previne o quadro.`, foco: `Sepse precoce × tardia`}
+ ]
+},
+
+"NEURO|Neuropatias periféricas": {
+ titulo: `Neuropatias periféricas`,
+ half: `NEURO`,
+ resumo: `Neuropatia periférica é qualquer doença dos nervos que ligam a medula aos músculos, à pele e às vísceras. O tema parece um cipó de nomes (Guillain-Barré, Charcot-Marie-Tooth, hanseníase, diabética...), mas todos se organizam por três perguntas simples: onde está a lesão (nervo único, vários, todos), o que ela acomete (fibra motora, sensitiva, autonômica) e como evoluiu no tempo (aguda × crônica). Este texto reconstrói o assunto do zero e transforma a lista de doenças em um algoritmo que você aplica em qualquer questão.`,
+ fontes: `Base: Tratado de Neurologia da ABN 3ª ed. (caps. 112 — Abordagem das Neuropatias; 116 — Polineuropatias Hereditárias e Charcot-Marie-Tooth; 119 — Guillain-Barré; 120 — CIDP; 121 — Neuropatias Infecciosas; 122 — Neuropatias Tóxico-Metabólicas/Carenciais; 148 — Neuropatia na Hanseníase), Merritt 13ª ed. (Seção 12 — Doenças Neuromusculares), Adams & Victor 12ª ed. (Diseases of the Peripheral Nerves) e Sanvito (semiologia da força, reflexos e sensibilidade). Ver materiais_neuro.md.`,
+ notaErro: `Nos seus registros, **Charcot-Marie-Tooth (CMT) tem alta taxa de erro** e as neuropatias em geral (hanseníase, Guillain-Barré) aparecem repetidamente. O motivo quase nunca é "não saber a doença" — é **não ter um mapa que diga qual doença o caso está descrevendo**. Três armadilhas explicam a maioria das quedas:
+
+- **Você decora doenças isoladas em vez do padrão.** A prova não escreve "CMT": ela descreve **pés cavos, dedos em martelo, pernas em garrafa de champanhe invertida, história familiar e evolução arrastada desde a infância**. Se você não lê "polineuropatia hereditária crônica", erra. A seção 3 ensina a extrair o padrão antes de rotular.
+- **Você confunde o tempo de evolução.** Guillain-Barré é **dias a 4 semanas** (agudo, arreflexia ascendente); CMT é **anos/décadas** (crônico, familiar); CIDP é **> 8 semanas** (crônico adquirido, tratável). Trocar o eixo temporal troca o diagnóstico e a conduta.
+- **Você esquece a hanseníase — a principal neuropatia periférica tratável do Brasil.** Espessamento de nervo + mancha com **alteração de sensibilidade** é hanseníase até prova em contrário, e é doença de notificação. Deixar passar é erro de prova e de saúde pública (seção 7).
+
+**Como zerar o erro:** diante de qualquer caso de "formigamento/fraqueza/dormência", responda NESTA ordem — (1) **distribuição**: é um nervo (mononeuropatia), vários assimétricos (mononeurite múltipla) ou tudo distal e simétrico "em bota e luva" (polineuropatia)? (2) **fibras**: motora, sensitiva, autonômica ou mista? (3) **tempo**: aguda, subaguda ou crônica? Só depois nomeie. As questões ao final treinam exatamente esses três passos e o reconhecimento de CMT e hanseníase.`,
+ secoes: [
+  {h: `1. O que é o nervo periférico e por que ele adoece de tantos jeitos`, c: `O **sistema nervoso periférico** começa onde o sistema nervoso central termina: raízes que saem da medula, plexos, e os nervos que chegam ao músculo (fibra **motora**), à pele (fibra **sensitiva**) e às vísceras (fibra **autonômica**). Cada nervo é como um **cabo elétrico**: tem o fio de cobre (o **axônio**, que conduz o impulso) e a capa isolante (a **bainha de mielina**, feita pelas células de Schwann, que faz o impulso "saltar" rápido de nó em nó — condução saltatória).
+
+Só existem, no fundo, **dois jeitos de o cabo falhar**: estraga o **cobre** (lesão **axonal**) ou estraga a **capa** (lesão **desmielinizante**). Essa distinção não é detalhe acadêmico — ela muda o quadro, o exame e o prognóstico:
+
+- **Axonal:** o impulso ainda passa, mas fraco e por poucas fibras. Predomina **atrofia** e perda sensitiva **distal** (a ponta do cabo é a que fica mais longe do corpo celular e morre primeiro). Recuperação **lenta** (o axônio precisa crescer de novo). Ex.: neuropatia **diabética**, alcoólica, carenciais.
+- **Desmielinizante:** o cobre está íntegro, mas sem isolamento o impulso "vaza" e atrasa. Predomina **fraqueza** desproporcional à atrofia e **arreflexia** precoce. Pode recuperar **rápido** (basta remielinizar). Ex.: **Guillain-Barré**, **CIDP**, **CMT tipo 1**.
+
+Guarde esta imagem do cabo: quase tudo neste tema deriva dela.`},
+  {h: `2. Anatomia útil: dermátomos, o gradiente distal e por que começa nos pés`, c: `Duas ideias de anatomia resolvem metade das questões.
+
+**A primeira: o comprimento importa.** As fibras mais longas do corpo vão do fundo da coluna até o dedão do pé. Numa agressão difusa (tóxica, metabólica, diabética), **as fibras mais longas sofrem primeiro** porque têm mais "cabo" para manter vivo. Por isso a polineuropatia clássica começa **nos pés**, sobe de forma simétrica e só depois pega as mãos — o padrão **"em bota e luva"**. Quando a dormência das mãos começa e já há dormência que subiu até os joelhos, é polineuropatia comprimento-dependente.
+
+**A segunda: distribuição diz topografia.** 
+- **Mononeuropatia** = um nervo só (ex.: mediano no túnel do carpo, fibular na cabeça da fíbula) → pensa em **compressão/trauma local**.
+- **Mononeurite múltipla** = vários nervos, de forma **assimétrica e salteada** (pé caído à direita + mão caída à esquerda) → pensa em **vasculite, diabetes, hanseníase**.
+- **Polineuropatia** = todos, **simétrica e distal** → pensa em **metabólica/tóxica/carencial/hereditária/imune**.
+
+Reconhecer a distribuição é o primeiro corte do algoritmo e evita o erro de tratar tudo como "a mesma dormência".`},
+  {h: `3. O algoritmo em três perguntas (a espinha dorsal do tema)`, c: `Diante de qualquer neuropatia, responda em ordem:
+
+**(1) Distribuição** — mononeuropatia, mononeurite múltipla ou polineuropatia? (seção 2)
+
+**(2) Tipo de fibra** — a queixa é de **fraqueza** (motora), **dormência/dor/desequilíbrio** (sensitiva), **tontura postural/sudorese/intestino/bexiga** (autonômica) ou mista? Neuropatias de **fibras finas** dão dor em queimação e disautonomia com exame de força normal; de **fibras grossas** dão perda de propriocepção, marcha atáxica e arreflexia.
+
+**(3) Tempo** — **aguda** (dias–4 semanas: Guillain-Barré, vasculite), **subaguda** (semanas–meses: tóxica, carencial, paraneoplásica) ou **crônica** (meses–anos: diabética, CMT hereditária, CIDP)?
+
+Com essas três respostas, o diagnóstico praticamente se anuncia. Exemplo: fraqueza **ascendente + arreflexia**, instalada em **10 dias**, **simétrica** = polineuropatia motora aguda desmielinizante = **Guillain-Barré**. Outro: **dormência distal + pés cavos + história familiar**, arrastada desde a **infância** = polineuropatia sensitivo-motora crônica hereditária = **CMT**. O mesmo esqueleto resolve os dois.`},
+  {h: `4. Exame de cabeceira: o que procurar e o que cada sinal significa`, c: `O exame confirma o algoritmo. Cinco itens bastam:
+
+- **Força** (escala MRC 0–5): distribuição distal × proximal; distal e simétrica favorece polineuropatia.
+- **Reflexos:** a **arreflexia/hiporreflexia** precoce e difusa é a marca da **desmielinização** (Guillain-Barré, CIDP, CMT1). Reflexos preservados com atrofia sugerem processo axonal inicial.
+- **Sensibilidade:** teste **tátil, dolorosa/térmica** (fibra fina) e **vibratória/proprioceptiva** (fibra grossa). O nível "em bota" mostra o gradiente distal.
+- **Trofismo:** atrofia distal, **pé cavo** e **dedos em martelo** apontam doença **crônica/hereditária** (o pé teve anos para se deformar) — pista de ouro para CMT.
+- **Palpação de nervos:** nervos **espessados e palpáveis** (ulnar no cotovelo, fibular, grande auricular) → pense em **hanseníase** ou CMT.
+
+Sinal com nome para a prova: **marcha escarvante (steppage)** — o paciente levanta muito o joelho porque não consegue dorsifletir o pé (pé caído por fraqueza do compartimento anterior/fibular). Aparece tanto em pé caído por lesão do fibular quanto em CMT avançada.`},
+  {h: `5. Síndrome de Guillain-Barré (a neuropatia aguda que não se pode perder)`, c: `**O que é:** polirradiculoneuropatia **aguda, autoimune e desmielinizante** (forma clássica AIDP), muitas vezes **pós-infecciosa** (2–4 semanas após diarreia por *Campylobacter jejuni*, ou vírus respiratórios, Zika, CMV). O sistema imune ataca a mielina por **mimetismo molecular**.
+
+**Clínica:** fraqueza **ascendente, simétrica**, que sobe dos pés para cima, com **arreflexia** precoce; parestesias distais; **dor** lombar/em membros é comum. Sinais de gravidade: **disautonomia** (arritmias, oscilação da PA) e **fraqueza respiratória** — a causa de morte é insuficiência respiratória.
+
+**Diagnóstico:** clínico + **dissociação albumino-citológica** no líquor (proteína **alta** com celularidade **normal**, tipicamente após a 1ª semana) + eletroneuromiografia (padrão desmielinizante). 
+
+**Conduta:** **monitorizar a função respiratória** (capacidade vital) e a disautonomia — internação, muitas vezes em UTI. Tratamento imunomodulador com **imunoglobulina humana (IVIG)** OU **plasmaférese** (equivalentes; **não se associam** e **corticoide isolado NÃO funciona** — pegadinha clássica). Variante **Miller-Fisher**: oftalmoplegia + ataxia + arreflexia, anti-**GQ1b** positivo.`},
+  {h: `6. Charcot-Marie-Tooth e as neuropatias crônicas (seu ponto fraco)`, c: `**Charcot-Marie-Tooth (CMT)** é a **neuropatia hereditária mais comum** — também chamada neuropatia sensitivo-motora hereditária. É crônica, começa na **infância/adolescência** e progride por décadas.
+
+**Como a prova descreve (aprenda o retrato-falado):** criança/jovem com **pés cavos e dedos em martelo**, **atrofia distal** das pernas com o formato clássico de **"garrafa de champanhe invertida"** (panturrilhas finas, coxas preservadas), **marcha escarvante**, quedas frequentes, dificuldade para correr, e **história familiar** semelhante (herança mais comum **autossômica dominante**). A sensibilidade é pouco sintomática — o motor domina.
+
+**Genética e tipos:** o subtipo mais comum é o **CMT1A**, por **duplicação do gene PMP22** no cromossomo 17 — é **desmielinizante** (velocidades de condução muito lentas na eletroneuromiografia, reflexos abolidos). O **CMT2** é **axonal** (velocidades normais, amplitude reduzida). Saber que CMT1A = PMP22 = desmielinizante é o detalhe que a prova cobra.
+
+**Conduta:** **não há tratamento curativo**; o manejo é de **suporte** — fisioterapia, órteses (AFO) para o pé caído, cirurgia ortopédica do pé cavo, aconselhamento genético. **Ponto de prova crucial:** evitar **fármacos neurotóxicos**, sobretudo a **vincristina** (pode precipitar piora catastrófica em portadores de CMT).
+
+**CIDP** (polineuropatia desmielinizante inflamatória **crônica**) é o "Guillain-Barré crônico": fraqueza proximal e distal simétrica que evolui por **> 8 semanas**, arreflexia, dissociação albumino-citológica. Diferente do CMT, é **adquirida e tratável** (corticoide, IVIG, plasmaférese) — por isso separar CMT (hereditária, suporte) de CIDP (adquirida, tratável) muda tudo.`},
+  {h: `7. Hanseníase e outras neuropatias que a prova adora`, c: `**Hanseníase (Mycobacterium leprae)** — a **neuropatia periférica tratável mais importante do Brasil** e tema regional de alto valor. O bacilo tem tropismo por nervos periféricos (zonas mais frias do corpo).
+
+- **Reconhecimento:** **manchas cutâneas com alteração de sensibilidade** (hipoestesia térmica/dolorosa na lesão) + **espessamento de nervos periféricos** (ulnar, fibular comum, tibial posterior, grande auricular). Formas com poucas lesões e nervo espessado assimétrico dão **mononeurite múltipla**.
+- **Diagnóstico:** clínico (lesão + sensibilidade + nervo espessado) apoiado por baciloscopia; **doença de notificação compulsória**.
+- **Conduta:** **poliquimioterapia (PQT)** do Ministério da Saúde (rifampicina + dapsona ± clofazimina). Os **estados reacionais** (tipo 1/reversa e tipo 2/eritema nodoso) cursam com neurite aguda e exigem **corticoide** (ou talidomida no tipo 2) para evitar dano neural irreversível.
+
+**Outras de prova:**
+- **Neuropatia diabética:** a polineuropatia **mais comum** no geral — distal, simétrica, sensitiva, "em bota e luva", com dor em queimação; controle glicêmico + fármacos para dor neuropática (duloxetina, pregabalina, amitriptilina).
+- **Carenciais/tóxicas:** **B12** (degeneração combinada — associa neuropatia + acometimento medular), **B1** (beribéri, alcoolismo), **B6** (excesso é neurotóxico), metais pesados; **isoniazida** causa neuropatia por espoliar B6 (por isso se associa piridoxina).
+- **Compressivas:** túnel do carpo (mediano), fibular na cabeça da fíbula (pé caído).`},
+  {h: `8. Exames e algoritmo final`, c: `**Eletroneuromiografia (ENMG):** o exame-chave — separa **axonal** (amplitude baixa, velocidade preservada) de **desmielinizante** (velocidade lenta, bloqueios de condução), define distribuição e cronicidade. 
+
+**Líquor:** dissociação albumino-citológica em Guillain-Barré e CIDP. **Laboratório dirigido:** glicemia/HbA1c, B12, TSH, função renal/hepática, sorologias (HIV, hepatites), eletroforese de proteínas (gamopatia), autoanticorpos se mononeurite múltipla (pensar vasculite). **Genética** (PMP22) confirma CMT. **Biópsia de nervo** (sural) fica para casos selecionados (vasculite, amiloidose, hanseníase duvidosa).
+
+**Algoritmo de bolso:**
+- Fraqueza ascendente + arreflexia em dias–semanas → **Guillain-Barré** → líquor + monitorizar respiração → **IVIG ou plasmaférese**.
+- Pé cavo + atrofia distal + história familiar, desde a infância → **CMT** → ENMG desmielinizante + PMP22 → **suporte, evitar vincristina**.
+- Fraqueza simétrica progredindo > 8 semanas, arreflexia → **CIDP** → tratar (corticoide/IVIG).
+- Mancha hipoestésica + nervo espessado → **hanseníase** → PQT + notificar.
+- "Bota e luva" sensitiva crônica no diabético → **neuropatia diabética** → controle glicêmico + dor neuropática.
+- Vários nervos, assimétrico, salteado → **mononeurite múltipla** → investigar **vasculite/diabetes/hanseníase**.`}
+ ],
+ flashcards: [
+  {p: `Como diferenciar lesão axonal de desmielinizante na clínica?`, r: `Axonal = atrofia + perda sensitiva distal, recuperação lenta; desmielinizante = fraqueza desproporcional à atrofia + arreflexia precoce, pode recuperar rápido.`},
+  {p: `Tempo de evolução: Guillain-Barré × CIDP × CMT?`, r: `GBS = dias a 4 semanas (agudo); CIDP = > 8 semanas (crônico adquirido, tratável); CMT = anos/décadas desde a infância (hereditário).`},
+  {p: `Retrato-falado do CMT na prova?`, r: `Pés cavos, dedos em martelo, panturrilha "garrafa de champanhe invertida", marcha escarvante, história familiar; CMT1A = duplicação PMP22 (desmielinizante).`},
+  {p: `Fármaco a evitar no portador de CMT?`, r: `Vincristina (pode precipitar piora neurológica grave).`},
+  {p: `Tratamento do Guillain-Barré e o que NÃO fazer?`, r: `IVIG OU plasmaférese (não associar); corticoide isolado NÃO funciona; monitorizar função respiratória.`},
+  {p: `Achado que grita hanseníase?`, r: `Mancha cutânea com alteração de sensibilidade + nervo periférico espessado/palpável; tratar com PQT e notificar.`},
+  {p: `Líquor típico de Guillain-Barré/CIDP?`, r: `Dissociação albumino-citológica: proteína alta com celularidade normal.`}
+ ],
+ pegadinhas: [
+  `Corticoide isolado NÃO trata Guillain-Barré (IVIG ou plasmaférese, nunca as duas juntas).`,
+  `CMT1A = desmielinizante = duplicação do PMP22; CMT2 = axonal. Ambos são hereditários e crônicos.`,
+  `Pé cavo + história familiar + evolução desde a infância = CMT, não Guillain-Barré (que é agudo).`,
+  `Mancha com hipoestesia + nervo espessado = hanseníase até prova em contrário; é notificação compulsória.`,
+  `CIDP é adquirida e TRATÁVEL; não confundir com CMT (hereditária, só suporte) só porque ambas são crônicas e desmielinizantes.`,
+  `Deficiência de B12 dá neuropatia + acometimento medular (degeneração combinada) — não é só nervo periférico.`,
+  `Vincristina em portador de neuropatia hereditária (CMT) pode ser catastrófica — checar antes de quimioterapia.`
+ ],
+ diretrizes: [
+  `Tratado de Neurologia da ABN (3ª ed., 2025), caps. 112, 116, 119, 120, 121, 122 e 148 (Abordagem das Neuropatias; CMT; Guillain-Barré; CIDP; Neuropatias Infecciosas; Tóxico-Metabólicas; Hanseníase).`,
+  `Merritt, Tratado de Neurologia (13ª ed.), Seção 12 — Doenças Neuromusculares; Adams & Victor (12ª ed.) — Diseases of the Peripheral Nerves.`,
+  `Ministério da Saúde — Diretrizes para Vigilância, Atenção e Eliminação da Hanseníase (esquema PQT e manejo de estados reacionais); Sanvito — semiologia da força, reflexos e sensibilidade.`
+ ],
+ questoes: [
+  {enunciado: `Homem de 28 anos com fraqueza que começou nos pés e ascendeu até as coxas em 10 dias, após diarreia recente; reflexos abolidos e parestesias distais. Qual a conduta inicial mais importante?`, alternativas: {a: `Corticoide oral em dose alta`, b: `Monitorizar a função respiratória e iniciar IVIG ou plasmaférese`, c: `Iniciar piridostigmina`, d: `Repouso e reavaliação em 30 dias`}, correta: "b", comentario: `Fraqueza ascendente, simétrica, arreflexia e antecedente infeccioso em dias caracterizam síndrome de Guillain-Barré. O que mais mata é a insuficiência respiratória e a disautonomia, então a prioridade é monitorizar a capacidade vital (internar, UTI se necessário) e tratar com IVIG OU plasmaférese. Corticoide isolado NÃO funciona no GBS (pegadinha clássica). Piridostigmina é para miastenia. Esperar 30 dias é perigoso: a piora pode ser rápida. O líquor mostraria dissociação albumino-citológica.`, foco: `Guillain-Barré (conduta e o que não fazer)`},
+  {enunciado: `Adolescente de 15 anos com pés cavos, dedos em martelo, panturrilhas finas ("garrafa de champanhe invertida") e marcha escarvante; pai com quadro semelhante. Eletroneuromiografia mostra velocidades de condução muito lentas. Qual o diagnóstico e a base?`, alternativas: {a: `Guillain-Barré`, b: `Charcot-Marie-Tooth (CMT1A, duplicação do PMP22)`, c: `Miastenia gravis`, d: `Distrofia muscular de Duchenne`}, correta: "b", comentario: `Neuropatia sensitivo-motora crônica desde a infância, com pé cavo, atrofia distal em "garrafa de champanhe invertida", marcha escarvante e história familiar dominante é Charcot-Marie-Tooth. As velocidades de condução muito lentas indicam forma desmielinizante — o CMT1A, por duplicação do gene PMP22, é o subtipo mais comum. Guillain-Barré é agudo (dias), não crônico e familiar. Miastenia dá fraqueza flutuante fatigável, sem pé cavo. Duchenne é miopatia proximal ligada ao X (Gowers, pseudo-hipertrofia de panturrilha), não neuropatia distal. Conduta: suporte e evitar vincristina.`, foco: `Charcot-Marie-Tooth (seu ponto de erro)`},
+  {enunciado: `Homem de 40 anos com mancha hipocrômica no antebraço que "não sente" ao toque e espessamento palpável do nervo ulnar no cotovelo, com fraqueza da mão. Qual a principal hipótese e a providência de saúde pública?`, alternativas: {a: `Neuropatia diabética; ajustar glicemia`, b: `Hanseníase; iniciar poliquimioterapia e notificar`, c: `Síndrome do túnel do carpo; órtese noturna`, d: `Guillain-Barré; imunoglobulina`}, correta: "b", comentario: `Mancha cutânea com alteração de sensibilidade somada a nervo periférico espessado e palpável (ulnar) é hanseníase até prova em contrário — a neuropatia periférica tratável mais importante do Brasil. Conduta: poliquimioterapia (PQT) do MS e notificação compulsória; estados reacionais com neurite exigem corticoide para evitar dano irreversível. Neuropatia diabética é simétrica, distal "em bota e luva", sem nervo isolado espessado nem mancha anestésica. Túnel do carpo é do mediano e não dá mancha. Guillain-Barré é agudo, simétrico e ascendente.`, foco: `Hanseníase (não perder / notificar)`},
+  {enunciado: `Mulher de 55 anos com fraqueza simétrica proximal e distal, progressiva ao longo de 4 meses, arreflexia, e líquor com dissociação albumino-citológica. Qual o diagnóstico e por que a distinção importa?`, alternativas: {a: `CMT; apenas suporte`, b: `CIDP; é adquirida e tratável (corticoide/IVIG/plasmaférese)`, c: `Esclerose lateral amiotrófica`, d: `Neuropatia diabética`}, correta: "b", comentario: `Fraqueza simétrica proximal E distal, evoluindo por mais de 8 semanas, com arreflexia e dissociação albumino-citológica, é a polineuropatia desmielinizante inflamatória crônica (CIDP) — o "Guillain-Barré crônico". A distinção importa porque, ao contrário do CMT (hereditário, só suporte), a CIDP é ADQUIRIDA e TRATÁVEL: responde a corticoide, IVIG ou plasmaférese. ELA é doença do neurônio motor (sem alteração sensitiva, com sinais de neurônio motor superior e inferior, sem dissociação no líquor). Neuropatia diabética é sensitiva distal, não esse padrão proximal e desmielinizante.`, foco: `CIDP × CMT (tratável × hereditária)`}
+ ]
+},
+
+"PED|Endócrino / crescimento": {
+ titulo: `Endocrinologia pediátrica e crescimento`,
+ half: `PED`,
+ resumo: `Crescer é o "sinal vital" da pediatria: uma criança que ganha estatura e peso na curva quase sempre está saudável, e quem desacelera acende um alerta. Este texto parte do zero — como se lê uma curva de crescimento, o que são os hormônios que a governam — e depois destrincha os temas de prova: hipotireoidismo congênito (a triagem que não pode falhar), baixa estatura e estatura-alvo, puberdade precoce e diabetes tipo 1. O fio condutor é sempre a mesma pergunta: a velocidade de crescimento está normal?`,
+ fontes: `Base: SBP — Documentos Científicos de Endocrinologia (hipotireoidismo congênito, baixa estatura, puberdade precoce, diabetes tipo 1); Ministério da Saúde — Programa Nacional de Triagem Neonatal (teste do pezinho) e Cadernos de Atenção Básica (crescimento e desenvolvimento); Tratado de Pediatria (SBP). Material de Endocrinologia pediátrica do Drive do Vinicius (ver materiais_drive.md).`,
+ notaErro: `Nos seus registros, **hipotireoidismo congênito e estatura-alvo aparecem com erro alto** (hipotireoidismo congênito é tema ALTO com metade das questões erradas). O tropeço não costuma ser "não saber a doença" — é **não dominar dois automatismos**: como funciona a triagem neonatal e como se calcula/interpreta o alvo genético. Três armadilhas explicam a maioria das quedas:
+
+- **Você acha que a triagem do pezinho "diagnostica" hipotireoidismo.** Ela **rastreia** (dosa TSH em papel-filtro) — resultado alterado exige **confirmação sérica (TSH e T4 livre)**, mas o **tratamento com levotiroxina não espera** a confirmação demorar: começa **imediatamente** para proteger o cérebro. Perder tempo = perder QI (seção 3).
+- **Você erra a conta da estatura-alvo** ou esquece que ela tem **margem de ±** e que o que mais importa é a **velocidade de crescimento**, não um ponto isolado. A fórmula e sua leitura estão na seção 5.
+- **Você confunde os quadros de baixa estatura** (variantes normais × patológicas). Baixa estatura **familiar** e **atraso constitucional** são variações do normal com velocidade preservada; hipotireoidismo, Turner e deficiência de GH são patológicos e **desaceleram** a curva (seção 5).
+
+**Como zerar o erro:** diante de qualquer questão de crescimento/endócrino, responda NESTA ordem — (1) a **velocidade de crescimento** está normal ou caiu? (2) a criança está **proporcional** (baixa harmônica) ou **desproporcional**? (3) o quadro **bate com o alvo genético** e a idade óssea? Para a triagem: **rastreio alterado → confirma e trata sem demora**. As questões ao final treinam exatamente esses pontos.`,
+ secoes: [
+  {h: `1. Comece pela curva: crescer é o principal sinal de saúde`, c: `Antes de qualquer hormônio, aprenda a **ler a curva de crescimento** (caderneta da criança, curvas da OMS). Três leituras importam:
+
+- **Posição (percentil/escore-z):** onde a criança está em relação aos pares. Estar no percentil 3 não é doença se ela sempre esteve lá e cresce bem.
+- **Velocidade de crescimento:** quanto cresce por ano — é o **dado mais sensível**. Uma criança que **cai de canal** (cruza percentis para baixo) tem doença até prova em contrário, mesmo que ainda esteja "dentro da curva".
+- **Proporção e peso/estatura:** baixa estatura **proporcional (harmônica)** aponta para causas endócrinas/nutricionais/sistêmicas; **desproporcional** sugere displasias ósseas.
+
+Regra de ouro: **a velocidade de crescimento é o sinal vital do crescimento**. Guarde isso — quase toda questão gira em torno dela.`},
+  {h: `2. Os hormônios do crescimento (o mínimo para entender as doenças)`, c: `O crescimento é orquestrado por alguns eixos:
+
+- **Hormônio do crescimento (GH):** liberado pela hipófise, age no fígado gerando **IGF-1**, que faz o osso crescer nas cartilagens de crescimento. Sua falta dá **baixa estatura proporcional com velocidade reduzida**.
+- **Hormônios tireoidianos (T4/T3):** essenciais para o **crescimento** e, sobretudo no início da vida, para a **maturação do sistema nervoso central**. Por isso o hipotireoidismo congênito é uma **emergência do neurodesenvolvimento**.
+- **Esteroides sexuais (estrógeno/testosterona):** disparam o **estirão puberal** e, ao final, **fecham as cartilagens** (fusão das epífises). É por isso que a puberdade precoce, embora aumente a altura na infância, pode **reduzir a estatura final** (fecha o osso cedo).
+- **Insulina:** hormônio anabólico do metabolismo da glicose; sua falência absoluta é o **diabetes tipo 1**.
+
+Entender "quem faz crescer e quem fecha o osso" explica quase todos os desfechos deste tema.`},
+  {h: `3. Hipotireoidismo congênito: a triagem que não pode falhar (seu ponto de erro)`, c: `**Por que é tão importante:** é uma das causas **preveníveis** mais clássicas de **deficiência intelectual**. O hormônio tireoidiano é indispensável para a mielinização e a maturação cerebral nos primeiros meses; sem ele, o dano é **irreversível**. A criança nasce **assintomática** (protegida pelo hormônio materno durante a gestação) — e é justamente por isso que a **triagem** é vital: quando os sintomas aparecem, já pode ser tarde.
+
+**Sinais tardios (quando escapa da triagem):** icterícia prolongada, hipotonia, choro rouco, **macroglossia**, hérnia umbilical, fontanela posterior ampla, constipação, sonolência, dificuldade alimentar e, adiante, atraso do desenvolvimento e baixa estatura.
+
+**Como funciona a triagem (teste do pezinho):** coleta de sangue em papel-filtro, idealmente entre o **3º e o 5º dia de vida** (não nas primeiras 48 h, para evitar o pico fisiológico de TSH do nascimento). O rastreio dosa **TSH** (e/ou T4). **Rastreio alterado NÃO é diagnóstico** — exige **confirmação com dosagem sérica de TSH e T4 livre**.
+
+**Conduta — o ponto que a prova cobra:** diante de triagem muito alterada, **iniciar levotiroxina o quanto antes** (não se atrasa o tratamento esperando toda a investigação etiológica). O objetivo é normalizar a função tireoidiana **nas primeiras 2 semanas de vida** para preservar o QI. A causa mais comum é a **disgenesia tireoidiana** (agenesia/ectopia). Acompanha-se com dosagens seriadas e reavaliação da necessidade de manter o tratamento após os 3 anos, quando o SNC já amadureceu.`},
+  {h: `4. Puberdade normal e puberdade precoce`, c: `**Puberdade normal:** o primeiro sinal na **menina** é o **broto mamário (telarca)**, em geral entre **8 e 13 anos**; no **menino** é o **aumento testicular (≥ 4 mL)**, entre **9 e 14 anos**. Estágios de **Tanner** descrevem a progressão. O **estirão** acompanha a puberdade.
+
+**Puberdade precoce:** aparecimento de caracteres sexuais **antes dos 8 anos na menina** e **antes dos 9 no menino**. Dividir em:
+- **Central (verdadeira, dependente de GnRH):** ativação precoce do eixo hipotálamo-hipófise; é **isossexual** e progride como a puberdade normal. Na menina costuma ser **idiopática**; no menino é mais frequentemente **secundária** (lesão do SNC) — por isso **menino com puberdade precoce central obriga RM de crânio**.
+- **Periférica (independente de GnRH):** esteroides produzidos fora do eixo (tumores gonadais/adrenais, hiperplasia adrenal congênita, McCune-Albright).
+
+**Por que tratar:** além do impacto psicossocial, a exposição precoce a esteroides **fecha as cartilagens de crescimento** e pode **comprometer a estatura final**. A forma central é tratada com **análogos de GnRH** (que "desligam" o eixo). O acompanhamento usa idade óssea (avançada) e, quando indicado, RM.`},
+  {h: `5. Baixa estatura e estatura-alvo (o cálculo que você erra)`, c: `Diante de baixa estatura, separe **variantes do normal** de **causas patológicas** — e a chave é a **velocidade de crescimento** e a **idade óssea**.
+
+**Variantes normais (velocidade de crescimento PRESERVADA):**
+- **Baixa estatura familiar:** pais baixos, criança baixa mas crescendo paralela à curva, **idade óssea = idade cronológica**, puberdade e estatura final compatíveis com o **alvo genético**.
+- **Atraso constitucional do crescimento e da puberdade:** o "florescer tardio". Criança baixa, **idade óssea atrasada** (compatível com a "estatura para a idade óssea"), puberdade tardia, **história familiar de puberdade tardia**; alcança estatura normal ao final. Não é doença.
+
+**Causas patológicas (a curva DESACELERA):** hipotireoidismo, **deficiência de GH**, doenças crônicas (renal, celíaca, cardiopatia), desnutrição, **síndrome de Turner** (toda menina com baixa estatura inexplicada deve ter **cariótipo** — Turner pode não ter os sinais clássicos).
+
+**Estatura-alvo (canal familiar) — a fórmula:**
+- **Menina:** [(altura do pai − 13 cm) + altura da mãe] ÷ 2
+- **Menino:** [(altura da mãe + 13 cm) + altura do pai] ÷ 2
+
+O resultado tem uma **faixa de ± ~8,5 cm** (aproximadamente ± 2 escores-z). O que se avalia é se a criança está **caminhando dentro do seu canal-alvo** e com **velocidade normal** — um valor isolado importa menos que a **trajetória**. Erro clássico: aplicar a fórmula trocando o sinal do "13 cm" (soma-se 13 ao progenitor do sexo oposto: +13 à mãe para o menino, −13 do pai para a menina).`},
+  {h: `6. Diabetes tipo 1 no pediátrico`, c: `**O que é:** destruição **autoimune** das células beta do pâncreas → **deficiência absoluta de insulina**. É a forma mais comum de diabetes na infância (diferente do tipo 2, ligado à obesidade/resistência).
+
+**Como se apresenta:** poliúria, polidipsia, polifagia e **perda de peso** em semanas; enurese "nova" numa criança já treinada é pista. Pode abrir com **cetoacidose diabética (CAD)** — hiperglicemia + acidose metabólica com ânion-gap + cetose, desidratação, hálito cetônico, respiração de Kussmaul, dor abdominal e rebaixamento. A CAD é a **emergência** e principal causa de óbito.
+
+**Manejo da CAD (princípios):** **hidratação** cuidadosa, **insulina** (após iniciar a volemia), correção de eletrólitos com atenção ao **potássio** (cai ao tratar) e busca do fator precipitante (infecção). O grande cuidado é a velocidade da correção pelo risco de **edema cerebral** (complicação temida na criança).
+
+**Tratamento crônico:** **insulinoterapia** (basal-bolus), contagem de carboidratos, monitorização glicêmica e educação da família. Não há papel para antidiabéticos orais no tipo 1.`},
+  {h: `7. Algoritmo final da endocrinologia do crescimento`, c: `- **Triagem neonatal (pezinho) com TSH alterado** → confirmar com **TSH + T4 livre séricos** e **iniciar levotiroxina sem demora** → hipotireoidismo congênito (proteger o SNC nas 1ªs 2 semanas).
+- **Baixa estatura:** ver **velocidade de crescimento**.
+  - preservada + idade óssea = cronológica + pais baixos → **baixa estatura familiar** (observar).
+  - preservada + idade óssea atrasada + puberdade tardia familiar → **atraso constitucional** (observar).
+  - **desacelerando** → investigar patologia: TSH/T4, IGF-1 (GH), doença celíaca/renal, **cariótipo em toda menina** (Turner).
+- **Caracteres sexuais < 8 anos (menina) / < 9 anos (menino)** → **puberdade precoce** → central (análogo de GnRH; **RM no menino**) × periférica (procurar fonte de esteroides).
+- **Poliúria/polidipsia/emagrecimento (± cetoacidose)** → **diabetes tipo 1** → hidratar, insulina, cuidado com potássio e edema cerebral.
+- Sempre: **a velocidade de crescimento é o sinal vital**; um ponto isolado na curva vale menos que a trajetória e o canal-alvo.`}
+ ],
+ flashcards: [
+  {p: `O teste do pezinho diagnostica ou rastreia hipotireoidismo congênito?`, r: `Rastreia (TSH em papel-filtro); alterado exige confirmação sérica, mas o tratamento com levotiroxina começa sem demora.`},
+  {p: `Por que o hipotireoidismo congênito é uma emergência?`, r: `O hormônio tireoidiano é essencial à maturação do SNC nos primeiros meses; o atraso causa deficiência intelectual irreversível. Meta: normalizar em ~2 semanas.`},
+  {p: `Fórmula da estatura-alvo?`, r: `Menina: (altura do pai − 13 + altura da mãe)/2; Menino: (altura da mãe + 13 + altura do pai)/2; faixa de ± ~8,5 cm.`},
+  {p: `Limites de idade da puberdade precoce?`, r: `Caracteres sexuais antes dos 8 anos na menina e antes dos 9 no menino.`},
+  {p: `Menino com puberdade precoce central: conduta obrigatória?`, r: `RM de crânio (é mais frequentemente secundária a lesão do SNC).`},
+  {p: `Baixa estatura com velocidade de crescimento PRESERVADA sugere o quê?`, r: `Variante normal: baixa estatura familiar (idade óssea = cronológica) ou atraso constitucional (idade óssea atrasada).`},
+  {p: `Complicação temida no tratamento da cetoacidose diabética na criança?`, r: `Edema cerebral (correção lenta e cuidadosa; atenção ao potássio).`}
+ ],
+ pegadinhas: [
+  `Teste do pezinho é RASTREIO — mas não se espera a confirmação para iniciar levotiroxina no hipotireoidismo congênito.`,
+  `Coleta do pezinho ideal entre o 3º e o 5º dia (não nas primeiras 48 h, por causa do pico fisiológico de TSH).`,
+  `Na estatura-alvo soma-se 13 cm ao progenitor do sexo OPOSTO (+13 à mãe no menino, −13 do pai na menina).`,
+  `Velocidade de crescimento normal favorece variante do normal; queda de canal é patológica até prova em contrário.`,
+  `Toda menina com baixa estatura inexplicada precisa de cariótipo (síndrome de Turner pode não ter sinais clássicos).`,
+  `Puberdade precoce pode REDUZIR a estatura final (esteroides fecham as cartilagens de crescimento).`,
+  `Diabetes tipo 1 não usa antidiabético oral — é insulina; enurese nova pode ser a pista inicial.`
+ ],
+ diretrizes: [
+  `SBP — Documentos Científicos de Endocrinologia (hipotireoidismo congênito; baixa estatura e uso de GH; puberdade precoce; diabetes tipo 1 e cetoacidose).`,
+  `Ministério da Saúde — Programa Nacional de Triagem Neonatal (teste do pezinho) e Cadernos de Atenção Básica — Saúde da Criança (acompanhamento do crescimento e desenvolvimento).`,
+  `Material de Endocrinologia pediátrica do Drive do Vinicius (hipotireoidismo, baixa estatura, puberdade) — ver materiais_drive.md.`
+ ],
+ questoes: [
+  {enunciado: `Recém-nascido assintomático com triagem neonatal (pezinho) mostrando TSH muito elevado no papel-filtro. Qual a conduta correta?`, alternativas: {a: `Aguardar o aparecimento de sintomas para tratar`, b: `Repetir só aos 6 meses`, c: `Confirmar com TSH e T4 livre séricos e iniciar levotiroxina sem demora`, d: `Iniciar iodo e observar`}, correta: "c", comentario: `Triagem alterada exige confirmação sérica (TSH e T4 livre), mas no hipotireoidismo congênito o tratamento com levotiroxina deve começar o mais rápido possível — a meta é normalizar a função tireoidiana nas primeiras 2 semanas para proteger o SNC, pois o dano intelectual é irreversível. Esperar sintomas é o erro grave: o RN é assintomático no início justamente porque foi protegido pelo hormônio materno. Repetir só aos 6 meses ou usar iodo não têm papel. A causa mais comum é a disgenesia tireoidiana.`, foco: `Hipotireoidismo congênito (seu ponto de erro)`},
+  {enunciado: `Menino de 5 anos, saudável, filho de mãe com 160 cm e pai com 174 cm. Qual a estatura-alvo aproximada?`, alternativas: {a: `≈ 160,5 cm`, b: `≈ 173,5 cm`, c: `≈ 180,5 cm`, d: `≈ 167 cm`}, correta: "b", comentario: `Para menino: (altura da mãe + 13 + altura do pai) / 2 = (160 + 13 + 174) / 2 = 347/2 ≈ 173,5 cm, com faixa de cerca de ± 8,5 cm. O erro clássico é trocar o sinal do "13" (ele se SOMA ao progenitor do sexo oposto — a mãe, no caso do menino). O valor calculado é uma referência do canal familiar; o mais importante é acompanhar se a criança cresce dentro desse canal e com velocidade normal, não um ponto isolado.`, foco: `Estatura-alvo (cálculo que você erra)`},
+  {enunciado: `Menina de 6 anos com telarca e pelos pubianos há 3 meses, idade óssea avançada. Qual a classificação e a preocupação principal?`, alternativas: {a: `Puberdade normal; apenas observar`, b: `Puberdade precoce; entre outras coisas, risco de comprometer a estatura final`, c: `Atraso constitucional`, d: `Baixa estatura familiar`}, correta: "b", comentario: `Caracteres sexuais antes dos 8 anos na menina definem puberdade precoce. Além do impacto psicossocial, a exposição precoce a esteroides sexuais avança a idade óssea e fecha as cartilagens de crescimento, podendo REDUZIR a estatura final — daí a indicação de tratar a forma central com análogos de GnRH. Na menina a forma central costuma ser idiopática, mas investiga-se; no menino, obriga RM de crânio. Observar sem avaliar seria erro. Atraso constitucional e baixa estatura familiar são quadros de crescimento lento/baixo, não de puberdade antecipada.`, foco: `Puberdade precoce`},
+  {enunciado: `Menina de 9 anos com baixa estatura, velocidade de crescimento reduzida e sem sinais dismórficos evidentes. Qual exame não deve ser esquecido?`, alternativas: {a: `Cariótipo (para síndrome de Turner)`, b: `Apenas idade óssea e observação`, c: `Teste de tolerância à glicose`, d: `Dosagem de prolactina`}, correta: "a", comentario: `Baixa estatura com desaceleração da curva é patológica e obriga investigação. Em toda menina com baixa estatura inexplicada deve-se pedir cariótipo, porque a síndrome de Turner pode se apresentar sem os sinais clássicos (pescoço alado, tórax em escudo) — a baixa estatura pode ser a única pista. A investigação inclui ainda TSH/T4 livre, IGF-1 (eixo do GH) e rastreio de doenças crônicas (celíaca, renal). Só observar perderia diagnósticos tratáveis; os demais exames não são o passo dirigido aqui.`, foco: `Baixa estatura patológica (Turner)`}
  ]
 }
 
