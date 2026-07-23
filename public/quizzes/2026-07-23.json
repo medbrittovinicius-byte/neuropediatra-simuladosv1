@@ -1,0 +1,651 @@
+{
+  "date": "2026-07-23",
+  "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+  "blocos": [
+    {
+      "tema": "Neurologia — Vertigem e Síndromes Vestibulares (tontura postural-perceptual persistente) [RE ranking #1]",
+      "tier": "ALTO",
+      "vinheta": "Mulher, 41 anos de idade, procura ambulatório de neurologia com tontura diária há 4 meses. Relata sensação persistente de instabilidade e de \"cabeça leve\", presente na maior parte do dia, que piora quando fica em pé, ao caminhar e, sobretudo, em ambientes visualmente complexos (supermercado, rolar a tela do celular, trânsito intenso). O quadro começou logo após um episódio isolado de vertigem rotatória aguda que durou dois dias, atribuído a uma neurite vestibular, já resolvido. Nega vertigem rotatória atual, hipoacusia, zumbido ou episódios posicionais breves. Exame neurológico e otoneurológico normais; Dix-Hallpike negativo; teste de impulso cefálico normal; audiometria normal; ressonância de encéfalo sem alterações.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Vertigem posicional paroxística benigna",
+            "b": "Tontura postural-perceptual persistente (PPPD)",
+            "c": "Doença de Ménière",
+            "d": "Recidiva de neurite vestibular"
+          },
+          "correta": "b",
+          "comentario": "O diagnóstico é tontura postural-perceptual persistente (PPPD), definida pelos critérios de Bárány/ICVD: tontura não rotatória, instabilidade ou \"cabeça leve\" presente na maioria dos dias por 3 meses ou mais, agravada por três fatores característicos — postura ereta/marcha, movimento próprio ou de objetos, e estímulos visuais complexos/em movimento. É tipicamente precipitada por um evento vestibular agudo (neurite, VPPB, migrânea vestibular, síncope) e depois se perpetua por mecanismo funcional: o cérebro passa a depender excessivamente de sinais visuais e proprioceptivos e mantém um controle postural \"de alerta\", mesmo já resolvida a lesão inicial. A VPPB é descartável porque produz vertigem rotatória em crises de segundos desencadeadas por mudança de posição da cabeça, com Dix-Hallpike positivo — aqui negativo e sem crises posicionais. A doença de Ménière exige vertigem episódica de minutos a horas com hipoacusia neurossensorial flutuante e zumbido, ausentes no caso. Recidiva de neurite vestibular geraria vertigem rotatória contínua por dias com HIT anormal e nistagmo espontâneo, também ausentes. Pérola: PPPD é hoje a causa mais comum de tontura crônica em ambulatório de otoneurologia e um diagnóstico positivo (não de exclusão), embora dependa de exames normais.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o mecanismo fisiopatológico predominante do quadro:",
+          "alternativas": {
+            "a": "Deposição de otólitos no canal semicircular posterior",
+            "b": "Hidropisia endolinfática progressiva",
+            "c": "Conflito neurovascular do VIII par craniano",
+            "d": "Adaptação mal-adaptativa do controle postural, com dependência visual aumentada"
+          },
+          "correta": "d",
+          "comentario": "A PPPD é um transtorno vestibular funcional: após o insulto agudo, persiste uma adaptação mal-adaptativa em que o sistema nervoso mantém estratégias de controle postural de \"alto ganho\" e passa a super-ponderar a informação visual e somatossensorial (dependência visual aumentada), gerando instabilidade sustentada e intolerância a cenas visuais ricas. Não há lesão estrutural nova — daí exames normais. Deposição de otólitos (canalitíase) no canal semicircular posterior é o mecanismo da VPPB, com crises posicionais e nistagmo à manobra de Dix-Hallpike. Hidropisia endolinfática é o substrato da doença de Ménière, com vertigem episódica, hipoacusia e zumbido. Conflito neurovascular do VIII par é o mecanismo da paroxismia vestibular, com crises ultrabreves múltiplas/dia responsivas a carbamazepina. Reconhecer a natureza funcional é o que muda a conduta: em vez de perseguir novas lesões, trata-se o processamento vestibular desadaptado. Ansiedade e traços de personalidade ansiosos são fatores predisponentes e perpetuadores frequentes, mas a PPPD não é sinônimo de \"tontura psicogênica\" pura.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a abordagem terapêutica de primeira linha para o quadro:",
+          "alternativas": {
+            "a": "Restrição de sódio e diuréticos",
+            "b": "Manobra de reposicionamento de Epley",
+            "c": "Reabilitação vestibular, inibidores seletivos da recaptação de serotonina e terapia cognitivo-comportamental",
+            "d": "Betaistina em dose alta como monoterapia"
+          },
+          "correta": "c",
+          "comentario": "O tratamento da PPPD apoia-se em três pilares com melhor evidência: reabilitação vestibular específica (habituação/dessensibilização visual e treino de marcha), ISRS/IRSN (sertralina, escitalopram, venlafaxina) mesmo na ausência de depressão franca, e terapia cognitivo-comportamental voltada ao componente de hipervigilância e evitação. Educação sobre a natureza funcional e benigna do quadro melhora adesão e prognóstico. A manobra de Epley trata a VPPB de canal posterior — inútil aqui, pois não há canalitíase. Restrição de sódio e diuréticos compõem o manejo da doença de Ménière, não da PPPD. Betaistina isolada em dose alta não é primeira linha para PPPD; é mais empregada na Ménière e tem evidência limitada. Pegadinha clássica: prescrever supressores vestibulares crônicos (anti-histamínicos/benzodiazepínicos) PIORA a PPPD, pois retarda a compensação central e perpetua a dependência visual — devem ser evitados no uso prolongado. O prognóstico é bom com a tríade reabilitação + ISRS + TCC iniciada precocemente.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 138 — Síndrome Vestibular Crônica (p.1925); Merritt (13ª ed.), Seção 2 — Tontura, Vertigem e Perda Auditiva.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroimunologia (síndrome de Susac) [RE ranking #2]",
+      "tier": "ALTO",
+      "vinheta": "Mulher, 29 anos de idade, previamente hígida, apresenta, ao longo de três semanas, cefaleia, alterações de comportamento e episódios de confusão. Procura o serviço após notar, subitamente, um \"borrão\" fixo no campo visual do olho direito e, dois dias depois, perda auditiva em ouvido esquerdo com zumbido. Ao exame: desatenta, com discreta lentificação; acuidade visual reduzida à direita; audiometria mostra hipoacusia neurossensorial de baixas frequências à esquerda. A retinografia com angiofluoresceinografia evidencia oclusão de ramo de artéria retiniana com hipercoloração de parede arteriolar. A ressonância de encéfalo mostra múltiplas lesões hiperintensas em T2/FLAIR no corpo caloso, com aspecto central \"em bola de neve\". Líquor com discreta hiperproteinorraquia; painel de encefalites autoimunes negativo.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Encefalite anti-receptor de NMDA",
+            "b": "Síndrome de Susac",
+            "c": "Neuromielite óptica (anti-aquaporina-4)",
+            "d": "Esclerose múltipla"
+          },
+          "correta": "b",
+          "comentario": "A tríade encefalopatia + oclusões de ramos de artéria retiniana + hipoacusia neurossensorial define a síndrome de Susac (vasculopatia retinococleocerebral autoimune, com lesão do endotélio da microvasculatura de cérebro, retina e cóclea). A ressonância com lesões calosas centrais \"em bola de neve\"/\"em raio de bicicleta\" é bastante característica e ajuda a separá-la da esclerose múltipla, cujas placas calosas tendem a ser justacorticais/periventriculares e \"em dedos de Dawson\" na face inferior do corpo caloso, sem oclusão arteriolar retiniana nem surdez. Encefalite anti-NMDA cursa com psicose, discinesias orofaciais, disautonomia e crises, geralmente com anticorpo positivo — painel aqui negativo e sem oclusão retiniana. Neuromielite óptica dá neurite óptica e mielite longitudinalmente extensa com anti-AQP4, não a tríade cerebro-retino-coclear. A angiofluoresceinografia mostrando oclusão de ramo arterial retiniano com hipercoloração de parede é um achado que praticamente sela o diagnóstico e deve ser buscado ativamente sempre que houver a associação de encefalopatia jovem com queixa visual ou auditiva.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o exame que melhor demonstra o acometimento retiniano característico:",
+          "alternativas": {
+            "a": "Tomografia de coerência óptica de mácula",
+            "b": "Eletrorretinograma",
+            "c": "Angiofluoresceinografia de retina",
+            "d": "Campimetria computadorizada"
+          },
+          "correta": "c",
+          "comentario": "A angiofluoresceinografia de retina é o exame de escolha para demonstrar as oclusões de ramos de artéria retiniana e, sobretudo, a hipercoloração (gadolínio da retina) das paredes arteriolares — sinal de vasculite/vasculopatia mesmo em segmentos ainda não ocluídos —, achado altamente sugestivo de síndrome de Susac e útil para acompanhar atividade. A tomografia de coerência óptica mostra afinamento de camadas retinianas por infarto prévio, mas não flagra as oclusões arteriolares em atividade nem a impregnação de parede. O eletrorretinograma avalia função global dos fotorreceptores e não localiza oclusões de ramo. A campimetria documenta o escotoma resultante, porém é inespecífica quanto à etiologia. Na prática, o tripé diagnóstico combina RM de encéfalo (lesões calosas centrais), audiometria (hipoacusia neurossensorial de baixas frequências) e angiofluoresceinografia (oclusões de ramo) — os \"três compartimentos\" da doença. Pérola: como o acometimento pode ser assíncrono, exames seriados dos três territórios aumentam a sensibilidade quando a apresentação é incompleta.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o tratamento de primeira linha para a fase aguda do quadro:",
+          "alternativas": {
+            "a": "Anticoagulação plena com heparina",
+            "b": "Terapia modificadora da esclerose múltipla (interferona)",
+            "c": "Antiagregação isolada com ácido acetilsalicílico",
+            "d": "Pulsoterapia com corticoide e imunossupressão/imunoglobulina"
+          },
+          "correta": "d",
+          "comentario": "O tratamento da síndrome de Susac em atividade é imunossupressor agressivo: pulso de metilprednisolona seguido de corticoide, frequentemente combinado a imunoglobulina intravenosa e/ou imunossupressores (micofenolato, ciclofosfamida ou rituximabe nos casos graves/encefalopáticos), para preservar visão, audição e cognição. Terapias modificadoras da esclerose múltipla (interferona, etc.) não têm papel — e o erro de tratar como EM atrasa a imunossupressão adequada. Anticoagulação plena não está indicada: apesar das oclusões arteriolares, o mecanismo é vasculopatia inflamatória endotelial, não estado trombofílico, e não há benefício comprovado da heparina. Antiagregação isolada é insuficiente para controlar a inflamação, embora AAS possa ser adjuvante em alguns protocolos. A doença costuma ter curso monofásico ou policíclico autolimitado em até poucos anos, mas as sequelas (surdez, déficit cognitivo) dependem da precocidade da imunossupressão — daí a urgência do diagnóstico e do tratamento.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 49 — Vasculites do Sistema Nervoso (p.786); cap. 90 — Encefalites Autoimunes e Síndromes Paraneoplásicas.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroimunologia (lúpus neuropsiquiátrico / psicose lúpica) [RE cota individual: Leonardo]",
+      "tier": "ALTO",
+      "vinheta": "Mulher, 26 anos de idade, com diagnóstico recente de lúpus eritematoso sistêmico (artrite, rash malar e nefrite em investigação), é trazida por quadro subagudo de duas semanas: insônia, alucinações auditivas, delírios de perseguição e desorganização do pensamento, alternando com períodos de desatenção e desorientação. Faz uso de prednisona 20 mg/dia há 3 semanas. Ao exame, afebril, sem sinais meníngeos nem déficit focal. Exames: anti-DNA de dupla hélice elevado, consumo de C3 e C4, anti-P ribossomal positivo. Líquor com discreta pleocitose linfocítica e proteína levemente elevada, culturas e pesquisa viral negativas. Ressonância de encéfalo sem lesões estruturais expressivas.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique a hipótese diagnóstica mais provável:",
+          "alternativas": {
+            "a": "Lúpus neuropsiquiátrico (psicose lúpica)",
+            "b": "Encefalite herpética",
+            "c": "Psicose induzida por corticoide",
+            "d": "Surto psicótico primário (esquizofrenia)"
+          },
+          "correta": "a",
+          "comentario": "O quadro é de lúpus neuropsiquiátrico primário, na forma de psicose lúpica, uma das 19 síndromes do NPSLE. A favor: LES em atividade (anti-dsDNA alto, consumo de C3/C4), anti-P ribossomal positivo (marcador classicamente associado à psicose lúpica) e líquor inflamatório sem infecção. A psicose induzida por corticoide é o principal diferencial e uma pegadinha real: costuma surgir nas primeiras 1-2 semanas após doses altas (geralmente >40 mg/dia de prednisona), mas aqui a dose é moderada (20 mg) e, sobretudo, há marcadores de atividade lúpica e liquor inflamatório — o que aponta para atividade da doença, não para efeito do fármaco. A encefalite herpética cursa com febre, crises e acometimento temporal na RM, com PCR para HSV positivo — ausentes. Surto psicótico primário não explica o consumo de complemento, o anti-P ribossomal nem a pleocitose liquórica. Distinguir atividade lúpica de psicose por corticoide é decisivo, pois as condutas são opostas: uma exige AUMENTAR a imunossupressão; a outra, REDUZIR o corticoide.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o achado que mais fortemente sustenta a etiologia lúpica do quadro psiquiátrico:",
+          "alternativas": {
+            "a": "Hipersinal em lobos temporais na ressonância",
+            "b": "Antígeno criptocócico positivo no líquor",
+            "c": "Anticorpo anti-aquaporina-4 positivo",
+            "d": "Consumo de complemento com anti-P ribossomal positivo"
+          },
+          "correta": "d",
+          "comentario": "O que sustenta a origem lúpica é a evidência de atividade imunológica: consumo de C3/C4 e anti-DNA de dupla hélice elevados indicam doença ativa, e o anti-P ribossomal tem associação específica descrita com a psicose lúpica (embora sensibilidade limitada, sua positividade reforça muito a hipótese no contexto adequado). Anti-aquaporina-4 define neuromielite óptica, não NPSLE. Hipersinal em lobos temporais é típico de encefalite herpética/límbica, não de psicose lúpica, que costuma ter RM normal ou com achados inespecíficos (a RM serve mais para excluir AVC, trombose venosa e lesões estruturais). Antígeno criptocócico positivo apontaria neurocriptococose — infecção oportunista relevante no paciente imunossuprimido e um diferencial obrigatório a excluir antes de intensificar a imunossupressão, mas aqui negativo. Pérola: no NPSLE, sempre afastar causas secundárias (infecção, distúrbio metabólico, efeito de fármaco, síndrome antifosfolípide/trombose) antes de atribuir os sintomas à atividade lúpica primária — o líquor e a neuroimagem servem justamente a essa exclusão.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica mais adequada, após exclusão de infecção:",
+          "alternativas": {
+            "a": "Antipsicótico isolado, sem alterar a imunossupressão",
+            "b": "Suspender toda imunossupressão e observar",
+            "c": "Pulsoterapia com corticoide e imunossupressor (ciclofosfamida ou rituximabe)",
+            "d": "Iniciar aciclovir intravenoso empírico e manter"
+          },
+          "correta": "c",
+          "comentario": "Confirmada a atividade lúpica e afastada infecção, o tratamento da psicose lúpica grave é imunossupressão intensa: pulso de metilprednisolona seguido de corticoide em dose alta associado a imunossupressor (ciclofosfamida ou rituximabe), muitas vezes com antipsicótico como medida sintomática adjuvante e transitória. Suspender toda imunossupressão é justamente o oposto do necessário quando a causa é atividade da doença (seria a conduta se fosse psicose por corticoide, e ainda assim com desmame cuidadoso). Aciclovir empírico se justifica enquanto se aguarda a PCR para HSV, mas mantê-lo como tratamento definitivo é inadequado após afastar herpes. Antipsicótico isolado controla sintomas, porém não trata a doença de base e permite progressão do dano neurológico. Diretrizes de EULAR para NPSLE recomendam terapia imunossupressora quando o mecanismo é inflamatório/atividade, e anticoagulação quando o mecanismo é trombótico (síndrome antifosfolípide) — distinguir os dois mecanismos é o cerne da conduta.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 166 — Aspectos Neurológicos das Doenças Reumatológicas (p.2287).",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Doença Cerebrovascular (síndrome de Wallenberg / AVC bulbar lateral)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem, 57 anos de idade, hipertenso e tabagista, inicia subitamente vertigem intensa, soluços persistentes, disfagia e rouquidão, com queda para a direita ao andar. Refere ainda dor e diminuição da sensibilidade térmica na hemiface direita. Ao exame: nistagmo, disfonia com desvio do palato, ptose e miose à direita com anidrose facial ipsilateral; sensibilidade dolorosa e térmica reduzida na face à direita e no tronco/membros à esquerda; força preservada nos quatro membros; dismetria em membros à direita. A tomografia inicial é normal.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique a síndrome neurovascular mais provável:",
+          "alternativas": {
+            "a": "Síndrome de Weber (mesencéfalo)",
+            "b": "Síndrome de Millard-Gubler (ponte)",
+            "c": "Síndrome bulbar lateral (Wallenberg)",
+            "d": "Infarto capsular lacunar puro motor"
+          },
+          "correta": "c",
+          "comentario": "A combinação de vertigem, disfagia/disfonia (acometimento do núcleo ambíguo, IX/X), soluços, síndrome de Horner ipsilateral, ataxia ipsilateral e dissociação termoalgésica cruzada (hipoestesia térmico-dolorosa na face ipsilateral por lesão do trato/núcleo espinhal do trigêmeo e no hemicorpo contralateral por lesão do trato espinotalâmico) define a síndrome bulbar lateral de Wallenberg, quase sempre por oclusão da artéria vertebral ou da PICA. A síndrome de Weber é mesencefálica: paralisia do III par ipsilateral com hemiparesia contralateral — sem os achados bulbares. Millard-Gubler é pontina: paralisia do VI e VII ipsilaterais com hemiparesia contralateral. Infarto lacunar capsular puro motor cursa com hemiparesia proporcional sem sinais sensitivos, cerebelares ou de nervos cranianos. Pérola de prova: a dissociação sensitiva \"cruzada\" (face de um lado, corpo do outro) é a assinatura das lesões de tronco baixo e praticamente aponta o bulbo lateral. A força preservada nos quatro membros ajuda a afastar as síndromes com hemiparesia.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o território arterial mais frequentemente envolvido e o exame mais adequado para confirmação:",
+          "alternativas": {
+            "a": "Artéria cerebral média; tomografia sem contraste",
+            "b": "Artéria cerebral anterior; eletroencefalograma",
+            "c": "Artéria vertebral/PICA; ressonância magnética com difusão",
+            "d": "Artéria coroideia anterior; punção lombar"
+          },
+          "correta": "c",
+          "comentario": "O infarto bulbar lateral resulta tipicamente da oclusão da artéria vertebral ou de seu ramo, a artéria cerebelar posteroinferior (PICA). A tomografia sem contraste é pouco sensível na fossa posterior (artefatos ósseos e infartos pequenos), por isso a ressonância magnética com sequência de difusão (DWI) é o exame de escolha para confirmar o infarto agudo de tronco; angio-RM/angio-TC dos vasos vertebrobasilares avaliam a oclusão/dissecção. Território de cerebral média produziria déficit hemisférico (afasia, hemiparesia proporcional, desvio do olhar), não a síndrome bulbar. Cerebral anterior daria paresia de predomínio crural contralateral; o EEG não avalia isquemia. Artéria coroideia anterior causa hemiparesia, hemi-hipoestesia e hemianopsia, e a punção lombar não tem papel diagnóstico no AVC isquêmico. Pegadinha: em paciente jovem com Wallenberg, investigar dissecção da artéria vertebral (trauma cervical, manipulação cervical) como causa.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta inicial mais adequada na fase aguda:",
+          "alternativas": {
+            "a": "Trombólise contraindicada por se tratar de fossa posterior",
+            "b": "Anticoagulação plena imediata para todos os casos",
+            "c": "Suporte de via aérea/deglutição e avaliação para reperfusão conforme a janela",
+            "d": "Corticoide em altas doses para reduzir o edema bulbar"
+          },
+          "correta": "c",
+          "comentario": "O manejo agudo do Wallenberg segue os princípios do AVC isquêmico: proteção da via aérea e avaliação da deglutição (alto risco de broncoaspiração pela disfagia), suporte clínico, controle pressórico permissivo e avaliação para reperfusão (trombólise com alteplase/tenecteplase dentro da janela e trombectomia se oclusão de grande vaso acessível) — a localização em fossa posterior NÃO contraindica trombólise. Anticoagulação plena imediata não é conduta padrão para todo AVC isquêmico agudo e aumenta risco de transformação hemorrágica; reserva-se a indicações específicas (p.ex. dissecção/cardioembolia, em momento apropriado). Corticoide não tem papel no infarto bulbar e não reduz desfecho. Atenção ao risco de insuficiência respiratória e instabilidade autonômica em infartos de tronco, que podem exigir monitorização em unidade de AVC/UTI. A disfagia grave frequentemente demanda via alternativa de alimentação temporária e fonoterapia precoce.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 46 — Síndromes Vasculares Isquêmicas (p.756); MS — Manual de Rotinas para Atenção ao AVC.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Epilepsia (crise psicogênica não epiléptica)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher, 23 anos de idade, é avaliada por \"convulsões\" refratárias a três fármacos antiepilépticos. Os episódios duram 5 a 15 minutos, com movimentos amplos e assíncronos dos quatro membros, movimentos pélvicos, fechamento forçado dos olhos e balançar da cabeça de um lado para o outro, sem cianose. Não há mordedura lateral de língua nem perda esfincteriana; recupera-se rapidamente, sem confusão pós-ictal, e às vezes chora após o evento. Muitos episódios ocorrem na presença de familiares. Há história de eventos estressores e sintomas ansiosos. O vídeo-EEG durante um episódio típico não mostra descargas epileptiformes ictais nem lentificação pós-ictal.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Crise psicogênica não epiléptica",
+            "b": "Síncope convulsiva",
+            "c": "Estado de mal epiléptico refratário",
+            "d": "Epilepsia focal farmacorresistente"
+          },
+          "correta": "a",
+          "comentario": "O diagnóstico é crise psicogênica não epiléptica (CNEP), transtorno neurológico funcional (dissociativo/conversivo). Vários sinais semiológicos apontam contra epilepsia e a favor de CNEP: duração prolongada (>2-3 min), movimentos assíncronos e \"fora de fase\", movimentos pélvicos, balançar lateral da cabeça, fechamento FORÇADO dos olhos durante o evento (na crise epiléptica os olhos costumam estar abertos), ausência de cianose, choro ictal, recuperação rápida sem confusão pós-ictal e curso \"refratário\" a múltiplos fármacos. O padrão-ouro é o vídeo-EEG capturando um episódio típico sem correlato epileptiforme ictal — exatamente o caso. Epilepsia focal farmacorresistente teria correlato eletrográfico e semiologia estereotipada. Estado de mal refratário implicaria atividade epiléptica contínua no EEG e rebaixamento — ausentes. Síncope convulsiva é breve (segundos), com pródromo de escurecimento visual e recuperação rápida, sem os movimentos prolongados descritos. Pérola: mordedura de língua LATERAL e perda esfincteriana favorecem epilepsia; sua ausência, somada ao EEG normal, reforça a CNEP.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o exame considerado padrão-ouro para confirmar o diagnóstico:",
+          "alternativas": {
+            "a": "Dosagem sérica de prolactina isolada",
+            "b": "Eletroneuromiografia",
+            "c": "Ressonância magnética funcional",
+            "d": "Monitorização por vídeo-eletroencefalografia prolongada"
+          },
+          "correta": "d",
+          "comentario": "O padrão-ouro é a monitorização por vídeo-EEG prolongada, que correlaciona a semiologia do evento típico com a ausência de atividade epileptiforme ictal e de lentificação pós-ictal — confirmando a natureza não epiléptica. A prolactina sérica pode elevar-se após crises tônico-clônicas e algumas focais, mas tem baixa sensibilidade, janela curta (colher em 10-20 min e comparar com basal) e não distingue de forma confiável, além de poder ser normal em crises epilépticas frontais — por isso não é padrão-ouro e, isolada, não fecha diagnóstico. RM funcional não tem papel diagnóstico nesse contexto. Eletroneuromiografia avalia nervo/músculo periférico, irrelevante aqui. Pérola: até 20-30% dos pacientes rotulados como \"epilepsia refratária\" em centros terciários têm, na verdade, CNEP; e cerca de 10% dos pacientes com CNEP também têm epilepsia coexistente — o vídeo-EEG ajuda a separar e caracterizar ambos.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica mais adequada após o diagnóstico:",
+          "alternativas": {
+            "a": "Comunicação diagnóstica cuidadosa, psicoterapia e desmame dos antiepilépticos desnecessários",
+            "b": "Prescrever benzodiazepínico de uso contínuo",
+            "c": "Associar um quarto fármaco antiepiléptico",
+            "d": "Indicar cirurgia de epilepsia"
+          },
+          "correta": "a",
+          "comentario": "O tratamento da CNEP começa por uma comunicação diagnóstica empática e não estigmatizante (validar que os sintomas são reais e involuntários, explicar o mecanismo funcional), seguida de psicoterapia — a terapia cognitivo-comportamental tem a melhor evidência — e do desmame gradual dos antiepilépticos prescritos sem indicação, evitando efeitos adversos e a falsa rotulação. Tratar comorbidades psiquiátricas (ansiedade, depressão, transtorno de estresse pós-traumático) é parte essencial. Associar um quarto antiepiléptico é inútil e potencialmente danoso, pois não há epilepsia a tratar. Cirurgia de epilepsia é francamente contraindicada sem foco epileptogênico e pode causar dano. Benzodiazepínico contínuo não trata o transtorno funcional e traz risco de dependência e piora cognitiva. O prognóstico melhora com abordagem multidisciplinar (neurologia + saúde mental) e diagnóstico precoce; o atraso diagnóstico (frequentemente anos) associa-se a pior desfecho e a iatrogenia por uso crônico de fármacos.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 79 — Definição e Classificação das Crises e das Epilepsias (p.1126); Merritt (13ª ed.), Seção 8 — Epilepsia e Distúrbios Paroxísticos.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Transtornos do Movimento (distonia cervical / torcicolo espasmódico)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher, 45 anos de idade, refere, há 8 meses, desvio involuntário e sustentado da cabeça para a esquerda, com rotação e leve inclinação, acompanhado de dor e tensão na musculatura cervical. Percebe que o desvio piora com estresse e ao caminhar, e melhora transitoriamente quando encosta levemente a ponta dos dedos no queixo. Nega uso de neurolépticos, antieméticos ou outros bloqueadores dopaminérgicos. Exame neurológico sem parkinsonismo, sem sinais piramidais, sensibilidade e força normais; observa-se hipertrofia do esternocleidomastóideo à direita e postura anômala sustentada da cabeça.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Tremor essencial cefálico",
+            "b": "Parkinsonismo farmacológico",
+            "c": "Espasmo hemifacial",
+            "d": "Distonia cervical (distonia focal idiopática)"
+          },
+          "correta": "d",
+          "comentario": "O quadro é de distonia cervical (torcicolo espasmódico), a forma mais comum de distonia focal do adulto: contrações musculares sustentadas ou intermitentes que produzem posturas anormais (rotação = torcicolo; inclinação = laterocolo; flexão = anterocolo; extensão = retrocolo), frequentemente dolorosas. Um sinal semiológico clássico e muito cobrado é o \"gesto antagonista\" (geste antagoniste): o toque leve na face/queixo reduz temporariamente a distonia — presente no caso. Parkinsonismo farmacológico exigiria uso de bloqueadores dopaminérgicos (neurolépticos, metoclopramida) e cursaria com bradicinesia e rigidez — negados e ausentes. Espasmo hemifacial acomete a musculatura inervada pelo facial (contrações clônicas periorais/perioculares), não a cervical. Tremor essencial cefálico produz oscilação rítmica (\"não-não\"/\"sim-sim\") sem postura distônica sustentada nem gesto antagonista, e costuma haver tremor de ação nas mãos e história familiar. Reconhecer o gesto antagonista e a postura sustentada é a chave diagnóstica.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o achado semiológico que mais caracteriza esse tipo de distonia:",
+          "alternativas": {
+            "a": "Melhora transitória com o gesto antagonista (truque sensitivo)",
+            "b": "Fenômeno de congelamento da marcha",
+            "c": "Reflexos profundos exaltados com clônus",
+            "d": "Roda denteada à mobilização passiva"
+          },
+          "correta": "a",
+          "comentario": "O gesto antagonista (truque sensitivo) — melhora transitória da postura distônica ao tocar levemente uma região específica do corpo (aqui, o queixo) — é um marcador semiológico característico das distonias, especialmente a cervical, e reflete a modulação sensório-motora do circuito distônico. Roda denteada é sinal de rigidez parkinsoniana, ausente aqui. Congelamento da marcha ocorre em parkinsonismos e distúrbios da marcha de nível superior, não define distonia focal. Reflexos exaltados com clônus indicariam lesão do neurônio motor superior (piramidal), incompatível com o exame normal descrito. Vale lembrar que a fisiopatologia da distonia envolve disfunção dos núcleos da base com perda de inibição de vias motoras e plasticidade sináptica aberrante, sem lesão estrutural na maioria dos casos idiopáticos. A investigação com neuroimagem e a exclusão de causas secundárias (fármacos, doença de Wilson em jovens, distonias hereditárias) fazem parte da avaliação, mas o diagnóstico é essencialmente clínico.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o tratamento de primeira linha para a forma focal descrita:",
+          "alternativas": {
+            "a": "Levodopa em dose plena",
+            "b": "Ácido acetilsalicílico em dose alta",
+            "c": "Estimulação cerebral profunda como primeira medida",
+            "d": "Aplicação de toxina botulínica nos músculos acometidos"
+          },
+          "correta": "d",
+          "comentario": "A primeira linha para a distonia cervical focal é a toxina botulínica aplicada nos músculos hiperativos identificados clinicamente (com ou sem auxílio de eletromiografia/ultrassom), com repetição a cada 3-4 meses; alivia postura e dor e é o padrão de tratamento. Levodopa é o tratamento de escolha apenas da distonia responsiva à dopa (Segawa), que se apresenta na infância/adolescência com flutuação diurna — não é o caso desta distonia focal do adulto (mas um teste de levodopa é razoável em distonias de início precoce). AAS não tem qualquer papel. Estimulação cerebral profunda (globo pálido interno) é reservada para distonias generalizadas ou cervicais refratárias à toxina, não como primeira medida. Anticolinérgicos, benzodiazepínicos e relaxantes musculares são adjuvantes orais de eficácia limitada. Pérola: sempre revisar a lista de medicamentos do paciente — a causa mais comum de distonia secundária/tardia é o uso de bloqueadores dopaminérgicos, cuja retirada precede qualquer tratamento sintomático.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 61 — Distonias (p.910).",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuropatias Periféricas (amiloidose hereditária por transtirretina / PAF)",
+      "tier": "ALTO",
+      "vinheta": "Homem, 38 anos de idade, com pai falecido por \"problema no coração e nos nervos\", apresenta há 2 anos dormência e dor em queimação ascendente nos pés, evoluindo com fraqueza distal e desequilíbrio. Associa-se disautonomia proeminente: hipotensão postural, alternância de diarreia e constipação, disfunção erétil e retenção urinária. Exame com polineuropatia sensitivo-motora distal simétrica e arreflexia aquileia; sinais de síndrome do túnel do carpo bilateral. Ecocardiograma mostra hipertrofia ventricular concêntrica com padrão infiltrativo. A eletroneuromiografia confirma polineuropatia axonal sensitivo-motora.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Charcot-Marie-Tooth tipo 1A",
+            "b": "Amiloidose hereditária por transtirretina (polineuropatia amiloidótica familiar)",
+            "c": "Síndrome de Guillain-Barré",
+            "d": "Polineuropatia diabética"
+          },
+          "correta": "b",
+          "comentario": "A combinação de polineuropatia axonal sensitivo-motora distal de início precoce, disautonomia proeminente (hipotensão postural, alteração intestinal, disfunção erétil, retenção urinária), síndrome do túnel do carpo bilateral, cardiomiopatia infiltrativa e história familiar autossômica dominante é altamente sugestiva de amiloidose hereditária por transtirretina (ATTRv), a polineuropatia amiloidótica familiar (PAF) — no Brasil, frequentemente pela variante Val30Met. A polineuropatia diabética causaria quadro semelhante, mas o paciente é jovem, sem diabetes referido, e a associação com miocardiopatia infiltrativa e história familiar aponta para amiloidose. Guillain-Barré é agudo/subagudo, desmielinizante, com dissociação proteinocitológica e arreflexia difusa, sem miocardiopatia infiltrativa nem herança familiar. Charcot-Marie-Tooth 1A é desmielinizante, com fenótipo motor distal (pé cavo, \"garrafa de champanhe invertida\") e pouca disautonomia ou acometimento cardíaco infiltrativo. Pérola: neuropatia axonal + disautonomia + cardiopatia infiltrativa + história familiar = pensar em amiloidose TTR e confirmar geneticamente.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o par de exames que melhor confirma a etiologia do quadro:",
+          "alternativas": {
+            "a": "Hemoglobina glicada e monofilamento",
+            "b": "Anticorpo anti-gangliosídeo e líquor",
+            "c": "Anti-MAG e eletroforese de proteínas isolada",
+            "d": "Biópsia com vermelho do Congo (birrefringência) e teste genético do gene TTR"
+          },
+          "correta": "d",
+          "comentario": "A confirmação combina demonstração do depósito amiloide — biópsia (nervo, glândula salivar, gordura abdominal ou tecido acometido) com coloração de vermelho do Congo mostrando birrefringência verde-maçã sob luz polarizada e tipagem do amiloide — com o teste genético do gene TTR, que identifica a variante patogênica e confirma a forma hereditária. A cintilografia com traçadores ósseos (pirofosfato/DPD) ajuda no acometimento cardíaco. Anticorpos anti-gangliosídeo e estudo do líquor orientam neuropatias imunomediadas (Guillain-Barré/variantes), não amiloidose. Hemoglobina glicada e monofilamento avaliam neuropatia diabética. Anti-MAG define neuropatia desmielinizante paraproteinêmica; a eletroforese/imunofixação isolada é insuficiente e, aliás, pode confundir com amiloidose AL (adquirida, por cadeias leves) — diferencial importante, pois o tratamento é distinto. Distinguir ATTR hereditária de amiloidose AL é essencial: a primeira tem terapias específicas (estabilizadores/silenciadores gênicos); a segunda é tratada como discrasia plasmocitária.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a base do tratamento específico modificador da doença:",
+          "alternativas": {
+            "a": "Reposição de vitamina B12 em altas doses",
+            "b": "Estabilizadores da transtirretina ou silenciadores gênicos (ex.: tafamidis, inotersena/patisirana)",
+            "c": "Corticoterapia em pulso e plasmaférese",
+            "d": "Imunoglobulina intravenosa periódica"
+          },
+          "correta": "b",
+          "comentario": "O tratamento modificador da amiloidose hereditária por TTR atua na fonte da proteína amiloidogênica: estabilizadores do tetrâmero de transtirretina (tafamidis, diflunisal) e silenciadores gênicos que reduzem a produção hepática de TTR (inotersena — antisense; patisirana/vutrisirana — RNA de interferência), que modificam a progressão da neuropatia e da cardiopatia. O transplante hepático foi historicamente usado na Val30Met, hoje em grande parte substituído pelas terapias farmacológicas. Corticoide/plasmaférese tratam neuropatias imunomediadas (CIDP, Guillain-Barré), sem efeito na amiloidose. Reposição de B12 corrige neuropatia carencial, diagnóstico diferente. Imunoglobulina intravenosa é terapia de doenças autoimunes do nervo, não da amiloidose. Pérola: o diagnóstico precoce é decisivo — as terapias modificam a trajetória, mas não revertem o dano axonal já instalado, e o rastreamento familiar (aconselhamento genético) permite tratar portadores antes da fase sintomática avançada.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 122 — Neuropatias em Doenças Sistêmicas, Carenciais e Tóxico-Metabólicas (p.1722).",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroinfecção (meningoencefalite tuberculosa)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem, 34 anos de idade, HIV positivo com má adesão à terapia antirretroviral, apresenta há 3 semanas cefaleia progressiva, febre baixa, sudorese noturna, apatia e vômitos. Nos últimos dias evoluiu com sonolência, diplopia e rigidez de nuca. Ao exame: paralisia do VI par à direita, sinais meníngeos e Glasgow 13. A ressonância mostra realce meníngeo predominante nas cisternas da base e pequenos infartos lacunares; há hidrocefalia incipiente. Líquor: aspecto claro, pleocitose linfocítica (280 células), proteína muito elevada, glicose baixa (relação liquor/sangue reduzida).",
+      "perguntas": [
+        {
+          "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Hemorragia subaracnóidea",
+            "b": "Meningite bacteriana aguda piogênica",
+            "c": "Meningite viral benigna",
+            "d": "Meningoencefalite tuberculosa"
+          },
+          "correta": "d",
+          "comentario": "O quadro subagudo (semanas) com febre, sintomas constitucionais, acometimento de nervos cranianos (VI par), realce meníngeo BASAL, infartos por vasculite e hidrocefalia, somado ao líquor com pleocitose linfocítica, proteína muito alta e glicose baixa, é típico de meningoencefalite tuberculosa — favorecida pela imunossupressão do HIV. A meningite bacteriana aguda piogênica tem curso de horas a poucos dias, líquor turvo com pleocitose neutrofílica e glicose baixa, sem a cronicidade nem o padrão basal com paresia de pares cranianos. Meningite viral benigna cursa com pleocitose linfocítica, mas proteína apenas discretamente elevada e, sobretudo, glicose NORMAL, com curso autolimitado — a hipoglicorraquia marcada afasta a etiologia viral. Hemorragia subaracnóidea dá cefaleia súbita \"em trovoada\" com sangue à TC/xantocromia, não este quadro insidioso febril. Pérola: meningite de base + paresia de nervos cranianos + hipoglicorraquia + hidrocefalia = pensar em tuberculose (e, no HIV, também criptococo — a diferenciar pela tinta da China/antígeno criptocócico).",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o conjunto de achados liquóricos mais característico do quadro:",
+          "alternativas": {
+            "a": "Predomínio de eosinófilos no líquor",
+            "b": "Pleocitose linfocítica, hiperproteinorraquia acentuada e hipoglicorraquia",
+            "c": "Pleocitose neutrofílica com glicose normal",
+            "d": "Líquor acelular com proteína normal"
+          },
+          "correta": "b",
+          "comentario": "O líquor da tuberculose meníngea mostra tipicamente pleocitose de predomínio linfomononuclear (dezenas a centenas de células), proteína bastante elevada (a hiperproteinorraquia acentuada favorece bloqueio e loculação) e glicose baixa (hipoglicorraquia, com relação liquor/sérica reduzida). A adenosina deaminase (ADA) elevada apoia o diagnóstico, e a confirmação vem de baciloscopia (baixa sensibilidade), cultura (padrão-ouro, porém lenta) e testes moleculares (GeneXpert MTB/RIF). Pleocitose neutrofílica com glicose normal não corresponde ao padrão tuberculoso (glicose baixa) nem ao viral típico; predomínio neutrofílico com glicose baixa sugere piogênica. Líquor acelular com proteína normal afastaria neuroinfecção ativa. Eosinófilos no líquor apontam para parasitoses/neurocisticercose ou causas fúngicas específicas, não tuberculose. Pérola: colher grande volume de líquor e repetir a punção aumenta a chance de confirmação microbiológica; a formação de película/coágulo (\"véu\") ao repouso é um achado clássico descrito.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica mais adequada:",
+          "alternativas": {
+            "a": "Aciclovir intravenoso empírico apenas",
+            "b": "Esquema antituberculose (RIPE) com corticoide",
+            "c": "Anfotericina B e flucitosina",
+            "d": "Ceftriaxona e vancomicina isoladas"
+          },
+          "correta": "b",
+          "comentario": "O tratamento da meningoencefalite tuberculosa é o esquema com rifampicina, isoniazida, pirazinamida e etambutol (RIPE) por período prolongado (fase intensiva seguida de manutenção, geralmente 9-12 meses na forma meníngea), ASSOCIADO a corticoide (dexametasona/prednisona), que reduz mortalidade e sequelas ao controlar a inflamação e a vasculite basal. Deve-se tratar precocemente com base na suspeita, sem aguardar a cultura. Ceftriaxona/vancomicina cobrem meningite bacteriana piogênica, não a tuberculose. Anfotericina B + flucitosina tratam neurocriptococose — diferencial obrigatório no HIV, mas afastado se antígeno criptocócico/tinta da China negativos. Aciclovir empírico cobre encefalite herpética, cujo quadro (febre, crises, acometimento temporal) difere. No paciente com HIV, atenção ao momento de iniciar/otimizar a terapia antirretroviral e ao risco de síndrome inflamatória de reconstituição imune (IRIS); a hidrocefalia pode exigir derivação. Notificação e investigação de contatos completam a conduta de saúde pública.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 151 — Neurotuberculose (p.2063); MS — Guia de Vigilância em Saúde (tuberculose).",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neonatologia / Triagem neonatal (teste do reflexo vermelho) [REAL: SUS-BA R+ Pediatria 2021]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menina, recém-nascida a termo, com peso adequado para a idade, sem intercorrências, apresenta reflexo vermelho bilateral, no Teste de Bruckner (Teste do Olhinho), realizado previamente à alta da Maternidade.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a conduta adequada, quanto ao achado referido:",
+          "alternativas": {
+            "a": "Repetir o teste com o oftalmologista, em uma semana",
+            "b": "Repetir o teste na Maternidade, em 24 horas",
+            "c": "Repetir o teste com o pediatra, em uma semana",
+            "d": "Considerar o teste normal"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O teste do reflexo vermelho (teste do olhinho/Bruckner) é considerado NORMAL quando o reflexo é vermelho, presente, simétrico e bilateral — exatamente o descrito —, indicando meios ópticos transparentes e ausência de obstrução no eixo visual. Nesse cenário não há necessidade de repetir precocemente na maternidade, com o pediatra ou com o oftalmólogo em caráter de urgência; segue-se o rastreamento de rotina da puericultura. O achado ALTERADO (reflexo ausente, assimétrico, esbranquiçado — leucocoria — ou diminuído) é que exige encaminhamento oftalmológico com prioridade, pois pode indicar catarata congênita, retinoblastoma, glaucoma congênito, retinopatia da prematuridade ou outras opacidades. O teste é simples, barato, feito com oftalmoscópio a cerca de 30-50 cm em ambiente escurecido, e integra as triagens neonatais do SUS junto com o teste do pezinho, da orelhinha (emissões otoacústicas) e do coraçãozinho (oximetria pré e pós-ductal). Pérola: leucocoria em criança pequena é retinoblastoma até prova em contrário — nunca postergar.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "O parâmetro principal avaliado no \"teste do olhinho\" é:",
+          "alternativas": {
+            "a": "Integridade dos meios transparentes oculares",
+            "b": "Presença de edema da papila ótica",
+            "c": "Simetria do reflexo luminoso nas córneas",
+            "d": "Integridade da mácula retiniana"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O reflexo vermelho avalia principalmente a transparência/integridade dos meios ópticos (córnea, humor aquoso, cristalino, humor vítreo): a luz atravessa esses meios, reflete na retina e retorna avermelhada. Qualquer opacidade nesse trajeto (catarata congênita, leucomas corneanos, hemorragia vítrea) ou massa que obstrua o eixo (retinoblastoma) altera o reflexo. Não é um exame de fundo de olho detalhado, portanto não avalia diretamente a mácula (isso demanda fundoscopia/OCT) nem a papila óptica (papiledema requer oftalmoscopia dirigida). A simetria do reflexo luminoso nas córneas é avaliada por outro teste — o de Hirschberg —, usado para rastrear estrabismo, não para transparência de meios. Por isso a resposta correta é a integridade dos meios transparentes oculares. Reforço prático: o teste deve ser feito ainda na maternidade e repetido nas consultas de puericultura do primeiro ano, pois algumas condições (como catarata e retinoblastoma) podem se manifestar após o período neonatal.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "O limite máximo de idade indicado como ideal para a realização do \"teste do olhinho\" é:",
+          "alternativas": {
+            "a": "3 meses",
+            "b": "2 meses",
+            "c": "1 mês",
+            "d": "6 meses"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Recomenda-se que o teste do reflexo vermelho seja realizado ainda na maternidade e, idealmente, até os 3 meses de idade quando não feito ao nascer, além de ser repetido nas consultas de rotina do primeiro ano/pré-escola conforme protocolos da SBP e do Ministério da Saúde. O objetivo é detectar precocemente condições ameaçadoras à visão e à vida (catarata congênita, retinoblastoma, glaucoma congênito) em janela que permita intervenção com melhor prognóstico visual e, no caso do retinoblastoma, de sobrevida. Limites de 1 ou 2 meses são mais restritivos do que o recomendado, e 6 meses é tardio demais como \"ideal\" para a triagem inicial. Pérola de prova: a triagem neonatal ampliada do SUS não se resume ao teste do pezinho; o \"olhinho\" (reflexo vermelho), a \"orelhinha\" (emissões otoacústicas evocadas) e o \"coraçãozinho\" (oximetria de pulso pré e pós-ductal) compõem o conjunto — decorar o que cada um rastreia e a janela ideal costuma ser cobrado.\n📚 Leitura sugerida (bloco): SBP — Documento Científico \"Teste do Reflexo Vermelho\"; MS — Caderneta da Criança; MEDGRUPO R+ Pediatria 2024 — Neonatologia (Drive do Vinicius): https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Infecciosas (mpox / varíola dos macacos) [REAL: SUS-BA R+ Pediatria 2023]",
+      "tier": "ALTO",
+      "vinheta": "A varíola dos macacos (mpox) é transmitida pelo vírus monkeypox, do gênero Orthopoxvirus. É considerada uma zoonose viral (o vírus é transmitido aos seres humanos a partir de animais), com sintomas semelhantes aos da varíola, embora clinicamente menos grave. A OMS descreve quadros distintos de sintomas para casos suspeitos, prováveis e confirmados.",
+      "perguntas": [
+        {
+          "enunciado": "Quanto à ocorrência de varíola dos macacos em crianças, pode-se dizer que:",
+          "alternativas": {
+            "a": "Diferentemente da varicela, as lesões crostosas não são infectantes",
+            "b": "Um contato casual na escola, por exemplo, é capaz de transmitir a doença",
+            "c": "É doença autolimitada, cujos sintomas duram de 2 a 4 semanas",
+            "d": "Diferentemente da varicela, as lesões já surgem como vesículas"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A mpox é, na maioria dos casos não complicados e em imunocompetentes, uma doença autolimitada, com evolução dos sintomas ao longo de cerca de 2 a 4 semanas. A opção que afirma que as lesões já surgem como vesículas está incorreta: a mpox evolui em estágios (mácula, pápula, vesícula, pústula e crosta), tipicamente de forma mais sincrônica numa mesma região, ao contrário da varicela, cujas lesões surgem em surtos e coexistem em vários estágios (o clássico polimorfismo regional). A afirmação de que as crostas não são infectantes é falsa: as lesões permanecem potencialmente transmissíveis até a completa reepitelização, e por isso o isolamento se mantém até a queda de todas as crostas. Dizer que um contato casual na escola transmite a doença também é incorreto: a transmissão exige contato próximo e prolongado (pele a pele, secreções respiratórias por exposição prolongada, contato com lesões ou materiais contaminados), não contato casual. Pérola: a linfadenopatia proeminente ajuda a distinguir a mpox da varicela, na qual a adenomegalia costuma ser discreta.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "A realização de exame para confirmar ou descartar a doença deve ser indicada se o quadro cutâneo for acompanhado por:",
+          "alternativas": {
+            "a": "Linfadenopatia, febre acima de 38,5°C, náuseas e prurido generalizado",
+            "b": "Linfadenopatia, febre acima de 38,5°C, cefaleia e dores musculares",
+            "c": "Cefaleia, prurido generalizado, náuseas e dores musculares",
+            "d": "Tontura, febrícula e dor nos locais das lesões"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A investigação laboratorial (PCR para monkeypox em material de lesão) é indicada quando o quadro cutâneo compatível se associa a sinais sistêmicos característicos: linfadenopatia, febre acima de 38,5°C, cefaleia e mialgia (dores musculares). A linfadenopatia é um marcador especialmente útil, pois ajuda a diferenciar a mpox da varicela e de outras exantemáticas, nas quais a adenomegalia é menos proeminente. As opções que trocam cefaleia/mialgia por prurido generalizado e náuseas descrevem sintomas menos específicos e fogem da definição clássica de caso suspeito que motiva a coleta. A alternativa com tontura e apenas febrícula subestima a febre (que costuma ser alta) e omite a linfadenopatia, achado-chave. Assim, o conjunto linfadenopatia + febre alta + cefaleia + mialgia, somado ao quadro cutâneo, é o que deve disparar a testagem. Pérola: a definição de caso e os critérios de testagem seguem notas técnicas do Ministério da Saúde/OMS, periodicamente atualizadas — sempre conferir a versão vigente.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Para definição do caso após exposição a material contaminado, o prazo de contato, de acordo com a OMS, é de no máximo:",
+          "alternativas": {
+            "a": "3 dias, antes do início dos sintomas",
+            "b": "2 semanas, antes do início dos sintomas",
+            "c": "2 dias, antes do início dos sintomas",
+            "d": "1 semana, antes do início dos sintomas"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Para a definição de caso após exposição a material/pessoa contaminada, a janela de contato considerada é de até 1 semana (7 dias) antes do início dos sintomas do caso-fonte, período em que os contatos são identificados. Prazos de 2 semanas superestimam essa janela epidemiológica; 3 dias e 2 dias a subestimam. A vigilância dos contatos inclui automonitoramento de sinais e sintomas por 21 dias a partir da última exposição, com orientação de isolamento caso surjam lesões. As medidas de saúde pública compreendem notificação, rastreamento de contatos e orientação sobre a forma de transmissão (contato próximo e prolongado, não casual). Pérola de prova: a mpox voltou a ser tema quente após os surtos internacionais recentes; dominar a evolução das lesões, o papel da linfadenopatia e as janelas de definição de caso/monitoramento é exatamente o recorte que a banca cobra.\n📚 Leitura sugerida (bloco): MS — Guia/Nota Técnica de Vigilância da mpox (varíola dos macacos); OMS — orientações sobre monkeypox.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nutrição / Alergia à proteína do leite de vaca [REAL: SUS-BA R+ Pediatria 2023]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menina, 6 meses, em aleitamento materno exclusivo, com história de sangramento nas fezes e dificuldade de ganhar peso, é encaminhada ao pediatra. A criança, após excluídas outras possibilidades, teve suspeita de Alergia à Proteína do Leite de Vaca.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o teste diagnóstico a ser realizado, nesse caso:",
+          "alternativas": {
+            "a": "Teste de provocação oral",
+            "b": "Trânsito intestinal contrastado",
+            "c": "Colonoscopia",
+            "d": "Biópsia intestinal"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O padrão-ouro diagnóstico da alergia à proteína do leite de vaca (APLV) é o teste de provocação oral (idealmente duplo-cego controlado por placebo), realizado após um período de dieta de exclusão que leva à melhora dos sintomas: a reintrodução controlada reproduz/confirma a reação. Na prática das formas não IgE-mediadas (como a proctocolite alérgica deste caso — sangue nas fezes em lactente em bom estado, em aleitamento), o diagnóstico é clínico: melhora com exclusão e recidiva na reexposição. Colonoscopia e biópsia intestinal não são necessárias na maioria dos casos e ficam reservadas a apresentações atípicas/graves ou dúvida diagnóstica. Trânsito intestinal contrastado avalia anatomia/obstrução, sem papel na APLV. Vale lembrar que testes de IgE específica/prick test só ajudam nas formas IgE-mediadas (urticária, anafilaxia) e podem ser negativos nas não IgE-mediadas — por isso não substituem a provocação. Pegadinha: não existe exame laboratorial isolado que \"feche\" APLV; a resposta à dieta de exclusão seguida de provocação é o eixo diagnóstico.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Sendo confirmada a suspeita, indique a conduta adequada:",
+          "alternativas": {
+            "a": "Manter aleitamento materno e introduzir novos alimentos, retirando da dieta da mãe leite e derivados",
+            "b": "Excluir o aleitamento materno e usar fórmula de aminoácidos",
+            "c": "Manter aleitamento materno e adiar a introdução de novos alimentos, retirando leite e derivados da dieta materna",
+            "d": "Excluir o aleitamento materno e usar fórmula com proteína hidrolisada"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Na APLV do lactente em aleitamento materno, a conduta é MANTER o aleitamento (que deve ser protegido e estimulado) e retirar leite de vaca e derivados da dieta da MÃE, pois as proteínas passam ao leite materno. Como a criança tem 6 meses, também está no momento de iniciar a alimentação complementar — daí \"introduzir novos alimentos\" (isentos de leite de vaca), sem motivo para adiá-la. As opções de excluir o aleitamento materno estão erradas: só se recorre a fórmula (extensamente hidrolisada como primeira escolha e de aminoácidos nos casos graves/refratários ou anafilaxia) quando NÃO há leite materno disponível — nunca se suspende a amamentação por APLV. A alternativa que mantém o aleitamento mas adia a introdução alimentar erra ao postergar desnecessariamente a alimentação complementar, importante inclusive para o ganho ponderal. Reforço: a dieta de exclusão materna exige orientação nutricional e suplementação de cálcio/vitamina D para a mãe. A maioria evolui bem com essas medidas simples, sem necessidade de fórmula.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a idade na qual a maioria das crianças com alergia à proteína do leite de vaca terá desenvolvido tolerância ao leite:",
+          "alternativas": {
+            "a": "2 anos",
+            "b": "5 anos",
+            "c": "3 anos",
+            "d": "18 meses"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A APLV tem, em geral, bom prognóstico: a maioria das crianças desenvolve tolerância ao leite de vaca por volta dos 3 anos de idade, especialmente nas formas não IgE-mediadas (como a proctocolite alérgica), que costumam resolver mais cedo do que as IgE-mediadas. Por isso reavaliações periódicas com testes de provocação supervisionados são recomendadas para verificar aquisição de tolerância e reintroduzir o alimento assim que seguro, evitando restrições dietéticas desnecessárias e prolongadas. Idades de 18 meses e 2 anos subestimam o tempo médio de resolução para a maioria; 5 anos superestima (aplica-se mais a casos persistentes/IgE-mediados graves). Pérola: a proctocolite alérgica típica — sangue vivo nas fezes de lactente hígido em aleitamento — é benigna, sem repercussão sistêmica, e não deve ser confundida com fissura anal (sem melhora com exclusão) nem com causas cirúrgicas de sangramento; a resposta à retirada do leite da dieta materna confirma e trata.\n📚 Leitura sugerida (bloco): SBP — Consenso Brasileiro sobre Alergia Alimentar; Nutrição em Pediatria na Prática Clínica (Sarni, Drive do Vinicius): https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nefrologia (doença renal crônica / nefropatia de refluxo) [REAL: SUS-BA R+ Pediatria 2025]",
+      "tier": "ALTO",
+      "vinheta": "Menino, 5 anos de idade, foi levado à consulta por apresentar cansaço fácil, palidez, diminuição do apetite e da diurese e \"inchaço\" nas pernas nas últimas semanas. Foi observado que a urina está \"espumosa\". Há alguns meses, apresentou um episódio de infecção urinária, tratado com antibiótico. Ao exame físico, o estado geral está mantido; PA: 120x80 mmHg; há palidez cutâneo-mucosa e discreto edema periférico, principalmente em membros inferiores. Exames laboratoriais: Hemoglobina 9,8 g/dL; Creatinina 2,5 mg/dL; Ureia 65 mg/dL; Urina tipo I: proteinúria ++, hematúria microscópica; Ultrassonografia de rins e vias urinárias: rins de tamanho reduzido, com aumento da ecogenicidade parenquimatosa.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o diagnóstico mais provável para esse caso:",
+          "alternativas": {
+            "a": "Nefrite lúpica",
+            "b": "Insuficiência renal crônica",
+            "c": "Insuficiência renal aguda",
+            "d": "Síndrome nefrótica"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Rins REDUZIDOS de tamanho com aumento da ecogenicidade parenquimatosa, anemia, hipertensão, creatinina elevada e sintomas arrastados (semanas) indicam doença renal CRÔNICA — aqui provavelmente nefropatia de refluxo/cicatricial, sugerida pelo antecedente de infecção urinária. Rins pequenos e hiperecogênicos são marcadores de cronicidade. A síndrome nefrótica se define por proteinúria maciça, hipoalbuminemia e edema importante, com rins de tamanho normal ou aumentados — não rins pequenos com creatinina alta e anemia. Insuficiência renal AGUDA teria instalação em horas/dias, muitas vezes com rins de tamanho normal e sem os marcadores de cronicidade (anemia, rins retraídos, HAS estabelecida). Nefrite lúpica seria incomum nessa idade/sexo e demandaria manifestações sistêmicas e sorologias. Pérola: anemia + HAS + rins pequenos e hiperecogênicos + distúrbio mineral apontam cronicidade; a ITU prévia sugere que a cicatriz renal (nefropatia de refluxo) seja a causa — motivo pelo qual ITU febril no lactente merece investigação de imagem.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Identifique os exames adicionais que devem ser solicitados para melhor avaliar o quadro:",
+          "alternativas": {
+            "a": "Tomografia de abdome e provas de função hepática",
+            "b": "Dosagem de potássio e de albumina séricos e clearance de creatinina",
+            "c": "Gasometria arterial e cintilografia renal",
+            "d": "Biópsia renal e teste de tolerância à glicose"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Na avaliação da doença renal crônica, exames que quantificam a função e as repercussões metabólicas são prioritários: o clearance/estimativa da taxa de filtração glomerular estadia a DRC; o potássio detecta hipercalemia (risco de arritmia); a albumina avalia perdas proteicas e estado nutricional. Isso orienta o estadiamento e o manejo das complicações (anemia, distúrbio mineral-ósseo, acidose, HAS). A gasometria ajuda a documentar acidose metabólica, e a cintilografia renal (DMSA) demonstra cicatrizes, mas o par proposto nessa opção não cobre função e perdas proteicas de forma tão central quanto potássio + albumina + clearance. Biópsia renal tem pouca utilidade em rins já pequenos e cicatriciais (risco alto, baixo rendimento), e teste de tolerância à glicose é irrelevante. Tomografia de abdome e função hepática fogem do foco renal. Pérola: em DRC estabelecida com rins retraídos, prioriza-se estadiar e tratar complicações, não biopsiar.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Nesse caso, a conduta terapêutica a longo prazo deve incluir:",
+          "alternativas": {
+            "a": "Anti-hipertensivos, suplementação de eritropoetina e restrição proteica",
+            "b": "Antivirais e vacinas para prevenção de infecções",
+            "c": "Cirurgia renal corretiva para aumentar a função residual",
+            "d": "Imunossupressores para evitar progressão da doença"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O manejo crônico da DRC é de suporte e nefroproteção: controle rigoroso da pressão arterial (bloqueio do sistema renina-angiotensina com IECA/BRA, que também reduz proteinúria), correção da anemia com eritropoetina e ferro, ajuste dietético (restrição proteica adequada à idade, controle de sódio, fósforo e potássio), manejo do distúrbio mineral-ósseo (vitamina D/quelantes) e da acidose, além de preparo para terapia renal substitutiva quando indicado. Antivirais/vacinas isolados não modificam a progressão (embora a imunização, sobretudo hepatite B e pneumocócica, seja importante no renal crônico). Imunossupressores tratam glomerulopatias imunomediadas ativas, não a nefropatia cicatricial já instalada. Cirurgia \"corretiva\" para \"aumentar função residual\" não existe nesse contexto — o dano cicatricial é irreversível; corrige-se cirurgicamente o refluxo/obstrução para PREVENIR novas lesões, não para recuperar néfrons perdidos. Pérola: prevenir e investigar ITU febril na infância evita justamente a cicatriz que leva à DRC.\n📚 Leitura sugerida (bloco): SBP — Departamento de Nefrologia (DRC na criança); MEDGRUPO R+ Pediatria 2024 — Nefrologia (Drive do Vinicius): https://drive.google.com/file/d/1KuvXkP9naQp1_JIcYrTNEDsoqD5K3DXG/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Reumatologia / Vasculites (doença de Kawasaki) [REAL: SUS-BA R+ Pediatria 2023]",
+      "tier": "MÉDIO",
+      "vinheta": "Menino, 3 anos de idade, é levado à UPA com história de febre alta (chegou a 39,9°C), irritabilidade, hiperemia e congestão ocular bilateral, além de diarreia há cinco dias. Usou amoxicilina por dois dias, sem melhora. Ao exame, encontra-se prostrado, com temperatura de 39,5°C, apresentando adenomegalia cervical bilateral com gânglio maior à esquerda, com 2 cm de diâmetro. Há ressecamento e fissuras em lábios. Observa-se intensa hiperemia em língua. Também é observado eritema em regiões palmares, plantares e em tronco, com algum grau de descamação.",
+      "perguntas": [
+        {
+          "enunciado": "Com base nos dados do caso, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Sarampo",
+            "b": "Escarlatina",
+            "c": "Doença de Kawasaki",
+            "d": "Rubéola"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Febre alta por 5 dias ou mais somada a conjuntivite bilateral não exsudativa, alterações de lábios/cavidade oral (fissuras, língua em framboesa), alterações de extremidades (eritema palmoplantar com descamação), exantema polimorfo e linfadenopatia cervical caracterizam a doença de Kawasaki, uma vasculite febril da infância. São necessários febre ≥5 dias mais 4 dos 5 critérios clínicos (ou menos, nas formas incompletas). Rubéola cursa com exantema maculopapular leve, linfadenopatia retroauricular/occipital e febre baixa, sem os sinais mucocutâneos e a toxemia descritos. Sarampo tem pródromo catarral intenso (tosse, coriza, conjuntivite) e manchas de Koplik, com exantema morbiliforme crânio-caudal — mas a combinação com língua em framboesa e descamação de extremidades favorece Kawasaki. Escarlatina (estreptococo) dá exantema micropapular áspero em \"lixa\", língua em framboesa e palidez perioral, geralmente com faringite — é o principal diferencial, mas a conjuntivite bilateral, o eritema/edema de extremidades e a ausência de resposta ao antibiótico apontam Kawasaki. Pérola: pensar em Kawasaki INCOMPLETO em lactente com febre prolongada sem foco.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Identifique, entre as situações citadas, a que se deve a irritabilidade frequente nessa doença:",
+          "alternativas": {
+            "a": "Febre elevada",
+            "b": "Presença de eritema com prurido",
+            "c": "Odinofagia",
+            "d": "Meningite asséptica"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A irritabilidade acentuada e desproporcional é um achado característico da doença de Kawasaki e atribui-se, em grande parte, à meningite asséptica que frequentemente acompanha a vasculite sistêmica (pleocitose linfocítica no líquor, sem infecção). Esse dado é útil na prática: a criança com Kawasaki costuma estar muito mais irritada do que o esperado para o grau de febre. Odinofagia até pode existir, mas não é a explicação típica da irritabilidade marcante. A febre elevada contribui para o mal-estar, porém não é o fator distintivo que a literatura associa especificamente à irritabilidade do Kawasaki. O exantema do Kawasaki é polimorfo e geralmente NÃO pruriginoso, de modo que \"eritema com prurido\" não se aplica. Pérola de prova: a associação irritabilidade extrema + meningite asséptica + febre prolongada em criança pequena deve levantar Kawasaki; a inflamação sistêmica também explica achados como piúria estéril, artrite e hidropsia de vesícula biliar.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Para avaliar a possível complicação mais grave dessa doença, indique o exame complementar a ser realizado ao diagnóstico:",
+          "alternativas": {
+            "a": "Eletrocardiografia",
+            "b": "Angiografia",
+            "c": "Ecocardiografia",
+            "d": "Eletroencefalografia"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A complicação mais temida do Kawasaki é o comprometimento coronariano (aneurismas de artérias coronárias), e o exame para rastreá-lo e monitorá-lo é a ecocardiografia, realizada ao diagnóstico e repetida em intervalos definidos (p.ex., 1-2 e 4-6 semanas, e conforme risco). A ecocardiografia é não invasiva e adequada à faixa etária. A angiografia coronariana é invasiva e reservada a casos selecionados com aneurismas complexos, não é o rastreio inicial. O eletrocardiograma pode mostrar sinais de isquemia/pericardite, mas não avalia diretamente os aneurismas coronarianos. O eletroencefalograma não tem papel (a meningite asséptica não exige EEG). O tratamento oportuno com imunoglobulina intravenosa em altas doses associada ao ácido acetilsalicílico, idealmente até o 10º dia de doença, reduz drasticamente o risco de aneurismas — daí a importância do diagnóstico precoce. Pérola: Kawasaki é uma das principais causas de cardiopatia adquirida na infância em países desenvolvidos.\n📚 Leitura sugerida (bloco): SBP — Documento Científico sobre Doença de Kawasaki; diretriz AHA de Kawasaki.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Hematologia / Oncologia (leucemia aguda) [REAL: SUS-BA R+ Pediatria 2026]",
+      "tier": "MÉDIO",
+      "vinheta": "Menino, 7 anos de idade, previamente hígido, chega à UPA apresentando dor em membros inferiores há 2 semanas, que o desperta à noite. A mãe refere cansaço fácil e palidez. Nega trauma recente. Ao exame: criança pálida, com equimoses em membros inferiores e aumento discreto de fígado e baço.",
+      "perguntas": [
+        {
+          "enunciado": "Com base na história e no exame físico descritos, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Febre reumática",
+            "b": "Púrpura trombocitopênica idiopática",
+            "c": "Leucemia aguda",
+            "d": "Anemia ferropriva"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A tríade palidez (anemia) + equimoses (plaquetopenia) + hepatoesplenomegalia, somada a dor óssea que desperta à noite em criança previamente hígida, é altamente sugestiva de leucemia aguda — a mais comum na infância é a leucemia linfoblástica aguda. A dor óssea decorre da infiltração medular por blastos. A púrpura trombocitopênica idiopática cursa apenas com plaquetopenia isolada (petéquias/equimoses) em criança em bom estado, SEM anemia, sem visceromegalia e sem dor óssea. A anemia ferropriva explica a palidez, mas não as equimoses, a organomegalia nem a dor óssea noturna. A febre reumática dá artrite migratória, cardite e outros critérios de Jones após faringite estreptocócica, não pancitopenia com visceromegalia. Sinais de alerta de câncer infantil aqui presentes: palidez + sangramento + dor óssea + visceromegalia. Pérola: dor óssea noturna que desperta a criança, associada a citopenias e organomegalia, deve acionar hemograma com plaquetas imediato e avaliação hematológica urgente.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o principal mecanismo fisiopatológico envolvido neste caso:",
+          "alternativas": {
+            "a": "Deficiência de ferro e eritropoiese ineficaz",
+            "b": "Substituição da medula óssea normal por células imaturas",
+            "c": "Proliferação de linfócitos maduros na medula óssea",
+            "d": "Hemólise autoimune com destruição eritrocitária periférica"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Na leucemia aguda, há proliferação clonal de precursores IMATUROS (blastos) que substituem/infiltram a medula óssea normal, causando falência medular: anemia (palidez, fadiga), plaquetopenia (equimoses/sangramento) e neutropenia (infecções) — exatamente o quadro. A proliferação de linfócitos MADUROS caracteriza as leucemias crônicas (raras na criança), não a aguda. Hemólise autoimune periférica explicaria anemia com reticulocitose e Coombs positivo, mas não a plaquetopenia com blastos nem a dor óssea. Deficiência de ferro causa anemia microcítica por eritropoiese deficiente, sem blastos, sem plaquetopenia e sem organomegalia. A confirmação diagnóstica se dá pelo hemograma (citopenias, blastos no sangue periférico) e, sobretudo, pelo mielograma/imunofenotipagem, que define a linhagem (linfoide vs mieloide) e orienta o tratamento. Pérola: a presença de blastos no esfregaço é o achado que direciona ao aspirado de medula óssea.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica preconizada em situações semelhantes:",
+          "alternativas": {
+            "a": "Corticosteroide e analgésicos isolados",
+            "b": "Anti-inflamatório não hormonal",
+            "c": "Reposição de ferro",
+            "d": "Quimioterapia"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O tratamento da leucemia aguda na criança é a quimioterapia sistêmica em protocolos de múltiplas fases (indução, consolidação, manutenção), eventualmente com radioterapia/transplante de medula em situações específicas; o corticoide é parte do esquema de indução da leucemia linfoblástica, mas isoladamente não trata a doença. Reposição de ferro é conduta da anemia ferropriva, não da leucemia. Anti-inflamatório não hormonal trataria erroneamente a \"dor de crescimento\" ou artralgias, mascarando o diagnóstico. Corticoide + analgésicos isolados não constituem tratamento curativo e podem, inclusive, alterar o mielograma se usados antes da confirmação — por isso NÃO se deve iniciar corticoide antes de coletar a medula quando há suspeita de leucemia. A leucemia linfoblástica aguda pediátrica tem altas taxas de cura com tratamento adequado e precoce, o que reforça o valor do reconhecimento rápido dos sinais de alerta e do encaminhamento à oncologia pediátrica.\n📚 Leitura sugerida (bloco): INCA/MS — Diagnóstico precoce do câncer na criança e no adolescente; SBP — Oncologia pediátrica (sinais de alerta).",
+          "dificuldade": "facil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Saúde Coletiva / APS / Imunização (hesitação vacinal e vigilância)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Em uma Unidade Básica de Saúde, a equipe da Estratégia Saúde da Família identifica queda progressiva da cobertura vacinal na área adscrita, com aumento de faltosos ao calendário infantil. Durante uma consulta de puericultura, a mãe de um lactente de 8 meses recusa as vacinas do dia, alegando ter lido em redes sociais que \"vacinas causam autismo\" e que \"doenças como o sarampo não existem mais no Brasil\". A criança está, no momento, sem contraindicações à vacinação.",
+      "perguntas": [
+        {
+          "enunciado": "Sobre o fenômeno descrito na área adscrita, é correto afirmar que:",
+          "alternativas": {
+            "a": "A queda da cobertura vacinal aumenta o risco de reintrodução de doenças imunopreveníveis",
+            "b": "A imunidade de rebanho independe da cobertura vacinal alcançada",
+            "c": "A recusa individual não altera o risco coletivo enquanto houver saneamento adequado",
+            "d": "O sarampo está erradicado, o que dispensa a manutenção de altas coberturas"
+          },
+          "correta": "a",
+          "comentario": "A queda da cobertura vacinal reduz a imunidade coletiva (de rebanho) e reabre espaço para a reintrodução e circulação de doenças imunopreveníveis — o sarampo é o exemplo emblemático, com surtos recentes ligados a bolsões de baixa cobertura, tendo o Brasil inclusive perdido e depois readquirido a certificação de eliminação. A imunidade de rebanho DEPENDE diretamente da proporção de imunizados: para agentes muito transmissíveis, como o sarampo, é necessária cobertura muito alta (em torno de 95%) para interromper a transmissão. Dizer que o sarampo está \"erradicado\" é incorreto — não está erradicado no mundo (erradicada, até agora, só a varíola humana), e a manutenção de altas coberturas é justamente o que evita seu retorno. O saneamento não substitui a vacinação para doenças de transmissão respiratória como sarampo, coqueluche e difteria. Pérola de saúde pública: cobertura vacinal é indicador sensível e a hesitação vacinal foi listada pela OMS entre as principais ameaças à saúde global — combatê-la é ação prioritária da APS.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Indique a estratégia mais adequada da Estratégia Saúde da Família para enfrentar o problema de cobertura na área:",
+          "alternativas": {
+            "a": "Busca ativa de faltosos pelos agentes comunitários e monitoramento do calendário por microárea",
+            "b": "Encaminhar todos os faltosos ao serviço de referência secundária",
+            "c": "Condicionar benefícios sociais à vacinação, como principal medida",
+            "d": "Aguardar a demanda espontânea das famílias à sala de vacina"
+          },
+          "correta": "a",
+          "comentario": "A resposta central da APS à baixa cobertura é ativa e territorial: os agentes comunitários de saúde realizam busca ativa dos faltosos (visitas domiciliares, aprazamento), e a equipe monitora o calendário vacinal por microárea, identificando bolsões de suscetíveis, corrigindo oportunidades perdidas de vacinação e organizando ações extramuros (escolas, creches). Aguardar a demanda espontânea é justamente o que perpetua a queda — a APS deve ir até a comunidade. Condicionar benefícios sociais à vacinação existe como componente de alguns programas (ex.: acompanhamento de condicionalidades), mas não é a \"principal medida\" técnica de enfrentamento e não substitui a educação em saúde e a busca ativa; usá-lo isoladamente é insuficiente e potencialmente coercitivo. Encaminhar todos os faltosos à atenção secundária é inadequado e sobrecarrega a rede — a vacinação de rotina é atribuição da própria APS. Pérola: registrar e vigiar a cobertura por microárea e agir sobre oportunidades perdidas (vacinar na consulta, sem adiar sem necessidade) são medidas de alto impacto.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Diante da recusa vacinal materna, sem contraindicações na criança, a conduta ética e técnica mais adequada é:",
+          "alternativas": {
+            "a": "Notificar imediatamente o Conselho Tutelar por negligência, como primeira medida",
+            "b": "Acolher a dúvida, prestar informação baseada em evidência e registrar, mantendo o vínculo e reofertando a vacinação",
+            "c": "Respeitar a recusa e não reabordar o tema em consultas futuras",
+            "d": "Vacinar a criança sem informar a mãe, por ser medida de saúde pública"
+          },
+          "correta": "b",
+          "comentario": "Diante da hesitação vacinal, a conduta baseada em evidência e em ética é o acolhimento não confrontador: escutar e validar a preocupação, desfazer mitos com informação de qualidade (a suposta associação entre vacina e autismo originou-se de estudo fraudulento, retratado, e foi refutada por ampla evidência), esclarecer o risco real das doenças imunopreveníveis, registrar a orientação e a recusa em prontuário e MANTER o vínculo, reofertando a vacinação nas próximas oportunidades (a decisão pode mudar com diálogo continuado). Vacinar a criança sem informar/consentir a mãe viola a autonomia e o dever de informação — inadequado. Notificar o Conselho Tutelar como PRIMEIRA medida é desproporcional: a recusa isolada de uma vacina, sem outros sinais de negligência, não configura, de imediato, maus-tratos; a comunicação aos órgãos de proteção é reservada a recusas reiteradas que exponham a criança a risco grave, após esgotadas as abordagens educativas. Simplesmente respeitar a recusa e nunca mais tocar no assunto abandona a criança ao risco — o correto é reabordar com respeito. Pérola: comunicação empática e persistente é a intervenção mais eficaz contra a hesitação vacinal.\n📚 Leitura sugerida (bloco): MS — Programa Nacional de Imunizações e Calendário Nacional de Vacinação; SBP — Manual de Imunizações; MS — Manual de Vigilância de Eventos Adversos Pós-Vacinação.",
+          "dificuldade": "facil"
+        }
+      ]
+    }
+  ]
+}
