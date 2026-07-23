@@ -1,10 +1,10 @@
 {
- "geradoEm": "2026-07-20T09:10:09.660Z",
- "tentativasLidas": 21,
+ "geradoEm": "2026-07-23T09:06:12.680Z",
+ "tentativasLidas": 22,
  "usuarios": {
   "Vinicius": {
-   "simulados": 10,
-   "totalQuestoes": 450,
+   "simulados": 11,
+   "totalQuestoes": 495,
    "percentualGeral": 77,
    "temasFracos": [
     {
@@ -154,6 +154,14 @@
      "taxaErro": 100
     },
     {
+     "tema": "Neurologia — Vertigem e Síndromes Vestibulares (schwannoma vestibular / ângulo pontocerebelar)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-19",
+     "taxaErro": 100
+    },
+    {
      "tema": "Neurologia — Neuropediatria específica (síndrome de West)",
      "tier": "MÉDIO",
      "total": 3,
@@ -266,6 +274,14 @@
      "taxaErro": 33
     },
     {
+     "tema": "Pediatria — Oncologia (retinoblastoma)",
+     "tier": "MÉDIO",
+     "total": 6,
+     "erros": 2,
+     "ultimoErro": "2026-07-19",
+     "taxaErro": 33
+    },
+    {
      "tema": "Neurologia — Epilepsia (crise focal temporal mesial)",
      "tier": "ESSENCIAL",
      "total": 3,
@@ -372,14 +388,6 @@
     {
      "tema": "Pediatria — Saúde Coletiva e APS (Marco Legal da Primeira Infância)",
      "tier": "ESSENCIAL",
-     "total": 3,
-     "erros": 1,
-     "ultimoErro": "2026-07-12",
-     "taxaErro": 33
-    },
-    {
-     "tema": "Pediatria — Oncologia (retinoblastoma)",
-     "tier": "MÉDIO",
      "total": 3,
      "erros": 1,
      "ultimoErro": "2026-07-12",
@@ -618,11 +626,59 @@
      "taxaErro": 33
     },
     {
+     "tema": "Pediatria — Neonatologia / Infecções congênitas (citomegalovírus congênito)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-19",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Gastroenterologia / Hepatologia (hepatite viral aguda)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-19",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Imunologia / Imunodeficiências (deficiência seletiva de IgA)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-19",
+     "taxaErro": 33
+    },
+    {
      "tema": "Neurologia — Doença do Neurônio Motor (ELA)",
      "tier": "ALTO",
      "total": 6,
      "erros": 1,
      "ultimoErro": "2026-07-13",
+     "taxaErro": 17
+    },
+    {
+     "tema": "Pediatria — Reumatologia (artrite idiopática juvenil sistêmica)",
+     "tier": "MÉDIO",
+     "total": 6,
+     "erros": 1,
+     "ultimoErro": "2026-07-19",
+     "taxaErro": 17
+    },
+    {
+     "tema": "Pediatria — Cardiologia (comunicação interventricular)",
+     "tier": "MÉDIO",
+     "total": 6,
+     "erros": 1,
+     "ultimoErro": "2026-07-19",
+     "taxaErro": 17
+    },
+    {
+     "tema": "Neurologia — Doença Cerebrovascular (dissecção arterial cervical no jovem)",
+     "tier": "ESSENCIAL",
+     "total": 6,
+     "erros": 1,
+     "ultimoErro": "2026-07-19",
      "taxaErro": 17
     },
     {
@@ -764,7 +820,7 @@
     {
      "tema": "Neurologia — Epilepsia (estado de mal epiléptico)",
      "tier": "ESSENCIAL",
-     "total": 3,
+     "total": 6,
      "erros": 0,
      "ultimoErro": null,
      "taxaErro": 0
@@ -828,22 +884,6 @@
     {
      "tema": "Pediatria — Infecciosas regionais (leishmaniose visceral)",
      "tier": "ALTO",
-     "total": 3,
-     "erros": 0,
-     "ultimoErro": null,
-     "taxaErro": 0
-    },
-    {
-     "tema": "Pediatria — Reumatologia (artrite idiopática juvenil sistêmica)",
-     "tier": "MÉDIO",
-     "total": 3,
-     "erros": 0,
-     "ultimoErro": null,
-     "taxaErro": 0
-    },
-    {
-     "tema": "Pediatria — Cardiologia (comunicação interventricular)",
-     "tier": "MÉDIO",
      "total": 3,
      "erros": 0,
      "ultimoErro": null,
@@ -1122,17 +1162,9 @@
      "taxaErro": 0
     },
     {
-     "tema": "Neurologia — Doença Cerebrovascular (dissecção arterial cervical no jovem)",
-     "tier": "ESSENCIAL",
-     "total": 3,
-     "erros": 0,
-     "ultimoErro": null,
-     "taxaErro": 0
-    },
-    {
      "tema": "Neurologia — Transtornos do Movimento (doença de Huntington)",
      "tier": "ESSENCIAL",
-     "total": 3,
+     "total": 6,
      "erros": 0,
      "ultimoErro": null,
      "taxaErro": 0
@@ -1216,6 +1248,46 @@
      "erros": 0,
      "ultimoErro": null,
      "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (doença associada ao anticorpo anti-MOG / MOGAD)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Neuroinfecção (abscesso cerebral)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Cefaleias (cefaleia por uso excessivo de medicação)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas (morte encefálica)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Nutrição / Aleitamento materno e retorno ao trabalho",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
     }
    ],
    "porDificuldade": [
@@ -1227,21 +1299,21 @@
     },
     {
      "dificuldade": "moderada",
-     "total": 208,
-     "erros": 47,
-     "taxaErro": 23
+     "total": 231,
+     "erros": 51,
+     "taxaErro": 22
     },
     {
      "dificuldade": "dificil",
-     "total": 139,
-     "erros": 47,
-     "taxaErro": 34
+     "total": 157,
+     "erros": 52,
+     "taxaErro": 33
     },
     {
      "dificuldade": "facil",
-     "total": 58,
-     "erros": 8,
-     "taxaErro": 14
+     "total": 62,
+     "erros": 9,
+     "taxaErro": 15
     }
    ]
   },
