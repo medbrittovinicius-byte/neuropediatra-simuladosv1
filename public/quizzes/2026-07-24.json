@@ -1,0 +1,651 @@
+{
+ "date": "2026-07-24",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (síndrome de Ramsay Hunt / herpes-zóster ótico) [RE ranking unificado #1]",
+   "tier": "ALTO",
+   "vinheta": "Homem de 63 anos, diabético, procura a emergência por vertigem rotatória intensa, náuseas e desequilíbrio iniciados há 2 dias, acompanhados de otalgia esquerda e queda do canto da boca. No dia anterior notou vesículas dolorosas no pavilhão auricular esquerdo. Ao exame: paralisia facial periférica completa à esquerda (incapaz de fechar o olho e franzir a testa), vesículas agrupadas sobre base eritematosa no conduto auditivo externo e concha auricular esquerdos, hipoacusia à esquerda e nistagmo horizonto-rotatório espontâneo batendo para a direita. Head-impulse test positivo à esquerda; sem outros déficits focais.",
+   "perguntas": [
+    {
+     "enunciado": "Assinale o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Neurite vestibular isolada",
+      "b": "Paralisia de Bell idiopática",
+      "c": "AVC de território da AICA",
+      "d": "Síndrome de Ramsay Hunt (herpes-zóster ótico)"
+     },
+     "correta": "d",
+     "comentario": "A tríade paralisia facial periférica + vesículas herpéticas no conduto/concha auricular + acometimento vestibulococlear (vertigem e hipoacusia) define a síndrome de Ramsay Hunt, causada pela reativação do vírus varicela-zóster no gânglio geniculado do VII par, com propagação ao VIII par no meato acústico interno. O head-impulse positivo e o nistagmo unidirecional indicam síndrome vestibular periférica, coerente com neurite do nervo vestibular por contiguidade. A paralisia de Bell é diagnóstico de exclusão e NÃO cursa com vesículas nem hipoacusia/vertigem tão proeminentes. A neurite vestibular isolada explicaria a vertigem, mas não a paralisia facial nem as vesículas. AVC de AICA pode dar vertigem, surdez e paresia facial, porém a paresia facial seria de padrão variável e, sobretudo, não há vesículas herpéticas nem otalgia zosteriforme — além disso o head-impulse costuma ser NORMAL no AVC (padrão central). Pérola: o zóster ótico tem pior prognóstico de recuperação facial que a paralisia de Bell.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "O achado que MELHOR distingue esta condição de uma síndrome vestibular central (ex.: AVC de fossa posterior) é:",
+     "alternativas": {
+      "a": "Head-impulse test positivo (sacada de correção) com nistagmo unidirecional",
+      "b": "Skew deviation e ataxia axial desproporcional",
+      "c": "Nistagmo que muda de direção com o olhar e head-impulse normal",
+      "d": "Preferência de queda para o lado oposto ao nistagmo"
+     },
+     "correta": "a",
+     "comentario": "No protocolo HINTS, o padrão PERIFÉRICO — esperado no Ramsay Hunt — é head-impulse ANORMAL (positivo, com sacada de refixação), nistagmo unidirecional que não muda de direção e ausência de skew. Já os sinais que apontam para causa CENTRAL, e que NÃO devem estar presentes aqui, são: head-impulse normal, nistagmo que muda de direção conforme a direção do olhar e skew deviation (desvio vertical à cobertura alternada). A alternativa correta descreve o padrão periférico. A opção do nistagmo que muda de direção com olhar + head-impulse normal descreve justamente o padrão CENTRAL (o oposto do caso). Skew deviation e ataxia axial desproporcional são sinais centrais. A regra mnemônica é 'INFARCT' (Impulse Normal, Fast-phase Alternating, Refixation on Cover Test = central); a presença de head-impulse positivo tranquiliza a favor de periférico, mas atenção: em idoso diabético sempre pesar neuroimagem se qualquer sinal central.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "A conduta terapêutica mais adequada é:",
+     "alternativas": {
+      "a": "Apenas corticoide oral em dose alta",
+      "b": "Reabilitação vestibular isolada, sem antivirais",
+      "c": "Penicilina benzatina intramuscular",
+      "d": "Aciclovir/valaciclovir sistêmico e corticoide"
+     },
+     "correta": "d",
+     "comentario": "[Neurologia] O tratamento do herpes-zóster ótico combina antiviral sistêmico (aciclovir ou, preferencialmente pela biodisponibilidade, valaciclovir/fanciclovir) com corticoide, idealmente iniciado nas primeiras 72 horas para maximizar a recuperação da função facial e reduzir a neuralgia pós-herpética. Corticoide isolado é o tratamento da paralisia de Bell, mas aqui há infecção viral ativa — omitir o antiviral piora o prognóstico. Penicilina benzatina trata sífilis/estreptococcia, sem papel na infecção por varicela-zóster. A reabilitação vestibular é adjuvante útil para o desequilíbrio residual, mas não substitui o tratamento etiológico na fase aguda. Cuidados oftalmológicos de proteção corneana (lubrificação, oclusão noturna) são essenciais pela lagoftalmia. Prognóstico: recuperação facial completa em torno de 50% quando tratado precocemente, bem menor que na paralisia de Bell.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 135 — Síndrome Vestibular Aguda; e Merritt (13ª ed.), Seção 2 — Tontura, Vertigem e Perda Auditiva.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroimunologia (encefalite de tronco de Bickerstaff / espectro anti-GQ1b) [RE ranking unificado #2]",
+   "tier": "ALTO",
+   "vinheta": "Mulher de 29 anos, previamente hígida, apresenta, 10 dias após um quadro diarreico, evolução subaguda (5 dias) de visão dupla, marcha ebriosa e sonolência progressiva. Ao exame: sonolenta mas despertável, oftalmoparesia bilateral com ptose, ataxia apendicular e de marcha, arreflexia global e resposta plantar indiferente. Força preservada. Ressonância de encéfalo com discreta hiperintensidade em T2/FLAIR no tegmento pontino; líquor com dissociação proteíno-citológica leve.",
+   "perguntas": [
+    {
+     "enunciado": "O diagnóstico mais provável é:",
+     "alternativas": {
+      "a": "Encefalite anti-receptor de NMDA",
+      "b": "Trombose de artéria basilar",
+      "c": "Encefalite de Bickerstaff (espectro anti-GQ1b)",
+      "d": "Esclerose múltipla, surto de tronco"
+     },
+     "correta": "c",
+     "comentario": "A tríade oftalmoplegia + ataxia + alteração do nível de consciência (encefalopatia), precedida por infecção e com arreflexia, caracteriza a encefalite de tronco de Bickerstaff, do espectro dos anticorpos anti-GQ1b — o mesmo continuum da síndrome de Miller-Fisher (oftalmoplegia + ataxia + arreflexia, porém SEM rebaixamento) e do Guillain-Barré. O gatilho infeccioso (diarreia, muitas vezes por Campylobacter) e a dissociação proteíno-citológica reforçam a natureza pós-infecciosa/autoimune. Esclerose múltipla causa surtos de tronco, mas raramente rebaixa a consciência de forma difusa e não cursa com arreflexia global nem dissociação proteíno-citológica. A encefalite anti-NMDA cursa com sintomas psiquiátricos, discinesias orofaciais e crises, não com oftalmoplegia+arreflexia pós-diarreia. A trombose de basilar é o principal diferencial 'não perder', mas tem instalação aguda, sinais piramidais/tetraparesia e restrição à difusão na RM — a evolução subaguda com arreflexia e hiperssinal tegmentar favorece Bickerstaff.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "O anticorpo tipicamente associado a esta condição é:",
+     "alternativas": {
+      "a": "Anti-MOG",
+      "b": "Anti-GQ1b",
+      "c": "Anti-Hu",
+      "d": "Anti-aquaporina-4 (anti-AQP4)"
+     },
+     "correta": "b",
+     "comentario": "O autoanticorpo anti-GQ1b (contra o gangliosídeo GQ1b, ricamente expresso na mielina dos nervos oculomotores e em neurônios do tronco) é o marcador do espectro Miller-Fisher/Bickerstaff, positivo na maioria dos casos e explicando a predileção por oftalmoplegia. Anti-AQP4 define o transtorno do espectro da neuromielite óptica (neurite óptica + mielite longitudinalmente extensa), não este quadro. Anti-MOG associa-se a MOGAD (neurite óptica bilateral, ADEM-like), também distinto. Anti-Hu é anticorpo onconeural intracelular da encefalite límbica paraneoplásica por câncer de pequenas células — quadro de encefalopatia límbica com neoplasia oculta, não a romboencefalite pós-infecciosa aqui descrita. Diferenciar esses anticorpos é exatamente o 'ângulo da banca' em neuroimunologia; a chave é ligar oftalmoplegia + ataxia + arreflexia ao GQ1b.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "A abordagem terapêutica de primeira linha é:",
+     "alternativas": {
+      "a": "Trombólise intravenosa com alteplase",
+      "b": "Fingolimode oral de manutenção",
+      "c": "Aciclovir intravenoso empírico como tratamento definitivo",
+      "d": "Imunoglobulina intravenosa ou plasmaférese"
+     },
+     "correta": "d",
+     "comentario": "Por pertencer ao espectro do Guillain-Barré/Miller-Fisher, o tratamento imunomodulador de primeira linha é imunoglobulina intravenosa (IVIg) ou plasmaférese, com suporte em unidade monitorizada pelo risco de rebaixamento e disautonomia. O prognóstico costuma ser bom, com recuperação em semanas a meses. Aciclovir empírico é razoável ENQUANTO se exclui encefalite herpética, mas não é o tratamento definitivo desta entidade autoimune — a pista de arreflexia, gatilho diarreico e anti-GQ1b afasta HSV. Trombólise é conduta de AVC isquêmico agudo (o diferencial da basilar), inaplicável e potencialmente danosa aqui. Fingolimode é modificador de doença da esclerose múltipla, sem papel no espectro anti-GQ1b. Corticoide, isoladamente, tem eficácia limitada nesse espectro (diferente do que ocorre em surtos de EM/NMO).\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 90 — Encefalites Autoimunes e Síndromes Paraneoplásicas; e cap. 119 — Síndrome de Guillain-Barré.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroinfecção (neurocisticercose parenquimatosa) [RE cota individual/3º do ranking unificado]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 34 anos, procedente de zona rural do interior da Bahia, é trazido após primeira crise tônico-clônica generalizada testemunhada. Sem febre, sem cefaleia importante, exame neurológico normal no pós-ictal. Tomografia de crânio mostra uma lesão nodular única de ~10 mm no parênquima frontal, com pequeno ponto hiperdenso central (escólex) e discreto realce anelar após contraste, cercada por leve edema.",
+   "perguntas": [
+    {
+     "enunciado": "O diagnóstico mais provável para a lesão é:",
+     "alternativas": {
+      "a": "Neurocisticercose parenquimatosa (cisto único com escólex)",
+      "b": "Abscesso cerebral piogênico",
+      "c": "Tuberculoma",
+      "d": "Metástase cerebral única"
+     },
+     "correta": "a",
+     "comentario": "Em paciente jovem de área endêmica com PRIMEIRA crise epiléptica e imagem de lesão cística única com escólex visível ('cisto com ponto interno') e realce anelar leve, o diagnóstico mais provável é neurocisticercose parenquimatosa — a causa mais comum de epilepsia adquirida em regiões endêmicas do Brasil. O escólex é o achado que praticamente sela o diagnóstico. Abscesso piogênico cursa com quadro infeccioso agudo (febre, cefaleia, foco), realce anelar espesso com restrição à difusão central e evolução rápida — não combina com exame normal e escólex. Metástase única em jovem sem neoplasia conhecida é improvável e não tem escólex; costuma ter edema desproporcional. Tuberculoma é diferencial real em endêmicos, mas tende a realce nodular/sólido sem escólex, muitas vezes com evidência de tuberculose sistêmica. A presença do escólex é a pegadinha discriminadora.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Sobre a investigação/estadiamento, é correto afirmar:",
+     "alternativas": {
+      "a": "A fase e a atividade do cisto (vesicular, coloidal, calcificado) orientam a conduta",
+      "b": "A calcificação isolada indica doença ativa e obriga albendazol",
+      "c": "A sorologia negativa exclui o diagnóstico",
+      "d": "O tratamento antiparasitário está sempre indicado, independentemente da fase"
+     },
+     "correta": "a",
+     "comentario": "A conduta na neurocisticercose depende do ESTÁGIO evolutivo do cisto na neuroimagem: vesicular (viável), coloidal/granular-nodular (em degeneração, muito epileptogênico) e calcificado (morto/inativo). Ressonância ajuda a caracterizar a fase e contar as lesões. Não é verdade que o antiparasitário esteja SEMPRE indicado: cistos calcificados (inativos) não se beneficiam de albendazol, e formas com muitos cistos ou hipertensão intracraniana exigem cautela (risco de exacerbação inflamatória). A sorologia (ELISA/EITB) tem sensibilidade limitada, sobretudo na lesão única — sorologia negativa NÃO exclui o diagnóstico, que é fundamentalmente clínico-radiológico. A calcificação isolada representa doença inativa e, por si só, não indica antiparasitário — apenas controle das crises. Reconhecer a fase evita tratar (ou deixar de tratar) erroneamente.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "A conduta terapêutica mais adequada neste caso (cisto único viável, com edema) inclui:",
+     "alternativas": {
+      "a": "Neurocirurgia de urgência para exérese do cisto",
+      "b": "Antiparasitário (albendazol) com corticoide associado e anticonvulsivante",
+      "c": "Apenas anticonvulsivante, sem qualquer outra medida",
+      "d": "Antibioticoterapia de amplo espectro por 6 semanas"
+     },
+     "correta": "b",
+     "comentario": "[Neurologia] Para o cisto parenquimatoso único/viável com edema perilesional, a conduta recomendada combina antiparasitário (albendazol, eventualmente associado a praziquantel em casos selecionados) SEMPRE sob cobertura de corticoide, para conter a resposta inflamatória desencadeada pela morte do parasita, além de anticonvulsivante para controle das crises. Tratar só a crise, sem considerar o cisto viável com edema, deixa de abordar a lesão ativa. Cirurgia não é primeira linha para lesão parenquimatosa pequena e acessível ao tratamento clínico — reserva-se a formas com hidrocefalia/cistos intraventriculares ou racemosas. Antibiótico de amplo espectro trataria abscesso piogênico, não cisticercose. Detalhe de prova: o corticoide DEVE preceder/acompanhar o antiparasitário; a neuroimagem é reavaliada em ~3-6 meses; e sempre rastrear hidrocefalia e lesões de localização perigosa antes de iniciar o antiparasitário.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 145 — Neurocisticercose; e Merritt (13ª ed.), Seção 9 — Infecções do SNC.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias (cefaleia hípnica / 'cefaleia do despertador')",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 68 anos relata, há 4 meses, cefaleia que a desperta do sono SEMPRE por volta das 3h da manhã, de intensidade moderada, difusa, sem lacrimejamento, hiperemia conjuntival, congestão nasal ou agitação. A dor dura cerca de 60 minutos, melhora se ela se levanta e toma um café, e ocorre quase todas as noites. Exame neurológico normal; pressão arterial controlada; ressonância de encéfalo sem lesões.",
+   "perguntas": [
+    {
+     "enunciado": "O diagnóstico mais provável é:",
+     "alternativas": {
+      "a": "Cefaleia em salvas",
+      "b": "Cefaleia hípnica",
+      "c": "Hipertensão intracraniana idiopática",
+      "d": "Hemicrania paroxística"
+     },
+     "correta": "b",
+     "comentario": "Cefaleia estritamente relacionada ao sono, que desperta o paciente em horário fixo, em idoso (>50 anos), difusa/bilateral, sem sinais autonômicos e com exame e neuroimagem normais, é típica de cefaleia hípnica ('alarm-clock headache'). O critério de frequência é ≥10 dias/mês por >3 meses, com crises de 15 min a 4 h após despertar. A cefaleia em salvas também acorda o paciente, mas é estritamente unilateral, excruciante, com intensos sinais autonômicos (lacrimejamento, congestão, ptose) e agitação — ausentes aqui. A hemicrania paroxística é unilateral, breve (2-30 min), com sinais autonômicos e resposta absoluta à indometacina. A hipertensão intracraniana idiopática ocorre tipicamente em mulher jovem obesa, com papiledema e cefaleia que piora ao deitar — o oposto (esta melhora ao levantar) e a idade não combinam. Sempre excluir causa secundária (HAS noturna, apneia, lesão expansiva) antes de firmar o diagnóstico primário.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Um passo obrigatório antes de firmar este diagnóstico primário é:",
+     "alternativas": {
+      "a": "Excluir causas secundárias (neuroimagem, HAS noturna, apneia do sono)",
+      "b": "Solicitar biópsia de artéria temporal de rotina",
+      "c": "Prescrever oxigênio a 100% para teste terapêutico",
+      "d": "Iniciar anticoagulação empírica"
+     },
+     "correta": "a",
+     "comentario": "A cefaleia hípnica é diagnóstico de EXCLUSÃO: por surgir em idosos e ter relação com o sono, é mandatório afastar causas secundárias — lesão expansiva/hipertensão intracraniana (neuroimagem, já normal aqui), hipertensão arterial noturna, apneia obstrutiva do sono e, na faixa etária, arterite de células gigantes se houver sintomas sugestivos. Só então se firma a entidade primária. Biópsia de artéria temporal não é rotina — indica-se apenas se houver suspeita clínica de arterite (claudicação de mandíbula, VHS elevado, dor temporal, alterações visuais), ausentes no caso. Oxigênio a 100% é tratamento abortivo da cefaleia em salvas, não da hípnica. Anticoagulação não tem qualquer papel aqui e exporia a paciente a risco. A abordagem correta é confirmar exames de exclusão e caracterizar o padrão temporal.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "O tratamento profilático de primeira linha classicamente indicado é:",
+     "alternativas": {
+      "a": "Prednisona em dose alta por 30 dias",
+      "b": "Sumatriptano subcutâneo abortivo",
+      "c": "Topiramato em doses altas",
+      "d": "Cafeína ao deitar ou lítio"
+     },
+     "correta": "d",
+     "comentario": "A profilaxia clássica da cefaleia hípnica é a cafeína (uma xícara de café forte ou comprimido de cafeína) ao deitar — curiosamente sem prejudicar o sono nesses pacientes — e/ou o carbonato de lítio, este último a opção mais consagrada quando a cafeína falha, exigindo monitorização de níveis séricos e função tireoidiana/renal. Indometacina e melatonina também têm relatos de eficácia. O sumatriptano subcutâneo é abortivo da enxaqueca e da salvas, mas o padrão frequente e noturno da hípnica torna o tratamento agudo pouco prático — prefere-se profilaxia. Corticoide em curso prolongado não é a base do tratamento e traz efeitos adversos relevantes no idoso. Topiramato em doses altas é profilaxia de enxaqueca, não a primeira escolha aqui. Pérola: 'idoso + cefaleia que só vem dormindo, em horário fixo, sem sinais autonômicos → pense em hípnica e trate com cafeína/lítio'.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 44 — Cefaleias em Situações Especiais (idoso); classificação ICHD-3, item 4.9 (cefaleia hípnica).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Junção Neuromuscular (botulismo alimentar)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Casal adulto dá entrada com quadro instalado em 24 horas após consumo de conserva caseira de palmito. Ambos com visão borrada, diplopia, ptose bilateral, boca seca e dificuldade para engolir e falar, evoluindo com fraqueza descendente para os membros superiores. Sem febre, sensibilidade preservada, sem alteração do nível de consciência. Pupilas midriáticas e pouco reativas; reflexos diminuídos.",
+   "perguntas": [
+    {
+     "enunciado": "O diagnóstico mais provável é:",
+     "alternativas": {
+      "a": "Botulismo alimentar",
+      "b": "Síndrome de Guillain-Barré",
+      "c": "Intoxicação organofosforada",
+      "d": "Crise miastênica"
+     },
+     "correta": "a",
+     "comentario": "Paralisia flácida DESCENDENTE, simétrica, iniciada por sintomas bulbares e oculares (diplopia, ptose, disfagia, disartria) com disautonomia colinérgica (boca seca, midríase, íleo), sem febre e sem alteração sensitiva ou de consciência, após ingestão de conserva caseira e acometendo mais de uma pessoa, é o quadro clássico do botulismo alimentar (toxina do Clostridium botulinum). Guillain-Barré causa paralisia tipicamente ASCENDENTE com arreflexia e frequente dissociação proteíno-citológica, geralmente sem midríase fixa. A crise miastênica flutua e não causa midríase (a pupila é poupada na miastenia) nem disautonomia, além de não haver surto alimentar coletivo. A intoxicação por organofosforado dá síndrome COLINÉRGICA de excesso — miose, sialorreia, broncorreia, bradicardia — o OPOSTO do padrão anticolinérgico do botulismo (midríase e boca seca). O acometimento simultâneo de duas pessoas após alimento em conserva é a grande pista epidemiológica.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "O mecanismo fisiopatológico da toxina é:",
+     "alternativas": {
+      "a": "Desmielinização de raízes e nervos periféricos",
+      "b": "Bloqueio da liberação pré-sináptica de acetilcolina",
+      "c": "Inibição da acetilcolinesterase",
+      "d": "Bloqueio pós-sináptico do receptor de acetilcolina"
+     },
+     "correta": "b",
+     "comentario": "A toxina botulínica cliva proteínas do complexo SNARE (ex.: SNAP-25) no terminal pré-sináptico do neurônio motor, impedindo a fusão das vesículas e a LIBERAÇÃO de acetilcolina na junção neuromuscular — daí a paralisia flácida e a disautonomia colinérgica (glândulas e músculo liso também dependem de acetilcolina). O bloqueio PÓS-sináptico do receptor de acetilcolina é o mecanismo da miastenia gravis (autoanticorpos anti-AChR) — pós-sináptico, não pré. A inibição da acetilcolinesterase é o mecanismo dos organofosforados e dos anticolinesterásicos (piridostigmina), que AUMENTAM acetilcolina — oposto do botulismo. Desmielinização de raízes/nervos é o mecanismo do Guillain-Barré, doença do nervo periférico, não da junção. A eletroneuromiografia no botulismo mostra padrão pré-sináptico com incremento na estimulação repetitiva de alta frequência (semelhante ao Lambert-Eaton).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "A conduta específica mais importante, além do suporte ventilatório, é:",
+     "alternativas": {
+      "a": "Corticoide em pulsoterapia",
+      "b": "Administrar a antitoxina botulínica o mais precocemente possível e notificar",
+      "c": "Iniciar piridostigmina em altas doses",
+      "d": "Plasmaférese como primeira linha"
+     },
+     "correta": "b",
+     "comentario": "[Neurologia] O tratamento específico é a antitoxina botulínica (soro antibotulínico), que neutraliza a toxina AINDA circulante e deve ser administrada o mais cedo possível — ela não reverte o bloqueio já estabelecido, por isso o tempo é crítico. Além disso, o botulismo é doença de notificação compulsória IMEDIATA, com investigação epidemiológica da fonte alimentar. O pilar do prognóstico é o suporte, sobretudo ventilatório, pelo risco de insuficiência respiratória. Piridostigmina (anticolinesterásico) é tratamento da miastenia e tem eficácia limitada/adjuvante aqui. Plasmaférese e IVIg são a base do Guillain-Barré, não do botulismo. Corticoide não tem papel específico. Detalhe: no botulismo do lactente (mel) NÃO se usa antibiótico que cause lise bacteriana com liberação de toxina, e a antitoxina é a imunoglobulina específica (BIG-IV); no adulto alimentar, usa-se a antitoxina equina.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 110-111 — Doenças da Junção Neuromuscular; e Guia de Vigilância em Saúde (MS) — Botulismo.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas (encefalopatia posterior reversível / PRES)",
+   "tier": "ALTO",
+   "vinheta": "Mulher de 37 anos, gestante de 34 semanas, é levada à emergência com cefaleia intensa, turvação visual, um episódio de crise tônico-clônica e confusão. PA = 190x120 mmHg; proteinúria presente. Ao exame: sonolenta, sem déficit motor focal, reflexos vivos. Ressonância mostra hiperintensidades em T2/FLAIR simétricas na substância branca parieto-occipital, sem restrição significativa à difusão.",
+   "perguntas": [
+    {
+     "enunciado": "O diagnóstico neurorradiológico mais provável é:",
+     "alternativas": {
+      "a": "Encefalite herpética",
+      "b": "Trombose de seio venoso sagital",
+      "c": "AVC isquêmico de território da artéria cerebral posterior",
+      "d": "Síndrome da encefalopatia posterior reversível (PRES)"
+     },
+     "correta": "d",
+     "comentario": "O conjunto de encefalopatia aguda, crises, distúrbio visual e hipertensão grave (aqui no contexto de pré-eclâmpsia/eclâmpsia), com RM mostrando edema VASOGÊNICO simétrico predominante na substância branca parieto-occipital e SEM restrição à difusão, define a síndrome da encefalopatia posterior reversível (PRES). O mecanismo é falência da autorregulação cerebral com hiperperfusão e quebra da barreira hematoencefálica, tipicamente reversível. AVC de artéria cerebral posterior seria unilateral, com restrição à difusão (edema citotóxico) e déficit focal. A trombose de seio venoso pode dar crises e edema, mas costuma ter distribuição não arterial com sinal do delta vazio e realce anômalo, além de fatores pró-trombóticos. A encefalite herpética acomete lobos temporais/límbico, com febre, restrição à difusão e líquor inflamatório — distinto da distribuição posterior simétrica sem febre. A reversibilidade com controle pressórico é a marca da PRES.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "O fator fisiopatológico central desencadeante, neste contexto, é:",
+     "alternativas": {
+      "a": "Emergência hipertensiva com falência da autorregulação",
+      "b": "Hipoglicemia sustentada",
+      "c": "Embolia cardiogênica",
+      "d": "Vasoespasmo por hemorragia subaracnóidea"
+     },
+     "correta": "a",
+     "comentario": "A PRES resulta de elevação abrupta/grave da pressão arterial (ou disfunção endotelial, como na pré-eclâmpsia, sepse, uso de imunossupressores/quimioterápicos) que ultrapassa o limite superior da autorregulação cerebral, gerando hiperperfusão, extravasamento de fluido e edema vasogênico, com predileção pela circulação posterior (menor inervação simpática). No caso, a pré-eclâmpsia grave/eclâmpsia é o gatilho. Embolia cardiogênica causaria infarto focal com restrição à difusão, não edema vasogênico simétrico posterior. Vasoespasmo pós-hemorragia subaracnóidea ocorre dias após uma HSA (cefaleia em trovoada, sangue nas cisternas), ausente aqui. Hipoglicemia sustentada pode causar encefalopatia e lesar áreas específicas, mas não o padrão parieto-occipital vasogênico reversível descrito. Identificar o mecanismo orienta a conduta: baixar a PA de forma controlada.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "A conduta terapêutica prioritária é:",
+     "alternativas": {
+      "a": "Trombólise intravenosa imediata",
+      "b": "Craniectomia descompressiva de urgência",
+      "c": "Anticoagulação plena",
+      "d": "Redução controlada da pressão arterial e controle das crises (sulfato de magnésio na eclâmpsia)"
+     },
+     "correta": "d",
+     "comentario": "[Neurologia] O tratamento da PRES/encefalopatia hipertensiva é a redução CONTROLADA e gradual da pressão arterial (evitando quedas abruptas que causem isquemia), o controle das crises e a remoção/tratamento do fator precipitante. Na eclâmpsia, o sulfato de magnésio é a droga de escolha para prevenir e tratar as crises, além do manejo obstétrico (interrupção da gestação conforme indicação) e anti-hipertensivos seguros na gestação. Trombólise seria erro grave — não há oclusão arterial e a paciente convulsionou com PA muito elevada (contraindicações). Anticoagulação plena não trata PRES e é perigosa no contexto obstétrico/hipertensivo. Craniectomia descompressiva não tem papel na PRES não complicada, que costuma ser reversível com o controle pressórico. Prognóstico: geralmente excelente, com regressão clínico-radiológica em dias a semanas se tratada a tempo; formas com hemorragia ou infarto têm pior desfecho.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 163 — Hipertensão Intracraniana em Terapia Intensiva Neurológica; e Merritt (13ª ed.), Seção 2 — Emergências Neurológicas.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Demências (doença de Creutzfeldt-Jakob / demência rapidamente progressiva)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 64 anos apresenta, em cerca de 3 meses, declínio cognitivo rápido com desorientação, alterações de comportamento e marcha instável. Nas últimas semanas surgiram abalos musculares involuntários bruscos desencadeados por sustos, além de rigidez e sinais cerebelares. Exame: demência franca, mioclonias, ataxia e sinais piramidais. Ressonância com restrição à difusão em córtex ('cortical ribboning') e núcleos da base; EEG com complexos periódicos; líquor com proteína 14-3-3 positiva.",
+   "perguntas": [
+    {
+     "enunciado": "O diagnóstico mais provável é:",
+     "alternativas": {
+      "a": "Doença de Creutzfeldt-Jakob (doença priônica)",
+      "b": "Demência com corpos de Lewy",
+      "c": "Hidrocefalia de pressão normal",
+      "d": "Doença de Alzheimer típica"
+     },
+     "correta": "a",
+     "comentario": "Demência RAPIDAMENTE progressiva (semanas a poucos meses) com mioclonias, sinais cerebelares e piramidais, associada a restrição à difusão cortical/basal na RM ('cortical ribboning'), complexos periódicos no EEG e proteína 14-3-3 no líquor, é o quadro clássico da doença de Creutzfeldt-Jakob, encefalopatia espongiforme priônica. A doença de Alzheimer evolui em ANOS, sem mioclonias precoces, cerebelares ou o padrão de difusão descrito. A demência com corpos de Lewy cursa com parkinsonismo, flutuação cognitiva, alucinações visuais e sensibilidade a neurolépticos, num curso mais arrastado e sem 14-3-3/ribboning. A hidrocefalia de pressão normal tem a tríade apraxia de marcha + incontinência + demência, com ventriculomegalia — reversível com derivação — e não causa mioclonias nem restrição cortical. O ritmo 'rápido demais' para uma demência degenerativa comum é o gatilho para pensar em doença priônica.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Entre os exames, o conjunto de maior valor para o diagnóstico in vivo é:",
+     "alternativas": {
+      "a": "Atrofia hipocampal isolada na RM",
+      "b": "Bandas oligoclonais no líquor",
+      "c": "Restrição à difusão cortical/estriatal na RM + EEG periódico + RT-QuIC/14-3-3 no líquor",
+      "d": "Hipocaptação occipital no PET"
+     },
+     "correta": "c",
+     "comentario": "O diagnóstico in vivo da Creutzfeldt-Jakob apoia-se na combinação de RM com restrição à difusão em córtex e estriado/tálamo, EEG com complexos periódicos de ondas agudas e marcadores liquóricos — a proteína 14-3-3 (inespecífica, mas sugestiva no contexto) e, sobretudo, o RT-QuIC, teste de alta especificidade que detecta a proteína priônica patológica. A atrofia hipocampal isolada é típica de Alzheimer. A hipocaptação occipital no PET (com sinal da ilha cingulada) sugere demência com corpos de Lewy. Bandas oligoclonais apontam processo inflamatório/desmielinizante (esclerose múltipla, encefalites), não doença priônica. A confirmação definitiva ainda é neuropatológica, mas RT-QuIC + RM + EEG permitem diagnóstico 'provável' com segurança. Reconhecer a tríade de exames é o ponto de prova.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Quanto ao prognóstico e à conduta, é correto afirmar:",
+     "alternativas": {
+      "a": "É doença incurável e rapidamente fatal; o cuidado é de suporte/paliativo, com biossegurança",
+      "b": "Reverte com derivação ventriculoperitoneal",
+      "c": "Há tratamento curativo com imunoglobulina",
+      "d": "Responde a inibidores da colinesterase com normalização cognitiva"
+     },
+     "correta": "a",
+     "comentario": "[Neurologia] A doença de Creutzfeldt-Jakob é incurável e quase invariavelmente fatal em meses (mediana em torno de 6 meses na forma esporádica), sem terapia modificadora eficaz — o manejo é de suporte e paliativo, com controle de mioclonias (ex.: clonazepam/levetiracetam) e atenção às precauções de biossegurança, já que os príons resistem à esterilização convencional (cuidados com instrumentais e notificação). Não existe cura por imunoglobulina — isso é confusão com doenças autoimunes. Derivação ventriculoperitoneal beneficia a hidrocefalia de pressão normal, não a doença priônica. Inibidores da colinesterase têm papel sintomático modesto no Alzheimer e não alteram o curso da Creutzfeldt-Jakob. É doença de notificação; investigar formas genéticas/iatrogênicas quando pertinente. O ponto de prova é reconhecer a demência rapidamente progressiva e evitar procedimentos fúteis.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 96 — Demências; e Merritt (13ª ed.), Seção 6 — Demência (encefalopatias priônicas).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropediatria específica (síndrome de Rett)",
+   "tier": "MÉDIO",
+   "vinheta": "Menina de 20 meses, com desenvolvimento aparentemente normal até cerca de 1 ano, evolui com regressão: perdeu o uso proposital das mãos e as poucas palavras que dizia, ficou menos interativa e passou a apresentar movimentos repetitivos de 'lavar as mãos' e levá-las à boca. Os pais notaram desaceleração do crescimento do perímetro cefálico (microcefalia adquirida) e episódios de hiperventilação/apneia quando acordada.",
+   "perguntas": [
+    {
+     "enunciado": "O diagnóstico mais provável é:",
+     "alternativas": {
+      "a": "Síndrome de West",
+      "b": "Síndrome de Rett",
+      "c": "Transtorno do espectro autista clássico",
+      "d": "Paralisia cerebral discinética"
+     },
+     "correta": "b",
+     "comentario": "Menina com desenvolvimento inicial normal seguido de REGRESSÃO entre 6-18 meses, perda do uso proposital das mãos, estereotipias manuais características ('lavar as mãos'/levar à boca), desaceleração do crescimento cefálico (microcefalia adquirida) e disfunção respiratória em vigília (hiperventilação/apneias) constitui o quadro clássico da síndrome de Rett, ligada a mutações no gene MECP2 (ligado ao X). O autismo clássico não cursa com desaceleração do perímetro cefálico, estereotipias manuais tão específicas nem o padrão respiratório descrito, e a regressão é menos estereotipada. A síndrome de West é a tríade espasmos em flexão + hipsarritmia no EEG + regressão, tipicamente no primeiro ano, sem as estereotipias manuais de Rett. A paralisia cerebral discinética é encefalopatia NÃO progressiva por lesão perinatal, sem período de desenvolvimento normal seguido de regressão. As estereotipias manuais e a microcefalia adquirida em menina são a chave.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "A alteração genética classicamente associada é:",
+     "alternativas": {
+      "a": "Trissomia do cromossomo 21",
+      "b": "Mutação no gene MECP2",
+      "c": "Expansão CGG no gene FMR1",
+      "d": "Deleção 15q11-q13 de origem paterna"
+     },
+     "correta": "b",
+     "comentario": "A síndrome de Rett associa-se, na maioria dos casos, a mutações no gene MECP2 (Xq28), de herança dominante ligada ao X — o que explica a predominância quase exclusiva em meninas (nos meninos, costuma ser letal ou causar encefalopatia grave). A expansão CGG no FMR1 causa a síndrome do X frágil (deficiência intelectual, face alongada, macro-orquidismo), diferente do padrão de regressão de Rett. A deleção 15q11-q13 de origem PATERNA causa síndrome de Prader-Willi (hipotonia neonatal, hiperfagia, obesidade); a de origem materna causa Angelman — nenhuma corresponde ao quadro. A trissomia do 21 (Down) é diagnóstico clínico-citogenético com fenótipo próprio, sem o curso regressivo descrito. Reconhecer MECP2 permite confirmação por teste molecular e aconselhamento genético.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Sobre o manejo, é correto afirmar:",
+     "alternativas": {
+      "a": "O prognóstico é de normalização do desenvolvimento com fisioterapia",
+      "b": "Não há cura; o tratamento é multidisciplinar e sintomático",
+      "c": "A dieta cetogênica reverte completamente o quadro",
+      "d": "Há tratamento curativo com reposição enzimática"
+     },
+     "correta": "b",
+     "comentario": "[Neurologia] A síndrome de Rett não tem cura; o manejo é MULTIDISCIPLINAR e sintomático — terapias de reabilitação (fisioterapia, terapia ocupacional, fonoaudiologia), controle de epilepsia quando presente, atenção a escoliose, distúrbios respiratórios, prolongamento do intervalo QT (rastrear com ECG) e suporte nutricional/gastrointestinal. Não existe reposição enzimática curativa — isso seria confusão com doenças de depósito lisossômico. A dieta cetogênica pode auxiliar no controle de crises refratárias em algumas encefalopatias epilépticas, mas NÃO reverte a síndrome de Rett. O prognóstico não é de normalização: trata-se de condição crônica com estabilização após a fase de regressão, e o objetivo é maximizar função e qualidade de vida. Novas terapias (ex.: moduladores específicos) estão em estudo, mas o pilar atual é o cuidado sintomático coordenado.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 177 — Neurodesenvolvimento e seus Transtornos.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências / Toxicologia inalatória (pneumonite química) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 2 anos de idade, é levada à UPA, com tosse seca e dispneia que começou há, aproximadamente, 4 a 6 horas. Nunca havia apresentado dispneia antes. Mãe informa que um irmão da menor derramou um galão de querosene no quarto onde dormem, na noite anterior, tendo deixado um forte cheiro no ambiente, cujas janelas estavam fechadas. A paciente passou a tossir e acordou várias vezes, contudo não chegou a levá-la a um serviço de saúde. Ao exame físico, apresenta regular estado geral, com temperatura de 36,8ºC; Frequência respiratória de 24 movimentos por minuto; oximetria de pulso: 91% em ar ambiente; hidratada. Ausculta pulmonar e cardíaca sem alterações, assim como o exame abdominal e de extremidades.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do relato, indique o diagnóstico provável, neste caso:",
+     "alternativas": {
+      "a": "Pneumonite química",
+      "b": "Traqueíte tóxica",
+      "c": "Pneumonia por aspiração",
+      "d": "Bronquiolite aguda"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O quadro de dispneia e tosse de início agudo após exposição inalatória a vapores de hidrocarboneto (querosene) em ambiente fechado, com hipoxemia (SpO2 91%) e ausculta ainda limpa, corresponde a pneumonite química — inflamação do parênquima pulmonar por agente químico inalado/aspirado, e não por infecção. A traqueíte tóxica limitaria-se às vias aéreas superiores/traqueia, sem o comprometimento alveolar que justifica a queda de saturação. A bronquiolite aguda é infecção viral do lactente com pródromo catarral, sibilância e sazonalidade, sem o gatilho tóxico. A pneumonia por aspiração pressupõe aspiração de conteúdo (alimento/secreção), tipicamente com foco e evolução distinta. Ponto-chave dos hidrocarbonetos: a principal via de lesão pulmonar é a ASPIRAÇÃO/inalação (baixa viscosidade e volatilidade), e a descontaminação gástrica (lavagem/êmese) é contraindicada pelo risco de agravar a aspiração. Vigiar piora nas primeiras 24 horas, pois a radiografia pode se alterar tardiamente.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Sobre exames de imagem, nesse caso, podemos afirmar:",
+     "alternativas": {
+      "a": "É indicada Tomografia Computadorizada de Tórax, desde já",
+      "b": "A ultrassonografia torácica deve ser o exame inicial",
+      "c": "A radiografia de tórax pode estar normal",
+      "d": "A Broncoscopia é exame mandatório"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Na pneumonite química por hidrocarboneto, a radiografia de tórax PODE estar normal nas primeiras horas, mesmo com o paciente já hipoxêmico — as alterações (infiltrados peri-hilares, atelectasias, consolidações) costumam surgir e progredir nas primeiras 24 horas. Por isso a conduta é observar e repetir a imagem, não descartar a lesão por uma radiografia inicial limpa. A broncoscopia não é mandatória e reserva-se a situações específicas (corpo estranho, lesão de via aérea), não sendo rotina aqui. A ultrassonografia torácica não é o exame inicial padronizado para essa avaliação. A tomografia 'desde já' não se justifica de rotina — expõe a criança à radiação sem mudar a conduta inicial, que é clínica e de suporte. A mensagem de prova é: imagem inicial normal NÃO exclui pneumonite química; o quadro clínico e a oximetria guiam.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "A terapêutica mais importante para essa criança, nesse momento, consiste na prescrição de:",
+     "alternativas": {
+      "a": "Antibiótico",
+      "b": "Corticoesteroide",
+      "c": "Oxigênio",
+      "d": "Broncodilatador"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A prioridade terapêutica é a oxigenoterapia para corrigir a hipoxemia (SpO2 91%), com suporte respiratório escalonado conforme a evolução; o tratamento da pneumonite química é essencialmente de SUPORTE. Broncodilatador só se houver broncoespasmo demonstrável, não como medida principal. Corticoesteroide de rotina NÃO tem benefício comprovado na pneumonite por hidrocarboneto e não deve ser prescrito indiscriminadamente. Antibiótico não é indicado profilaticamente — reserva-se para infecção bacteriana secundária documentada (febre, piora clínica, novo infiltrado), pois o insulto inicial é químico, não infeccioso. Reforço de conduta: nunca induzir êmese nem lavagem gástrica em ingestão/exposição a hidrocarboneto (risco de aspiração); observar 6-24 h os assintomáticos e internar os sintomáticos/hipoxêmicos. A oximetria e a clínica orientam a intensidade do suporte.\n📚 Leitura sugerida (bloco): Emergências respiratórias em Pediatria (material do Drive) — https://drive.google.com/file/d/1KBDnpdSl6HD4AEn95UWahWjutRsEUNM4/view; complementar com diretriz de intoxicações por hidrocarbonetos (SBP/MS).",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Dermatologia / Alergia (dermatite atópica do lactente) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "MÉDIO",
+   "vinheta": "Lactente masculino, 2 meses de idade, é levado ao Ambulatório com lesões de pele avermelhadas em face, além de micropápulas em lobo da orelha esquerda, observadas há aproximadamente, cinco dias. A genitora informa que tem observado o bebê mais inquieto; nega outras alterações. O bebê usa aleitamento materno exclusivo. Para higiene, utiliza sabonete neutro. Nega febre e outras alterações. No momento, ativo, hidratado, afebril; sem outras alterações ao exame, exceto ressecamento na pele da face, principalmente, nas regiões malares.",
+   "perguntas": [
+    {
+     "enunciado": "Indique qual a faixa etária de surgimento da principal suspeita diagnóstica para casos como este:",
+     "alternativas": {
+      "a": "Durante a adolescência",
+      "b": "Antes dos 5 anos de idade",
+      "c": "No período neonatal",
+      "d": "Na fase escolar"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O quadro de eczema em face (regiões malares), ressecamento cutâneo e prurido (bebê inquieto) no lactente é típico de dermatite atópica, cuja grande maioria dos casos inicia ANTES dos 5 anos de idade — frequentemente nos primeiros 6 meses de vida. Por isso a alternativa correta é 'antes dos 5 anos'. Não é uma doença de início preferencial na adolescência nem na fase escolar (embora possa persistir/recidivar). O período neonatal (primeiras 4 semanas) não é o pico de início típico e, nessa fase, o principal diferencial é a dermatite seborreica (crosta láctea, região seborreica, sem tanto prurido). A dermatite atópica compõe a 'marcha atópica' (eczema, asma e rinite) e associa-se a disfunção da barreira cutânea (filagrina) e história familiar de atopia. O acometimento das bochechas poupando o maciço central é padrão clássico no lactente.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a principal medida terapêutica para o caso:",
+     "alternativas": {
+      "a": "Corticoterapia tópica",
+      "b": "Uso de emolientes",
+      "c": "Dieta hipoalergênica",
+      "d": "Hidratação tópica"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A base do tratamento da dermatite atópica — e a principal medida neste caso leve — é a hidratação/emoliência da pele, restaurando a barreira cutânea e reduzindo o prurido e as recidivas; deve ser feita de forma generosa e contínua. A banca considerou 'hidratação tópica' como a medida principal (emolientes são justamente o veículo dessa hidratação; a opção isolada de 'emolientes' foi tida como menos completa que 'hidratação tópica' no gabarito). O corticoide tópico é reservado às fases de agudização/inflamação ativa, em baixa potência na face do lactente e por curtos períodos — não é a medida de base contínua. A dieta hipoalergênica NÃO deve ser instituída empiricamente: restrições sem comprovação de alergia alimentar trazem risco nutricional e não são primeira conduta; investiga-se APLV apenas se houver sinais sugestivos. Higiene com sabonete neutro, banhos rápidos e evitar irritantes completam o cuidado.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique as regiões mais frequentemente afetadas por essa doença, em crianças maiores:",
+     "alternativas": {
+      "a": "Dobras do pescoço, do joelho e antebraço",
+      "b": "Regiões palmares",
+      "c": "Couro cabeludo e região frontal",
+      "d": "Região malar"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A topografia da dermatite atópica muda com a idade: no LACTENTE predominam face (malar) e superfícies extensoras; já na criança MAIOR e no adolescente, o eczema localiza-se preferencialmente nas DOBRAS/flexuras — pescoço, fossa poplítea (dobra do joelho), fossa antecubital (dobra do cotovelo/antebraço) e punhos. Por isso a alternativa correta são as dobras. A região malar é o padrão do lactente (a fase deste paciente), não da criança maior. As regiões palmares não são o sítio típico da dermatite atópica clássica (pensar em dermatite de contato/disidrose nesse caso). Couro cabeludo e região frontal com escamas gordurosas sugerem dermatite seborreica, principal diferencial no lactente. Reconhecer a mudança de topografia por faixa etária é pegadinha frequente de prova. Os critérios de Hanifin-Rajka e o prurido como sintoma cardinal ajudam no diagnóstico.\n📚 Leitura sugerida (bloco): Guia Prático de Atualização da Sociedade Brasileira de Pediatria (SBP) — Dermatite Atópica; complementar com 'Tópicos em Pediatria' (Drive) — https://drive.google.com/file/d/1Kv_fDM9e_G0IOc7u311JTb2oEqreHP1c/view.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas / Imunológicas (síndrome inflamatória multissistêmica pediátrica - SIM-P) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 5 anos de idade, comparece à UPA, com história de coriza há 4 dias, febre e dificuldade respiratória há 3 dias, queixando-se de dor abdominal e náuseas, além de cefaleia contínua. Houve um episódio de vômito. No momento apresenta-se hipoativo, hidratado, taquipneico, com saturação de oxigênio: 90% e temperatura: 37,9ºC. Observa-se hiperemia ocular bilateral e exantema plano em membros e tronco, não pruriginoso. Sem alterações à ausculta e à palpação.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique o exame mais importante a ser realizado nesse momento:",
+     "alternativas": {
+      "a": "Teste para COVID-19",
+      "b": "Velocidade de Hemossedimentação",
+      "c": "Radiografia de tórax",
+      "d": "Hemograma"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Diante de criança com febre, exantema, hiperemia conjuntival, sintomas gastrointestinais e comprometimento sistêmico, a suspeita é de síndrome inflamatória multissistêmica pediátrica (SIM-P) associada temporalmente à COVID-19; por isso o exame que a banca prioriza para confirmar o vínculo etiológico é a testagem para SARS-CoV-2 (RT-PCR e/ou sorologia). Hemograma, VHS e demais provas inflamatórias (PCR, ferritina, D-dímero, troponina/BNP) são fundamentais na avaliação global, mas são inespecíficos — não estabelecem a associação com o agente. A radiografia de tórax ajuda na avaliação respiratória, porém não é o exame-chave para o diagnóstico sindrômico. O ponto de prova é reconhecer a SIM-P e sua ligação temporal com infecção/exposição recente ao SARS-CoV-2, definindo a investigação dirigida. Ecocardiograma e marcadores cardíacos entram pela possibilidade de disfunção miocárdica e aneurismas coronarianos (superposição com Kawasaki).",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando a sintomatologia descrita, o diagnóstico provável é:",
+     "alternativas": {
+      "a": "Doença de Kawasaki",
+      "b": "Síndrome Inflamatória Multissistêmica Pediátrica",
+      "c": "Pneumonia",
+      "d": "Sarampo"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A combinação de febre, exantema não pruriginoso, conjuntivite bilateral não exsudativa, sintomas gastrointestinais proeminentes (dor abdominal, vômitos) e sinais de acometimento multissistêmico configura a SIM-P (também chamada MIS-C), entidade hiperinflamatória pós-COVID em crianças. O sarampo cursa com tosse, coriza, conjuntivite, manchas de Koplik e exantema morbiliforme com progressão craniocaudal, geralmente sem o quadro gastrointestinal/multissistêmico grave. Pneumonia isolada não explica exantema e conjuntivite. A doença de Kawasaki é o principal diferencial e há sobreposição clínica (febre, conjuntivite, exantema, mucosite), mas a SIM-P tende a ocorrer em crianças mais velhas, com sintomas gastrointestinais mais intensos, maior disfunção miocárdica/choque e vínculo temporal com o SARS-CoV-2. Os critérios (OMS/CDC/MS) exigem febre, evidência de inflamação, disfunção de dois ou mais sistemas, exclusão de outras causas e ligação com COVID-19.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Além das medidas de suporte respiratório, essa criança necessitará de:",
+     "alternativas": {
+      "a": "Antibióticos e observação por 12 horas",
+      "b": "Corticosteroide e observação por 6 horas",
+      "c": "Antibióticos e hospitalização",
+      "d": "Medicações sintomáticas e hospitalização"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A criança com suspeita de SIM-P e hipoxemia deve ser HOSPITALIZADA para monitorização e suporte, recebendo medicações sintomáticas enquanto se completa a investigação — por isso a alternativa correta associa 'medicações sintomáticas e hospitalização'. As opções que impõem observação por apenas 6 ou 12 horas são inadequadas: trata-se de doença potencialmente grave, com risco de choque e disfunção cardíaca, exigindo internação e vigilância prolongada, não alta precoce. Antibiótico não é o tratamento da entidade (que é inflamatória, não bacteriana primária), embora se inicie cobertura empírica quando não se pode excluir sepse — mas não como medida definidora. O tratamento específico da SIM-P, em centro adequado, costuma incluir imunoglobulina intravenosa e corticoide (e imunobiológicos em refratários), além de suporte hemodinâmico. A mensagem da questão é reconhecer a gravidade e internar, evitando a armadilha das observações curtas.\n📚 Leitura sugerida (bloco): Nota Técnica do Ministério da Saúde / Documento Científico da SBP sobre Síndrome Inflamatória Multissistêmica Pediátrica (SIM-P) associada à COVID-19.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Desenvolvimento e Saúde Coletiva (uso de telas na primeira infância - SBP) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 15 meses, é levado à consulta de Puericultura, sem queixas. Sua mãe levou também o irmão de 6 anos e, durante a anamnese, o bebê estava inquieto e tentando pegar o celular em que o irmão digitava. A genitora reclama com o filho mais velho, para que entregue o aparelho ao bebê a fim de que este permaneça quieto. Esta situação levou o médico a questionar sobre uso de celular e outras telas pelas crianças e constatou que o bebê assiste à TV por longo período, sentado no carrinho, acompanhado de seu irmão e, sempre que “necessário”, utiliza também os vídeos musicais infantis disponíveis no celular, principalmente quando está fora de casa.",
+   "perguntas": [
+    {
+     "enunciado": "A recomendação da Sociedade Brasileira de Pediatria (SBP), quanto à exposição de telas durante a primeira infância, é:",
+     "alternativas": {
+      "a": "Exposição a telas para menores de dois anos somente deve ocorrer às refeições",
+      "b": "É admissível o uso de telas com videoclipes infantis a partir dos 9 meses de idade",
+      "c": "Não é recomendada a exposição de menores de dois anos a telas",
+      "d": "Exposição de menores de dois anos a telas deve ser limitada a 1 hora por semana"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A SBP recomenda EVITAR totalmente a exposição a telas em menores de 2 anos — inclusive as chamadas 'passivas' (TV ligada de fundo) — pelo prejuízo ao neurodesenvolvimento, à linguagem, ao sono e à interação. Por isso a alternativa correta é a que desaconselha qualquer exposição nessa faixa. As opções que 'liberam' 1 hora por semana, videoclipes a partir dos 9 meses ou uso durante as refeições contrariam a orientação: não há 'cota segura' recomendada abaixo dos 2 anos, e usar telas nas refeições associa-se a pior autorregulação alimentar e risco de obesidade. A partir dos 2 anos o uso deve ser limitado, sempre supervisionado e com conteúdo de qualidade. A questão cobra a mensagem de puericultura e promoção do desenvolvimento — orientar a família a substituir a tela por brincadeira e interação é conduta de saúde coletiva/APS.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "De acordo com a SBP, crianças entre 6 e 10 anos de idade devem ter o tempo de uso de telas (sempre com supervisão) limitado ao máximo de:",
+     "alternativas": {
+      "a": "4 horas/dia",
+      "b": "3 horas/dia",
+      "c": "2 horas/dia",
+      "d": "6 horas/dia"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A SBP orienta, para a faixa de 6 a 10 anos, limite máximo de cerca de 2 horas/dia de telas recreativas, sempre com supervisão dos responsáveis e priorizando conteúdo adequado à idade. As opções de 3, 4 ou 6 horas/dia excedem a recomendação e associam-se a mais sedentarismo, distúrbios de sono, sobrepeso e prejuízo escolar. As diretrizes escalonam por idade: nada abaixo de 2 anos; até 1 hora/dia entre 2 e 5 anos; até cerca de 2 horas/dia entre 6 e 10 anos; e uso mais flexível, porém monitorado, em maiores, evitando telas à noite (higiene do sono) e no quarto. A recomendação também enfatiza 'tempo de tela em família', pausas e estímulo à atividade física. Trata-se de conteúdo de puericultura e prevenção, frequentemente cobrado em provas de residência com esses números específicos.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "São apontados como efeitos do uso excessivo de telas em crianças:",
+     "alternativas": {
+      "a": "Irritabilidade, ansiedade e depressão",
+      "b": "Convulsões e irritabilidade",
+      "c": "Apatia e depressão",
+      "d": "Apatia e convulsões"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Entre os efeitos do uso excessivo de telas descritos pela SBP estão alterações do comportamento e do humor — irritabilidade, ansiedade e sintomas depressivos — além de distúrbios do sono, sedentarismo/obesidade, atraso de linguagem, dificuldades de atenção e prejuízo do desempenho escolar. Por isso a alternativa que reúne 'irritabilidade, ansiedade e depressão' é a correta. As opções que citam convulsões atribuem à exposição a telas um efeito que não é consequência típica/geral do uso excessivo na população pediátrica (crises fotossensíveis são fenômeno específico e restrito, não um 'efeito do uso excessivo' no sentido da recomendação). 'Apatia' isolada não capta o espectro descrito tão bem quanto o conjunto ansiedade/irritabilidade/depressão. A abordagem é orientar limites, substituir telas por brincadeira/leitura/atividade física e envolver a família — mensagem central de saúde coletiva na primeira infância.\n📚 Leitura sugerida (bloco): Manual de Orientação SBP 'Menos Telas, Mais Saúde' (Grupo de Trabalho Saúde na Era Digital, SBP).",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas respiratórias (laringotraqueíte aguda / crupe viral) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 2 anos de idade, é levado com relato de febre (38,3°C), obstrução e coriza hialina, além de recusa alimentar há mais de 48 horas. Nesse período, surgiu tosse que vem intensificando-se e é descrita como “tosse rouca” (SIC). Ao exame, criança com taquidispneia, temperatura de 38ºC, apresentando ausculta dificultada pela falta de colaboração.",
+   "perguntas": [
+    {
+     "enunciado": "Identifique o agente etiológico mais frequente envolvido no quadro dessa criança:",
+     "alternativas": {
+      "a": "Mycoplasma pneumoniae",
+      "b": "Pneumococos",
+      "c": "Vírus Parainfluenza",
+      "d": "Vírus Sincicial Respiratório"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A 'tosse rouca'/ladrante, precedida de pródromo catarral, em criança pequena, caracteriza a laringotraqueíte aguda (crupe viral), cujo agente MAIS frequente é o vírus parainfluenza (sobretudo o tipo 1). Por isso a alternativa correta é 'vírus parainfluenza'. O pneumococo é bactéria causadora de pneumonia/otite/sinusite, não o agente típico do crupe viral. O Mycoplasma pneumoniae causa pneumonia atípica em escolares/adolescentes, com tosse arrastada, não a laringite estridulosa do lactente. O vírus sincicial respiratório (VSR) é o principal agente da bronquiolite (sibilância no lactente), não do crupe. A tríade clínica clássica do crupe é tosse ladrante + rouquidão/afonia + estridor inspiratório, por edema subglótico. O sinal radiológico da 'ponta de lápis'/torre (estreitamento subglótico) pode aparecer, mas o diagnóstico é clínico. Reconhecer o agente e a topografia (subglótica) diferencia das demais infecções respiratórias.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica recomendada para alívio rápido dos sintomas, na urgência:",
+     "alternativas": {
+      "a": "Terbutalina via subcutânea",
+      "b": "Hidrocortisona intravenosa",
+      "c": "Nebulização simples",
+      "d": "Epinefrina inalatória"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Para alívio RÁPIDO do crupe moderado a grave (estridor em repouso, esforço respiratório), a medida de urgência é a epinefrina (adrenalina) inalatória/nebulizada, que reduz o edema subglótico por vasoconstrição em minutos — efeito rápido, porém transitório, exigindo observação por algumas horas pelo risco de retorno dos sintomas ('efeito rebote'). A nebulização simples com soro isolada não trata o edema e não alivia de forma significativa. A hidrocortisona intravenosa não é a via/opção de escolha aqui: o corticoide indicado é a dexametasona (VO/IM), com efeito mais duradouro, mas de início não tão imediato quanto a adrenalina — por isso não é a medida de alívio 'rápido'. A terbutalina subcutânea é broncodilatador beta-2 para broncoespasmo (asma), sem papel na obstrução subglótica do crupe. A combinação prática é adrenalina nebulizada (alívio rápido) somada à dexametasona (efeito sustentado).",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o tratamento que deve sempre ser incluído no quadro, além de sintomáticos:",
+     "alternativas": {
+      "a": "Antibiótico",
+      "b": "Oxigenoterapia",
+      "c": "Corticoterapia",
+      "d": "Broncodilatador"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A corticoterapia (classicamente dexametasona em dose única, VO/IM) deve SEMPRE fazer parte do tratamento do crupe — mesmo nos casos leves — pois reduz o edema, a gravidade, o tempo de permanência e a necessidade de retorno/intervenções. Por isso a alternativa correta é 'corticoterapia'. Antibiótico não é indicado no crupe viral (não há infecção bacteriana a tratar); reservado a complicações bacterianas específicas (ex.: traqueíte bacteriana). Oxigenoterapia é medida de suporte apenas quando há hipoxemia, não um item 'sempre' incluído. Broncodilatador trata broncoespasmo (asma/bronquiolite com componente obstrutivo baixo), não a obstrução alta subglótica do crupe. Resumo de conduta: dexametasona para todos; adrenalina nebulizada nos moderados/graves com observação; suporte e hidratação; e critérios de gravidade (estridor em repouso, tiragem, alteração de consciência) para internação. A dexametasona 'para todos' é a pegadinha mais cobrada.\n📚 Leitura sugerida (bloco): Infecções respiratórias em Pediatria (material do Drive) — https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view; complementar com protocolo de crupe/laringotraqueíte (SBP).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Endocrinologia / Crescimento (baixa estatura e atraso puberal na adolescente) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "ALTO",
+   "vinheta": "Adolescente, sexo feminino, 15 anos de idade é levada ao Ambulatório. Nasceu a termo, com peso: 2.900 g e comprimento: 48,5 cm. Refere que os marcos do desenvolvimento neuropsicomotor ocorreram em épocas fisiológicas. Nega antecedentes patológicos. Ainda não apresentou menarca. A genitora refere menarca aos 11 anos, assim como a filha mais velha. A mãe mede 1,64 m; o pai mede 1,79 m. O médico observa que a voz da menor tem timbre infantil. Responde, timidamente, às perguntas da anamnese. Pouco participa da conversa e permanece em posição retraída. A curva estatural da Caderneta teve seu último registro aos 2 anos de idade. No momento, a estatura da menor está sobre a curva −3 do escore Z e no gráfico ponderal está entre os escores Z 0 e −2. Ao exame físico, encontra-se em bom estado geral, estágio de desenvolvimento de Tanner M3 P2.",
+   "perguntas": [
+    {
+     "enunciado": "Diante dos dados apresentados, identifique a estatura final, esperada, para essa adolescente:",
+     "alternativas": {
+      "a": "155 ± 10 cm",
+      "b": "164 ± 10 cm",
+      "c": "165 ± 10 cm",
+      "d": "178 ± 10 cm"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A estatura-alvo (canal familiar) para meninas calcula-se por [(altura do pai − 13) + altura da mãe] / 2. Aqui: pai 179 cm menos 13 = 166; soma com 164 (mãe) = 330; dividido por 2 = 165 cm, com a margem habitual de ±10 cm (aproximadamente ±8,5 cm). Por isso a alternativa correta é 165 ± 10 cm. As opções 155 e 164 subestimam o alvo calculado; 178 corresponderia a um cálculo equivocado (aproximando-se da estatura paterna, sem o ajuste de sexo). O valor da estatura-alvo serve para comparar o potencial genético com a estatura atual/projeção — a menina está muito abaixo (Z −3) e com atraso puberal (ainda sem menarca aos 15 anos, Tanner M3P2 discordante), o que exige investigação. O cálculo da estatura-alvo é conteúdo recorrente de prova; atenção a subtrair 13 cm para meninas (e somar 13 para meninos).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique os exames necessários para a avaliação adequada dessa adolescente:",
+     "alternativas": {
+      "a": "Cariótipo, idade óssea, velocidade do crescimento",
+      "b": "Cariótipo, idade óssea, dosagem de estradiol, velocidade do crescimento",
+      "c": "Cariótipo, dosagem de estradiol, velocidade do crescimento",
+      "d": "Idade óssea, dosagem de estradiol, velocidade do crescimento"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Diante de baixa estatura acentuada (Z −3) com atraso puberal em menina, a avaliação básica prioriza cariótipo (para investigar síndrome de Turner, causa clássica de baixa estatura + disgenesia gonadal + atraso puberal em meninas fenotipicamente femininas), idade óssea (avalia maturação esquelética e potencial de crescimento remanescente) e velocidade de crescimento (define se o distúrbio é ativo/progressivo). Por isso a banca considerou correta a tríade cariótipo + idade óssea + velocidade de crescimento. As opções que incluem 'dosagem de estradiol' foram consideradas menos adequadas como conjunto básico inicial pela banca — embora o eixo gonadotrófico seja investigado, a prioridade neste roteiro é cariótipo + maturação óssea + dinâmica de crescimento (e a opção que soma tudo não foi a assinalada). A síndrome de Turner é o diagnóstico 'não perder' aqui, o que justifica o cariótipo obrigatório mesmo na ausência de estigmas evidentes.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Identifique, entre as alternativas a seguir, a que apresenta causa de estatura ACIMA do normal para a idade:",
+     "alternativas": {
+      "a": "Síndrome de Noonan",
+      "b": "Acondroplasia",
+      "c": "Síndrome de Marfan",
+      "d": "Atraso na puberdade precoce"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A síndrome de Marfan (doença do tecido conjuntivo, mutação da fibrilina-1/FBN1) cursa com estatura elevada, membros longos (dolicostenomelia), aracnodactilia, ectopia do cristalino e dilatação da raiz da aorta — portanto é causa de estatura ACIMA do normal, sendo a alternativa correta. A acondroplasia é a displasia esquelética mais comum e causa baixa estatura desproporcionada (rizomélica), o oposto. A síndrome de Noonan cursa tipicamente com baixa estatura, cardiopatia (estenose pulmonar), pescoço alado e fenótipo 'Turner-like' em ambos os sexos — também baixa estatura. 'Atraso na puberdade precoce' é uma expressão contraditória/sem sentido clínico consistente e não é causa de alta estatura. Entre as altas estaturas patológicas, lembrar ainda de homocistinúria (diferencial de Marfan, mas com deficiência intelectual e trombose) e gigantismo por excesso de GH. Marfan é o exemplo clássico cobrado.\n📚 Leitura sugerida (bloco): Endocrinologia pediátrica — baixa estatura/puberdade (material do Drive) — https://drive.google.com/file/d/1DfkaSxC7e73geDJxpMCfbVbx-VX53efB/view; complementar com Manual de Endocrinologia da SBP.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia (colestase neonatal / atresia de vias biliares)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Lactente de 6 semanas é levado à consulta por icterícia que não desapareceu desde a segunda semana de vida. A mãe notou, nos últimos dias, fezes progressivamente esbranquiçadas ('cor de massa de vidraceiro') e urina escura que mancha a fralda. Nasceu a termo, em aleitamento materno, ganho de peso adequado. Ao exame: ictérico até a raiz das coxas, fígado levemente aumentado e firme, bom estado geral. Bilirrubina total elevada às custas da fração DIRETA (conjugada).",
+   "perguntas": [
+    {
+     "enunciado": "O dado que MAIS fortemente indica investigação urgente de doença hepatobiliar neste lactente é:",
+     "alternativas": {
+      "a": "Icterícia que poupa as extremidades",
+      "b": "Icterícia iniciada nas primeiras 24 horas de vida",
+      "c": "Predomínio de bilirrubina direta (conjugada) com acolia fecal e colúria",
+      "d": "Bilirrubina indireta elevada em recém-nascido em aleitamento"
+     },
+     "correta": "c",
+     "comentario": "A colestase neonatal define-se por elevação da bilirrubina DIRETA/conjugada (classicamente >1 mg/dL ou >20% da total) e é SEMPRE patológica — a associação com acolia fecal (fezes esbranquiçadas) e colúria (urina escura) aponta obstrução ao fluxo biliar e obriga investigação urgente. A icterícia nas primeiras 24 h de vida é sinal de alerta, mas tipicamente de hiperbilirrubinemia INDIRETA (hemólise), outro problema. Bilirrubina indireta elevada em RN amamentado sugere icterícia do leite materno/fisiológica prolongada — quadro habitualmente benigno, o oposto da colestase. Icterícia que 'poupa extremidades' refere-se à progressão craniocaudal (zonas de Kramer) da hiperbilirrubinemia indireta, não à colestase. A regra de ouro: todo lactente ictérico após 14 dias de vida deve ter as frações de bilirrubina dosadas — se a direta estiver elevada, investigar imediatamente.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "A principal hipótese a ser AFASTADA com urgência, dado o impacto do tempo no prognóstico, é:",
+     "alternativas": {
+      "a": "Incompatibilidade ABO",
+      "b": "Icterícia do leite materno",
+      "c": "Esferocitose hereditária",
+      "d": "Atresia de vias biliares"
+     },
+     "correta": "d",
+     "comentario": "A atresia de vias biliares é a causa mais importante de colestase neonatal a ser afastada com URGÊNCIA, pois o sucesso da cirurgia de Kasai (portoenterostomia) depende criticamente de ser realizada precocemente — idealmente antes das 8 semanas de vida; atrasos levam a cirrose biliar progressiva e necessidade de transplante. Incompatibilidade ABO e esferocitose hereditária causam hiperbilirrubinemia INDIRETA por hemólise, não colestase (bilirrubina direta), e não explicam acolia. Icterícia do leite materno também é indireta e benigna, jamais cursando com acolia/colúria — confundi-la com colestase é justamente o erro que retarda o diagnóstico da atresia. Por isso, diante de bilirrubina direta elevada, a prioridade é excluir atresia biliar (ultrassonografia, avaliação do fluxo biliar, eventual biópsia e colangiografia), sem perder tempo. O tempo é o principal determinante do prognóstico.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "A conduta inicial mais adequada é:",
+     "alternativas": {
+      "a": "Suspender o aleitamento materno e observar por mais 30 dias",
+      "b": "Tranquilizar a família, pois é icterícia fisiológica prolongada",
+      "c": "Iniciar fototerapia domiciliar e reavaliar em 1 mês",
+      "d": "Dosar frações de bilirrubina e encaminhar com urgência à investigação hepatobiliar especializada"
+     },
+     "correta": "d",
+     "comentario": "Diante de icterícia colestática (bilirrubina direta elevada com acolia/colúria) em lactente, a conduta é confirmar as frações de bilirrubina e ENCAMINHAR com urgência para investigação hepatobiliar especializada (ultrassonografia de vias biliares, avaliação de atresia biliar e demais causas de colestase — infecções, erros inatos, etc.), pois o prognóstico da atresia depende de intervenção precoce. Suspender o aleitamento e apenas observar por 30 dias é conduta da icterícia do leite materno (indireta) e, aqui, seria um atraso perigoso. Fototerapia trata hiperbilirrubinemia INDIRETA e não tem qualquer efeito sobre a bilirrubina conjugada — inútil na colestase. Tranquilizar como 'fisiológica prolongada' é erro grave: icterícia fisiológica não cursa com bilirrubina direta elevada nem com acolia. A mensagem de prova é: colestase neonatal é emergência diagnóstica — dosar frações e encaminhar rápido salva a chance da cirurgia de Kasai.\n📚 Leitura sugerida (bloco): Neonatologia (material do Drive) — https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view; complementar com Guia SBP de Colestase Neonatal (investigação da icterícia após 14 dias).",
+     "dificuldade": "moderada"
+    }
+   ]
+  }
+ ]
+}
