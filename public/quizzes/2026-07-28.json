@@ -1,0 +1,651 @@
+{
+  "date": "2026-07-28",
+  "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+  "blocos": [
+    {
+      "tema": "Neurologia — Vertigem e Síndromes Vestibulares (vestibulopatia bilateral) [RE ranking unificado #1]",
+      "tier": "ALTO",
+      "vinheta": "Homem de 63 anos, internado havia três semanas por sepse de foco urinário, tratado com gentamicina em dose plena por 12 dias, recebe alta e passa a queixar-se de desequilíbrio persistente ao caminhar, que piora muito no escuro e em pisos irregulares, e de que 'o ambiente treme' quando anda ou vira a cabeça, dificultando ler placas. Nega vertigem rotatória em crises, zumbido ou hipoacusia. Ao exame, marcha cautelosa de base alargada, Romberg com queda importante ao fechar os olhos, e a acuidade visual cai três linhas na tabela quando ele balança a cabeça (teste de acuidade visual dinâmica alterado). O teste de impulso cefálico (head impulse) mostra sacadas de correção para ambos os lados.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a hipótese diagnóstica mais provável?",
+          "alternativas": {
+            "a": "Neurite vestibular à direita",
+            "b": "Vertigem posicional paroxística benigna",
+            "c": "Vestibulopatia bilateral",
+            "d": "Doença de Ménière"
+          },
+          "correta": "c",
+          "comentario": "O quadro é de perda vestibular DOS DOIS LADOS: desequilíbrio crônico que piora no escuro (sem a visão para compensar) e oscilopsia — a sensação de que o ambiente 'treme' ao mover a cabeça, por falência do reflexo vestíbulo-ocular (RVO) bilateral. O impulso cefálico com sacadas de correção para AMBOS os lados e a acuidade visual dinâmica alterada confirmam RVO deficiente bilateralmente. A vertigem posicional paroxística benigna dá crises rotatórias breves desencadeadas por mudança de posição da cabeça, com Dix-Hallpike positivo e sem oscilopsia contínua. A doença de Ménière cursa com crises de vertigem espontânea associadas a zumbido e hipoacusia flutuante — ausentes aqui. A neurite vestibular é unilateral e aguda (impulso cefálico positivo para um só lado), evoluindo com compensação em semanas, não com quadro bilateral crônico. Gentamicina é o ototóxico vestibular clássico (lesa preferencialmente as células ciliadas do labirinto, muitas vezes poupando a audição).",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual exame melhor confirma e quantifica a disfunção descrita?",
+          "alternativas": {
+            "a": "Prova calórica / videonistagmografia com teste rotatório",
+            "b": "Eletroencefalograma",
+            "c": "Audiometria tonal",
+            "d": "Tomografia de ossos temporais"
+          },
+          "correta": "a",
+          "comentario": "A avaliação funcional do labirinto é feita pela prova calórica (bitermal) e pelo teste da cadeira rotatória dentro da videonistagmografia, que demonstram hiporreflexia/arreflexia vestibular bilateral e quantificam o ganho do RVO. O vídeo-head-impulse test (vHIT) complementa medindo o ganho para cada canal. A tomografia de ossos temporais avalia estrutura óssea (útil em deiscência de canal, otosclerose, colesteatoma), mas não mede função vestibular. A audiometria tonal é normal ou pouco alterada aqui, justamente porque a gentamicina costuma poupar a cóclea — não é o exame que confirma a hipótese. O eletroencefalograma investiga epilepsia e não tem papel na tontura vestibular. Pérola: na vestibulopatia bilateral a prova calórica mostra resposta reduzida dos dois lados, diferente da neurite (um lado abolido).",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual é a conduta terapêutica de maior impacto?",
+          "alternativas": {
+            "a": "Dieta hipossódica e diurético",
+            "b": "Uso contínuo de supressor vestibular (dimenidrinato)",
+            "c": "Reabilitação vestibular e suspensão do ototóxico",
+            "d": "Manobra de Epley"
+          },
+          "correta": "c",
+          "comentario": "O tratamento central é a REABILITAÇÃO VESTIBULAR (exercícios de estabilização do olhar e treino de equilíbrio para promover substituição sensorial por visão e propriocepção) somada à retirada imediata do agente ototóxico e à prevenção de novas exposições. A manobra de Epley trata a VPPB de canal posterior (reposicionamento de otólitos) e não tem função aqui. Supressores vestibulares de uso contínuo (dimenidrinato, betaistina em excesso, benzodiazepínicos) são deletérios na perda bilateral crônica porque BLOQUEIAM a compensação central e pioram o desequilíbrio — só cabem em crise aguda, por poucos dias. Dieta hipossódica com diurético é conduta da doença de Ménière, diagnóstico que já foi afastado. Reforço de segurança: orientar boa iluminação noturna e apoio, pois o risco de queda aumenta muito no escuro.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 138 — Síndrome Vestibular Crônica; e cap. 192 — Reabilitação de Distúrbios Vestibulares e do Equilíbrio.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroimunologia (neurossarcoidose) [RE ranking unificado #2]",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 38 anos apresenta, em duas semanas, paralisia facial periférica à direita seguida de paralisia facial à esquerda, além de visão borrada e sede intensa com poliúria. Relata tosse seca e cansaço há meses. Ao exame, diparesia facial periférica, e o fundo de olho evidencia uveíte. A ressonância de crânio mostra realce leptomeníngeo basal e espessamento do infundíbulo hipofisário. O líquor tem pleocitose linfocítica com hiperproteinorraquia e elevação da enzima conversora de angiotensina; a radiografia de tórax revela adenopatia hilar bilateral.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Esclerose múltipla",
+            "b": "Neurossarcoidose",
+            "c": "Meningite tuberculosa",
+            "d": "Encefalite anti-NMDA"
+          },
+          "correta": "b",
+          "comentario": "A combinação de neuropatias cranianas múltiplas (paralisia facial bilateral), uveíte, envolvimento hipotálamo-hipofisário (diabetes insípido, com poliúria/polidipsia), meningite basal com realce leptomeníngeo e adenopatia hilar bilateral é a assinatura da neurossarcoidose — a sarcoidose acometendo o sistema nervoso, tipicamente com predileção pela base do crânio e pelo eixo hipotalâmico. A esclerose múltipla causa lesões desmielinizantes da substância branca disseminadas no tempo e espaço (neurite óptica, mielite), não meningite basal com adenopatia hilar nem diabetes insípido. A meningite tuberculosa é o principal diferencial da meningite basal e também dá paralisia de nervos cranianos, mas cursa com febre, líquor com glicose baixa e ADA elevada, sem adenopatia hilar bilateral simétrica típica de sarcoidose. A encefalite anti-NMDA manifesta-se com sintomas psiquiátricos, discinesias e crises, não com este padrão granulomatoso sistêmico. A ECA elevada apoia, mas não é específica.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual achado dá o diagnóstico de certeza da doença de base?",
+          "alternativas": {
+            "a": "Baciloscopia do líquor",
+            "b": "Biópsia com granuloma não caseoso",
+            "c": "Anticorpo antiaquaporina-4 positivo",
+            "d": "Bandas oligoclonais no líquor"
+          },
+          "correta": "b",
+          "comentario": "O diagnóstico definitivo é histológico: biópsia (de linfonodo, pele, glândula lacrimal ou lesão acessível) demonstrando GRANULOMA NÃO CASEOSO (não caseificante), o achado patológico da sarcoidose. Bandas oligoclonais indicam síntese intratecal de imunoglobulina e são típicas — porém inespecíficas — da esclerose múltipla; podem aparecer em várias inflamações do SNC e não confirmam sarcoidose. O anticorpo antiaquaporina-4 define a neuromielite óptica, diagnóstico distinto. A baciloscopia (e a cultura/PCR para BAAR) buscaria tuberculose — o granuloma da TB é CASEOSO, exatamente o oposto do da sarcoidose; por isso a distinção histológica caseoso × não caseoso é a chave de prova. Antes de iniciar corticoide, é prudente afastar TB, pois o tratamento imunossupressor pode ser catastrófico numa neurotuberculose.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual é o tratamento de primeira linha?",
+          "alternativas": {
+            "a": "Interferona beta",
+            "b": "Plasmaférese isolada",
+            "c": "Corticoterapia sistêmica",
+            "d": "Isoniazida e rifampicina"
+          },
+          "correta": "c",
+          "comentario": "A base do tratamento da neurossarcoidose é a CORTICOTERAPIA sistêmica em dose alta (prednisona, eventualmente precedida de pulso de metilprednisolona), com desmame lento; casos refratários ou dependentes de corticoide recebem poupadores (metotrexato, azatioprina) ou anti-TNF (infliximabe). A interferona beta é imunomodulador da esclerose múltipla e não trata sarcoidose — inclusive pode desencadear sarcoidose em alguns pacientes. A plasmaférese isolada não é terapia estabelecida da neurossarcoidose (tem papel em surtos desmielinizantes graves refratários, contexto diferente). Isoniazida e rifampicina tratam tuberculose, que precisa ser afastada, mas não é o diagnóstico aqui. Pérola: o envolvimento hipofisário costuma deixar sequela endócrina (diabetes insípido, pan-hipopituitarismo) mesmo após controle inflamatório — avaliar e repor hormônios.\n📚 Leitura sugerida (bloco): Merritt, Tratado de Neurologia (13ª ed.), Seção 10 — Doenças Desmielinizantes e Inflamatórias; e Tratado de Neurologia da ABN (3ª ed., 2025), cap. 90 — Encefalites Autoimunes e Síndromes Paraneoplásicas.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Doença Cerebrovascular (AVC lacunar)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 66 anos, hipertenso e tabagista de longa data com controle pressórico irregular, acorda e é levado ao pronto-socorro por familiares que notaram, ao meio-dia, fraqueza do lado esquerdo do corpo instalada em horas. Ao exame, hemiparesia proporcionada de face, braço e perna à esquerda, força grau 3, SEM alteração de sensibilidade, da linguagem, do campo visual ou do nível de consciência. A tomografia de crânio sem contraste na admissão é normal; a glicemia é 118 mg/dL.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o subtipo de AVC mais provável?",
+          "alternativas": {
+            "a": "Hemorragia intraparenquimatosa",
+            "b": "Hemorragia subaracnóidea",
+            "c": "Infarto cardioembólico extenso de artéria cerebral média",
+            "d": "Infarto lacunar"
+          },
+          "correta": "d",
+          "comentario": "O quadro é uma síndrome lacunar clássica — hemiparesia motora pura, proporcionada (face+braço+perna igualmente), SEM déficit cortical (afasia, negligência, hemianopsia) e SEM alteração sensitiva. Isso aponta para pequeno infarto profundo (cápsula interna ou base da ponte) por doença de pequenos vasos (lipo-hialinose), o subtipo lacunar, fortemente ligado à hipertensão crônica. Um infarto cardioembólico extenso de cerebral média daria déficit cortical proeminente (afasia se dominante, desvio do olhar, hemianopsia) e rebaixamento — ausentes. Hemorragia intraparenquimatosa costuma cursar com cefaleia, vômitos e rebaixamento, e apareceria como área hiperdensa na TC inicial (aqui a TC é normal, compatível com isquêmico precoce). A hemorragia subaracnóidea manifesta-se por cefaleia súbita 'em trovoada' e rigidez de nuca, não por hemiparesia pura. Os 5 clássicos lacunares: motor puro, sensitivo puro, sensitivo-motor, hemiparesia-ataxia e disartria-mão desajeitada.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Como definir a elegibilidade para reperfusão neste horário incerto de início?",
+          "alternativas": {
+            "a": "Nova tomografia simples em 24 horas",
+            "b": "RM com mismatch difusão-FLAIR",
+            "c": "Punção lombar",
+            "d": "Trombólise imediata sem neuroimagem adicional"
+          },
+          "correta": "b",
+          "comentario": "Trata-se de um AVC de horário de início indeterminado (percebido ao acordar/'wake-up'). A conduta baseada em evidência é usar neuroimagem avançada para estimar a janela: a RM com MISMATCH difusão-FLAIR (lesão restringindo à difusão, mas ainda sem tradução no FLAIR) indica isquemia recente (< ~4,5 h) e seleciona pacientes que se beneficiam de trombólise mesmo sem hora conhecida. Trombolizar sem imagem adequada num horário incerto é inseguro. Repetir apenas TC simples em 24 h serve para ver a extensão final, mas não ajuda a decidir a reperfusão AGORA. A punção lombar não tem papel na definição de reperfusão do AVC isquêmico (seria cogitada em suspeita de HSA com TC normal, cenário clínico diferente). Em oclusão de grande vaso, a trombectomia pode ter janela estendida guiada por perfusão/mismatch.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual é a base da prevenção secundária mais adequada a longo prazo?",
+          "alternativas": {
+            "a": "Endarterectomia de carótida de urgência",
+            "b": "Corticoide em dose alta",
+            "c": "Antiagregação e controle intensivo dos fatores de risco",
+            "d": "Anticoagulação plena com varfarina"
+          },
+          "correta": "c",
+          "comentario": "A doença de pequenos vasos (lacunar) previne-se com ANTIAGREGANTE plaquetário (AAS, ou clopidogrel) e, sobretudo, controle rigoroso dos fatores de risco: pressão arterial (o mais importante para pequenos vasos), diabetes, dislipidemia com estatina de alta potência e cessação do tabagismo. Anticoagulação plena é indicada quando há fonte cardioembólica (fibrilação atrial), não em infarto lacunar — e aumenta risco hemorrágico sem benefício aqui. Endarterectomia é para estenose carotídea sintomática significativa (70–99%), mecanismo diferente do lacunar; não há indicação neste caso. Corticoide não tem papel no AVC isquêmico e pode piorar o controle glicêmico/pressórico. Pérola: dupla antiagregação breve (AAS+clopidogrel por ~21 dias) é opção em AVC menor/AIT de alto risco na fase aguda, seguida de monoterapia.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 46 — Síndromes Vasculares Isquêmicas; e cap. 52 — Prevenção do AVC.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Epilepsia (estado de mal não convulsivo)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 72 anos, com epilepsia focal por sequela de AVC prévio, é levada ao pronto-socorro por familiares porque há cerca de dez horas está 'diferente': flutuando entre sonolência e agitação, com o olhar parado, fala desconexa e piscamentos rítmicos ocasionais, sem melhora. Nega febre. Não houve abalos tônico-clônicos generalizados. Glicemia, sódio e função renal normais; tomografia de crânio mostra apenas a sequela antiga. O nível de consciência permanece flutuante e não retorna ao basal.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a principal hipótese para o rebaixamento flutuante e prolongado?",
+          "alternativas": {
+            "a": "Estado de mal epiléptico não convulsivo",
+            "b": "Acidente vascular cerebral em evolução",
+            "c": "Crise psicogênica não epiléptica",
+            "d": "Delirium por infecção sistêmica"
+          },
+          "correta": "a",
+          "comentario": "Paciente com epilepsia conhecida, alteração PROLONGADA e flutuante do nível de consciência sem retorno ao basal, olhar fixo, automatismos sutis (piscamentos rítmicos) e sem causa metabólica ou estrutural nova é o quadro típico do ESTADO DE MAL NÃO CONVULSIVO (EMNC) — atividade ictal contínua/recorrente sem as convulsões motoras óbvias, causa subdiagnosticada de rebaixamento no idoso. Um AVC em evolução daria déficit focal progressivo e correlato na imagem, não flutuação com automatismos. O delirium por infecção é diferencial importante, mas aqui não há febre nem foco, e a flutuação com fenômenos motores sutis num epiléptico aponta para causa ictal. A crise psicogênica é episódica, com fechamento ocular resistente e sem correlato eletrográfico — não explica dez horas de rebaixamento verdadeiro. Regra de ouro: todo rebaixamento inexplicado e persistente merece EEG para afastar EMNC.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual exame confirma o diagnóstico?",
+          "alternativas": {
+            "a": "Nova tomografia com contraste",
+            "b": "Ressonância magnética de crânio",
+            "c": "Dosagem de amônia sérica",
+            "d": "Eletroencefalograma"
+          },
+          "correta": "d",
+          "comentario": "O diagnóstico do estado de mal não convulsivo é ELETROGRÁFICO: o EEG (idealmente prolongado/contínuo) demonstra atividade ictal contínua ou recorrente — descargas rítmicas/periódicas com evolução — e, de forma decisiva, a melhora clínica e eletrográfica após benzodiazepínico endovenoso confirma a natureza ictal. A ressonância pode mostrar a lesão epileptogênica, mas não flagra a atividade elétrica em curso. Repetir TC com contraste não acrescenta ao diagnóstico do estado de mal (a TC já mostrou só a sequela). A amônia é útil na encefalopatia hepática, que não é o cenário (função hepática/quadro não sugerem). Pérola de prova: no idoso com 'confusão' inexplicada e prolongada, pedir EEG cedo evita perder um EMNC, cujo tratamento precoce melhora o prognóstico.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual é a conduta inicial de tratamento?",
+          "alternativas": {
+            "a": "Apenas observação clínica",
+            "b": "Benzodiazepínico endovenoso seguido de antiepiléptico de manutenção",
+            "c": "Haloperidol para agitação",
+            "d": "Antibiótico empírico de amplo espectro"
+          },
+          "correta": "b",
+          "comentario": "O tratamento segue a escada do estado de mal: primeira linha é BENZODIAZEPÍNICO endovenoso (diazepam, lorazepam ou midazolam) para abortar a atividade ictal, imediatamente seguido de antiepiléptico de manutenção EV (fenitoína, valproato ou levetiracetam) para evitar recorrência. Apenas observar perpetua a atividade ictal, que é lesiva ao cérebro e piora o desfecho. Antibiótico empírico só faria sentido se houvesse suspeita de infecção do SNC (não há febre nem indicação de punção neste enunciado). Haloperidol trata agitação/delirium, mas não interrompe crise epiléptica e pode reduzir o limiar convulsivo — conduta errada aqui. Pérola: se não houver resposta às duas primeiras linhas, é estado de mal refratário e indica-se anestésico contínuo (midazolam, propofol) em UTI com monitorização de EEG.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 84 — Estado de Mal Epiléptico.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Transtornos do Movimento (atrofia de múltiplos sistemas)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 60 anos procura o neurologista por lentidão de movimentos e rigidez progressivas há dois anos, com quedas frequentes. Chama atenção a história de tonturas ao levantar com desmaios, disfunção erétil e urgência urinária com incontinência, iniciadas cedo no quadro. A esposa relata roncos altos e um ruído inspiratório agudo à noite. Ao exame, parkinsonismo SIMÉTRICO, resposta pobre e transitória à levodopa em dose otimizada, e queda de 40 mmHg na pressão sistólica ao ortostatismo.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Doença de Parkinson idiopática",
+            "b": "Atrofia de múltiplos sistemas",
+            "c": "Parkinsonismo induzido por fármacos",
+            "d": "Tremor essencial"
+          },
+          "correta": "b",
+          "comentario": "O conjunto parkinsonismo SIMÉTRICO + disautonomia GRAVE e PRECOCE (hipotensão ortostática sintomática, disfunção erétil, bexiga neurogênica) + estridor noturno + resposta pobre à levodopa é o retrato da atrofia de múltiplos sistemas (MSA), uma sinucleinopatia com degeneração de estruturas autonômicas, nigroestriatais e cerebelares. Na doença de Parkinson idiopática o parkinsonismo é ASSIMÉTRICO, há tremor de repouso, EXCELENTE resposta à levodopa e a disautonomia significativa surge tardiamente — não cedo. O tremor essencial é um tremor de ação/postural bilateral, sem rigidez, bradicinesia ou disautonomia. O parkinsonismo farmacológico exige exposição a bloqueadores dopaminérgicos (neurolépticos, metoclopramida, flunarizina) e é simétrico, mas não explica a disautonomia grave nem o estridor — e o enunciado não traz o fármaco. 'Bandeiras vermelhas' para parkinsonismo atípico: quedas precoces, disautonomia precoce, má resposta à levodopa e sinais cerebelares/piramidais.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual achado clínico é a principal 'bandeira vermelha' contra Parkinson idiopático neste caso?",
+          "alternativas": {
+            "a": "Disautonomia grave e precoce",
+            "b": "Tremor de repouso assimétrico",
+            "c": "Início unilateral dos sintomas",
+            "d": "Melhora sustentada com levodopa"
+          },
+          "correta": "a",
+          "comentario": "A disautonomia GRAVE e PRECOCE — hipotensão ortostática com síncope, disfunção erétil e incontinência logo no início — é a bandeira vermelha que aponta parkinsonismo atípico (MSA) e afasta Parkinson idiopático, no qual a disautonomia importante costuma ser tardia. Tremor de repouso assimétrico, melhora sustentada com levodopa e início unilateral são, ao contrário, características TÍPICAS da doença de Parkinson idiopática — logo, não servem como sinal de alarme; se estivessem presentes de forma robusta, apontariam para Parkinson comum. O estridor laríngeo noturno e o parkinsonismo simétrico com quedas precoces completam o perfil atípico. Prova: reconhecer as bandeiras vermelhas (quedas < 3 anos, disautonomia precoce, resposta pobre à levodopa, paralisia do olhar vertical, sinais cerebelares) é o que separa Parkinson das síndromes parkinson-plus.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual é a conduta mais adequada frente à hipotensão ortostática?",
+          "alternativas": {
+            "a": "Iniciar anti-hipertensivo",
+            "b": "Restrição hídrica e de sal",
+            "c": "Medidas posturais e fludrocortisona ou midodrina",
+            "d": "Aumentar a levodopa até altas doses"
+          },
+          "correta": "c",
+          "comentario": "A hipotensão ortostática neurogênica da MSA trata-se primeiro com MEDIDAS NÃO FARMACOLÓGICAS (elevar a cabeceira, meias/faixa compressiva, aumentar ingesta de sal e água, levantar devagar) e, quando insuficiente, com FLUDROCORTISONA (expande volume) ou MIDODRINA/droxidopa (vasoconstrição). Aumentar a levodopa a altas doses não corrige o quadro (a resposta é pobre) e PIORA a hipotensão, além de risco de efeitos adversos. Iniciar anti-hipertensivo é o oposto do necessário e agravaria as síncopes — cuidado apenas com a hipertensão supina, manejada com ajustes de horário e cabeceira elevada. Restrição de sal e água agrava a hipotensão; o correto é liberalizar sal e líquidos. Prognóstico: a MSA é progressiva e sem terapia modificadora; o cuidado é sintomático e multidisciplinar, com atenção ao estridor (risco de eventos respiratórios noturnos).\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 68 — Parkinsonismo Atípico.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuropatias Periféricas (mononeurite múltipla vasculítica)",
+      "tier": "ALTO",
+      "vinheta": "Homem de 55 anos apresenta, em seis semanas, dor e queimação em pé direito com 'pé caído' (não consegue levantar o pé), seguidos, dias depois, de fraqueza para estender o punho esquerdo. Refere perda de 6 kg, febre baixa e mialgia. Ao exame, déficit motor e sensitivo ASSIMÉTRICO em territórios de nervos individuais (fibular direito e radial esquerdo), com pé em equino à direita. Exames mostram VHS e PCR muito elevados; há relato de púrpura palpável em membros inferiores.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o padrão sindrômico e a etiologia mais provável?",
+          "alternativas": {
+            "a": "Radiculopatia lombar compressiva",
+            "b": "Polineuropatia distal simétrica diabética",
+            "c": "Mononeurite múltipla por vasculite",
+            "d": "Síndrome de Guillain-Barré"
+          },
+          "correta": "c",
+          "comentario": "O acometimento de nervos individuais, de forma ASSIMÉTRICA e sequencial (fibular de um lado, radial do outro), com dor, é o padrão de MONONEURITE MÚLTIPLA — e, num paciente com sintomas sistêmicos (perda de peso, febre, mialgia), púrpura palpável e provas inflamatórias muito altas, a causa mais provável é VASCULITE (isquemia dos vasa nervorum), como poliarterite nodosa ou vasculite associada a ANCA. A polineuropatia diabética é distal, SIMÉTRICA e insidiosa ('bota e luva'), não multifocal aguda. A síndrome de Guillain-Barré é uma polirradiculoneuropatia ASCENDENTE, SIMÉTRICA, arreflexa e aguda, com dissociação proteíno-citológica — não multifocal assimétrica com púrpura. A radiculopatia lombar compressiva segue um dermátomo/miótomo único com dor irradiada e não explica o acometimento simultâneo do nervo radial no membro superior. Pé caído + punho caído em tempos diferentes é a apresentação-âncora da mononeurite múltipla.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual exame é decisivo para confirmar a etiologia?",
+          "alternativas": {
+            "a": "Teste de estimulação repetitiva",
+            "b": "Hemoglobina glicada",
+            "c": "Ressonância de coluna lombar",
+            "d": "Biópsia de nervo (e músculo)"
+          },
+          "correta": "d",
+          "comentario": "A confirmação da vasculite é HISTOLÓGICA: a biópsia de nervo sensitivo acometido (sural), frequentemente combinada com biópsia muscular, demonstra inflamação transmural da parede vascular com necrose fibrinoide e isquemia das fibras — padrão de vasculite. A eletroneuromiografia é essencial para caracterizar o padrão axonal multifocal e guiar o local da biópsia, mas não define a causa. A ressonância lombar investigaria compressão radicular, hipótese já afastada pela distribuição multifocal e pelos achados sistêmicos. A hemoglobina glicada rastreia diabetes, que causaria neuropatia simétrica, não este quadro. O teste de estimulação repetitiva avalia a junção neuromuscular (miastenia/Eaton-Lambert), sem relação com neuropatia vasculítica. Completa-se a investigação com ANCA, sorologias (hepatite B/C), crioglobulinas e complemento.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual é o tratamento inicial?",
+          "alternativas": {
+            "a": "Apenas gabapentina para a dor",
+            "b": "Corticoide em dose alta com imunossupressor",
+            "c": "Imunoglobulina como monoterapia definitiva",
+            "d": "Descompressão cirúrgica do nervo fibular"
+          },
+          "correta": "b",
+          "comentario": "A neuropatia vasculítica é uma emergência neuro-reumatológica: o tratamento é imunossupressão — CORTICOIDE em dose alta (frequentemente pulso de metilprednisolona) associado a agente citotóxico/imunossupressor (ciclofosfamida em formas graves/sistêmicas, ou rituximabe nas ANCA-associadas), para conter a isquemia e evitar déficit permanente. Gabapentina apenas controla a dor neuropática, mas não trata a doença de base — deixá-la sozinha permite a progressão. Imunoglobulina não é a terapia de escolha da vasculite sistêmica primária (tem papel em outras imunomediadas, como GBB/CIDP). Descompressão cirúrgica do fibular seria conduta de lesão compressiva focal, não de doença isquêmica multifocal imunomediada. Pérola: iniciar imunossupressão precocemente melhora a recuperação; a reabilitação e a órtese para o pé caído complementam o cuidado.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 112 — Abordagem Clínica das Neuropatias Periféricas; e cap. 122 — Neuropatias em Doenças Sistêmicas.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Doença do Neurônio Motor (ELA de início bulbar)",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 64 anos procura atendimento por dificuldade progressiva para falar e engasgos com líquidos há oito meses, com a fala tornando-se 'enrolada' e nasalada. Passou a rir e chorar sem controle e sem motivo proporcional. Nega alteração de sensibilidade. Ao exame, disartria espástica, língua com atrofia e fasciculações, reflexo mandibular exaltado e reflexo nauseoso vivo; nos membros, há fasciculações, hiperreflexia difusa e sinal de Babinski bilateral, com sensibilidade preservada.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Miastenia gravis",
+            "b": "Acidente vascular de tronco encefálico",
+            "c": "Paralisia de Bell",
+            "d": "Esclerose lateral amiotrófica"
+          },
+          "correta": "d",
+          "comentario": "A coexistência de sinais de neurônio motor SUPERIOR (disartria espástica, reflexo mandibular e nauseoso exaltados, hiperreflexia, Babinski) e INFERIOR (atrofia e fasciculações de língua, fasciculações nos membros) SEM déficit sensitivo, com início bulbar e progressão, define a esclerose lateral amiotrófica. A labilidade emocional (rir/chorar imotivados) é o afeto pseudobulbar, comum na forma bulbar. A miastenia gravis também dá disartria e disfagia, mas com FADIGABILIDADE flutuante (piora ao fim do dia), ptose/diplopia e SEM sinais de neurônio motor superior ou fasciculações. Um AVC de tronco instala-se de forma AGUDA e costuma trazer déficits sensitivos, oculomotores e cruzados — não uma progressão de oito meses. A paralisia de Bell é uma mononeuropatia facial periférica unilateral, não explica disartria progressiva, fasciculações de língua e sinais piramidais difusos. A combinação NMS+NMI em múltiplas regiões é o cerne diagnóstico.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual exame é o mais importante para confirmar o diagnóstico?",
+          "alternativas": {
+            "a": "Eletroneuromiografia",
+            "b": "Biópsia de músculo",
+            "c": "Ressonância de crânio com contraste",
+            "d": "Anticorpo antirreceptor de acetilcolina"
+          },
+          "correta": "a",
+          "comentario": "A ELETRONEUROMIOGRAFIA é o exame-chave: demonstra DENERVAÇÃO ATIVA e crônica (fibrilações, ondas positivas, fasciculações, potenciais de reinervação de grande amplitude) disseminada em múltiplos segmentos (bulbar, cervical, torácico, lombossacral), sustentando o comprometimento difuso do neurônio motor inferior exigido pelos critérios diagnósticos. A ressonância de crânio serve para EXCLUIR mimetizadores (lesão de tronco, compressão), mas não confirma ELA. O anticorpo antirreceptor de acetilcolina é para miastenia, diagnóstico afastado pela ausência de fadigabilidade e pela presença de sinais piramidais/fasciculações. A biópsia muscular é útil em miopatias, não na doença do neurônio motor. Pérola: a ELA é diagnóstico clínico-eletrofisiológico de EXCLUSÃO; sinais de NMS + NMI em regiões diferentes, progredindo, sem sensitivo, são o alicerce.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual medida modifica a sobrevida e qual é a única droga modificadora disponível no SUS?",
+          "alternativas": {
+            "a": "Piridostigmina em dose alta",
+            "b": "Corticoterapia crônica",
+            "c": "Suporte ventilatório não invasivo e riluzol",
+            "d": "Imunoglobulina periódica"
+          },
+          "correta": "c",
+          "comentario": "Dois pilares aumentam sobrevida na ELA: a VENTILAÇÃO NÃO INVASIVA (VNI) quando surge insuficiência respiratória, e o RILUZOL (antiglutamatérgico), a única droga modificadora de curso amplamente disponível (a edaravona é opção em alguns contextos). O suporte nutricional (gastrostomia na disfagia grave) e o cuidado multidisciplinar completam o manejo. A piridostigmina trata miastenia (aumenta acetilcolina na junção) e não tem papel na ELA. A corticoterapia crônica não modifica a ELA e traz efeitos adversos. A imunoglobulina é usada em neuropatias imunomediadas (GBB/CIDP), não na doença do neurônio motor. Pérola de manejo: o afeto pseudobulbar pode ser tratado sintomaticamente (dextrometorfano-quinidina ou antidepressivos), e a comunicação/deglutição devem ser acompanhadas de perto pela fono.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 108 — Esclerose Lateral Amiotrófica.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Medula e Cordões Posteriores (degeneração combinada subaguda)",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 58 anos, com gastrite atrófica autoimune e uso crônico de metformina, queixa-se de formigamento e dormência ascendente em pés e mãos há quatro meses, com marcha instável que piora no escuro, e refere 'choques' que descem pelas costas ao fletir o pescoço. Está mais esquecida e apática. Ao exame, perda de sensibilidade vibratória e proprioceptiva nos pés, Romberg positivo, hiperreflexia patelar com Babinski, porém reflexos aquileus abolidos. Hemograma mostra anemia macrocítica.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Degeneração combinada subaguda da medula",
+            "b": "Esclerose lateral amiotrófica",
+            "c": "Esclerose múltipla",
+            "d": "Polineuropatia diabética isolada"
+          },
+          "correta": "a",
+          "comentario": "O acometimento SIMULTÂNEO dos cordões POSTERIORES (perda de vibração e propriocepção, Romberg positivo, ataxia sensitiva que piora no escuro, sinal de Lhermitte) e dos tratos CORTICOESPINHAIS laterais (hiperreflexia, Babinski) com neuropatia periférica associada (aquileus abolidos) e alteração cognitiva, num contexto de anemia macrocítica e má absorção (gastrite atrófica, metformina), define a degeneração combinada subaguda por deficiência de vitamina B12. A esclerose múltipla causa lesões desmielinizantes multifocais com surtos, mas não anemia macrocítica nem esse padrão simétrico dorso-lateral com neuropatia; costuma ter neurite óptica e lesões típicas na RM. A polineuropatia diabética isolada é distal e simétrica, mas NÃO causa sinais de cordão posterior/piramidais nem anemia macrocítica. A ELA não tem déficit sensitivo — aqui há claro comprometimento sensitivo. A combinação 'posterior + lateral' com macrocitose é a pista-mestra.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual exame confirma a etiologia?",
+          "alternativas": {
+            "a": "Anticorpo antiaquaporina-4",
+            "b": "Bandas oligoclonais no líquor",
+            "c": "Dosagem de vitamina B12 (e homocisteína/ácido metilmalônico)",
+            "d": "Eletroneuromiografia isolada"
+          },
+          "correta": "c",
+          "comentario": "A confirmação é a DOSAGEM DE VITAMINA B12 sérica baixa; em casos limítrofes, elevam-se o ÁCIDO METILMALÔNICO e a HOMOCISTEÍNA (marcadores funcionais mais sensíveis da deficiência). Buscar a causa (anticorpos anti-fator intrínseco/anti-célula parietal na anemia perniciosa, uso de metformina que reduz absorção de B12). Bandas oligoclonais indicariam esclerose múltipla, diagnóstico afastado pelo contexto hematológico e pelo padrão medular simétrico. A eletroneuromiografia isolada mostra a neuropatia periférica, mas não estabelece a causa carencial nem o comprometimento dos cordões. O antiaquaporina-4 define neuromielite óptica, quadro distinto. Pérola: a RM da medula pode mostrar hipersinal em T2 nos cordões posteriores em 'V invertido' na região cervicotorácica, achado que reforça o diagnóstico.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual é a conduta e o prognóstico?",
+          "alternativas": {
+            "a": "Reposição de vitamina B12, preferencialmente parenteral, o quanto antes",
+            "b": "Fisioterapia isolada, sem reposição",
+            "c": "Corticoterapia em pulso",
+            "d": "Início de riluzol"
+          },
+          "correta": "a",
+          "comentario": "O tratamento é a REPOSIÇÃO PRECOCE de vitamina B12, geralmente PARENTERAL (cianocobalamina/hidroxocobalamina IM em esquema de ataque e manutenção), sobretudo quando há má absorção — a via oral em alta dose é alternativa em casos selecionados. A precocidade é decisiva: quanto antes se repõe, maior a chance de reverter os déficits; lesões prolongadas podem deixar sequela. A corticoterapia em pulso trata surtos desmielinizantes autoimunes (ex.: EM), não a carência de B12. Fisioterapia isolada, sem corrigir a causa, permite a progressão do dano medular — a reabilitação é adjuvante, não substitui a reposição. Riluzol é droga de ELA, sem papel aqui. Alerta clássico: repor ácido fólico sozinho, sem B12, pode corrigir a anemia mas PIORAR o dano neurológico — sempre dosar/repor B12 primeiro.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 169 — Mielopatias Metabólicas e Tóxicas.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Oncologia (neuroblastoma) [RE cota individual: Vinicius]",
+      "tier": "MÉDIO",
+      "vinheta": "Menina de 18 meses é levada ao pediatra porque há três semanas apresenta movimentos oculares caóticos, rápidos e em todas as direções ('olhos dançantes'), abalos musculares breves e irregularidade da marcha com quedas, além de irritabilidade e regressão da fala. Nega febre. Ao exame, movimentos oculares conjugados, multidirecionais e incessantes, mioclonias e ataxia de tronco. A palpação abdominal revela massa firme em flanco esquerdo que cruza a linha média. A pressão arterial está acima do percentil para a idade.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a principal hipótese diagnóstica para a massa e a síndrome neurológica?",
+          "alternativas": {
+            "a": "Cetoacidose diabética",
+            "b": "Neuroblastoma",
+            "c": "Meningoencefalite viral",
+            "d": "Tumor de Wilms"
+          },
+          "correta": "b",
+          "comentario": "A tríade de opsoclono (movimentos oculares caóticos multidirecionais), mioclonias e ataxia — a síndrome opsoclono-mioclonia-ataxia — em uma criança pequena com massa abdominal que CRUZA a linha média e hipertensão (catecolaminas) é altamente sugestiva de NEUROBLASTOMA, tumor de células da crista neural (adrenal/cadeia simpática). A síndrome neurológica é PARANEOPLÁSICA, mediada por autoimunidade. O tumor de Wilms (nefroblastoma) forma massa renal que classicamente NÃO cruza a linha média, costuma ter hematúria e não causa opsoclono-mioclonia. A cetoacidose diabética cursa com hiperglicemia, desidratação e acidose, não com massa abdominal nem 'olhos dançantes'. A meningoencefalite viral daria febre e alteração de consciência, sem massa abdominal palpável. Pérola: massa que cruza a linha média + opsoclono-mioclonia = pensar neuroblastoma até prova em contrário.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual investigação bioquímica reforça o diagnóstico?",
+          "alternativas": {
+            "a": "Glicemia de jejum",
+            "b": "Catecolaminas urinárias (ácido vanilmandélico e homovanílico)",
+            "c": "Sorologia viral no líquor",
+            "d": "Dosagem de alfafetoproteína"
+          },
+          "correta": "b",
+          "comentario": "O neuroblastoma secreta catecolaminas, e a dosagem dos seus METABÓLITOS URINÁRIOS — ácido vanilmandélico (VMA) e ácido homovanílico (HVA) — está elevada na maioria dos casos, apoiando o diagnóstico junto com a imagem (USG/TC/RM de abdome, cintilografia com MIBG) e a biópsia. A glicemia de jejum investigaria diabetes, hipótese já afastada. A sorologia viral no líquor buscaria neuroinfecção, que não explica a massa abdominal. A alfafetoproteína é marcador de hepatoblastoma e tumores de células germinativas, não de neuroblastoma. Pérola: a síndrome opsoclono-mioclonia associa-se a neuroblastomas de melhor prognóstico oncológico, porém com risco de sequelas neurológicas e cognitivas a longo prazo, mesmo após remoção do tumor.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual é a conduta inicial mais adequada?",
+          "alternativas": {
+            "a": "Observação domiciliar sem investigação",
+            "b": "Iniciar insulinoterapia",
+            "c": "Encaminhar à oncologia pediátrica para estadiamento e ressecção do tumor, com imunoterapia da síndrome paraneoplásica",
+            "d": "Prescrever antiviral empírico e alta"
+          },
+          "correta": "c",
+          "comentario": "A conduta é ENCAMINHAR com urgência à oncologia pediátrica para estadiamento (imagem, MIBG, biópsia, pesquisa de amplificação de MYCN) e tratamento do tumor conforme o grupo de risco (cirurgia isolada nos baixos riscos; quimioterapia e demais modalidades nos avançados), tratando também a síndrome opsoclono-mioclonia com IMUNOTERAPIA (corticoide, ACTH, imunoglobulina, rituximabe). Antiviral empírico com alta ignora a massa abdominal e a síndrome paraneoplásica — conduta perigosa. Insulinoterapia trataria cetoacidose, diagnóstico inexistente aqui. Observação domiciliar sem investigar uma massa que cruza a linha média com sintomas neurológicos é inaceitável. Saúde pública/APS: massa abdominal palpável, hipertensão e alteração neurológica subaguda em lactente são sinais de alerta de câncer que exigem referência imediata (diagnóstico precoce reduz mortalidade).\n📚 Leitura sugerida (bloco): SBP/SBOP e INCA — Diagnóstico precoce do câncer na criança e no adolescente (sinais de alerta e fluxo de referência).",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neonatologia (filho de mãe diabética / hipocalcemia neonatal) [REAL: SUS-BA 2026]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Recém-nascido do sexo masculino, com idade gestacional de 36 semanas, nascido de parto cesáreo eletivo, filho de mãe com diabetes mellitus tipo 1 mal controlado durante a gestação; peso ao nascer 2.600 g; evoluiu bem nas primeiras horas, em alojamento conjunto. Com 36 horas de vida, a equipe é chamada porque o bebê está muito irritado, com choro agudo e tremores finos de extremidades, principalmente à manipulação, e mamando pouco. Ao exame: temperatura 36,7°C; FC 170 bpm; FR 58 irpm; perfusão preservada, sem desconforto respiratório; tônus global discretamente aumentado, hiperreflexia osteotendínea e breves movimentos clônicos em membros superiores. Exames: glicemia 78 mg/dL; sódio 138 mEq/L; potássio 4,5 mEq/L; cálcio total 6,5 mg/dL; cálcio iônico 0,80 mmol/L; fósforo 7,0 mg/dL; magnésio 1,2 mg/dL.",
+      "perguntas": [
+        {
+          "enunciado": "Diante dos dados, qual é a causa do quadro clínico apresentado?",
+          "alternativas": {
+            "a": "Hipocalcemia",
+            "b": "Hipernatremia",
+            "c": "Hipofosfatemia",
+            "d": "Hipoglicemia"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A irritabilidade, o choro agudo, os tremores/clonias, a hiperreflexia e o hipertônus num neonato com cálcio total 6,5 mg/dL e, sobretudo, cálcio IÔNICO 0,80 mmol/L (muito baixo) configuram HIPOCALCEMIA neonatal sintomática. A glicemia de 78 mg/dL é normal para a idade, afastando a hipoglicemia (que seria < 40–47 mg/dL e daria mais letargia/apneia/sudorese). O sódio de 138 mEq/L é normal, excluindo hipernatremia. O fósforo está ELEVADO (7,0 mg/dL), o oposto de hipofosfatemia — e a hiperfosfatemia relativa acompanha a hipocalcemia por hipoparatireoidismo funcional. O magnésio baixo (1,2 mg/dL) contribui e precisa ser corrigido, pois a hipomagnesemia perpetua a hipocalcemia. Filho de mãe diabética é grupo de risco clássico para hipocalcemia precoce.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual mecanismo fisiopatológico melhor explica esse distúrbio nas primeiras 48–72 horas de vida?",
+          "alternativas": {
+            "a": "Hipoparatireoidismo funcional transitório com redução da resposta de PTH",
+            "b": "Hiperparatireoidismo transitório por excesso de PTH materno",
+            "c": "Perda renal excessiva de sódio por imaturidade tubular",
+            "d": "Aumento da reabsorção intestinal de cálcio mediada por vitamina D placentária"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A hipocalcemia neonatal PRECOCE (primeiras 72 h) decorre de HIPOPARATIREOIDISMO FUNCIONAL TRANSITÓRIO: após o clampeamento do cordão cessa o aporte materno contínuo de cálcio, e as paratireoides imaturas do recém-nascido respondem de forma insuficiente (PTH baixo/inadequado), gerando queda do cálcio com fósforo elevado. No filho de mãe diabética esse mecanismo é agravado por hipomagnesemia e por hiperinsulinismo fetal. O 'excesso de PTH materno' está errado — o PTH materno não atravessa a placenta e o problema é resposta baixa, não alta, de PTH. Perda renal de sódio explicaria hiponatremia, não hipocalcemia. O aumento da reabsorção intestinal de cálcio elevaria o cálcio, contrário ao quadro. Pérola: hipocalcemia TARDIA (> 72 h – 1ª semana) associa-se a alta carga de fosfato/leite de vaca e a hipoparatireoidismo (ex.: DiGeorge).",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual é a conduta mais adequada neste momento?",
+          "alternativas": {
+            "a": "Fórmula infantil de alto teor proteico para correção rápida",
+            "b": "Soro fisiológico 0,9% em bolus de 20 mL/kg, rapidamente",
+            "c": "Glicose a 10% em bolus rápido, sem suplementação",
+            "d": "Gluconato de cálcio a 10% EV em infusão lenta, com monitorização cardíaca, seguido de suplementação oral"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A hipocalcemia SINTOMÁTICA (tremores/clonias) trata-se com GLUCONATO DE CÁLCIO a 10% ENDOVENOSO em INFUSÃO LENTA sob monitorização cardíaca (risco de bradicardia/arritmia se rápido, e de necrose tecidual grave se extravasar), seguido de manutenção com cálcio oral; corrige-se também a hipomagnesemia associada, sem a qual o cálcio não normaliza. Glicose em bolus rápido trataria hipoglicemia, que não existe aqui (glicemia normal). Soro fisiológico em bolus é conduta de choque hipovolêmico/desidratação, não de hipocalcemia, e não corrige o cálcio. Fórmula de alto teor proteico (e alta carga de fosfato) pioraria a hipocalcemia por aumentar o fósforo — é justamente o que se evita. Segurança: monitorização eletrocardiográfica durante a infusão de cálcio é obrigatória.\n📚 Leitura sugerida (bloco): apostila 'Neonatologia' — R+ Pediatria MEDGRUPO (Google Drive de Vinicius): https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Infecções Respiratórias (coqueluche) [REAL: SUS-BA 2026]",
+      "tier": "ALTO",
+      "vinheta": "Lactente de 3 meses, sexo feminino, é levada à UPA com história de tosse há duas semanas. Inicialmente esporádica, nos últimos 5 dias a tosse tornou-se intensa, ocorrendo em crises, seguida por um ruído inspiratório alto (guincho) e, por vezes, vômitos. A mãe nega febre. O calendário vacinal do bebê está em dia. Ao exame, apirética, mas durante a consulta apresenta uma crise de tosse paroxística, ficando cianótica por alguns segundos; a ausculta pulmonar nos intervalos da tosse é limpa. Hemograma: leucócitos 25.000/mm³ (linfócitos 75%, neutrófilos 20%).",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o agente etiológico mais provável?",
+          "alternativas": {
+            "a": "Haemophilus influenzae tipo b",
+            "b": "Corynebacterium diphtheriae",
+            "c": "Mycoplasma pneumoniae",
+            "d": "Bordetella pertussis"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Tosse paroxística em crises, guincho inspiratório, vômitos pós-tosse (êmese), cianose durante os acessos, AUSÊNCIA de febre, ausculta limpa entre as crises e LEUCOCITOSE COM LINFOCITOSE (25.000 com 75% de linfócitos) formam o quadro clássico da coqueluche, causada por BORDETELLA PERTUSSIS. O Haemophilus influenzae tipo b causa epiglotite, meningite e pneumonia com febre e toxemia, não este padrão paroxístico com linfocitose. O Mycoplasma pneumoniae dá pneumonia atípica do escolar/adolescente, com tosse arrastada mas sem guincho nem linfocitose marcante. A Corynebacterium diphtheriae causa difteria, com placas pseudomembranosas na orofaringe e toxemia, quadro distinto. Pérola: no lactente jovem o guincho pode faltar e predominarem apneia e cianose — sinais de gravidade.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual mecanismo explica a principal característica clínica da doença?",
+          "alternativas": {
+            "a": "Obstrução brônquica por excesso de muco espesso",
+            "b": "Invasão bacteriana direta do parênquima pulmonar",
+            "c": "Reação de hipersensibilidade e inflamação alérgica",
+            "d": "Ação de toxinas bacterianas no epitélio respiratório"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A Bordetella pertussis adere ao epitélio ciliado respiratório e produz TOXINAS (toxina pertussis, citotoxina traqueal, adenilato-ciclase) que paralisam/destroem os cílios e desencadeiam a inflamação responsável pela tosse paroxística intensa e prolongada — a doença é essencialmente TOXIGÊNICA, não invasiva. Obstrução por muco espesso descreve melhor bronquiolite/asma, com sibilância difusa, e não o paroxismo com guincho. Invasão direta do parênquima é o mecanismo das pneumonias bacterianas típicas (consolidação, febre), ausente aqui (ausculta limpa entre crises). Reação de hipersensibilidade alérgica caracteriza asma/atopia, não coqueluche. Pérola: por ser toxina-mediada, a tosse pode persistir por semanas (a 'tosse dos 100 dias') mesmo após a antibioticoterapia reduzir a transmissibilidade.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual é a principal razão da suscetibilidade desta criança à doença?",
+          "alternativas": {
+            "a": "A criança já teve a doença e perdeu a imunidade",
+            "b": "O esquema vacinal ainda não está completo para a idade",
+            "c": "A vacina pentavalente não protege contra esta doença",
+            "d": "A imunidade vacinal é totalmente ineficaz nesta doença"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Aos 3 meses a criança recebeu no máximo UMA dose da vacina (pentavalente aos 2 meses); o esquema primário completo exige três doses (2, 4 e 6 meses) mais reforços — logo, a proteção AINDA NÃO está completa, e essa é a razão da suscetibilidade. Dizer que a pentavalente 'não protege' está errado: ela contém o componente pertussis (célula inteira) e é justamente a vacina que previne a coqueluche. A imunidade vacinal não é 'totalmente ineficaz' — ela é eficaz, embora não absoluta e não vitalícia (daí os reforços e a vacinação da gestante com dTpa para proteger o lactente jovem). Não há informação de doença prévia. Saúde pública: coqueluche é de NOTIFICAÇÃO COMPULSÓRIA; indica-se antibiótico (azitromicina) ao caso e quimioprofilaxia aos contatos próximos, além de checar/atualizar a vacinação e reforçar a dTpa materna na gestação.\n📚 Leitura sugerida (bloco): apostila 'Infecções respiratórias (bronquiolite, pneumonia)' — R+ Pediatria MEDGRUPO (Google Drive de Vinicius): https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view",
+          "dificuldade": "facil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Doenças Exantemáticas (varicela) [REAL: SUS-BA 2024]",
+      "tier": "MÉDIO",
+      "vinheta": "Menino de 6 anos é levado à UPA com erupções cutâneas pruriginosas e febre que durou cerca de três dias. A mãe relata que observou pequenas bolhas na pele do filho, que começaram no tronco e se disseminaram; as primeiras bolhas aumentaram de tamanho, tornaram-se amareladas e evoluíram para feridas com crostas. Não sabe informar sobre contato com quadro semelhante. Ao exame, estado geral mantido, subfebril; verificam-se lesões maculares com microbolhas, algumas com bolhas de tamanhos diferentes, umbilicadas, além de algumas lesões crostosas pelo corpo.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a principal suspeita diagnóstica?",
+          "alternativas": {
+            "a": "Varicela",
+            "b": "Sarampo",
+            "c": "Impetigo",
+            "d": "Roséola"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O exantema VESICULAR pruriginoso de início no TRONCO com disseminação centrífuga e, sobretudo, o POLIMORFISMO REGIONAL (máculas, vesículas de tamanhos diferentes, algumas umbilicadas e crostas coexistindo na mesma área) é a marca da varicela (catapora), causada pelo vírus varicela-zóster. O sarampo cursa com exantema MACULOPAPULAR (não vesicular) craniocaudal, precedido por febre alta, tosse, coriza, conjuntivite e manchas de Koplik — perfil diferente. O impetigo é infecção bacteriana localizada (crostas melicéricas), geralmente sem disseminação vesicular polimórfica pelo corpo todo, e a evolução para crostas amareladas pode até ser sobreposta como complicação, mas não explica o quadro inicial. A roséola (exantema súbito) tem febre alta por 3 dias e exantema maculopapular que surge QUANDO a febre cede, sem vesículas. As lesões 'em céu estrelado' (todos os estágios ao mesmo tempo) são clássicas de prova.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Qual é o método preferencial para confirmar o diagnóstico neste caso?",
+          "alternativas": {
+            "a": "Dermatoscopia com biópsia",
+            "b": "Dosagem de anticorpos específicos",
+            "c": "Cultura de sangue",
+            "d": "Inspeção das lesões e história clínica"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A varicela é diagnóstico CLÍNICO: a inspeção das lesões (polimorfismo, vesículas umbilicadas, crostas) somada à história é suficiente na imensa maioria dos casos, sem necessidade de exame laboratorial. A cultura de sangue (hemocultura) investigaria bacteremia/sepse, não uma virose exantemática de bom estado geral. A dermatoscopia com biópsia é desproporcional e desnecessária num quadro clínico tão característico, ficando reservada a apresentações atípicas/imunossuprimidos. A dosagem de anticorpos específicos (sorologia) ou a PCR do líquido vesicular são úteis em dúvidas diagnósticas, imunossuprimidos ou gestantes, mas não são o método preferencial no caso típico. Pérola: em casos duvidosos, a PCR do raspado da vesícula é o teste mais sensível.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Sobre a evolução da doença, o que é correto afirmar?",
+          "alternativas": {
+            "a": "Desenvolve imunidade permanente sem risco de recidiva",
+            "b": "Pode progredir para infecção crônica persistente",
+            "c": "Pode evoluir com infecções bacterianas secundárias",
+            "d": "Melhora rápida, sempre sem complicações"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A complicação mais comum da varicela é a INFECÇÃO BACTERIANA SECUNDÁRIA das lesões (por Staphylococcus aureus e Streptococcus pyogenes), favorecida pela coçadura — pode ir de impetiginização a celulite, abscesso e, raramente, fasciíte/choque tóxico. Dizer que 'desenvolve imunidade permanente sem risco de recidiva' é enganoso: embora a infecção confira imunidade duradoura contra nova varicela, o vírus fica LATENTE nos gânglios e pode REATIVAR como herpes-zóster anos depois — ou seja, há 'recidiva' sob outra forma. A varicela não evolui para infecção crônica persistente (é autolimitada na maioria). Afirmar que 'sempre melhora sem complicações' ignora complicações relevantes (bacterianas, pneumonia, cerebelite/ataxia, e a gravidade em imunossuprimidos, gestantes e neonatos). Saúde pública: há vacina no calendário (tetraviral/varicela) e a doença é de notificação em surtos.\n📚 Leitura sugerida (bloco): apostila 'Infectologia / exantemáticas' — R+ Pediatria MEDGRUPO (Google Drive de Vinicius): https://drive.google.com/file/d/1ayloTkRXLIY0gA34-LDh7q546oquQs6h/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Emergências/Cirurgia Pediátrica (invaginação intestinal) [REAL: SUS-BA 2022]",
+      "tier": "ALTO",
+      "vinheta": "Menino de 20 meses é levado à Emergência: no dia anterior teve 4 episódios de diarreia com fezes amolecidas, 2 vômitos e dor abdominal, sem comprometimento da atividade. Amanheceu abatido, 'esquentado' e sem aceitar alimentos. Há algumas horas as fezes tornaram-se sanguinolentas e gelatinosas, e os vômitos ficaram frequentes e esverdeados; mantém diurese, embora reduzida. Ao exame, hipoativo, temperatura 37,7°C; abdome globoso, reativo à palpação, com massa palpável cilíndrica em flanco direito e hipocôndrio direito.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a principal suspeita diagnóstica?",
+          "alternativas": {
+            "a": "Tumor de Wilms",
+            "b": "Semioclusão intestinal por Ascaris",
+            "c": "Peritonite infecciosa primária",
+            "d": "Intussuscepção (invaginação) intestinal"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A combinação de dor abdominal em cólica, vômitos que se tornam BILIOSOS (esverdeados, sinal de obstrução), fezes em 'geleia de framboesa' (sanguinolentas e gelatinosas) e MASSA PALPÁVEL CILÍNDRICA (em 'salsicha') no lactente/pré-escolar é o quadro clássico da intussuscepção intestinal — o telescopamento de um segmento no adjacente (mais comum a ileocólica). O tumor de Wilms dá massa renal firme, geralmente indolor e sem esse padrão obstrutivo agudo com fezes em geleia. A peritonite primária cursaria com abdome em tábua, toxemia e sinais de irritação peritoneal difusa, não com massa cilíndrica móvel. A semioclusão por Ascaris pode obstruir, mas em geral em crianças maiores com alta carga parasitária e sem o clássico 'currant jelly' — não é a suspeita principal aqui. Pérola: a tríade dor + massa em salsicha + fezes em geleia aparece completa em menos da metade dos casos; a suspeita clínica precoce é o que salva a alça.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Quais exames são essenciais para a resolução do caso?",
+          "alternativas": {
+            "a": "Apenas radiografia simples de abdome",
+            "b": "Ultrassonografia de abdome e enema contrastado",
+            "c": "Hemogasometria e tomografia de crânio",
+            "d": "Hemograma e radiografia simples de abdome"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A ULTRASSONOGRAFIA de abdome é o exame de escolha para o diagnóstico (mostra o sinal do 'alvo'/'donut' no corte transverso e o 'pseudo-rim' no longitudinal), e o ENEMA CONTRASTADO (com ar ou contraste hidrossolúvel, guiado por imagem) é ao mesmo tempo DIAGNÓSTICO e TERAPÊUTICO, reduzindo a invaginação por pressão na ausência de peritonite/perfuração. Hemograma e radiografia simples ajudam a avaliar repercussão e sinais indiretos de obstrução, mas não confirmam nem resolvem. A radiografia simples isolada é insuficiente (pode ser normal). Hemogasometria avalia estado metabólico, e tomografia de crânio não tem qualquer papel neste abdome agudo. Alerta: se houver sinais de perfuração, peritonite ou choque, contraindica-se o enema e indica-se cirurgia.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual é a faixa etária de apresentação mais frequente do diagnóstico principal?",
+          "alternativas": {
+            "a": "0 a 6 meses",
+            "b": "6 meses a 3 anos",
+            "c": "3 a 5 anos",
+            "d": "Acima de 12 anos"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A intussuscepção idiopática é mais frequente entre 6 MESES E 3 ANOS (pico por volta dos 5–9 meses até ~2 anos), faixa em que a maioria não tem ponto de tração anatômico definido (relaciona-se a hiperplasia linfoide após infecções virais). A faixa de 0 a 6 meses é menos comum e, quando ocorre muito cedo, aumenta a suspeita de fator anatômico (divertículo de Meckel, pólipo, duplicação). De 3 a 5 anos e, sobretudo, ACIMA de 12 anos, a invaginação é rara e obriga a procurar uma lesão de base (linfoma, pólipo, Meckel) como cabeça da invaginação. Observação: o gabarito oficial da banca marcou '0 a 6 meses'; a literatura pediátrica consagra 6 meses–2/3 anos como o pico — mantida a fidelidade ao enunciado, vale reter a faixa de lactente/pré-escolar como a de maior frequência. Saúde pública: houve associação histórica com uma formulação antiga de vacina de rotavírus, hoje monitorada; a vacina atual tem perfil de segurança favorável e permanece no calendário.\n📚 Leitura sugerida (bloco): apostila 'Cirurgia pediátrica' — R+ Pediatria MEDGRUPO (Google Drive de Vinicius): https://drive.google.com/file/d/1UWvf5j5zhrBqeAs2Trbbc_bxHQ1DS1_u/view",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Gastroenterologia (doença inflamatória intestinal) [REAL: SUS-BA 2025]",
+      "tier": "MÉDIO",
+      "vinheta": "Menina de 12 anos é levada ao ambulatório pela mãe, que observou cansaço frequente e perda de peso nas últimas semanas, com redução das atividades. A adolescente refere dor abdominal recorrente, principalmente no abdome inferior à direita, com diarreia por vezes com sangue. Há também episódios de febre baixa e, às vezes, dor em articulações. Ao exame, observa-se palidez cutâneo-mucosa e dor à palpação do quadrante inferior direito do abdome.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a causa mais provável dos sintomas apresentados?",
+          "alternativas": {
+            "a": "Alergia alimentar",
+            "b": "Infecção por parasitas intestinais",
+            "c": "Intolerância à lactose",
+            "d": "Doença inflamatória intestinal"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Dor abdominal crônica (predomínio em quadrante inferior direito), diarreia com sangue, perda de peso, febre baixa, artralgia, palidez (anemia) e comprometimento do estado geral em adolescente compõem o quadro de DOENÇA INFLAMATÓRIA INTESTINAL (Crohn/retocolite) — doença crônica com manifestações intestinais e EXTRA-intestinais (articulares, cutâneas, oculares). A intolerância à lactose causa distensão, flatulência e diarreia relacionadas à ingestão de lactose, SEM sangue, febre, artralgia ou perda de peso significativa. A alergia alimentar (mediada por IgE) provoca sintomas agudos reprodutíveis após o alimento, não este curso arrastado com sinais sistêmicos. Parasitose intestinal pode dar diarreia e dor, mas raramente o conjunto de sangue nas fezes + febre + artralgia + emagrecimento progressivo. Sinais de alarme (sangue nas fezes, perda ponderal, despertar noturno, história familiar) diferenciam a DII da dor abdominal funcional.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual é a faixa etária mais comum de início dessa doença?",
+          "alternativas": {
+            "a": "Crianças e adolescentes entre 10 e 19 anos",
+            "b": "Adultos acima de 40 anos",
+            "c": "Lactentes",
+            "d": "Pré-escolares"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A doença inflamatória intestinal tem um pico importante de início na ADOLESCÊNCIA e adulto jovem, tipicamente entre 10 e 19 anos (parte relevante dos casos abre o quadro antes dos 20 anos), embora possa surgir em qualquer idade. Em lactentes e pré-escolares a DII é rara — quando ocorre muito cedo ('very early onset IBD'), levanta a suspeita de causas monogênicas/imunológicas subjacentes. A faixa acima de 40 anos existe (há um segundo pico em adultos mais velhos), mas não é a apresentação mais comum na população pediátrica descrita. Reconhecer a idade típica ajuda na suspeição diagnóstica frente a dor abdominal crônica com sinais de alarme. O diagnóstico se confirma com colonoscopia e biópsias, além de calprotectina fecal, provas inflamatórias e imagem do intestino delgado.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Qual é o principal mecanismo fisiopatológico envolvido?",
+          "alternativas": {
+            "a": "Alergia alimentar mediada por IgE",
+            "b": "Malformação congênita do trato digestivo",
+            "c": "Infecção bacteriana direta do intestino",
+            "d": "Autoimunidade e inflamação crônica do trato gastrointestinal"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A DII resulta de uma resposta IMUNE DESREGULADA (autoimune/imunomediada) contra a microbiota intestinal em indivíduo geneticamente predisposto, gerando INFLAMAÇÃO CRÔNICA da parede do trato gastrointestinal — transmural e segmentar na doença de Crohn, contínua e limitada à mucosa cólica na retocolite ulcerativa. A alergia alimentar mediada por IgE é um mecanismo de hipersensibilidade imediata, com sintomas agudos, distinto da inflamação crônica da DII. Infecção bacteriana direta causa colite infecciosa AGUDA e autolimitada (ou tratável com antibiótico), não a doença crônica recidivante. Malformação congênita do trato digestivo manifesta-se em geral no período neonatal/lactente com quadros obstrutivos, não com este curso inflamatório crônico na adolescente. O tratamento envolve imunomoduladores/biológicos e acompanhamento especializado, visando remissão e crescimento adequado.\n📚 Leitura sugerida (bloco): apostila 'Gastroenterologia' — R+ Pediatria MEDGRUPO (Google Drive de Vinicius): https://drive.google.com/file/d/1rIrgkiZ_nqlMcMBeZ6RLspQk90rW_S3w/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Imunologia (erro inato da imunidade) [REAL: SUS-BA 2026]",
+      "tier": "MÉDIO",
+      "vinheta": "Menino de 6 anos, sem antecedentes familiares relevantes, é levado ao ambulatório com história de otite média recorrente desde o primeiro ano de vida, além de três episódios de pneumonia nos últimos dois anos. Ao exame físico, chama atenção a ausência de amígdalas e adenoides visíveis. O crescimento e o desenvolvimento estão dentro do esperado.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a hipótese diagnóstica mais provável a ser considerada?",
+          "alternativas": {
+            "a": "Doença ciliar primária",
+            "b": "Erro inato da imunidade",
+            "c": "AIDS congênita",
+            "d": "Malformação ectodérmica"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Infecções bacterianas de repetição (otites e pneumonias) desde o primeiro ano de vida, associadas à AUSÊNCIA de tecido linfoide (amígdalas e adenoides não visíveis), sugerem um ERRO INATO DA IMUNIDADE — particularmente um defeito de produção de anticorpos, como a agamaglobulinemia ligada ao X (doença de Bruton), em que a falência da maturação de linfócitos B leva a hipoplasia do tecido linfoide e infecções por germes encapsulados. A AIDS congênita costuma cursar com atraso de crescimento, linfadenopatia/hepatoesplenomegalia e infecções oportunistas, e há o contexto materno — perfil diferente. A doença ciliar primária (discinesia ciliar) dá infecções respiratórias e otites de repetição, mas por defeito de depuração mucociliar, com situs inversus em parte dos casos, e NÃO cursa com ausência de amígdalas/adenoides. Malformação ectodérmica afeta pele, cabelo, dentes e glândulas, não o padrão infeccioso descrito. A ausência de tonsilas é uma pista física valiosa da agamaglobulinemia.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual é o exame inicial a ser solicitado para esse paciente?",
+          "alternativas": {
+            "a": "Radiografia de cabeça em AP e perfil",
+            "b": "Sorologia para HIV",
+            "c": "Cariótipo",
+            "d": "Hemograma completo"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A investigação de imunodeficiência começa por exames simples e amplamente disponíveis: o HEMOGRAMA COMPLETO (com contagem diferencial) avalia neutrófilos, linfócitos e plaquetas, podendo apontar linfopenia, neutropenia ou outras pistas, e é o primeiro passo lógico antes das dosagens específicas (imunoglobulinas séricas, subpopulações linfocitárias). A radiografia de cabeça não tem papel na avaliação de infecções de repetição por imunodeficiência. A sorologia para HIV faz parte da investigação de imunodeficiência secundária e pode ser solicitada, mas não é o exame INICIAL mais custo-efetivo diante deste quadro sugestivo de defeito primário de anticorpos — o hemograma vem antes. O cariótipo investigaria síndromes cromossômicas, não este padrão. Sequência clássica: hemograma → dosagem de imunoglobulinas (IgG, IgA, IgM) → subpopulações de linfócitos → testes funcionais.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Em relação à principal suspeita diagnóstica, o que é correto afirmar?",
+          "alternativas": {
+            "a": "O risco de infecções virais é maior do que o de bacterianas",
+            "b": "A doença tende a melhorar espontaneamente com a idade",
+            "c": "O tratamento de controle é, em geral, de uso contínuo",
+            "d": "O diagnóstico, na maioria das vezes, é feito no período perinatal"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Nos defeitos de anticorpos (ex.: agamaglobulinemia), o tratamento é a REPOSIÇÃO DE IMUNOGLOBULINA (IVIG/SCIG) de forma CONTÍNUA e regular ao longo da vida, além de antibioticoterapia das infecções — é uma terapia de manutenção, não curativa. O diagnóstico geralmente NÃO é perinatal: as crianças costumam ser assintomáticas nos primeiros meses, protegidas pela IgG materna transplacentária, e adoecem a partir do 2º semestre, quando esses anticorpos declinam — daí o diagnóstico tardar até surgirem as infecções de repetição. A doença NÃO melhora espontaneamente com a idade; sem reposição, as infecções e as complicações (bronquiectasias) progridem. Nos defeitos humorais, o risco maior é de infecções BACTERIANAS por encapsulados (pneumococo, Haemophilus), não virais. Saúde pública/segurança: vacinas de vírus VIVOS (como a de pólio oral) são contraindicadas em imunodeficiências graves — orientar a família e a rede.\n📚 Leitura sugerida (bloco): Consenso Brasileiro sobre Erros Inatos da Imunidade (BRAGID/ASBAI) — abordagem inicial das imunodeficiências primárias na criança.",
+          "dificuldade": "moderada"
+        }
+      ]
+    }
+  ]
+}
