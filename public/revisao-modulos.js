@@ -1704,5 +1704,386 @@ O resultado tem uma **faixa de ± ~8,5 cm** (aproximadamente ± 2 escores-z). O 
   {enunciado: `Menina de 9 anos com baixa estatura, velocidade de crescimento reduzida e sem sinais dismórficos evidentes. Qual exame não deve ser esquecido?`, alternativas: {a: `Cariótipo (para síndrome de Turner)`, b: `Apenas idade óssea e observação`, c: `Teste de tolerância à glicose`, d: `Dosagem de prolactina`}, correta: "a", comentario: `Baixa estatura com desaceleração da curva é patológica e obriga investigação. Em toda menina com baixa estatura inexplicada deve-se pedir cariótipo, porque a síndrome de Turner pode se apresentar sem os sinais clássicos (pescoço alado, tórax em escudo) — a baixa estatura pode ser a única pista. A investigação inclui ainda TSH/T4 livre, IGF-1 (eixo do GH) e rastreio de doenças crônicas (celíaca, renal). Só observar perderia diagnósticos tratáveis; os demais exames não são o passo dirigido aqui.`, foco: `Baixa estatura patológica (Turner)`}
  ]
 }
+,
+
+"NEURO|Epilepsia": {
+ titulo: `Epilepsia e crises epilépticas`,
+ half: `NEURO`,
+ resumo: `Epilepsia é um dos eixos mais pesados da prova de neurologia — e um campo onde se erra por decorar nomes de síndromes sem entender o que é uma crise, de onde ela nasce e como se classifica. Este texto reconstrói o tema do zero: o que é uma crise, por que o cérebro "descarrega", como a classificação ILAE 2017 organiza tudo em poucas perguntas, e como esse raciocínio leva sozinho ao diagnóstico da epilepsia do lobo temporal mesial, à escolha certa do fármaco e ao manejo do estado de mal.`,
+ fontes: `Base: Tratado de Neurologia da ABN 3ª ed. (cap. 79 — Classificação das Crises e Epilepsias; cap. 80 — Etiologia e Investigação; cap. 81 — Tratamento Medicamentoso; cap. 84 — Estado de Mal Epiléptico; cap. 173 — Epilepsia na Infância), Merritt 13ª ed. (Seção 8 — Epilepsia e Distúrbios Paroxísticos), Adams & Victor 12ª ed. (Epilepsy and Other Seizure Disorders) e Sanvito (semiologia da crise). Classificação ILAE 2017. Ver materiais_neuro.md.`,
+ notaErro: `No seu perfil aparecem erros repetidos em **epilepsia do lobo temporal (crise focal temporal mesial)** e em **epilepsia mioclônica juvenil**. O padrão do erro é quase sempre o mesmo: confundir os TIPOS de crise e, por consequência, errar o fármaco. Três tropeços concentram as quedas, e o texto foi montado para desarmar cada um:
+
+- **Você confunde crise de ausência com crise focal discognitiva ("parcial complexa").** As duas dão "desligamento", mas são coisas diferentes: a ausência é **generalizada**, dura segundos, sem aura e sem confusão pós-ictal, com **ponta-onda 3 Hz** no EEG; a focal temporal tem **aura** (epigástrica, déjà vu, medo), **automatismos** (mastigar, estalar lábios) e **confusão pós-ictal**, com EEG focal temporal (seções 4 e 5).
+
+- **Você escolhe o fármaco errado por não classificar a crise primeiro.** O maior exemplo de prova: dar **carbamazepina/fenitoína/oxcarbazepina** numa epilepsia generalizada idiopática (ausência, mioclônica) — esses bloqueadores de canal de sódio **pioram** ausências e mioclonias. Na EMJ, a base é **valproato** (ou levetiracetam/lamotrigina); na ausência pura, **etossuximida ou valproato** (seções 6 e 8).
+
+- **Você trava no estado de mal epiléptico.** Não fixou a definição operacional (**≥ 5 min** de crise, ou crises sem recuperação) nem o escalonamento (benzodiazepínico → fármaco de 2ª linha EV → anestésico), e perde a janela (seção 9).
+
+**Como zerar:** para qualquer caso, responda em ordem — (1) o início é **focal, generalizado ou desconhecido**? (2) há **comprometimento da consciência**? (3) o quadro é **motor ou não-motor**? Classificada a crise, o fármaco e a síndrome caem quase sozinhos. As questões ao final batem exatamente nesses três pontos.`,
+ secoes: [
+  {h: `1. Comece pelo começo: crise não é epilepsia`, c: `Duas palavras que a prova adora misturar:
+
+- **Crise epiléptica** é um **evento**: a manifestação clínica transitória de uma **descarga elétrica anormal, excessiva e sincronizada** de um grupo de neurônios. Qualquer cérebro, sob provocação suficiente (hipoglicemia, abstinência alcoólica, distúrbio hidroeletrolítico, febre na criança), pode ter uma crise — isso é uma **crise provocada/sintomática aguda**, e não define epilepsia.
+
+- **Epilepsia** é uma **doença**: a tendência **duradoura** a gerar crises **não provocadas**. Pela definição operacional da ILAE (2014), diagnostica-se epilepsia com: (a) **duas crises não provocadas** separadas por > 24 h; ou (b) **uma crise não provocada + alto risco de recorrência** (≥ 60%, p.ex. lesão estrutural na RM ou EEG epileptiforme típico); ou (c) diagnóstico de uma **síndrome epiléptica**.
+
+Guardar essa diferença evita o erro de rotular "epilepsia" quem teve uma crise por causa reversível — nesse caso, trata-se a causa, não se inicia antiepiléptico crônico.`},
+  {h: `2. Por que o cérebro "descarrega" — fisiopatologia em linguagem simples`, c: `O funcionamento normal do córtex depende de um **equilíbrio** entre excitação (glutamato) e inibição (GABA). Uma crise nasce quando esse equilíbrio pende para a excitação e um grupo de neurônios passa a disparar de forma **hipersincrônica** — como uma plateia que, em vez de conversar em ritmos variados, começa a bater palma toda junta.
+
+Dois ingredientes explicam a maioria das crises:
+
+- **Hiperexcitabilidade:** canais iônicos alterados, menos inibição GABAérgica, mais glutamato. É por isso que fármacos antiepilépticos agem **bloqueando canais de sódio/cálcio** (reduzem o disparo repetitivo) ou **potencializando o GABA** (aumentam a inibição).
+
+- **Hipersincronia e propagação:** o disparo se alinha e pode **espalhar**. Se fica restrito a uma área, a crise é **focal**; se engaja redes dos dois hemisférios desde o início, é **generalizada**. Uma crise focal pode **evoluir para tônico-clônica bilateral** (o antigo "secundariamente generalizada").
+
+Entender isso explica a clínica: o sintoma da crise é o "cartão de visita" da área que descarrega (lobo occipital → fenômenos visuais; córtex motor → abalos; lobo temporal mesial → medo, déjà vu, automatismos).`},
+  {h: `3. A classificação ILAE 2017 — três perguntas que organizam tudo`, c: `A classificação atual (ILAE 2017) substituiu termos antigos ("parcial simples/complexa", "grande mal") e é montada em camadas. Para classificar uma crise, faça três perguntas:
+
+- **(1) Onde começa?** Início **focal** (uma região de um hemisfério), **generalizado** (redes bilaterais desde o início) ou **desconhecido**.
+
+- **(2) Como está a consciência?** Nas crises focais: **perceptiva** (consciência preservada — antigo "parcial simples") ou **disperceptiva** (consciência prejudicada — antigo "parcial complexa"). Nas generalizadas, a consciência quase sempre está comprometida.
+
+- **(3) Qual o primeiro sintoma?** **Motor** (tônico, clônico, mioclônico, atônico, automatismos, espasmo) ou **não-motor** (ausência, autonômico, parada comportamental, cognitivo, emocional/medo, sensorial).
+
+Exemplos de tradução dos termos antigos: "parcial complexa" → **focal disperceptiva**; "parcial simples" → **focal perceptiva**; "grande mal" → **tônico-clônica generalizada**; "pequeno mal" → **ausência**. A prova cobra tanto o termo novo quanto o reconhecimento do quadro.`},
+  {h: `4. Semiologia por tipo de crise (reconhecer no enunciado)`, c: `**Crises generalizadas:**
+- **Tônico-clônica (TCG):** perda súbita de consciência, fase tônica (rigidez, grito, cianose) seguida de clônica (abalos), pode ter mordedura lateral de língua e liberação esfincteriana; segue-se **confusão/sonolência pós-ictal**.
+- **Ausência:** interrupção súbita da atividade por **5–10 s**, olhar parado, às vezes piscar/automatismos discretos, **retorno imediato** sem confusão; típica da criança; EEG com **ponta-onda 3 Hz** deflagrada por hiperventilação.
+- **Mioclônica:** abalos súbitos, breves, tipo "choque", muitas vezes **matinais** (derruba objetos, "sou desastrado de manhã"); consciência preservada.
+- **Atônica:** perda súbita do tônus ("drop attack"), quedas com trauma.
+
+**Crises focais:**
+- **Focal perceptiva:** consciência mantida; sintoma depende da área (abalo de um membro, formigamento, fenômeno visual, aura epigástrica, déjà vu).
+- **Focal disperceptiva:** consciência prejudicada, com **automatismos** (oroalimentares — mastigar, estalar lábios; manuais) e amnésia do evento, seguida de confusão pós-ictal. É o quadro clássico do lobo temporal.`},
+  {h: `5. Epilepsia do lobo temporal mesial / esclerose hipocampal (seu ponto de erro)`, c: `É a epilepsia focal do adulto **mais comum** e a mais cobrada. O substrato é a **esclerose hipocampal** (perda neuronal e gliose no hipocampo), muitas vezes com história de **crise febril complexa/prolongada na infância** como antecedente.
+
+**Reconhecer a crise:** começa com **aura** — a mais típica é a **sensação epigástrica ascendente** ("um friozinho que sobe do estômago"), medo/ansiedade súbitos, déjà vu ou jamais vu, sensações olfativas/gustativas. Segue-se **parada comportamental** com **automatismos oroalimentares** (mastigar, deglutir, estalar os lábios) e manuais, **consciência prejudicada** e **confusão pós-ictal** (a pessoa fica lenta, desorientada por minutos). Pode haver **postura distônica** de um membro contralateral e evolução para tônico-clônica bilateral.
+
+**Por que você erra:** o "desligamento" faz confundir com **ausência** — mas a ausência é da criança, dura segundos, **não tem aura nem confusão pós-ictal** e tem EEG 3 Hz; a temporal tem **aura, automatismos e pós-ictal**, com **EEG focal temporal** e RM mostrando **esclerose hipocampal** (atrofia + hipersinal em FLAIR).
+
+**Conduta:** fármaco para crise focal (ver seção 8). É a epilepsia com maior taxa de **refratariedade** — quando não controla com medicação, a **cirurgia (amígdalo-hipocampectomia)** tem excelente resultado e deve ser lembrada.`},
+  {h: `6. Epilepsia mioclônica juvenil (EMJ) — a armadilha do fármaco`, c: `Síndrome **generalizada idiopática/genética** que começa na adolescência. A tríade de crises:
+- **Mioclonias matinais** (o dado que se pergunta): abalos ao acordar, "derruba a xícara no café da manhã";
+- **Crises tônico-clônicas generalizadas** (frequentemente após privação de sono ou álcool);
+- **Ausências** em parte dos pacientes.
+
+EEG: **poliponta-onda generalizada**, fotossensibilidade comum. Inteligência normal, RM normal.
+
+**A pegadinha clássica de prova:** por serem crises generalizadas, **bloqueadores de canal de sódio (carbamazepina, oxcarbazepina, fenitoína) PIORAM** as mioclonias e ausências. O tratamento é **valproato** (muito eficaz; evitar em mulheres em idade fértil pelo risco teratogênico/neurodesenvolvimento — preferir **levetiracetam** ou **lamotrigina**, lembrando que a lamotrigina pode piorar mioclonias em alguns). A EMJ costuma **controlar bem, mas recidiva ao suspender** — tende a exigir tratamento prolongado.`},
+  {h: `7. Investigação — EEG e neuroimagem no lugar certo`, c: `**EEG:** apoia a classificação (focal x generalizado) e ajuda a estimar recorrência. Um EEG normal **não exclui** epilepsia (a chance de captar aumenta com privação de sono, hiperventilação, fotoestimulação e registros repetidos/prolongados). Achados típicos: **ponta-onda 3 Hz** (ausência), **poliponta-onda** (EMJ), descargas **focais temporais** (ELT).
+
+**Neuroimagem:** a **RM com protocolo de epilepsia** é o exame de escolha para epilepsias focais — busca esclerose hipocampal, displasias corticais, tumores de baixo grau, malformações. TC serve só para a emergência (excluir sangramento/lesão aguda). Epilepsias generalizadas idiopáticas costumam ter RM **normal**.
+
+**Sempre afastar causa aguda** na primeira crise: glicemia, sódio, cálcio, magnésio, função renal/hepática, tóxicos, e considerar punção lombar se febre/suspeita de infecção do SNC.`},
+  {h: `8. Escolha do fármaco por TIPO de crise (a decisão que mais cai)`, c: `A regra de ouro: **classifique a crise antes de prescrever**.
+
+- **Crises focais (inclui ELT):** **carbamazepina, oxcarbazepina, lamotrigina, levetiracetam** (lacosamida como opção). São muito eficazes nas focais — e é seguro usar bloqueadores de sódio aqui.
+
+- **Tônico-clônica generalizada:** **valproato** (amplo espectro), lamotrigina, levetiracetam.
+
+- **Ausência:** **etossuximida** (só ausência) ou **valproato** (se há também TCG). **Não usar** carbamazepina.
+
+- **Mioclônica / EMJ:** **valproato** (1ª escolha), **levetiracetam**, lamotrigina. **Evitar** carbamazepina/oxcarbazepina/fenitoína (pioram).
+
+**Princípios gerais:** começar em **monoterapia**, dose baixa com titulação lenta; a maioria controla com o 1º ou 2º fármaco. **Valproato** é o mais amplo espectro, mas **evitar em mulheres em idade fértil** (teratogênese, menor QI na prole) — nesse grupo, preferir lamotrigina/levetiracetam. **Refratariedade** = falha de 2 fármacos adequados em monoterapia/combinação → encaminhar a centro de epilepsia (avaliar cirurgia).`},
+  {h: `9. Estado de mal epiléptico — a emergência que não pode travar`, c: `**Definição operacional (a que a prova cobra):** crise com **≥ 5 minutos** de duração contínua, **ou** crises repetidas **sem recuperação da consciência** entre elas. Cinco minutos, porque acima disso a crise dificilmente cessa sozinha e já começa lesão neuronal (o "ponto t1"); a partir de ~30 min há risco de sequela (t2).
+
+**Escalonamento (tempo é neurônio):**
+- **0–5 min (estabilização):** ABC, O2, glicemia capilar (tiamina + glicose se hipoglicemia/etilista), acesso venoso, monitorização.
+- **5–20 min (1ª linha):** **benzodiazepínico** — **lorazepam EV**, ou **diazepam EV**, ou **midazolam IM** (ótimo sem acesso). Subdose de benzodiazepínico é erro comum.
+- **20–40 min (2ª linha EV):** **fenitoína/fosfenitoína**, **valproato** ou **levetiracetam** EV.
+- **> 40 min (refratário):** **anestésico em infusão contínua** (midazolam, propofol) em UTI, com EEG contínuo.
+
+Buscar e tratar a **causa** em paralelo (hipoglicemia, distúrbio eletrolítico, infecção do SNC, abstinência, intoxicação, AVC).`},
+  {h: `10. Situações especiais — crise febril, direção e gestação`, c: `**Crise febril (6 meses–5 anos):** crise no contexto de febre **sem infecção do SNC** nem outra causa. **Simples** = generalizada, < 15 min, única em 24 h — excelente prognóstico, conduta é tratar a febre e orientar os pais, **sem antiepiléptico** e, na simples típica, sem necessidade de punção/EEG de rotina. **Complexa** = focal, > 15 min ou recorrente em 24 h — investigar mais. Crise febril complexa/prolongada é fator de risco para esclerose hipocampal futura.
+
+**Direção veicular:** paciente com epilepsia precisa de **período livre de crises** (definido por norma) antes de dirigir; orientar é responsabilidade médica.
+
+**Gestação:** planejar; **ácido fólico**; preferir monoterapia na menor dose; **evitar valproato**. Não suspender abruptamente (risco de estado de mal).`}
+ ],
+ flashcards: [
+  {p: `Definição operacional de epilepsia (ILAE 2014)?`, r: `2 crises não provocadas (>24 h) OU 1 crise + risco de recorrência ≥60% OU síndrome epiléptica.`},
+  {p: `As três perguntas da classificação ILAE 2017?`, r: `Início (focal/generalizado/desconhecido) → consciência (perceptiva/disperceptiva) → motor ou não-motor.`},
+  {p: `EEG clássico da crise de ausência?`, r: `Ponta-onda generalizada a 3 Hz, deflagrada por hiperventilação.`},
+  {p: `Aura mais típica da epilepsia do lobo temporal mesial?`, r: `Sensação epigástrica ascendente (+ medo/déjà vu), seguida de automatismos oroalimentares e confusão pós-ictal.`},
+  {p: `Substrato anatômico da epilepsia temporal mesial?`, r: `Esclerose hipocampal (atrofia + hipersinal FLAIR); antecedente de crise febril complexa.`},
+  {p: `Tríade da epilepsia mioclônica juvenil?`, r: `Mioclonias matinais + tônico-clônica generalizada + ausências; EEG poliponta-onda.`},
+  {p: `Fármacos que PIORAM ausência/mioclonia?`, r: `Bloqueadores de sódio: carbamazepina, oxcarbazepina, fenitoína.`},
+  {p: `1ª escolha na ausência pura? E na EMJ?`, r: `Ausência: etossuximida (ou valproato). EMJ: valproato (levetiracetam/lamotrigina se mulher fértil).`},
+  {p: `Definição de estado de mal epiléptico?`, r: `Crise ≥5 min contínua ou crises repetidas sem recuperar consciência.`},
+  {p: `1ª linha no estado de mal?`, r: `Benzodiazepínico (lorazepam/diazepam EV ou midazolam IM) em dose plena.`},
+  {p: `Crise febril simples: conduta?`, r: `Tratar a febre, orientar os pais; sem antiepiléptico; punção só se suspeita de infecção do SNC.`}
+ ],
+ pegadinhas: [
+  `Crise provocada (hipoglicemia, abstinência, distúrbio eletrolítico) NÃO é epilepsia — trata a causa, não inicia antiepiléptico crônico.`,
+  `Ausência (segundos, sem aura/pós-ictal, EEG 3 Hz) x focal temporal disperceptiva (aura, automatismos, confusão pós-ictal) — não confundir.`,
+  `Carbamazepina/oxcarbazepina/fenitoína pioram ausências e mioclonias (EMJ) — erro clássico de prova.`,
+  `EEG normal NÃO exclui epilepsia; repetir com privação de sono/hiperventilação/fotoestimulação.`,
+  `RM com protocolo de epilepsia (não TC) é o exame para epilepsia focal; generalizadas idiopáticas têm RM normal.`,
+  `Valproato é o mais amplo espectro, mas evitar em mulher em idade fértil (teratogênese/QI) — preferir lamotrigina/levetiracetam.`,
+  `Estado de mal = 5 minutos (não 30). Subdosar o benzodiazepínico é erro que perpetua a crise.`,
+  `Epilepsia temporal mesial é a mais refratária — lembrar da cirurgia (amígdalo-hipocampectomia) quando falham fármacos.`,
+  `Crise febril simples típica não exige punção lombar de rotina; puncionar se sinais meníngeos, toxemia ou < 12 meses com dúvida.`,
+  `Refratariedade = falha de 2 fármacos adequados; encaminhar a centro de epilepsia, não empilhar o 4º e 5º fármaco.`
+ ],
+ diretrizes: [
+  `Tratado de Neurologia da ABN (3ª ed., 2025), cap. 79 — Classificação das Crises e Epilepsias; cap. 81 — Tratamento Medicamentoso; cap. 84 — Estado de Mal Epiléptico; cap. 173 — Epilepsia na Infância (ver materiais_neuro.md).`,
+  `Classificação ILAE 2017 (tipos de crise e de epilepsia); definição operacional ILAE 2014.`,
+  `Merritt (13ª ed.), Seção 8 — Epilepsia e Distúrbios Paroxísticos; Adams & Victor — Epilepsy and Other Seizure Disorders; MS — PCDT da Epilepsia.`
+ ],
+ questoes: [
+  {enunciado: `Homem de 28 anos com episódios de "sensação estranha subindo do estômago" seguidos de olhar parado, movimentos de mastigação e confusão por alguns minutos, dos quais não se recorda. Teve crise febril prolongada na infância. Qual o diagnóstico mais provável?`, alternativas: {a: `Crise de ausência típica`, b: `Epilepsia do lobo temporal mesial (crise focal disperceptiva)`, c: `Síncope vasovagal`, d: `Epilepsia mioclônica juvenil`}, correta: "b", comentario: `Aura epigástrica ascendente + automatismos oroalimentares (mastigação) + consciência prejudicada + confusão pós-ictal + antecedente de crise febril complexa formam o quadro clássico da epilepsia do lobo temporal mesial por esclerose hipocampal. A ausência é da criança, dura segundos, não tem aura nem confusão pós-ictal (EEG 3 Hz). A síncope não cursa com automatismos nem amnésia estruturada. A EMJ dá mioclonias matinais e crises generalizadas, sem aura epigástrica. O exame-chave é a RM com protocolo de epilepsia (esclerose hipocampal) e o EEG focal temporal.`, foco: `Epilepsia temporal mesial (seu ponto de erro)`},
+  {enunciado: `Adolescente de 16 anos com abalos musculares matinais ("derruba objetos ao acordar") e uma crise tônico-clônica após noite sem dormir. EEG com poliponta-onda generalizada. Qual conduta é INADEQUADA?`, alternativas: {a: `Valproato como 1ª escolha`, b: `Carbamazepina`, c: `Levetiracetam`, d: `Orientar higiene do sono e evitar álcool`}, correta: "b", comentario: `O quadro é epilepsia mioclônica juvenil (mioclonias matinais + TCG + gatilho por privação de sono/álcool + poliponta-onda). Por ser epilepsia generalizada, bloqueadores de canal de sódio como a carbamazepina PIORAM mioclonias e ausências — é a conduta inadequada e a pegadinha clássica. O valproato é a 1ª escolha (levetiracetam/lamotrigina são alternativas, preferidas em mulheres em idade fértil). Medidas não farmacológicas (sono regular, evitar álcool) são parte do tratamento.`, foco: `Escolha do fármaco na EMJ`},
+  {enunciado: `Paciente em crise tônico-clônica contínua há 7 minutos, com acesso venoso obtido e glicemia normal. Qual a 1ª linha terapêutica?`, alternativas: {a: `Fenitoína EV em bolus`, b: `Benzodiazepínico (lorazepam ou diazepam EV) em dose plena`, c: `Propofol em infusão contínua`, d: `Aguardar resolução espontânea`}, correta: "b", comentario: `Crise ≥5 minutos define estado de mal epiléptico e exige tratamento imediato. A 1ª linha é o benzodiazepínico em dose plena (lorazepam ou diazepam EV; midazolam IM se não houver acesso). A fenitoína/fosfenitoína (ou valproato/levetiracetam) é a 2ª linha, após o benzodiazepínico. O anestésico contínuo (propofol) só no estado de mal refratário, em UTI com EEG. Aguardar é erro grave — quanto mais tempo, maior a lesão neuronal e a refratariedade. Tratar a causa em paralelo.`, foco: `Estado de mal epiléptico`},
+  {enunciado: `Criança de 8 anos com múltiplos episódios diários de "desligamentos" de poucos segundos, olhar fixo, retorno imediato sem confusão, deflagrados por hiperventilação. Qual o achado eletrencefalográfico esperado e o fármaco de escolha se não houver crises tônico-clônicas?`, alternativas: {a: `Poliponta-onda; carbamazepina`, b: `Ponta-onda focal temporal; oxcarbazepina`, c: `Ponta-onda generalizada a 3 Hz; etossuximida`, d: `EEG normal; fenitoína`}, correta: "c", comentario: `O quadro é epilepsia de ausência da infância: crises de segundos, sem aura nem confusão pós-ictal, provocadas por hiperventilação, com EEG mostrando ponta-onda generalizada a 3 Hz. Se há apenas ausências (sem TCG), a etossuximida é a 1ª escolha (valproato se houver também TCG). Carbamazepina/oxcarbazepina/fenitoína são bloqueadores de sódio e pioram ausências — descartadas. O EEG não é normal: o padrão 3 Hz é característico e diagnóstico.`, foco: `Ausência: EEG e fármaco`}
+ ]
+}
+,
+
+"NEURO|AVC / cerebrovascular": {
+ titulo: `AVC e doença cerebrovascular`,
+ half: `NEURO`,
+ resumo: `O AVC é o carro-chefe da prova de neurologia — nas provas reais, aparece na fase aguda (trombólise e suas complicações), na hemorragia subaracnóidea e como diferencial da vertigem aguda. Este texto reconstrói o tema do zero: o que é um AVC, a diferença entre isquêmico e hemorrágico, por que "tempo é cérebro", como decidir trombólise/trombectomia, o que fazer quando o trombolisado sangra, e como reconhecer as armadilhas de prova (HSA, AVC do jovem por dissecção ou êmbolo séptico, trombose venosa).`,
+ fontes: `Base: Tratado de Neurologia da ABN 3ª ed. (cap. 46 — Síndromes Vasculares Isquêmicas; cap. 51 — Fase Aguda do AVCi; cap. 52 — Prevenção; cap. 55 — Trombose Venosa Cerebral; cap. 57 — Hemorragia Subaracnóidea; cap. 159 — Manejo Crítico do AVCi), Merritt 13ª ed. (Seção 4 — Doenças Vasculares Cerebrais; Seção 2 — AVE Agudo/A Primeira Hora), Adams & Victor 12ª ed. (Cerebrovascular Diseases) e Sanvito (síndromes vasculares). MS/CONITEC — Linha de Cuidados em AVC. Ver materiais_neuro.md e roteiro_neurologia.md.`,
+ notaErro: `Nos seus registros, os erros de doença cerebrovascular vêm de pontos específicos que a banca adora: **AVC no jovem (dissecção cervical, êmbolo séptico por endocardite)**, **conduta na hemorragia pós-trombólise**, e **associações da HSA**. O padrão do erro é decorar "AVC = trombólise" sem dominar as exceções e as complicações. Três armadilhas concentram as quedas:
+
+- **Você não pensa em dissecção/embolia no jovem sem fatores de risco.** AVC em paciente < 50 anos, sem HAS/DM, obriga a caçar causa incomum: **dissecção arterial cervical** (dor cervical/cefaleia + Horner + trauma/manipulação), **endocardite com êmbolo séptico** (febre + sopro → hemoculturas + ecocardiograma), FOP, trombofilias, vasculites (seção 8).
+
+- **Você trava quando o trombolisado sangra.** A complicação temida da alteplase é a **hemorragia intracerebral sintomática**: a conduta é **parar a alteplase**, TC de crânio, e **repor fibrinogênio com crioprecipitado** (alvo ≥ 150 mg/dL), ± **ácido tranexâmico**; cirurgia se hematoma > 30 mL com efeito de massa em paciente previamente funcional (seção 6).
+
+- **Você esquece as associações da HSA.** Cefaleia súbita "em trovoada" (thunderclap) → **HSA até prova em contrário**: TC sem contraste (e punção se TC normal e alta suspeita), graduar por **Hunt-Hess/Fisher**, aneurisma ligado à **doença renal policística autossômica dominante**, e prevenir vasoespasmo com **nimodipina** (seção 9).
+
+**Como zerar:** para todo caso vascular pergunte — (1) é **isquêmico ou hemorrágico** (a TC decide)? (2) qual a **janela** e o candidato a reperfusão? (3) qual a **etiologia** (especialmente no jovem)? Domine essas três e as questões param de te pegar. As questões ao final batem exatamente nesses pontos.`,
+ secoes: [
+  {h: `1. O que é um AVC — e por que a TC vem primeiro`, c: `AVC ("derrame") é a **perda súbita de função neurológica por causa vascular**. Há dois grandes tipos, com tratamentos **opostos**:
+
+- **AVC isquêmico (~85%):** uma artéria **entope** (trombo local ou êmbolo) e o território fica sem fluxo.
+- **AVC hemorrágico (~15%):** um vaso **rompe** — dentro do parênquima (hemorragia intracerebral) ou no espaço subaracnóideo (HSA).
+
+Como a clínica **não distingue** com segurança um do outro, a **primeira conduta é a TC de crânio sem contraste**: ela mostra o sangue de imediato (hiperdenso) e, se negativa, aponta para isquêmico. Essa diferenciação é vital porque no isquêmico se pode "afinar o sangue" (trombólise/antiagregação) e no hemorrágico isso **mataria** o paciente. Por isso o mantra: **nenhum antitrombótico antes da TC**.`},
+  {h: `2. Fisiopatologia — penumbra e "tempo é cérebro"`, c: `Quando uma artéria entope, o centro do território (o **core**) morre rápido. Em volta há a **penumbra isquêmica**: tecido que está "desligado" por falta de fluxo, mas **ainda viável** por alguns minutos/horas graças à circulação colateral. Salvar a penumbra é o objetivo de toda a fase aguda.
+
+A penumbra encolhe com o tempo — estima-se que se percam cerca de **1,9 milhão de neurônios por minuto** num grande AVC. Daí "**tempo é cérebro**": quanto mais cedo se reabre a artéria (trombólise/trombectomia), mais penumbra se salva e melhor o desfecho funcional. Esse conceito explica todas as decisões seguintes (janelas, transferência rápida, "porta-agulha").`},
+  {h: `3. Reconhecer o AVC e medir a gravidade`, c: `**Reconhecimento (leigo e triagem):** o **FAST** — **F**ace (assimetria), **A**rm (queda do braço), **S**peech (fala arrastada), **T**ime (hora do início/ligar para emergência). Instalação **súbita** de déficit focal é AVC até prova em contrário.
+
+**Gravidade:** a escala **NIHSS** quantifica o déficit (0 a 42) e orienta decisão/prognóstico.
+
+**Síndromes vasculares** (localizar ajuda a prever território):
+- **Artéria cerebral média:** hemiparesia/hemi-hipoestesia de predomínio **braquiofacial**, desvio do olhar para o lado da lesão, **afasia** (hemisfério dominante) ou heminegligência (não dominante).
+- **Artéria cerebral anterior:** predomínio **crural** (perna).
+- **Circulação posterior (vertebrobasilar):** vertigem, diplopia, disartria, ataxia, déficits cruzados, rebaixamento — entra no diferencial da **vertigem aguda** (usar HINTS).
+
+**Sempre checar glicemia:** hipoglicemia é o grande **mimetizador** de AVC.`},
+  {h: `4. AVC isquêmico agudo — reperfusão (trombólise e trombectomia)`, c: `**Trombólise EV (alteplase, ou tenecteplase):** indicada no AVCi com déficit incapacitante dentro de **4,5 horas** do início dos sintomas (janela), após TC excluir hemorragia.
+- **Critérios de exclusão** principais: hemorragia na TC, sangramento ativo, cirurgia/TCE recentes, AVC/TCE nos últimos 3 meses, plaquetas < 100.000, uso de anticoagulante com coagulação alterada, **PA > 185/110 não controlada** (tratar antes), glicemia muito baixa.
+- **Antes de trombolisar, baixar a PA** para < 185/110 e mantê-la < 180/105 nas 24 h seguintes.
+
+**Trombectomia mecânica:** para **oclusão de grande vaso** da circulação anterior, até **6 horas** — e, com estudo de imagem de perfusão/mismatch favorável, até **24 horas**. É complementar à trombólise (não a substitui quando ambas cabem).
+
+**Se fora de janela / não elegível:** **AAS** nas primeiras 48 h (ou dupla antiagregação em AVC menor/AIT de alto risco por período limitado), suporte, e prevenção secundária. **Controle pressórico permissivo** no AVCi não trombolisado: só tratar PA se > 220/120 (ou lesão de órgão-alvo), para não reduzir a perfusão da penumbra.`},
+  {h: `5. Controle da pressão — a diferença entre isquêmico e hemorrágico`, c: `Esse contraste é muito cobrado:
+
+- **AVC isquêmico NÃO trombolisado:** **hipertensão permissiva** — não baixar a PA a menos que > **220/120** mmHg (ou IAM, dissecção, edema agudo, pré-eclâmpsia). A PA alta ajuda a perfundir a penumbra; baixá-la demais aumenta o infarto.
+- **AVC isquêmico que vai trombolisar:** manter < **185/110** antes e < **180/105** depois (reduz o risco de sangramento).
+- **Hemorragia intracerebral:** aqui se **baixa a PA** de forma controlada (alvo de PAS em torno de **140 mmHg**, evitando quedas bruscas) para limitar a expansão do hematoma.
+
+Regra mental: na isquemia (sem trombólise) a PA alta é "amiga" da penumbra; na hemorragia, a PA alta é "inimiga" (expande o sangramento).`},
+  {h: `6. Hemorragia pós-trombólise — a emergência que você trava`, c: `A complicação mais temida da alteplase é a **transformação hemorrágica sintomática**. Suspeite quando, durante ou logo após a infusão, o paciente **piora** (queda do nível de consciência, cefaleia intensa, vômito, elevação abrupta da PA, aumento do déficit).
+
+**Conduta imediata (sequência):**
+1. **Parar a infusão de alteplase** já.
+2. **TC de crânio** de urgência e exames: hemograma, **fibrinogênio**, TP/TTPa, tipagem.
+3. **Reverter a coagulopatia:** **crioprecipitado** (repõe fibrinogênio) com **alvo de fibrinogênio ≥ 150 mg/dL**; considerar **ácido tranexâmico** (ou ácido aminocaproico) como antifibrinolítico.
+4. **Controle da PA** e das medidas de HIC (cabeceira 30°, evitar hipertensão).
+5. **Avaliação neurocirúrgica:** indicar cirurgia se **hematoma > 30 mL com efeito de massa** em paciente previamente funcional, ou hemorragia cerebelar com compressão de tronco/hidrocefalia.
+
+Guardar essa sequência (parar → TC/fibrinogênio → crioprecipitado até ≥150 → ± tranexâmico → cirurgia se grande) resolve a questão da banca de 2025.`},
+  {h: `7. Classificação etiológica (TOAST) — por que definir a causa`, c: `Definir a causa muda a **prevenção secundária**. A classificação **TOAST** separa:
+- **Aterosclerose de grande artéria** (estenose carotídea/intracraniana) → estatina de alta potência, antiagregante, avaliar endarterectomia/stent se estenose sintomática significativa.
+- **Cardioembolia** (fibrilação atrial, prótese, trombo, endocardite) → **anticoagulação** (não antiagregante) na maioria.
+- **Oclusão de pequenas artérias (lacunar)** → ligada a HAS/DM; controle de fatores de risco.
+- **Outra causa determinada** (dissecção, vasculite, trombofilia) e **indeterminada** (criptogênico — investigar FOP, FA paroxística).
+
+Investigação básica: neuroimagem, **ECG/Holter** (FA), **ecocardiograma**, doppler de carótidas/vertebrais, perfil metabólico. No jovem, ampliar (ver seção 8).`},
+  {h: `8. AVC no jovem — dissecção e êmbolo séptico (armadilha de prova)`, c: `AVC em paciente **jovem, sem fatores de risco clássicos**, obriga a procurar causas incomuns. Duas são queridas da banca:
+
+- **Dissecção arterial cervical (carótida ou vertebral):** causa mais comum de AVC no jovem. Rasga-se a íntima e forma-se hematoma na parede → estenose/embolia. Pista: **dor cervical ou cefaleia** (frequentemente após trauma leve, manipulação cervical, esforço) + sinais isquêmicos; na carótida, **síndrome de Horner** ipsilateral (ptose, miose) e às vezes zumbido pulsátil. Diagnóstico por **angio-TC/angio-RM** com supressão de gordura. Tratamento: **antitrombótico** (antiagregante ou anticoagulante).
+
+- **Endocardite infecciosa com embolia séptica:** paciente com **febre + sopro cardíaco novo + AVC** (às vezes múltiplos territórios, ou aneurisma micótico com hemorragia). Conduta: **hemoculturas** (várias, antes do antibiótico) + **ecocardiograma** (preferir transesofágico) — o AVC aqui é complicação de uma infecção sistêmica, e **anticoagular** pode ser perigoso (risco de transformação hemorrágica do êmbolo séptico).
+
+Outras: forame oval patente (embolia paradoxal), trombofilias, uso de cocaína/simpaticomiméticos, vasculites, doença falciforme, migrânea complicada.`},
+  {h: `9. Hemorragia subaracnóidea — cefaleia "em trovoada"`, c: `**Quadro:** **cefaleia súbita, explosiva, de intensidade máxima em segundos** ("a pior dor da vida", thunderclap), muitas vezes com náusea/vômito, rigidez de nuca, fotofobia, e podendo ter rebaixamento. Causa mais comum: **ruptura de aneurisma sacular**.
+
+**Diagnóstico:** **TC de crânio sem contraste** (sangue hiperdenso nas cisternas/fissuras — inter-hemisférica, sylviana); se a TC for **normal e a suspeita alta**, fazer **punção lombar** procurando **xantocromia**/hemácias que não clareiam. Confirmada, **angio-TC/angiografia** localiza o aneurisma.
+
+**Graduação:** **Hunt-Hess** (clínica) e **Fisher** (quantidade de sangue na TC, prediz vasoespasmo).
+
+**Associação de prova:** aneurismas saculares associam-se à **doença renal policística autossômica dominante** (e a coarctação de aorta, displasia fibromuscular).
+
+**Manejo:** tratar o aneurisma precocemente (**clipagem cirúrgica** ou **embolização endovascular**), repouso, controle de PA e dor; **nimodipina** para prevenir o **vasoespasmo** (que causa isquemia tardia, tipicamente entre o 4º e o 14º dia); vigiar hidrocefalia e hiponatremia.`},
+  {h: `10. Trombose venosa cerebral — o AVC que foge do padrão`, c: `Nem todo AVC é arterial. Na **trombose venosa cerebral** entopem-se **seios/veias durais**, dificultando a drenagem → hipertensão intracraniana e infartos **venosos** (que podem ser hemorrágicos e não respeitam territórios arteriais).
+
+**Pista clínica:** **cefaleia progressiva** (às vezes com sinais de HIC — papiledema, diplopia por VI par), crises epilépticas, déficit focal flutuante, em **contexto pró-trombótico**: **puerpério/gestação, anticoncepcional oral, trombofilia, desidratação, infecção de face/mastoide**, câncer. É causa importante de AVC em **mulheres jovens**.
+
+**Diagnóstico:** **angio-RM/angio-TC venosa** (venografia) mostrando falha de enchimento do seio.
+
+**Tratamento:** **anticoagulação** (heparina) **mesmo se houver infarto hemorrágico venoso** — parece contraintuitivo, mas reduz a propagação do trombo e melhora o desfecho. Tratar HIC e crises.`},
+  {h: `11. Prevenção secundária — não deixar acontecer de novo`, c: `Depois do evento agudo, a prevenção depende da causa (TOAST):
+- **Antiagregação** (AAS, clopidogrel) no AVC aterotrombótico/lacunar; **anticoagulação** (varfarina ou DOAC) no cardioembólico por FA.
+- **Estatina de alta intensidade** (alvo agressivo de LDL).
+- **Controle rigoroso de PA** (o fator de risco modificável mais importante), **glicemia**, **cessação do tabagismo**, dieta e atividade física.
+- **Endarterectomia/stent** carotídeo na estenose sintomática significativa.
+- Corrigir a causa específica (fechar FOP em casos selecionados, tratar trombofilia/vasculite, tratar endocardite).
+
+A mensagem: o AVC agudo salva neurônios; a **prevenção secundária** salva o próximo AVC.`}
+ ],
+ flashcards: [
+  {p: `Primeira conduta diagnóstica em todo AVC suspeito?`, r: `TC de crânio sem contraste, para diferenciar isquêmico de hemorrágico antes de qualquer antitrombótico.`},
+  {p: `O que é a penumbra isquêmica?`, r: `Tecido hipoperfundido mas ainda viável ao redor do core; alvo da reperfusão. "Tempo é cérebro".`},
+  {p: `Janela da trombólise EV (alteplase) no AVCi?`, r: `Até 4,5 h do início; PA < 185/110 antes e < 180/105 depois.`},
+  {p: `Janela da trombectomia mecânica?`, r: `Oclusão de grande vaso até 6 h; até 24 h com mismatch/perfusão favorável.`},
+  {p: `Controle de PA no AVCi NÃO trombolisado?`, r: `Hipertensão permissiva — só tratar se > 220/120 (ou lesão de órgão-alvo).`},
+  {p: `Conduta na hemorragia sintomática pós-alteplase?`, r: `Parar alteplase → TC + fibrinogênio → crioprecipitado (alvo ≥150 mg/dL) ± ácido tranexâmico; cirurgia se >30 mL com efeito de massa.`},
+  {p: `AVC no jovem com dor cervical + Horner?`, r: `Dissecção arterial cervical (carótida); diagnóstico por angio-TC/RM; tratar com antitrombótico.`},
+  {p: `AVC + febre + sopro cardíaco: o que pedir?`, r: `Hemoculturas + ecocardiograma — endocardite com êmbolo séptico; cuidado com anticoagulação.`},
+  {p: `Cefaleia súbita "a pior da vida" (thunderclap)?`, r: `HSA até prova em contrário: TC sem contraste; se normal e alta suspeita, punção (xantocromia).`},
+  {p: `Aneurisma sacular associa-se a qual doença hereditária?`, r: `Doença renal policística autossômica dominante (DRPAD).`},
+  {p: `Prevenção do vasoespasmo na HSA?`, r: `Nimodipina (vasoespasmo/isquemia tardia entre o 4º e o 14º dia).`},
+  {p: `Cefaleia progressiva no puerpério/uso de ACO + crises?`, r: `Trombose venosa cerebral; venografia por RM/TC; anticoagular mesmo com infarto hemorrágico venoso.`}
+ ],
+ pegadinhas: [
+  `Nenhum antitrombótico/trombolítico antes da TC — a clínica não separa isquêmico de hemorrágico.`,
+  `AVCi não trombolisado: hipertensão permissiva (só tratar PA > 220/120). Baixar demais aumenta o infarto.`,
+  `Trombolisar exige PA < 185/110 antes; manter < 180/105 nas 24 h seguintes.`,
+  `Hemorragia pós-trombólise: reverter com crioprecipitado (fibrinogênio ≥150) ± tranexâmico — não é "apenas suporte".`,
+  `AVC no jovem sem fatores de risco: caçar dissecção, endocardite embólica, FOP, trombofilia, cocaína, falciforme.`,
+  `Endocardite embólica: hemoculturas + eco; anticoagular pode transformar o êmbolo séptico em hemorragia.`,
+  `HSA com TC normal e alta suspeita NÃO exclui — fazer punção lombar (xantocromia).`,
+  `Aneurisma → pensar em DRPAD; HSA → nimodipina para vasoespasmo (não nifedipina para "baixar pressão").`,
+  `Trombose venosa cerebral: anticoagular mesmo havendo infarto hemorrágico venoso.`,
+  `Hipoglicemia mimetiza AVC — checar glicemia capilar sempre antes de trombolisar.`
+ ],
+ diretrizes: [
+  `Tratado de Neurologia da ABN (3ª ed., 2025), cap. 51 — Tratamento da Fase Aguda do AVCi; cap. 46 — Síndromes Vasculares Isquêmicas; cap. 57 — Hemorragia Subaracnóidea; cap. 55 — Trombose Venosa Cerebral; cap. 159 — Manejo Crítico do AVCi (ver materiais_neuro.md).`,
+  `Merritt (13ª ed.), Seção 4 — Doenças Vasculares Cerebrais; Seção 2 — AVE Agudo / A Primeira Hora; Adams & Victor — Cerebrovascular Diseases.`,
+  `MS/CONITEC — Linha de Cuidados / PCDT em AVC; MS — Manual de Rotinas para Atenção ao AVC.`
+ ],
+ questoes: [
+  {enunciado: `Homem de 34 anos, hígido, inicia hemiparesia direita e afasia. Refere dor cervical à esquerda após sessão de quiropraxia há 2 dias. Ao exame, ptose e miose à esquerda. Qual a causa mais provável do AVC?`, alternativas: {a: `Aterosclerose carotídea`, b: `Dissecção da artéria carótida esquerda`, c: `Cardioembolia por fibrilação atrial`, d: `Infarto lacunar hipertensivo`}, correta: "b", comentario: `Paciente jovem, sem fatores de risco, com dor cervical após manipulação e síndrome de Horner (ptose + miose) ipsilateral: quadro clássico de dissecção da artéria carótida — causa mais comum de AVC no jovem. O hematoma na parede arterial comprime as fibras simpáticas (Horner) e gera estenose/embolia. Aterosclerose e infarto lacunar são de pacientes mais velhos com fatores de risco; FA daria cardioembolia sem dor cervical/Horner. Confirma-se com angio-TC/angio-RM com supressão de gordura; trata-se com antitrombótico.`, foco: `AVC do jovem — dissecção`},
+  {enunciado: `Paciente trombolisado com alteplase há 40 minutos evolui com queda do nível de consciência, cefaleia intensa e piora do déficit. Qual a conduta prioritária?`, alternativas: {a: `Aumentar a velocidade da alteplase`, b: `Parar a alteplase, TC de crânio e repor crioprecipitado (fibrinogênio ≥150)`, c: `Iniciar heparina plena`, d: `Administrar AAS imediatamente`}, correta: "b", comentario: `A deterioração durante/após a alteplase sugere hemorragia intracerebral sintomática. A sequência correta é: parar a infusão imediatamente, TC de crânio de urgência com hemograma/fibrinogênio/coagulograma, e reverter a coagulopatia com crioprecipitado buscando fibrinogênio ≥150 mg/dL, ± ácido tranexâmico; avaliação neurocirúrgica se hematoma >30 mL com efeito de massa. Manter/aumentar o trombolítico, heparinizar ou dar AAS agravariam o sangramento.`, foco: `Hemorragia pós-trombólise`},
+  {enunciado: `Mulher de 45 anos com cefaleia súbita de intensidade máxima ("pior da vida"), rigidez de nuca e Glasgow 15. TC de crânio evidencia hiperdensidade nas fissuras inter-hemisférica e sylviana. Qual associação hereditária deve ser lembrada e qual fármaco previne a principal complicação isquêmica tardia?`, alternativas: {a: `Neurofibromatose; fenitoína`, b: `Doença renal policística autossômica dominante; nimodipina`, c: `Síndrome de Marfan; labetalol`, d: `Doença de von Hippel-Lindau; manitol`}, correta: "b", comentario: `Cefaleia thunderclap + sangue nas cisternas = hemorragia subaracnóidea por ruptura de aneurisma sacular. Aneurismas saculares associam-se classicamente à doença renal policística autossômica dominante. A complicação isquêmica tardia é o vasoespasmo (4º–14º dia), prevenido com nimodipina. A graduação usa Hunt-Hess (clínica) e Fisher (sangue na TC). Fenitoína/manitol/labetalol tratam outras coisas; as demais associações genéticas não são as ligadas ao aneurisma sacular.`, foco: `HSA — associações e vasoespasmo`},
+  {enunciado: `No AVC isquêmico agudo que NÃO será submetido a trombólise, qual a conduta correta quanto à pressão arterial?`, alternativas: {a: `Reduzir agressivamente a PA para < 120/80`, b: `Hipertensão permissiva: só tratar se > 220/120 ou lesão de órgão-alvo`, c: `Manter PA < 140/90 em todos os casos`, d: `Nunca tratar a PA nas primeiras 72 h`}, correta: "b", comentario: `No AVCi não trombolisado, a hipertensão é permitida (permissiva) porque a PA elevada ajuda a perfundir a penumbra isquêmica; só se trata a PA se ultrapassar 220/120 mmHg ou houver lesão de órgão-alvo (IAM, dissecção, edema agudo, pré-eclâmpsia). Baixar a PA de forma agressiva reduz a perfusão colateral e amplia o infarto. Já quando se vai trombolisar, o alvo passa a ser < 185/110 (antes) e < 180/105 (depois); e na hemorragia intracerebral se baixa a PAS para ~140. Por isso o manejo pressórico depende do tipo e do plano terapêutico.`, foco: `Controle pressórico no AVCi`}
+ ]
+}
+,
+
+"PED|Nutrição / metabolismo": {
+ titulo: `Nutrição pediátrica e metabolismo ósseo`,
+ half: `PED`,
+ resumo: `Nutrição é um dos temas mais recorrentes da prova de pediatria, cobrado em vinhetas curtas de conduta: aleitamento, alimentação complementar, anemia ferropriva, deficiência de vitamina A, raquitismo e desnutrição. Este texto reconstrói o campo do zero: por que o leite materno é o padrão-ouro, como e quando introduzir alimentos, por que o lactente fica anêmico, o que é o raquitismo carencial e como diferenciar marasmo de Kwashiorkor — sempre no formato que a banca cobra (conduta correta entre combinações parecidas).`,
+ fontes: `Base: Sociedade Brasileira de Pediatria (SBP — Guias de Aleitamento Materno e de Alimentação da Criança), Ministério da Saúde (Guia Alimentar para Crianças < 2 anos; Programa Nacional de Suplementação de Ferro/PNSF; Programa Nacional de Suplementação de Vitamina A/PNSVA), OMS (classificação da desnutrição, curvas de crescimento). Material do Drive do Vinicius (Nutrição em Pediatria). Ver materiais_drive.md e roteiro_estudo.md.`,
+ notaErro: `Nos seus registros, os erros de nutrição concentram-se em **raquitismo carencial**, **anemia ferropriva** e **desnutrição (Kwashiorkor)**. O padrão do erro é não fixar a **conduta exata** — a banca monta 4 alternativas quase iguais ("manter/suspender aleitamento" × "suplementar/não suplementar ferro") e só uma está certa. Três tropeços explicam as quedas:
+
+- **Na anemia ferropriva, você suspende o aleitamento ou esquece de suplementar.** A conduta correta no lactente com ferropriva por inadequação alimentar (aleitamento prolongado sem diversificação, ou excesso de leite de vaca) é **manter o leite materno, diversificar a dieta e suplementar ferro** — nunca suspender o seio. E lembrar da **profilaxia** universal de ferro (seção 3).
+
+- **No raquitismo, você trata com fosfato ou esquece que é carência de vitamina D.** O raquitismo carencial clássico é por **deficiência de vitamina D** (pouca exposição solar, baixa oferta); a clínica é **arqueamento de MMII após início da marcha**, alargamento de punhos, rosário raquítico; o laboratório mostra **cálcio normal/baixo, fósforo baixo, fosfatase alcalina alta e PTH alto**, com **vitamina D baixa**; trata-se com **vitamina D** (± cálcio), não com fosfato isolado (seção 5).
+
+- **Você confunde marasmo com Kwashiorkor.** Marasmo = magreza extrema, "carinha de velho", **sem edema**. Kwashiorkor = **edema**, dermatose, cabelo despigmentado, hepatomegalia (esteatose) — clássico da vinheta (seção 6).
+
+**Como zerar:** em toda vinheta de nutrição pergunte — (1) qual a **carência/erro alimentar**? (2) qual a **conduta que MANTÉM o aleitamento** e corrige a falta? (3) o quadro **tem edema** (Kwashiorkor) ou não (marasmo)? As questões ao final batem nesses pontos.`,
+ secoes: [
+  {h: `1. Aleitamento materno — o padrão-ouro e seus prazos`, c: `O leite materno é o alimento ideal para o lactente, e os **prazos** são cobrados de forma seca:
+- **Aleitamento materno exclusivo até os 6 meses** (só leite materno, sem água, chá ou outros alimentos).
+- **Aleitamento complementado até 2 anos ou mais** (mantém o seio enquanto se introduzem os alimentos).
+
+**Por que é superior:** composição sob medida (proteína de fácil digestão, ácidos graxos para o cérebro), **fatores imunológicos** (IgA secretora, lactoferrina, oligossacarídeos que modelam a microbiota) que reduzem diarreia, otite e infecções respiratórias, além de proteção materna (menos câncer de mama/ovário) e vínculo.
+
+**Contraindicações verdadeiras (raras) — outra pegadinha:** HIV materno (no Brasil, contraindicado), HTLV, uso de **quimioterápicos/radioativos**, algumas drogas, e **galactosemia** no bebê. **Não** são contraindicações: a maioria das infecções comuns, mastite (manter a amamentação), a maioria dos medicamentos. Mãe que retorna ao trabalho deve ser orientada a **ordenhar e estocar** o leite, mantendo o aleitamento.`},
+  {h: `2. Alimentação complementar — quando e como introduzir`, c: `Aos **6 meses**, o leite materno deixa de suprir sozinho energia, ferro e zinco: começa a **alimentação complementar** (não "desmame" — o seio continua).
+
+**Como fazer (Guia Alimentar MS/SBP):**
+- Iniciar com a comida da família **amassada** (não liquidificada/peneirada), oferecendo consistência progressiva; a criança precisa aprender a mastigar.
+- Oferecer **variedade** desde cedo: cereais/tubérculos, leguminoses (feijão), proteína animal (carne, ovo — inclusive gema e clara desde o início), frutas e legumes; a **carne** é fonte importante de **ferro heme**.
+- Refeições em número crescente ao longo dos meses, respeitando os sinais de fome/saciedade.
+
+**Erros comuns cobrados:** introduzir **açúcar, mel** (risco de botulismo < 1 ano), ultraprocessados, sucos e refrigerantes; usar mamadeira; oferecer leite de vaca integral como bebida principal antes de 1 ano (associa-se à anemia). A regra do Guia: **não oferecer açúcar antes dos 2 anos**.`},
+  {h: `3. Anemia ferropriva — a mais comum e a mais cobrada`, c: `**Por que acontece:** a **deficiência de ferro** é a carência nutricional mais prevalente na infância. O lactente nasce com reservas que se esgotam por volta dos **6 meses**; se a dieta não repõe ferro (aleitamento prolongado **sem diversificação**, introdução alimentar pobre, ou **excesso de leite de vaca** — que tem pouco ferro, e ainda causa microssangramento intestinal e compete com a absorção), instala-se a anemia.
+
+**Clínica:** palidez, irritabilidade, menor apetite, e, se arrastada, **prejuízo do desenvolvimento neuropsicomotor** (o ferro é essencial ao cérebro em formação). Laboratório: anemia **microcítica e hipocrômica**, **ferritina baixa** (marcador de estoque; sobe na inflamação), RDW alto.
+
+**Tratamento (a conduta que a banca cobra):** **manter o aleitamento materno**, **diversificar a alimentação** (carne, feijão, folhas verde-escuras, vitamina C para absorver o ferro não heme) e **suplementar ferro** em dose terapêutica (~3–5 mg/kg/dia de ferro elementar). **Nunca suspender o seio.** Reavaliar a hemoglobina; manter o ferro por alguns meses após normalizar, para repor estoques.
+
+**Profilaxia (PNSF):** suplementação de ferro para lactentes conforme o programa (a partir dos ~3–6 meses até 2 anos, com ajustes para prematuros/baixo peso, que começam mais cedo e em dose maior). É o "pulo do gato" das questões de conduta.`},
+  {h: `4. Vitamina A e o PNSVA — pergunta seca de programa`, c: `A **deficiência de vitamina A** ainda é problema de saúde pública em regiões vulneráveis e causa **xeroftalmia** (a principal causa evitável de cegueira infantil): cegueira noturna, **manchas de Bitot**, ressecamento e ulceração da córnea (ceratomalácia), além de maior gravidade de infecções (sarampo, diarreia).
+
+**Programa Nacional de Suplementação de Vitamina A (PNSVA):**
+- **Grupo-alvo:** crianças de **6 a 59 meses** em áreas de risco.
+- **Forma:** **megadose** de vitamina A **via oral**, em intervalos definidos (a cada ~6 meses), nas UBS/campanhas.
+- Também se suplementa em situações específicas (ex.: sarampo grave).
+
+A banca costuma perguntar **faixa etária (6–59 meses)**, **via (oral)** e **intervalo (semestral)** — decorar esses três dados resolve a questão.`},
+  {h: `5. Raquitismo carencial — deficiência de vitamina D (seu ponto de erro)`, c: `**O que é:** falha de **mineralização** da matriz óssea na criança em crescimento, mais comumente por **deficiência de vitamina D** (pouca exposição solar, baixa oferta, pele mais pigmentada, aleitamento exclusivo prolongado sem suplementação de vitamina D). Sem vitamina D, o intestino absorve pouco cálcio → o osso não mineraliza e fica "mole".
+
+**Clínica (aparece com o crescimento/marcha):**
+- **Arqueamento dos membros inferiores** (geno varo) ou joelho valgo **após o início da marcha** — o peso deforma o osso mal mineralizado.
+- **Alargamento de punhos e tornozelos**, **rosário raquítico** (junções costocondrais salientes), **craniotabes**, atraso no fechamento das fontanelas e da erupção dentária, sulco de Harrison.
+
+**Laboratório (o padrão que se cobra):** **25-OH-vitamina D baixa**, **cálcio normal ou baixo**, **fósforo baixo**, **fosfatase alcalina alta**, **PTH alto** (hiperparatireoidismo secundário). Radiografia: metáfises alargadas, em "taça", com bordas irregulares.
+
+**Tratamento:** repor **vitamina D** (± cálcio conforme a oferta), corrigir a exposição solar/dieta; a resposta à vitamina D é boa no carencial. **Prevenção:** a SBP recomenda **suplementação de vitamina D** para todos os lactentes (desde os primeiros dias/semanas de vida) — dado de prova.
+
+**Diferencial importante:** o **raquitismo hipofosfatêmico** (ligado ao X, perda renal de fosfato) **não** responde só à vitamina D — precisa de **fosfato** (e calcitriol). Por isso o erro clássico é "tratar com fosfato isolado" o carencial (que quer vitamina D) — e vice-versa.`},
+  {h: `6. Desnutrição energético-proteica — marasmo × Kwashiorkor`, c: `A desnutrição grave tem duas faces clássicas (com formas mistas):
+
+- **Marasmo:** deficiência **global** e crônica de energia. Criança **muito magra**, perda intensa de massa muscular e gordura, "**carinha de velho**", nádegas pregueadas, **sem edema**, muito irritada/faminta. É a "fome que aparece".
+
+- **Kwashiorkor:** deficiência predominantemente **proteica** (com relativa oferta calórica). O achado que define é o **edema** (começa nos pés, pode chegar a anasarca), somado a **dermatose** (pele descamativa "em tinta descascada"), **cabelo despigmentado e quebradiço** (sinal da bandeira), **hepatomegalia** (esteatose por queda de apolipoproteínas), apatia e menor apetite. É a "fome escondida" — a criança pode parecer "gordinha" pelo edema.
+
+**Classificação (OMS):** usa-se **peso/estatura (emagrecimento/wasting)**, **estatura/idade (nanismo/stunting crônico)** e **perímetro braquial**, além da presença de edema, para graduar a gravidade.
+
+**Manejo da desnutrição grave (OMS, resumido):** cuidado por fases — **estabilização** (tratar/prevenir **hipoglicemia, hipotermia, desidratação**; corrigir eletrólitos com cautela; tratar infecção; **não** iniciar dieta hiperproteica agressiva de imediato pelo risco de **síndrome de realimentação**) e depois **reabilitação** (recuperação nutricional gradual, com fórmulas específicas F-75/F-100). A pressa em "engordar" mata; a sequência correta salva.`},
+  {h: `7. Obesidade e DHGNA no adolescente — o outro lado da má nutrição`, c: `Má nutrição também é **excesso**. A **obesidade** infantojuvenil (IMC por idade acima do ponto de corte nas curvas da OMS) associa-se a **resistência insulínica**, dislipidemia, hipertensão e à **doença hepática gordurosa não alcoólica (DHGNA/esteatose)** — hoje a principal causa de doença hepática crônica no adolescente.
+
+**Quando suspeitar de DHGNA:** adolescente obeso com **transaminases elevadas** (ALT) e/ou esteatose ao ultrassom; excluir outras hepatopatias. O tratamento base é **mudança de estilo de vida** (dieta, redução de açúcar/ultraprocessados, atividade física, perda de peso gradual) — não há "remédio mágico".
+
+**Rastreio metabólico** no obeso: pressão arterial, glicemia/insulina, perfil lipídico, transaminases. A mensagem de prova: na obesidade, a intervenção de 1ª linha é **comportamental/familiar**, e a esteatose regride com a perda de peso.`}
+ ],
+ flashcards: [
+  {p: `Prazos do aleitamento (SBP/OMS)?`, r: `Exclusivo até 6 meses; complementado até 2 anos ou mais.`},
+  {p: `Quando iniciar a alimentação complementar?`, r: `Aos 6 meses, com comida amassada e variada (mantendo o seio); sem açúcar/mel antes dos 2 anos (mel: risco de botulismo <1 ano).`},
+  {p: `Conduta na anemia ferropriva do lactente por inadequação alimentar?`, r: `Manter aleitamento + diversificar dieta + suplementar ferro. Nunca suspender o seio.`},
+  {p: `Por que o excesso de leite de vaca causa anemia?`, r: `Pouco ferro, microssangramento intestinal e competição na absorção; evitar leite de vaca como bebida principal antes de 1 ano.`},
+  {p: `PNSVA: grupo-alvo, via e intervalo?`, r: `Crianças de 6 a 59 meses, megadose via oral, a cada ~6 meses (áreas de risco).`},
+  {p: `Achado ocular clássico da deficiência de vitamina A?`, r: `Xeroftalmia (cegueira noturna, manchas de Bitot, ceratomalácia).`},
+  {p: `Laboratório do raquitismo carencial (vit. D)?`, r: `Vitamina D baixa, cálcio normal/baixo, fósforo baixo, fosfatase alcalina alta, PTH alto.`},
+  {p: `Tratamento do raquitismo carencial x hipofosfatêmico?`, r: `Carencial: vitamina D (± cálcio). Hipofosfatêmico (ligado ao X): fosfato + calcitriol (não responde só a vit. D).`},
+  {p: `O que define o Kwashiorkor?`, r: `Edema (+ dermatose, cabelo despigmentado, hepatomegalia); marasmo é magreza extrema SEM edema.`},
+  {p: `Maior risco ao realimentar a desnutrição grave?`, r: `Síndrome de realimentação (hipofosfatemia/hipocalemia); iniciar dieta gradual, corrigir hipoglicemia/hipotermia/desidratação primeiro.`},
+  {p: `1ª linha no adolescente obeso com DHGNA?`, r: `Mudança de estilo de vida (dieta, atividade física, perda de peso); esteatose regride com emagrecimento.`}
+ ],
+ pegadinhas: [
+  `Anemia ferropriva: NUNCA suspender o aleitamento — manter seio + diversificar + suplementar ferro.`,
+  `Mel é proibido antes de 1 ano (botulismo do lactente); açúcar, só após os 2 anos.`,
+  `Contraindicação ao aleitamento: HIV/HTLV, quimioterápicos/radioativos, galactosemia — mastite NÃO contraindica.`,
+  `Raquitismo carencial quer vitamina D; tratar com fosfato isolado é o erro (fosfato é do hipofosfatêmico ligado ao X).`,
+  `Arqueamento de MMII surge APÓS o início da marcha (o peso deforma o osso desmineralizado).`,
+  `Kwashiorkor tem edema e pode parecer "gordinho"; marasmo é magreza extrema sem edema.`,
+  `Na desnutrição grave, não iniciar dieta hiperproteica agressiva de imediato — risco de síndrome de realimentação.`,
+  `Excesso de leite de vaca antes de 1 ano → anemia ferropriva (pouco ferro + microssangramento).`,
+  `PNSVA é 6–59 meses, oral, semestral; PNSF (ferro) é profilaxia de rotina no lactente.`,
+  `Ferritina é marcador de estoque de ferro, mas sobe na inflamação (pode mascarar ferropenia).`
+ ],
+ diretrizes: [
+  `Sociedade Brasileira de Pediatria — Guias de Aleitamento Materno e de Alimentação da Criança (introdução alimentar; suplementação de vitamina D e ferro).`,
+  `Ministério da Saúde — Guia Alimentar para Crianças Brasileiras Menores de 2 Anos; Programa Nacional de Suplementação de Ferro (PNSF); Programa Nacional de Suplementação de Vitamina A (PNSVA).`,
+  `OMS — Manejo da Desnutrição Aguda Grave (F-75/F-100; classificação por peso/estatura, estatura/idade e edema). Material do Drive (Nutrição em Pediatria — ver materiais_drive.md).`
+ ],
+ questoes: [
+  {enunciado: `Lactente de 11 meses, em aleitamento materno prolongado sem diversificação alimentar adequada, apresenta palidez e anemia microcítica/hipocrômica com ferritina baixa. Qual a conduta correta?`, alternativas: {a: `Suspender o aleitamento e iniciar fórmula`, b: `Manter aleitamento, diversificar a dieta e suplementar ferro`, c: `Apenas orientar dieta, sem suplementar`, d: `Transfusão de concentrado de hemácias`}, correta: "b", comentario: `A anemia ferropriva por inadequação alimentar se trata mantendo o leite materno (que não é o vilão — o problema é a falta de diversificação/fontes de ferro), diversificando a dieta (carne, feijão, folhas, vitamina C) e suplementando ferro terapêutico (~3–5 mg/kg/dia). Suspender o seio é erro clássico. Só orientar dieta, sem repor ferro, não corrige a anemia já instalada. Transfusão só em anemia grave sintomática/instabilidade, não neste caso. Lembrar da profilaxia de ferro (PNSF) como medida universal.`, foco: `Anemia ferropriva — conduta (seu ponto de erro)`},
+  {enunciado: `Criança de 18 meses com arqueamento das pernas após início da marcha, alargamento de punhos e rosário raquítico. Exames: cálcio normal-baixo, fósforo baixo, fosfatase alcalina elevada, PTH alto e 25-OH-vitamina D baixa. Qual o tratamento?`, alternativas: {a: `Reposição de vitamina D (± cálcio)`, b: `Fosfato oral isolado`, c: `Restrição de cálcio na dieta`, d: `Bifosfonato`}, correta: "a", comentario: `O quadro clínico e laboratorial é de raquitismo carencial por deficiência de vitamina D (vit. D baixa, fósforo baixo, FA alta, PTH alto por hiperparatireoidismo secundário). O tratamento é repor vitamina D (± cálcio) e corrigir exposição solar/dieta, com boa resposta. Fosfato isolado é o tratamento do raquitismo hipofosfatêmico ligado ao X (que não responde só à vitamina D) — usá-lo aqui é o erro clássico. Restringir cálcio ou dar bifosfonato pioraria/não trata. Prevenção: suplementar vitamina D em todos os lactentes.`, foco: `Raquitismo carencial — vitamina D`},
+  {enunciado: `Criança de 2 anos com edema de membros inferiores, dermatose descamativa, cabelo fino e despigmentado e hepatomegalia, em dieta pobre em proteínas. Qual o diagnóstico?`, alternativas: {a: `Marasmo`, b: `Kwashiorkor`, c: `Síndrome nefrótica`, d: `Obesidade`}, correta: "b", comentario: `Edema + dermatose + cabelo despigmentado ("sinal da bandeira") + hepatomegalia (esteatose) em dieta deficiente em proteína caracterizam o Kwashiorkor (desnutrição proteica). O marasmo é magreza extrema, sem edema ("carinha de velho"). A síndrome nefrótica também dá edema, mas o contexto é de proteinúria maciça/hipoalbuminemia renal, não de carência dietética com dermatose e cabelo despigmentado. No manejo, cuidado com a síndrome de realimentação: estabilizar (hipoglicemia, hipotermia, desidratação, infecção) antes da recuperação nutricional gradual.`, foco: `Desnutrição — Kwashiorkor`},
+  {enunciado: `Sobre o Programa Nacional de Suplementação de Vitamina A (PNSVA), assinale a alternativa correta quanto a grupo-alvo, via e intervalo:`, alternativas: {a: `0 a 6 meses, intramuscular, dose única`, b: `6 a 59 meses, via oral, a cada ~6 meses`, c: `2 a 10 anos, via oral, mensal`, d: `Todas as gestantes, via oral, diária`}, correta: "b", comentario: `O PNSVA suplementa crianças de 6 a 59 meses em áreas de risco, com megadose de vitamina A por via oral, em intervalos semestrais (a cada ~6 meses), nas UBS/campanhas. A deficiência de vitamina A causa xeroftalmia (cegueira noturna, manchas de Bitot, ceratomalácia) e agrava infecções (sarampo). As demais opções erram faixa etária, via ou periodicidade. É uma questão de programa: decore grupo-alvo (6–59 m), via (oral) e intervalo (semestral).`, foco: `Vitamina A / PNSVA (programa)`}
+ ]
+}
 
 };
