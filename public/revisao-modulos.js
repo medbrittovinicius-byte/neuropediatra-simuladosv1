@@ -2084,6 +2084,383 @@ A banca costuma perguntar **faixa etária (6–59 meses)**, **via (oral)** e **i
   {enunciado: `Criança de 2 anos com edema de membros inferiores, dermatose descamativa, cabelo fino e despigmentado e hepatomegalia, em dieta pobre em proteínas. Qual o diagnóstico?`, alternativas: {a: `Marasmo`, b: `Kwashiorkor`, c: `Síndrome nefrótica`, d: `Obesidade`}, correta: "b", comentario: `Edema + dermatose + cabelo despigmentado ("sinal da bandeira") + hepatomegalia (esteatose) em dieta deficiente em proteína caracterizam o Kwashiorkor (desnutrição proteica). O marasmo é magreza extrema, sem edema ("carinha de velho"). A síndrome nefrótica também dá edema, mas o contexto é de proteinúria maciça/hipoalbuminemia renal, não de carência dietética com dermatose e cabelo despigmentado. No manejo, cuidado com a síndrome de realimentação: estabilizar (hipoglicemia, hipotermia, desidratação, infecção) antes da recuperação nutricional gradual.`, foco: `Desnutrição — Kwashiorkor`},
   {enunciado: `Sobre o Programa Nacional de Suplementação de Vitamina A (PNSVA), assinale a alternativa correta quanto a grupo-alvo, via e intervalo:`, alternativas: {a: `0 a 6 meses, intramuscular, dose única`, b: `6 a 59 meses, via oral, a cada ~6 meses`, c: `2 a 10 anos, via oral, mensal`, d: `Todas as gestantes, via oral, diária`}, correta: "b", comentario: `O PNSVA suplementa crianças de 6 a 59 meses em áreas de risco, com megadose de vitamina A por via oral, em intervalos semestrais (a cada ~6 meses), nas UBS/campanhas. A deficiência de vitamina A causa xeroftalmia (cegueira noturna, manchas de Bitot, ceratomalácia) e agrava infecções (sarampo). As demais opções erram faixa etária, via ou periodicidade. É uma questão de programa: decore grupo-alvo (6–59 m), via (oral) e intervalo (semestral).`, foco: `Vitamina A / PNSVA (programa)`}
  ]
+},
+"NEURO|ELA": {
+ titulo: `Esclerose lateral amiotrófica e as doenças do neurônio motor`,
+ half: `NEURO`,
+ resumo: `A esclerose lateral amiotrófica (ELA) é a queridinha das bancas porque testa uma ideia central da neurologia: saber diferenciar, à beira do leito, um problema do neurônio motor SUPERIOR (o do cérebro) de um do neurônio motor INFERIOR (o da medula/tronco). Este texto reconstrói o assunto do zero — o que são esses dois neurônios, por que a doença que atinge OS DOIS ao mesmo tempo, sem mexer na sensibilidade, é tão característica, e como fechar o diagnóstico e não cair nos imitadores tratáveis.`,
+ fontes: `Base: Tratado de Neurologia da ABN 3ª ed. (cap. 108 — Esclerose Lateral Amiotrófica; cap. 109 — Atrofia Muscular Espinhal 5q; cap. 206 — Paraparesias Espásticas Hereditárias e Doença do Neurônio Motor), Merritt 13ª ed. (Seção 12 — Doenças Neuromusculares), Adams & Victor 12ª ed. (Degenerative Diseases — Motor Neuron Diseases) e Sanvito (semiologia do primeiro e do segundo neurônio motor). Ver materiais_neuro.md.`,
+ notaErro: `A doença do neurônio motor cai como "reconhecer o padrão" — e o erro nasce quase sempre de NÃO ter internalizado a diferença entre **neurônio motor superior (NMS)** e **neurônio motor inferior (NMI)**. Quem decora "ELA = fraqueza progressiva" sem esse mapa erra os distratores clássicos.
+
+Três armadilhas explicam a maioria das quedas:
+
+- **Confundir os sinais de NMS e NMI.** Se você não sabe de cor que espasticidade + hiperreflexia + Babinski = NMS, e que atrofia + fasciculação + hipotonia = NMI, não enxerga o achado que DEFINE a ELA: os dois padrões no MESMO paciente, às vezes no mesmo membro (seção 2 e 3). Treine isso e a questão se resolve numa linha.
+- **Esquecer o que a ELA POUPA.** A banca adora colocar alteração sensitiva, dor precoce ou distúrbio esfincteriano/ocular no enunciado para "afundar" a ELA. Se há déficit sensorial nítido, o diagnóstico provavelmente NÃO é ELA — é mielopatia, neuropatia ou outra coisa (seção 6). Poupar sensibilidade, esfíncteres e musculatura ocular é regra de ouro.
+- **Não excluir o imitador TRATÁVEL.** O grande pecado é chamar de ELA algo que tinha cura: mielopatia cervical espondilótica, neuropatia motora multifocal com bloqueio de condução, miastenia, e até deficiências carenciais. A RM de coluna e a eletroneuromiografia (ENMG) existem para não deixar isso passar (seção 6 e 7).
+
+**Como zerar o erro:** diante de qualquer fraqueza progressiva, faça a MESMA sequência — (1) tem sinais de NMS? tem sinais de NMI? nos dois? (2) a sensibilidade está preservada? (3) já exclui compressão medular (RM) e imitadores tratáveis (ENMG, anticorpos)? Quem responde essas três perguntas raramente erra ELA. As questões ao final batem exatamente nesses três pontos.`,
+ secoes: [
+  {h: `1. Comece pelo começo: o que é "neurônio motor" e por que existem dois`, c: `Todo movimento voluntário depende de uma corrente de dois neurônios ligados em série, como dois trechos de uma mesma linha de trem.
+
+- O **neurônio motor superior (NMS)**, também chamado de **primeiro neurônio motor**, nasce no **córtex motor** (giro pré-central) e desce pela **via corticoespinhal** (o "trato piramidal") até a medula. Ele é o "comando central": planeja e dispara a ordem, mas também **freia** — mantém os reflexos e o tônus sob controle.
+- O **neurônio motor inferior (NMI)**, ou **segundo neurônio motor**, fica no **corno anterior da medula** (ou nos núcleos motores do tronco encefálico, para os músculos da face, língua e faringe). É o "último mensageiro": seu axônio sai pela raiz, vira nervo periférico e chega ao **músculo**, na junção neuromuscular.
+
+Uma analogia: o NMS é o maestro; o NMI é o músico que efetivamente toca o instrumento (o músculo). Se o maestro adoece, o músico fica sem regência e toca de forma descontrolada (movimentos exagerados, reflexos "soltos"). Se o músico adoece, o instrumento simplesmente emudece (músculo atrofia e para).
+
+Guarde esta lógica desde já, porque a **assinatura da ELA** é justamente **adoecer o maestro E o músico ao mesmo tempo** — algo que quase nenhuma outra doença faz.`},
+  {h: `2. Os dois quadros de exame: decore esta tabela mental`, c: `Aqui está o coração do tema. Um problema de NMS e um de NMI produzem exames OPOSTOS. Saber isto de cor é o que separa quem acerta de quem chuta.
+
+**Lesão do NEURÔNIO MOTOR SUPERIOR (piramidal / "espástico"):**
+- **Espasticidade** (tônus aumentado, "em canivete").
+- **Hiperreflexia** (reflexos vivos), com **clônus**.
+- **Sinal de Babinski** presente (extensão do hálux).
+- Fraqueza sem atrofia importante; sem fasciculações.
+
+**Lesão do NEURÔNIO MOTOR INFERIOR (periférico / "flácido"):**
+- **Hipotonia / flacidez**.
+- **Hiporreflexia ou arreflexia** (reflexos diminuídos/ausentes).
+- **Atrofia muscular** marcada.
+- **Fasciculações** (aquelas contrações finas, "vermes sob a pele") e cãibras.
+
+Por que a diferença? Porque o NMS normalmente **inibe** o arco reflexo da medula. Quando o maestro (NMS) some, o arco reflexo fica sem freio — daí hiperreflexia e Babinski. Já quando o músico (NMI) morre, o músculo perde toda a inervação: fica desnervado, murcha (atrofia) e as fibras nervosas moribundas disparam sozinhas (fasciculações).
+
+Na prática de prova: leia o exame neurológico do enunciado e "etiquete" cada achado como NMS ou NMI. Só isso já orienta 80% das questões de doença do neurônio motor.`},
+  {h: `3. O que é a ELA: a doença que ataca os dois neurônios`, c: `A **esclerose lateral amiotrófica** é uma doença **degenerativa e progressiva** que mata **simultaneamente** o neurônio motor superior e o inferior. O próprio nome descreve o que se vê na necropsia:
+- **"esclerose lateral"** = endurecimento (degeneração) dos cordões **laterais** da medula, por onde passa a via corticoespinhal — ou seja, a marca do **NMS**.
+- **"amiotrófica"** = "a-mio-trófica", perda de trofismo muscular, a **atrofia** por morte do **NMI**.
+
+Então a definição clínica é: **sinais de NMS + sinais de NMI, difusos, progressivos, e SEM comprometimento sensitivo**. É a coexistência dos dois padrões que torna o diagnóstico quase único.
+
+Epidemiologia para a prova: começa tipicamente entre **50 e 70 anos**, leve predomínio em homens; a maioria é **esporádica** (~90%), e cerca de 10% é **familiar** (genes clássicos citados nas bancas: **SOD1**, e as expansões de **C9orf72**, este último ligando ELA à demência frontotemporal). A sobrevida média é de cerca de **3 a 5 anos**, geralmente por **insuficiência respiratória**.`},
+  {h: `4. Como a doença se apresenta e evolui`, c: `A ELA costuma começar **focal e assimétrica** e depois se espalha, como uma mancha que cresce a partir de um ponto. Os padrões de início que a banca cobra:
+
+- **Início espinhal (apendicular), o mais comum (~2/3):** fraqueza e atrofia de uma mão ("não consigo mais abotoar a camisa", "a mão foi secando"), ou "pé caído" de um lado. O paciente nota atrofia + fasciculação (NMI) em um membro, mas ao exame já há hiperreflexia (NMS) naquele mesmo membro atrófico — combinação que deveria acender a lâmpada.
+- **Início bulbar (~1/3, mais comum em mulheres idosas):** os primeiros músculos a falhar são os do **bulbo** (tronco encefálico) — fala e deglutição. Surge **disartria** (fala "empastada"), **disfagia** (engasgos), **língua atrófica com fasciculações**. Quando há mistura de NMS e NMI no bulbo, aparece a **síndrome pseudobulbar**: labilidade emocional (choro/riso imotivados), reflexo de vômito exaltado, reflexo mentoniano vivo.
+
+À medida que progride, um segmento contamina o outro (membro → outro membro → bulbo → respiração). A falência do diafragma e da musculatura respiratória é o que define o prognóstico.
+
+**O que a ELA classicamente NÃO faz** (e a prova adora testar): não dá **déficit sensitivo** objetivo, não afeta **esfíncteres** (continência preservada), **poupa a musculatura ocular** e, em geral, não causa demência clássica (embora exista sobreposição com a demência frontotemporal). Se o enunciado traz perda sensitiva, retenção urinária ou oftalmoplegia como sintoma central, desconfie de OUTRO diagnóstico.`},
+  {h: `5. Como se fecha o diagnóstico`, c: `Não existe um exame único que "dê positivo" para ELA — o diagnóstico é **clínico**, apoiado na **eletroneuromiografia (ENMG)** e na **exclusão** de imitadores. A lógica dos critérios (El Escorial / Gold Coast) é mostrar **degeneração de NMS e de NMI em vários territórios corporais** (bulbar, cervical, torácico, lombossacral), progressiva, sem outra explicação.
+
+- **ENMG (o exame-chave):** procura sinais de **desnervação e reinervação** (fibrilações, ondas positivas, fasciculações, unidades motoras grandes) em músculos de regiões diferentes — inclusive em músculos que ainda parecem clinicamente normais. É como flagrar o "músico" morrendo em vários setores da orquestra. A **condução sensitiva é normal** (confirma que a sensibilidade está poupada) e não há **bloqueio de condução motora** (o que ajuda a separar da neuropatia motora multifocal, ver seção 6).
+- **RM de encéfalo e coluna cervical:** serve principalmente para **excluir** compressão que imite o quadro (ver seção 6).
+- **Exames de sangue:** para afastar imitadores tratáveis (hormônios tireoidianos, B12, sorologias, anti-GM1, anticorpos etc.).
+
+Repare na filosofia: em ELA, os exames servem menos para "confirmar" e mais para **provar que não é outra coisa**. Por isso o diagnóstico é dito "por exclusão qualificada".`},
+  {h: `6. Os imitadores que você NÃO pode perder (porque têm tratamento)`, c: `Esta seção é onde a prova é mais cruel — e onde mais se perde ponto. Vários quadros imitam ELA, mas são **tratáveis**. Chamar um deles de ELA é sentenciar o paciente. Os principais:
+
+- **Mielopatia cervical espondilótica:** a compressão da medula cervical dá sinais de **NMS abaixo** (pernas espásticas, hiperreflexia) e sinais de **NMI no nível da compressão** (mãos atróficas) — parece ELA! A diferença: costuma haver **dor cervical, nível sensitivo e/ou alteração esfincteriana**, e a **RM de coluna** mostra a compressão. Por isso RM cervical é quase obrigatória.
+- **Neuropatia motora multifocal com bloqueio de condução (NMMBC):** dá fraqueza e atrofia (NMI puro) SEM sinais de NMS, é assimétrica e **lentamente progressiva**; a ENMG mostra **bloqueio de condução** e há **anti-GM1**. É importantíssima porque **responde a imunoglobulina**. ELA não tem bloqueio de condução.
+- **Miastenia gravis / síndromes de junção:** dão fraqueza flutuante e fatigável, com **ptose/diplopia** — território que a ELA poupa. (Ver o módulo "Miastenia / JNM".)
+- **Deficiências e endocrinopatias:** hipertireoidismo, deficiência de B12 (que dá degeneração combinada com NMS + sensitivo), intoxicações — tudo entra no diferencial de fasciculação/hiperreflexia.
+- **Atrofia muscular espinhal (AMS 5q):** doença do **NMI puro** de origem genética (gene **SMN1**), típica de crianças/jovens, hoje com tratamento modificador (ver a lógica no cap. 109 do Tratado).
+
+A regra prática: **NMI puro** (sem NMS) obriga a caçar NMMBC e AMS; **NMS + sensitivo** obriga a pensar em mielopatia/B12; **fatigabilidade com sintoma ocular** obriga a pensar em miastenia.`},
+  {h: `7. Tratamento e cuidado: o que muda a vida do paciente`, c: `Não há cura, mas há muito o que fazer — e as bancas cobram tanto a droga modificadora quanto o **cuidado de suporte**, que é o que mais impacta sobrevida e qualidade de vida.
+
+- **Riluzol:** antiglutamatérgico oral; **prolonga modestamente a sobrevida** (poucos meses). É o fármaco clássico a lembrar.
+- **Edaravona:** antioxidante que pode retardar a progressão em subgrupos selecionados (disponibilidade variável).
+- **Suporte respiratório — o mais importante para sobrevida:** **ventilação não invasiva (VNI/BiPAP)** quando surge hipoventilação, além de acompanhamento da capacidade vital. É a medida que mais prolonga vida com qualidade.
+- **Suporte nutricional:** diante de disfagia e perda de peso, **gastrostomia (PEG)** para manter aporte calórico e reduzir aspiração.
+- **Equipe multiprofissional:** fonoaudiologia (fala/deglutição), fisioterapia, terapia ocupacional, comunicação alternativa, manejo de sialorreia e de espasticidade, e **cuidados paliativos** com discussão precoce de diretivas.
+
+Mensagem de prova: ELA é doença sem cura, mas o médico tem papel enorme — riluzol prolonga um pouco, mas **VNI e nutrição são o que realmente mudam o desfecho**.`},
+  {h: `8. Algoritmo final de raciocínio`, c: `Junte tudo numa sequência que você pode aplicar em qualquer questão:
+
+1. **Etiquete o exame:** cada achado é de NMS (espástico/hiperreflexia/Babinski) ou de NMI (atrofia/fasciculação/hiporreflexia)?
+2. **Há os DOIS padrões, difusos e progressivos?** Isso aponta fortemente para ELA.
+3. **A sensibilidade e os esfíncteres estão preservados? A musculatura ocular está poupada?** Se sim, reforça ELA; se não, mude o diagnóstico.
+4. **Excluiu o tratável?** RM cervical (mielopatia), ENMG com pesquisa de bloqueio de condução (NMMBC), B12/tireoide, anticorpos.
+5. **Confirmou desnervação difusa na ENMG, sem outra causa?** Diagnóstico de ELA.
+6. **Instale o cuidado:** riluzol + VNI + suporte nutricional (PEG) + equipe multi + paliativo.
+
+Se você seguir esses seis passos, os distratores clássicos (perda sensitiva, sintoma ocular, bloqueio de condução, compressão na RM) deixam de te enganar.`}
+ ],
+ flashcards: [
+  {p: `Qual o achado que praticamente define a ELA ao exame?`, r: `Coexistência de sinais de neurônio motor SUPERIOR (espasticidade, hiperreflexia, Babinski) e INFERIOR (atrofia, fasciculação, hiporreflexia), difusos e progressivos, SEM déficit sensitivo.`},
+  {p: `Que funções a ELA classicamente POUPA?`, r: `Sensibilidade, esfíncteres (continência), musculatura ocular e, em geral, cognição clássica (há sobreposição com demência frontotemporal).`},
+  {p: `Sinais de NMS?`, r: `Espasticidade, hiperreflexia, clônus e sinal de Babinski (fraqueza sem atrofia relevante).`},
+  {p: `Sinais de NMI?`, r: `Hipotonia/flacidez, hiporreflexia/arreflexia, atrofia e fasciculações.`},
+  {p: `O que significa início "bulbar" na ELA?`, r: `Começo por disartria e disfagia, com língua atrófica e fasciculante; pode vir com síndrome pseudobulbar (labilidade emocional).`},
+  {p: `Qual imitador TRATÁVEL de ELA é preciso excluir com RM cervical?`, r: `Mielopatia cervical espondilótica (compressão dá NMS nas pernas + NMI nas mãos, mas com dor/nível sensitivo/esfíncter).`},
+  {p: `Qual imitador se distingue por bloqueio de condução e anti-GM1, e responde a imunoglobulina?`, r: `Neuropatia motora multifocal com bloqueio de condução (NMMBC) — NMI puro, sem sinais de NMS.`},
+  {p: `Qual fármaco modifica (modestamente) a sobrevida na ELA?`, r: `Riluzol (antiglutamatérgico). Edaravona pode ajudar em subgrupos.`},
+  {p: `Quais medidas de suporte mais impactam sobrevida/qualidade de vida?`, r: `Ventilação não invasiva (BiPAP) e suporte nutricional (gastrostomia/PEG), além da equipe multiprofissional e paliativos.`},
+  {p: `Genes clássicos da ELA familiar?`, r: `SOD1 e a expansão de C9orf72 (esta liga ELA à demência frontotemporal).`}
+ ],
+ pegadinhas: [
+  `Perda sensitiva objetiva praticamente EXCLUI ELA — pense em mielopatia, B12 ou neuropatia.`,
+  `Retenção urinária/incontinência não é da ELA — reforça compressão medular ou outra causa.`,
+  `Fraqueza com ptose/diplopia (musculatura ocular) aponta para miastenia, não ELA.`,
+  `NMI puro, assimétrico, com bloqueio de condução e anti-GM1 = NMMBC (tratável com Ig), não ELA.`,
+  `Mão atrófica (NMI) com reflexos vivos e Babinski (NMS) NO MESMO membro é altamente sugestivo de ELA.`,
+  `RM cervical "obrigatória" para não confundir ELA com espondilose compressiva.`,
+  `Riluzol prolonga pouco; quem realmente muda desfecho é VNI + nutrição (PEG).`,
+  `C9orf72 conecta ELA e demência frontotemporal — família com ELA + demência precoce.`
+ ],
+ diretrizes: [
+  `Tratado de Neurologia da ABN (3ª ed., 2025), cap. 108 — Esclerose Lateral Amiotrófica; cap. 109 — Atrofia Muscular Espinhal 5q; cap. 206 — Doença do Neurônio Motor.`,
+  `Merritt, Neurologia (13ª ed.), Seção 12 — Doenças Neuromusculares (Doenças do Neurônio Motor).`,
+  `Adams & Victor, Principles of Neurology (12ª ed., 2023) — Motor Neuron Diseases; Sanvito — semiologia do primeiro e segundo neurônio motor.`
+ ],
+ questoes: [
+  {enunciado: `Homem de 62 anos com atrofia e fasciculações progressivas na mão direita, que ao exame apresenta hiperreflexia e sinal de Babinski nesse mesmo membro; sensibilidade normal, esfíncteres preservados, sem alteração ocular. Qual o diagnóstico mais provável?`, alternativas: {a: `Esclerose lateral amiotrófica`, b: `Síndrome do túnel do carpo`, c: `Miastenia gravis`, d: `Neuropatia diabética`}, correta: "a", comentario: `A coexistência de sinais de neurônio motor inferior (atrofia + fasciculação) e superior (hiperreflexia + Babinski) NO MESMO membro, de forma progressiva e com sensibilidade/esfíncteres/olhos poupados, é a assinatura da ELA. Túnel do carpo dá déficit sensitivo no território do mediano e não causa Babinski. Miastenia dá fraqueza fatigável com sintomas oculares (ptose/diplopia), sem atrofia/fasciculação nem sinais de NMS. Neuropatia diabética é sensitivo-motora distal com dor/parestesia, sem sinais de NMS. Regra de ouro: NMS + NMI juntos, sem sensitivo, pensar ELA.`, foco: `Reconhecer o padrão NMS+NMI (ponto central do erro)`},
+  {enunciado: `Em um paciente com suspeita de ELA, qual achado no enunciado mais fortemente FALA CONTRA o diagnóstico?`, alternativas: {a: `Fasciculações difusas`, b: `Nível sensitivo com retenção urinária`, c: `Disartria e disfagia`, d: `Hiperreflexia global`}, correta: "b", comentario: `A ELA poupa sensibilidade e esfíncteres. Um nível sensitivo com retenção urinária aponta para lesão medular compressiva (mielopatia) e deve desviar o raciocínio para RM de coluna — é justamente o imitador tratável mais importante. Fasciculações difusas (NMI), disartria/disfagia (início bulbar) e hiperreflexia global (NMS) são compatíveis com ELA. Este é o distrator clássico que "afunda" a ELA: presença de sinal sensitivo/esfincteriano proeminente.`, foco: `O que a ELA poupa (distrator clássico)`},
+  {enunciado: `Paciente com fraqueza e atrofia assimétricas, SEM sinais de neurônio motor superior; a eletroneuromiografia mostra bloqueio de condução motora e há anticorpo anti-GM1. Qual a importância de reconhecer este quadro?`, alternativas: {a: `É ELA em fase inicial, sem tratamento`, b: `É neuropatia motora multifocal, que responde a imunoglobulina`, c: `É esclerose múltipla`, d: `É distrofia muscular`}, correta: "b", comentario: `O quadro é de neuropatia motora multifocal com bloqueio de condução (NMMBC): NMI puro (sem NMS), assimétrico, com bloqueio de condução na ENMG e anti-GM1. É crucial porque, ao contrário da ELA, RESPONDE a imunoglobulina intravenosa — chamá-la de ELA priva o paciente de um tratamento eficaz. ELA não cursa com bloqueio de condução. Esclerose múltipla é doença do SNC (desmielinizante central), com sinais e imagem próprios. Distrofia muscular é miopática (fraqueza proximal, CK alta), sem esse padrão. Sempre exclua imitadores tratáveis antes de fechar ELA.`, foco: `Excluir o imitador tratável (ponto de erro)`},
+  {enunciado: `Qual conjunto de medidas tem o maior impacto na sobrevida e na qualidade de vida do paciente com ELA?`, alternativas: {a: `Riluzol isolado`, b: `Corticoide em altas doses`, c: `Ventilação não invasiva e suporte nutricional (gastrostomia)`, d: `Imunoglobulina mensal`}, correta: "c", comentario: `Embora o riluzol (e, em subgrupos, a edaravona) modifique modestamente a sobrevida, o que mais impacta desfecho é o cuidado de suporte: ventilação não invasiva (BiPAP) para a insuficiência respiratória — principal causa de morte — e suporte nutricional com gastrostomia diante de disfagia/perda de peso, além de equipe multiprofissional e cuidados paliativos. Corticoide não tem papel na ELA. Imunoglobulina trata NMMBC, não ELA. Riluzol isolado ajuda pouco sem o suporte respiratório e nutricional.`, foco: `Cuidado de suporte que muda desfecho`}
+ ]
+},
+
+"NEURO|Miastenia / JNM": {
+ titulo: `Miastenia gravis e as doenças da junção neuromuscular`,
+ half: `NEURO`,
+ resumo: `A junção neuromuscular (JNM) é o "plugue" entre o nervo e o músculo. Quando esse plugue falha, surge uma fraqueza com uma marca inconfundível: ela PIORA com o uso e MELHORA com o repouso (é "fatigável"). Este texto reconstrói o tema do zero — como o impulso passa do nervo para o músculo, por que a miastenia gravis, a síndrome de Lambert-Eaton e o botulismo atacam pontos diferentes desse plugue, como diferenciá-los, e por que a crise miastênica é uma emergência que se maneja pela respiração, não pela força do braço.`,
+ fontes: `Base: Tratado de Neurologia da ABN 3ª ed. (cap. 110 — Miastenia Grave Adquirida; cap. 111 — Síndrome Miastênica de Lambert-Eaton e Síndromes Miastênicas Congênitas), Merritt 13ª ed. (Seção 12 — Doenças Neuromusculares / Distúrbios da Transmissão Neuromuscular), Adams & Victor 12ª ed. (Myasthenia Gravis and Related Disorders) e Sanvito (semiologia da fadiga e da ptose). Ver materiais_neuro.md.`,
+ notaErro: `As doenças da junção neuromuscular caem sempre pelo mesmo eixo: reconhecer a **fraqueza fatigável** e saber SEPARAR os três protagonistas (miastenia gravis, Lambert-Eaton e botulismo). O erro nasce de tratar "fraqueza" como um bloco só, sem prestar atenção ao PADRÃO temporal e à direção da fadiga.
+
+Três armadilhas explicam a maioria das quedas:
+
+- **Não valorizar a fatigabilidade.** A dica de ouro da miastenia é: piora ao longo do dia e com esforço repetido, melhora com repouso. Se você lê "ptose que piora à noite" ou "diplopia após ler" e não pensa em JNM, erra na largada (seção 3).
+- **Trocar miastenia por Lambert-Eaton.** São quase espelhos: na miastenia a força PIORA com o uso e há sintoma ocular no início; no Lambert-Eaton a força MELHORA transitoriamente com o exercício, começa por fraqueza proximal de pernas, há disautonomia e forte ligação com câncer de pulmão (seção 6). Confundir os dois é o distrator clássico.
+- **Subestimar a crise e usar a droga errada.** Na crise miastênica o que mata é a falência respiratória — o manejo é via aérea + imunoglobulina/plasmaférese, NÃO "aumentar a força do braço". E há fármacos que PIORAM a miastenia (aminoglicosídeos, etc.) que a banca coloca como pegadinha (seção 5 e 7).
+
+**Como zerar o erro:** diante de qualquer fraqueza, pergunte — (1) ela é FATIGÁVEL (piora com uso, melhora com repouso)? (2) o padrão é ocular/bulbar descendente (miastenia) ou proximal com melhora ao exercício e disautonomia (Lambert-Eaton) ou descendente com pupila fixa e midríase (botulismo)? (3) se há dispneia/disfagia, é crise — trate a respiração primeiro. As questões ao final batem nesses três pontos.`,
+ secoes: [
+  {h: `1. Comece pelo começo: o que é a junção neuromuscular`, c: `Imagine o nervo motor chegando ao músculo como um fio elétrico que precisa "saltar" uma pequena fenda para acender a lâmpada (o músculo). Esse ponto de contato é a **junção neuromuscular (JNM)**, e o salto é feito por um mensageiro químico: a **acetilcolina (ACh)**.
+
+O processo, em câmera lenta:
+1. O impulso elétrico chega ao terminal do nervo e abre **canais de cálcio voltagem-dependentes**. O cálcio entra.
+2. A entrada de cálcio faz o terminal **liberar acetilcolina** na fenda.
+3. A acetilcolina atravessa e se liga aos **receptores de acetilcolina (AChR)** na membrana do músculo.
+4. Isso despolariza o músculo e gera a contração.
+5. A enzima **acetilcolinesterase** degrada a ACh, "desligando" o sinal.
+
+Repare que há três lugares onde esse plugue pode falhar, e cada doença ataca um deles: o **receptor do lado do músculo** (miastenia gravis), o **canal de cálcio do lado do nervo** (Lambert-Eaton) e a **liberação de acetilcolina** (botulismo). Entender esses três pontos é entender o tema inteiro.`},
+  {h: `2. A marca registrada: fraqueza FATIGÁVEL`, c: `A JNM tem uma característica que quase nenhuma outra estrutura tem: ela **cansa**. Se o nervo dispara muitas vezes seguidas, a oferta de acetilcolina vai diminuindo; num plugue já defeituoso, isso faz a força **despencar com o uso repetido** e **voltar com o repouso**.
+
+Traduzindo para o paciente: a pálpebra cai mais **no fim do dia**; a visão duplica **depois de ler ou dirigir** um tempo; a voz vai ficando **anasalada durante a conversa**; a mastigação cansa **no meio da refeição**. Ao exame, você reproduz isso pedindo esforço sustentado (olhar para cima por um minuto faz a ptose surgir; contar em voz alta faz a voz "morrer").
+
+Essa **fatigabilidade** é o fio que amarra todo o assunto. Fraqueza que piora com o uso e melhora com o descanso = pense em junção neuromuscular até prova em contrário. É também o que distingue a JNM da fraqueza do músculo (miopatia, que é constante) e do neurônio (que vem com atrofia/reflexos alterados).`},
+  {h: `3. Miastenia gravis: quando o problema é o receptor`, c: `A **miastenia gravis (MG)** é uma doença **autoimune**: o corpo produz **anticorpos contra o receptor de acetilcolina (anti-AChR)** — e, numa parcela dos "soronegativos", contra a proteína **MuSK**. Esses anticorpos bloqueiam e destroem os receptores, reduzindo o número de "tomadas" disponíveis no músculo. Resultado: com o uso, a acetilcolina disponível não é suficiente, e a força cai (fatigabilidade).
+
+Quem é o paciente típico? Há dois picos: **mulheres jovens (20-30 anos)** e **homens mais velhos (60-70 anos)**. A MG tem forte ligação com o **timo**: muitos têm **hiperplasia tímica** e cerca de 10-15% têm **timoma** (tumor do timo) — por isso todo miastênico precisa de **TC/RM de tórax**.
+
+Apresentação clínica, tipicamente **descendente** (de cima para baixo):
+- **Ocular (o início mais comum):** **ptose** (pálpebra caída) e **diplopia** (visão dupla), flutuantes. Muitos começam só com sintoma ocular ("miastenia ocular").
+- **Bulbar:** disartria, voz anasalada, disfagia, dificuldade de mastigar, fraqueza da mímica facial.
+- **Membros e respiração:** fraqueza proximal fatigável; nos casos graves, a musculatura respiratória (o que leva à crise).
+
+Ponto importantíssimo de prova: a MG **NÃO altera a pupila** e **NÃO dá alteração sensitiva** — poupa esfíncteres, reflexos e sensibilidade. Se a questão traz pupila dilatada e fixa, pense em botulismo, não MG.`},
+  {h: `4. Como se confirma a miastenia`, c: `O diagnóstico junta clínica fatigável + testes:
+
+- **Anticorpos:** **anti-AChR** (mais específico, positivo na maioria da MG generalizada); se negativo, pesquisar **anti-MuSK**.
+- **Eletroneuromiografia:** a **estimulação repetitiva** mostra **decremento** (a resposta muscular vai diminuindo com estímulos repetidos — a "fadiga" registrada no aparelho). A **fibra única** é o teste mais sensível (aumento do "jitter").
+- **Testes de cabeceira:** teste do **gelo** (aplicar gelo na pálpebra por ~2 min melhora a ptose, porque o frio inibe a acetilcolinesterase) e o teste com **edrofônio/anticolinesterásico** (melhora transitória).
+- **Imagem de tórax (TC/RM):** obrigatória para procurar **timoma/hiperplasia tímica**.
+
+A lógica: você prova que existe um bloqueio na transmissão (decremento/jitter), que ele é autoimune (anticorpos) e procura a fonte no timo (imagem).`},
+  {h: `5. Tratamento da miastenia e a crise miastênica`, c: `O tratamento tem duas frentes: **aliviar o sintoma** e **modular a autoimunidade**.
+
+- **Sintomático:** **piridostigmina** (inibe a acetilcolinesterase → mais acetilcolina disponível na fenda). Melhora a força, mas não trata a causa.
+- **Imunossupressão:** **corticoide** e poupadores (azatioprina, micofenolato); em casos refratários, rituximabe e outros.
+- **Timectomia:** indicada no **timoma** (sempre) e também beneficia MG generalizada anti-AChR mesmo sem tumor, em pacientes selecionados.
+
+**Crise miastênica** — a emergência do tema: é a **fraqueza respiratória grave** (± bulbar com risco de aspiração), muitas vezes desencadeada por infecção, cirurgia, gravidez ou **fármacos** que pioram a JNM. O manejo NÃO é "dar mais força ao braço"; é:
+1. **Proteger a via aérea e a ventilação** — monitorar capacidade vital/força inspiratória, ter baixo limiar para **VNI ou intubação** (não esperar a saturação despencar).
+2. **Terapia rápida de resgate: imunoglobulina (IVIg) OU plasmaférese** — são as duas opções que revertem a crise em dias.
+3. Tratar o gatilho (infecção) e **revisar medicações** deflagradoras.
+
+Cuidado clássico: na crise, a piridostigmina em excesso pode causar **crise colinérgica** (excesso de acetilcolina: sialorreia, miose, bradicardia, fasciculações) — outra emergência. Por isso, na crise, o foco é via aérea + IVIg/plasmaférese, e não empilhar anticolinesterásico.`},
+  {h: `6. Lambert-Eaton: o "espelho" da miastenia`, c: `A **síndrome miastênica de Lambert-Eaton (SMLE)** ataca o **outro lado** da fenda: são anticorpos contra os **canais de cálcio voltagem-dependentes** do terminal do nervo (**anti-VGCC**). Sem cálcio entrando, o nervo libera POUCA acetilcolina. É quase o espelho da miastenia — e a banca adora testar as diferenças:
+
+- **Direção da fraqueza:** começa por **fraqueza proximal de membros inferiores** (dificuldade de subir escada, levantar da cadeira). Sintoma ocular é menos proeminente que na MG.
+- **Fenômeno paradoxal:** a força e os reflexos **MELHORAM transitoriamente após exercício** (facilitação) — porque a contração repetida acumula cálcio e libera mais acetilcolina. Reflexos costumam estar **diminuídos em repouso** e melhoram após esforço.
+- **Disautonomia:** boca seca, constipação, disfunção erétil (comum, ajuda a diferenciar da MG).
+- **Associação com câncer:** forte ligação com **carcinoma de pequenas células do pulmão** (é uma síndrome **paraneoplásica** em boa parte dos casos) — sempre rastrear neoplasia, especialmente pulmão em tabagista.
+- **ENMG:** ao contrário da MG, mostra **incremento** da resposta após exercício/estimulação de alta frequência.
+
+Resumo do espelho: **MG piora com o uso e começa nos olhos**; **Lambert-Eaton melhora (um pouco) com o uso, começa nas pernas, tem boca seca e caça câncer de pulmão**.`},
+  {h: `7. Botulismo e o diferencial da fraqueza descendente`, c: `O **botulismo** é a terceira porta da JNM: a toxina do Clostridium botulinum **bloqueia a liberação de acetilcolina** (impede a exocitose no terminal). O quadro é uma **paralisia flácida descendente aguda** que classicamente começa pelos **nervos cranianos**: visão borrada, **diplopia, ptose, PUPILAS DILATADAS E FIXAS (midríase)**, boca seca, disfagia, disfonia — e depois desce para tronco e membros, podendo chegar à respiração.
+
+O que separa o botulismo da miastenia na prova:
+- **Pupila:** a MG **poupa a pupila**; o botulismo dá **midríase paralítica** (pupila dilatada e fixa) e disautonomia (boca seca, íleo). Esse é o divisor de águas clássico.
+- **Contexto:** alimento conservado/enlatado, mel em lactente (botulismo infantil), ferida contaminada; instalação aguda em horas a dias.
+- **Tratamento:** **antitoxina** o quanto antes + suporte ventilatório.
+
+Ainda no diferencial da fraqueza aguda generalizada, lembre da **síndrome de Guillain-Barré** (paralisia ASCENDENTE, arreflexia, dissociação albumino-citológica no líquor) — que é do nervo periférico, não da JNM, mas entra no mesmo raciocínio de "fraqueza que sobe x que desce".`},
+  {h: `8. Algoritmo final de raciocínio`, c: `Uma sequência para qualquer questão de junção neuromuscular:
+
+1. **A fraqueza é FATIGÁVEL** (piora com uso, melhora com repouso)? Isso te leva à JNM.
+2. **Qual o padrão?**
+   - Ocular/bulbar descendente, pupila normal, piora com uso → **miastenia gravis** (anti-AChR/MuSK, decremento na ENMG, procurar timoma).
+   - Proximal de pernas, melhora após exercício, boca seca/disautonomia → **Lambert-Eaton** (anti-VGCC, incremento na ENMG, rastrear câncer de pulmão).
+   - Descendente aguda com **pupila dilatada e fixa**, contexto alimentar/ferida → **botulismo** (antitoxina).
+3. **Há dispneia/disfagia/queda de capacidade vital?** É **crise** — trate a via aérea primeiro; IVIg ou plasmaférese na crise miastênica; antitoxina no botulismo.
+4. **Revise fármacos deflagradores** (aminoglicosídeos, fluoroquinolonas, betabloqueadores, magnésio) que pioram a JNM.
+
+Com esses passos, os três protagonistas param de se confundir e a crise deixa de ser subestimada.`}
+ ],
+ flashcards: [
+  {p: `Qual a marca clínica da doença de junção neuromuscular?`, r: `Fraqueza FATIGÁVEL: piora com o uso/ao longo do dia e melhora com o repouso.`},
+  {p: `Contra o que são os anticorpos na miastenia gravis?`, r: `Contra o receptor de acetilcolina (anti-AChR); nos soronegativos, contra MuSK.`},
+  {p: `Como a miastenia costuma começar e em que direção progride?`, r: `Começa ocular (ptose/diplopia) e progride de forma descendente (bulbar → membros → respiração). Poupa pupila e sensibilidade.`},
+  {p: `Que exame de imagem é obrigatório na miastenia e por quê?`, r: `TC/RM de tórax, para procurar timoma/hiperplasia tímica.`},
+  {p: `Qual o achado da estimulação repetitiva na miastenia?`, r: `Decremento da resposta muscular (na Lambert-Eaton é o oposto: incremento).`},
+  {p: `Tratamento sintomático da miastenia?`, r: `Piridostigmina (anticolinesterásico); a causa se trata com corticoide/imunossupressores e timectomia quando indicada.`},
+  {p: `Como se maneja a crise miastênica?`, r: `Suporte ventilatório (VNI/intubação, monitorar capacidade vital) + IVIg OU plasmaférese; tratar o gatilho e revisar fármacos.`},
+  {p: `Como diferenciar Lambert-Eaton da miastenia?`, r: `Lambert-Eaton: fraqueza proximal de pernas, MELHORA transitória com exercício, disautonomia (boca seca) e associação com câncer de pulmão (anti-VGCC, incremento na ENMG).`},
+  {p: `Que sinal separa o botulismo da miastenia?`, r: `Botulismo dá midríase (pupila dilatada e FIXA) e disautonomia; a miastenia POUPA a pupila.`},
+  {p: `Qual a diferença de direção entre botulismo e Guillain-Barré?`, r: `Botulismo é paralisia DESCENDENTE (crânio → pés); Guillain-Barré é ASCENDENTE (pés → cima), com arreflexia.`}
+ ],
+ pegadinhas: [
+  `Miastenia POUPA a pupila; se há pupila dilatada e fixa, pense em botulismo.`,
+  `Fraqueza que MELHORA com o exercício (e não piora) sugere Lambert-Eaton, não miastenia.`,
+  `Todo miastênico precisa de imagem de tórax — timoma muda a conduta (timectomia).`,
+  `Na crise miastênica, o foco é via aérea + IVIg/plasmaférese; empilhar piridostigmina pode causar crise colinérgica (miose, sialorreia, bradicardia).`,
+  `Aminoglicosídeos, fluoroquinolonas, betabloqueadores e magnésio pioram a miastenia — pegadinha frequente de deflagrador de crise.`,
+  `Lambert-Eaton é paraneoplásica: rastrear carcinoma de pequenas células do pulmão, sobretudo em tabagista.`,
+  `Fadiga fatigável sem atrofia e com reflexos/sensibilidade normais aponta para JNM, não para neurônio ou músculo.`,
+  `Miastenia ocular pura pode ser o único quadro por meses — não descarte só porque não há fraqueza de membros.`
+ ],
+ diretrizes: [
+  `Tratado de Neurologia da ABN (3ª ed., 2025), cap. 110 — Miastenia Grave Adquirida; cap. 111 — Síndrome Miastênica de Lambert-Eaton e Síndromes Miastênicas Congênitas.`,
+  `Merritt, Neurologia (13ª ed.), Seção 12 — Doenças Neuromusculares (Distúrbios da Transmissão Neuromuscular).`,
+  `Adams & Victor, Principles of Neurology (12ª ed., 2023) — Myasthenia Gravis and Related Disorders; Sanvito — semiologia da fadiga e da ptose.`
+ ],
+ questoes: [
+  {enunciado: `Mulher de 28 anos com ptose e diplopia que pioram no fim do dia e após leitura prolongada, além de voz anasalada durante conversas longas. Pupilas normais, sensibilidade preservada. Qual a principal hipótese?`, alternativas: {a: `Miastenia gravis`, b: `Botulismo`, c: `Esclerose lateral amiotrófica`, d: `Neuropatia diabética`}, correta: "a", comentario: `Fraqueza ocular e bulbar FATIGÁVEL (piora com o uso e ao longo do dia), com pupilas normais e sensibilidade preservada, em mulher jovem, é o quadro clássico da miastenia gravis. O botulismo cursaria com midríase (pupila dilatada e fixa) e disautonomia, em contexto agudo/alimentar. A ELA dá sinais de neurônio motor superior e inferior (atrofia, fasciculação, hiperreflexia), sem o padrão fatigável nem sintoma ocular. Neuropatia diabética é sensitivo-motora distal, com dor/parestesia. Confirmar com anti-AChR, estimulação repetitiva (decremento) e TC de tórax (timoma).`, foco: `Reconhecer a fraqueza fatigável (ponto de erro)`},
+  {enunciado: `Homem de 63 anos, tabagista, com fraqueza proximal de membros inferiores, boca seca e reflexos diminuídos que MELHORAM após breve exercício. Qual o diagnóstico e a associação mais importante a investigar?`, alternativas: {a: `Miastenia gravis / timoma`, b: `Síndrome de Lambert-Eaton / câncer de pulmão de pequenas células`, c: `Guillain-Barré / infecção prévia`, d: `Polimiosite / neoplasia de mama`}, correta: "b", comentario: `Fraqueza proximal de pernas, disautonomia (boca seca) e facilitação (força/reflexos melhoram após exercício) definem a síndrome de Lambert-Eaton, por anticorpos anti-canal de cálcio (VGCC). É frequentemente paraneoplásica, com forte associação ao carcinoma de pequenas células do pulmão — obrigatório rastrear, sobretudo em tabagista. A miastenia é quase o espelho (piora com o uso, começa nos olhos, ligada ao timoma). Guillain-Barré é paralisia ascendente arreflexa aguda. Polimiosite é miopatia inflamatória (fraqueza proximal com CK alta), sem a facilitação nem a disautonomia.`, foco: `Miastenia x Lambert-Eaton (distrator clássico)`},
+  {enunciado: `Paciente miastênico interna com dispneia progressiva, disfagia e queda da capacidade vital após um quadro infeccioso. Qual a conduta prioritária?`, alternativas: {a: `Aumentar a dose de piridostigmina e observar`, b: `Garantir via aérea/ventilação e iniciar imunoglobulina ou plasmaférese`, c: `Iniciar aminoglicosídeo para a infecção`, d: `Corticoide oral em dose baixa ambulatorial`}, correta: "b", comentario: `Trata-se de crise miastênica: a prioridade é a via aérea e a ventilação (monitorar capacidade vital/força inspiratória, baixo limiar para VNI/intubação) associada à terapia de resgate com imunoglobulina IV ou plasmaférese, que revertem a crise em dias. Aumentar piridostigmina em excesso pode precipitar crise colinérgica (miose, sialorreia, bradicardia) e não protege a respiração. Aminoglicosídeos PIORAM a transmissão neuromuscular e podem agravar a crise. Corticoide ambulatorial em dose baixa é insuficiente para uma emergência respiratória (e altas doses podem piorar transitoriamente antes de melhorar). O gatilho infeccioso deve ser tratado com antibiótico seguro.`, foco: `Manejo da crise (respiração primeiro)`},
+  {enunciado: `Lactente de 3 meses com constipação, hipotonia, choro fraco, ptose e pupilas midriáticas pouco reativas, após ter recebido mel. Qual o mecanismo da doença?`, alternativas: {a: `Anticorpo contra o receptor de acetilcolina`, b: `Bloqueio da liberação de acetilcolina pela toxina botulínica`, c: `Desmielinização de raízes nervosas`, d: `Degeneração do corno anterior`}, correta: "b", comentario: `O quadro é de botulismo infantil (associação clássica com mel): a toxina bloqueia a LIBERAÇÃO de acetilcolina no terminal pré-sináptico, causando paralisia flácida descendente, disautonomia e, tipicamente, midríase com pupilas pouco reativas — o oposto da miastenia, que poupa a pupila. O tratamento é antitoxina (imunoglobulina botulínica específica no lactente) e suporte. Anticorpo anti-AChR é a miastenia. Desmielinização de raízes é Guillain-Barré (ascendente). Degeneração do corno anterior é a atrofia muscular espinhal/doença do neurônio motor. Pupila fixa e dilatada é a pista que separa botulismo de miastenia.`, foco: `Botulismo x miastenia (pupila)`}
+ ]
+},
+
+"PED|Emergências / trauma": {
+ titulo: `Emergências pediátricas: da criança grave à asma, anafilaxia e choque`,
+ half: `PED`,
+ resumo: `Emergência em pediatria se ganha ou se perde nos primeiros minutos — e quase sempre pela mesma porta: reconhecer rápido a criança grave e agir na sequência certa (A-B-C). Este texto reconstrói o tema do zero: como olhar para uma criança e dizer em segundos se ela está compensada ou entrando em falência; e depois desce nos três cenários que mais caem — crise de asma, anafilaxia e choque/desidratação — sempre explicando o PORQUÊ de cada droga e de cada via.`,
+ fontes: `Base: diretrizes da Sociedade Brasileira de Pediatria (SBP) e do Ministério da Saúde; protocolos de suporte de vida pediátrico (PALS/ILCOR); Diretrizes de Asma (GINA / SBP-SBPT); protocolo de Anafilaxia (WAO/ASBAI); manejo de choque e desidratação (OMS/SBP). Material de apoio do Drive: "Choque em Pediatria" e "Reanimação Neonatal e PCR" (ver materiais_drive.md).`,
+ notaErro: `Emergência pediátrica é o terreno onde o erro custa mais caro — e, nas provas, o erro vem quase sempre de **quebrar a ordem A-B-C** ou de **errar a via/dose da droga de resgate**. Este texto foi montado para blindar exatamente esses pontos.
+
+Três armadilhas explicam a maioria das quedas:
+
+- **Pular o reconhecimento e ir direto na doença.** A banca descreve uma criança "gemente, sonolenta, com tempo de enchimento capilar lento" e você corre para o diagnóstico exótico, quando o que salva é reconhecer FALÊNCIA e iniciar A-B-C (seção 2). Primeiro estabiliza, depois investiga.
+- **Errar a droga de resgate.** Na anafilaxia, a resposta é **adrenalina INTRAMUSCULAR na coxa** — não anti-histamínico, não corticoide, não adrenalina venosa de rotina. Trocar isso é o erro clássico que "mata" a questão (seção 4).
+- **Confundir os líquidos e as vias no choque/desidratação.** Reidratação leve/moderada é **oral (TRO)**; choque/desidratação grave é **cristaloide isotônico EV em bolus rápido**. Escolher soro hipotônico ou volume errado derruba a questão (seção 5).
+
+**Como zerar o erro:** em qualquer emergência, siga SEMPRE a mesma linha — (1) a criança está compensada ou em falência? (avaliação rápida: aparência, respiração, circulação); (2) A-B-C na ordem, corrigindo o que achar; (3) a droga/fluido de resgate certo, na via certa, na dose por peso. Quem não pula etapas não erra o essencial. As questões ao final batem nesses três pontos.`,
+ secoes: [
+  {h: `1. Comece pelo começo: por que a criança "engana"`, c: `A criança não é um adulto pequeno. Ela tem uma capacidade impressionante de **compensar** — mantém a pressão arterial quase normal mesmo perdendo muito volume, às custas de **taquicardia** e **vasoconstrição** — e, por isso, parece "bem" até despencar de uma vez. A **hipotensão na criança é sinal TARDIO e grave**: quando a pressão cai, o choque já está descompensado.
+
+Duas consequências práticas disso, que a prova cobra:
+- Não espere a pressão cair para agir. Os sinais precoces são **taquicardia, taquipneia, tempo de enchimento capilar lento (> 2 s), extremidades frias, oligúria e alteração do estado de alerta**.
+- A criança compensa até um ponto e então entra em **falência rápida** (respiratória e/ou circulatória). O objetivo do socorrista é intervir na fase compensada.
+
+Além disso, na criança a **causa mais comum de parada é respiratória/hipóxica** (não a arritmia primária do adulto). Ou seja: se você cuidar bem da via aérea e da respiração, previne a maioria das paradas. Por isso o A-B-C começa justamente por aí.`},
+  {h: `2. O reconhecimento rápido: o Triângulo de Avaliação Pediátrica e o A-B-C`, c: `Antes de qualquer exame, existe uma avaliação que se faz **só de olhar e ouvir**, em segundos — o **Triângulo de Avaliação Pediátrica (TAP)**, com três lados:
+- **Aparência:** a criança está ativa, olha, interage, tem tônus e choro forte? Ou está hipotônica, sonolenta, "largada", com olhar vago? (reflete perfusão/oxigenação cerebral).
+- **Respiração:** há esforço (batimento de asa de nariz, tiragem, retrações), sons anormais (estridor, sibilo, gemido), posição de tripé?
+- **Circulação da pele:** cor normal, ou palidez/moteamento/cianose?
+
+O TAP não dá o diagnóstico — dá a **gravidade** e o tipo de problema (respiratório, circulatório, ou disfunção do SNC/metabólica). Se qualquer lado está alterado, a criança é "grave" e entra no A-B-C.
+
+O **A-B-C** é a sequência de estabilização:
+- **A (Airway/via aérea):** está pérvia? Posicione, aspire, faça manobras; se não protege, considere via aérea avançada.
+- **B (Breathing/respiração):** avalie frequência, esforço, saturação, ausculta. **Ofereça oxigênio** a toda criança grave; ventile se hipoventila.
+- **C (Circulation/circulação):** frequência cardíaca, pulsos, enchimento capilar, pele, nível de consciência; **acesso vascular** (ou intraósseo se difícil) e reposição quando indicado.
+- **D (Disability):** neurológico rápido (AVDI/pupilas, glicemia — "não esqueça a glicose"); **E (Exposure):** exponha para examinar, controle temperatura.
+
+A regra mental é simples e salva: **primeiro estabiliza (A-B-C), depois diagnostica**.`},
+  {h: `3. Crise de asma: a via aérea que se fecha por broncoespasmo`, c: `Na asma, o problema é **broncoconstrição + inflamação + muco**: as vias aéreas apertam e o ar entra, mas custa a sair (aprisionamento). O sintoma é sibilância, tosse, dispneia e tiragem.
+
+Como medir a gravidade (o que decide a conduta):
+- **Leve/moderada:** fala frases, saturação relativamente preservada, sibilos expiratórios.
+- **Grave:** dificuldade para falar (frases curtas/palavras), taquipneia e tiragem importantes, uso de musculatura acessória, saturação baixa, agitação.
+- **Iminência de parada respiratória (sinais de alarme):** sonolência/confusão, **tórax silencioso** (não se ausculta sibilo porque quase não entra ar — sinal gravíssimo, não de melhora!), cianose, bradicardia.
+
+Tratamento — a lógica é abrir o brônquio e desinflamar:
+- **Oxigênio** para manter saturação adequada.
+- **Beta-2 agonista de curta (salbutamol) inalatório**, repetido/contínuo conforme a gravidade — é o broncodilatador de primeira linha.
+- **Brometo de ipratrópio** associado nas crises moderadas a graves (broncodilatação adicional).
+- **Corticoide sistêmico precoce** (oral se tolera, EV se grave) — reduz a inflamação; não age em minutos, mas muda a evolução.
+- **Sulfato de magnésio EV** na crise grave/refratária.
+- Reavaliar sempre; considerar UTI se não responde. Antibiótico NÃO é rotina (asma é broncoespasmo, não infecção bacteriana).
+
+Pegadinha central: **tórax silencioso é gravidade máxima**, não alívio. E "melhora" da sibilância junto com piora do estado geral pode significar que o ar quase parou de passar.`},
+  {h: `4. Anafilaxia: a reação alérgica que vira emergência`, c: `Anafilaxia é uma reação alérgica **sistêmica, aguda e potencialmente fatal**. O reconhecimento é clínico e você não precisa esperar todos os sinais. Pense em anafilaxia quando, após um gatilho (alimento — leite, ovo, amendoim, frutos do mar; picada; medicamento; látex), surge de forma aguda:
+- Envolvimento de **pele/mucosa** (urticária, angioedema, prurido) **+** comprometimento **respiratório** (estridor, sibilo, dispneia) **ou cardiovascular** (hipotensão, síncope, má perfusão); OU
+- **Hipotensão/broncoespasmo/sintomas graves** após exposição a alérgeno conhecido, mesmo sem pele.
+
+O tratamento é onde a prova crava a pegadinha. A **primeira e mais importante droga é a ADRENALINA INTRAMUSCULAR**, aplicada na **face ântero-lateral da coxa (vasto lateral)**, dose 0,01 mg/kg (1:1000), podendo repetir a cada 5-15 min. Por quê IM na coxa? Porque é rápida, segura e atinge nível sérico melhor que a subcutânea; a via **venosa** fica reservada a choque refratário, com monitorização (risco de arritmia).
+
+Medidas associadas (NUNCA no lugar da adrenalina):
+- **Deitar com pernas elevadas** (não sentar/levantar bruscamente — risco de colapso), oxigênio.
+- **Cristaloide EV** se hipotensão/má perfusão.
+- **Broncodilatador** se broncoespasmo.
+- **Anti-histamínico e corticoide são adjuvantes** — aliviam pele/urticária e talvez reduzam reação bifásica, mas **não salvam a via aérea nem revertem o choque**; jamais são a primeira medida.
+- Observar por horas pela possibilidade de **reação bifásica**; prescrever **autoinjetor de adrenalina** e encaminhar ao alergista.
+
+Grave isto: diante de anafilaxia, a resposta certa é **adrenalina IM na coxa, já** — anti-histamínico/corticoide isolados é o erro clássico.`},
+  {h: `5. Choque e desidratação: reconhecer e repor certo`, c: `**Choque** é a incapacidade de entregar oxigênio suficiente aos tecidos. Na criança, o mais comum é o **choque hipovolêmico** (desidratação por diarreia/vômitos — causa líder no mundo — ou hemorragia), seguido do **distributivo** (séptico, anafilático) e outros. Lembre da seção 1: a pressão cai TARDE; use os sinais precoces (taquicardia, enchimento capilar lento, extremidades frias, oligúria, alteração do sensório).
+
+Avaliação da **desidratação** (guia a via de reposição):
+- **Sem/leve:** criança ativa, mucosas úmidas, bebe normal — hidratação **oral**.
+- **Moderada:** irritada/sedenta, olhos fundos, mucosas secas, turgor lentificado, bebe avidamente — **Terapia de Reidratação Oral (TRO)** supervisionada é a primeira escolha (Plano B).
+- **Grave/choque:** letargia, incapaz de beber, pulso fino, enchimento capilar muito lento, hipotensão (tardia) — **reidratação venosa rápida** (Plano C).
+
+Como repor (a lógica dos fluidos):
+- **Reidratação oral (TRO):** solução de reidratação oral (baixa osmolaridade) repõe água e eletrólitos aproveitando o cotransporte sódio-glicose no intestino; resolve a maioria das desidratações e evita internação.
+- **Choque/desidratação grave:** **bolus de cristaloide ISOTÔNICO** (soro fisiológico 0,9% ou Ringer lactato), **20 mL/kg em infusão rápida**, reavaliando após cada bolus (perfusão, FC, sensório, diurese); repetir conforme resposta. Nunca usar soro **hipotônico** para expandir — piora a hiponatremia e não expande o intravascular.
+- Depois de estabilizar, **procurar e tratar a causa** (infecção no choque séptico → antibiótico precoce + culturas; hemorragia → controle do sangramento; anafilaxia → adrenalina).
+- **Corrigir glicemia** (criança desidratada/grave faz hipoglicemia com facilidade) e vigiar eletrólitos.
+
+Mensagem de prova: **oral quando dá, venoso quando é grave**; e no venoso, **cristaloide isotônico em bolus**, reavaliando sempre.`},
+  {h: `6. Algoritmo final de raciocínio`, c: `Uma sequência única para qualquer emergência pediátrica:
+
+1. **Olhe o Triângulo (aparência, respiração, pele):** compensada ou em falência?
+2. **A-B-C-D-E na ordem:** via aérea, respiração (O2 sempre), circulação (acesso + reavaliar), déficit neurológico (não esqueça a glicose), exposição/temperatura.
+3. **Encaixe o cenário e a droga/fluido de resgate:**
+   - **Asma:** O2 + salbutamol (± ipratrópio) + corticoide sistêmico precoce (± magnésio na grave). Tórax silencioso = gravíssimo.
+   - **Anafilaxia:** ADRENALINA IM na coxa JÁ + deitar/pernas elevadas + O2 + cristaloide se hipotensão. Anti-histamínico/corticoide são adjuvantes.
+   - **Choque/desidratação:** oral (TRO) se leve/moderada; cristaloide isotônico 20 mL/kg em bolus se grave, reavaliando; tratar a causa; corrigir glicose.
+4. **Reavalie após cada intervenção** e escale o cuidado (UTI) se não responde.
+
+Se você nunca pula o passo 1 e 2, e acerta a via/dose no passo 3, resolve a imensa maioria das questões de emergência pediátrica.`}
+ ],
+ flashcards: [
+  {p: `Por que a criança "engana" no choque?`, r: `Ela compensa muito (taquicardia, vasoconstrição) e mantém a PA quase normal; hipotensão é sinal TARDIO e grave (choque já descompensado).`},
+  {p: `Quais os três lados do Triângulo de Avaliação Pediátrica?`, r: `Aparência, Respiração (trabalho respiratório) e Circulação da pele.`},
+  {p: `Qual a causa mais comum de parada na criança?`, r: `Respiratória/hipóxica (por isso o foco em via aérea e ventilação previne a maioria das paradas).`},
+  {p: `Primeira linha na crise de asma?`, r: `Oxigênio + beta-2 de curta inalatório (salbutamol), corticoide sistêmico precoce; ipratrópio e magnésio conforme gravidade.`},
+  {p: `O que significa "tórax silencioso" na asma?`, r: `Gravidade máxima (quase não entra ar) — sinal de iminência de parada, NÃO de melhora.`},
+  {p: `Qual a primeira droga da anafilaxia, via e local?`, r: `Adrenalina INTRAMUSCULAR na face ântero-lateral da coxa (vasto lateral), 0,01 mg/kg 1:1000, repetível a cada 5-15 min.`},
+  {p: `Anti-histamínico e corticoide na anafilaxia são o quê?`, r: `Adjuvantes — aliviam pele e talvez a reação bifásica, mas NÃO substituem a adrenalina.`},
+  {p: `Via de reidratação na desidratação leve/moderada?`, r: `Oral — Terapia de Reidratação Oral (TRO) com solução de baixa osmolaridade.`},
+  {p: `Reposição no choque/desidratação grave?`, r: `Bolus de cristaloide ISOTÔNICO (SF 0,9% ou Ringer) 20 mL/kg em infusão rápida, reavaliando após cada bolus.`},
+  {p: `O que não esquecer no "D" da avaliação?`, r: `Checar a glicemia (a criança grave/desidratada faz hipoglicemia com facilidade).`}
+ ],
+ pegadinhas: [
+  `Hipotensão na criança é sinal TARDIO — não espere a PA cair para tratar o choque.`,
+  `Tórax silencioso na asma = gravíssimo, não melhora.`,
+  `Anafilaxia: a resposta é adrenalina IM na coxa, JÁ — anti-histamínico/corticoide isolados é erro clássico.`,
+  `Adrenalina na anafilaxia é IM (não subcutânea de rotina, não venosa de rotina).`,
+  `Não use soro hipotônico para expandir no choque — cristaloide isotônico em bolus.`,
+  `Antibiótico não é rotina na crise de asma (é broncoespasmo, não pneumonia bacteriana).`,
+  `Primeiro estabiliza (A-B-C), depois diagnostica — não inverta a ordem.`,
+  `Na anafilaxia, deitar com pernas elevadas; sentar/levantar bruscamente pode precipitar colapso.`
+ ],
+ diretrizes: [
+  `Sociedade Brasileira de Pediatria (SBP) — Suporte avançado de vida em pediatria (PALS/ILCOR); reconhecimento da criança gravemente enferma.`,
+  `GINA / SBP-SBPT — Manejo da crise de asma na criança; WAO/ASBAI — Diretriz de Anafilaxia (adrenalina IM como primeira linha).`,
+  `OMS/Ministério da Saúde/SBP — Manejo da diarreia e desidratação (Planos A/B/C, TRO) e choque em pediatria. Material do Drive: "Choque em Pediatria" e "Reanimação Neonatal e PCR" (ver materiais_drive.md).`
+ ],
+ questoes: [
+  {enunciado: `Criança de 4 anos com crise de asma, agora sonolenta, com esforço respiratório intenso e ausculta pulmonar praticamente sem sibilos ("tórax silencioso"). O que isso indica?`, alternativas: {a: `Melhora do broncoespasmo`, b: `Iminência de parada respiratória`, c: `Pneumotórax resolvido`, d: `Efeito esperado do salbutamol`}, correta: "b", comentario: `O "tórax silencioso" significa que quase não há fluxo de ar para gerar o som do sibilo — é sinal de gravidade máxima e iminência de parada respiratória, ainda mais associado a sonolência (hipercapnia) e esforço intenso. NÃO é melhora: paradoxalmente, o sibilo pode "sumir" quando o quadro piora. A conduta é oxigênio, broncodilatador contínuo, corticoide sistêmico, considerar sulfato de magnésio e preparar via aérea/UTI. Confundir ausência de sibilo com melhora é o erro clássico que atrasa a intervenção.`, foco: `Sinal de gravidade na asma (pegadinha)`},
+  {enunciado: `Menino de 6 anos, minutos após ingerir amendoim, apresenta urticária, edema de lábios, estridor e hipotensão. Qual a primeira conduta?`, alternativas: {a: `Anti-histamínico oral`, b: `Corticoide intravenoso`, c: `Adrenalina intramuscular na coxa`, d: `Adrenalina intravenosa em bolus`}, correta: "c", comentario: `O quadro é anafilaxia (pele + via aérea + cardiovascular após alérgeno). A primeira e mais importante medida é adrenalina INTRAMUSCULAR na face ântero-lateral da coxa (0,01 mg/kg, 1:1000), repetível a cada 5-15 min, além de deitar com pernas elevadas, oxigênio e cristaloide se hipotensão. Anti-histamínico e corticoide são adjuvantes: aliviam pele e podem reduzir reação bifásica, mas não revertem obstrução de via aérea nem choque, e nunca são a primeira medida. Adrenalina intravenosa de rotina não é indicada (risco de arritmia) — fica para choque refratário monitorizado. Trocar a adrenalina IM por anti-histamínico é o erro que mais reprova nessa questão.`, foco: `Droga/via de resgate na anafilaxia (ponto de erro)`},
+  {enunciado: `Lactente de 10 meses com diarreia há 3 dias, letárgico, olhos muito fundos, pulso fino, enchimento capilar de 4 segundos e incapaz de beber. Qual a conduta inicial de reposição?`, alternativas: {a: `Terapia de reidratação oral no domicílio`, b: `Bolus de soro fisiológico 0,9% 20 mL/kg endovenoso rápido`, c: `Soro glicosado hipotônico 10 mL/kg lento`, d: `Aguardar exames antes de hidratar`}, correta: "b", comentario: `O quadro é de desidratação grave com choque (letargia, incapaz de beber, pulso fino, enchimento capilar muito lento) — Plano C. A conduta é reidratação venosa imediata com cristaloide isotônico (SF 0,9% ou Ringer lactato) em bolus de 20 mL/kg em infusão rápida, reavaliando após cada bolus e repetindo conforme a resposta. A TRO domiciliar é para desidratação leve/moderada com criança que consegue beber, não para choque. Soro hipotônico não expande o intravascular e pode agravar hiponatremia. Nunca se deve adiar a reidratação de uma criança em choque para esperar exames — estabiliza primeiro. Corrigir glicemia e buscar/tratar a causa em seguida.`, foco: `Via e fluido na desidratação grave (ponto de erro)`},
+  {enunciado: `Sobre o reconhecimento da criança gravemente enferma, qual afirmativa está correta?`, alternativas: {a: `A hipotensão é um sinal precoce de choque na criança`, b: `Taquicardia e enchimento capilar lento são sinais precoces de choque`, c: `A causa mais comum de parada é arritmia primária`, d: `Deve-se diagnosticar a doença antes de iniciar o A-B-C`}, correta: "b", comentario: `Na criança, taquicardia, taquipneia, enchimento capilar lento (>2 s), extremidades frias, oligúria e alteração do sensório são sinais precoces de choque (fase compensada). A hipotensão é TARDIA e indica choque já descompensado. A causa mais comum de parada na criança é respiratória/hipóxica (não arritmia primária como no adulto), por isso a via aérea/ventilação é prioridade. E a regra é estabilizar primeiro (A-B-C) e investigar depois, não o contrário. Reconhecer a fase compensada é o que permite intervir a tempo.`, foco: `Reconhecimento precoce e ordem A-B-C`}
+ ]
 }
+
 
 };
