@@ -1,0 +1,651 @@
+{
+  "date": "2026-07-29",
+  "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+  "blocos": [
+    {
+      "tema": "Neurologia — Vertigem e Síndromes Vestibulares (VPPB de canal horizontal) [RE-ranking #1]",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 52 anos refere crises intensas de tontura rotatória desencadeadas ao rolar na cama para os lados, com duração inferior a 1 minuto, iniciadas há 4 dias. Nega hipoacusia, zumbido, cefaleia ou déficit focal. Ao girar a cabeça para os lados em decúbito dorsal, surge nistagmo horizontal intenso que muda de direção conforme o lado testado, batendo para o solo.",
+      "perguntas": [
+        {
+          "enunciado": "Assinale a hipótese diagnóstica mais provável:",
+          "alternativas": {
+            "a": "Síndrome vestibular aguda central",
+            "b": "Neurite vestibular",
+            "c": "Vertigem posicional paroxística benigna de canal horizontal",
+            "d": "Doença de Ménière"
+          },
+          "correta": "c",
+          "comentario": "A tríade de vertigem rotatória breve (<1 min), estritamente posicional (deflagrada ao rolar em decúbito), sem sintomas cocleares, com nistagmo horizontal que troca de sentido conforme o lado e bate para o solo (geotrópico), define a canalolitíase do canal semicircular horizontal. A ausência de zumbido e hipoacusia afasta doença de Ménière, cuja vertigem dura de 20 minutos a horas e cursa com hipoacusia flutuante e plenitude aural. A neurite vestibular produz nistagmo espontâneo unidirecional horizonto-rotatório e vertigem contínua por dias, não paroxismos posicionais. A síndrome vestibular aguda central (AVC de fossa posterior) traz nistagmo que não fatiga, muda de direção com o olhar e vem acompanhada de outros sinais neurológicos — o exame HINTS mostra head impulse normal, nistagmo direcional e skew, sugerindo origem central.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "O teste mais apropriado para confirmar o acometimento desse canal é:",
+          "alternativas": {
+            "a": "Manobra de Dix-Hallpike",
+            "b": "Head impulse test (Halmagyi)",
+            "c": "Prova calórica",
+            "d": "Manobra de rotação da cabeça em decúbito dorsal (supine roll test)"
+          },
+          "correta": "d",
+          "comentario": "O supine roll test (manobra de McClure-Pagnini) é o exame que provoca e caracteriza a VPPB de canal horizontal: com o paciente em decúbito dorsal, gira-se a cabeça 90° para cada lado, observando-se nistagmo geotrópico (canalolitíase) ou apogeotrópico (cupulolitíase). A manobra de Dix-Hallpike é o teste do canal posterior, o mais comum, e não é o ideal para o canal horizontal. O head impulse test avalia o reflexo vestíbulo-ocular na síndrome vestibular aguda, diferenciando periférico de central, não posicional. A prova calórica quantifica hipofunção vestibular unilateral, útil na neurite, e não diagnostica litíase de canal. No canal horizontal, o lado de maior intensidade do nistagmo geotrópico indica o labirinto afetado (regra de Ewald).",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "A conduta terapêutica de escolha é:",
+          "alternativas": {
+            "a": "Betaistina em uso contínuo",
+            "b": "Manobra de reposicionamento (Lempert/barbecue roll ou Gufoni)",
+            "c": "Corticoterapia em pulso",
+            "d": "Restrição hídrica e dieta hipossódica"
+          },
+          "correta": "b",
+          "comentario": "O tratamento da VPPB de canal horizontal é mecânico: manobras de reposicionamento como a de Lempert (barbecue roll, rotação de 360° em decúbito) ou a de Gufoni deslocam as otocônias de volta ao utrículo, com alta taxa de resolução. Supressores vestibulares como a betaistina têm papel apenas sintomático e transitório, e o uso contínuo atrapalha a compensação central. A dieta hipossódica com restrição hídrica é estratégia da doença de Ménière, não da VPPB. A corticoterapia é conduta da neurite vestibular, condição inflamatória, sem utilidade na litíase posicional. O prognóstico é benigno, embora recidivas sejam frequentes e possam exigir repetição das manobras.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 137 — Vertigem Posicional; Merritt (13ª ed.), Seção 2 — Tontura, Vertigem e Perda Auditiva.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroimunologia (esclerose múltipla — surto agudo) [RE-ranking #2]",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 29 anos, com diagnóstico prévio de doença desmielinizante do sistema nervoso central, apresenta há 5 dias fraqueza progressiva na perna direita e retenção urinária. A ressonância mostra lesão medular torácica com realce pelo gadolínio, além de lesões antigas periventriculares em T2. Está afebril e sem sinais infecciosos.",
+      "perguntas": [
+        {
+          "enunciado": "O quadro atual caracteriza-se mais provavelmente como:",
+          "alternativas": {
+            "a": "Leucoencefalopatia multifocal progressiva",
+            "b": "Progressão independente de surtos",
+            "c": "Surto (recidiva) com nova lesão inflamatória ativa",
+            "d": "Pseudossurto por fenômeno de Uhthoff"
+          },
+          "correta": "c",
+          "comentario": "Um novo déficit neurológico com mais de 24 horas de duração, separado por pelo menos 30 dias do evento anterior e acompanhado de lesão com realce pelo gadolínio, define um surto verdadeiro (atividade inflamatória). O pseudossurto pelo fenômeno de Uhthoff é a piora transitória de sintomas antigos com elevação da temperatura corporal (febre, exercício, calor), sem lesão nova com realce. A forma secundariamente progressiva cursa com piora insidiosa e acúmulo de incapacidade independentemente de surtos, o que não é o caso agudo aqui. A leucoencefalopatia multifocal progressiva, por vírus JC, ocorre em imunossuprimidos (por exemplo, em uso de natalizumabe), tem curso subagudo e lesões sem o padrão de realce inflamatório típico — importante diferencial de segurança em pacientes sob terapia modificadora.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "O achado que melhor confirma atividade inflamatória aguda é:",
+          "alternativas": {
+            "a": "Lesões em T2/FLAIR sem realce",
+            "b": "Realce pelo gadolínio na lesão à ressonância",
+            "c": "Bandas oligoclonais no líquor",
+            "d": "Atrofia cortical difusa"
+          },
+          "correta": "b",
+          "comentario": "O realce pelo gadolínio traduz ruptura da barreira hematoencefálica por inflamação ativa e costuma persistir por até cerca de 4 a 6 semanas — é o marcador de atividade aguda. As bandas oligoclonais indicam síntese intratecal de imunoglobulina e apoiam o diagnóstico, mas persistem cronicamente e não medem atividade de um surto específico. As lesões em T2/FLAIR compõem a carga lesional total, porém, isoladamente, não distinguem lesão antiga de nova sem o realce. A atrofia cortical reflete neurodegeneração crônica e progressão, não inflamação aguda. Os critérios de McDonald 2017 exigem disseminação no tempo e no espaço, e o realce ajuda a demonstrar disseminação temporal ao coexistir com lesões não realçantes.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "A conduta de primeira linha para o surto agudo é:",
+          "alternativas": {
+            "a": "Início de natalizumabe",
+            "b": "Imunoglobulina endovenosa",
+            "c": "Pulsoterapia com metilprednisolona endovenosa",
+            "d": "Plasmaférese de imediato"
+          },
+          "correta": "c",
+          "comentario": "O tratamento de primeira linha do surto agudo é a corticoterapia em pulso com metilprednisolona endovenosa (1 g/dia por 3 a 5 dias), que acelera a recuperação neurológica sem alterar o curso de longo prazo da doença. A plasmaférese fica reservada para surtos graves e refratários à corticoterapia. O natalizumabe e as demais terapias modificadoras têm finalidade preventiva de novos surtos, e não tratam o surto instalado. A imunoglobulina endovenosa não tem evidência consistente no manejo do surto agudo de esclerose múltipla. Sempre excluir infecção antes de puncionar a corticoterapia, pois um processo infeccioso pode simular ou desencadear pseudossurto.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 85-87 — Esclerose Múltipla; PCDT de Esclerose Múltipla (Ministério da Saúde).",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Medula, Cauda Equina e Dor (mielopatia cervical espondilótica) [RE-cota individual: Vinicius]",
+      "tier": "ALTO",
+      "vinheta": "Homem de 63 anos com perda progressiva de destreza nas mãos (dificuldade para abotoar a camisa), marcha instável e parestesias nos membros superiores há 8 meses. Ao exame: hiperreflexia global, sinal de Hoffmann bilateral, resposta plantar em extensão, redução da sensibilidade vibratória nas mãos e marcha espástica.",
+      "perguntas": [
+        {
+          "enunciado": "A hipótese diagnóstica mais provável é:",
+          "alternativas": {
+            "a": "Esclerose lateral amiotrófica",
+            "b": "Síndrome do túnel do carpo bilateral",
+            "c": "Polineuropatia sensitivo-motora",
+            "d": "Mielopatia espondilótica cervical"
+          },
+          "correta": "d",
+          "comentario": "A combinação de sinais do neurônio motor superior abaixo do pescoço (hiperreflexia, Hoffmann, Babinski, espasticidade) com perda de destreza manual, distúrbio de marcha e comprometimento de coluna dorsal (sensibilidade vibratória) em idoso aponta para compressão medular cervical degenerativa. A esclerose lateral amiotrófica não cursa com déficit sensitivo nem nível medular, apresentando fasciculações, atrofia e mistura de sinais de neurônio motor superior e inferior. A polineuropatia dá hiporreflexia distal, padrão em bota e luva, sem Babinski nem sinais piramidais. A síndrome do túnel do carpo acomete apenas o território do nervo mediano distal, sem sinais piramidais ou alteração de marcha. A presença de sinais piramidais é o divisor de águas que localiza a lesão na medula.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "O exame de escolha para confirmar e localizar a compressão é:",
+          "alternativas": {
+            "a": "Tomografia de crânio",
+            "b": "Ressonância magnética da coluna cervical",
+            "c": "Radiografia simples da coluna",
+            "d": "Eletroneuromiografia"
+          },
+          "correta": "b",
+          "comentario": "A ressonância magnética da coluna cervical é o exame de escolha: demonstra a estenose do canal, a compressão medular e o hipersinal em T2 (mielomalácia), que tem valor prognóstico. A eletroneuromiografia auxilia no diferencial com neuropatias e radiculopatias, mas não visualiza a medula nem a compressão. A radiografia simples mostra osteófitos, redução dos espaços discais e alinhamento, porém não avalia a medula nem a mielomalácia. A tomografia de crânio é irrelevante para uma síndrome medular cervical. A gravidade clínica pode ser quantificada pela escala mJOA, que orienta a decisão terapêutica.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "A conduta indicada para o quadro progressivo é:",
+          "alternativas": {
+            "a": "Colar cervical rígido permanente",
+            "b": "Corticoide oral prolongado",
+            "c": "Descompressão cirúrgica",
+            "d": "Fisioterapia isolada como tratamento definitivo"
+          },
+          "correta": "c",
+          "comentario": "Na mielopatia cervical moderada a grave ou progressiva, a descompressão cirúrgica (laminectomia, laminoplastia ou discectomia com artrodese) é o tratamento indicado para deter a progressão do dano medular. O colar cervical não trata a compressão estrutural e o uso permanente favorece atrofia da musculatura paravertebral. O corticoide oral não reverte compressão mecânica crônica. A fisioterapia isolada só se justifica em casos muito leves e estáveis, como medida conservadora sob vigilância. Como a lesão medular pode se tornar irreversível, a decisão cirúrgica não deve ser protelada quando há progressão.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 114 — Radiculopatias e Plexopatias; Merritt (13ª ed.), Seção 15 — Doenças da Medula Espinal.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Doença Cerebrovascular (hemorragia intraparenquimatosa hipertensiva)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 68 anos, hipertenso com controle irregular, inicia subitamente cefaleia intensa, hemiparesia esquerda e vômitos, evoluindo com rebaixamento progressivo do nível de consciência. A pressão arterial é de 220/120 mmHg. A tomografia de crânio sem contraste evidencia coleção hiperdensa nos núcleos da base à direita, com cerca de 30 mL, sem hidrocefalia.",
+      "perguntas": [
+        {
+          "enunciado": "O diagnóstico mais provável é:",
+          "alternativas": {
+            "a": "AVC isquêmico de artéria cerebral média",
+            "b": "Trombose venosa cerebral",
+            "c": "Hemorragia subaracnóidea aneurismática",
+            "d": "Hemorragia intraparenquimatosa hipertensiva"
+          },
+          "correta": "d",
+          "comentario": "A hemorragia hipertensiva tem localização típica nos núcleos da base (putame), além de tálamo, ponte e cerebelo, por ruptura de microaneurismas de Charcot-Bouchard em pequenas artérias perfurantes lesadas pela hipertensão crônica. A tomografia mostra imagem hiperdensa parenquimatosa aguda. O AVC isquêmico apresenta tomografia inicial normal ou apenas hipodensidade sutil e sinais precoces, sem hiperdensidade parenquimatosa. A hemorragia subaracnóidea distribui sangue nas cisternas e sulcos, com cefaleia em trovoada e rigidez de nuca. A trombose venosa cerebral cursa com hipertensão intracraniana, crises e, por vezes, o sinal do delta vazio, geralmente em contexto pró-trombótico.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Quanto ao controle pressórico agudo, a meta inicial recomendada é:",
+          "alternativas": {
+            "a": "Não intervir sobre a pressão arterial",
+            "b": "Redução controlada da pressão sistólica para cerca de 140 mmHg",
+            "c": "Manter a pressão elevada para garantir perfusão",
+            "d": "Reduzir a sistólica abaixo de 90 mmHg rapidamente"
+          },
+          "correta": "b",
+          "comentario": "Nas primeiras horas da hemorragia intraparenquimatosa, a redução controlada da pressão sistólica para a faixa de 130 a 140 mmHg (estudos INTERACT2 e ATACH-2) é segura e reduz a expansão do hematoma, principal determinante de piora precoce. Manter a pressão muito elevada favorece o crescimento do sangramento. Quedas abruptas e excessivas (sistólica abaixo de 90 mmHg) comprometem a perfusão de tecido em risco e devem ser evitadas. A conduta de não intervir é inadequada em vigência de pico hipertensivo com sangramento ativo. O controle deve ser feito com anti-hipertensivo endovenoso titulável, evitando hipotensão.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Além do controle pressórico, conduta apropriada inclui:",
+          "alternativas": {
+            "a": "Punção lombar de alívio",
+            "b": "Trombólise endovenosa com alteplase",
+            "c": "Antiagregação plaquetária imediata",
+            "d": "Reverter anticoagulação se presente e prover suporte neurointensivo"
+          },
+          "correta": "d",
+          "comentario": "Na hemorragia intracerebral, deve-se reverter prontamente qualquer anticoagulação (vitamina K e complexo protrombínico para varfarina; agentes específicos para anticoagulantes diretos), controlar a pressão intracraniana e oferecer suporte neurointensivo, avaliando drenagem cirúrgica em casos selecionados (hematoma cerebelar maior que 3 cm ou com deterioração). A trombólise e a antiagregação são formalmente contraindicadas, pois agravam o sangramento — erro grave se confundida com isquemia. A punção lombar é contraindicada diante de efeito de massa, pelo risco de herniação. O escore ICH (volume, Glasgow, idade, localização infratentorial e extensão intraventricular) estima o prognóstico.\n📚 Leitura sugerida (bloco): Merritt (13ª ed.), Seção 4 — Doenças Vasculares Cerebrais; Diretriz AHA/ASA de Hemorragia Intracerebral Espontânea.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Epilepsia (epilepsia mioclônica juvenil)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Rapaz de 17 anos é levado ao pronto-socorro após a primeira crise tônico-clônica generalizada, ocorrida logo ao acordar. A mãe relata que, há meses, ele apresenta abalos musculares nos braços pela manhã, chegando a derrubar objetos no café. As crises pioram com privação de sono e ingestão de álcool. O eletroencefalograma mostra complexos poliponta-onda generalizados a 4-6 Hz e a ressonância é normal.",
+      "perguntas": [
+        {
+          "enunciado": "O diagnóstico mais provável é:",
+          "alternativas": {
+            "a": "Crise não epiléptica psicogênica",
+            "b": "Epilepsia do lobo temporal mesial",
+            "c": "Epilepsia mioclônica juvenil",
+            "d": "Epilepsia de ausência da infância"
+          },
+          "correta": "c",
+          "comentario": "A epilepsia mioclônica juvenil é uma epilepsia generalizada genética que se manifesta na adolescência com mioclonias matinais, crises tônico-clônicas ao despertar e, frequentemente, ausências, deflagradas por privação de sono, álcool e fotoestimulação. A epilepsia de ausência da infância inicia mais cedo, com múltiplas ausências diárias e ponta-onda a 3 Hz, sem o predomínio de mioclonias matinais. A epilepsia do lobo temporal mesial produz crises focais com aura epigástrica e automatismos, associada a esclerose hipocampal na ressonância. A crise não epiléptica psicogênica não tem correlato eletroencefalográfico e apresenta semiologia atípica e variável. O reconhecimento das mioclonias matinais na anamnese é a chave diagnóstica, muitas vezes negligenciada até a primeira crise convulsiva.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "O achado eletroencefalográfico característico é:",
+          "alternativas": {
+            "a": "Descargas focais temporais",
+            "b": "Traçado normal, que exclui epilepsia",
+            "c": "Complexos poliponta-onda generalizados",
+            "d": "Ponta-onda generalizada a 3 Hz"
+          },
+          "correta": "c",
+          "comentario": "A assinatura eletroencefalográfica da epilepsia mioclônica juvenil são os complexos poliponta-onda generalizados, tipicamente a 4-6 Hz, ativados por hiperpneia e fotoestimulação intermitente. As descargas focais temporais caracterizam epilepsias focais, como a temporal mesial. A ponta-onda generalizada a 3 Hz é típica da ausência infantil. Um traçado normal não exclui epilepsia — recomenda-se repetir o exame, de preferência com privação de sono e ativação por fotoestimulação, que aumentam a sensibilidade. A resposta fotoparoxística é comum nesses pacientes e reforça o diagnóstico de epilepsia generalizada.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "A conduta medicamentosa mais apropriada é:",
+          "alternativas": {
+            "a": "Carbamazepina",
+            "b": "Fenitoína de manutenção",
+            "c": "Não iniciar fármaco após a primeira crise",
+            "d": "Valproato de primeira escolha, evitando-o em mulheres em idade fértil"
+          },
+          "correta": "d",
+          "comentario": "A epilepsia mioclônica juvenil responde bem ao valproato, considerado a primeira escolha clássica, com a ressalva importante de evitá-lo em mulheres em idade fértil pelo risco teratogênico e de neurodesenvolvimento, situação em que se prefere lamotrigina ou levetiracetam. A carbamazepina, a fenitoína e a oxcarbazepina podem agravar mioclonias e ausências, sendo contraindicadas nas epilepsias generalizadas — erro clássico de prova. Deixar de tratar após a primeira crise é inadequado nessa síndrome, pois há alto risco de recorrência e o diagnóstico sindrômico já está definido. O tratamento costuma ser mantido a longo prazo, muitas vezes por toda a vida, dada a alta taxa de recidiva com a suspensão.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 79 — Classificação das Crises e Epilepsias; cap. 81 — Tratamento Medicamentoso das Epilepsias.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Cefaleias (cefaleia em salvas)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 38 anos apresenta crises de dor excruciante periorbitária à direita, estritamente unilaterais, com duração de 45 a 90 minutos, ocorrendo até três vezes ao dia há cerca de três semanas. Durante a dor surgem lacrimejamento, hiperemia conjuntival, congestão nasal e ptose ipsilaterais, e o paciente fica agitado, andando pelo quarto. Refere episódios semelhantes em temporadas anteriores.",
+      "perguntas": [
+        {
+          "enunciado": "A hipótese diagnóstica mais provável é:",
+          "alternativas": {
+            "a": "Cefaleia em salvas",
+            "b": "Enxaqueca sem aura",
+            "c": "Neuralgia do trigêmeo",
+            "d": "Hemicrania paroxística"
+          },
+          "correta": "a",
+          "comentario": "A cefaleia em salvas é a principal cefaleia trigeminoautonômica: dor periorbitária unilateral de intensidade excruciante, com duração de 15 a 180 minutos, acompanhada de sinais disautonômicos cranianos ipsilaterais (lacrimejamento, hiperemia conjuntival, congestão nasal, ptose) e inquietação motora, com padrão em salvas ao longo de semanas. A enxaqueca sem aura dura de 4 a 72 horas, associa-se a fono e fotofobia, e o paciente prefere ficar quieto no escuro. A neuralgia do trigêmeo causa choques de segundos, desencadeados por estímulos táteis em território trigeminal. A hemicrania paroxística tem crises mais curtas (2 a 30 minutos) e muito frequentes, com resposta absoluta à indometacina — diferencial fundamental.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Elemento útil para diferenciar das demais cefaleias trigeminoautonômicas é:",
+          "alternativas": {
+            "a": "Ausência de resposta à indometacina",
+            "b": "Rigidez de nuca associada",
+            "c": "Presença de aura visual",
+            "d": "VHS obrigatoriamente elevado"
+          },
+          "correta": "a",
+          "comentario": "A resposta absoluta à indometacina é o marco da hemicrania paroxística e da hemicrania contínua; a cefaleia em salvas não responde a esse fármaco, o que ajuda a diferenciá-las quando a duração e a frequência das crises geram dúvida. A aura visual é fenômeno da enxaqueca, não das cefaleias trigeminoautonômicas. A elevação do VHS aponta para arterite de células gigantes, cefaleia do idoso com claudicação mandibular. A rigidez de nuca sugere causas secundárias graves, como meningite ou hemorragia subaracnóidea. Recomenda-se neuroimagem para excluir lesões de hipófise e de fossa posterior que podem mimetizar cefaleias trigeminoautonômicas.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "A conduta terapêutica apropriada é:",
+          "alternativas": {
+            "a": "Repouso e analgésico comum",
+            "b": "Oxigênio a 100% e triptano subcutâneo na crise, com verapamil profilático",
+            "c": "Carbamazepina para abortar as crises",
+            "d": "Corticoide como única terapia crônica"
+          },
+          "correta": "b",
+          "comentario": "O tratamento agudo da cefaleia em salvas combina oxigênio a 100% sob máscara não reinalante (12 a 15 L/min) e sumatriptano subcutâneo, ambos com início rápido de ação. Para o período da salva, faz-se profilaxia de transição com corticoide em curso curto e profilaxia de manutenção com verapamil, o fármaco de escolha. A carbamazepina é tratamento da neuralgia do trigêmeo, não da cefaleia em salvas. O corticoide crônico não é sustentável pelos efeitos adversos e serve apenas como ponte. Analgésicos comuns e repouso são ineficazes diante da intensidade e da rapidez das crises.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 39 — Cefaleias Trigeminoautonômicas; Classificação Internacional das Cefaleias (ICHD-3).",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuropatias Periféricas (síndrome de Miller-Fisher)",
+      "tier": "ALTO",
+      "vinheta": "Homem de 45 anos, cerca de 10 dias após um episódio de diarreia, evolui com visão dupla, marcha atáxica e quedas. Ao exame apresenta oftalmoparesia bilateral, ataxia de tronco e de membros e arreflexia global, com força muscular preservada e sem nível sensitivo. O líquor mostra dissociação albumino-citológica.",
+      "perguntas": [
+        {
+          "enunciado": "O diagnóstico mais provável é:",
+          "alternativas": {
+            "a": "Miastenia gravis",
+            "b": "Síndrome de Miller-Fisher",
+            "c": "Encefalite de tronco de Bickerstaff",
+            "d": "Botulismo"
+          },
+          "correta": "b",
+          "comentario": "A tríade de oftalmoplegia, ataxia e arreflexia após quadro infeccioso (classicamente por Campylobacter jejuni), com dissociação albumino-citológica no líquor, caracteriza a síndrome de Miller-Fisher, uma variante da síndrome de Guillain-Barré. O botulismo cursa com midríase, boca seca e paralisia flácida descendente, sem ataxia sensitiva, e o líquor é normal. A encefalite de tronco de Bickerstaff compartilha oftalmoplegia e ataxia, mas cursa com rebaixamento do nível de consciência e hiper-reflexia, compondo um espectro central. A miastenia gravis apresenta fatigabilidade e ptose flutuante, sem arreflexia, sem ataxia e com líquor normal. A instalação subaguda após diarreia é uma pista clássica de prova.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "O anticorpo mais associado a esse quadro é:",
+          "alternativas": {
+            "a": "Bandas oligoclonais",
+            "b": "Anticorpo anti-receptor de acetilcolina",
+            "c": "Anticorpo anti-aquaporina-4",
+            "d": "Anticorpo anti-GQ1b"
+          },
+          "correta": "d",
+          "comentario": "O anticorpo anti-GQ1b é positivo em cerca de 90% dos casos de síndrome de Miller-Fisher; o gangliosídeo GQ1b é abundante na mielina dos nervos oculomotores, o que explica a oftalmoplegia. O anti-receptor de acetilcolina caracteriza a miastenia gravis. O anti-aquaporina-4 define a neuromielite óptica. As bandas oligoclonais indicam síntese intratecal de imunoglobulina, presente na esclerose múltipla. A eletroneuromiografia pode evidenciar neuropatia sensitiva e ausência da onda H, corroborando o acometimento periférico. A positividade do anti-GQ1b também aparece no espectro de Bickerstaff, reforçando a proximidade das entidades.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "A conduta terapêutica e o cuidado prioritário são:",
+          "alternativas": {
+            "a": "Imunoglobulina endovenosa ou plasmaférese, com monitorização respiratória",
+            "b": "Pulso de corticoide isolado",
+            "c": "Piridostigmina",
+            "d": "Antibioticoterapia empírica"
+          },
+          "correta": "a",
+          "comentario": "O tratamento segue o da síndrome de Guillain-Barré: imunoglobulina endovenosa (2 g/kg em 2 a 5 dias) ou plasmaférese, com monitorização rigorosa da função respiratória e da disautonomia, pelo risco de progressão para acometimento bulbar e ventilatório em casos com sobreposição. O corticoide isolado não traz benefício comprovado na síndrome de Guillain-Barré e suas variantes. A piridostigmina é terapia da miastenia gravis. A antibioticoterapia não altera o curso do processo autoimune pós-infeccioso já desencadeado. O prognóstico costuma ser favorável, com recuperação em semanas a poucos meses na maioria dos pacientes.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 119 — Síndrome de Guillain-Barré e variantes; Merritt (13ª ed.), Seção 12 — Doenças Neuromusculares.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Transtornos do Movimento (doença de Parkinson idiopática)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 67 anos apresenta tremor de repouso na mão direita há 2 anos, lentidão para se vestir, escrita progressivamente menor e redução do balanço do braço direito ao caminhar. Ao exame há rigidez em roda denteada à direita, bradicinesia e tremor de repouso de 4 a 6 Hz, com reflexos posturais preservados no início do quadro. Houve boa resposta a um teste terapêutico com levodopa.",
+      "perguntas": [
+        {
+          "enunciado": "O diagnóstico mais provável é:",
+          "alternativas": {
+            "a": "Tremor essencial",
+            "b": "Doença de Parkinson idiopática",
+            "c": "Parkinsonismo induzido por drogas",
+            "d": "Paralisia supranuclear progressiva"
+          },
+          "correta": "b",
+          "comentario": "A combinação de bradicinesia com tremor de repouso assimétrico e rigidez em roda denteada, associada a boa resposta à levodopa, define a doença de Parkinson idiopática. O tremor essencial é um tremor de ação e postural, geralmente bilateral, sem bradicinesia ou rigidez, que melhora com álcool e costuma ter história familiar. A paralisia supranuclear progressiva cursa com quedas precoces, paralisia do olhar vertical, sintomas simétricos e má resposta à levodopa. O parkinsonismo induzido por drogas ocorre com antipsicóticos e metoclopramida, é tipicamente simétrico e reversível com a suspensão do fármaco. A assimetria e a resposta à levodopa são pilares a favor da forma idiopática.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Sobre o diagnóstico, é correto afirmar que:",
+          "alternativas": {
+            "a": "A dosagem sérica de dopamina confirma",
+            "b": "Um DAT-SPECT normal confirma o diagnóstico",
+            "c": "A ressonância de crânio estabelece o diagnóstico",
+            "d": "É clínico (critérios MDS), exigindo bradicinesia"
+          },
+          "correta": "d",
+          "comentario": "O diagnóstico da doença de Parkinson é clínico, baseado nos critérios da MDS de 2015, que exigem bradicinesia associada a tremor de repouso ou rigidez, com achados de apoio como assimetria, resposta à levodopa e hiposmia. Um DAT-SPECT normal na verdade afasta a hipótese; quando alterado, apoia o diagnóstico e ajuda a diferenciar de tremor essencial e de parkinsonismo medicamentoso. A ressonância costuma ser normal e serve para excluir causas secundárias e parkinsonismos atípicos ou vasculares. Não existe dosagem sérica de dopamina com utilidade diagnóstica. O reconhecimento clínico evita exames desnecessários e atrasos no tratamento.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "A conduta terapêutica inicial apropriada é:",
+          "alternativas": {
+            "a": "Restrição proteica rigorosa como terapia principal",
+            "b": "Levodopa/carbidopa ou agonista dopaminérgico, conforme idade e sintomas",
+            "c": "Contraindicar levodopa por ser idoso",
+            "d": "Haloperidol"
+          },
+          "correta": "b",
+          "comentario": "O tratamento é sintomático: a levodopa associada a carbidopa é o fármaco mais eficaz e a escolha preferencial em idosos; em pacientes mais jovens, agonistas dopaminérgicos ou inibidores da MAO-B podem ser usados inicialmente para poupar a levodopa e retardar complicações motoras. O haloperidol, antagonista dopaminérgico, agrava o parkinsonismo e é contraindicado. A restrição proteica rigorosa não é terapia principal, embora a proteína possa competir com a absorção da levodopa em fases avançadas. A levodopa não é contraindicada em idosos — ao contrário, é a droga de escolha nessa faixa etária. O ajuste é individualizado conforme incapacidade e tolerância.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 59 — Doença de Parkinson; Merritt (13ª ed.), Seção 11 — Distúrbios do Movimento.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Infecciosas regionais [REAL: SUS-BA R+ Pediatria 2021]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menina, 7 anos de idade, é regulada do interior para internamento, com quadro de febre há aproximadamente 40 dias, fraqueza, palidez, perda do apetite e do peso, diarreia e aumento do volume abdominal. Ao exame, está hipoativa e febril. Ausculta cardíaca com bulhas rítmicas e taquicárdicas; campos pulmonares com murmúrios vesiculares rudes. Há hepatoesplenomegalia. Exames: hemoglobina 8,2 g/dL; leucócitos 1.080/mm³ (linfócitos 60%, segmentados 35%, bastões 1%, eosinófilos 2%); plaquetas 50.000/mm³; VHS 70; albumina 2,5 g/dL; globulina 3,1 g/dL.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a principal suspeita diagnóstica com base nos dados apresentados:",
+          "alternativas": {
+            "a": "Doença hepática autoimune",
+            "b": "Leishmaniose visceral",
+            "c": "Hepatite crônica",
+            "d": "Esquistossomose hepatoesplênica"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A febre prolongada por semanas, com hepatoesplenomegalia volumosa, emagrecimento e pancitopenia (anemia, leucopenia com linfocitose relativa e plaquetopenia), somada à hipoalbuminemia com hipergamaglobulinemia (inversão da relação albumina/globulina) e à procedência de área endêmica do interior, compõe o quadro clássico do calazar. A hepatite crônica e a doença hepática autoimune não justificam a pancitopenia intensa nem a esplenomegalia maciça com febre arrastada. A esquistossomose hepatoesplênica cursa com hipertensão porta e esplenomegalia, mas tipicamente com eosinofilia e sem febre prolongada nem pancitopenia tão marcada. A leucopenia com neutropenia é pista importante e explica o risco de infecções secundárias graves nesses pacientes.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Identifique o exame considerado padrão-ouro para confirmação diagnóstica:",
+          "alternativas": {
+            "a": "Anatomopatológico pós-biópsia hepática",
+            "b": "Parasitológico de fezes",
+            "c": "Pesquisa de anticorpos",
+            "d": "Pesquisa direta em material de medula óssea"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O padrão-ouro é a demonstração direta do parasita (formas amastigotas) em aspirado de medula óssea, método seguro e de boa sensibilidade; o aspirado esplênico tem sensibilidade ainda maior, porém com maior risco de sangramento, sendo menos utilizado. O parasitológico de fezes destina-se a helmintos e protozoários intestinais, não à leishmania. A pesquisa de anticorpos (por exemplo, o teste rápido rK39) é ferramenta de triagem sorológica, útil no diagnóstico presuntivo, mas não é o padrão-ouro. A biópsia hepática não é o método de escolha e expõe a riscos desnecessários. A confirmação parasitológica orienta o tratamento e evita retardo terapêutico numa doença potencialmente fatal.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Especifique a droga preferencial, disponível no SUS, para o tratamento:",
+          "alternativas": {
+            "a": "Antimoniais pentavalentes",
+            "b": "Interferon gama",
+            "c": "Pentamidina",
+            "d": "Oxamniquine"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O antimonial pentavalente (antimoniato de N-metilglucamina) é a droga de primeira linha disponível no SUS para a leishmaniose visceral. A anfotericina B, sobretudo a formulação lipossomal, é preferida em grupos de maior risco — menores de 1 ano, gestantes, idosos, insuficiência renal e formas graves. A pentamidina é opção de segunda linha. O interferon gama não é terapia padrão e a oxamniquine trata esquistossomose, não leishmaniose. Deve-se atentar para a toxicidade cardíaca e pancreática dos antimoniais, com monitorização eletrocardiográfica durante o tratamento. A doença é de notificação compulsória.\n📚 Leitura sugerida (bloco): Ministério da Saúde — Manual de Vigilância e Controle da Leishmaniose Visceral.",
+          "dificuldade": "facil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nutrição/Hematologia [REAL: SUS-BA R+ Pediatria 2024]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menina, 9 meses de idade, foi trazida à UBS por sua mãe, que observa cansaço, fraqueza e palidez cutânea nas últimas semanas, além de irritabilidade e apetite reduzido. A mãe percebeu que a bebê parece crescer mais lentamente que o esperado. Foi amamentada exclusivamente até os 6 meses, mas houve dificuldade em introduzir alimentos sólidos depois disso, mantendo prioridade ao leite materno. Ao exame, está em regular estado geral, com peso e altura logo abaixo do percentil 50, desenvolvimento adequado para a idade, porém pouco reativa, com palidez cutâneo-mucosa. Confirmou-se a suspeita de anemia ferropriva.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a causa mais provável da anemia nessa criança:",
+          "alternativas": {
+            "a": "Inadequação alimentar",
+            "b": "Hipovitaminose",
+            "c": "Distúrbio da lactação",
+            "d": "Deficiência enzimática"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Após os 6 meses, as reservas de ferro do lactente se esgotam e o leite materno, embora ideal, não supre sozinho a demanda de ferro; a dificuldade em introduzir alimentos complementares ricos em ferro leva à carência dietética, causa mais comum de anemia ferropriva nessa idade. A hipovitaminose isolada não explica o quadro ferroprivo descrito. O termo distúrbio da lactação não corresponde a uma etiologia definida de anemia. Uma deficiência enzimática, como a de G6PD, provocaria anemia hemolítica, com icterícia e outros marcadores, e não este quadro carencial de instalação lenta. A prevenção passa pela suplementação profilática de ferro e pela alimentação complementar adequada.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Identifique os resultados de exames mais importantes para confirmar a suspeita:",
+          "alternativas": {
+            "a": "Contagem de eritrócitos reduzida e ferro sérico baixo",
+            "b": "Hemoglobina e hematócrito baixos",
+            "c": "Volume globular médio e contagem de eritrócitos reduzidos",
+            "d": "Hemoglobina baixa e níveis reduzidos de ferro sérico"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A confirmação da anemia ferropriva exige demonstrar anemia (hemoglobina baixa) associada à ferropenia (ferro sérico reduzido, com ferritina baixa como melhor marcador de estoque). A opção que reúne hemoglobina baixa e ferro sérico reduzido é a mais completa. Apenas hemoglobina e hematócrito baixos confirmam a anemia, mas não a etiologia ferropriva. A contagem de eritrócitos e o volume globular médio, embora costumem estar reduzidos (anemia microcítica), isoladamente não caracterizam a carência de ferro sem os parâmetros do metabolismo do ferro. Índices como RDW elevado e a resposta reticulocitária à reposição também apoiam o diagnóstico.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica mais adequada:",
+          "alternativas": {
+            "a": "Manter aleitamento como principal alimento e apenas suplementar ferro",
+            "b": "Manter aleitamento, orientar alimentação variada e suplementar ferro",
+            "c": "Suspender o leite materno e introduzir fórmula com cereais ricos em ferro",
+            "d": "Suspender o leite materno e introduzir fórmula e sólidos ricos em ferro"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A conduta correta associa a manutenção do aleitamento materno à introdução orientada de alimentação complementar variada e rica em ferro, além da suplementação com ferro elementar em dose terapêutica (habitualmente 3 a 5 mg/kg/dia). Não se deve suspender o leite materno, que permanece nutriente e protetor importante nessa fase. Apenas suplementar ferro sem corrigir a alimentação complementar é incompleto, pois não trata a causa dietética. Substituir o leite materno por fórmula não é necessário nem recomendado. A resposta ao ferro deve ser reavaliada e o tratamento mantido por alguns meses após a normalização da hemoglobina, para repor os estoques.\n📚 Leitura sugerida (bloco): Nutrição em Pediatria na Prática Clínica (Sarni, 2021) — https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neonatologia [REAL: SUS-BA R+ Pediatria 2021]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menino nascido de parto natural, com idade gestacional de 36 semanas e 5 dias, pesando 2.800 g, apresenta, dezesseis horas após o nascimento, icterícia que atinge a zona II de Kramer. Está ativo, sugando o seio adequadamente e já eliminou mecônio. Os exames mostram sangue tipo B positivo do recém-nascido e sangue tipo O positivo da mãe; Coombs direto positivo; bilirrubinas totais 9,2 mg/dL e bilirrubina indireta 8,8 mg/dL.",
+      "perguntas": [
+        {
+          "enunciado": "Identifique a extensão anatômica que corresponde à zona afetada pela icterícia:",
+          "alternativas": {
+            "a": "Pescoço e membros superiores",
+            "b": "Membros apenas",
+            "c": "Tórax e membros superiores",
+            "d": "Cabeça e tórax"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Na progressão céfalo-caudal de Kramer, a zona II corresponde ao segmento que vai da cabeça até a cicatriz umbilical, ou seja, cabeça e tórax. A regra estima a bilirrubinemia pela extensão: zona I (cabeça e pescoço), II (até o umbigo), III (até os joelhos), IV (até os tornozelos) e V (palmas e plantas). As demais opções não correspondem à distribuição da zona II. Vale lembrar que a avaliação visual de Kramer é apenas orientadora e sujeita a erro, sobretudo em peles mais pigmentadas e sob iluminação inadequada; a dosagem laboratorial ou transcutânea é o parâmetro objetivo para decisão terapêutica.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Identifique a melhor categorização do quadro ictérico descrito:",
+          "alternativas": {
+            "a": "Hiperbilirrubinemia hemolítica",
+            "b": "Hiperbilirrubinemia fisiológica",
+            "c": "Icterícia por amamentação",
+            "d": "Hiperbilirrubinemia por condição metabólica"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A icterícia que surge nas primeiras 24 horas de vida, com Coombs direto positivo e incompatibilidade ABO (mãe O e recém-nascido B), à custa de bilirrubina indireta, caracteriza hiperbilirrubinemia hemolítica por isoimunização. A icterícia fisiológica aparece após 24 a 48 horas de vida, é de menor intensidade e não cursa com Coombs positivo. A icterícia por amamentação e a do leite materno têm início mais tardio, associadas à oferta láctea ou a fatores do leite. As causas metabólicas, como a síndrome de Crigler-Najjar, não apresentam Coombs positivo nem contexto de incompatibilidade sanguínea. A icterícia precoce sempre deve acender o alerta para hemólise.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Identifique a conduta terapêutica indicada neste momento:",
+          "alternativas": {
+            "a": "Exsanguineotransfusão",
+            "b": "Fenobarbital",
+            "c": "Fototerapia",
+            "d": "Banhos de sol"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Diante de icterícia hemolítica precoce, com bilirrubina total de 9,2 mg/dL nas primeiras horas de vida em prematuro tardio, a fototerapia é a conduta indicada, guiada por curvas como as de Bhutani ou os nomogramas da SBP/NICE, que consideram horas de vida, idade gestacional e fatores de risco. A exsanguineotransfusão fica reservada para níveis muito elevados ou sinais de encefalopatia bilirrubínica. O fenobarbital não tem papel no manejo agudo. O banho de sol é formalmente proscrito, por risco de queimadura e hipertermia e por eficácia não comprovada. O acompanhamento seriado das bilirrubinas é essencial, pois a hemólise pode elevar rapidamente os níveis.\n📚 Leitura sugerida (bloco): SBP — Documento Científico de manejo da icterícia neonatal no recém-nascido com 35 ou mais semanas.",
+          "dificuldade": "facil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Adolescência/Ginecologia [REAL: SUS-BA R+ Pediatria 2026]",
+      "tier": "ALTO",
+      "vinheta": "Adolescente do sexo feminino, 15 anos, é trazida ao ambulatório pela mãe devido à ausência de menstruação; nunca menstruou. Pratica balé clássico em nível competitivo, treinando 4 horas por dia, 6 dias por semana, e é muito rigorosa com a alimentação para manter o peso. Ao exame está em bom estado geral, com peso de 42 kg e altura de 1,65 m (IMC 15,4 kg/m²). O desenvolvimento mamário é completo (Tanner M5) e os pelos pubianos também (Tanner P5). O restante do exame é normal.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a condição mais provável que explica a ausência de menstruação:",
+          "alternativas": {
+            "a": "Síndrome de Turner",
+            "b": "Síndrome dos ovários policísticos",
+            "c": "Amenorreia hipotalâmica funcional",
+            "d": "Imperfuração do hímen"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A combinação de atleta de alto rendimento, baixo peso (IMC 15,4) e restrição alimentar, com caracteres sexuais secundários completos, aponta para amenorreia hipotalâmica funcional, componente da tríade da mulher atleta (baixa disponibilidade energética, disfunção menstrual e baixa densidade mineral óssea). A síndrome de Turner cursa com baixa estatura e disgenesia gonadal, com desenvolvimento puberal ausente ou incompleto — incompatível com Tanner M5/P5. A imperfuração himenal causaria dor cíclica e hematocolpo, com caracteres sexuais normais mas obstrução ao fluxo. A síndrome dos ovários policísticos associa-se a hiperandrogenismo, sobrepeso e anovulação, o oposto do perfil descrito.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o mecanismo fisiopatológico central da supressão menstrual:",
+          "alternativas": {
+            "a": "Obstrução mecânica do fluxo menstrual na saída do útero",
+            "b": "Produção excessiva de andrógenos ovarianos que impede a ovulação",
+            "c": "Balanço energético negativo que suprime a pulsatilidade do GnRH",
+            "d": "Defeito genético nos ovários que impede a resposta a FSH e LH"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O déficit energético crônico reduz a pulsatilidade do hormônio liberador de gonadotrofinas (GnRH) no hipotálamo, diminuindo a secreção de FSH e LH e configurando um hipogonadismo hipogonadotrófico funcional. A obstrução mecânica descreve a imperfuração himenal. A produção excessiva de andrógenos ovarianos corresponde à síndrome dos ovários policísticos. O defeito genético gonadal com resistência a FSH e LH descreve disgenesias, como a síndrome de Turner. A leptina reduzida e o estresse metabólico são mediadores centrais dessa supressão. O reconhecimento do mecanismo orienta a terapêutica, centrada na recuperação energética e não em hormônios.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o principal foco do tratamento, visando à função menstrual e à saúde óssea:",
+          "alternativas": {
+            "a": "Reposição hormonal com estrogênio e progesterona",
+            "b": "Administração de levotiroxina",
+            "c": "Aumento da ingestão calórica e redução da intensidade do esforço físico",
+            "d": "Uso de medicamentos indutores da ovulação"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O tratamento de base da amenorreia hipotalâmica funcional é restaurar a disponibilidade energética: aumentar a ingestão calórica e reduzir a intensidade do treino, o que permite o retorno da pulsatilidade do GnRH e da menstruação, protegendo a massa óssea a longo prazo. A reposição com estrogênio e progesterona não corrige a causa e, isoladamente, não recupera adequadamente a densidade óssea nessas adolescentes. Os indutores de ovulação não têm papel, pois o problema é central e funcional, não uma anovulação por SOP. A levotiroxina só seria útil diante de hipotireoidismo, ausente no caso. Abordagem multidisciplinar, com nutrição e, se necessário, saúde mental, é fundamental.\n📚 Leitura sugerida (bloco): FEBRASGO/SBP — Amenorreia na adolescência e tríade da mulher atleta.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Nefrologia [REAL: SUS-BA R+ Pediatria 2026]",
+      "tier": "ALTO",
+      "vinheta": "Menino de 6 meses é levado à UPA com relato de febre alta e irritabilidade há cerca de 36 horas. Ao exame apresenta regular estado geral, temperatura de 38,7°C, hidratado e corado, sem alterações ao exame segmentar. A mãe informa episódios de infecção urinária aos 3 meses e há 6 semanas, tratados respectivamente com sulfametoxazol-trimetoprima e cefalexina.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o exame padrão-ouro para avaliar foco inflamatório renal ativo e sequelas de infecções anteriores:",
+          "alternativas": {
+            "a": "Cintilografia renal com DMSA",
+            "b": "Radiografia simples de abdome",
+            "c": "Tomografia de abdome",
+            "d": "Ultrassonografia de rins e vias urinárias"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A cintilografia renal com DMSA (ácido dimercaptossuccínico) é o padrão-ouro para identificar acometimento parenquimatoso agudo (pielonefrite) e cicatrizes renais residuais, pois marca o córtex funcionante. A ultrassonografia de rins e vias urinárias avalia a anatomia, dilatações e malformações, mas não detecta com precisão o foco inflamatório nem cicatrizes. A tomografia não é o exame de escolha em lactentes e envolve radiação e contraste desnecessários. A radiografia simples de abdome não tem utilidade nessa avaliação. Diante de infecções urinárias febris de repetição, a investigação de imagem é obrigatória para pesquisar refluxo e uropatia.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta terapêutica mais apropriada neste caso:",
+          "alternativas": {
+            "a": "Iniciar amoxicilina-clavulanato oral por 10 dias",
+            "b": "Repetir cefalexina por via oral",
+            "c": "Suspender antibiótico até confirmação microbiológica",
+            "d": "Introduzir ceftriaxona parenteral até resultado da cultura"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Em lactente pequeno com infecção urinária febril de repetição e falha prévia com antibióticos orais, o mais seguro é iniciar antibioticoterapia parenteral empírica de amplo espectro, como a ceftriaxona, até o resultado da urocultura, pelo risco elevado de pielonefrite e de formação de cicatriz renal. Repetir a cefalexina, que já foi utilizada, é inadequado diante de possível resistência. O amoxicilina-clavulanato oral é menos apropriado nesse contexto de recorrência e potencial gravidade. Suspender o antibiótico e apenas aguardar a cultura é perigoso, pois retarda o tratamento de uma infecção potencialmente ascendente. Após a melhora, pode-se descalonar conforme o antibiograma.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique a complicação mais temida de episódios recorrentes de ITU nesta faixa etária:",
+          "alternativas": {
+            "a": "Cicatriz renal e hipertensão arterial secundária",
+            "b": "Cálculo vesical",
+            "c": "Pielonefrite aguda sem sequelas",
+            "d": "Alterações transitórias do pH urinário"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A complicação mais temida das infecções urinárias febris de repetição no lactente é a cicatriz renal, que pode levar à hipertensão arterial secundária, proteinúria e, a longo prazo, doença renal crônica. O cálculo vesical não é desfecho típico dessas infecções nessa idade. A pielonefrite aguda sem sequelas não representa a complicação temida — o problema justamente é quando deixa cicatriz. As alterações transitórias do pH urinário não têm relevância clínica como complicação. Por isso, investiga-se refluxo vesicoureteral com uretrocistografia miccional e considera-se profilaxia em casos selecionados, com acompanhamento nefrológico.\n📚 Leitura sugerida (bloco): Nefrologia pediátrica — ITU (videoaula MEDGRUPO R+ Pediatria): https://drive.google.com/file/d/1KuvXkP9naQp1_JIcYrTNEDsoqD5K3DXG/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Infecções respiratórias/ORL [REAL: SUS-BA R+ Pediatria 2026]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menina de 8 meses é levada à UPA por febre há 3 dias e irritabilidade, com sono agitado e choro frequente. A mãe relata que, há cerca de uma semana, o bebê teve nariz entupido, coriza hialina e tosse leve, que haviam melhorado quase totalmente antes de a febre reiniciar. Nega vômitos ou diarreia; alimentação e diurese mantidas, porém chora ao mamar e ao deitar. Nasceu a termo, sem comorbidades, com vacinas em dia. Ao exame está irritada, sem toxemia; T 38,7°C, FC 132 bpm, FR 32 irpm; narinas com secreção seromucosa; orofaringe levemente hiperemiada, sem exsudato; sem linfonodomegalia ou sinais meníngeos. Otoscopia: à direita, membrana timpânica hiperemiada, abaulada, opaca, sem reflexo luminoso, com líquido retrotimpânico; à esquerda, membrana íntegra e translúcida.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a explicação fisiopatológica para o surgimento do quadro atual:",
+          "alternativas": {
+            "a": "Edema da mucosa nasal e disfunção da tuba auditiva, com contaminação do ouvido médio",
+            "b": "Colonização da nasofaringe por agente viral de alta replicação",
+            "c": "Inflamação viral e infecção secundária da membrana timpânica",
+            "d": "Migração de bactérias por via hematogênica para o ouvido médio"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A otite média aguda tipicamente sucede uma infecção viral das vias aéreas superiores: o edema da mucosa nasofaríngea provoca disfunção da tuba auditiva, com acúmulo de secreção no ouvido médio e proliferação bacteriana, gerando a membrana abaulada e hiperemiada. A tuba auditiva mais curta e horizontalizada do lactente favorece esse mecanismo. A via hematogênica não é a rota habitual da otite média aguda. A simples colonização viral da nasofaringe não explica o abaulamento timpânico com sinais de coleção purulenta. A opção que fala em infecção secundária da membrana timpânica é imprecisa quanto ao mecanismo, que envolve a disfunção tubária e o ouvido médio, e não a membrana em si.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o agente etiológico bacteriano mais frequente nessa infecção em lactentes:",
+          "alternativas": {
+            "a": "Streptococcus pneumoniae",
+            "b": "Vírus sincicial respiratório",
+            "c": "Moraxella catarrhalis",
+            "d": "Haemophilus influenzae tipo b"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O Streptococcus pneumoniae é o principal agente bacteriano da otite média aguda, seguido pelo Haemophilus influenzae não tipável e pela Moraxella catarrhalis. O Haemophilus influenzae tipo b teve sua incidência drasticamente reduzida pela vacinação e não é o mais frequente atualmente. O vírus sincicial respiratório é agente viral que frequentemente precede a otite, mas não é o agente bacteriano causador do quadro supurativo. Vale lembrar que boa parte das otites tem participação viral, o que fundamenta condutas de observação em casos leves e selecionados. O conhecimento do agente orienta a escolha do antibiótico quando indicado.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Considerando a idade e o quadro, indique a conduta terapêutica mais adequada:",
+          "alternativas": {
+            "a": "Cefalosporina e timpanostomia com aspiração",
+            "b": "Corticoide sistêmico e anti-histamínico por 5 dias",
+            "c": "Amoxicilina em dose alta e analgesia",
+            "d": "Amoxicilina em dose habitual e timpanostomia"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Em lactente com otite média aguda confirmada por otoscopia (membrana abaulada, opaca, com líquido), a conduta de primeira linha é a amoxicilina em dose alta (80 a 90 mg/kg/dia) associada à analgesia, cobrindo pneumococo, inclusive cepas de sensibilidade reduzida. O amoxicilina-clavulanato fica reservado para falha terapêutica, otite recorrente ou conjuntivite associada. A timpanostomia não é conduta inicial e destina-se a otites de repetição ou complicações. Corticoide sistêmico e anti-histamínico não têm papel no tratamento da otite média aguda. A analgesia é parte essencial do manejo, independentemente da decisão sobre antibiótico, que segue critérios de idade e gravidade.\n📚 Leitura sugerida (bloco): Infecções respiratórias pediátricas (videoaula MEDGRUPO R+ Pediatria): https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Saúde Coletiva/APS (calendário vacinal e vacinação de resgate)",
+      "tier": "ALTO",
+      "vinheta": "Menino de 18 meses é levado à UBS para consulta de puericultura. A caderneta de vacinação mostra apenas a BCG e a primeira dose da vacina pentavalente aplicadas. A mãe, preocupada, pergunta se a criança precisa recomeçar todo o esquema. A criança está hígida, sem contraindicações à vacinação.",
+      "perguntas": [
+        {
+          "enunciado": "Diante do atraso vacinal, a conduta correta quanto ao esquema é:",
+          "alternativas": {
+            "a": "Aplicar apenas as vacinas de dose única",
+            "b": "Adiar a vacinação até os 2 anos de idade",
+            "c": "Retomar o esquema de onde parou, aplicando as doses em atraso sem reiniciar",
+            "d": "Reiniciar todo o calendário desde o nascimento"
+          },
+          "correta": "c",
+          "comentario": "Vige o princípio de que dose aplicada é dose contada: diante de atraso vacinal, atualiza-se a situação da criança retomando o esquema de onde parou, respeitando os intervalos mínimos entre as doses, sem jamais reiniciar. Reiniciar todo o calendário expõe a criança a doses desnecessárias e desperdício de insumos. Adiar a vacinação até os 2 anos mantém a criança suscetível a doenças imunopreveníveis por mais tempo, sem justificativa. Aplicar apenas as vacinas de dose única deixa o esquema incompleto. A atualização deve considerar todas as vacinas indicadas para a idade, como pentavalente, poliomielite, pneumocócica, meningocócica C e tríplice viral, conforme o Calendário Nacional de Vacinação.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Sobre a administração de vacinas nesta consulta, é correto afirmar:",
+          "alternativas": {
+            "a": "Vacinas de vírus vivo nunca podem ser aplicadas juntas",
+            "b": "Só uma injeção por consulta, por risco de reação",
+            "c": "Podem-se aplicar múltiplas vacinas do calendário na mesma visita, em sítios diferentes",
+            "d": "Aplicar uma vacina por vez, com 30 dias entre cada"
+          },
+          "correta": "c",
+          "comentario": "A administração simultânea de várias vacinas do calendário na mesma consulta é segura, recomendada e não reduz a resposta imune, aproveitando a oportunidade de vacinação. Espaçar artificialmente as vacinas, com 30 dias entre cada, atrasa a proteção e aumenta o abandono. As vacinas de vírus vivo atenuado injetáveis podem ser aplicadas no mesmo dia; quando isso não ocorre, deve-se respeitar o intervalo de 4 semanas entre elas. Limitar a uma injeção por consulta não tem respaldo e compromete a cobertura. Utilizam-se sítios anatômicos diferentes e, quando necessário, membros distintos, registrando cada dose na caderneta e no sistema de informação.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Ainda nesta consulta, medida de saúde coletiva apropriada é:",
+          "alternativas": {
+            "a": "Registrar as doses, aprazar o retorno e realizar busca ativa de faltosos",
+            "b": "Condicionar a vacinação à apresentação de exames",
+            "c": "Excluir a criança da creche até completar o esquema",
+            "d": "Notificar a família ao conselho tutelar imediatamente"
+          },
+          "correta": "a",
+          "comentario": "Do ponto de vista da saúde coletiva, além de vacinar, cabe registrar as doses, aprazar o retorno para completar o esquema e organizar a busca ativa de faltosos, estratégias centrais para alcançar e manter altas coberturas — a meta de 95% é a que garante proteção coletiva e bloqueio de surtos de doenças como sarampo e poliomielite. Acionar o conselho tutelar de imediato é desproporcional; essa medida se reserva a recusa reiterada e injustificada com caracterização de negligência. Não se deve condicionar a vacinação à apresentação de exames, o que cria barreira de acesso. Excluir a criança da creche não é conduta padrão e penaliza a família. Toda consulta é oportunidade de vacinação, evitando as chamadas oportunidades perdidas.\n📚 Leitura sugerida (bloco): Ministério da Saúde — Calendário Nacional de Vacinação e Manual de Normas e Procedimentos para Vacinação (PNI); videoaula Imunização (MEDGRUPO R+ Pediatria) https://drive.google.com/file/d/1haGRHKys0_ENxZ4Yp_gs7HJUNm8ES9RA/view",
+          "dificuldade": "dificil"
+        }
+      ]
+    }
+  ]
+}
