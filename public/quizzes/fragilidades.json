@@ -1,10 +1,10 @@
 {
- "geradoEm": "2026-07-23T09:06:12.680Z",
- "tentativasLidas": 22,
+ "geradoEm": "2026-07-30T09:04:43.465Z",
+ "tentativasLidas": 24,
  "usuarios": {
   "Vinicius": {
-   "simulados": 11,
-   "totalQuestoes": 495,
+   "simulados": 12,
+   "totalQuestoes": 540,
    "percentualGeral": 77,
    "temasFracos": [
     {
@@ -162,6 +162,14 @@
      "taxaErro": 100
     },
     {
+     "tema": "Pediatria — Neonatologia / Reanimação neonatal e Apgar",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-21",
+     "taxaErro": 100
+    },
+    {
      "tema": "Neurologia — Neuropediatria específica (síndrome de West)",
      "tier": "MÉDIO",
      "total": 3,
@@ -247,6 +255,14 @@
      "total": 3,
      "erros": 2,
      "ultimoErro": "2026-07-18",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Vertigem e Síndromes Vestibulares (deiscência do canal semicircular superior)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-21",
      "taxaErro": 67
     },
     {
@@ -650,6 +666,22 @@
      "taxaErro": 33
     },
     {
+     "tema": "Neurologia — Neuropediatria específica (atrofia muscular espinhal tipo 1)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-21",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Hematologia (esferocitose hereditária)",
+     "tier": "MÉDIO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-21",
+     "taxaErro": 33
+    },
+    {
      "tema": "Neurologia — Doença do Neurônio Motor (ELA)",
      "tier": "ALTO",
      "total": 6,
@@ -671,6 +703,14 @@
      "total": 6,
      "erros": 1,
      "ultimoErro": "2026-07-19",
+     "taxaErro": 17
+    },
+    {
+     "tema": "Pediatria — Emergências Pediátricas (anafilaxia)",
+     "tier": "ALTO",
+     "total": 6,
+     "erros": 1,
+     "ultimoErro": "2026-07-21",
      "taxaErro": 17
     },
     {
@@ -932,14 +972,6 @@
     {
      "tema": "Neurologia — Neuropediatria específica (crise febril)",
      "tier": "MÉDIO",
-     "total": 3,
-     "erros": 0,
-     "ultimoErro": null,
-     "taxaErro": 0
-    },
-    {
-     "tema": "Pediatria — Emergências Pediátricas (anafilaxia)",
-     "tier": "ALTO",
      "total": 3,
      "erros": 0,
      "ultimoErro": null,
@@ -1288,6 +1320,86 @@
      "erros": 0,
      "ultimoErro": null,
      "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (encefalite límbica paraneoplásica anti-Hu)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas (hematoma extradural / síndrome de Cushing)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Doença do Neurônio Motor / ELA",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Medula e Cauda Equina / mielorradiculopatia esquistossomótica",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Junção Neuromuscular (miastenia gravis generalizada com timoma)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Neurologia — Demências (comprometimento cognitivo vascular)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Desenvolvimento/Puericultura e Imunização (PNI)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Infecciosas / Doenças exantemáticas (sarampo)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Nutrição / Desnutrição energético-proteica (marasmo)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Saúde Coletiva, APS e Ética (notificação de maus-tratos infantis)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
     }
    ],
    "porDificuldade": [
@@ -1299,21 +1411,21 @@
     },
     {
      "dificuldade": "moderada",
-     "total": 231,
-     "erros": 51,
-     "taxaErro": 22
+     "total": 253,
+     "erros": 53,
+     "taxaErro": 21
     },
     {
      "dificuldade": "dificil",
-     "total": 157,
-     "erros": 52,
-     "taxaErro": 33
+     "total": 175,
+     "erros": 56,
+     "taxaErro": 32
     },
     {
      "dificuldade": "facil",
-     "total": 62,
-     "erros": 9,
-     "taxaErro": 15
+     "total": 67,
+     "erros": 11,
+     "taxaErro": 16
     }
    ]
   },
@@ -1657,12 +1769,217 @@
    ]
   },
   "Ana Teresa": {
-   "simulados": 0,
-   "totalQuestoes": 0,
-   "percentualGeral": null,
-   "temasFracos": [],
-   "rankingCompleto": [],
-   "porDificuldade": []
+   "simulados": 1,
+   "totalQuestoes": 45,
+   "percentualGeral": 62,
+   "temasFracos": [
+    {
+     "tema": "Pediatria — Infecciosas regionais",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Doença Cerebrovascular (hemorragia intraparenquimatosa hipertensiva)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Cefaleias (cefaleia em salvas)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Neuropatias Periféricas (síndrome de Miller-Fisher)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Pediatria — Infecções respiratórias/ORL",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Vertigem e Síndromes Vestibulares (VPPB de canal horizontal)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (esclerose múltipla — surto agudo)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Medula, Cauda Equina e Dor (mielopatia cervical espondilótica)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 33
+    }
+   ],
+   "rankingCompleto": [
+    {
+     "tema": "Pediatria — Infecciosas regionais",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 3,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 100
+    },
+    {
+     "tema": "Neurologia — Doença Cerebrovascular (hemorragia intraparenquimatosa hipertensiva)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Cefaleias (cefaleia em salvas)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Neuropatias Periféricas (síndrome de Miller-Fisher)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Pediatria — Infecções respiratórias/ORL",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 2,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 67
+    },
+    {
+     "tema": "Neurologia — Vertigem e Síndromes Vestibulares (VPPB de canal horizontal)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Neuroimunologia (esclerose múltipla — surto agudo)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Medula, Cauda Equina e Dor (mielopatia cervical espondilótica)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Epilepsia (epilepsia mioclônica juvenil)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Nutrição/Hematologia",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Pediatria — Nefrologia",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 1,
+     "ultimoErro": "2026-07-29",
+     "taxaErro": 33
+    },
+    {
+     "tema": "Neurologia — Transtornos do Movimento (doença de Parkinson idiopática)",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Neonatologia",
+     "tier": "ESSENCIAL",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Adolescência/Ginecologia",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    },
+    {
+     "tema": "Pediatria — Saúde Coletiva/APS (calendário vacinal e vacinação de resgate)",
+     "tier": "ALTO",
+     "total": 3,
+     "erros": 0,
+     "ultimoErro": null,
+     "taxaErro": 0
+    }
+   ],
+   "porDificuldade": [
+    {
+     "dificuldade": "moderada",
+     "total": 25,
+     "erros": 9,
+     "taxaErro": 36
+    },
+    {
+     "dificuldade": "dificil",
+     "total": 15,
+     "erros": 6,
+     "taxaErro": 40
+    },
+    {
+     "dificuldade": "facil",
+     "total": 5,
+     "erros": 2,
+     "taxaErro": 40
+    }
+   ]
   }
  }
 }
