@@ -1,0 +1,651 @@
+{
+ "date": "2026-08-01",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (VPPB de canal anterior/superior) [RE ranking unificado #1]",
+   "tier": "ALTO",
+   "vinheta": "Mulher de 52 anos relata, há dez dias, crises de vertigem rotatória de poucos segundos desencadeadas ao deitar-se e ao inclinar a cabeça para trás para pendurar roupas no varal. Nega hipoacusia, zumbido ou plenitude auricular. Ao ser posicionada com a cabeça pendente para trás e rodada, observa-se nistagmo de curta latência, com componente vertical batendo para baixo (para o queixo) associado a torção, fatigável e revertendo ao sentar. Exame otoscópico, audiometria e restante do exame neurológico normais.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a hipótese diagnóstica mais provável:",
+     "comentario": "O caso reúne os pilares da vertigem posicional paroxística benigna (VPPB): crises muito breves (segundos), desencadeadas por mudança de posição da cabeça, sem sintomas cocleares, com nistagmo posicional de latência curta, fatigável e reversível. O componente vertical batendo PARA BAIXO (downbeat) com torção aponta o canal anterior (superior), a variante mais rara, tipicamente provocada por manobras com a cabeça em hiperextensão. Neurite vestibular é descartada porque cursa com vertigem CONTÍNUA por dias e nistagmo espontâneo horizonto-torcional unidirecional, não crises posicionais de segundos. Ménière exige a tríade de vertigem prolongada (20 min a horas) + hipoacusia flutuante + zumbido/plenitude, ausentes aqui. AVC de fossa posterior geraria nistagmo que não fatiga, muda de direção, e sinais neurológicos associados (dismetria, HIT negativo) — o padrão fatigável e posicional puro fala contra causa central. Pérola: downbeat posicional obriga a excluir lesão de junção craniocervical antes de assumir VPPB anterior.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Neurite vestibular direita",
+      "b": "AVC de fossa posterior",
+      "c": "Vertigem posicional paroxística benigna de canal anterior",
+      "d": "Doença de Ménière inicial"
+     },
+     "correta": "c"
+    },
+    {
+     "enunciado": "Assinale a manobra diagnóstica/o achado que melhor confirma o canal acometido neste caso:",
+     "comentario": "O diagnóstico topográfico da VPPB é feito pelo padrão do nistagmo em manobras posicionais. No canal anterior, o Dix-Hallpike (ou a posição de cabeça pendente/deep head-hanging) provoca nistagmo com componente vertical DESCENDENTE (downbeat) e torção cujo polo superior bate para o lado afetado. O supine roll test com nistagmo horizontal geotrópico caracteriza o canal HORIZONTAL (variante canalolitíase), não o anterior. O HIT sacádico bilateral sugere vestibulopatia periférica bilateral/ototóxica, não VPPB. Nistagmo que aumenta com a fixação é sinal de nistagmo CENTRAL — na VPPB (periférica) a fixação tende a suprimir e o nistagmo é posicional, não espontâneo. Detalhe técnico: a VPPB anterior é a de diagnóstico mais difícil justamente porque o downbeat mimetiza causas centrais; o caráter paroxístico, fatigável e a ausência de outros sinais neurológicos sustentam a origem otológica.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Nistagmo horizontal geotrópico no supine roll test",
+      "b": "Nistagmo espontâneo que aumenta com a fixação ocular",
+      "c": "Nistagmo posicional descendente (downbeat) torcional no Dix-Hallpike/posição de cabeça pendente",
+      "d": "Head impulse test (HIT) sacádico bilateral"
+     },
+     "correta": "c"
+    },
+    {
+     "enunciado": "Identifique a conduta terapêutica de primeira linha:",
+     "comentario": "O tratamento da VPPB é mecânico: manobras de reposicionamento de partículas (repositioning). Para o canal anterior, a manobra de escolha é a de Yacovino (deep head-hanging), que não exige identificar o lado, útil quando a lateralização é incerta. As demais estão erradas: betaistina é fármaco supressor/anti-vertiginoso sem efeito curativo sobre a otólito deslocada — no máximo adjuvante sintomático, nunca primeira linha na VPPB; labirintectomia é procedimento ablativo reservado a doença vestibular incapacitante refratária (ex.: Ménière intratável), desproporcional aqui; repouso absoluto e flunarizina profilática não corrigem a canalolitíase e podem retardar a compensação. Diretriz: a VPPB tem excelente resposta às manobras (60-90% em 1-3 sessões); orientar o retorno se persistência e reavaliar diagnóstico se downbeat mantido, para não perder causa central. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 137 — Vertigem Posicional.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Repouso absoluto no leito e flunarizina profilática",
+      "b": "Labirintectomia cirúrgica",
+      "c": "Manobra de reposicionamento canalicular (deep head-hanging/Yacovino)",
+      "d": "Prescrição contínua de betaistina por seis meses"
+     },
+     "correta": "c"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroimunologia (esclerose múltipla — critérios de McDonald) [REAL: SUS-BA R+ 2022] [RE ranking unificado #2]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 24 anos de idade, é atendida no pronto-socorro queixando-se de dor e diminuição da acuidade visual do olho esquerdo, há 7 dias. Relata ter tido fraqueza no braço direito, há 2 meses, que cessou espontaneamente. Ao exame, sinais vitais estáveis. Ausculta cardíaca e respiratória e abdome sem alterações. Pupilas isocóricas, com reflexo fotomotor direto reduzido e consensual preservado no olho esquerdo. Força muscular grau IV/V em membro superior direito e grau V/V em demais membros.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, com relação ao diagnóstico mais provável, pode-se afirmar que esse diagnóstico exige:",
+     "comentario": "[Questão real — SUS-BA R+ 2022] O quadro é de esclerose múltipla remitente-recorrente: neurite óptica esquerda (dor + baixa acuidade + defeito pupilar aferente relativo = pupila de Marcus Gunn, com fotomotor direto reduzido e consensual preservado) somada a um episódio prévio autolimitado de fraqueza há 2 meses. Isso configura DISSEMINAÇÃO NO TEMPO e NO ESPAÇO, o eixo dos critérios de McDonald. O critério temporal clássico exige intervalo de pelo menos ~1 mês entre surtos distintos (por isso a alternativa correta). Descartando as demais: não são necessários três ou mais eventos — dois surtos objetivos em topografias diferentes já bastam; a duração mínima de um surto é de 24 horas, não 'mais de uma semana'; e NÃO é preciso documentar todos os eventos por imagem — a clínica de um segundo surto pode fechar o diagnóstico. Pegadinha da banca: memorizar literalmente a frase 'disseminação no tempo e no espaço'.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Que haja a presença de três ou mais eventos sintomáticos",
+      "b": "Que o intervalo entre os eventos sintomáticos dure, pelo menos, um mês",
+      "c": "Que cada evento sintomático dure mais de uma semana",
+      "d": "Que todos os eventos sintomáticos sejam documentados com exame de imagem"
+     },
+     "correta": "b"
+    },
+    {
+     "enunciado": "Diante do caso clínico, com relação aos achados esperados em exames complementares relativos ao diagnóstico mais provável, é de esperar que:",
+     "comentario": "[Questão real — SUS-BA R+ 2022] Na esclerose múltipla, a RM mostra lesões desmielinizantes em múltiplos sítios característicos: periventriculares, corticais/justacorticais, infratentoriais (tronco/cerebelo) e medulares — exatamente os quatro territórios que compõem a disseminação espacial de McDonald. Erros dos distratores: no líquor espera-se bandas OLIGOclonais (produção intratecal de IgG), não policlonais; as placas são hiperintensas em T2/FLAIR e iso/hipointensas em T1 (os 'black holes' em T1 indicam dano axonal crônico, mas a marca ativa é o hipersinal em T2, não 'hiperintenso em T1'); e a positividade para anti-aquaporina-4 define a neuromielite óptica (NMOSD), um diferencial que NÃO é EM e cujo tratamento difere. Pérola: neurite óptica geralmente UNILATERAL e parcial favorece EM; bilateral e grave, com anti-AQP4/anti-MOG, afasta EM.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Haja lesões periventriculares, corticais ou justacorticais, infratentoriais e medulares no sistema nervoso central",
+      "b": "Observem-se lesões hiperintensas em T1 e hipointensas em T2 na Ressonância Magnética",
+      "c": "Haja positividade para o anticorpo antiaquaporina na maioria dos casos",
+      "d": "Haja bandas policlonais no líquor"
+     },
+     "correta": "a"
+    },
+    {
+     "enunciado": "Diante do caso clínico, identifique a terapia farmacológica mais indicada para modificar o curso da doença:",
+     "comentario": "[Questão real — SUS-BA R+ 2022] A pergunta distingue tratamento do SURTO de terapia MODIFICADORA da doença (TMD). Para modificar o curso da EM usa-se uma TMD — entre as opções, o acetato de glatirâmer. A metilprednisolona (pulsoterapia) trata apenas o surto agudo, acelera a recuperação, mas NÃO altera a progressão a longo prazo. O riluzol é neuroprotetor da esclerose lateral amiotrófica (ELA), doença completamente distinta. O adalimumabe (anti-TNF) é contraindicado: anti-TNF pode desencadear ou piorar doença desmielinizante. Conteúdo de reforço: são TMD de primeira linha o glatirâmer e os interferons-beta; casos mais ativos usam anticorpos monoclonais (natalizumabe, ocrelizumabe, etc.). A distinção 'corticoide trata o surto / TMD muda o curso' é cobrada com frequência. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 85-87 — Esclerose Múltipla (diagnóstico e tratamento).",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Metilprednisolona",
+      "b": "Acetato de glatirâmer",
+      "c": "Adalimumabe",
+      "d": "Riluzol"
+     },
+     "correta": "b"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroinfecção (meningite criptocócica no HIV)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 34 anos, HIV positivo com má adesão à terapia antirretroviral, procura o serviço com cefaleia holocraniana progressiva há três semanas, febre baixa, náuseas e turvação visual intermitente. Ao exame, discreta rigidez de nuca, sem déficit focal; contagem de CD4 de 38 células/mm³. A tomografia de crânio não mostra efeito de massa e a punção lombar revela pressão de abertura de 38 cmH2O, com pleocitose linfocítica discreta, glicorraquia baixa e proteína elevada.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a principal hipótese etiológica:",
+     "comentario": "Cefaleia subaguda com febre baixa em paciente com CD4 muito baixo (<100), meningismo discreto, TC sem efeito de massa e, sobretudo, PRESSÃO DE ABERTURA MUITO ELEVADA com líquor de padrão 'crônico' (linfocitose, hipoglicorraquia, proteína alta) é o retrato da meningite criptocócica, a micose mais frequente do SNC na AIDS avançada. A hipertensão liquórica marcante é o traço distintivo e o maior determinante de morbimortalidade. Neurotoxoplasmose tende a dar lesões com efeito de massa e realce anelar na imagem, ausentes aqui. Meningite meningocócica é aguda/fulminante, com líquor neutrofílico e curso de horas a poucos dias, não três semanas. LEMP (vírus JC) causa déficits focais progressivos com lesões de substância branca sem realce e SEM meningismo nem hipertensão liquórica. Pérola: sempre medir a pressão de abertura na PL do paciente com HIV e cefaleia.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Meningite meningocócica aguda",
+      "b": "Leucoencefalopatia multifocal progressiva",
+      "c": "Neurotoxoplasmose",
+      "d": "Criptococose meníngea (Cryptococcus neoformans)"
+     },
+     "correta": "d"
+    },
+    {
+     "enunciado": "Assinale o exame que mais rapidamente confirma a etiologia:",
+     "comentario": "A confirmação mais rápida e sensível é a detecção do antígeno capsular criptocócico (CrAg) por aglutinação em látex ou teste de fluxo lateral (LFA) no líquor e/ou soro — alta sensibilidade e especificidade, com resultado praticamente imediato. A tinta da China (Nanquim) evidencia leveduras encapsuladas, é clássica e barata, porém menos sensível que o CrAg. Os distratores: PCR para vírus JC investigaria LEMP, não criptococo; sorologia IgG para Toxoplasma apenas indica exposição prévia (muito prevalente) e não confirma doença ativa; cultura para micobactérias é lenta (semanas) e investiga neurotuberculose, outro diferencial de meningite crônica. Reforço: a cultura fúngica é o padrão-ouro para confirmar viabilidade e acompanhar esterilização, mas o CrAg é quem dá o diagnóstico rápido à beira do leito.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Sorologia IgG para Toxoplasma",
+      "b": "PCR para vírus JC no líquor",
+      "c": "Cultura de líquor para micobactérias",
+      "d": "Pesquisa de antígeno criptocócico (CrAg) no líquor/soro ou tinta da China"
+     },
+     "correta": "d"
+    },
+    {
+     "enunciado": "Identifique a conduta terapêutica inicial mais adequada:",
+     "comentario": "O tratamento da meningite criptocócica tem indução com anfotericina B (preferencialmente lipossomal, menos nefrotóxica) + flucitosina por pelo menos 2 semanas, seguida de consolidação e manutenção com fluconazol. Igualmente vital é o MANEJO DA HIPERTENSÃO INTRACRANIANA com punções lombares de alívio repetidas (ou derivação), pois a pressão elevada é a principal causa de morte e perda visual. Os erros: iniciar a TARV imediatamente e isoladamente é perigoso — deve-se AGUARDAR ~4-6 semanas de antifúngico para reduzir o risco de síndrome inflamatória de reconstituição imune (IRIS), muitas vezes fatal no SNC; fluconazol em monoterapia de baixa dose é insuficiente na fase de indução; corticoide de rotina NÃO melhora desfecho na criptococose (diferente da meningite bacteriana/tuberculosa) e pode piorar a evolução. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 152 — Doenças Fúngicas do SNC.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Fluconazol em monoterapia em dose baixa",
+      "b": "Corticoterapia em altas doses como tratamento principal",
+      "c": "Iniciar de imediato a terapia antirretroviral de alta potência isolada",
+      "d": "Anfotericina B lipossomal + flucitosina, com punções lombares de alívio"
+     },
+     "correta": "d"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Junção Neuromuscular (miastenia gravis — diagnóstico)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 29 anos relata, há três meses, queda das pálpebras e visão dupla que pioram ao fim do dia e após leitura prolongada, com melhora ao repouso. Nas últimas semanas passou a engasgar com líquidos e a notar cansaço mastigatório. Ao exame, ptose que se acentua ao olhar fixamente para cima por um minuto e diplopia variável; força apendicular preservada no início do exame, com fadigabilidade à contração repetida. Reflexos e sensibilidade normais.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "comentario": "Fraqueza FLUTUANTE e FATIGÁVEL de musculatura ocular (ptose, diplopia) e bulbar (disfagia, fadiga mastigatória), pior ao fim do dia e com melhora ao repouso, sem alteração sensitiva nem reflexa, é o retrato da miastenia gravis, doença autoimune do receptor pós-sináptico de acetilcolina. Lambert-Eaton (pré-sináptica, associada a canais de cálcio e frequentemente a carcinoma de pequenas células) caracteriza-se por fraqueza PROXIMAL de membros com hiporreflexia que MELHORA transitoriamente após exercício (facilitação), e poupa relativamente a musculatura ocular — oposto do caso. AVC de tronco daria oftalmoplegia SÚBITA e fixa, com outros sinais de tronco, não sintomas flutuantes de meses. Neuropatia craniana diabética causa paralisia de nervo isolada (ex.: III par, poupando a pupila), dolorosa e não fatigável. Pérola: a fadigabilidade objetiva (ptose ao olhar para cima sustentado) é sinal semiológico clássico.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Miastenia gravis",
+      "b": "Neuropatia craniana diabética",
+      "c": "Síndrome miastênica de Lambert-Eaton",
+      "d": "Oftalmoplegia por AVC de tronco"
+     },
+     "correta": "a"
+    },
+    {
+     "enunciado": "Assinale o achado eletrofisiológico/laboratorial que sustenta o diagnóstico:",
+     "comentario": "Na miastenia, a estimulação nervosa repetitiva de BAIXA frequência (2-3 Hz) mostra decremento progressivo da amplitude (>10%), refletindo a falência da transmissão pós-sináptica; a eletromiografia de fibra única evidencia jitter aumentado (mais sensível). O anticorpo anti-receptor de ACh confirma em ~85% das formas generalizadas (anti-MuSK nos soronegativos). Os distratores mapeiam outras doenças: incremento >60% após exercício/alta frequência é o padrão de Lambert-Eaton (facilitação pré-sináptica); dissociação albuminocitológica é da síndrome de Guillain-Barré; bloqueio de condução multifocal motor caracteriza a neuropatia motora multifocal. Reforço: sempre solicitar TC/RM de tórax ao diagnosticar miastenia, pela associação com timoma/hiperplasia tímica, que muda a conduta (timectomia).",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Dissociação albuminocitológica no líquor",
+      "b": "Decremento >10% na estimulação nervosa repetitiva de baixa frequência e anticorpos anti-receptor de acetilcolina",
+      "c": "Incremento >60% após exercício na estimulação de alta frequência",
+      "d": "Bloqueio de condução multifocal motor"
+     },
+     "correta": "b"
+    },
+    {
+     "enunciado": "Identifique a conduta inicial mais apropriada para o controle sintomático:",
+     "comentario": "O tratamento sintomático de primeira linha é a piridostigmina (anticolinesterásico), que aumenta a acetilcolina na fenda e melhora a força; em paralelo, investiga-se timoma (TC de tórax) e orienta-se EVITAR fármacos precipitantes (aminoglicosídeos, fluoroquinolonas, macrolídeos, betabloqueadores, magnésio). Os erros: neostigmina isolada 'só em crise' subtrata a doença crônica; corticoide em pulso não é o esquema de manutenção padrão (a imunossupressão de manutenção usa prednisona em esquema ajustado e poupadores como azatioprina, e o próprio início do corticoide pode causar piora transitória); IVIG/plasmaférese são reservadas a exacerbações graves e à crise miastênica, não como primeira linha ambulatorial. Pérola de prova: disfagia e uso de musculatura acessória com hipoventilação (PaCO2 elevada) anunciam crise miastênica — emergência que demanda suporte ventilatório e IVIG/plasmaférese. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 110 — Miastenia Grave Adquirida.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Neostigmina apenas em crise e nenhuma investigação adicional",
+      "b": "Imunoglobulina venosa mensal indefinida como primeira linha",
+      "c": "Corticoide em pulso como único tratamento de manutenção",
+      "d": "Piridostigmina, investigando timoma e evitando fármacos que bloqueiam a junção neuromuscular"
+     },
+     "correta": "d"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Demências (hidrocefalia de pressão normal)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 74 anos é levado pela família por dificuldade progressiva para caminhar há um ano, com passos curtos, base alargada e sensação de 'pés grudados no chão', além de duas quedas. Os familiares notam esquecimentos e lentificação, e nos últimos meses episódios de urgência e perda urinária. O exame mostra marcha magnética, sem tremor de repouso nem rigidez em roda denteada; a tomografia revela ventriculomegalia desproporcional ao grau de atrofia cortical.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a hipótese diagnóstica mais provável:",
+     "comentario": "A tríade de Hakim-Adams — distúrbio de marcha (apráxica/magnética, o sintoma mais precoce e mais responsivo), declínio cognitivo subcortical e incontinência urinária — associada a ventriculomegalia desproporcional à atrofia é o quadro clássico da hidrocefalia de pressão normal (HPN). Parkinson idiopático cursa com tremor de repouso assimétrico, rigidez em roda denteada e bradicinesia, ausentes aqui, e a marcha é em bloco com festinação, não magnética de base alargada. Alzheimer típico inicia por amnésia episódica e não explica a marcha precoce nem a ventriculomegalia desproporcional. Demência por corpos de Lewy traz flutuação cognitiva, alucinações visuais e parkinsonismo, não a tríade descrita. Pérola: a HPN é uma das poucas causas POTENCIALMENTE REVERSÍVEIS de declínio cognitivo/marcha — daí a importância de reconhecê-la.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Hidrocefalia de pressão normal",
+      "b": "Demência por corpos de Lewy",
+      "c": "Doença de Alzheimer típica",
+      "d": "Doença de Parkinson idiopática"
+     },
+     "correta": "a"
+    },
+    {
+     "enunciado": "Assinale o exame/teste que melhor orienta a indicação terapêutica:",
+     "comentario": "A prova prognóstica da HPN é o tap test: retira-se 30-50 mL de líquor por punção lombar e avalia-se objetivamente a marcha (e a cognição) antes e depois; a melhora sustenta a indicação e prediz boa resposta à derivação. Os distratores investigam outras doenças: DAT-scan diferencia parkinsonismo degenerativo de não degenerativo (estaria normal na HPN, mas não é o teste indicado aqui); biomarcadores liquóricos amiloide/tau confirmam Alzheimer; a eletroneuromiografia avalia neuropatia/radiculopatia, sem papel diagnóstico na HPN. Reforço: alguns serviços usam drenagem lombar contínua por alguns dias quando o tap test é inconclusivo, aumentando a acurácia preditiva da resposta cirúrgica.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Eletroneuromiografia de membros inferiores",
+      "b": "Dosagem de biomarcadores liquóricos amiloide/tau",
+      "c": "Teste de retirada liquórica (tap test) com avaliação da marcha antes e depois",
+      "d": "Cintilografia com transportador de dopamina (DAT-scan)"
+     },
+     "correta": "c"
+    },
+    {
+     "enunciado": "Identifique a conduta terapêutica definitiva:",
+     "comentario": "O tratamento definitivo da HPN é a derivação ventriculoperitoneal (DVP), idealmente com válvula ajustável; os pacientes com marcha muito responsiva ao tap test são os que mais se beneficiam. As demais estão erradas: levodopa trata Parkinson e não corrige a hidrodinâmica liquórica; anticolinesterásico é fármaco de Alzheimer, sem indicação primária na HPN; acetazolamida e punções repetidas por tempo indefinido não constituem tratamento resolutivo e não substituem a derivação. Pérola clínica: a resposta é melhor quanto mais a marcha (e não a demência) domina o quadro e quanto menor o tempo de doença — por isso o diagnóstico e o encaminhamento neurocirúrgico precoces importam. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 102 — Hidrocefalia de Pressão Normal.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Levodopa em doses crescentes",
+      "b": "Anticolinesterásico (donepezila)",
+      "c": "Derivação ventriculoperitoneal (DVP)",
+      "d": "Acetazolamida e punções lombares seriadas por tempo indefinido"
+     },
+     "correta": "c"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas (hemorragia cerebelar espontânea)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 66 anos, hipertenso mal controlado, apresenta início súbito de cefaleia occipital intensa, vômitos e incapacidade de ficar em pé, evoluindo em duas horas com sonolência progressiva. Ao exame, ataxia de tronco e apendicular à esquerda, nistagmo e disartria; Glasgow em queda (de 14 para 11). A tomografia mostra hematoma no hemisfério cerebelar esquerdo de cerca de 3,5 cm, com compressão do quarto ventrículo e dilatação ventricular supratentorial.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a hipótese diagnóstica e o mecanismo predominante da deterioração:",
+     "comentario": "Cefaleia occipital súbita, vômitos, incapacidade de deambular e síndrome cerebelar (ataxia, nistagmo, disartria) em hipertenso, com TC evidenciando hematoma cerebelar, definem hemorragia intraparenquimatosa cerebelar hipertensiva. A deterioração do nível de consciência decorre de dois mecanismos somados: compressão direta do tronco encefálico e HIDROCEFALIA OBSTRUTIVA por compressão do IV ventrículo, com risco iminente de herniação. AVC de ACM daria hemiparesia/afasia e sinais hemisféricos, não síndrome cerebelar isolada, e a TC mostraria isquemia, não hematoma. HSA aneurismática pura cursa com cefaleia em trovoada e sangue nas cisternas/fissuras, não hematoma cerebelar com hidrocefalia obstrutiva. Crise com paralisia de Todd é déficit pós-ictal transitório, incompatível com o hematoma tomográfico. Pérola: a fossa posterior tem pouco espaço — pequenos hematomas causam grande efeito.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "AVC isquêmico de território de artéria cerebral média",
+      "b": "Hemorragia cerebelar hipertensiva com hidrocefalia obstrutiva e compressão de tronco",
+      "c": "Hemorragia subaracnóidea aneurismática sem hematoma parenquimatoso",
+      "d": "Crise convulsiva com paralisia de Todd"
+     },
+     "correta": "b"
+    },
+    {
+     "enunciado": "Assinale a medida inicial de estabilização mais adequada enquanto se define a conduta:",
+     "comentario": "O manejo inicial da hipertensão intracraniana segue o escalonamento: medidas gerais primeiro — cabeceira a 30°, cabeça em posição neutra, normovolemia, controle da via aérea, controle pressórico e correção de coagulopatia — reservando osmoterapia (manitol/salina hipertônica) e hiperventilação transitória para deterioração aguda, pois a hiperventilação agressiva de rotina reduz o fluxo cerebral. Os distratores são condutas ERRADAS e perigosas aqui: punção lombar está CONTRAINDICADA diante de efeito de massa/hidrocefalia obstrutiva (risco de herniação); antiagregação e trombólise agravariam uma hemorragia ativa — são intervenções de doença isquêmica, não hemorrágica. Reforço: normocapnia, normoglicemia, normotermia e evitar hipotensão/hipoxemia protegem o encéfalo lesado.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Trombólise endovenosa com alteplase",
+      "b": "Cabeceira a 30°, normovolemia e via aérea, controle pressórico e de coagulação, sem hiperventilação de rotina",
+      "c": "Punção lombar imediata para alívio da pressão",
+      "d": "Iniciar antiagregação plaquetária"
+     },
+     "correta": "b"
+    },
+    {
+     "enunciado": "Identifique a conduta definitiva mais indicada neste caso:",
+     "comentario": "Hematoma cerebelar > 3 cm com deterioração neurológica, compressão de tronco ou hidrocefalia é indicação clássica de EVACUAÇÃO CIRÚRGICA de urgência (craniectomia suboccipital descompressiva), frequentemente associada a derivação ventricular para tratar a hidrocefalia — diferentemente dos hematomas supratentoriais, em que a cirurgia é mais controversa. Os erros: manejo apenas clínico em enfermaria é inadequado para um paciente em herniação iminente; derivação ventricular ISOLADA pode aliviar a hidrocefalia mas não remove a compressão direta do tronco e pode até favorecer herniação ascendente se o hematoma não for tratado; alta precoce é impensável. Pérola de prova: o limiar cirúrgico da fossa posterior é mais baixo que o supratentorial justamente pelo risco de compressão troncular e morte súbita. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 163 — Hipertensão Intracraniana em Terapia Intensiva Neurológica.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Manejo exclusivamente clínico em enfermaria",
+      "b": "Alta precoce após controle da dor",
+      "c": "Drenagem cirúrgica do hematoma cerebelar (craniectomia de fossa posterior), com derivação ventricular se necessário",
+      "d": "Apenas derivação ventricular externa isolada, sem avaliar a evacuação do hematoma"
+     },
+     "correta": "c"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (AVC isquêmico cardioembólico por fibrilação atrial)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 71 anos, com palpitações intermitentes não investigadas, apresentou instalação súbita de afasia e hemiparesia direita, revertidas parcialmente em 48 horas. A tomografia mostrou área isquêmica cortical em território de ramo da artéria cerebral média esquerda, de aspecto embólico; o eletrocardiograma e o Holter documentaram fibrilação atrial não valvar. Ecocardiograma sem trombo visível; função renal normal.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o mecanismo mais provável do AVC:",
+     "comentario": "Infarto cortical de aspecto embólico em território de ramo da ACM, em paciente com fibrilação atrial não valvar documentada, aponta cardioembolia como mecanismo (classificação TOAST: cardioembólico). A aterotrombose de grande artéria produziria estenose carotídea sintomática com sopro/placa e padrão de território limítrofe ou artério-arterial, não necessariamente presente aqui. O infarto lacunar resulta de doença de pequenos vasos e gera síndromes lacunares (hemiparesia motora pura, etc.) com pequenas lesões subcorticais, não uma lesão cortical embólica com afasia. Vasoespasmo é complicação da HSA, contexto ausente. Pérola: a FA multiplica por ~5 o risco de AVC, e os êmbolos cardíacos tipicamente atingem o córtex, poupando o padrão lacunar profundo.",
+     "dificuldade": "facil",
+     "alternativas": {
+      "a": "Cardioembolia por fibrilação atrial",
+      "b": "Oclusão de pequena artéria perfurante (lacunar)",
+      "c": "Aterotrombose de grande artéria carotídea",
+      "d": "Vasoespasmo pós-hemorragia subaracnóidea"
+     },
+     "correta": "a"
+    },
+    {
+     "enunciado": "Assinale a ferramenta que melhor estima o risco tromboembólico e orienta a prevenção:",
+     "comentario": "O risco de tromboembolismo na fibrilação atrial não valvar é estimado pelo escore CHA2DS2-VASc (idade, sexo, hipertensão, diabetes, insuficiência cardíaca, AVC/AIT prévio, doença vascular); uma paciente que JÁ teve AVC pontua alto e tem indicação formal de anticoagulação. Os distratores são escalas de outras doenças: Hunt-Hess gradua a hemorragia subaracnóidea; Hoehn-Yahr estadia a doença de Parkinson; El Escorial classifica a esclerose lateral amiotrófica. Reforço útil: o escore HAS-BLED é usado em paralelo para estimar risco de sangramento, mas alto HAS-BLED não contraindica anticoagular — indica corrigir fatores modificáveis (pressão, álcool, fármacos) e vigiar.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Escala de Hoehn-Yahr",
+      "b": "Escore de Hunt-Hess",
+      "c": "Escore CHA2DS2-VASc",
+      "d": "Critérios de El Escorial"
+     },
+     "correta": "c"
+    },
+    {
+     "enunciado": "Identifique a conduta de prevenção secundária mais adequada:",
+     "comentario": "Na FA não valvar com AVC/AIT, a prevenção secundária é a ANTICOAGULAÇÃO ORAL — anticoagulantes diretos (dabigatrana, rivaroxabana, apixabana, edoxabana) são preferidos à varfarina na FA não valvar por melhor perfil de segurança; a varfarina permanece indicada na FA valvar/prótese mecânica. O início respeita a regra do timing pós-AVC (quanto maior o infarto, maior o risco de transformação hemorrágica — daí adiar dias em infartos extensos: princípio '1-3-6-12'). Os erros: AAS isolado é inferior à anticoagulação na cardioembolia por FA; trombólise tardia está fora de janela e não é prevenção; dupla antiagregação permanente aumenta sangramento sem cobrir adequadamente o risco embólico da FA. Pérola: controlar rigorosamente a pressão arterial é a medida isolada mais custo-efetiva de prevenção de AVC. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 52 — Prevenção do AVC.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Antiagregação simples com AAS indefinidamente, sem anticoagular",
+      "b": "Anticoagulação oral (anticoagulante direto ou varfarina), iniciada em janela conforme o tamanho do infarto",
+      "c": "Dupla antiagregação plaquetária permanente",
+      "d": "Trombólise endovenosa tardia"
+     },
+     "correta": "b"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropediatria específica (complexo esclerose tuberosa)",
+   "tier": "MÉDIO",
+   "vinheta": "Lactente de 7 meses é levado por espasmos em flexão do tronco e membros em salvas, várias vezes ao dia, com regressão de marcos adquiridos. A mãe notou, desde o nascimento, manchas hipocrômicas ovaladas no tronco, mais visíveis à luz de Wood. O eletroencefalograma mostra hipsarritmia, e a ressonância revela túberes corticais e nódulos subependimários; a ecocardiografia identifica um rabdomioma cardíaco.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a hipótese diagnóstica que unifica os achados:",
+     "comentario": "A combinação de espasmos epilépticos com hipsarritmia (síndrome de West), máculas hipocrômicas 'em folha de freixo' (ash-leaf), túberes corticais/nódulos subependimários e rabdomioma cardíaco é diagnóstica do complexo esclerose tuberosa (mutações em TSC1/TSC2, via mTOR). Neurofibromatose tipo 1 cursa com manchas café-com-leite, efélides axilares/inguinais, neurofibromas e nódulos de Lisch — não máculas hipocrômicas nem rabdomioma. Sturge-Weber associa mancha vinho-do-porto no território do trigêmeo a angioma leptomeníngeo e glaucoma, sem os achados descritos. Incontinência pigmentar (ligada ao X) evolui com lesões cutâneas em estágios vesicular-verrucoso-hiperpigmentado seguindo as linhas de Blaschko, quadro distinto. Pérola: máculas hipocrômicas realçadas pela lâmpada de Wood no lactente com espasmos devem levantar esclerose tuberosa.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Complexo esclerose tuberosa",
+      "b": "Incontinência pigmentar",
+      "c": "Neurofibromatose tipo 1",
+      "d": "Síndrome de Sturge-Weber"
+     },
+     "correta": "a"
+    },
+    {
+     "enunciado": "Assinale o exame mais útil para caracterizar as crises deste lactente e orientar o manejo:",
+     "comentario": "Os espasmos epilépticos infantis são caracterizados pelo eletroencefalograma, que mostra a hipsarritmia — atividade caótica de alta voltagem com pontas multifocais — configurando a síndrome de West, frequente na esclerose tuberosa. O reconhecimento precoce importa porque o controle rápido das crises melhora o prognóstico do neurodesenvolvimento. Os distratores não se aplicam: bandas oligoclonais investigam doença desmielinizante (esclerose múltipla), inexistente no lactente; eletroneuromiografia avalia nervo/músculo periférico, não crises corticais; Doppler transcraniano estuda fluxo arterial, sem papel diagnóstico aqui. Reforço: além do EEG, a investigação inclui RM de crânio (túberes/SEGA), ecocardiograma (rabdomioma), ultrassom renal (angiomiolipomas) e avaliação oftalmológica.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Eletroneuromiografia",
+      "b": "Eletroencefalograma (padrão de hipsarritmia da síndrome de West)",
+      "c": "Punção lombar com pesquisa de bandas oligoclonais",
+      "d": "Doppler transcraniano"
+     },
+     "correta": "b"
+    },
+    {
+     "enunciado": "Identifique a conduta terapêutica de primeira linha para os espasmos neste contexto específico:",
+     "comentario": "Nos espasmos epilépticos associados à esclerose tuberosa, a vigabatrina é o fármaco de primeira linha, com resposta particularmente boa nessa etiologia (nos demais casos de síndrome de West usam-se também ACTH/corticoide). Os distratores estão errados: fenitoína e carbamazepina são inadequadas — bloqueadores de canal de sódio podem AGRAVAR encefalopatias epilépticas/espasmos e certas epilepsias generalizadas; 'apenas observação' é inaceitável, pois o atraso no controle das crises piora o desfecho cognitivo. Conteúdo de reforço: inibidores de mTOR (everolimo) têm papel crescente na esclerose tuberosa (SEGA, crises refratárias, angiomiolipomas). A vigabatrina exige vigilância oftalmológica pelo risco de constrição campimétrica. 📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 180 — Síndromes Neurocutâneas.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Apenas observação clínica",
+      "b": "Carbamazepina oral",
+      "c": "Vigabatrina",
+      "d": "Fenitoína endovenosa"
+     },
+     "correta": "c"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas regionais (leishmaniose visceral/calazar) [RE cota individual: Ana Teresa]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino de 2 anos, procedente de município do semiárido baiano, é levado por febre irregular há cerca de 6 semanas, palidez progressiva, distensão abdominal e perda de peso. Ao exame, hipoativo, muito pálido, com hepatoesplenomegalia volumosa (baço a 6 cm do rebordo costal) e edema discreto de membros. O hemograma mostra pancitopenia e o proteinograma revela hipoalbuminemia com hipergamaglobulinemia (inversão da relação albumina/globulina).",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a principal suspeita diagnóstica:",
+     "comentario": "Febre arrastada por semanas, palidez, emagrecimento, hepatoesplenomegalia volumosa, pancitopenia e inversão albumina/globulina (hipergamaglobulinemia policlonal) em criança de área endêmica do Nordeste compõem o quadro clássico da leishmaniose visceral (calazar), causada por Leishmania infantum/chagasi e transmitida pelo flebotomíneo Lutzomyia longipalpis. A leucemia aguda entra no diferencial da pancitopenia, mas costuma trazer dor óssea, blastos no sangue periférico e adenomegalia, e a esplenomegalia raramente é tão isolada com hipergamaglobulinemia marcante. A esquistossomose hepatoesplênica cursa com hipertensão portal e esplenomegalia, porém sem a febre prolongada com pancitopenia e hipergamaglobulinemia tão exuberantes, e há história epidemiológica de contato com água. A malária grave dá febre com padrão mais agudo/periódico e parasitemia detectável, não esse curso subagudo de semanas. Pérola: calazar é doença de notificação compulsória.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Esquistossomose hepatoesplênica",
+      "b": "Malária grave",
+      "c": "Leucemia linfoblástica aguda",
+      "d": "Leishmaniose visceral"
+     },
+     "correta": "d"
+    },
+    {
+     "enunciado": "Assinale o exame considerado padrão-ouro para a confirmação etiológica:",
+     "comentario": "A confirmação parasitológica de referência é a visualização das formas amastigotas em aspirado de medula óssea (ou de baço, de maior sensibilidade porém mais arriscado); testes sorológicos (imunocromatográfico rK39, imunofluorescência) e moleculares apoiam o diagnóstico, sobretudo na triagem. Os distratores: hemocultura investiga bacteriemia/sepse, não protozoário intracelular; tomografia de abdome apenas caracteriza visceromegalias, sem definir etiologia; eletroforese de hemoglobina serve para hemoglobinopatias (anemia falciforme/talassemia), diferencial de anemia, mas não confirma calazar. Reforço: o rK39 tem alta sensibilidade e é prático em campo, mas o encontro do parasito é quem fecha o diagnóstico nos casos duvidosos.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Tomografia de abdome",
+      "b": "Hemocultura automatizada",
+      "c": "Pesquisa do parasito em aspirado de medula óssea",
+      "d": "Eletroforese de hemoglobina"
+     },
+     "correta": "c"
+    },
+    {
+     "enunciado": "Identifique o tratamento de primeira escolha para esta criança, segundo o Ministério da Saúde:",
+     "comentario": "O Ministério da Saúde recomenda a anfotericina B lipossomal como PRIMEIRA escolha em grupos de maior risco de gravidade e óbito, entre eles as crianças menores de 1 ano e também situações como idade > 50 anos, gestação, coinfecção HIV, sinais de gravidade e comorbidades hepática/renal/cardíaca; no lactente/criança pequena deste caso, a formulação lipossomal é preferida ao antimonial. Os antimoniais pentavalentes (antimoniato de meglumina) foram por muito tempo a base do tratamento, mas exigem esquema prolongado e têm cardio/nefrotoxicidade — e NÃO são dose única. Praziquantel trata esquistossomose/teníase, e cloroquina trata malária (por Plasmodium) — nenhum age sobre Leishmania. Pérola: reconhecer os critérios de gravidade que indicam a anfotericina lipossomal é ponto recorrente e muda a conduta. 📚 Leitura sugerida (bloco): Ministério da Saúde — Manual de Vigilância e Controle da Leishmaniose Visceral (PCDT/MS).",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Cloroquina",
+      "b": "Praziquantel",
+      "c": "Antimonial pentavalente em dose única",
+      "d": "Anfotericina B lipossomal"
+     },
+     "correta": "d"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas respiratórias (pneumonia afebril do lactente/Chlamydia trachomatis) [REAL: SUS-BA R+ 2022]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 6 semanas de vida, nascida de parto natural a termo, sem intercorrências, é levada à UBS com relato de que, há uma semana, vem cursando com coriza e lacrimejamento e que, há aproximadamente 48 horas, apresenta respiração rápida. Nega febre. Ao exame, ativa, hidratada, temperatura de 37,2°C, taquipneica (FR 55 ipm). Observa-se hiperemia conjuntival bilateral, com lacrimejamento e coriza fluida. Ausculta cardíaca normal; campos pulmonares com murmúrio vesicular bem distribuído, crépitos disseminados e raros sibilos. Abdome globoso, timpânico, sem visceromegalias.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando os achados e a epidemiologia, indique o diagnóstico deste caso:",
+     "comentario": "[Questão real — SUS-BA R+ 2022] Lactente jovem (6 semanas) com taquipneia, crépitos disseminados e infiltrado clínico, SEM febre, e com o dado epidemiológico da conjuntivite/lacrimejamento prévios, configura pneumonia afebril do lactente. A ausculta com crépitos e a taquipneia definem acometimento do parênquima (pneumonia), não apenas de vias aéreas. Bronquite/traqueobronquite limitam-se às vias aéreas e não explicam os crépitos/taquipneia com hipoxemia potencial. Bronquiolite é possível diferencial (lactente, sibilos), mas cursa tipicamente com sibilância predominante e pródromo viral, e não com a associação característica de conjuntivite neonatal + pneumonia afebril. Pérola: a tríade tosse 'em staccato' afebril + conjuntivite prévia + eosinofilia/infiltrado intersticial aponta Chlamydia trachomatis adquirida no canal de parto.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Traqueobronquite",
+      "b": "Bronquiolite",
+      "c": "Bronquite",
+      "d": "Pneumonia"
+     },
+     "correta": "d"
+    },
+    {
+     "enunciado": "Considerando os achados e a epidemiologia, identifique o agente mais provável:",
+     "comentario": "[Questão real — SUS-BA R+ 2022] A combinação conjuntivite neonatal prévia + pneumonia afebril entre a 3ª e a 12ª semana de vida é a marca da infecção por Chlamydia trachomatis, adquirida na passagem pelo canal de parto. O vírus sincicial respiratório causa bronquiolite, com sibilância e frequentemente febre, não o quadro afebril com conjuntivite. O Streptococcus do grupo B é agente de sepse/pneumonia NEONATAL PRECOCE (primeiros dias de vida), com quadro grave e febril, não afebril arrastado às 6 semanas. Moraxella catarrhalis é causa de otite/sinusite, não desse padrão. Reforço: a eosinofilia periférica e o infiltrado intersticial reforçam a etiologia por clamídia; a mãe pode ter tido cervicite assintomática.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Vírus Sincicial Respiratório",
+      "b": "Chlamydia trachomatis",
+      "c": "Streptococcus do grupo B",
+      "d": "Moraxella catarrhalis"
+     },
+     "correta": "b"
+    },
+    {
+     "enunciado": "Considerando os achados e a epidemiologia, indique o tratamento farmacológico recomendado:",
+     "comentario": "[Questão real — SUS-BA R+ 2022] A pneumonia/conjuntivite por Chlamydia trachomatis do lactente é tratada com MACROLÍDEO — classicamente eritromicina (azitromicina é alternativa) —, que cobre o agente intracelular. Amoxicilina/clavulanato cobre bactérias piogênicas comuns, mas NÃO age sobre clamídia (sem parede celular típica). Salbutamol é broncodilatador para broncoespasmo (útil eventualmente na bronquiolite/asma), sem efeito etiológico aqui. Aciclovir é antiviral para herpes, fora de contexto. Pérola de segurança: em lactentes muito jovens, o uso de macrolídeo (sobretudo eritromicina) foi associado a estenose hipertrófica de piloro — vigiar vômitos; ainda assim o macrolídeo é o tratamento indicado. 📚 Leitura sugerida (bloco): MEDGRUPO R+ Pediatria 2024 — Infecções respiratórias (bronquiolite e pneumonia) (https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view).",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Aciclovir",
+      "b": "Amoxicilina + clavulanato",
+      "c": "Eritromicina",
+      "d": "Salbutamol"
+     },
+     "correta": "c"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição/Hepatologia (doença hepática gordurosa não alcoólica no adolescente) [REAL: SUS-BA R+ 2026]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Adolescente do sexo masculino, 14 anos de idade, retorna à consulta com a mãe, que refere ganho de peso e muito tempo em frente ao computador, com dieta hipercalórica. Nega etilismo e uso de medicamentos; histórias pessoal e familiar sem informações contributórias. Ao exame: peso 78 kg; altura 1,66 m (IMC 28,3 kg/m², acima do percentil 95 para idade e sexo); PA 130x85 mmHg; abdome com fígado palpável a 2 cm do rebordo costal direito, borda romba, superfície lisa. Laboratório: glicemia de jejum 105 mg/dL; AST 48 U/L; ALT 82 U/L; triglicerídeos 215 mg/dL; HDL 36 mg/dL; ultrassonografia com fígado de ecogenicidade difusamente aumentada.",
+   "perguntas": [
+    {
+     "enunciado": "Com base nos dados apresentados, indique o diagnóstico mais provável para o adolescente:",
+     "comentario": "[Questão real — SUS-BA R+ 2026] Adolescente com obesidade (IMC > P95), síndrome metabólica em construção (glicemia limítrofe, hipertrigliceridemia, HDL baixo, PA elevada), hepatomegalia de esteatose e transaminases discretamente elevadas com ALT > AST e ultrassom de fígado hiperecogênico define a doença hepática gordurosa não alcoólica (esteatose) — hoje a hepatopatia crônica mais comum na infância/adolescência. Deficiência de alfa-1-antitripsina cursaria com história familiar/pulmonar e padrão distinto, sem o contexto metabólico. Hepatite viral crônica exigiria sorologias positivas e nexo epidemiológico, ausentes. Doença de Wilson é diferencial importante de hepatopatia no jovem, mas costuma trazer ceruloplasmina baixa, anéis de Kayser-Fleischer e/ou manifestações neuropsiquiátricas — não o quadro metabólico clássico aqui. Pérola: a DHGNA é diagnóstico de exclusão apoiado no contexto de obesidade/resistência insulínica.",
+     "dificuldade": "facil",
+     "alternativas": {
+      "a": "Doença hepática gordurosa não alcoólica",
+      "b": "Hepatite viral crônica",
+      "c": "Deficiência de alfa-1-antitripsina",
+      "d": "Doença de Wilson"
+     },
+     "correta": "a"
+    },
+    {
+     "enunciado": "Indique o marcador laboratorial mais sensível na avaliação do distúrbio identificado:",
+     "comentario": "[Questão real — SUS-BA R+ 2026] Na esteatose hepática não alcoólica, o padrão típico é ALT (TGP) mais elevada que AST (TGO) — a ALT é a transaminase mais sensível e mais específica de lesão hepatocelular por gordura. A relação AST > ALT sugere, ao contrário, doença hepática ALCOÓLICA ou fibrose avançada/cirrose, não o perfil inicial da DHGNA. A gama-GT pode elevar-se, mas é inespecífica (colestase, álcool, indução enzimática), não sendo o marcador mais sensível pedido. Hiperbilirrubinemia direta importante indicaria colestase/lesão avançada, que não caracteriza a esteatose simples. Reforço: cuidado com a pegadinha da ordem AST/ALT — a banca gosta de inverter a relação; na DHGNA é ALT > AST.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Hiperbilirrubinemia direta importante",
+      "b": "AST mais elevada do que ALT",
+      "c": "ALT mais elevada do que AST",
+      "d": "Gama-GT elevada"
+     },
+     "correta": "c"
+    },
+    {
+     "enunciado": "Indique a conduta inicial mais adequada para esse paciente:",
+     "comentario": "[Questão real — SUS-BA R+ 2026] A base do tratamento da DHGNA no adolescente é a mudança de estilo de vida: reeducação alimentar, atividade física regular e perda ponderal gradual, que revertem a esteatose e melhoram o perfil metabólico — nenhuma medicação isolada substitui isso na abordagem inicial. Iniciar fibrato 'de imediato' é precipitado e não trata a causa (a hipertrigliceridemia costuma melhorar com a perda de peso). A biópsia hepática não é necessária de rotina para confirmar o diagnóstico — reserva-se a dúvidas ou suspeita de esteato-hepatite avançada/fibrose. Corticoide não tem qualquer indicação aqui. Pérola: a DHGNA é sinal sentinela de risco cardiometabólico — rastrear e tratar dislipidemia, pré-diabetes e hipertensão junto. 📚 Leitura sugerida (bloco): MEDGRUPO R+ Pediatria 2024 — Gastroenterologia/Hepatologia (https://drive.google.com/file/d/1rIrgkiZ_nqlMcMBeZ6RLspQk90rW_S3w/view).",
+     "dificuldade": "facil",
+     "alternativas": {
+      "a": "Reeducação alimentar, atividade física regular e controle do peso",
+      "b": "Prescrever corticoide por 14 dias",
+      "c": "Iniciar fibrato de imediato para reduzir triglicerídeos",
+      "d": "Solicitar biópsia hepática para confirmação diagnóstica"
+     },
+     "correta": "a"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências Pediátricas (trauma/atendimento pré-hospitalar PHTLS-ATLS) [REAL: SUS-BA R+ 2024]",
+   "tier": "ALTO",
+   "vinheta": "O Serviço de Atendimento Pré-Hospitalar é acionado para um acidente. O primeiro socorrista constata uma cena de acidente de trânsito envolvendo uma criança de 5 anos. A criança estava no banco traseiro de um veículo que colidiu com outro carro; o impacto foi significativo. A criança está consciente, chorando e queixando-se de dor abdominal. Está presa na cadeirinha do carro. Há danos no veículo.",
+   "perguntas": [
+    {
+     "enunciado": "Segundo o cenário e as diretrizes do PHTLS e do ATLS, indique o parâmetro que constitui a primeira avaliação na criança:",
+     "comentario": "[Questão real — SUS-BA R+ 2024] O atendimento ao trauma segue a sequência ABCDE: a PRIMEIRA prioridade é a via aérea com controle da coluna cervical e a respiração (A e B), pois obstrução/insuficiência respiratória matam em minutos. A pulsação/circulação (C) e a saturação são avaliadas na sequência, não antes de garantir a via aérea. O exame neurológico completo (D) vem depois de estabilizados A, B e C — na cena não se perde tempo com avaliação neurológica detalhada antes do essencial. Pérola: 'via aérea com proteção cervical primeiro' é a regra de ouro do trauma; hipóxia e hipotensão são os dois maiores determinantes de mau desfecho no trauma pediátrico.",
+     "dificuldade": "facil",
+     "alternativas": {
+      "a": "A permeabilidade das vias aéreas e a respiração",
+      "b": "A pulsação da criança",
+      "c": "A saturação de oxigênio",
+      "d": "O exame neurológico completo"
+     },
+     "correta": "a"
+    },
+    {
+     "enunciado": "Segundo o PHTLS/ATLS, identifique a melhor abordagem para imobilização e transporte da criança:",
+     "comentario": "[Questão real — SUS-BA R+ 2024] A conduta correta é imobilizar rigidamente a coluna cervical ANTES de qualquer mobilização e só então retirar a criança da cadeirinha, prevenindo lesão medular durante a remoção. Transportar a criança AINDA na cadeirinha (opções que propõem isso) é inadequado num impacto significativo, pois a cadeirinha não garante alinhamento/estabilização da coluna para o transporte hospitalar. A opção de 'remover e colocar na maca em posição neutra' descreve o objetivo final, mas sem enfatizar a imobilização cervical PRÉVIA como passo condicionante — por isso a banca priorizou a alternativa que coloca a estabilização cervical rígida antes da remoção. Reforço: no trauma, mobilizar em bloco (log-roll), manter alinhamento neutro e evitar flexão/extensão cervical.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Realizar imobilização rígida da coluna cervical e, então, removê-la da cadeirinha",
+      "b": "Usar colar cervical na posição em que foi encontrada e transportá-la na cadeirinha",
+      "c": "Imobilizar a criança na posição em que está e transportá-la na cadeirinha",
+      "d": "Remover a criança da cadeirinha e imobilizá-la na maca, em posição neutra"
+     },
+     "correta": "a"
+    },
+    {
+     "enunciado": "Indique a conduta apropriada da equipe pré-hospitalar em relação à dor abdominal referida pela criança:",
+     "comentario": "[Questão real — SUS-BA R+ 2024] Diante de dor abdominal no trauma, a conduta pré-hospitalar é NÃO agravar possível lesão de víscera/hemorragia: evitar palpação vigorosa e transportar rapidamente para avaliação hospitalar, onde há recursos de imagem e cirurgia. Fazer ultrassonografia no local do acidente não é o papel do socorrista de cena e atrasa o transporte. Pressionar o abdome com firmeza 'para confirmar a dor' pode deslocar coágulos e piorar sangramento de órgão sólido (baço/fígado, comuns no trauma infantil). Incisão abdominal na cena é conduta claramente inaceitável/antiética. Pérola: no trauma pediátrico, o abdome é frequentemente sede de lesão oculta — a criança compensa e descompensa rápido; transporte ágil ao centro adequado salva vidas. 📚 Leitura sugerida (bloco): Choque em Pediatria (apostila) — atendimento inicial ao trauma e ao choque (https://drive.google.com/file/d/11Wx8xIUFnHO1M-dvnxHASuSgNWNSz9H8/view).",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Realizar ultrassonografia abdominal no local do acidente",
+      "b": "Realizar incisão abdominal de emergência para avaliar os órgãos internos",
+      "c": "Evitar qualquer palpação abdominal vigorosa e transportar a criança para o hospital",
+      "d": "Pressionar a área abdominal com firmeza para verificar se realmente há dor"
+     },
+     "correta": "c"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nefrologia (síndrome nefrótica idiopática/lesões mínimas) [REAL: SUS-BA R+ 2025]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 6 anos de idade, é trazida à Emergência com 'inchaço' no rosto há cerca de uma semana, que progrediu para as pernas e o abdome. Refere cansaço e urina espumosa. Ao exame, apresenta edema periocular, edema de membros inferiores e ascite moderada. Exames laboratoriais: albumina sérica 2,0 g/dL; proteinúria 4+; colesterol total 300 mg/dL; ureia 50 mg/dL; creatinina 0,7 mg/dL; PA 90/60 mmHg.",
+   "perguntas": [
+    {
+     "enunciado": "Em relação à epidemiologia do diagnóstico mais provável, é correto afirmar que:",
+     "comentario": "[Questão real — SUS-BA R+ 2025] O quadro — edema progressivo, proteinúria maciça (4+), hipoalbuminemia (2,0 g/dL) e hipercolesterolemia, com função renal e pressão preservadas — é a síndrome nefrótica idiopática, cuja causa mais frequente na criança pré-escolar é a doença por lesões mínimas. Epidemiologicamente, predomina em MENINOS (cerca de 2:1) na faixa de ~2 a 8 anos, o que torna a alternativa correta. Dizer que é igualmente comum em ambos os sexos e em todas as idades ignora esse predomínio etário e por sexo. 'Ocorre apenas em doenças congênitas' é falso — a forma idiopática é adquirida e a mais comum. 'Predomina em adolescentes' também é incorreto para a lesão mínima, mais típica do pré-escolar (nos adolescentes cresce a proporção de glomeruloesclerose segmentar e focal). Pérola: proteinúria + hipoalbuminemia + edema + dislipidemia = tétrade nefrótica.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "É igualmente comum em meninos e meninas, em todas as idades",
+      "b": "É mais comum em meninos do que em meninas, entre 2 e 8 anos",
+      "c": "Ocorre predominantemente em adolescentes",
+      "d": "Ocorre apenas em crianças com doenças congênitas"
+     },
+     "correta": "b"
+    },
+    {
+     "enunciado": "Indique o mecanismo fisiopatológico subjacente mais provável:",
+     "comentario": "[Questão real — SUS-BA R+ 2025] Na doença por lesões mínimas, a proteinúria decorre de disfunção imunomediada dos podócitos (fatores circulantes/linfócitos T alteram a barreira de filtração glomerular, com fusão dos processos podocitários vista à microscopia eletrônica) — daí a boa resposta a corticoide. A 'alteração genética do colágeno glomerular' descreve a síndrome de Alport (hematúria, surdez), não a lesão mínima. 'Disfunção tubular levando à perda de proteína' remete a proteinúria tubular (de baixo peso molecular), diferente da proteinúria GLOMERULAR maciça e seletiva da síndrome nefrótica. A diminuição da síntese hepática de albumina inverte a causalidade: a hipoalbuminemia é CONSEQUÊNCIA da perda urinária, não causa primária. Reforço: proteinúria seletiva (predomínio de albumina) favorece lesão mínima.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Disfunção tubular renal levando à perda de proteína",
+      "b": "Diminuição da síntese hepática de albumina",
+      "c": "Alteração genética de proteínas do colágeno glomerular",
+      "d": "Ativação do sistema imune com lesão glomerular"
+     },
+     "correta": "d"
+    },
+    {
+     "enunciado": "Após a estabilização do quadro, indique a conduta de acompanhamento mais importante a longo prazo:",
+     "comentario": "[Questão real — SUS-BA R+ 2025] O seguimento a longo prazo da síndrome nefrótica baseia-se na monitorização regular da pressão arterial e da proteinúria (fita/relação proteína-creatinina), pois recaídas são frequentes e a proteinúria persistente/hipertensão sinalizam risco renal. Suspender o corticoide 'imediatamente' contraria o desmame gradual necessário para reduzir recidiva e evitar insuficiência adrenal. Ciclosporina não é usada de rotina para 'prevenir recidivas' em todos — reserva-se aos casos corticodependentes/corticorresistentes ou com toxicidade ao corticoide. Biópsia renal ANUAL não é indicada — a biópsia tem indicações específicas (corticorresistência, apresentação atípica, hematúria/HAS/insuficiência renal), não como vigilância periódica. Pérola: orientar a família a monitorar proteinúria domiciliar ajuda a detectar recaídas precocemente. 📚 Leitura sugerida (bloco): MEDGRUPO R+ Pediatria 2024 — Nefrologia (síndrome nefrótica) (https://drive.google.com/file/d/1KuvXkP9naQp1_JIcYrTNEDsoqD5K3DXG/view).",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Suspender os corticosteroides imediatamente",
+      "b": "Monitorar a pressão arterial e a proteinúria regularmente",
+      "c": "Realizar biópsia renal anual para avaliar progressão",
+      "d": "Terapia com ciclosporina para prevenir recidivas"
+     },
+     "correta": "b"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição/Metabolismo ósseo (raquitismo hipofosfatêmico vs. carencial) [REAL: SUS-BA R+ 2022]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 18 meses, é trazido ao ambulatório de referência porque apresenta arqueamento de membros inferiores. A genitora informa ter observado que essa característica tem aumentado após a criança começar a deambular. Sem outras queixas. Foi alimentado exclusivamente com leite materno até 6 meses, passando a complementar com novos alimentos, e come de tudo atualmente. Usou suplementação com vitaminas A e D, segundo orientação do pediatra. Ao exame, encontra-se no percentil 50 para o peso e no percentil 5 para a altura, em bom estado geral, ativo, com dados vitais normais e corado. A única anormalidade perceptível é o arqueamento dos membros inferiores com geno varo.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável para o caso:",
+     "comentario": "[Questão real — SUS-BA R+ 2022] A pista central é que a criança RECEBEU suplementação adequada de vitamina D e ainda assim desenvolveu raquitismo (geno varo progressivo após iniciar a marcha, baixa estatura desproporcional com peso preservado). Isso afasta as causas carenciais e aponta o raquitismo hipofosfatêmico genético (mais comum o ligado ao X, por perda renal de fosfato via FGF23), que não responde à vitamina D comum. As opções 'deficiência na oferta de vitamina D' e 'deficiência na absorção de colecalciferol' são incompatíveis com a história de suplementação eficaz. 'Osteodistrofia' remete à doença óssea da insuficiência renal crônica, sem os dados que a sustentem aqui (função renal/quadro sistêmico). Pérola: raquitismo APESAR de vitamina D adequada = pensar em causa hipofosfatêmica/tubular, não carencial.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Hipofosfatemia genética primária",
+      "b": "Osteodistrofia",
+      "c": "Deficiência na oferta de vitamina D",
+      "d": "Deficiência na absorção de colecalciferol"
+     },
+     "correta": "a"
+    },
+    {
+     "enunciado": "Especifique o resultado esperado dos exames para a confirmação da principal suspeita diagnóstica:",
+     "comentario": "[Questão real — SUS-BA R+ 2022] No raquitismo hipofosfatêmico ligado ao X, o padrão é: cálcio sérico NORMAL, fósforo (fosfato) BAIXO por perda renal, fosfatase alcalina ELEVADA (atividade osteoblástica aumentada) e SEM aminoacidúria — a perda tubular é seletiva de fosfato, diferentemente da síndrome de Fanconi. Os distratores confundem justamente pela aminoacidúria: 'fosfato baixo com aminoácidos elevados' sugeriria disfunção tubular proximal global (Fanconi), não a hipofosfatemia isolada; os padrões com cálcio baixo/fosfato normal apontam para raquitismo carencial por deficiência de vitamina D (onde tipicamente há hipocalcemia/hipofosfatemia com PTH alto e FA elevada), que NÃO é o caso porque a criança recebeu vitamina D. Reforço: fósforo baixo + aminoacidúria normal + cálcio normal é a assinatura laboratorial pedida.",
+     "dificuldade": "dificil",
+     "alternativas": {
+      "a": "Cálcio sérico normal; fosfato baixo; fosfatase alcalina elevada; aminoácidos na urina normais",
+      "b": "Cálcio sérico normal; fosfato baixo; fosfatase alcalina elevada; aminoácidos na urina elevados",
+      "c": "Cálcio sérico baixo; fosfato normal; fosfatase alcalina normal; aminoácidos na urina normais",
+      "d": "Cálcio sérico baixo; fosfato normal; fosfatase alcalina elevada; aminoácidos na urina elevados"
+     },
+     "correta": "a"
+    },
+    {
+     "enunciado": "Indique o tratamento farmacológico para a condição apresentada no caso:",
+     "comentario": "[Questão real — SUS-BA R+ 2022] Como o defeito é a perda renal de fosfato, a base do tratamento é a reposição de FOSFATO (fosfato oral em doses fracionadas), habitualmente associada a metabólito ativo da vitamina D (calcitriol) para prevenir hiperparatireoidismo secundário — mas, entre as opções, o item que trata a causa é o fosfato. O colecalciferol (vitamina D comum) já vinha sendo ofertado e não corrige a perda tubular — reforça o raciocínio de que não é raquitismo carencial. O paratormônio não é tratamento desta condição (o PTH tende a estar normal/reativo). Calcitriol isolado, sem repor fosfato, não corrige a hipofosfatemia de base. Pérola clínica atual: em muitos serviços o anticorpo anti-FGF23 (burosumabe) tornou-se opção específica no hipofosfatêmico ligado ao X, mas a reposição de fosfato + calcitriol permanece como base clássica cobrada. 📚 Leitura sugerida (bloco): Nutrição em Pediatria na Prática Clínica (Sarni, 2021) — raquitismo e metabolismo do cálcio/fósforo (https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view).",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Calcitriol",
+      "b": "Paratormônio",
+      "c": "Colecalciferol",
+      "d": "Fosfato"
+     },
+     "correta": "d"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Saúde Coletiva, APS e Ética (seguimento da criança com síndrome de Down na APS)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Lactente de 4 meses com síndrome de Down confirmada por cariótipo (trissomia do 21) é acompanhada na Unidade Básica de Saúde. A família tem acesso irregular a consultas com especialistas e pergunta como deve ser o seguimento. A criança teve ecocardiograma neonatal com pequena comunicação em acompanhamento pela cardiologia, apresenta hipotonia e ganho ponderal adequado.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a conduta que melhor traduz o papel central da Atenção Primária no cuidado desta criança:",
+     "comentario": "O eixo do cuidado da criança com síndrome de Down na Atenção Primária é a COORDENAÇÃO do cuidado: a UBS constrói um Projeto Terapêutico Singular (PTS) multiprofissional, acompanha o desenvolvimento com a Caderneta, organiza rastreios e articula os diversos especialistas — sem transferir integralmente a responsabilidade. Encaminhar 'só ao cardiologista' e suspender o acompanhamento fragmenta o cuidado e ignora as demais comorbidades; 'aguardar a família procurar' desconhece o papel ativo da APS e a busca ativa pelo agente comunitário, sobretudo diante de acesso irregular; restringir-se a vacinar reduz a APS a uma função pontual. Diretriz: as Diretrizes de Atenção à Saúde da Pessoa com Síndrome de Down (MS/SBP) situam a APS como ordenadora do cuidado longitudinal e coordenadora da rede.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Restringir-se a aplicar as vacinas do calendário",
+      "b": "Coordenar o cuidado por meio de um Projeto Terapêutico Singular multiprofissional, com vigilância do desenvolvimento e articulação dos especialistas",
+      "c": "Encaminhar exclusivamente ao cardiologista e suspender o acompanhamento na UBS",
+      "d": "Aguardar a família procurar espontaneamente cada especialista"
+     },
+     "correta": "b"
+    },
+    {
+     "enunciado": "Assinale o conjunto de rastreios prioritários que a APS deve garantir no seguimento dessa criança:",
+     "comentario": "A criança com síndrome de Down tem risco aumentado de várias comorbidades que exigem rastreio programado: hipotireoidismo (dosagem periódica de TSH/T4L, inclusive porque a triagem neonatal não exclui disfunção tardia), perdas auditivas (triagem auditiva/otoemissões e seguimento) e alterações oftalmológicas (catarata congênita, estrabismo, erros refracionais). Por isso o conjunto tireoide + audição + visão é o prioritário. Os distratores são insuficientes ou impróprios: 'apenas hemograma anual' e 'somente odontologia' cobrem só uma fração das necessidades; 'catecolaminas urinárias seriadas' é rastreio de neuroblastoma/feocromocitoma, sem indicação rotineira aqui. Reforço: o seguimento inclui ainda ecocardiograma (cardiopatia congênita), vigilância de instabilidade atlantoaxial, crescimento em curvas específicas e atenção a apneia do sono e doença celíaca.",
+     "dificuldade": "moderada",
+     "alternativas": {
+      "a": "Somente avaliação odontológica",
+      "b": "Apenas hemograma anual",
+      "c": "Dosagem de catecolaminas urinárias seriada",
+      "d": "Função tireoidiana periódica, triagem auditiva e avaliação oftalmológica"
+     },
+     "correta": "d"
+    },
+    {
+     "enunciado": "Sobre a organização do cuidado e a atuação da equipe, identifique a conduta correta:",
+     "comentario": "O modelo correto é o acompanhamento longitudinal na UBS, com busca ativa pelo agente comunitário de saúde (fundamental diante do acesso irregular relatado) e apoio matricial das equipes especializadas (matriciamento/NASF-AB), que qualifica a APS sem romper o vínculo. As demais opções contrariam os princípios do SUS: encaminhar ao terciário e 'encerrar o vínculo' quebra a longitudinalidade e a coordenação; condicionar o cuidado a intercorrências agudas ignora a lógica preventiva e de vigilância do desenvolvimento; delegar tudo à família, sem plano, é omissão do cuidado. Pérola de saúde coletiva: coordenação do cuidado, longitudinalidade, integralidade e trabalho em equipe multiprofissional são os atributos da APS cobrados nessas questões. 📚 Leitura sugerida (bloco): SBP/Ministério da Saúde — Diretrizes de Atenção à Saúde da Pessoa com Síndrome de Down (https://www.sbp.com.br/documentos-cientificos/).",
+     "dificuldade": "facil",
+     "alternativas": {
+      "a": "Condicionar o acompanhamento à presença de intercorrências agudas",
+      "b": "Delegar todo o cuidado à família, sem plano de seguimento",
+      "c": "Encaminhar para serviço terciário e encerrar o vínculo com a APS",
+      "d": "Manter acompanhamento longitudinal na UBS com busca ativa do ACS e apoio matricial das equipes especializadas"
+     },
+     "correta": "d"
+    }
+   ]
+  }
+ ]
+}
