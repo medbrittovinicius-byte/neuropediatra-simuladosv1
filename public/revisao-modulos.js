@@ -2575,6 +2575,332 @@ Se você nunca pula o passo 1 e 2, e acerta a via/dose no passo 3, resolve a ime
   {enunciado: `Sobre o reconhecimento da criança gravemente enferma, qual afirmativa está correta?`, alternativas: {a: `A hipotensão é um sinal precoce de choque na criança`, b: `Taquicardia e enchimento capilar lento são sinais precoces de choque`, c: `A causa mais comum de parada é arritmia primária`, d: `Deve-se diagnosticar a doença antes de iniciar o A-B-C`}, correta: "b", comentario: `Na criança, taquicardia, taquipneia, enchimento capilar lento (>2 s), extremidades frias, oligúria e alteração do sensório são sinais precoces de choque (fase compensada). A hipotensão é TARDIA e indica choque já descompensado. A causa mais comum de parada na criança é respiratória/hipóxica (não arritmia primária como no adulto), por isso a via aérea/ventilação é prioridade. E a regra é estabilizar primeiro (A-B-C) e investigar depois, não o contrário. Reconhecer a fase compensada é o que permite intervir a tempo.`, foco: `Reconhecimento precoce e ordem A-B-C`}
  ]
 }
+,
 
+"PED|Cardiologia": {
+ titulo: `Cardiopatias congênitas na infância`,
+ half: "PED",
+ resumo: `Cardiopatia congênita é o defeito de nascimento mais comum e um campo em que a prova adora derrubar quem decorou nomes soltos. Este texto reconstrói o assunto do zero: o que muda no coração de um bebê, por que alguns ficam roxos e outros só cansam para mamar, e um caminho de raciocínio (cianótica x acianótica → shunt → exame → exame de escolha → conduta) que liga as quatro cardiopatias que a banca mais cobra. O objetivo é que você chegue no diagnóstico pela fisiopatologia, não pelo chute.`,
+ fontes: `Base: Sociedade Brasileira de Pediatria (SBP) — Cardiologia pediátrica; Nelson Tratado de Pediatria (cardiopatias congênitas); apostila R+ Pediatria MEDGRUPO — Cardiopatias congênitas (ver materiais_drive.md). Diretrizes de manejo do canal arterial e triagem do "teste do coentinho" (oximetria neonatal) do MS/SBP.`,
+ notaErro: `A cardiopatia congênita erra por três motivos, e este texto foi montado para desarmar cada um:
+
+- **Você tenta reconhecer a doença pelo nome, não pelo comportamento do sangue.** A prova dá uma vinheta ("lactente que sua e cansa para mamar", "recém-nascido cianótico que não melhora com O2") e quatro nomes secos de alternativa. Se você não separa antes **cianótica x acianótica** e **hiperfluxo x hipofluxo pulmonar**, escolhe pelo nome mais conhecido — e erra. Comece sempre pela pergunta: o bebê está roxo ou está cansado?
+
+- **Você troca o exame de escolha.** Para QUALQUER cardiopatia estrutural o exame que confirma é o **ecocardiograma** — não a radiografia, não o ECG, não o cateterismo de rotina. A banca coloca "radiografia de tórax" e "ECG" como distratores plausíveis; eles ajudam, mas quem fecha o diagnóstico anatômico é o eco.
+
+- **Você não sabe a evolução natural de cada uma.** A pergunta final costuma ser de conduta ("fecha sozinho?", "opera quando?", "o que fazer na crise?"). Confundir a CIV pequena (que pode fechar sozinha) com a Tetralogia (que precisa de cirurgia) é o erro que mais custa ponto.
+
+**Como zerar:** decore o fluxograma da seção 8 (roxo x cansado → fluxo pulmonar → 4 nomes) e ancore cada cardiopatia em UM gatilho de conduta. Quem domina "eco é o exame de escolha" + "canal-dependente pede prostaglandina" + "crise hipoxêmica pede joelho-tórax/O2/morfina" acerta a grande maioria das questões deste tema.`,
+ secoes: [
+  {h:`1. Comece pelo começo: o que é uma cardiopatia congênita`, c:`**Cardiopatia congênita** é uma malformação na estrutura do coração ou dos grandes vasos que já nasce com a criança (surge na formação do coração, nas primeiras semanas de gestação). É a malformação congênita mais frequente: cerca de **8 a 10 a cada 1.000 nascidos vivos**.
+
+Pense no coração como uma casa com dois andares e um encanamento. O lado direito recebe o sangue "sujo" (venoso, sem oxigênio) e o manda para o pulmão para ser oxigenado; o lado esquerdo recebe o sangue "limpo" (arterial, oxigenado) que volta do pulmão e o bombeia para o corpo. Entre os dois lados há paredes (septos) e válvulas que garantem que o sangue vá para o lugar certo, na direção certa.
+
+Uma cardiopatia congênita é, quase sempre, **um buraco onde não deveria ter (comunicação entre as câmaras), um cano estreito (estenose) ou um cano ligado no lugar errado**. Dependendo de onde está o defeito, o sangue toma um atalho — e é esse atalho (o **shunt**) que explica todos os sinais.`},
+  {h:`2. Como funciona: shunt, cianose e fluxo pulmonar`, c:`Tudo neste tema gira em torno de para onde o sangue desvia.
+
+- **Shunt esquerda→direita (E→D):** o sangue "limpo", que está no lado esquerdo (de maior pressão), escapa por um buraco para o lado direito e volta para o pulmão. Resultado: **pulmão recebe sangue demais (hiperfluxo)** e o corpo não fica roxo. A criança **não é cianótica**, mas com o tempo cansa, sua para mamar e tem infecções respiratórias de repetição. São as **acianóticas** (CIV, CIA, PCA).
+
+- **Shunt direita→esquerda (D→E):** o sangue "sujo", venoso, escapa direto para a circulação do corpo sem passar pelo pulmão. Resultado: **sangue sem oxigênio chega aos tecidos → cianose**. São as **cianóticas** (Tetralogia de Fallot, transposição dos grandes vasos).
+
+Guarde duas chaves:
+
+- **Roxo (cianose) = sangue venoso chegando ao corpo = shunt D→E ou mistura.**
+- **Cansaço/sudorese para mamar + infecções de repetição = pulmão inundado = hiperfluxo = shunt E→D.**
+
+Um detalhe que a prova adora: a cianose das cardiopatias **não melhora com oxigênio** (o problema é anatômico, o sangue nem passa pelo pulmão), enquanto a cianose de uma pneumonia melhora. Esse é o **teste da hiperóxia**.`},
+  {h:`3. O passo que organiza tudo: acianótica x cianótica`, c:`Antes de pensar em nome de doença, responda duas perguntas na vinheta:
+
+**Pergunta 1 — a criança está cianótica (roxa) ou não?**
+- Não cianótica, mas cansada/suada → grupo **acianótico com hiperfluxo** (CIV, CIA, PCA).
+- Cianótica → grupo **cianótico** (Fallot, transposição).
+
+**Pergunta 2 (dentro das cianóticas) — o fluxo pulmonar está diminuído ou aumentado?**
+- Cianose + **hipofluxo pulmonar** (pouca vascularização, "coração em bota" na Tetralogia) → **Tetralogia de Fallot**.
+- Cianose intensa desde as primeiras horas de vida, bebê grave, **canal-dependente** → **Transposição dos grandes vasos**.
+
+Esse duplo filtro sozinho resolve a maioria das questões, porque reduz quatro nomes secos a um só antes de você olhar os detalhes.`},
+  {h:`4. Exame físico: o que o sopro e os pulsos dizem`, c:`O exame não fecha o diagnóstico (quem fecha é o eco), mas orienta:
+
+- **Sopro holossistólico em borda esternal esquerda baixa** → clássico de **CIV** (comunicação interventricular). Curiosamente, CIVs pequenas fazem sopros ALTOS (muito turbilhonamento num buraco pequeno) e são as que mais fecham sozinhas.
+- **Sopro sistólico ejetivo em foco pulmonar + segunda bulha (B2) fixa e desdobrada** → **CIA** (comunicação interatrial).
+- **Sopro contínuo ("em maquinaria") infraclavicular esquerdo + pulsos amplos/saltitantes** → **PCA** (persistência do canal arterial).
+- **Sopro ejetivo pulmonar + cianose + crises de piora** → **Tetralogia de Fallot**.
+- **Diferença de pulsos/pressão entre membros superiores e inferiores** (fortes nos braços, fracos nas pernas) → **coarctação da aorta**.
+
+Sopro **inocente** (funcional) é aquele suave, sistólico, que muda com a posição, sem outros sinais (sem cianose, sem cansaço, sem repercussão) — não precisa de eco de rotina. Sopro **orgânico** é rude, holossistólico, com repercussão (baixo ganho de peso, taquipneia): esse pede **ecocardiograma**.`},
+  {h:`5. As acianóticas, uma a uma`, c:`**CIV (comunicação interventricular) — a mais comum de todas.** Buraco no septo entre os ventrículos, shunt E→D. Sopro holossistólico em borda esternal esquerda baixa. As **pequenas** costumam ser assintomáticas e **fecham espontaneamente até os 2 anos** (conduta expectante). As **grandes** dão insuficiência cardíaca no lactente (cansaço às mamadas, sudorese, baixo ganho de peso, infecções pulmonares) e precisam de correção cirúrgica.
+
+**CIA (comunicação interatrial).** Buraco no septo entre os átrios. Costuma ser silenciosa na infância; o achado clássico é a **B2 desdobrada fixa**. Muitas vezes só diagnosticada mais tarde.
+
+**PCA (persistência do canal arterial).** O canal arterial é uma comunicação fetal entre a aorta e a artéria pulmonar que **deveria fechar** nos primeiros dias de vida. Se persiste, gera shunt E→D com sopro contínuo "em maquinaria" e pulsos amplos. Comum no **prematuro**. Fechamento pode ser farmacológico (**indometacina/ibuprofeno**, que inibem prostaglandina) no prematuro, ou cirúrgico/percutâneo.
+
+Ponto de virada de todas as acianóticas grandes: se o hiperfluxo pulmonar persiste por anos, a artéria pulmonar "endurece" (hipertensão pulmonar) e o shunt pode **inverter para D→E**, e a criança fica cianótica tardiamente — é a **síndrome de Eisenmenger**, sinal de que se perdeu a janela cirúrgica.`},
+  {h:`6. As cianóticas, uma a uma`, c:`**Tetralogia de Fallot — a cianótica mais comum depois do período neonatal.** São quatro defeitos juntos: (1) estenose/obstrução da via de saída do ventrículo direito, (2) CIV, (3) dextroposição da aorta ("aorta cavalgando" a CIV) e (4) hipertrofia do ventrículo direito. Como há obstrução na saída pulmonar, o sangue venoso desvia pela CIV para a aorta → cianose. Radiografia clássica: **coração "em bota"** (ponta cardíaca elevada) com **hipofluxo pulmonar**.
+
+A pegadinha máxima do Fallot é a **crise hipoxêmica (crise de cianose)**: o bebê, ao chorar, mamar ou evacuar, fica subitamente muito roxo, hiperpneico e irritado. Mecanismo: espasmo da via de saída direita aumenta o shunt D→E. **Conduta da crise:** posição **joelho-tórax** (dobrar as pernas sobre o abdome — aumenta a resistência sistêmica e reduz o shunt), **oxigênio**, **morfina** (acalma e quebra a hiperpneia), hidratação e, se preciso, betabloqueador. Tratamento definitivo é cirúrgico.
+
+**Transposição dos grandes vasos.** A aorta sai do ventrículo direito e a artéria pulmonar sai do esquerdo — duas circulações em paralelo que não se comunicam. É incompatível com a vida a menos que exista uma mistura (canal arterial, forame oval, CIV). Dá **cianose grave nas primeiras horas/dias**, no recém-nascido a termo, que **não melhora com O2**. É uma emergência: manter o canal aberto com **prostaglandina E1** e providenciar atriosseptostomia/cirurgia.`},
+  {h:`7. Exames: o eco é o rei, mas os outros ajudam`, c:`- **Ecocardiograma com Doppler** = **exame de escolha** para confirmar QUALQUER cardiopatia estrutural. Mostra a anatomia, o defeito, a direção do shunt e a função. Se a prova pergunta "qual o exame para confirmar o diagnóstico", a resposta é ecocardiograma.
+- **Radiografia de tórax:** dá pistas (coração em bota no Fallot; cardiomegalia com hiperfluxo nas acianóticas grandes) mas não fecha.
+- **ECG:** mostra sobrecarga de câmaras; complementar.
+- **Oximetria de pulso pré e pós-ductal (teste do coraçãozinho / "teste do coentinho"):** triagem neonatal obrigatória, feita entre 24–48 h de vida, para detectar cardiopatias críticas antes da alta. Saturação < 95% ou diferença > 3% entre membro superior direito e inferior é alterada e obriga eco.
+- **Cateterismo cardíaco:** reservado para casos selecionados/intervenção, não é rotina diagnóstica.`},
+  {h:`8. O algoritmo em seis frases (leve para a prova)`, c:`- **Roxo ou cansado?** Roxo = cianótica (shunt D→E). Cansado/suado para mamar = acianótica com hiperfluxo (shunt E→D).
+- **Cianose que NÃO melhora com O2** no recém-nascido = cardiopatia (teste da hiperóxia), pense transposição/Fallot.
+- **Sopro holossistólico em borda esternal esquerda baixa** = CIV (a mais comum); pequena fecha sozinha, grande opera.
+- **Cianótica + coração em bota + crise de cianose** = Tetralogia de Fallot; crise → joelho-tórax + O2 + morfina.
+- **Recém-nascido gravíssimo cianótico dependente de mistura** = transposição/canal-dependente → **prostaglandina E1** para manter o canal aberto.
+- **Exame que confirma qualquer uma** = **ecocardiograma**.`}
+ ],
+ flashcards: [
+  {p:`Malformação congênita mais comum?`, r:`Cardiopatia congênita (~8–10/1.000 nascidos vivos).`},
+  {p:`Cardiopatia congênita acianótica mais comum?`, r:`CIV (comunicação interventricular).`},
+  {p:`Cardiopatia cianótica mais comum após o período neonatal?`, r:`Tetralogia de Fallot.`},
+  {p:`Exame de escolha para confirmar cardiopatia estrutural?`, r:`Ecocardiograma com Doppler.`},
+  {p:`Sopro holossistólico em borda esternal esquerda baixa sugere?`, r:`CIV.`},
+  {p:`Sopro contínuo "em maquinaria" + pulsos amplos?`, r:`Persistência do canal arterial (PCA).`},
+  {p:`B2 desdobrada fixa é típica de?`, r:`CIA (comunicação interatrial).`},
+  {p:`Os 4 componentes da Tetralogia de Fallot?`, r:`Estenose pulmonar (obstrução via saída VD), CIV, aorta cavalgando, hipertrofia do VD.`},
+  {p:`Conduta na crise hipoxêmica do Fallot?`, r:`Posição joelho-tórax, oxigênio, morfina; hidratar, considerar betabloqueador.`},
+  {p:`Como manter o canal arterial aberto numa cardiopatia canal-dependente?`, r:`Prostaglandina E1 (alprostadil) em infusão.`},
+  {p:`Como fechar o canal arterial no prematuro?`, r:`Inibidores de prostaglandina: indometacina ou ibuprofeno (ou cirurgia).`},
+  {p:`Inversão tardia do shunt (E→D vira D→E) com cianose = ?`, r:`Síndrome de Eisenmenger (janela cirúrgica perdida).`}
+ ],
+ pegadinhas: [
+  `Cianose que NÃO melhora com oxigênio = cardiopatia (teste da hiperóxia); a de causa pulmonar melhora.`,
+  `CIV pequena faz sopro ALTO e costuma FECHAR sozinha até os 2 anos — sopro intenso não é sinônimo de gravidade.`,
+  `O exame de escolha é sempre o ecocardiograma — não caia em "radiografia" ou "ECG" como confirmatórios.`,
+  `Na crise hipoxêmica do Fallot a posição é joelho-tórax (não Trendelenburg nem sentado).`,
+  `Prostaglandina ABRE o canal (cardiopatia canal-dependente); indometacina/ibuprofeno FECHAM (PCA do prematuro) — não troque.`,
+  `Transposição dos grandes vasos: recém-nascido a termo, cianose grave nas primeiras horas — é emergência, não "aguardar".`
+ ],
+ diretrizes: [
+  `Sociedade Brasileira de Pediatria (SBP) — Departamento de Cardiologia; triagem neonatal por oximetria de pulso ("teste do coraçãozinho").`,
+  `Nelson — Tratado de Pediatria: cardiopatias congênitas cianóticas e acianóticas.`,
+  `Ministério da Saúde / SBP — Manejo do canal arterial e cardiopatias críticas do recém-nascido. Apostila R+ Pediatria MEDGRUPO — "Cardiopatias congênitas" (ver materiais_drive.md).`
+ ],
+ questoes: [
+  {enunciado:`Lactente de 3 meses, a termo, com sudorese e cansaço às mamadas, baixo ganho de peso e infecções respiratórias de repetição. Ausculta: sopro holossistólico em borda esternal esquerda baixa. Não há cianose. Qual o diagnóstico mais provável?`, alternativas:{a:`Tetralogia de Fallot`, b:`Comunicação interventricular`, c:`Transposição dos grandes vasos`, d:`Coarctação da aorta`}, correta:"b", comentario:`O quadro é acianótico com sinais de hiperfluxo pulmonar/insuficiência cardíaca (cansaço e sudorese às mamadas, baixo ganho ponderal, pneumonias de repetição) + sopro holossistólico em borda esternal esquerda baixa = CIV, a cardiopatia congênita mais comum e clássica desse padrão (shunt esquerda→direita). Tetralogia de Fallot e transposição são cianóticas (shunt direita→esquerda) — aqui não há cianose. Coarctação daria diferença de pulsos/pressão entre membros superiores e inferiores, não esse sopro. Confirmação: ecocardiograma. CIV pequena pode fechar sozinha até os 2 anos; a grande, com repercussão como esta, costuma exigir correção cirúrgica.`, foco:`Reconhecer a acianótica pelo padrão de hiperfluxo (ponto de erro)`},
+  {enunciado:`Recém-nascido a termo, com 8 horas de vida, apresenta cianose intensa e generalizada que NÃO melhora com oferta de oxigênio a 100%. Ausculta cardíaca sem sopro exuberante. Qual a hipótese e a medida imediata mais importante?`, alternativas:{a:`Pneumonia neonatal; iniciar antibiótico`, b:`Transposição dos grandes vasos; iniciar prostaglandina E1`, c:`CIV; observar, pode fechar sozinha`, d:`Sepse; expandir com cristaloide`}, correta:"b", comentario:`Cianose grave e precoce no recém-nascido a termo que não responde ao oxigênio (teste da hiperóxia negativo) aponta para cardiopatia cianótica crítica, sendo a transposição dos grandes vasos a causa clássica nas primeiras horas de vida. A sobrevida depende de mistura entre as circulações, então a medida que salva é manter o canal arterial aberto com prostaglandina E1 (alprostadil) até a correção. A cianose pulmonar (pneumonia/sepse) melhoraria com O2. CIV é acianótica e não explica o quadro. Confundir cianose cardíaca com pulmonar e ofertar só O2 é o erro que atrasa o tratamento.`, foco:`Teste da hiperóxia e cardiopatia canal-dependente (ponto de erro)`},
+  {enunciado:`Menino de 18 meses com cardiopatia cianótica conhecida, ao chorar fica subitamente muito roxo, hiperpneico e irritado. Qual a conduta inicial na crise?`, alternativas:{a:`Colocar em posição joelho-tórax, oxigênio e morfina`, b:`Sentar a criança e ofertar diurético`, c:`Posição de Trendelenburg e adrenalina`, d:`Fazer expansão volêmica rápida e furosemida`}, correta:"a", comentario:`É a crise hipoxêmica da Tetralogia de Fallot: espasmo da via de saída do ventrículo direito aumenta o shunt direita→esquerda. A posição joelho-tórax aumenta a resistência vascular sistêmica e reduz o shunt, aliviando a cianose; associa-se oxigênio e morfina (quebra a hiperpneia e o espasmo), hidratação e, se necessário, betabloqueador. Diurético e Trendelenburg não têm papel na crise; adrenalina pioraria o espasmo infundibular. Saber a sequência joelho-tórax + O2 + morfina é o que a banca cobra.`, foco:`Manejo da crise hipoxêmica (pegadinha clássica)`},
+  {enunciado:`Diante de um lactente com sopro cardíaco, qual exame é o de escolha para confirmar o diagnóstico anatômico de uma cardiopatia estrutural?`, alternativas:{a:`Radiografia de tórax`, b:`Eletrocardiograma`, c:`Ecocardiograma com Doppler`, d:`Cateterismo cardíaco`}, correta:"c", comentario:`O ecocardiograma com Doppler é o exame de escolha: mostra a anatomia do defeito, a direção e a magnitude do shunt e a função ventricular, de forma não invasiva. A radiografia e o ECG dão pistas (coração em bota, sobrecarga de câmaras, hiperfluxo/hipofluxo) mas não confirmam a anatomia. O cateterismo fica para casos selecionados ou intervenção, não para diagnóstico de rotina. Trocar o eco por radiografia/ECG é o erro típico deste tema.`, foco:`Exame de escolha em cardiopatia (ponto de erro)`},
+  {enunciado:`Recém-nascido prematuro com sopro contínuo "em maquinaria" infraclavicular esquerdo e pulsos amplos. Ecocardiograma confirma persistência do canal arterial com repercussão. Qual a opção farmacológica para promover o fechamento?`, alternativas:{a:`Prostaglandina E1`, b:`Indometacina ou ibuprofeno`, c:`Adenosina`, d:`Digoxina isolada`}, correta:"b", comentario:`No prematuro, o fechamento farmacológico do canal arterial é feito com inibidores da síntese de prostaglandina — indometacina ou ibuprofeno —, pois é a prostaglandina que mantém o canal aberto. A prostaglandina E1 faz o oposto (mantém o canal aberto, usada em cardiopatias canal-dependentes) e seria um erro grave aqui. Adenosina trata taquiarritmia; digoxina isolada não fecha o canal. O par a fixar: prostaglandina ABRE, indometacina/ibuprofeno FECHAM.`, foco:`Farmacologia do canal arterial (ponto de erro)`}
+ ]
+},
+
+"PED|Nefrologia": {
+ titulo: `Nefrologia pediátrica: síndrome nefrótica, GNPE e ITU`,
+ half: "PED",
+ resumo: `As doenças renais da infância caem sempre e se confundem facilmente: criança que incha (síndrome nefrótica) x criança que urina "coca-cola" e fica hipertensa (glomerulonefrite pós-estreptocócica) x criança com febre sem foco (infecção urinária). Este texto parte do zero — o que o rim faz, o que é um glomérulo, por que o corpo incha — e monta um caminho de raciocínio para separar edema nefrótico de edema nefrítico e para não deixar passar a ITU febril do lactente, que é a que mais tem pegadinha de conduta.`,
+ fontes: `Base: Sociedade Brasileira de Pediatria (SBP) — Nefrologia pediátrica; Nelson Tratado de Pediatria (síndrome nefrótica idiopática, glomerulonefrite aguda, infecção do trato urinário); apostila R+ Pediatria MEDGRUPO — Nefrologia (ITU, hidronefrose) (ver materiais_drive.md). Diretrizes de ITU na infância do MS/SBP.`,
+ notaErro: `Nefrologia pediátrica derruba por confusão entre quadros parecidos. Três armadilhas explicam a maioria dos erros:
+
+- **Você mistura nefrótico com nefrítico.** Os dois incham, mas por motivos opostos. **Nefrótico = perde proteína** (edema mole, frio, generalizado, proteinúria maciça, sem hipertensão nem hematúria de regra). **Nefrítico = inflama o glomérulo** (hematúria/urina escura, hipertensão, oligúria, edema). Se você não fixa esse par, escolhe o tratamento errado.
+
+- **Você trata a GNPE com antibiótico "para curar o rim".** A glomerulonefrite pós-estreptocócica é uma sequela imunológica; o antibiótico erradica o estreptococo, mas o tratamento do quadro renal é de **suporte** (restrição de sal/água, controle da pressão, diurético). A prova adora a alternativa "corticoide" ou "antibiótico cura" — ambas erradas para o manejo do rim.
+
+- **Você subestima a ITU febril do lactente.** Febre sem foco em bebê é ITU até prova em contrário; o erro é não coletar urina **por método confiável** (cateter/punção, não saco coletor para cultura) e não investigar depois. 
+
+**Como zerar:** ancore o tema em três frases — "incha e perde proteína = nefrótico, corticoide"; "urina de coca-cola + hipertensão pós-faringite/piodermite = GNPE, suporte"; "febre sem foco no lactente = ITU, urocultura por método confiável + tratar + investigar". Quem domina esse trio acerta quase tudo.`,
+ secoes: [
+  {h:`1. Comece pelo começo: o que o rim faz e o que é um glomérulo`, c:`O rim é um **filtro**. O sangue chega, passa por milhões de peneiras microscópicas chamadas **glomérulos**, e o que é "lixo" e excesso de água/sal vira urina, enquanto o que é valioso (proteínas, células) fica no sangue.
+
+Pense no glomérulo como uma **peneira de café**: deixa passar a água e as partículas pequenas (ureia, sais) e retém o pó grosso (as proteínas e as hemácias). Duas coisas podem dar errado:
+
+- A peneira fica **furada/permeável demais** e começa a deixar vazar **proteína** para a urina → é o mecanismo da **síndrome nefrótica**.
+- A peneira **inflama e entope** (os furos incham, o fluxo cai) → filtra menos, retém sal e água, deixa escapar **sangue** → é o mecanismo da **síndrome nefrítica / glomerulonefrite**.
+
+Perceber que são dois defeitos diferentes da mesma peneira é a chave de todo o tema.`},
+  {h:`2. Por que o corpo incha (edema) — e por que o edema é diferente nos dois`, c:`**No nefrótico:** o rim perde proteína (principalmente **albumina**) na urina. A albumina é o que "segura" a água dentro do vaso (pressão oncótica). Sem albumina, a água vaza do vaso para os tecidos → **edema**. É um edema **mole, frio, que forma cacifo, começa nas pálpebras de manhã** e pode generalizar (anasarca, ascite). O corpo, vendo "pouco volume" no vaso, ainda retém mais sal e água, piorando o inchaço.
+
+**No nefrítico (GNPE):** o glomérulo inflamado filtra menos → o corpo **retém sal e água** diretamente → aumenta o volume no vaso → **edema + hipertensão**. Aqui o edema vem acompanhado de **pressão alta e urina escura (hematúria)**, o que não é a regra no nefrótico.
+
+Resumo do contraste: nefrótico incha porque **perde proteína**; nefrítico incha porque **retém sal/água por inflamação**. Um tem proteinúria maciça; o outro tem hematúria + hipertensão.`},
+  {h:`3. Síndrome nefrótica: a tríade e a idade`, c:`**Definição (tríade clássica):** (1) **proteinúria maciça**, (2) **hipoalbuminemia** e (3) **edema**. Muito frequentemente acompanha **hiperlipidemia** (o fígado, tentando compensar, fabrica mais lipoproteínas).
+
+Na criança pré-escolar (tipicamente **1 a 8 anos**), a causa mais comum é a **síndrome nefrótica idiopática por lesão mínima** (chamada assim porque a biópsia à microscopia óptica é quase normal). É a que a prova quer: criança pequena, edema, proteinúria, **sem hematúria significativa, sem hipertensão, função renal normal** — e que **responde a corticoide**.
+
+Por isso a conduta é **iniciar corticoide (prednisona/prednisolona) empiricamente**, sem biópsia de rotina — a biópsia fica reservada para casos atípicos (idade fora da faixa, hematúria/hipertensão importantes, falha de resposta ao corticoide, complemento baixo).
+
+Complicações a lembrar: **infecções** (perde imunoglobulinas na urina; risco de peritonite bacteriana espontânea por pneumococo) e **fenômenos tromboembólicos** (perde antitrombina).`},
+  {h:`4. Glomerulonefrite pós-estreptocócica (GNPE): o protótipo nefrítico`, c:`É a causa mais comum de **síndrome nefrítica aguda** na criança. Surge **1 a 2 semanas após uma faringoamigdalite** ou **3 a 6 semanas após uma piodermite/impetigo** por *Streptococcus* beta-hemolítico do grupo A (cepas nefritogênicas). É uma reação **imunomediada** (imunocomplexos que se depositam no glomérulo), não uma infecção do rim.
+
+**Quadro clássico:** criança escolar com **hematúria macroscópica ("urina cor de coca-cola / chá preto")**, **edema** (periorbitário, matinal), **hipertensão arterial** e **oligúria**. Pode haver cefaleia e mal-estar.
+
+**Laboratório que fecha:** evidência de infecção estreptocócica prévia (**ASLO** elevado, ou anti-DNase B na piodermite) + **complemento C3 BAIXO** que **normaliza em 6–8 semanas**. Esse consumo transitório de C3 é a assinatura da GNPE.
+
+**Tratamento = suporte:** restrição de sal e água, controle da pressão e do edema com **diurético (furosemida)**, tratar hipertensão. O antibiótico (penicilina) erradica o estreptococo e reduz transmissão, **mas não muda a evolução do rim**. **Não** se usa corticoide na GNPE típica. O prognóstico na criança é **excelente**, com recuperação na grande maioria.`},
+  {h:`5. Como separar nefrótico de nefrítico na prática`, c:`Coloque lado a lado:
+
+- **Proteinúria:** maciça no nefrótico; leve/moderada no nefrítico.
+- **Hematúria:** ausente/discreta no nefrótico; **presente e macroscópica** no nefrítico.
+- **Hipertensão:** rara no nefrótico (lesão mínima); **típica** no nefrítico.
+- **Edema:** mole, de hipoalbuminemia, no nefrótico; de retenção hidrossalina no nefrítico.
+- **Complemento C3:** normal no nefrótico (lesão mínima); **baixo transitório** na GNPE.
+- **Tratamento:** **corticoide** no nefrótico por lesão mínima; **suporte** na GNPE.
+
+Uma frase para levar: **"incha e faz espuma na urina (proteína) = nefrótico; incha e faz urina escura com pressão alta = nefrítico".**`},
+  {h:`6. Infecção do trato urinário (ITU) na infância`, c:`No lactente, a ITU é traiçoeira porque se manifesta como **febre sem foco aparente** (às vezes só irritabilidade, recusa alimentar, vômito). A regra de ouro: **febre sem foco em lactente = pensar em ITU**.
+
+**Diagnóstico depende de urocultura por método confiável.** Em criança sem controle esfincteriano, a urina para cultura deve ser colhida por **cateterismo vesical** ou **punção suprapúbica** — **não** por saco coletor (o saco tem altíssima taxa de contaminação; só serve, no máximo, para uma triagem negativa). Urina I com nitrito positivo e leucocitúria reforçam, mas quem confirma é a cultura.
+
+**Agente mais comum:** *Escherichia coli*. **Tratamento:** antibiótico (a pielonefrite/ITU febril costuma exigir tratamento adequado por 7–14 dias; cistite, curso mais curto). 
+
+**Investigar depois:** ITU febril no lactente pede avaliação de imagem — **ultrassonografia** renal e de vias urinárias, e, conforme o caso (ITU recorrente, alterações no US), investigação de **refluxo vesicoureteral** (uretrocistografia miccional). O objetivo é detectar malformações e refluxo que predispõem a cicatrizes renais.`},
+  {h:`7. O algoritmo em seis frases (leve para a prova)`, c:`- **Criança pré-escolar que incha, com proteinúria maciça, sem hipertensão/hematúria** = síndrome nefrótica por lesão mínima → **corticoide** empírico.
+- **Escolar com urina de coca-cola + hipertensão + edema, 1–2 semanas após faringite (ou 3–6 após piodermite)** = GNPE → **suporte** (sal/água, diurético, anti-hipertensivo).
+- **GNPE tem C3 baixo transitório + ASLO alto**; C3 normaliza em 6–8 semanas.
+- **Nefrótico = perde proteína; nefrítico = retém sal/água e sangra.**
+- **Febre sem foco no lactente = ITU**; colher urocultura por cateter/punção (não saco coletor).
+- **ITU febril no lactente** → tratar + **ultrassom** e investigar refluxo conforme o caso.`}
+ ],
+ flashcards: [
+  {p:`Tríade da síndrome nefrótica?`, r:`Proteinúria maciça + hipoalbuminemia + edema (± hiperlipidemia).`},
+  {p:`Causa mais comum de síndrome nefrótica na criança de 1–8 anos?`, r:`Síndrome nefrótica idiopática por lesão mínima.`},
+  {p:`Tratamento inicial da nefrótica por lesão mínima?`, r:`Corticoide (prednisona/prednisolona) empírico, sem biópsia de rotina.`},
+  {p:`Causa mais comum de síndrome nefrítica aguda na criança?`, r:`Glomerulonefrite pós-estreptocócica (GNPE).`},
+  {p:`Intervalo entre infecção e GNPE?`, r:`1–2 semanas após faringite; 3–6 semanas após piodermite/impetigo.`},
+  {p:`Marcador laboratorial típico da GNPE?`, r:`C3 baixo transitório (normaliza em 6–8 semanas) + ASLO/anti-DNase B elevados.`},
+  {p:`Tratamento do quadro renal da GNPE?`, r:`Suporte: restrição de sal/água, diurético, controle da hipertensão. Antibiótico erradica o estreptococo mas não muda a evolução renal.`},
+  {p:`Como diferenciar edema nefrótico de nefrítico?`, r:`Nefrótico: perde proteína, sem HAS/hematúria. Nefrítico: hematúria + hipertensão + oligúria.`},
+  {p:`Febre sem foco no lactente — pensar em?`, r:`Infecção do trato urinário (ITU).`},
+  {p:`Como colher urocultura em lactente sem controle esfincteriano?`, r:`Cateterismo vesical ou punção suprapúbica (não saco coletor).`},
+  {p:`Agente mais comum de ITU na infância?`, r:`Escherichia coli.`},
+  {p:`Imagem inicial após ITU febril no lactente?`, r:`Ultrassonografia renal e de vias urinárias (± investigar refluxo vesicoureteral).`}
+ ],
+ pegadinhas: [
+  `Nefrótico e nefrítico ambos incham — o que separa é proteinúria maciça (nefrótico) x hematúria + hipertensão (nefrítico).`,
+  `GNPE não se trata com corticoide nem "o antibiótico cura o rim" — o manejo renal é de suporte.`,
+  `C3 baixo que NORMALIZA em 6–8 semanas é a assinatura da GNPE; C3 persistentemente baixo sugere outra glomerulonefrite (ex.: lúpica, membranoproliferativa).`,
+  `Na síndrome nefrótica típica da criança NÃO se faz biópsia de rotina — inicia corticoide; biópsia é para casos atípicos.`,
+  `Saco coletor NÃO serve para urocultura confiável (contaminação) — use cateter ou punção suprapúbica.`,
+  `Febre sem foco em lactente pede pesquisa de ITU, mesmo sem sintomas urinários.`
+ ],
+ diretrizes: [
+  `Sociedade Brasileira de Pediatria (SBP) — Departamento de Nefrologia: síndrome nefrótica idiopática, glomerulonefrite aguda e ITU na infância.`,
+  `Nelson — Tratado de Pediatria: síndrome nefrótica, glomerulonefrite pós-estreptocócica e infecção do trato urinário.`,
+  `Ministério da Saúde / SBP — Manejo da ITU na infância (coleta por método confiável, tratamento e investigação de refluxo). Apostila R+ Pediatria MEDGRUPO — "Nefrologia (ITU, hidronefrose)" (ver materiais_drive.md).`
+ ],
+ questoes: [
+  {enunciado:`Pré-escolar de 4 anos com edema periorbitário matinal que progrediu para anasarca, urina espumosa, proteinúria maciça, hipoalbuminemia e colesterol elevado. Pressão arterial normal, sem hematúria. Qual a conduta inicial mais adequada?`, alternativas:{a:`Biópsia renal antes de qualquer tratamento`, b:`Corticoide (prednisona) empírico`, c:`Antibiótico e restrição hídrica isolada`, d:`Furosemida em dose alta como tratamento definitivo`}, correta:"b", comentario:`É síndrome nefrótica idiopática, na faixa e no padrão típicos da doença por lesão mínima: edema, proteinúria maciça, hipoalbuminemia, hiperlipidemia, sem hipertensão nem hematúria significativa. Nessa apresentação clássica, a conduta é iniciar corticoide (prednisona/prednisolona) empiricamente, pois a maioria responde — a biópsia fica reservada para casos atípicos (idade fora de 1–8 anos, hematúria/HAS importantes, complemento baixo, corticorresistência). Diurético pode aliviar o edema, mas não é tratamento definitivo; antibiótico não trata a doença de base. Pedir biópsia de rotina é o erro clássico.`, foco:`Nefrótico por lesão mínima: corticoide empírico (ponto de erro)`},
+  {enunciado:`Escolar de 7 anos, 10 dias após faringoamigdalite, com urina "cor de coca-cola", edema periorbitário, hipertensão (PA elevada para a idade) e oligúria. Complemento C3 baixo, ASLO elevado. Qual o tratamento do quadro renal?`, alternativas:{a:`Corticoide em pulso`, b:`Suporte: restrição de sal/água, diurético e controle da pressão`, c:`Ciclofosfamida`, d:`Apenas antibiótico, que reverte a lesão renal`}, correta:"b", comentario:`Quadro clássico de glomerulonefrite pós-estreptocócica: síndrome nefrítica (hematúria macroscópica, hipertensão, edema, oligúria) 1–2 semanas após faringite, com C3 baixo e ASLO alto. O tratamento é de suporte — restringir sal e água, usar diurético (furosemida) e controlar a hipertensão até a diurese se restabelecer. O antibiótico erradica o estreptococo, mas não altera a evolução da lesão renal já instalada. Corticoide e imunossupressores não são usados na GNPE típica; ficam para outras glomerulonefrites. O prognóstico na criança é excelente. Achar que "antibiótico cura o rim" ou indicar corticoide são os erros mais comuns.`, foco:`GNPE: manejo de suporte (ponto de erro)`},
+  {enunciado:`Ao comparar síndrome nefrótica e síndrome nefrítica, qual achado é mais característico da forma NEFRÍTICA?`, alternativas:{a:`Proteinúria maciça isolada`, b:`Hipoalbuminemia acentuada com edema mole`, c:`Hematúria macroscópica com hipertensão e oligúria`, d:`Hiperlipidemia com urina espumosa`}, correta:"c", comentario:`A síndrome nefrítica traduz inflamação glomerular: hematúria (macroscópica, "coca-cola"), hipertensão e oligúria por retenção de sal e água. Proteinúria maciça, hipoalbuminemia, edema mole e hiperlipidemia com urina espumosa compõem a síndrome nefrótica (perda de proteína). Fixar esse contraste (nefrítico sangra e faz hipertensão; nefrótico perde proteína) é o que evita trocar diagnóstico e tratamento.`, foco:`Contraste nefrótico x nefrítico (ponto de erro)`},
+  {enunciado:`Lactente de 8 meses com febre alta há 2 dias sem foco identificável ao exame. Qual a melhor conduta para investigar infecção urinária?`, alternativas:{a:`Urocultura colhida por saco coletor`, b:`Urocultura por cateterismo vesical ou punção suprapúbica`, c:`Iniciar antibiótico sem coletar urina`, d:`Apenas urina I de jato médio`}, correta:"b", comentario:`Febre sem foco no lactente obriga a pesquisar ITU. Como a criança não tem controle esfincteriano, a urina para cultura deve ser colhida por método confiável — cateterismo vesical ou punção suprapúbica —, pois o saco coletor tem taxa altíssima de contaminação e não permite diagnóstico seguro de ITU. Iniciar antibiótico sem coletar cultura compromete o diagnóstico; urina I ajuda (nitrito/leucocitúria) mas não substitui a cultura confiável. Após ITU febril, investiga-se com ultrassom e, conforme o caso, refluxo vesicoureteral. Confiar no saco coletor para cultura é o erro clássico.`, foco:`Coleta confiável de urocultura no lactente (ponto de erro)`},
+  {enunciado:`Sobre a GNPE, qual afirmativa está correta em relação ao complemento?`, alternativas:{a:`C3 permanece persistentemente baixo por mais de 6 meses`, b:`C3 é normal durante todo o quadro`, c:`C3 está baixo e normaliza em cerca de 6–8 semanas`, d:`Apenas o C4 está consumido`}, correta:"c", comentario:`A assinatura laboratorial da GNPE é o consumo TRANSITÓRIO de C3, que se normaliza em torno de 6–8 semanas. Se o C3 permanece baixo além desse período, deve-se suspeitar de outra glomerulopatia (glomerulonefrite membranoproliferativa, nefrite lúpica) e investigar. C3 normal o tempo todo não combina com GNPE ativa. Esse dado temporal do complemento é uma pegadinha frequente de prova.`, foco:`Cinética do C3 na GNPE (pegadinha)`}
+ ]
+},
+
+"PED|Hematologia": {
+ titulo: `Hematologia pediátrica: anemias e púrpuras`,
+ half: "PED",
+ resumo: `Anemia na infância é uma das queixas mais cobradas — e uma das mais confundidas, porque "criança pálida" tem muitas causas. Este texto parte do zero (o que é anemia, o que a hemácia faz, como o corpo fabrica sangue) e monta um caminho para separar a anemia mais comum (ferropriva, por carência) das anemias hemolíticas (falciforme, esferocitose, talassemia), além de abordar os distúrbios de sangramento da criança (PTI e o clássico "trio" da banca) e os sinais de alerta de leucemia. A meta é raciocinar pelo mecanismo, não decorar nome de doença.`,
+ fontes: `Base: Sociedade Brasileira de Pediatria (SBP) — Hematologia pediátrica; Nelson Tratado de Pediatria (anemias carenciais e hemolíticas, PTI, leucemias); Ministério da Saúde — Triagem neonatal (teste do pezinho) e Programa Nacional de Suplementação de Ferro; flashcard/préteste "Hemostasia e doenças na Pediatria" e "Nutrição em Pediatria" (ver materiais_drive.md).`,
+ notaErro: `Hematologia pediátrica derruba por não separar mecanismos. Três armadilhas explicam a maioria dos erros:
+
+- **Você chama toda criança pálida de "ferropriva" ou de "leucemia".** A ferropriva é a mais comum e tem uma história típica (lactente, leite em excesso, introdução alimentar pobre em ferro, microcitose/hipocromia). Mas quando há **hepatoesplenomegalia + icterícia + reticulócitos altos**, o mecanismo é **hemólise**, não carência — e o raciocínio muda por completo. E quando há **palidez + febre + sangramentos + organomegalia + dor óssea**, acende a bandeira de **leucemia**.
+
+- **Você erra o exame confirmatório.** A banca usa a técnica do "trio" e pede o exame específico: **eletroforese/teste de solubilidade** para falciforme, **imunofenotipagem** para leucemia, **ferro/ferritina** para ferropriva. Trocar o exame é o erro que reprova.
+
+- **Você trata a PTI como se fosse leucemia (ou vice-versa).** A PTI é uma plaquetopenia isolada, geralmente pós-viral, em criança que fora isso está **bem**; a leucemia tem **outras** linhagens afetadas (anemia, neutropenia) e sinais sistêmicos. Um dado que "torna improvável" o diagnóstico alternativo (ex.: hemograma com séries vermelha e branca normais afasta leucemia) é a chave da questão.
+
+**Como zerar:** para cada criança pálida, pergunte "é carência, é hemólise ou é medula (leucemia)?" e associe o exame confirmatório certo. Para sangramento, separe plaqueta (petéquias/mucosas) de coagulação (hematomas profundos/hemartrose).`,
+ secoes: [
+  {h:`1. Comece pelo começo: o que é anemia e o que a hemácia faz`, c:`**Anemia** é a redução da quantidade de hemoglobina no sangue abaixo do esperado para a idade. A **hemoglobina** é a proteína dentro da hemácia (glóbulo vermelho) que carrega o **oxigênio** dos pulmões para os tecidos. Menos hemoglobina = menos oxigênio entregue = palidez, cansaço, irritabilidade, pouca disposição.
+
+As hemácias são fabricadas na **medula óssea** e vivem cerca de **120 dias**; depois são recicladas no baço. Para produzir hemoglobina, o corpo precisa de matéria-prima (**ferro**, vitamina B12, folato) e de uma medula funcionante.
+
+A partir daí, existem só **três formas** de ficar anêmico, e reconhecê-las organiza todo o tema:
+
+- **Produzir de menos** (falta matéria-prima: ferropriva; ou falha da medula: aplasia, invasão por leucemia).
+- **Destruir demais** (hemólise: falciforme, esferocitose, talassemia).
+- **Perder** (hemorragia).`},
+  {h:`2. O primeiro filtro: o tamanho da hemácia (VCM)`, c:`O hemograma dá uma pista poderosa: o **VCM (volume corpuscular médio)**, que é o tamanho da hemácia.
+
+- **Microcítica (hemácia pequena, VCM baixo):** falta de matéria-prima para encher a hemácia de hemoglobina → **anemia ferropriva** (a mais comum) e **talassemias**.
+- **Normocítica:** hemólise aguda, sangramento, doença crônica, invasão medular.
+- **Macrocítica (hemácia grande):** carência de B12/folato.
+
+O segundo dado é o **reticulócito** (hemácia jovem recém-saída da medula), que mede se a medula está "respondendo":
+
+- **Reticulócitos ALTOS** = medula trabalhando para repor → sugere **hemólise ou sangramento**.
+- **Reticulócitos BAIXOS** = medula não repõe → **carência** (ferro/B12) ou **falha medular**.
+
+Com VCM + reticulócitos você já separa a maioria dos casos antes de olhar o nome da doença.`},
+  {h:`3. Anemia ferropriva: a mais comum da infância`, c:`É a anemia mais frequente na criança, por carência de **ferro**. Fatores clássicos: **prematuridade** (menos estoque ao nascer), **consumo excessivo de leite de vaca** (pobre em ferro e que causa microssangramento intestinal), **introdução alimentar tardia ou pobre em ferro**, e **rápido crescimento** do lactente.
+
+**Laboratório:** anemia **microcítica e hipocrômica** (hemácia pequena e pálida), **ferritina baixa** (o marcador mais precoce de depleção de estoque), ferro sérico baixo, RDW aumentado. Reticulócitos baixos/normais.
+
+**Conduta:** **ferro elementar por via oral** (dose terapêutica) e correção alimentar (reduzir leite de vaca, aumentar alimentos ricos em ferro). A resposta se confirma por um **pico de reticulócitos** em cerca de 5–10 dias e subida da hemoglobina em semanas. 
+
+**Prevenção (MS/SBP):** suplementação profilática de ferro para lactentes (a partir de ~3–6 meses, conforme aleitamento e peso ao nascer, até os 2 anos). Ponto de prova: a **manutenção do aleitamento materno** e a introdução correta de alimentos ricos em ferro são pilares — se a vinheta enfatiza aleitamento e boa alimentação, ferropriva grave com hepatoesplenomegalia fica menos provável (aponta para outra causa).`},
+  {h:`4. Anemias hemolíticas: quando o corpo destrói a hemácia`, c:`Na **hemólise**, as hemácias são destruídas antes do tempo. O padrão comum: **anemia + icterícia (bilirrubina indireta alta) + esplenomegalia + reticulócitos altos + DHL alto + haptoglobina baixa**. Fixe esse conjunto — ele grita "hemólise".
+
+**Anemia falciforme (doença falciforme).** Doença genética (hemoglobina S) em que a hemácia, ao perder oxigênio, assume forma de **foice** e entope pequenos vasos. Dá **crises vaso-oclusivas** (dor óssea, síndrome mão-pé no lactente, dor abdominal), **crises de sequestro esplênico**, maior risco de **infecções por germes encapsulados** (o baço "morre" cedo — autoesplenectomia funcional) e AVC. É **rastreada no teste do pezinho** (triagem neonatal). Confirmação: **eletroforese de hemoglobina** (e o teste de solubilidade como triagem rápida). Manejo: profilaxia com **penicilina** e **vacinas para encapsulados**, hidratação, analgesia, ácido fólico, hidroxiureia nos casos indicados.
+
+**Esferocitose hereditária.** Defeito na membrana da hemácia, que fica esférica e é destruída no baço: anemia + icterícia + esplenomegalia, com história familiar. Confirma com teste de fragilidade osmótica/citometria; esplenectomia em casos graves.
+
+**Talassemia (beta-talassemia major).** Defeito na produção das cadeias de globina → microcitose importante desproporcional à anemia, hemólise, necessidade de transfusões, fácies típica. Eletroforese confirma.
+
+A pegadinha da banca: **microcitose** existe tanto na ferropriva quanto na talassemia — o que diferencia é a **ferritina** (baixa na ferropriva, normal/alta na talassemia) e a desproporção entre grau de microcitose e de anemia.`},
+  {h:`5. Distúrbios de sangramento: plaqueta x coagulação`, c:`Diante de uma criança que sangra, o primeiro passo é decidir **de onde vem o problema**:
+
+- **Distúrbio de plaquetas (quantidade ou função):** sangramento **de pele e mucosas** — **petéquias**, equimoses superficiais, epistaxe, sangramento gengival. Exemplo: **PTI**.
+- **Distúrbio de coagulação (fatores):** sangramento **profundo** — hematomas musculares, **hemartrose** (sangramento em articulação), sangramento tardio. Exemplo: **hemofilia**.
+
+**PTI (púrpura trombocitopênica imune).** É a causa mais comum de plaquetopenia aguda na criança saudável. Tipicamente **1–3 semanas após uma virose**, surge de forma abrupta **petéquias e equimoses** numa criança que, fora isso, está **bem** — **hemograma com anemia e leucograma normais**, apenas as **plaquetas baixas**. A maioria é autolimitada; conduta frequentemente **observação**, com tratamento (corticoide, imunoglobulina) reservado a sangramento importante/plaquetas muito baixas.
+
+**Hemofilia (A/B).** Deficiência de fator VIII (A) ou IX (B), ligada ao X (meninos), com **hemartroses** e hematomas profundos; TTPa alargado. **Doença de von Willebrand** é o distúrbio hereditário de sangramento **mais comum** e principal diferencial de sangramento mucoso/menstrual excessivo em adolescente.`},
+  {h:`6. Sinais de alerta de leucemia (não deixe passar)`, c:`A **leucemia linfoide aguda (LLA)** é o câncer mais comum da infância. A medula é **invadida** por células malignas e para de fabricar as células normais — por isso os sinais refletem a falência das três linhagens:
+
+- **Anemia** (palidez, cansaço),
+- **Plaquetopenia** (petéquias, equimoses, sangramentos),
+- **Neutropenia** (febre, infecções de repetição).
+
+Some a isso **dor óssea** (a criança "não quer andar", claudica), **hepatoesplenomegalia**, **linfonodomegalia** e, às vezes, massa mediastinal. O que **distingue de uma PTI simples** é justamente o envolvimento de **mais de uma linhagem** e os sinais sistêmicos.
+
+**Confirmação:** hemograma com blastos e, sobretudo, **mielograma com imunofenotipagem** (e citogenética). Se a vinheta traz palidez + sangramento + organomegalia + dor óssea, o exame que a banca quer é a **imunofenotipagem** — não a ferritina.`},
+  {h:`7. O algoritmo em seis frases (leve para a prova)`, c:`- **Criança pálida:** pergunte "carência, hemólise ou medula?". Use **VCM** (micro = ferro/talassemia) e **reticulócitos** (altos = hemólise/sangramento; baixos = carência/medula).
+- **Lactente pálido + excesso de leite de vaca + microcitose/hipocromia + ferritina baixa** = ferropriva → ferro oral + dieta.
+- **Anemia + icterícia + esplenomegalia + reticulócitos altos** = hemólise → pense falciforme (eletroforese/solubilidade), esferocitose, talassemia.
+- **Microcitose com ferritina normal/alta e anemia desproporcional** = talassemia, não ferropriva.
+- **Petéquias em criança saudável pós-virose, só plaquetas baixas** = PTI; **hemartrose/hematoma profundo em menino** = hemofilia.
+- **Palidez + sangramento + organomegalia + dor óssea** = leucemia → **imunofenotipagem**.`}
+ ],
+ flashcards: [
+  {p:`Anemia mais comum na infância?`, r:`Anemia ferropriva (carência de ferro).`},
+  {p:`Padrão do hemograma na ferropriva?`, r:`Microcítica e hipocrômica, ferritina baixa (marcador mais precoce), RDW alto.`},
+  {p:`Marcador que separa ferropriva de talassemia (ambas microcíticas)?`, r:`Ferritina: baixa na ferropriva, normal/alta na talassemia.`},
+  {p:`Conjunto que sugere hemólise?`, r:`Anemia + icterícia (BI alta) + esplenomegalia + reticulócitos altos + DHL alto + haptoglobina baixa.`},
+  {p:`Exame confirmatório da anemia falciforme?`, r:`Eletroforese de hemoglobina (teste de solubilidade como triagem); rastreada no teste do pezinho.`},
+  {p:`Por que o falciforme faz infecção por germes encapsulados?`, r:`Autoesplenectomia funcional (asplenia); daí profilaxia com penicilina e vacinas.`},
+  {p:`Reticulócitos altos x baixos indicam?`, r:`Altos = medula respondendo (hemólise/sangramento). Baixos = carência ou falha medular.`},
+  {p:`PTI típica na criança?`, r:`Plaquetopenia isolada, abrupta, 1–3 semanas pós-virose, criança bem; demais séries normais.`},
+  {p:`Sangramento de plaqueta x de coagulação?`, r:`Plaqueta: pele/mucosa (petéquias). Coagulação: profundo (hemartrose, hematoma muscular).`},
+  {p:`Distúrbio hereditário de sangramento mais comum?`, r:`Doença de von Willebrand.`},
+  {p:`Câncer mais comum da infância e exame que confirma?`, r:`Leucemia linfoide aguda; mielograma com imunofenotipagem.`},
+  {p:`Tríade de citopenias que acende alerta de leucemia?`, r:`Anemia + plaquetopenia + neutropenia (+ dor óssea, organomegalia).`}
+ ],
+ pegadinhas: [
+  `Microcitose não é sinônimo de ferropriva — talassemia também é microcítica; diferencie pela ferritina.`,
+  `Reticulócitos ALTOS numa criança anêmica apontam hemólise/sangramento, não carência (medula está respondendo).`,
+  `Aleitamento materno mantido + boa introdução de ferro tornam ferropriva GRAVE com hepatoesplenomegalia improvável — reconsidere hemólise.`,
+  `PTI: criança BEM com só plaquetas baixas; se há anemia + neutropenia + organomegalia + dor óssea, pense LEUCEMIA (imunofenotipagem).`,
+  `Petéquias = problema de plaqueta; hemartrose/hematoma profundo = problema de fator (coagulação) — não confunda.`,
+  `Falciforme tem risco aumentado de infecção por encapsulados (asplenia funcional) — profilaxia com penicilina e vacinas é obrigatória.`
+ ],
+ diretrizes: [
+  `Sociedade Brasileira de Pediatria (SBP) — Departamento de Hematologia: anemias carenciais e hemolíticas, PTI e sinais de alerta de câncer infantojuvenil.`,
+  `Ministério da Saúde — Programa Nacional de Suplementação de Ferro e Triagem Neonatal ("teste do pezinho", que rastreia doença falciforme); Nelson — Tratado de Pediatria (hematologia).`,
+  `Material do Drive: flashcard/préteste "Hemostasia e doenças na Pediatria (2023)" e "Nutrição em Pediatria na Prática Clínica" (anemia ferropriva) (ver materiais_drive.md).`
+ ],
+ questoes: [
+  {enunciado:`Lactente de 14 meses, pálido, que mama no peito mas ingere grande volume de leite de vaca e tem introdução alimentar pobre em carnes. Hemograma: anemia microcítica e hipocrômica, ferritina baixa. Qual o diagnóstico e a conduta?`, alternativas:{a:`Talassemia; iniciar transfusão`, b:`Anemia ferropriva; ferro oral e correção alimentar`, c:`Anemia hemolítica; corticoide`, d:`Leucemia; mielograma`}, correta:"b", comentario:`História e laboratório clássicos de anemia ferropriva: lactente com excesso de leite de vaca (pobre em ferro e causa de microssangramento intestinal) e dieta pobre em ferro, com anemia microcítica hipocrômica e ferritina baixa (marcador mais precoce de depleção). Conduta: ferro elementar por via oral em dose terapêutica + ajuste alimentar (reduzir leite de vaca, aumentar alimentos ricos em ferro); espera-se pico de reticulócitos em 5–10 dias. Talassemia também é microcítica, mas tem ferritina normal/alta e anemia desproporcional; hemólise cursaria com icterícia, esplenomegalia e reticulócitos altos; leucemia traria outras citopenias e sinais sistêmicos. Chamar de talassemia ou hemólise ignorando a ferritina baixa é o erro típico.`, foco:`Ferropriva: história e ferritina (ponto de erro)`},
+  {enunciado:`Criança de 3 anos com palidez, icterícia, esplenomegalia e reticulócitos elevados; bilirrubina indireta alta. Qual mecanismo e qual exame confirma a principal hipótese (doença falciforme)?`, alternativas:{a:`Carência de ferro; ferritina`, b:`Hemólise; eletroforese de hemoglobina`, c:`Falha medular; biópsia de medula`, d:`Perda sanguínea; endoscopia`}, correta:"b", comentario:`O conjunto anemia + icterícia (bilirrubina indireta alta) + esplenomegalia + reticulócitos altos define hemólise (a medula responde produzindo reticulócitos). Entre as hemolíticas da infância, a doença falciforme é a hipótese-chave e se confirma pela eletroforese de hemoglobina (o teste de solubilidade serve como triagem rápida; a triagem neonatal do pezinho já rastreia). Ferritina investiga carência (reticulócitos seriam baixos); biópsia medular seria para falha de produção; endoscopia para perda digestiva. Trocar o exame confirmatório é o erro que a banca explora.`, foco:`Padrão de hemólise e exame confirmatório (ponto de erro)`},
+  {enunciado:`Menino de 5 anos, previamente hígido, 2 semanas após um quadro viral, apresenta petéquias e equimoses de início súbito. Exame sem hepatoesplenomegalia; hemograma com plaquetas muito baixas, mas séries vermelha e branca normais. Qual o diagnóstico mais provável?`, alternativas:{a:`Leucemia linfoide aguda`, b:`Púrpura trombocitopênica imune (PTI)`, c:`Hemofilia A`, d:`Anemia aplásica`}, correta:"b", comentario:`Plaquetopenia isolada, de início abrupto, cerca de 1–3 semanas após virose, em criança que fora o sangramento cutâneo-mucoso está bem e tem as demais séries do hemograma normais: é a PTI, causa mais comum de plaquetopenia aguda na infância. A leucemia envolveria outras linhagens (anemia, neutropenia) e sinais sistêmicos (organomegalia, dor óssea) — o hemograma normal nas séries vermelha e branca a torna improvável. Hemofilia dá sangramento profundo (hemartrose), não petéquias, e é ligada ao X. Anemia aplásica cursa com pancitopenia. A maioria das PTIs é autolimitada, muitas vezes só observação. O dado que "afasta leucemia" (demais séries normais) é a chave.`, foco:`PTI x leucemia: séries normais afastam leucemia (ponto de erro)`},
+  {enunciado:`Diante de uma criança com sangramentos, qual achado aponta para distúrbio de COAGULAÇÃO (fatores), e não de plaquetas?`, alternativas:{a:`Petéquias e sangramento gengival`, b:`Epistaxe recorrente`, c:`Hemartrose e hematomas musculares profundos`, d:`Equimoses superficiais pequenas`}, correta:"c", comentario:`Distúrbios de coagulação (ex.: hemofilia) causam sangramento profundo e tardio: hemartroses (sangramento articular) e hematomas musculares. Petéquias, sangramento gengival, epistaxe e equimoses superficiais são o padrão de distúrbio de plaquetas (quantidade ou função), como na PTI ou na doença de von Willebrand. Separar "pele/mucosa = plaqueta" de "profundo = fator" orienta a investigação (contagem de plaquetas x TTPa/fatores) e é o ponto que a banca cobra.`, foco:`Padrão plaqueta x coagulação (ponto de erro)`},
+  {enunciado:`Criança de 6 anos com palidez progressiva, febre, equimoses, dor óssea (recusa a andar) e hepatoesplenomegalia. Hemograma com anemia, plaquetopenia e neutropenia. Qual exame é o mais indicado para confirmar a hipótese principal?`, alternativas:{a:`Ferritina sérica`, b:`Teste de solubilidade`, c:`Mielograma com imunofenotipagem`, d:`Fragilidade osmótica`}, correta:"c", comentario:`O quadro reúne os sinais de alerta de leucemia: falência das três linhagens (anemia + plaquetopenia + neutropenia), dor óssea, febre e organomegalia — a medula está sendo invadida. A confirmação é feita pelo mielograma com imunofenotipagem (e citogenética), que identifica e classifica os blastos. Ferritina investiga ferropriva, teste de solubilidade rastreia falciforme e fragilidade osmótica avalia esferocitose — nenhum confirma leucemia. Diante de pancitopenia com dor óssea e organomegalia, pedir o exame de medula é o caminho; escolher a ferritina é o erro clássico de quem para na "criança pálida".`, foco:`Sinais de leucemia e exame confirmatório (ponto de erro)`}
+ ]
+}
 
 };
