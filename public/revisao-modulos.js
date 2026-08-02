@@ -2903,4 +2903,347 @@ Some a isso **dor óssea** (a criança "não quer andar", claudica), **hepatoesp
  ]
 }
 
+,
+
+"PED|Saúde coletiva / ética": {
+ titulo: `Saúde coletiva, APS e ética na Pediatria`,
+ half: "PED",
+ resumo: `Este é o bloco onde a prova deixa de perguntar "qual o diagnóstico?" e passa a perguntar "o que a lei e o SUS mandam você FAZER?". Cai muito e erra-se muito porque não é conteúdo de bula — é um conjunto de regras (ECA, Marco Legal da Primeira Infância, notificação compulsória, sigilo do adolescente) que só se acerta com o raciocínio certo, não com bom senso improvisado. Aqui reconstruímos o tema do zero: o que é atenção primária e por que a Pediatria vive dela, como se protege legalmente uma criança (notificação, Conselho Tutelar, cadeia de custódia na suspeita de abuso) e a regra de ouro do atendimento ao adolescente (confidencialidade e seus limites).`,
+ fontes: `Base: Estatuto da Criança e do Adolescente (ECA, Lei 8.069/1990), Marco Legal da Primeira Infância (Lei 13.257/2016), Lei 13.431/2017 (escuta especializada/depoimento sem dano), Portaria de Notificação Compulsória do Ministério da Saúde e SBP — Departamentos de Segurança e de Adolescência (documentos científicos sobre violência, confidencialidade e atenção integral). Nelson — Tratado de Pediatria (maus-tratos). Ver materiais_drive.md.`,
+ notaErro: `Nos registros, este domínio some do "acertei porque estudei a doença" e vira armadilha pura de conduta: os erros ficaram em **Marco Legal da Primeira Infância**, **notificação de maus-tratos** e **sigilo do adolescente**. O padrão do erro é quase sempre o mesmo — **confundir "suspeita" com "prova", e "notificar" com "denunciar/acusar"**. Três tropeços explicam a maioria das quedas:
+
+- **Você acha que precisa ter certeza para notificar.** Não precisa. A notificação de violência é obrigatória diante da **suspeita**, não da confirmação — e não cabe ao pediatra investigar autoria. Esperar "ter certeza" é o erro que a banca pune (seção 5).
+- **Você trata o adolescente como criança e conta tudo aos pais.** A regra é **confidencialidade**, com limites objetivos (risco de vida a si ou a terceiros). Quebrar o sigilo sem que um limite esteja presente é erro; não quebrá-lo quando há risco grave também é (seção 6).
+- **Você decora "estatísticas" do Marco Legal e esquece a lógica.** A prova cobra o **conceito**: primeira infância = 0 a 6 anos, prioridade absoluta, intersetorialidade, licença-paternidade ampliada, atenção ao vínculo e ao desenvolvimento. Entender o "porquê" (janela de neurodesenvolvimento) resolve mais questões do que decorar artigos (seção 2 e 3).
+
+**Como zerar o erro:** para toda questão deste bloco, faça três perguntas — (1) qual o **sujeito de direito** (criança de primeira infância? adolescente?) e qual regra o protege? (2) há **suspeita de violência**? Se sim, o verbo é **notificar** (ficha + Conselho Tutelar), sempre, independentemente de prova. (3) É adolescente: a informação é **confidencial** e só se rompe o sigilo diante de **risco grave**. As questões ao final treinam exatamente esses três nós.`,
+ secoes: [
+  {h:`1. Comece pelo começo: o que é "saúde coletiva" e por que a Pediatria depende dela`, c:`Saúde coletiva é o olhar que sai do paciente individual e enxerga a **população**: como as pessoas adoecem em grupo, o que as protege (saneamento, vacina, renda, vínculo familiar) e como o sistema de saúde se organiza para cuidar de todos. Na Pediatria isso não é acessório — é a espinha dorsal. A maioria do que reduz mortalidade infantil não acontece no hospital, e sim na **Atenção Primária à Saúde (APS)**: pré-natal, puericultura, aleitamento, vacinação, acompanhamento do crescimento e do desenvolvimento.
+
+Pense na APS como a **porta de entrada e a base da pirâmide**. Ela é o primeiro contato, é longitudinal (acompanha a mesma criança ao longo do tempo), é coordenadora do cuidado (organiza encaminhamentos) e é integral (cuida do todo, não só da doença). Esse conjunto de atributos vem de um modelo clássico (Barbara Starfield) que a prova adora: **primeiro contato, longitudinalidade, integralidade e coordenação**. Guarde essas quatro palavras — questões de "qual atributo da APS está descrito?" caem com frequência.
+
+Por que isso importa na ética? Porque muitas decisões pediátricas (notificar violência, garantir vacina, proteger o adolescente) são responsabilidades que a lei atribui ao profissional de saúde **dentro** desse sistema. Não é "se eu quiser": é dever legal.`},
+  {h:`2. Quem é o sujeito: criança, adolescente e a "prioridade absoluta"`, c:`O **Estatuto da Criança e do Adolescente (ECA, Lei 8.069/1990)** define os termos que a prova cobra ao pé da letra:
+
+- **Criança:** pessoa de **0 até 12 anos incompletos** (ou seja, até 11 anos e 11 meses).
+- **Adolescente:** de **12 a 18 anos incompletos**.
+
+O ECA consagra a **doutrina da proteção integral** e o princípio da **prioridade absoluta**: criança e adolescente têm precedência no atendimento, na formulação de políticas e na destinação de recursos. Eles são **sujeitos de direitos**, não objetos da vontade dos pais. Essa mudança de paradigma (antes eram vistos como "menores" tutelados) é a chave para entender por que o adolescente tem direito a atendimento e sigilo próprios, e por que a família **não pode** recusar cuidados essenciais (vacina obrigatória, transfusão salvadora de vida).
+
+Analogia útil: o ECA trata a criança como um cidadão pequeno com **advogado embutido** — o Estado e o profissional de saúde funcionam como uma rede de proteção que age mesmo contra a vontade de quem deveria cuidar, quando esse cuidado falha.`},
+  {h:`3. Marco Legal da Primeira Infância: o que é e por que existe`, c:`A **primeira infância** é o período de **0 a 6 anos completos (até 72 meses)**. O **Marco Legal da Primeira Infância (Lei 13.257/2016)** existe porque a ciência do desenvolvimento mostrou que esses primeiros anos são uma **janela** de plasticidade cerebral: é quando o cérebro forma mais sinapses por segundo, e quando o **vínculo, o estímulo e a proteção contra estresse tóxico** têm o maior retorno para a vida toda. Investir cedo é mais eficaz e mais barato do que remediar depois — esse é o "porquê" que a prova quer que você entenda.
+
+O que a lei traz de concreto (e cobrável):
+
+- **Intersetorialidade:** saúde, educação, assistência social e justiça atuando juntas — nenhuma sozinha resolve.
+- **Atenção ao desenvolvimento integral:** não basta a criança não estar doente; cuida-se de nutrição, vínculo, brincar, linguagem, ambiente.
+- **Apoio à parentalidade e à gestação:** fortalece o cuidado desde o pré-natal.
+- **Ampliação da licença-paternidade** (de 5 para até 20 dias em empregadores do Programa Empresa Cidadã) — para favorecer o vínculo paterno precoce.
+- **Prioridade a crianças vulneráveis** (pobreza, deficiência, violência).
+
+O conceito-âncora: o Marco Legal desloca a Pediatria do "tratar doença" para **"proteger o desenvolvimento"**. Questões costumam descrever uma ação (ex.: visita domiciliar para estimular vínculo mãe-bebê) e perguntar a que política ela pertence — a resposta é o Marco Legal / primeira infância.`},
+  {h:`4. Violência contra a criança: reconhecer os tipos e os sinais de alerta`, c:`Maus-tratos abrangem quatro grandes formas, e a prova gosta de misturar:
+
+- **Violência física:** lesões em fases de cicatrização diferentes, em locais atípicos (dorso, orelhas, região interna de coxas, glúteos), marcas com formato de objeto, **história incompatível** com a lesão ou que muda a cada relato.
+- **Negligência:** a mais comum e a mais subdiagnosticada — desnutrição sem causa orgânica, atraso vacinal, faltas repetidas, higiene precária, "criança abandonada" no atendimento.
+- **Violência psicológica:** humilhação, rejeição, exposição a violência doméstica.
+- **Violência sexual:** ver seção específica.
+
+Sinais que devem acender o alerta (independentemente de "quem parece boa família"): **incompatibilidade entre a lesão e a história**, atraso em procurar atendimento, versões divergentes entre cuidadores, criança excessivamente assustada ou, ao contrário, indiferente. Lesões clássicas de alta especificidade: **fraturas metafisárias** ("em alça de balde"), fraturas de costelas posteriores em lactente, hemorragias retinianas (traumatismo craniano abusivo / "bebê sacudido"), queimaduras em luva/bota (imersão forçada).
+
+O princípio que não pode falhar: a suspeita nasce do **padrão**, não de um preconceito social. Violência ocorre em todas as classes.`},
+  {h:`5. Notificação de maus-tratos: o passo que mais derruba na prova`, c:`Aqui está o nó que gera erro. Fixe as regras:
+
+- **Notificar é OBRIGATÓRIO diante da SUSPEITA** — não é preciso ter certeza nem prova. A violência (e a suspeita de violência) contra criança e adolescente é de **notificação compulsória** (ECA, art. 13, e portaria de notificação do MS). Deixar de notificar é **infração** (o ECA prevê multa ao profissional de saúde que omite).
+- **Notificar NÃO é denunciar/acusar.** O profissional não investiga autoria nem "resolve o crime". Notificar é acionar a **rede de proteção**: preenche-se a **ficha de notificação** (SINAN — agravo de notificação em saúde) e comunica-se o **Conselho Tutelar**. Casos graves podem envolver também autoridade policial/Ministério Público, mas o gesto obrigatório do profissional é a notificação.
+- **A quem se comunica:** **Conselho Tutelar** é o órgão-chave (defende os direitos da criança e aplica medidas de proteção). A ficha vai ao sistema de vigilância; o cuidado clínico da criança continua.
+- **Sigilo profissional NÃO impede notificar:** a proteção da criança prevalece; a notificação é dever legal e não configura quebra indevida de sigilo.
+
+Resumo operacional para a prova: **suspeitou → notificou (ficha + Conselho Tutelar) → cuidou da criança**. Qualquer alternativa que diga "aguardar confirmação", "só notificar se tiver certeza", "conversar com os pais antes para esclarecer" (quando isso expõe a criança) ou "encaminhar para investigar quem foi o autor" está caindo na armadilha.`},
+  {h:`6. Abuso sexual: conduta, cadeia de custódia e escuta protegida`, c:`A suspeita de **violência sexual** tem particularidades que caem muito:
+
+- **É emergência médica e de proteção.** Além de notificar (Conselho Tutelar; casos agudos também acionam a autoridade policial/serviço de referência), há janelas de tempo para **profilaxias**: em exposição de risco recente, considerar **profilaxia de ISTs, contracepção de emergência** (na adolescente, quando aplicável) e **profilaxia pós-exposição ao HIV** (idealmente iniciada em até 72 horas). A **notificação é imediata** (violência sexual é de notificação compulsória imediata).
+- **Preservação de vestígios (cadeia de custódia):** não banhar, não trocar de roupa e não descartar vestígios antes da avaliação nos casos agudos; a coleta segue protocolo do serviço de referência.
+- **Escuta especializada / depoimento especial (Lei 13.431/2017):** a criança **não deve ser reinquirida** repetidamente. Evita-se a **revitimização**: o profissional de saúde acolhe e registra o relato espontâneo, mas o depoimento formal é conduzido por metodologia protegida, por profissional capacitado, uma única vez sempre que possível. Ficar "interrogando" a criança para "descobrir detalhes" é erro grave (revitimiza e contamina a prova).
+- **Ausência de lesão NÃO exclui abuso.** A maioria dos exames em vítimas de abuso é normal — o exame físico normal jamais afasta a hipótese. Esse é um ponto de pegadinha clássico.`},
+  {h:`7. Ética no atendimento ao adolescente: a regra da confidencialidade`, c:`O atendimento ao adolescente tem uma regra de ouro: **confidencialidade (sigilo)**. O adolescente tem direito a ser atendido **sozinho**, se desejar, e a que suas informações sejam mantidas em sigilo — inclusive dos pais. Isso não é "contra a família": é o que garante que ele procure ajuda (sexualidade, uso de substâncias, saúde mental) sem medo.
+
+Mas o sigilo tem **limites objetivos**, e são eles que a prova cobra. Rompe-se a confidencialidade quando há **risco à vida ou à saúde do próprio adolescente ou de terceiros**, tais como:
+
+- **Risco de suicídio ou de violência** (a si ou a outros);
+- **Gravidez** e certas situações que exigem suporte familiar;
+- **Abuso/violência sofrida** (que aciona a rede de proteção);
+- **Incapacidade de autocuidado** diante de uma condição grave;
+- Recusa de tratamento essencial com risco de vida.
+
+Nessas situações, o profissional comunica a família e/ou a rede, sempre **informando o adolescente** sobre a necessidade da quebra. Fora desses limites, o sigilo se mantém. Um marco importante: o adolescente pode receber **orientação e prescrição em saúde sexual e reprodutiva** (incluindo anticoncepção) sem a obrigatoriedade de presença dos pais — a autonomia progressiva é reconhecida. A prova adora o caso da adolescente de 15 anos que pede anticoncepcional: a conduta correta é **acolher, orientar e prescrever, mantendo sigilo**, não "só atender com os pais".`},
+  {h:`8. Puericultura e vigilância: onde a ética vira rotina`, c:`Boa parte da proteção acontece na consulta de rotina (puericultura). A **Caderneta de Saúde da Criança** é o instrumento que acompanha crescimento (curvas), desenvolvimento (marcos), vacinação e alimentação — e é também um registro que pode revelar negligência (atraso vacinal, faltas, curva despencando). A vigilância do desenvolvimento e a busca ativa de faltosos são parte do dever de cuidado.
+
+A vacinação merece nota ética: no Brasil, algumas vacinas do calendário infantil são **obrigatórias**, e a recusa injustificada dos pais pode ser caracterizada como negligência, com acionamento do Conselho Tutelar em casos de risco. O direito da criança à proteção prevalece sobre a autonomia dos pais quando há risco concreto — o mesmo princípio da transfusão salvadora de vida recusada por convicção religiosa dos responsáveis: **em risco iminente de morte, o profissional age para salvar a criança**.`},
+  {h:`9. O algoritmo em seis frases (leve para a prova)`, c:`- Identifique o **sujeito de direito**: criança (0–<12a) ou adolescente (12–<18a); primeira infância = 0–6 anos.
+- Ação de política de desenvolvimento/vínculo em <6 anos → pense **Marco Legal da Primeira Infância** (janela de neurodesenvolvimento, intersetorialidade).
+- **Suspeita** de violência → **notificar SEMPRE** (ficha SINAN + Conselho Tutelar), sem esperar prova; notificar não é acusar.
+- Violência **sexual** → notificação **imediata**, profilaxias com janela de tempo (HIV até 72h), **preservar vestígios**, **não reinquirir** a criança (Lei 13.431/2017); exame normal não exclui.
+- **Adolescente** → **confidencialidade** é a regra; rompe-se só diante de **risco grave** (suicídio, violência, incapacidade), informando o adolescente.
+- Adolescente pedindo **anticoncepção/saúde sexual** → acolher, orientar e prescrever com sigilo; recusa parental de cuidado essencial com risco de vida → proteção da criança prevalece.`}
+ ],
+ flashcards: [
+  {p:`Faixas etárias do ECA?`, r:`Criança: 0 a <12 anos. Adolescente: 12 a <18 anos. Primeira infância: 0 a 6 anos completos (72 meses).`},
+  {p:`Precisa ter certeza para notificar maus-tratos?`, r:`Não. A notificação é obrigatória diante da SUSPEITA; o profissional não investiga autoria.`},
+  {p:`Para quem se comunica a suspeita de violência?`, r:`Conselho Tutelar (+ ficha de notificação/SINAN); casos sexuais/agudos também acionam autoridade policial/serviço de referência.`},
+  {p:`Notificar é a mesma coisa que denunciar?`, r:`Não. Notificar aciona a rede de proteção (dever legal); denunciar/investigar autoria é papel de outros órgãos.`},
+  {p:`Regra de ouro do atendimento ao adolescente?`, r:`Confidencialidade — atendimento sigiloso, inclusive dos pais.`},
+  {p:`Quando se rompe o sigilo do adolescente?`, r:`Diante de risco grave: suicídio, violência a si/terceiros, gravidez com necessidade de suporte, abuso, incapacidade de autocuidado — sempre informando o adolescente.`},
+  {p:`Adolescente de 15 anos pede anticoncepcional sozinha. Conduta?`, r:`Acolher, orientar e prescrever, mantendo sigilo — autonomia progressiva reconhecida.`},
+  {p:`Janela para profilaxia pós-exposição ao HIV na violência sexual?`, r:`Idealmente iniciar em até 72 horas da exposição.`},
+  {p:`Exame físico genital normal exclui abuso sexual?`, r:`Não — a maioria dos exames é normal; o exame normal nunca afasta a hipótese.`},
+  {p:`O que é o Marco Legal da Primeira Infância?`, r:`Lei 13.257/2016: protege o desenvolvimento integral de 0–6 anos com intersetorialidade, apoio à parentalidade, licença-paternidade ampliada — baseado na janela de neurodesenvolvimento.`},
+  {p:`Quatro atributos da APS (Starfield)?`, r:`Primeiro contato, longitudinalidade, integralidade e coordenação do cuidado.`}
+ ],
+ pegadinhas: [
+  `Notificação de violência exige SUSPEITA, não confirmação — "aguardar certeza" é a alternativa-armadilha.`,
+  `Notificar ≠ denunciar/acusar: o profissional aciona a rede (Conselho Tutelar), não investiga o autor.`,
+  `Exame físico normal NÃO exclui abuso sexual — a maioria dos casos tem exame normal.`,
+  `Na violência sexual aguda: NÃO banhar, NÃO trocar roupa, NÃO reinquirir a criança (revitimização) — preservar vestígios e acionar serviço de referência.`,
+  `Adolescente tem direito a atendimento sigiloso; contar tudo aos pais sem que haja risco grave é ERRO ético.`,
+  `Não quebrar o sigilo diante de risco de suicídio/violência também é erro — o limite existe justamente para proteger.`,
+  `Recusa parental de cuidado essencial com risco de vida (ex.: transfusão salvadora): a proteção da criança prevalece.`,
+  `Primeira infância = 0 a 6 anos (72 meses); não confundir com a definição de "criança" do ECA (0 a <12).`,
+  `Negligência é a forma mais comum e mais subnotificada de maus-tratos — atraso vacinal e faltas repetidas contam.`
+ ],
+ diretrizes: [
+  `Estatuto da Criança e do Adolescente — ECA (Lei 8.069/1990): definições, prioridade absoluta, dever de notificar (art. 13).`,
+  `Marco Legal da Primeira Infância (Lei 13.257/2016): desenvolvimento integral de 0–6 anos, intersetorialidade, licença-paternidade.`,
+  `Lei 13.431/2017 — Sistema de Garantia de Direitos: escuta especializada e depoimento especial (evitar revitimização).`,
+  `Ministério da Saúde — Notificação Compulsória de violências (SINAN); Linha de Cuidado para atenção a crianças/adolescentes vítimas de violência.`,
+  `Sociedade Brasileira de Pediatria (SBP) — Departamentos de Segurança da Criança/Adolescente e de Adolescência: manuais sobre maus-tratos e confidencialidade; Nelson — Tratado de Pediatria (maus-tratos). Ver materiais_drive.md.`
+ ],
+ questoes: [
+  {enunciado:`Lactente de 8 meses é levado ao pronto-socorro por "queda do sofá". Ao exame, fratura de fêmur em espiral, hematomas em dorso em diferentes fases e atraso de 2 dias para procurar atendimento. Qual a conduta correta do pediatra?`, alternativas:{a:`Aguardar exames complementares confirmarem abuso antes de qualquer medida`, b:`Notificar a suspeita (ficha + Conselho Tutelar) e proteger a criança`, c:`Orientar os pais e agendar retorno ambulatorial`, d:`Encaminhar à delegacia para que investiguem quem agrediu`}, correta:"b", comentario:`A cena reúne sinais de alta suspeita de violência física: lesão incompatível com a história ("queda do sofá" não produz fratura de fêmur em espiral em lactente), lesões em fases diferentes e atraso em procurar atendimento. A conduta é NOTIFICAR a suspeita — não é preciso confirmação nem prova (a notificação de maus-tratos é obrigatória diante da suspeita, ECA art. 13) — preenchendo a ficha e comunicando o Conselho Tutelar, além de cuidar/proteger a criança (internar para proteção e investigação se necessário). "Aguardar confirmar" e "agendar retorno" expõem a criança e omitem dever legal. E o papel do pediatra NÃO é investigar autoria (isso é da autoridade competente): notificar aciona a rede de proteção, não é acusar alguém. Confundir "notificar" com "denunciar/investigar" e exigir certeza são os dois erros clássicos.`, foco:`Notificar na suspeita ≠ investigar autoria (ponto de erro)`},
+  {enunciado:`Adolescente de 15 anos procura a UBS sozinha para pedir método contraceptivo. Está bem, sem sinais de violência ou risco. Qual a conduta ética e legalmente correta?`, alternativas:{a:`Só atender na presença dos pais ou responsável`, b:`Acolher, orientar e prescrever contracepção, mantendo o sigilo`, c:`Recusar por ser menor de idade`, d:`Comunicar imediatamente os pais sobre o pedido`}, correta:"b", comentario:`O atendimento ao adolescente rege-se pela confidencialidade e pelo reconhecimento da autonomia progressiva. Uma adolescente pode receber orientação e prescrição em saúde sexual e reprodutiva sem a presença obrigatória dos pais, e a informação deve ser mantida em sigilo. Exigir a presença dos pais, recusar o atendimento ou comunicar a família (sem que haja um limite objetivo, como risco grave) violam o direito ao sigilo e afastam o adolescente do cuidado — exatamente o que a norma quer evitar. A quebra do sigilo só se justificaria diante de risco à vida/saúde (suicídio, violência, incapacidade), o que não está presente. Tratar a adolescente como incapaz e "contar aos pais" é o erro que a banca cobra.`, foco:`Confidencialidade do adolescente e seus limites (ponto de erro)`},
+  {enunciado:`Uma visitadora domiciliar acompanha uma gestante vulnerável e, após o nascimento, orienta o vínculo mãe-bebê e estimulação precoce nos primeiros anos. Essa ação se enquadra principalmente em qual política?`, alternativas:{a:`Marco Legal da Primeira Infância`, b:`Programa Nacional de Imunizações`, c:`Política de Saúde do Adolescente`, d:`Estratégia de Saúde Bucal`}, correta:"a", comentario:`A ação descrita — apoio à parentalidade, fortalecimento do vínculo e estimulação nos primeiros anos, com atuação intersetorial e foco no desenvolvimento — é a essência do Marco Legal da Primeira Infância (Lei 13.257/2016), que protege o desenvolvimento integral de 0 a 6 anos aproveitando a janela de neuroplasticidade. O PNI trata de vacinas; a Política do Adolescente cobre outra faixa etária; saúde bucal é outro eixo. A pegadinha é decorar "artigos" sem entender o conceito: sempre que a questão descrever proteção do vínculo/desenvolvimento na primeira infância, a resposta é o Marco Legal.`, foco:`Reconhecer o Marco Legal pelo conceito, não pelo artigo (ponto de erro)`}
+ ]
+},
+
+"PED|Reumato / vasculites": {
+ titulo: `Reumatologia e vasculites na Pediatria`,
+ half: "PED",
+ resumo: `Febre que não passa, criança irritada, exames "inflamados" e nenhum foco óbvio: é o terreno das doenças reumatológicas e das vasculites, e é onde se erra por dois motivos opostos — ou se trata como infecção arrastada, ou se decora critério sem entender a lógica. Este texto reconstrói o tema do zero: o que é inflamação/autoimunidade na criança, e depois os quatro protagonistas de prova — **doença de Kawasaki** (a vasculite que ameaça as coronárias), **púrpura de Henoch-Schönlein / vasculite por IgA** (a vasculite mais comum da infância), **artrite idiopática juvenil (AIJ)** e a **febre reumática** — com o foco no que muda a conduta e salva o paciente.`,
+ fontes: `Base: Sociedade Brasileira de Pediatria (SBP) — Departamento de Reumatologia; critérios da American Heart Association (AHA) para doença de Kawasaki; critérios EULAR/PRINTO/PRES (Ankara) para vasculites e AIJ (classificação ILAR); Nelson — Tratado de Pediatria (Reumatologia e Vasculites). Ver materiais_drive.md.`,
+ notaErro: `Nos registros, os erros deste domínio concentram-se em **doença de Kawasaki** (mais de um usuário errou) e aparecem também em **artrite idiopática juvenil**. O padrão do erro é **não reconhecer o tempo como critério** e **subestimar a urgência da Kawasaki**. Três tropeços recorrentes:
+
+- **Você conta os dias errados na Kawasaki.** O critério exige **febre ≥ 5 dias** MAIS ≥ 4 dos 5 sinais clínicos. Quem "espera para ver" ou trata como virose perde a janela de ouro da imunoglobulina (idealmente até o 10º dia) — e é justamente aí que mora o risco de aneurisma coronariano (seção 4 e 5).
+- **Você confunde as vasculites.** Kawasaki (vasos médios, coronárias) não é PHS/vasculite por IgA (pequenos vasos, púrpura palpável em membros inferiores + dor abdominal + artrite + rim). Trocar uma pela outra troca toda a conduta (seção 3 e 6).
+- **Você trata AIJ como "artrite qualquer" e esquece o tempo e a idade.** AIJ exige artrite por **≥ 6 semanas**, início antes dos 16 anos, após excluir outras causas. A forma sistêmica (doença de Still) engana com febre em picos e rash evanescente e pode ser confundida com infecção ou câncer (seção 7).
+
+**Como zerar o erro:** para cada caso, pergunte — (1) **quanto tempo** dura a febre/artrite? (o tempo é critério, não detalhe); (2) **qual o calibre do vaso / o alvo** (coronária na Kawasaki? pele-abdome-rim na IgA?); (3) **há uma janela terapêutica** que muda o prognóstico (imunoglobulina na Kawasaki)? As questões ao final batem nesses três pontos.`,
+ secoes: [
+  {h:`1. Comece pelo começo: inflamação, autoimunidade e vasculite`, c:`O sistema imune existe para atacar o que é estranho. Na **autoimunidade**, ele erra o alvo e ataca o próprio corpo; na **inflamação crônica**, esse ataque se arrasta e danifica tecidos. Quando o alvo do ataque é a **parede dos vasos sanguíneos**, chamamos de **vasculite** — e o vaso inflamado pode entupir (isquemia), dilatar (aneurisma) ou romper (sangramento/púrpura).
+
+Duas pistas laboratoriais aparecem sempre: **provas inflamatórias elevadas** (VHS, PCR) e, muitas vezes, **anemia de doença crônica, trombocitose e leucocitose**. Mas atenção — laboratório inflamado não diz QUAL doença é; o diagnóstico é clínico, por padrão de acometimento.
+
+A grande regra das vasculites é classificá-las pelo **calibre do vaso** afetado, porque isso define o quadro:
+
+- **Pequenos vasos** (capilares, vênulas): púrpura palpável, glomerulonefrite — ex.: **vasculite por IgA (Henoch-Schönlein)**.
+- **Médios vasos** (artérias musculares, coronárias): aneurismas, isquemia — ex.: **doença de Kawasaki**, poliarterite nodosa.
+- **Grandes vasos** (aorta e ramos): ex.: arterite de Takayasu.
+
+Guarde o mapa "calibre → alvo → quadro": ele resolve sozinho a maior parte das questões.`},
+  {h:`2. Como pensar uma criança "inflamada" sem foco`, c:`Diante de febre prolongada e provas inflamatórias altas sem foco infeccioso claro, o raciocínio pediátrico corre por três trilhos: **infecção** (a mais comum, sempre primeiro), **doença inflamatória/reumatológica** e **neoplasia** (leucemia/linfoma). A reumatologia costuma entrar como **diagnóstico de exclusão parcial** — mas há exceções em que o tempo não permite exclusão completa antes de tratar, e a **doença de Kawasaki é a principal delas** (tratar cedo protege as coronárias).
+
+Sinais que puxam para o lado reumatológico/vasculítico: **púrpura palpável** (vasculite), **artrite verdadeira** (edema + limitação, não só dor), **rash evanescente com febre em picos** (Still), **mucosite + conjuntivite + extremidades alteradas** (Kawasaki). Sinais que puxam para neoplasia: **dor óssea, pancitopenia, sangramento, organomegalia** — nunca esquecer a leucemia diante de "artralgia + hemograma alterado".`},
+  {h:`3. Vasculite por IgA (púrpura de Henoch-Schönlein): a vasculite mais comum da infância`, c:`É a vasculite mais frequente em crianças, típica em **pré-escolares e escolares**, muitas vezes após **infecção de vias aéreas** (deposição de imunocomplexos de **IgA** em pequenos vasos). A tétrade clássica:
+
+- **Púrpura palpável** — o achado-chave: lesões que se PALPAM (elevadas), simétricas, predominando em **membros inferiores e nádegas** (áreas de maior pressão hidrostática). **Não desaparecem à digitopressão** e a criança costuma ter **plaquetas normais** (diferencia de PTI).
+- **Artrite/artralgia** — grandes articulações (tornozelos, joelhos), transitória, sem sequela.
+- **Dor abdominal** — por vasculite intestinal; atenção à complicação **intussuscepção (invaginação intestinal)**, tipicamente **ileoileal**.
+- **Acometimento renal** — nefrite por IgA: hematúria e proteinúria; é o que define o **prognóstico a longo prazo** (por isso o seguimento com urina e pressão arterial).
+
+Conduta: em geral **autolimitada**, suporte e analgesia; **corticoide** para dor abdominal importante/complicações; acompanhamento renal prolongado. A pegadinha: púrpura + plaquetas normais em criança com dor abdominal e artrite = pensar IgA/PHS, não PTI (nesta as plaquetas estão baixas) nem sepse meningocócica (nesta a criança está toxemiada, com púrpura que progride rápido).`},
+  {h:`4. Doença de Kawasaki: o que é e por que é uma emergência`, c:`A **doença de Kawasaki** é uma **vasculite de médios vasos**, febril, aguda e autolimitada, típica de **crianças < 5 anos**. Por que é temida? Porque acomete as **artérias coronárias** e pode causar **aneurismas coronarianos** — é a principal causa de doença cardíaca adquirida na infância em países desenvolvidos. Ou seja: não é "só uma febre com rash"; é uma corrida contra o relógio para proteger o coração.
+
+A causa é desconhecida (provável gatilho infeccioso em predispostos), mas o essencial é reconhecer o padrão e tratar cedo. A analogia útil: pense na Kawasaki como um "incêndio" na parede das artérias — apagá-lo rápido (imunoglobulina) evita que a parede fique cicatrizada e dilatada (aneurisma).`},
+  {h:`5. Kawasaki: critérios diagnósticos (conte certo os dias) e tratamento`, c:`O diagnóstico é **clínico**. Critério clássico: **febre por ≥ 5 dias** MAIS **pelo menos 4 dos 5 sinais** abaixo (mnemônico útil: pense em "olhos, boca, mãos/pés, pele, pescoço"):
+
+- **Conjuntivite bilateral não exsudativa** (sem secreção, poupa o limbo).
+- **Alterações de mucosa oral:** lábios rachados/avermelhados, **língua em framboesa**, hiperemia de orofaringe.
+- **Alterações de extremidades:** eritema/edema de mãos e pés na fase aguda; **descamação periungueal** na fase subaguda (2ª–3ª semana).
+- **Exantema polimorfo** (tronco), não vesicular.
+- **Linfadenopatia cervical** (geralmente unilateral, ≥ 1,5 cm) — o critério **menos frequente**.
+
+Existe a **Kawasaki incompleta/atípica** (mais comum em lactentes): febre prolongada com menos critérios, mas provas inflamatórias muito altas e alterações ecocardiográficas — exige alto índice de suspeição, pois esses são os que mais fazem aneurisma.
+
+**Tratamento (a janela de ouro):** **imunoglobulina intravenosa (IVIG) 2 g/kg** em dose única + **ácido acetilsalicílico (AAS)**, idealmente **até o 10º dia de doença** (quanto mais cedo, menor o risco coronariano). **Ecocardiograma** no diagnóstico e no seguimento para rastrear aneurismas. O erro fatal é "esperar para ver" ou tratar como virose/escarlatina e passar da janela.`},
+  {h:`6. Diferenciar Kawasaki de seus imitadores`, c:`A prova adora o diagnóstico diferencial. Fixe os contrastes:
+
+- **Escarlatina:** também tem língua em framboesa e descamação, mas responde a antibiótico, tem estreptococo, e não dá conjuntivite não exsudativa nem alterações coronarianas.
+- **Sarampo:** conjuntivite + exantema, mas tem **tosse, coriza e manchas de Koplik**, e o exantema é morbiliforme com progressão craniocaudal.
+- **Reação alérgica/farmacodermia:** rash, mas sem o conjunto mucosite + extremidades + febre alta persistente.
+- **Síndrome do choque tóxico:** toxemia e hipotensão dominam.
+- Em contexto pós-infeccioso, lembrar da **síndrome inflamatória multissistêmica (MIS-C)**, que se sobrepõe à Kawasaki e cursa com mais acometimento cardíaco/gastrointestinal.
+
+Chave: a combinação **febre ≥ 5 dias + conjuntivite não exsudativa + mucosite + alterações de extremidades + exantema** em criança < 5 anos é Kawasaki até prova em contrário — e o preço de errar é coronariano.`},
+  {h:`7. Artrite idiopática juvenil (AIJ): tempo, idade e subtipos`, c:`A **AIJ** é a artrite crônica mais comum da infância. Definição que a prova cobra: **artrite** (edema articular ou limitação com dor/calor) que **persiste por ≥ 6 semanas**, com **início antes dos 16 anos**, após **exclusão de outras causas**. Os dois números — 6 semanas e 16 anos — são critérios, não detalhes.
+
+Subtipos principais (classificação ILAR):
+
+- **Oligoarticular** (≤ 4 articulações; a mais comum): meninas pequenas, joelho/tornozelo; risco de **uveíte anterior crônica** (frequentemente assintomática, FAN positivo aumenta o risco) — por isso o **rastreio oftalmológico com lâmpada de fenda** é obrigatório.
+- **Poliarticular** (≥ 5 articulações): pode ter fator reumatoide positivo (pior prognóstico, semelhante à AR do adulto) ou negativo.
+- **Sistêmica (doença de Still):** o grande imitador — **febre alta em picos diários (quotidiana)**, **rash salmão evanescente** (some entre os picos), hepatoesplenomegalia, serosite, provas inflamatórias e **ferritina** muito altas. Complicação grave: **síndrome de ativação macrofágica (SAM/HLH)** — queda paradoxal de VHS e plaquetas, ferritina nas alturas, é emergência.
+
+Tratamento geral: AINEs, corticoide, metotrexato e imunobiológicos conforme o subtipo/gravidade. O ponto de prova: artrite < 6 semanas ainda não é AIJ; e "febre em picos + rash evanescente" é Still, não infecção arrastada — mas sempre excluir infecção e leucemia antes.`},
+  {h:`8. Febre reumática: a sequela imunológica do estreptococo`, c:`Ainda muito cobrada no Brasil por causa da carga da doença. É uma reação **imunológica tardia** (2–4 semanas) a uma **faringoamigdalite por estreptococo do grupo A** — não é infecção ativa da articulação/coração, e sim **mimetismo molecular** (anticorpos contra o estreptococo atacam tecidos próprios). Diagnóstico pelos **critérios de Jones** (evidência de estreptococo prévio + 2 maiores ou 1 maior + 2 menores):
+
+- **Maiores:** **cardite** (a mais grave; valvulite, sobretudo mitral), **artrite migratória** de grandes articulações (responde muito a AINE), **coreia de Sydenham** (movimentos involuntários, pode ser tardia e isolada), **eritema marginado**, **nódulos subcutâneos**.
+- **Menores:** febre, artralgia, provas inflamatórias elevadas, PR alargado.
+
+Chave clínica: a **artrite é migratória e autolimitada** (não deixa sequela), mas a **cardite deixa sequela valvar** — é ela que define o prognóstico e a necessidade de **profilaxia secundária com penicilina benzatina** por anos. A pegadinha: "artrite que melhora demais com AINE" + sopro novo em criança/adolescente após dor de garganta = pensar febre reumática, e o que importa a longo prazo é o coração, não a articulação.`},
+  {h:`9. O algoritmo em seis frases (leve para a prova)`, c:`- Criança "inflamada" sem foco → pense nos três trilhos: **infecção → reumato → neoplasia** (nunca esquecer leucemia com dor óssea/pancitopenia).
+- **Febre ≥ 5 dias** + ≥ 4 de (conjuntivite não exsudativa, mucosite/língua em framboesa, extremidades, exantema, linfonodo cervical) em < 5 anos = **Kawasaki** → **IVIG + AAS até o 10º dia** + ecocardiograma (risco = aneurisma coronariano).
+- **Púrpura palpável** em membros inferiores + dor abdominal + artrite + rim, **plaquetas normais** = **vasculite por IgA (PHS)**; vigiar invaginação (ileoileal) e rim.
+- **Artrite ≥ 6 semanas**, início < 16 anos, exclusão de outras causas = **AIJ**; oligoarticular → rastrear **uveíte**; sistêmica (Still) → febre em picos + rash salmão, cuidado com **ativação macrofágica**.
+- **Após faringite por estreptococo** (2–4 sem), artrite migratória + cardite/coreia = **febre reumática** (Jones) → o que importa é a **cardite**; profilaxia com penicilina benzatina.
+- Regra transversal: nas vasculites, **o calibre do vaso define o alvo e a conduta** — e na Kawasaki o relógio corre contra as coronárias.`}
+ ],
+ flashcards: [
+  {p:`Critério diagnóstico da doença de Kawasaki?`, r:`Febre ≥ 5 dias + ≥ 4 de 5: conjuntivite não exsudativa, mucosite (língua em framboesa), alterações de extremidades, exantema polimorfo, linfadenopatia cervical.`},
+  {p:`Principal risco e órgão-alvo da Kawasaki?`, r:`Aneurisma de artérias coronárias — principal causa de cardiopatia adquirida na infância.`},
+  {p:`Tratamento da Kawasaki e janela ideal?`, r:`Imunoglobulina IV 2 g/kg + AAS, idealmente até o 10º dia; ecocardiograma no diagnóstico e seguimento.`},
+  {p:`Vasculite mais comum da infância e sua imunoglobulina?`, r:`Vasculite por IgA (púrpura de Henoch-Schönlein) — depósito de IgA em pequenos vasos.`},
+  {p:`Tétrade da púrpura de Henoch-Schönlein?`, r:`Púrpura palpável (MMII/nádegas) + artrite + dor abdominal + acometimento renal; plaquetas normais.`},
+  {p:`Complicação abdominal clássica da PHS?`, r:`Invaginação intestinal (intussuscepção), tipicamente ileoileal.`},
+  {p:`Definição de AIJ (tempo e idade)?`, r:`Artrite ≥ 6 semanas, início antes dos 16 anos, após exclusão de outras causas.`},
+  {p:`Qual subtipo de AIJ exige rastreio oftalmológico e por quê?`, r:`Oligoarticular (FAN+) — risco de uveíte anterior crônica assintomática; lâmpada de fenda periódica.`},
+  {p:`AIJ sistêmica (Still): tríade típica?`, r:`Febre alta em picos diários + rash salmão evanescente + hepatoesplenomegalia/serosite; ferritina muito alta.`},
+  {p:`Complicação grave da AIJ sistêmica?`, r:`Síndrome de ativação macrofágica (SAM/HLH): ferritina altíssima, queda de VHS/plaquetas — emergência.`},
+  {p:`Na febre reumática, qual manifestação define o prognóstico?`, r:`A cardite (valvulite mitral) — deixa sequela e indica profilaxia secundária com penicilina benzatina.`},
+  {p:`Como é a artrite da febre reumática?`, r:`Migratória, de grandes articulações, muito responsiva a AINE, autolimitada (sem sequela).`}
+ ],
+ pegadinhas: [
+  `Kawasaki exige febre ≥ 5 DIAS — contar os dias errado ou "esperar para ver" faz perder a janela da imunoglobulina (até o 10º dia).`,
+  `Kawasaki incompleta/atípica é mais comum em lactentes e é justamente a que mais faz aneurisma — suspeitar mesmo com poucos critérios.`,
+  `Conjuntivite da Kawasaki é NÃO exsudativa (sem secreção) — presença de secreção purulenta fala contra.`,
+  `PHS/vasculite por IgA tem plaquetas NORMAIS (púrpura por vasculite, não por plaquetopenia) — não confundir com PTI.`,
+  `Púrpura que progride rápido em criança toxemiada = pensar meningococcemia (emergência), não PHS.`,
+  `AIJ precisa de artrite ≥ 6 SEMANAS; artrite aguda não é AIJ — e sempre excluir leucemia (dor óssea + hemograma alterado).`,
+  `AIJ sistêmica com queda súbita de VHS e plaquetas + ferritina nas alturas = ativação macrofágica (emergência), não "melhora".`,
+  `Febre reumática: a articulação melhora e não deixa sequela, mas o CORAÇÃO deixa — o foco do seguimento é a cardite.`,
+  `"Artrite migratória que some com AINE" após faringite = febre reumática; não é resposta boa demais por acaso.`,
+  `Escarlatina também tem língua em framboesa e descamação — o diferencial com Kawasaki é conjuntivite não exsudativa + risco coronariano.`
+ ],
+ diretrizes: [
+  `American Heart Association (AHA) — Diagnóstico, tratamento e seguimento da doença de Kawasaki (critérios clássicos e da forma incompleta).`,
+  `Critérios de classificação EULAR/PRINTO/PRES (Ankara) para vasculites da infância (incluindo vasculite por IgA/PHS) e classificação ILAR da AIJ.`,
+  `Sociedade Brasileira de Pediatria (SBP) — Departamento de Reumatologia: documentos sobre Kawasaki, PHS, AIJ e febre reumática.`,
+  `Critérios de Jones revisados (AHA) para febre reumática; Ministério da Saúde — profilaxia com penicilina benzatina.`,
+  `Nelson — Tratado de Pediatria (seções de Reumatologia e Vasculites). Ver materiais_drive.md.`
+ ],
+ questoes: [
+  {enunciado:`Menino de 2 anos com febre alta há 6 dias, conjuntivite bilateral sem secreção, lábios rachados e língua em framboesa, exantema no tronco e edema de mãos e pés. Qual a conduta mais adequada?`, alternativas:{a:`Antibiótico para escarlatina e alta`, b:`Imunoglobulina intravenosa e AAS, com ecocardiograma`, c:`Anti-histamínico para farmacodermia`, d:`Aguardar 48h para reavaliar a evolução da febre`}, correta:"b", comentario:`O quadro preenche o critério clássico de doença de Kawasaki: febre ≥ 5 dias (aqui 6) + pelo menos 4 dos 5 sinais (conjuntivite não exsudativa, mucosite com língua em framboesa, alterações de extremidades e exantema). É uma vasculite de médios vasos que ameaça as coronárias, então o tratamento é uma emergência: imunoglobulina intravenosa 2 g/kg + AAS, idealmente até o 10º dia de doença, com ecocardiograma para rastrear aneurismas. Chamar de escarlatina (que responde a antibiótico, mas não dá conjuntivite não exsudativa nem risco coronariano) ou de farmacodermia, e sobretudo "aguardar para ver", faz perder a janela terapêutica e expõe a criança a aneurisma coronariano. O erro clássico é subestimar a urgência e contar mal os dias de febre.`, foco:`Reconhecer Kawasaki e tratar na janela (ponto de erro)`},
+  {enunciado:`Menina de 6 anos, 10 dias após IVAS, com lesões purpúricas palpáveis em membros inferiores e nádegas, dor abdominal, artrite de tornozelos e hematúria. Plaquetas normais. Qual o diagnóstico e o cuidado que define o prognóstico a longo prazo?`, alternativas:{a:`PTI; monitorar plaquetas`, b:`Vasculite por IgA (PHS); acompanhar a função renal`, c:`Meningococcemia; antibiótico imediato`, d:`Leucemia; mielograma`}, correta:"b", comentario:`Púrpura PALPÁVEL em membros inferiores/nádegas, dor abdominal, artrite e acometimento renal, com plaquetas NORMAIS e história de infecção prévia, definem a vasculite por IgA (púrpura de Henoch-Schönlein), a vasculite mais comum da infância. Como a púrpura é por inflamação do vaso (não por plaquetopenia), as plaquetas são normais — o que a separa da PTI. A meningococcemia cursaria com criança toxemiada e púrpura de rápida progressão; leucemia traria citopenias e outros sinais. O prognóstico a longo prazo é determinado pelo acometimento renal (nefrite por IgA), por isso o seguimento com urina e pressão arterial é o cuidado-chave; atenção também à invaginação intestinal (ileoileal) como complicação abdominal. Confundir com PTI por causa da púrpura é o erro típico.`, foco:`PHS x PTI (plaquetas normais) e seguimento renal (ponto de erro)`},
+  {enunciado:`Menina de 3 anos com artrite de joelho e tornozelo há 8 semanas, afebril, sem outras queixas; investigação afasta infecção e neoplasia. Além do tratamento articular, qual exame de rastreio é obrigatório?`, alternativas:{a:`Ecocardiograma seriado`, b:`Avaliação oftalmológica com lâmpada de fenda`, c:`Mielograma de controle`, d:`Eletroneuromiografia`}, correta:"b", comentario:`Artrite persistente por ≥ 6 semanas (aqui 8), início antes dos 16 anos, com exclusão de outras causas, em pré-escolar do sexo feminino com poucas articulações, caracteriza a artrite idiopática juvenil oligoarticular. Esse subtipo tem risco elevado de uveíte anterior crônica, tipicamente ASSINTOMÁTICA (o FAN positivo aumenta o risco), que pode levar a complicações oculares graves se não detectada. Por isso o rastreio oftalmológico periódico com lâmpada de fenda é obrigatório. O ecocardiograma seriado é da Kawasaki/febre reumática; mielograma investiga leucemia (já afastada); ENMG é para doença neuromuscular. Esquecer o rastreio da uveíte na AIJ oligoarticular é o erro que a banca cobra.`, foco:`AIJ oligoarticular: tempo, idade e rastreio de uveíte (ponto de erro)`}
+ ]
+},
+
+"PED|Adolescência": {
+ titulo: `Adolescência: puberdade, ginecologia e saúde do adolescente`,
+ half: "PED",
+ resumo: `A adolescência é uma "segunda infância" que a prova trata como especialidade à parte: hormônios reorganizam o corpo, surgem queixas ginecológicas (sangramento irregular, ausência de menstruação) e a relação médico-paciente muda de regras (o adolescente tem sigilo). Erra-se aqui por tratar o adolescente como adulto pequeno — ou por não saber o que é normal na transição puberal. Este texto reconstrói o tema do zero: como a puberdade funciona (eixo hormonal, estadiamento de Tanner), o que é a **hemorragia uterina disfuncional** (o sangramento anormal mais comum da adolescente), como pensar as **amenorreias**, e os princípios éticos e de saúde do adolescente que decidem questões inteiras.`,
+ fontes: `Base: Sociedade Brasileira de Pediatria (SBP) — Departamento de Adolescência; Ministério da Saúde — Caderneta de Saúde do Adolescente e diretrizes de saúde sexual e reprodutiva; estadiamento de Tanner; Nelson — Tratado de Pediatria (puberdade e adolescência). Ver materiais_drive.md (Hemostasia e doenças na Pediatria; saúde do adolescente).`,
+ notaErro: `Nos registros, o erro deste domínio aparece principalmente em **hemorragia uterina disfuncional (HUD)** e em temas de **adolescência/ginecologia** (amenorreia, sigilo). O padrão do erro é **não reconhecer o que é fisiológico na transição puberal** e **pular etapas do raciocínio** (tratar o sangramento sem antes excluir gravidez e coagulopatia; classificar amenorreia sem separar primária de secundária). Três tropeços comuns:
+
+- **Você esquece que ciclos irregulares nos 2 primeiros anos pós-menarca são normais** (imaturidade do eixo → anovulação). A HUD é justamente o sangramento anovulatório dessa fase — mas antes de rotular, é obrigatório **excluir gravidez** e, na adolescente com sangramento intenso desde a menarca, **excluir coagulopatia** (doença de von Willebrand) (seção 4 e 5).
+- **Você mistura amenorreia primária e secundária** e vai direto ao tratamento. A primeira pergunta é sempre **teste de gravidez**, e depois a lógica anatômico-hormonal (seção 6).
+- **Você trata o adolescente como criança** e envolve os pais sem necessidade, quebrando a confidencialidade — ou o contrário, não age diante de risco (seção 7).
+
+**Como zerar o erro:** para toda queixa da adolescente, pergunte — (1) isto é **fisiológico da puberdade** ou patológico? (2) **excluí gravidez** (e, no sangramento, coagulopatia)? (3) qual o **enquadramento ético** (sigilo, autonomia progressiva)? As questões ao final treinam esses três nós.`,
+ secoes: [
+  {h:`1. Comece pelo começo: o que é a adolescência e por que ela é diferente`, c:`A **adolescência** (OMS: 10 a 19 anos; ECA: 12 a <18 anos) é o período de transição da infância para a vida adulta, marcado por três transformações simultâneas: **biológica** (puberdade), **psicológica** (identidade, autonomia) e **social** (grupos, sexualidade, projetos). Para a Pediatria, o adolescente não é "um adulto pequeno" nem "uma criança grande": é um sujeito com fisiologia própria (o corpo ainda está mudando) e com **direitos próprios** (sigilo, autonomia progressiva).
+
+Entender isso muda a conduta: uma menstruação irregular pode ser apenas o eixo hormonal amadurecendo; uma queixa trazida sozinha exige respeitar a confidencialidade. A prova cobra esse "ajuste de lente".`},
+  {h:`2. A puberdade: o eixo que liga o cérebro às gônadas`, c:`A puberdade é o "religar" de um sistema que estava adormecido desde a primeira infância: o **eixo hipotálamo-hipófise-gonadal**. O hipotálamo volta a secretar **GnRH em pulsos**, a hipófise responde com **LH e FSH**, e as gônadas produzem os hormônios sexuais (**estrogênio** nas meninas, **testosterona** nos meninos). Esse eixo é o "maestro" de toda a transformação.
+
+Sequência normal (importante para separar normal de patológico):
+
+- **Meninas:** o primeiro sinal é o **broto mamário (telarca)**, geralmente entre **8 e 13 anos**; depois pelos pubianos, estirão de crescimento e, por fim, a **menarca** (primeira menstruação), em média **2 a 2,5 anos após a telarca**.
+- **Meninos:** o primeiro sinal é o **aumento testicular** (≥ 4 mL ou > 2,5 cm), geralmente entre **9 e 14 anos**; depois pelos, pênis, estirão (mais tardio que nas meninas) e mudança da voz.
+
+Dois conceitos que a prova cobra: **puberdade precoce** (sinais antes de 8 anos na menina, 9 no menino) e **puberdade atrasada** (ausência de telarca aos 13 / de aumento testicular aos 14). Guardar as "idades-limite" resolve muitas questões de imediato.`},
+  {h:`3. Estadiamento de Tanner: a régua da puberdade`, c:`O **estadiamento de Tanner** classifica o desenvolvimento puberal em **5 estágios** (do M1/G1 pré-puberal ao M5/G5 adulto), avaliando **mamas** (M) e **pelos pubianos** (P) nas meninas, e **genitália** (G) e **pelos** nos meninos. Por que importa? Porque situa o adolescente na linha do tempo puberal e ajuda a interpretar queixas: por exemplo, a **menarca** costuma ocorrer em **Tanner M4**, e o **pico do estirão** nas meninas é mais precoce (Tanner 2–3) do que nos meninos (Tanner 3–4).
+
+Regra prática: descrever o desenvolvimento por Tanner é mais informativo do que só pela idade cronológica — dois adolescentes de 12 anos podem estar em estágios muito diferentes, e isso muda o que é esperado.`},
+  {h:`4. Menstruação normal na adolescente e o conceito de HUD`, c:`Depois da menarca, o eixo ainda está **imaturo**: nos **primeiros 2 anos**, muitos ciclos são **anovulatórios** (sem ovulação), o que torna comum a irregularidade — ciclos que variam de 21 a 45 dias, alguns mais longos. Isso é **fisiológico** e é a base para entender a HUD.
+
+A **hemorragia uterina disfuncional (HUD)** — hoje frequentemente chamada de **sangramento uterino anormal de causa não estrutural** — é o sangramento excessivo/irregular decorrente dessa **anovulação**: sem ovulação, não há corpo lúteo nem progesterona; o endométrio prolifera só sob estrogênio e descama de forma irregular e às vezes intensa. É a causa mais comum de sangramento anormal na adolescente e, na maioria das vezes, **funcional e autolimitada** conforme o eixo amadurece.
+
+Mas — e aqui está o pulo do gato — **HUD é diagnóstico de exclusão parcial**: antes de rotular, é obrigatório afastar as causas que mudam tudo.`},
+  {h:`5. Sangramento anormal: a ordem certa da investigação`, c:`Diante de sangramento vaginal aumentado na adolescente, siga a ordem (é ela que a prova cobra):
+
+- **1º) Excluir GRAVIDEZ e suas complicações** — teste de gravidez SEMPRE, mesmo que a adolescente negue atividade sexual. Sangramento pode ser abortamento/gravidez ectópica.
+- **2º) Excluir COAGULOPATIA** — especialmente se o sangramento é **intenso desde a primeira menstruação (menarca)**. A **doença de von Willebrand** é a coagulopatia hereditária mais comum e uma causa subdiagnosticada de sangramento menstrual abundante em adolescentes. Pedir hemograma (avaliar anemia/plaquetas) e coagulograma/rastreio de von Willebrand nos casos sugestivos.
+- **3º) Excluir outras causas** — endocrinopatias (tireoide, SOP), infecções/ISTs, causas estruturais (raras nessa idade).
+- **4º) Só então: HUD (anovulatório)**.
+
+**Conduta na HUD**, conforme a gravidade e a anemia:
+- **Leve** (sem anemia importante): orientação, observação, ferro se necessário.
+- **Moderada:** terapia hormonal — progestágeno ou anticoncepcional combinado — para regularizar/estabilizar o endométrio.
+- **Grave** (anemia sintomática, sangramento ativo intenso): estabilização, hormônio em dose maior, ferro, e transfusão se necessário; investigar coagulopatia.
+
+O erro clássico: tratar o sangramento com hormônio sem antes fazer o teste de gravidez e sem lembrar da coagulopatia quando o sangramento é intenso desde a menarca.`},
+  {h:`6. Amenorreia: separar primária de secundária`, c:`**Amenorreia** é ausência de menstruação, e o primeiro passo é classificar:
+
+- **Amenorreia primária:** **ausência de menarca aos 15 anos com caracteres sexuais presentes**, OU ausência aos **13 anos sem qualquer sinal de puberdade**. Causas incluem disgenesias gonadais (ex.: **síndrome de Turner** — baixa estatura, pescoço alado), malformações do trato de saída (ex.: hímen imperfurado — dor cíclica sem sangramento visível), e atraso constitucional.
+- **Amenorreia secundária:** parada da menstruação por ≥ 3 ciclos (ou ≥ 6 meses) em quem já menstruava. Causas: **gravidez (sempre a primeira a excluir)**, **amenorreia hipotalâmica funcional** (estresse, exercício excessivo, baixo peso/transtorno alimentar — o eixo "desliga" para poupar energia), **síndrome dos ovários policísticos (SOP)** (irregularidade + hiperandrogenismo), tireoidopatias, hiperprolactinemia.
+
+A lógica que resolve: **gravidez primeiro**, depois pensar no eixo (hipotálamo → hipófise → ovário → útero/trato de saída) para localizar o problema. A **amenorreia hipotalâmica funcional** é um clássico de prova na adolescente atleta ou com transtorno alimentar: o corpo, em déficit de energia, reduz o GnRH e "pausa" o ciclo — o tratamento é corrigir a causa (nutrição, reduzir carga de treino), não simplesmente "dar hormônio".`},
+  {h:`7. Ética e saúde do adolescente: sigilo, autonomia e o que a prova cobra`, c:`O atendimento ao adolescente tem uma regra central: **confidencialidade**. O adolescente pode ser atendido sozinho e tem direito ao sigilo, inclusive dos pais — o que estimula que ele procure ajuda em temas sensíveis (sexualidade, drogas, saúde mental). A **autonomia progressiva** reconhece que, conforme amadurece, ele participa cada vez mais das decisões sobre a própria saúde, incluindo **prescrição de contracepção sem obrigatoriedade da presença dos pais**.
+
+Os **limites do sigilo** (quando se envolve a família/rede) são objetivos: **risco à vida ou à saúde** do adolescente ou de terceiros — ideação suicida, violência sofrida ou praticada, gravidez que exige suporte, incapacidade de autocuidado. Fora disso, mantém-se o sigilo, sempre pactuando com o adolescente.
+
+A consulta do adolescente deve ser uma oportunidade de rastreio amplo, resumido no acrônimo **HEEADSSS** (Casa, Educação/Emprego, Alimentação, Atividades, Drogas, Sexualidade, Suicídio/humor, Segurança) — uma forma estruturada de abordar riscos que a prova valoriza. Também são temas de saúde pública do adolescente: **contracepção e prevenção de ISTs**, prevenção de gravidez não planejada, saúde mental (a principal causa de morte no grupo é externa — acidentes, violência, suicídio) e imunização (HPV, dTpa, meningocócica).`},
+  {h:`8. O algoritmo em seis frases (leve para a prova)`, c:`- Situe o adolescente na **puberdade** (Tanner e idades-limite): telarca 8–13a, menarca ~2–2,5a depois; aumento testicular 9–14a. Fora disso, pense precoce/atrasada.
+- **Sangramento anormal** → ordem obrigatória: **excluir gravidez → excluir coagulopatia** (von Willebrand, se intenso desde a menarca) → outras causas → só então **HUD (anovulatório)**.
+- **HUD** é o sangramento anovulatório dos 2 primeiros anos pós-menarca; trata conforme anemia (observação/ferro; progestágeno ou ACO; casos graves estabilizar e transfundir).
+- **Amenorreia:** classifique **primária** (sem menarca aos 15 com puberdade, ou aos 13 sem sinais) x **secundária** (parou por ≥3 ciclos/6 meses) — e **exclua gravidez primeiro**.
+- **Amenorreia hipotalâmica funcional** (atleta, baixo peso, transtorno alimentar): o eixo "desliga" por déficit energético; tratar a causa, não só repor hormônio.
+- **Ética:** confidencialidade é a regra; contracepção pode ser prescrita sem presença dos pais; rompe-se o sigilo só diante de **risco grave** — e use o HEEADSSS para rastrear.`}
+ ],
+ flashcards: [
+  {p:`Faixa etária da adolescência (OMS e ECA)?`, r:`OMS: 10–19 anos. ECA: 12 a <18 anos.`},
+  {p:`Primeiro sinal puberal na menina e no menino?`, r:`Menina: broto mamário (telarca, 8–13a). Menino: aumento testicular (≥4 mL, 9–14a).`},
+  {p:`Quando ocorre a menarca em relação à telarca?`, r:`Em média 2 a 2,5 anos após a telarca, geralmente em Tanner M4.`},
+  {p:`O que é hemorragia uterina disfuncional (HUD)?`, r:`Sangramento anormal por anovulação (eixo imaturo dos 2 primeiros anos pós-menarca), sem causa estrutural.`},
+  {p:`Primeira coisa a excluir em sangramento anormal na adolescente?`, r:`Gravidez — teste sempre, mesmo negando atividade sexual.`},
+  {p:`Coagulopatia a lembrar em sangramento intenso desde a menarca?`, r:`Doença de von Willebrand (coagulopatia hereditária mais comum).`},
+  {p:`Definição de amenorreia primária?`, r:`Sem menarca aos 15 anos com caracteres sexuais presentes, ou aos 13 sem sinais de puberdade.`},
+  {p:`Amenorreia secundária: definição e primeira causa a excluir?`, r:`Parada por ≥3 ciclos ou ≥6 meses em quem menstruava; excluir gravidez primeiro.`},
+  {p:`Amenorreia hipotalâmica funcional: mecanismo e tratamento?`, r:`Déficit energético (estresse/exercício/baixo peso) reduz GnRH e "pausa" o ciclo; tratar a causa (nutrição, reduzir treino).`},
+  {p:`Regra ética central do atendimento ao adolescente?`, r:`Confidencialidade (sigilo), com autonomia progressiva; contracepção pode ser prescrita sem presença dos pais.`},
+  {p:`O que rastreia o HEEADSSS?`, r:`Casa, Educação/Emprego, Alimentação, Atividades, Drogas, Sexualidade, Suicídio/humor, Segurança.`}
+ ],
+ pegadinhas: [
+  `Ciclos irregulares nos 2 primeiros anos pós-menarca são FISIOLÓGICOS (anovulação) — não patologizar automaticamente.`,
+  `Sangramento anormal: SEMPRE excluir gravidez antes de tratar, mesmo que a adolescente negue atividade sexual.`,
+  `Sangramento intenso DESDE a menarca → pensar coagulopatia (von Willebrand), não só HUD.`,
+  `HUD é diagnóstico de exclusão parcial — hormônio sem antes excluir gravidez/coagulopatia é o erro clássico.`,
+  `Amenorreia primária tem duas definições (aos 15 com puberdade OU aos 13 sem sinais) — não usar só uma.`,
+  `Atleta/baixo peso com amenorreia = hipotalâmica funcional; tratar a causa (energia), não apenas repor hormônio.`,
+  `Baixa estatura + amenorreia primária + pescoço alado = síndrome de Turner (disgenesia gonadal).`,
+  `Dor pélvica cíclica sem sangramento visível na adolescente = suspeitar hímen imperfurado (obstrução do trato de saída).`,
+  `Adolescente tem direito a atendimento sigiloso; envolver os pais sem risco grave quebra a confidencialidade indevidamente.`,
+  `Principais causas de morte na adolescência são externas (acidentes, violência, suicídio) — a consulta deve rastrear (HEEADSSS).`
+ ],
+ diretrizes: [
+  `Sociedade Brasileira de Pediatria (SBP) — Departamento de Adolescência: puberdade, saúde sexual e reprodutiva, confidencialidade.`,
+  `Ministério da Saúde — Caderneta de Saúde do Adolescente; Proteger e Cuidar da Saúde de Adolescentes na Atenção Básica; diretrizes de contracepção na adolescência.`,
+  `Estadiamento de Tanner (referência de desenvolvimento puberal); critérios de puberdade precoce/atrasada.`,
+  `Material do Drive: "Flashcard/Préteste — Hemostasia e doenças na Pediatria (2023)" (sangramento uterino/coagulopatias). Ver materiais_drive.md.`,
+  `Nelson — Tratado de Pediatria (puberdade, ginecologia da adolescente e amenorreias).`
+ ],
+ questoes: [
+  {enunciado:`Adolescente de 13 anos, com menarca há 8 meses, apresenta ciclos irregulares e um episódio de sangramento aumentado, sem anemia significativa. Nega atividade sexual. Qual a conduta inicial mais adequada?`, alternativas:{a:`Iniciar anticoncepcional combinado imediatamente`, b:`Excluir gravidez e orientar, com observação`, c:`Solicitar histeroscopia`, d:`Encaminhar para curetagem`}, correta:"b", comentario:`Nos dois primeiros anos após a menarca, a irregularidade menstrual é fisiológica (eixo hipotálamo-hipófise-gonadal imaturo, ciclos anovulatórios) e configura a base da hemorragia uterina disfuncional. Em um episódio leve, sem anemia importante, a conduta é excluir gravidez (teste sempre, independentemente do relato) e orientar/observar, com ferro se necessário. Iniciar hormônio de imediato é desnecessário num caso leve e não deve preceder a exclusão de gravidez; histeroscopia e curetagem são condutas invasivas para causas estruturais, raríssimas nessa idade. O erro típico é patologizar a irregularidade fisiológica ou tratar sem antes descartar gravidez. Se o sangramento fosse intenso desde a menarca, seria obrigatório investigar coagulopatia (von Willebrand).`, foco:`HUD: fisiologia pós-menarca e excluir gravidez (ponto de erro)`},
+  {enunciado:`Adolescente de 16 anos, corredora de alto rendimento, com baixo peso, apresenta amenorreia há 7 meses após ciclos prévios regulares. Teste de gravidez negativo. Qual o diagnóstico mais provável e a conduta?`, alternativas:{a:`SOP; iniciar metformina`, b:`Amenorreia hipotalâmica funcional; corrigir déficit energético`, c:`Falência ovariana; reposição definitiva`, d:`Hipotireoidismo; levotiroxina empírica`}, correta:"b", comentario:`Trata-se de amenorreia secundária (parada por ≥6 meses em quem menstruava), com gravidez já excluída. O contexto de exercício intenso e baixo peso aponta para amenorreia hipotalâmica funcional: o déficit de energia reduz a pulsatilidade de GnRH e "desliga" o eixo para poupar recursos (parte da tríade da atleta: baixa disponibilidade energética, disfunção menstrual e comprometimento ósseo). O tratamento é corrigir a causa — melhorar o aporte nutricional e ajustar a carga de treino — não simplesmente repor hormônio. SOP cursaria com hiperandrogenismo e irregularidade, não amenorreia por baixo peso; falência ovariana e hipotireoidismo precisariam de confirmação laboratorial e não explicam o quadro típico. O erro é ignorar o contexto energético e partir para hormônio/metformina.`, foco:`Amenorreia hipotalâmica funcional: tratar a causa (ponto de erro)`},
+  {enunciado:`Adolescente de 15 anos, com menstruações muito abundantes desde a menarca, agora com palidez e hemoglobina de 8 g/dL. Além de estabilizar e tratar a anemia, qual investigação é prioritária?`, alternativas:{a:`Dosagem de androgênios`, b:`Rastreio de coagulopatia (doença de von Willebrand)`, c:`Ressonância de pelve`, d:`Cariótipo`}, correta:"b", comentario:`Sangramento menstrual abundante presente DESDE a menarca, agora com anemia, é a apresentação clássica que obriga a investigar coagulopatia — a doença de von Willebrand é a coagulopatia hereditária mais comum e uma causa frequentemente subdiagnosticada de sangramento menstrual intenso em adolescentes. Junto com a estabilização e o tratamento da anemia (ferro, e hormônio para controlar o sangramento, transfusão se necessário), o rastreio hemostático é prioritário. Androgênios seriam para suspeita de SOP; ressonância de pelve para causa estrutural (rara); cariótipo para disgenesia gonadal (contexto de amenorreia primária). O erro clássico é rotular como HUD e tratar só com hormônio, esquecendo que "intenso desde a menarca" acende a bandeira da coagulopatia.`, foco:`Sangramento desde a menarca → investigar von Willebrand (ponto de erro)`}
+ ]
+}
 };
