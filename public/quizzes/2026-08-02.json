@@ -1,0 +1,651 @@
+{
+ "date": "2026-08-02",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (neurite vestibular) [RE ranking unificado #1]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 44 anos, previamente hígido, desperta com vertigem rotatória intensa e contínua há 2 dias, acompanhada de náuseas e vômitos, que persiste em repouso e piora a qualquer movimento cefálico. Refere infecção de vias aéreas superiores na semana anterior. Nega hipoacusia, zumbido ou plenitude auricular. Ao exame: nistagmo espontâneo horizonto-torcional, unidirecional, batendo para a esquerda, atenuado pela fixação visual; teste de impulso cefálico (head impulse) positivo à direita, com sacada de correção; test of skew sem desalinhamento; marcha com desvio para a direita, sem dismetria. Audiometria normal.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o quadro de síndrome vestibular aguda, o diagnóstico mais provável é:",
+     "alternativas": {
+      "a": "Vertigem posicional paroxística benigna",
+      "b": "AVC isquêmico de fossa posterior",
+      "c": "Neurite vestibular à direita",
+      "d": "Doença de Ménière"
+     },
+     "correta": "c",
+     "comentario": "A síndrome vestibular aguda (vertigem contínua por dias, náuseas, intolerância ao movimento) tem como causa periférica mais comum a neurite vestibular, atribuída à inflamação pós-viral do nervo vestibular. O head impulse positivo (sacada de refixação) localiza a lesão no reflexo vestíbulo-ocular periférico — dado que, paradoxalmente, aponta para benignidade. O AVC de fossa posterior é o diferencial que não se pode perder, mas cursa tipicamente com head impulse NORMAL, nistagmo que muda de direção com o olhar e/ou skew deviation (padrão HINTS 'central'), além de sinais de tronco/cerebelo. A VPPB gera crises breves (segundos) desencadeadas por mudança de posição, não vertigem contínua por dias. A doença de Ménière exige a tríade com hipoacusia flutuante, zumbido e plenitude auricular, ausentes aqui. Pista central: vertigem contínua + audição preservada + HIT positivo = neurite vestibular.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Sobre o protocolo HINTS aplicado a este paciente, é correto afirmar:",
+     "alternativas": {
+      "a": "Head impulse positivo, nistagmo unidirecional e skew ausente indicam causa periférica",
+      "b": "Skew deviation presente é típico de neurite vestibular",
+      "c": "Head impulse normal sugere lesão periférica",
+      "d": "Nistagmo que muda de direção indica causa periférica"
+     },
+     "correta": "a",
+     "comentario": "O protocolo HINTS (Head Impulse, Nystagmus, Test of Skew) diferencia periférico de central na síndrome vestibular aguda e, em mãos treinadas, é mais sensível que a RM precoce para AVC. O padrão PERIFÉRICO 'tranquilizador' reúne: head impulse ANORMAL (positivo, com sacada de correção), nistagmo horizontal UNIDIRECIONAL que não inverte com a direção do olhar e ausência de skew — por isso essa é a alternativa correta. Um head impulse NORMAL na vigência de síndrome vestibular aguda é sinal de alerta para causa central (a via periférica está íntegra). Nistagmo que muda de direção conforme o olhar é central, não periférico. Skew deviation (desalinhamento vertical no cover test) aponta para tronco encefálico. Mnemônico INFARCT (Impulse Normal, Fast-phase Alternating, Refixation on Cover Test) = achados que sugerem AVC.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "A conduta terapêutica mais adequada nas primeiras 48-72 horas e no seguimento é:",
+     "alternativas": {
+      "a": "Antibioticoterapia empírica endovenosa",
+      "b": "Sintomáticos por poucos dias e reabilitação vestibular precoce",
+      "c": "Supressores vestibulares de uso contínuo por meses",
+      "d": "Manobra de Epley imediata"
+     },
+     "correta": "b",
+     "comentario": "O tratamento da neurite vestibular é de suporte: supressores vestibulares (anti-histamínicos como dimenidrinato/meclizina ou benzodiazepínicos) e antieméticos apenas nos primeiros 1-3 dias, para conforto na fase aguda. Seu uso PROLONGADO é deletério, pois atrasa a compensação central e cronifica o desequilíbrio — daí a alternativa de supressores contínuos por meses estar errada. A reabilitação vestibular precoce acelera a compensação e é o pilar do seguimento. Corticoide pode ser considerado em alguns protocolos para acelerar a recuperação da função vestibular, mas antibiótico não tem papel (não é infecção bacteriana ativa), tornando a antibioticoterapia EV incorreta. A manobra de Epley trata a VPPB de canal posterior, não a neurite.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 135 — Síndrome Vestibular Aguda (complementar com Merritt, 13ª ed., Seção 2 — Tontura, Vertigem e Perda Auditiva).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroimunologia (angiíte primária do sistema nervoso central) [RE ranking unificado #2]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 39 anos, com cefaleia holocraniana progressiva há 3 meses, dois episódios de déficit neurológico focal (disfasia e hemiparesia) e declínio cognitivo recente. Sem febre, uveíte ou lesões cutâneas. Provas de atividade inflamatória sistêmica (VHS, PCR) normais; FAN, anti-DNA, ANCA e sorologias infecciosas negativos. RM de crânio: múltiplos infartos de idades diferentes, em territórios distintos, com realce leptomeníngeo e lesões da substância branca. Angio-RM inicial sem alterações grosseiras. Líquor com discreta pleocitose linfocítica e hiperproteinorraquia, sem agente identificado.",
+   "perguntas": [
+    {
+     "enunciado": "O diagnóstico mais provável é:",
+     "alternativas": {
+      "a": "Síndrome de vasoconstrição cerebral reversível",
+      "b": "Angiíte primária do sistema nervoso central",
+      "c": "Vasculite secundária ao lúpus eritematoso sistêmico",
+      "d": "Esclerose múltipla surto-remissão"
+     },
+     "correta": "b",
+     "comentario": "A angiíte primária do SNC (PACNS) é uma vasculite restrita aos vasos de médio/pequeno calibre do encéfalo e meninges, sem doença sistêmica. O quadro típico combina cefaleia subaguda, déficits focais recorrentes em territórios distintos e declínio cognitivo, com infartos de idades diferentes à RM — exatamente o caso. A ausência de marcadores sistêmicos (VHS/PCR normais, FAN/ANCA negativos) afasta vasculite secundária ao LES e outras colagenoses. A síndrome de vasoconstrição cerebral reversível (RCVS) cursa com cefaleia em trovão recorrente, costuma ser pós-parto ou ligada a vasoativos, e a angiografia mostra estenoses segmentares 'em colar de contas' que REVERTEM em semanas. A esclerose múltipla produz lesões desmielinizantes com disseminação no tempo e espaço, mas não infartos isquêmicos de múltiplas idades nem realce leptomeníngeo difuso. Pista: múltiplos AVCs sem fonte cardioembólica/aterosclerótica em jovem + inflamação liquórica + marcadores sistêmicos negativos.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "O exame considerado padrão-ouro para a confirmação diagnóstica é:",
+     "alternativas": {
+      "a": "Biópsia leptomeníngea e de parênquima cerebral",
+      "b": "Bandas oligoclonais no líquor",
+      "c": "Angiotomografia de vasos cervicais",
+      "d": "Dosagem de anticorpo antiaquaporina-4 sérico"
+     },
+     "correta": "a",
+     "comentario": "O diagnóstico de PACNS é de exclusão e a confirmação definitiva é histológica: a biópsia leptomeníngea e cortical demonstra infiltrado inflamatório transmural dos vasos (padrão granulomatoso, linfocítico ou necrosante). A angiografia pode ser normal quando só há acometimento de pequenos vasos (como neste caso, angio-RM inicial pouco alterada), por isso não exclui a doença e não é padrão-ouro. O antiaquaporina-4 define neuromielite óptica, não vasculite. As bandas oligoclonais sugerem esclerose múltipla e são inespecíficas aqui. A angiotomografia de vasos cervicais avalia dissecção/aterosclerose extracraniana, fora do alvo da PACNS (vasos intracranianos de pequeno calibre). Atenção: a biópsia pode ter falso-negativo por acometimento salteado, mas segue sendo o exame de maior especificidade.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Confirmado o diagnóstico, a conduta terapêutica de primeira linha é:",
+     "alternativas": {
+      "a": "Trombólise endovenosa com alteplase",
+      "b": "Corticoide em altas doses e ciclofosfamida",
+      "c": "Nimodipino e observação clínica",
+      "d": "Acetato de glatirâmer"
+     },
+     "correta": "b",
+     "comentario": "O tratamento de indução da PACNS é a imunossupressão agressiva: corticoide em alta dose (pulsoterapia com metilprednisolona seguida de prednisona) somado à ciclofosfamida nos casos com progressão/lesões extensas, com posterior manutenção (azatioprina/micofenolato). A trombólise é contraindicada — não se trata de AVC tromboembólico agudo isolado e há risco hemorrágico. O nimodipino com observação é a conduta da RCVS (o grande diferencial), não da vasculite inflamatória, que exige imunossupressão. O acetato de glatirâmer modifica o curso da esclerose múltipla e não trata vasculite. Diferenciar PACNS de RCVS é decisivo, pois o tratamento é oposto (imunossupressão versus vasodilatador/suspensão de gatilhos).\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 49 — Vasculites do Sistema Nervoso (complementar com cap. 166 — Aspectos Neurológicos das Doenças Reumatológicas).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias / Neuralgia do trigêmeo [REAL: SUS-BA R1 2023]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 76 anos de idade, procura atendimento na UBS por episódios de dor intensa em hemiface esquerda, principalmente em região maxilar e de mandíbula, graduando até 8/10 na escala de dor. O quadro se repete há 3 anos, associado à sensação de choques e é precipitado pela mastigação ou frio. Tem hipertensão arterial sistêmica em uso de hidroclorotiazida e enalapril. Ao exame, apresenta-se em bom estado geral, com sinais vitais estáveis, com alodínia térmica em hemiface esquerda. Demais exames segmentares sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o caso clínico descrito, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Nevralgia do nervo trigêmeo",
+      "b": "Nevralgia do nervo facial",
+      "c": "Cefaleia em salvas",
+      "d": "Arterite de células gigantes"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R1 2023] A dor facial paroxística, em choque, unilateral, restrita a território do V par (ramos maxilar V2 e mandibular V3) e deflagrada por gatilhos como mastigação, frio ou toque leve, é a assinatura da neuralgia do trigêmeo. A 'nevralgia do nervo facial' não é a designação correta para essa dor (o VII par é essencialmente motor). A cefaleia em salvas causa dor periorbitária com disautonomia craniana (lacrimejamento, congestão nasal) e agitação, em crises de 15-180 min, padrão distinto. A arterite de células gigantes é o diferencial 'não perder' em idosa com dor craniofacial, mas cursa com claudicação de mandíbula, VHS muito elevada e risco de amaurose — não dor em choque desencadeada por toque. Gatilhos + dor em choque + território trigeminal fecham o diagnóstico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "O exame complementar mais adequado para o diagnóstico etiológico é:",
+     "alternativas": {
+      "a": "Tomografia computadorizada de crânio",
+      "b": "Ressonância magnética de crânio",
+      "c": "Biópsia de artéria temporal",
+      "d": "Eletroencefalograma"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R1 2023] Embora a neuralgia trigeminal seja diagnóstico clínico, a RM de crânio é o exame de escolha para investigar a etiologia: identifica compressão neurovascular do nervo (alça da artéria cerebelar superior) e, sobretudo, afasta causas secundárias (esclerose múltipla, tumor de ângulo pontocerebelar), especialmente em apresentações atípicas ou jovens. A TC tem baixa resolução para a fossa posterior e a raiz trigeminal. O EEG investiga epilepsia, não dor facial. A biópsia de artéria temporal confirma arterite de células gigantes, que é o distrator do caso, não a hipótese principal. Regra prática: toda neuralgia trigeminal merece neuroimagem por RM ao menos uma vez.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante do quadro, a melhor opção terapêutica para controle da dor é:",
+     "alternativas": {
+      "a": "Analgésico comum associado à corticoterapia",
+      "b": "Tramadol e oxigenioterapia",
+      "c": "Carbamazepina, oxcarbazepina ou gabapentina",
+      "d": "Analgésico comum e escalonamento para opioides"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R1 2023] O tratamento de primeira linha da neuralgia do trigêmeo é farmacológico com anticonvulsivantes bloqueadores de canais de sódio: a carbamazepina é a droga de escolha (maior evidência), seguida da oxcarbazepina; gabapentina/pregabalina e baclofeno são alternativas. Opioides e analgésicos comuns têm pouca eficácia na dor neuropática paroxística — daí as opções com tramadol/oxigenioterapia e com escalonamento para opioides estarem erradas. Oxigênio trata a cefaleia em salvas, não esta dor. Corticoide é útil na arterite de células gigantes, não aqui. Casos refratários podem ser encaminhados para descompressão microvascular ou procedimentos ablativos (rizotomia, radiocirurgia).\n📚 Leitura sugerida (bloco): Merritt — Tratado de Neurologia (13ª ed.), Seção 7 — Cefaleia e Síndromes Dolorosas (neuralgias cranianas).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Epilepsia (epilepsia rolândica benigna da infância / BECTS)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 8 anos, previamente hígido e com desenvolvimento normal, é levado após episódio noturno testemunhado pelos pais: acordou com contrações da hemiface direita, salivação abundante, incapacidade de falar e sons guturais, mantendo-se consciente, com duração de cerca de 2 minutos, seguido de sonolência. A mãe relata um episódio prévio semelhante ao adormecer. Exame neurológico intercrítico normal e bom rendimento escolar. Sem febre nos episódios.",
+   "perguntas": [
+    {
+     "enunciado": "O diagnóstico mais provável é:",
+     "alternativas": {
+      "a": "Epilepsia rolândica benigna da infância",
+      "b": "Crise febril complexa",
+      "c": "Síndrome de West",
+      "d": "Epilepsia do lobo temporal mesial"
+     },
+     "correta": "a",
+     "comentario": "A epilepsia rolândica benigna (epilepsia autolimitada com espículas centrotemporais, BECTS) é a epilepsia focal mais comum da infância (pico 7-10 anos). As crises são tipicamente noturnas/ao adormecer, focais, com sintomas hemifaciais (contração, parestesia), sialorreia, anartria com consciência preservada e, às vezes, generalização secundária — o caso é clássico. A crise febril complexa exige febre (ausente aqui) e ocorre entre 6 meses e 5 anos. A epilepsia do lobo temporal mesial cursa com auras (déjà vu, medo, sensação epigástrica), automatismos oromanuais e alteração de consciência, com esclerose hipocampal à RM. A síndrome de West é do lactente (espasmos em flexão, hipsarritmia, regressão do DNPM), incompatível com criança de 8 anos hígida. Marca registrada: crise hemifacial noturna + exame e cognição normais.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "O achado eletroencefalográfico característico é:",
+     "alternativas": {
+      "a": "Descargas temporais com esclerose hipocampal",
+      "b": "Pontas centrotemporais ativadas pelo sono",
+      "c": "Hipsarritmia",
+      "d": "Complexo ponta-onda a 3 Hz generalizado"
+     },
+     "correta": "b",
+     "comentario": "O EEG da BECTS mostra pontas/ondas agudas centrotemporais (rolândicas), de alta amplitude, tipicamente bifásicas, muito ativadas pelo sono (podem só aparecer no sono) e com campo elétrico horizontal característico. A hipsarritmia (traçado caótico de alta voltagem) define a síndrome de West. O complexo ponta-onda generalizado a 3 Hz é típico da epilepsia de ausência da infância. Descargas temporais com esclerose hipocampal correspondem à epilepsia do lobo temporal mesial. Por isso a resposta é pontas centrotemporais ativadas pelo sono — solicitar EEG em sono/privação de sono aumenta o rendimento diagnóstico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Sobre a conduta e o prognóstico, é correto afirmar:",
+     "alternativas": {
+      "a": "Prognóstico benigno com remissão na adolescência; nem sempre exige fármaco",
+      "b": "Exige politerapia imediata e vigabatrina",
+      "c": "Indica-se cirurgia de ressecção precoce",
+      "d": "Evolui para deterioração cognitiva progressiva"
+     },
+     "correta": "a",
+     "comentario": "A BECTS tem prognóstico excelente: é autolimitada, com remissão espontânea na adolescência e cognição preservada na maioria — daí muitos casos com crises raras/exclusivamente noturnas NÃO precisarem de fármaco, apenas orientação e acompanhamento. Quando o tratamento é indicado (crises frequentes, diurnas ou muito ansiogênicas), usa-se monoterapia (ex.: carbamazepina, oxcarbazepina, levetiracetam ou valproato), nunca politerapia de início nem vigabatrina (reservada ao West/espasmos). Não há deterioração cognitiva progressiva (isso sugeriria encefalopatia epiléptica, como Landau-Kleffner). Cirurgia é impensável numa epilepsia benigna autolimitada. Mensagem: reconhecer a benignidade evita o sobretratamento.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 173 — Epilepsia na Infância.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropatias Periféricas (neuropatia diabética) [REAL: SUS-BA R+ 2024]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 60 anos de idade, com diagnóstico de Diabetes Mellitus tipo 2, há 15 anos, procura a UBS queixando-se de formigamento e sensação de dormência nos pés, piorando ao longo dos últimos meses. As queixas pioram à noite. Relata também dificuldade em controlar a glicemia apesar de estar seguindo as orientações da dieta e tomando a medicação prescrita. Ao exame físico, observa-se sensibilidade cutânea plantar reduzida e Reflexo Aquileu reduzido bilateralmente. (Considerar as Diretrizes da Sociedade Brasileira de Diabetes.)",
+   "perguntas": [
+    {
+     "enunciado": "Indique o mecanismo fisiopatológico predominante da queixa atual:",
+     "alternativas": {
+      "a": "Compressão axonal",
+      "b": "Microaneurismas perineurais",
+      "c": "Esclerose dos neurônios sensoriais",
+      "d": "Desmielinização dos axônios periféricos"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ 2024] A polineuropatia diabética distal simétrica resulta de lesão dos nervos periféricos pela hiperglicemia crônica, com desmielinização segmentar e degeneração axonal (via poliol/sorbitol, produtos de glicação avançada, estresse oxidativo e microangiopatia dos vasa nervorum). O padrão é 'em bota e luva', comprimento-dependente, com queixas sensitivas que pioram à noite e perda do reflexo aquileu — como no caso. 'Microaneurismas perineurais' não descreve o mecanismo neural (microaneurismas são achado retiniano). 'Compressão axonal' corresponde a neuropatias focais/túnel do carpo, não à polineuropatia difusa. 'Esclerose dos neurônios sensoriais' (ganglionopatia) tem outro perfil (paraneoplásica, Sjögren), com ataxia sensitiva precoce. A banca aceitou a desmielinização axonal como mecanismo predominante.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a abordagem terapêutica de primeira linha para o quadro:",
+     "alternativas": {
+      "a": "Opioides de ação central como o tramadol",
+      "b": "Agentes antioxidantes como a vitamina E",
+      "c": "Prescrição de anticonvulsivantes como a gabapentina",
+      "d": "Reposição de vitamina B12 (cianocobalamina)"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ 2024] Pelas diretrizes da SBD, o tratamento de primeira linha da DOR neuropática diabética são os anticonvulsivantes moduladores de canais de cálcio (pregabalina, gabapentina) e/ou os antidepressivos (duloxetina, amitriptilina). A gabapentina é, portanto, a resposta. A vitamina E (antioxidante) não tem eficácia comprovada. Opioides como o tramadol são de linha posterior, pelo risco de dependência e efeitos adversos — não primeira escolha. A reposição de B12 trata a neuropatia por deficiência de cobalamina (que deve ser rastreada, sobretudo em uso de metformina), mas não é o tratamento da dor neuropática diabética em si. Base do manejo: controle glicêmico rigoroso + cuidado com os pés + fármaco para a dor neuropática.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Pelo mesmo mecanismo fisiopatológico, é provável encontrar:",
+     "alternativas": {
+      "a": "Disfagia e afasia",
+      "b": "Dispneia e incontinência urinária",
+      "c": "Diarreia e disfunção erétil",
+      "d": "Ataxia e tosse"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ 2024] O mesmo processo que lesa as fibras somáticas atinge as fibras autonômicas — a neuropatia autonômica diabética. Suas manifestações incluem disfunção gastrointestinal (gastroparesia, diarreia diabética, constipação), disfunção erétil e bexiga neurogênica, hipotensão ortostática e taquicardia de repouso. Por isso 'diarreia e disfunção erétil' é a associação correta. 'Ataxia e tosse' não compõem síndrome autonômica. 'Disfagia e afasia' são sintomas de trato corticobulbar/cortical (AVC, ELA), não de neuropatia periférica. 'Dispneia e incontinência urinária' mistura sintomas de origens diversas; a incontinência isolada não caracteriza o espectro autonômico clássico. A disautonomia diabética piora o prognóstico cardiovascular e deve ser rastreada.\n📚 Leitura sugerida (bloco): Sociedade Brasileira de Diabetes — Diretriz de Neuropatia Diabética (https://diretriz.diabetes.org.br/); complementar com Tratado de Neurologia da ABN (3ª ed., 2025), cap. 122 — Neuropatias em Doenças Sistêmicas, Carenciais e Tóxico-Metabólicas.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Medula, Cauda Equina e Dor (siringomielia)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 30 anos, refere que há 2 anos vem sofrendo queimaduras e cortes indolores nas mãos, sem perceber a lesão no momento. Relata perda de força progressiva e atrofia da musculatura das mãos, além de dor cervical difusa. Ao exame: perda da sensibilidade térmica e dolorosa em distribuição 'em pelerine' (ombros, dorso e membros superiores), com preservação do tato e da propriocepção nos mesmos segmentos; atrofia e fraqueza da musculatura intrínseca das mãos com arreflexia nos membros superiores; sinais piramidais incipientes nos membros inferiores.",
+   "perguntas": [
+    {
+     "enunciado": "O padrão de perda sensitiva descrito (dissociação termoalgésica suspensa) localiza a lesão em:",
+     "alternativas": {
+      "a": "Cordões posteriores da medula",
+      "b": "Nervo periférico sensitivo distal",
+      "c": "Substância cinzenta central e comissura anterior da medula",
+      "d": "Córtex parietal contralateral"
+     },
+     "correta": "c",
+     "comentario": "A siringomielia é uma cavidade cheia de líquido (siringe) na medula, que se expande a partir do canal central. Ao acometer a substância cinzenta central e a comissura branca anterior, interrompe as fibras espinotalâmicas que ali cruzam, produzindo perda TÉRMICA E DOLOROSA com preservação de tato/propriocepção (dissociação siringomiélica) em distribuição 'suspensa'/em pelerine — exatamente o descrito, o que explica as queimaduras indolores. Lesão dos cordões POSTERIORES daria o oposto (perda de tato/propriocepção/vibração com dor preservada), como na degeneração combinada subaguda. Neuropatia periférica distal dá padrão 'em bota e luva', comprimento-dependente, não suspenso em pelerine. Lesão do córtex parietal daria alteração hemicorporal contralateral com sinais corticais, não um nível segmentar suspenso. A expansão da siringe atinge depois os cornos anteriores (atrofia/arreflexia nas mãos) e as vias piramidais (sinais nos membros inferiores).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "O exame de escolha para confirmação e investigação da causa é:",
+     "alternativas": {
+      "a": "Punção lombar com estudo do líquor",
+      "b": "Tomografia de crânio sem contraste",
+      "c": "Eletroneuromiografia dos membros superiores",
+      "d": "Ressonância magnética de coluna cervical e transição craniocervical"
+     },
+     "correta": "d",
+     "comentario": "A RM de coluna cervical (idealmente estendida à transição craniocervical) é o exame de escolha: demonstra a cavidade siringomiélica intramedular e investiga a causa subjacente — sobretudo a malformação de Chiari I (herniação das tonsilas cerebelares), além de tumores medulares, sequela de trauma ou aracnoidite. A eletroneuromiografia pode documentar comprometimento do corno anterior, mas não visualiza a siringe nem sua causa. A TC de crânio não avalia adequadamente a medula nem a fossa posterior. A punção lombar é desnecessária e potencialmente arriscada se houver Chiari/bloqueio, além de não fazer o diagnóstico. Regra: suspeita de doença medular estrutural = RM.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "A associação anatômica mais frequente e a conduta apropriada são:",
+     "alternativas": {
+      "a": "Hérnia de disco lombar; fisioterapia isolada",
+      "b": "Deficiência de B12; reposição parenteral",
+      "c": "Esclerose múltipla; pulsoterapia com corticoide",
+      "d": "Malformação de Chiari I; correção neurocirúrgica da cavidade/causa"
+     },
+     "correta": "d",
+     "comentario": "A causa mais comum de siringomielia é a malformação de Chiari I, em que a alteração da dinâmica liquórica na junção craniocervical favorece a formação/expansão da siringe. O tratamento é neurocirúrgico e dirigido à causa: descompressão da fossa posterior no Chiari, ressecção tumoral ou derivação da cavidade — a evolução costuma ser progressiva sem intervenção. Hérnia de disco LOMBAR não explica sinais cervicais/mãos nem dissociação suspensa, e fisioterapia isolada não resolve. A esclerose múltipla causa lesões desmielinizantes, não uma cavidade cística com dissociação termoalgésica, e corticoide não trata siringe. A deficiência de B12 causa degeneração dos cordões posteriores e laterais (perda vibratória/proprioceptiva), padrão oposto ao do caso.\n📚 Leitura sugerida (bloco): Merritt — Tratado de Neurologia (13ª ed.), Seção 15 — Doenças da Medula Espinal (siringomielia e malformações da junção craniocervical).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtornos do Movimento (síndrome de Tourette)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 9 anos, é avaliado por movimentos repetitivos: piscamento forçado dos olhos, caretas e elevação dos ombros, além de pigarros e sons nasais repetidos, presentes há cerca de 18 meses, com intensidade flutuante. Os movimentos aumentam com ansiedade e podem ser suprimidos voluntariamente por curtos períodos, à custa de desconforto crescente. A mãe nota também rituais de conferência e dificuldade de concentração na escola. Exame neurológico normal, sem coreia nem alteração de tônus.",
+   "perguntas": [
+    {
+     "enunciado": "O diagnóstico mais provável é:",
+     "alternativas": {
+      "a": "Síndrome de Tourette",
+      "b": "Coreia de Sydenham",
+      "c": "Crises focais mioclônicas",
+      "d": "Distonia generalizada primária"
+     },
+     "correta": "a",
+     "comentario": "A síndrome de Tourette caracteriza-se por múltiplos tiques MOTORES e ao menos um tique VOCAL/fônico (pigarro, fungadas), com início antes dos 18 anos e duração maior que 1 ano, em curso flutuante ('waxing and waning'). Tiques são semivoluntários: precedidos por urgência premonitória e suprimíveis por curtos períodos com desconforto — dado que os diferencia de outros movimentos involuntários. A coreia de Sydenham (pós-estreptocócica) produz movimentos coreicos aleatórios, contínuos, NÃO suprimíveis, com hipotonia e labilidade emocional. A distonia gera posturas mantidas/torções por cocontração, não tiques breves e repetitivos suprimíveis. Crises focais mioclônicas seriam estereotipadas, com correlato eletrográfico e sem urgência premonitória nem supressibilidade. Piscar + vocalizações + supressibilidade + flutuação = Tourette.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "As comorbidades neuropsiquiátricas mais associadas a essa condição são:",
+     "alternativas": {
+      "a": "Transtorno obsessivo-compulsivo e TDAH",
+      "b": "Esclerose múltipla e neurite óptica",
+      "c": "Epilepsia mioclônica juvenil",
+      "d": "Doença de Parkinson e demência"
+     },
+     "correta": "a",
+     "comentario": "Tiques raramente vêm isolados: as comorbidades mais prevalentes e que mais impactam a funcionalidade são o transtorno obsessivo-compulsivo (os 'rituais de conferência' do caso) e o TDAH (desatenção escolar) — daí serem a resposta. Parkinson e demência são doenças neurodegenerativas do adulto/idoso, sem relação. Esclerose múltipla/neurite óptica são desmielinizantes, sem vínculo com tiques. A epilepsia mioclônica juvenil é uma epilepsia generalizada, não uma comorbidade típica do Tourette. Rastrear e tratar TOC/TDAH costuma melhorar a qualidade de vida mais do que atacar os tiques em si.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "A abordagem terapêutica inicial mais apropriada é:",
+     "alternativas": {
+      "a": "Psicoeducação e terapia de reversão de hábito",
+      "b": "Levodopa em doses altas",
+      "c": "Corticoterapia em pulso",
+      "d": "Ressecção neurocirúrgica dos gânglios da base"
+     },
+     "correta": "a",
+     "comentario": "O manejo inicial do Tourette é psicoeducação (esclarecer a natureza benigna e flutuante) e intervenção comportamental de primeira linha: a terapia de reversão de hábito (parte do CBIT — Comprehensive Behavioral Intervention for Tics). Farmacoterapia (agonistas alfa-2 como clonidina/guanfacina; antipsicóticos como risperidona/aripiprazol em casos graves) fica reservada quando os tiques causam dor, prejuízo funcional ou sofrimento significativos. Levodopa trata parkinsonismo e poderia piorar tiques — errada. Neurocirurgia (estimulação cerebral profunda) é exceção para casos refratários e incapacitantes no adulto, jamais inicial. Corticoide não tem papel (não é doença inflamatória). Priorizar as comorbidades (TOC/TDAH) e a abordagem comportamental é a conduta correta.\n📚 Leitura sugerida (bloco): Merritt — Tratado de Neurologia (13ª ed.), Seção 11 — Distúrbios do Movimento (tiques e síndrome de Tourette); complementar com Tratado ABN (3ª ed., 2025), cap. 177 — Neurodesenvolvimento e seus Transtornos.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença do Neurônio Motor (esclerose lateral amiotrófica)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 55 anos, com fraqueza progressiva iniciada no membro inferior direito há 8 meses (pé caído, quedas), que ascendeu para o membro contralateral, associada a cãibras e emagrecimento. Nega dor, alteração sensitiva ou disfunção esfincteriana. Ao exame: atrofia e fasciculações em membros inferiores e cintura escapular, com fraqueza assimétrica; reflexos vivos com clônus aquileu e resposta plantar extensora bilateral; reflexo mandibular exaltado; sensibilidade e coordenação normais; função cognitiva preservada.",
+   "perguntas": [
+    {
+     "enunciado": "O achado semiológico que mais fortemente sustenta o diagnóstico de esclerose lateral amiotrófica é:",
+     "alternativas": {
+      "a": "Comprometimento esfincteriano precoce",
+      "b": "Ataxia cerebelar com dismetria",
+      "c": "Nível sensitivo bem definido no tronco",
+      "d": "Sinais de neurônio motor superior e inferior coexistentes sem déficit sensitivo"
+     },
+     "correta": "d",
+     "comentario": "A ELA é a doença do neurônio motor por excelência: combina sinais de neurônio motor SUPERIOR (hiperreflexia, clônus, Babinski, reflexo mandibular exaltado, espasticidade) e INFERIOR (atrofia, fasciculações, fraqueza) em múltiplas regiões, na AUSÊNCIA de déficit sensitivo e com esfíncteres/coordenação preservados — exatamente o quadro. Um nível sensitivo no tronco apontaria mielopatia/lesão medular estrutural, não ELA. Comprometimento esfincteriano precoce sugere lesão medular ou de cauda equina, atípico na ELA (esfíncteres poupados até fases avançadas). Ataxia cerebelar com dismetria indica doença cerebelar, fora do espectro da doença do neurônio motor. A assimetria, a progressão regional e o mix NMS+NMI puro são o cerne do raciocínio (critérios de El Escorial/Gold Coast).",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "O exame complementar essencial para confirmar o comprometimento difuso do neurônio motor inferior é:",
+     "alternativas": {
+      "a": "Eletroneuromiografia com agulha",
+      "b": "Biópsia de nervo sural",
+      "c": "Ressonância de encéfalo com espectroscopia",
+      "d": "Anticorpo anti-receptor de acetilcolina"
+     },
+     "correta": "a",
+     "comentario": "A eletroneuromiografia com eletrodo de agulha é decisiva: demonstra denervação ativa (fibrilações, ondas positivas, fasciculações) e reinervação crônica em múltiplos segmentos (bulbar, cervical, torácico, lombossacro), documentando o acometimento difuso do neurônio motor inferior mesmo em regiões clinicamente poupadas, com condução sensitiva normal. A RM com espectroscopia ajuda a excluir mimetizadores (mielopatia cervical), mas não confirma ELA. A biópsia de nervo sural avalia nervo sensitivo/periférico — inútil numa doença motora pura. O anti-receptor de acetilcolina investiga miastenia gravis, distrator de fadigabilidade, não de NMS/NMI. Sempre afastar mielopatia compressiva antes de fechar ELA.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Sobre o manejo, é correto afirmar:",
+     "alternativas": {
+      "a": "Imunoglobulina é o tratamento de escolha",
+      "b": "Piridostigmina normaliza a força",
+      "c": "Corticoide em pulso reverte o quadro",
+      "d": "Riluzol modifica modestamente a sobrevida; a ventilação não invasiva melhora a qualidade de vida"
+     },
+     "correta": "d",
+     "comentario": "O tratamento da ELA é multidisciplinar e majoritariamente de suporte. O riluzol (antiglutamatérgico) é a droga modificadora com benefício MODESTO de sobrevida (poucos meses); a edaravona é opção em alguns cenários. O suporte é o que mais impacta a qualidade de vida: ventilação não invasiva (VNI) para a insuficiência respiratória, cuidado nutricional (gastrostomia quando indicada), manejo da sialorreia, das cãibras e do afeto pseudobulbar, e cuidados paliativos. Corticoide em pulso e imunoglobulina NÃO tratam ELA (são de doenças imunomediadas, como CIDP/GBS), e a piridostigmina é da miastenia — todas incorretas. Comunicar o diagnóstico com planejamento de cuidados avançados é parte essencial do manejo.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 108 — Esclerose Lateral Amiotrófica; complementar com o PCDT de ELA do Ministério da Saúde.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências / Asma (sibilância recorrente do pré-escolar e índice preditivo de asma) [RE cota individual: Leonardo]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 4 anos, é levada à UBS por episódios recorrentes de tosse e sibilância — o quarto no último ano —, geralmente desencadeados por infecções respiratórias virais e por exposição a poeira, com boa resposta a broncodilatador. Tem dermatite atópica e a mãe é asmática. Entre as crises fica assintomática. No momento, ausculta limpa. A família pergunta se 'já é asma' e se deve iniciar tratamento contínuo.",
+   "perguntas": [
+    {
+     "enunciado": "A ferramenta que melhor auxilia a estimar a probabilidade de asma persistente nessa pré-escolar é:",
+     "alternativas": {
+      "a": "Teste do suor",
+      "b": "Índice preditivo de asma (API), com critérios maiores e menores",
+      "c": "Espirometria com prova broncodilatadora",
+      "d": "Dosagem de IgE total isolada"
+     },
+     "correta": "b",
+     "comentario": "Em pré-escolares não se dispõe de espirometria confiável (a criança não coopera com a manobra forçada), então o diagnóstico de asma é clínico e probabilístico. O Índice Preditivo de Asma (API/mAPI) estratifica o risco de asma persistente em sibilantes recorrentes: exige ≥3 episódios/ano mais 1 critério MAIOR (asma nos pais, dermatite atópica, sensibilização a aeroalérgeno) ou 2 MENORES (sibilância fora de resfriados, eosinofilia ≥4%, sensibilização alimentar). A paciente tem dermatite atópica e mãe asmática — API positivo. A espirometria com prova broncodilatadora só é factível a partir de ~6 anos. A IgE total isolada não diagnostica nem prediz asma. O teste do suor investiga fibrose cística, diferencial de sibilância persistente/atípica, mas não é a ferramenta preditiva pedida. O API guia a expectativa e a decisão terapêutica.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Sobre o quadro de sibilância recorrente do pré-escolar, é correto afirmar:",
+     "alternativas": {
+      "a": "A ausência de atopia confirma asma",
+      "b": "O diagnóstico exige broncoprovocação",
+      "c": "A espirometria é o padrão diagnóstico nessa idade",
+      "d": "Nem todo lactente/pré-escolar sibilante terá asma; parte é sibilância viral transitória"
+     },
+     "correta": "d",
+     "comentario": "A sibilância recorrente no pré-escolar é heterogênea: muitos são 'sibilantes transitórios precoces' (vias aéreas menores + infecções virais), que melhoram com a idade e NÃO terão asma; outros são 'sibilantes persistentes/atópicos', com maior chance de asma escolar — daí a alternativa correta. A espirometria NÃO é padrão nessa idade (limitação técnica). Não se exige broncoprovocação para diagnosticar asma no pré-escolar (o diagnóstico é clínico, apoiado na resposta ao tratamento). A ausência de atopia NÃO confirma asma — ao contrário, a atopia aumenta a probabilidade, e sua ausência torna a asma persistente menos provável. Reconhecer os fenótipos evita rotular e sobretratar precocemente.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "A conduta mais adequada neste momento é:",
+     "alternativas": {
+      "a": "Corticoide oral contínuo em dias alternados",
+      "b": "Iniciar corticoide inalatório de manutenção por 2-3 meses e reavaliar resposta",
+      "c": "Imunoterapia com alérgenos de imediato",
+      "d": "Antibiótico profilático contínuo"
+     },
+     "correta": "b",
+     "comentario": "Diante de sibilância recorrente frequente com API positivo e impacto (crises repetidas), a conduta recomendada (GINA/SBP) é um TESTE TERAPÊUTICO com corticoide inalatório de manutenção em dose baixa por 2-3 meses, reavaliando a resposta e mantendo o broncodilatador de alívio nas crises. Antibiótico profilático não tem papel (crises virais/atópicas, não bacterianas). Corticoide ORAL contínuo/alternado é inaceitável na manutenção pediátrica pelos efeitos adversos (crescimento, eixo adrenal), reservado a exacerbações graves e por curtos períodos. Imunoterapia com alérgenos não é conduta de primeira linha imediata nessa idade/fase. A reavaliação após o teste terapêutico confirma se há benefício antes de manter a medicação a longo prazo.\n📚 Leitura sugerida (bloco): Global Initiative for Asthma (GINA 2024) — manejo de sibilância e asma em crianças ≤5 anos; complementar com a videoaula de Emergências respiratórias do R+ Pediatria (Drive do Vinicius: https://drive.google.com/file/d/1KBDnpdSl6HD4AEn95UWahWjutRsEUNM4/view).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia (prematuridade / idade corrigida) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, nascida com 32 semanas de gestação, foi admitida em Unidade de Terapia Intensiva Neonatal (UTIN), onde recebeu cuidados especiais para bebês prematuros; não se confirmou uma causa para a prematuridade. Aos 6 meses de idade cronológica, está em acompanhamento e mostra desenvolvimento neuropsicomotor normal para a sua idade corrigida — sorri, faz contato visual, rola, pega objetos, senta com apoio e balbucia. Peso e crescimento estão dentro dos parâmetros esperados para bebês nascidos prematuramente.",
+   "perguntas": [
+    {
+     "enunciado": "Indique, entre as condições seguintes, uma causa comum de prematuridade:",
+     "alternativas": {
+      "a": "Consumo excessivo de ácido fólico durante a gravidez",
+      "b": "Herança genética",
+      "c": "Infecção viral durante a gravidez",
+      "d": "Ganho de peso materno excessivo na gravidez"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Entre as causas comuns de prematuridade estão as infecções (incluindo virais e a corioamnionite), que desencadeiam trabalho de parto pré-termo — por isso a alternativa da infecção viral gestacional é a apontada pela banca. Outras causas frequentes: rotura prematura de membranas, gestação múltipla, insuficiência istmo-cervical, síndromes hipertensivas e iatrogenia (indicação materno-fetal). A herança genética não é causa comum e direta. O ganho de peso materno excessivo associa-se a macrossomia/diabetes gestacional, não a prematuridade. O ácido fólico, longe de causar prematuridade, é protetor (previne defeitos do tubo neural) — distrator claramente incorreto. O caso reforça a investigação etiológica quando possível.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a idade corrigida dessa criança, considerando como critério a gestação a termo pleno:",
+     "alternativas": {
+      "a": "4 meses",
+      "b": "5 meses",
+      "c": "7 meses",
+      "d": "6 meses"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A idade corrigida desconta a prematuridade da idade cronológica, tomando 40 semanas como referência de termo. A criança nasceu com 32 semanas, ou seja, 8 semanas (2 meses) antes do termo. Aos 6 meses cronológicos, a idade corrigida é 6 − 2 = 4 meses — coerente com os marcos que ela apresenta (senta com apoio, pega objetos). A correção deve ser aplicada na avaliação do DNPM e do crescimento, habitualmente até os 2 anos (alguns serviços até 3 anos para prematuros extremos). Ignorar a correção levaria a rotular erroneamente como 'atraso' um desenvolvimento apropriado. Fórmula: idade corrigida = idade cronológica − (40 − idade gestacional ao nascer).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o prognóstico esperado na maioria dos casos para o desenvolvimento de crianças prematuras como esta:",
+     "alternativas": {
+      "a": "Desenvolvimento neuropsicomotor prejudicado permanentemente",
+      "b": "Desenvolvimento neuropsicomotor igual ao de crianças nascidas a termo",
+      "c": "Probabilidade elevada de desenvolvimento de autismo",
+      "d": "Atrasos no desenvolvimento durante toda a primeira infância"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O prognóstico da maioria dos prematuros moderados/tardios sem intercorrências graves é favorável: com acompanhamento adequado, tendem a alcançar um desenvolvimento neuropsicomotor comparável ao das crianças nascidas a termo — daí a alternativa correta. Afirmar 'probabilidade elevada de autismo' ou 'prejuízo permanente' generaliza indevidamente riscos que se concentram nos prematuros extremos (<28-30 sem) e nos que tiveram complicações (hemorragia intraventricular, leucomalácia). 'Atrasos durante toda a primeira infância' também não é a regra para este perfil. O uso da idade corrigida é justamente o que permite acompanhar a trajetória sem superdiagnosticar atraso.\n📚 Leitura sugerida (bloco): videoaula de Neonatologia do R+ Pediatria (Drive do Vinicius: https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view); complementar com o Manual de Seguimento do Prematuro da SBP.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecções respiratórias (bronquiolite viral aguda / VSR) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 6 meses de vida, é trazido à Emergência com história de tosse e coriza há cinco dias e febre de 37,8°C. Nos últimos dois dias, a tosse piorou, com respiração rápida e chiado no peito; há dificuldade para se alimentar e diminuição da diurese nas últimas 24 horas. Nega quadro semelhante anteriormente. Ao exame: FR 60 ipm e SatO₂ 91%; retrações subcostais e sibilos à ausculta; orofaringe e otoscopia sem alterações. Hemograma: leucócitos 11.000/mm³ (neutrófilos 60%, linfócitos 30%, monócitos 8%). Radiografia de tórax: hiperinsuflação pulmonar e espessamento peribrônquico.",
+   "perguntas": [
+    {
+     "enunciado": "Em relação à epidemiologia do quadro apresentado, é correto afirmar que:",
+     "alternativas": {
+      "a": "Ocorre predominantemente em crianças acima de 5 anos",
+      "b": "Raramente causa hospitalização",
+      "c": "É mais comum em menores de 6 meses",
+      "d": "Atinge igualmente adultos e crianças"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O quadro — primeiro episódio de sibilância em lactente, precedido por pródromo de vias aéreas superiores, com taquipneia, retrações, sibilos e hiperinsuflação — é bronquiolite viral aguda, cujo principal agente é o vírus sincicial respiratório (VSR). Epidemiologicamente, é mais grave e frequente em MENORES de 6 meses (e prematuros/cardiopatas), faixa em que as vias aéreas de menor calibre favorecem obstrução — por isso a alternativa correta. Não predomina acima de 5 anos, não atinge igualmente adultos e crianças (adultos costumam ter só resfriado) e é uma das principais causas de hospitalização no lactente, contrariando 'raramente hospitaliza'. Sazonalidade: outono/inverno. O diagnóstico é clínico; a radiografia não é rotina.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Considerando a faixa etária e a apresentação, o principal diagnóstico diferencial é:",
+     "alternativas": {
+      "a": "Asma brônquica",
+      "b": "Aspiração de corpo estranho",
+      "c": "Laringite estridulosa",
+      "d": "Pneumonia bacteriana"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O principal diferencial da bronquiolite nessa idade/apresentação é a pneumonia bacteriana, sobretudo diante de febre mais alta, aspecto tóxico, consolidação focal ou piora — daí a alternativa correta. A asma brônquica é difícil de firmar num PRIMEIRO episódio de sibilância em lactente (exige recorrência e outros critérios). A laringite estridulosa (crupe) cursa com estridor INSPIRATÓRIO e tosse ladrante por obstrução alta, não sibilos expiratórios difusos. A aspiração de corpo estranho dá início súbito, achado assimétrico e história sugestiva, ausentes aqui. Sinais de gravidade a vigiar: SatO₂ baixa, apneia, recusa alimentar e desidratação (a diurese caiu no caso).",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "No caso de recorrências do quadro, a abordagem terapêutica mais apropriada é:",
+     "alternativas": {
+      "a": "Broncodilatador inalatório de uso contínuo",
+      "b": "Profilaxia com antibióticos",
+      "c": "Administração de palivizumabe",
+      "d": "Administração de ribavirina"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O tratamento da bronquiolite é essencialmente de SUPORTE (oxigênio se SatO₂ baixa, hidratação, desobstrução nasal); broncodilatador, corticoide e antibiótico não são rotina. A questão foca em PREVENÇÃO de recorrências graves em população de risco: o palivizumabe (anticorpo monoclonal anti-VSR) é a imunoprofilaxia indicada a grupos específicos (prematuros conforme critérios, cardiopatas e pneumopatas), aplicado mensalmente na sazonalidade — por isso é a resposta. Antibiótico profilático contínuo é inadequado (doença viral). A ribavirina tem uso muito restrito e não é conduta habitual. Broncodilatador de uso CONTÍNUO não se justifica (resposta inconsistente e bronquiolite não é asma). Já existem novas estratégias anti-VSR (nirsevimabe, vacina materna), mas a resposta esperada pela banca é o palivizumabe.\n📚 Leitura sugerida (bloco): videoaula de Infecções respiratórias (bronquiolite/pneumonia) do R+ Pediatria (Drive do Vinicius: https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view); complementar com as Diretrizes de Bronquiolite da SBP.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências / Desidratação grave e diarreia invasiva [REAL: SUS-BA R+ Pediatria 2021]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 2 anos, é levado à UBS com quadro diarreico há uma semana, com 6 a 7 dejeções/dia, fezes semilíquidas com raias de sangue, vômitos e dor abdominal, e temperatura em torno de 37,5°C. A mãe observou que ele não urina há cerca de 8 horas; usou antitérmicos e a criança não vem aceitando a solução reidratante caseira. Ao exame: letárgico, estado geral comprometido, temperatura 37,4°C, frequência cardíaca 70 bpm, enchimento capilar acima de 6 segundos, palidez cutâneo-mucosa e distensão abdominal discreta; reage à palpação abdominal, não permitindo a palpação profunda. Houve três tentativas de punção venosa periférica, sem êxito.",
+   "perguntas": [
+    {
+     "enunciado": "Identifique a alternativa que apresenta os dois agentes etiológicos mais prováveis:",
+     "alternativas": {
+      "a": "Rotavírus e Campylobacter",
+      "b": "Escherichia coli e Shigella",
+      "c": "Shigella e Salmonella",
+      "d": "Escherichia coli e Rotavírus"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Diarreia com sangue (disenteria) aponta para agentes INVASIVOS/enteroinvasivos. Entre as opções, Escherichia coli (enteroinvasiva/entero-hemorrágica) e Shigella são os agentes mais prováveis de diarreia invasiva com sangue nessa faixa — resposta da banca. A Salmonella também causa disenteria, mas a dupla 'E. coli + Shigella' é a mais consistente. O rotavírus produz diarreia aquosa (não sanguinolenta), então as opções que o incluem (com Campylobacter ou com E. coli) não representam a etiologia invasiva pura. O Campylobacter pode causar disenteria, mas pareado ao rotavírus a alternativa fica incoerente. Além da etiologia, o alerta maior aqui é o estado de choque descompensado.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta correta para administrar hidratação, no momento:",
+     "alternativas": {
+      "a": "Tentar aceitação oral fracionada",
+      "b": "Obter acesso venoso central",
+      "c": "Realizar dissecção de vaso periférico",
+      "d": "Realizar punção intraóssea"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A criança tem desidratação grave/choque (letargia, enchimento capilar >6 s, bradicardia relativa, anúria) e já houve falha de 3 tentativas de acesso venoso periférico. Nessa situação, a via de resgate imediata é a PUNÇÃO INTRAÓSSEA, rápida e segura para expansão volêmica em pediatria. Buscar acesso venoso central é mais demorado e arriscado numa emergência. Tentar via oral está contraindicado num paciente letárgico, chocado e que já recusa líquidos (risco de aspiração e reposição insuficiente). A dissecção de vaso é procedimento demorado, de exceção. Regra do suporte pediátrico: acesso periférico difícil em choque = intraósseo sem demora.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a solução para reidratação e o volume (mL/kg) a ser infundido inicialmente:",
+     "alternativas": {
+      "a": "Solução fisiológica 0,9% – 10 mL/kg",
+      "b": "Solução glicofisiológica 1:4 – 20 mL/kg",
+      "c": "Solução fisiológica 0,9% – 20 mL/kg",
+      "d": "Solução glicofisiológica 1:1 – 50 mL/kg"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Na desidratação grave/choque hipovolêmico da criança, a expansão é feita com cristaloide ISOTÔNICO — soro fisiológico 0,9% (ou Ringer lactato) — em alíquotas de 20 mL/kg em bolus rápido, reavaliando e repetindo conforme a resposta. Por isso a resposta é SF 0,9% – 20 mL/kg. Alíquota de 10 mL/kg é insuficiente para o choque (usada com cautela em cardiopatas/desnutridos graves, não como regra). Soluções glicofisiológicas diluídas (1:1 ou 1:4) NÃO servem para expansão volêmica — a glicose desloca-se para o intracelular e pode causar hiperglicemia/hiponatremia; são de manutenção, não de reanimação. Após estabilizar, prossegue-se com reidratação e reposição de perdas.\n📚 Leitura sugerida (bloco): apostila 'Choque em Pediatria' (Drive do Vinicius: https://drive.google.com/file/d/11Wx8xIUFnHO1M-dvnxHASuSgNWNSz9H8/view); complementar com o Manual de Manejo da Diarreia e Terapia de Reidratação do Ministério da Saúde.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Adolescência / Hemorragia uterina disfuncional [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "MÉDIO",
+   "vinheta": "Menina, 13 anos, chega à UPA com quadro de menometrorragia e tontura. Conta que a menarca ocorreu há 15 meses e os ciclos, oligomenorreicos, duram 4 a 5 dias e ocorrem irregularmente — geralmente a cada 28 a 30 dias, mas chegando a espaçar por mais de 60 dias. É o primeiro episódio de sangramento anormal. Nega atividade sexual e dismenorreia. Ao exame: mucosas hipocoradas +/IV; caracteres sexuais secundários próprios da idade; sem alterações ao exame segmentar. A suspeita diagnóstica foi de hemorragia uterina disfuncional.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a conduta para o estabelecimento do diagnóstico:",
+     "alternativas": {
+      "a": "Dosar hormônio luteinizante",
+      "b": "Realizar ecografia transvaginal",
+      "c": "Proceder e excluir diáteses hemorrágicas",
+      "d": "Realizar histeroscopia"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Diante de sangramento uterino aumentado em adolescente, além de confirmar anemia (hemograma) e afastar gravidez, é fundamental EXCLUIR DIÁTESES HEMORRÁGICAS — a coagulopatia (sobretudo doença de von Willebrand) é causa subestimada de sangramento menstrual intenso desde a menarca. Por isso a conduta correta é investigar distúrbio da hemostasia. A histeroscopia é invasiva e sem indicação inicial nessa idade (causas estruturais são raras). A ecografia transvaginal é inadequada em adolescente virgem (usa-se via abdominal/suprapúbica, se necessário) e raramente muda a conduta aqui. Dosar LH isolado não esclarece o quadro agudo. A HUD é diagnóstico de exclusão, mas a triagem de coagulopatia é passo obrigatório.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a causa mais provável, nesse caso:",
+     "alternativas": {
+      "a": "Ciclo anovulatório",
+      "b": "Miomatose",
+      "c": "Endometriose",
+      "d": "Ovários policísticos"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Nos primeiros anos após a menarca, o eixo hipotálamo-hipófise-ovário é imaturo e muitos ciclos são ANOVULATÓRIOS: sem ovulação, não há progesterona para estabilizar o endométrio, que prolifera sob estrogênio e descama de forma irregular e por vezes intensa — mecanismo da hemorragia uterina disfuncional. Por isso a causa mais provável é o ciclo anovulatório. Miomatose e endometriose são incomuns nessa idade e não explicam o padrão. A síndrome dos ovários policísticos pode cursar com anovulação, mas exige outros critérios (hiperandrogenismo, oligomenorreia persistente) e não é o rótulo do primeiro episódio agudo. Ciclos irregulares nos 2-3 anos pós-menarca são frequentemente fisiológicos.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o principal diagnóstico diferencial relacionado a distúrbio da hemostasia, considerando a frequência nessa faixa etária:",
+     "alternativas": {
+      "a": "Hemofilia A",
+      "b": "Púrpura trombocitopênica idiopática",
+      "c": "Deficiência do fator V",
+      "d": "Doença de Von Willebrand"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Entre os distúrbios da hemostasia, a doença de von Willebrand é a coagulopatia hereditária MAIS COMUM e a principal causa de sangramento menstrual excessivo desde a menarca — por isso é o diferencial de destaque. A hemofilia A é ligada ao X, manifesta-se predominantemente em meninos (sangramentos articulares), rara como causa de menorragia. A deficiência do fator V é muito incomum. A púrpura trombocitopênica idiopática causa sangramento por plaquetopenia, porém é menos prevalente que a von Willebrand como causa de menorragia e cursa com petéquias/plaquetas baixas. Investigar von Willebrand (fator VW, cofator de ristocetina, fator VIII) é mandatório na menorragia grave desde a menarca.\n📚 Leitura sugerida (bloco): flashcard/pré-teste 'Hemostasia e doenças na Pediatria' (Drive do Vinicius: https://drive.google.com/file/d/1SXA0UfQwBDVutRPRd04Fpmi6DvrzW87t/view).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Endocrinologia (diabetes mellitus tipo 1 no adolescente) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ALTO",
+   "vinheta": "Adolescente, sexo masculino, 15 anos, apresenta polidipsia, poliúria, emagrecimento não intencional e astenia nas últimas semanas, com prejuízo notável na concentração escolar. Nega febre ou outros sintomas sistêmicos. IMC de 28 kg/m². Exames: glicemia de jejum 180 mg/dL, hemoglobina glicada 10%, teste de tolerância à glicose oral 240 mg/dL após 2 horas e cetonúria positiva. Leucograma 9000/mm³ com diferencial normal. Peptídeo C em jejum 0,5 ng/dL (VN 0,9–7,1). Função tireoidiana, eletrólitos, hemograma e elastase fecal 1 normais.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o quadro clínico e os achados laboratoriais, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Diabetes do tipo 3C",
+      "b": "Cetoacidose diabética",
+      "c": "Diabetes tipo 2 do tipo MODY",
+      "d": "Diabetes tipo 1 em fase de descompensação"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Adolescente com poliúria, polidipsia, emagrecimento e astenia, hiperglicemia franca (jejum 180, TOTG 240, HbA1c 10%), cetonúria e — sobretudo — PEPTÍDEO C BAIXO (0,5; VN 0,9-7,1) tem diabetes mellitus tipo 1: destruição autoimune das células beta com insulinopenia. O peptídeo C reduzido é a chave (reflete secreção endógena escassa). O IMC elevado NÃO exclui DM1 (a obesidade é cada vez mais comum e pode coexistir). MODY é diabetes monogênico, geralmente com peptídeo C preservado e forte história familiar — incompatível com peptídeo C baixo. Cetoacidose diabética é uma COMPLICAÇÃO metabólica aguda (exige acidose/pH e bicarbonato baixos), não o diagnóstico de base, e o caso não traz gasometria de acidose. Diabetes 3C decorre de doença pancreática exócrina (a elastase fecal normal afasta). Peptídeo C baixo + cetose = DM1.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada para o caso:",
+     "alternativas": {
+      "a": "Agonistas do receptor de GLP-1 para estimular a secreção de insulina",
+      "b": "Insulina 0,5–1,0 U/kg/dia dividida em basal de longa ação e bólus prandiais de curta ação, com reajustes",
+      "c": "Hidratação isotônica e insulinoterapia endovenosa em bolus (0,1 U/kg)",
+      "d": "Monoterapia com metformina 1,0 g/dia"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O tratamento do DM1 é a INSULINOTERAPIA plena e vitalícia. Estando o paciente estável (sem acidose/CAD), inicia-se esquema basal-bólus: dose total de ~0,5-1,0 U/kg/dia, dividida em insulina basal (longa ação, ex.: glargina/detemir) e bólus prandiais (rápida/ultrarrápida), com reajustes conforme glicemias — por isso essa é a conduta correta. Metformina em monoterapia é tratamento do DM2, sem papel na ausência de insulina endógena. Agonistas de GLP-1 dependem de célula beta funcionante e não substituem insulina no DM1. A hidratação com insulina EV em bolus é o protocolo da CETOACIDOSE, que o paciente não apresenta neste momento — seria sobretratamento. Educação em diabetes, contagem de carboidratos e monitorização compõem o plano.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica, a longo prazo, para esse paciente:",
+     "alternativas": {
+      "a": "Insulinoterapia ajustada com monitoramento regular da hemoglobina glicada",
+      "b": "Resolução espontânea ao alcançar a idade adulta",
+      "c": "Transição para antidiabéticos orais como tratamento definitivo",
+      "d": "Nutrição e atividade física como substitutos da medicação"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A longo prazo, o DM1 exige insulina de forma contínua e permanente, com ajustes guiados pela automonitorização e pela hemoglobina glicada (meta individualizada, em geral < 7% em muitos adolescentes) para prevenir complicações micro/macrovasculares — daí a alternativa correta. Não há 'transição para antidiabéticos orais como definitivo' (não substituem insulina no DM1). A doença NÃO se resolve espontaneamente na vida adulta (pode haver 'lua de mel' transitória, mas não cura). Dieta e exercício são coadjuvantes essenciais, porém jamais substitutos da insulina. Acompanhamento multidisciplinar, rastreio de comorbidades autoimunes (tireoide, doença celíaca) e de complicações compõem o cuidado.\n📚 Leitura sugerida (bloco): videoaula de Endocrinologia do R+ Pediatria (Drive do Vinicius: https://drive.google.com/file/d/1DfkaSxC7e73geDJxpMCfbVbx-VX53efB/view); complementar com a Diretriz de Diabetes Tipo 1 da Sociedade Brasileira de Diabetes.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Saúde Coletiva / APS — Marco Legal da Primeira Infância e aleitamento [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Uma Unidade Básica de Saúde (UBS) está se preparando para implementar um programa abrangente de atenção à Primeira Infância com base no Marco Legal da Primeira Infância, visando melhorar a saúde e o desenvolvimento dessa parcela da população.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a faixa etária que compreende a Primeira Infância:",
+     "alternativas": {
+      "a": "Do nascimento até 3 anos de idade",
+      "b": "Do nascimento até 6 anos de idade",
+      "c": "Dos 3 aos 6 anos de idade",
+      "d": "Do nascimento até 1 ano de idade"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O Marco Legal da Primeira Infância (Lei nº 13.257/2016) define PRIMEIRA INFÂNCIA como o período que vai do nascimento até os 6 anos completos (0 a 72 meses) — por isso a alternativa correta. É uma fase de máxima plasticidade neuronal e vulnerabilidade, em que investir em saúde, educação, vínculo e proteção tem maior retorno no desenvolvimento. As demais faixas (3-6 anos, até 1 ano, até 3 anos) não correspondem à definição legal. A lei orienta políticas intersetoriais (saúde, assistência, educação), a exemplo do programa Criança Feliz e da qualificação da puericultura na APS.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o período mínimo recomendado de aleitamento materno exclusivo, segundo a OMS:",
+     "alternativas": {
+      "a": "Até 12 meses",
+      "b": "Até 4 meses",
+      "c": "Até 1 mês",
+      "d": "Até 6 meses"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A OMS e o Ministério da Saúde recomendam aleitamento materno EXCLUSIVO até os 6 meses de vida — sem água, chás ou outros alimentos —, período em que o leite materno supre todas as necessidades nutricionais e hídricas e confere proteção imunológica. Logo, a resposta é 'até 6 meses'. Interromper aos 1 ou 4 meses é precoce e associa-se a maior morbidade (diarreia, infecções). 'Até 12 meses' confunde aleitamento EXCLUSIVO com aleitamento continuado. A partir dos 6 meses inicia-se a alimentação complementar oportuna, mantendo-se o leite materno.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Segundo o Programa Amamenta e Alimenta Brasil, o período mínimo recomendado para manter o aleitamento materno é de:",
+     "alternativas": {
+      "a": "6 meses ou mais",
+      "b": "36 meses ou mais",
+      "c": "24 meses ou mais",
+      "d": "12 meses ou mais"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Após os 6 meses, a orientação (OMS/MS, Programa Amamenta e Alimenta Brasil) é MANTER o aleitamento materno, junto à alimentação complementar, por 2 ANOS OU MAIS — por isso a alternativa de 24 meses ou mais é a correta. O leite materno continua fornecendo energia, ácidos graxos, imunoglobulinas e vínculo relevante no segundo ano de vida. Recomendar apenas 6 ou 12 meses subestima o benefício do aleitamento continuado; '36 meses ou mais' não é o período mínimo preconizado. A APS tem papel central em proteger, promover e apoiar a amamentação (aconselhamento, rede de bancos de leite, salas de apoio, licença-maternidade).\n📚 Leitura sugerida (bloco): livro 'Nutrição em Pediatria na Prática Clínica' (Sarni, 2021 — Drive do Vinicius: https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view); complementar com a Lei nº 13.257/2016 (Marco Legal da Primeira Infância).",
+     "dificuldade": "dificil"
+    }
+   ]
+  }
+ ]
+}
