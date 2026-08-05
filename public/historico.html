@@ -48,6 +48,8 @@ async function carregar(){
     const res = await fetch('quizzes/index.json', {cache:'no-store'});
     if(!res.ok) throw new Error('sem index');
     const lista = await res.json();
+    let esp = {};
+    try{ const er = await fetch('quizzes/especiais.json', {cache:'no-store'}); if(er.ok) esp = await er.json(); }catch(e){}
     if(!lista.length){
       wrap.innerHTML = '<div class="empty">Nenhum simulado publicado ainda.</div>';
       return;
@@ -59,7 +61,8 @@ async function carregar(){
       const a = document.createElement('a');
       a.className = 'item';
       a.href = `index.html?date=${date}`;
-      a.innerHTML = `<span class="num">Simulado nº ${numero}</span><span class="date">${date}</span><span class="arrow">→</span>`;
+      const espBadge = esp[date] ? `<span class="esp" style="background:#e8f0ff;color:#1c4fd6;border:1px solid #b9ccf5;border-radius:10px;padding:1px 8px;font-size:.75em;margin-left:6px;font-weight:700;">${esp[date]}</span>` : '';
+      a.innerHTML = `<span class="num">Simulado nº ${numero}</span>${espBadge}<span class="date">${date}</span><span class="arrow">→</span>`;
       wrap.appendChild(a);
     });
   }catch(e){

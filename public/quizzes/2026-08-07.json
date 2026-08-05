@@ -1,0 +1,652 @@
+{
+ "date": "2026-08-07",
+ "titulo": "Simulado Especial — Neurologia (temas de maior incidência) — Estilo CEREM-BA / ABAEM",
+ "especial": "Especial Neurologia",
+ "blocos": [
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (AVC isquêmico / trombólise)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 67 anos, hipertenso, é levado ao pronto-socorro com hemiparesia esquerda e desvio de rima iniciados há 1 hora e 40 minutos, testemunhados pela esposa. Glicemia 120 mg/dL, PA 172x94 mmHg. Tomografia de crânio sem contraste não mostra hemorragia nem sinais precoces extensos de isquemia. NIHSS 11.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico e a janela terapêutica para trombólise endovenosa:",
+     "alternativas": {
+      "a": "AVC isquêmico agudo, dentro da janela de até 4,5 horas",
+      "b": "Ataque isquêmico transitório, sem indicação de trombólise",
+      "c": "AVC hemorrágico, contraindicando trombólise",
+      "d": "AVC isquêmico fora de qualquer janela terapêutica"
+     },
+     "correta": "a",
+     "comentario": "Déficit focal súbito com TC sem hemorragia e início bem definido há <4,5 h caracteriza AVC isquêmico agudo elegível à trombólise EV com alteplase (ou tenecteplase) dentro da janela de 4,5 horas. Não está 'fora de janela' — 1h40 está dentro. Não é AIT, que por definição não deixa lesão e resolve rápido; aqui há déficit persistente e NIHSS 11. A TC afasta hemorragia, então não é AVCh. A janela estendida (até 6–24 h) por trombectomia depende de mismatch em neuroimagem avançada e oclusão de grande vaso. Tempo é cérebro: quanto antes reperfundir, melhor o desfecho.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique a conduta pressórica antes de liberar a trombólise:",
+     "alternativas": {
+      "a": "Reduzir a PA abaixo de 120x80 mmHg imediatamente",
+      "b": "Reduzir e manter a PA abaixo de 185x110 mmHg antes de trombolisar",
+      "c": "Manter PA acima de 220x120 mmHg durante a infusão",
+      "d": "Trombolisar independentemente da pressão arterial"
+     },
+     "correta": "b",
+     "comentario": "Para trombolisar, a PA deve estar <185x110 mmHg (e manter <180x105 mmHg nas 24 h seguintes), reduzindo com anti-hipertensivo EV titulável (labetalol/nicardipina) quando acima disso — hipertensão não controlada aumenta o risco de transformação hemorrágica. Trombolisar 'independentemente da PA' é perigoso. Manter PA >220x120 é justamente o oposto do necessário quando se vai reperfundir. Reduzir abruptamente para <120x80 causa hipoperfusão da penumbra e piora o AVC. No AVCi NÃO candidato a reperfusão, tolera-se hipertensão permissiva até ~220x120 mmHg.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a principal contraindicação absoluta à trombólise a ser descartada:",
+     "alternativas": {
+      "a": "Hipertensão arterial crônica tratada",
+      "b": "História de enxaqueca com aura",
+      "c": "Hemorragia intracraniana à tomografia",
+      "d": "Idade acima de 60 anos"
+     },
+     "correta": "c",
+     "comentario": "A contraindicação absoluta essencial é hemorragia intracraniana à TC — por isso a neuroimagem precede a trombólise. Idade avançada, por si, NÃO contraindica (idosos se beneficiam; avalia-se risco individual). Hipertensão crônica tratada não é contraindicação — o que importa é o nível pressórico agudo (<185x110). Enxaqueca com aura não contraindica trombólise. Outras contraindicações incluem sangramento ativo, coagulopatia/uso de anticoagulante fora de faixa, AVC/TCE grave recente e cirurgia de grande porte recente. Glicemia deve ser checada (hipo/hiper mimetizam AVC).\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 51 — Tratamento da Fase Aguda do AVC Isquêmico; e MS/CONITEC — Linha de Cuidados em AVC (PCDT).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (hemorragia subaracnóidea)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 49 anos, tabagista, apresenta cefaleia holocraniana de início súbito e intensidade máxima ('a pior da vida'), com náuseas, fotofobia e rigidez de nuca, mantendo-se lúcida e sem déficit focal. A tomografia de crânio mostra hiperdensidade nas cisternas basais e fissuras. Pressão arterial 168x96 mmHg.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico e a graduação clínica correta:",
+     "alternativas": {
+      "a": "Hematoma subdural agudo",
+      "b": "Hemorragia subaracnóidea, Hunt-Hess grau II",
+      "c": "Meningite bacteriana",
+      "d": "Hemorragia subaracnóidea, Hunt-Hess grau V"
+     },
+     "correta": "b",
+     "comentario": "Cefaleia em trovoada ('pior da vida'), rigidez de nuca e TC com hiperdensidade nas cisternas basais definem hemorragia subaracnóidea; paciente lúcida com cefaleia/rigidez e sem déficit é Hunt-Hess II (grau I = assintomático/cefaleia leve; III = sonolência/déficit leve; IV = estupor/hemiparesia; V = coma). Grau V exigiria coma/descerebração — não é o caso. Hematoma subdural aparece como coleção em crescente entre dura e aracnoide, com história de trauma, não hiperdensidade nas cisternas. Meningite daria febre e evolução mais arrastada, não cefaleia explosiva com TC hemorrágica. A HSA aneurismática associa-se a tabagismo, HAS e doença renal policística.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique o exame padrão-ouro para a investigação etiológica:",
+     "alternativas": {
+      "a": "Eletroencefalograma",
+      "b": "Punção lombar de repetição",
+      "c": "Angiografia cerebral (arteriografia digital)",
+      "d": "Doppler transcraniano isolado"
+     },
+     "correta": "c",
+     "comentario": "O padrão-ouro para identificar o aneurisma roto é a angiografia cerebral por cateter (arteriografia digital), que define a fonte e orienta o tratamento (clipagem × embolização); a angio-TC é ótima triagem inicial. O EEG não investiga aneurisma. A punção lombar ajuda quando a TC é negativa e persiste a suspeita (xantocromia), mas não é o exame etiológico definitivo. O Doppler transcraniano serve para monitorar VASOESPASMO ao longo da internação, não para diagnosticar o aneurisma. TC negativa precoce não exclui HSA — daí a punção quando a suspeita é alta.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta correta para prevenção de complicação isquêmica:",
+     "alternativas": {
+      "a": "Corticoide em altas doses de rotina",
+      "b": "Hipotensão arterial induzida e restrição hídrica",
+      "c": "Nimodipino e manutenção de euvolemia",
+      "d": "Anticoagulação plena imediata"
+     },
+     "correta": "c",
+     "comentario": "A prevenção do déficit isquêmico tardio por vasoespasmo é nimodipino oral (para TODOS os pacientes com HSA aneurismática) e manutenção de euvolemia/normovolemia. Hipotensão induzida e restrição hídrica são erros — reduzem a perfusão e favorecem isquemia. Corticoide de rotina não tem benefício comprovado na HSA. Anticoagulação plena é contraindicada em sangramento agudo. O tratamento definitivo é excluir o aneurisma precocemente (clipagem/embolização) para prevenir ressangramento; controla-se a PA de forma cuidadosa até a exclusão do aneurisma.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 57 — Hemorragia Subaracnóidea; e Merritt (13ª ed.), Seção 4 — Doenças Vasculares Cerebrais.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroinfecção (meningite bacteriana / meningococcemia)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Adolescente de 16 anos, previamente hígido, evolui em horas com febre alta, cefaleia intensa, rigidez de nuca e prostração, surgindo petéquias e equimoses em tronco e membros. PA em queda, extremidades frias e enchimento capilar lento. Glasgow 13. Há relato de caso semelhante na escola.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o achado esperado na bacterioscopia (Gram) do líquor:",
+     "alternativas": {
+      "a": "Bacilos gram-positivos",
+      "b": "Diplococos gram-positivos",
+      "c": "Diplococos gram-negativos",
+      "d": "Cocos gram-positivos em cachos"
+     },
+     "correta": "c",
+     "comentario": "Febre, síndrome meníngea e petéquias/equimoses com choque em adolescente sugerem doença meningocócica; o Gram mostra diplococos gram-NEGATIVOS (Neisseria meningitidis). Diplococos gram-positivos correspondem a pneumococo (Streptococcus pneumoniae) — importante, mas o rash purpúrico e o contexto de surto apontam meningococo. Bacilos gram-positivos sugerem Listeria (extremos de idade/imunodeprimidos). Cocos gram-positivos em cachos são estafilococos, atípicos aqui. Em <2 meses predominam EGB, E. coli e Listeria; no adolescente/adulto jovem, meningococo e pneumococo.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique a conduta imediata conforme o protocolo do Ministério da Saúde:",
+     "alternativas": {
+      "a": "Aguardar o resultado da cultura para iniciar antibiótico",
+      "b": "Corticoide isolado como medida principal",
+      "c": "Antibioticoterapia empírica endovenosa precoce (ceftriaxona) e suporte",
+      "d": "Iniciar apenas antiviral empírico"
+     },
+     "correta": "c",
+     "comentario": "A meningite bacteriana é emergência: inicia-se antibiótico empírico EV precoce (ceftriaxona; associar ampicilina se risco de Listeria) SEM aguardar a cultura, além de suporte hemodinâmico do choque séptico. Esperar a cultura para antibiotizar aumenta mortalidade — erro grave. Antiviral empírico isolado não cobre a bactéria (aciclovir entra se houver suspeita de encefalite herpética, mas não substitui o ATB). Dexametasona é ADJUVANTE (reduz sequelas, sobretudo em pneumococo), aplicada junto/antes do ATB — não isolada. Fazer hemoculturas, notificar e indicar quimioprofilaxia dos contatos completa a conduta.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a principal complicação sistêmica associada à meningococcemia grave:",
+     "alternativas": {
+      "a": "Coagulação intravascular disseminada (síndrome de Waterhouse-Friderichsen)",
+      "b": "Insuficiência hepática fulminante",
+      "c": "Cetoacidose diabética",
+      "d": "Síndrome de secreção inapropriada isolada"
+     },
+     "correta": "a",
+     "comentario": "A meningococcemia fulminante cursa com coagulação intravascular disseminada e hemorragia adrenal bilateral — a síndrome de Waterhouse-Friderichsen — com púrpura, choque e falência de múltiplos órgãos. Cetoacidose diabética não é complicação da meningococcemia. Insuficiência hepática fulminante não é o desfecho típico. A SIADH pode ocorrer em meningites, mas não é a complicação sistêmica dominante da forma purpúrica com choque. A quimioprofilaxia de contatos próximos (rifampicina/ceftriaxona/ciprofloxacino) e a notificação imediata são obrigatórias; a vacinação (meningo ACWY/B) é a prevenção.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 140 — Meningite Bacteriana Aguda; e MS — Guia de Vigilância em Saúde (meningites).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroinfecção no HIV (leucoencefalopatia multifocal progressiva)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 36 anos, HIV positivo com má adesão à terapia antirretroviral e CD4 de 40 células/mm³, apresenta em 3 semanas fraqueza progressiva à direita, alteração visual e declínio cognitivo, sem febre. A ressonância mostra lesões multifocais na substância branca, hiperintensas em T2/FLAIR, sem efeito de massa e sem realce pelo contraste.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Leucoencefalopatia multifocal progressiva",
+      "b": "Neurotoxoplasmose",
+      "c": "Linfoma primário do sistema nervoso central",
+      "d": "Encefalite herpética"
+     },
+     "correta": "a",
+     "comentario": "Lesões multifocais da substância branca, SEM efeito de massa e SEM realce, em imunodeprimido grave (CD4<50), definem leucoencefalopatia multifocal progressiva (LEMP). A neurotoxoplasmose tipicamente faz lesões COM realce anelar e efeito de massa, frequentemente nos núcleos da base. O linfoma primário do SNC costuma ser lesão única/poucas, com realce e efeito de massa. A encefalite herpética acomete lobos temporais com quadro agudo e febril, o que não se encaixa. O padrão 'branco, multifocal, sem realce, sem massa' é a assinatura da LEMP.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique o agente etiológico e o exame confirmatório de maior valor:",
+     "alternativas": {
+      "a": "Toxoplasma gondii; sorologia IgG",
+      "b": "Vírus varicela-zóster; cultura",
+      "c": "Citomegalovírus; antigenemia",
+      "d": "Vírus JC; PCR do vírus JC no líquor"
+     },
+     "correta": "d",
+     "comentario": "A LEMP é causada pelo vírus JC (poliomavírus), que infecta oligodendrócitos; a confirmação é a PCR do vírus JC no líquor (alta especificidade; sensibilidade menor, sobretudo com carga viral baixa) associada à RM compatível — biópsia cerebral fica para casos duvidosos. Toxoplasma/sorologia IgG apenas indica exposição prévia, não confirma neurotoxoplasmose ativa. CMV causa outra síndrome (ventriculoencefalite/retinite). VZV não é o agente. A ausência de tratamento antiviral específico eficaz reforça a importância do diagnóstico correto.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica de maior impacto:",
+     "alternativas": {
+      "a": "Otimizar a terapia antirretroviral (reconstituição imune)",
+      "b": "Aciclovir endovenoso por 21 dias",
+      "c": "Radioterapia de encéfalo total",
+      "d": "Iniciar sulfadiazina e pirimetamina"
+     },
+     "correta": "a",
+     "comentario": "Não há antiviral específico eficaz para o vírus JC; a conduta de maior impacto é otimizar a TARV para promover reconstituição imune, único fator que melhora o prognóstico da LEMP. Sulfadiazina + pirimetamina tratam neurotoxoplasmose, não LEMP. Radioterapia de encéfalo total é conduta do linfoma primário do SNC, não da LEMP. Aciclovir trata encefalite herpética/VZV, sem papel na LEMP. Atenção à síndrome inflamatória de reconstituição imune (IRIS), que pode piorar transitoriamente o quadro após início/otimização da TARV.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 142 — AIDS e Sistema Nervoso; e Merritt (13ª ed.), Seção 9 — Infecções do SNC.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias (enxaqueca com aura)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 28 anos relata episódios recorrentes de cefaleia pulsátil unilateral, moderada a intensa, com náuseas e fotofobia, que pioram com esforço. Antes da dor, surgem por cerca de 20 minutos pontos luminosos e uma linha em ziguezague no campo visual, que depois desaparecem. O exame neurológico intercrítico é normal.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Cefaleia em salvas",
+      "b": "Enxaqueca com aura",
+      "c": "Cefaleia tensional",
+      "d": "Acidente isquêmico transitório"
+     },
+     "correta": "b",
+     "comentario": "Cefaleia pulsátil unilateral com náusea/fotofobia, piora ao esforço e aura visual (escotomas cintilantes, espectro de fortificação) totalmente reversível precedendo a dor é enxaqueca com aura (ICHD-3). A cefaleia em salvas é dor orbitária excruciante de curta duração com sinais autonômicos ipsilaterais, sem aura visual. A cefaleia tensional é em peso/aperto, bilateral, sem náusea importante nem aura. O AIT causa déficit focal súbito, geralmente 'negativo' (perda de função) e no idoso com fatores de risco — a aura enxaquecosa é 'positiva' (luzes) e marchante. A marcha e a reversibilidade da aura a distinguem de eventos vasculares.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique a definição temporal de aura típica e a conduta de investigação:",
+     "alternativas": {
+      "a": "Aura sempre acima de 2 horas exige internação",
+      "b": "Aura de 5 a 60 minutos, reversível; investigar por imagem se atípica/prolongada",
+      "c": "Aura só ocorre após o pico da dor",
+      "d": "Aura instantânea sem duração definida dispensa avaliação"
+     },
+     "correta": "b",
+     "comentario": "A aura típica dura de 5 a 60 minutos e é totalmente reversível, geralmente precedendo/no início da dor. Auras atípicas, muito prolongadas (aura prolongada), de início após os 40 anos, sempre no mesmo lado ou com déficit persistente exigem neuroimagem para excluir causa estrutural/vascular (risco de infarto migranoso). Dizer que aura 'sempre acima de 2 horas' e que exige internação é incorreto como regra. Aura 'instantânea sem duração' não é o padrão enxaquecoso — pensar em evento vascular. E a aura tipicamente PRECEDE a dor, não surge após o pico. Enxaqueca com aura eleva discretamente o risco vascular — cautela com estrogênio/tabagismo.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o tratamento agudo de escolha durante a crise moderada a intensa:",
+     "alternativas": {
+      "a": "Opioide como primeira linha",
+      "b": "Corticoide oral em esquema fixo prolongado",
+      "c": "Nimodipino sublingual",
+      "d": "Triptano (agonista 5-HT1B/1D), com ou sem anti-inflamatório"
+     },
+     "correta": "d",
+     "comentario": "No ataque moderado a intenso, os triptanos (sumatriptano e congêneres) são a terapia específica, isolados ou com AINE; AINE/antiemético cobrem crises leves-moderadas. Opioides NÃO são primeira linha — pioram cronificação e cefaleia por uso excessivo. Corticoide em esquema fixo prolongado não é tratamento agudo padrão da enxaqueca. Nimodipino sublingual não tem papel no ataque enxaquecoso. Triptanos são contraindicados na doença coronariana/vascular e na enxaqueca com aura de tronco/hemiplégica. Profilaxia (betabloqueador, topiramato, amitriptilina, anti-CGRP) entra quando há crises frequentes/incapacitantes.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 37 — Migrânea; e classificação ICHD-3 (Sociedade Brasileira de Cefaleia).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias (cefaleia em salvas)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 35 anos apresenta, há duas semanas, crises diárias de dor excruciante estritamente periorbitária à direita, com duração de 30 a 60 minutos, várias vezes ao dia, muitas noturnas. Durante as crises há lacrimejamento, hiperemia conjuntival e congestão nasal do mesmo lado, além de intensa agitação. O consumo de álcool desencadeia a dor.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Neuralgia do trigêmeo",
+      "b": "Hemicrania contínua",
+      "c": "Cefaleia em salvas (cluster)",
+      "d": "Enxaqueca sem aura"
+     },
+     "correta": "c",
+     "comentario": "Crises periorbitárias unilaterais, curtas e repetidas ao longo do dia, com sinais autonômicos ipsilaterais (lacrimejamento, hiperemia, congestão nasal), inquietação motora e gatilho pelo álcool são clássicos de cefaleia em salvas. A enxaqueca dura horas, cursa com fono/fotofobia e o paciente busca repouso (não agitação). A neuralgia do trigêmeo dá choques de segundos desencadeados por toque/mastigação, sem os sinais autonômicos proeminentes. A hemicrania contínua é dor contínua responsiva à indometacina, não em salvas. A periodicidade circadiana e a agitação diferenciam o cluster.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique o tratamento agudo de escolha na crise:",
+     "alternativas": {
+      "a": "Sumatriptano subcutâneo ou oxigênio a 100% sob máscara",
+      "b": "Prednisona em dose única",
+      "c": "Paracetamol oral",
+      "d": "Carbamazepina oral"
+     },
+     "correta": "a",
+     "comentario": "O ataque de cluster é abortado com sumatriptano SUBCUTÂNEO (início rápido) e/ou oxigênio a 100% em alto fluxo sob máscara não reinalante — as duas medidas com melhor evidência. Carbamazepina é da neuralgia do trigêmeo, não do cluster. Prednisona é útil como transição/profilaxia curta, não como abortivo do ataque agudo. Paracetamol/analgésico oral é ineficaz para a dor excruciante e de curta duração do cluster (a via oral é lenta demais). Álcool deve ser evitado durante o período de salvas, pois é gatilho clássico das crises; ergotamínico é resgate quando triptano/oxigênio faltam.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a profilaxia de primeira escolha para o período de salvas:",
+     "alternativas": {
+      "a": "Fenitoína",
+      "b": "Verapamil",
+      "c": "Lítio como primeira linha",
+      "d": "Levodopa"
+     },
+     "correta": "b",
+     "comentario": "O verapamil é a profilaxia de primeira linha para reduzir a frequência das crises no período de salvas (com atenção ao ECG pelo risco de bloqueio). Levodopa não tem papel na cefaleia em salvas. Fenitoína é anticonvulsivante sem indicação aqui. O lítio é opção de SEGUNDA linha (mais usado na forma crônica), não a primeira. Corticoide em curso curto e bloqueio do nervo occipital maior servem de 'ponte' enquanto o verapamil atinge dose eficaz. Sempre pesquisar cluster sintomático (lesão de hipófise/seio cavernoso) se apresentação atípica.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 39 — Cefaleias Trigeminoautonômicas; e ICHD-3.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Epilepsia (crise focal do lobo temporal mesial)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 26 anos apresenta episódios recorrentes de 'desligamento': para o que está fazendo, mantém olhar fixo e faz movimentos repetitivos de mastigação e com as mãos, seguidos de confusão por alguns minutos. Antes dos episódios, descreve sensação epigástrica ascendente e déjà-vu. Não há abalos generalizados na maioria das vezes.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a região cerebral mais provavelmente envolvida:",
+     "alternativas": {
+      "a": "Lobo temporal mesial (hipocampo/amígdala)",
+      "b": "Córtex motor primário (frontal)",
+      "c": "Lobo occipital",
+      "d": "Cerebelo"
+     },
+     "correta": "a",
+     "comentario": "Crises focais com comprometimento da consciência, automatismos oromanuais, aura epigástrica ascendente e déjà-vu localizam-se no lobo temporal MESIAL (hipocampo/amígdala) — a epilepsia do lobo temporal mesial, frequentemente associada à esclerose hipocampal. O lobo occipital daria auras visuais elementares. O córtex motor primário produziria abalos clônicos focais (crise motora), não automatismos e déjà-vu. O cerebelo não gera crises epilépticas. A confusão pós-ictal e os automatismos são marcadores temporais típicos.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique a classificação correta do fenômeno de déjà-vu que precede os episódios:",
+     "alternativas": {
+      "a": "Pródromo inespecífico horas antes da crise",
+      "b": "Manifestação psiquiátrica não epiléptica",
+      "c": "Fenômeno pós-ictal",
+      "d": "Aura, isto é, crise focal com consciência preservada (início da crise)"
+     },
+     "correta": "d",
+     "comentario": "O déjà-vu aqui é a AURA — uma crise focal com consciência preservada que corresponde ao INÍCIO da crise (já é atividade ictal), não um simples aviso. Pródromo é um estado inespecífico (irritabilidade/humor) que pode anteceder horas, mas não é atividade epiléptica. Não é fenômeno pós-ictal (que vem DEPOIS da crise, com confusão). Não se trata de fenômeno psiquiátrico não epiléptico — o contexto de automatismos e semiologia temporal é claramente epiléptico. A banca gosta de testar a distinção pródromo × aura × automatismo × pós-ictal.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique uma opção de fármaco de primeira linha para crises focais:",
+     "alternativas": {
+      "a": "Vigabatrina como primeira linha",
+      "b": "Carbamazepina (ou lamotrigina/levetiracetam)",
+      "c": "Ácido valproico contraindicado em qualquer situação",
+      "d": "Etossuximida"
+     },
+     "correta": "b",
+     "comentario": "Para crises FOCAIS, opções de primeira linha incluem carbamazepina, oxcarbazepina, lamotrigina e levetiracetam. A etossuximida trata apenas crises de AUSÊNCIA, não focais. A vigabatrina não é primeira linha para focais do adulto (uso restrito, risco de retinopatia; papel em espasmos infantis). Dizer que o valproato é 'contraindicado em qualquer situação' é falso — é amplo espectro, embora se evite em mulheres em idade fértil pelo risco teratogênico, preferindo-se alternativas. Epilepsia temporal mesial refratária pode ter excelente resposta à cirurgia (amígdalo-hipocampectomia).\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 79 — Classificação das Crises e das Epilepsias; e cap. 81 — Tratamento Medicamentoso.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Junção Neuromuscular (crise miastênica)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 34 anos com miastenia gravis em uso de piridostigmina e prednisona evolui, após iniciar um antibiótico para infecção urinária, com piora acentuada da fraqueza, ptose, disfagia e uso de musculatura acessória. A gasometria mostra PaCO2 de 52 mmHg. Está ansiosa, com voz nasalada e tosse fraca.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a hipótese diagnóstica:",
+     "alternativas": {
+      "a": "Crise tireotóxica",
+      "b": "Crise miastênica com insuficiência ventilatória",
+      "c": "Síndrome de Guillain-Barré",
+      "d": "Crise colinérgica por excesso de piridostigmina"
+     },
+     "correta": "b",
+     "comentario": "Piora aguda da fraqueza com disfagia, uso de musculatura acessória e hipercapnia (PaCO2 52) em miastênica, precipitada por antibiótico, é crise miastênica com falência ventilatória. A crise colinérgica (excesso de anticolinesterásico) cursaria com sinais muscarínicos exuberantes — miose, sialorreia, diarreia, fasciculações, bradicardia —, ausentes aqui. Guillain-Barré dá fraqueza ascendente com arreflexia e dissociação proteinocitológica, sem história prévia de miastenia. Crise tireotóxica traz taquicardia, febre e agitação por tireotoxicose, não este padrão. A hipercapnia indica fadiga da musculatura respiratória — urgência.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique a conduta terapêutica de maior impacto imediato:",
+     "alternativas": {
+      "a": "Apenas aumentar a dose de piridostigmina",
+      "b": "Iniciar betabloqueador endovenoso",
+      "c": "Corticoide inalatório isolado",
+      "d": "Plasmaférese ou imunoglobulina, com suporte ventilatório"
+     },
+     "correta": "d",
+     "comentario": "O tratamento da crise miastênica é plasmaférese OU imunoglobulina EV, com monitorização respiratória e suporte ventilatório precoce (capacidade vital/força inspiratória guiam a intubação — não esperar apneia). Apenas aumentar a piridostigmina não resolve a crise e pode precipitar crise colinérgica e hipersecreção. Betabloqueador EV pode piorar a transmissão neuromuscular e não trata a causa. Corticoide inalatório não tem papel; o corticoide sistêmico é da manutenção (e pode causar piora transitória no início). Identificar e suspender o fármaco precipitante é essencial.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a classe de fármaco que deve ser evitada por precipitar/agravar a crise:",
+     "alternativas": {
+      "a": "Paracetamol",
+      "b": "Inibidores da bomba de prótons",
+      "c": "Insulina",
+      "d": "Aminoglicosídeos (e fluoroquinolonas)"
+     },
+     "correta": "d",
+     "comentario": "Aminoglicosídeos, fluoroquinolonas, macrolídeos, bloqueadores neuromusculares, magnésio e alguns antiarrítmicos/betabloqueadores bloqueiam a transmissão neuromuscular e podem precipitar crise miastênica — por isso o antibiótico da vinheta é o gatilho provável. Inibidores da bomba de prótons não têm esse efeito. Paracetamol é seguro. Insulina não interfere na junção neuromuscular. Sempre revisar a prescrição de um miastênico e evitar esses agentes; a manutenção usa poupadores de corticoide, como azatioprina, e considera-se timectomia em casos selecionados.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 110 — Miastenia Grave Adquirida; e Merritt (13ª ed.), Seção 12 — Doenças Neuromusculares.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtornos do Movimento (parkinsonismo farmacológico)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 62 anos apresenta, há três meses, bradicinesia, rigidez em roda denteada e tremor, de instalação relativamente simétrica. Faz uso frequente de metoclopramida para náuseas há cerca de quatro meses. Não há hiposmia nem alteração do sono REM referidas. Os sintomas surgiram após o início do medicamento.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Paralisia supranuclear progressiva",
+      "b": "Doença de Parkinson idiopática",
+      "c": "Parkinsonismo induzido por fármaco",
+      "d": "Tremor essencial"
+     },
+     "correta": "c",
+     "comentario": "Parkinsonismo relativamente simétrico, subagudo, temporalmente ligado ao uso de metoclopramida (antagonista dopaminérgico), sem sintomas não motores (hiposmia, transtorno do sono REM), sugere parkinsonismo induzido por fármaco. A doença de Parkinson idiopática costuma ser assimétrica, insidiosa e acompanhada de manifestações não motoras. O tremor essencial é tremor de AÇÃO/postural, sem bradicinesia/rigidez. A paralisia supranuclear progressiva traz quedas precoces e paralisia do olhar vertical, não este quadro. Antipsicóticos e antieméticos bloqueadores de D2 são as causas mais comuns.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique o achado esperado na cintilografia de transportador de dopamina (DAT-scan):",
+     "alternativas": {
+      "a": "Captação aumentada difusamente",
+      "b": "Captação normal (presináptica preservada)",
+      "c": "Ausência total de captação bilateral",
+      "d": "Captação acentuadamente reduzida e assimétrica"
+     },
+     "correta": "b",
+     "comentario": "No parkinsonismo farmacológico o problema é PÓS-sináptico (bloqueio de receptores D2), com via nigroestriatal presináptica íntegra — logo o DAT-scan é NORMAL. Na doença de Parkinson há degeneração presináptica, com captação reduzida e assimétrica — é justamente o exame que separa as duas entidades. 'Ausência total bilateral' e 'captação aumentada difusa' não correspondem a nenhum dos quadros. Esse é um ponto clássico de prova: DAT-scan normal + relação temporal com o fármaco confirmam a origem medicamentosa e evitam iniciar levodopa desnecessariamente.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta inicial mais adequada:",
+     "alternativas": {
+      "a": "Iniciar anticolinérgico de uso contínuo",
+      "b": "Encaminhar direto para estimulação cerebral profunda",
+      "c": "Iniciar levodopa em dose plena imediatamente",
+      "d": "Suspender a metoclopramida e reavaliar"
+     },
+     "correta": "d",
+     "comentario": "A conduta é suspender o agente causal (metoclopramida) e reavaliar — os sintomas costumam melhorar em semanas a meses. Iniciar levodopa 'de imediato' é inadequado quando a causa é reversível e o DAT-scan é normal. Anticolinérgico contínuo tem efeitos adversos (cognição, boca seca, retenção) e não corrige a causa. Estimulação cerebral profunda é para Parkinson idiopático avançado com flutuações, jamais primeira medida aqui. Se náuseas persistirem, preferir antiemético sem bloqueio central relevante (ex.: domperidona/ondansetrona conforme o caso).\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 64 — Transtornos do Movimento Induzidos por Drogas; e cap. 59 — Doença de Parkinson.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroimunologia (esclerose múltipla / critérios de McDonald)",
+   "tier": "ALTO",
+   "vinheta": "Mulher de 27 anos procura atendimento por dor e redução da acuidade visual em um olho há 5 dias, com defeito pupilar aferente relativo. Relata que há três meses teve dormência e fraqueza em um membro, que regrediram espontaneamente. Exame com sinais discretos de acometimento de vias longas; sem febre.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o critério essencial que sustenta o diagnóstico:",
+     "alternativas": {
+      "a": "Ausência de lesões à ressonância",
+      "b": "Presença de febre e marcadores infecciosos",
+      "c": "Evolução monofásica e autolimitada",
+      "d": "Disseminação no tempo e no espaço"
+     },
+     "correta": "d",
+     "comentario": "O diagnóstico de esclerose múltipla exige disseminação no TEMPO e no ESPAÇO (surtos separados por ≥1 mês e lesões em topografias distintas do SNC) — critérios de McDonald; neurite óptica agora + evento prévio autolimitado em outro sítio preenchem essa lógica. Febre/marcadores infecciosos apontariam causa infecciosa, não EM. Evolução monofásica e autolimitada descreveria um evento isolado/ADEM, não a EM recorrente. 'Ausência de lesões à RM' contraria o esperado — na EM há lesões desmielinizantes características. Bandas oligoclonais no líquor podem substituir a disseminação no tempo em alguns cenários.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique o achado de imagem/líquor esperado:",
+     "alternativas": {
+      "a": "Lesões hiperintensas em T1 e hipointensas em T2",
+      "b": "Bandas policlonais no líquor",
+      "c": "Positividade para anticorpo antiaquaporina-4 na maioria",
+      "d": "Lesões periventriculares, justacorticais, infratentoriais e medulares"
+     },
+     "correta": "d",
+     "comentario": "A RM da EM mostra lesões em múltiplos sítios típicos: periventriculares, justacorticais/corticais, infratentoriais e medulares. A positividade para antiaquaporina-4 define neuromielite óptica (NMO), diferencial importante, não a EM. As lesões desmielinizantes são hiperintensas em T2/FLAIR (não 'hiper em T1/hipo em T2'). O líquor mostra bandas OLIGOclonais (não policlonais) e índice de IgG elevado. O 'buraco negro' em T1 indica dano axonal crônico. A distinção EM × NMO × MOGAD muda o tratamento — não usar terapias de EM na NMO.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique uma terapia modificadora de doença para esclerose múltipla:",
+     "alternativas": {
+      "a": "Acetato de glatirâmer (ou interferon beta)",
+      "b": "Riluzol",
+      "c": "Adalimumabe",
+      "d": "Metilprednisolona como terapia de longo prazo"
+     },
+     "correta": "a",
+     "comentario": "Terapias modificadoras da EM incluem acetato de glatirâmer, interferon beta e, conforme atividade, fármacos de maior eficácia (natalizumabe, fingolimode, ocrelizumabe). O riluzol é da esclerose lateral amiotrófica, não da EM. A metilprednisolona trata o SURTO agudo (pulsoterapia), mas não é terapia modificadora de longo prazo. O adalimumabe (anti-TNF) pode PIORAR a EM — contraindicado. O surto agudo incapacitante é tratado com corticoide EM alta dose; a terapia modificadora reduz a frequência de surtos e a progressão.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 85–87 — Esclerose Múltipla; e MS — PCDT de Esclerose Múltipla.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropatias Periféricas (síndrome de Guillain-Barré)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 40 anos, cerca de duas semanas após um quadro diarreico, evolui em dias com fraqueza simétrica ascendente que começou nos membros inferiores e progride, associada a parestesias distais. Ao exame, os reflexos profundos estão abolidos e a sensibilidade está relativamente preservada. Há leve dificuldade para deambular.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Mielite transversa",
+      "b": "Síndrome de Guillain-Barré",
+      "c": "Miastenia gravis",
+      "d": "Miopatia inflamatória"
+     },
+     "correta": "b",
+     "comentario": "Fraqueza flácida simétrica, ascendente, com ARREFLEXIA e história de infecção (gastroenterite, muitas vezes por Campylobacter) duas semanas antes definem síndrome de Guillain-Barré (polirradiculoneuropatia desmielinizante aguda). A miastenia dá fraqueza FLUTUANTE e fatigável (ptose, diplopia), com reflexos preservados. A miopatia inflamatória causa fraqueza proximal com enzimas musculares elevadas, sem arreflexia difusa. A mielite transversa cursa com nível sensitivo e sinais de neurônio motor superior (hiper-reflexia/Babinski), não arreflexia. A disautonomia e a fraqueza respiratória são as complicações a vigiar.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique o achado liquórico característico:",
+     "alternativas": {
+      "a": "Hipoglicorraquia acentuada",
+      "b": "Líquor completamente normal em todos os casos",
+      "c": "Pleocitose neutrofílica intensa",
+      "d": "Dissociação proteinocitológica (proteína alta, poucas células)"
+     },
+     "correta": "d",
+     "comentario": "O líquor típico do Guillain-Barré mostra dissociação proteinocitológica: proteína elevada com celularidade normal/baixa (geralmente após a 1ª semana). Pleocitose neutrofílica sugere infecção bacteriana, não GBS (pleocitose importante deve levantar HIV/outras causas). Hipoglicorraquia ocorre em meningites bacterianas/tuberculosa, não no GBS. Dizer que o líquor é 'sempre normal' é incorreto — a proteína costuma subir. A eletroneuromiografia confirma o padrão desmielinizante; a espirometria seriada monitora a função respiratória.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o tratamento específico correto:",
+     "alternativas": {
+      "a": "Imunoglobulina endovenosa ou plasmaférese",
+      "b": "Corticoide sistêmico em altas doses",
+      "c": "Antibioticoterapia empírica prolongada",
+      "d": "Piridostigmina"
+     },
+     "correta": "a",
+     "comentario": "O tratamento imunomodulador do GBS é imunoglobulina EV OU plasmaférese (eficácia semelhante) — quanto mais precoce, melhor. O corticoide, isolado, NÃO é eficaz no GBS (diferente de outras neuropatias imunes crônicas como a CIDP) — pegadinha clássica. A piridostigmina trata miastenia, não GBS. Antibiótico não trata a doença (que é imunomediada pós-infecciosa). O suporte é crucial: monitorar função respiratória (capacidade vital), deglutição e disautonomia (arritmias, labilidade pressórica), com internação e, se necessário, ventilação.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 119 — Síndrome de Guillain-Barré; e Merritt (13ª ed.), Seção 12 — Doenças Neuromusculares.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença do Neurônio Motor (esclerose lateral amiotrófica)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 57 anos apresenta, há 8 meses, fraqueza e atrofia assimétricas iniciadas na mão direita, com fasciculações e cãibras. Evoluiu com disartria e engasgos. Ao exame, coexistem atrofia/fasciculações e hiper-reflexia com sinal de Babinski, sem qualquer alteração da sensibilidade e sem distúrbio esfincteriano.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Esclerose lateral amiotrófica",
+      "b": "Miastenia gravis",
+      "c": "Mielopatia cervical espondilótica",
+      "d": "Polineuropatia sensitivo-motora"
+     },
+     "correta": "a",
+     "comentario": "Coexistência de sinais de neurônio motor SUPERIOR (hiper-reflexia, Babinski) e INFERIOR (atrofia, fasciculações) em múltiplos segmentos, com comprometimento bulbar (disartria/disfagia) e SEM alteração sensitiva ou esfincteriana, define esclerose lateral amiotrófica. A mielopatia cervical pode dar sinais mistos, mas costuma ter nível sensitivo/dor cervical e não explica o acometimento bulbar. A miastenia é fraqueza fatigável sem atrofia/fasciculações nem Babinski. A polineuropatia sensitivo-motora teria déficit SENSITIVO proeminente, ausente aqui. A ausência de sintomas sensitivos é um pilar do diagnóstico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique o exame complementar mais útil para apoiar o diagnóstico:",
+     "alternativas": {
+      "a": "Biópsia de nervo sural",
+      "b": "Sorologia para HTLV como primeiro exame",
+      "c": "Punção lombar com bandas oligoclonais",
+      "d": "Eletroneuromiografia"
+     },
+     "correta": "d",
+     "comentario": "A eletroneuromiografia é o exame-chave: demonstra denervação difusa (fibrilações, ondas positivas, potenciais de grandes unidades) em múltiplos segmentos, apoiando o acometimento do neurônio motor inferior mesmo em áreas clinicamente poupadas. Bandas oligoclonais são da esclerose múltipla. A biópsia de nervo sural avalia neuropatias sensitivas, sem papel na ELA. A sorologia HTLV é do diferencial de mielopatia (paraparesia espástica), não o primeiro exame aqui. A RM de crânio/coluna serve para EXCLUIR mimetizadores (compressão medular). Os critérios de El Escorial integram clínica e ENMG.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a única medicação com efeito modificador da doença aprovada de forma consagrada:",
+     "alternativas": {
+      "a": "Piridostigmina",
+      "b": "Prednisona",
+      "c": "Levodopa",
+      "d": "Riluzol"
+     },
+     "correta": "d",
+     "comentario": "O riluzol (antiglutamatérgico) é a droga modificadora consagrada, com modesto ganho de sobrevida; a edaravona é outra opção em cenários selecionados. A piridostigmina é da miastenia. A prednisona/imunossupressão não modifica a ELA (doença degenerativa, não inflamatória). A levodopa é do parkinsonismo, sem papel. O cuidado é multidisciplinar: suporte ventilatório não invasivo, manejo da disfagia (gastrostomia quando indicada), sialorreia, comunicação e cuidados paliativos melhoram qualidade de vida e sobrevida.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 108 — Esclerose Lateral Amiotrófica; e MS — PCDT de ELA.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (síndrome vestibular aguda / HINTS)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 58 anos, diabético e hipertenso, acorda com vertigem rotatória intensa e contínua, náuseas e instabilidade há um dia. Há nistagmo espontâneo horizonto-torcional unidirecional que diminui com a fixação do olhar; o teste de impulso cefálico (HIT) é positivo à direita; não há dismetria nem outros sinais focais.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, caracterize o nistagmo e a topografia provável:",
+     "alternativas": {
+      "a": "Ausência de valor localizatório",
+      "b": "Nistagmo periférico: horizonto-torcional, unidirecional, suprimido com fixação do olhar",
+      "c": "Nistagmo central: vertical puro, não suprimido com fixação do olhar",
+      "d": "Nistagmo fisiológico do olhar extremo"
+     },
+     "correta": "b",
+     "comentario": "Nistagmo horizonto-torcional, unidirecional e que DIMINUI com a fixação é padrão periférico (labiríntico). O padrão central seria nistagmo que muda de direção com o olhar, vertical/torcional puro e que NÃO se inibe pela fixação. Nistagmo fisiológico do olhar extremo é esgotável e sem vertigem. Dizer que 'não tem valor localizatório' ignora que a semiologia do nistagmo é central na diferenciação. O protocolo HINTS (Head Impulse, Nystagmus, Test of Skew) sistematiza essa distinção na síndrome vestibular aguda contínua.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique o diagnóstico mais provável considerando o HIT positivo:",
+     "alternativas": {
+      "a": "AVC de fossa posterior",
+      "b": "Vertigem posicional paroxística benigna",
+      "c": "Neurite vestibular (periférica)",
+      "d": "Doença de Ménière"
+     },
+     "correta": "c",
+     "comentario": "Na síndrome vestibular aguda contínua, um teste de impulso cefálico POSITIVO (sacada de correção) indica lesão periférica — neurite vestibular —, apesar dos fatores de risco vascular. Paradoxalmente, HIT NORMAL nesse contexto é sinal de alarme para AVC de fossa posterior (o central 'engana' por não ter o déficit periférico). VPPB causa vertigem POSICIONAL de segundos desencadeada por movimento, não contínua por um dia. Ménière traz crises recorrentes com hipoacusia flutuante e zumbido, ausentes aqui. Nistagmo que muda de direção, skew deviation ou HIT normal apontam central — não perder o AVC.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o tratamento sintomático inicial adequado na fase aguda:",
+     "alternativas": {
+      "a": "Manobra de Epley como primeira medida",
+      "b": "Anticoagulação plena imediata",
+      "c": "Supressores vestibulares por curto período (anti-histamínico/benzodiazepínico)",
+      "d": "Antibioticoterapia empírica"
+     },
+     "correta": "c",
+     "comentario": "Na fase aguda da neurite vestibular, usam-se supressores vestibulares por CURTO período (anti-histamínico como o dimenidrinato, ou benzodiazepínico) e antieméticos, retirando-os cedo para não atrapalhar a compensação central; corticoide pode ser considerado. Anticoagulação plena não tem papel e seria perigosa sem diagnóstico de AVC. A manobra de Epley trata VPPB (canal posterior), não neurite vestibular. Antibiótico não trata a neurite (etiologia viral/pós-viral). A reabilitação vestibular precoce acelera a recuperação funcional.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 135 — Síndrome Vestibular Aguda; e Merritt (13ª ed.), Seção 2 — Tontura, Vertigem e Perda Auditiva.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Demências (doença de Alzheimer)",
+   "tier": "ALTO",
+   "vinheta": "Mulher de 74 anos apresenta, há cerca de dois anos, declínio progressivo da memória episódica (repete perguntas, esquece compromissos) com prejuízo para gerir finanças domésticas. O miniexame do estado mental é 22/30, com déficit de memória e orientação. Exames laboratoriais e função tireoidiana normais; sem sinais focais.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Demência frontotemporal",
+      "b": "Doença de Alzheimer",
+      "c": "Demência com corpos de Lewy",
+      "d": "Delirium"
+     },
+     "correta": "b",
+     "comentario": "Declínio insidioso e progressivo com memória episódica proeminente e prejuízo funcional (finanças), em idosa com laboratório normal, é típico de doença de Alzheimer. A demência com corpos de Lewy traria flutuação cognitiva, alucinações visuais e parkinsonismo. A demência frontotemporal cursa com alteração de comportamento/linguagem e memória relativamente preservada no início. Delirium é agudo/flutuante, com desatenção e causa orgânica identificável — não o curso de dois anos descrito. Excluir causas reversíveis (B12, tireoide, depressão) faz parte da investigação inicial — aqui já normais.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique um exame que apoia a confirmação etiológica quando indicado:",
+     "alternativas": {
+      "a": "Biomarcadores liquóricos (beta-amiloide e proteína tau)",
+      "b": "Eletroneuromiografia",
+      "c": "Punção lombar apenas para pressão de abertura",
+      "d": "Eletroencefalograma de rotina"
+     },
+     "correta": "a",
+     "comentario": "Quando há dúvida ou necessidade de confirmação, os biomarcadores liquóricos (redução de beta-amiloide 42 e aumento de tau/fosfo-tau) apoiam o diagnóstico de doença de Alzheimer; PET-amiloide é alternativa. A eletroneuromiografia avalia nervo/músculo, sem papel na demência. A punção lombar 'só para pressão' seria útil na hidrocefalia de pressão normal, não aqui. O EEG de rotina não confirma Alzheimer (pode ajudar em suspeita de Creutzfeldt-Jakob ou crises). A RM mostra atrofia hipocampal/temporomesial e ajuda a excluir outras causas.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta correta para os sintomas cognitivos e comportamentais neste momento:",
+     "alternativas": {
+      "a": "Nenhuma intervenção, apenas observação indefinida",
+      "b": "Antipsicótico de rotina como primeira medida",
+      "c": "Anticolinesterásico (donepezila) e medidas não farmacológicas para o comportamento",
+      "d": "Benzodiazepínico contínuo para 'estabilizar'"
+     },
+     "correta": "c",
+     "comentario": "O tratamento sintomático dos déficits cognitivos leves-moderados é anticolinesterásico (donepezila, rivastigmina, galantamina); memantina entra em fases moderada-grave. Para sintomas comportamentais, a PRIMEIRA linha é não farmacológica (reestruturação do ambiente, rotina, manejo de gatilhos, suporte ao cuidador). Antipsicótico de rotina de entrada é inadequado e arriscado em idosos (aumento de mortalidade/eventos cerebrovasculares) — reservado a sintomas graves refratários. Benzodiazepínico contínuo piora cognição e quedas. 'Nenhuma intervenção' perde a oportunidade terapêutica e o suporte ao cuidador.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 98 — Doença de Alzheimer; e cap. 106 — Tratamento dos Transtornos Comportamentais nas Demências.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Medula e Cauda Equina (síndrome da cauda equina)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 45 anos com lombalgia evolui em 48 horas com fraqueza de membros inferiores, anestesia em sela (região perineal), retenção urinária com gotejamento por transbordamento e arreflexia aquileia bilateral. Refere dormência progressiva na face posterior das coxas. Não há febre.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Enxaqueca com aura sensitiva",
+      "b": "Acidente vascular cerebral",
+      "c": "Síndrome da cauda equina",
+      "d": "Neuropatia diabética distal"
+     },
+     "correta": "c",
+     "comentario": "Fraqueza de membros inferiores, anestesia em sela, retenção urinária e arreflexia aquileia compõem a síndrome da cauda equina — compressão das raízes lombossacras abaixo do cone medular, tipicamente por hérnia discal volumosa (ou tumor/abscesso). O AVC não causa anestesia em sela nem retenção com esse padrão radicular. A neuropatia diabética distal é sensitivo-motora simétrica 'em bota/luva', crônica, sem anestesia em sela nem retenção aguda. Enxaqueca com aura sensitiva é transitória e cortical, nada a ver. É uma EMERGÊNCIA neurocirúrgica — janela para descompressão importa no prognóstico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique o exame de escolha para confirmação:",
+     "alternativas": {
+      "a": "Radiografia simples de coluna",
+      "b": "Ressonância magnética de coluna lombossacra",
+      "c": "Eletroneuromiografia isolada",
+      "d": "Tomografia de crânio"
+     },
+     "correta": "b",
+     "comentario": "A confirmação é a ressonância magnética de coluna lombossacra, que define a compressão das raízes e sua causa (hérnia, tumor, abscesso, hematoma). A TC de crânio não avalia a cauda equina. A eletroneuromiografia pode documentar a lesão radicular, mas é tardia e não substitui a imagem na urgência. A radiografia simples não mostra as partes moles/compressão. Se a RM for indisponível, a mielo-TC é alternativa. Não retardar a imagem: o tempo até a descompressão cirúrgica influencia a recuperação esfincteriana.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta correta diante do diagnóstico:",
+     "alternativas": {
+      "a": "Descompressão cirúrgica de urgência",
+      "b": "Repouso e reavaliação ambulatorial em duas semanas",
+      "c": "Apenas analgesia e alta",
+      "d": "Corticoide oral domiciliar sem imagem"
+     },
+     "correta": "a",
+     "comentario": "A síndrome da cauda equina com retenção urinária/anestesia em sela é emergência: exige descompressão cirúrgica de urgência para evitar sequela esfincteriana e motora definitiva. Repouso com reavaliação em duas semanas ou 'apenas analgesia e alta' são condutas que custam a função do paciente — erro grave. Corticoide oral domiciliar 'sem imagem' não resolve a compressão e atrasa o tratamento definitivo. A dor lombar com 'red flags' (déficit neurológico, retenção, anestesia em sela, febre, câncer) sempre obriga investigação imediata.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 114 — Radiculopatias e Plexopatias; e Adams & Victor — 'Diseases of the Spinal Cord'.",
+     "dificuldade": "facil"
+    }
+   ]
+  }
+ ]
+}

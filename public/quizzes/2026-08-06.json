@@ -1,0 +1,652 @@
+{
+ "date": "2026-08-06",
+ "titulo": "Simulado Especial — Pediatria + Saúde Coletiva (temas de maior incidência) — Estilo CEREM-BA / ABAEM",
+ "especial": "Especial Pediatria",
+ "blocos": [
+  {
+   "tema": "Pediatria — Neonatologia (prematuridade / idade corrigida)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Lactente do sexo masculino, nascido com 30 semanas de idade gestacional e peso de 1.250 g, encontra-se hoje com 4 meses de idade cronológica em consulta de puericultura. A mãe está preocupada porque ele ainda não sustenta bem a cabeça e não rola, diferentemente do filho anterior, nascido a termo. Ao exame, o tônus e os reflexos são adequados quando se considera o ajuste da idade, sem sinais de alerta neurológico.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique a idade que deve ser usada para avaliar o desenvolvimento neuropsicomotor:",
+     "alternativas": {
+      "a": "Idade gestacional de 30 semanas",
+      "b": "Idade corrigida de 2 meses",
+      "c": "Idade cronológica de 4 meses",
+      "d": "Idade corrigida de 6 meses"
+     },
+     "correta": "b",
+     "comentario": "A idade corrigida é a idade cronológica menos as semanas que faltaram para 40 semanas. Aqui: 40 − 30 = 10 semanas (~2,5 meses) de prematuridade; 4 meses cronológicos − 2,5 meses ≈ 2 meses de idade corrigida. É essa a idade a usar para marcos motores até cerca de 2 anos. A idade cronológica de 4 meses superestima o esperado e gera falso atraso. A idade corrigida de 6 meses somaria (em vez de subtrair) a prematuridade — erro conceitual comum. A idade gestacional de 30 semanas descreve o nascimento, não serve para cronometrar marcos após o nascimento. Pérola: a correção se aplica a peso, estatura, PC e DNPM; vacinação segue a idade CRONOLÓGICA, sem corrigir.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Considerando o seguimento do prematuro, especifique a conduta mais adequada quanto ao desenvolvimento:",
+     "alternativas": {
+      "a": "Iniciar fisioterapia por suspeita de paralisia cerebral",
+      "b": "Tranquilizar e manter seguimento, com marcos avaliados por idade corrigida",
+      "c": "Encaminhar imediatamente à neuropediatria",
+      "d": "Solicitar ressonância de crânio"
+     },
+     "correta": "b",
+     "comentario": "Ajustada a idade (corrigida ~2 meses), o desempenho é compatível com o esperado, sem sinais de alerta — a conduta é orientar a família e manter a vigilância, reavaliando pela idade corrigida. Encaminhar de imediato à neuropediatria é precipitado sem sinais de alarme (assimetria, hipertonia fixa, persistência de reflexos primitivos). Ressonância de crânio não se justifica em exame neurológico normal. Fisioterapia por 'paralisia cerebral' é rotular sem base — o diagnóstico exige alteração persistente do tônus/postura/movimento. O Método Canguru e o seguimento ambulatorial do prematuro (follow-up) são a espinha dorsal do cuidado; sinais de alerta é que disparam investigação.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a afirmação correta sobre o prognóstico do desenvolvimento deste prematuro:",
+     "alternativas": {
+      "a": "O desenvolvimento cognitivo independe da correção da idade",
+      "b": "O prognóstico é idêntico ao de um recém-nascido a termo desde o nascimento",
+      "c": "A maioria dos marcos tende a se equiparar aos nascidos a termo ao longo dos primeiros 2 anos",
+      "d": "O atraso é irreversível e evoluirá para paralisia cerebral"
+     },
+     "correta": "c",
+     "comentario": "Na ausência de lesões graves, a maioria dos prematuros aproxima seus marcos dos nascidos a termo ao longo dos primeiros 2 anos, quando então se abandona a correção da idade. Falar em atraso 'irreversível' / paralisia cerebral certa é catastrofizar sem evidência. Dizer que o prognóstico é 'idêntico ao termo desde o nascimento' ignora o risco aumentado de morbidades do prematuro (respiratória, visual, auditiva, neurológica). E o desenvolvimento cognitivo/motor SIM depende de se considerar a idade corrigida nos primeiros anos. Prematuridade extrema (<28 sem) e muito baixo peso concentram os piores desfechos e exigem seguimento mais próximo.\n📚 Leitura sugerida (bloco): SBP — Seguimento ambulatorial do prematuro de risco (Documentos Científicos); e videoaula de Neonatologia (R+ Pediatria 2024, Drive): https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia (sepse neonatal precoce)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Recém-nascido a termo, parto vaginal, evolui nas primeiras 24 horas de vida com letargia, instabilidade térmica, recusa alimentar e tempo de enchimento capilar de 4 segundos. A mãe teve bolsa rota por 22 horas e trabalho de parto prolongado; não realizou rastreio para colonização vaginal. O RN está taquipneico e hipoativo.",
+   "perguntas": [
+    {
+     "enunciado": "Diante da história, identifique o principal fator de risco associado ao quadro:",
+     "alternativas": {
+      "a": "Parto vaginal a termo",
+      "b": "Ruptura prolongada de membranas (>18 horas)",
+      "c": "Idade materna",
+      "d": "Recusa alimentar isolada"
+     },
+     "correta": "b",
+     "comentario": "A ruptura prolongada de membranas (>18 h) é fator de risco maior para sepse neonatal precoce, por ascensão bacteriana. Somam-se, no caso, trabalho de parto prolongado e ausência de rastreio para Streptococcus do grupo B (EGB). Parto vaginal a termo, isoladamente, não é fator de risco. Recusa alimentar é manifestação do quadro, não fator de risco. A idade materna, por si, não define risco de sepse precoce. Corioamnionite materna, colonização por EGB e prematuridade completam a lista clássica. Sepse precoce = <72 h de vida, predomínio de EGB e E. coli.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique o agente etiológico mais provável da sepse neonatal precoce neste contexto:",
+     "alternativas": {
+      "a": "Listeria isolada sem outros fatores",
+      "b": "Pseudomonas aeruginosa",
+      "c": "Staphylococcus epidermidis",
+      "d": "Streptococcus agalactiae (do grupo B)"
+     },
+     "correta": "d",
+     "comentario": "Streptococcus agalactiae (EGB) é o agente clássico da sepse precoce, sobretudo com bolsa rota prolongada e ausência de profilaxia intraparto; E. coli é o segundo. Staphylococcus epidermidis (coagulase-negativo) associa-se à sepse TARDIA relacionada a cateter, não à precoce. Listeria monocytogenes ocorre, mas é menos frequente e costuma vir com história alimentar materna — não é a melhor resposta isolada. Pseudomonas é agente hospitalar/tardio. A quimioprofilaxia intraparto com penicilina em gestantes colonizadas por EGB reduziu drasticamente a doença precoce.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta inicial mais adequada para este recém-nascido:",
+     "alternativas": {
+      "a": "Observar por 12 horas antes de qualquer intervenção",
+      "b": "Internar, coletar hemocultura e iniciar antibioticoterapia empírica (ampicilina + gentamicina)",
+      "c": "Prescrever antibiótico oral e alta com retorno",
+      "d": "Iniciar apenas suporte e reavaliar a alimentação"
+     },
+     "correta": "b",
+     "comentario": "Diante de RN sintomático com fatores de risco, a conduta é internação, coleta de culturas (hemocultura ± líquor) e início IMEDIATO de antibioticoterapia empírica endovenosa — ampicilina + aminoglicosídeo (gentamicina) é o esquema clássico, cobrindo EGB, E. coli e Listeria. 'Observar 12 horas' num RN instável é inaceitável — sepse neonatal evolui em horas. Apenas suporte, sem antibiótico, ignora a emergência infecciosa. Antibiótico oral e alta é conduta perigosa e inadequada à faixa. Ceftriaxona é evitada no neonato ictérico (desloca bilirrubina). Suporte hemodinâmico (expansão) acompanha o antibiótico.\n📚 Leitura sugerida (bloco): MS — Atenção à Saúde do Recém-Nascido (sepse neonatal); e videoaula de Neonatologia (R+ Pediatria 2024, Drive): https://drive.google.com/file/d/1h4cx1neFKC_SZE8HuqfEDx6fMB2I-dkm/view",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia (icterícia neonatal / hiperbilirrubinemia)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Recém-nascido a termo, 36 horas de vida, mãe O positivo e RN A positivo, apresenta icterícia que progride da face ao tronco. A bilirrubina total é de 14 mg/dL às 36 horas de vida, com predomínio de bilirrubina indireta e reticulocitose. O bebê mama bem e está ativo, sem hepatoesplenomegalia.",
+   "perguntas": [
+    {
+     "enunciado": "Diante dos dados, identifique o mecanismo mais provável da icterícia:",
+     "alternativas": {
+      "a": "Hemólise por incompatibilidade ABO",
+      "b": "Atresia de vias biliares",
+      "c": "Icterícia fisiológica sem hemólise",
+      "d": "Deficiência de conjugação por hipotireoidismo"
+     },
+     "correta": "a",
+     "comentario": "Mãe O e RN A/B, icterícia nas primeiras 24–48 h, bilirrubina indireta elevada e reticulocitose apontam incompatibilidade ABO com hemólise — a causa hemolítica imune mais comum hoje (a Rh caiu com a imunoglobulina anti-D). Atresia de vias biliares cursa com bilirrubina DIRETA elevada, colúria e acolia, mais tardia — não é o caso. Icterícia fisiológica não aparece nas primeiras 24 h nem cursa com reticulocitose/hemólise. Hipotireoidismo prolonga a icterícia, mas não gera hemólise/reticulocitose aguda. Icterícia nas primeiras 24 h é sempre patológica até prova em contrário.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique a ferramenta mais adequada para decidir a necessidade de fototerapia:",
+     "alternativas": {
+      "a": "Classificação de Kramer isoladamente",
+      "b": "Escore de Apgar",
+      "c": "Curva de crescimento da OMS",
+      "d": "Nomograma de Bhutani (bilirrubina por hora de vida)"
+     },
+     "correta": "d",
+     "comentario": "A decisão terapêutica se baseia no nomograma de Bhutani, que plota a bilirrubina total pela hora de vida e por faixa de risco, definindo limiares de fototerapia e exsanguineotransfusão. O Apgar avalia vitalidade ao nascer, não a icterícia. A curva da OMS é de crescimento. As zonas de Kramer (progressão craniocaudal) servem de triagem clínica GROSSEIRA da extensão, mas não substituem a dosagem sérica plotada por hora de vida — usá-las isoladamente para indicar tratamento é impreciso. Fatores de risco (prematuridade, hemólise, <24 h) deslocam o limiar para baixo.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a principal complicação a ser evitada com o tratamento oportuno:",
+     "alternativas": {
+      "a": "Encefalopatia bilirrubínica (kernicterus)",
+      "b": "Enterocolite necrosante",
+      "c": "Retinopatia da prematuridade",
+      "d": "Displasia broncopulmonar"
+     },
+     "correta": "a",
+     "comentario": "O objetivo de tratar a hiperbilirrubinemia é evitar o kernicterus — impregnação de bilirrubina indireta nos gânglios da base e tronco, causando encefalopatia (letargia, hipertonia, opistótono, óbito ou sequela permanente com surdez e paralisia). Displasia broncopulmonar e retinopatia da prematuridade relacionam-se à prematuridade/oxigenoterapia, não à bilirrubina. Enterocolite necrosante é intestinal, ligada a prematuridade/isquemia. A fototerapia é a 1ª linha; a exsanguineotransfusão entra nos níveis mais altos ou na encefalopatia aguda instalada.\n📚 Leitura sugerida (bloco): SBP — Hiperbilirrubinemia indireta no recém-nascido a termo e prematuro tardio (Documento Científico); e videoaula de Neonatologia (Drive): https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia (infecção congênita / sífilis congênita)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Recém-nascido a termo apresenta, na primeira semana, rinite serossanguinolenta persistente, lesões cutâneas palmoplantares descamativas, hepatoesplenomegalia e, à radiografia de ossos longos, periostite e bandas metafisárias. A mãe fez pré-natal irregular; sorologia materna com VDRL reagente 1:32 e tratamento incompleto.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Citomegalovirose congênita",
+      "b": "Sífilis congênita",
+      "c": "Rubéola congênita",
+      "d": "Toxoplasmose congênita"
+     },
+     "correta": "b",
+     "comentario": "Rinite serossanguinolenta ('coriza sifilítica'), lesões palmoplantares, hepatoesplenomegalia e periostite/osteocondrite em ossos longos, com mãe VDRL reagente e tratamento inadequado, definem sífilis congênita. A toxoplasmose clássica traz a tríade de Sabin (coriorretinite, hidrocefalia, calcificações difusas), não periostite. A rubéola cursa com cardiopatia (PCA), catarata e surdez. A citomegalovirose dá microcefalia, calcificações periventriculares, petéquias e perda auditiva. O acometimento ósseo e a rinite são as pistas mais específicas de sífilis.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique o exame mais adequado para confirmar/estadiar o acometimento neurológico:",
+     "alternativas": {
+      "a": "Fundoscopia isolada",
+      "b": "Ultrassonografia abdominal",
+      "c": "Análise do líquor (VDRL, celularidade e proteína)",
+      "d": "Tomografia de crânio de rotina"
+     },
+     "correta": "c",
+     "comentario": "O estadiamento da neurossífilis congênita exige punção lombar com VDRL no líquor, celularidade e proteinorraquia — define neurossífilis e o esquema/duração do tratamento. A TC de crânio de rotina não é o exame que confirma neurossífilis. A fundoscopia investiga acometimento ocular, mas não o SNC. A USG abdominal avalia visceromegalia, não o neuroeixo. A investigação completa inclui ainda hemograma, função hepática, radiografia de ossos longos e avaliação auditiva/oftalmológica. VDRL do RN quatro vezes maior que o materno também sugere infecção.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o tratamento de escolha ao confirmar acometimento do sistema nervoso central:",
+     "alternativas": {
+      "a": "Azitromicina oral",
+      "b": "Penicilina benzatina em dose única",
+      "c": "Ceftriaxona endovenosa",
+      "d": "Penicilina cristalina endovenosa por 10 dias"
+     },
+     "correta": "d",
+     "comentario": "Com neurossífilis (ou impossibilidade de excluí-la), o tratamento é penicilina G cristalina endovenosa por 10 dias; penicilina procaína IM por 10 dias é alternativa em casos selecionados sem acometimento do SNC. A penicilina benzatina em dose única só é aceitável em cenário muito específico de RN assintomático com investigação normal e mãe adequadamente tratada — NUNCA em doença confirmada ou neurossífilis. Ceftriaxona é evitada no neonato (icterícia/deslocamento de bilirrubina) e não é padrão. Azitromicina não trata sífilis congênita. Sífilis é de notificação compulsória.\n📚 Leitura sugerida (bloco): MS — Protocolo Clínico e Diretrizes Terapêuticas para Sífilis (PCDT/IST); e videoaula de diagnóstico de sífilis (R+ Pediatria 2024, Drive): https://drive.google.com/file/d/1gjPRdXvoN_g7SeVSMcS4V9IITu7O4ChE/view",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Crescimento e Desenvolvimento (DNPM e escore Z)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina de 12 meses é levada à UBS para consulta de puericultura. Na Caderneta, o peso está no escore Z entre −2 e −3 para a idade, e o comprimento no escore Z −1. Ao exame, ela ainda não fica de pé com apoio, não faz pinça e não fala palavras com significado, mantendo pouco contato e interesse social.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do escore Z do peso, indique a interpretação tecnicamente correta:",
+     "alternativas": {
+      "a": "Sobrepeso para a idade",
+      "b": "Peso baixo para a idade (magreza acentuada)",
+      "c": "Peso muito baixo (magreza grave) para a idade",
+      "d": "Peso adequado para a idade"
+     },
+     "correta": "b",
+     "comentario": "Nas curvas da OMS, peso-para-idade entre escore Z −2 e −3 classifica-se como 'peso baixo para a idade' (magreza). Abaixo de −3 seria 'peso muito baixo' (magreza acentuada/grave) — não é o caso, que está ENTRE −2 e −3. Entre −2 e +2 seria adequado. Acima de +2 (peso-para-estatura/IMC) indica sobrepeso. A pegadinha é confundir a faixa exata: ' entre −2 e −3' é baixo, não 'muito baixo'. Sempre distinga o índice usado (peso-idade, estatura-idade, peso-estatura, IMC-idade), pois os pontos de corte e a nomenclatura mudam conforme o indicador.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique o instrumento de rastreio mais indicado diante da suspeita de alteração do desenvolvimento:",
+     "alternativas": {
+      "a": "Tomografia de crânio",
+      "b": "M-CHAT (rastreio de autismo, 16–30 meses) e vigilância dos marcos",
+      "c": "Cariótipo como primeiro exame",
+      "d": "Eletroencefalograma de rotina"
+     },
+     "correta": "b",
+     "comentario": "Há atraso motor fino/grosso, de linguagem E sinais de alteração da interação social — a triagem apropriada na APS combina a vigilância dos marcos (Caderneta) com instrumentos padronizados; o M-CHAT-R é o rastreio de autismo validado para 16–30 meses. O EEG de rotina não é rastreio de desenvolvimento (só se houver suspeita de crises). O cariótipo NÃO é o primeiro exame — antes dele investiga-se audição (audiometria/PEATE), pois a surdez mimetiza atraso de linguagem e de interação (pegadinha clássica). A TC de crânio não é exame de triagem. Confirmada a suspeita, encaminha-se para avaliação diagnóstica e estimulação precoce, sem esperar o diagnóstico fechado.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta mais adequada na Atenção Primária diante deste quadro:",
+     "alternativas": {
+      "a": "Apenas reforçar orientação alimentar e retornar em 6 meses",
+      "b": "Investigar audição, iniciar estimulação precoce e vigilância nutricional com plano de cuidado",
+      "c": "Prescrever complexo vitamínico e alta",
+      "d": "Encaminhar exclusivamente ao neurologista e aguardar"
+     },
+     "correta": "b",
+     "comentario": "A APS deve agir em paralelo: investigar audição, iniciar estimulação precoce (não esperar diagnóstico fechado), corrigir a causa nutricional (o baixo peso agrava o DNPM) e montar plano de cuidado com busca ativa pelo ACS/equipe. Só reforçar dieta e retornar em 6 meses perde a janela de neuroplasticidade. Encaminhar 'exclusivamente' ao neurologista e aguardar fragmenta o cuidado e atrasa a intervenção — o acompanhamento coordenado é da APS. Vitamina sem investigar é conduta vazia. Desnutrição + anemia ferropriva são causas reversíveis e frequentes de atraso — sempre pesquisar.\n📚 Leitura sugerida (bloco): MS — Caderno de Atenção Básica nº 11: Saúde da Criança — Acompanhamento do crescimento e desenvolvimento: https://bvsms.saude.gov.br/bvs/publicacoes/acompanhamento_crescimento_desenvolvimento_infantil_cab11.pdf",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neurodesenvolvimento (TEA e diferencial)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino de 3 anos é levado por não falar frases, não atender quando chamado pelo nome e não brincar de faz de conta. Alinha carrinhos por longos períodos, incomoda-se muito com barulhos e evita contato visual. O desenvolvimento motor foi normal. Não há regressão de habilidades; a audição foi testada e é normal.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Deficiência intelectual isolada",
+      "b": "Transtorno do espectro autista",
+      "c": "Transtorno de déficit de atenção/hiperatividade",
+      "d": "Transtorno específico de linguagem"
+     },
+     "correta": "b",
+     "comentario": "Déficit persistente de comunicação/interação social (não atende ao nome, sem faz de conta, pouco contato visual) somado a comportamentos repetitivos/restritos (enfileirar, hipersensibilidade a sons) define TEA (DSM-5). O TDAH tem como núcleo desatenção/hiperatividade/impulsividade, sem o prejuízo qualitativo da interação social recíproca. Deficiência intelectual isolada afeta o funcionamento global de forma homogênea, sem o perfil social/repetitivo típico. O transtorno específico de linguagem compromete a linguagem, mas preserva a interação social e o brincar simbólico. TEA e DI podem coexistir, mas o padrão descrito é nuclear de autismo.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique o dado epidemiológico correto sobre o transtorno do espectro autista:",
+     "alternativas": {
+      "a": "Predomina no sexo masculino, cerca de 4:1",
+      "b": "É mais prevalente após os 10 anos de idade",
+      "c": "Predomina no sexo feminino, cerca de 4:1",
+      "d": "Distribui-se igualmente entre os sexos"
+     },
+     "correta": "a",
+     "comentario": "O TEA predomina no sexo masculino, na proporção aproximada de 4:1 — dado cobrado com frequência. Não predomina em meninas nem se distribui igualmente. Também não é 'mais prevalente após os 10 anos' — os sinais surgem precocemente (antes dos 3 anos), e o rastreio (M-CHAT-R) é feito entre 16 e 30 meses. Meninas costumam ter apresentação mais 'camuflada', o que atrasa o diagnóstico e pode subestimar a prevalência feminina. A etiologia é multifatorial (forte componente genético); vacinas NÃO causam autismo — mito já refutado.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a conduta inicial mais adequada na Atenção Primária:",
+     "alternativas": {
+      "a": "Confirmar audição normal, iniciar estimulação/intervenção precoce e projeto terapêutico singular",
+      "b": "Iniciar metilfenidato imediatamente",
+      "c": "Solicitar cariótipo antes de qualquer intervenção",
+      "d": "Aguardar até os 6 anos para reavaliar"
+     },
+     "correta": "a",
+     "comentario": "A conduta é garantir audição normal (já feita), iniciar intervenção/estimulação precoce e organizar o cuidado com projeto terapêutico singular multiprofissional — a intervenção precoce muda o prognóstico. Metilfenidato trata TDAH, não é primeira medida no TEA. O cariótipo/investigação etiológica pode ser feito, mas NÃO deve preceder nem atrasar a estimulação; e a audiometria vem antes de exames genéticos. Esperar até os 6 anos desperdiça a janela de neuroplasticidade. A Linha de Cuidado do TEA (MS) organiza o fluxo na APS e a articulação com a rede.\n📚 Leitura sugerida (bloco): MS — Linha de Cuidado para atenção às pessoas com Transtorno do Espectro Autista: https://linhasdecuidado.saude.gov.br/portal/transtorno-do-espectro-autista/",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição (anemia ferropriva do lactente)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Lactente de 11 meses, em aleitamento materno prolongado com introdução alimentar pobre e consumo elevado de leite de vaca, apresenta palidez cutâneo-mucosa, irritabilidade e menor apetite. Hemograma: Hb 8,5 g/dL, VCM e HCM reduzidos, RDW aumentado. Não há hepatoesplenomegalia.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a causa mais provável da anemia:",
+     "alternativas": {
+      "a": "Perda sanguínea oculta por alergia grave",
+      "b": "Doença hemolítica hereditária",
+      "c": "Inadequação alimentar (baixa oferta de ferro)",
+      "d": "Deficiência enzimática eritrocitária"
+     },
+     "correta": "c",
+     "comentario": "Anemia microcítica e hipocrômica com RDW alto em lactente com dieta pobre em ferro e excesso de leite de vaca é ferropriva por inadequação alimentar — a causa nutricional mais comum na infância. Anemia hemolítica hereditária cursaria com reticulocitose, icterícia e frequentemente hepatoesplenomegalia (ausentes). Perda sanguínea por alergia costuma dar sangue nas fezes/quadro digestivo, não isolada aqui. Deficiências enzimáticas (ex.: G6PD) causam hemólise episódica, não microcitose crônica. O leite de vaca em excesso agrava por microssangramento intestinal e por deslocar alimentos ricos em ferro. Corte prático: microcitose + ferritina baixa fecham ferropenia.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique a combinação de achados que melhor confirma a etiologia:",
+     "alternativas": {
+      "a": "Eletroforese de hemoglobina alterada",
+      "b": "Ferritina alta e ferro sérico alto",
+      "c": "Reticulócitos altos e bilirrubina indireta elevada",
+      "d": "Ferritina baixa e saturação de transferrina reduzida"
+     },
+     "correta": "d",
+     "comentario": "A confirmação laboratorial da ferropenia é ferritina baixa (estoques esgotados) com saturação de transferrina reduzida e ferro sérico baixo/TIBC elevada. Ferritina e ferro altos apontam sobrecarga/inflamação, não carência (lembrar que ferritina é reagente de fase aguda e pode 'mascarar' ferropenia na infecção). Reticulocitose + bilirrubina indireta alta definem hemólise, não ferropenia. Eletroforese alterada sugere hemoglobinopatia (talassemia/falciforme), diferencial da microcitose, mas não é o caso com história dietética clássica. Na dúvida microcitose talassemia × ferropriva, o índice de Mentzer e a ferritina ajudam.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica correta:",
+     "alternativas": {
+      "a": "Manter aleitamento, diversificar a dieta e suplementar ferro elementar em dose terapêutica",
+      "b": "Suspender o aleitamento materno e iniciar fórmula",
+      "c": "Apenas orientar dieta, sem suplementar ferro",
+      "d": "Transfundir concentrado de hemácias"
+     },
+     "correta": "a",
+     "comentario": "A conduta é manter o aleitamento, diversificar a alimentação (carnes, feijão, ovo, vitamina C junto às refeições) e suplementar ferro elementar em dose terapêutica (3–5 mg/kg/dia), reavaliando a Hb em ~4 semanas. Suspender o aleitamento é erro — o leite materno protege e o problema é a introdução alimentar pobre. Só orientar dieta, sem repor, não corrige a anemia já instalada. Transfusão é reservada a anemia grave sintomática/instabilidade, não a este caso. O Programa Nacional de Suplementação de Ferro faz profilaxia universal a partir dos 3–6 meses; reduzir o leite de vaca é parte do tratamento.\n📚 Leitura sugerida (bloco): Nutrição em Pediatria na Prática Clínica (Sarni, 2021) — capítulo de anemia ferropriva (Drive): https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição e Saúde Coletiva (aleitamento materno)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mãe de lactente de 3 meses, em aleitamento materno exclusivo, retornará ao trabalho e teme não conseguir manter a amamentação. Em outra sala, uma puérpera vivendo com HIV, em terapia antirretroviral, pergunta se pode amamentar o filho recém-nascido. A equipe da UBS orienta ambas conforme as normas do Ministério da Saúde.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o período recomendado de aleitamento materno exclusivo, segundo a OMS e o MS:",
+     "alternativas": {
+      "a": "Até os 24 meses de idade",
+      "b": "Até os 4 meses de idade",
+      "c": "Até os 6 meses de idade",
+      "d": "Até os 12 meses de idade"
+     },
+     "correta": "c",
+     "comentario": "O aleitamento materno EXCLUSIVO é recomendado até os 6 meses; a partir daí, introduz-se alimentação complementar e mantém-se o aleitamento até 2 anos ou mais. 'Até 4 meses' é a orientação antiga, já superada. 'Até 12 meses' e 'até 24 meses' confundem com o período do aleitamento COMPLEMENTAR (mantido junto à comida), não do exclusivo. A pegadinha da banca é justamente trocar exclusivo × complementar e misturar normas (OMS × Marco Legal da Primeira Infância). Exclusivo = só leite materno, sem água/chás/outros leites.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Diante da mãe que vive com HIV, especifique a orientação correta no Brasil:",
+     "alternativas": {
+      "a": "Contraindicar a amamentação e fornecer fórmula infantil",
+      "b": "Permitir amamentação cruzada por outra nutriz",
+      "c": "Liberar a amamentação por estar em terapia antirretroviral",
+      "d": "Orientar aleitamento misto"
+     },
+     "correta": "a",
+     "comentario": "No Brasil, o HIV materno é contraindicação ABSOLUTA à amamentação, independentemente de carga viral ou uso de antirretroviral — fornece-se fórmula infantil e inibe-se a lactação. Liberar por estar em TARV está errado no protocolo brasileiro (a política difere de recomendações de contextos de alta mortalidade infantil). Amamentação cruzada é proibida (risco de transmissão de HIV e outros agentes). Aleitamento misto aumenta o risco de transmissão e não é opção. Outras contraindicações: HTLV 1/2, uso de algumas drogas/quimioterápicos; a maioria das infecções maternas comuns NÃO contraindica amamentar.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a medida de proteção legal que apoia a manutenção da amamentação no retorno ao trabalho:",
+     "alternativas": {
+      "a": "Proibição de uso de leite ordenhado",
+      "b": "Obrigatoriedade de desmame ao retornar ao trabalho",
+      "c": "Direito a pausas para amamentar e licença-maternidade previstos em lei",
+      "d": "Fim do direito a creche no local de trabalho"
+     },
+     "correta": "c",
+     "comentario": "A legislação (CLT e o Marco Legal da Primeira Infância) protege a amamentação: licença-maternidade, pausas diárias para amamentar/ordenhar e, em estabelecimentos com número mínimo de mulheres, apoio à guarda do lactente. Não há qualquer obrigatoriedade de desmame ao retornar ao trabalho — ao contrário, orienta-se ordenha e estoque do leite. Usar leite ordenhado (extraído e conservado) é justamente a estratégia recomendada, não proibida. O direito a creche/apoio existe e é reforçado por políticas públicas. Salas de apoio à amamentação nas empresas são incentivadas pelo MS.\n📚 Leitura sugerida (bloco): SBP — Guia Prático de Aleitamento Materno; e Marco Legal da Primeira Infância (Lei 13.257/2016): https://www.sbp.com.br/departamentos/aleitamento-materno/manuais-e-guias/",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Imunização (Calendário Nacional / PNI)",
+   "tier": "ALTO",
+   "vinheta": "Lactente de 5 meses comparece à UBS. A mãe adiou as vacinas e questiona sobre a vacina oral de rotavírus e sobre um episódio de febre alta e irritabilidade ocorrido após a última dose de uma vacina. A equipe revisa o Calendário Nacional de Vacinação e a conduta frente a eventos adversos.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do atraso, indique a conduta correta quanto à vacina oral de rotavírus:",
+     "alternativas": {
+      "a": "Respeitar a idade-limite; se ultrapassada, não iniciar/não completar o esquema",
+      "b": "Aplicar em qualquer idade, sem limite",
+      "c": "Adiar até completar 1 ano",
+      "d": "Substituir por dose injetável equivalente"
+     },
+     "correta": "a",
+     "comentario": "A vacina de rotavírus (VORH) tem idades-limite rígidas por risco de intussuscepção: a 1ª dose até 3 meses e 15 dias e a 2ª até 7 meses e 29 dias. Ultrapassado o prazo, NÃO se inicia nem se completa o esquema. Aplicar 'em qualquer idade' é justamente o erro que a norma evita. Não existe rotavírus injetável de substituição no PNI. Adiar para 1 ano inviabiliza a vacina. Esse é um dos prazos-limite mais cobrados do calendário — vacina de vírus vivo atenuado, contraindicada em imunodeprimidos graves.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique a classificação e a conduta diante da febre alta com irritabilidade pós-vacinal:",
+     "alternativas": {
+      "a": "Contraindicação absoluta a novas doses",
+      "b": "Evento adverso pós-vacinação a ser notificado, com manejo sintomático",
+      "c": "Motivo para nunca mais vacinar a criança",
+      "d": "Reação que exige internação de rotina"
+     },
+     "correta": "b",
+     "comentario": "Febre e irritabilidade após a vacina configuram evento adverso pós-vacinação (EAPV), que deve ser notificado ao sistema de vigilância e manejado sintomaticamente (antitérmico, hidratação) — a maioria é leve e autolimitada. Não é contraindicação absoluta a doses futuras (só eventos graves específicos, como anafilaxia ao imunobiológico, contraindicam). Não exige internação de rotina. E jamais é motivo para 'nunca mais vacinar' — abandonar o esquema expõe a criança a doenças graves. Notificar TODO evento (leve ou grave) fortalece a farmacovigilância do PNI.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a afirmação correta sobre a importância da manutenção de altas coberturas vacinais:",
+     "alternativas": {
+      "a": "A vacinação em atraso não afeta a comunidade",
+      "b": "A imunidade de rebanho independe da cobertura",
+      "c": "Quedas de cobertura ameaçam a reintrodução de doenças já controladas/eliminadas",
+      "d": "Doenças eliminadas não retornam mesmo com baixa cobertura"
+     },
+     "correta": "c",
+     "comentario": "A queda das coberturas vacinais reabre a porta para doenças controladas ou eliminadas — sarampo (que já ressurgiu) e o risco de reintrodução da poliomielite são exemplos atuais e temas de prova. A imunidade de rebanho DEPENDE diretamente da proporção de vacinados (limiar varia por doença; sarampo exige ~95%). Dizer que doenças eliminadas 'não retornam' com baixa cobertura contraria a história recente. E o atraso individual, somado, derruba a cobertura coletiva e afeta toda a comunidade. Busca ativa de faltosos e resgate de esquema são funções centrais da APS.\n📚 Leitura sugerida (bloco): MS — Calendário Nacional de Vacinação e Manual de Vigilância de EAPV; e videoaula de Imunização (R+ Pediatria 2024, Drive): https://drive.google.com/file/d/1haGRHKys0_ENxZ4Yp_gs7HJUNm8ES9RA/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecções Respiratórias (bronquiolite viral aguda)",
+   "tier": "ALTO",
+   "vinheta": "Lactente de 5 meses, previamente hígido, apresenta há 3 dias coriza e tosse, evoluindo com taquipneia, tiragem subcostal, sibilos difusos e dificuldade para mamar. Está no outono, há irmão com resfriado em casa. Saturação de 93% em ar ambiente, afebril, hidratado e ativo entre os episódios de tosse.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico e o agente mais provável:",
+     "alternativas": {
+      "a": "Pneumonia bacteriana típica",
+      "b": "Coqueluche em fase paroxística",
+      "c": "Bronquiolite viral aguda (vírus sincicial respiratório)",
+      "d": "Crise de asma do lactente"
+     },
+     "correta": "c",
+     "comentario": "Primeiro episódio de sibilância em lactente <2 anos, com pródromo de vias aéreas superiores, taquipneia e tiragem, em período sazonal, é bronquiolite viral aguda; o vírus sincicial respiratório (VSR) é o agente principal. Pneumonia bacteriana típica cursa com febre alta, toxemia e condensação focal, não sibilância difusa. 'Asma do lactente' é diagnóstico de exclusão que exige episódios recorrentes — não se rotula no 1º episódio. Coqueluche traz tosse paroxística com guincho e cianose, geralmente afebril, mas sem o pródromo/sibilância da bronquiolite. Prematuros e cardiopatas são grupos de maior gravidade.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique a conduta terapêutica de base correta:",
+     "alternativas": {
+      "a": "Corticoide sistêmico para todos os casos",
+      "b": "Broncodilatador inalatório de rotina para todos",
+      "c": "Antibioticoterapia empírica de rotina",
+      "d": "Suporte: hidratação, oxigênio se necessário e desobstrução nasal"
+     },
+     "correta": "d",
+     "comentario": "O tratamento da bronquiolite é essencialmente de suporte: hidratação, oxigênio se saturação baixa, desobstrução nasal e observação da alimentação/esforço. Antibiótico de rotina não tem papel (etiologia viral). Broncodilatador não é recomendado de rotina — no máximo um teste terapêutico individual, mantido só se houver resposta objetiva. Corticoide sistêmico NÃO está indicado na bronquiolite. Também não se recomendam, de rotina, adrenalina inalatória ou fisioterapia respiratória. A prevenção com palivizumabe é restrita a grupos de risco (prematuros extremos, cardiopatas, pneumopatas).",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o principal critério para considerar internação hospitalar:",
+     "alternativas": {
+      "a": "Sinais de desconforto respiratório importante, hipoxemia ou dificuldade alimentar",
+      "b": "Presença de coriza isolada",
+      "c": "Febre baixa isolada",
+      "d": "Idade acima de 12 meses"
+     },
+     "correta": "a",
+     "comentario": "Internam-se lactentes com desconforto respiratório importante (tiragem intensa, gemência, apneia), hipoxemia persistente (satO2 baixa) ou incapacidade de manter a hidratação/alimentação — além de grupos de risco (prematuros, cardiopatas, <3 meses). Coriza isolada é sinal leve, não critério de internação. Idade >12 meses não é, por si, indicação; ao contrário, os mais novos têm maior risco. Febre baixa isolada tampouco interna. O acompanhamento ambulatorial com sinais de alerta bem orientados à família é adequado nos casos leves.\n📚 Leitura sugerida (bloco): SBP — Diretriz de Bronquiolite Viral Aguda; e videoaula de Infecções respiratórias (R+ Pediatria 2024, Drive): https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Doenças Exantemáticas (sarampo)",
+   "tier": "ALTO",
+   "vinheta": "Menino de 4 anos, com vacinação incompleta, apresenta febre alta, tosse, coriza e conjuntivite há 3 dias, seguidas de exantema maculopapular que iniciou na região retroauricular e na face e progrediu no sentido craniocaudal. No exame da mucosa oral, notam-se pequenas manchas branco-azuladas na altura dos molares.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Sarampo",
+      "b": "Rubéola",
+      "c": "Exantema súbito",
+      "d": "Escarlatina"
+     },
+     "correta": "a",
+     "comentario": "Febre alta com o trio tosse/coriza/conjuntivite (pródromo catarral), manchas de Koplik (branco-azuladas na mucosa jugal) e exantema maculopapular de progressão craniocaudal definem sarampo. A rubéola tem sintomas mais brandos, linfadenopatia retroauricular/occipital e exantema mais fugaz, sem Koplik. O exantema súbito (roséola) ocorre em lactentes, com febre alta que cede e SÓ ENTÃO surge o exantema. A escarlatina traz exantema micropapular áspero ('lixa'), língua em framboesa e faringite estreptocócica, sem coriza/conjuntivite. Koplik é patognomônico e precede o exantema.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique a conduta de saúde pública imediata diante da suspeita:",
+     "alternativas": {
+      "a": "Tratar com antibiótico e liberar",
+      "b": "Isolamento não é necessário",
+      "c": "Aguardar sorologia para só então notificar",
+      "d": "Notificação imediata e bloqueio vacinal dos contatos suscetíveis"
+     },
+     "correta": "d",
+     "comentario": "Sarampo é doença de notificação COMPULSÓRIA IMEDIATA (em até 24 h); a suspeita já dispara a notificação e o bloqueio vacinal dos contatos suscetíveis (idealmente em até 72 h da exposição), além de coleta de amostras. Esperar a sorologia para notificar atrasa o controle do surto — erro grave em saúde coletiva. O isolamento respiratório/aerossóis É necessário (alta transmissibilidade, R0 elevado). Antibiótico não trata a virose (só complicações bacterianas, como otite/pneumonia). A ressurgência do sarampo no Brasil torna esse fluxo tema quente de prova.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a intervenção recomendada para reduzir a gravidade e a mortalidade na criança com sarampo:",
+     "alternativas": {
+      "a": "Imunoglobulina para todos os casos confirmados",
+      "b": "Corticoide sistêmico de rotina",
+      "c": "Antiviral oral específico de rotina",
+      "d": "Administração de vitamina A"
+     },
+     "correta": "d",
+     "comentario": "A OMS/MS recomendam vitamina A para toda criança com sarampo, pois reduz gravidade e mortalidade (a doença espolia vitamina A e aumenta o risco de complicações oculares e infecciosas); o esquema é de duas doses em dias consecutivos, por faixa etária. Corticoide de rotina não está indicado. Imunoglobulina é medida de PROFILAXIA pós-exposição em suscetíveis de alto risco (imunodeprimidos, lactentes, gestantes), não tratamento universal do caso confirmado. Não há antiviral específico de rotina — o tratamento é de suporte. Vacinar (tríplice/tetra viral) é a prevenção primária.\n📚 Leitura sugerida (bloco): MS — Guia de Vigilância em Saúde (sarampo); e videoaula de Infectologia/exantemáticas (R+ Pediatria 2024, Drive): https://drive.google.com/file/d/1ayloTkRXLIY0gA34-LDh7q546oquQs6h/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências (desidratação e terapia de reidratação oral)",
+   "tier": "ALTO",
+   "vinheta": "Menino de 18 meses com diarreia aquosa há 2 dias e vômitos ocasionais. Ao exame: irritado mas alerta, olhos levemente fundos, mucosas secas, bebe avidamente quando oferecido, sinal da prega com retorno lento (<2 s), diurese diminuída. Sinais vitais estáveis, sem alteração do sensório importante.",
+   "perguntas": [
+    {
+     "enunciado": "Diante dos achados, classifique o estado de hidratação:",
+     "alternativas": {
+      "a": "Hipernatremia estabelecida",
+      "b": "Desidratação grave/choque (plano C)",
+      "c": "Sem desidratação (plano A)",
+      "d": "Desidratação com algum grau (plano B)"
+     },
+     "correta": "d",
+     "comentario": "Irritabilidade, olhos fundos, mucosas secas, sede ávida e prega com retorno lento configuram 'desidratação com algum grau' — plano B, com terapia de reidratação oral supervisionada na unidade (SRO ~50–100 mL/kg em 4 h). Sem desidratação (plano A) não haveria esses sinais, e o manejo seria domiciliar com SRO após cada evacuação. Desidratação grave (plano C) traria letargia/torpor, incapacidade de beber, pulso fino, enchimento capilar muito lento — exigindo via endovenosa/intraóssea. Hipernatremia não se define pela clínica isolada (precisa de sódio sérico). O AIDPI padroniza essa classificação.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique a conduta de reidratação inicial mais adequada:",
+     "alternativas": {
+      "a": "Reposição só com água e chás caseiros",
+      "b": "Expansão endovenosa imediata com 20 mL/kg",
+      "c": "Terapia de reidratação oral com soro de reidratação (SRO) supervisionada",
+      "d": "Jejum e observação por 6 horas"
+     },
+     "correta": "c",
+     "comentario": "No plano B, a primeira escolha é a TRO com SRO de osmolaridade reduzida, ofertada em pequenos volumes e frequente, sob supervisão, reavaliando periodicamente. Expansão EV com 20 mL/kg é conduta do plano C (grave/choque) ou da falha da TRO, não do plano B. Jejum prolongado é contraindicado — mantém-se a alimentação/aleitamento assim que possível. Água e chás caseiros NÃO repõem eletrólitos adequadamente e podem causar distúrbios (hiponatremia). Vômitos não contraindicam a TRO; ofertar devagar costuma vencê-los; ondansetrona pode ajudar em casos selecionados.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o distúrbio eletrolítico a vigiar após diarreia volumosa com risco de arritmia:",
+     "alternativas": {
+      "a": "Hipernatremia por excesso de sal",
+      "b": "Hipermagnesemia",
+      "c": "Hipercalcemia",
+      "d": "Hipocalemia"
+     },
+     "correta": "d",
+     "comentario": "As perdas fecais de potássio na diarreia podem levar à hipocalemia, que causa fraqueza, íleo e arritmias (inclusive taquicardia/fibrilação ventricular) — daí a reposição cuidadosa de potássio e o uso de SRO. Hipercalcemia não é complicação típica da diarreia. Hipernatremia pode ocorrer, mas por perda de água livre/erro de preparo do soro, não 'por excesso de sal' como no enunciado. Hipermagnesemia não é achado da diarreia aguda. Sempre reavaliar ganho de peso, diurese e sinais de melhora; a maioria das gastroenterites é viral e autolimitada.\n📚 Leitura sugerida (bloco): MS — Manejo da diarreia aguda e AIDPI; e material Choque em Pediatria (Drive): https://drive.google.com/file/d/11Wx8xIUFnHO1M-dvnxHASuSgNWNSz9H8/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências (anafilaxia)",
+   "tier": "ALTO",
+   "vinheta": "Menina de 6 anos, minutos após ingerir um doce com amendoim, apresenta urticária generalizada, edema labial, tosse, sensação de aperto na garganta e sibilos, evoluindo com voz abafada e desconforto respiratório. Está agitada, com queda discreta da pressão arterial e taquicardia.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique o diagnóstico:",
+     "alternativas": {
+      "a": "Crise de asma sem alergia",
+      "b": "Urticária aguda isolada",
+      "c": "Anafilaxia",
+      "d": "Reação vasovagal"
+     },
+     "correta": "c",
+     "comentario": "Início agudo após alérgeno, com acometimento de pele/mucosa (urticária, edema labial) MAIS comprometimento respiratório (aperto na garganta, sibilos, voz abafada) e cardiovascular (hipotensão, taquicardia) preenche os critérios de anafilaxia — reação sistêmica grave. Urticária isolada não teria sintomas respiratórios/cardiovasculares. Asma 'sem alergia' não explica a urticária/edema após exposição a alérgeno. Reação vasovagal cursa com bradicardia e palidez, sem urticária/broncoespasmo. Envolvimento de dois ou mais sistemas após exposição a alérgeno já basta para o diagnóstico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique a medicação e via de primeira escolha, imediatamente:",
+     "alternativas": {
+      "a": "Adrenalina intramuscular na face anterolateral da coxa",
+      "b": "Anti-histamínico endovenoso isolado",
+      "c": "Corticoide endovenoso como primeira medida",
+      "d": "Broncodilatador inalatório isolado"
+     },
+     "correta": "a",
+     "comentario": "A primeira e mais importante medida na anafilaxia é adrenalina IM na face anterolateral da coxa (vasto lateral), 0,01 mg/kg (máx. 0,3–0,5 mg), repetível a cada 5–15 min. Anti-histamínico só alivia sintomas cutâneos e NUNCA substitui a adrenalina — usá-lo isolado é erro que custa vidas. Corticoide tem início lento e papel apenas adjuvante (não previne de forma confiável a reação bifásica) — não é a primeira medida. Broncodilatador é adjuvante para o broncoespasmo, também não substitui a adrenalina. Posicionar em decúbito com MMII elevados, oxigênio e expansão volêmica completam o manejo.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a orientação de alta correta após estabilização:",
+     "alternativas": {
+      "a": "Dispensar acompanhamento com alergista",
+      "b": "Alta imediata sem observação",
+      "c": "Proibir definitivamente qualquer vacinação",
+      "d": "Observação por período de risco de reação bifásica e prescrição de autoinjetor de adrenalina"
+     },
+     "correta": "d",
+     "comentario": "Após estabilizar, mantém-se observação por algumas horas (risco de reação bifásica), orienta-se evicção do alérgeno, prescreve-se autoinjetor de adrenalina com treinamento da família e encaminha-se ao alergista. Alta imediata sem observação ignora a reação bifásica. 'Proibir qualquer vacinação' é incorreto — só se contraindica o imunobiológico específico ao qual houve anafilaxia comprovada, com avaliação especializada. Dispensar o alergista perde a investigação e o plano de ação. Plano de ação escrito e identificação de alergia alimentar reduzem recorrências fatais.\n📚 Leitura sugerida (bloco): ASBAI/SBP — Diretrizes de Anafilaxia; e videoaula de Emergências respiratórias (R+ Pediatria 2024, Drive): https://drive.google.com/file/d/1KBDnpdSl6HD4AEn95UWahWjutRsEUNM4/view",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Saúde Coletiva e Ética (proteção da criança / ECA)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina de 6 anos é levada à UBS por queixas físicas inespecíficas de repetição. Durante o atendimento, a criança relata situação compatível com abuso sexual, e o exame levanta forte suspeita. O acompanhante pede sigilo absoluto e que 'nada seja registrado ou comunicado' para evitar constrangimento à família.",
+   "perguntas": [
+    {
+     "enunciado": "Diante da suspeita, indique a conduta legal e ética correta do médico:",
+     "alternativas": {
+      "a": "Aguardar confirmação por perícia antes de qualquer comunicação",
+      "b": "Manter sigilo absoluto atendendo ao pedido do acompanhante",
+      "c": "Encaminhar apenas para psicólogo, sem notificação",
+      "d": "Notificar imediatamente o Conselho Tutelar, independentemente de autorização da família"
+     },
+     "correta": "d",
+     "comentario": "O ECA (art. 13) obriga a comunicação IMEDIATA ao Conselho Tutelar de casos suspeitos OU confirmados de maus-tratos/abuso, independentemente de autorização da família — a notificação é compulsória e protege a criança. Manter 'sigilo absoluto' a pedido do acompanhante (possível responsável pelo abuso) é violação ética e legal. Esperar perícia para só então comunicar contraria a lei — a suspeita já obriga a notificar. Encaminhar só ao psicólogo, sem notificar, omite a proteção devida. O dever de notificar prevalece sobre o sigilo, pois visa proteger o incapaz.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique a afirmação correta sobre a responsabilidade do profissional:",
+     "alternativas": {
+      "a": "A omissão de notificação pode gerar responsabilização ética, civil e penal",
+      "b": "Só o médico legista pode notificar",
+      "c": "A notificação é facultativa",
+      "d": "A notificação depende de decisão judicial prévia"
+     },
+     "correta": "a",
+     "comentario": "Deixar de notificar (omissão) sujeita o profissional a responsabilização nas esferas ética (CFM), civil e penal — há inclusive previsão de penalidade por não comunicação. A notificação NÃO é facultativa: é dever legal. Qualquer profissional/estabelecimento (não só o legista) tem o dever de comunicar ao Conselho Tutelar. E não se exige decisão judicial prévia — a comunicação é administrativa e imediata, acionando a rede de proteção. O prontuário deve registrar os achados de forma objetiva, preservando a cadeia de cuidado.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta clínica que melhor protege a criança neste momento:",
+     "alternativas": {
+      "a": "Solicitar que a criança repita o relato várias vezes para 'confirmar'",
+      "b": "Confrontar o acompanhante e exigir explicações",
+      "c": "Garantir acolhimento, cuidado clínico e acionar a rede de proteção intersetorial",
+      "d": "Liberar a criança aos cuidados do acompanhante sem medidas"
+     },
+     "correta": "c",
+     "comentario": "A conduta protetora é acolher, prestar o cuidado clínico necessário e acionar a rede intersetorial (Conselho Tutelar, assistência social, saúde mental, e a autoridade competente conforme o risco), garantindo segurança à criança. Confrontar o acompanhante pode agravar o risco e comprometer a proteção — não cabe ao médico investigar/apurar. Liberar sem medidas expõe a criança a novo dano. Fazer a criança repetir o relato várias vezes causa revitimização e prejudica eventual apuração — a escuta deve ser cuidadosa e única quando possível (escuta especializada). Evitar exames repetidos e desnecessários também protege a criança.\n📚 Leitura sugerida (bloco): ECA (Lei 8.069/1990), art. 13; e MS — Linha de Cuidado para atenção a crianças e adolescentes em situação de violência: https://bvsms.saude.gov.br/bvs/publicacoes/linha_cuidado_criancas_familias_violencias.pdf",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Endocrinologia (baixa estatura / hipotireoidismo adquirido)",
+   "tier": "ALTO",
+   "vinheta": "Menina de 8 anos apresenta desaceleração da velocidade de crescimento no último ano, tendo cruzado percentis para baixo na curva. Está com pele seca, intolerância ao frio, constipação e leve ganho de peso, além de bradicardia. A idade óssea está atrasada em relação à cronológica. O rendimento escolar caiu.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Baixa estatura familiar",
+      "b": "Atraso constitucional do crescimento",
+      "c": "Hipotireoidismo adquirido",
+      "d": "Deficiência isolada de GH"
+     },
+     "correta": "c",
+     "comentario": "Desaceleração da velocidade de crescimento (cruzando percentis para baixo) com pele seca, intolerância ao frio, constipação, bradicardia, ganho de peso e idade óssea atrasada aponta hipotireoidismo adquirido (tireoidite de Hashimoto é a causa mais comum na infância). O atraso constitucional cursa com criança saudável, história familiar de 'maturador tardio' e SEM sinais de hipotireoidismo. A baixa estatura familiar mantém velocidade de crescimento normal e idade óssea compatível com a cronológica. A deficiência de GH desacelera o crescimento, mas não explica intolerância ao frio/constipação/bradicardia. Ganho de peso com queda de estatura é uma pista forte de causa endócrina (não nutricional).",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique o exame de escolha para confirmar a hipótese:",
+     "alternativas": {
+      "a": "Teste de estímulo de GH",
+      "b": "Dosagem de TSH e T4 livre",
+      "c": "Radiografia de crânio",
+      "d": "Cariótipo"
+     },
+     "correta": "b",
+     "comentario": "A confirmação é bioquímica: TSH elevado com T4 livre baixo define hipotireoidismo primário (na tireoidite, anticorpos anti-TPO positivos). O cariótipo investiga síndrome de Turner — importante em baixa estatura de meninas, mas o quadro clínico aqui é francamente tireoidiano. O teste de estímulo de GH só se justifica após excluir hipotireoidismo (o hipotireoidismo pode reduzir a resposta de GH e gerar falso diagnóstico — por isso trata-se a tireoide PRIMEIRO). A radiografia de crânio não é o exame; a idade óssea (radiografia de mão/punho) ajuda no prognóstico de estatura, não no diagnóstico etiológico.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica correta:",
+     "alternativas": {
+      "a": "Restringir calorias para controlar o peso",
+      "b": "Iniciar GH recombinante imediatamente",
+      "c": "Reposição de levotiroxina com ajuste por peso e controle laboratorial",
+      "d": "Apenas observar, pois a estatura normaliza sozinha"
+     },
+     "correta": "c",
+     "comentario": "O tratamento é levotiroxina, com dose ajustada por peso/idade e monitorização de TSH/T4 livre até normalizar — a velocidade de crescimento costuma recuperar (catch-up) após o eutireoidismo. Iniciar GH 'imediatamente' é erro: sem tratar a tireoide, a avaliação de GH é falseada e a estatura não responde. 'Apenas observar' desperdiça tempo de crescimento e expõe a criança aos demais efeitos do hipotireoidismo. Restringir calorias é inadequado — o ganho de peso é consequência do hipotireoidismo, corrigido pelo tratamento, não por dieta restritiva. Reavaliar a idade óssea ajuda a estimar o prognóstico de estatura final.\n📚 Leitura sugerida (bloco): SBP — Departamento de Endocrinologia (baixa estatura/hipotireoidismo); e videoaula de Endocrinologia (R+ Pediatria 2024, Drive): https://drive.google.com/file/d/1DfkaSxC7e73geDJxpMCfbVbx-VX53efB/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  }
+ ]
+}

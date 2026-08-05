@@ -239,9 +239,10 @@ async function carregarSimulado(){
       throw new Error('not-found');
     }
     quizData = await res.json();
-    const numeroTxt = numero ? `Simulado nº ${numero} — ${date}` : `Simulado de ${date}`;
+    const espTag = quizData.especial ? `${quizData.especial} · ` : '';
+    const numeroTxt = numero ? `${espTag}Simulado nº ${numero} — ${date}` : `${espTag}Simulado de ${date}`;
     document.getElementById('header-sub').textContent = numeroTxt;
-    document.getElementById('simulado-numero').textContent = numero ? `Simulado nº ${numero}` : date;
+    document.getElementById('simulado-numero').textContent = (quizData.especial ? quizData.especial + ' · ' : '') + (numero ? `Simulado nº ${numero}` : date);
     montarQuestions();
     answered = loadProgress();
     if(Object.keys(answered).length === 0){
