@@ -1,0 +1,651 @@
+{
+  "date": "2026-08-11",
+  "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+  "blocos": [
+    {
+      "tema": "Neurologia — Neuroinfecção (neurocisticercose calcificada / epilepsia adquirida) [RE ranking unificado #1: Vinicius, 100% de erro, 3/3, últ. 11/07]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Homem de 34 anos, natural do interior, procura ambulatório após uma segunda crise convulsiva focal com evolução para bilateral tônico-clônica no último mês. É hígido, sem etilismo, sem febre e sem cefaleia. O exame neurológico intercrítico é normal. A tomografia de crânio mostra uma única imagem nodular hiperdensa (calcificada) no parênquima do lobo parietal esquerdo, sem edema significativo à TC; a ressonância confirma a lesão calcificada e revela discreto realce e edema perilesional na fase de crise.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a principal hipótese diagnóstica para a causa das crises deste paciente?",
+          "alternativas": {
+            "a": "Malformação arteriovenosa",
+            "b": "Neurocisticercose parenquimatosa calcificada",
+            "c": "Tuberculoma do sistema nervoso central",
+            "d": "Metástase cerebral única"
+          },
+          "correta": "b",
+          "comentario": "O quadro é o de crises epilépticas de início na vida adulta em paciente de área endêmica, com lesão parenquimatosa ÚNICA e CALCIFICADA — o estágio final (nodular-calcificado) da infecção do SNC pela forma larvária da Taenia solium. Em regiões endêmicas, essa é a causa mais comum de epilepsia adquirida no adulto jovem; a crise costuma associar-se a reativação inflamatória perilesional (edema e realce transitórios em torno do calcificado). O tuberculoma tende a dar lesão com realce anelar e edema proeminente, geralmente com contexto sistêmico/imunossupressão, e calcifica menos como nódulo isolado assintomático. Metástase única em jovem hígido sem neoplasia conhecida é improvável e cursaria com edema desproporcional e crescimento. Malformação arteriovenosa daria vazio de fluxo/veias dilatadas na imagem e sangramento, não uma calcificação nodular puntiforme. Pérola: a evolução radiológica passa por vesicular → coloidal → granular-nodular → calcificado; só a fase calcificada com edema perilesional explica crises tardias.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual mecanismo melhor explica as crises epilépticas associadas à lesão calcificada?",
+          "alternativas": {
+            "a": "Gliose e inflamação perilesional intermitente ao redor do foco calcificado",
+            "b": "Hidrocefalia obstrutiva com hipertensão intracraniana",
+            "c": "Oclusão isquêmica de grande artéria",
+            "d": "Desmielinização autoimune da substância branca"
+          },
+          "correta": "a",
+          "comentario": "A lesão calcificada representa o parasita já morto, mas o tecido cicatricial (gliose) e episódios de inflamação/edema perilesional — muitas vezes com quebra transitória da barreira hematoencefálica e realce ao contraste — funcionam como foco epileptogênico, o que explica crises que aparecem anos após a infecção. Não há oclusão arterial nem território vascular definido, portanto isquemia de grande artéria não se aplica. A forma parenquimatosa única, sem comprometimento ventricular, não gera hidrocefalia obstrutiva (essa ocorre nas formas intraventricular e subaracnóidea/racemosa). Não se trata de desmielinização autoimune, que produziria lesões multifocais na substância branca e curso em surtos. Detalhe de prova: o edema perilesional recorrente ao redor do calcificado é a assinatura fisiopatológica da epilepsia associada a essa parasitose.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Diante de lesão única calcificada com crise atual e edema perilesional, qual a conduta mais adequada?",
+          "alternativas": {
+            "a": "Ressecção cirúrgica imediata da calcificação",
+            "b": "Tratamento antiparasitário prolongado (albendazol) por 6 meses",
+            "c": "Anticonvulsivante e corticoide no episódio inflamatório, sem antiparasitário na fase calcificada",
+            "d": "Apenas observação clínica, sem qualquer medicação"
+          },
+          "correta": "c",
+          "comentario": "Na fase CALCIFICADA o parasita já está morto, de modo que o tratamento cisticida (albendazol/praziquantel) NÃO está indicado — não há larva viável para tratar e a droga poderia até intensificar a inflamação. A conduta é controlar as crises com anticonvulsivante e, no episódio de edema/realce perilesional sintomático, associar corticoide por curto período para reduzir a resposta inflamatória. Antiparasitário prolongado seria indicado apenas nas formas com cistos VIÁVEIS (vesiculares) ou múltiplos ativos, sempre com cobertura de corticoide. Ressecção cirúrgica é reservada a situações específicas (lesão intraventricular com hidrocefalia, epilepsia refratária com foco bem definido), não a um calcificado que responde a fármacos. Só observar, sem anticonvulsivante, é inadequado diante de crises recorrentes. Pegadinha clássica: \"lesão calcificada NÃO se trata com cisticida\".\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 145 — Neurocisticercose; complementar com o PCDT/Nota Técnica do Ministério da Saúde sobre teníase-cisticercose.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuroimunologia (síndrome da pessoa rígida / anti-GAD65) [RE ranking unificado #2: Vinicius, 100% de erro, 3/3]",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 45 anos, portadora de diabetes tipo 1 e tireoidite autoimune, relata há meses rigidez progressiva do tronco e da região lombar, com espasmos musculares dolorosos desencadeados por sustos, ruídos e estímulos emocionais, chegando a quedas \"em bloco\". Entre os episódios, há hiperlordose lombar fixa. Força, sensibilidade e reflexos estão preservados; não há sinais piramidais nem alteração de nervos cranianos.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a principal hipótese diagnóstica?",
+          "alternativas": {
+            "a": "Distonia generalizada primária",
+            "b": "Síndrome da pessoa rígida",
+            "c": "Doença de Parkinson",
+            "d": "Tétano"
+          },
+          "correta": "b",
+          "comentario": "O quadro reúne rigidez axial (tronco e paravertebrais) com hiperlordose lombar, espasmos dolorosos deflagrados por estímulos sensoriais/emocionais (sobressalto) e forte associação com outras doenças autoimunes (diabetes tipo 1, tireoidite) — a assinatura clínica dessa condição neuroimune. A doença de Parkinson cursa com bradicinesia, tremor de repouso e rigidez em roda denteada de predomínio apendicular, não com rigidez axial em bloco desencadeada por sustos. O tétano também dá rigidez e espasmos, mas em contexto agudo (ferimento, trismo/riso sardônico, disautonomia) e sem o pano de fundo autoimune crônico. A distonia primária produz posturas anormais por co-contração, geralmente focal/segmentar e sensível a \"gestos antagonistas\", sem a hiper-reatividade a estímulos e sem a associação autoimune. Pérola: a rigidez com co-contração agonista-antagonista contínua ao EMG é típica.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual achado laboratorial/imunológico é mais característico dessa doença?",
+          "alternativas": {
+            "a": "Fator antinuclear com anti-DNA de dupla-hélice",
+            "b": "Anticorpo anti-GAD65 em altos títulos",
+            "c": "Anticorpo anti-receptor de acetilcolina",
+            "d": "Anticorpo anti-aquaporina-4"
+          },
+          "correta": "b",
+          "comentario": "A forma clássica associa-se a anticorpos contra a descarboxilase do ácido glutâmico (anti-GAD65) em títulos altos; a GAD é a enzima que sintetiza GABA, e sua inibição reduz o tônus inibitório espinhal, gerando a co-contração e a rigidez. Anti-aquaporina-4 define a neuromielite óptica (neurite óptica e mielite extensa), quadro clínico distinto. FAN com anti-DNA de dupla-hélice aponta para lúpus, que pode ter manifestações neuropsiquiátricas, mas não esse padrão de rigidez axial reflexa. Anti-receptor de acetilcolina é o marcador da miastenia gravis, doença de fraqueza flutuante da junção neuromuscular, oposta a um quadro de rigidez. Detalhe: existe variante paraneoplásica com anticorpo anti-anfifisina, tipicamente ligada a câncer de mama — vale sempre rastrear neoplasia quando o anti-GAD é negativo ou o curso é atípico.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual a abordagem terapêutica inicial mais apropriada?",
+          "alternativas": {
+            "a": "Benzodiazepínico/baclofeno e imunoterapia (imunoglobulina)",
+            "b": "Toxina botulínica como terapia única definitiva",
+            "c": "Levodopa em doses crescentes",
+            "d": "Antibioticoterapia e imunoglobulina antitetânica"
+          },
+          "correta": "a",
+          "comentario": "O tratamento tem dois eixos: sintomático, potencializando o GABA com benzodiazepínicos (diazepam/clonazepam) e/ou baclofeno para reduzir rigidez e espasmos; e imunomodulador, com imunoglobulina intravenosa (ou corticoide/plasmaférese e, em casos refratários, rituximabe) para atacar o mecanismo autoimune. Levodopa não tem papel — não é doença dopaminérgica e a resposta é nula. Toxina botulínica pode aliviar segmentos focais, mas não trata a doença axial difusa nem o componente autoimune, logo não é terapia única definitiva. Antibiótico + imunoglobulina antitetânica trataria tétano, diagnóstico afastado pelo contexto crônico autoimune. Pérola de manejo: retirada abrupta de benzodiazepínico pode precipitar crise de rigidez grave com disautonomia.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 90 — Encefalites Autoimunes e Síndromes Paraneoplásicas; complementar com Merritt (13ª ed.), Seção 10 — Doenças Desmielinizantes e Inflamatórias.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Mielorradiculopatia esquistossomótica (neuroesquistossomose) [REAL: SUS-BA R+ 2023]",
+      "tier": "ALTO",
+      "vinheta": "Homem, 19 anos de idade, deu entrada no pronto-socorro queixando-se de dificuldade para deambular e ficar de pé, iniciada há 12 dias, associada à dor lombar e dificuldade para urinar e evacuar. Ao exame físico, apresenta-se com sinais vitais estáveis, ausculta cardiorrespiratória normal. Abdome com leve dor à palpação em fossa ilíaca esquerda, sem outros achados. Edema simétrico 2+/4 em membros inferiores. Ao exame neurológico, sem alterações nos nervos cranianos, força muscular preservada em membros superiores e grau 3 em membros inferiores. Reflexos abolidos em membros inferiores e anestesia em sela e região posterior das pernas. Realizados exames: Hb = 11,5 g/dL, Ht = 35%, leucócitos = 10500 céls/mm³ (66% de neutrófilos, 19% de linfócitos, 15% de eosinófilos), plaquetas = 400 mil/mm³, FAN não reagente, Fator reumatoide não reagente, sumário de urina sem alterações. Punção liquórica apresentando hiperproteinorraquia, hipercelularidade às custas de linfomononucleares e eosinofilia. Ressonância de coluna com alargamento do cone medular e captação de contraste.",
+      "perguntas": [
+        {
+          "enunciado": "Considerando o quadro clínico descrito, identifique o diagnóstico mais provável para este paciente:",
+          "alternativas": {
+            "a": "Mielorradiculopatia esquistossomótica",
+            "b": "Abscesso em coluna lombar",
+            "c": "Síndrome de Guillain-Barré",
+            "d": "Esclerose múltipla"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ 2023] A combinação de síndrome do cone medular/cauda equina (paraparesia flácida, arreflexia, anestesia em sela, retenção urinária e fecal) com EOSINOFILIA no sangue periférico (15%) E no líquor, hiperproteinorraquia e ressonância mostrando alargamento e realce do cone medular em um jovem de área endêmica é o retrato da forma medular da infecção por Schistosoma mansoni — uma emergência neurológica de grande relevância regional na Bahia rural. A síndrome de Guillain-Barré também causa paraparesia arreflexa, mas dá dissociação albumino-citológica (proteína alta, poucas células) SEM eosinofilia liquórica e sem alargamento captante do cone. Abscesso espinhal cursaria com febre, dor intensa, elevação de neutrófilos e coleção com realce anelar, não eosinofilia. Esclerose múltipla produz lesões desmielinizantes disseminadas no tempo e espaço, com bandas oligoclonais, não eosinofilia liquórica. Pegadinha de prova: eosinofilia no líquor praticamente crava a etiologia parasitária.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Considerando o diagnóstico mais provável, identifique a fisiopatogenia envolvida:",
+          "alternativas": {
+            "a": "Reação granulomatosa em torno dos ovos dos parasitas",
+            "b": "Reação autoimune geralmente precedida por uma infecção",
+            "c": "Infecção de origem hematogênica ou por contiguidade",
+            "d": "Desmielinização decorrente de reação autoimune"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ 2023] O dano medular decorre da deposição ectópica de ovos do S. mansoni no cone medular/raízes, com intensa reação granulomatosa e inflamatória peri-ovo, responsável pelo edema, pela captação de contraste e pela eosinofilia. Não é desmielinização autoimune (isso seria esclerose múltipla). Infecção hematogênica/por contiguidade descreve o abscesso espinhal bacteriano, com pus e neutrofilia. Reação autoimune pós-infecciosa é o mecanismo da síndrome de Guillain-Barré (mimetismo molecular contra a mielina periférica), sem granuloma nem eosinofilia liquórica. Detalhe: a localização mais comum é o segmento toracolombar/cone, o que explica o padrão de cauda equina-cone deste paciente.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o tratamento mais adequado neste momento:",
+          "alternativas": {
+            "a": "Imunoglobulina e plasmaférese",
+            "b": "Pulsoterapia com corticoide e imunobiológico",
+            "c": "Drenagem da coleção e antibioticoterapia",
+            "d": "Pulsoterapia com corticoide e antiparasitários"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ 2023] O tratamento combina corticoterapia em altas doses (pulsoterapia) para controlar a reação granulomatosa/inflamatória que comprime a medula com o antiparasitário (praziquantel) para eliminar o verme. A corticoterapia deve ser iniciada precocemente, pois o prognóstico neurológico depende da rapidez em conter a inflamação. Drenagem + antibiótico trataria abscesso, diagnóstico afastado. Corticoide + imunobiológico é estratégia de doenças desmielinizantes/autoimunes como esclerose múltipla, não desta parasitose. Imunoglobulina e plasmaférese são o tratamento da síndrome de Guillain-Barré. Pérola de saúde pública: a doença é marcador de exposição a águas contaminadas em áreas endêmicas; investigar e tratar contatos e reforçar saneamento.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 146 — Neuroesquistossomose (medular); complementar com o Guia de Vigilância em Saúde do Ministério da Saúde (esquistossomose).",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Doença Cerebrovascular (trombose venosa cerebral)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Mulher de 28 anos, em uso de contraceptivo oral combinado, apresenta cefaleia holocraniana progressiva há 8 dias, refratária a analgésicos, hoje acompanhada de uma crise convulsiva focal no braço direito e visão borrada. Ao exame, papiledema bilateral e discreta paresia da mão direita. A tomografia sem contraste é quase normal, com apagamento tênue de sulcos à esquerda.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a principal hipótese diagnóstica?",
+          "alternativas": {
+            "a": "Enxaqueca com aura",
+            "b": "Hemorragia subaracnóidea",
+            "c": "Acidente vascular isquêmico arterial de território da cerebral média",
+            "d": "Trombose venosa cerebral"
+          },
+          "correta": "d",
+          "comentario": "A tríade de cefaleia subaguda progressiva refratária, crise convulsiva e sinais de hipertensão intracraniana (papiledema) em mulher jovem com fator protrombótico (contraceptivo oral) aponta fortemente para oclusão do sistema venoso encefálico. A cefaleia é o sintoma mais frequente e pode ser isolada; crises e sinais focais que não respeitam território arterial reforçam a suspeita. AVC arterial de cerebral média daria déficit súbito, focal e de território definido, não cefaleia arrastada com papiledema. Enxaqueca com aura tem aura visual/sensitiva transitória (<60 min) e cefaleia que responde ao tratamento, sem papiledema nem crises. Hemorragia subaracnóidea causa cefaleia \"em trovoada\" (súbita, máxima em segundos) com rigidez de nuca, não uma dor progressiva de dias. Pegadinha: TC sem contraste normal NÃO afasta o diagnóstico.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual exame confirma melhor o diagnóstico?",
+          "alternativas": {
+            "a": "Doppler transcraniano arterial",
+            "b": "Punção lombar com pressão de abertura isolada",
+            "c": "Eletroencefalograma",
+            "d": "Ressonância com venografia (veno-RM/veno-TC)"
+          },
+          "correta": "d",
+          "comentario": "A confirmação vem da demonstração do trombo/ausência de fluxo no seio venoso ou veia cerebral, obtida pela venografia por ressonância ou por tomografia (veno-RM/veno-TC); a RM ainda mostra o infarto venoso e eventual componente hemorrágico. O eletroencefalograma pode registrar atividade epileptiforme, mas não confirma a trombose. A punção lombar pode mostrar pressão elevada e ajuda a aliviar a hipertensão, porém isolada não diferencia as causas e é feita após afastar efeito de massa. Doppler transcraniano avalia artérias, não o sistema venoso. Detalhe de imagem: o \"sinal do delta vazio\" (falha de enchimento no seio sagital superior após contraste) e o sinal da corda são achados clássicos.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual a conduta terapêutica inicial, mesmo havendo pequeno componente hemorrágico venoso?",
+          "alternativas": {
+            "a": "Suspender qualquer anticoagulante",
+            "b": "Anticoagulação plena",
+            "c": "Trombólise intravenosa de rotina",
+            "d": "Antiagregação com ácido acetilsalicílico apenas"
+          },
+          "correta": "b",
+          "comentario": "O tratamento de escolha é a anticoagulação plena (heparina, seguida de anticoagulante oral), indicada MESMO na presença de infarto venoso com transformação hemorrágica, pois recanalizar o seio e impedir a progressão do trombo supera o risco do sangramento venoso. Antiagregação isolada não é o tratamento padrão dessa condição. Suspender anticoagulação por medo do sangramento é justamente o erro conceitual que a questão testa — a hemorragia venosa é consequência da estase, e anticoagular tende a melhorá-la. Trombólise/trombectomia fica reservada a casos graves refratários à heparina, não como rotina. Medidas associadas: controlar crises, tratar hipertensão intracraniana e remover o fator precipitante (suspender o contraceptivo e investigar trombofilia).\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 55 — Trombose Venosa Cerebral.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Neuropatias cranianas (paralisia facial periférica / de Bell)",
+      "tier": "ALTO",
+      "vinheta": "Homem de 40 anos acorda com desvio da boca para a esquerda e dificuldade de fechar o olho direito. Nota também hiperacusia à direita e alteração do paladar nos dois terços anteriores da língua. Ao exame, não consegue enrugar a testa nem fechar completamente a pálpebra do lado direito; a força nos membros e o restante do exame neurológico são normais. Sem febre, sem vesículas em pavilhão auricular.",
+      "perguntas": [
+        {
+          "enunciado": "O padrão de acometimento facial descrito indica lesão de qual localização?",
+          "alternativas": {
+            "a": "Córtex motor esquerdo",
+            "b": "Nervo facial periférico (à direita)",
+            "c": "Junção neuromuscular",
+            "d": "Cápsula interna esquerda"
+          },
+          "correta": "b",
+          "comentario": "O ponto-chave é que a fraqueza acomete TODA a hemiface direita, incluindo a testa (o paciente não enruga a fronte nem fecha o olho) — sinal de lesão do neurônio motor inferior, isto é, do nervo periférico. Na lesão central (córtex ou cápsula interna contralateral) a metade superior da face é poupada, porque a musculatura frontal recebe inervação cortical bilateral; haveria também outros sinais de via longa. Junção neuromuscular (miastenia) daria fraqueza flutuante, frequentemente com ptose e diplopia, bilateral e sem alteração de paladar/hiperacusia. A presença de hiperacusia (ramo para o músculo estapédio) e disgeusia nos 2/3 anteriores da língua (corda do tímpano) localiza a lesão no trajeto do nervo facial, confirmando o acometimento periférico. Pérola: \"pega a testa = periférica; poupa a testa = central\".",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Qual é a etiologia mais provável e o tratamento de maior impacto quando iniciado precocemente?",
+          "alternativas": {
+            "a": "Isquêmica arterial, com trombólise",
+            "b": "Autoimune desmielinizante, com imunoglobulina",
+            "c": "Etiologia bacteriana, com antibiótico venoso",
+            "d": "Paralisia idiopática, com corticoide oral precoce"
+          },
+          "correta": "d",
+          "comentario": "A causa mais comum de paralisia facial periférica aguda isolada é idiopática (paralisia de Bell), e o tratamento com maior evidência de benefício é o corticoide oral iniciado precocemente (idealmente nas primeiras 72 horas), que aumenta a chance de recuperação completa. Não é infecção bacteriana com necessidade de antibiótico venoso; a antibioticoterapia só entraria se houvesse otite/mastoidite ou doença de Lyme. Não é evento isquêmico arterial — não há território vascular nem indicação de trombólise para uma mononeuropatia craniana. Não é desmielinizante autoimune tipo Guillain-Barré (que seria bilateral, com arreflexia e fraqueza ascendente). O acréscimo de antiviral pode ser considerado nos casos graves ou com suspeita de reativação herpética, mas o pilar é o corticoide.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual medida de suporte é essencial para prevenir complicação neste paciente?",
+          "alternativas": {
+            "a": "Proteção ocular com lubrificante e oclusão noturna",
+            "b": "Restrição hídrica rigorosa",
+            "c": "Antiagregação plaquetária",
+            "d": "Repouso absoluto no leito por duas semanas"
+          },
+          "correta": "a",
+          "comentario": "Como o paciente não fecha completamente a pálpebra (lagoftalmo), o olho fica exposto e sob risco de ceratite/úlcera de córnea por ressecamento; a medida essencial é proteger a córnea com lágrimas artificiais/lubrificante durante o dia e oclusão com curativo à noite. Repouso absoluto no leito não altera o curso da mononeuropatia. Restrição hídrica não tem qualquer papel e pode ser deletéria. Antiagregação plaquetária serve à prevenção vascular, sem relação com a paralisia facial idiopática. Pérola de prognóstico: a maioria recupera em semanas; recuperação incompleta pode deixar sincinesias e \"lágrimas de crocodilo\".\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 112 — Abordagem Clínica das Neuropatias Periféricas (mononeuropatias cranianas); complementar com Merritt (13ª ed.), Seção 12 — Doenças Neuromusculares.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Transtornos do Movimento (degeneração hepatolenticular / doença de Wilson)",
+      "tier": "ALTO",
+      "vinheta": "Adolescente de 17 anos é levado por tremor grosseiro nas mãos que piora ao manter os braços estendidos (\"batimento de asas\"), disartria, salivação excessiva e queda no rendimento escolar no último ano. A mãe relata episódio prévio de \"hepatite\" sem causa esclarecida. Ao exame, há distonia leve de face, rigidez e um anel dourado-esverdeado na periferia da córnea visível à lâmpada de fenda.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é o diagnóstico mais provável?",
+          "alternativas": {
+            "a": "Tremor essencial",
+            "b": "Parkinsonismo farmacológico",
+            "c": "Doença de Huntington juvenil",
+            "d": "Doença de Wilson (degeneração hepatolenticular)"
+          },
+          "correta": "d",
+          "comentario": "Um jovem com síndrome extrapiramidal (tremor de bater de asas, distonia, rigidez, disartria, sialorreia), deterioração comportamental/escolar, história de hepatopatia inexplicada e anel corneano de Kayser-Fleischer tem, até prova em contrário, o distúrbio hereditário do metabolismo do cobre. A combinação de doença hepática + sintomas neuropsiquiátricos em pessoa jovem é a pista clássica. Huntington juvenil cursa com rigidez/distonia (variante de Westphal) e declínio cognitivo, mas tem herança autossômica dominante com história familiar de coreia e não dá anel corneano nem hepatopatia. Parkinsonismo por fármaco exige exposição a bloqueadores dopaminérgicos (neurolépticos/antieméticos), ausente aqui. Tremor essencial é tremor de ação isolado, sem distonia, sem hepatopatia e sem anel corneano. Pérola: pesquisar sempre esse diagnóstico em todo jovem com movimento anormal + alteração hepática ou psiquiátrica.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual conjunto de exames melhor apoia o diagnóstico?",
+          "alternativas": {
+            "a": "Ferritina elevada e saturação de transferrina alta",
+            "b": "Cobre sérico e ceruloplasmina elevados",
+            "c": "Ceruloplasmina baixa, cobre urinário de 24h elevado e anel de Kayser-Fleischer",
+            "d": "Anticorpo antimúsculo liso e hipergamaglobulinemia isolados"
+          },
+          "correta": "c",
+          "comentario": "O padrão bioquímico é ceruloplasmina sérica BAIXA (a proteína transportadora está reduzida), com aumento da excreção urinária de cobre em 24 horas (o cobre não incorporado deposita-se e é eliminado) e presença do anel de Kayser-Fleischer à lâmpada de fenda, praticamente constante quando há acometimento neurológico. Cobre e ceruloplasmina ambos elevados não descrevem a doença. Ferritina alta com saturação de transferrina elevada é o perfil da hemocromatose (sobrecarga de ferro), não de cobre. Anticorpo antimúsculo liso com hipergamaglobulinemia sugere hepatite autoimune, que pode confundir no fígado, mas não explica a síndrome extrapiramidal com anel corneano. Detalhe: o cobre sérico total pode estar baixo (por ceruloplasmina baixa), mas o cobre livre está aumentado; a biópsia hepática com dosagem de cobre e o teste genético confirmam casos duvidosos.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Qual a base do tratamento?",
+          "alternativas": {
+            "a": "Reposição de cobre por via oral",
+            "b": "Levodopa em altas doses",
+            "c": "Quelação do cobre e/ou zinco, com dieta pobre em cobre",
+            "d": "Flebotomias seriadas"
+          },
+          "correta": "c",
+          "comentario": "O tratamento visa reduzir o cobre corporal: quelantes (D-penicilamina, trientina) que aumentam a excreção urinária do metal e/ou sais de zinco, que bloqueiam a absorção intestinal e são úteis na manutenção e em assintomáticos, sempre com dieta pobre em cobre (evitar fígado, frutos do mar, castanhas, chocolate). Repor cobre agravaria a doença, que é de sobrecarga. Levodopa não corrige a causa e responde mal, pois o parkinsonismo aqui é estrutural/tóxico, não por deficiência dopaminérgica primária. Flebotomias tratam a sobrecarga de FERRO (hemocromatose), não a de cobre. Pontos de prova: é doença tratável e potencialmente reversível se diagnosticada cedo; rastrear irmãos; o transplante hepático corrige o defeito metabólico em casos de falência.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 67 — Doenças com Acúmulo de Cobre (Wilson) e Outros.",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Epilepsia (epilepsia mioclônica juvenil)",
+      "tier": "ESSENCIAL",
+      "vinheta": "Moça de 16 anos é levada após uma crise tônico-clônica generalizada que ocorreu de manhã, pouco depois de acordar, em noite de privação de sono após uma festa. Ao ser interrogada, relata que há meses tem \"abalos\" súbitos nos braços logo ao despertar, derrubando a escova de dente e a xícara de café, sem perder a consciência. O exame neurológico é normal; o eletroencefalograma mostra descargas de poliponta-onda generalizadas ativadas pela fotoestimulação.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a síndrome epiléptica mais provável?",
+          "alternativas": {
+            "a": "Crise focal secundariamente generalizada por lesão estrutural",
+            "b": "Epilepsia de ausência da infância",
+            "c": "Epilepsia mioclônica juvenil",
+            "d": "Epilepsia do lobo temporal mesial"
+          },
+          "correta": "c",
+          "comentario": "O conjunto — mioclonias matinais logo ao acordar (derruba objetos), crise tônico-clônica generalizada desencadeada por privação de sono/álcool, início na adolescência, exame normal e EEG com poliponta-onda generalizada fotossensível — define essa epilepsia generalizada idiopática. A epilepsia do lobo temporal mesial cursa com crises focais com automatismos, aura epigástrica/déjà-vu e esclerose hipocampal, não com mioclonias matinais generalizadas. A epilepsia de ausência da infância aparece mais cedo (idade escolar), com ausências típicas e ponta-onda a 3 Hz, sem as mioclonias de despertar. Crise focal por lesão estrutural teria EEG focal e alteração de imagem, ausentes aqui. Pegadinha frequente: as mioclonias costumam ser desvalorizadas pelo paciente como \"desajeitamento\", e só surgem na anamnese dirigida.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Quais fatores desencadeantes são classicamente associados a essa síndrome?",
+          "alternativas": {
+            "a": "Exposição ao frio",
+            "b": "Privação de sono, álcool e estímulos luminosos",
+            "c": "Ingestão de glúten",
+            "d": "Exercício físico e hiperglicemia"
+          },
+          "correta": "b",
+          "comentario": "Os deflagradores clássicos são privação de sono, ingestão de álcool e fotoestimulação (luzes piscantes, telas, boates) — todos presentes ou pesquisáveis no caso. Reconhecê-los é parte do tratamento, pois a higiene do sono e evitar álcool reduzem muito as crises. Exercício e hiperglicemia não são gatilhos típicos dessa epilepsia. Sensibilidade ao glúten remete à doença celíaca/ataxia por glúten, sem relação com essa síndrome. Frio não é desencadeante reconhecido. Detalhe: por isso a orientação comportamental (dormir bem, evitar álcool, cautela com fotoestímulos) é tão enfatizada nesse grupo de pacientes jovens.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual a conduta terapêutica e a orientação prognóstica corretas?",
+          "alternativas": {
+            "a": "Ácido valproico (ou levetiracetam/lamotrigina na mulher em idade fértil)",
+            "b": "Cirurgia de ressecção precoce",
+            "c": "Suspender a medicação após seis meses sem crises",
+            "d": "Carbamazepina como primeira escolha"
+          },
+          "correta": "a",
+          "comentario": "O fármaco historicamente mais eficaz é o ácido valproico, mas em MULHERES em idade fértil prefere-se levetiracetam ou lamotrigina pelo risco teratogênico e de baixo QI do valproato — ponto muito cobrado. O controle costuma ser bom, porém a tendência à recorrência é alta, de modo que o tratamento geralmente é prolongado/por longo prazo, e não suspenso após poucos meses. Carbamazepina (e outros bloqueadores de canal de sódio, como fenitoína e oxcarbazepina) pode PIORAR ou precipitar mioclonias e ausências nas epilepsias generalizadas idiopáticas — armadilha clássica de prova. Cirurgia de ressecção é opção nas epilepsias focais refratárias com foco definido, não nesta síndrome generalizada. Não é autolimitada como algumas epilepsias focais benignas da infância; retirar a droga cedo costuma recidivar.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 79 — Definição e Classificação das Crises e das Epilepsias e cap. 81 — Tratamento Medicamentoso das Epilepsias.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Neurologia — Hipertensão Intracraniana e Emergências (hipertensão intracraniana idiopática)",
+      "tier": "ALTO",
+      "vinheta": "Mulher de 26 anos, obesa, com uso recente de isotretinoína, queixa-se de cefaleia holocraniana diária há semanas, pior ao deitar e ao esforço, com zumbido pulsátil e episódios de escurecimento visual transitório ao levantar. Ao exame, papiledema bilateral e discreta limitação da abdução do olho direito; o restante do exame neurológico é normal. Tomografia e ressonância de crânio sem lesões expansivas; venografia sem trombose.",
+      "perguntas": [
+        {
+          "enunciado": "Qual é a principal hipótese diagnóstica?",
+          "alternativas": {
+            "a": "Hipertensão intracraniana idiopática",
+            "b": "Meningite crônica",
+            "c": "Enxaqueca crônica",
+            "d": "Tumor de fossa posterior"
+          },
+          "correta": "a",
+          "comentario": "O quadro é típico: mulher jovem obesa, cefaleia com padrão de hipertensão intracraniana (pior deitada, ao esforço), obscurecimentos visuais transitórios, zumbido pulsátil, paresia do VI nervo (falso sinal localizatório) e papiledema, com neuroimagem SEM massa e venografia sem trombose. Uso de isotretinoína (e tetraciclinas, excesso de vitamina A) é fator precipitante reconhecido. Tumor de fossa posterior traria lesão à imagem e sinais cerebelares/de tronco. Meningite crônica cursaria com alteração liquórica inflamatória, febre e/ou rigidez de nuca. Enxaqueca crônica não causa papiledema nem paresia de nervo craniano. Detalhe: por definição, o diagnóstico exige pressão liquórica elevada com composição do líquor normal e ausência de outra causa (critérios de Dandy modificados).",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual achado à punção lombar é esperado e sustenta o diagnóstico?",
+          "alternativas": {
+            "a": "Pressão de abertura baixa",
+            "b": "Pleocitose neutrofílica com glicose baixa",
+            "c": "Pressão de abertura elevada com líquor de composição normal",
+            "d": "Hiperproteinorraquia com eosinofilia"
+          },
+          "correta": "c",
+          "comentario": "A punção lombar, feita após a neuroimagem afastar massa, mostra pressão de abertura elevada com celularidade, proteína e glicose NORMAIS — o que confirma a síndrome e ainda alivia temporariamente os sintomas. Pleocitose neutrofílica com hipoglicorraquia indica meningite bacteriana. Hiperproteinorraquia com eosinofilia sugere causa parasitária (p.ex., neuroesquistossomose). Pressão de abertura baixa apontaria hipotensão liquórica (cefaleia ortostática que melhora deitado — o oposto deste caso). Pérola: medir a pressão de abertura com o paciente em decúbito lateral e relaxado; valores acima de 25 cmH2O em adultos sustentam o diagnóstico.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Qual conduta é prioritária para preservar a visão, além de perda de peso e acetazolamida?",
+          "alternativas": {
+            "a": "Anticoagulação plena",
+            "b": "Trombólise intravenosa",
+            "c": "Monitorar campo visual e indicar cirurgia se houver perda visual progressiva",
+            "d": "Corticoide em dose alta por tempo indefinido como terapia única"
+          },
+          "correta": "c",
+          "comentario": "A principal ameaça é a perda visual permanente por papiledema crônico, de modo que o acompanhamento com campimetria seriada é essencial e, diante de deterioração visual progressiva apesar do tratamento clínico, indica-se cirurgia — fenestração da bainha do nervo óptico (para proteger a visão) ou derivação liquórica/stent de seio venoso (para reduzir a pressão). O tratamento de base é perda de peso e acetazolamida (reduz a produção de líquor); suspender o agente causador (isotretinoína) é obrigatório. Anticoagulação plena trataria trombose venosa, que foi afastada. Corticoide em dose alta por tempo indefinido não é terapia de base e traz ganho de peso, que piora a doença. Trombólise não tem qualquer papel aqui. Ponto de prova: cefaleia é sintoma, mas a VISÃO é o desfecho que guia a agressividade do tratamento.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 171 — Hipertensão Intracraniana Idiopática.",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Emergências / Asma (exacerbação grave e quase fatal) [RE cota individual: Leonardo, 67% de erro; ângulo inédito]",
+      "tier": "ALTO",
+      "vinheta": "Menino de 9 anos, asmático, chega à emergência com dispneia intensa há 3 horas que não melhorou com salbutamol em casa. Está agitado, senta-se inclinado para a frente, fala apenas palavras isoladas, com tiragem e uso de musculatura acessória; a saturação é 89% em ar ambiente. Após a primeira hora de tratamento com beta-2 inalatório contínuo, brometo de ipratrópio e corticoide sistêmico, ele fica sonolento, o murmúrio vesicular reduz (\"tórax silencioso\") e a gasometria mostra PaCO2 de 44 mmHg.",
+      "perguntas": [
+        {
+          "enunciado": "Como classificar a gravidade da crise neste momento?",
+          "alternativas": {
+            "a": "Exacerbação muito grave, com risco de insuficiência respiratória iminente",
+            "b": "Quadro compatível com alta hospitalar imediata",
+            "c": "Exacerbação leve",
+            "d": "Crise moderada em boa resposta ao tratamento"
+          },
+          "correta": "a",
+          "comentario": "O paciente reúne sinais de gravidade máxima: incapacidade de completar frases (fala palavra a palavra), agitação evoluindo para sonolência (sinal de exaustão/hipoxia), uso de musculatura acessória, saturação baixa e, agora, tórax silencioso — a redução do murmúrio significa que quase não há fluxo de ar, e não melhora. Isso caracteriza exacerbação muito grave com insuficiência respiratória iminente. Não é leve nem moderada: nessas o paciente fala frases, está alerta e satura bem. Alta imediata é impensável — o quadro exige intensificação e UTI. Pérola: sonolência em criança com crise asmática é sinal de alarme, não de melhora/tranquilização.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "Como interpretar a PaCO2 de 44 mmHg neste contexto?",
+          "alternativas": {
+            "a": "Achado tranquilizador de normalização gasométrica",
+            "b": "Sinal de fadiga respiratória (normalização enganosa na crise grave)",
+            "c": "Erro laboratorial sem valor clínico",
+            "d": "Indicação de que a crise é leve"
+          },
+          "correta": "b",
+          "comentario": "Na crise asmática o paciente hiperventila e, por isso, o esperado é PaCO2 BAIXA (hipocapnia). Uma PaCO2 \"normal\" (44 mmHg) em plena crise grave significa que o paciente já não consegue manter a hiperventilação — é sinal de fadiga da musculatura respiratória e anuncia insuficiência ventilatória iminente; uma PaCO2 francamente elevada seria ainda mais grave. Portanto NÃO é tranquilizador nem indica crise leve; é justamente o oposto — a chamada \"normalização enganosa\". Não é erro laboratorial: casa perfeitamente com a clínica de exaustão (sonolência, tórax silencioso). Ponto clássico de prova: PaCO2 normal/ascendente na asma grave = prepare-se para suporte ventilatório.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Além de manter broncodilatador e corticoide, qual a conduta mais apropriada agora?",
+          "alternativas": {
+            "a": "Aguardar mais uma hora antes de qualquer nova medida",
+            "b": "Sulfato de magnésio intravenoso e transferência para UTI, preparando via aérea",
+            "c": "Administrar sedativo para reduzir a agitação",
+            "d": "Iniciar antibiótico venoso como prioridade"
+          },
+          "correta": "b",
+          "comentario": "Na exacerbação muito grave que não responde à terapia inicial, associa-se sulfato de magnésio intravenoso (broncodilatador adjuvante nas crises graves) e transfere-se para UTI, com a equipe preparada para suporte ventilatório (VNI ou intubação) diante da falência iminente sinalizada pela clínica e pela PaCO2. Esperar mais uma hora sem agir é perigoso num paciente que já mostra exaustão. Antibiótico não é prioridade — a maioria das exacerbações é desencadeada por vírus e não há sinais de pneumonia bacteriana. Sedar para \"acalmar\" é contraindicado fora do ambiente de via aérea controlada, pois deprime o drive respiratório e pode precipitar parada; a agitação aqui é sinal de hipoxia, que se trata com oxigênio e broncodilatação, não com sedativo. Pérola: oxigênio para manter saturação-alvo, corticoide sistêmico precoce e magnésio na crise grave.\n📚 Leitura sugerida (bloco): Diretriz GINA (Global Initiative for Asthma) — manejo das exacerbações; e vídeoaula \"Emergências respiratórias\" — R+ Pediatria 2024 MEDGRUPO (Drive do Vinicius): https://drive.google.com/file/d/1KBDnpdSl6HD4AEn95UWahWjutRsEUNM4/view",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Neurologia/Emergências (crise febril e otite média aguda) [REAL: SUS-BA R+ Pediatria 2024]",
+      "tier": "ESSENCIAL",
+      "vinheta": "Menina, 20 meses, chega à UPA imediatamente após apresentar convulsão com características de tônico-clônica generalizada. Há relato de resfriado há três dias e de choro e irritação, hoje. Sem antecedentes patológicos.",
+      "perguntas": [
+        {
+          "enunciado": "Ao exame, sonolenta, hidratada, com temperatura 37,7ºC; FC: 130 bpm; FR: 30 incursões por minuto. Auscultas cardíaca e respiratória sem alterações. Otoscopia mostra hiperemia e abaulamento timpânico para fora, à direita. Com base no caso apresentado, indique o diagnóstico mais provável:",
+          "alternativas": {
+            "a": "Miringite e espasmos infantis",
+            "b": "Otite média aguda e encefalite",
+            "c": "Otite média aguda e convulsão febril",
+            "d": "Miringite e crise epiléptica"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A otoscopia com abaulamento timpânico e hiperemia define otite média aguda (o foco febril). A crise tônico-clônica generalizada, breve, em criança de 20 meses com febre e sem sinais neurológicos focais ou meníngeos, é uma convulsão febril — a causa mais comum de crise na primeira infância. Espasmos infantis (síndrome de West) ocorrem no lactente jovem, em salvas, com hipsarritmia ao EEG e regressão do desenvolvimento, não como crise única febril. Encefalite cursaria com alteração persistente do sensório, febre alta mantida, sinais focais e liquor inflamatório — a sonolência pós-ictal transitória não basta para esse diagnóstico. \"Crise epiléptica\" (epilepsia) implica crises recorrentes não provocadas, o que não se aplica a uma primeira crise desencadeada por febre. Pegadinha: miringite é inflamação isolada da membrana, sem o abaulamento com coleção que caracteriza a otite média aguda.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique a conduta mais adequada nesse momento:",
+          "alternativas": {
+            "a": "Prescrição de anti-inflamatório e Difenilhidantoína",
+            "b": "Prescrição de antibiótico e Fenobarbital",
+            "c": "Prescrição de anti-inflamatório e controle da temperatura",
+            "d": "Prescrição de antibiótico e controle da temperatura"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A conduta trata a causa (antibiótico para a otite média aguda, sendo a amoxicilina a primeira escolha) e maneja o sintoma febril com antitérmico/controle da temperatura e orientação aos pais. NÃO se inicia anticonvulsivante de manutenção após uma convulsão febril simples: fenobarbital e fenitoína (difenilhidantoína) não estão indicados profilaticamente, têm efeitos adversos cognitivos e não previnem epilepsia futura — este é o ponto central da questão. Anti-inflamatório isolado não trata a infecção bacteriana da orelha média. A convulsão febril simples é benigna e autolimitada; a prioridade é identificar e tratar o foco, orientar sinais de alarme e reservar anticonvulsivante de resgate (benzodiazepínico) apenas para crises prolongadas. Pérola: crises febris simples não aumentam risco relevante de epilepsia; as complexas (focais, prolongadas ou repetidas em 24h) merecem mais investigação.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Identifique a faixa etária na qual é mais frequente a crise convulsiva apresentada pela paciente:",
+          "alternativas": {
+            "a": "6 meses a 7 anos",
+            "b": "1 mês a 6 meses",
+            "c": "3 meses a 5 anos",
+            "d": "6 meses a 6 anos"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A banca considerou a faixa de 3 meses a 5 anos como resposta para a idade típica da convulsão febril (algumas referências usam 6 meses a 5/6 anos, mas o gabarito oficial marcou 3 meses a 5 anos). O pico de incidência situa-se por volta dos 12–18 meses, coincidindo com a paciente de 20 meses. As demais faixas não correspondem ao intervalo consagrado: 1–6 meses é muito precoce (crise nessa idade obriga a excluir infecção do SNC e distúrbios metabólicos), e as opções que estendem até 6–7 anos não são a resposta esperada pela banca. Ponto de prova: em criança abaixo de 6 meses ou acima de 6 anos com crise e febre, redobrar a suspeita de neuroinfecção e investigar (considerar punção lombar), pois foge do padrão da convulsão febril típica.\n📚 Leitura sugerida (bloco): vídeoaula \"Crise febril\" — R+ Pediatria 2024 MEDGRUPO (Drive do Vinicius): https://drive.google.com/file/d/1cn3bDY8VmmeF-LeGTN_C0MHadL_3jMRj/view ; complementar com o Tratado de Pediatria da SBP (convulsão febril).",
+          "dificuldade": "facil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Cardiologia (taquiarritmia/pré-excitação no adolescente) [REAL: SUS-BA R+ Pediatria 2022]",
+      "tier": "ALTO",
+      "vinheta": "Menino, 14 anos de idade, é levado ao ambulatório de referência por ter apresentado dois episódios de palpitações, nos últimos 10 dias, que se iniciaram, repentinamente, enquanto praticava esporte. Descreve o primeiro episódio como \"coração batendo rápido e forte\"; e o segundo demorou por volta de meia hora e sentiu \"mal-estar\", mas não chegou a desmaiar. Refere que tem se sentido mais cansado, reduzindo a frequência aos treinos de futebol.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a alteração eletrocardiográfica mais frequentemente encontrada na condição que corresponde à principal suspeita diagnóstica:",
+          "alternativas": {
+            "a": "Fibrilação ventricular",
+            "b": "Flutter atrial",
+            "c": "Taquicardia sinusal",
+            "d": "Fibrilação atrial"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A principal suspeita em adolescente com taquicardias paroxísticas de início e término súbitos é a taquicardia supraventricular por reentrada, frequentemente ligada a uma via acessória (pré-excitação). Entre as arritmias que podem ocorrer nesses pacientes, a banca considerou a fibrilação atrial como a alteração eletrocardiográfica associada de maior relevância — nos portadores de via acessória, a fibrilação atrial é temida porque pode conduzir muito rápido pelo feixe anômalo e degenerar em arritmia ventricular. Flutter atrial é menos característico nesse contexto. Taquicardia sinusal é regular, com início/término graduais e onda P normal, não explica crises paroxísticas súbitas. Fibrilação ventricular é o evento terminal/parada, não a arritmia \"encontrada\" no acompanhamento. Pérola: a pré-excitação clássica mostra PR curto e onda delta no ECG de repouso.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Entre as manobras pré-hospitalares a serem recomendadas para os familiares e para o próprio adolescente, indique as que devem ser empregadas: I. Fazer força como se fosse para evacuar. II. Mergulhar o rosto em recipiente com água gelada. III. Comprimir o globo ocular por 30 segundos, durante 3 a 4 minutos. IV. Esfregar a região do pescoço, logo abaixo do ângulo da mandíbula. Identifique a alternativa que contém as afirmativas verdadeiras:",
+          "alternativas": {
+            "a": "II, III e IV",
+            "b": "I, III e IV",
+            "c": "I, II e III",
+            "d": "I, II e IV"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] As manobras vagais seguras para reverter taquicardia supraventricular são: manobra de Valsalva (fazer força como para evacuar — I), imersão da face em água gelada/reflexo do mergulho (II) e massagem do seio carotídeo, feita logo abaixo do ângulo da mandíbula, de um lado por vez (IV). A compressão do globo ocular (III) NÃO deve ser recomendada por risco de lesão ocular (descolamento de retina) e por ser perigosa/imprópria, sobretudo para leigos — por isso a combinação correta é I, II e IV. Todas as opções que incluem a manobra ocular estão erradas. Detalhe prático: as manobras vagais são a primeira medida; se falharem e o paciente estiver estável, segue-se adenosina; se instável, cardioversão elétrica sincronizada.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Indique o momento em que as manifestações iniciais dessa doença ocorrem com mais frequência:",
+          "alternativas": {
+            "a": "Na segunda década de vida",
+            "b": "Na fase pré-escolar",
+            "c": "No período neonatal",
+            "d": "Durante o primeiro ano de vida"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A banca aponta a segunda década de vida (adolescência) como o período de apresentação mais frequente das manifestações — coerente com o paciente de 14 anos que começou a ter palpitações ao esforço. Embora vias acessórias sejam congênitas e possam se manifestar em qualquer idade, os sintomas paroxísticos costumam aparecer/serem percebidos na adolescência e no adulto jovem. Período neonatal e primeiro ano de vida são apresentações possíveis, porém menos frequentes para o início sintomático nesse cenário. Fase pré-escolar também não é o pico. Ponto de prova/saúde do adolescente: palpitações com pré-síncope ao esforço merecem investigação cardiológica (ECG, Holter) e orientação sobre prática esportiva até esclarecer o risco, dada a possibilidade de morte súbita em arritmias com via acessória de condução rápida.\n📚 Leitura sugerida (bloco): vídeoaula \"Emergências cardiovasculares\" — R+ Pediatria 2024 MEDGRUPO (Drive do Vinicius): https://drive.google.com/file/d/1s9h8yPDKpLT3xkUBHjHEUXMzfjHdeICR/view",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Endocrinologia/Adolescência (desenvolvimento puberal feminino) [REAL: SUS-BA R+ Pediatria 2021]",
+      "tier": "MÉDIO",
+      "vinheta": "Menina, 13 anos de idade, é levada à Unidade Básica de Saúde porque ainda não apresentou menarca. Nega problemas de saúde, e sua mãe apresentou menarca aos 11 anos de idade. A telarca foi observada há, aproximadamente, 6 meses. Ao exame, observa-se broto mamário bilateral (estágio M2 de Tanner) com assimetria discreta e pilosidade pubiana no estágio P2 de Tanner.",
+      "perguntas": [
+        {
+          "enunciado": "A menor está preocupada pois ouviu falar que quando ocorrer a menarca não mais crescerá. Indique o período máximo (aproximado) de tempo após a telarca, dentro do qual deve ocorrer a menarca, em adolescentes saudáveis:",
+          "alternativas": {
+            "a": "2 anos",
+            "b": "3 anos",
+            "c": "1 ano",
+            "d": "18 meses"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Na sequência puberal feminina normal, a telarca (surgimento do broto mamário) é o primeiro evento, e a menarca ocorre em média cerca de 2 a 2,5 anos depois, geralmente no estágio de Tanner mama 4. Como esta menina teve telarca há apenas 6 meses (M2/P2), é perfeitamente esperado que ainda não tenha menstruado — não há atraso puberal. A resposta considerada pela banca é 2 anos como intervalo de referência. Um intervalo de 1 ano ou 18 meses subestima o tempo fisiológico; 3 anos já sugeriria investigar. Pérola: puberdade feminina normal inicia entre 8 e 13 anos; menarca após ausência total de telarca aos 13 anos com progressão adequada não é atraso. Reforçar o acolhimento e a orientação, evitando exames desnecessários.",
+          "dificuldade": "facil"
+        },
+        {
+          "enunciado": "A respeito do crescimento estatural esperado para a menina após a menarca, é correto afirmar que:",
+          "alternativas": {
+            "a": "Cresce em torno de 3 cm por ano",
+            "b": "Cresce em torno de 4 cm por ano",
+            "c": "Cresce aceleradamente até os 18 anos de idade",
+            "d": "Cresce, mas reduz a velocidade do crescimento"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O estirão de crescimento feminino ocorre relativamente cedo na puberdade (em torno de Tanner M2–M3, antes da menarca). Após a menarca a menina AINDA cresce, porém com velocidade bem menor, ganhando em média cerca de 4 a 8 cm no total até atingir a estatura final — ou seja, o crescimento continua, mas desacelera. Por isso a afirmação correta é que \"cresce, mas reduz a velocidade\". Dizer que cresce aceleradamente até os 18 anos está errado, pois a fase de aceleração máxima é pré-menarca. As opções de \"3 cm/ano\" ou \"4 cm/ano\" fixas não descrevem o padrão geral esperado e a banca preferiu a formulação qualitativa. Ponto de orientação: tranquilizar a adolescente — a menarca não interrompe o crescimento, apenas indica que a maior parte do estirão já passou.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Frente ao achado da assimetria mamária encontrada, a conduta correta do médico é:",
+          "alternativas": {
+            "a": "Solicitar avaliação hormonal",
+            "b": "Encaminhar ao ginecologista",
+            "c": "Explicar que se trata de achado normal",
+            "d": "Solicitar ultrassonografia das mamas"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Assimetria mamária discreta no início da puberdade é achado FISIOLÓGICO e muito comum, pois as mamas podem se desenvolver em ritmos ligeiramente diferentes; a conduta correta é orientar e tranquilizar, explicando que tende a se igualar com a progressão puberal. Solicitar dosagem hormonal, ultrassonografia mamária ou encaminhar ao especialista são condutas desnecessárias diante de uma variação normal do desenvolvimento e podem gerar ansiedade e intervenções iatrogênicas. A puericultura do adolescente valoriza o acolhimento, a educação em saúde e a demonstração de que o desenvolvimento está dentro do esperado (Tanner M2/P2 aos 13 anos com telarca há 6 meses). Reavaliar em consultas de rotina; investigar apenas se surgir assimetria acentuada, massa dominante ou sinais de doença.\n📚 Leitura sugerida (bloco): vídeoaula \"Endocrinologia (puberdade/baixa estatura)\" — R+ Pediatria 2024 MEDGRUPO (Drive do Vinicius): https://drive.google.com/file/d/1DfkaSxC7e73geDJxpMCfbVbx-VX53efB/view",
+          "dificuldade": "facil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Oncologia/Ortopedia (tumor ósseo maligno da infância) [REAL: SUS-BA R+ Pediatria 2026]",
+      "tier": "MÉDIO",
+      "vinheta": "Em consulta no ambulatório, menino de 8 anos de idade apresenta dor em perna direita há 3 meses, que piora à noite e o acorda durante o sono. A dor é localizada na região distal do fêmur, associada a leve edema e calor local. Nega trauma. Ao exame, há discreta palidez cutânea e queixa de fadiga. A radiografia mostra imagem mista lítica e esclerótica, com reação periosteal em \"casca de cebola\".",
+      "perguntas": [
+        {
+          "enunciado": "Com base no quadro clínico e radiológico, identifique a principal hipótese diagnóstica:",
+          "alternativas": {
+            "a": "Sarcoma de Ewing",
+            "b": "Sarcoma de partes moles",
+            "c": "Osteossarcoma",
+            "d": "Osteomielite crônica"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Dor óssea que piora à noite e desperta a criança, associada a sinais sistêmicos (palidez, fadiga) e à imagem radiológica com reação periosteal lamelar em \"casca de cebola\", é altamente sugestiva do tumor ósseo maligno de células redondas típico da infância/adolescência. A reação periosteal em casca de cebola é a assinatura descrita nos livros para esse sarcoma. O osteossarcoma, o outro grande tumor ósseo pediátrico, classicamente dá reação periosteal em \"raios de sol\"/triângulo de Codman e predomina em metáfises de ossos longos no estirão, mas a banca valorizou o padrão em casca de cebola para diferenciar. Sarcoma de partes moles não parte do osso com esse padrão periosteal. Osteomielite crônica pode simular clínica e imagem (importante diferencial), porém a combinação de sintomas constitucionais e o padrão radiológico apontam para neoplasia — daí a necessidade de biópsia. Pérola: dor óssea NOTURNA que acorda a criança é sinal de alarme para malignidade.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Sobre as neoplasias ósseas na infância, é correto afirmar:",
+          "alternativas": {
+            "a": "Ocorrem principalmente em menores de 2 anos",
+            "b": "Predominam em ossos longos",
+            "c": "São tumores de crescimento lento e indolente",
+            "d": "São mais comuns em meninas após os 10 anos"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Os tumores ósseos malignos da infância e adolescência predominam nos ossos longos (fêmur, tíbia, úmero), sobretudo em regiões de crescimento ativo — daí o pico coincidir com o estirão puberal. Não são tumores indolentes: têm crescimento rápido e potencial metastático, exigindo diagnóstico e tratamento ágeis. Não são mais comuns em meninas — há discreto predomínio no sexo masculino. E não ocorrem principalmente em menores de 2 anos: nessa faixa etária predominam outros tumores (como neuroblastoma); os sarcomas ósseos concentram-se na segunda década. Detalhe: a localização em osso longo e a idade escolar/adolescente ajudam a diferenciar dos tumores do lactente.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "O tratamento do quadro descrito deve incluir:",
+          "alternativas": {
+            "a": "Amputação precoce e quimioterapia paliativa",
+            "b": "Quimioterapia combinada com cirurgia de ressecção",
+            "c": "Radioterapia isolada e vigilância clínica",
+            "d": "Antibiótico de amplo espectro por 4 a 6 semanas"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O tratamento dos sarcomas ósseos da infância é multimodal: quimioterapia (neoadjuvante e adjuvante) combinada com controle local, que idealmente é a cirurgia de ressecção com preservação do membro sempre que possível (a radioterapia entra em situações selecionadas, especialmente no sarcoma de Ewing). Radioterapia isolada com apenas vigilância não trata a doença sistêmica/micrometástases. Amputação precoce com quimioterapia paliativa não é a abordagem de primeira linha — busca-se cirurgia conservadora com intenção curativa. Antibiótico por 4–6 semanas trataria osteomielite, e usá-lo sem confirmar a natureza da lesão retardaria o diagnóstico oncológico. Pérola: diante de dor óssea de alarme com imagem suspeita, encaminhar prontamente para biópsia e centro de oncologia pediátrica — o prognóstico depende do diagnóstico precoce e da ausência de metástases.\n📚 Leitura sugerida (bloco): Manual de Oncologia Pediátrica / Tratado de Pediatria da SBP (tumores ósseos: osteossarcoma e sarcoma de Ewing).",
+          "dificuldade": "moderada"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Cardiologia/Saúde do Adolescente (cardiopatia congênita corrigida e atividade física) [REAL: SUS-BA R+ Pediatria 2023]",
+      "tier": "ALTO",
+      "vinheta": "Adolescente, 14 anos de idade, solicita atestado de saúde para frequentar a academia, pois deseja crescer e desenvolver massa muscular. O menor é portador de Tetralogia de Fallot, corrigida. Suas curvas de peso e altura estão proporcionais, ambos na curva de escore-z −2.",
+      "perguntas": [
+        {
+          "enunciado": "Indique o teste considerado padrão-ouro para avaliar o desempenho aeróbico em crianças e adolescentes portadores de cardiopatias congênitas:",
+          "alternativas": {
+            "a": "Ecocardiograma com Doppler",
+            "b": "Teste de Caminhada dos Seis Minutos (TC6M)",
+            "c": "Avaliação da força muscular respiratória",
+            "d": "Teste de Exercício Cardiopulmonar (TECP)"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O padrão-ouro para avaliar objetivamente a capacidade aeróbica/funcional em cardiopatas congênitos é o teste de exercício cardiopulmonar (ergoespirometria), que mede o consumo de oxigênio (VO2 de pico), o limiar anaeróbico e a resposta cardiorrespiratória ao esforço, permitindo estratificar risco e liberar/prescrever atividade com segurança. O teste de caminhada de seis minutos é útil e simples, mas é submáximo e menos preciso — não é o padrão-ouro. A avaliação da força muscular respiratória mede musculatura ventilatória, não o desempenho aeróbico global. O ecocardiograma com Doppler avalia anatomia e função em repouso (fração de ejeção, gradientes, insuficiências residuais), essencial no seguimento, mas não quantifica a capacidade ao exercício. Detalhe: a ergoespirometria é especialmente valiosa antes de liberar esporte e para acompanhar a evolução funcional pós-correção.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Quanto à prática de atividades físicas por adolescentes portadores de cardiopatias congênitas corrigidas cirurgicamente, é correto afirmar:",
+          "alternativas": {
+            "a": "Quando liberados, devem restringir-se a esforços leves a moderados",
+            "b": "Não têm restrição para atividades físicas",
+            "c": "Quando liberados, devem restringir-se a caminhadas",
+            "d": "Não devem praticar atividades físicas"
+          },
+          "correta": "a",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A recomendação equilibrada é individualizar: após avaliação cardiológica (incluindo ergoespirometria e ecocardiograma) e uma vez liberado, o adolescente com cardiopatia congênita corrigida pode e deve praticar atividade física, em geral de intensidade leve a moderada, evitando esforços extenuantes e esportes de alta demanda/competição de contato sem avaliação específica. Proibir toda atividade é prejudicial — o sedentarismo agrava risco cardiovascular e prejudica o desenvolvimento; por outro lado, dizer que \"não há restrição\" ignora lesões residuais e risco de arritmia. Limitar-se apenas a caminhadas é excessivamente restritivo para a maioria dos pacientes bem corrigidos. Ponto-chave: a liberação é personalizada e baseada em avaliação funcional objetiva, não em regra fixa.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Considerando que o menor teve ao nascimento a Tetralogia de Fallot em forma mais branda, indique o melhor prazo para realização de cirurgia cardíaca corretiva:",
+          "alternativas": {
+            "a": "Imediatamente ao nascer",
+            "b": "Após o 3º ano de vida",
+            "c": "Entre 3 e 6 meses de idade",
+            "d": "Após o 1º ano de vida"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Nas formas menos graves (\"róseas\", com boa saturação e sem crises hipoxêmicas importantes), a correção cirúrgica total eletiva costuma ser realizada nos primeiros meses de vida, e a banca considerou a faixa de 3 a 6 meses como o melhor prazo. Operar imediatamente ao nascer é reservado a formas muito graves/canal-dependentes ou a paliações precoces (como o shunt de Blalock-Taussig) quando há hipoxemia crítica. Postergar para depois do 1º ou do 3º ano aumenta o tempo de hipoxemia crônica e o risco de complicações (policitemia, crises, atraso), não sendo o ideal na forma branda. Pérola: enquanto se aguarda a cirurgia, orientar reconhecimento e manejo das crises hipoxêmicas (posição genupeitoral, oxigênio, morfina, betabloqueador) e manter o seguimento cardiológico.\n📚 Leitura sugerida (bloco): vídeoaula \"Cardiopatias congênitas\" — R+ Pediatria 2024 MEDGRUPO (Drive do Vinicius): https://drive.google.com/file/d/1x1mvuTc7zSmYjdHwK5PqK9aEZxSp7pO7/view",
+          "dificuldade": "dificil"
+        }
+      ]
+    },
+    {
+      "tema": "Pediatria — Pneumologia (infiltrado pulmonar migratório / pneumonia eosinofílica) [REAL: SUS-BA R+ Pediatria 2022]",
+      "tier": "ALTO",
+      "vinheta": "Menino, 5 anos de idade, retorna ao ambulatório de especialidades onde é acompanhado em razão de uma pneumonia, diagnosticada em UPA, há 4 semanas. A radiografia, naquele momento, mostrava infiltrado alvéolo-intersticial no pulmão direito, no lobo médio. Usou amoxicilina por 10 dias e, como manteve os sintomas, voltou ao serviço. Nova radiografia revelou o infiltrado em lobo inferior direito. Passou a usar amoxicilina + clavulanato. No 8º dia o quadro persistia; nova imagem de consolidação surgiu em lobo superior esquerdo, com resolução do processo em lobo inferior direito. Foi prescrita eritromicina e solicitado hemograma. Hoje, após 10 dias, refere inapetência, mantendo febrícula e tosse seca com sensação de falta de ar e dor abdominal discreta frequente. Ao exame, T 37,4ºC, eupneico, hidratado, mucosas hipocoradas (+/IV), ausculta pulmonar com roncos e sibilos; abdome indolor, sem visceromegalias.",
+      "perguntas": [
+        {
+          "enunciado": "Indique a principal suspeita diagnóstica do problema respiratório descrito:",
+          "alternativas": {
+            "a": "Pneumonia fúngica",
+            "b": "Pneumonia eosinofílica",
+            "c": "Pneumonia atípica",
+            "d": "Pneumonite química"
+          },
+          "correta": "b",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O dado que organiza o caso é o infiltrado pulmonar MIGRATÓRIO (muda de lobo a cada radiografia) que não responde a sucessivos antibióticos, acompanhado de tosse seca, sibilos e sintomas sistêmicos — quadro compatível com pneumonia eosinofílica (síndrome de Löffler), classicamente associada, na infância e em áreas endêmicas, à fase de migração pulmonar de larvas de helmintos (ciclo de Loeffler, p.ex. ascaridíase/ancilostomíase). A pneumonia atípica (por micoplasma) causa tosse arrastada, mas não o padrão migratório que resolve num lobo e aparece em outro. Pneumonite química exige história de aspiração/inalação de agente (hidrocarbonetos), ausente. Pneumonia fúngica ocorreria em imunocomprometido ou com exposição específica, com evolução distinta. Pegadinha central: infiltrado que \"anda\" pelo pulmão + falha de antibióticos + eosinofilia = pensar em causa eosinofílica/parasitária.",
+          "dificuldade": "dificil"
+        },
+        {
+          "enunciado": "Identifique o principal indicador do diagnóstico do caso descrito:",
+          "alternativas": {
+            "a": "Evolução arrastada",
+            "b": "Falta de resposta ao tratamento",
+            "c": "Tosse seca / dispneia persistente",
+            "d": "Infiltrado pulmonar migratório"
+          },
+          "correta": "d",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O achado que mais aponta o diagnóstico é o caráter migratório do infiltrado — a lesão se resolve em um lobo e reaparece em outro nas radiografias seriadas, algo típico da pneumonia eosinofílica/síndrome de Löffler. A evolução arrastada, a ausência de resposta aos antibióticos e a tosse seca com dispneia são pistas que apoiam a suspeita, mas são inespecíficas e ocorrem em várias pneumonias; nenhuma delas isoladamente direciona tanto quanto a migração das lesões. Portanto, entre as opções, o infiltrado migratório é o marcador-chave. Detalhe de leitura de imagem: comparar radiografias em datas diferentes é o que revela a \"migração\", por isso a evolução documentada foi decisiva neste caso.",
+          "dificuldade": "moderada"
+        },
+        {
+          "enunciado": "Indique o exame que deve ser solicitado para confirmar o diagnóstico:",
+          "alternativas": {
+            "a": "Tomografia de tórax",
+            "b": "Hemocultura",
+            "c": "Hemograma",
+            "d": "Espirometria"
+          },
+          "correta": "c",
+          "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O exame simples e de maior valor para apoiar a hipótese é o hemograma, que costuma revelar EOSINOFILIA acentuada (e ajuda a explicar a palidez/mucosas hipocoradas por eventual parasitose associada) — daí o próprio caso já ter solicitado o hemograma. A espirometria avalia função pulmonar/obstrução, mas não confirma a etiologia eosinofílica. A hemocultura investiga bacteriemia, pouco útil num quadro que não é bacteriano e não responde a antibióticos. A tomografia detalha a extensão dos infiltrados, porém não define a causa nem substitui a demonstração da eosinofilia; a confirmação etiológica se completa com a pesquisa de parasitas (protoparasitológico de fezes) e, quando necessário, dosagem de IgE/estudo do escarro. Pérola de saúde pública: tratar a parasitose de base e orientar higiene/saneamento fecham o manejo.\n📚 Leitura sugerida (bloco): vídeoaula \"Infecções respiratórias (pneumonias)\" — R+ Pediatria 2024 MEDGRUPO (Drive do Vinicius): https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view ; complementar com o Tratado de Pediatria da SBP (síndrome de Löffler).",
+          "dificuldade": "moderada"
+        }
+      ]
+    }
+  ]
+}
