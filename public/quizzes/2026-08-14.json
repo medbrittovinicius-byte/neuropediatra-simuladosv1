@@ -1,0 +1,651 @@
+{
+ "date": "2026-08-14",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (vestibulopatia bilateral por ototoxicidade) [RE ranking unificado #1: Vinicius, 100% de erro, 3/3]",
+   "tier": "ALTO",
+   "vinheta": "Homem de 58 anos, diabético, completou há dois meses um curso de seis semanas de aminoglicosídeo endovenoso para osteomielite de calcâneo. Desde então queixa-se de desequilíbrio ao caminhar, que piora acentuadamente no escuro e em piso irregular, e refere que 'as letras das placas tremem' quando anda ou corre. Nega crises de vertigem rotatória, nega perda auditiva e nega zumbido. Ao exame: sem nistagmo espontâneo, acuidade visual dinâmica reduzida, teste de impulso cefálico com sacadas de correção em ambas as direções, Romberg com oscilação franca e queda ao fechar os olhos, marcha de base alargada. Força, sensibilidade profunda e reflexos preservados. Audiometria tonal normal.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o quadro clínico e o exame neurológico, indique a hipótese diagnóstica mais provável.",
+     "alternativas": {
+      "a": "Vertigem posicional paroxística benigna",
+      "b": "Vestibulopatia bilateral",
+      "c": "Ataxia cerebelar de início tardio",
+      "d": "Ataxia sensitiva por polineuropatia diabética"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "A tríade oscilopsia ao movimento da cabeça + desequilíbrio que piora no escuro e em piso irregular + teste de impulso cefálico (head impulse test) positivo BILATERALMENTE é a assinatura clínica da vestibulopatia bilateral. O mecanismo é a perda simultânea do reflexo vestíbulo-ocular dos dois lados: sem ele, cada movimento da cabeça desloca a imagem na retina e o paciente percebe o mundo 'tremendo' (oscilopsia); e sem input vestibular o equilíbrio passa a depender da visão e da propriocepção — por isso o escuro (tira a visão) e o piso irregular (degrada a propriocepção) desmontam a marcha. Os aminoglicosídeos, sobretudo gentamicina e amicacina, são vestibulotóxicos de forma característica e podem poupar a cóclea, o que explica a audiometria normal — pegadinha clássica: a ausência de hipoacusia NÃO afasta ototoxicidade. A ataxia sensitiva por polineuropatia diabética também piora no escuro e dá Romberg positivo, mas cursaria com hipopalestesia, arreflexia aquileia e alteração da sensibilidade profunda, todas ausentes aqui, e não produz oscilopsia nem impulso cefálico anormal. A VPPB é episódica, dura segundos, é desencadeada por mudança de posição da cabeça e tem nistagmo de posicionamento no Dix-Hallpike — não gera desequilíbrio contínuo por meses nem oscilopsia. A ataxia cerebelar traria dismetria, disdiadococinesia, nistagmo evocado pelo olhar e disartria escandida, e caracteristicamente o Romberg piora pouco com o fechamento dos olhos. Como a vestibulopatia bilateral é insidiosa e sem vertigem rotatória, é frequentemente confundida com 'labirintite crônica' e tratada por anos com supressores vestibulares — exatamente o oposto do que se deve fazer."
+    },
+    {
+     "enunciado": "Qual exame complementar melhor confirma a suspeita diagnóstica?",
+     "alternativas": {
+      "a": "Ressonância magnética do ângulo pontocerebelar",
+      "b": "Eletroneuromiografia de membros inferiores",
+      "c": "Manobra de Dix-Hallpike",
+      "d": "Prova calórica bitérmica"
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "A prova calórica bitérmica é o exame de referência para documentar hipofunção vestibular: ela testa cada labirinto isoladamente, em baixa frequência, e na vestibulopatia bilateral mostra hiporreflexia ou arreflexia dos dois lados (soma das velocidades de componente lento reduzida bilateralmente). O critério da Bárány Society exige ganho do reflexo vestíbulo-ocular < 0,6 bilateralmente ao vHIT, ou resposta calórica bilateralmente reduzida, ou ganho reduzido na cadeira rotatória. A ressonância do ângulo pontocerebelar é o exame do schwannoma vestibular, que é unilateral e cursa com hipoacusia neurossensorial assimétrica e zumbido — nada disso está presente. A manobra de Dix-Hallpike serve para a VPPB de canal posterior: provoca nistagmo torcional-vertical fatigável após latência de segundos; é normal aqui e não avalia função vestibular basal. A eletroneuromiografia investigaria a hipótese de ataxia sensitiva por neuropatia, já afastada pelo exame físico e pela presença de oscilopsia. Pérola de prova: o teste de impulso cefálico é o exame de beira de leito de alta frequência, e a prova calórica é o de baixa frequência — quando ambos estão alterados bilateralmente, o diagnóstico está fechado. Vale lembrar que a audiometria deve ser feita sempre, mas para estadiar a lesão coclear associada, não para confirmar o diagnóstico vestibular."
+    },
+    {
+     "enunciado": "Qual é a conduta mais apropriada para este paciente?",
+     "alternativas": {
+      "a": "Reabilitação vestibular e prevenção de quedas",
+      "b": "Betaistina em dose alta por seis meses",
+      "c": "Manobra de Epley seriada",
+      "d": "Dimenidrinato contínuo"
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "O tratamento da vestibulopatia bilateral é essencialmente a reabilitação vestibular: exercícios de estabilização do olhar, treino de marcha com pistas visuais e somatossensoriais, e substituição sensorial, associados a medidas de prevenção de quedas (iluminação noturna, retirada de tapetes, revisão de fármacos sedativos, avaliação de acuidade visual). Também é obrigatório suspender e evitar definitivamente novos aminoglicosídeos e registrar a reação em prontuário. A betaistina é o fármaco discutido na doença de Ménière, para reduzir a frequência das crises de vertigem recorrente, e não tem papel na perda vestibular bilateral estabelecida. O dimenidrinato e demais supressores vestibulares são o erro mais grave nesse cenário: eles sedam o sistema vestibular e bloqueiam justamente a compensação central que se quer estimular, além de aumentarem o risco de queda no idoso; seu uso deve ser restrito às primeiras 48-72 horas de uma síndrome vestibular aguda. A manobra de Epley é o tratamento da VPPB de canal posterior, reposicionando otólitos — inútil quando não há canalolitíase. Prognóstico: a recuperação da função vestibular perdida por aminoglicosídeo é rara, mas a compensação funcional com reabilitação é significativa e reduz quedas e fraturas. Bloco de revisão espaçada: o tema vestibular concentra 100% de erro no painel, e o ângulo aqui é a síndrome vestibular CRÔNICA bilateral, distinta das formas agudas e posicionais já treinadas.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 138 — Síndrome Vestibular Crônica e cap. 192 — Reabilitação de Distúrbios Vestibulares e do Equilíbrio."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Medula, Cauda Equina e Dor (mielopatia associada ao HTLV-1) [RE ranking unificado #2: Vinicius, 100% de erro, 3/3]",
+   "tier": "ALTO",
+   "vinheta": "Mulher de 46 anos, natural e residente em Salvador, procura o ambulatório por dificuldade progressiva para caminhar há três anos. Refere rigidez e peso nas pernas, quedas ocasionais, urgência miccional com escapes e constipação intestinal. Nega dor cervical, trauma ou febre. Foi amamentada até os três anos de idade e recebeu hemotransfusão aos 19 anos. Ao exame: paraparesia espástica simétrica, hiper-reflexia patelar e aquileia com clônus, Babinski bilateral, sensibilidade vibratória discretamente reduzida nos pés, sem nível sensitivo definido; membros superiores normais. Ressonância de coluna cervical e torácica sem compressão medular, com discreta atrofia da medula torácica. Hemograma, B12 e VDRL normais.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico e dos antecedentes, indique o diagnóstico mais provável.",
+     "alternativas": {
+      "a": "Mielopatia associada ao HTLV-1",
+      "b": "Mielopatia cervical espondilótica",
+      "c": "Paraparesia espástica hereditária",
+      "d": "Esclerose múltipla primariamente progressiva"
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "O quadro típico é o de uma mielopatia torácica crônica, lentamente progressiva, com predomínio motor (paraparesia espástica), disfunção esfincteriana precoce e comprometimento sensitivo discreto — associada a dois antecedentes epidemiológicos de peso: aleitamento materno prolongado e hemotransfusão, as duas principais vias de transmissão do HTLV-1 além da sexual. Salvador tem a maior prevalência de HTLV-1 do Brasil (em torno de 1,8% de soroprevalência em doadores), o que faz desse diagnóstico item de altíssimo valor regional para a banca baiana. O mecanismo é imunomediado: linfócitos T CD4+ infectados invadem a medula e desencadeiam resposta inflamatória crônica com degeneração das colunas laterais, sobretudo em nível torácico — daí a disfunção urinária ser frequentemente o primeiro sintoma. A esclerose múltipla primariamente progressiva é o principal diferencial clínico, mas exigiria lesões desmielinizantes disseminadas no encéfalo/medula à ressonância e bandas oligoclonais, e é menos provável em mulher desta faixa etária com esse contexto epidemiológico. A paraparesia espástica hereditária cursa com história familiar e início habitualmente mais precoce, sem disfunção esfincteriana tão marcada no início. A mielopatia cervical espondilótica daria sinais de neurônio motor inferior nos membros superiores, perda de destreza manual e compressão visível na ressonância cervical — explicitamente ausentes aqui."
+    },
+    {
+     "enunciado": "Qual exame é o mais adequado para confirmar a hipótese diagnóstica?",
+     "alternativas": {
+      "a": "Potencial evocado somatossensitivo",
+      "b": "Painel genético para paraplegias espásticas",
+      "c": "Sorologia anti-HTLV-1 no soro e no líquor",
+      "d": "Pesquisa de bandas oligoclonais no líquor"
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "A confirmação se faz pela sorologia anti-HTLV-1, triada por ELISA/quimioluminescência e confirmada por Western blot ou PCR, realizada no soro E no líquor. A demonstração de anticorpos no líquor é importante porque a simples soropositividade sistêmica não estabelece causalidade — cerca de 95% dos infectados permanecem assintomáticos por toda a vida, e apenas 1 a 4% desenvolvem a mielopatia. A dosagem da carga proviral, tipicamente elevada nos sintomáticos, reforça o nexo. As bandas oligoclonais são o exame de apoio da esclerose múltipla; podem inclusive ser positivas na infecção pelo HTLV-1, o que é uma pegadinha clássica: um resultado positivo isolado não fecha esclerose múltipla nesse contexto. O painel genético seria reservado a casos com história familiar ou após exclusão das causas adquiridas. O potencial evocado somatossensitivo apenas documenta lentificação da condução nas vias posteriores, é inespecífico e não distingue etiologias. Importante lembrar a investigação diferencial obrigatória de toda paraparesia espástica crônica: deficiência de B12 e de cobre, sífilis, HIV, esquistossomose medular, adrenomieloneuropatia e compressão estrutural — que devem estar afastados, como neste caso."
+    },
+    {
+     "enunciado": "Sobre o manejo e as orientações de saúde pública neste caso, assinale a conduta correta.",
+     "alternativas": {
+      "a": "Iniciar terapia antirretroviral combinada com o objetivo de erradicar o vírus",
+      "b": "Contraindicar o aleitamento materno das filhas infectadas e orientar sexo protegido",
+      "c": "Isolar o paciente por risco de transmissão respiratória",
+      "d": "Indicar quimioterapia imunossupressora contínua para todos os infectados"
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "Não existe tratamento curativo nem antirretroviral eficaz consagrado para o HTLV-1; o manejo é sintomático (baclofeno ou tizanidina para a espasticidade, anticolinérgico ou cateterismo intermitente para a bexiga hiperativa, fisioterapia motora intensiva) e a intervenção de maior impacto é a prevenção da transmissão. As vias são vertical (predominantemente pelo aleitamento materno prolongado), sexual e parenteral — por isso a orientação-chave é contraindicar a amamentação por mulheres infectadas, oferecendo fórmula, além de orientar preservativo e vedar doação de sangue, órgãos e leite humano. A triagem obrigatória de doadores de sangue no Brasil desde 1993 reduziu drasticamente a via transfusional. A alternativa da terapia antirretroviral está incorreta: zidovudina e outros antirretrovirais não demonstraram benefício consistente na mielopatia associada ao HTLV-1, e o vírus não é erradicável. A imunossupressão contínua indiscriminada não é indicada — corticoide pode ser tentado em surtos de piora, com resposta modesta; e é preciso lembrar que o HTLV-1 também causa leucemia/linfoma de células T do adulto, o que torna a imunossupressão indiscriminada indesejável. Não há transmissão respiratória nem necessidade de isolamento — o vírus depende de célula infectada viável. Bloco de revisão espaçada: mesmo tema medular do painel de fragilidades, por ângulo inédito (mielopatia infecciosa crônica, e não compressiva).\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 153 — Mielopatia Associada ao HTLV-1."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias (hipotensão liquórica espontânea)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 37 anos, sem comorbidades, refere que há três semanas passou a apresentar dor de cabeça holocraniana e occipital que começa poucos minutos depois de ficar em pé e desaparece quase completamente após 15 a 30 minutos deitada. Associa náusea, zumbido bilateral e sensação de plenitude auricular. Nega febre, trauma craniano, punção lombar ou raquianestesia recentes. É alta e magra, com articulações hiperfrouxas. O exame neurológico é normal, sem papiledema. Tomografia de crânio sem contraste é normal.",
+   "perguntas": [
+    {
+     "enunciado": "Qual o diagnóstico mais provável?",
+     "alternativas": {
+      "a": "Cefaleia do tipo tensional crônica",
+      "b": "Hipotensão liquórica espontânea",
+      "c": "Cefaleia cervicogênica",
+      "d": "Hipertensão intracraniana idiopática"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "O marcador diagnóstico é o padrão ORTOSTÁTICO da dor: surge ou piora minutos após assumir a posição ereta e alivia com o decúbito. Isso decorre de vazamento liquórico espontâneo, quase sempre por fístula dural na coluna (divertículo meníngeo roto, espícula óssea discal ou fístula liquórico-venosa). Com menor volume liquórico, o encéfalo perde a sustentação hidráulica ao ficar de pé, traciona as estruturas sensíveis à dor (dura, veias-ponte, nervos cranianos) e gera a dor; a tração do VIII par explica o zumbido e a plenitude auricular. A frouxidão ligamentar sugere doença do tecido conjuntivo, fator de risco reconhecido. A hipertensão intracraniana idiopática é o espelho invertido: dor que piora deitada e ao acordar, com papiledema, obscurecimentos visuais e frequentemente paresia do VI par — nada disso está presente. A cefaleia cervicogênica é unilateral, tem origem cervical demonstrável, piora com movimento do pescoço e não tem relação estrita com ortostase. A cefaleia tensional crônica é em aperto, bilateral, de intensidade leve a moderada, sem componente postural e sem sintomas otológicos. Pegadinha frequente: a tomografia normal não afasta nada — a sensibilidade dela para hipotensão liquórica é baixa."
+    },
+    {
+     "enunciado": "Qual exame complementar tem maior rendimento diagnóstico nesse cenário?",
+     "alternativas": {
+      "a": "Angiotomografia arterial cerebral",
+      "b": "Punção lombar com medida da pressão de abertura",
+      "c": "Eletroencefalograma prolongado",
+      "d": "Ressonância magnética de crânio com gadolínio"
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "A ressonância de crânio com gadolínio é o exame inicial de escolha e mostra o conjunto de sinais resumidos pelo acrônimo SEEPS: realce paquimeníngeo difuso e liso (Subdural collections, Enhancement of pachymeninges, Engorgement of venous structures, Pituitary hyperemia, Sagging of the brain). O descenso do encéfalo com apagamento das cisternas e herniação tonsilar adquirida pode simular malformação de Chiari — armadilha clássica que já levou pacientes a cirurgias desnecessárias. Coleções subdurais higromáticas bilaterais também são frequentes. A angiotomografia arterial investiga aneurisma e dissecção, hipóteses de cefaleia SÚBITA em trovoada, e não este padrão postural subagudo. A punção lombar pode mostrar pressão de abertura baixa, mas é o exame errado a se pedir: além de baixa sensibilidade (a pressão pode ser normal), acrescenta um novo orifício dural e pode agravar o quadro. O eletroencefalograma não tem qualquer papel. Depois da ressonância de crânio, a etapa seguinte é localizar a fístula: ressonância de coluna total com sequência mielográfica pesada em T2, e, se necessário, mielotomografia dinâmica ou mielografia digital."
+    },
+    {
+     "enunciado": "Se as medidas conservadoras iniciais falharem após duas semanas, qual a conduta indicada?",
+     "alternativas": {
+      "a": "Tampão sanguíneo peridural",
+      "b": "Derivação ventriculoperitoneal",
+      "c": "Corticoterapia sistêmica prolongada",
+      "d": "Acetazolamida em dose plena"
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "Após falha do tratamento conservador (repouso relativo, hidratação abundante, cafeína e analgesia simples por 1 a 2 semanas), o procedimento de escolha é o tampão sanguíneo peridural — o blood patch — em que se injeta sangue autólogo no espaço peridural, promovendo tamponamento imediato por efeito de massa e selamento tardio pelo coágulo/fibrose. A taxa de resposta com tampão não direcionado é de cerca de 30 a 40% na primeira aplicação, subindo com repetições ou com tampão direcionado ao sítio da fístula; casos refratários vão para reparo cirúrgico ou embolização de fístula liquórico-venosa. A acetazolamida reduz a produção de líquor e é o tratamento da hipertensão intracraniana idiopática — usá-la aqui pioraria o quadro, e essa inversão é a pegadinha mais cobrada do tema. A derivação ventriculoperitoneal também drena líquor e é igualmente contraindicada; é considerada apenas em hidrocefalia. A corticoterapia prolongada pode dar alívio transitório, mas não trata a fístula e não é recomendada como estratégia definitiva. Complicação temida da hipotensão liquórica não tratada: hematoma subdural volumoso e trombose venosa cerebral, pela tração e estase venosa.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 32 — Cefaleia na Unidade de Emergência; complementar com a ICHD-3, item 7.2 (Cefaleia atribuída a hipotensão liquórica)."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroinfecção (raiva humana)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 29 anos, trabalhador rural do interior da Bahia, é levado ao pronto-socorro por familiares. Há cinco semanas foi mordido no antebraço direito por um cão errante, que fugiu; lavou o ferimento em casa e não procurou serviço de saúde. Há quatro dias iniciou prurido e formigamento intensos na cicatriz da mordedura, seguidos de febre, insônia e ansiedade. Nas últimas 24 horas apresenta agitação intercalada com lucidez, sialorreia intensa, e espasmos violentos da faringe e do diafragma quando lhe oferecem água ou quando um ventilador sopra em sua direção. Ao exame: febril, taquicárdico, midríase, sem sinais meníngeos e sem déficit focal.",
+   "perguntas": [
+    {
+     "enunciado": "Qual é o diagnóstico mais provável?",
+     "alternativas": {
+      "a": "Encefalite herpética",
+      "b": "Raiva humana",
+      "c": "Encefalite autoimune anti-NMDA",
+      "d": "Tétano acidental"
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "O caso reúne os elementos patognomônicos da raiva humana na forma encefálica ('furiosa'): exposição a mordedura de mamífero, período de incubação de semanas, pródromo com parestesia e prurido NO LOCAL da mordedura — sinal muito sugestivo e explicado pela replicação viral no gânglio da raiz dorsal correspondente — e, na fase de estado, hidrofobia e aerofobia, que são espasmos inspiratórios reflexos desencadeados por estímulos que ameaçam a via aérea. A alternância entre agitação e lucidez, a sialorreia e a disautonomia completam o quadro. O vírus atinge o sistema nervoso por transporte axonal retrógrado, o que explica a ausência de viremia detectável e a incubação prolongada e variável (semanas a mais de um ano). O tétano cursa com trismo, riso sardônico, opistótono e rigidez muscular contínua entre os espasmos, com sensório preservado — e não produz hidrofobia. A encefalite herpética dá febre, confusão, crises focais e alterações de comportamento com predileção temporal, mas não gera espasmos hidrofóbicos nem parestesia no sítio de uma mordedura. A encefalite anti-NMDA acomete tipicamente mulheres jovens, com pródromo psiquiátrico, discinesias orofaciais e crises, evoluindo em semanas — sem qualquer relação com exposição animal."
+    },
+    {
+     "enunciado": "Qual exame permite a confirmação laboratorial em vida nesse paciente?",
+     "alternativas": {
+      "a": "Cultura do líquor para vírus neurotrópicos",
+      "b": "Imunofluorescência direta em biópsia de pele da nuca",
+      "c": "Sorologia IgM em amostra única de soro",
+      "d": "Hemocultura em meio enriquecido"
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "O diagnóstico intra vitam se apoia na pesquisa de antígeno viral por imunofluorescência direta em biópsia de pele da região da nuca, que contém folículos pilosos ricamente inervados por terminações nervosas onde o vírus se acumula; associa-se a RT-PCR em saliva seriada, líquor e urina para aumentar a sensibilidade. Nenhum teste isolado é sensível o bastante, e por isso o Ministério da Saúde recomenda a coleta de amostras múltiplas e repetidas — um resultado negativo não afasta raiva. O diagnóstico definitivo permanece sendo post mortem, pela imunofluorescência direta e pela prova biológica em tecido cerebral, com identificação dos corpúsculos de Negri (inclusões eosinofílicas citoplasmáticas em neurônios do hipocampo e de Purkinje). A hemocultura não tem utilidade, pois não há bacteriemia nem viremia significativa. A sorologia em amostra única é de pouca valia no não vacinado nas fases iniciais, pois os anticorpos aparecem tardiamente; e no vacinado é confundidora. A cultura viral do líquor é de baixíssimo rendimento e não faz parte da rotina. Pérola: o líquor na raiva costuma mostrar pleocitose linfocítica discreta e proteína pouco elevada, achado inespecífico que não distingue das demais encefalites virais."
+    },
+    {
+     "enunciado": "Qual conduta é a mais adequada neste momento?",
+     "alternativas": {
+      "a": "Iniciar aciclovir endovenoso e aguardar a resposta clínica",
+      "b": "Instituir corticoterapia em pulso por cinco dias",
+      "c": "Cuidados de suporte, isolamento e notificação imediata",
+      "d": "Aplicar vacina e soro antirrábico para reverter o quadro"
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "Instalada a doença clínica, a raiva tem letalidade próxima de 100% e não há terapia comprovadamente eficaz — o protocolo de Milwaukee (coma induzido com antivirais) teve resultados isolados e não é recomendado como padrão. Portanto, o correto neste momento é oferecer cuidados de suporte e conforto em ambiente calmo e com precauções de contato, e proceder à NOTIFICAÇÃO IMEDIATA: a raiva humana é doença de notificação compulsória imediata (em até 24 horas) às vigilâncias municipal, estadual e federal. A resposta em saúde pública é o ponto realmente cobrado: investigação do animal agressor, busca ativa e profilaxia pós-exposição dos comunicantes que tiveram contato com saliva ou secreções do paciente, bloqueio vacinal canino na área e educação em saúde. Vacina e soro antirrábico compõem a profilaxia PÓS-EXPOSIÇÃO e devem ser aplicados nos primeiros dias após a agressão, junto com lavagem exaustiva do ferimento com água e sabão; após o início dos sintomas são inúteis, e essa é a distinção que a banca cobra. O aciclovir trataria encefalite herpética e não altera o curso da raiva — embora seja razoável iniciá-lo empiricamente antes da definição diagnóstica em toda encefalite, não é a conduta que define este caso. A corticoterapia em pulso trataria encefalite autoimune e pode ser deletéria aqui.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 143 — Encefalite Viral; complementar com o Guia de Vigilância em Saúde do Ministério da Saúde, capítulo Raiva (profilaxia pré e pós-exposição)."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Junção Neuromuscular (miastenia gravis anti-MuSK)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 34 anos apresenta, há quatro meses, dificuldade progressiva para articular palavras ao final das refeições e engasgos com líquidos. Refere ainda dificuldade para sustentar a cabeça no fim do dia. Nega diplopia e nega ptose significativa. Ao exame: fala anasalada e arrastada após contar até 50, fraqueza da flexão e extensão cervical, discreta atrofia de língua, fraqueza facial bilateral; força proximal de membros preservada, reflexos normais, sem alterações sensitivas. Anticorpo antirreceptor de acetilcolina negativo. Tomografia de tórax sem timoma. Um teste terapêutico com piridostigmina em dose crescente provocou cólicas, sialorreia intensa e fasciculações, sem melhora da fala.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o fenótipo clínico e os achados laboratoriais, qual o diagnóstico mais provável?",
+     "alternativas": {
+      "a": "Esclerose lateral amiotrófica de início bulbar",
+      "b": "Miopatia mitocondrial",
+      "c": "Síndrome miastênica de Lambert-Eaton",
+      "d": "Miastenia gravis com anticorpo anti-MuSK"
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "O fenótipo desenhado é o clássico da miastenia gravis anti-MuSK: predomínio bulbar e cervical (disartria, disfagia, fraqueza facial e de extensores do pescoço), pouca ou nenhuma sintomatologia ocular, presença de atrofia de língua e face — rara nas outras formas —, soronegatividade para anti-AChR, ausência de timoma e, muito caracteristicamente, RESPOSTA POBRE OU PARADOXAL aos anticolinesterásicos, com efeitos colinérgicos exuberantes. A explicação está no mecanismo: o anti-MuSK é IgG4, não fixa complemento e não destrói a membrana pós-sináptica como o anti-AChR; ele bloqueia a via MuSK-LRP4-agrina, essencial para o agrupamento (clustering) dos receptores, desorganizando a placa motora de um modo que o excesso de acetilcolina não corrige. A esclerose lateral amiotrófica de início bulbar entra no diferencial pela atrofia de língua, mas cursaria com fasciculações linguais espontâneas, sinais de neurônio motor superior (reflexo mandibular exaltado, labilidade emocional) e progressão sem flutuação diária. A síndrome de Lambert-Eaton dá fraqueza proximal de membros inferiores, hiporreflexia com facilitação pós-exercício e disautonomia, com sintomas bulbares discretos, e associa-se ao carcinoma de pequenas células. A miopatia mitocondrial cursaria com oftalmoparesia progressiva sem flutuação, intolerância ao exercício e acometimento multissistêmico."
+    },
+    {
+     "enunciado": "Qual exame confirma a hipótese diagnóstica?",
+     "alternativas": {
+      "a": "Dosagem de anticorpo anti-MuSK",
+      "b": "Dosagem de creatinoquinase sérica",
+      "c": "Biópsia muscular com coloração de Gomori",
+      "d": "Teste do gelo aplicado à pálpebra"
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "Diante de miastenia clinicamente provável com anti-AChR negativo, o passo obrigatório é dosar o anticorpo anti-MuSK, presente em cerca de 5 a 8% de todos os miastênicos e em aproximadamente 40% dos soronegativos para anti-AChR. Persistindo a dupla soronegatividade, pesquisa-se anti-LRP4 e recorre-se à eletroneuromiografia com estimulação repetitiva e, sobretudo, à eletromiografia de fibra única (jitter aumentado), que é o exame neurofisiológico mais sensível — nos casos anti-MuSK o rendimento é maior quando o estudo é feito na musculatura facial, e não nos membros. O teste do gelo é um recurso de beira de leito útil apenas quando há ptose, ausente neste caso, e não confirma o subtipo. A biópsia muscular com tricrômico de Gomori procura fibras rasgadas vermelhas da miopatia mitocondrial — hipótese já afastada pela flutuação diária. A creatinoquinase é normal ou pouco alterada nas doenças da junção neuromuscular; sua elevação expressiva apontaria miopatia inflamatória. Pegadinha de prova: a tomografia de tórax deve ser feita em todo miastênico, mas timoma é raríssimo na forma anti-MuSK, e sua ausência não afasta o diagnóstico."
+    },
+    {
+     "enunciado": "Qual a estratégia terapêutica de manutenção mais apropriada?",
+     "alternativas": {
+      "a": "Piridostigmina em dose máxima isolada",
+      "b": "Observação clínica sem imunossupressão",
+      "c": "Corticoide e rituximabe",
+      "d": "Timectomia videoassistida precoce"
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "A miastenia anti-MuSK responde mal à piridostigmina e exige imunoterapia desde cedo. O esquema consagrado é corticoide (prednisona, com escalonamento cuidadoso pelo risco de piora paradoxal nas primeiras semanas) associado a poupador; entre os poupadores, o rituximabe — anticorpo anti-CD20 que depleta linfócitos B — mostra eficácia notoriamente superior nesta forma, com altas taxas de remissão sustentada, justamente porque o autoanticorpo é IgG4 produzido por plasmablastos de vida curta, sensíveis à depleção B. Em crise, a plasmaférese costuma superar a imunoglobulina nesse subtipo. A timectomia é indicada na miastenia com anti-AChR positivo generalizada em pacientes jovens e em todo timoma, mas NÃO traz benefício demonstrado na doença anti-MuSK — erro clássico de prova. Manter apenas piridostigmina em dose máxima é inadequado e potencialmente perigoso: já se demonstrou intolerância colinérgica neste caso, e doses altas podem precipitar crise colinérgica com fasciculações, sialorreia e broncorreia. A observação sem tratamento é inaceitável em um paciente com disfagia e engasgos, que tem risco de broncoaspiração e crise miastênica. Alerta prático: evitar fármacos precipitantes (aminoglicosídeos, macrolídeos, quinolonas, bloqueadores neuromusculares, magnésio) e monitorar a capacidade vital forçada.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 110 — Miastenia Grave Adquirida; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 12 — Doenças Neuromusculares."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtornos do Movimento (atrofia de múltiplos sistemas)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 61 anos apresenta, há 20 meses, lentidão e rigidez de instalação relativamente rápida, com quedas a partir do primeiro ano de doença. A esposa relata que ele ronca alto e emite ruído inspiratório agudo durante o sono há alguns meses. Refere ainda tonturas ao levantar, com dois episódios de síncope, disfunção erétil de início precoce e urgência miccional com incontinência. Ao exame: parkinsonismo simétrico com rigidez axial, tremor irregular postural e de ação, discreta dismetria apendicular, resposta plantar indiferente; pressão arterial 138/86 mmHg em decúbito e 96/60 mmHg após três minutos em pé, sem aumento adequado da frequência cardíaca. Ensaio com levodopa até 900 mg/dia por três meses trouxe melhora mínima.",
+   "perguntas": [
+    {
+     "enunciado": "Qual o diagnóstico mais provável?",
+     "alternativas": {
+      "a": "Atrofia de múltiplos sistemas",
+      "b": "Doença de Parkinson idiopática",
+      "c": "Paralisia supranuclear progressiva",
+      "d": "Demência com corpos de Lewy"
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "Os sinais de alarme (red flags) para parkinsonismo atípico estão todos presentes: progressão rápida com quedas no primeiro ano, parkinsonismo simétrico com pouco tremor de repouso, resposta pobre ou fugaz à levodopa em dose adequada, disautonomia grave e precoce (hipotensão ortostática neurogênica — queda maior que 20 mmHg na sistólica sem taquicardia compensatória —, disfunção erétil e bexiga neurogênica) e estridor inspiratório noturno. A soma de parkinsonismo, disautonomia e sinais cerebelares define a atrofia de múltiplos sistemas, uma alfa-sinucleinopatia com inclusões gliais citoplasmáticas oligodendrocitárias, subdividida em MSA-P (predomínio parkinsoniano) e MSA-C (predomínio cerebelar). A doença de Parkinson idiopática é assimétrica, tem tremor de repouso em 'contar moedas', evolui mais lentamente, responde robustamente à levodopa e só desenvolve disautonomia grave em fases tardias. A demência com corpos de Lewy exigiria declínio cognitivo precoce com flutuações, alucinações visuais bem formadas e hipersensibilidade a neurolépticos, ausentes aqui. A paralisia supranuclear progressiva também dá quedas precoces e rigidez axial, mas sua marca é a paralisa supranuclear do olhar vertical (sobretudo para baixo), com sacadas lentas, retrocolo e face de espanto — e não cursa com disautonomia dessa magnitude nem com estridor."
+    },
+    {
+     "enunciado": "Qual achado de neuroimagem apoia esse diagnóstico?",
+     "alternativas": {
+      "a": "Sinal do beija-flor no mesencéfalo",
+      "b": "Atrofia hipocampal desproporcional",
+      "c": "Sinal da cruz pontina",
+      "d": "Hipersinal cortical em fita nas sequências de difusão"
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "O sinal da cruz pontina (hot cross bun) é o achado mais associado à atrofia de múltiplos sistemas, sobretudo à variante cerebelar: hipersinal em T2/FLAIR na ponte com desenho cruciforme, que reflete a degeneração das fibras pontocerebelares transversas com preservação relativa dos tratos corticoespinhais e dos neurônios da rafe. Somam-se atrofia de ponte, pedúnculo cerebelar médio e cerebelo, e, na variante parkinsoniana, atrofia do putâmen com hipossinal putaminal e a 'fenda putaminal' hiperintensa na borda lateral. É importante saber que o sinal não é patognomônico — pode aparecer em ataxias espinocerebelares e em paraneoplásicas. O sinal do beija-flor (hummingbird), com atrofia do tegmento mesencefálico no corte sagital mediano, é da paralisia supranuclear progressiva. A atrofia hipocampal desproporcional é típica da doença de Alzheimer. O hipersinal cortical em fita na difusão, associado a hipersinal em núcleos da base, é achado da doença de Creutzfeldt-Jakob, que evoluiria em meses com mioclonias e demência rápida. Complemento útil: teste autonômico formal (tilt test), avaliação de resíduo pós-miccional elevado e polissonografia com documentação de estridor e de transtorno comportamental do sono REM reforçam a suspeita."
+    },
+    {
+     "enunciado": "Sobre o manejo e o prognóstico, qual conduta é a mais adequada?",
+     "alternativas": {
+      "a": "Suspender a levodopa por ausência de qualquer indicação",
+      "b": "Iniciar anticolinesterásico central para retardar a progressão",
+      "c": "Tratar a hipotensão ortostática e investigar o estridor noturno",
+      "d": "Indicar estimulação cerebral profunda do núcleo subtalâmico"
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "Não há terapia modificadora de doença; o cuidado é sintomático e voltado às complicações que determinam morbimortalidade. A hipotensão ortostática neurogênica deve ser tratada primeiro com medidas não farmacológicas (elevar a cabeceira, meias de compressão graduada e cinta abdominal, aumentar sal e água, evitar refeições volumosas, retirar anti-hipertensivos desnecessários) e, se insuficiente, com fludrocortisona, midodrina ou droxidopa. O estridor inspiratório noturno traduz paralisia das cordas vocais e é preditor independente de morte súbita: exige nasofibrolaringoscopia e frequentemente CPAP noturno, podendo chegar à traqueostomia. Complementam o manejo a fonoaudiologia, a avaliação da deglutição, o cateterismo intermitente para o resíduo urinário e a fisioterapia para prevenção de quedas. A estimulação cerebral profunda é indicada na doença de Parkinson idiopática com flutuações motoras e boa resposta à levodopa; nos parkinsonismos atípicos não funciona e pode piorar equilíbrio e fala. Suspender a levodopa de forma automática é erro: deve-se tentar até 1000 mg/dia antes de considerar refratariedade, pois cerca de 30% dos pacientes têm alguma resposta parcial que vale manter. Anticolinesterásicos centrais não têm indicação e não alteram a progressão. Sobrevida mediana em torno de 6 a 10 anos a partir do início dos sintomas.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 68 — Parkinsonismo Atípico; complementar com Adams & Victor, Principles of Neurology (12ª ed.), capítulo de Degenerative Diseases (parkinsonismos atípicos)."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropatias Periféricas (neuropatia hansênica)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 31 anos, morador de município do sertão baiano, relata há oito meses uma mancha esbranquiçada no antebraço esquerdo, que não coça e onde 'não sente a água quente do banho'. Há dois meses passou a ter dificuldade progressiva para abrir e afastar os dedos da mão esquerda e dor em queimação no cotovelo do mesmo lado. Ao exame: mácula hipocrômica de 5 cm com hipoestesia térmica e dolorosa e rarefação de pelos; nervo ulnar esquerdo espessado, endurecido e doloroso à palpação no sulco epitrocleano; atrofia dos interósseos com garra ulnar incompleta; nervo fibular comum direito também espessado, com discreto pé caído. Sensibilidade vibratória preservada. Reflexos profundos normais.",
+   "perguntas": [
+    {
+     "enunciado": "Qual o diagnóstico mais provável?",
+     "alternativas": {
+      "a": "Hanseníase com comprometimento neural",
+      "b": "Neuropatia hereditária com suscetibilidade à paralisia por pressão",
+      "c": "Vasculite de nervo periférico associada a poliarterite",
+      "d": "Polineuropatia diabética dolorosa"
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "A combinação de lesão cutânea com alteração de sensibilidade + espessamento de troncos nervosos periféricos + acometimento assimétrico de mais de um nervo (mononeurite múltipla) fecha o diagnóstico de hanseníase pelos critérios do Ministério da Saúde — basta UM dos três sinais cardinais para diagnóstico clínico, e aqui estão os três. O Mycobacterium leprae tem tropismo por células de Schwann e prefere trajetos nervosos superficiais e frios (ulnar no cotovelo, fibular comum na cabeça da fíbula, tibial posterior, auricular magno, radial cutâneo), o que explica a topografia. A perda dissociada — sensibilidade térmica e dolorosa comprometidas antes da vibratória — decorre do acometimento preferencial de fibras finas amielínicas e pouco mielinizadas, exatamente o oposto do que se vê nas neuropatias desmielinizantes. A polineuropatia diabética é simétrica, distal, em bota e luva, dependente do comprimento do axônio, e não espessa nervos nem produz manchas anestésicas. A vasculite de nervo também produz mononeurite múltipla, mas de instalação aguda/subaguda, dolorosa, com marcadores inflamatórios elevados e manifestações sistêmicas, sem espessamento neural nem lesão cutânea hipoestésica. A neuropatia hereditária com suscetibilidade à paralisia por pressão cursa com paresias recorrentes e indolores após compressões triviais, com recuperação espontânea, e tem história familiar."
+    },
+    {
+     "enunciado": "Qual exame deve ser solicitado para a classificação operacional e confirmação laboratorial?",
+     "alternativas": {
+      "a": "Teste de Mantoux",
+      "b": "Eletroneuromiografia dos quatro membros",
+      "c": "Reação em cadeia da polimerase no sangue periférico",
+      "d": "Baciloscopia de raspado intradérmico"
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "A baciloscopia de raspado intradérmico, colhida nos sítios padronizados (lóbulos de ambas as orelhas, cotovelos e a lesão cutânea), com pesquisa de bacilos álcool-ácido resistentes e cálculo do índice baciloscópico, é o exame complementar de rotina — lembrando que a baciloscopia NEGATIVA não exclui hanseníase, pois é negativa nas formas paucibacilares (tuberculoide e indeterminada). Na dúvida, recorre-se à biópsia de pele ou de nervo com histopatologia. O diagnóstico, contudo, é essencialmente CLÍNICO e não pode ser retardado à espera do laboratório. A classificação operacional do Ministério da Saúde é simples: paucibacilar até 5 lesões cutâneas e apenas um tronco nervoso acometido; multibacilar acima de 5 lesões, ou mais de um tronco nervoso, ou baciloscopia positiva — o presente caso é multibacilar por acometer dois troncos. A PCR no sangue periférico não é método de rotina e tem baixo rendimento em paucibacilares. O teste de Mantoux avalia resposta a antígeno do M. tuberculosis e não tem papel diagnóstico aqui (a antiga reação de Mitsuda é prognóstica/classificatória, não diagnóstica). A eletroneuromiografia é útil para mapear a extensão do dano e documentar a incapacidade, mas não confirma etiologia."
+    },
+    {
+     "enunciado": "Qual a conduta terapêutica e de saúde pública mais adequada?",
+     "alternativas": {
+      "a": "Monoterapia com dapsona e reavaliação em seis meses",
+      "b": "Encaminhar para cirurgia de descompressão neural antes de qualquer medicação",
+      "c": "Poliquimioterapia única, corticoide para a neurite e notificação compulsória",
+      "d": "Rifampicina em dose única mais avaliação anual do paciente"
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "O tratamento atual preconizado pelo Ministério da Saúde é o esquema poliquimioterápico único (PQT-U) com rifampicina, dapsona e clofazimina para todos os casos, por 6 doses mensais supervisionadas nos paucibacilares e 12 doses nos multibacilares. Como há neurite franca — dor no trajeto do nervo, espessamento e déficit motor recente —, associa-se corticoide (prednisona 1 mg/kg/dia com desmame lento), que é o que efetivamente previne a incapacidade permanente; a neurite é urgência, pois a perda funcional instalada por mais de seis meses tende a ser irreversível. Completa-se com avaliação do grau de incapacidade física, prevenção de incapacidades (autocuidado, órteses, fisioterapia), notificação compulsória (doença de notificação obrigatória, agravo de investigação) e exame de TODOS os contatos domiciliares dos últimos cinco anos, com aplicação de BCG conforme cicatriz vacinal. A monoterapia com dapsona está proscrita há décadas por induzir resistência. Rifampicina em dose única é a quimioprofilaxia pós-exposição de contatos, e não tratamento do doente. A cirurgia de descompressão (neurólise) é reservada a neurites refratárias ao corticoide, jamais como primeira medida.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 148 — Neuropatia na Hanseníase; complementar com o Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase (Ministério da Saúde)."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Emergências/neuro-correlato (intoxicação por metanol) [REAL: SUS-BA R+ 2026]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 42 anos de idade, etilista crônico, é encontrado desacordado e trazido ao Pronto-socorro. Familiares relatam que ele estava bebendo nas últimas 12 horas. Ao exame, está em coma (Glasgow 7), com leve hálito alcoólico, pupilas midriáticas e pouco reativas. A respiração é profunda e rápida (respiração de Kussmaul). Gasometria arterial revela: pH 7,10, pCO2 20 mmHg, bicarbonato 8 mEq/L. Exames laboratoriais: sódio 140 mEq/L, potássio 4,0 mEq/L, cloro 100 mEq/L, ureia 28 mg/dL, glicose 90 mg/dL. A osmolaridade sérica medida é de 350 mOsm/kg H2O.",
+   "perguntas": [
+    {
+     "enunciado": "O distúrbio ácido-básico primário do paciente:",
+     "alternativas": {
+      "a": "Acidose metabólica com ânion gap elevado.",
+      "b": "Alcalose respiratória aguda.",
+      "c": "Alcalose respiratória crônica.",
+      "d": "Acidose metabólica com ânion gap normal."
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ 2026] O pH de 7,10 com bicarbonato de 8 mEq/L define acidose metabólica; a pCO2 de 20 mmHg é a compensação respiratória esperada (fórmula de Winter: pCO2 esperada = 1,5 × HCO3 + 8 ± 2 = 20 ± 2), traduzida clinicamente pela respiração de Kussmaul — portanto não há distúrbio respiratório primário. O ânion gap = Na − (Cl + HCO3) = 140 − (100 + 8) = 32 mEq/L, muito acima do valor normal de 8 a 12, caracterizando acidose metabólica com ânion gap ELEVADO. O achado que fecha o raciocínio é o gap osmolar: osmolaridade calculada = 2 × Na + glicose/18 + ureia/5,6 ≈ 280 + 5 + 5 = 290 mOsm/kg; medida = 350; gap osmolar = 60 (normal até 10), indicando presença de um osmol não medido, isto é, um álcool tóxico. Acidose metabólica com ânion gap alto tem o mnemônico clássico dos ácidos endógenos e exógenos: cetoacidose, acidose lática, uremia, salicilato, metanol e etilenoglicol. As alternativas de alcalose respiratória são incompatíveis com pH ácido. A alternativa de ânion gap normal (hiperclorêmica) corresponderia a perdas digestivas de bicarbonato ou acidose tubular renal, com cloro elevado — aqui o cloro está normal e o gap é altíssimo. Pegadinha: a coexistência de gap aniônico E gap osmolar altos é praticamente diagnóstica de intoxicação por metanol ou etilenoglicol."
+    },
+    {
+     "enunciado": "O principal metabólito responsável pelo quadro apresentado pelo paciente:",
+     "alternativas": {
+      "a": "Acetona.",
+      "b": "Formaldeído.",
+      "c": "Ácido fórmico (formato).",
+      "d": "Ácido acético."
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ 2026] O metanol em si é pouco tóxico e responde apenas pela depressão do sensório inicial e pelo gap osmolar. A toxicidade decorre da metabolização hepática sequencial pela álcool-desidrogenase, que o converte em formaldeído, e pela aldeído-desidrogenase, que rapidamente o converte em ÁCIDO FÓRMICO (formato) — este é o metabólito que se acumula, pois sua eliminação depende de uma via folato-dependente e saturável. O formato inibe a citocromo-oxidase mitocondrial (complexo IV), bloqueando a fosforilação oxidativa: daí a acidose metabólica grave com hiperlactatemia associada e, sobretudo, a lesão do nervo óptico e dos núcleos da base. O correlato neurológico clássico é a necrose bilateral e simétrica do putame, achado quase assinatura na tomografia/ressonância, além de neurite óptica com midríase pouco reativa, borramento visual, 'visão em nevasca' e cegueira definitiva. O formaldeído é intermediário de meia-vida curtíssima (minutos), não se acumula e por isso não é o responsável pelo quadro — distrator que explora exatamente essa confusão. O ácido acético é o produto final do metabolismo do etanol e é rapidamente incorporado ao ciclo de Krebs, sem gerar acidose com gap elevado. A acetona é um corpo cetônico, associado à cetoacidose alcoólica ou diabética e à intoxicação por isopropanol — esta última, aliás, causa gap osmolar alto SEM acidose, distinção muito cobrada."
+    },
+    {
+     "enunciado": "Diante do caso clínico, indique as medidas terapêuticas mais adequadas neste momento:",
+     "alternativas": {
+      "a": "Infusão de etanol oral para antagonizar o metanol, hidratação vigorosa e alcalinização urinária com bicarbonato.",
+      "b": "Correção da acidose metabólica com bicarbonato, uso de fomepizol e ácido fólico, além de hemodiálise.",
+      "c": "Administração de naloxona intravenosa, seguida de lavagem gástrica, intubação e suporte ventilatório.",
+      "d": "Infusão de insulina regular associada à solução glicosada e administração intravenosa de tiamina."
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ 2026] O tratamento tem quatro pilares. Primeiro, bloquear a formação do metabólito tóxico com fomepizol, inibidor competitivo de alta afinidade da álcool-desidrogenase (dose de ataque 15 mg/kg, seguida de 10 mg/kg a cada 12 h); na indisponibilidade do fomepizol, usa-se etanol endovenoso mantendo alcoolemia em torno de 100 mg/dL. Segundo, corrigir a acidose com bicarbonato de sódio, mantendo o pH acima de 7,3 — medida que não é apenas cosmética: em pH mais alto o formato permanece na forma ionizada, que atravessa mal as membranas, reduzindo a penetração no nervo óptico e no sistema nervoso central. Terceiro, acelerar a eliminação do formato com ácido folínico ou ácido fólico, cofator da via que converte formato em CO2 e água. Quarto, hemodiálise, indicada em acidose refratária, alterações visuais, nível sérico de metanol elevado ou disfunção renal — ela remove simultaneamente o metanol e o formato, e é o único método capaz de encurtar o curso da intoxicação. A alternativa da naloxona trataria intoxicação por opioides, que cursa com MIOSE puntiforme e depressão respiratória, o oposto do padrão aqui descrito. A alternativa de insulina com glicose e tiamina corresponde ao manejo de cetoacidose diabética somado à profilaxia de Wernicke — plausível no etilista, mas a glicemia é normal e não explicaria o gap osmolar. A alternativa do etanol ORAL com alcalinização urinária está incorreta pela via (o etanol deve ser endovenoso e titulado) e porque a alcalinização urinária é estratégia da intoxicação por salicilatos, não por metanol.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 22 — Transtornos do Nível de Consciência; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 2 — Torpor e Coma."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências / Distúrbio hidroeletrolítico (hipocalemia) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 4 anos de idade, chega à Emergência, pois está cursando com sonolência e fraqueza muscular progressiva, especialmente em membros inferiores, nos últimos dois dias. Refere cãibras frequentemente. Há relato de diarreia, há aproximadamente 5 dias, que melhorou a partir do 4º dia. Hoje, começou a apresentar palpitações e houve um episódio de vômito. Mantém diurese. Ao exame, está letárgico, taquicárdico, com mucosa oral seca e redução do tônus muscular. Os exames mostram: Hemograma normal; Na: 140 mEq/L; K: 2,3 mEq/L; Ca: 2,5 mmol/L; Cloretos: 100 mEq/L; Eletrocardiograma: taquicardia ventricular.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o caso clínico, indique o distúrbio mais provável:",
+     "alternativas": {
+      "a": "Hipernatremia.",
+      "b": "Hipercalcemia.",
+      "c": "Hipoglicemia.",
+      "d": "Hipocalemia."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O potássio de 2,3 mEq/L (normal 3,5 a 5,0) define hipocalemia grave e explica integralmente a apresentação. O potássio é o principal cátion intracelular e determina o potencial de repouso da membrana; sua queda hiperpolariza a célula, tornando mais difícil atingir o limiar de despolarização — daí a fraqueza muscular ascendente com predomínio proximal e em membros inferiores, as cãibras, a hipotonia, a redução do peristaltismo (íleo) e, no miocárdio, o encurtamento da repolarização com aumento do automatismo, que produz as arritmias ventriculares aqui documentadas. As alterações eletrocardiográficas seguem uma sequência conhecida: achatamento e inversão da onda T, infradesnivelamento do segmento ST, aparecimento da onda U proeminente, prolongamento do intervalo QU e, finalmente, taquicardia e fibrilação ventriculares. A hipoglicemia poderia causar sonolência, mas cursaria com sudorese, tremor e resposta à glicose, e a glicemia não está alterada no caso. A hipercalcemia produz constipação, poliúria, náusea, letargia e encurtamento do QT, mas o cálcio de 2,5 mmol/L está dentro da normalidade. A hipernatremia daria sede intensa, irritabilidade, hipertonia e convulsões, e o sódio de 140 mEq/L é rigorosamente normal — distratores construídos para testar a leitura correta dos valores fornecidos."
+    },
+    {
+     "enunciado": "Identifique a etiologia mais frequentemente associada ao quadro:",
+     "alternativas": {
+      "a": "Deficiência enzimática.",
+      "b": "Gastroenterite aguda.",
+      "c": "Distúrbio neurológico.",
+      "d": "Doença reumatológica."
+     },
+     "correta": "b",
+     "dificuldade": "facil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A gastroenterite aguda é, disparadamente, a causa mais comum de hipocalemia na criança em todo o mundo, e a própria vinheta oferece a pista temporal: diarreia iniciada cinco dias antes. As perdas ocorrem por duas vias somadas — o potássio perdido diretamente nas fezes (o conteúdo fecal na diarreia secretora pode chegar a 40-60 mEq/L de potássio) e o hiperaldosteronismo secundário à hipovolemia, que faz o túbulo coletor reabsorver sódio e excretar potássio. Os vômitos agravam por gerar alcalose metabólica, que desloca potássio para dentro da célula em troca de hidrogênio. Vale a pegadinha: a melhora da diarreia não significa que o distúrbio se resolveu — o déficit corporal total de potássio pode levar dias para se manifestar plenamente, e a criança pode piorar justamente quando a diarreia cessa. As doenças reumatológicas não são causa habitual de hipocalemia relevante em pediatria. Deficiências enzimáticas e erros inatos do metabolismo podem cursar com distúrbios eletrolíticos, mas são causas raras e apresentariam manifestações desde a lactância, com acidose e descompensações recorrentes. Distúrbios neurológicos primários causariam fraqueza sem alteração eletrolítica. Outras causas a lembrar quando não há diarreia: uso de diuréticos, acidose tubular renal, síndrome de Bartter e Gitelman, e realimentação."
+    },
+    {
+     "enunciado": "Indique a conduta adequada para o acompanhamento desse paciente:",
+     "alternativas": {
+      "a": "Liberar para acompanhamento ambulatorial.",
+      "b": "Internação em enfermaria.",
+      "c": "Internação em Unidade de Terapia Intensiva.",
+      "d": "Manter sob observação no Setor de Emergência."
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Trata-se de hipocalemia grave (K < 2,5 mEq/L) COM repercussão de risco de vida — taquicardia ventricular documentada e rebaixamento do sensório. Essa combinação exige monitorização eletrocardiográfica contínua e reposição de potássio por via endovenosa em acesso confiável, o que só se faz com segurança em Unidade de Terapia Intensiva. A reposição venosa em pediatria costuma ser feita com 0,5 a 1 mEq/kg de cloreto de potássio infundido em 1 a 2 horas, com velocidade máxima habitual de 0,3 a 0,5 mEq/kg/hora, concentração limitada em veia periférica (em geral até 40 mEq/L) e dosagens seriadas, pois a correção rápida pode gerar hipercalemia e parada cardíaca. Dois cuidados complementares que a prova adora: corrigir a hipomagnesemia associada, sem a qual a hipocalemia é refratária, e restaurar a volemia. Manter apenas em observação na emergência é insuficiente diante de arritmia ventricular ativa. Liberar para acompanhamento ambulatorial seria conduta francamente inadequada e potencialmente fatal. A internação em enfermaria não oferece monitorização cardíaca contínua nem retaguarda imediata para arritmias malignas — é aceitável apenas para hipocalemia leve a moderada, assintomática, com reposição oral.\n📚 Leitura sugerida (bloco): Choque em Pediatria (material do Drive) — https://drive.google.com/file/d/11Wx8xIUFnHO1M-dvnxHASuSgNWNSz9H8/view ; complementar com o Manual de Emergências da Sociedade Brasileira de Pediatria, capítulo de distúrbios hidroeletrolíticos."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia (prematuridade extrema) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Recém-nascida, sexo feminino, assistida na sala de parto, foi encaminhada à UTI Neonatal após o nascimento, devido à prematuridade extrema, e precisou de ventilação mecânica. Nasceu de parto cesáreo, após uma gestação complicada, pois a mãe apresentou hipertensão gestacional, havendo restrição de crescimento fetal. Além da dificuldade respiratória, apresenta icterícia neonatal. A equipe médica está em alerta quanto ao manejo intensivo, incluindo cuidados com nutrição, prevenção de infecções e suporte ventilatório.",
+   "perguntas": [
+    {
+     "enunciado": "Em relação à condição de prematuridade, o termo \"prematuro extremo\" se refere à criança recém-nascida de gestação com duração:",
+     "alternativas": {
+      "a": "menor que 34 semanas.",
+      "b": "menor que 24 semanas.",
+      "c": "menor que 30 semanas.",
+      "d": "menor que 28 semanas."
+     },
+     "correta": "d",
+     "dificuldade": "facil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A classificação da Organização Mundial da Saúde por idade gestacional é item de recall obrigatório: prematuro TARDIO de 34 semanas a 36 semanas e 6 dias; prematuro MODERADO de 32 a 33 semanas e 6 dias; MUITO prematuro de 28 a 31 semanas e 6 dias; e prematuro EXTREMO abaixo de 28 semanas. Menor que 34 semanas corresponde ao conjunto dos prematuros que ainda não completaram a maturação pulmonar plena e que concentram a indicação de corticoide antenatal, mas não define extremo. Menor que 30 semanas não corresponde a nenhuma faixa da classificação oficial. Menor que 24 semanas é próximo do limiar de viabilidade discutido em ética neonatal, e não da definição de prematuro extremo. Vale distinguir a classificação por idade gestacional da classificação por PESO ao nascer, frequentemente confundida na prova: baixo peso abaixo de 2.500 g, muito baixo peso abaixo de 1.500 g e extremo baixo peso abaixo de 1.000 g. São eixos independentes — uma criança pode ser prematura extrema e ainda assim ter peso adequado para sua idade gestacional, ou ser de baixo peso por restrição de crescimento sendo nascida a termo, como parcialmente ilustrado neste caso, em que há também restrição de crescimento fetal por doença hipertensiva materna."
+    },
+    {
+     "enunciado": "O quadro clínico que caracteriza recém-nascidos prematuros extremos inclui sempre:",
+     "alternativas": {
+      "a": "Dificuldade respiratória e instabilidade térmica.",
+      "b": "Tônus muscular e sucção normais desde o nascimento.",
+      "c": "Letargia e hiperreflexia.",
+      "d": "Hipotermia leve e hiperglicemia assintomática."
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Os dois achados universais do prematuro extremo derivam diretamente da imaturidade orgânica. A dificuldade respiratória resulta da deficiência de surfactante alveolar, produzido pelos pneumócitos tipo II em quantidade suficiente apenas a partir de cerca de 34 a 35 semanas, somada à caixa torácica complacente e ao drive respiratório imaturo — configurando a síndrome do desconforto respiratório, ou doença da membrana hialina. A instabilidade térmica decorre da elevada relação superfície corporal/peso, da pele fina com perda transepidérmica de água, da ausência de gordura marrom e da incapacidade de gerar calor por termogênese sem tremor — por isso a prevenção da hipotermia na sala de parto (saco plástico, touca, campos aquecidos, temperatura ambiente entre 23 e 26 ºC) é etapa formal da reanimação neonatal. Letargia com HIPERreflexia é incorreta: o prematuro é hipotônico e hiporreflexo, com reflexos primitivos incompletos. Tônus e sucção normais desde o nascimento é o oposto do esperado — a coordenação sucção-deglutição-respiração só amadurece por volta de 34 semanas, motivo pelo qual esses bebês necessitam de sonda gástrica. Hipotermia LEVE com hiperglicemia assintomática está errada em ambos os componentes: a hipotermia costuma ser grave e o distúrbio glicêmico predominante é a HIPOglicemia, por escassez de estoques de glicogênio hepático."
+    },
+    {
+     "enunciado": "Especifique o prognóstico, a longo prazo, para crianças nascidas nas condições descritas:",
+     "alternativas": {
+      "a": "Risco médio de complicações, sem impacto no desenvolvimento.",
+      "b": "Muito favorável; desenvolvimento quase igual ao de crianças a termo.",
+      "c": "Recuperação completa sem necessidade de acompanhamento específico.",
+      "d": "Alto risco de complicações respiratórias e neurológicas."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O prematuro extremo é o paciente pediátrico de maior risco de sequela. No eixo respiratório, a displasia broncopulmonar — dependência de oxigênio às 36 semanas de idade pós-menstrual — acomete parcela expressiva dos nascidos abaixo de 28 semanas e associa-se a sibilância recorrente, reinternações por infecção respiratória e função pulmonar reduzida na vida adulta. No eixo neurológico, os riscos são hemorragia peri-intraventricular da matriz germinativa, leucomalácia periventricular, paralisia cerebral, deficiência intelectual, transtornos de aprendizagem e de atenção. Somam-se retinopatia da prematuridade com risco de cegueira (rastreio oftalmológico obrigatório a partir da 4ª a 6ª semana de vida ou 31 semanas pós-menstruais), surdez neurossensorial, enterocolite necrosante, osteopenia e déficit de crescimento. Por isso o seguimento em ambulatório de follow-up do prematuro é norma, com avaliação seriada do desenvolvimento neuropsicomotor usando IDADE CORRIGIDA até os 2 anos. As alternativas de recuperação completa, prognóstico muito favorável ou risco médio sem impacto no desenvolvimento contrariam frontalmente a literatura e a lógica do acompanhamento especializado que a própria vinheta descreve.\n📚 Leitura sugerida (bloco): videoaula de Neonatologia (R+ Pediatria MEDGRUPO, material do Drive) — https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view ; complementar com o Manual de Seguimento do Prematuro da Sociedade Brasileira de Pediatria."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Imunologia / Erros inatos da imunidade (imunodeficiência combinada grave) [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "MÉDIO",
+   "vinheta": "Lactente masculino de 10 meses, com história de diarreia crônica, monilíase oral persistente e baixo ganho ponderal, vai ao ambulatório. A mãe refere que um primo faleceu por infecção disseminada, após vacina BCG. Ao exame físico, observa-se ausência de amígdalas, candidíase oral extensa e linfonodos impalpáveis.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro descrito, identifique o grupo de imunodeficiência mais provável no qual se encontra essa criança:",
+     "alternativas": {
+      "a": "Deficiência de complemento.",
+      "b": "Imunodeficiência combinada grave (SCID).",
+      "c": "Deficiência humoral isolada.",
+      "d": "Síndrome de hiper-IgE."
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A imunodeficiência combinada grave é definida por falha simultânea das imunidades celular (linfócitos T) e humoral (linfócitos B, direta ou indiretamente por falta de auxílio T). Todos os elementos da vinheta apontam para ela: início precoce, no primeiro ano de vida; diarreia crônica e déficit ponderal (falha de crescimento); candidíase oral persistente e extensa, que é marcador de defeito de imunidade CELULAR; ausência de tecido linfoide visível — amígdalas ausentes e linfonodos impalpáveis, refletindo hipoplasia linfoide; e história familiar de óbito por doença disseminada após BCG, indicando incapacidade de conter micobactéria atenuada e sugerindo herança ligada ao X (a forma mais comum, por mutação da cadeia gama comum do receptor de citocinas). A deficiência de complemento manifesta-se por infecções recorrentes por bactérias encapsuladas, sobretudo Neisseria, e por doença autoimune tipo lúpus, sem candidíase nem hipoplasia linfoide. A síndrome de hiper-IgE (Job) cursa com abscessos cutâneos frios, pneumonias com pneumatoceles, eczema grave, fácies característica e retenção de dentes decíduos. A deficiência humoral isolada, como a agamaglobulinemia ligada ao X, também cursa com ausência de amígdalas, mas as infecções são bacterianas piogênicas sinopulmonares, com início após os 6 meses, quando decai o anticorpo materno — e caracteristicamente NÃO há candidíase persistente nem doença por BCG."
+    },
+    {
+     "enunciado": "Em relação à principal suspeita diagnóstica, identifique a alternativa correta:",
+     "alternativas": {
+      "a": "Costumam ser detectadas tardiamente, após os 5 anos de idade.",
+      "b": "Vacinas BCG e rotavírus podem desencadear formas graves e fatais da doença.",
+      "c": "São mais frequentes em meninas e geralmente autossômicas dominantes.",
+      "d": "Representam cerca de 10% de todas as imunodeficiências primárias."
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A afirmação correta refere-se ao risco das vacinas de agentes VIVOS. Na imunodeficiência combinada grave, o BCG (Mycobacterium bovis atenuado) pode causar becegeíte disseminada e fatal, e a vacina oral de rotavírus (vírus vivo atenuado) pode provocar diarreia grave prolongada com eliminação persistente do vírus vacinal — exatamente o que se suspeita no primo falecido. Por isso, toda criança com suspeita de erro inato da imunidade tem contraindicação formal a vacinas vivas (BCG, rotavírus, poliomielite oral, tríplice viral, varicela, febre amarela), e essa é uma das razões que motivaram a inclusão da triagem neonatal para SCID por dosagem de TRECs em vários países. A alternativa sobre predomínio em meninas com herança autossômica dominante está errada duas vezes: a forma mais comum é ligada ao X, portanto predomina em MENINOS, e as demais formas são autossômicas RECESSIVAS (deficiência de adenosina deaminase, RAG1/RAG2, IL7R, entre outras). A alternativa de detecção após os 5 anos contraria a apresentação da doença, que é uma EMERGÊNCIA pediátrica de manifestação nos primeiros meses de vida e letal no primeiro ou segundo ano sem tratamento. A alternativa sobre representarem 10% das imunodeficiências primárias está incorreta: as deficiências predominantemente de anticorpos respondem pela maioria (em torno de 50 a 60%) dos erros inatos da imunidade, ao passo que as combinadas graves são uma fração pequena, embora a mais grave."
+    },
+    {
+     "enunciado": "Em relação ao tratamento e prognóstico dessa doença, é correto afirmar:",
+     "alternativas": {
+      "a": "O transplante de medula óssea precoce é curativo em grande parte dos casos.",
+      "b": "A doença tende a regressão espontânea após os 2 anos de idade.",
+      "c": "O uso contínuo de antibióticos profiláticos é o tratamento de escolha.",
+      "d": "A reposição de imunoglobulina isoladamente é suficiente para controle da doença."
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O transplante de células-tronco hematopoéticas é o único tratamento curativo consolidado da imunodeficiência combinada grave, e o fator prognóstico mais importante é o TEMPO até o procedimento: transplantes realizados antes dos 3,5 meses de vida e antes da instalação de infecção ativa alcançam sobrevida superior a 90%, enquanto o retardo derruba esses números drasticamente. Em algumas formas específicas há alternativas — terapia de reposição enzimática na deficiência de adenosina deaminase e terapia gênica já aprovada para subtipos selecionados. Enquanto se aguarda o transplante, mantêm-se medidas de ponte: imunoglobulina endovenosa, profilaxia contra Pneumocystis jirovecii com sulfametoxazol-trimetoprima, antifúngico, isolamento protetor, uso exclusivo de hemocomponentes irradiados e filtrados e CMV-negativos, e suspensão de vacinas vivas. A reposição isolada de imunoglobulina corrige apenas o braço humoral e é insuficiente, pois a criança continua vulnerável a vírus, fungos e micobactérias — trata-se justamente do erro conceitual que a questão testa. Antibiótico profilático contínuo é medida adjuvante, jamais tratamento de escolha. A regressão espontânea após os 2 anos não ocorre; sem transplante, a letalidade no primeiro ou segundo ano de vida é a regra.\n📚 Leitura sugerida (bloco): Documento Científico do Departamento de Alergia e Imunologia da Sociedade Brasileira de Pediatria — 'Erros inatos da imunidade: sinais de alerta e investigação inicial'; complementar com os 10 sinais de alerta do BRAGID."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Dermatologia / Alergia (urticária aguda com evolução para anafilaxia) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "MÉDIO",
+   "vinheta": "Menina, 3 anos de idade, é levada à Unidade de Pronto Atendimento por cuidadora da creche, que relata o aparecimento súbito, nas últimas duas horas, de lesões cutâneas que causam intenso prurido. As lesões são eritematosas, elevadas, com margens difusas, apresentando diferentes tamanhos e formas e, embora estejam espalhadas por várias regiões do corpo, em algumas áreas se unem, atingindo mais do que 3,0 cm de diâmetro. A mãe da criança, ao ser consultada, informa que não houve febre ou sintomas de infecção respiratória, nem uso recente de novos medicamentos ou introdução de novos alimentos na dieta da criança. Antes de chegar à creche, naquele dia, a criança não apresentava quaisquer sinais de desconforto ou anormalidade na pele. Foi administrada dexclorfeniramina (2,5 mL) pela cuidadora, uma hora antes de chegarem à UPA, porém, sem melhora significativa das lesões ou do prurido.",
+   "perguntas": [
+    {
+     "enunciado": "Com base na descrição do caso, indique as lesões elementares de pele que são mais características do diagnóstico principal:",
+     "alternativas": {
+      "a": "Púrpura com relevo, sem desaparecimento à vitropressão.",
+      "b": "Placas confluentes, migratórias e evanescentes.",
+      "c": "Pápulas confluentes, com relevo, sem desaparecimento à vitropressão.",
+      "d": "Placas circinadas, confluentes e duradouras."
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A lesão elementar da urticária é a urtica (ou seja, placa eritematoedematosa), e seus três atributos definidores são: ser MIGRATÓRIA (as lesões surgem em um local e desaparecem para reaparecer em outro), ser EVANESCENTE (cada lesão individual dura menos de 24 horas) e ser pruriginosa. Substrato fisiopatológico: degranulação do mastócito dérmico com liberação de histamina, que produz vasodilatação e aumento da permeabilidade capilar na derme superficial — daí o edema transitório que empalidece à vitropressão. Justamente por serem confluentes, elas assumem tamanhos e formas variados, como descrito. As alternativas com 'sem desaparecimento à vitropressão' descrevem extravasamento de hemácias, isto é, púrpura — achado de vasculite (na urticária vasculite as lesões duram mais de 24 horas, deixam hiperpigmentação residual e ardem mais do que coçam) ou de púrpura de Henoch-Schönlein, que se apresenta com púrpura palpável em membros inferiores e nádegas. A opção de placas circinadas e DURADOURAS contraria o caráter evanescente e sugeriria eritema anular ou eritema marginado da febre reumática. Pegadinha frequente: a falta de resposta ao anti-histamínico de primeira geração não afasta urticária; ao contrário, o correto é usar anti-H1 de SEGUNDA geração em dose que pode ser quadruplicada, evitando os de primeira geração pela sedação e pelos efeitos anticolinérgicos na criança."
+    },
+    {
+     "enunciado": "Identifique a causa mais provável a ser, detalhadamente, investigada nesse caso:",
+     "alternativas": {
+      "a": "Angioedema hereditário.",
+      "b": "Vasculite autoimune.",
+      "c": "Alergia alimentar.",
+      "d": "Infecção por vírus."
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O gabarito da banca aponta a alergia alimentar como a causa a ser investigada em detalhe, e o raciocínio é epidemiológico e temporal: trata-se de urticária aguda de instalação súbita, em pré-escolar, sem pródromo infeccioso e sem medicamento novo, iniciada durante a permanência na creche — ambiente em que a criança recebe alimentos fora do controle materno. A mãe nega introdução de alimentos novos EM CASA, o que não exclui exposição na creche; e a evolução posterior com sintoma respiratório (na terceira pergunta deste bloco) confirma reação sistêmica mediada por IgE. Os alimentos mais implicados na infância são leite de vaca, ovo, amendoim, castanhas, trigo, soja, peixe e frutos do mar. A investigação envolve história alimentar minuciosa das últimas horas, IgE específica ou teste cutâneo de puntura, e, quando necessário, teste de provocação oral supervisionado. A infecção viral é, na estatística global, a causa mais comum de urticária aguda em crianças — mas a vinheta afasta explicitamente febre e sintomas respiratórios, e o quadro instalou-se em duas horas, sem pródromo. A vasculite autoimune produziria lesões fixas e purpúricas, com duração superior a 24 horas. O angioedema hereditário é diagnóstico de exclusão nesse contexto: cursa com angioedema SEM urticas e SEM prurido, não responde a anti-histamínico nem a adrenalina, e decorre de deficiência do inibidor de C1-esterase, com crises tipicamente desencadeadas por trauma ou estresse."
+    },
+    {
+     "enunciado": "Enquanto era atendida, a criança passou a cursar com tosse seca e irritativa. A medicação a ser utilizada neste momento é:",
+     "alternativas": {
+      "a": "Salbutamol inalatório.",
+      "b": "Prednisolona oral.",
+      "c": "Hidrocortisona venosa.",
+      "d": "Adrenalina intramuscular."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O acréscimo de sintoma respiratório a um quadro cutâneo agudo generalizado configura ANAFILAXIA pelos critérios internacionais (envolvimento de pele/mucosa somado a comprometimento de pelo menos um outro sistema — respiratório, cardiovascular ou gastrointestinal persistente — após exposição a alérgeno provável). O tratamento de primeira linha, imediato e sem substituto, é a ADRENALINA intramuscular na face anterolateral da coxa (vasto lateral), na dose de 0,01 mg/kg da solução 1:1000, máximo de 0,3 mg em crianças e 0,5 mg em adultos, repetível a cada 5 a 15 minutos. Ela age nos receptores alfa-1 revertendo a vasodilatação e o edema de mucosa e nos beta-2 promovendo broncodilatação, além de estabilizar mastócitos — nenhum outro fármaco faz isso. A via intramuscular na coxa é superior à subcutânea e à deltoide por atingir pico sérico mais rápido; a via endovenosa fica reservada ao choque refratário, em bomba de infusão e com monitorização. O salbutamol trata apenas o broncoespasmo e é ADJUVANTE, jamais substituto. Corticoides — prednisolona oral ou hidrocortisona venosa — têm início de ação de horas, não revertem a fase aguda e hoje sequer têm benefício comprovado na prevenção da reação bifásica; são medicações de segunda linha. Erro clássico e fatal em prova e na prática: retardar a adrenalina para 'tentar' anti-histamínico e corticoide primeiro. Após a estabilização, observação por 4 a 8 horas, prescrição de autoinjetor quando disponível, plano de ação por escrito e encaminhamento ao alergista.\n📚 Leitura sugerida (bloco): Guia Prático de Atualização da Sociedade Brasileira de Pediatria — 'Anafilaxia na criança e no adolescente: diagnóstico e tratamento'; complementar com o Flashcard de Reanimação e emergências do Drive — https://drive.google.com/file/d/1lQDZ-aXmmrhWhbUcQ_NCXQ5v8yPtMJEV/view"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Saúde Coletiva, APS e Ética (suspeita de violência sexual e ECA) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 12 anos de idade, é levado ao Pronto-Socorro pelo seu pai com queixas de dor abdominal recorrente, ansiedade e comportamento retraído. O pai relata que o filho se queixa de dor na região abdominal, com frequência, além de cefaleia frontal esporádica, principalmente após visitas de um parente próximo. Observa que o comportamento do menor mudou nos últimos meses, tornando-se mais isolado e ansioso. O pai está preocupado com a possibilidade de abuso sexual.",
+   "perguntas": [
+    {
+     "enunciado": "Em caso de suspeita de abuso sexual é direito da criança, a ser aplicado:",
+     "alternativas": {
+      "a": "Direito da criança de manter-se silente sobre o autor e forma de abuso.",
+      "b": "Direito à privacidade, as suspeitas não devem ser relatadas às autoridades.",
+      "c": "Direito de ser representado pelos pais em qualquer situação.",
+      "d": "Direito à segurança, proteção e assistência como propriedade."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O eixo do Estatuto da Criança e do Adolescente é a doutrina da PROTEÇÃO INTEGRAL, que reconhece crianças e adolescentes como sujeitos de direitos em condição peculiar de desenvolvimento e estabelece a prioridade absoluta de sua segurança, proteção e assistência (arts. 4º, 5º e 98 da Lei 8.069/1990). Diante de suspeita de violência sexual, esse direito prevalece sobre qualquer outro interesse — inclusive sobre a vontade da família. A alternativa da privacidade com não comunicação às autoridades é frontalmente ilegal: o art. 13 do ECA determina a comunicação obrigatória ao Conselho Tutelar de casos suspeitos OU confirmados de maus-tratos, e a Lei 13.431/2017 organiza o sistema de garantia de direitos da criança vítima ou testemunha de violência, com escuta especializada e depoimento especial para evitar a revitimização. A alternativa da representação pelos pais 'em qualquer situação' falha porque, quando o suspeito é membro da família ou pessoa do convívio, configura-se conflito de interesses, e o Conselho Tutelar e o Ministério Público podem determinar medidas protetivas, inclusive o afastamento do agressor do convívio (art. 130 do ECA). A alternativa do 'direito de manter-se silente' distorce o conceito: a criança não é obrigada a repetir o relato — princípio da não revitimização —, mas isso não a torna titular de um dever de silêncio nem exime o profissional de notificar."
+    },
+    {
+     "enunciado": "Sobre a responsabilidade do médico ao lidar com casos de suspeita de abuso sexual em crianças, é correto afirmar:",
+     "alternativas": {
+      "a": "O médico está submisso apenas ao Código de Ética Médica ao atender tais casos.",
+      "b": "O médico responde nas esferas ética, civil e penal pelo atendimento prestado.",
+      "c": "O médico deve respeitar o sigilo médico e não relatar a ninguém.",
+      "d": "O médico não tem dever legal relativo a atendimento de casos de abuso."
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A responsabilidade do médico é tríplice e simultânea: ÉTICA, perante o Conselho Regional de Medicina, com base no Código de Ética Médica; CIVIL, pelo dever de reparação de danos causados por imperícia, imprudência ou negligência; e PENAL, inclusive pela omissão. O art. 245 do ECA tipifica como infração administrativa deixar o médico de comunicar à autoridade competente os casos de suspeita ou confirmação de maus-tratos, com pena de multa de 3 a 20 salários de referência, dobrada em caso de reincidência; e a omissão de socorro é crime previsto no art. 135 do Código Penal. A alternativa do sigilo absoluto é o erro mais grave e o mais cobrado: o art. 73 do Código de Ética Médica veda a revelação de fato sigiloso, mas ressalva expressamente as hipóteses de dever legal e de justa causa — e a proteção de criança em risco configura ambas. Não existe, portanto, conflito real entre sigilo e notificação. A alternativa de ausência de dever legal ignora o ECA, a Lei 13.431/2017 e a Portaria de notificação compulsória de violências no SINAN. A alternativa de submissão exclusiva ao Código de Ética Médica é incorreta porque a norma ética não afasta a legislação civil nem a penal — as três esferas são independentes e podem ser acionadas cumulativamente pelo mesmo fato."
+    },
+    {
+     "enunciado": "A conduta adequada do médico ao suspeitar de abuso sexual em uma criança é:",
+     "alternativas": {
+      "a": "Iniciar uma investigação médica completa sem informar, ainda, às autoridades.",
+      "b": "Ignorar a suspeita de abuso e tratar apenas os sintomas físicos.",
+      "c": "Preencher a Notificação da suspeita ao Conselho Tutelar e prestar cuidados clínicos.",
+      "d": "Solicitar autorização do pai da criança antes de qualquer notificação."
+     },
+     "correta": "c",
+     "dificuldade": "facil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A conduta correta reúne duas ações que caminham juntas e sem hierarquia: notificar a SUSPEITA — não é preciso ter certeza, e a notificação não é denúncia policial nem acusação, é um instrumento de proteção e de vigilância epidemiológica — e prestar o cuidado clínico integral. O fluxo prático: preencher a ficha de notificação de violência interpessoal/autoprovocada do SINAN (notificação compulsória IMEDIATA, em até 24 horas, quando se trata de violência sexual), comunicar ao Conselho Tutelar, registrar em prontuário de forma objetiva e detalhada com as palavras da criança entre aspas, realizar exame físico completo e cuidadoso evitando repetições desnecessárias, e, se a exposição for recente (até 72 horas para profilaxia antirretroviral e até 5 dias para contracepção de emergência em adolescentes), instituir profilaxias para HIV, hepatite B, sífilis, gonorreia, clamídia e tricomoníase, além de encaminhar ao serviço de referência e à assistência psicossocial. Ignorar a suspeita constitui omissão punível nas três esferas. Pedir autorização do pai é conduta inadequada e potencialmente perigosa, pois o suspeito pode ser familiar — a notificação independe de autorização de qualquer responsável. Conduzir investigação médica completa sem informar as autoridades retarda a proteção e submete a criança a exames e inquirições repetidos, exatamente o que a Lei 13.431/2017 busca evitar com a escuta especializada.\n📚 Leitura sugerida (bloco): Estatuto da Criança e do Adolescente (Lei 8.069/1990), arts. 4º, 13, 98, 130 e 245, combinado com a Lei 13.431/2017; complementar com a 'Linha de Cuidado para a Atenção Integral à Saúde de Crianças, Adolescentes e suas Famílias em Situação de Violências' (Ministério da Saúde)."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecções respiratórias / APS (resfriado comum) [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 5 anos de idade, é levada à UBS com queixa de nariz entupido, coriza transparente e tosse leve há quatro dias. A mãe refere febre baixa (máximo de 37,8 °C) nos dois primeiros dias. A criança está ativa, com apetite preservado. Nega vômitos ou dor de cabeça. Ao exame físico: temperatura = 36,9 °C; FR = 24 irpm; FC = 98 bpm. Mucosa nasal hiperemiada, com secreção serosa. Seios da face não dolorosos à palpação. Amígdalas hiperemiadas, sem exsudato. Sem outras alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a faixa etária, em pediatria, em que a principal suspeita diagnóstica é mais frequentemente observada:",
+     "alternativas": {
+      "a": "Lactentes menores de 6 meses.",
+      "b": "Crianças de 1 a 5 anos, em idade pré-escolar.",
+      "c": "Crianças de 6 a 12 anos, em idade escolar.",
+      "d": "Adolescentes de 13 a 18 anos."
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O quadro descrito é o de resfriado comum (rinofaringite viral aguda): coriza serosa, obstrução nasal, tosse leve, febre baixa e autolimitada nos primeiros dias, criança ativa e com apetite preservado, sem sinais de complicação. A banca considerou como gabarito os lactentes menores de 6 meses — raciocínio baseado na maior VULNERABILIDADE dessa faixa: vias aéreas de calibre muito reduzido, em que qualquer edema de mucosa gera obstrução desproporcional, respiração preferencialmente nasal (o lactente pequeno tem dificuldade de respirar pela boca, o que compromete a mamada), imaturidade da resposta imune de mucosa e queda progressiva dos anticorpos maternos transplacentários. É a faixa em que o resfriado mais frequentemente leva à procura de serviço de saúde e mais frequentemente evolui para complicação. Vale conhecer o dado epidemiológico complementar, muito cobrado e potencialmente confundidor: em NÚMERO ABSOLUTO de episódios por ano, o pico ocorre em pré-escolares que frequentam creche, com 6 a 8 episódios anuais, podendo chegar a 12 — daí a alternativa dos 1 a 5 anos ser tentadora. Escolares (6 a 12 anos) e adolescentes têm frequência progressivamente menor, à medida que se amplia o repertório imunológico contra os mais de 200 sorotipos virais circulantes."
+    },
+    {
+     "enunciado": "Indique o agente etiológico mais comum nessa condição da criança:",
+     "alternativas": {
+      "a": "Vírus Sincicial Respiratório.",
+      "b": "Streptococcus pneumoniae.",
+      "c": "Influenza.",
+      "d": "Rinovírus."
+     },
+     "correta": "d",
+     "dificuldade": "facil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O rinovírus é o agente mais frequente do resfriado comum, respondendo por algo entre 30 e 50% dos casos, com picos no outono e na primavera. Trata-se de um Picornavírus de RNA, com mais de 160 sorotipos, o que explica a ausência de imunidade cruzada duradoura e a repetição dos episódios ao longo da infância. Ele se replica melhor em temperaturas ligeiramente abaixo da corporal, o que favorece justamente a mucosa nasal. Outros agentes do mesmo quadro incluem coronavírus sazonais, vírus sincicial respiratório, parainfluenza, adenovírus, metapneumovírus e bocavírus. O Streptococcus pneumoniae é bactéria colonizadora da nasofaringe e agente de complicações bacterianas (otite média aguda, sinusite, pneumonia), e não do resfriado em si. O Influenza causa síndrome gripal, um quadro distinto e mais exuberante, de início abrupto, com febre alta, mialgia intensa, cefaleia e prostração — a criança da vinheta está ativa e afebril no momento do exame. O vírus sincicial respiratório é o principal agente da BRONQUIOLITE no lactente, com sibilância, taquipneia e esforço respiratório; pode causar resfriado em crianças maiores, mas não é o agente mais comum globalmente. Pérola: a persistência da coriza por 10 dias, ou a piora após melhora inicial ('dupla piora'), ou febre alta com secreção purulenta por mais de 3 dias consecutivos são os critérios que sugerem sinusite bacteriana aguda."
+    },
+    {
+     "enunciado": "Indique o mecanismo fisiopatológico que explica os sintomas apresentados no caso:",
+     "alternativas": {
+      "a": "Necrose do epitélio respiratório e fibrose dos seios.",
+      "b": "Atrofia das glândulas mucosas.",
+      "c": "Edema e obstrução dos óstios sinusais, com acúmulo de secreção.",
+      "d": "Invasão direta da mucosa."
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O gabarito da banca destaca o edema da mucosa nasossinusal com obstrução dos óstios de drenagem e acúmulo de secreção como o mecanismo dos sintomas — obstrução nasal, sensação de peso facial, rinorreia e gotejamento posterior com tosse. Fisiologicamente, a infecção viral desencadeia liberação de mediadores inflamatórios (bradicinina, prostaglandinas, interleucinas e histamina) que causam vasodilatação, aumento da permeabilidade capilar e hipersecreção glandular; o edema resultante estreita o complexo ostiomeatal, e o muco retido, somado à disfunção do transporte mucociliar, sustenta os sintomas. Isso explica por que a rinossinusite viral é, na verdade, o quadro subjacente ao 'resfriado' — motivo pelo qual a nomenclatura atual fala em rinossinusite aguda viral. A necrose do epitélio com fibrose dos seios não ocorre no resfriado: é achado de processos crônicos ou de infecções fúngicas invasivas em imunodeprimidos. A atrofia das glândulas mucosas caracterizaria a rinite atrófica, quadro crônico com crostas e fetidez, oposto da hipersecreção aguda. A invasão direta da mucosa com destruição tecidual extensa não é o padrão do rinovírus, que causa dano citopático mínimo — sintomas se devem muito mais à resposta inflamatória do hospedeiro do que ao vírus, princípio que fundamenta o tratamento puramente sintomático: hidratação, lavagem nasal com solução salina, analgésico/antitérmico se necessário, e NENHUM antibiótico, descongestionante sistêmico ou antitussígeno em crianças pequenas.\n📚 Leitura sugerida (bloco): videoaula de Infecções respiratórias (R+ Pediatria MEDGRUPO, material do Drive) — https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view ; complementar com o Tratado de Pediatria da SBP, capítulo de infecções de vias aéreas superiores."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas regionais (febre maculosa brasileira) [RE cota individual: Ana Teresa, 100% de erro, 3/3]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino de 9 anos, morador de área rural do Recôncavo Baiano, ajuda o pai a cuidar de cavalos e convive com cães que circulam pelo mato. Há cinco dias iniciou febre alta contínua, cefaleia intensa, mialgia difusa e prostração, tendo sido medicado com amoxicilina na unidade local, sem melhora. Há dois dias surgiram máculas eritematosas em punhos e tornozelos, que progrediram para o tronco e agora acometem também as palmas das mãos e as plantas dos pés, algumas com aspecto petequial. Hoje apresenta um episódio de vômito e sonolência. Ao exame: temperatura 39,4 °C, hipocorado, hepatoesplenomegalia discreta, sem sinais meníngeos. Exames: plaquetas 62.000/mm³, AST 180 U/L, ALT 150 U/L, sódio 128 mEq/L, ureia e creatinina em elevação.",
+   "perguntas": [
+    {
+     "enunciado": "Qual é a principal hipótese diagnóstica?",
+     "alternativas": {
+      "a": "Meningococcemia",
+      "b": "Dengue com sinais de alarme",
+      "c": "Leptospirose anictérica",
+      "d": "Febre maculosa brasileira"
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "O conjunto exposição rural com contato com equinos e cães + febre alta com cefaleia e mialgia + exantema que começa em PUNHOS E TORNOZELOS e progride centripetamente, acometendo PALMAS E PLANTAS, com evolução para petéquias, é a apresentação clássica da febre maculosa brasileira, causada pela Rickettsia rickettsii e transmitida pelo carrapato-estrela (Amblyomma sculptum), cujo hospedeiro amplificador é a capivara e cujos animais de transporte incluem cavalos e cães. Os achados laboratoriais completam o quadro: plaquetopenia, elevação de transaminases, HIPONATREMIA (muito característica) e disfunção renal, todos decorrentes da vasculite sistêmica — a rickéttsia parasita o endotélio, causa lesão vascular difusa com extravasamento e consumo plaquetário. A dengue com sinais de alarme entra no diferencial pela plaquetopenia e pelo vômito, mas seu exantema é difuso, do tipo morbiliforme com ilhas de pele sã, poupa palmas e plantas na apresentação inicial e não segue o padrão centrípeto de extremidades para o tronco. A leptospirose é um diferencial forte em área rural, com mialgia intensa em panturrilhas, sufusão conjuntival e história de contato com água de enchente ou roedores, mas raramente produz exantema palmoplantar. A meningococcemia evolui em HORAS, não em dias, com petéquias e púrpura de progressão fulminante, choque precoce e frequente sinal meníngeo — o curso subagudo de cinco dias aqui não é compatível."
+    },
+    {
+     "enunciado": "Qual exame confirma o diagnóstico?",
+     "alternativas": {
+      "a": "Hemocultura em meio de ágar-sangue",
+      "b": "Pesquisa de plasmódio em gota espessa",
+      "c": "Teste rápido NS1 no soro",
+      "d": "Reação de imunofluorescência indireta em soros pareados"
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "A confirmação laboratorial padrão-ouro no Brasil é a reação de imunofluorescência indireta (RIFI) para antígenos do grupo febre maculosa, realizada em DUAS amostras pareadas — a primeira na fase aguda e a segunda 14 a 21 dias depois — considerando-se confirmado o caso com soroconversão ou aumento de pelo menos quatro vezes nos títulos de IgG. Isso significa que a confirmação é retrospectiva, e é justamente por isso que a decisão terapêutica nunca pode aguardá-la. Alternativas confirmatórias incluem PCR em sangue, coágulo ou fragmento de pele da lesão, e imuno-histoquímica em biópsia cutânea ou em material de necropsia. A hemocultura convencional em ágar-sangue é inútil, pois a rickéttsia é bactéria intracelular obrigatória, que não cresce em meios acelulares — só em cultura celular, disponível apenas em laboratórios de referência com nível de biossegurança elevado. O NS1 é o teste de antígeno da dengue, útil apenas nos primeiros 5 dias de febre e para outra hipótese. A gota espessa é o exame da malária, hipótese que exigiria procedência ou viagem à Amazônia e cursaria com paroxismos febris, anemia hemolítica e ausência de exantema palmoplantar. Pegadinha frequente: sorologia negativa na primeira semana é a REGRA — os anticorpos costumam surgir a partir do 7º ao 10º dia —, e um resultado negativo precoce jamais deve ser usado para suspender o tratamento."
+    },
+    {
+     "enunciado": "Qual a conduta imediata mais adequada?",
+     "alternativas": {
+      "a": "Prescrever cloranfenicol como primeira escolha por ser criança",
+      "b": "Iniciar doxiciclina imediatamente e notificar de forma compulsória",
+      "c": "Aguardar o resultado sorológico para definir o antimicrobiano",
+      "d": "Manter apenas hidratação e antitérmico, com reavaliação em 48 horas"
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "A febre maculosa brasileira é a rickettsiose de maior letalidade do mundo, superando 40% dos casos confirmados no Brasil quando o tratamento é retardado, e a letalidade cai a menos de 5% quando o antibiótico é iniciado nos primeiros cinco dias de doença. Por isso a regra é categórica: instituir DOXICICLINA diante da mera SUSPEITA, sem aguardar confirmação laboratorial, na dose de 2,2 mg/kg por dose, duas vezes ao dia (máximo de 100 mg por dose), mantida por 3 dias após a cessação da febre, com mínimo de 7 dias. O ponto que a prova mais cobra: a antiga restrição da doxiciclina em menores de 8 anos por risco de coloração dentária foi ABANDONADA para esta indicação — o CDC e o Ministério da Saúde recomendam doxiciclina como primeira escolha em qualquer idade, pois cursos curtos não pigmentam o esmalte e nenhuma alternativa tem eficácia equivalente. Some-se a notificação compulsória IMEDIATA (em até 24 horas), pois trata-se de doença de investigação epidemiológica obrigatória, com busca de outros casos, identificação da área de transmissão e ações de controle de carrapatos. Aguardar o resultado sorológico é a conduta que mata o paciente, pela razão exposta na questão anterior. O cloranfenicol é alternativa apenas em contraindicação absoluta à doxiciclina (por exemplo, gestação), com eficácia inferior e risco de aplasia medular. Manter só hidratação e antitérmico ignora um quadro já com disfunção orgânica e sonolência. Bloco de revisão espaçada: mesmo tema de fragilidade (infecciosas regionais), com caso e agente inéditos em relação à leishmaniose visceral revisada anteriormente.\n📚 Leitura sugerida (bloco): Guia de Vigilância em Saúde do Ministério da Saúde, capítulo Febre Maculosa Brasileira e outras rickettsioses; complementar com o Tratado de Pediatria da SBP, capítulo de doenças transmitidas por vetores."
+    }
+   ]
+  }
+ ]
+}
