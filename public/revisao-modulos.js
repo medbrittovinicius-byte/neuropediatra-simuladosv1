@@ -3577,3 +3577,840 @@ window.REVISAO_MODULOS["PED|Neurodesenvolvimento"] = {
   {enunciado:`Menina de 8 anos volta a urinar na cama à noite após dois anos completamente seca, coincidindo com a separação dos pais. Exame e urina normais, sem sintomas diurnos. Qual a classificação e a conduta inicial mais adequada?`, alternativas:{a:`Enurese primária monossintomática; iniciar imipramina`, b:`Enurese secundária; abordar o gatilho e medidas comportamentais`, c:`Bexiga neurogênica; encaminhar para urodinâmica`, d:`Enurese primária; iniciar desmopressina de imediato`}, correta:"b", comentario:`Como houve um período prévio de controle (≥6 meses seca — aqui dois anos) seguido de recidiva, trata-se de enurese SECUNDÁRIA, e o dado do estresse familiar aponta o gatilho. Sem sintomas diurnos, é monossintomática, e o exame/urina normais afastam causas orgânicas agudas (ITU, diabetes). A conduta inicial é comportamental e voltada ao gatilho (acolhimento, desmistificação, medidas de rotina), reservando alarme/desmopressina para persistência. Chamar de primária ignora os dois anos secos; imipramina é 2ª linha (efeitos adversos/risco em superdose); bexiga neurogênica não se sustenta sem sintomas diurnos/neurológicos. O erro clássico é medicar antes de classificar primária × secundária.`, foco:`Enurese primária × secundária e 1ª linha comportamental (ponto de erro)`}
  ]
 };
+
+/* ===== Módulos aprofundados pela tarefa diária de estudo — 2026-08-14 =====
+   Temas escolhidos pela análise de fragilidades (ranking unificado): Hematologia pediátrica (33% de erro),
+   Imunização/PNI (25%) e Infecto/respiratório/pele (24%, alinhado ao bloco de revisão espaçada de
+   febre maculosa brasileira do simulado de hoje). Conteúdo anterior preservado e expandido. ===== */
+window.REVISAO_MODULOS["PED|Hematologia"] = {
+ "titulo": "Hematologia pediátrica: anemias e púrpuras",
+ "half": "PED",
+ "resumo": "Anemia na infância é uma das queixas mais cobradas — e uma das mais confundidas, porque \"criança pálida\" tem muitas causas. Este texto parte do zero (o que é anemia, o que a hemácia faz, como o corpo fabrica sangue) e monta um caminho para separar a anemia mais comum (ferropriva, por carência) das anemias hemolíticas (falciforme, esferocitose, talassemia), além de abordar os distúrbios de sangramento da criança (PTI e o clássico \"trio\" da banca) e os sinais de alerta de leucemia. A meta é raciocinar pelo mecanismo, não decorar nome de doença.",
+ "fontes": "Base: Sociedade Brasileira de Pediatria (SBP) — Hematologia pediátrica; Nelson Tratado de Pediatria (anemias carenciais e hemolíticas, PTI, leucemias); Ministério da Saúde — Triagem neonatal (teste do pezinho) e Programa Nacional de Suplementação de Ferro; flashcard/préteste \"Hemostasia e doenças na Pediatria\" e \"Nutrição em Pediatria\" (ver materiais_drive.md). Aprofundamento de 14/08/2026: Ministério da Saúde/SBP — Doença Falciforme (protocolo de atenção integral: síndrome torácica aguda, sequestro esplênico, profilaxia com penicilina, hidroxiureia, Doppler transcraniano) e Triagem Neonatal; MS — Programa Nacional de Suplementação de Ferro (doses de profilaxia e tratamento); Nelson — Tratado de Pediatria (coagulopatias, PTI, leucemias); INCA/SBP — sinais de alerta do câncer infantojuvenil.",
+ "notaErro": "Hematologia pediátrica derruba por não separar mecanismos. Três armadilhas explicam a maioria dos erros:\n\n- **Você chama toda criança pálida de \"ferropriva\" ou de \"leucemia\".** A ferropriva é a mais comum e tem uma história típica (lactente, leite em excesso, introdução alimentar pobre em ferro, microcitose/hipocromia). Mas quando há **hepatoesplenomegalia + icterícia + reticulócitos altos**, o mecanismo é **hemólise**, não carência — e o raciocínio muda por completo. E quando há **palidez + febre + sangramentos + organomegalia + dor óssea**, acende a bandeira de **leucemia**.\n\n- **Você erra o exame confirmatório.** A banca usa a técnica do \"trio\" e pede o exame específico: **eletroforese/teste de solubilidade** para falciforme, **imunofenotipagem** para leucemia, **ferro/ferritina** para ferropriva. Trocar o exame é o erro que reprova.\n\n- **Você trata a PTI como se fosse leucemia (ou vice-versa).** A PTI é uma plaquetopenia isolada, geralmente pós-viral, em criança que fora isso está **bem**; a leucemia tem **outras** linhagens afetadas (anemia, neutropenia) e sinais sistêmicos. Um dado que \"torna improvável\" o diagnóstico alternativo (ex.: hemograma com séries vermelha e branca normais afasta leucemia) é a chave da questão.\n\n**Como zerar:** para cada criança pálida, pergunte \"é carência, é hemólise ou é medula (leucemia)?\" e associe o exame confirmatório certo. Para sangramento, separe plaqueta (petéquias/mucosas) de coagulação (hematomas profundos/hemartrose).\n\n**Atualização de 14/08/2026 (análise dos simulados):** no ranking unificado, Hematologia pediátrica está com **33% de erro** (2 de 6 questões, erros de Vinicius) e é, junto com Imunização, um dos módulos que ainda estavam mais rasos aqui no site. Por isso ele foi aprofundado hoje com o que a banca realmente cobra e que faltava: **valores de corte de hemoglobina por idade**, **doses de ferro** (profilaxia e tratamento) e **causas de falha terapêutica**, as **crises graves da doença falciforme** (torácica aguda, sequestro, aplásica por parvovírus B19, febre como emergência), a leitura do **coagulograma (TP × TTPa)** e as **emergências oncológicas** da leucemia.\n\nUm quarto tropeço, que não estava mapeado antes, merece atenção: **você raciocina o hemograma sem ancorar na idade**. Hemoglobina de 10,5 g/dL é anemia num escolar e é quase esperada num lactente de 2 meses (anemia fisiológica). Sem o valor de corte por faixa etária você chama de doente quem é normal — e de normal quem já está anêmico. As seções 7 a 12 fecham exatamente essas lacunas.",
+ "secoes": [
+  {
+   "h": "1. Comece pelo começo: o que é anemia e o que a hemácia faz",
+   "c": "**Anemia** é a redução da quantidade de hemoglobina no sangue abaixo do esperado para a idade. A **hemoglobina** é a proteína dentro da hemácia (glóbulo vermelho) que carrega o **oxigênio** dos pulmões para os tecidos. Menos hemoglobina = menos oxigênio entregue = palidez, cansaço, irritabilidade, pouca disposição.\n\nAs hemácias são fabricadas na **medula óssea** e vivem cerca de **120 dias**; depois são recicladas no baço. Para produzir hemoglobina, o corpo precisa de matéria-prima (**ferro**, vitamina B12, folato) e de uma medula funcionante.\n\nA partir daí, existem só **três formas** de ficar anêmico, e reconhecê-las organiza todo o tema:\n\n- **Produzir de menos** (falta matéria-prima: ferropriva; ou falha da medula: aplasia, invasão por leucemia).\n- **Destruir demais** (hemólise: falciforme, esferocitose, talassemia).\n- **Perder** (hemorragia)."
+  },
+  {
+   "h": "2. O primeiro filtro: o tamanho da hemácia (VCM)",
+   "c": "O hemograma dá uma pista poderosa: o **VCM (volume corpuscular médio)**, que é o tamanho da hemácia.\n\n- **Microcítica (hemácia pequena, VCM baixo):** falta de matéria-prima para encher a hemácia de hemoglobina → **anemia ferropriva** (a mais comum) e **talassemias**.\n- **Normocítica:** hemólise aguda, sangramento, doença crônica, invasão medular.\n- **Macrocítica (hemácia grande):** carência de B12/folato.\n\nO segundo dado é o **reticulócito** (hemácia jovem recém-saída da medula), que mede se a medula está \"respondendo\":\n\n- **Reticulócitos ALTOS** = medula trabalhando para repor → sugere **hemólise ou sangramento**.\n- **Reticulócitos BAIXOS** = medula não repõe → **carência** (ferro/B12) ou **falha medular**.\n\nCom VCM + reticulócitos você já separa a maioria dos casos antes de olhar o nome da doença."
+  },
+  {
+   "h": "3. Anemia ferropriva: a mais comum da infância",
+   "c": "É a anemia mais frequente na criança, por carência de **ferro**. Fatores clássicos: **prematuridade** (menos estoque ao nascer), **consumo excessivo de leite de vaca** (pobre em ferro e que causa microssangramento intestinal), **introdução alimentar tardia ou pobre em ferro**, e **rápido crescimento** do lactente.\n\n**Laboratório:** anemia **microcítica e hipocrômica** (hemácia pequena e pálida), **ferritina baixa** (o marcador mais precoce de depleção de estoque), ferro sérico baixo, RDW aumentado. Reticulócitos baixos/normais.\n\n**Conduta:** **ferro elementar por via oral** (dose terapêutica) e correção alimentar (reduzir leite de vaca, aumentar alimentos ricos em ferro). A resposta se confirma por um **pico de reticulócitos** em cerca de 5–10 dias e subida da hemoglobina em semanas. \n\n**Prevenção (MS/SBP):** suplementação profilática de ferro para lactentes (a partir de ~3–6 meses, conforme aleitamento e peso ao nascer, até os 2 anos). Ponto de prova: a **manutenção do aleitamento materno** e a introdução correta de alimentos ricos em ferro são pilares — se a vinheta enfatiza aleitamento e boa alimentação, ferropriva grave com hepatoesplenomegalia fica menos provável (aponta para outra causa)."
+  },
+  {
+   "h": "4. Anemias hemolíticas: quando o corpo destrói a hemácia",
+   "c": "Na **hemólise**, as hemácias são destruídas antes do tempo. O padrão comum: **anemia + icterícia (bilirrubina indireta alta) + esplenomegalia + reticulócitos altos + DHL alto + haptoglobina baixa**. Fixe esse conjunto — ele grita \"hemólise\".\n\n**Anemia falciforme (doença falciforme).** Doença genética (hemoglobina S) em que a hemácia, ao perder oxigênio, assume forma de **foice** e entope pequenos vasos. Dá **crises vaso-oclusivas** (dor óssea, síndrome mão-pé no lactente, dor abdominal), **crises de sequestro esplênico**, maior risco de **infecções por germes encapsulados** (o baço \"morre\" cedo — autoesplenectomia funcional) e AVC. É **rastreada no teste do pezinho** (triagem neonatal). Confirmação: **eletroforese de hemoglobina** (e o teste de solubilidade como triagem rápida). Manejo: profilaxia com **penicilina** e **vacinas para encapsulados**, hidratação, analgesia, ácido fólico, hidroxiureia nos casos indicados.\n\n**Esferocitose hereditária.** Defeito na membrana da hemácia, que fica esférica e é destruída no baço: anemia + icterícia + esplenomegalia, com história familiar. Confirma com teste de fragilidade osmótica/citometria; esplenectomia em casos graves.\n\n**Talassemia (beta-talassemia major).** Defeito na produção das cadeias de globina → microcitose importante desproporcional à anemia, hemólise, necessidade de transfusões, fácies típica. Eletroforese confirma.\n\nA pegadinha da banca: **microcitose** existe tanto na ferropriva quanto na talassemia — o que diferencia é a **ferritina** (baixa na ferropriva, normal/alta na talassemia) e a desproporção entre grau de microcitose e de anemia."
+  },
+  {
+   "h": "5. Distúrbios de sangramento: plaqueta x coagulação",
+   "c": "Diante de uma criança que sangra, o primeiro passo é decidir **de onde vem o problema**:\n\n- **Distúrbio de plaquetas (quantidade ou função):** sangramento **de pele e mucosas** — **petéquias**, equimoses superficiais, epistaxe, sangramento gengival. Exemplo: **PTI**.\n- **Distúrbio de coagulação (fatores):** sangramento **profundo** — hematomas musculares, **hemartrose** (sangramento em articulação), sangramento tardio. Exemplo: **hemofilia**.\n\n**PTI (púrpura trombocitopênica imune).** É a causa mais comum de plaquetopenia aguda na criança saudável. Tipicamente **1–3 semanas após uma virose**, surge de forma abrupta **petéquias e equimoses** numa criança que, fora isso, está **bem** — **hemograma com anemia e leucograma normais**, apenas as **plaquetas baixas**. A maioria é autolimitada; conduta frequentemente **observação**, com tratamento (corticoide, imunoglobulina) reservado a sangramento importante/plaquetas muito baixas.\n\n**Hemofilia (A/B).** Deficiência de fator VIII (A) ou IX (B), ligada ao X (meninos), com **hemartroses** e hematomas profundos; TTPa alargado. **Doença de von Willebrand** é o distúrbio hereditário de sangramento **mais comum** e principal diferencial de sangramento mucoso/menstrual excessivo em adolescente."
+  },
+  {
+   "h": "6. Sinais de alerta de leucemia (não deixe passar)",
+   "c": "A **leucemia linfoide aguda (LLA)** é o câncer mais comum da infância. A medula é **invadida** por células malignas e para de fabricar as células normais — por isso os sinais refletem a falência das três linhagens:\n\n- **Anemia** (palidez, cansaço),\n- **Plaquetopenia** (petéquias, equimoses, sangramentos),\n- **Neutropenia** (febre, infecções de repetição).\n\nSome a isso **dor óssea** (a criança \"não quer andar\", claudica), **hepatoesplenomegalia**, **linfonodomegalia** e, às vezes, massa mediastinal. O que **distingue de uma PTI simples** é justamente o envolvimento de **mais de uma linhagem** e os sinais sistêmicos.\n\n**Confirmação:** hemograma com blastos e, sobretudo, **mielograma com imunofenotipagem** (e citogenética). Se a vinheta traz palidez + sangramento + organomegalia + dor óssea, o exame que a banca quer é a **imunofenotipagem** — não a ferritina."
+  },
+  {
+   "h": "7. Valores por idade: sem isso, você diagnostica anemia onde não há (e deixa passar onde há)",
+   "c": "Antes de decidir se a criança está anêmica, é preciso saber **o que é normal para a idade dela** — e esse é um dos passos que mais se pula.\n\nO recém-nascido chega ao mundo com hemoglobina **alta** (Hb ao redor de 16–18 g/dL). Faz sentido: dentro do útero ele vivia num ambiente com pouco oxigênio e compensava fabricando muita hemácia, com **hemoglobina fetal (HbF)**, que tem mais afinidade pelo oxigênio. Ao nascer e começar a respirar ar ambiente, a oxigenação sobe, a eritropoetina despenca, a medula praticamente **para** de produzir hemácias, e a Hb vai caindo até um vale por volta dos **2–3 meses** (a chamada **anemia fisiológica do lactente**, com Hb podendo chegar a ~9,5–11 g/dL no termo, e mais baixa e mais cedo no prematuro). Depois disso a medula \"religa\" e a Hb sobe de novo.\n\n- **Consequência prática 1:** anemia leve aos 2 meses num lactente saudável, assintomático, **não é doença** — não se trata com ferro, se acompanha.\n- **Consequência prática 2:** a partir dos **6 meses**, os estoques de ferro herdados da mãe acabam. É por isso que a anemia ferropriva tem pico entre **6 e 24 meses** — e é por isso que a profilaxia com ferro começa antes disso.\n\n**Cortes de hemoglobina que valem memorizar (OMS/MS):**\n\n- **6 meses a 5 anos:** anemia se Hb **< 11 g/dL**.\n- **5 a 11 anos:** Hb **< 11,5 g/dL**.\n- **12 a 14 anos e mulher não gestante:** Hb **< 12 g/dL**.\n\nE mais um número muito cobrado: o **VCM mínimo esperado** na criança pequena é aproximadamente **70 + idade em anos** (fl) — um VCM de 68 fl num pré-escolar já é microcitose real, não variação.\n\nOutro ponto de armadilha é a **hemoglobina fetal**: como a HbF ainda predomina nos primeiros meses, doenças das cadeias **beta** (anemia falciforme, beta-talassemia) só se manifestam clinicamente **depois** que a HbF é substituída pela HbA — por volta dos **4–6 meses de vida**. Por isso o bebê com doença falciforme nasce assintomático e começa a adoecer no segundo semestre. Isso explica também por que a triagem neonatal precisa ser feita por **eletroforese/HPLC** (que detecta a hemoglobina anormal) e não pela clínica."
+  },
+  {
+   "h": "8. Ferro na prática: doses, tempo de tratamento e por que o tratamento \"falha\"",
+   "c": "Saber que ferropriva trata com ferro não pontua; a banca pergunta **quanto**, **por quanto tempo** e **o que fazer quando não melhora**.\n\n**Profilaxia (Ministério da Saúde / SBP):** o objetivo é atravessar a janela de risco (6–24 meses) sem esgotar o estoque.\n\n- **Lactente a termo com peso adequado:** **1 mg/kg/dia** de ferro elementar, dos **3 (ou 6) meses até os 24 meses** — a data de início varia conforme a recomendação adotada e o tipo de alimentação; o conceito que a prova quer é que **mesmo o bebê em aleitamento materno exclusivo recebe profilaxia**, porque o leite materno tem pouco ferro (embora de altíssima absorção).\n- **Prematuro e/ou baixo peso ao nascer:** dose **maior** (habitualmente **2–4 mg/kg/dia**, iniciada por volta de **30 dias de vida**, escalonada conforme o peso de nascimento), porque o estoque de ferro é adquirido no **terceiro trimestre** — quem nasce antes simplesmente não teve tempo de estocar.\n\n**Tratamento da anemia ferropriva instalada:** **3 a 5 mg/kg/dia** de ferro elementar (dividido ou em dose única diária), por via **oral**, mantido por **2 a 3 meses APÓS a normalização da hemoglobina** — porque normalizar a Hb repõe o \"caixa\", mas não o \"estoque\" (a ferritina). Parar assim que a Hb normaliza é receita de recidiva.\n\n**A curva de resposta (muito cobrada):**\n\n- **2 a 3 dias:** melhora do apetite e do humor.\n- **5 a 10 dias:** **pico de reticulócitos** — é a primeira prova objetiva de que o ferro está funcionando.\n- **4 semanas:** aumento esperado de **≥ 1 g/dL** na hemoglobina.\n- **2 a 4 meses:** normalização da hemoglobina; depois, mais 2–3 meses para repor a ferritina.\n\n**Quando não melhora, pense em cinco causas — nesta ordem:**\n\n- **Não tomou** (má adesão é a causa nº 1; o gosto metálico, náusea e as fezes escuras fazem a família abandonar).\n- **Tomou errado:** junto de **leite**, cálcio, chá ou café, que **quelam** o ferro e impedem a absorção. Orientação correta: longe das refeições lácteas, e **vitamina C** (suco cítrico) **aumenta** a absorção do ferro não-heme.\n- **Continua perdendo:** sangramento oculto (excesso de leite de vaca no lactente, parasitose — ancilostomíase, doença inflamatória, menstruação abundante na adolescente).\n- **Não absorve:** **doença celíaca** é o clássico da prova em criança com ferropriva refratária; considere também gastrite por H. pylori.\n- **O diagnóstico estava errado:** era **talassemia** (microcitose com ferritina normal/alta) ou anemia de doença crônica."
+  },
+  {
+   "h": "9. Doença falciforme: as crises que matam e o que fazer em cada uma",
+   "c": "A doença falciforme não é \"uma anemia\": é uma doença **vaso-oclusiva e infecciosa** crônica, e a prova cobra o reconhecimento das complicações agudas, porque cada uma tem conduta própria. O mecanismo é sempre o mesmo — a HbS, ao desoxigenar, polimeriza, a hemácia enrijece em foice, obstrui a microcirculação e hemolisa.\n\n- **Crise vaso-oclusiva dolorosa** (a mais frequente): dor óssea intensa; no lactente, a **dactilite / síndrome mão-pé** (edema doloroso de mãos e pés) costuma ser a **primeira manifestação**, por volta dos 6 meses. Conduta: **hidratação + analgesia adequada e precoce** (não hesite em opioide na dor intensa) + oxigênio se hipoxemia. Transfusão **não** é tratamento de crise dolorosa simples.\n- **Síndrome torácica aguda (STA)** — a principal **causa de morte**: febre e/ou sintoma respiratório com **novo infiltrado** na radiografia de tórax. Pode começar como uma crise dolorosa que evolui em 48–72 h. Conduta: **antibiótico cobrindo germe típico + atípico** (cefalosporina + macrolídeo), oxigênio, analgesia (que permite expandir o tórax), hidratação **cuidadosa** e **transfusão** (simples ou exsanguineotransfusão nos graves).\n- **Sequestro esplênico agudo:** o baço \"engole\" o sangue — queda **abrupta** da hemoglobina (≥ 2 g/dL) com **esplenomegalia crescente**, palidez e choque hipovolêmico no lactente/pré-escolar. Conduta: **transfusão de urgência** e expansão volêmica. É emergência e recorre — ensinar a família a **palpar o baço** em casa é medida de prevenção clássica.\n- **Crise aplásica:** queda da hemoglobina **com reticulócitos BAIXOS**. Causa clássica: **parvovírus B19**, que infecta o precursor eritroide e para a produção por ~7–10 dias. Guarde o contraste: **sequestro = reticulócitos altos e baço grande; aplasia = reticulócitos baixos e baço normal**.\n- **Infecção por germe encapsulado:** por **asplenia funcional** (o baço se autoinfarta nos primeiros anos), o risco de sepse por **pneumococo** e **Haemophilus** é altíssimo. Por isso **febre ≥ 38,5 °C na criança com doença falciforme é EMERGÊNCIA**: avaliar, coletar culturas e iniciar **antibiótico parenteral de amplo espectro imediatamente** — nunca mandar para casa com sintomático. A prevenção é **penicilina profilática** (dos 3 meses até pelo menos os 5 anos) + **vacinas para encapsulados** (pneumocócicas, meningocócicas, Hib, influenza).\n- **AVC:** ocorre em ~10% das crianças não tratadas. Rastreamento com **Doppler transcraniano** anual dos 2 aos 16 anos; velocidade elevada indica **regime de transfusão crônica** para prevenir o primeiro AVC.\n- **Priapismo, necrose avascular de fêmur, retinopatia, colelitíase (por hemólise crônica) e úlcera de perna** completam o quadro crônico.\n\n**Tratamento modificador de doença: hidroxiureia**, que aumenta a **hemoglobina fetal (HbF)** — e a HbF, por não polimerizar, \"diluí\" a HbS e reduz crises dolorosas, STA, transfusões e mortalidade. Indicada em crises dolorosas de repetição, STA prévia, anemia grave.\n\n**Triagem neonatal (teste do pezinho):** o resultado vem em ordem decrescente de quantidade de hemoglobina. **\"FS\" = doença falciforme** (só HbF e HbS, sem HbA); **\"FAS\" = traço falciforme** (portador, assintomático, não é doença); **\"FSC\" = doença SC**. Trocar FS por FAS é um erro clássico de prova — e de consultório."
+  },
+  {
+   "h": "10. Lendo o coagulograma sem decorar: TP, TTPa e o que cada um acusa",
+   "c": "Diante da criança que sangra, dois exames organizam o raciocínio. Pense na coagulação como duas estradas que se encontram numa via comum:\n\n- **TTPa (tempo de tromboplastina parcial ativada)** avalia a via **intrínseca**: fatores **VIII, IX, XI, XII**.\n- **TP/INR (tempo de protrombina)** avalia a via **extrínseca**: fator **VII** (o de meia-vida mais curta).\n- Ambos avaliam a **via comum** (X, V, II, fibrinogênio).\n\nCom isso, quatro padrões resolvem quase tudo:\n\n- **TTPa alargado, TP normal:** **hemofilia A (fator VIII)** ou **B (fator IX)** — meninos, herança ligada ao X, **hemartrose** e hematomas profundos, sangramento **tardio** após trauma/cirurgia. A gravidade se define pela **atividade do fator**: grave < 1%, moderada 1–5%, leve 5–40%. Tratamento: **reposição do fator deficiente** (e desmopressina na hemofilia A leve). **Doença de von Willebrand** também pode alargar o TTPa (o FvW carrega e protege o fator VIII).\n- **TP alargado, TTPa normal:** deficiência de **fator VII** ou fase **inicial** de deficiência de vitamina K / uso de varfarina.\n- **TP e TTPa alargados:** **deficiência de vitamina K** estabelecida, **hepatopatia** ou **CIVD**. Na CIVD, some plaquetopenia, fibrinogênio baixo e D-dímero alto, sempre num contexto grave (sepse, choque).\n- **TP e TTPa normais com sangramento de mucosa:** problema **plaquetário** — de número (**PTI**) ou de função/adesão (**doença de von Willebrand**, a coagulopatia hereditária **mais comum**, que cursa com epistaxe, sangramento gengival e **menorragia** na adolescente, muitas vezes com coagulograma quase normal). Suspeita de von Willebrand exige dosagem específica (antígeno, atividade de cofator da ristocetina, fator VIII).\n\n**Doença hemorrágica do recém-nascido (deficiência de vitamina K).** O RN nasce com fatores **II, VII, IX e X** baixos (vitamina K não atravessa bem a placenta, o intestino ainda não tem flora produtora e o leite materno é pobre em vitamina K). Sem profilaxia, surge sangramento — a forma **precoce** (< 24 h, associada a anticonvulsivantes/anticoagulantes maternos), a **clássica** (2º ao 7º dia: coto umbilical, TGI, punções) e a **tardia** (2ª semana a 6 meses, em lactente amamentado sem profilaxia, com alta taxa de **hemorragia intracraniana**). A prevenção é a **vitamina K 1 mg intramuscular ao nascer** — uma das intervenções de melhor custo-benefício da neonatologia, e um alvo frequente de questão."
+  },
+  {
+   "h": "11. PTI: quando observar, quando tratar e quando desconfiar de outra coisa",
+   "c": "A **púrpura trombocitopênica imune** é a causa mais comum de plaquetopenia grave na criança previamente hígida. O mecanismo: após uma infecção viral (ou, raramente, uma vacina), o organismo produz **autoanticorpos** que se ligam à plaqueta; o **baço** reconhece e destrói essas plaquetas marcadas. A medula, em resposta, **aumenta** a produção (megacariócitos abundantes) — por isso a PTI é uma doença de **destruição periférica**, não de falência medular.\n\n**O retrato típico (e que você deve exigir para aceitar o diagnóstico):** criança de **2 a 6 anos**, **1 a 3 semanas após um quadro viral**, que aparece de repente com **petéquias, equimoses e púrpura**, eventualmente epistaxe ou sangramento gengival — e que, **fora isso, está muito bem**: sem febre, sem dor óssea, sem emagrecimento, **sem hepatoesplenomegalia** e **sem linfonodomegalia importante**. O hemograma mostra **plaquetopenia isolada** (< 100.000, frequentemente < 20.000) com **hemoglobina e leucograma normais** e sem blastos.\n\n**Conduta — o conceito-chave é que se trata o SANGRAMENTO, não o número:**\n\n- **Sem sangramento ou apenas cutâneo (petéquias/equimoses):** **observação** com orientação — evitar esportes de contato, evitar **AAS e AINEs**, evitar injeções intramusculares e punções desnecessárias. A maioria (~80%) resolve espontaneamente em até 6 meses (PTI aguda da infância).\n- **Sangramento de mucosa relevante, risco alto ou necessidade de subir a plaqueta rápido:** **corticoide** ou **imunoglobulina intravenosa (IGIV)** — a IGIV eleva a plaqueta mais rápido e é preferida quando se quer resposta em horas. **Anti-D** é opção em Rh positivo não esplenectomizado.\n- **Sangramento grave/ameaçador (SNC, TGI):** IGIV + corticoide em pulso + **transfusão de plaquetas** (que isoladamente tem efeito curto, pois as plaquetas transfundidas também são destruídas) — é a única situação em que se transfunde plaqueta na PTI.\n- **Crônica (> 12 meses):** avaliar rituximabe, agonistas de trombopoetina, esplenectomia (evitada e adiada na criança pelo risco infeccioso).\n\n**Quando o mielograma é obrigatório?** Não é rotina na PTI típica. Ele é indicado quando algo **não fecha**: outras citopenias (anemia desproporcional ao sangramento, neutropenia), **organomegalia/adenomegalia**, sintomas sistêmicos (febre persistente, dor óssea, perda de peso), evolução atípica ou falha de resposta. O medo histórico de \"corticoide mascarar leucemia\" reforça a regra prática: **se você vai dar corticoide e há qualquer atipia, aspire a medula antes**."
+  },
+  {
+   "h": "12. Leucemia na criança: da suspeita ao encaminhamento (e as emergências)",
+   "c": "A **leucemia linfoide aguda (LLA)** responde por ~75–80% das leucemias da infância, com pico entre **2 e 5 anos**; a leucemia mieloide aguda (LMA) é minoria. O mecanismo é único e explica todos os sinais: um clone imaturo (**blasto**) prolifera e **ocupa** a medula, sufocando a produção normal — e depois **infiltra** outros órgãos.\n\n**Da fisiopatologia para a clínica:**\n\n- Ocupação medular → **anemia** (palidez, cansaço), **plaquetopenia** (petéquias, sangramento), **neutropenia** (febre, infecções). É a tríade das citopenias.\n- Infiltração → **hepatoesplenomegalia**, **linfonodomegalia** generalizada e indolor, **dor óssea** (a criança pequena \"regride\" na marcha, claudica, não quer ficar de pé — sintoma muito característico e muito subvalorizado), aumento testicular, e infiltração do **SNC** (cefaleia, vômitos, paralisia de nervo craniano).\n- Na **LLA de células T** do adolescente: **massa mediastinal** com tosse, dispneia e até **síndrome de veia cava superior**.\n\n**Diagnóstico:** o hemograma sugere (citopenias, às vezes hiperleucocitose, blastos no sangue periférico — mas o hemograma pode estar quase normal!). Quem confirma é o **mielograma** com **imunofenotipagem** (define linhagem B, T ou mieloide), somado a **citogenética/biologia molecular** (que definem o risco) e ao **líquor** (estadiamento do SNC).\n\n**As emergências que a prova adora:**\n\n- **Síndrome de lise tumoral:** com a destruição maciça de blastos (espontânea ou após iniciar quimioterapia), o conteúdo celular vaza para o sangue — **hiperuricemia, hiperfosfatemia, hipercalemia e HIPOcalcemia** (o fosfato se liga ao cálcio), com risco de **insuficiência renal aguda** e arritmia. Prevenção: **hidratação vigorosa** + **alopurinol** ou **rasburicase**.\n- **Neutropenia febril:** febre com neutrófilos < 500 é emergência — **antibiótico de amplo espectro em até 1 hora**, após culturas. Não esperar o resultado.\n- **Hiperleucocitose** (> 100.000 leucócitos): risco de leucostase (SNC, pulmão).\n\n**A pergunta que a banca faz de outro jeito:** \"qual dado torna a leucemia improvável?\" — a resposta costuma ser **hemograma com séries vermelha e branca normais** (isto é, plaquetopenia **isolada**), que aponta PTI. E \"qual exame confirma?\" — **imunofenotipagem do aspirado de medula**, nunca ferritina, eletroforese ou sorologia.\n\n**Sinais de alerta para encaminhamento urgente (SBP/INCA):** palidez progressiva, sangramento sem trauma, febre prolongada sem foco, dor óssea que acorda à noite, adenomegalia > 2,5 cm persistente/endurecida/supraclavicular, hepatoesplenomegalia e perda de peso. O prognóstico da LLA infantil hoje é bom (**cura > 80%**) — e depende diretamente de **quem suspeita cedo**."
+  },
+  {
+   "h": "13. O algoritmo em seis frases (leve para a prova)",
+   "c": "- **Criança pálida:** pergunte \"carência, hemólise ou medula?\". Use **VCM** (micro = ferro/talassemia) e **reticulócitos** (altos = hemólise/sangramento; baixos = carência/medula).\n- **Lactente pálido + excesso de leite de vaca + microcitose/hipocromia + ferritina baixa** = ferropriva → ferro oral + dieta.\n- **Anemia + icterícia + esplenomegalia + reticulócitos altos** = hemólise → pense falciforme (eletroforese/solubilidade), esferocitose, talassemia.\n- **Microcitose com ferritina normal/alta e anemia desproporcional** = talassemia, não ferropriva.\n- **Petéquias em criança saudável pós-virose, só plaquetas baixas** = PTI; **hemartrose/hematoma profundo em menino** = hemofilia.\n- **Palidez + sangramento + organomegalia + dor óssea** = leucemia → **imunofenotipagem**.\n- **Antes de chamar de anemia, cheque o corte por IDADE** (Hb < 11 dos 6 m aos 5 a) e lembre da anemia fisiológica aos 2–3 meses.\n- **Ferro:** profilaxia 1 mg/kg/dia (2–4 no prematuro); tratamento 3–5 mg/kg/dia por mais 2–3 meses APÓS normalizar a Hb; não melhorou = adesão, leite/cálcio junto, perda contínua, celíaca ou diagnóstico errado.\n- **Falcêmico com febre ≥ 38,5 °C** = antibiótico parenteral já; **novo infiltrado** = síndrome torácica aguda; **baço crescendo com reticulócitos altos** = sequestro; **reticulócitos baixos** = aplasia por parvovírus B19.\n- **Coagulograma:** TTPa isolado alargado = hemofilia; TP+TTPa = vitamina K/hepatopatia/CIVD; tudo normal com sangramento mucoso = von Willebrand.\n- **PTI:** trata-se o sangramento, não o número; mielograma só quando algo não fecha (outras citopenias, organomegalia, dor óssea)."
+  }
+ ],
+ "flashcards": [
+  {
+   "p": "Anemia mais comum na infância?",
+   "r": "Anemia ferropriva (carência de ferro)."
+  },
+  {
+   "p": "Padrão do hemograma na ferropriva?",
+   "r": "Microcítica e hipocrômica, ferritina baixa (marcador mais precoce), RDW alto."
+  },
+  {
+   "p": "Marcador que separa ferropriva de talassemia (ambas microcíticas)?",
+   "r": "Ferritina: baixa na ferropriva, normal/alta na talassemia."
+  },
+  {
+   "p": "Conjunto que sugere hemólise?",
+   "r": "Anemia + icterícia (BI alta) + esplenomegalia + reticulócitos altos + DHL alto + haptoglobina baixa."
+  },
+  {
+   "p": "Exame confirmatório da anemia falciforme?",
+   "r": "Eletroforese de hemoglobina (teste de solubilidade como triagem); rastreada no teste do pezinho."
+  },
+  {
+   "p": "Por que o falciforme faz infecção por germes encapsulados?",
+   "r": "Autoesplenectomia funcional (asplenia); daí profilaxia com penicilina e vacinas."
+  },
+  {
+   "p": "Reticulócitos altos x baixos indicam?",
+   "r": "Altos = medula respondendo (hemólise/sangramento). Baixos = carência ou falha medular."
+  },
+  {
+   "p": "PTI típica na criança?",
+   "r": "Plaquetopenia isolada, abrupta, 1–3 semanas pós-virose, criança bem; demais séries normais."
+  },
+  {
+   "p": "Sangramento de plaqueta x de coagulação?",
+   "r": "Plaqueta: pele/mucosa (petéquias). Coagulação: profundo (hemartrose, hematoma muscular)."
+  },
+  {
+   "p": "Distúrbio hereditário de sangramento mais comum?",
+   "r": "Doença de von Willebrand."
+  },
+  {
+   "p": "Câncer mais comum da infância e exame que confirma?",
+   "r": "Leucemia linfoide aguda; mielograma com imunofenotipagem."
+  },
+  {
+   "p": "Tríade de citopenias que acende alerta de leucemia?",
+   "r": "Anemia + plaquetopenia + neutropenia (+ dor óssea, organomegalia)."
+  },
+  {
+   "p": "Corte de hemoglobina para anemia entre 6 meses e 5 anos?",
+   "r": "Hb < 11 g/dL (OMS/MS). De 5–11 anos: < 11,5; de 12–14 anos e mulher não gestante: < 12."
+  },
+  {
+   "p": "Por que existe a \"anemia fisiológica do lactente\" e quando é o vale?",
+   "r": "Ao nascer a oxigenação sobe, a eritropoetina cai e a medula quase para; o vale é aos 2–3 meses (mais cedo e mais baixo no prematuro). Não se trata com ferro."
+  },
+  {
+   "p": "Por que a doença falciforme só se manifesta após os 4–6 meses?",
+   "r": "Porque a hemoglobina fetal (HbF) ainda predomina e não falciza; os sintomas aparecem quando a HbF é substituída pela HbA/HbS."
+  },
+  {
+   "p": "Dose profilática e terapêutica de ferro elementar no lactente?",
+   "r": "Profilaxia 1 mg/kg/dia (a termo, até 24 meses); prematuro/baixo peso 2–4 mg/kg/dia. Tratamento 3–5 mg/kg/dia, mantido 2–3 meses APÓS normalizar a Hb."
+  },
+  {
+   "p": "Qual o primeiro sinal objetivo de resposta ao ferro e em quanto tempo?",
+   "r": "Pico de reticulócitos em 5–10 dias; aumento de ≥ 1 g/dL de Hb em 4 semanas."
+  },
+  {
+   "p": "Cinco causas de falha do tratamento com ferro oral?",
+   "r": "Não adesão; tomar com leite/cálcio/chá; perda contínua (leite de vaca, parasitose, menstruação); má absorção (celíaca); diagnóstico errado (talassemia)."
+  },
+  {
+   "p": "Principal causa de morte na doença falciforme e sua conduta?",
+   "r": "Síndrome torácica aguda — novo infiltrado + febre/sintoma respiratório. Antibiótico típico + atípico, oxigênio, analgesia, hidratação cuidadosa e transfusão."
+  },
+  {
+   "p": "Como diferenciar sequestro esplênico de crise aplásica?",
+   "r": "Sequestro: baço aumentando + reticulócitos ALTOS (transfusão de urgência). Aplasia: baço normal + reticulócitos BAIXOS, clássica por parvovírus B19."
+  },
+  {
+   "p": "Febre ≥ 38,5 °C em criança com doença falciforme — conduta?",
+   "r": "Emergência: culturas e antibiótico parenteral de amplo espectro imediatamente (asplenia funcional, risco de sepse por encapsulados)."
+  },
+  {
+   "p": "Como a hidroxiureia funciona na doença falciforme?",
+   "r": "Aumenta a hemoglobina fetal, que não polimeriza — reduz crises dolorosas, STA, transfusões e mortalidade."
+  },
+  {
+   "p": "No teste do pezinho, o que significam FS, FAS e FSC?",
+   "r": "FS = doença falciforme; FAS = traço falciforme (portador, assintomático); FSC = doença SC. A ordem das letras é decrescente em quantidade."
+  },
+  {
+   "p": "TTPa alargado com TP normal em menino com hemartrose sugere?",
+   "r": "Hemofilia A (fator VIII) ou B (fator IX); gravidade pela atividade do fator (grave < 1%)."
+  },
+  {
+   "p": "Sangramento de mucosa com TP, TTPa e plaquetas normais?",
+   "r": "Doença de von Willebrand — a coagulopatia hereditária mais comum; causa epistaxe e menorragia na adolescente."
+  },
+  {
+   "p": "As três formas da doença hemorrágica do RN e a profilaxia?",
+   "r": "Precoce (<24 h, drogas maternas), clássica (2º–7º dia) e tardia (2 semanas–6 meses, com risco de hemorragia intracraniana). Profilaxia: vitamina K 1 mg IM ao nascer."
+  },
+  {
+   "p": "Na PTI, trata-se o número da plaqueta ou o sangramento?",
+   "r": "O sangramento. Sem sangramento ou só cutâneo: observação. Mucoso relevante: corticoide ou IGIV. Grave: IGIV + corticoide + transfusão de plaquetas."
+  },
+  {
+   "p": "Quando o mielograma é obrigatório numa suspeita de PTI?",
+   "r": "Quando algo não fecha: outras citopenias, organomegalia/adenomegalia, febre, dor óssea, evolução atípica ou falha de resposta."
+  },
+  {
+   "p": "Distúrbios da síndrome de lise tumoral?",
+   "r": "Hiperuricemia, hiperfosfatemia, hipercalemia e HIPOcalcemia, com risco de IRA. Prevenção: hidratação vigorosa + alopurinol/rasburicase."
+  },
+  {
+   "p": "Neutropenia febril: qual a meta de tempo para o antibiótico?",
+   "r": "Antibiótico de amplo espectro em até 1 hora, após coletar culturas — não esperar resultados."
+  }
+ ],
+ "pegadinhas": [
+  "Microcitose não é sinônimo de ferropriva — talassemia também é microcítica; diferencie pela ferritina.",
+  "Reticulócitos ALTOS numa criança anêmica apontam hemólise/sangramento, não carência (medula está respondendo).",
+  "Aleitamento materno mantido + boa introdução de ferro tornam ferropriva GRAVE com hepatoesplenomegalia improvável — reconsidere hemólise.",
+  "PTI: criança BEM com só plaquetas baixas; se há anemia + neutropenia + organomegalia + dor óssea, pense LEUCEMIA (imunofenotipagem).",
+  "Petéquias = problema de plaqueta; hemartrose/hematoma profundo = problema de fator (coagulação) — não confunda.",
+  "Falciforme tem risco aumentado de infecção por encapsulados (asplenia funcional) — profilaxia com penicilina e vacinas é obrigatória.",
+  "Anemia leve aos 2–3 meses num lactente saudável pode ser anemia FISIOLÓGICA — não se trata com ferro.",
+  "Lactente em aleitamento materno exclusivo TAMBÉM recebe profilaxia com ferro (o leite materno é pobre em ferro).",
+  "Não pare o ferro quando a Hb normalizar: mantenha mais 2–3 meses para repor a ferritina (o estoque).",
+  "Ferro com leite/cálcio/chá não é absorvido; com vitamina C, absorve melhor — a 'falha terapêutica' costuma ser erro de administração.",
+  "Ferropriva refratária em criança: pense doença celíaca e parasitose antes de trocar o sal de ferro.",
+  "Doença falciforme não aparece antes dos 4–6 meses porque a HbF protege — bebê assintomático não exclui a doença.",
+  "FS = doença falciforme; FAS = apenas traço (portador). Trocar as duas coisas muda toda a conduta.",
+  "Sequestro esplênico = reticulócitos ALTOS; crise aplásica (parvovírus B19) = reticulócitos BAIXOS.",
+  "Febre em criança falcêmica NUNCA é 'só uma virose': antibiótico parenteral imediato (asplenia funcional).",
+  "Transfusão de plaquetas na PTI só em sangramento grave — as plaquetas transfundidas também são destruídas.",
+  "Vitamina K IM ao nascer previne a forma TARDIA da doença hemorrágica do RN, que se apresenta como hemorragia intracraniana em lactente amamentado.",
+  "Hemograma quase normal não exclui leucemia; dor óssea que faz a criança parar de andar é sinal de alerta forte."
+ ],
+ "diretrizes": [
+  "Sociedade Brasileira de Pediatria (SBP) — Departamento de Hematologia: anemias carenciais e hemolíticas, PTI e sinais de alerta de câncer infantojuvenil.",
+  "Ministério da Saúde — Programa Nacional de Suplementação de Ferro e Triagem Neonatal (\"teste do pezinho\", que rastreia doença falciforme); Nelson — Tratado de Pediatria (hematologia).",
+  "Material do Drive: flashcard/préteste \"Hemostasia e doenças na Pediatria (2023)\" e \"Nutrição em Pediatria na Prática Clínica\" (anemia ferropriva) (ver materiais_drive.md).",
+  "Ministério da Saúde — Doença Falciforme: Condutas Básicas para Tratamento e Protocolo de Atenção Integral (STA, sequestro esplênico, penicilina profilática, hidroxiureia, Doppler transcraniano).",
+  "Ministério da Saúde / SBP — Programa Nacional de Suplementação de Ferro: profilaxia (1 mg/kg/dia; 2–4 mg/kg/dia no prematuro) e tratamento (3–5 mg/kg/dia) da anemia ferropriva.",
+  "SBP / INCA — Diagnóstico precoce do câncer na criança e no adolescente (sinais de alerta e encaminhamento); Nelson — hemofilia, doença de von Willebrand e doença hemorrágica do recém-nascido."
+ ],
+ "questoes": [
+  {
+   "enunciado": "Lactente de 14 meses, pálido, que mama no peito mas ingere grande volume de leite de vaca e tem introdução alimentar pobre em carnes. Hemograma: anemia microcítica e hipocrômica, ferritina baixa. Qual o diagnóstico e a conduta?",
+   "alternativas": {
+    "a": "Talassemia; iniciar transfusão",
+    "b": "Anemia ferropriva; ferro oral e correção alimentar",
+    "c": "Anemia hemolítica; corticoide",
+    "d": "Leucemia; mielograma"
+   },
+   "correta": "b",
+   "comentario": "História e laboratório clássicos de anemia ferropriva: lactente com excesso de leite de vaca (pobre em ferro e causa de microssangramento intestinal) e dieta pobre em ferro, com anemia microcítica hipocrômica e ferritina baixa (marcador mais precoce de depleção). Conduta: ferro elementar por via oral em dose terapêutica + ajuste alimentar (reduzir leite de vaca, aumentar alimentos ricos em ferro); espera-se pico de reticulócitos em 5–10 dias. Talassemia também é microcítica, mas tem ferritina normal/alta e anemia desproporcional; hemólise cursaria com icterícia, esplenomegalia e reticulócitos altos; leucemia traria outras citopenias e sinais sistêmicos. Chamar de talassemia ou hemólise ignorando a ferritina baixa é o erro típico.",
+   "foco": "Ferropriva: história e ferritina (ponto de erro)"
+  },
+  {
+   "enunciado": "Criança de 3 anos com palidez, icterícia, esplenomegalia e reticulócitos elevados; bilirrubina indireta alta. Qual mecanismo e qual exame confirma a principal hipótese (doença falciforme)?",
+   "alternativas": {
+    "a": "Carência de ferro; ferritina",
+    "b": "Hemólise; eletroforese de hemoglobina",
+    "c": "Falha medular; biópsia de medula",
+    "d": "Perda sanguínea; endoscopia"
+   },
+   "correta": "b",
+   "comentario": "O conjunto anemia + icterícia (bilirrubina indireta alta) + esplenomegalia + reticulócitos altos define hemólise (a medula responde produzindo reticulócitos). Entre as hemolíticas da infância, a doença falciforme é a hipótese-chave e se confirma pela eletroforese de hemoglobina (o teste de solubilidade serve como triagem rápida; a triagem neonatal do pezinho já rastreia). Ferritina investiga carência (reticulócitos seriam baixos); biópsia medular seria para falha de produção; endoscopia para perda digestiva. Trocar o exame confirmatório é o erro que a banca explora.",
+   "foco": "Padrão de hemólise e exame confirmatório (ponto de erro)"
+  },
+  {
+   "enunciado": "Menino de 5 anos, previamente hígido, 2 semanas após um quadro viral, apresenta petéquias e equimoses de início súbito. Exame sem hepatoesplenomegalia; hemograma com plaquetas muito baixas, mas séries vermelha e branca normais. Qual o diagnóstico mais provável?",
+   "alternativas": {
+    "a": "Leucemia linfoide aguda",
+    "b": "Púrpura trombocitopênica imune (PTI)",
+    "c": "Hemofilia A",
+    "d": "Anemia aplásica"
+   },
+   "correta": "b",
+   "comentario": "Plaquetopenia isolada, de início abrupto, cerca de 1–3 semanas após virose, em criança que fora o sangramento cutâneo-mucoso está bem e tem as demais séries do hemograma normais: é a PTI, causa mais comum de plaquetopenia aguda na infância. A leucemia envolveria outras linhagens (anemia, neutropenia) e sinais sistêmicos (organomegalia, dor óssea) — o hemograma normal nas séries vermelha e branca a torna improvável. Hemofilia dá sangramento profundo (hemartrose), não petéquias, e é ligada ao X. Anemia aplásica cursa com pancitopenia. A maioria das PTIs é autolimitada, muitas vezes só observação. O dado que \"afasta leucemia\" (demais séries normais) é a chave.",
+   "foco": "PTI x leucemia: séries normais afastam leucemia (ponto de erro)"
+  },
+  {
+   "enunciado": "Diante de uma criança com sangramentos, qual achado aponta para distúrbio de COAGULAÇÃO (fatores), e não de plaquetas?",
+   "alternativas": {
+    "a": "Petéquias e sangramento gengival",
+    "b": "Epistaxe recorrente",
+    "c": "Hemartrose e hematomas musculares profundos",
+    "d": "Equimoses superficiais pequenas"
+   },
+   "correta": "c",
+   "comentario": "Distúrbios de coagulação (ex.: hemofilia) causam sangramento profundo e tardio: hemartroses (sangramento articular) e hematomas musculares. Petéquias, sangramento gengival, epistaxe e equimoses superficiais são o padrão de distúrbio de plaquetas (quantidade ou função), como na PTI ou na doença de von Willebrand. Separar \"pele/mucosa = plaqueta\" de \"profundo = fator\" orienta a investigação (contagem de plaquetas x TTPa/fatores) e é o ponto que a banca cobra.",
+   "foco": "Padrão plaqueta x coagulação (ponto de erro)"
+  },
+  {
+   "enunciado": "Criança de 6 anos com palidez progressiva, febre, equimoses, dor óssea (recusa a andar) e hepatoesplenomegalia. Hemograma com anemia, plaquetopenia e neutropenia. Qual exame é o mais indicado para confirmar a hipótese principal?",
+   "alternativas": {
+    "a": "Ferritina sérica",
+    "b": "Teste de solubilidade",
+    "c": "Mielograma com imunofenotipagem",
+    "d": "Fragilidade osmótica"
+   },
+   "correta": "c",
+   "comentario": "O quadro reúne os sinais de alerta de leucemia: falência das três linhagens (anemia + plaquetopenia + neutropenia), dor óssea, febre e organomegalia — a medula está sendo invadida. A confirmação é feita pelo mielograma com imunofenotipagem (e citogenética), que identifica e classifica os blastos. Ferritina investiga ferropriva, teste de solubilidade rastreia falciforme e fragilidade osmótica avalia esferocitose — nenhum confirma leucemia. Diante de pancitopenia com dor óssea e organomegalia, pedir o exame de medula é o caminho; escolher a ferritina é o erro clássico de quem para na \"criança pálida\".",
+   "foco": "Sinais de leucemia e exame confirmatório (ponto de erro)"
+  },
+  {
+   "enunciado": "Lactente de 3 meses, nascido a termo, em aleitamento materno exclusivo, assintomático, ganho de peso adequado. Hemograma de rotina: Hb 10,2 g/dL, VCM 88 fl, reticulócitos normais, demais séries normais. Qual a conduta?",
+   "alternativas": {
+    "a": "Iniciar ferro em dose terapêutica de 5 mg/kg/dia",
+    "b": "Solicitar eletroforese de hemoglobina com urgência",
+    "c": "Reconhecer anemia fisiológica do lactente e manter profilaxia/acompanhamento",
+    "d": "Transfundir concentrado de hemácias"
+   },
+   "correta": "c",
+   "comentario": "Entre 2 e 3 meses de vida ocorre o vale fisiológico da hemoglobina: ao nascer a oxigenação sobe, a eritropoetina despenca e a medula praticamente para de produzir hemácias, até que o estímulo retorne. Num lactente a termo, assintomático, com bom ganho ponderal, VCM normal e demais séries normais, uma Hb de ~10 g/dL nessa idade é esperada — não é doença e não se trata com dose terapêutica de ferro. A conduta é manter a profilaxia de ferro conforme a recomendação (1 mg/kg/dia no lactente a termo) e acompanhar. Dose terapêutica (3–5 mg/kg/dia) só para anemia ferropriva confirmada, que costuma ser microcítica e ter pico entre 6 e 24 meses, quando o estoque materno acaba. Eletroforese não se justifica sem sinais de hemólise (icterícia, esplenomegalia, reticulocitose) — e a triagem neonatal já rastreou hemoglobinopatia. Transfusão é conduta de anemia sintomática/grave. O erro clássico é medicar o normal por não conhecer os valores por idade.",
+   "foco": "Valores de Hb por idade / anemia fisiológica (lacuna do módulo)"
+  },
+  {
+   "enunciado": "Menina de 4 anos com doença falciforme apresenta há 2 dias dor torácica, febre de 38,8 °C, tosse e queda de saturação. A radiografia mostra novo infiltrado em base direita. Qual a conduta mais adequada?",
+   "alternativas": {
+    "a": "Analgesia e hidratação isoladas, aguardando resolução",
+    "b": "Antibiótico cobrindo típicos e atípicos, oxigênio, analgesia e transfusão",
+    "c": "Corticoide em pulso e broncodilatador",
+    "d": "Apenas exsanguineotransfusão"
+   },
+   "correta": "b",
+   "comentario": "O quadro é síndrome torácica aguda (STA): febre e/ou sintoma respiratório com NOVO infiltrado radiológico em paciente com doença falciforme — a principal causa de morte na doença. O tratamento é multimodal e simultâneo: antibiótico cobrindo germe típico e atípico (cefalosporina + macrolídeo, pois Mycoplasma e Chlamydia são agentes frequentes), oxigênio para interromper o ciclo de falcização, analgesia eficaz (a dor torácica impede a expansão e piora a atelectasia), hidratação cuidadosa (excesso de volume piora o edema pulmonar) e transfusão simples ou exsanguineotransfusão nos casos graves. Analgesia e hidratação isoladas subtratam uma emergência. Corticoide/broncodilatador não são a base do tratamento (o corticoide inclusive associa-se a rebote doloroso). Exsanguineotransfusão isolada, sem antibiótico e oxigênio, deixa de tratar o componente infeccioso. O gatilho de prova: 'falcêmico + febre + novo infiltrado = STA'.",
+   "foco": "Síndrome torácica aguda na doença falciforme (lacuna do módulo)"
+  },
+  {
+   "enunciado": "Menino de 5 anos, previamente hígido, com petéquias e equimoses há 2 dias, 2 semanas após quadro viral. Está ativo, afebril, sem visceromegalias. Hemograma: Hb 12,6 g/dL, leucócitos 7.200 com diferencial normal, plaquetas 9.000. Sem sangramento de mucosa. Qual a conduta inicial mais adequada?",
+   "alternativas": {
+    "a": "Observação com orientações e evitar AAS/AINEs e esportes de contato",
+    "b": "Transfusão de plaquetas imediata",
+    "c": "Mielograma antes de qualquer conduta",
+    "d": "Esplenectomia"
+   },
+   "correta": "a",
+   "comentario": "O caso é PTI típica: criança previamente hígida, plaquetopenia ISOLADA (hemoglobina e leucograma normais) 1–3 semanas após virose, sem visceromegalia, sem febre e sem dor óssea. O princípio que a banca cobra é que se trata o SANGRAMENTO, não o número da plaqueta: com sangramento apenas cutâneo, mesmo com plaquetas muito baixas, a conduta pode ser observação com orientação (evitar AAS e AINEs, esportes de contato, injeções intramusculares) — cerca de 80% resolvem espontaneamente. Transfusão de plaquetas só se reserva ao sangramento grave/ameaçador, e mesmo assim associada a IGIV e corticoide, porque as plaquetas transfundidas são destruídas pelos mesmos autoanticorpos. O mielograma não é rotina na PTI típica: fica reservado a quando algo não fecha (outras citopenias, organomegalia, adenomegalia, febre, dor óssea, falha de resposta). Esplenectomia é opção tardia da forma crônica refratária, evitada na criança pelo risco infeccioso. Se houvesse anemia desproporcional, neutropenia, dor óssea ou hepatoesplenomegalia, o raciocínio mudaria para leucemia e a imunofenotipagem seria obrigatória.",
+   "foco": "PTI: tratar sangramento, não número; quando fazer mielograma (ponto de erro)"
+  }
+ ]
+};
+
+window.REVISAO_MODULOS["PED|Imunização"] = {
+ "titulo": "Imunização — PNI e calendário",
+ "half": "PED",
+ "resumo": "Imunização é o tema em que se perde ponto \"de graça\": a banca cobra o raciocínio (tipo de vacina → o que decorre disso), as contraindicações reais × falsas, a lógica do calendário do PNI, o que fazer com atraso/intervalos e a vigilância (paralisia flácida aguda, eventos adversos). Este texto reconstrói tudo do zero, explicando o porquê de cada regra — para você parar de decorar e passar a deduzir.",
+ "fontes": "Base: Calendário Nacional de Vacinação — PNI/Ministério da Saúde (versão vigente); SBIm e SBP — Documentos Científicos (Imunizações); MS — Guia de Vigilância em Saúde (paralisia flácida aguda / poliomielite) e Manual de Eventos Adversos Pós-Vacinação (EAPV). Material de Pediatria do Drive (imunização/calendário vacinal) — ver materiais_drive.md. Aprofundamento de 14/08/2026: Calendário Nacional de Vacinação vigente (PNI/MS) idade a idade; MS — Manual de Normas e Procedimentos para Vacinação (intervalos, doses inválidas, erros de imunização, cadeia de frio), Manual dos CRIE (imunobiológicos especiais) e Guia de Vigilância em Saúde (profilaxias pós-exposição: sarampo, varicela, hepatite B, raiva, tétano, coqueluche); SBIm/SBP.",
+ "notaErro": "No seu perfil, **imunização (PNI, paralisia flácida aguda e poliomielite)** aparece com erro recorrente. É um tema traiçoeiro porque parece \"decoreba de calendário\", mas a prova testa **raciocínio** e **condutas de vigilância**. Os tropeços clássicos, todos endereçados aqui:\n\n- **Você decora o calendário e esquece a lógica \"viva × inativada\".** Quase toda questão de contraindicação e de coadministração se resolve sabendo se a vacina é **viva atenuada** (cuidado em imunodeprimido grave e gestante) ou **inativada** (segura). Decore o conceito, não a tabela (seção 1).\n- **Você \"adia por qualquer coisa\".** Doença febril **leve**, uso de **antibiótico**, prematuridade e aleitamento **NÃO** contraindicam — adiar por isso derruba a cobertura, que é o que reintroduz sarampo e pólio (seção 3).\n- **Você reinicia o esquema no atraso.** Nunca se reinicia: **dose dada é dose contada**; completa-se o que falta respeitando intervalos mínimos (seção 4).\n- **Você subestima a paralisia flácida aguda (PFA).** Toda PFA em **< 15 anos** é **notificação compulsória imediata** e se investiga como pólio até afastar — e você confunde VOP (viva, risco raro de pólio vacinal) com VIP (inativada, esquema atual) (seção 2).\n\n**Como zerar:** para cada caso — (1) a vacina é **viva ou inativada**? (isso decide contraindicação/coadministração); (2) o que se alega é uma contraindicação **verdadeira** (anafilaxia; viva em imunodeprimido grave/gestante; encefalopatia pós-pertussis) ou **falsa**? (3) em atraso, **complete** (não reinicie); (4) diante de fraqueza flácida aguda no < 15 anos, **notifique já** e investigue pólio. As questões ao final batem nesses pontos.\n\n**Atualização de 14/08/2026 (análise dos simulados):** Imunização aparece com **25% de erro** no ranking unificado (3 de 12 questões, todas de Vinicius) e o módulo ainda era um dos mais curtos do site. As lacunas que sobravam eram justamente as que a banca mais usa para separar candidatos, e foram escritas hoje:\n\n- **Você sabe o conceito \"viva × inativada\", mas não tem o calendário na cabeça como um mapa.** Quando a questão pergunta \"quais vacinas essa criança de 12 meses deve receber hoje?\", conceito não basta — precisa do **calendário idade a idade** (seção 9).\n- **Você confunde vacinar com bloquear.** Diante de um contato de sarampo, de varicela, de um acidente com material biológico ou de uma mordedura de cão, a pergunta muda de \"qual o calendário?\" para \"qual a **profilaxia pós-exposição**, em que **prazo**, e preciso de **imunoglobulina**?\" (seção 10).\n- **Você trata todo imunodeprimido igual.** Cada situação (HIV, quimioterapia, transplante, corticoide, asplenia/falciforme, prematuro) tem regra própria, e existe uma porta específica para isso: os **CRIE** (seção 11).\n- **Você não sabe o que fazer quando o erro já aconteceu** — dose antes do intervalo mínimo, vacina fora da validade da cadeia de frio, via errada (seção 12).\n\n**Como zerar (versão completa):** (1) a vacina é viva ou inativada? (2) que idade/situação é essa no **calendário**? (3) é caso de **calendário** ou de **pós-exposição com prazo**? (4) há imunodepressão que mude a regra (CRIE)? (5) se houve erro, **conte o que valeu e complete** — nunca reinicie.",
+ "secoes": [
+  {
+   "h": "1. Tipos de vacina — o conceito que resolve a maioria das questões",
+   "c": "- **Vivas atenuadas:** BCG, **rotavírus**, **febre amarela**, **tríplice/tetra viral (SCR/SCRV)**, **varicela**, dengue (em indicações específicas). Em regra **contraindicadas em imunodepressão grave e gestação**; entre duas vacinas vivas parenterais, respeitar intervalo de 30 dias se não aplicadas no mesmo dia.\n- **Inativadas / subunidades / toxoides / conjugadas:** hepatite B, **pentavalente** (DTP+Hib+HepB), **VIP** (poliomielite inativada), pneumocócica, meningocócica, HPV, dTpa, influenza, hepatite A. **Seguras** em imunodeprimidos e gestantes.\n\nSaber a natureza da vacina resolve quase toda questão de contraindicação e de coadministração."
+  },
+  {
+   "h": "2. Poliomielite — VOP × VIP e vigilância",
+   "c": "O esquema atual usa **VIP** (inativada, injetável) nas doses do primeiro ano e nos reforços (o Brasil migrou para esquema **integralmente VIP**, aposentando a VOP oral). A **VOP** é vírus **vivo atenuado** e pode, raramente, causar **poliomielite associada à vacina (VAPP)** por reversão de virulência — por isso não se usa em imunodeprimidos nem em seus contatos quando ainda empregada.\n\n**Paralisia flácida aguda (PFA)** em menor de 15 anos é **notificação compulsória imediata** e deve ser investigada como possível poliomielite até afastar (coleta de fezes). A doença está **erradicada** no Brasil, mas a **queda de cobertura** ameaça reintrodução."
+  },
+  {
+   "h": "3. Contraindicações verdadeiras × falsas",
+   "c": "**Verdadeiras:**\n- Reação **anafilática** a dose anterior ou a componente da vacina.\n- Para **vacinas vivas:** imunodepressão grave e gestação.\n- **Encefalopatia** nos 7 dias após dose de componente **pertussis** contraindica novas doses de pertussis (usar dupla sem o componente).\n\n**Falsas (NÃO contraindicam — vacinar):**\n- Doença febril **leve**, uso de **antibiótico**, fase de convalescença.\n- **Prematuridade** (vacinar pela **idade cronológica**; HepB ao nascer conforme peso/condição).\n- Aleitamento; contato domiciliar com gestante/imunodeprimido (para a maioria das vacinas).\n- História familiar de eventos, alergia não anafilática."
+  },
+  {
+   "h": "4. Intervalos, atraso e situações especiais",
+   "c": "- **Atraso vacinal:** não reinicia esquema — completa o que falta (\"dose dada é dose contada\"), respeitando intervalos mínimos.\n- **Prematuro/baixo peso:** BCG geralmente ao atingir **2 kg**; hepatite B ao nascer conforme protocolo.\n- **Imunodeprimidos e contatos:** priorizar vacinas inativadas; proteger o paciente vacinando os conviventes (ex.: influenza, tríplice viral nos contatos suscetíveis).\n- **Coadministração:** a maioria pode ser dada no mesmo dia; vivas parenterais não coincidentes exigem 30 dias de intervalo."
+  },
+  {
+   "h": "5. Eventos adversos pós-vacinação (EAPV)",
+   "c": "Registrar e **notificar** EAPV. Pontos cobrados:\n- **Episódio hipotônico-hiporresponsivo** e febre alta após pertussis: em geral **não** contraindicam doses futuras (avaliar caso a caso; considerar acelular).\n- **Reação anafilática** a uma vacina contraindica **aquela** vacina.\n- Invaginação intestinal tem associação temporal com **rotavírus** — respeitar as **idades máximas** de administração das doses.\n- Conduta habitual: manter o calendário sempre que possível, orientar sintomáticos e notificar."
+  },
+  {
+   "h": "6. A lógica do calendário do PNI (por que as doses caem onde caem)",
+   "c": "Você não precisa decorar datas se entender a **lógica** por trás do calendário do lactente. Três ideias organizam quase tudo:\n\n- **Proteger cedo o que mata cedo.** A **hepatite B** é dada **ao nascer** (idealmente nas primeiras 12–24 h) porque a transmissão vertical no parto tem alto risco de cronificação. A **BCG** também é neonatal (dose única), para prevenir as formas graves da tuberculose (miliar e meníngea) no lactente.\n- **Séries de 3 doses no 1º semestre + reforços.** As vacinas **inativadas** precisam de repetição para \"amadurecer\" a resposta imune. Por isso, aos **2, 4 e 6 meses**, aplicam-se **pentavalente** (DTP + Hib + hepatite B), **VIP** (pólio inativada) e **pneumocócica/meningocócica** conforme o esquema vigente, com **reforços** depois (ex.: DTP e pólio no 2º ano). O **rotavírus** (viva, oral) entra aos **2 e 4 meses**, com **idade máxima** para começar/terminar (risco de invaginação) — perdida a janela, não se aplica.\n- **Vacinas vivas virais depois de 1 ano.** A **tríplice viral (SCR)** e a **tetra viral (SCRV)** e a **varicela** ficam a partir dos **12–15 meses**, quando os anticorpos maternos já não neutralizam a vacina e a resposta é robusta. A **febre amarela** entra conforme a área de recomendação.\n\nA moral: **inativada = série + reforço**; **viva = geralmente dose(s) após o 1º ano**; **o que tem risco vertical/precoce (HepB, BCG) = ao nascer**. Sabendo isso, você deduz o calendário e acerta as questões de \"qual vacina nessa idade/situação\"."
+  },
+  {
+   "h": "7. Poliomielite e vigilância da PFA (aprofundando o ponto de erro)",
+   "c": "A poliomielite é causada por **poliovírus** (enterovírus) que, em uma minoria dos infectados, invade os **neurônios motores do corno anterior da medula**, produzindo **paralisia flácida assimétrica**, sem perda sensitiva. Está **erradicada no Brasil** (último caso autóctone em 1989; certificação em 1994), mas a **vigilância continua** porque a queda de cobertura reabre a porta para reintrodução.\n\n**VOP × VIP — entenda a troca:**\n- **VOP (Sabin, oral):** vírus **vivo atenuado**. Vantagem histórica: induz **imunidade de mucosa** e \"circula\", protegendo contatos. Desvantagem: pode, raramente, **reverter** e causar **poliomielite associada à vacina (VAPP)** ou gerar **poliovírus derivado vacinal (cVDPV)** — e é **contraindicada em imunodeprimidos e seus contatos**.\n- **VIP (Salk, injetável):** vírus **inativado**, **sem** risco de pólio vacinal, segura em imunodeprimidos. Por segurança, o Brasil migrou para esquema **integralmente VIP**.\n\n**Vigilância da paralisia flácida aguda (PFA):** o sistema não vigia \"poliomielite\" — vigia toda **PFA em menores de 15 anos**, que é **notificação compulsória IMEDIATA** e deve ser **investigada como possível pólio até se afastar**. Isso inclui:\n- Coleta de **duas amostras de fezes** (para isolamento viral) nos primeiros 14 dias do início do déficit.\n- Investigação do diferencial: **síndrome de Guillain-Barré** (a principal causa de PFA hoje), mielite transversa, neuropatias, trauma, etc.\n- A meta é sensibilidade máxima: **na dúvida, notifique** — deixar de notificar é o erro que compromete a certificação de país livre de pólio."
+  },
+  {
+   "h": "8. Vacinas específicas de alto rendimento (o que a banca gosta de perguntar)",
+   "c": "Além do raciocínio geral, algumas vacinas têm \"pegadinhas\" próprias:\n\n- **BCG (viva, intradérmica):** dose única ao nascer (≥ 2 kg). A evolução **normal** é nódulo → úlcera → crosta → cicatriz em semanas — **não** é infecção nem motivo para antibiótico. Não se revacina quem não formou cicatriz (conduta atual). Filho de mãe com HIV tem conduta específica.\n- **Rotavírus (viva, oral):** protege contra a diarreia grave; respeitar **idade máxima** para 1ª e última dose (risco de **invaginação intestinal**). Se a criança **cuspir/vomitar**, em geral **não** se repete a dose.\n- **Tríplice viral / SCR (viva):** sarampo é a doença que mais se beneficia de cobertura alta; em surto, há **vacinação de bloqueio** (inclusive dose \"zero\" em lactente de 6–11 meses, que **não conta** no esquema). Contraindicada em gestante e imunodeprimido grave.\n- **Febre amarela (viva):** dose conforme área de recomendação; cuidado em imunodeprimidos, gestantes e **maiores de 60 anos** (avaliar risco-benefício); reação anafilática a **ovo** é a contraindicação clássica.\n- **HPV (inativada):** adolescentes (meninas e meninos), esquema de 2 doses na faixa preconizada; previne câncer de colo e outros — a proteção é **maior antes do início da vida sexual**.\n- **dTpa na gestante:** aplicada em **cada gestação** (a partir de 20 semanas) para gerar anticorpos que protegem o recém-nascido contra **coqueluche** por transferência transplacentária — estratégia de \"**cocooning**\"/proteção do bebê.\n- **Influenza (inativada):** anual, para grupos-alvo (crianças 6 m–<6 a, gestantes, idosos, comorbidades). Na **1ª vez** em criança < 9 anos, são **2 doses**."
+  },
+  {
+   "h": "9. O calendário do PNI, idade a idade — o mapa que você precisa ter na cabeça",
+   "c": "A seção 6 explicou a **lógica**; aqui está o **mapa**. Memorize por \"visitas\", não por vacina isolada — é assim que a questão vem (\"o que essa criança recebe hoje?\").\n\n- **Ao nascer:** **BCG** (dose única, intradérmica, ≥ 2 kg) + **hepatite B** (primeiras 12–24 h).\n- **2 meses:** **pentavalente** (DTP+Hib+HepB) + **VIP** (pólio inativada) + **pneumocócica 10-valente** + **rotavírus** (oral, viva).\n- **3 meses:** **meningocócica C** (conjugada).\n- **4 meses:** **pentavalente** + **VIP** + **pneumocócica 10** + **rotavírus** (2ª e **última** dose — respeitar a idade máxima).\n- **5 meses:** **meningocócica C**.\n- **6 meses:** **pentavalente** + **VIP**; **influenza** anual a partir daqui (6 meses a < 6 anos; **2 doses** na primeira vez em menor de 9 anos). **Covid-19** conforme a nota técnica vigente.\n- **9 meses:** **febre amarela** (viva) — hoje recomendada em todo o território nacional.\n- **12 meses:** **tríplice viral (SCR)** 1ª dose + **reforço da pneumocócica 10** + **reforço da meningocócica C**.\n- **15 meses:** **reforço de DTP** + **reforço de pólio** + **hepatite A** (dose única) + **tetra viral (SCRV)** ou SCR 2ª dose + varicela.\n- **4 anos:** **2º reforço de DTP** + **reforço de pólio** + **varicela** + **reforço de febre amarela** (a 2ª dose da febre amarela; após isso, dose única para a vida).\n- **9 a 14 anos:** **HPV** (meninas e meninos) — esquema de **dose única** na rotina do PNI desde 2024 para a faixa preconizada (esquemas de 2–3 doses permanecem para imunodeprimidos e situações especiais). **Meningocócica ACWY** para adolescentes (11–14 anos).\n- **Adolescente/adulto:** **dT** a cada 10 anos; **dTpa na gestante a cada gestação** (a partir de 20 semanas); hepatite B e tríplice viral conforme situação vacinal.\n\n**Três atalhos de memória que resolvem questões:**\n\n- **\"Tudo que é 2-4-6 é inativado e é série\"** (penta, VIP, pneumo, meningo) — precisa de repetição e reforço.\n- **\"Tudo que é viva viral fica de 9 meses para frente\"** (febre amarela aos 9 m; SCR/SCRV/varicela a partir de 12–15 m) — porque antes disso o anticorpo materno neutraliza a vacina. **Exceção que confunde: o rotavírus** (viva, mas **oral**), que é aos 2 e 4 meses porque a doença mata cedo e a imunidade é de mucosa.\n- **\"Reforço mora aos 15 meses e aos 4 anos\"** (DTP e pólio nas duas idades).\n\nCalendários mudam. A prova, porém, quase sempre cobra o **esqueleto acima** — e, quando cobra uma novidade (HPV em dose única, meningo ACWY no adolescente, dengue em faixa específica), cobra o conceito, não a minúcia. Confira sempre a versão vigente do Calendário Nacional antes da prova."
+  },
+  {
+   "h": "10. Profilaxia pós-exposição: quando a vacina vira tratamento (e o prazo importa)",
+   "c": "Aqui o raciocínio muda de \"calendário\" para \"**corrida contra o relógio**\". O princípio geral é: **vacina = imunização ativa** (demora dias a semanas, mas dura) e **imunoglobulina = imunização passiva** (protege já, mas por poucas semanas). Quando a doença incuba mais devagar que a resposta vacinal, a **vacina sozinha** basta; quando não dá tempo, entra a **imunoglobulina** — e, em geral, **as duas juntas** em locais diferentes.\n\n- **Sarampo:** **vacina de bloqueio em até 72 horas** do contato (para suscetíveis a partir de 6 meses — lembrando que a dose entre 6 e 11 meses é \"**dose zero**\" e **não conta** no esquema, que segue aos 12 e 15 meses). De **72 horas a 6 dias**, ou para quem não pode receber vacina viva (< 6 meses, gestante, imunodeprimido grave), usa-se **imunoglobulina humana normal (IGHN)**. Sarampo é **notificação imediata** e a busca ativa de contatos faz parte da conduta.\n- **Varicela:** **vacina em até 5 dias** (idealmente 3) para suscetíveis elegíveis. **Imunoglobulina hiperimune anti-varicela-zóster (IGHAVZ)** em até 96 horas para os que não podem vacinar e têm risco: **imunodeprimidos**, **gestantes suscetíveis**, **RN de mãe com varicela entre 5 dias antes e 2 dias depois do parto**, prematuros conforme critério.\n- **Hepatite B:** **vacina + imunoglobulina hiperimune (IGHAHB)**, idealmente em até 12–24 horas, no **RN de mãe HBsAg positivo** (em locais anatômicos diferentes) e em exposições sexuais/percutâneas de não vacinados. Vacinado com resposta comprovada não precisa de nada.\n- **Raiva (mordedura de cão/gato/morcego):** avaliar **espécie, tipo de ferimento e estado do animal**. Lavar exaustivamente com água e sabão. Conforme o esquema do MS: **observação do animal**, **vacina** e, nos acidentes graves ou por animal silvestre/morcego, **soro antirrábico (ou imunoglobulina) infiltrado na lesão + vacina**. Raiva é 100% letal e ~100% evitável — a banca cobra a decisão, não a dose.\n- **Tétano (ferimento):** cruze **história vacinal** com **tipo de ferimento**. Esquema completo e última dose há **< 5 anos**: nada. Entre 5 e 10 anos: **dT** se ferimento de alto risco. **> 10 anos** ou esquema incompleto/desconhecido: **dT**; e se o ferimento for de alto risco (profundo, sujo, com corpo estranho, necrose, mordedura), acrescentar **imunoglobulina antitetânica (IGHAT)** ou soro.\n- **Hepatite A:** vacina como bloqueio em surtos e contatos, conforme a nota técnica.\n- **Coqueluche:** quimioprofilaxia com **macrolídeo** para contatos de risco (lactente < 1 ano, gestante no 3º trimestre) — aqui a profilaxia é **antibiótico**, não vacina, e essa troca é uma pegadinha frequente.\n\n**A regra que unifica tudo:** pergunte sempre **quem é o exposto** (idade, gravidez, imunidade), **quanto tempo faz** e **ele é suscetível?**. Fora do prazo da vacina, pense imunoglobulina; imunodeprimido ou gestante com vacina viva contraindicada, pense imunoglobulina."
+  },
+  {
+   "h": "11. Vacinação em situações especiais — e para que servem os CRIE",
+   "c": "Nem toda criança cabe no calendário padrão. Para essas, o SUS mantém os **CRIE (Centros de Referência para Imunobiológicos Especiais)**, que fornecem vacinas e imunoglobulinas de indicação restrita — e a prova adora perguntar **quem tem indicação de CRIE**.\n\n- **Imunodeprimidos graves** (quimioterapia, transplante, imunobiológicos, corticoide em dose imunossupressora — em geral **≥ 2 mg/kg/dia de prednisona por ≥ 14 dias**): **vacinas vivas contraindicadas**; inativadas liberadas (podendo ter resposta menor). Regra prática: **vacinar antes** de iniciar a imunossupressão sempre que possível (vivas ≥ 4 semanas antes; inativadas ≥ 2 semanas antes) e **retomar** as vivas cerca de 3 meses após o fim da imunossupressão.\n- **HIV:** a decisão depende do **estado imunológico** (percentual/contagem de CD4). Com boa imunidade, as vacinas vivas do calendário podem ser aplicadas; com imunossupressão grave, **não**. A **BCG** merece destaque: **não se aplica** em criança com HIV **sintomática**; e crianças expostas verticalmente vacinam ao nascer, antes de a infecção ser descartada, conforme protocolo.\n- **Asplenia anatômica ou funcional (doença falciforme, esplenectomia):** risco extremo por **encapsulados** → **pneumocócica 13/23-valente**, **meningocócica ACWY e B**, **Hib** e influenza, além da **penicilina profilática**. Se houver esplenectomia programada, vacinar **≥ 2 semanas antes**.\n- **Prematuro:** vacina pela **idade cronológica**, com as doses cheias — **não corrigir a idade**. BCG ao atingir **2 kg**. A **pentavalente** costuma ser substituída por esquema com **DTPa** (acelular) em prematuros extremos/instáveis nos CRIE, e há indicação de **palivizumabe** (anticorpo monoclonal, não é vacina) contra VSR para prematuros e cardiopatas/pneumopatas selecionados na sazonalidade.\n- **Doenças crônicas** (cardiopatia, pneumopatia, nefropatia, diabetes, doença hepática): influenza anual, pneumocócicas, hepatite A/B conforme o caso.\n- **Gestante:** **hepatite B**, **influenza** e **dTpa** (a cada gestação, ≥ 20 semanas) são indicadas; **vivas contraindicadas** (SCR, varicela, febre amarela — esta última só se o risco de exposição superar o risco da vacina). Vacinar a gestante protege o recém-nascido nos primeiros meses, quando ele ainda não pode ser vacinado — o conceito de **proteção transplacentária** e de **cocooning** (vacinar quem cerca o bebê).\n\nO fio condutor: **proteger o vulnerável de duas formas** — vacinando-o com o que é seguro (inativadas) e vacinando **quem convive com ele** (estratégia de casulo)."
+  },
+  {
+   "h": "12. Quando o erro já aconteceu: intervalos, doses extras e cadeia de frio",
+   "c": "Boa parte das questões difíceis de imunização não pergunta o calendário — pergunta **o que fazer depois do erro**. Estes são os princípios:\n\n- **Dose aplicada antes do intervalo mínimo:** a dose **não é considerada válida** e deve ser **repetida**, respeitando o intervalo a partir da dose inválida. (Diferente do atraso, em que a dose vale.)\n- **Atraso, por maior que seja:** **nunca reinicie** o esquema. \"Dose dada é dose contada\" — complete o que falta pelos **intervalos mínimos**, e não pelos intervalos ideais.\n- **Dose extra por engano:** em geral **não causa dano**; registra-se, notifica-se como erro de imunização e segue-se o calendário. Exceção conceitual: vacinas com **idade máxima** (rotavírus) — aí o problema não é a dose a mais, é a dose **fora da janela**, que não deve ser aplicada.\n- **Via errada:** vacina intramuscular aplicada por via subcutânea pode ter **resposta reduzida** e mais reação local; a conduta depende da vacina (a BCG, intradérmica, é a mais sensível ao erro de via). Registrar e avaliar necessidade de revacinar.\n- **Cadeia de frio:** imunobiológicos de rotina se conservam entre **+2 °C e +8 °C**. Vacina que **congelou** (sobretudo as com adjuvante de alumínio — hepatite B, DTP/penta, dT) **perde potência e deve ser descartada**; termômetro fora da faixa exige **quarentena** do lote e avaliação, não uso \"porque parece bom\". Quem foi vacinado com imunobiológico sob suspeita de perda de potência deve ser **revacinado**.\n- **Vacinas vivas parenterais não aplicadas no mesmo dia:** respeitar **30 dias** de intervalo (a primeira pode reduzir a resposta à segunda por interferon). Vivas **orais** (rotavírus, VOP) não têm essa restrição.\n- **Após imunoglobulina ou transfusão:** os anticorpos passivos **neutralizam vacinas vivas virais** — aguarde o intervalo recomendado (em geral **3 a 11 meses**, conforme o produto e a dose) antes de aplicar SCR/varicela; se a vacina foi dada antes, ela deve ser **repetida** depois do prazo.\n- **Teste tuberculínico (PPD):** a tríplice viral pode gerar **falso-negativo** — faça o PPD no mesmo dia da vacina ou espere **4 a 6 semanas**.\n\n**A síntese:** erro de imunização não se esconde — **registra, notifica e corrige**. E, na dúvida entre \"repetir\" e \"reiniciar\", lembre da regra de ouro: repete-se **a dose inválida**; **nunca** se reinicia o esquema inteiro."
+  }
+ ],
+ "flashcards": [
+  {
+   "p": "Doença febril leve, uso de antibiótico e prematuridade contraindicam vacina?",
+   "r": "Não — são falsas contraindicações; deve-se vacinar."
+  },
+  {
+   "p": "Vacinas vivas atenuadas de rotina na infância (exemplos)?",
+   "r": "BCG, rotavírus, febre amarela, tríplice/tetra viral, varicela."
+  },
+  {
+   "p": "Prematuro: vacinar por qual idade?",
+   "r": "Idade cronológica (não a corrigida)."
+  },
+  {
+   "p": "PFA em menor de 15 anos — conduta de saúde pública?",
+   "r": "Notificação compulsória imediata e investigar poliomielite (coleta de fezes)."
+  },
+  {
+   "p": "Atraso vacinal: reinicia o esquema?",
+   "r": "Não — completa as doses faltantes; dose dada é dose contada."
+  },
+  {
+   "p": "Por que a hepatite B é dada ao nascer?",
+   "r": "Alto risco de transmissão vertical no parto e de cronificação no lactente — proteger o quanto antes."
+  },
+  {
+   "p": "Diferença de risco entre VOP e VIP?",
+   "r": "VOP (viva) pode causar pólio vacinal (VAPP/cVDPV) e é contraindicada em imunodeprimidos; VIP (inativada) não tem esse risco."
+  },
+  {
+   "p": "Principal causa de paralisia flácida aguda hoje (diferencial da pólio)?",
+   "r": "Síndrome de Guillain-Barré — mas toda PFA em <15 anos é notificada e investigada como pólio."
+  },
+  {
+   "p": "O que a criança recebe aos 2 meses no PNI?",
+   "r": "Pentavalente (DTP+Hib+HepB), VIP, pneumocócica 10-valente e rotavírus (oral, viva)."
+  },
+  {
+   "p": "O que se aplica aos 12 meses?",
+   "r": "Tríplice viral (1ª dose) + reforço da pneumocócica 10 + reforço da meningocócica C."
+  },
+  {
+   "p": "Quais reforços caem aos 15 meses e aos 4 anos?",
+   "r": "DTP e pólio nas duas idades; aos 15 m ainda hepatite A e tetra viral/varicela; aos 4 anos varicela e reforço da febre amarela."
+  },
+  {
+   "p": "Por que o rotavírus é a exceção da regra 'viva viral só depois de 1 ano'?",
+   "r": "É viva mas ORAL, com imunidade de mucosa, e a doença mata cedo — por isso aos 2 e 4 meses, com idade máxima rígida (risco de invaginação)."
+  },
+  {
+   "p": "Prazo da vacina de bloqueio do sarampo e o que fazer depois dele?",
+   "r": "Vacina em até 72 h; de 72 h a 6 dias (ou em quem não pode receber vacina viva), imunoglobulina humana normal."
+  },
+  {
+   "p": "O que é a 'dose zero' do sarampo?",
+   "r": "Dose entre 6 e 11 meses em surto/bloqueio — protege, mas NÃO conta no esquema (mantêm-se as doses de 12 e 15 meses)."
+  },
+  {
+   "p": "Profilaxia pós-exposição da varicela: prazos?",
+   "r": "Vacina em até 5 dias (ideal 3) para elegíveis; IGHAVZ em até 96 h para imunodeprimidos, gestantes suscetíveis e RN de mãe com varicela periparto."
+  },
+  {
+   "p": "RN de mãe HBsAg positivo: conduta nas primeiras horas?",
+   "r": "Vacina de hepatite B + imunoglobulina hiperimune (IGHAHB) em até 12–24 h, em locais anatômicos diferentes."
+  },
+  {
+   "p": "Ferimento de alto risco com esquema antitetânico desconhecido: conduta?",
+   "r": "dT (ou dTpa) + imunoglobulina/soro antitetânico."
+  },
+  {
+   "p": "Quimioprofilaxia de contato de coqueluche é vacina?",
+   "r": "Não — é macrolídeo (azitromicina) para contatos de risco, como lactente < 1 ano e gestante no 3º trimestre."
+  },
+  {
+   "p": "Que dose de corticoide é considerada imunossupressora para contraindicar vacina viva?",
+   "r": "Em geral ≥ 2 mg/kg/dia de prednisona (ou ≥ 20 mg/dia) por ≥ 14 dias."
+  },
+  {
+   "p": "Quando vacinar em relação ao início da imunossupressão?",
+   "r": "Vivas ≥ 4 semanas antes; inativadas ≥ 2 semanas antes. Retomar vivas ~3 meses após o fim da imunossupressão."
+  },
+  {
+   "p": "Vacinas essenciais na asplenia/doença falciforme?",
+   "r": "Pneumocócicas (13 e 23), meningocócicas ACWY e B, Hib e influenza — além de penicilina profilática."
+  },
+  {
+   "p": "Dose aplicada ANTES do intervalo mínimo é válida?",
+   "r": "Não — deve ser repetida. Diferente do atraso, em que a dose vale e só se completa o que falta."
+  },
+  {
+   "p": "Vacina que congelou pode ser usada?",
+   "r": "Não. As com adjuvante de alumínio (HepB, DTP/penta, dT) perdem potência ao congelar — descartar e revacinar quem recebeu."
+  },
+  {
+   "p": "Intervalo entre duas vacinas vivas parenterais não aplicadas no mesmo dia?",
+   "r": "30 dias. Vivas orais (rotavírus, VOP) não têm essa restrição."
+  },
+  {
+   "p": "Vacina viva viral após imunoglobulina/transfusão: qual o cuidado?",
+   "r": "Os anticorpos passivos neutralizam a vacina — aguardar 3 a 11 meses conforme o produto, e repetir a dose se aplicada antes."
+  }
+ ],
+ "pegadinhas": [
+  "Doença febril LEVE, uso de antibiótico e prematuridade NÃO contraindicam vacinar.",
+  "Prematuro vacina pela idade cronológica; BCG em geral ao atingir 2 kg.",
+  "VOP é vírus vivo (risco raro de pólio vacinal); VIP é inativada — o Brasil usa esquema só com VIP.",
+  "Paralisia flácida aguda em <15 anos = notificação imediata e investigar poliomielite.",
+  "Vacinas vivas: cuidado em imunodeprimido grave e gestante; inativadas são seguras.",
+  "Atraso não reinicia esquema — completa o que falta.",
+  "Hepatite B e BCG são neonatais (risco vertical/precoce); vacinas vivas virais (SCR/varicela) a partir de 12–15 meses.",
+  "Rotavírus (viva, oral) tem IDADE MÁXIMA para iniciar/completar (risco de invaginação) — perdida a janela, não aplica.",
+  "A vigilância é da PFA (não só da \"pólio\"): notificar TODA fraqueza flácida aguda em <15 anos.",
+  "Reforços de DTP e pólio moram aos 15 meses E aos 4 anos — é a dupla mais cobrada do calendário.",
+  "Febre amarela: 9 meses e reforço aos 4 anos; depois disso, dose única para a vida.",
+  "Dose zero de sarampo (6–11 meses) NÃO conta no esquema — a criança ainda recebe 12 e 15 meses.",
+  "Bloqueio de sarampo é até 72 h (vacina); passou disso ou não pode vacina viva, é imunoglobulina.",
+  "Contato de coqueluche recebe ANTIBIÓTICO (macrolídeo), não vacina de bloqueio.",
+  "Prematuro vacina pela idade CRONOLÓGICA e com dose cheia — nunca corrigir a idade nem fracionar.",
+  "Dose antes do intervalo mínimo é INVÁLIDA e se repete; atraso NÃO reinicia esquema. São regras diferentes.",
+  "Vacina congelada (adjuvante de alumínio) perde potência: descartar e revacinar — 'parece intacta' não vale.",
+  "Após imunoglobulina/transfusão, a tríplice viral pode não pegar: respeitar o intervalo ou repetir a dose.",
+  "Corticoide em dose imunossupressora é ≥ 2 mg/kg/dia por ≥ 14 dias — dose baixa, tópica ou inalatória NÃO contraindica vacina viva.",
+  "Gestante recebe dTpa em CADA gestação (≥ 20 semanas) — não é 'uma vez na vida'."
+ ],
+ "diretrizes": [
+  "Calendário Nacional de Vacinação — PNI/Ministério da Saúde (versão vigente).",
+  "SBIm — Calendários de vacinação; SBP — Documentos Científicos (Imunizações).",
+  "MS — Guia de Vigilância em Saúde (paralisia flácida aguda / poliomielite) e Manual de EAPV.",
+  "Ministério da Saúde — Manual de Normas e Procedimentos para Vacinação (intervalos mínimos, dose inválida × atraso, erros de imunização e cadeia de frio).",
+  "Ministério da Saúde — Manual dos Centros de Referência para Imunobiológicos Especiais (CRIE): imunodeprimidos, asplenia/doença falciforme, prematuros, transplantados.",
+  "Ministério da Saúde — Guia de Vigilância em Saúde: profilaxia pós-exposição de sarampo, varicela (IGHAVZ), hepatite B (IGHAHB), raiva, tétano (IGHAT) e quimioprofilaxia da coqueluche."
+ ],
+ "questoes": [
+  {
+   "enunciado": "Lactente de 3 meses comparece para vacinação com coriza e temperatura de 37,6 °C, em uso de amoxicilina por otite. Qual a conduta?",
+   "alternativas": {
+    "a": "Adiar todas as vacinas até terminar o antibiótico",
+    "b": "Vacinar normalmente conforme o calendário",
+    "c": "Contraindicar vacinas vivas para sempre",
+    "d": "Só vacinar após 30 dias sem sintomas"
+   },
+   "correta": "b",
+   "comentario": "Doença febril leve e uso de antibiótico NÃO contraindicam vacinação — são falsas contraindicações. O lactente deve ser vacinado normalmente para não perder oportunidade. Só se adia em doença moderada a grave. Não há razão para contraindicar vacinas vivas de forma permanente. Perder a janela por quadros banais reduz cobertura — justamente o que aumenta o risco de doenças como o sarampo e a poliomielite.",
+   "foco": "Contraindicação verdadeira × falsa"
+  },
+  {
+   "enunciado": "Criança com imunodeficiência celular grave precisa atualizar vacinas. Qual está, em regra, CONTRAINDICADA?",
+   "alternativas": {
+    "a": "Hepatite B",
+    "b": "Pneumocócica conjugada",
+    "c": "VIP (poliomielite inativada)",
+    "d": "Tríplice viral (sarampo, caxumba, rubéola)"
+   },
+   "correta": "d",
+   "comentario": "A tríplice viral (SCR) é de vírus VIVO atenuado e, em regra, contraindicada na imunodepressão grave (assim como BCG, rotavírus, febre amarela, varicela). Hepatite B, pneumocócica conjugada e VIP são inativadas/subunidades e seguras nesses pacientes. Reconhecer viva × inativada resolve a questão. Contatos podem precisar de estratégias de proteção (vacinar conviventes com vacinas seguras).",
+   "foco": "Tipo de vacina / imunodeprimido"
+  },
+  {
+   "enunciado": "Criança de 5 anos evolui, após quadro febril, com perda súbita de força e flacidez em um membro, reflexos diminuídos e sensibilidade preservada. Qual conduta de saúde pública é obrigatória?",
+   "alternativas": {
+    "a": "Notificação compulsória imediata e investigação de poliomielite",
+    "b": "Apenas observação domiciliar",
+    "c": "Alta sem notificação por ser quadro viral",
+    "d": "Iniciar corticoide e dispensar investigação"
+   },
+   "correta": "a",
+   "comentario": "Toda paralisia flácida aguda em menor de 15 anos é evento de notificação compulsória IMEDIATA e deve ser investigada como possível poliomielite até que se afaste (coleta de fezes para isolamento viral). A poliomielite está erradicada no Brasil, mas a vigilância é mantida porque a queda de cobertura vacinal ameaça reintrodução. Observar em casa, dar alta sem notificar ou tratar sem investigar violam o protocolo de vigilância.",
+   "foco": "Paralisia flácida aguda / pólio"
+  },
+  {
+   "enunciado": "Criança de 15 meses chega à UBS com apenas as vacinas do nascimento (BCG e hepatite B); a mãe faltou às consultas seguintes. Qual a conduta correta?",
+   "alternativas": {
+    "a": "Reiniciar todo o esquema desde o começo",
+    "b": "Completar as doses faltantes respeitando os intervalos mínimos, sem reiniciar",
+    "c": "Considerar a criança perdida para vacinação e só retomar aos 4 anos",
+    "d": "Aplicar apenas vacinas vivas e ignorar as inativadas"
+   },
+   "correta": "b",
+   "comentario": "No atraso vacinal NÃO se reinicia o esquema: \"dose dada é dose contada\". Aproveita-se a oportunidade para atualizar o cartão, completando as doses que faltam e respeitando os intervalos mínimos entre elas — inclusive aplicando várias vacinas no mesmo dia quando compatíveis. Reiniciar do zero é erro (desperdiça doses e adia proteção). Adiar para os 4 anos ou selecionar só vivas deixa a criança desprotegida justamente na fase de maior risco.",
+   "foco": "Atraso vacinal (não reiniciar)"
+  },
+  {
+   "enunciado": "Lactente de 4 meses comparece à unidade para vacinação de rotina, com calendário em dia. Quais imunobiológicos deve receber nesta visita, conforme o Calendário Nacional?",
+   "alternativas": {
+    "a": "Pentavalente, VIP, pneumocócica 10-valente e rotavírus",
+    "b": "Tríplice viral, meningocócica C e hepatite A",
+    "c": "BCG, hepatite B e febre amarela",
+    "d": "DTP, VOP e varicela"
+   },
+   "correta": "a",
+   "comentario": "Aos 2, 4 e 6 meses concentram-se as séries primárias de vacinas inativadas: pentavalente (DTP + Hib + hepatite B), VIP (pólio inativada) e pneumocócica 10-valente. O rotavírus (viva, oral) entra aos 2 e 4 meses — sendo a de 4 meses a ÚLTIMA dose, com idade máxima rígida pelo risco de invaginação intestinal. A meningocócica C fica aos 3 e 5 meses, o que explica por que ela não entra nesta visita. Tríplice viral, hepatite A e tetra viral são vacinas de 12–15 meses (vivas virais dependem do desaparecimento do anticorpo materno). BCG e hepatite B são neonatais e a febre amarela é aos 9 meses. DTP e pólio de reforço, além da varicela, ficam aos 15 meses e 4 anos, e o Brasil não usa mais VOP (esquema integralmente VIP). O atalho de memória: 'o que é 2-4-6 é inativado e é série; o que é viva viral é de 9 meses para frente — exceto o rotavírus, que é viva oral'.",
+   "foco": "Calendário idade a idade (lacuna do módulo)"
+  },
+  {
+   "enunciado": "Criança de 3 anos, não vacinada para varicela e sem história da doença, teve contato domiciliar com um irmão que iniciou varicela há 2 dias. Está em uso de prednisona 2,5 mg/kg/dia há 3 semanas por síndrome nefrótica. Qual a conduta?",
+   "alternativas": {
+    "a": "Vacina de varicela imediatamente",
+    "b": "Imunoglobulina hiperimune anti-varicela-zóster (IGHAVZ)",
+    "c": "Aciclovir profilático apenas ao surgir febre",
+    "d": "Nenhuma conduta, pois já se passaram 48 horas"
+   },
+   "correta": "b",
+   "comentario": "Dois dados decidem: a criança é suscetível e está em dose IMUNOSSUPRESSORA de corticoide (≥ 2 mg/kg/dia de prednisona por ≥ 14 dias). Nessa condição, a vacina de varicela — que é VIVA atenuada — está contraindicada, mesmo dentro do prazo de bloqueio de 5 dias. A proteção possível é passiva: imunoglobulina hiperimune anti-varicela-zóster (IGHAVZ), indicada em até 96 horas do contato para imunodeprimidos, gestantes suscetíveis e recém-nascidos de mãe com varicela periparto — e o contato ocorreu há 48 horas, dentro da janela. Aciclovir profilático não substitui a imunoglobulina nesse cenário e 'esperar a febre' é conduta tardia numa criança de alto risco de varicela grave. A pegadinha é oferecer a vacina, correta em suscetível imunocompetente, mas proibida aqui — e a questão testa exatamente o cruzamento entre 'viva × inativada' e 'profilaxia pós-exposição com prazo'.",
+   "foco": "Pós-exposição × imunodepressão (lacuna do módulo)"
+  },
+  {
+   "enunciado": "Menino de 18 meses chega com o cartão mostrando apenas BCG, hepatite B ao nascer e uma dose de pentavalente aos 2 meses. A mãe pergunta se será preciso 'começar tudo de novo'. Qual a conduta correta?",
+   "alternativas": {
+    "a": "Reiniciar todos os esquemas do zero",
+    "b": "Completar as doses que faltam, respeitando os intervalos mínimos",
+    "c": "Aguardar os 2 anos para retomar o calendário",
+    "d": "Aplicar somente vacinas vivas, pois as inativadas perderam validade"
+   },
+   "correta": "b",
+   "comentario": "O princípio central do PNI diante de atraso vacinal é que 'dose dada é dose contada': não se reinicia esquema nenhum, por maior que seja o intervalo desde a última dose. Completa-se o que falta usando os INTERVALOS MÍNIMOS (e não os ideais), aproveitando a oportunidade para aplicar o máximo de vacinas simultaneamente — vacinas diferentes podem ser dadas no mesmo dia, em locais anatômicos distintos. Reiniciar expõe a criança a doses desnecessárias, gasta insumo e, sobretudo, atrasa a proteção. Aguardar os 2 anos deixa a criança vulnerável exatamente na faixa de maior risco. E a afirmação de que 'inativadas perderam validade' é falsa: a memória imunológica das doses prévias permanece. Cuidado para não confundir esta regra com outra, diferente: dose aplicada ANTES do intervalo mínimo é inválida e deve ser repetida.",
+   "foco": "Atraso vacinal: completar, não reiniciar (ponto de erro)"
+  }
+ ]
+};
+
+window.REVISAO_MODULOS["PED|Infecto / respiratório / pele"] = {
+ "titulo": "Infecto / respiratório / pele na criança",
+ "half": "PED",
+ "resumo": "As infecções respiratórias e febris do lactente são o campeão de atendimento pediátrico e de erro em prova, porque doenças com nomes diferentes compartilham os mesmos sintomas (tosse, febre, chiado) e a banca cobra a pista que separa uma da outra e a conduta na idade certa. Este texto reconstrói o tema do zero: como o pulmão e a via aérea da criança adoecem, por que a idade muda o agente e o raciocínio, e um caminho de decisão que separa bronquiolite, pneumonia típica, a pneumonia afebril do lactente, ITU e otite — mais um bloco de exantemas/arboviroses e a acne.",
+ "fontes": "Base: SBP — Diretrizes de Bronquiolite, Pneumonia Adquirida na Comunidade e Infecção do Trato Urinário na criança; Ministério da Saúde — Guia de Vigilância em Saúde (arboviroses, sarampo) e AIDPI; e materiais de Pediatria do Drive do Vinicius (Infecções respiratórias — bronquiolite, pneumonia; Emergências respiratórias — ver materiais_drive.md). Aprofundamento de 14/08/2026: Ministério da Saúde — Guia de Vigilância em Saúde (Febre Maculosa Brasileira e outras riquetsioses; Coqueluche) e CDC — Rocky Mountain Spotted Fever (doxiciclina como 1ª linha em qualquer idade); SBP — doença de Kawasaki e exantemas da infância.",
+ "notaErro": "Nos seus registros, **pneumonia afebril do lactente** aparece com taxa de erro de **100%** (tier ALTO), e o eixo respiratório/infeccioso da criança como um todo derruba pontos. O erro quase nunca é \"não conhecer a doença\" — é **não deixar a IDADE e a FEBRE guiarem o raciocínio** e **tratar chiado com antibiótico**. Quatro armadilhas explicam a maioria das quedas, e este texto foi montado para desarmar cada uma:\n\n- **Você não reconhece a pneumonia afebril do lactente (\"pneumonia atípica do lactente\").** É um quadro entre 1 e 4 meses, de evolução arrastada, tosse em acessos (coqueluchoide) SEM febre ou com febre baixa, taquipneia e, muitas vezes, história de conjuntivite neonatal — o agente clássico é a **Chlamydia trachomatis** adquirida no canal de parto. O erro é rotular como pneumonia bacteriana comum e dar penicilina/amoxicilina: o tratamento é **macrolídeo** (azitromicina/eritromicina). Guarde o gatilho: **lactente pequeno + tosse arrastada + SEM febre = pense atípica/Chlamydia** (seção 5).\n\n- **Você troca bronquiolite por pneumonia e prescreve antibiótico.** Primeiro episódio de sibilância no lactente < 2 anos, com pródromo de coriza e depois taquipneia/tiragem/sibilos, no outono-inverno, é **bronquiolite viral** (VSR na maioria) — doença **viral**, cujo tratamento é **suporte** (oxigênio, hidratação, desobstrução nasal). Antibiótico, broncodilatador de rotina, corticoide e fisioterapia **não** mudam o curso (seção 4).\n\n- **Você deixa passar a ITU febril do lactente.** Lactente com **febre sem foco** é ITU até prova em contrário; o exame é **urina tipo I + urocultura por técnica adequada** (jato médio, cateterismo ou punção — NUNCA saco coletor para cultura). Perder isso arrisca cicatriz renal (seção 6).\n\n- **Você superdiagnostica otite e antibiotiza sem critério.** OMA exige **abaulamento** da membrana timpânica (não só hiperemia); e há a opção de **observação** em casos selecionados. Hiperemia isolada com choro/febre pode ser só a membrana congesta pelo choro (seção 7).\n\n**Como zerar o erro:** para toda criança com queixa respiratória/febril, responda NESTA ordem — (1) **que idade** tem (RN, lactente pequeno < 3–4 meses, lactente, pré-escolar)? (2) **tem ou não febre** e desde quando (agudo × arrastado)? (3) **onde está o problema** (via aérea alta, bronquíolo, alvéolo, trato urinário, ouvido, pele)? (4) **é viral ou bacteriano** — e, portanto, **precisa ou não de antibiótico**? As questões ao final batem exatamente nesses tropeços.\n\n**Atualização de 14/08/2026 (análise dos simulados + revisão espaçada do dia):** este domínio está com **24% de erro** no ranking unificado (10 de 42 questões — 7 de Vinicius e 3 de Ana Teresa), e o simulado de hoje trouxe um bloco de revisão espaçada de **febre maculosa brasileira** (Ana Teresa, **100% de erro**, 3/3), tema regional de altíssimo valor para bancas da Bahia e que **não existia** neste módulo. Duas lacunas foram fechadas hoje:\n\n- **Você organiza bem a criança que tosse, mas não a criança com FEBRE + EXANTEMA.** Esse é outro eixo, com outra lógica: aqui o que decide é o **tipo de lesão** (mácula, petéquia, vesícula), a **direção da progressão** (centrífuga × centrípeta), o **envolvimento de palmas e plantas** e o **contexto epidemiológico** (carrapato, viagem, surto, estado vacinal). Sem esse segundo mapa, você chuta entre dengue, sarampo, escarlatina, meningococcemia e rickettsiose (seções 10 e 11).\n- **Você espera confirmação laboratorial para tratar.** Na **febre maculosa** e na **meningococcemia**, esperar sorologia ou cultura **mata o paciente**. São as duas doenças em que o tratamento é **empírico e imediato** diante da suspeita — e a banca constrói a questão exatamente sobre isso (seção 10).\n\n**Como zerar (versão ampliada):** ao ver febre em criança, pergunte primeiro **onde está o problema**; se a resposta for \"pele\", entre no segundo algoritmo — **que lesão? para onde caminha? pega palma e planta? qual a exposição?** — e, antes de qualquer exame, decida se este é um caso em que se **trata na suspeita** (febre maculosa, meningococcemia, sarampo com vitamina A e notificação).",
+ "secoes": [
+  {
+   "h": "1. Comece pelo começo: por que a criança adoece diferente",
+   "c": "A via aérea e o pulmão da criança pequena não são \"um adulto em miniatura\". Três fatos anatômicos explicam quase tudo o que você vê no plantão:\n\n- **Calibres pequenos:** os brônquios e bronquíolos do lactente têm diâmetro reduzido. Um pouco de edema e muco (que num adulto passaria despercebido) já obstrui muito — daí o **sibilo** e a **tiragem** aparecerem com facilidade.\n- **Respiração nasal obrigatória** nos primeiros meses: o lactente respira quase só pelo nariz. Coriza e obstrução nasal, sozinhas, já causam dificuldade para mamar e desconforto — por isso **desobstruir o nariz** (soro fisiológico) é tratamento de verdade.\n- **Reserva menor e fadiga fácil:** a criança compensa a hipoxemia acelerando a frequência respiratória. Por isso a **taquipneia é o sinal mais sensível** de doença respiratória baixa, e a criança que \"cansa\" e fica bradipneica/sonolenta está grave.\n\nUma imagem ajuda: pense na via aérea infantil como um canudo fino. Qualquer muco ou inchaço estreita muito a passagem; o corpo compensa \"soprando mais rápido\" (taquipneia) e \"puxando com força\" (tiragem). Quando o canudo entope de vez ou a criança se cansa de soprar, vem a insuficiência respiratória."
+  },
+  {
+   "h": "2. As ferramentas que valem mais que qualquer exame: contar a FR e ver o esforço",
+   "c": "Antes de qualquer radiografia, dois dados de beira-leito organizam o caso (padrão AIDPI/OMS):\n\n- **Taquipneia por faixa etária** (contar por 1 minuto, com a criança calma): **< 2 meses ≥ 60 irpm**; **2–11 meses ≥ 50 irpm**; **1–5 anos ≥ 40 irpm**. Taquipneia é o marcador mais sensível de pneumonia na criança.\n- **Sinais de esforço/gravidade:** **tiragem subcostal** (o AIDPI chama de \"tiragem\" e é sinal de pneumonia grave), batimento de asa de nariz, gemência, **saturação baixa** (< 92–95% conforme o serviço), incapacidade de aceitar líquidos, cianose, sonolência ou irritabilidade extrema.\n\nRegra prática: **febre + tosse + taquipneia = pneumonia** até prova em contrário, e a radiografia **não é obrigatória** para diagnosticar PAC ambulatorial típica (ela se reserva a dúvida, gravidade, internação ou complicação). Já o **sibilo** desloca o raciocínio para via aérea (bronquiolite, asma, sibilância viral)."
+  },
+  {
+   "h": "3. O divisor de águas: FEBRE + IDADE separam os diagnósticos",
+   "c": "Este é o passo que muda tudo — e o que você não pode pular:\n\n- **Lactente < 3 meses com febre:** é sempre um alerta. Febre sem foco nessa idade obriga a investigar infecção bacteriana grave (ITU, pneumonia, bacteremia, meningite) com mais rigor.\n- **Quadro AGUDO com febre + tosse + taquipneia:** aponta para **pneumonia bacteriana típica** (pneumococo, o principal) ou, no lactente, **bronquiolite** (se houver sibilo e pródromo catarral).\n- **Quadro ARRASTADO, tosse persistente, SEM febre ou febre baixa, no lactente pequeno:** liga o alarme para a **pneumonia afebril/atípica do lactente** (Chlamydia trachomatis; também Ureaplasma, CMV) — o ponto que você mais erra.\n- **Pré-escolar/escolar com tosse arrastada, febre baixa e ausculta \"pobre\" para o tanto que tosse:** pense **pneumonia atípica por Mycoplasma pneumoniae** (\"pneumonia andante\") — também macrolídeo.\n\nEncaixe sempre o caso em uma dessas caixas ANTES de decidir exame ou antibiótico. Metade do trabalho está feita."
+  },
+  {
+   "h": "4. Bronquiolite viral aguda — o chiado que NÃO se antibiotiza",
+   "c": "É a infecção respiratória baixa mais comum do lactente. Definição clássica: **primeiro episódio de sibilância** em criança **< 2 anos** (pico 2–6 meses), no **outono-inverno**, precedido por **pródromo de vias aéreas superiores** (coriza, obstrução nasal), evoluindo em 2–3 dias com **taquipneia, tiragem, sibilos e/ou estertores**. O agente mais comum é o **vírus sincicial respiratório (VSR)**; outros: rinovírus, metapneumovírus, parainfluenza.\n\n- **Diagnóstico é CLÍNICO.** Radiografia e exames virais de rotina **não** são recomendados (a radiografia costuma mostrar hiperinsuflação e atelectasias que confundem e levam a antibiótico desnecessário).\n- **Tratamento = SUPORTE:** oxigênio se saturação baixa, **hidratação**, **desobstrução nasal** com soro fisiológico, cabeceira elevada, e observação. O que **NÃO** funciona de rotina: **broncodilatador** (não muda desfecho), **corticoide**, **antibiótico** (é vírus), **fisioterapia respiratória** de rotina, nebulização com adrenalina em casa.\n- **Quando internar:** hipoxemia persistente, esforço importante, apneia (comum em prematuros e < 2 meses), recusa alimentar/desidratação, idade < 3 meses ou comorbidade.\n- **Prevenção:** higiene, aleitamento materno; **palivizumabe/nirsevimabe** (imunização passiva contra VSR) para grupos de risco conforme o programa vigente."
+  },
+  {
+   "h": "5. Pneumonia na criança — típica × afebril do lactente (seu ponto de erro)",
+   "c": "Divida a pneumonia da criança em dois grandes cenários:\n\n**A) Pneumonia bacteriana TÍPICA (aguda, febril).** O agente dominante fora do período neonatal é o **Streptococcus pneumoniae (pneumococo)**. Quadro: **febre alta**, tosse, **taquipneia**, tiragem, ausculta com estertores/redução do murmúrio, às vezes dor pleurítica. Tratamento ambulatorial de escolha: **amoxicilina** (dose alta), pela alta cobertura ao pneumococo; internados, ampicilina/penicilina. Suspeitar de complicação (derrame/empiema, sobretudo por pneumococo ou S. aureus) quando há febre persistente, toxemia e redução localizada do murmúrio.\n\n**B) Pneumonia AFEBRIL / ATÍPICA do LACTENTE (arrastada, sem febre).** Este é o quadro que você erra. Perfil: lactente de **1 a 4 meses**, evolução **subaguda/arrastada**, **tosse em acessos (coqueluchoide) SEM febre** ou com febre baixa, taquipneia, às vezes sibilos e **eosinofilia**; história de **conjuntivite neonatal** (secreção ocular nas primeiras semanas) é a grande pista. O agente clássico é a **Chlamydia trachomatis** adquirida no canal de parto (também Ureaplasma urealyticum, CMV, Bordetella no diagnóstico diferencial de tosse coqueluchoide). Tratamento: **macrolídeo** — **azitromicina** ou **eritromicina** (atenção ao risco de estenose hipertrófica de piloro com macrolídeo em recém-nascidos, mas o benefício supera nesse quadro). Não adianta amoxicilina: o agente não tem parede celular alvo dos betalactâmicos.\n\n**C) Pneumonia ATÍPICA do escolar (Mycoplasma).** Criança maior/adolescente com tosse arrastada, febre baixa, cefaleia, mal-estar e ausculta discreta (\"pneumonia andante\"); RX às vezes pior que o exame físico. Tratamento: **macrolídeo** (azitromicina). Guarde a regra: **atípica = macrolídeo**, em qualquer idade.\n\nFio condutor: **febre alta + agudo = típica (amoxicilina); arrastado + sem febre = atípica (macrolídeo)** — e, no lactente pequeno com tosse arrastada sem febre, pense **Chlamydia**."
+  },
+  {
+   "h": "6. Infecção do trato urinário — a febre sem foco do lactente",
+   "c": "Em todo **lactente com febre sem foco**, a ITU é o diagnóstico a excluir (é uma das causas mais comuns de bacteremia oculta e de cicatriz renal). O agente principal é a **Escherichia coli**.\n\n- **Como coletar a urina para CULTURA:** o método importa tanto quanto o exame. Para urocultura confiável, use **jato médio** (criança com controle), **cateterismo vesical** ou **punção suprapúbica** no lactente. **Saco coletor NUNCA serve para cultura** (contamina) — só presta para uma urina tipo I negativa afastar (alto valor preditivo negativo); se positiva, confirmar por método estéril.\n- **Diagnóstico:** urina tipo I sugestiva (leucocitúria, nitrito, esterase leucocitária) **+ urocultura** com contagem significativa pelo método.\n- **Tratamento:** antibiótico conforme idade/gravidade (lactente pequeno e toxemiado → internação e parenteral; demais, oral). Duração habitual 7–10 dias na ITU febril (pielonefrite).\n- **Investigação de imagem:** **ultrassonografia de rins e vias urinárias** após a primeira ITU febril; uretrocistografia miccional e outros exames em casos selecionados (ITU atípica/recorrente, US alterado) para buscar **refluxo vesicoureteral** e uropatias. O objetivo é prevenir cicatriz renal e doença renal crônica."
+  },
+  {
+   "h": "7. Otite média aguda — abaulamento manda, não a hiperemia",
+   "c": "A **otite média aguda (OMA)** é bacteriana/viral (pneumococo, Haemophilus não tipável, Moraxella) e comum após IVAS. O diagnóstico exige achado objetivo à otoscopia:\n\n- **Critério que decide: ABAULAMENTO da membrana timpânica** (indica pus na orelha média), com ou sem otalgia/febre. **Hiperemia isolada NÃO fecha OMA** — a membrana fica congesta só com o choro/febre, e superdiagnosticar leva a antibiótico à toa.\n- **Conduta:** analgesia SEMPRE. Quanto ao antibiótico, há a estratégia de **observação vigiada (48–72 h)** em crianças **> 2 anos**, sem otorreia, com quadro leve e bom acesso a reavaliação. **Antibiótico de escolha: amoxicilina** (dose alta); amoxicilina-clavulanato se falha, otite recente tratada ou conjuntivite associada (Haemophilus).\n- **Antibiótico obrigatório (sem observar):** < 6 meses; 6–24 meses com quadro grave/bilateral; otorreia (perfuração); toxemia."
+  },
+  {
+   "h": "8. Exantemas e arboviroses — o que a prova (e a vigilância) cobra",
+   "c": "Bloco de alto valor porque envolve **notificação** e saúde pública:\n\n- **Sarampo (reemergente):** febre alta, tosse, coriza, conjuntivite (os \"3 C\") e **manchas de Koplik** (enantema patognomônico) que precedem o **exantema maculopapular** crânio-caudal. **Notificação imediata**; conduta inclui **vitamina A**, isolamento e bloqueio vacinal dos contatos. Vacina é a prevenção (tríplice viral).\n- **Dengue:** febre + mialgia/cefaleia/dor retro-orbitária; vigiar **sinais de alarme** (dor abdominal intensa, vômitos persistentes, sangramento de mucosa, letargia, hepatomegalia dolorosa, queda de plaquetas com aumento do hematócrito) → hidratação guiada por estágio; prova do laço. Zika (exantema pruriginoso precoce, conjuntivite, risco de malformação na gestante) e chikungunya (artralgia intensa e persistente) completam o trio arboviral.\n- **Outros exantemas clássicos:** eritema infeccioso (parvovírus B19 — \"face esbofeteada\"), exantema súbito/roséola (HHV-6 — febre alta 3 dias que some quando surge o exantema), escarlatina (estreptococo — língua em framboesa, exantema em lixa, tratar com penicilina/amoxicilina), varicela."
+  },
+  {
+   "h": "9. Acne — a doença de pele do adolescente que também cai",
+   "c": "A **acne vulgar** é a dermatose mais comum da adolescência e tem fisiopatologia em quatro pilares: **hiperprodução sebácea** (estímulo androgênico), **hiperqueratinização** do folículo (forma o comedão), colonização por **Cutibacterium acnes** e **inflamação**.\n\n- **Classificação e tratamento (escalonado por gravidade):**\n- **Comedoniana (leve):** **retinoide tópico** (adapaleno/tretinoína) é a base — atua no comedão.\n- **Inflamatória leve-moderada (pápulas/pústulas):** retinoide tópico + **peróxido de benzoíla** e/ou **antibiótico tópico** (nunca antibiótico tópico isolado, pela resistência).\n- **Moderada-grave:** acrescentar **antibiótico oral** (tetraciclinas — doxiciclina/minociclina em quem já tem os dentes formados; evitar em < 8 anos e na gestante).\n- **Grave/nodulocística ou refratária/cicatricial:** **isotretinoína oral** — eficaz, mas **teratogênica** (exige contracepção rigorosa em meninas e controle laboratorial). \n- **Pérola:** não é \"falta de higiene\" nem \"comer gordura\"; orientar o adolescente evita estigma e melhora adesão."
+  },
+  {
+   "h": "10. Febre maculosa brasileira: a doença em que esperar o exame é o erro",
+   "c": "A **febre maculosa brasileira (FMB)** é a rickettsiose mais grave do continente. É causada pela bactéria **Rickettsia rickettsii**, transmitida pela picada do **carrapato-estrela (Amblyomma sculptum/cajennense)**, cujo hospedeiro clássico é a **capivara** — e também o cavalo. Por isso a epidemiologia da vinheta quase sempre traz: criança que **brincou em pasto, mata ciliar, beira de rio, sítio, haras**, contato com cavalos, cães ou capivaras. **Letalidade sem tratamento: 30% a 80%** — não há doença febril pediátrica em que a demora custe mais caro.\n\n**Como a doença funciona (e por que os sinais são esses).** A Rickettsia é um parasita **intracelular obrigatório** que invade o **endotélio dos pequenos vasos**. Ela se multiplica dentro da célula endotelial, destrói-a e produz uma **vasculite disseminada**. Todo o quadro decorre daí:\n\n- Vaso lesado **extravasa** → **exantema maculopapular que evolui para petéquias** e, nos casos graves, para necrose/gangrena de extremidades.\n- Extravasamento capilar → **edema**, **hipotensão** e choque.\n- Consumo de plaquetas na lesão vascular → **plaquetopenia**.\n- Vasculite em cada órgão → **cefaleia intensa** e confusão (SNC), **insuficiência renal**, elevação de **transaminases**, tosse/infiltrado pulmonar.\n\n**O quadro clínico e o tempo.** Após 2 a 14 dias da picada, começa **abruptamente**: **febre alta**, **cefaleia intensa**, **mialgia forte** (sobretudo em panturrilhas), náuseas e prostração. O **exantema surge por volta do 3º ao 5º dia** — e tem a característica que a prova cobra: começa em **punhos e tornozelos** e progride **centripetamente** para tronco, **acometendo palmas das mãos e plantas dos pés**. Depois torna-se **petequial**.\n\n**Três armadilhas que derrubam o candidato (e o paciente):**\n\n- **\"Não tem exantema, então não é maculosa.\"** Em até **20% dos casos o exantema é ausente, fugaz ou aparece tarde** — a chamada febre maculosa \"sem mancha\". Febre alta + cefaleia + mialgia + epidemiologia de carrapato já obriga a considerar o diagnóstico.\n- **\"Ele não viu carrapato.\"** A picada do estágio ninfal é **indolor** e o carrapato é minúsculo; a maioria dos pacientes **não lembra** de ter sido picado. Ausência de história de picada **não afasta**.\n- **\"Vou esperar a sorologia.\"** A **imunofluorescência indireta (RIFI)** só positiva a partir da **2ª semana** (exige soroconversão em amostras pareadas) — ou seja, o exame confirma **depois** do momento em que o paciente morre. O diagnóstico é **clínico-epidemiológico** e o tratamento é **empírico**.\n\n**Tratamento (o ponto da questão):** **doxiciclina** — **independentemente da idade**. Esta é a mudança de conduta que a banca testa: o antigo receio de manchar dentes em menores de 8 anos **não se aplica** à doxiciclina em curso curto, e o CDC e o Ministério da Saúde recomendam **doxiciclina como primeira linha em qualquer idade**, porque a alternativa (cloranfenicol) é menos eficaz e mais tóxica. A dose é de 100 mg 12/12 h em ≥ 45 kg (2,2 mg/kg/dose 12/12 h abaixo disso), por no mínimo 7 dias e **até 3 dias após a queda da febre**. O tratamento deve começar **nas primeiras 5 dias de doença** — iniciar depois disso é o principal preditor de morte. **Betalactâmicos não têm ação** (a bactéria é intracelular e não tem parede de peptidoglicano relevante).\n\n**Vigilância:** febre maculosa é de **notificação compulsória**, e a confirmação retrospectiva é feita por RIFI pareada, PCR ou imuno-histoquímica.\n\n**Prevenção:** inspeção corporal após atividade em área de risco (o carrapato precisa de **horas** aderido para transmitir — a remoção precoce previne), retirada com pinça, tracionando firme e sem esmagar, roupas claras e repelente."
+  },
+  {
+   "h": "11. Febre + exantema na criança: o segundo algoritmo (e como não confundir)",
+   "c": "Quando a febre vem com manchas, mude de mapa. Quatro perguntas separam quase tudo:\n\n**(1) Que tipo de lesão é?**\n\n- **Máculo-papular** (some à digitopressão): sarampo, rubéola, exantema súbito, dengue, escarlatina, Kawasaki, farmacodermia.\n- **Petequial/purpúrica** (**não** some à digitopressão): **meningococcemia**, **febre maculosa**, dengue com sangramento, PTI, sepse. Petéquia com febre é, até prova em contrário, **emergência**.\n- **Vesicular:** varicela, mão-pé-boca (coxsackie), herpes.\n\n**(2) Para onde a erupção caminha, e pega palma e planta?**\n\n- **Crânio-caudal, começando atrás da orelha/face:** **sarampo** e **rubéola**.\n- **Centrípeta (das extremidades para o tronco), COM palmas e plantas:** **febre maculosa** — e, no adolescente, **sífilis secundária**. Palma e planta acometidas é um achado de alto valor, porque **quase nenhum exantema viral comum** as pega.\n- **Tronco → periferia, poupando região perioral:** **escarlatina** (com \"língua em framboesa\", pele em lixa e sinal de Pastia nas dobras).\n\n**(3) Qual a relação entre a febre e o exantema?**\n\n- **Exantema aparece QUANDO a febre some**, em lactente de 6 meses a 2 anos: **exantema súbito (roséola, HHV-6)** — a criança fica 3 dias com febre alta, aparentemente bem, e no dia em que a febre cede surgem as manchas. Muitas vezes rotulado erradamente como \"alergia ao antibiótico\".\n- **Exantema no auge da febre, com os 3 C (tosse, coriza, conjuntivite) e manchas de Koplik:** **sarampo** — notificação **imediata**, vitamina A, isolamento e bloqueio dos contatos em 72 h.\n- **Febre alta ≥ 5 dias que NÃO cede, com conjuntivite não purulenta, lábios fissurados, língua em framboesa, edema de mãos e pés, adenomegalia cervical e exantema polimorfo:** **doença de Kawasaki** — vasculite com risco de **aneurisma coronariano**, tratada com **imunoglobulina IV + AAS**, e não com antibiótico.\n- **\"Face esbofeteada\" seguida de exantema rendilhado em membros:** **eritema infeccioso (parvovírus B19)** — lembrando que ele causa **crise aplásica** em quem tem hemólise crônica.\n\n**(4) Qual é a epidemiologia?** Carrapato/capivara/cavalo → **febre maculosa**. Surto/não vacinado/viagem → **sarampo**. Aglomeração e progressão em horas com petéquias → **meningococcemia** (antibiótico **imediato**, sem esperar líquor ou cultura, e **quimioprofilaxia dos contatos** com rifampicina/ceftriaxona). Área endêmica com febre e mialgia → **dengue**, com vigilância dos **sinais de alarme**.\n\n**A regra de ouro deste bloco:** existem três situações em que **você trata antes de confirmar** — **meningococcemia**, **febre maculosa** e **sarampo** (aqui, tratar significa vitamina A + notificação imediata + bloqueio). Em todas as três, o exame confirmatório chega tarde demais para ser útil na decisão."
+  },
+  {
+   "h": "12. Coqueluche: a outra tosse arrastada do lactente (e por que ela mata)",
+   "c": "A seção 5 tratou da pneumonia afebril por Chlamydia. Falta o diagnóstico que compartilha a mesma vinheta — **lactente pequeno com tosse arrastada e sem febre importante** — e que é muito mais grave: a **coqueluche**, causada pela **Bordetella pertussis**.\n\n**Como funciona.** A bactéria adere ao **epitélio ciliado** da traqueia e dos brônquios e produz toxinas (**toxina pertussis**, citotoxina traqueal) que **paralisam e destroem os cílios**. Sem o \"tapete rolante\" mucociliar, a secreção fica retida e a única forma de removê-la é o **acesso de tosse explosivo**. Isso explica por que a tosse é tão intensa, tão prolongada e tão pouco responsiva a broncodilatador.\n\n**As três fases clássicas:**\n\n- **Catarral (1–2 semanas):** parece um resfriado comum — coriza, tosse leve, **febre ausente ou baixa**. É a fase **mais contagiosa** e aquela em que o diagnóstico quase nunca é feito.\n- **Paroxística (2–6 semanas):** **acessos de tosse em salvas**, seguidos de **guincho inspiratório** e frequentemente **vômito pós-tosse**. Entre os acessos, a criança fica **bem** — outro dado muito característico.\n- **Convalescença (semanas a meses):** tosse residual que reaparece a cada nova infecção viral.\n\n**O detalhe que salva vida: no lactente < 3–6 meses a apresentação é atípica.** Ele **não faz guincho** (não tem força muscular para isso) e pode apresentar apenas **apneia, cianose, engasgo e bradicardia** — inclusive como primeira manifestação. É nessa faixa que se concentram as **internações e as mortes**, por pneumonia secundária, hipertensão pulmonar e **hiperleucocitose** (leucócitos > 50.000 com **predomínio de linfócitos**, um marcador de gravidade que a banca cobra).\n\n**Diagnóstico:** hemograma com **leucocitose e linfocitose** (padrão inverso ao da infecção bacteriana comum, que faz neutrofilia) + **PCR** ou cultura de aspirado/swab de nasofaringe. Doença de **notificação compulsória**.\n\n**Tratamento e profilaxia:** **macrolídeo** — **azitromicina** é a preferida no lactente < 1 mês (a eritromicina nessa idade associa-se a **estenose hipertrófica de piloro**). Importante entender o objetivo: iniciado na fase paroxística, o antibiótico **quase não muda os sintomas** — ele serve para **interromper a transmissão**. Por isso a **quimioprofilaxia dos contatos próximos** (mesmo esquema, mesmo antibiótico) é parte obrigatória da conduta, com prioridade para lactentes < 1 ano, gestantes no 3º trimestre e quem convive com eles.\n\n**Prevenção:** **pentavalente/DTP** no calendário do lactente + **dTpa na gestante a cada gestação (≥ 20 semanas)**, que transfere anticorpos pela placenta e protege o bebê justamente na janela em que ele ainda não está imunizado. É o exemplo mais elegante de \"vacinar a mãe para proteger o filho\" — e cai em prova tanto em Imunização quanto aqui.\n\n**O contraste que resolve a questão:** lactente pequeno, tosse arrastada, **sem** febre — se há **conjuntivite neonatal prévia, taquipneia, eosinofilia e infiltrado difuso**, pense **Chlamydia trachomatis**; se há **acessos em salvas, guincho, vômito pós-tosse, apneia e linfocitose**, pense **coqueluche**. O antibiótico é **macrolídeo nos dois** — mas a conduta de saúde pública (notificação e quimioprofilaxia de contatos) só existe na coqueluche."
+  },
+  {
+   "h": "13. O algoritmo em seis frases (leve isto para a prova)",
+   "c": "- Comece por **idade + febre**: elas escolhem o agente e o raciocínio.\n- **Chiado no lactente < 2 anos, 1º episódio, com coriza prévia = bronquiolite (VSR)** → suporte, **sem antibiótico**.\n- **Febre alta + tosse + taquipneia = pneumonia típica (pneumococo)** → **amoxicilina**; RX não é obrigatória no caso ambulatorial.\n- **Lactente pequeno, tosse arrastada, SEM febre (± conjuntivite neonatal) = pneumonia afebril por Chlamydia** → **macrolídeo** (não amoxicilina).\n- **Febre sem foco no lactente = ITU até prova em contrário** → urina I + **urocultura por método estéril** (saco coletor não serve para cultura); US após a 1ª ITU febril.\n- **OMA precisa de ABAULAMENTO** (não só hiperemia); pode-se observar em > 2 anos leve, mas antibiótico de escolha é **amoxicilina**.\n- **Febre + exantema muda de algoritmo:** que lesão? para onde caminha? pega palma e planta? qual a exposição?\n- **Punhos/tornozelos → tronco, com palmas e plantas, em quem frequenta pasto/capivara** = **febre maculosa** → **doxiciclina imediata em qualquer idade**, sem esperar sorologia.\n- **Petéquia com febre** = emergência (meningococcemia/febre maculosa). Trate antes de confirmar.\n- **Lactente pequeno com tosse em salvas, vômito pós-tosse, apneia e LINFOCITOSE** = **coqueluche** → azitromicina + notificação + quimioprofilaxia dos contatos."
+  }
+ ],
+ "flashcards": [
+  {
+   "p": "Lactente de 2 meses, tosse arrastada em acessos, SEM febre, história de conjuntivite neonatal — diagnóstico e tratamento?",
+   "r": "Pneumonia afebril do lactente por Chlamydia trachomatis; tratar com macrolídeo (azitromicina/eritromicina), não amoxicilina."
+  },
+  {
+   "p": "Primeiro episódio de sibilância no lactente < 2 anos, com coriza prévia, no inverno — diagnóstico e conduta?",
+   "r": "Bronquiolite viral (VSR); tratamento de suporte (O2, hidratação, desobstrução nasal). Sem antibiótico/broncodilatador/corticoide de rotina."
+  },
+  {
+   "p": "Valores de taquipneia por idade (AIDPI/OMS)?",
+   "r": "< 2 meses ≥ 60; 2–11 meses ≥ 50; 1–5 anos ≥ 40 irpm."
+  },
+  {
+   "p": "Antibiótico de escolha da pneumonia bacteriana típica (pneumococo) ambulatorial?",
+   "r": "Amoxicilina em dose alta."
+  },
+  {
+   "p": "Como coletar urina para urocultura no lactente?",
+   "r": "Jato médio, cateterismo vesical ou punção suprapúbica — saco coletor NUNCA serve para cultura."
+  },
+  {
+   "p": "O que é obrigatório à otoscopia para diagnosticar OMA?",
+   "r": "Abaulamento da membrana timpânica (hiperemia isolada não fecha)."
+  },
+  {
+   "p": "Os '3 C' e o sinal patognomônico do sarampo?",
+   "r": "Tosse, coriza, conjuntivite; manchas de Koplik (enantema) precedem o exantema. Notificação imediata + vitamina A."
+  },
+  {
+   "p": "Tratamento da acne nodulocística grave/refratária e seu maior risco?",
+   "r": "Isotretinoína oral; risco de teratogenicidade (exige contracepção rigorosa)."
+  },
+  {
+   "p": "Agente e vetor da febre maculosa brasileira?",
+   "r": "Rickettsia rickettsii, transmitida pelo carrapato-estrela (Amblyomma), tendo capivara e cavalo como hospedeiros clássicos."
+  },
+  {
+   "p": "Por que a febre maculosa causa exantema, edema, choque e plaquetopenia?",
+   "r": "A bactéria é intracelular obrigatória e invade o endotélio, produzindo vasculite disseminada — daí extravasamento, petéquias, hipotensão e consumo de plaquetas."
+  },
+  {
+   "p": "Como progride o exantema da febre maculosa?",
+   "r": "Começa em punhos e tornozelos e progride centripetamente para o tronco, ACOMETENDO palmas e plantas; depois torna-se petequial. Surge do 3º ao 5º dia."
+  },
+  {
+   "p": "Tratamento da febre maculosa e a partir de que idade?",
+   "r": "Doxiciclina em QUALQUER idade, iniciada empiricamente na suspeita (idealmente nos primeiros 5 dias), por 7 dias e até 3 dias após a febre ceder."
+  },
+  {
+   "p": "Por que não se espera a sorologia na febre maculosa?",
+   "r": "A RIFI só positiva a partir da 2ª semana (soroconversão pareada) — confirma depois do prazo em que o tratamento salva. O diagnóstico é clínico-epidemiológico."
+  },
+  {
+   "p": "Ausência de exantema ou de história de picada afasta febre maculosa?",
+   "r": "Não. Até 20% não têm exantema ('sem mancha') e a maioria não lembra da picada, que é indolor."
+  },
+  {
+   "p": "Quais exantemas acometem palmas e plantas?",
+   "r": "Febre maculosa e sífilis secundária (e Kawasaki com descamação tardia) — a maioria dos exantemas virais comuns poupa palmas e plantas."
+  },
+  {
+   "p": "Exantema que aparece justamente quando a febre some, em lactente?",
+   "r": "Exantema súbito (roséola, HHV-6) — 3 dias de febre alta e, ao ceder, surgem as manchas."
+  },
+  {
+   "p": "Febre ≥ 5 dias, conjuntivite não purulenta, língua em framboesa, edema de mãos e pés e adenomegalia cervical?",
+   "r": "Doença de Kawasaki — imunoglobulina IV + AAS, pelo risco de aneurisma coronariano."
+  },
+  {
+   "p": "Quais as três doenças que se tratam ANTES de confirmar?",
+   "r": "Meningococcemia (antibiótico imediato + quimioprofilaxia de contatos), febre maculosa (doxiciclina) e sarampo (vitamina A, notificação imediata e bloqueio)."
+  },
+  {
+   "p": "Por que a tosse da coqueluche é em acessos explosivos?",
+   "r": "As toxinas da Bordetella paralisam e destroem os cílios; sem transporte mucociliar, a única forma de expelir a secreção é o paroxismo de tosse."
+  },
+  {
+   "p": "Como a coqueluche se apresenta no lactente < 3–6 meses?",
+   "r": "Sem guincho: apneia, cianose, engasgo e bradicardia — é a faixa de maior mortalidade."
+  },
+  {
+   "p": "Padrão do hemograma na coqueluche?",
+   "r": "Leucocitose com LINFOCITOSE (pode passar de 50.000, marcador de gravidade) — inverso da neutrofilia bacteriana comum."
+  },
+  {
+   "p": "Qual macrolídeo escolher na coqueluche do menor de 1 mês e por quê?",
+   "r": "Azitromicina — a eritromicina nessa idade associa-se a estenose hipertrófica de piloro."
+  },
+  {
+   "p": "Qual o objetivo principal do antibiótico na fase paroxística da coqueluche?",
+   "r": "Interromper a transmissão (os sintomas quase não mudam) — por isso a quimioprofilaxia dos contatos é obrigatória."
+  }
+ ],
+ "pegadinhas": [
+  "Tosse arrastada SEM febre no lactente pequeno = pensar Chlamydia (macrolídeo), não pneumonia bacteriana típica (amoxicilina).",
+  "Bronquiolite é viral: broncodilatador, corticoide e antibiótico de rotina NÃO mudam o desfecho.",
+  "Saco coletor só serve para urina I negativa afastar ITU; para cultura, método estéril sempre.",
+  "OMA exige abaulamento; hiperemia isolada pode ser só o choro.",
+  "RX de tórax NÃO é obrigatória para diagnosticar PAC típica ambulatorial.",
+  "Taquipneia é o sinal mais sensível de pneumonia — conte a FR por 1 minuto na criança calma.",
+  "Sarampo, dengue e outras arboviroses são de notificação; sarampo recebe vitamina A.",
+  "Atípica = macrolídeo em qualquer idade (Chlamydia no lactente, Mycoplasma no escolar).",
+  "Febre maculosa: NÃO espere sorologia — a RIFI só positiva na 2ª semana. Trate empiricamente com doxiciclina na suspeita.",
+  "Doxiciclina na febre maculosa vale em QUALQUER idade — a restrição de '< 8 anos' não se aplica em curso curto e a alternativa é pior.",
+  "Até 20% das febres maculosas não têm exantema, e a maioria dos pacientes não lembra da picada do carrapato.",
+  "Exantema que pega PALMA e PLANTA: pense febre maculosa e sífilis secundária, não exantema viral comum.",
+  "Petéquia + febre é emergência: meningococcemia e febre maculosa até prova em contrário.",
+  "Exantema que surge quando a febre CEDE em lactente = exantema súbito (HHV-6), não alergia ao antibiótico.",
+  "Febre ≥ 5 dias que não cede com antibiótico + conjuntivite não purulenta + língua em framboesa = Kawasaki (IGIV + AAS), não infecção bacteriana.",
+  "Lactente < 6 meses com coqueluche pode NÃO ter guincho — apneia e cianose são a apresentação, e a mais letal.",
+  "Leucocitose com LINFOCITOSE aponta coqueluche; esperar neutrofilia bacteriana atrasa o diagnóstico.",
+  "No < 1 mês, use azitromicina (não eritromicina) — risco de estenose hipertrófica de piloro.",
+  "Antibiótico na coqueluche paroxística não melhora a tosse: serve para cortar a transmissão e proteger contatos."
+ ],
+ "diretrizes": [
+  "SBP — Diretrizes de Bronquiolite Viral Aguda; Pneumonia Adquirida na Comunidade na infância; Infecção do Trato Urinário na criança (Documentos Científicos).",
+  "Ministério da Saúde — AIDPI (Atenção Integrada às Doenças Prevalentes na Infância); Guia de Vigilância em Saúde (arboviroses, sarampo — notificação).",
+  "Materiais de Pediatria do Drive do Vinicius: 'Infecções respiratórias (bronquiolite, pneumonia)' e 'Emergências respiratórias' (ver materiais_drive.md).",
+  "Ministério da Saúde — Guia de Vigilância em Saúde: Febre Maculosa Brasileira e outras riquetsioses (notificação compulsória; doxiciclina empírica em qualquer idade) e Coqueluche.",
+  "CDC — Rocky Mountain Spotted Fever / Tickborne Diseases: doxiciclina como primeira linha em todas as idades.",
+  "SBP — Documentos Científicos: doença de Kawasaki e exantemas na infância."
+ ],
+ "questoes": [
+  {
+   "enunciado": "Lactente de 2 meses com tosse seca em acessos há 2 semanas, taquipneia leve e SEM febre; a mãe relata secreção ocular tratada na maternidade. Ausculta com estertores finos; hemograma com eosinofilia. Qual o tratamento mais adequado?",
+   "alternativas": {
+    "a": "Amoxicilina em dose alta",
+    "b": "Azitromicina (macrolídeo)",
+    "c": "Suporte apenas, pois é bronquiolite",
+    "d": "Ceftriaxona intravenosa"
+   },
+   "correta": "b",
+   "comentario": "O conjunto — lactente pequeno, tosse arrastada em acessos, AUSÊNCIA de febre, história de conjuntivite neonatal e eosinofilia — é a pneumonia afebril (atípica) do lactente por Chlamydia trachomatis, adquirida no canal de parto. O tratamento é macrolídeo (azitromicina ou eritromicina). Amoxicilina não cobre Chlamydia (agente sem a parede-alvo dos betalactâmicos). Não é bronquiolite (que é 1º episódio de sibilância com pródromo catarral e febre, curso agudo) nem justifica ceftriaxona IV num lactente estável. Gatilho de prova: tosse arrastada + sem febre + conjuntivite neonatal = Chlamydia = macrolídeo.",
+   "foco": "Pneumonia afebril do lactente (seu ponto de erro)"
+  },
+  {
+   "enunciado": "Lactente de 4 meses, em julho, com coriza há 3 dias e agora taquipneia, tiragem subcostal e sibilos difusos; primeiro episódio, saturação 95% em ar ambiente, aceitando dieta. Qual a conduta?",
+   "alternativas": {
+    "a": "Amoxicilina-clavulanato oral",
+    "b": "Corticoide sistêmico e broncodilatador de horário",
+    "c": "Medidas de suporte (desobstrução nasal, hidratação) e observação",
+    "d": "Radiografia de tórax e antibiótico se infiltrado"
+   },
+   "correta": "c",
+   "comentario": "Primeiro episódio de sibilância no lactente < 2 anos, no inverno, com pródromo de coriza = bronquiolite viral aguda (VSR na maioria). O tratamento é de suporte: desobstrução nasal com soro, hidratação, oxigênio se hipoxemia. Antibiótico não tem papel (é viral); corticoide e broncodilatador de rotina não alteram o desfecho; a radiografia de rotina só induz achados que levam a antibiótico desnecessário. Como a criança está estável (satura bem, aceita dieta), o manejo é ambulatorial com sinais de alarme orientados.",
+   "foco": "Bronquiolite: não antibiotizar"
+  },
+  {
+   "enunciado": "Lactente de 8 meses com febre de 39°C há 2 dias, sem outro foco ao exame. Qual a melhor conduta diagnóstica para investigar infecção do trato urinário?",
+   "alternativas": {
+    "a": "Urocultura colhida por saco coletor",
+    "b": "Urina tipo I e urocultura por jato médio, cateterismo ou punção suprapúbica",
+    "c": "Apenas antibiótico empírico, sem coletar urina",
+    "d": "Tomografia de abdome"
+   },
+   "correta": "b",
+   "comentario": "Febre sem foco no lactente obriga a investigar ITU. O exame é urina tipo I somada à urocultura, e o método de coleta é decisivo: jato médio (se possível), cateterismo vesical ou punção suprapúbica. O saco coletor tem altíssima taxa de contaminação e NÃO vale para cultura (só uma urina I negativa por saco ajuda a afastar). Tratar às cegas sem coletar impede o diagnóstico microbiológico e o antibiograma; TC de abdome não é o exame inicial. Após a 1ª ITU febril confirmada, solicita-se ultrassonografia de rins e vias urinárias.",
+   "foco": "ITU febril: coleta correta"
+  },
+  {
+   "enunciado": "Menino de 7 anos, morador da zona rural, iniciou há 4 dias febre alta, cefaleia intensa e mialgia. Hoje surgiu exantema maculopapular em punhos e tornozelos, incluindo palmas e plantas, com algumas petéquias. Brinca em pasto com cavalos e capivaras. Plaquetas 88.000, transaminases elevadas. Qual a conduta imediata?",
+   "alternativas": {
+    "a": "Colher sorologia e aguardar o resultado para decidir",
+    "b": "Iniciar doxiciclina imediatamente",
+    "c": "Iniciar ceftriaxona e reavaliar em 48 horas",
+    "d": "Hidratação e sintomáticos por provável dengue"
+   },
+   "correta": "b",
+   "comentario": "O caso reúne todos os elementos da febre maculosa brasileira: epidemiologia (zona rural, capivaras e cavalos — hospedeiros do carrapato-estrela), início abrupto com febre alta, cefaleia e mialgia, exantema no 3º–5º dia começando em punhos e tornozelos com progressão centrípeta e acometimento de PALMAS E PLANTAS, evoluindo para petéquias, além de plaquetopenia e transaminases altas — todos explicados pela vasculite que a Rickettsia rickettsii produz ao invadir o endotélio. O tratamento é doxiciclina EMPÍRICA e imediata, em qualquer idade: a antiga restrição para menores de 8 anos não se aplica em curso curto, e o CDC e o Ministério da Saúde a mantêm como primeira linha, porque o cloranfenicol é menos eficaz e mais tóxico. Aguardar a sorologia é o erro clássico e fatal — a RIFI só positiva a partir da 2ª semana, quando a letalidade (30–80% sem tratamento) já se concretizou; o início após o 5º dia de doença é o principal preditor de morte. Ceftriaxona (betalactâmico) não tem ação sobre bactéria intracelular. Dengue não produz exantema com esse padrão centrípeto em palmas e plantas nem essa epidemiologia. Guarde: febre maculosa e meningococcemia se tratam ANTES de confirmar.",
+   "foco": "Febre maculosa: tratar na suspeita, doxiciclina em qualquer idade (revisão espaçada — Ana Teresa, 100% de erro)"
+  },
+  {
+   "enunciado": "Lactente de 2 meses, vacinado apenas com BCG e hepatite B, apresenta há 12 dias tosse que evoluiu para acessos em salvas seguidos de vômito, com dois episódios de apneia e cianose. Afebril. Hemograma: leucócitos 42.000 com 70% de linfócitos. Qual o diagnóstico e a conduta?",
+   "alternativas": {
+    "a": "Bronquiolite viral; suporte e observação",
+    "b": "Coqueluche; azitromicina, internação e quimioprofilaxia dos contatos",
+    "c": "Pneumonia afebril por Chlamydia; eritromicina ambulatorial",
+    "d": "Refluxo gastroesofágico; medidas antirrefluxo"
+   },
+   "correta": "b",
+   "comentario": "O conjunto tosse paroxística em salvas com vômito pós-tosse, apneia e cianose num lactente pequeno incompletamente vacinado, afebril, com leucocitose e LINFOCITOSE, é coqueluche. No menor de 3–6 meses não há guincho — falta força muscular —, e a apresentação é justamente apneia, cianose e engasgo, faixa etária que concentra as internações e as mortes; a hiperleucocitose linfocítica é marcador de gravidade. O tratamento é macrolídeo, preferindo AZITROMICINA no lactente muito pequeno porque a eritromicina abaixo de 1 mês associa-se a estenose hipertrófica de piloro. Entenda o objetivo: na fase paroxística o antibiótico quase não muda a tosse — ele corta a transmissão, e por isso a quimioprofilaxia dos contatos próximos (com o mesmo macrolídeo) e a notificação compulsória fazem parte da conduta. Bronquiolite é primeiro episódio de sibilância com pródromo catarral e sibilos, não tosse em salvas com linfocitose. A pneumonia por Chlamydia entra no mesmo cenário de 'tosse arrastada sem febre', mas cursa com taquipneia, conjuntivite neonatal prévia e eosinofilia — e não com apneia e linfocitose; além disso, aqui a criança precisa de internação. Refluxo não explica linfocitose de 42.000. A prevenção que fecha o raciocínio é a dTpa na gestante a cada gestação.",
+   "foco": "Coqueluche no lactente: apneia sem guincho e linfocitose (lacuna do módulo)"
+  }
+ ]
+};
