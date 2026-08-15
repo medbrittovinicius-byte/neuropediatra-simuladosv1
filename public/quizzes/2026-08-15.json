@@ -1,0 +1,651 @@
+{
+ "date": "2026-08-15",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Transtorno de insônia (neuro-correlato) [RE ranking unificado #2: Vinicius, 100% de erro, 3/3]",
+   "tier": "MÉDIO",
+   "vinheta": "Mulher de 62 anos, aposentada, queixa-se de dificuldade para manter o sono há cerca de três anos. Deita-se por volta das 23h, adormece em 15 minutos, mas desperta às 3h e não consegue voltar a dormir. Durante o dia refere irritabilidade, fadiga e dificuldade de concentração, e costuma cochilar à tarde. Usa zolpidem 10 mg quase todas as noites há dois anos, referindo que 'não faz mais o mesmo efeito'. O companheiro nega ronco alto e não presenciou pausas respiratórias. Ela nega desconforto ou necessidade de movimentar as pernas ao repouso. Exame neurológico normal; TSH, hemograma e ferritina normais.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando a duração das queixas, a frequência dos despertares e a repercussão diurna descrita, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Síndrome das pernas inquietas",
+      "b": "Transtorno de insônia crônica",
+      "c": "Apneia obstrutiva do sono",
+      "d": "Transtorno do ritmo circadiano de fase avançada"
+     },
+     "correta": "b",
+     "comentario": "A definição atual (ICSD-3 e DSM-5) exige dificuldade de iniciar ou manter o sono, com oportunidade adequada para dormir, associada a prejuízo diurno, pelo menos 3 noites por semana e por mais de 3 meses — exatamente o que a paciente descreve há três anos, com fadiga, irritabilidade e desatenção. O subtipo aqui é a insônia de manutenção, o mais comum após os 60 anos, e o uso crônico de hipnótico com perda de efeito (tolerância) faz parte da história natural do quadro mal manejado, não de outro diagnóstico. A síndrome das pernas inquietas é descartada porque exige a urgência de mover as pernas com desconforto que piora ao repouso, à noite, e alivia com o movimento — explicitamente negada, e a ferritina normal afasta a forma ferropênica. A apneia obstrutiva do sono cursa com ronco alto, pausas presenciadas, sono não reparador e sonolência excessiva objetiva; aqui não há ronco nem apneias testemunhadas, e a queixa é de vigília prolongada, não de sonolência. O transtorno do ritmo circadiano de fase avançada implicaria adormecer muito cedo (18h-20h) e acordar de madrugada com sono já completo e sem prejuízo — a paciente deita às 23h e dorme apenas 4 horas. Pérola de prova: o cochilo vespertino é fator perpetuador (reduz a pressão homeostática do sono) e deve ser alvo terapêutico, não critério diagnóstico de outra doença.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o instrumento inicial mais apropriado para caracterizar objetivamente o padrão de sono dessa paciente:",
+     "alternativas": {
+      "a": "Polissonografia de noite inteira",
+      "b": "Diário de sono por duas semanas",
+      "c": "Teste das latências múltiplas do sono",
+      "d": "Eletroencefalograma de rotina em vigília"
+     },
+     "correta": "b",
+     "comentario": "O diário de sono preenchido por 1 a 2 semanas é o instrumento de escolha na avaliação inicial da insônia crônica: registra horário de deitar e levantar, latência, despertares, cochilos, uso de medicação, álcool e cafeína, permitindo calcular a eficiência do sono — parâmetro que orienta diretamente a restrição de tempo de cama na terapia comportamental. É barato, disponível e reprodutível, e por isso figura como padrão nas diretrizes da American Academy of Sleep Medicine e da Associação Brasileira do Sono. A polissonografia NÃO está indicada de rotina na insônia: só entra quando há suspeita de apneia do sono, movimentos periódicos de membros, parassonias complexas ou quando o quadro não responde ao tratamento adequado — pedi-la aqui é a pegadinha clássica da questão. O teste das latências múltiplas do sono mede sonolência objetiva e serve à investigação de narcolepsia e hipersonias, situação oposta à da paciente, que tem hiperalerta. O eletroencefalograma de rotina em vigília avalia atividade epileptiforme e não tem qualquer papel na caracterização do sono. Pérola: a actigrafia é uma alternativa objetiva válida e complementa o diário, sobretudo em idosos e em suspeita de transtorno circadiano.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o tratamento de primeira linha recomendado para essa paciente:",
+     "alternativas": {
+      "a": "Substituir o zolpidem por clonazepam em dose baixa",
+      "b": "Melatonina de liberação prolongada",
+      "c": "Quetiapina em dose baixa à noite",
+      "d": "Terapia cognitivo-comportamental para insônia"
+     },
+     "correta": "d",
+     "comentario": "A terapia cognitivo-comportamental para insônia (TCC-I) é a primeira linha para insônia crônica em todas as diretrizes atuais (AASM, European Sleep Research Society), inclusive no idoso e mesmo quando já há uso crônico de hipnótico. Seus componentes — restrição de tempo de cama, controle de estímulos, higiene do sono, reestruturação cognitiva das crenças catastróficas sobre o sono e técnicas de relaxamento — produzem efeito equivalente ao do hipnótico no curto prazo e superior no longo prazo, além de permitir o desmame gradual do zolpidem, que é justamente a meta nesse caso. Trocar zolpidem por clonazepam é a conduta oposta à recomendada: benzodiazepínicos de meia-vida longa em idosos aumentam quedas, fraturas, sedação diurna e prejuízo cognitivo, e constam da lista de Beers como potencialmente inapropriados. A melatonina de liberação prolongada tem efeito modesto e é mais útil em insônia de início do sono e em distúrbios circadianos, não como primeira linha na insônia de manutenção. A quetiapina não tem indicação aprovada para insônia primária; expõe a ganho de peso, síndrome metabólica e parkinsonismo farmacológico, sendo erro frequente na prática. Pérola: o desmame do hipnótico deve ser lento e associado à TCC-I, pois a retirada abrupta provoca insônia rebote e reforça a dependência.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 73 — Insônia (complementar com cap. 71 — Fisiologia do Sono) e Merritt, Tratado de Neurologia (13ª ed.), Seção 16 — Transtornos das Funções Autonômicas e do Sono.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (síndrome bulbar lateral)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 58 anos, hipertenso e tabagista, apresenta início súbito, há 6 horas, de vertigem rotatória intensa, soluços persistentes, rouquidão e engasgos com líquidos. Ao exame: vigil, orientado, com nistagmo horizonto-rotatório, ptose e miose à direita, hipoestesia térmica e dolorosa em hemiface direita e em dimídio esquerdo do corpo, ataxia apendicular à direita e desvio do palato para a esquerda. A força muscular está preservada nos quatro membros e não há déficit de sensibilidade vibratória ou proprioceptiva.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a topografia da lesão que melhor explica o conjunto de achados apresentados:",
+     "alternativas": {
+      "a": "Ponte paramediana esquerda",
+      "b": "Mesencéfalo dorsal",
+      "c": "Bulbo lateral direito",
+      "d": "Hemisfério cerebelar esquerdo"
+     },
+     "correta": "c",
+     "comentario": "O quadro reúne a assinatura clássica da síndrome bulbar lateral: vertigem e nistagmo (núcleos vestibulares), disfagia, disfonia e desvio do palato (núcleo ambíguo, IX e X), soluços (formação reticular bulbar), síndrome de Horner ipsilateral por ptose e miose (via simpática descendente), ataxia apendicular ipsilateral (pedúnculo cerebelar inferior) e — o achado que fecha a topografia — a dissociação sensitiva alterna: hipoestesia termoálgica na face do mesmo lado (núcleo espinhal do trigêmeo) e no corpo do lado oposto (trato espinotalâmico lateral já cruzado). Como a via lemniscal medial não é atingida, vibração e propriocepção ficam preservadas, e a ausência de déficit motor confirma que a pirâmide bulbar medial está poupada. A lesão pontina paramediana produziria hemiparesia contralateral com paralisia facial periférica ipsilateral, o que não ocorre. A lesão mesencefálica dorsal daria paralisia do olhar vertical e alterações pupilares (síndrome de Parinaud), sem dissociação sensitiva. A lesão cerebelar isolada causaria ataxia e nistagmo, mas nunca Horner, disfagia por núcleo ambíguo ou dissociação termoálgica alterna. Pegadinha: como não há hemiparesia, o paciente é frequentemente rotulado como 'labirintite' — erro que retarda a reperfusão.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame de imagem com maior sensibilidade para confirmar a lesão descrita nas primeiras horas:",
+     "alternativas": {
+      "a": "Tomografia computadorizada de crânio sem contraste",
+      "b": "Ressonância magnética de crânio com sequência de difusão",
+      "c": "Doppler transcraniano",
+      "d": "Eletroencefalograma"
+     },
+     "correta": "b",
+     "comentario": "A ressonância com difusão (DWI) é o exame mais sensível para isquemia aguda, e a superioridade é ainda maior na fossa posterior: a tomografia tem sensibilidade em torno de 15-20% para infartos de tronco nas primeiras horas, por causa dos artefatos de endurecimento do feixe entre os ossos petrosos e do pequeno volume das lesões bulbares. Vale registrar que até 10-20% das DWI feitas muito precocemente podem ser falso-negativas em lesões pequenas de tronco: com quadro clínico típico, repetir a ressonância em 24-48 horas é conduta correta. A tomografia sem contraste continua sendo o primeiro exame na porta da emergência — mas seu papel é excluir hemorragia e liberar a trombólise, não confirmar o infarto bulbar. O Doppler transcraniano avalia a hemodinâmica das artérias intracranianas e pode sugerir estenose vertebrobasilar, mas não define a lesão parenquimatosa. O eletroencefalograma não tem papel algum na investigação de isquemia de tronco. Pérola de prova: embora o epônimo remeta à artéria cerebelar posteroinferior, a oclusão mais frequentemente responsável é a da artéria vertebral intracraniana — por isso a angiotomografia ou angiorressonância de vasos cervicais e intracranianos deve complementar a investigação, inclusive para pesquisar dissecção arterial no paciente mais jovem.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Além da avaliação para terapia de reperfusão, indique a medida que mais reduz complicações precoces nesse paciente:",
+     "alternativas": {
+      "a": "Anticoagulação plena imediata com heparina",
+      "b": "Corticosteroide para reduzir o edema bulbar",
+      "c": "Dieta líquida livre desde a admissão",
+      "d": "Triagem formal de disfagia antes de qualquer ingesta por via oral"
+     },
+     "correta": "d",
+     "comentario": "A disfagia da síndrome bulbar lateral decorre de lesão direta do núcleo ambíguo e é frequentemente grave e silenciosa, com aspiração sem tosse. A pneumonia aspirativa é a principal causa de morbimortalidade precoce nesses pacientes, e a triagem formal de deglutição antes de qualquer líquido, alimento ou medicação oral — recomendada por todas as diretrizes de AVC, inclusive as brasileiras — reduz de forma consistente a taxa de pneumonia. Se a triagem falhar, indica-se sonda enteral e avaliação fonoaudiológica formal. A anticoagulação plena imediata não é recomendada no AVC isquêmico agudo: não reduz recorrência precoce de modo relevante e aumenta o risco de transformação hemorrágica; mesmo quando há dissecção vertebral, a evidência atual equipara antiagregação e anticoagulação. O corticosteroide não tem qualquer benefício no edema citotóxico do infarto isquêmico — a indicação de corticoide é para edema vasogênico de tumores e abscessos. Liberar dieta líquida livre é justamente o erro que provoca a aspiração, e líquidos ralos são a consistência de maior risco. Pérolas adicionais: vigiar insuficiência respiratória e instabilidade autonômica nas primeiras 48-72 horas, e lembrar que o infarto cerebelar associado pode evoluir com edema e hidrocefalia obstrutiva, exigindo monitorização neurológica seriada.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 46 — Síndromes Vasculares Isquêmicas e cap. 51 — Tratamento da Fase Aguda do AVCi; complementar com Merritt (13ª ed.), Seção 4 — Doenças Vasculares Cerebrais.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroinfecção (meningoencefalite tuberculosa)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 33 anos, sorologia negativa para HIV, contato domiciliar de caso de tuberculose pulmonar tratado há um ano, procura o serviço com cefaleia progressiva há três semanas, febre baixa vespertina, sudorese noturna e perda de 4 kg. Nos últimos quatro dias evoluiu com lentificação, confusão intermitente e visão dupla. Ao exame: sonolento, rigidez de nuca discreta, paresia do músculo reto lateral esquerdo, sem déficit motor apendicular. Líquor: 210 células/mm³ (85% linfócitos), proteína 180 mg/dL, glicose 22 mg/dL (glicemia sérica 96 mg/dL), bacterioscopia negativa.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando a evolução temporal e o perfil do líquido cefalorraquidiano, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Meningite viral",
+      "b": "Meningoencefalite tuberculosa",
+      "c": "Meningite bacteriana aguda piogênica",
+      "d": "Meningite criptocócica"
+     },
+     "correta": "b",
+     "comentario": "O conjunto é altamente sugestivo: instalação subaguda em semanas, sintomas constitucionais (febre vespertina, sudorese noturna, perda ponderal), epidemiologia de contato domiciliar, comprometimento de nervo craniano por exsudato basal — o VI par é o mais frequentemente acometido — e um líquor com pleocitose linfocítica moderada, hiperproteinorraquia acentuada e hipoglicorraquia importante (relação líquor/sangue bem abaixo de 0,5). A meningite viral é descartada porque, embora curse com pleocitose linfocítica, tem instalação aguda, evolução autolimitada, proteína apenas discretamente elevada e glicose caracteristicamente NORMAL. A meningite bacteriana aguda piogênica instala-se em horas a poucos dias, com pleocitose de milhares de células e predomínio de neutrófilos — o predomínio linfocitário e as três semanas de evolução não se encaixam. A meningite criptocócica entra no diferencial das meningites crônicas com hipoglicorraquia, mas é doença de imunodeprimido, sobretudo com HIV e CD4 baixo, e costuma cursar com hipertensão intracraniana proeminente e pleocitose escassa; o paciente é HIV negativo. Pérola: a paresia de nervos cranianos com hidrocefalia comunicante é a marca do exsudato basal, e o estágio clínico britânico (I a III) no momento do diagnóstico é o principal determinante do prognóstico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame no líquor que mais reforça a suspeita diagnóstica principal:",
+     "alternativas": {
+      "a": "Adenosina deaminase (ADA) elevada",
+      "b": "Pesquisa com tinta da China positiva",
+      "c": "Presença de bandas oligoclonais",
+      "d": "Dosagem de lactato inferior a 2 mmol/L"
+     },
+     "correta": "a",
+     "comentario": "A adenosina deaminase é uma enzima liberada por linfócitos T ativados; valores elevados no líquor (habitualmente acima de 8-10 U/L, a depender do laboratório) têm boa sensibilidade e especificidade para meningite tuberculosa quando o quadro clínico é compatível, e o resultado sai em horas — o que a torna a ferramenta prática mais útil no cenário brasileiro. Deve ser interpretada junto do teste molecular rápido (Xpert MTB/RIF Ultra, recomendado pelo Ministério da Saúde e pela OMS, com alta especificidade mas sensibilidade limitada) e da cultura para micobactéria, que segue como padrão-ouro, porém demora semanas. A tinta da China identifica a cápsula do Cryptococcus e apontaria para meningite criptocócica, diagnóstico afastado no caso. As bandas oligoclonais indicam síntese intratecal de imunoglobulina e são marcador de doença desmielinizante, especialmente esclerose múltipla, sem qualquer relação com o quadro. Lactato liquórico baixo, abaixo de 2 mmol/L, aponta contra infecção bacteriana ou tuberculosa — na neurotuberculose o lactato costuma estar elevado. Pérola: colher volume generoso de líquor (idealmente 6-10 mL) aumenta muito o rendimento da baciloscopia e da cultura, e a repetição da punção é justificável quando a suspeita é alta.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o esquema terapêutico inicial recomendado para esse paciente:",
+     "alternativas": {
+      "a": "Ceftriaxona associada a vancomicina por 14 dias",
+      "b": "Anfotericina B lipossomal associada a flucitosina",
+      "c": "Esquema RIPE por 2 meses e rifampicina com isoniazida até completar 12 meses, com corticosteroide",
+      "d": "Esquema RIPE por 6 meses, sem corticosteroide"
+     },
+     "correta": "c",
+     "comentario": "O Ministério da Saúde preconiza, para a forma meningoencefálica da tuberculose, a fase intensiva com rifampicina, isoniazida, pirazinamida e etambutol por 2 meses, seguida de fase de manutenção com rifampicina e isoniazida por 10 meses, totalizando 12 meses — prazo maior que os 6 meses da tuberculose pulmonar, pela penetração liquórica limitada de alguns fármacos e pelo risco de recidiva. O corticosteroide é obrigatório: dexametasona ou prednisona nas primeiras 4 a 8 semanas, com desmame gradual, reduz mortalidade de forma comprovada em ensaios clínicos, por atenuar a resposta inflamatória do exsudato basal, a vasculite e a hidrocefalia. Por isso, o esquema RIPE de 6 meses sem corticoide está errado em ambos os componentes. Ceftriaxona com vancomicina trataria meningite bacteriana piogênica, incompatível com o perfil linfocitário e a evolução subaguda. Anfotericina B com flucitosina é o esquema da meningite criptocócica, afastada no caso. Pérolas de prova: iniciar o tratamento empiricamente diante de forte suspeita clínica, sem esperar a cultura, pois o atraso é o principal determinante de sequela e óbito; vigiar hidrocefalia (que pode exigir derivação), hiponatremia por SIADH e hepatotoxicidade dos tuberculostáticos; e sempre investigar coinfecção pelo HIV.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 151 — Neurotuberculose e cap. 141 — Meningites Crônicas; complementar com o Manual de Recomendações para o Controle da Tuberculose no Brasil (Ministério da Saúde) e Merritt (13ª ed.), Seção 9 — Infecções do SNC.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Epilepsia (estado de mal epiléptico não convulsivo)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 78 anos, com sequela de infarto cerebral no território da artéria cerebral média direita há dois anos, é levada ao pronto-socorro por confusão flutuante iniciada há cerca de 36 horas, sem melhora. A família não presenciou abalos musculares. Ao exame: desperta ao chamado, mas permanece desorientada, com respostas monossilábicas, automatismos de mastigação intermitentes e desvio ocular episódico para a direita, que se resolve espontaneamente. Afebril. Glicemia capilar 104 mg/dL, sódio 138 mEq/L, ureia e creatinina normais, hemograma e urina sem alterações. Tomografia de crânio mostra apenas a sequela isquêmica antiga.",
+   "perguntas": [
+    {
+     "enunciado": "Diante da apresentação e da ausência de causa metabólica ou infecciosa evidente, indique a hipótese mais provável:",
+     "alternativas": {
+      "a": "Delirium por infecção oculta",
+      "b": "Extensão do infarto cerebral prévio",
+      "c": "Encefalopatia metabólica",
+      "d": "Estado de mal epiléptico não convulsivo"
+     },
+     "correta": "d",
+     "comentario": "Estado de mal epiléptico não convulsivo deve ser suspeitado sempre que houver alteração persistente e inexplicada do nível de consciência ou do comportamento, especialmente em idosos com lesão cerebral estrutural prévia — o infarto antigo é justamente o substrato epileptogênico mais comum nessa faixa etária. Os elementos que apontam para crise em curso são os fenômenos motores sutis e intermitentes: automatismos oromastigatórios, desvio ocular episódico e flutuação do contato, que não se explicam por processo difuso. O delirium por infecção oculta é o principal diferencial, mas exige foco infeccioso: aqui a paciente está afebril, com hemograma e urina normais — e, além disso, delirium e estado de mal não convulsivo podem coexistir, o que reforça a necessidade de investigação eletrofisiológica em vez de rótulo clínico. A extensão do infarto prévio produziria novo déficit focal fixo, não flutuação com automatismos, e a tomografia não mostra lesão nova. A encefalopatia metabólica está afastada pela normalidade de glicemia, sódio, ureia e creatinina, e por não gerar automatismos ou desvio ocular estereotipado. Pegadinha clássica: até um terço dos idosos com confusão persistente sem causa definida em unidade de emergência tem descargas ictais ao monitoramento, e o quadro é sistematicamente subdiagnosticado.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame que confirma a hipótese diagnóstica principal:",
+     "alternativas": {
+      "a": "Ressonância magnética de crânio com difusão",
+      "b": "Eletroencefalograma prolongado",
+      "c": "Punção lombar com análise do líquor",
+      "d": "Dosagem sérica de amônia"
+     },
+     "correta": "b",
+     "comentario": "O diagnóstico é eletrográfico: só o eletroencefalograma demonstra a atividade ictal contínua ou recorrente sem manifestação motora tônico-clônica, e ele é o único exame capaz de confirmar ou afastar a hipótese. Um traçado de rotina de 20-30 minutos pode ser insuficiente, e por isso se recomenda registro prolongado ou monitoramento contínuo, sobretudo quando a suspeita clínica é forte. Os critérios de Salzburg são a referência atual para interpretar descargas rítmicas e periódicas nesse contexto, e a resposta clínica e eletrográfica ao benzodiazepínico intravenoso, feita sob registro, funciona como teste diagnóstico adicional. A ressonância com difusão pode até mostrar restrição cortical e hiperperfusão focal em atividade ictal prolongada, mas é achado indireto e inconstante, servindo para excluir lesão estrutural nova, não para confirmar o estado de mal. A punção lombar é indicada quando há suspeita de infecção do sistema nervoso central ou encefalite autoimune — deve ser considerada na investigação etiológica, porém não confirma o diagnóstico eletroclínico, e uma pleocitose discreta pode inclusive ser reativa às próprias crises. A amônia serviria à encefalopatia hepática, hipótese sem qualquer sustentação no caso. Pérola: quanto maior o atraso entre o início e o controle das descargas, pior o desfecho funcional.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica inicial mais apropriada:",
+     "alternativas": {
+      "a": "Benzodiazepínico intravenoso seguido de fármaco antiepiléptico intravenoso",
+      "b": "Haloperidol intravenoso para controle da agitação",
+      "c": "Antibioticoterapia empírica de amplo espectro",
+      "d": "Observação clínica por 24 horas antes de qualquer intervenção"
+     },
+     "correta": "a",
+     "comentario": "O tratamento segue o mesmo algoritmo do estado de mal convulsivo: benzodiazepínico intravenoso em dose adequada como terapia de resgate — diazepam ou midazolam, e preferencialmente lorazepam onde disponível — seguido imediatamente de um antiepiléptico de manutenção intravenoso, como fenitoína, ácido valproico ou levetiracetam. Subdosar o benzodiazepínico é o erro mais frequente e a principal causa de falha inicial. O haloperidol é inadequado: além de não tratar as descargas, reduz o limiar convulsivo e mascara o quadro ao sedar a paciente, atrasando o diagnóstico. Antibioticoterapia empírica ampla só se justifica diante de suspeita de infecção do sistema nervoso central ou sepse, o que não se aplica a uma paciente afebril com hemograma e urina normais — tratar às cegas expõe a efeitos adversos e não corrige a causa. Observar por 24 horas é conduta francamente prejudicial: o estado de mal não convulsivo já dura 36 horas, e o tempo de descarga se correlaciona diretamente com lesão neuronal e pior prognóstico funcional. Pérolas: sempre corrigir em paralelo os fatores precipitantes (infecção, distúrbio hidroeletrolítico, suspensão de fármaco antiepiléptico, drogas que reduzem limiar), monitorar via aérea e pressão arterial durante a sedação e escalar para anestésico intravenoso em unidade intensiva se houver refratariedade.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 84 — Estado de Mal Epiléptico e cap. 79 — Definição e Classificação das Crises e das Epilepsias; complementar com Merritt (13ª ed.), Seção 8 — Epilepsia e Distúrbios Paroxísticos.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropediatria específica (paralisia cerebral)",
+   "tier": "MÉDIO",
+   "vinheta": "Menino de 2 anos e 3 meses, nascido com 28 semanas de idade gestacional e 1.050 g, com hemorragia intraventricular grau II no período neonatal, é avaliado por atraso motor. Sentou sem apoio aos 12 meses e ainda não anda sem apoio. Ao exame: hipertonia elástica predominante em membros inferiores, reflexos profundos exaltados com clônus aquileu bilateral, resposta plantar em extensão, adução das coxas com cruzamento das pernas à suspensão axilar e apoio na ponta dos pés. Nos membros superiores, a manipulação fina de objetos pequenos está preservada. Compreende ordens simples, fala frases de duas palavras e interage bem. O quadro é estável, sem perda de habilidades já adquiridas.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável para o caso descrito:",
+     "alternativas": {
+      "a": "Distrofia muscular congênita",
+      "b": "Atrofia muscular espinhal tipo II",
+      "c": "Paralisia cerebral, forma diplégica espástica",
+      "d": "Miopatia mitocondrial de início precoce"
+     },
+     "correta": "c",
+     "comentario": "A paralisia cerebral é definida como um distúrbio permanente e NÃO progressivo do movimento e da postura, decorrente de lesão do encéfalo imaturo. Três elementos do caso fecham o raciocínio: sinais de neurônio motor superior (hipertonia elástica, hiperreflexia com clônus, resposta plantar em extensão, padrão em tesoura), o gradiente de acometimento com membros inferiores muito mais afetados que os superiores — que caracteriza a forma diplégica, típica do ex-prematuro extremo — e a estabilidade do quadro, sem perda de marcos, o que exclui doença degenerativa. A cognição e a linguagem preservadas são a regra na diplegia espástica e não afastam o diagnóstico. A distrofia muscular congênita cursaria com hipotonia, fraqueza e reflexos diminuídos ou abolidos, além de creatinoquinase muito elevada — o oposto do padrão espástico encontrado. A atrofia muscular espinhal tipo II é doença do neurônio motor inferior: hipotonia, arreflexia, fasciculações de língua e fraqueza proximal progressiva, sem espasticidade nem clônus. A miopatia mitocondrial teria caráter multissistêmico e progressivo, com intolerância ao exercício, acidose lática e frequente regressão de marcos. Pegadinha: a paralisia cerebral é diagnóstico clínico; a neuroimagem apoia a etiologia, mas não é obrigatória para defini-la.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a alteração estrutural classicamente associada a essa forma de apresentação no ex-prematuro:",
+     "alternativas": {
+      "a": "Displasia cortical focal",
+      "b": "Leucomalácia periventricular",
+      "c": "Degeneração dos neurônios do corno anterior",
+      "d": "Hipoplasia cerebelar difusa"
+     },
+     "correta": "b",
+     "comentario": "A leucomalácia periventricular é a lesão típica do prematuro: a substância branca periventricular é território de fronteira vascular e altamente vulnerável a isquemia e inflamação entre 24 e 32 semanas, justamente quando os pré-oligodendrócitos estão em maturação. As fibras corticoespinhais destinadas aos membros inferiores passam medialmente, mais próximas dos ventrículos laterais, e por isso são as primeiras atingidas — o que explica anatomicamente por que a diplegia espástica poupa relativamente os membros superiores. A hemorragia intraventricular relatada compartilha a mesma fisiopatologia da matriz germinativa e frequentemente coexiste. A displasia cortical focal é malformação do desenvolvimento cortical e se manifesta sobretudo como epilepsia focal farmacorresistente, não como diplegia. A degeneração dos neurônios do corno anterior é o substrato da atrofia muscular espinhal, e produziria quadro flácido e arreflexo. A hipoplasia cerebelar difusa cursaria com ataxia, hipotonia e tremor intencional, caracterizando a forma atáxica e não a espástica. Pérola: a ressonância é o exame de escolha para documentar a lesão, e o Ministério da Saúde e a Sociedade Brasileira de Pediatria recomendam vigilância sistemática do desenvolvimento no seguimento do prematuro, com uso da idade corrigida até os 2 anos.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a intervenção com maior impacto funcional para essa criança neste momento:",
+     "alternativas": {
+      "a": "Toxina botulínica em membros superiores",
+      "b": "Cirurgia ortopédica de alongamento tendíneo imediata",
+      "c": "Corticoterapia oral prolongada",
+      "d": "Programa contínuo de reabilitação motora com equipe multiprofissional"
+     },
+     "correta": "d",
+     "comentario": "O eixo do tratamento da paralisia cerebral é a reabilitação contínua e precoce, conduzida por equipe multiprofissional — fisioterapia, terapia ocupacional, fonoaudiologia, ortopedia e apoio educacional —, com metas funcionais definidas de acordo com o nível do GMFCS. Nessa fase, o objetivo é prevenir contraturas e deformidades, ganhar controle postural e treinar marcha com órteses e dispositivos de apoio, sempre com envolvimento da família. A toxina botulínica é ferramenta útil, mas indicada em músculos espásticos que limitam função — nesse menino, nos adutores e no tríceps sural, e não nos membros superiores, que estão preservados; ela ainda deve ser sempre associada à reabilitação, nunca isolada. A cirurgia ortopédica de alongamento tem indicação em deformidades fixas e é habitualmente postergada para depois dos 6-8 anos, quando o padrão de marcha se estabiliza; antecipá-la aumenta o risco de recidiva e de fraqueza iatrogênica. A corticoterapia oral prolongada não tem qualquer papel na paralisia cerebral e traria efeitos adversos relevantes sobre crescimento e massa óssea. Pérolas: rastrear comorbidades que mudam o prognóstico — epilepsia, disfagia com risco de aspiração, refluxo, desnutrição, displasia de quadril e deficiência visual — e garantir vaga em programa de estimulação e inclusão escolar.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 176 — Paralisia Cerebral e cap. 172 — Particularidades do Exame Neurológico da Criança; complementar com as Diretrizes de Atenção à Pessoa com Paralisia Cerebral (Ministério da Saúde) e Merritt (13ª ed.), Seção 19 — Neurologia Pediátrica.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Demências (afasia progressiva primária, variante semântica)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 66 anos, engenheiro aposentado, é levado pela esposa por dificuldade progressiva de linguagem há cerca de dois anos. Ele fala de forma fluente e com gramática preservada, mas troca substantivos por termos genéricos ('aquela coisa'), e passou a perguntar o significado de palavras comuns, como 'alicate' e 'jacaré'. Não reconhece a função de alguns objetos domésticos. A esposa afirma que ele continua lembrando compromissos recentes, dirige sem se perder e administra a própria medicação. Não há alterações motoras, tremor ou quedas. Ressonância de crânio mostra atrofia assimétrica acentuada do polo temporal anterior à esquerda.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável para o quadro descrito:",
+     "alternativas": {
+      "a": "Doença de Alzheimer de apresentação típica",
+      "b": "Afasia progressiva primária, variante semântica",
+      "c": "Comprometimento cognitivo vascular",
+      "d": "Afasia de Wernicke por acidente vascular cerebral"
+     },
+     "correta": "b",
+     "comentario": "O núcleo do quadro é a perda do conhecimento semântico: anomia grave, dificuldade de compreensão de palavras isoladas e perda do significado dos objetos, com fala fluente, sintaxe e repetição preservadas e atrofia do polo temporal anterior, tipicamente assimétrica e mais à esquerda. Essa é a assinatura clínico-radiológica da variante semântica da afasia progressiva primária, incluída no espectro da degeneração lobar frontotemporal. A doença de Alzheimer típica se apresenta com déficit de memória episódica — esquecimento de fatos recentes, repetição de perguntas, desorientação espacial —, exatamente o que está preservado neste paciente, que mantém compromissos e não se perde ao dirigir. O comprometimento cognitivo vascular exigiria fatores de risco, história de eventos cerebrovasculares e alterações vasculares na neuroimagem, com perfil disexecutivo e evolução tipicamente em degraus, não uma síndrome de linguagem isolada e insidiosa por dois anos. A afasia de Wernicke por acidente vascular cerebral teria início súbito, com fala fluente porém parafásica e sem sentido, comprometimento importante da repetição e lesão temporoparietal posterior — perfil incompatível com dois anos de progressão lenta e atrofia de polo temporal anterior. Pérola: nas variantes agramática e logopênica o padrão é distinto — a agramática cursa com fala não fluente e apraxia de fala; a logopênica, com déficit de repetição de frases e forte associação com patologia de Alzheimer.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o teste de consultório que melhor demonstra o déficit central desse paciente:",
+     "alternativas": {
+      "a": "Evocação tardia de lista de palavras",
+      "b": "Desenho do relógio",
+      "c": "Nomeação de figuras e definição de palavras",
+      "d": "Teste de trilhas parte B"
+     },
+     "correta": "c",
+     "comentario": "Nomear figuras e pedir a definição de palavras avalia diretamente o armazenamento semântico, que é o sistema lesado nessa condição: o paciente falha em nomear itens de baixa frequência, comete erros semânticos e, o que é mais específico, perde o significado da palavra que não consegue nomear — perguntando 'o que é isso?'. Somam-se ao exame a fluência semântica por categoria (animais, frutas), tipicamente muito mais comprometida que a fluência fonêmica, e as tarefas de associação semântica figura-palavra. A evocação tardia de lista de palavras testa memória episódica verbal e é o instrumento voltado à doença de Alzheimer típica, condição que o quadro não sugere; além disso, o desempenho pode cair por incompreensão do próprio material verbal, gerando falso positivo. O desenho do relógio avalia função visuoespacial e executiva e é pouco sensível neste perfil, podendo estar surpreendentemente preservado. O teste de trilhas parte B mede alternância atencional e função executiva, alterado sobretudo na variante comportamental da demência frontotemporal e nas demências vasculares. Pérolas: a avaliação neuropsicológica formal e a fonoaudiológica são fundamentais para tipificar a variante, e a preservação inicial de memória episódica e de habilidades visuoespaciais é justamente o que sustenta o diagnóstico diferencial ao lado da neuroimagem.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais apropriada nesse momento:",
+     "alternativas": {
+      "a": "Acompanhamento fonoaudiológico com estratégias de comunicação e suporte estruturado ao cuidador",
+      "b": "Rivastigmina em dose plena",
+      "c": "Memantina como monoterapia",
+      "d": "Antipsicótico atípico profilático"
+     },
+     "correta": "a",
+     "comentario": "Não há tratamento modificador de doença para a afasia progressiva primária, e o cuidado eficaz é não farmacológico: intervenção fonoaudiológica orientada à manutenção da comunicação funcional (uso de cadernos de comunicação, pistas contextuais, treino de vocabulário relevante para o cotidiano), orientação e suporte ao cuidador, planejamento de segurança, adaptação do ambiente e discussão precoce de diretivas antecipadas de vontade, enquanto a capacidade de decisão está preservada. Os inibidores da colinesterase, como a rivastigmina, foram desenvolvidos para a doença de Alzheimer e para a demência com corpos de Lewy; nas degenerações frontotemporais não trazem benefício consistente e podem piorar sintomas comportamentais e a tolerância gastrointestinal. A memantina foi testada especificamente na degeneração lobar frontotemporal em ensaio randomizado e não mostrou eficácia, não devendo ser usada como monoterapia nessa indicação. O antipsicótico atípico profilático é inaceitável: não há sintoma psicótico ou agitação relevante no caso, e essa classe aumenta mortalidade e eventos cerebrovasculares em idosos com demência, além do risco de parkinsonismo. Pérola: rastrear disfagia, alterações de comportamento alimentar e perda de peso ao longo da evolução, e considerar aconselhamento genético quando houver história familiar de demência ou de doença do neurônio motor.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 99 — Demência Frontotemporal e cap. 96 — Demências; complementar com Merritt (13ª ed.), Seção 6 — Demência.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas (coleção extra-axial crônica)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 79 anos, em uso de varfarina por fibrilação atrial, é levado pela filha por lentificação progressiva do pensamento, cefaleia leve e holocraniana e três quedas nas últimas semanas. Ela relata que ele 'ficou meio parado' e passou a arrastar a perna esquerda. Houve queda da própria altura há cerca de dois meses, sem perda de consciência, sem atendimento na ocasião. Ao exame: sonolento, porém despertável, com hemiparesia esquerda leve de predomínio braquial, sem rigidez de nuca e sem febre. Pressão arterial 148x82 mmHg. Exames: INR 3,4; plaquetas 210.000/mm³; sódio, glicemia e função renal normais.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando a história e os achados, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Acidente vascular cerebral isquêmico subagudo",
+      "b": "Hidrocefalia de pressão normal",
+      "c": "Meningioma da convexidade frontal",
+      "d": "Hematoma subdural crônico"
+     },
+     "correta": "d",
+     "comentario": "A tríade que define o caso é história de trauma leve semanas antes, curso subagudo e progressivo, e paciente idoso anticoagulado. A atrofia cerebral do idoso alonga as veias-ponte e as torna vulneráveis ao cisalhamento, e o espaço subdural aumentado permite que o sangramento se acumule lentamente antes de gerar sintomas — daí o intervalo lúcido de semanas a meses e a apresentação insidiosa com lentificação, cefaleia e déficit focal flutuante. O INR de 3,4 amplifica tanto a chance do sangramento inicial quanto o risco de expansão. O acidente vascular isquêmico subagudo teria início súbito com déficit fixo, e não progressão em semanas com rebaixamento; além disso, não explicaria a cefaleia persistente e o trauma prévio. A hidrocefalia de pressão normal cursa com a tríade de apraxia da marcha do tipo magnética, incontinência urinária e declínio cognitivo, sem hemiparesia lateralizada e sem antecedente traumático. O meningioma da convexidade tem evolução ainda mais lenta, ao longo de meses a anos, frequentemente com crises epilépticas, e não se relaciona a queda recente nem a anticoagulação. Pegadinha clássica: em idosos, o quadro é rotulado como 'demência de rápida progressão' ou depressão, e o diagnóstico só aparece quando se pede a neuroimagem — que é obrigatória diante de declínio cognitivo subagudo com déficit focal.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o achado esperado na tomografia de crânio desse paciente:",
+     "alternativas": {
+      "a": "Hiperdensidade espontânea nos sulcos corticais e nas cisternas da base",
+      "b": "Coleção extra-axial em crescente, hipo ou isodensa, que acompanha a convexidade e cruza suturas",
+      "c": "Coleção extra-axial biconvexa hiperdensa, limitada pelas suturas cranianas",
+      "d": "Hipodensidade cortico-subcortical em território da artéria cerebral média"
+     },
+     "correta": "b",
+     "comentario": "A coleção subdural se acumula entre a dura-máter e a aracnoide, espaço que não é interrompido pelas suturas — por isso a morfologia é em crescente (côncavo-convexa), acompanha longamente a convexidade e pode cruzar linhas de sutura, embora não ultrapasse as inserções durais da foice e do tentório. Com o passar das semanas, a densidade cai progressivamente: hiperdensa na fase aguda (até 3 dias), isodensa na subaguda (cerca de 4 a 21 dias, quando a lesão pode 'sumir' e ser identificada apenas por sinais indiretos, como apagamento de sulcos e desvio de linha média) e hipodensa na fase crônica, frequentemente com componentes de densidades mistas por ressangramento. A coleção biconvexa hiperdensa limitada por suturas descreve o hematoma extradural, típico de trauma agudo com fratura temporal e lesão da artéria meníngea média, de evolução em horas. A hiperdensidade em sulcos e cisternas caracteriza a hemorragia subaracnóidea, com cefaleia súbita e explosiva. A hipodensidade em território arterial define o infarto isquêmico estabelecido. Pérola: em coleções isodensas e bilaterais, o desvio de linha média pode faltar, e a ressonância é bem mais sensível.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta inicial mais apropriada para esse paciente:",
+     "alternativas": {
+      "a": "Manter a varfarina e reavaliar ambulatorialmente em 30 dias",
+      "b": "Corticosteroide isolado como tratamento definitivo",
+      "c": "Reversão urgente da anticoagulação e avaliação neurocirúrgica para drenagem",
+      "d": "Manitol e alta hospitalar com orientação de retorno se piorar"
+     },
+     "correta": "c",
+     "comentario": "Diante de coleção subdural sintomática em paciente anticoagulado, a prioridade é interromper a varfarina e reverter a coagulopatia com urgência — vitamina K intravenosa associada a concentrado de complexo protrombínico, ou plasma fresco congelado quando aquele não estiver disponível — e, em paralelo, acionar a neurocirurgia. Há indicação cirúrgica quando existe déficit neurológico, rebaixamento de consciência, espessura da coleção acima de cerca de 10 mm ou desvio de linha média superior a 5 mm; a trepanação com drenagem é o procedimento habitual, e a colocação de dreno subdural no pós-operatório reduz a recorrência. Manter a varfarina é a conduta mais perigosa possível, pois favorece a expansão da coleção e a deterioração neurológica. O corticosteroide isolado não é tratamento definitivo: ensaios recentes, como o estudo Dex-CSDH, mostraram menor recorrência, porém com pior desfecho funcional, e as diretrizes não o recomendam como substituto da cirurgia no paciente sintomático. Manitol com alta hospitalar é inadequado e inseguro: trata-se de medida temporária de resgate para hipertensão intracraniana, e um idoso sonolento com déficit focal não pode receber alta. Pérola: a decisão sobre reintroduzir a anticoagulação deve ser individualizada, geralmente após 4 semanas, ponderando o risco embólico da fibrilação atrial pelo escore CHA2DS2-VASc contra o risco de ressangramento.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 162 — Manejo do Traumatismo Cranioencefálico e cap. 163 — Hipertensão Intracraniana em Terapia Intensiva Neurológica; complementar com Merritt (13ª ed.), Seção 5 — Neurotrauma.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropatias Periféricas (polirradiculoneuropatia desmielinizante inflamatória crônica)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 52 anos, sem comorbidades, procura o ambulatório por fraqueza simétrica e lentamente progressiva iniciada há cinco meses. Refere dificuldade crescente para subir escadas e levantar-se da cadeira, mas também para abrir potes e girar chaves, além de parestesias em pés e mãos. Nega febre, perda de peso, diarreia prévia ou infecção recente. Ao exame: força reduzida tanto proximal quanto distalmente nos quatro membros, arreflexia global, sensibilidade vibratória reduzida em membros inferiores, marcha instável com piora ao fechar os olhos. Não há alterações pupilares, oculomotoras ou disautonomia. Glicemia de jejum, hemoglobina glicada, vitamina B12 e função renal normais. Líquor: proteína 128 mg/dL, 2 células/mm³.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável para o quadro descrito:",
+     "alternativas": {
+      "a": "Polirradiculoneuropatia desmielinizante inflamatória crônica",
+      "b": "Síndrome de Guillain-Barré",
+      "c": "Polineuropatia diabética",
+      "d": "Miopatia inflamatória"
+     },
+     "correta": "a",
+     "comentario": "Três achados fecham o diagnóstico: evolução progressiva por mais de oito semanas (aqui cinco meses), fraqueza que acomete tanto a musculatura proximal quanto a distal de forma simétrica, e arreflexia global com comprometimento sensitivo de fibras grossas — combinação que caracteriza uma polirradiculoneuropatia desmielinizante adquirida de curso crônico. A dissociação albuminocitológica no líquor (proteína alta com celularidade normal) reforça o acometimento radicular inflamatório. A síndrome de Guillain-Barré compartilha o mesmo perfil eletrofisiológico e liquórico, mas por definição atinge o nadir em até 4 semanas, tipicamente após infecção respiratória ou gastrointestinal — critérios temporais que o caso não preenche, e a ausência de pródromo infeccioso reforça a distinção. A polineuropatia diabética produz padrão comprimento-dependente, distal e simétrico, em bota e luva, com reflexos aquileus abolidos primeiro e sem fraqueza proximal significativa; além disso, glicemia e hemoglobina glicada são normais. A miopatia inflamatória causaria fraqueza proximal com reflexos preservados, elevação de creatinoquinase e ausência de sintomas sensitivos — a presença de parestesias e de arreflexia global afasta a hipótese. Pegadinha: casos com nadir entre 4 e 8 semanas são classificados como neuropatia subaguda, e boa parte deles evolui para a forma crônica.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o achado eletroneuromiográfico esperado nesse paciente:",
+     "alternativas": {
+      "a": "Padrão axonal puro, exclusivamente sensitivo",
+      "b": "Potenciais de unidade motora de curta duração e baixa amplitude, com recrutamento precoce",
+      "c": "Descargas miotônicas difusas",
+      "d": "Redução da velocidade de condução com bloqueios de condução e dispersão temporal"
+     },
+     "correta": "d",
+     "comentario": "O substrato é a desmielinização segmentar multifocal das raízes e dos nervos periféricos, e ela se traduz na eletroneuromiografia por lentificação das velocidades de condução, prolongamento das latências distais e das ondas F, bloqueios de condução motora e dispersão temporal anormal — os critérios eletrodiagnósticos da EAN/PNS de 2021 exigem esse conjunto em dois ou mais nervos. Os bloqueios e a dispersão são especialmente valiosos porque indicam desmielinização adquirida e não hereditária: nas neuropatias hereditárias, como a doença de Charcot-Marie-Tooth tipo 1, a lentificação é uniforme e difusa, sem bloqueios. O padrão axonal puro sensitivo apontaria para neuronopatia sensitiva ou neuropatia tóxica ou paraneoplásica, sem a fraqueza proximal descrita. Potenciais de curta duração e baixa amplitude com recrutamento precoce são o padrão miopático, incompatível com arreflexia e alterações sensitivas. Descargas miotônicas difusas ocorrem nas distrofias miotônicas e em algumas canalopatias, sem relação com o quadro. Pérola de prova: sempre pesquisar gamopatia monoclonal por eletroforese com imunofixação e anticorpos antinodais e paranodais (anti-neurofascina 155, anti-contactina 1), pois essas formas respondem mal à imunoglobulina e podem exigir rituximabe.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o tratamento de primeira linha para esse paciente:",
+     "alternativas": {
+      "a": "Riluzol",
+      "b": "Corticosteroide, imunoglobulina intravenosa ou plasmaférese",
+      "c": "Piridostigmina",
+      "d": "Reabilitação motora isolada, sem imunoterapia"
+     },
+     "correta": "b",
+     "comentario": "As três opções de primeira linha têm eficácia comparável e são intercambiáveis conforme disponibilidade, comorbidades e perfil de efeitos adversos: corticosteroide (prednisona diária ou pulsos de metilprednisolona), imunoglobulina intravenosa e plasmaférese. A escolha é individualizada — o corticoide é barato e amplamente disponível, mas problemático em diabéticos, obesos e osteoporóticos; a imunoglobulina tem início de ação rápido e bom perfil de segurança, sendo preferida em idosos e em pacientes com comorbidades metabólicas; a plasmaférese é reservada a casos graves ou refratários, com resposta rápida porém pouco duradoura. É essencial reavaliar a resposta objetivamente com escalas funcionais e planejar a manutenção, pois a doença é crônica e recidivante. O riluzol é o fármaco da esclerose lateral amiotrófica, doença do neurônio motor que cursaria com sinais de neurônio motor superior e inferior e sem alterações sensitivas. A piridostigmina trata a miastenia gravis, na qual há fatigabilidade flutuante com reflexos normais e sem déficit sensitivo. Reabilitação isolada é insuficiente: sem imunoterapia, a doença progride e gera degeneração axonal secundária irreversível — a fisioterapia é adjuvante indispensável, mas não substitui o tratamento imunomodulador. Pérola: resposta ao tratamento é, na prática, um dos critérios de apoio ao diagnóstico.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 120 — CIDP e Variantes e cap. 112 — Abordagem Clínica das Neuropatias Periféricas; complementar com Merritt (13ª ed.), Seção 12 — Doenças Neuromusculares.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Oncologia (neuroblastoma) [REAL: SUS-BA R+ Pediatria 2022] [RE ranking unificado #1: Vinicius, 100% de erro, 3/3]",
+   "tier": "MÉDIO",
+   "vinheta": "Menino, 2 anos de idade, foi encaminhado pela UBS ao ambulatório do hospital universitário para investigar uma massa em abdome, identificada pela mãe durante o banho. Sem outras queixas, a mãe nega quaisquer outras alterações. Informa que a criança sempre foi saudável. Ao exame, criança em bom estado geral e nutricional; sinais vitais normais. Está ativo, eupneico, afebril, com mucosas hipocoradas +/IV. Abdome globoso, simétrico, sem visceromegalias; apresenta massa palpável em abdome inferior, ultrapassando a linha média; tem contornos irregulares, consistência endurecida, indolor à palpação. Sem outros achados anormais ao exame segmentar.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro, indique a principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Tumor de Wilms",
+      "b": "Sarcoma uterino",
+      "c": "Neuroblastoma",
+      "d": "Linfoma"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O neuroblastoma é o tumor sólido extracraniano mais comum da infância e o tumor maligno mais frequente no lactente, originando-se da crista neural (medula adrenal e cadeia simpática paravertebral). O detalhe semiológico que decide a questão é a massa endurecida, de contornos irregulares, que CRUZA A LINHA MÉDIA — comportamento típico do neuroblastoma, que cresce a partir do retroperitônio e infiltra estruturas vizinhas. O tumor de Wilms (nefroblastoma) é o principal diferencial e também se apresenta como massa abdominal em criança pequena, porém é intrarrenal, de superfície lisa, bem delimitada, e caracteristicamente NÃO ultrapassa a linha média; costuma associar-se a hematúria e hipertensão e a síndromes como WAGR e Beckwith-Wiedemann. O sarcoma uterino é praticamente inexistente nessa faixa etária e no sexo masculino, sendo distrator de eliminação imediata. O linfoma abdominal (habitualmente Burkitt) pode dar massa volumosa, mas costuma cursar com dor, febre, sintomas B, crescimento explosivo em semanas e frequente acometimento intestinal com invaginação — quadro distinto da criança hígida deste caso. Pérolas: palidez discreta sugere infiltração medular; hipertensão por catecolaminas, opsoclonia-mioclonia (síndrome dos 'olhos dançantes'), diarreia por VIP e nódulos subcutâneos azulados no lactente são apresentações clássicas de prova.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame, dentre os apresentados, que melhor contribui para confirmação da etiologia da massa encontrada:",
+     "alternativas": {
+      "a": "Catecolaminas urinárias",
+      "b": "Radiografia de tórax",
+      "c": "Mioglobina urinária",
+      "d": "Ultrassonografia"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Cerca de 90% dos neuroblastomas secretam catecolaminas, e a dosagem urinária de seus metabólitos — ácido vanilmandélico (VMA) e ácido homovanílico (HVA) — é o marcador bioquímico que aponta a ETIOLOGIA da massa, permitindo diferenciá-la das demais massas abdominais da infância; serve também para monitorar resposta e detectar recidiva. Atenção ao verbo da questão: pede o exame que confirma a natureza do tumor, não o que apenas o visualiza. A ultrassonografia é o exame inicial de imagem, útil para caracterizar localização, tamanho e relação com o rim, mas é inespecífica e não define etiologia — é o distrator mais tentador. A radiografia de tórax tem papel apenas complementar no estadiamento e pode revelar massa mediastinal posterior em outras apresentações, mas não confirma o diagnóstico. A mioglobina urinária é marcador de rabdomiólise, sem qualquer relação com tumores neuroblásticos. Pérolas: a confirmação definitiva é histopatológica, por biópsia do tumor ou por aspirado e biópsia de medula óssea com marcadores; a cintilografia com MIBG é o exame de imagem funcional de escolha para estadiamento; e a amplificação do oncogene MYCN é o principal marcador de mau prognóstico, guiando a estratificação de risco pelo sistema INRG.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique os sítios de metástases mais frequentemente associados a essa neoplasia:",
+     "alternativas": {
+      "a": "Medula óssea, fígado, linfonodos e ossos",
+      "b": "Medula óssea, intestino, pulmões e pele",
+      "c": "Pulmões, intestino, baço e ossos",
+      "d": "Linfonodos, fígado, baço e pele"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O neuroblastoma dissemina-se preferencialmente por via linfática e hematogênica para medula óssea, ossos (sobretudo crânio e órbita), fígado e linfonodos — mais da metade das crianças já tem doença metastática ao diagnóstico. As manifestações clínicas dessa distribuição são clássicas em prova: dor óssea e claudicação, citopenias por infiltração medular, e a equimose periorbitária com proptose (o chamado 'olho de guaxinim'), decorrente de metástase para os ossos da órbita. O intestino não é sítio metastático habitual, o que elimina duas alternativas; o baço isolado também não é território característico, o que elimina outra. Os pulmões, incluídos em duas opções, são sítio raro no neuroblastoma — e essa é justamente a pegadinha, já que representam destino frequente de outros tumores pediátricos, como o tumor de Wilms, o osteossarcoma e o sarcoma de Ewing. Pérolas: o estágio MS (antigo IV-S), exclusivo do lactente abaixo de 12 a 18 meses, cursa com metástases em pele, fígado e medula óssea (com infiltração inferior a 10%) e tem prognóstico excelente, podendo apresentar regressão espontânea; já o estágio M em criança maior, sobretudo com amplificação de MYCN, é de alto risco e exige quimioterapia intensiva, cirurgia, transplante autólogo, radioterapia e imunoterapia anti-GD2.\n📚 Leitura sugerida (bloco): Sociedade Brasileira de Pediatria / SOBOPE — Manual de Diagnóstico Precoce do Câncer na Criança e no Adolescente (sinais de alerta), e o Protocolo Brasileiro de Neuroblastoma (INCA); complementar com a videoaula de Miscelânea/Oncologia do R+ Pediatria MEDGRUPO no Drive: https://drive.google.com/file/d/1WpVqn3eUO2tszrOrRkx_rgPXrAT4rtuk/view",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências / Asma (broncoconstrição induzida pelo exercício) [RE cota individual: Leonardo, 67% de erro, 2/3; ângulo inédito]",
+   "tier": "ALTO",
+   "vinheta": "Menina de 13 anos, com diagnóstico de asma há quatro anos, em uso regular e com boa técnica de corticoide inalatório em dose baixa, é levada à consulta porque, nos últimos três meses, apresenta tosse seca, chiado e aperto no peito sempre que corre nos treinos de vôlei, cerca de 8 minutos após o início do esforço intenso, com resolução espontânea em torno de 30 minutos de repouso. Fora das atividades esportivas, não desperta à noite, não usa medicação de resgate e não faltou à escola. Ao exame, está eutrófica, sem esforço respiratório, com ausculta pulmonar limpa. Espirometria em repouso normal, sem resposta significativa ao broncodilatador.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o mecanismo que melhor explica os sintomas apresentados por essa adolescente:",
+     "alternativas": {
+      "a": "Descondicionamento físico com hiperventilação de esforço",
+      "b": "Disfunção de cordas vocais",
+      "c": "Broncoconstrição induzida pelo exercício",
+      "d": "Asma não controlada com sintomas noturnos frequentes"
+     },
+     "correta": "c",
+     "comentario": "A hiperventilação do exercício intenso, sobretudo com ar frio e seco, provoca perda de água e calor pela mucosa das vias aéreas; a hiperosmolaridade resultante desencadeia liberação de mediadores por mastócitos e eosinófilos, com broncoconstrição que caracteristicamente aparece de 5 a 10 minutos APÓS o início ou logo ao término do esforço, atinge o pico em 10 a 15 minutos e cede espontaneamente em 30 a 60 minutos — cronologia que a vinheta reproduz com precisão. O descondicionamento físico causa dispneia proporcional ao esforço, que aparece durante a atividade e cessa imediatamente ao parar, sem sibilância ou tosse. A disfunção de cordas vocais é o principal diferencial: nela o sintoma predominante é estridor INSPIRATÓRIO, com sensação de aperto na garganta, início abrupto no auge do exercício e resolução muito rápida, além de não responder a broncodilatador — o quadro descrito, com chiado expiratório e resolução gradual, não se encaixa. Asma não controlada exigiria sintomas diurnos frequentes, despertares noturnos, uso repetido de resgate e limitação de atividades habituais, o que a história nega explicitamente. Pérola: espirometria normal em repouso NÃO exclui asma nem broncoconstrição por exercício, pois a obstrução é intermitente.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o achado funcional que confirma a hipótese diagnóstica principal:",
+     "alternativas": {
+      "a": "Aumento de 5% do volume expiratório forçado no primeiro segundo após broncodilatador",
+      "b": "Redução isolada da capacidade vital forçada, com relação VEF1/CVF preservada",
+      "c": "Curva fluxo-volume com achatamento do ramo inspiratório",
+      "d": "Queda de 10% ou mais do volume expiratório forçado no primeiro segundo após teste de esforço padronizado"
+     },
+     "correta": "d",
+     "comentario": "O teste de broncoprovocação por exercício é o padrão para a confirmação: mede-se o volume expiratório forçado no primeiro segundo antes e em intervalos seriados após esforço padronizado (habitualmente 6 a 8 minutos em esteira, atingindo 80 a 90% da frequência cardíaca máxima, com ar seco), e a queda igual ou superior a 10% em relação ao basal define o diagnóstico — quedas acima de 30% indicam quadro grave. Testes de hiperpneia voluntária eucápnica e broncoprovocação com manitol ou solução salina hipertônica são alternativas indiretas válidas. Um aumento de apenas 5% após broncodilatador é resposta NÃO significativa: o critério de reversibilidade exige ganho de pelo menos 12% e 200 mL nos adultos, e de 12% do previsto em crianças — portanto esse achado não confirma nada. Redução isolada da capacidade vital forçada com relação VEF1/CVF preservada sugere padrão restritivo, incompatível com doença obstrutiva das vias aéreas. Achatamento do ramo inspiratório da curva fluxo-volume é o achado típico de obstrução extratorácica variável, ou seja, aponta justamente para a disfunção de cordas vocais, que é o diferencial a ser afastado. Pérola: em atletas competitivos, a prevalência de broncoconstrição induzida por exercício chega a 20-50%, e o autorrelato de sintomas tem baixa acurácia, o que justifica a confirmação objetiva.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta mais adequada para essa adolescente:",
+     "alternativas": {
+      "a": "Suspender a prática esportiva até nova reavaliação",
+      "b": "Aquecimento progressivo antes do treino e broncodilatador inalatório de resgate 10 a 15 minutos antes do exercício",
+      "c": "Corticosteroide oral nos dias de treino e de competição",
+      "d": "Dobrar a dose do corticoide inalatório apenas nos dias de jogo"
+     },
+     "correta": "b",
+     "comentario": "A conduta padronizada combina duas medidas: aquecimento progressivo de 10 a 15 minutos antes do esforço principal, que induz período refratário e reduz a intensidade da broncoconstrição em boa parte dos pacientes, e o uso de um beta-2 agonista inalatório de curta ação 10 a 15 minutos antes da atividade, que é a profilaxia farmacológica mais eficaz e de melhor custo-benefício. Como a paciente já usa corticoide inalatório de manutenção com boa técnica e adesão, a base do controle está adequada; se os sintomas de esforço persistirem apesar dessas medidas, os passos seguintes são revisar adesão e técnica, ajustar a etapa do tratamento de controle conforme o GINA e considerar antagonista de receptor de leucotrieno. Suspender o esporte é conduta iatrogênica: a atividade física é recomendada na asma, melhora o condicionamento e reduz a percepção de dispneia — o objetivo do tratamento é permitir que a adolescente jogue, não que pare. Corticosteroide oral em dias de treino não tem qualquer respaldo e expõe a supressão adrenal, ganho de peso e alterações do metabolismo ósseo. Dobrar o corticoide inalatório apenas nos dias de jogo é ineficaz, pois o efeito anti-inflamatório é cumulativo e leva dias a semanas, não agindo de forma pontual. Pegadinha clássica de prova: o uso diário e isolado de beta-2 de curta ação, sem corticoide inalatório associado, foi abandonado pelo GINA por aumentar risco de exacerbação grave e mortalidade.\n📚 Leitura sugerida (bloco): Global Initiative for Asthma — GINA 2024, capítulo sobre broncoconstrição induzida pelo exercício, e a Diretriz de Asma da Sociedade Brasileira de Pneumologia e Tisiologia; complementar com a videoaula de Emergências Respiratórias do R+ Pediatria MEDGRUPO no Drive: https://drive.google.com/file/d/1KBDnpdSl6HD4AEn95UWahWjutRsEUNM4/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências Pediátricas (choque séptico no lactente) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ALTO",
+   "vinheta": "Lactente masculino, 10 meses de vida, é levado ao Setor de Emergência do Hospital Geral devido à febre alta persistente, falta de apetite e prostração há dois dias. Nas últimas 24 horas, começou a apresentar palidez, respiração rápida e superficial, além de mãos e pés frios. A mãe também refere que ele está menos responsivo, chorando pouco e dormindo mais do que o habitual. Ao exame físico, há hipotensão e taquipneia; a temperatura está em 39,2 ºC, a frequência cardíaca é de 168 bpm e o tempo de enchimento capilar é de 4 segundos. As extremidades estão frias e pálidas.",
+   "perguntas": [
+    {
+     "enunciado": "Com base no quadro clínico, identifique o diagnóstico da situação no momento e sua causa provável:",
+     "alternativas": {
+      "a": "Desidratação devido à intoxicação alimentar",
+      "b": "Desidratação devido à gastroenterite viral",
+      "c": "Choque devido à cardiopatia",
+      "d": "Choque devido à sepse"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O caso reúne os critérios de choque em criança: sinais de perfusão inadequada (tempo de enchimento capilar de 4 segundos, extremidades frias e pálidas, taquicardia de 168 bpm, taquipneia) somados a alteração do estado mental (menos responsivo, prostrado). O contexto de febre alta persistente de dois dias com prostração define a etiologia séptica, e o padrão descrito — extremidades frias com enchimento capilar lentificado — corresponde ao choque 'frio', com débito cardíaco baixo e resistência vascular sistêmica elevada, o mais comum na criança. As duas opções de desidratação são descartadas porque não há relato de vômitos, diarreia ou perdas aumentadas, e a história é de infecção febril; ainda que a hipovolemia contribua, o diagnóstico da situação é choque, não desidratação. O choque cardiogênico por cardiopatia é improvável em lactente previamente hígido sem sopro, hepatomegalia, ritmo de galope ou história de cansaço às mamadas. Pérola essencial de prova: hipotensão em criança é sinal TARDIO e indica choque descompensado, pois o mecanismo compensatório inicial é a taquicardia com vasoconstrição periférica — reconhecer o choque compensado antes da queda pressórica é o que muda o desfecho.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique os dois exames mais apropriados para confirmação do diagnóstico mais provável nesse caso:",
+     "alternativas": {
+      "a": "Gasometria arterial e hemocultura",
+      "b": "Radiografia de tórax e hemograma",
+      "c": "Teste de glicemia capilar e hemograma",
+      "d": "Ultrassonografia abdominal e sumário de urina"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A dupla escolhida responde às duas perguntas centrais: a gasometria arterial (com lactato) documenta a hipoperfusão tecidual, revelando acidose metabólica com hiperlactatemia, e serve para monitorar a resposta à ressuscitação; a hemocultura identifica o agente etiológico e permite descalonar a antibioticoterapia — deve ser colhida antes da primeira dose, mas SEM atrasá-la além de uma hora. Radiografia de tórax e hemograma ajudam a procurar foco e a avaliar resposta inflamatória, porém o hemograma pode ser normal ou mostrar leucopenia na sepse grave, e nenhum dos dois confirma a hipoperfusão nem o agente. Glicemia capilar é obrigatória na abordagem inicial de toda criança grave (a hipoglicemia é causa tratável de rebaixamento), mas não confirma sepse. Ultrassonografia abdominal e sumário de urina investigam foco urinário e abdominal, sendo complementares e não confirmatórios. Pérolas do pacote de primeira hora: acesso vascular rápido — intraósseo se necessário —, expansão com cristaloide 10 a 20 mL/kg em alíquotas com reavaliação a cada bolus, antibiótico de amplo espectro na primeira hora, correção de hipoglicemia e de hipocalcemia, e início precoce de vasoativo (adrenalina para o choque frio, noradrenalina para o choque quente) quando não há resposta aos fluidos.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada para estabilizar o quadro nessa fase inicial:",
+     "alternativas": {
+      "a": "Observação hospitalar; administração de líquidos e alimentação por via oral",
+      "b": "Internação hospitalar; reposição fluídica intravenosa; antibioticoterapia",
+      "c": "Observação no domicílio; antipiréticos, antibiótico e líquidos por via oral",
+      "d": "Observação hospitalar; broncodilatador inalatório e antipirético oral"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Diante de choque séptico, a conduta é internação imediata, preferencialmente em unidade de terapia intensiva, com reposição volêmica intravenosa em bolus e antibioticoterapia de amplo espectro precoce — cada hora de atraso no antibiótico aumenta a mortalidade de forma mensurável, conforme demonstram as recomendações do Surviving Sepsis Campaign pediátrico. Hidratação e alimentação por via oral são inadequadas e perigosas: a criança está hipoperfundida e com nível de consciência rebaixado, com absorção gastrointestinal comprometida e risco de broncoaspiração. Observação domiciliar com antibiótico oral é conduta francamente inaceitável em choque, configurando risco de morte evitável. Broncodilatador inalatório com antipirético trata quadro obstrutivo de via aérea, inexistente no caso — a taquipneia aqui é compensatória da acidose metabólica, e tratá-la como broncoespasmo retarda o essencial. Pérolas de prova: reavaliar após cada bolus procurando sinais de sobrecarga (hepatomegalia, estertores, ritmo de galope), pois a expansão excessiva piora o desfecho; iniciar adrenalina em infusão contínua se houver choque frio refratário a fluidos, e considerar hidrocortisona no choque resistente a catecolaminas; e monitorar diurese, lactato seriado e estado mental como metas de ressuscitação.\n📚 Leitura sugerida (bloco): material do Vinicius no Drive — 'Choque em Pediatria': https://drive.google.com/file/d/11Wx8xIUFnHO1M-dvnxHASuSgNWNSz9H8/view ; complementar com as diretrizes do Surviving Sepsis Campaign pediátrico e o protocolo PALS.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neurodesenvolvimento (transtorno do espectro autista) [REAL: SUS-BA R+ Pediatria 2021]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Genitora leva seu filho, de 28 meses de vida, ao ambulatório de pediatria, apreensiva porque a criança foi matriculada em uma creche e não tem interagido com os colegas. Relata que nasceu a termo, nunca apresentou problemas de saúde importantes. Refere que sustentou o pescoço aos 2 meses de idade, sorriu aos 3 a 4 meses, sentou sem apoio aos 8 meses, andou só aos 14 meses. Fala palavras soltas e, por vezes, pequenas frases. Brinca com cubos e distrai-se sozinho. Por vezes aponta algo que deseja pegar. É filho único de pais saudáveis. Os familiares o consideram 'pouco animadinho' por falta de estímulos de outras crianças, o que ocasionou a matrícula na creche. Nega comportamento repetitivo. Ao exame, está em bom estado geral e nutricional. Embora não responda a todos os estímulos físicos e verbais, permite o exame físico, chorando, apenas, quando do exame de orofaringe.",
+   "perguntas": [
+    {
+     "enunciado": "Com base nos relatos, indique a faixa etária onde indicadores de desenvolvimento, mais frequentemente, apresentam atrasos quando ocorre a principal suspeita diagnóstica no caso descrito:",
+     "alternativas": {
+      "a": "De 1 a 2 anos",
+      "b": "De 3 a 6 meses",
+      "c": "De 6 a 12 meses",
+      "d": "Desde o nascimento"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] No transtorno do espectro autista os marcos motores costumam ser normais — como neste menino, que sustentou o pescoço, sentou e andou dentro do esperado — e o que se altera são os marcos SOCIOCOMUNICATIVOS, cuja falha se torna clinicamente evidente sobretudo entre 12 e 24 meses, quando deveriam surgir o apontar protodeclarativo, a atenção compartilhada, o brincar simbólico, a resposta consistente ao próprio nome e as primeiras combinações de palavras. É nessa janela que os pais percebem a criança 'no mundo dela', e por isso a faixa de 1 a 2 anos é a resposta. Alterações entre 3 e 6 meses e entre 6 e 12 meses podem existir de forma sutil e retrospectiva (menos contato ocular, sorriso social pobre), mas não são o período de maior expressão nem o que motiva a suspeita em consultório. 'Desde o nascimento' descreve encefalopatias precoces, malformações e erros inatos do metabolismo, com atraso global desde os primeiros meses — perfil incompatível com marcos motores normais até os 14 meses. Pérolas: sinais de alerta ao redor dos 12 meses incluem não balbuciar, não apontar e não fazer gestos; aos 16 meses, não falar palavras isoladas; aos 24 meses, não formar frases de duas palavras; e a perda de qualquer habilidade social ou de linguagem em qualquer idade é sinal de alarme e indicação de avaliação imediata.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Com base nos relatos, assinale a assertiva correta com relação aos aspectos epidemiológicos associados à principal suspeita diagnóstica para o caso acima referido:",
+     "alternativas": {
+      "a": "O diagnóstico é quatro vezes mais frequente no sexo masculino",
+      "b": "O diagnóstico é mais comum em filhos de pais adolescentes",
+      "c": "Os estudos com gêmeos afastam o componente genético",
+      "d": "A cognição estará comprometida na maioria dos casos"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A predominância no sexo masculino, na proporção aproximada de 4:1, é um dos dados epidemiológicos mais consistentes do transtorno do espectro autista e cai com frequência em prova; discute-se que meninas sejam subdiagnosticadas por apresentarem quadros com camuflagem social e menos comportamentos repetitivos evidentes. A associação com pais adolescentes é falsa: o fator parental reprodutivo associado a maior risco é a idade AVANÇADA dos genitores, sobretudo paterna. Afirmar que estudos com gêmeos afastam o componente genético inverte a evidência — justamente esses estudos demonstram concordância muito maior em monozigóticos do que em dizigóticos, sustentando herdabilidade elevada, com centenas de genes implicados e associação a síndromes como X frágil, esclerose tuberosa e Rett. Dizer que a cognição estará comprometida na maioria dos casos também está incorreto: com a ampliação dos critérios diagnósticos, a maior parte dos casos atuais cursa com inteligência preservada ou limítrofe, e a deficiência intelectual acompanha cerca de um terço dos indivíduos. Pérolas: prevalência atual estimada em torno de 1 em 36 crianças segundo o CDC; o diagnóstico é clínico, baseado nos critérios do DSM-5-TR, que exigem déficits persistentes em comunicação e interação social somados a padrões restritos e repetitivos de comportamento, com especificação do nível de suporte necessário.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Com base nos relatos, indique a conduta recomendada pela Sociedade Brasileira de Pediatria para iniciar a investigação da principal suspeita diagnóstica, nesse caso, no momento:",
+     "alternativas": {
+      "a": "Observar e reavaliar em 6 meses",
+      "b": "Aplicar o instrumento de triagem M-CHAT-R",
+      "c": "Aplicar o instrumento de triagem M-CHAT-R/F",
+      "d": "Encaminhar para avaliação de psiquiatra infantil"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O M-CHAT-R é o instrumento de triagem recomendado pela Sociedade Brasileira de Pediatria e incorporado à Caderneta da Criança, aplicável entre 16 e 30 meses — faixa em que o menino de 28 meses se encaixa perfeitamente. É um questionário de 20 itens respondido pelos pais, e sua aplicação é o primeiro passo formal diante da suspeita levantada em consultório. A distinção entre M-CHAT-R e M-CHAT-R/F é a pegadinha central da questão: o sufixo 'F' significa follow-up, ou seja, a entrevista de seguimento aplicada APENAS quando a triagem inicial resulta em risco intermediário (escore de 3 a 7), para reduzir falsos positivos; escore de 8 ou mais dispensa a entrevista e indica encaminhamento direto. Portanto, iniciar pelo M-CHAT-R/F é etapa fora de ordem. Observar e reavaliar em 6 meses é conduta inadequada e potencialmente lesiva: o atraso na identificação retarda a intervenção precoce, que é o principal determinante de prognóstico funcional. Encaminhar diretamente ao psiquiatra infantil pula a etapa de triagem que compete ao pediatra e sobrecarrega a rede — o encaminhamento se faz após triagem positiva, idealmente para avaliação multiprofissional. Pérolas: a triagem NÃO faz diagnóstico, apenas sinaliza risco; sempre investigar audição e associar estimulação e terapias comportamentais precoces, sem esperar a confirmação diagnóstica formal.\n📚 Leitura sugerida (bloco): Sociedade Brasileira de Pediatria — Manual de Orientação 'Transtorno do Espectro do Autismo' e o Protocolo de Vigilância do Desenvolvimento da Caderneta da Criança (Ministério da Saúde); complementar com o Tratado de Neurologia da ABN (3ª ed., 2025), cap. 177 — Neurodesenvolvimento e seus Transtornos.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Gastroenterologia (doença inflamatória intestinal) [REAL: SUS-BA R+ Pediatria 2021]",
+   "tier": "MÉDIO",
+   "vinheta": "Menino, 11 anos de idade, é levado ao Núcleo de Apoio à Saúde da Família (NASF) com história de dor abdominal e episódios diarreicos esporádicos há, aproximadamente, 9 meses. Refere perda de peso. Ao exame, estado geral regular; estado nutricional comprometido; hipoativo, hidratado, eupneico, afebril, mucosas coradas ++/IV; ausculta cardíaca e respiratória sem alterações; abdome globoso, simétrico, timpânico, referindo dor à palpação profunda, o que dificulta identificar visceromegalias. Há lesão em região perianal, que drena secreção purulenta. Extremidades sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando a situação clínica descrita, indique a principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Fibrose cística",
+      "b": "Doença celíaca",
+      "c": "Doença de Crohn",
+      "d": "Doença de Hirschsprung"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O achado que decide a questão é a doença perianal com fístula drenando secreção purulenta: fístulas, fissuras complexas, plicomas e abscessos perianais são praticamente exclusivos da doença de Crohn entre as opções, e podem inclusive preceder os sintomas intestinais. Somam-se o curso crônico de nove meses, a dor abdominal, a diarreia intermitente e o comprometimento nutricional com perda de peso — a doença de Crohn é a causa clássica de baixa estatura e atraso puberal de origem inflamatória na criança e no adolescente. A fibrose cística cursa com esteatorreia por insuficiência pancreática exócrina desde a lactância, infecções respiratórias de repetição e bronquiectasias, sem doença perianal fistulizante. A doença celíaca produz diarreia crônica, distensão abdominal e desnutrição, mas por lesão de mucosa mediada por glúten, sem fístulas, abscessos ou inflamação transmural. A doença de Hirschsprung manifesta-se no período neonatal com retardo na eliminação de mecônio e constipação grave, não com diarreia crônica em escolar. Pérolas: o Crohn acomete qualquer segmento da boca ao ânus, de forma descontínua e transmural, com granulomas não caseosos; a retocolite ulcerativa é contínua, restrita à mucosa colônica e não faz doença perianal fistulizante.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a alternativa que apresenta a categoria da diarreia que ocorre na condição correspondente à principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Diarreia inflamatória",
+      "b": "Diarreia disabsortiva",
+      "c": "Diarreia secretória",
+      "d": "Diarreia osmótica"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Na doença inflamatória intestinal a diarreia é inflamatória (também chamada exsudativa): o infiltrado de neutrófilos e a ulceração da mucosa provocam exsudação de proteínas, muco, sangue e leucócitos para a luz intestinal, além de lesão do epitélio absortivo — clinicamente traduzida por evacuações com muco e sangue, urgência, tenesmo, dor e sintomas sistêmicos como febre e perda de peso. Laboratorialmente o marcador prático é a calprotectina fecal elevada, que reflete migração de neutrófilos para a luz e ajuda a diferenciar doença orgânica de distúrbio funcional. A diarreia disabsortiva decorre de falha na digestão ou na absorção de nutrientes, como na doença celíaca e na insuficiência pancreática, cursando com esteatorreia e melhora com o jejum, sem sangue nem exsudato. A diarreia secretória resulta de secreção ativa de eletrólitos, como na cólera e em tumores produtores de peptídeo intestinal vasoativo, é aquosa, volumosa e NÃO cede com o jejum. A diarreia osmótica é causada por soluto não absorvido, como na intolerância à lactose ou no uso de laxativos, tem gap osmótico fecal alto e melhora com o jejum. Pérola: o Crohn ileal extenso pode somar componente disabsortivo, inclusive com deficiência de vitamina B12 e de sais biliares, mas a categoria dominante da doença é a inflamatória.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o tratamento nutricional mais adequado para o controle inicial do quadro:",
+     "alternativas": {
+      "a": "Nutrição oral sem glúten e sem lactose",
+      "b": "Nutrição enteral por sonda nasoenteral",
+      "c": "Nutrição enteral exclusiva por via oral",
+      "d": "Nutrição parenteral total"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A nutrição enteral exclusiva é a terapia de indução de remissão de primeira linha na doença de Crohn luminal ativa em crianças e adolescentes, segundo as diretrizes da ESPGHAN e da ECCO: consiste em fornecer 100% das necessidades calóricas por meio de fórmula líquida, por 6 a 8 semanas, sem outros alimentos. Alcança taxas de remissão comparáveis às do corticosteroide, com a vantagem decisiva de promover cicatrização da mucosa, recuperar o estado nutricional e favorecer o crescimento — sem os efeitos adversos do corticoide sobre estatura e massa óssea, particularmente relevantes nessa faixa etária. A via oral é a preferencial sempre que a fórmula for aceita, o que torna a sonda nasoenteral um recurso reservado à intolerância ou à recusa, e não a conduta inicial. A dieta sem glúten e sem lactose trataria doença celíaca e intolerância à lactose, sem qualquer efeito indutor de remissão no Crohn. A nutrição parenteral total é invasiva, associada a infecção de cateter e a colestase, e fica restrita a situações específicas como obstrução intestinal, fístula de alto débito e síndrome do intestino curto. Pérolas: manter o rastreio de deficiências de ferro, zinco, vitamina D e vitamina B12; planejar a terapia de manutenção com imunossupressor ou biológico anti-TNF, que na doença perianal fistulizante costuma ser indicado precocemente; e sempre avaliar abscesso perianal com exame de imagem antes de imunossuprimir.\n📚 Leitura sugerida (bloco): Diretrizes ESPGHAN/ECCO para doença de Crohn pediátrica e o Protocolo Clínico e Diretrizes Terapêuticas de Doença de Crohn do Ministério da Saúde; complementar com a videoaula de Gastroenterologia do R+ Pediatria MEDGRUPO no Drive: https://drive.google.com/file/d/1rIrgkiZ_nqlMcMBeZ6RLspQk90rW_S3w/view",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição e Saúde Coletiva (suplementação de vitamina A) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, com 6 meses de idade, nascida às 36 semanas de gestação, que se alimenta exclusivamente de leite materno, é levada à Unidade Básica de Saúde para consulta de Puericultura. O médico constata que o seu desenvolvimento neuropsicomotor está compatível, orienta a vacinação e a administração de vitamina A. As perguntas a seguir baseiam-se no caso e nas recomendações do Programa Nacional de Suplementação de Vitamina A do Ministério da Saúde.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o grupo-alvo para suplementação obrigatória de vitamina A em lactentes:",
+     "alternativas": {
+      "a": "Lactentes prematuros",
+      "b": "Lactentes com histórico de alergias alimentares",
+      "c": "Lactentes que não consomem alimentos sólidos",
+      "d": "Lactentes que residem em área de risco da deficiência"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O Programa Nacional de Suplementação de Vitamina A é uma política de base POPULACIONAL e territorial: destina-se às crianças que vivem em áreas de risco para a hipovitaminose A, historicamente a região Nordeste, o Vale do Jequitinhonha e do Mucuri em Minas Gerais, o Vale do Ribeira em São Paulo, municípios da Amazônia Legal e áreas cobertas pelo antigo Programa Bolsa Família e por estratégias equivalentes. O critério, portanto, é epidemiológico e geográfico, e não individual. Ser prematuro não é, isoladamente, critério de inclusão no programa — o prematuro tem reservas hepáticas menores e merece atenção nutricional específica, mas a suplementação em megadose segue a regra territorial. Histórico de alergia alimentar não guarda relação com deficiência de vitamina A e não figura em nenhuma recomendação do programa. Não consumir alimentos sólidos aos 6 meses é apenas o padrão fisiológico do aleitamento materno exclusivo até essa idade, e não define grupo de risco. Pérolas: a deficiência de vitamina A é a principal causa evitável de cegueira infantil no mundo e aumenta a mortalidade por diarreia e sarampo; as manifestações oculares progridem de cegueira noturna para xerose conjuntival, manchas de Bitot, xerose e ulceração corneana e, por fim, ceratomalácia; e toda criança com sarampo deve receber vitamina A independentemente da área de residência.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Identifique a faixa etária e o intervalo de tempo para a administração da vitamina A em crianças que preenchem critérios para suplementação desta vitamina:",
+     "alternativas": {
+      "a": "Crianças de 0 a 24 meses de idade, a cada 6 meses",
+      "b": "Crianças de 6 a 59 meses de idade, a cada 6 meses",
+      "c": "Crianças de 2 a 24 meses de idade, a cada 4 meses",
+      "d": "Crianças de 12 a 59 meses de idade, a cada 4 meses"
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O esquema oficial do Ministério da Saúde contempla crianças de 6 a 59 meses, com megadoses a cada 6 meses, aproveitando as oportunidades de contato com o serviço de saúde, como a sala de vacina e as consultas de puericultura — motivo pelo qual a lactente da vinheta, com exatos 6 meses, está no momento ideal para receber a primeira dose. As doses são padronizadas por faixa: 100.000 UI em dose única entre 6 e 11 meses, e 200.000 UI a cada 6 meses dos 12 aos 59 meses. Iniciar aos 0 meses é incorreto e potencialmente tóxico, pois o lactente abaixo de 6 meses em aleitamento materno recebe vitamina A pelo leite, sobretudo pelo colostro, que é especialmente rico nesse micronutriente. As opções com intervalo de 4 meses estão erradas porque o intervalo preconizado é semestral, e as que limitam a suplementação até 24 meses interrompem precocemente a proteção, que deve seguir até os 59 meses. Pérolas de prova: a vitamina A é lipossolúvel e se acumula no fígado, e a intoxicação aguda cursa com abaulamento de fontanela, vômitos, cefaleia e irritabilidade — quadro autolimitado, mas que justifica o registro rigoroso da dose na Caderneta da Criança para evitar duplicidade; a suplementação de puérperas no pós-parto imediato foi descontinuada pelo programa.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a via preferencial de administração da vitamina A, de acordo com o Programa citado:",
+     "alternativas": {
+      "a": "Via oral",
+      "b": "Via retal",
+      "c": "Via endovenosa",
+      "d": "Via intramuscular"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A vitamina A do programa é fornecida em cápsulas gelatinosas moles, administradas por via ORAL: o profissional corta ou perfura a cápsula e coloca o conteúdo oleoso diretamente na boca da criança. É a via mais simples, segura, barata e adequada a uma estratégia de larga escala, com boa absorção intestinal por se tratar de vitamina lipossolúvel — a absorção é inclusive favorecida pela presença de gordura da dieta e pelo próprio leite materno. A via retal não é utilizada para essa finalidade e teria absorção errática e imprevisível. A via endovenosa é inadequada e perigosa para uma vitamina lipossolúvel em megadose, além de exigir insumos, punção e estrutura incompatíveis com uma ação de saúde pública em unidade básica. A via intramuscular também não é utilizada no programa: dolorosa, de absorção lenta para preparações oleosas e sem qualquer vantagem sobre a via oral. Pérolas operacionais: as cápsulas têm cores distintas conforme a dose (100.000 UI e 200.000 UI), o registro deve ser feito na Caderneta da Criança e no sistema de informação do programa, e a suplementação pode ser realizada no mesmo dia da vacinação, sem qualquer interferência entre elas — dado que costuma aparecer como pegadinha em questões sobre oportunidades perdidas de imunização.\n📚 Leitura sugerida (bloco): Manual de Condutas Gerais do Programa Nacional de Suplementação de Vitamina A (Ministério da Saúde); complementar com o material do Vinicius no Drive — 'Nutrição em Pediatria na Prática Clínica' (Sarni, 2021): https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Imunização e Saúde Coletiva (poliomielite e Calendário Nacional) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "ALTO",
+   "vinheta": "'No ano em que o Brasil comemora 32 anos sem nenhum caso de poliomielite, a queda na cobertura vacinal tem gerado preocupação diante dos riscos de reintrodução da doença no país. [...] A poliomielite pode se espalhar rapidamente entre comunidades com cobertura vacinal inadequada, não é tratável, mas é totalmente evitável por vacinação. No entanto, a cobertura vacinal caiu abaixo de 80% em quase todos os países das Américas, nos últimos anos, e quatro deles estão em risco muito alto de reintrodução do poliovírus selvagem: Brasil, Haiti, Peru e República Dominicana.'",
+   "perguntas": [
+    {
+     "enunciado": "Sobre as vacinas contra poliomielite, é correto afirmar:",
+     "alternativas": {
+      "a": "A VPO (vacina pólio oral) não tem contraindicações",
+      "b": "A VIP (vacina inativada pólio) não deve ser administrada em adultos",
+      "c": "A VIP (vacina inativada pólio) deve ser administrada exclusivamente por via intramuscular",
+      "d": "A vacina Salk contra a poliomielite é a VIP (vacina inativada pólio) e a Sabin é a VPO (vacina pólio oral)"
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Jonas Salk desenvolveu a vacina de vírus INATIVADO, aplicada por via parenteral (VIP), e Albert Sabin desenvolveu a vacina de vírus vivo ATENUADO, de uso oral (VPO) — associação clássica e de resposta direta. Dizer que a VPO não tem contraindicações é falso e perigoso: por conter vírus vivo atenuado, é contraindicada em imunodeprimidos, em pessoas que convivem com imunodeprimidos, em gestantes e em crianças hospitalizadas, e pode causar poliomielite associada à vacina e emergência de poliovírus derivado vacinal. Afirmar que a VIP não deve ser administrada em adultos também é incorreto: a VIP é justamente a vacina indicada quando há necessidade de imunizar adultos não vacinados, viajantes para áreas de risco e profissionais de laboratório, além de ser a opção segura para imunodeprimidos. Dizer que a VIP é exclusivamente intramuscular é impreciso, pois a apresentação disponível admite também a via subcutânea. Pérolas: a VPO tem a vantagem de induzir imunidade de mucosa intestinal e proteção coletiva pela disseminação do vírus vacinal, enquanto a VIP não gera transmissão secundária, e a estratégia global caminha para a retirada progressiva da vacina oral.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Identifique o esquema vacinal preconizado contra a poliomielite, no Calendário Nacional de Vacinação:",
+     "alternativas": {
+      "a": "Três doses de Vacina Inativada contra Poliomielite (VIP), administradas aos 2, 6 e 10 meses de idade, mais dois reforços com Vacina Oral contra Poliomielite (VOP), aos 15 meses e 5 anos de idade",
+      "b": "Três doses de Vacina Inativada contra Poliomielite (VIP), administradas aos 2, 4 e 6 meses de idade, mais dois reforços com Vacina Oral contra Poliomielite (VOP), aos 12 meses e aos 5 anos de idade",
+      "c": "Três doses de Vacina Inativada contra Poliomielite (VIP), administradas aos 2, 4 e 6 meses de idade, mais dois reforços com Vacina Oral contra Poliomielite (VOP), aos 15 meses e aos 4 anos de idade",
+      "d": "Três doses de Vacina Inativada contra Poliomielite (VIP) ou Vacina Oral contra Poliomielite (VOP), administradas aos 2, 4 e 6 meses de idade, mais dois reforços com Vacina Oral contra Poliomielite (VOP), aos 15 meses e aos 4 anos de idade"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] À época da prova, o Calendário Nacional previa o esquema sequencial: três doses de VIP aos 2, 4 e 6 meses, seguidas de dois reforços com VOP aos 15 meses e aos 4 anos. A lógica do esquema misto é dupla — as doses iniciais com vírus inativado eliminam o risco de poliomielite associada ao vírus vacinal no lactente ainda não imune, e os reforços orais garantem imunidade de mucosa intestinal e proteção comunitária. A opção com doses aos 2, 6 e 10 meses inventa um intervalo inexistente no calendário brasileiro. A opção com reforço aos 12 meses e aos 5 anos erra as duas idades de reforço. A opção que admite iniciar com VIP OU VOP está errada porque as três doses do esquema básico devem obrigatoriamente ser de vacina inativada, ponto central da política de segurança vacinal. ATUALIZAÇÃO IMPORTANTE para a prova atual: desde 2024 o Ministério da Saúde retirou a VOP do calendário, adotando esquema integralmente com VIP — três doses aos 2, 4 e 6 meses e um único reforço aos 15 meses. Vale conhecer as duas versões, pois questões antigas cobram o esquema sequencial e as recentes já cobram o esquema exclusivo com vacina inativada.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Nas campanhas contra a poliomielite, identifique o esquema complementar que as crianças recebem de vacina antipólio:",
+     "alternativas": {
+      "a": "Uma dose da Vacina antipólio Oral (VOP), independente da situação vacinal contra a doença",
+      "b": "Uma dose da Vacina antipólio Oral (VOP) ou Inativada (VIP), a depender da última dose administrada",
+      "c": "Uma dose da Vacina antipólio Oral (VOP), desde que já tenham recebido as três doses da Vacina Inativada contra Pólio (VIP)",
+      "d": "Uma dose da Vacina antipólio Oral (VOP), desde que já tenham recebido ao menos uma dose da Vacina Inativada contra Pólio (VIP)"
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Nas campanhas nacionais, a dose adicional de VOP era destinada às crianças que já haviam completado o esquema básico com as três doses de VIP: trata-se de dose de REFORÇO comunitário, cujo objetivo é elevar a imunidade de mucosa e reduzir a circulação do poliovírus, e não de dose de esquema. Administrar VOP independentemente da situação vacinal é incorreto e inseguro, pois a criança sem nenhuma dose de vacina inativada ficaria exposta ao risco de poliomielite associada ao vírus vacinal — exatamente o risco que o esquema sequencial foi desenhado para eliminar. Deixar a escolha entre VOP e VIP a depender da última dose administrada não corresponde à normativa da campanha, que padronizava a vacina oral para a dose adicional. Exigir apenas uma dose prévia de VIP é insuficiente, já que a proteção adequada antes da exposição ao vírus vivo atenuado pressupõe o esquema primário completo. Pérolas de saúde pública: a meta de cobertura vacinal para poliomielite é de pelo menos 95%; a vigilância epidemiológica se faz pela notificação e investigação de TODO caso de paralisia flácida aguda em menores de 15 anos, com coleta de duas amostras de fezes nos primeiros 14 dias; e a queda de cobertura no Brasil recolocou o país em risco de reintrodução, o que faz do tema campeão de questões de prova.\n📚 Leitura sugerida (bloco): Calendário Nacional de Vacinação e Manual de Normas e Procedimentos para Vacinação (Programa Nacional de Imunizações, Ministério da Saúde), com a nota técnica de 2024 sobre a retirada da VOP; complementar com a videoaula de Imunização/Calendário Vacinal do R+ Pediatria MEDGRUPO no Drive: https://drive.google.com/file/d/1haGRHKys0_ENxZ4Yp_gs7HJUNm8ES9RA/view",
+     "dificuldade": "dificil"
+    }
+   ]
+  }
+ ]
+}
