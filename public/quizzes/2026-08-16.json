@@ -1,0 +1,651 @@
+{
+ "date": "2026-08-16",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Neuroimunologia (encefalite autoimune anti-NMDAR pós-herpética) [RE ranking unificado #1]",
+   "tier": "ALTO",
+   "vinheta": "Menina de 4 anos esteve internada por 21 dias em razão de encefalite herpética confirmada por PCR para HSV-1 no líquor, tratada com aciclovir endovenoso em dose plena, recebendo alta consciente, deambulando e interagindo com a família. Dez dias após a alta, retorna ao pronto-socorro com irritabilidade extrema, insônia quase total, regressão da linguagem já readquirida, movimentos involuntários contínuos da face, da língua e das mãos, e duas crises focais motoras. Está afebril. Nova punção lombar mostra 40 células/mm³ com predomínio linfomononuclear, proteína de 55 mg/dL, glicose normal e PCR para HSV-1 NEGATIVA. A ressonância de crânio mostra as sequelas temporais mesiais já conhecidas, sem lesão nova com realce pelo contraste.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando a evolução após o tratamento antiviral completo, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Encefalomielite disseminada aguda",
+      "b": "Recidiva da encefalite herpética",
+      "c": "Coreia de Sydenham",
+      "d": "Encefalite autoimune por anticorpo anti-receptor de NMDA"
+     },
+     "correta": "d",
+     "comentario": "A chave do caso é o padrão temporal bifásico: melhora clínica após ciclo completo de aciclovir e, semanas depois, recaída com transtorno do comportamento, insônia, regressão de linguagem, discinesias orofaciais e crises — mas SEM febre e com PCR viral negativa. Esse é o quadro clássico da encefalite autoimune anti-NMDAR desencadeada pela encefalite herpética: a destruição tecidual pelo HSV expõe antígenos neuronais e deflagra produção de autoanticorpos contra a subunidade GluN1 do receptor de NMDA, em cerca de 20% a 27% das crianças após encefalite herpética, tipicamente entre 2 e 8 semanas da infecção. Recidiva da encefalite herpética é o distrator mais tentador, mas exigiria febre, PCR positiva e, sobretudo, LESÃO NOVA com realce na ressonância — nada disso está presente, e recidiva verdadeira é rara após 21 dias de tratamento em dose plena. Coreia de Sydenham cursa com coreia generalizada em criança maior, após infecção estreptocócica, com hipotonia e labilidade emocional, sem encefalopatia grave, insônia ou crises, e não produz pleocitose liquórica. Encefalomielite disseminada aguda é monofásica, pós-infecciosa ou pós-vacinal, e obrigatoriamente mostra lesões desmielinizantes multifocais NOVAS na substância branca em T2/FLAIR — ausentes na imagem. Pérola de prova: em criança que 'piora de novo' após encefalite herpética tratada, pense primeiro em autoimunidade, não em falha do antiviral.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame que confirma a hipótese diagnóstica levantada:",
+     "alternativas": {
+      "a": "Repetição da PCR para HSV-1 no líquor",
+      "b": "Pesquisa de anticorpo anti-NMDAR no líquor",
+      "c": "Pesquisa de bandas oligoclonais no líquor",
+      "d": "Dosagem de antiestreptolisina O sérica"
+     },
+     "correta": "b",
+     "comentario": "A confirmação é a detecção do anticorpo IgG contra a subunidade GluN1 do receptor de NMDA, e a amostra de escolha é o LÍQUOR, não o soro: a sensibilidade liquórica é de praticamente 100%, enquanto o soro isolado pode ser falso-negativo em cerca de 15% dos casos, além de gerar falso-positivo em títulos baixos. Por isso, pedir apenas o soro é um erro clássico cobrado em prova. Repetir a PCR para HSV-1 pode documentar a negativação, mas não confirma diagnóstico algum — ela já veio negativa e a hipótese em jogo não é infecciosa. A antiestreptolisina O serviria à coreia de Sydenham, hipótese já afastada pela idade, pela ausência de faringoamigdalite prévia e pelo perfil encefalopático com crises. Bandas oligoclonais aparecem de forma inespecífica em diversas encefalites autoimunes e na esclerose múltipla, mas não definem o antígeno-alvo nem a etiologia. Exames complementares úteis: o EEG pode mostrar o padrão de 'extreme delta brush', bastante específico, e em adolescentes e adultas jovens é obrigatório o rastreio de teratoma de ovário com ultrassonografia pélvica e/ou tomografia. Em pré-escolares a associação tumoral é rara, o que reforça o gatilho pós-herpético neste caso.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada neste momento:",
+     "alternativas": {
+      "a": "Novo ciclo de aciclovir endovenoso por 21 dias",
+      "b": "Penicilina benzatina em profilaxia secundária",
+      "c": "Pulsoterapia com corticoide associada a imunoglobulina endovenosa",
+      "d": "Apenas anticonvulsivante e observação clínica"
+     },
+     "correta": "c",
+     "comentario": "O tratamento é imunoterapia, e quanto mais precoce, melhor o desfecho funcional. A primeira linha combina corticoide em pulso (metilprednisolona 30 mg/kg/dia, máximo de 1 g, por 3 a 5 dias) com imunoglobulina endovenosa (2 g/kg divididos em 2 a 5 dias) e/ou plasmaférese; a segunda linha, indicada quando não há resposta em cerca de 2 semanas, usa rituximabe e/ou ciclofosfamida, e a literatura pediátrica mostra que escalonar cedo reduz recaída e sequela cognitiva. Repetir aciclovir não tem racional: a PCR é negativa e não há lesão nova — apenas expõe a criança a nefrotoxicidade e atrasa a imunoterapia. Penicilina benzatina seria a profilaxia secundária da febre reumática e da coreia de Sydenham, diagnóstico já descartado. Manter apenas anticonvulsivante e observar é a conduta mais arriscada: a encefalite anti-NMDAR não tratada evolui para discinesias graves, disautonomia, hipoventilação central e necessidade de terapia intensiva, com mortalidade não desprezível. Pérola: as discinesias orofaciais respondem mal a antipsicóticos, que ainda podem precipitar quadro semelhante à síndrome neuroléptica maligna — prefira benzodiazepínico enquanto a imunoterapia faz efeito.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 90 — Encefalites Autoimunes e Síndromes Paraneoplásicas; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 10 — Doenças Desmielinizantes e Inflamatórias.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia / Triagem neonatal (teste do pezinho e demais triagens do SUS) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Lactente masculino, nascido a termo, vai à UBS, no 4º dia de vida, para iniciar o acompanhamento de Puericultura, conforme orientação da maternidade. A genitora refere que esse é o seu segundo filho, e que o primeiro faleceu antes de completar 3 meses de vida. Refere que essa criança era um menino, que nasceu bem, mas foi internado com 1 mês de vida, tendo falecido por uma infecção. O filho trazido hoje não teve intercorrências no parto. Apresenta sopro cardíaco grau III/VI, sem outra alteração ao exame segmentar. A mãe pergunta se o “Teste do Pezinho” pode ajudar a definir se o bebê corre algum risco.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro descrito, indique as doenças detectadas pelo chamado “Teste do Pezinho” disponibilizadas, atualmente, pelo SUS:",
+     "alternativas": {
+      "a": "Galactosemia; Deficiência de Biotinidase; Hiperplasia adrenal congênita; Toxoplasmose Congênita.",
+      "b": "Anemia falciforme; Fibrose cística; Fenilcetonúria e Hipotireoidismo congênito.",
+      "c": "Fibrose cística; Fenilcetonúria; Hipotireoidismo congênito; Deficiência de biotinidase; Galactosemia e Hiperplasia adrenal congênita.",
+      "d": "Fenilcetonúria; Hipotireoidismo congênito; Deficiência de biotinidase; Anemia falciforme; Fibrose cística e Hiperplasia adrenal congênita."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O Programa Nacional de Triagem Neonatal, na etapa consolidada e ofertada em toda a rede, rastreia SEIS grupos de doenças: fenilcetonúria e outras aminoacidopatias, hipotireoidismo congênito, doença falciforme e demais hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita e deficiência de biotinidase — exatamente o conjunto da alternativa correta. Os distratores erram por inclusão ou por omissão: a opção que traz galactosemia no lugar da anemia falciforme antecipa etapas da ampliação prevista na Lei 14.154/2021 (que escalona a triagem até 50 doenças em cinco fases, incluindo galactosemia, aminoacidopatias adicionais, doenças lisossômicas e imunodeficiências primárias), mas que ainda não estava plenamente implantada; a opção com toxoplasmose congênita confunde triagem neonatal biológica com sorologia de infecção congênita, que não faz parte do painel; e a opção com apenas quatro doenças omite biotinidase e hiperplasia adrenal congênita. Momento da coleta: idealmente entre o 3º e o 5º dia de vida, jamais antes de 48 horas de alimentação proteica (risco de falso-negativo para fenilcetonúria) e evitando ultrapassar o 30º dia. Pegadinha frequente: um resultado alterado é apenas TRIAGEM e obriga teste confirmatório, nunca diagnóstico direto.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante do quadro descrito, além do “Teste do Pezinho”, outras triagens constituem Testes de Triagem Neonatal disponibilizados pelo SUS para todos os recém-nascidos brasileiros. Entre elas encontram-se:",
+     "alternativas": {
+      "a": "Impedanciometria e Oximetria de Pulso.",
+      "b": "Emissões Otoacústicas e Eletrocardiograma.",
+      "c": "Emissões Otoacústicas e Oximetria de Pulso.",
+      "d": "Ecocardiograma e Impedanciometria."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] As triagens neonatais universais do SUS são cinco e vale memorizá-las pelo apelido: pezinho (triagem biológica), orelhinha (emissões otoacústicas evocadas), olhinho (teste do reflexo vermelho), coraçãozinho (oximetria de pulso) e linguinha (protocolo de avaliação do frênulo lingual). A alternativa correta reúne duas delas. O teste da orelhinha deve ser feito preferencialmente ainda na maternidade, até o primeiro mês de vida, e detecta perda auditiva antes que ela comprometa a aquisição de linguagem. O teste do coraçãozinho é realizado entre 24 e 48 horas de vida, com o recém-nascido em ar ambiente e com mais de 34 semanas: mede-se a saturação em membro superior direito (pré-ductal) e em qualquer membro inferior (pós-ductal), sendo considerado alterado valor abaixo de 95% em qualquer dos dois pontos ou diferença igual ou maior que 3% entre eles — situação que obriga ecocardiograma em até 24 horas. Justamente por isso o ecocardiograma é exame CONFIRMATÓRIO e não de triagem, o que elimina a última opção; eletrocardiograma e impedanciometria também não integram o rol. Neste lactente, com sopro III/VI, a oximetria ganha peso adicional na busca de cardiopatia congênita crítica dependente do canal arterial.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Diante do quadro descrito, indique a complementação diagnóstica necessária para triagem de Erros Inatos da Imunidade, no caso dessa criança, nesse momento:",
+     "alternativas": {
+      "a": "Avaliação de imunoglobulinas.",
+      "b": "Estudo do cariótipo.",
+      "c": "Quantificação de TRECs e KRECs.",
+      "d": "Quantificação/fenotipagem de linfócitos."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O antecedente de irmão falecido por infecção antes dos 3 meses é um sinal de alerta maior para erro inato da imunidade e obriga triagem no recém-nascido AINDA ASSINTOMÁTICO. A ferramenta apropriada nessa janela é a quantificação de TRECs (T-cell receptor excision circles) e KRECs (kappa-deleting recombination excision circles) no mesmo cartão de papel-filtro do teste do pezinho: os TRECs são círculos de DNA gerados na maturação tímica e refletem a produção de linfócitos T recém-emigrados, estando ausentes ou muito baixos na imunodeficiência combinada grave; os KRECs refletem a linfopoese B medular e detectam agamaglobulinemia. A dosagem de imunoglobulinas é pouco interpretável no primeiro trimestre de vida por causa da IgG materna transferida via placentária, que mascara a deficiência de produção própria — motivo pelo qual esse distrator é tentador e errado nesse momento. A fenotipagem linfocitária por citometria de fluxo é exame CONFIRMATÓRIO, indicado após triagem alterada, e não de rastreio populacional. O cariótipo investiga cromossomopatias, como a síndrome de DiGeorge por deleção 22q11 (que exigiria FISH ou MLPA, não cariótipo simples), e não rastreia imunidade. Pérola: identificar imunodeficiência combinada grave antes das infecções permite transplante de células-tronco precoce, com sobrevida acima de 90%.\n📚 Leitura sugerida (bloco): Ministério da Saúde — Manual Técnico do Programa Nacional de Triagem Neonatal e Lei 14.154/2021 (ampliação em cinco fases); complementar com a videoaula de Neonatologia do R+ Pediatria MEDGRUPO no Drive: https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Medula, Cauda Equina e Dor Lombar (mielopatia cervical espondilótica) [RE ranking unificado #2]",
+   "tier": "ALTO",
+   "vinheta": "Homem de 66 anos, marceneiro aposentado, procura o ambulatório relatando que há cerca de 18 meses vem perdendo destreza para abotoar a camisa, escrever e segurar ferramentas, deixando cair objetos com frequência. Nos últimos 6 meses passou a andar de forma insegura, com sensação de 'pisar em algodão', e sofreu duas quedas. Nega dor cervical significativa e nega dor lombar. Ao exame: força grau 4 na musculatura intrínseca das mãos, com atrofia da eminência hipotenar bilateralmente; hiperreflexia patelar e aquileia, sinal de Hoffmann bilateral, reflexo cutâneo-plantar em extensão bilateral e marcha espástico-atáxica. Sensibilidade vibratória reduzida nos hálux, com nível sensitivo mal definido. Não há disartria, disfagia nem fasciculações de língua. Hemograma, vitamina B12, TSH e sorologias para HIV, HTLV e sífilis sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro descrito, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Degeneração combinada subaguda da medula",
+      "b": "Mielopatia cervical espondilótica",
+      "c": "Esclerose lateral amiotrófica",
+      "d": "Polineuropatia sensitivo-motora desmielinizante"
+     },
+     "correta": "b",
+     "comentario": "O caso reúne a assinatura semiológica da compressão medular cervical crônica: sinais de neurônio motor inferior no nível da lesão (atrofia e fraqueza das mãos, por comprometimento de raízes e corno anterior cervicais) somados a sinais de neurônio motor superior ABAIXO dela (hiperreflexia em membros inferiores, Babinski, marcha espástica), mais comprometimento de cordão posterior (perda vibratória, marcha 'em algodão'). A ausência de dor cervical é justamente a pegadinha: a mielopatia espondilótica é frequentemente indolor, e esperar dor para pensar nela atrasa o diagnóstico. Sinal de Hoffmann bilateral em idoso com desajeitamento das mãos é achado de alto valor preditivo. A degeneração combinada subaguda produz quadro parecido (piramidal mais cordão posterior), mas exige B12 baixa ou homocisteína e ácido metilmalônico elevados — aqui a B12 é normal — e costuma cursar com parestesias distais precoces e anemia macrocítica. A esclerose lateral amiotrófica também combina neurônio motor superior e inferior, porém é PURAMENTE motora: não haveria perda vibratória nem nível sensitivo, e em geral há fasciculações difusas, inclusive de língua, ausentes neste paciente. Polineuropatia desmielinizante cursaria com arreflexia global e fraqueza distal simétrica, jamais com hiperreflexia e Babinski.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame de escolha para confirmar o diagnóstico e planejar o tratamento:",
+     "alternativas": {
+      "a": "Radiografia dinâmica da coluna cervical",
+      "b": "Tomografia computadorizada de crânio",
+      "c": "Ressonância magnética da coluna cervical",
+      "d": "Eletroneuromiografia dos quatro membros"
+     },
+     "correta": "c",
+     "comentario": "A ressonância magnética da coluna cervical é o exame que fecha o diagnóstico e orienta a cirurgia: demonstra a estenose do canal, o número de níveis acometidos, o grau de compressão medular e, sobretudo, o hipersinal intramedular em T2 — marcador de sofrimento medular associado a doença mais avançada e a menor recuperação pós-operatória. A eletroneuromiografia serve apenas para afastar diferenciais periféricos (polineuropatia, neuropatias compressivas, doença do neurônio motor) e não visualiza a compressão; pode inclusive resultar normal na mielopatia pura, o que confunde o raciocínio. A radiografia dinâmica em flexão e extensão avalia instabilidade e espondilolistese, sendo complemento pré-operatório útil, mas não mostra a medula nem o hipersinal. Tomografia de crânio está fora do alvo topográfico — o problema é cervical, entre C3 e C7, e não encefálico. Pérola: quando há contraindicação absoluta à ressonância, a alternativa é a mielotomografia. Para graduar a gravidade e apoiar a decisão terapêutica, usa-se a escala mJOA: leve com escore igual ou maior que 15, moderada entre 12 e 14 e grave igual ou menor que 11.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando a gravidade e o tempo de evolução, indique a conduta mais adequada:",
+     "alternativas": {
+      "a": "Corticoide oral em curso prolongado",
+      "b": "Infiltração epidural cervical seriada",
+      "c": "Colar cervical rígido e fisioterapia isoladamente",
+      "d": "Descompressão cirúrgica da coluna cervical"
+     },
+     "correta": "d",
+     "comentario": "Diante de mielopatia moderada a grave — aqui há atrofia das mãos, marcha espástica e quedas, portanto mJOA claramente abaixo de 15 — e de progressão documentada ao longo de meses, a recomendação das diretrizes internacionais (AOSpine e WFNS) é a descompressão cirúrgica, por via anterior, posterior ou combinada, conforme o número de níveis e o alinhamento cervical. O racional é que a mielopatia espondilótica é doença progressiva e escalonada; o objetivo primário da cirurgia é interromper a piora, e a recuperação funcional é tanto maior quanto menor o tempo de sintomas e a extensão do hipersinal em T2. Colar e fisioterapia isolados só são aceitáveis na doença LEVE e estável, com vigilância clínica próxima — mantê-los em paciente que já sofreu quedas é aceitar a progressão para tetraparesia e disfunção esfincteriana. Corticoide prolongado não tem eficácia demonstrada na compressão degenerativa, ao contrário da compressão neoplásica, e acrescenta hiperglicemia, osteoporose e imunossupressão. A infiltração epidural cervical trata dor radicular, e não estenose com sofrimento medular, além de trazer risco de lesão medular direta.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 114 — Radiculopatias e Plexopatias, complementado pelo cap. 169 — Mielopatias Metabólicas e Tóxicas (diferenciais); e Merritt, Tratado de Neurologia (13ª ed.), Seção 15 — Doenças da Medula Espinal.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Saúde Coletiva / Ética e Emergências (traumatismo craniano abusivo, síndrome do bebê sacudido) [REAL: SUS-BA R+ Pediatria 2021]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, aos 30 dias de vida, é levado à emergência com relato de que foi encontrado “desmaiado” no berço, há aproximadamente uma hora. Não há qualquer informação contributória na história. Ao exame, encontra-se hiporresponsivo, eupneico, mucosas coradas. O exame de fundo de olho mostra hemorragia retiniana bilateral. Demais dados do exame segmentar sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Frente ao caso, indique a principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Síndrome do bebê sacudido.",
+      "b": "Acidente Doméstico.",
+      "c": "Traumatismo periparto.",
+      "d": "Hemorragia intracraniana congênita."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Dois elementos fecham a suspeita: história VAGA e incompatível com a gravidade do quadro ('encontrado desmaiado', sem mecanismo relatado) e hemorragia retiniana BILATERAL em lactente muito jovem. A hemorragia retiniana bilateral, sobretudo quando extensa, multicamada e alcançando a periferia, tem altíssimo valor preditivo para traumatismo craniano abusivo, hoje o termo preferido em vez de 'síndrome do bebê sacudido'. O mecanismo é a aceleração-desaceleração rotacional repetida do crânio sobre um pescoço com musculatura frágil e cabeça proporcionalmente pesada, gerando ruptura das veias-ponte (hematoma subdural), lesão axonal difusa e tração vítreo-retiniana. Acidente doméstico é implausível em criança de 30 dias, que não se desloca sozinha, e quedas domésticas de baixa altura raramente produzem hemorragia retiniana bilateral. Traumatismo periparto poderia justificar hemorragias retinianas nos primeiros dias, mas elas se resolvem em geral em 2 a 4 semanas e não cursariam com rebaixamento súbito no 30º dia. Hemorragia intracraniana congênita — por doença hemorrágica do recém-nascido, coagulopatia ou malformação vascular — é diferencial obrigatório a investigar com coagulograma, mas não é a principal hipótese diante de história inconsistente somada ao achado ocular.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Frente ao caso, identifique o exame que melhor contribui para a elucidação diagnóstica, nesse caso:",
+     "alternativas": {
+      "a": "Ultrassonografia transfontanela.",
+      "b": "Ressonância Magnética de crânio.",
+      "c": "Radiografia de crânio.",
+      "d": "Tomografia Computadorizada de crânio e de globos oculares."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Na emergência, com lactente hiporresponsivo, o exame inicial é a tomografia sem contraste, rápida, amplamente disponível e capaz de identificar hematoma subdural agudo (inclusive inter-hemisférico e da convexidade, típicos do trauma abusivo), hemorragia subaracnóidea, edema difuso, perda da diferenciação córtico-subcortical e fraturas cranianas; ao estender o estudo aos globos oculares, documenta-se a hemorragia intraocular. A radiografia isolada de crânio só mostraria fraturas e não avalia o parênquima — embora a série óssea completa (esqueleto inteiro) seja obrigatória em toda suspeita de maus-tratos em menores de 2 anos, para buscar fraturas metafisárias em alça de balde, fraturas costais posteriores e lesões em estágios diferentes de consolidação. A ultrassonografia transfontanela, apesar de disponível e sem radiação, tem baixa sensibilidade para coleções subdurais finas, para o espaço da convexidade e para hemorragia subaracnóidea. A ressonância é o exame mais sensível para lesão axonal difusa, para datar coleções e para avaliar isquemia, sendo indicada em 48 a 72 horas como complementação — mas não é o exame de primeira hora, pela demora e pela frequente necessidade de sedação em criança instável.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Frente ao caso, identifique a alternativa que apresenta dois sinais, ou sintomas, que podem levar à suspeita da condição mais provável, nesse caso:",
+     "alternativas": {
+      "a": "Convulsões e hipertonia.",
+      "b": "Miose e sonolência.",
+      "c": "Crises de ausência e hipotonia.",
+      "d": "Rigidez e midríase."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O traumatismo craniano abusivo apresenta-se de forma inespecífica, e é justamente essa inespecificidade que faz o diagnóstico ser perdido em até um terço dos casos na primeira avaliação. As manifestações mais frequentes são crises convulsivas (presentes em cerca de metade dos casos), irritabilidade, vômitos sem diarreia, recusa alimentar, apneia, alteração do tônus — hipertonia ou hipotonia — e aumento anômalo do perímetro cefálico quando o quadro é subagudo. A dupla convulsão e hipertonia é a que melhor traduz esse espectro. Rigidez com midríase sugere herniação e comprometimento de tronco, um cenário terminal e não um sinal de suspeita precoce. Miose com sonolência aponta para intoxicação exógena, particularmente por opioides, e não para trauma. Crises de ausência são epilepsia generalizada idiopática da idade escolar, incompatíveis com um lactente de 30 dias. Do ponto de vista ético e legal, o ponto central deste bloco: confirmada ou apenas SUSPEITA a violência, a notificação ao Conselho Tutelar é obrigatória e imediata (ECA, Lei 8.069/1990, art. 13 e art. 245), independentemente de autorização dos responsáveis; a proteção da criança prevalece sobre o sigilo profissional, e a omissão configura infração ética e penal.\n📚 Leitura sugerida (bloco): Ministério da Saúde — Linha de Cuidado para a Atenção Integral à Saúde de Crianças e Adolescentes em Situação de Violência, e o Manual de Atendimento às Crianças e Adolescentes Vítimas de Violência (SBP/CFM); base legal no ECA (Lei 8.069/1990), arts. 13 e 245.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias (cefaleia em salvas episódica) [RE cota individual: Ana Teresa]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 38 anos, tabagista de 20 maços-ano, relata que há 3 semanas acorda praticamente todas as madrugadas, sempre por volta das 2 horas, com dor excruciante em região retro-orbitária direita, de intensidade 10/10, que dura de 45 a 90 minutos e o faz caminhar pela casa sem conseguir permanecer deitado. Durante as crises apresenta lacrimejamento, hiperemia conjuntival, obstrução nasal e rinorreia à direita, além de discreta queda da pálpebra do mesmo lado. Refere período idêntico de cerca de 6 semanas no ano anterior, com um ano inteiro completamente sem dor entre os dois períodos. Já utilizou sumatriptano por via oral e dipirona, sem alívio dentro da crise. Exame neurológico intercrítico normal e ressonância de crânio realizada há 4 meses sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o quadro descrito, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Hemicrania paroxística crônica",
+      "b": "Cefaleia em salvas episódica",
+      "c": "Enxaqueca sem aura",
+      "d": "Neuralgia do trigêmeo"
+     },
+     "correta": "b",
+     "comentario": "Trata-se de uma cefaleia trigeminoautonômica, grupo definido por dor unilateral em território do trigêmeo acompanhada de sinais autonômicos cranianos IPSILATERAIS. O que separa as entidades do grupo é sobretudo a DURAÇÃO e a FREQUÊNCIA das crises. Na cefaleia em salvas (ICHD-3), as crises duram de 15 a 180 minutos, ocorrem de uma vez a cada dois dias até oito vezes por dia, têm ritmo circadiano marcado — tipicamente despertam o paciente na madrugada — e agrupam-se em períodos de semanas a meses separados por remissões; quando a remissão dura pelo menos 3 meses, a forma é EPISÓDICA, exatamente como aqui, com um ano inteiro sem dor. A agitação psicomotora durante a crise é característica e contrasta com a enxaqueca, em que o paciente busca imobilidade, quarto escuro e silêncio; além disso, a enxaqueca dura de 4 a 72 horas e não cursa com sinais de Horner. A hemicrania paroxística tem crises muito mais curtas (2 a 30 minutos) e muito mais frequentes (mais de cinco por dia), com resposta absoluta à indometacina, e só seria 'crônica' na ausência de remissões. A neuralgia do trigêmeo produz paroxismos de segundos, em choque, deflagrados por gatilhos como mastigar ou tocar a face, sem lacrimejamento e rinorreia proeminentes. Pérola: ptose e miose ipsilaterais podem persistir entre as crises; tabagismo e álcool são gatilhos clássicos dentro do período de salva.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o tratamento abortivo de escolha para as crises deste paciente:",
+     "alternativas": {
+      "a": "Indometacina por via oral",
+      "b": "Oxigênio a 100% sob máscara sem reinalação, 12 a 15 L/min",
+      "c": "Morfina por via subcutânea",
+      "d": "Sumatriptano por via oral em dose dobrada"
+     },
+     "correta": "b",
+     "comentario": "O tratamento abortivo da cefaleia em salvas conta com apenas duas opções de primeira linha com evidência robusta: oxigênio a 100% em alto fluxo (12 a 15 L/min por 15 a 20 minutos, com máscara sem reinalação, paciente sentado e inclinado para a frente) e sumatriptano por via SUBCUTÂNEA na dose de 6 mg, tendo como alternativa o sumatriptano ou o zolmitriptano intranasal. A explicação é farmacocinética: a crise atinge o pico em poucos minutos e dura menos de três horas, de modo que qualquer medicação de absorção lenta chega tarde demais. Por isso aumentar a dose do sumatriptano ORAL não funciona — o paciente já demonstrou isso na prática — e ainda eleva o risco cardiovascular em tabagista pesado. A indometacina é o teste terapêutico e o tratamento da hemicrania paroxística e da hemicrania contínua, não da salva. Opioides são explicitamente desaconselhados: não abortam a crise, promovem cefaleia por uso excessivo de medicação e dependência, e mascaram a resposta ao tratamento adequado. Pérola de segurança: oxigênio domiciliar em alto fluxo exige orientação formal sobre risco de incêndio, particularmente em paciente tabagista.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o fármaco de primeira escolha para a profilaxia do período de salva e o exame exigido antes de cada aumento de dose:",
+     "alternativas": {
+      "a": "Propranolol, com espirometria",
+      "b": "Verapamil, com eletrocardiograma seriado",
+      "c": "Lítio, com dosagem isolada de TSH",
+      "d": "Carbamazepina, com hemograma seriado"
+     },
+     "correta": "b",
+     "comentario": "A profilaxia de primeira linha do período de salva é o verapamil, iniciado em torno de 240 mg/dia e titulado, se necessário, até 480 a 960 mg/dia — doses bem acima das habituais em cardiologia. Justamente por isso exige eletrocardiograma antes de iniciar e antes de cada incremento (em geral a cada 80 a 120 mg acrescentados), pelo risco de bloqueio atrioventricular e bradicardia, que pode surgir mesmo tardiamente no tratamento. Enquanto o verapamil alcança a dose eficaz, faz-se a chamada terapia de transição, com corticoide oral em curso curto (por exemplo, prednisona 60 mg/dia por 5 dias, com desmame) ou bloqueio anestésico do nervo occipital maior, capazes de abortar a salva em poucos dias. A carbamazepina é o fármaco da neuralgia do trigêmeo, e seu monitoramento clássico envolve hiponatremia e discrasias sanguíneas. O propranolol é profilático de enxaqueca, sem eficácia na salva, e é contraindicado na asma. O lítio é opção de segunda linha, sobretudo na forma crônica, mas exige litemia, função renal e função tireoidiana — TSH isolado é insuficiente. Pérola: o galcanezumabe, anticorpo anti-CGRP, está aprovado como opção adicional na forma episódica.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 39 — Cefaleias Trigeminoautonômicas; complementar com a classificação ICHD-3 (item 3.1, cefaleia em salvas) e Merritt, Tratado de Neurologia (13ª ed.), Seção 7 — Cefaleia e Síndromes Dolorosas.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição / Aleitamento materno e contraindicações infecciosas [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "ESSENCIAL",
+   "vinheta": "O aleitamento materno é considerado um fator de proteção contra a morbidade e a mortalidade infantis, da mais elevada importância. Como as doenças infecciosas e parasitárias ainda são de prevalência considerável nos diferentes continentes, se faz necessário identificar, dentre essas doenças, aquelas que impedem nutrizes acometidas de amamentar seus bebês. De acordo com a Sociedade Brasileira de Pediatria e o Ministério da Saúde, quando a nutriz apresenta doenças parasitárias, geralmente não há necessidade de suspender a amamentação uma vez que não há transmissão de parasita através do leite materno.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a parasitose que, na fase aguda, contraindica a amamentação:",
+     "alternativas": {
+      "a": "Doença de Chagas.",
+      "b": "Filariose.",
+      "c": "Leismaniose.",
+      "d": "Cisticercose."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A regra geral é a que o próprio enunciado enuncia: parasitoses maternas quase nunca contraindicam a amamentação, porque os parasitas não passam pelo leite. A exceção clássica é a doença de Chagas na FASE AGUDA, em que a parasitemia é elevada e o Trypanosoma cruzi pode ser transmitido pelo leite; a mesma conduta vale quando há sangramento evidente por fissura mamilar, em qualquer fase da doença, pela via sanguínea direta. Na fase crônica indeterminada, com parasitemia baixa e mamilos íntegros, a amamentação é permitida. Filariose linfática por Wuchereria bancrofti não é transmitida pelo leite: o ciclo depende do mosquito Culex, e a nutriz pode ser tratada e amamentar. Cisticercose resulta da ingestão de ovos de Taenia solium, com transmissão fecal-oral, sem qualquer relação com a lactação. Leishmaniose, visceral ou tegumentar, é transmitida pelo flebotomíneo e não pelo leite; a nutriz deve ser tratada, atentando-se apenas à compatibilidade do fármaco com a lactação. Vale fixar o quadro geral das contraindicações VERDADEIRAS e permanentes à amamentação no Brasil: infecção materna por HIV e por HTLV-1/2. Contraindicações temporárias incluem lesão herpética ativa na mama, varicela materna com início de 5 dias antes a 2 dias após o parto, e uso de determinados fármacos ou radiofármacos.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique, das doenças causadas por vírus, a que pode ser transmitida pelo leite materno:",
+     "alternativas": {
+      "a": "Infecção por herpes.",
+      "b": "Febre amarela.",
+      "c": "Hepatite A.",
+      "d": "Hepatite B."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A banca cobra a presença do vírus no leite, e o HBsAg e o DNA do vírus da hepatite B já foram detectados no leite materno e no colostro, o que torna a alternativa correta do ponto de vista da questão. É essencial, porém, guardar a leitura clínica completa, que costuma ser o alvo de uma segunda pergunta: hepatite B materna NÃO contraindica a amamentação. O Ministério da Saúde e a Sociedade Brasileira de Pediatria recomendam manter o aleitamento desde que o recém-nascido receba, nas primeiras 12 horas de vida, a primeira dose da vacina contra hepatite B e a imunoglobulina hiperimune anti-HBs em locais anatômicos distintos — com essa profilaxia, o risco de transmissão pelo leite é desprezível; recomenda-se apenas cuidado com fissuras mamilares sangrantes. Hepatite A tem transmissão fecal-oral e não é veiculada pelo leite; a nutriz mantém a amamentação com reforço de higiene das mãos. O vírus da febre amarela não é transmitido pelo leite na doença natural, mas há uma pegadinha correlata importante: a VACINA de febre amarela, por ser de vírus vivo atenuado, deve ser evitada em nutrizes de lactentes menores de 6 meses pelo risco de doença neurológica vacinal transmitida pelo leite. O herpes simples não passa pelo leite; a contraindicação é local e temporária, apenas na mama com lesão vesicular ativa, podendo-se amamentar na mama sadia.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Sobre amamentação e COVID-19, é correto afirmar:",
+     "alternativas": {
+      "a": "Mãe negativa para COVID-19 não deve amamentar seu bebê se este for positivo, mas pode ofertar o leite em colher.",
+      "b": "Mãe positiva para COVID-19 apenas deve continuar amamentando seu bebê se este também for positivo.",
+      "c": "Mãe positiva para COVID-19 deve continuar amamentando seu bebê, se houver condições físicas para isso.",
+      "d": "Mãe positiva para COVID-19 deve amamentar seu bebê se este for negativo, mas ofertando o leite em colher."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A recomendação consolidada da OMS, do Ministério da Saúde e da Sociedade Brasileira de Pediatria é manter o aleitamento materno mesmo com a nutriz infectada pelo SARS-CoV-2, desde que ela tenha condições clínicas para amamentar. O racional é duplo: o vírus não é transmitido de forma significativa pelo leite, e o leite materno carrega anticorpos IgA secretora específicos, especialmente na mãe vacinada ou convalescente, que protegem ativamente o lactente. As precauções recomendadas são de via respiratória e de contato: máscara cirúrgica bem ajustada durante toda a mamada, higiene das mãos antes e depois, higiene das superfícies e, quando possível, distância de cerca de um metro do berço fora dos momentos de amamentação. Se a mãe estiver clinicamente incapaz de amamentar — em ventilação mecânica, por exemplo —, orienta-se ordenha e oferta do leite por copinho ou colher, mantendo o estímulo à lactação. As demais opções condicionam a amamentação ao status sorológico do bebê, o que não tem qualquer respaldo, e a oferta em colher com mãe positiva foi expressamente desaconselhada por interromper a amamentação sem benefício demonstrado. Pérola de saúde pública: durante a pandemia, a separação mãe-bebê provocou mais dano — desmame precoce, hipoglicemia, hipotermia e prejuízo do vínculo — do que a própria infecção neonatal.\n📚 Leitura sugerida (bloco): Ministério da Saúde — Caderneta e Guia Alimentar para Crianças Menores de 2 Anos; Sociedade Brasileira de Pediatria — Documento Científico sobre Amamentação e Doenças Maternas; e o livro do Drive: Nutrição em Pediatria na Prática Clínica (Sarni, 2021) — https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Junção Neuromuscular (miastenia gravis anti-MuSK, forma bulbar)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 44 anos procura o ambulatório de neurologia com quadro de 4 meses de dificuldade progressiva para mastigar carne e engolir alimentos sólidos, voz que se torna anasalada ao final das refeições e necessidade de apoiar o queixo com a mão no fim da tarde para manter a cabeça erguida. Perdeu 6 kg no período. Nega diplopia e nega ptose, mesmo ao final do dia. Ao exame: fraqueza de músculos faciais, incapacidade de assobiar, fraqueza da língua com atrofia evidente dos seus bordos, fraqueza acentuada dos extensores cervicais e força preservada nos quatro membros; reflexos profundos normais e sensibilidade normal. Anticorpo antirreceptor de acetilcolina não reagente em duas dosagens. Tomografia de tórax sem alteração do timo. Estimulação nervosa repetitiva do nervo ulnar normal; a do nervo facial mostra decremento superior a 10%.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o padrão de acometimento e os exames já realizados, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Miastenia gravis com anticorpo anti-MuSK",
+      "b": "Síndrome miastênica de Lambert-Eaton",
+      "c": "Miastenia gravis com anticorpo antirreceptor de acetilcolina",
+      "d": "Esclerose lateral amiotrófica de início bulbar"
+     },
+     "correta": "a",
+     "comentario": "O caso desenha o fenótipo típico da miastenia associada ao anticorpo contra a tirosina-quinase músculo-específica (MuSK), que responde por 5% a 8% de todas as miastenias e por até 40% das formas soronegativas para o receptor de acetilcolina. Suas marcas são: predomínio em mulheres na quarta e quinta décadas, acometimento bulbar, facial e cervical desproporcional, com relativa poupança ocular (ptose e diplopia podem faltar, ao contrário da forma clássica, em que mais de 85% abrem o quadro pelos olhos), atrofia precoce e seletiva da língua e dos músculos faciais, e timo normal. A forma anti-AChR está afastada por duas dosagens não reagentes e por não explicar atrofia lingual precoce nem a ausência de sintoma ocular. Esclerose lateral amiotrófica de início bulbar é o grande diferencial e também cursa com disartria, disfagia e atrofia de língua, mas traria fasciculações linguais, sinais de neurônio motor superior (reflexo mandibular exaltado, labilidade emocional, hiperreflexia) e não produziria decremento à estimulação repetitiva nem flutuação clara com o esforço. A síndrome de Lambert-Eaton é paraneoplásica, predominantemente proximal de membros inferiores, com hiporreflexia que melhora após contração (facilitação pós-exercício) e disautonomia — e no teste eletrofisiológico o achado característico é o INCREMENTO após esforço, não o decremento isolado.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame que melhor confirma a hipótese diagnóstica neste caso:",
+     "alternativas": {
+      "a": "Terceira dosagem de anticorpo antirreceptor de acetilcolina",
+      "b": "Dosagem sérica de anticorpo anti-MuSK",
+      "c": "Anticorpo anticanal de cálcio voltagem-dependente",
+      "d": "Biópsia muscular do músculo deltoide"
+     },
+     "correta": "b",
+     "comentario": "Diante de miastenia clinicamente provável com anti-AChR negativo, o passo seguinte obrigatório é dosar o anti-MuSK, um anticorpo da subclasse IgG4 que bloqueia a interação entre a agrina, o LRP4 e a MuSK, desorganizando o agrupamento dos receptores de acetilcolina na membrana pós-sináptica. Repetir pela terceira vez o anti-AChR tem rendimento muito baixo depois de duas dosagens não reagentes e apenas atrasa a conduta. Biópsia muscular não faz parte da investigação de doença da junção neuromuscular: serve para miopatias inflamatórias, distrofias e miopatias metabólicas, e seria normal ou inespecífica aqui. O anticorpo anticanal de cálcio voltagem-dependente (anti-VGCC) confirma Lambert-Eaton, fenótipo já descartado pela topografia bulbar e pela ausência de facilitação. Detalhes que valem prova: quando anti-AChR e anti-MuSK são negativos, deve-se pesquisar anti-LRP4 e agrina (miastenia 'duplo-soronegativa'); a eletroneuromiografia de fibra única é o teste mais sensível (superior a 95%), e na forma anti-MuSK o estudo deve ser feito preferencialmente em músculo FACIAL, pois o estudo de membros costuma ser normal — exatamente o padrão descrito na vinheta.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica com melhor resposta descrita nesta forma da doença:",
+     "alternativas": {
+      "a": "Fingolimode",
+      "b": "Piridostigmina em dose alta",
+      "c": "Timectomia",
+      "d": "Rituximabe"
+     },
+     "correta": "d",
+     "comentario": "A miastenia anti-MuSK tem particularidades terapêuticas que a distinguem da forma anti-AChR e são cobradas com frequência. O rituximabe, anticorpo monoclonal anti-CD20, produz respostas notavelmente boas e duradouras nessa forma — muitos pacientes atingem remissão farmacológica mínima —, e por isso é indicado precocemente, em vez de ser reservado como último recurso. A timectomia NÃO é indicada de rotina: o benefício demonstrado é para a miastenia anti-AChR generalizada de início precoce e para os casos com timoma, e nesses pacientes o timo costuma ser histologicamente normal, como na tomografia descrita. A piridostigmina, longe de ser eficaz, é frequentemente mal tolerada nessa forma: a resposta é pobre e há sensibilidade aumentada a efeitos colinérgicos, com cólicas, fasciculações e até piora da fraqueza, de modo que aumentar a dose é conduta errada e potencialmente perigosa. O fingolimode é um modulador de receptor de esfingosina-1-fosfato usado em esclerose múltipla, sem qualquer papel na junção neuromuscular. Nas exacerbações agudas dessa forma, a plasmaférese costuma ser superior à imunoglobulina endovenosa — outra pegadinha frequente.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 110 — Miastenia Grave Adquirida; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 12 — Doenças Neuromusculares, e o PCDT do Ministério da Saúde para Miastenia Gravis.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas respiratórias (pneumonia lobar pneumocócica na adolescente asmática) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 14 anos de idade, previamente diagnosticada com asma, controlada com corticoide inalatório, apresenta tosse produtiva persistente há quatro dias, febre com picos de 38,6 ºC e calafrios nas últimas 48 horas. Relata dor torácica pleurítica e diminuição do apetite. Faz uso crônico de sulfato ferroso devido à anemia ferropriva e pantoprazol, para tratamento de refluxo gastroesofágico, diagnosticado há 6 meses. No exame físico, encontra-se hipoativa, com taquipneia e saturação periférica a 92% em ar ambiente. A ausculta pulmonar evidencia redução do murmúrio vesicular e estertores crepitantes em lobo superior direito, além de alguns sibilos expiratórios. Radiografia de tórax, já realizada, mostra consolidação no lobo superior direito com presença de broncograma aéreo.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando os achados clínicos e radiológicos, indique o diagnóstico mais provável para esta paciente e a etiologia mais comum, associada ao quadro clínico:",
+     "alternativas": {
+      "a": "Bronquiolite viral, por Vírus Sincicial respiratório.",
+      "b": "Tuberculose pulmonar, por Mycobacterium tuberculosis.",
+      "c": "Broncopneumonia bacteriana atípica, por Mycoplasma pneumoniae.",
+      "d": "Pneumonia lobar bacteriana, por Streptococcus pneumoniae."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O conjunto febre alta com calafrios, início relativamente abrupto, dor pleurítica, tosse produtiva e, sobretudo, consolidação LOBAR com broncograma aéreo em radiografia define pneumonia bacteriana típica, cujo agente mais frequente em todas as faixas etárias pediátricas fora do período neonatal permanece o Streptococcus pneumoniae, mesmo na era pós-vacina conjugada. Mycoplasma pneumoniae é importante em escolares e adolescentes, porém produz a chamada pneumonia atípica ou 'caminhante': início arrastado, tosse seca persistente, sintomas extrapulmonares (cefaleia, mialgia, exantema, miringite bolhosa) e padrão radiológico intersticial ou peri-hilar difuso, tipicamente desproporcional ao exame físico — não consolidação lobar densa com calafrios. Tuberculose pulmonar tem curso de semanas a meses, com febre vespertina, sudorese noturna, emagrecimento e, no adolescente, cavitação ou infiltrado apical; quatro dias de evolução não a sustentam. Bronquiolite viral por vírus sincicial respiratório é doença de lactentes menores de 2 anos, com sibilância difusa e hiperinsuflação, jamais consolidação lobar em adolescente. Pérola: a presença de sibilos não afasta pneumonia bacteriana em asmática — o broncoespasmo é reativo à inflamação.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante do quadro, indique o significado da presença de broncograma aéreo na radiografia de tórax:",
+     "alternativas": {
+      "a": "Hiperinsuflação pulmonar.",
+      "b": "Ocupação do espaço alveolar com líquido.",
+      "c": "Processo inflamatório Intersticial.",
+      "d": "Atelectasia por obstrução brônquica."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O broncograma aéreo é a visualização da coluna de ar dentro dos brônquios contra um fundo radiopaco. Normalmente os brônquios são invisíveis na radiografia porque contêm ar e estão cercados por alvéolos também aerados, com a mesma densidade. Quando os alvéolos ao redor são preenchidos por exsudato inflamatório, sangue, edema ou células — como no exsudato purulento da pneumonia pneumocócica —, o parênquima ganha densidade de partes moles e o ar remanescente na árvore brônquica passa a se destacar como ramificações escuras. Logo, o sinal significa doença de ESPAÇO AÉREO ALVEOLAR com brônquio PÉRVIO. Hiperinsuflação produz o oposto: aumento da transparência, retificação de arcos costais e rebaixamento diafragmático, achado de bronquiolite e de crise asmática. Processo intersticial gera espessamento peribroncovascular, opacidades reticulares e linhas B de Kerley, sem consolidação homogênea, e não gera broncograma. Atelectasia por obstrução brônquica é o distrator mais capcioso: ela também produz opacidade, mas o brônquio está OBSTRUÍDO, e por isso o broncograma tipicamente desaparece; além disso há perda de volume, com desvio de mediastino e das cisuras para o lado acometido, o que não ocorre na consolidação pneumônica.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Identifique o fator de risco adicional que pode ter contribuído para o quadro atual:",
+     "alternativas": {
+      "a": "Exposição ao sulfato ferroso.",
+      "b": "Anemia ferropriva.",
+      "c": "Uso crônico de corticoide inalatório.",
+      "d": "Histórico de refluxo gastroesofágico."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Entre os antecedentes oferecidos, o refluxo gastroesofágico é o que tem relação causal estabelecida com pneumonia: microaspirações repetidas de conteúdo gástrico levam material orofaríngeo colonizado à via aérea inferior, comprometem o clearance mucociliar e criam substrato para infecção — mecanismo especialmente relevante em asmáticos, nos quais refluxo e asma se retroalimentam. Há ainda um agravante farmacológico que a banca cobra de forma implícita: o uso crônico de inibidor de bomba de prótons, como o pantoprazol, eleva o pH gástrico, favorece colonização bacteriana do estômago e está associado a aumento do risco de pneumonia adquirida na comunidade. Anemia ferropriva pode acompanhar maior morbidade infecciosa geral, mas não é fator de risco direto e específico para pneumonia lobar. Corticoide inalatório em dose baixa a moderada é o pilar do controle da asma e, embora se associe a candidíase oral e disfonia locais, não aumenta de forma clinicamente relevante o risco de pneumonia comunitária em crianças — a associação descrita em adultos refere-se sobretudo à DPOC com doses altas. Sulfato ferroso não guarda relação com risco pneumônico. Conduta prática: amoxicilina é a primeira escolha ambulatorial; com saturação de 92%, hipoatividade e taquipneia, esta paciente exige oxigenoterapia e reavaliação para internação.\n📚 Leitura sugerida (bloco): Sociedade Brasileira de Pediatria — Diretrizes de Pneumonia Adquirida na Comunidade em Pediatria, e o AIDPI/Ministério da Saúde para classificação de gravidade; complementar com a videoaula de Infecções respiratórias do R+ Pediatria MEDGRUPO no Drive: https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença do Neurônio Motor / diagnóstico diferencial (neuropatia motora multifocal com bloqueio de condução)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 47 anos, engenheiro, relata há 2 anos fraqueza lentamente progressiva e nitidamente assimétrica, iniciada pela dificuldade em estender os dedos da mão direita, que passou a 'cair', e depois pela perda de força no punho esquerdo. Refere cãibras e contrações musculares visíveis sob a pele. Ao exame: fraqueza grau 2 na extensão dos dedos e do punho à direita, com atrofia do compartimento extensor do antebraço, mas força preservada na flexão dos mesmos dedos e na abdução do ombro; fraqueza grau 4 na extensão do punho esquerdo. Reflexos profundos normais nos membros superiores e nos inferiores, sem sinal de Hoffmann e com reflexo cutâneo-plantar em flexão bilateralmente. Sensibilidade tátil, dolorosa e vibratória inteiramente normais. Não há disartria, disfagia nem fasciculações de língua.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro descrito, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Atrofia muscular espinhal do adulto",
+      "b": "Neuropatia motora multifocal com bloqueio de condução",
+      "c": "Esclerose lateral amiotrófica",
+      "d": "Radiculopatia compressiva de C7 à direita"
+     },
+     "correta": "b",
+     "comentario": "Este é o mimetizador tratável da doença do neurônio motor que toda banca gosta de cobrar. Os elementos que apontam para a neuropatia motora multifocal são: déficit puramente motor, marcadamente assimétrico, de predomínio em membros superiores e distal, com evolução muito lenta ao longo de anos, em homem de meia-idade; distribuição por TRONCO NERVOSO e não por miótomo ou por músculo (aqui, padrão de nervo radial e interósseo posterior, com extensores fracos e flexores dos mesmos dedos preservados); ausência total de sinais de neurônio motor superior; e ausência de acometimento sensitivo e bulbar. A esclerose lateral amiotrófica é o distrator principal, mas exigiria coexistência de sinais de neurônio motor superior (hiperreflexia, Babinski, espasticidade), o que aqui não há, e sua evolução em dois anos costuma trazer acometimento bulbar ou respiratório. A atrofia muscular espinhal do adulto é geralmente simétrica e de predomínio proximal, com progressão muito lenta e história familiar frequente. Radiculopatia de C7 compressiva causaria dor cervical irradiada, hipoestesia no dermátomo correspondente e reflexo tricipital deprimido, além de não explicar o acometimento do punho contralateral. Pérola: fasciculações e cãibras aparecem nas duas doenças e NÃO ajudam a diferenciar.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o achado complementar que sustenta a hipótese diagnóstica levantada:",
+     "alternativas": {
+      "a": "Bloqueio de condução motora fora de sítios habituais de compressão",
+      "b": "Denervação difusa em três segmentos com potenciais de fasciculação",
+      "c": "Dissociação albuminocitológica no líquor",
+      "d": "Decremento da amplitude à estimulação nervosa repetitiva"
+     },
+     "correta": "a",
+     "comentario": "O achado definidor é eletrofisiológico: bloqueio parcial de condução MOTORA persistente, demonstrado em segmentos que não correspondem a locais típicos de aprisionamento (isto é, fora do túnel do carpo, do canal cubital ou da goteira radial), com condução SENSITIVA preservada através do mesmo segmento — dissociação que é a assinatura da doença. Denervação difusa em três ou mais segmentos com fasciculações é justamente o critério eletrofisiológico de El Escorial/Awaji para esclerose lateral amiotrófica, ou seja, apontaria para o diagnóstico oposto. Decremento à estimulação repetitiva indica doença da junção neuromuscular (miastenia), incompatível com a evolução de anos, a assimetria fixa e a atrofia focal. Dissociação albuminocitológica é típica da síndrome de Guillain-Barré e da polirradiculoneuropatia desmielinizante inflamatória crônica; na neuropatia motora multifocal a proteína liquórica costuma ser normal ou apenas discretamente elevada, e uma proteinorraquia muito alta deve fazer repensar o diagnóstico. Complemento útil: o anticorpo anti-GM1 IgM é positivo em cerca de metade dos pacientes — sua ausência não exclui, e sua presença reforça. A ressonância de plexo braquial pode mostrar hipertrofia e hipersinal em T2 dos troncos acometidos.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o tratamento de primeira linha para a condição diagnosticada:",
+     "alternativas": {
+      "a": "Prednisona em dose imunossupressora",
+      "b": "Imunoglobulina humana endovenosa",
+      "c": "Piridostigmina",
+      "d": "Riluzol"
+     },
+     "correta": "b",
+     "comentario": "A imunoglobulina humana endovenosa é o único tratamento com eficácia consistentemente demonstrada na neuropatia motora multifocal, tipicamente em dose de ataque de 2 g/kg divididos em 2 a 5 dias, seguida de infusões de manutenção a cada 2 a 6 semanas ajustadas pela resposta; muitos pacientes precisam de terapia crônica, e a imunoglobulina subcutânea é alternativa domiciliar. Riluzol é a droga modificadora da esclerose lateral amiotrófica, com ganho de sobrevida modesto, e nenhum papel aqui — prescrevê-lo significaria ter fechado o diagnóstico errado, com enorme custo prognóstico para um paciente que tem doença tratável. A grande pegadinha é a prednisona: corticoide e plasmaférese, eficazes na polirradiculoneuropatia desmielinizante inflamatória crônica, podem PIORAR a neuropatia motora multifocal e estão formalmente desaconselhados. Piridostigmina trata miastenia e não altera bloqueio de condução em nervo periférico. Pérola prognóstica: quanto mais precoce a imunoglobulina, maior a chance de recuperação, porque a degeneração axonal secundária que se instala ao longo dos anos é irreversível.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 112 — Abordagem Clínica das Neuropatias Periféricas e cap. 108 — Esclerose Lateral Amiotrófica (para o contraste diagnóstico); complementar com Merritt (13ª ed.), Seção 12 — Doenças Neuromusculares.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências / Gastroenterologia (avaliação da dor no lactente e dor abdominal funcional) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 18 meses de vida, é atendida na UPA por apresentar choro frequente, irritação e inquietude há, aproximadamente, dois dias, quando normalmente é muito tranquila. A mãe refere que a menor está mais irritadiça, chorando muito, sem motivo aparente; reduziu o apetite e não tem dormido bem à noite. Nega febre, alterações respiratórias, vômitos, diarreia. Ao exame, não há alterações à inspeção. A criança toca, frequentemente, a região abdominal, mas não há reação compatível com dor à palpação.",
+   "perguntas": [
+    {
+     "enunciado": "De acordo com o caso clínico, indique a escala de avaliação de dor mais apropriada para medir a intensidade da dor nessa criança de 18 meses:",
+     "alternativas": {
+      "a": "FLACC (Face, Legs, Activity, Cry, Consolability).",
+      "b": "Escala numérica (0-10).",
+      "c": "Escala Visual Analógica.",
+      "d": "Escala de Faces de Wong-Baker."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A escolha da escala de dor depende essencialmente da capacidade de AUTORRELATO da criança. Aos 18 meses não há autorrelato confiável, de modo que a avaliação precisa ser comportamental, feita pelo observador. A escala FLACC pontua de 0 a 2 cada um de cinco domínios — expressão facial, posição das pernas, atividade, choro e consolabilidade —, gerando escore de 0 a 10, e é validada para crianças de 2 meses a 7 anos, além de ser útil em pacientes não verbais de qualquer idade. A escala numérica de 0 a 10 exige pensamento abstrato e correspondência entre número e magnitude, aplicável a partir de cerca de 8 anos. A Escala Visual Analógica, com a linha de 10 cm, também depende de abstração e é usada em escolares maiores e adolescentes. A escala de Faces de Wong-Baker é o distrator mais atraente, porque 'tem desenhos', mas ainda assim exige que a criança escolha a face que representa seu estado, sendo validada a partir dos 3 anos. Outras opções conforme a faixa: NIPS e PIPP para neonatos, N-PASS em UTI neonatal, e a escala r-FLACC adaptada para crianças com deficiência cognitiva. Pérola de prova: dor não avaliada é dor não tratada — a mensuração deve ser registrada como quinto sinal vital.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Entre as causas comuns de dor abdominal em crianças, nessa faixa etária, a mais frequente é:",
+     "alternativas": {
+      "a": "Obstipação intestinal.",
+      "b": "Cólica renal.",
+      "c": "Apendicite aguda.",
+      "d": "Intussuscepção."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A constipação funcional é, com folga, a causa mais comum de dor abdominal recorrente e de irritabilidade inexplicada em lactentes e pré-escolares, respondendo por até 5% das consultas pediátricas gerais e por parcela expressiva dos atendimentos de urgência por dor abdominal. Nesta faixa, os gatilhos clássicos são o desmame e a mudança da dieta, a retirada das fraldas e o treinamento esfincteriano coercitivo, e a retenção voluntária após uma evacuação dolorosa — instala-se um ciclo de fezes endurecidas, dor, retenção e mais endurecimento. Os critérios de Roma IV para constipação funcional em menores de 4 anos exigem pelo menos dois dos seguintes por um mês: duas ou menos evacuações por semana, história de retenção excessiva, evacuações dolorosas ou endurecidas, fezes de grande diâmetro e massa fecal palpável no reto ou no abdome. Apendicite aguda é rara antes dos 5 anos (menos de 5% dos casos) e, quando ocorre, é grave e perfura precocemente, mas cursaria com febre, vômitos e defesa abdominal — que aqui inexistem. Intussuscepção tem pico entre 3 e 12 meses e produz dor em CRISES intensas com palidez, vômito bilioso e fezes em geleia de framboesa, quadro dramático e episódico, não uma irritabilidade arrastada de dois dias. Cólica renal por litíase é excepcional nessa idade.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Identifique o exame inicial mais apropriado para auxiliar no diagnóstico do caso:",
+     "alternativas": {
+      "a": "Ultrassonografia de abdome total.",
+      "b": "Radiografia simples de abdome.",
+      "c": "Tomografia computadorizada de abdome.",
+      "d": "Raio-X do tórax."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Diante de dor abdominal inexplicada em criança pequena, quando se decide investigar por imagem, a ultrassonografia abdominal é o exame inicial de escolha: não usa radiação ionizante, é amplamente disponível, pode ser repetida à beira do leito e avalia simultaneamente as principais causas orgânicas dessa faixa etária — intussuscepção (com o sinal do alvo ou do pseudorrim), apendicite, massas como tumor de Wilms e neuroblastoma, torção de ovário, hidronefrose, litíase e ainda permite estimar carga fecal retal. A radiografia simples de abdome é frequentemente pedida na prática para 'ver fezes', mas as diretrizes ESPGHAN e NASPGHAN desaconselham seu uso rotineiro para diagnosticar constipação, que é clínico, e ela irradia sem acrescentar informação decisiva. A radiografia de tórax não faz sentido sem sintomas respiratórios, embora valha lembrar que pneumonia de base pode simular abdome agudo em criança febril. A tomografia expõe a criança a dose de radiação significativa em órgãos em desenvolvimento e fica reservada aos casos em que a ultrassonografia é inconclusiva e a suspeita clínica de complicação persiste. Conduta neste caso: reavaliar história alimentar, toque retal quando indicado, orientar dieta com fibras e líquidos, desimpactação com polietilenoglicol se necessário e manutenção prolongada com apoio comportamental.\n📚 Leitura sugerida (bloco): Sociedade Brasileira de Pediatria — Guia Prático de Atualização sobre Constipação Intestinal na Infância e Adolescência (critérios de Roma IV) e o Documento Científico sobre Avaliação e Tratamento da Dor em Pediatria; complementar com a videoaula de Gastroenterologia do R+ Pediatria MEDGRUPO no Drive: https://drive.google.com/file/d/1rIrgkiZ_nqlMcMBeZ6RLspQk90rW_S3w/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (doença de Ménière)",
+   "tier": "ALTO",
+   "vinheta": "Mulher de 51 anos relata, há 8 meses, episódios recorrentes de vertigem rotatória intensa que se instalam em minutos e duram de 2 a 4 horas, acompanhados de náuseas e vômitos, obrigando-a a deitar-se. Antes e durante as crises percebe zumbido grave e sensação de 'ouvido cheio' à esquerda. Entre os episódios fica assintomática, mas notou que a audição do lado esquerdo vem piorando ao longo dos meses. Nega cefaleia, fotofobia, déficit motor, diplopia ou disartria. Não relaciona as crises a mudanças de posição da cabeça na cama. Exame neurológico intercrítico normal, otoscopia normal, sem sinais meníngeos. A audiometria tonal mostra perda auditiva neurossensorial de 40 dB nas frequências de 250, 500 e 1000 Hz à esquerda, com frequências agudas preservadas.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o padrão temporal e os sintomas associados, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Doença de Ménière",
+      "b": "Vertigem posicional paroxística benigna",
+      "c": "Neurite vestibular",
+      "d": "Migrânea vestibular"
+     },
+     "correta": "a",
+     "comentario": "A abordagem moderna da tontura parte do padrão TEMPORAL, e não da qualidade descrita pelo paciente. Aqui temos uma síndrome vestibular EPISÓDICA espontânea (crises que começam sem gatilho e cessam completamente), com duração de horas, associada a sintomas auditivos unilaterais flutuantes — zumbido, plenitude aural e hipoacusia progressiva. Essa tríade define a doença de Ménière, cujo substrato é a hidropsia endolinfática do labirinto membranoso. A vertigem posicional paroxística benigna é episódica, porém DESENCADEADA por movimento da cabeça, dura segundos a poucos minutos e jamais cursa com perda auditiva — a própria paciente nega relação com mudanças de posição. A neurite vestibular é uma síndrome vestibular AGUDA CONTÍNUA: instala-se uma única vez, dura dias, melhora gradualmente por compensação central e, por definição, poupa a audição (quando há hipoacusia associada, fala-se em labirintite). A migrânea vestibular também dá crises de horas e é o diferencial mais difícil, mas exige história de enxaqueca e sintomas migranosos durante as crises (cefaleia, fotofobia, fonofobia, aura visual), todos negados, e caracteristicamente NÃO produz hipoacusia neurossensorial progressiva documentada em audiometria.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o achado exigido para o diagnóstico definitivo desta condição:",
+     "alternativas": {
+      "a": "Lesão desmielinizante do tronco encefálico na ressonância",
+      "b": "Nistagmo de posicionamento na manobra de Dix-Hallpike",
+      "c": "Teste de impulso cefálico positivo à esquerda",
+      "d": "Perda auditiva neurossensorial documentada em baixas e médias frequências"
+     },
+     "correta": "d",
+     "comentario": "Os critérios da Bárány Society e da Academia Americana de Otorrinolaringologia exigem, para a doença de Ménière DEFINIDA: pelo menos dois episódios espontâneos de vertigem com duração entre 20 minutos e 12 horas; perda auditiva neurossensorial de baixa a média frequência DOCUMENTADA POR AUDIOMETRIA no ouvido afetado em ao menos uma ocasião antes, durante ou depois de um episódio; sintomas auditivos flutuantes (zumbido ou plenitude) no ouvido afetado; e ausência de melhor explicação por outro diagnóstico vestibular. A audiometria é, portanto, o exame que carimba o diagnóstico — o padrão ascendente, com perda nos graves, é bastante característico e diferencia da presbiacusia, que acomete os agudos. O nistagmo de posicionamento na manobra de Dix-Hallpike define a vertigem posicional paroxística benigna de canal posterior. O teste de impulso cefálico positivo indica hipofunção vestibular periférica e é o pilar do HINTS na síndrome vestibular aguda, útil para separar neurite de AVC, mas não define Ménière. Lesão desmielinizante de tronco apontaria para esclerose múltipla, que não causaria plenitude aural nem perda auditiva flutuante. Pérola: a eletrococleografia e a ressonância com gadolínio intratimpânico podem demonstrar a hidropsia, mas não são exigidas pelos critérios.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a medida de primeira linha para reduzir a frequência das crises:",
+     "alternativas": {
+      "a": "Manobra de reposicionamento de Epley",
+      "b": "Corticoide oral em curso de três semanas",
+      "c": "Uso contínuo de dimenidrinato",
+      "d": "Restrição de sódio associada a diurético"
+     },
+     "correta": "d",
+     "comentario": "O manejo profilático inicial da doença de Ménière é comportamental e farmacológico leve: restrição de sódio (habitualmente abaixo de 1,5 a 2 g de sódio por dia), redução de cafeína, álcool e tabaco, e diurético — tiazídico isolado ou associado a poupador de potássio, ou acetazolamida —, com o objetivo de reduzir a pressão endolinfática. A betaistina é amplamente usada no Brasil e na Europa nesse mesmo degrau, embora a evidência seja heterogênea. Se as crises persistirem, escalona-se para injeção intratimpânica de corticoide e, em casos refratários com audição já perdida, gentamicina intratimpânica (ablação química) ou cirurgia do saco endolinfático. A manobra de Epley é o tratamento da vertigem posicional paroxística benigna de canal posterior e não tem efeito sobre a hidropsia. Corticoide oral por três semanas é conduta de surto de neurite vestibular ou de perda auditiva súbita, não profilaxia. Manter dimenidrinato de forma contínua é erro relevante: supressores vestibulares servem apenas para o alívio sintomático das primeiras 48 a 72 horas da crise, e o uso prolongado atrasa a compensação vestibular central e piora o equilíbrio a longo prazo, sobretudo em idosos.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 136 — Vertigem Recorrente (complementar com o cap. 20 — Tonturas e Vertigem, semiologia); e Merritt, Tratado de Neurologia (13ª ed.), Seção 2 — Tontura, Vertigem e Perda Auditiva.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Cardiologia (miocardite aguda no escolar) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "MÉDIO",
+   "vinheta": "Menino, 7 anos de idade, foi internado para investigação e tratamento no hospital universitário, com quadro de dor abdominal, febre, taquicardia e “falta de ar” progressiva, que vem evoluindo há, aproximadamente, 8 dias, sem resposta satisfatória à condução ambulatorial. Sem antecedentes patológicos importantes; há 2 a 3 semanas apresentou febre alta, dor de garganta e odinofagia, tendo utilizado Azitromicina por 3 dias. Cartão de imunização completo. Ao exame: Peso: 22 kg; FC: 95 bpm; FR: 34 ipm; PA: 110x70 mmHg. Regular estado geral, ativo, hidratado, eupneico, afebril, hipocorado +/IV. Aparelho Cardiovascular: precórdio ativo, bulhas normofonéticas, em 3 tempos, com presença de B3 e galope; sem sopros. Pulsos periféricos rítmicos, simétricos, finos. Campos pulmonares apresentam murmúrio vesicular bem distribuído, com crépitos esparsos audíveis em bases. Abdome plano, flácido, com fígado palpável a 2 cm do rebordo costal direito; sem esplenomegalia. Ruídos hidroaéreos presentes, normais. Extremidades acianóticas. Exames complementares: PCR 32 mg/L; troponina 8 ng/mL (VN até 0,1 ng/mL); CK-MB normal. Ecocardiograma mostra discreta dilatação de VE.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o principal método para confirmação da suspeita diagnóstica do quadro cardiológico, em qualquer fase da doença, considerando especialmente esse caso:",
+     "alternativas": {
+      "a": "Cintilografia miocárdica.",
+      "b": "Ressonância magnética.",
+      "c": "Tomografia computadorizada.",
+      "d": "Biópsia endomiocárdica."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O quadro é de miocardite aguda: pródromo infeccioso duas a três semanas antes, evolução com insuficiência cardíaca (B3 e ritmo de galope, taquipneia, crépitos, hepatomegalia, pulsos finos), elevação marcante de troponina com CK-MB normal — dissociação típica de lesão miocárdica inflamatória e não isquêmica — e dilatação incipiente de ventrículo esquerdo ao ecocardiograma. A ressonância magnética cardíaca é hoje o método não invasivo de referência, capaz de confirmar o diagnóstico em qualquer fase da doença por meio dos critérios de Lake Louise atualizados: edema miocárdico em T2, hiperemia e realce precoce, e realce tardio pelo gadolínio em padrão subepicárdico ou mesocárdico, tipicamente na parede inferolateral, poupando o subendocárdio — o que a distingue do infarto. Mapeamentos T1 e T2 aumentaram ainda mais a acurácia. A biópsia endomiocárdica é o padrão-ouro HISTOLÓGICO e permanece imprescindível quando se suspeita de miocardite de células gigantes, eosinofílica ou de rejeição de transplante, mas é invasiva, tem risco de perfuração e sofre erro de amostragem por acometimento focal, sendo por isso reservada a casos selecionados e fulminantes. Cintilografia com gálio ou anticorpos antimiosina é pouco específica e caiu em desuso. Tomografia serve para excluir coronariopatia em adultos, sem papel diagnóstico aqui.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Em relação a esse caso, a indicação de internação deve-se, principalmente, à necessidade de:",
+     "alternativas": {
+      "a": "Utilizar imunoglobulina endovenosa.",
+      "b": "Repor cálcio e usar vasopressores.",
+      "c": "Monitorizar e avaliar suporte cardiorrespiratório.",
+      "d": "Utilizar corticoterapia endovenosa."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O eixo do tratamento da miocardite aguda é o SUPORTE, não a imunomodulação. Interna-se para monitorização eletrocardiográfica contínua, porque a miocardite é causa clássica de arritmias potencialmente fatais — taquicardia ventricular, bloqueio atrioventricular avançado e morte súbita —, e para vigilância hemodinâmica, já que a deterioração pode ser abrupta, exigindo inotrópico, ventilação não invasiva ou até suporte circulatório mecânico com ECMO em casos fulminantes. A terapia farmacológica é a da insuficiência cardíaca: diurético, inibidor da enzima conversora e, com o paciente compensado, betabloqueador; repouso e restrição de atividade física por 3 a 6 meses são obrigatórios, pois o esforço aumenta a replicação viral e a necrose miocárdica. Corticoide não tem benefício comprovado na miocardite viral aguda e pode ser deletério na fase de replicação, ficando restrito às formas autoimunes, à de células gigantes e à eosinofílica. Imunoglobulina endovenosa é usada com evidência sólida na doença de Kawasaki e na síndrome inflamatória multissistêmica pediátrica, mas na miocardite viral isolada o benefício permanece controverso. Reposição de cálcio e vasopressores não são indicações rotineiras de internação; vasopressor entraria apenas no choque cardiogênico instalado, cenário que este paciente ainda não apresenta.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a droga inotrópica de escolha a ser usada, quando necessária, em crianças que se encontrem conforme descrito no caso:",
+     "alternativas": {
+      "a": "Dopamina.",
+      "b": "Amiodarona.",
+      "c": "Digoxina.",
+      "d": "Milrinona."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A milrinona, inibidora da fosfodiesterase III, é o inotrópico preferido na miocardite pediátrica com disfunção ventricular. Seu perfil de inodilatador é ideal nesse contexto: aumenta o AMP cíclico intracelular elevando a contratilidade e, simultaneamente, reduz a pós-carga sistêmica e a resistência vascular pulmonar, melhorando o débito cardíaco sem o aumento expressivo do consumo miocárdico de oxigênio nem o efeito arritmogênico das catecolaminas — vantagem decisiva em um miocárdio inflamado e eletricamente instável. Além disso, por não depender de receptores beta-adrenérgicos, mantém eficácia mesmo com a dessensibilização de receptores que ocorre na insuficiência cardíaca. A digoxina exige cautela redobrada na miocardite: o miocárdio inflamado é mais sensível à intoxicação digitálica e ao efeito arritmogênico, de modo que, quando usada, deve ser em doses reduzidas — não é a escolha inicial. A dopamina é catecolamina, com efeito cronotrópico e arritmogênico dose-dependente e aumento do consumo de oxigênio, sendo preterida; quando se opta por catecolamina, a dobutamina costuma ser preferida à dopamina. A amiodarona é antiarrítmico, não inotrópico, e tem efeito inotrópico NEGATIVO — indicada apenas se surgir taquiarritmia ventricular. Pérola: monitorar hipotensão com a milrinona, sobretudo em hipovolêmicos, e ajustar a dose na disfunção renal.\n📚 Leitura sugerida (bloco): Sociedade Brasileira de Cardiologia — Diretriz Brasileira de Miocardites e Pericardites, e a Diretriz de Insuficiência Cardíaca em Pediatria; complementar com a videoaula de Emergências cardiovasculares do R+ Pediatria MEDGRUPO no Drive: https://drive.google.com/file/d/1s9h8yPDKpLT3xkUBHjHEUXMzfjHdeICR/view",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtornos do Movimento (distonia cervical idiopática)",
+   "tier": "MÉDIO",
+   "vinheta": "Mulher de 43 anos, bancária, procura atendimento por desvio involuntário e sustentado da cabeça para a direita, com rotação associada a leve inclinação lateral, iniciado há 2 anos de forma insidiosa e progressiva, acompanhado de dor contínua na musculatura cervical. Relata que o desvio melhora de forma transitória e imediata quando encosta a ponta dos dedos no próprio queixo, e que piora em situações de estresse, ao caminhar e ao final do expediente. Desaparece durante o sono. Nega uso atual ou pregresso de antipsicóticos, metoclopramida ou flunarizina, e nega trauma cervical. Ao exame: ausência de tremor de repouso, bradicinesia, rigidez em roda denteada ou déficit piramidal; força e sensibilidade normais; hipertrofia visível do músculo esternocleidomastóideo esquerdo e da musculatura paravertebral cervical direita.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro descrito, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Distonia cervical idiopática",
+      "b": "Distonia tardia por bloqueador dopaminérgico",
+      "c": "Torcicolo muscular congênito",
+      "d": "Espasmo hemifacial"
+     },
+     "correta": "a",
+     "comentario": "A distonia cervical, também chamada torcicolo espasmódico, é a distonia focal mais comum do adulto, com pico entre a quarta e a sexta décadas e discreto predomínio no sexo feminino. Caracteriza-se por contrações musculares involuntárias sustentadas ou intermitentes que produzem posturas anômalas e movimentos repetitivos, aqui na forma mista de torcicolo com laterocolis. Elementos que confirmam a natureza distônica: melhora com o truque sensitivo, piora com estresse e com atividade motora, desaparecimento durante o sono, dor cervical associada (presente em até 75% dos casos, bem mais do que em outras distonias focais) e hipertrofia dos músculos cronicamente contraídos. A distonia tardia é a hipótese que sempre precisa ser afastada, mas depende de exposição prévia a bloqueadores dopaminérgicos — antipsicóticos, metoclopramida, flunarizina, cinarizina —, explicitamente negada; costuma ainda ser mais generalizada, com estereotipias orofaciais. O espasmo hemifacial acomete a musculatura inervada pelo nervo facial, com contrações clônicas periorbitárias, e não desloca a cabeça. O torcicolo muscular congênito manifesta-se nas primeiras semanas de vida, por fibrose do esternocleidomastóideo, com 'tumor' palpável e assimetria craniofacial — jamais se inicia aos 41 anos.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a denominação do fenômeno relatado pela paciente ao encostar os dedos no próprio queixo:",
+     "alternativas": {
+      "a": "Fenômeno de Uhthoff",
+      "b": "Sinal de Lhermitte",
+      "c": "Truque sensitivo (gesto antagonista)",
+      "d": "Fenômeno de congelamento da marcha"
+     },
+     "correta": "c",
+     "comentario": "O truque sensitivo, ou gesto antagonista, é a melhora transitória da postura distônica com um estímulo tátil leve aplicado próximo à região afetada — tocar o queixo, a face ou a nuca. É um achado semiológico de altíssimo valor, praticamente patognomônico de distonia, e seu mecanismo envolve modulação sensório-motora cortical, com reorganização da integração aferente nos circuitos dos gânglios da base e do córtex sensitivo primário. Reconhecê-lo evita dois erros frequentes: rotular o paciente como funcional (porque o desvio 'some quando ele quer') e submetê-lo a investigações ortopédicas desnecessárias. O fenômeno de Uhthoff é a piora transitória de sintomas neurológicos com o aumento da temperatura corporal, típico da esclerose múltipla, por bloqueio de condução em axônios desmielinizados. O sinal de Lhermitte é a sensação de choque descendente pela coluna à flexão do pescoço, indicando lesão de cordão posterior cervical (esclerose múltipla, deficiência de B12, mielopatia por radiação ou espondilótica). O congelamento da marcha é o bloqueio motor súbito ao iniciar ou girar, característico da doença de Parkinson avançada e dos parkinsonismos atípicos.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o tratamento de primeira linha para a condição diagnosticada:",
+     "alternativas": {
+      "a": "Miorrelaxante oral de uso contínuo",
+      "b": "Levodopa em dose plena",
+      "c": "Toxina botulínica intramuscular",
+      "d": "Estimulação cerebral profunda"
+     },
+     "correta": "c",
+     "comentario": "A toxina botulínica aplicada nos músculos hiperativos, guiada por exame clínico e, idealmente, por eletromiografia ou ultrassonografia, é o tratamento de primeira linha da distonia cervical, com nível de evidência A. Atua bloqueando a liberação pré-sináptica de acetilcolina na junção neuromuscular, com início do efeito em 3 a 10 dias, pico em 2 a 4 semanas e duração média de 3 a 4 meses, exigindo reaplicações periódicas; melhora tanto a postura quanto a dor, que muitas vezes é a queixa mais incapacitante. A levodopa não é primeira linha aqui, mas guarda uma exceção importantíssima de prova: em distonia de início na INFÂNCIA ou adolescência, com flutuação diurna, é obrigatório o teste terapêutico com levodopa para não perder a distonia dopa-responsiva (doença de Segawa, por deficiência de GTP-cicloidrolase I), que responde de forma dramática. A estimulação cerebral profunda do globo pálido interno é eficaz, porém reservada aos casos refratários à toxina ou generalizados. Miorrelaxantes orais, anticolinérgicos e benzodiazepínicos têm eficácia modesta e efeitos adversos relevantes, servindo como adjuvantes e não como primeira escolha.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 61 — Distonias; complementar com o cap. 64 — Transtornos do Movimento Induzidos por Drogas (para o diferencial com distonia tardia) e Merritt (13ª ed.), Seção 11 — Distúrbios do Movimento.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Hematologia (anemia hemolítica hereditária por defeito de membrana eritrocitária)",
+   "tier": "MÉDIO",
+   "vinheta": "Menino de 6 anos é levado à Unidade Básica de Saúde por episódios recorrentes de icterícia e palidez. A mãe relata que ele 'fica amarelo' sempre que tem infecção de garganta, e que ela própria e um tio materno retiraram o baço na infância por 'anemia de família'. Ao exame: icterícia de escleras 2+/4, palidez de mucosas 2+/4, baço palpável a 4 cm do rebordo costal esquerdo, sem linfonodomegalias e sem lesões cutâneas. Exames: hemoglobina 9,2 g/dL, VCM 82 fL, CHCM 37,2 g/dL, RDW 17%, reticulócitos 8%, bilirrubina total 4,1 mg/dL com fração indireta de 3,6 mg/dL, desidrogenase láctica elevada, haptoglobina reduzida e teste de Coombs direto NEGATIVO. O esfregaço de sangue periférico mostra hemácias pequenas, densamente coradas e sem a palidez central habitual.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o quadro clínico e laboratorial, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Esferocitose hereditária",
+      "b": "Deficiência de glicose-6-fosfato desidrogenase",
+      "c": "Talassemia beta menor",
+      "d": "Anemia hemolítica autoimune"
+     },
+     "correta": "a",
+     "comentario": "O caso reúne todos os marcadores de hemólise crônica extravascular — icterícia com predomínio de bilirrubina indireta, desidrogenase láctica elevada, haptoglobina consumida, reticulocitose e esplenomegalia — somados a três pistas decisivas. Primeira: a história familiar em dois parentes, um deles de primeiro grau, compatível com herança autossômica DOMINANTE, presente em cerca de 75% dos casos e ligada a defeitos em espectrina, anquirina, banda 3 ou proteína 4.2. Segunda: o CHCM elevado, acima de 36 g/dL, achado praticamente exclusivo da esferocitose entre as anemias comuns, porque a perda de membrana sem perda proporcional de conteúdo torna a célula desidratada e hiperdensa. Terceira: o esfregaço com hemácias pequenas, hipercrômicas e sem halo central, ou seja, esferócitos. A anemia hemolítica autoimune também gera esferócitos e é o principal diferencial morfológico, mas exigiria Coombs direto POSITIVO e não teria história familiar nem curso desde a infância. A deficiência de G6PD é ligada ao X, cursa com hemólise aguda intravascular desencadeada por fava, naftalina, sulfas ou infecção, mostrando corpos de Heinz e células mordidas, e não esferocitose com esplenomegalia crônica. A talassemia beta menor dá microcitose desproporcional à anemia leve, com hemácias em alvo, RDW baixo e sem hemólise significativa.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame de maior acurácia para confirmar a hipótese diagnóstica:",
+     "alternativas": {
+      "a": "Eletroforese de hemoglobina",
+      "b": "Citometria de fluxo com eosina-5-maleimida",
+      "c": "Teste de Coombs indireto",
+      "d": "Dosagem sérica de haptoglobina"
+     },
+     "correta": "b",
+     "comentario": "O teste de ligação da eosina-5-maleimida analisado por citometria de fluxo é hoje o exame confirmatório de escolha: o corante liga-se covalentemente à proteína banda 3 e a proteínas associadas na membrana eritrocitária, e a redução da intensidade média de fluorescência traduz a deficiência dessas proteínas, com sensibilidade em torno de 93% e especificidade acima de 95%. Suas vantagens práticas são grandes — exige pouco sangue, é rápido, permanece confiável após transfusão recente e é aplicável em lactentes. O teste de fragilidade osmótica, clássico e ainda cobrado, tem sensibilidade menor, podendo ser normal em até 20% dos casos, e resulta falsamente normal na presença de reticulocitose intensa; a curva de ectacitometria por gradiente osmolar é alternativa de referência em centros especializados. A eletroforese de hemoglobina investiga hemoglobinopatias, como talassemias e doença falciforme, e viria normal aqui. O Coombs indireto pesquisa anticorpos irregulares no plasma, útil em pré-transfusional e em doença hemolítica perinatal, sem valor diagnóstico nesta doença de membrana — e o Coombs direto, o relevante para excluir autoimunidade, já foi feito e é negativo. A haptoglobina apenas confirma que há hemólise, o que já se sabe, sem apontar mecanismo ou etiologia.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Além da suplementação de ácido fólico, indique a orientação preventiva mais importante para este paciente:",
+     "alternativas": {
+      "a": "Evitar sulfonamidas e naftalina",
+      "b": "Quelação de ferro desde o diagnóstico",
+      "c": "Vacinação contra germes encapsulados antes de eventual esplenectomia",
+      "d": "Transfusão programada a cada quatro semanas"
+     },
+     "correta": "c",
+     "comentario": "A esplenectomia — total ou parcial — é a intervenção que reduz drasticamente a hemólise na esferocitose, pois é no baço que os esferócitos rígidos são sequestrados e destruídos; ela é indicada nas formas moderadas a graves, com anemia sintomática, atraso de crescimento ou litíase biliar de repetição, e sempre que possível adiada para depois dos 6 anos de idade pelo risco infeccioso. A preparação exige imunização completa contra germes ENCAPSULADOS pelo menos duas semanas antes do procedimento — pneumococo (conjugada seguida de polissacarídica 23-valente), meningococo ACWY e B, e Haemophilus influenzae tipo b —, além de antibioticoprofilaxia com penicilina oral por período variável e orientação familiar sobre febre como emergência, dado o risco vitalício de sepse fulminante pós-esplenectomia. A quelação de ferro não se aplica de rotina: a sobrecarga é problema de pacientes politransfundidos, como na talassemia maior, e não da esferocitose leve a moderada. Evitar sulfonamidas e naftalina é a orientação da deficiência de G6PD, diagnóstico já afastado. Transfusão programada mensal é regime de talassemia dependente de transfusão, não desta doença, em que se transfunde apenas nas crises. Pérola: rastrear colelitíase com ultrassonografia periódica e sempre suspeitar de crise aplásica por parvovírus B19 quando a reticulocitose desaba.\n📚 Leitura sugerida (bloco): Sociedade Brasileira de Pediatria / Sociedade Brasileira de Hematologia e Hemoterapia — diretrizes de anemias hemolíticas hereditárias; complementar com o material do Drive: Flashcard/Préteste — Hemostasia e doenças na Pediatria (2023) — https://drive.google.com/file/d/1SXA0UfQwBDVutRPRd04Fpmi6DvrzW87t/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (dissecção da artéria carótida interna no adulto jovem)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 34 anos, sem comorbidades e sem fatores de risco cardiovascular, iniciou há 3 dias dor cervical alta e hemicraniana à esquerda, contínua e diferente de qualquer dor prévia, logo após uma sessão intensa de treino de jiu-jítsu com imobilizações cervicais. Hoje, subitamente, evoluiu com dificuldade para falar e fraqueza no membro superior direito. Ao exame: vigil, afasia de expressão, hemiparesia direita de predomínio braquiofacial, ptose e miose à esquerda, com sudorese facial preservada do mesmo lado. Sem sopro carotídeo audível. Tomografia de crânio sem contraste mostra apagamento incipiente de sulcos e hipodensidade insular à esquerda, sem sangramento. Glicemia capilar 98 mg/dL, pressão arterial 132x80 mmHg, eletrocardiograma em ritmo sinusal.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando a história e os achados de exame, indique a etiologia mais provável do evento isquêmico:",
+     "alternativas": {
+      "a": "Trombose de seio venoso lateral esquerdo",
+      "b": "Cardioembolia por forame oval patente",
+      "c": "Dissecção da artéria carótida interna esquerda",
+      "d": "Vasculite primária do sistema nervoso central"
+     },
+     "correta": "c",
+     "comentario": "A tríade clássica da dissecção carotídea está toda presente: dor cervical e/ou hemicraniana ipsilateral de início recente, síndrome de Horner parcial ipsilateral e sinais de isquemia cerebral no território da artéria acometida, com intervalo de horas a dias entre a dor e o déficit — janela em que o diagnóstico poderia ter sido feito antes do AVC. O detalhe semiológico refinado é o Horner PARCIAL: há ptose e miose, mas a sudorese facial está preservada, porque as fibras sudomotoras acompanham a carótida EXTERNA, enquanto as fibras oculossimpáticas pós-ganglionares seguem pela parede da carótida interna, que é a que sofreu o hematoma intramural. Trauma cervical menor ou manipulação (esporte de contato, quiropraxia, tosse intensa) é o antecedente típico. A dissecção responde por até 25% dos AVC isquêmicos em adultos com menos de 45 anos. Trombose de seio venoso produziria cefaleia progressiva com hipertensão intracraniana, crises e eventual infarto venoso hemorrágico que não respeita território arterial, além de não causar Horner. Cardioembolia por forame oval patente é diagnóstico de exclusão, não explica a dor cervical nem o Horner e costuma vir com manobra de Valsalva ou trombose venosa profunda associadas. Vasculite primária do SNC tem curso subagudo, com múltiplos infartos em territórios distintos, cefaleia arrastada e alteração liquórica.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame que melhor demonstra a alteração da parede arterial neste caso:",
+     "alternativas": {
+      "a": "Ecocardiograma transesofágico",
+      "b": "Doppler transcraniano com injeção de microbolhas",
+      "c": "Angiorressonância cervical com sequência de supressão de gordura",
+      "d": "Angiotomografia limitada aos vasos intracranianos"
+     },
+     "correta": "c",
+     "comentario": "O achado que confirma a dissecção é o HEMATOMA INTRAMURAL, e a sequência T1 com saturação de gordura na ressonância dos vasos cervicais é o método mais sensível para demonstrá-lo: o sangue subagudo aparece como um crescente hiperintenso na parede arterial, circundando uma luz reduzida — o clássico 'sinal do crescente'. A angiotomografia dos vasos CERVICAIS é uma alternativa excelente e mais disponível na urgência, mostrando estenose afilada em 'chama de vela', pseudoaneurisma ou o duplo lúmen; o erro do distrator está em limitá-la ao segmento intracraniano, deixando de fora exatamente o segmento cervical onde a dissecção quase sempre ocorre, alguns centímetros acima da bifurcação. O Doppler transcraniano com microbolhas pesquisa shunt direita-esquerda (forame oval patente), hipótese secundária aqui. O ecocardiograma transesofágico investiga fonte cardioembólica e não avalia a parede da carótida cervical. Pérola: a angiografia digital, antes padrão-ouro, hoje é reservada a casos duvidosos ou a intervenção; e o Doppler cervical convencional pode ser normal em dissecções altas, próximas à base do crânio, motivo pelo qual não deve ser usado isoladamente para excluir o diagnóstico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Fora da janela de trombólise e sem contraindicação, indique a conduta antitrombótica adequada:",
+     "alternativas": {
+      "a": "Anticoagulação plena obrigatória",
+      "b": "Alteplase endovenosa imediata",
+      "c": "Nenhum antitrombótico",
+      "d": "Antiagregante plaquetário ou anticoagulante, ambos aceitáveis"
+     },
+     "correta": "d",
+     "comentario": "A conduta antitrombótica na dissecção cervical extracraniana é um clássico de prova porque a intuição costuma apontar para anticoagulação obrigatória, e a evidência não sustenta isso. Os ensaios CADISS e TREAT-CAD e as diretrizes da American Heart Association e da European Stroke Organisation mostram taxas semelhantes de recorrência de AVC entre antiagregação e anticoagulação, com risco hemorrágico maior no braço anticoagulado, de modo que ambas são consideradas razoáveis por 3 a 6 meses, com reavaliação por imagem ao fim do período. Preferem-se antiagregantes quando há infarto extenso, transformação hemorrágica ou dissecção com extensão intracraniana (pelo risco de hemorragia subaracnóidea); prefere-se anticoagulação quando há trombo intraluminal ou eventos isquêmicos recorrentes sob antiagregação. Afirmar que a anticoagulação é obrigatória por superioridade comprovada é justamente o erro. Não oferecer nenhum antitrombótico também é errado: o mecanismo predominante do AVC na dissecção é tromboembólico a partir da lesão intimal, não hemodinâmico. E alteplase 'imediata' está fora de questão porque já se passaram dias do início do déficit — vale notar, porém, que a dissecção extracraniana NÃO é contraindicação à trombólise quando o paciente está dentro da janela.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 46 — Síndromes Vasculares Isquêmicas e cap. 51 — Tratamento da Fase Aguda do AVC Isquêmico; complementar com Merritt (13ª ed.), Seção 4 — Doenças Vasculares Cerebrais.",
+     "dificuldade": "dificil"
+    }
+   ]
+  }
+ ]
+}
