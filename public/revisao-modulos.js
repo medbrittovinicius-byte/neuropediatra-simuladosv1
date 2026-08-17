@@ -2559,7 +2559,11 @@ Duas frases para levar: **enzimas hepáticas** (carbamazepina, fenitoína, fenob
 
 - **Você esquece as associações da HSA.** Cefaleia súbita "em trovoada" (thunderclap) → **HSA até prova em contrário**: TC sem contraste (e punção se TC normal e alta suspeita), graduar por **Hunt-Hess/Fisher**, aneurisma ligado à **doença renal policística autossômica dominante**, e prevenir vasoespasmo com **nimodipina** (seção 9).
 
-**Como zerar:** para todo caso vascular pergunte — (1) é **isquêmico ou hemorrágico** (a TC decide)? (2) qual a **janela** e o candidato a reperfusão? (3) qual a **etiologia** (especialmente no jovem)? Domine essas três e as questões param de te pegar. As questões ao final batem exatamente nesses pontos.`,
+- **Você troca o manejo pressórico do hemorrágico com o do isquêmico.** Esse é hoje o erro mais caro do tema nos registros do grupo — a **hemorragia intraparenquimatosa hipertensiva** aparece com taxa de erro de **67% (tier ESSENCIAL, Ana Teresa)**. A regra é simples e precisa ser automática: **hemorragia = BAIXAR a PA** (PAS ~140, sem queda brusca, porque a PA alta expande o hematoma); **isquêmico não trombolisado = hipertensão PERMISSIVA** (só tratar acima de 220/120, porque a PA alta perfunde a penumbra). Some a isso os locais típicos (putame > tálamo > cerebelo > ponte), a indicação cirúrgica do **cerebelo > 3 cm** e a **reversão do anticoagulante** (seções 12 e 13).
+
+- **Você trata o AIT como evento benigno.** Sintoma que sumiu não é alta: o risco de AVC se concentra nas primeiras 48 h, e a conduta é investigação em 24–48 h + **dupla antiagregação por 21 dias** no alto risco (seção 14).
+
+**Como zerar:** para todo caso vascular pergunte — (1) é **isquêmico ou hemorrágico** (a TC decide)? (2) se for hemorrágico, **qual o alvo de PA e há indicação cirúrgica**? (3) se for isquêmico, qual a **janela** e o candidato a reperfusão? (4) qual a **etiologia** (especialmente no jovem)? Domine essas quatro e as questões param de te pegar. As questões ao final batem exatamente nesses pontos.`,
  secoes: [
   {h: `1. O que é um AVC — e por que a TC vem primeiro`, c: `AVC ("derrame") é a **perda súbita de função neurológica por causa vascular**. Há dois grandes tipos, com tratamentos **opostos**:
 
@@ -2641,7 +2645,86 @@ Outras: forame oval patente (embolia paradoxal), trombofilias, uso de cocaína/s
 - **Endarterectomia/stent** carotídeo na estenose sintomática significativa.
 - Corrigir a causa específica (fechar FOP em casos selecionados, tratar trombofilia/vasculite, tratar endocardite).
 
-A mensagem: o AVC agudo salva neurônios; a **prevenção secundária** salva o próximo AVC.`}
+A mensagem: o AVC agudo salva neurônios; a **prevenção secundária** salva o próximo AVC.`},
+  {h: `12. Hemorragia intracerebral hipertensiva — o AVC que sangra DENTRO do cérebro (ponto de erro)`, c: `Até aqui falamos sobretudo do AVC que entope. Agora o que rompe **dentro do parênquima** — a **hemorragia intracerebral (HIC) espontânea**, também chamada de hemorragia intraparenquimatosa. Ela responde por cerca de **10–15% de todos os AVC**, mas por **quase metade das mortes**: é o subtipo mais letal.
+
+**Por que sangra — o mecanismo que explica tudo.** A hipertensão arterial crônica maltrata as **pequenas artérias perfurantes** (as mesmas que causam infarto lacunar quando entopem): as **lentículo-estriadas**, as talamoperfurantes, as paramedianas da ponte e as cerebelares. A parede dessas artérias sofre **lipo-hialinose** e forma microdilatações (os clássicos **microaneurismas de Charcot-Bouchard**). Um pico pressórico rompe a parede fragilizada e o sangue disseca o tecido. Ou seja: **a mesma doença de pequeno vaso pode dar lacuna (se entope) ou hemorragia profunda (se rompe)** — e é por isso que os locais são os mesmos.
+
+**Os locais típicos (decore esta lista, é o coração das questões):**
+- **Putame/cápsula interna (~35–50%)** — o mais comum. Hemiplegia densa contralateral, desvio do olhar **para o lado da lesão**, afasia se hemisfério dominante.
+- **Tálamo (~10–15%)** — hemiparesia + **hipoestesia proeminente**, e o achado que denuncia: **desvio do olhar para BAIXO e para dentro** ("olhando para o próprio nariz"), pupilas mióticas pouco reativas, às vezes com extensão para o III ventrículo e hidrocefalia.
+- **Ponte (~5–10%)** — quadro dramático: coma súbito, **tetraplegia**, **pupilas puntiformes (mióticas) reativas**, hipertermia, respiração irregular. Alta letalidade.
+- **Cerebelo (~10%)** — cefaleia occipital, vômitos, **ataxia/incapacidade de ficar em pé**, nistagmo, SEM hemiplegia inicial. É a que mais depende de cirurgia (ver abaixo).
+- **Lobar (substância branca subcortical)** — em **idoso normotenso**, pense **angiopatia amiloide cerebral**; em jovem, malformação arteriovenosa, tumor sangrante, uso de cocaína/simpaticomiméticos, trombose venosa.
+
+**Clínica que a distingue do isquêmico:** o déficit da HIC costuma ser **progressivo em minutos a horas** (o hematoma cresce), com **cefaleia, vômitos, PA muito elevada** e **rebaixamento do nível de consciência** mais precoces. Mas atenção: **nenhum desses achados é confiável o bastante** — só a **TC** separa. Essa é a razão de o algoritmo começar sempre pela imagem.
+
+**Como se comporta nas primeiras horas:** cerca de **1/3 dos hematomas se expandem** nas primeiras 3–6 h (expansão é o principal preditor modificável de morte). Daí o foco do tratamento: **impedir o hematoma de crescer**.
+
+**Conduta (o bloco que a banca cobra):**
+- **PA:** reduzir de forma **controlada e precoce** para **PAS ~140 mmHg** (faixa 130–150; alvos < 130 aumentam eventos renais e não melhoram desfecho), com anti-hipertensivo EV titulável (nicardipina, labetalol, esmolol; no Brasil, nitroprussiato com cautela). **Evitar quedas bruscas** — o oposto do AVCi não trombolisado, onde a hipertensão é permissiva.
+- **Reverter a anticoagulação, se houver** (ver seção 13).
+- **Suporte e prevenção de dano secundário:** cabeceira a 30°, normoglicemia, normotermia, evitar hipóxia/hipercapnia, disfagia rastreada antes de qualquer dieta VO, profilaxia de TVP (compressão pneumática precoce; heparina profilática após 48 h com hematoma estável).
+- **Não usar** corticoide (não beneficia e aumenta complicações) nem anticonvulsivante **profilático** de rotina (só se houve crise).
+- **Cirurgia:** a evacuação de hematomas **supratentoriais** é controversa e reservada a casos selecionados (hematoma volumoso com deterioração, hematoma lobar superficial em paciente jovem). Já a **hemorragia cerebelar > 3 cm** (ou com compressão de tronco/hidrocefalia/deterioração) tem indicação **clara e urgente** de **evacuação neurocirúrgica** — e nesse cenário **derivação ventricular isolada não basta**, pode até piorar por herniação ascendente. Guarde: **cerebelo > 3 cm = cirurgia**.
+
+**Prognóstico — escore ICH (0 a 6):** soma **Glasgow** (3–4 = 2 pontos; 5–12 = 1), **volume ≥ 30 mL** (1), **hemorragia intraventricular** (1), **origem infratentorial** (1) e **idade ≥ 80 anos** (1). Quanto maior, maior a mortalidade em 30 dias. O volume estima-se pela fórmula **ABC/2** (A × B × C dividido por 2, em cm, na TC).
+
+**Prevenção secundária:** o alvo é o **controle rigoroso da PA** (o fator de risco dominante); reavaliar individualmente se e quando reintroduzir antitrombótico — na angiopatia amiloide, o risco de recidiva é alto e a anticoagulação costuma ser evitada.`},
+  {h: `13. Sangramento em quem usa anticoagulante — como reverter`, c: `Cada vez mais o paciente que sangra no cérebro está anticoagulado. Reverter rápido é o que muda o desfecho, e a banca cobra o antídoto certo para cada droga:
+
+- **Varfarina (antagonista da vitamina K):** **complexo protrombínico (CCP/PCC de 4 fatores)** — é mais rápido e com menos volume que o plasma fresco — **mais vitamina K endovenosa** (o CCP age em minutos, a vitamina K mantém a reversão depois). Alvo: **INR < 1,3–1,5**.
+- **Dabigatrana (inibidor direto da trombina):** **idarucizumabe** (anticorpo específico); na falta dele, CCP.
+- **Rivaroxabana/apixabana (inibidores do fator Xa):** **andexanet alfa** onde disponível; alternativa é **CCP**.
+- **Heparina não fracionada:** **protamina**.
+- **Trombolítico (alteplase):** **crioprecipitado** com alvo de fibrinogênio ≥ 150 mg/dL ± antifibrinolítico (seção 6).
+- **Antiagregante (AAS/clopidogrel):** **não** transfundir plaquetas de rotina — o estudo PATCH mostrou **pior** desfecho com transfusão plaquetária na HIC de quem usava antiagregante. Reservar para plaquetopenia real ou necessidade cirúrgica.
+
+Regra mental: **primeiro pare o sangramento (reverter + PA ~140), depois discuta cirurgia**.`},
+  {h: `14. AIT — a urgência que não deixa cicatriz`, c: `**Ataque isquêmico transitório (AIT)** é o déficit neurológico focal de origem isquêmica que **melhora completamente** (classicamente em menos de 24 h, na prática quase sempre em menos de 1 h) **sem infarto** na neuroimagem. A definição moderna é **tecidual**: se há lesão na difusão da RM, é AVC — mesmo que o sintoma tenha durado 10 minutos.
+
+**Por que é urgência:** o AIT é a "angina do cérebro". O risco de AVC nos **primeiros 2 a 7 dias** é alto (na faixa de 5–10%), e a maior parte desse risco se concentra nas **primeiras 48 h**. Ou seja, o paciente que chega assintomático é justamente aquele em quem ainda dá para evitar o dano.
+
+**Estratificação — escore ABCD2 (0 a 7):** **A**ge ≥ 60 (1), **B**lood pressure ≥ 140/90 (1), **C**linical: fraqueza unilateral (2) ou distúrbio de fala sem fraqueza (1), **D**uration ≥ 60 min (2) ou 10–59 min (1), **D**iabetes (1). Escore ≥ 4 sugere risco alto e internação/investigação acelerada.
+
+**Investigação (nas primeiras 24–48 h):** neuroimagem (idealmente RM com difusão), **imagem vascular** de carótidas e intracranianos (doppler/angio-TC), **ECG e monitorização de ritmo** procurando fibrilação atrial, ecocardiograma, perfil metabólico.
+
+**Tratamento:** no AIT de **alto risco** ou AVC menor (NIHSS ≤ 3–5), **dupla antiagregação (AAS + clopidogrel) por 21 dias** e depois monoterapia — é a lição dos estudos **CHANCE/POINT**; prolongar a dupla além disso só aumenta sangramento. Somar **estatina de alta potência**, controle de PA e tratamento da causa (endarterectomia em estenose carotídea sintomática ≥ 70%, idealmente em até 2 semanas; anticoagulação se FA).`},
+  {h: `15. Onde é a lesão — síndromes lacunares e localização no exame`, c: `Saber localizar transforma uma vinheta confusa em diagnóstico. A **doença de pequeno vaso** (HAS/DM) produz **infartos lacunares** (< 15 mm) nas perfurantes profundas, com quadros muito característicos — e, por definição, **sem sinais corticais** (sem afasia, sem negligência, sem alteração de campo visual):
+
+- **Hemiparesia motora pura** — cápsula interna (braço posterior) ou base da ponte. Face, braço e perna igualmente fracos, **sem** perda sensitiva.
+- **AVC sensitivo puro** — **tálamo** ventral posterolateral. Dormência de hemicorpo inteiro, sem fraqueza.
+- **Hemiparesia atáxica** — ponte/cápsula. Fraqueza (mais na perna) somada a ataxia desproporcional.
+- **Disartria-mão desajeitada** — ponte/joelho da cápsula.
+- **Sensitivo-motor** — tálamo + cápsula adjacente.
+
+**Sinais corticais denunciam artéria grande** (ACM/ACA): afasia, negligência, hemianopsia, desvio do olhar. **Desvio do olhar conjugado:** na lesão **hemisférica**, o paciente "olha para a lesão"; na lesão **de tronco (ponte)**, "olha para o lado da hemiparesia" — inverte. **Déficit cruzado** (nervo craniano de um lado + hemiparesia do outro) é a assinatura do **tronco encefálico**.
+
+Duas síndromes de tronco que caem muito:
+- **Wallenberg (bulbar lateral, PICA/vertebral):** vertigem, nistagmo, disfagia e disfonia (ambíguo), soluços, **Horner ipsilateral**, hipoestesia **térmico-dolorosa da face ipsilateral e do corpo contralateral**, ataxia ipsilateral — e **sem hemiparesia**.
+- **Síndrome do topo da basilar / oclusão basilar:** rebaixamento flutuante, tetraparesia, alterações oculomotoras e pupilares, "locked-in". Cefaleia + vertigem + diplopia + rebaixamento em paciente vascular obriga a pensar em circulação posterior — e a **TC é péssima** para fossa posterior.`},
+  {h: `16. A imagem na fase aguda: o que a TC mostra, ASPECTS e os mimetizadores`, c: `**O que se procura na TC das primeiras horas:** o objetivo primário é **excluir sangue** (hiperdenso, branco). O infarto ainda não aparece bem, mas há **sinais precoces**: perda da diferenciação córtico-subcortical, apagamento dos sulcos, hipodensidade do núcleo lentiforme, apagamento da fita insular e o **sinal da artéria cerebral média hiperdensa** (o trombo dentro do vaso).
+
+**ASPECTS:** escore de 10 pontos que desconta 1 ponto para cada região do território da ACM já hipodensa. **ASPECTS ≤ 6** indica core extenso e piora a chance de benefício da reperfusão. Serve para conversar com a equipe de trombectomia.
+
+**RM com difusão (DWI):** enxerga a isquemia em **minutos**, especialmente na fossa posterior, onde a TC falha. É o exame de escolha quando a dúvida é AVC de tronco/cerebelo (lembre da vertigem aguda com HINTS central).
+
+**Mimetizadores de AVC (stroke mimics) — cerca de 1 em cada 4 códigos AVC:**
+- **Hipoglicemia** (o clássico; sempre glicemia capilar antes de tudo);
+- **Crise epiléptica com paralisia de Todd** (déficit pós-ictal que regride);
+- **Enxaqueca com aura** (sintomas **positivos**, que "marcham" em minutos — o AVC dá sintomas **negativos**, máximos no início);
+- **Encefalopatia metabólica/séptica** desmascarando déficit antigo;
+- **Transtorno funcional**, tumor, hematoma subdural, encefalite.
+
+E o inverso, o **stroke chameleon** — AVC que não parece AVC: confusão isolada, agitação, "vertigem isolada", queda súbita, alteração comportamental. Instalação **súbita** é sempre a bandeira.`},
+  {h: `17. O algoritmo em oito frases (leve isto para a prova)`, c: `- **Déficit focal súbito = AVC até prova em contrário.** Glicemia capilar primeiro (hipoglicemia mimetiza).
+- **TC sem contraste é o primeiro exame** — nenhum antitrombótico antes dela.
+- **Tem sangue no parênquima?** É HIC: **PAS ~140**, reverter anticoagulante, evitar corticoide, cirurgia se **cerebelar > 3 cm** ou deterioração; escore ICH para prognóstico.
+- **Sangue nas cisternas / cefaleia thunderclap?** HSA: angiografia, tratar aneurisma, **nimodipina**.
+- **Sem sangue e dentro de 4,5 h com déficit incapacitante?** Trombólise (PA < 185/110). Grande vaso? Trombectomia até 6 h (até 24 h com mismatch).
+- **Fora de janela?** AAS, hipertensão permissiva (só tratar > 220/120), profilaxias e investigação etiológica.
+- **Sintoma que sumiu?** AIT não é alta: ABCD2, investigação em 24–48 h, dupla antiagregação por 21 dias se alto risco.
+- **Jovem, ou padrão estranho?** Cace dissecção, endocardite, trombose venosa, FOP, cocaína, falciforme.`}
  ],
  flashcards: [
   {p: `Primeira conduta diagnóstica em todo AVC suspeito?`, r: `TC de crânio sem contraste, para diferenciar isquêmico de hemorrágico antes de qualquer antitrombótico.`},
@@ -2655,7 +2738,22 @@ A mensagem: o AVC agudo salva neurônios; a **prevenção secundária** salva o 
   {p: `Cefaleia súbita "a pior da vida" (thunderclap)?`, r: `HSA até prova em contrário: TC sem contraste; se normal e alta suspeita, punção (xantocromia).`},
   {p: `Aneurisma sacular associa-se a qual doença hereditária?`, r: `Doença renal policística autossômica dominante (DRPAD).`},
   {p: `Prevenção do vasoespasmo na HSA?`, r: `Nimodipina (vasoespasmo/isquemia tardia entre o 4º e o 14º dia).`},
-  {p: `Cefaleia progressiva no puerpério/uso de ACO + crises?`, r: `Trombose venosa cerebral; venografia por RM/TC; anticoagular mesmo com infarto hemorrágico venoso.`}
+  {p: `Cefaleia progressiva no puerpério/uso de ACO + crises?`, r: `Trombose venosa cerebral; venografia por RM/TC; anticoagular mesmo com infarto hemorrágico venoso.`},
+  {p: `Local mais comum da hemorragia intracerebral hipertensiva?`, r: `Putame/cápsula interna (depois tálamo, cerebelo e ponte) — território das perfurantes lentículo-estriadas.`},
+  {p: `Mecanismo da hemorragia hipertensiva profunda?`, r: `Lipo-hialinose das perfurantes com microaneurismas de Charcot-Bouchard que rompem no pico pressórico.`},
+  {p: `Alvo pressórico na hemorragia intracerebral aguda?`, r: `Reduzir de forma controlada para PAS ~140 mmHg (130–150), sem queda brusca — oposto da hipertensão permissiva do AVCi.`},
+  {p: `Hemorragia com desvio do olhar para baixo e pupilas mióticas?`, r: `Hemorragia talâmica (pode invadir o III ventrículo e causar hidrocefalia).`},
+  {p: `Qual hemorragia tem indicação cirúrgica clara?`, r: `Cerebelar > 3 cm ou com compressão de tronco/hidrocefalia/deterioração — evacuação urgente (derivação isolada não basta).`},
+  {p: `Componentes do escore ICH?`, r: `Glasgow, volume ≥ 30 mL (ABC/2), hemorragia intraventricular, origem infratentorial e idade ≥ 80 anos (0–6).`},
+  {p: `Hemorragia LOBAR em idoso normotenso sugere?`, r: `Angiopatia amiloide cerebral (alto risco de recidiva; evitar anticoagulação).`},
+  {p: `Como reverter varfarina numa hemorragia intracerebral?`, r: `Complexo protrombínico (CCP) + vitamina K EV, alvo INR < 1,3–1,5 (plasma é mais lento e volumoso).`},
+  {p: `Antídoto da dabigatrana? E dos inibidores do fator Xa?`, r: `Idarucizumabe; andexanet alfa (na falta, CCP).`},
+  {p: `Transfundir plaquetas na hemorragia de quem usa AAS?`, r: `Não de rotina — o estudo PATCH mostrou pior desfecho.`},
+  {p: `Definição moderna de AIT e por que é urgência?`, r: `Déficit isquêmico focal transitório SEM infarto na imagem; risco alto de AVC nos primeiros 2–7 dias (maior nas 48 h).`},
+  {p: `Tratamento antiplaquetário do AIT de alto risco / AVC menor?`, r: `Dupla antiagregação (AAS + clopidogrel) por 21 dias, depois monoterapia (CHANCE/POINT).`},
+  {p: `Síndrome lacunar de hemiparesia motora pura — onde é?`, r: `Cápsula interna (braço posterior) ou base da ponte; por definição sem sinais corticais.`},
+  {p: `Achados da síndrome de Wallenberg?`, r: `Vertigem, disfagia/disfonia, soluços, Horner ipsilateral, dissociação térmico-dolorosa (face ipsi / corpo contra), ataxia — sem hemiparesia.`},
+  {p: `Principais mimetizadores de AVC?`, r: `Hipoglicemia, paralisia de Todd pós-crise, enxaqueca com aura, encefalopatia metabólica, quadro funcional.`}
  ],
  pegadinhas: [
   `Nenhum antitrombótico/trombolítico antes da TC — a clínica não separa isquêmico de hemorrágico.`,
@@ -2667,7 +2765,16 @@ A mensagem: o AVC agudo salva neurônios; a **prevenção secundária** salva o 
   `HSA com TC normal e alta suspeita NÃO exclui — fazer punção lombar (xantocromia).`,
   `Aneurisma → pensar em DRPAD; HSA → nimodipina para vasoespasmo (não nifedipina para "baixar pressão").`,
   `Trombose venosa cerebral: anticoagular mesmo havendo infarto hemorrágico venoso.`,
-  `Hipoglicemia mimetiza AVC — checar glicemia capilar sempre antes de trombolisar.`
+  `Hipoglicemia mimetiza AVC — checar glicemia capilar sempre antes de trombolisar.`,
+  `Na hemorragia intracerebral a PA se BAIXA (PAS ~140); no AVCi não trombolisado ela é permissiva (>220/120). Trocar os dois é o erro clássico.`,
+  `Hemorragia cerebelar > 3 cm é cirurgia — não "observar" nem só derivar o ventrículo.`,
+  `Corticoide NÃO tem lugar na hemorragia intracerebral espontânea (nem anticonvulsivante profilático de rotina).`,
+  `Hemorragia lobar em idoso normotenso = angiopatia amiloide, não hipertensiva.`,
+  `Varfarina que sangrou: complexo protrombínico + vitamina K — plasma fresco isolado é resposta ruim.`,
+  `Plaquetas em usuário de AAS com hemorragia: NÃO transfundir de rotina (PATCH).`,
+  `AIT não é alta: dupla antiagregação por 21 dias no alto risco e investigação em 24–48 h.`,
+  `Síndrome lacunar não tem afasia/negligência — se houver sinal cortical, o vaso é grande.`,
+  `Desvio do olhar: lesão hemisférica olha PARA a lesão; lesão pontina olha para o lado da hemiparesia.`
  ],
  diretrizes: [
   `Tratado de Neurologia da ABN (3ª ed., 2025), cap. 51 — Tratamento da Fase Aguda do AVCi; cap. 46 — Síndromes Vasculares Isquêmicas; cap. 57 — Hemorragia Subaracnóidea; cap. 55 — Trombose Venosa Cerebral; cap. 159 — Manejo Crítico do AVCi (ver materiais_neuro.md).`,
@@ -2678,7 +2785,10 @@ A mensagem: o AVC agudo salva neurônios; a **prevenção secundária** salva o 
   {enunciado: `Homem de 34 anos, hígido, inicia hemiparesia direita e afasia. Refere dor cervical à esquerda após sessão de quiropraxia há 2 dias. Ao exame, ptose e miose à esquerda. Qual a causa mais provável do AVC?`, alternativas: {a: `Aterosclerose carotídea`, b: `Dissecção da artéria carótida esquerda`, c: `Cardioembolia por fibrilação atrial`, d: `Infarto lacunar hipertensivo`}, correta: "b", comentario: `Paciente jovem, sem fatores de risco, com dor cervical após manipulação e síndrome de Horner (ptose + miose) ipsilateral: quadro clássico de dissecção da artéria carótida — causa mais comum de AVC no jovem. O hematoma na parede arterial comprime as fibras simpáticas (Horner) e gera estenose/embolia. Aterosclerose e infarto lacunar são de pacientes mais velhos com fatores de risco; FA daria cardioembolia sem dor cervical/Horner. Confirma-se com angio-TC/angio-RM com supressão de gordura; trata-se com antitrombótico.`, foco: `AVC do jovem — dissecção`},
   {enunciado: `Paciente trombolisado com alteplase há 40 minutos evolui com queda do nível de consciência, cefaleia intensa e piora do déficit. Qual a conduta prioritária?`, alternativas: {a: `Aumentar a velocidade da alteplase`, b: `Parar a alteplase, TC de crânio e repor crioprecipitado (fibrinogênio ≥150)`, c: `Iniciar heparina plena`, d: `Administrar AAS imediatamente`}, correta: "b", comentario: `A deterioração durante/após a alteplase sugere hemorragia intracerebral sintomática. A sequência correta é: parar a infusão imediatamente, TC de crânio de urgência com hemograma/fibrinogênio/coagulograma, e reverter a coagulopatia com crioprecipitado buscando fibrinogênio ≥150 mg/dL, ± ácido tranexâmico; avaliação neurocirúrgica se hematoma >30 mL com efeito de massa. Manter/aumentar o trombolítico, heparinizar ou dar AAS agravariam o sangramento.`, foco: `Hemorragia pós-trombólise`},
   {enunciado: `Mulher de 45 anos com cefaleia súbita de intensidade máxima ("pior da vida"), rigidez de nuca e Glasgow 15. TC de crânio evidencia hiperdensidade nas fissuras inter-hemisférica e sylviana. Qual associação hereditária deve ser lembrada e qual fármaco previne a principal complicação isquêmica tardia?`, alternativas: {a: `Neurofibromatose; fenitoína`, b: `Doença renal policística autossômica dominante; nimodipina`, c: `Síndrome de Marfan; labetalol`, d: `Doença de von Hippel-Lindau; manitol`}, correta: "b", comentario: `Cefaleia thunderclap + sangue nas cisternas = hemorragia subaracnóidea por ruptura de aneurisma sacular. Aneurismas saculares associam-se classicamente à doença renal policística autossômica dominante. A complicação isquêmica tardia é o vasoespasmo (4º–14º dia), prevenido com nimodipina. A graduação usa Hunt-Hess (clínica) e Fisher (sangue na TC). Fenitoína/manitol/labetalol tratam outras coisas; as demais associações genéticas não são as ligadas ao aneurisma sacular.`, foco: `HSA — associações e vasoespasmo`},
-  {enunciado: `No AVC isquêmico agudo que NÃO será submetido a trombólise, qual a conduta correta quanto à pressão arterial?`, alternativas: {a: `Reduzir agressivamente a PA para < 120/80`, b: `Hipertensão permissiva: só tratar se > 220/120 ou lesão de órgão-alvo`, c: `Manter PA < 140/90 em todos os casos`, d: `Nunca tratar a PA nas primeiras 72 h`}, correta: "b", comentario: `No AVCi não trombolisado, a hipertensão é permitida (permissiva) porque a PA elevada ajuda a perfundir a penumbra isquêmica; só se trata a PA se ultrapassar 220/120 mmHg ou houver lesão de órgão-alvo (IAM, dissecção, edema agudo, pré-eclâmpsia). Baixar a PA de forma agressiva reduz a perfusão colateral e amplia o infarto. Já quando se vai trombolisar, o alvo passa a ser < 185/110 (antes) e < 180/105 (depois); e na hemorragia intracerebral se baixa a PAS para ~140. Por isso o manejo pressórico depende do tipo e do plano terapêutico.`, foco: `Controle pressórico no AVCi`}
+  {enunciado: `No AVC isquêmico agudo que NÃO será submetido a trombólise, qual a conduta correta quanto à pressão arterial?`, alternativas: {a: `Reduzir agressivamente a PA para < 120/80`, b: `Hipertensão permissiva: só tratar se > 220/120 ou lesão de órgão-alvo`, c: `Manter PA < 140/90 em todos os casos`, d: `Nunca tratar a PA nas primeiras 72 h`}, correta: "b", comentario: `No AVCi não trombolisado, a hipertensão é permitida (permissiva) porque a PA elevada ajuda a perfundir a penumbra isquêmica; só se trata a PA se ultrapassar 220/120 mmHg ou houver lesão de órgão-alvo (IAM, dissecção, edema agudo, pré-eclâmpsia). Baixar a PA de forma agressiva reduz a perfusão colateral e amplia o infarto. Já quando se vai trombolisar, o alvo passa a ser < 185/110 (antes) e < 180/105 (depois); e na hemorragia intracerebral se baixa a PAS para ~140. Por isso o manejo pressórico depende do tipo e do plano terapêutico.`, foco: `Controle pressórico no AVCi`},
+  {enunciado: `Homem de 63 anos, hipertenso mal controlado, com hemiplegia esquerda súbita, vômitos, cefaleia e PA 210/120 mmHg. TC de crânio: hematoma de 25 mL em putame direito, sem hidrocefalia. Qual a conduta pressórica correta nas primeiras horas?`, alternativas: {a: `Manter hipertensão permissiva, tratando só se PA > 220/120`, b: `Reduzir a PAS de forma controlada para cerca de 140 mmHg`, c: `Reduzir a PAS para menos de 100 mmHg rapidamente`, d: `Não tratar a PA nas primeiras 72 horas`}, correta: "b", comentario: `Na hemorragia intracerebral espontânea, a PA elevada favorece a EXPANSÃO do hematoma — que ocorre em cerca de um terço dos casos nas primeiras horas e é o principal preditor modificável de mortalidade. Por isso a conduta é reduzir de forma precoce e controlada a PAS para em torno de 140 mmHg (faixa 130–150), com droga endovenosa titulável, evitando quedas bruscas. A alternativa "a" descreve o manejo do AVC ISQUÊMICO não trombolisado (hipertensão permissiva, tratar só acima de 220/120), justamente a troca que a banca explora. Reduzir abaixo de 100 mmHg provoca hipoperfusão sistêmica e lesão renal, sem benefício. Não tratar é errado porque perde a única janela de conter o crescimento do hematoma. Complete o pacote: reverter anticoagulante se houver, cabeceira 30°, rastrear disfagia, sem corticoide e sem anticonvulsivante profilático.`, foco: `Hemorragia intraparenquimatosa hipertensiva — PA (ponto de erro)`},
+  {enunciado: `Mulher de 70 anos, hipertensa, com cefaleia occipital súbita, vômitos, ataxia de tronco e incapacidade de manter-se em pé, sem hemiparesia. TC: hematoma cerebelar de 3,5 cm com compressão do IV ventrículo. Qual a conduta?`, alternativas: {a: `Observação clínica em unidade de AVC`, b: `Evacuação neurocirúrgica de urgência`, c: `Derivação ventricular externa isolada`, d: `Trombólise endovenosa`}, correta: "b", comentario: `Hemorragia cerebelar maior que 3 cm, ou com compressão de tronco/IV ventrículo, hidrocefalia ou deterioração neurológica, tem indicação clara e urgente de evacuação cirúrgica — é a situação em que a cirurgia comprovadamente salva vidas na hemorragia intracerebral. Observar é arriscar herniação e parada respiratória por compressão bulbar. A derivação ventricular isolada trata a hidrocefalia mas deixa a massa comprimindo o tronco, podendo inclusive favorecer herniação ascendente; pode ser adjuvante, nunca a conduta única. Trombólise é contraindicada de forma absoluta diante de hemorragia. Reconheça a vinheta: cefaleia occipital + vômitos + ataxia SEM hemiplegia é cerebelo.`, foco: `Hemorragia cerebelar — indicação cirúrgica`},
+  {enunciado: `Homem de 68 anos com episódio de fraqueza no braço direito e disartria com duração de 30 minutos, já resolvido na chegada. PA 150/95 mmHg, diabético. RM com difusão sem lesão. Qual a conduta mais adequada?`, alternativas: {a: `Alta com AAS e retorno ambulatorial em 3 meses`, b: `Investigação vascular e cardíaca em 24–48 h e dupla antiagregação por 21 dias`, c: `Anticoagulação plena imediata para todos`, d: `Trombólise endovenosa de resgate`}, correta: "b", comentario: `O quadro é um ataque isquêmico transitório: déficit focal que resolveu, sem infarto na difusão. O erro clássico é tratá-lo como evento benigno — o risco de AVC estabelecido nos primeiros dias é alto e concentra-se nas 48 h iniciais. Com ABCD2 elevado (idade, PA, fraqueza unilateral, duração, diabetes), a conduta é investigação acelerada em 24–48 h (imagem vascular de carótidas e intracranianos, ECG/monitorização para fibrilação atrial, ecocardiograma) e dupla antiagregação com AAS + clopidogrel por 21 dias, seguida de monoterapia, conforme CHANCE/POINT — prolongar a dupla só aumenta sangramento. Alta com retorno em 3 meses desperdiça a janela de prevenção. Anticoagular a todos é errado: só se houver fonte cardioembólica como FA. Trombólise não se aplica a paciente sem déficit.`, foco: `AIT — urgência e dupla antiagregação`}
  ]
 }
 ,
@@ -2686,17 +2796,19 @@ A mensagem: o AVC agudo salva neurônios; a **prevenção secundária** salva o 
 "PED|Nutrição / metabolismo": {
  titulo: `Nutrição pediátrica e metabolismo ósseo`,
  half: `PED`,
- resumo: `Nutrição é um dos temas mais recorrentes da prova de pediatria, cobrado em vinhetas curtas de conduta: aleitamento, alimentação complementar, anemia ferropriva, deficiência de vitamina A, raquitismo e desnutrição. Este texto reconstrói o campo do zero: por que o leite materno é o padrão-ouro, como e quando introduzir alimentos, por que o lactente fica anêmico, o que é o raquitismo carencial e como diferenciar marasmo de Kwashiorkor — sempre no formato que a banca cobra (conduta correta entre combinações parecidas).`,
+ resumo: `Nutrição é um dos temas mais recorrentes da prova de pediatria, cobrado em vinhetas curtas de conduta: aleitamento, alimentação complementar, anemia ferropriva, deficiência de vitamina A, raquitismo e desnutrição. Este texto reconstrói o campo do zero: por que o leite materno é o padrão-ouro, como e quando introduzir alimentos, por que o lactente fica anêmico, o que é o raquitismo carencial e como diferenciar marasmo de Kwashiorkor — sempre no formato que a banca cobra (conduta correta entre combinações parecidas). Inclui ainda o manejo prático da amamentação (pega, ordenha, retorno ao trabalho, mastite), as fórmulas quando não há leite materno, os micronutrientes (vitamina D, zinco, iodo, B12) e quando suspeitar de erro inato do metabolismo.`,
  fontes: `Base: Sociedade Brasileira de Pediatria (SBP — Guias de Aleitamento Materno e de Alimentação da Criança), Ministério da Saúde (Guia Alimentar para Crianças < 2 anos; Programa Nacional de Suplementação de Ferro/PNSF; Programa Nacional de Suplementação de Vitamina A/PNSVA), OMS (classificação da desnutrição, curvas de crescimento). Material do Drive do Vinicius (Nutrição em Pediatria). Ver materiais_drive.md e roteiro_estudo.md.`,
  notaErro: `Nos seus registros, os erros de nutrição concentram-se em **raquitismo carencial**, **anemia ferropriva** e **desnutrição (Kwashiorkor)**. O padrão do erro é não fixar a **conduta exata** — a banca monta 4 alternativas quase iguais ("manter/suspender aleitamento" × "suplementar/não suplementar ferro") e só uma está certa. Três tropeços explicam as quedas:
 
-- **Na anemia ferropriva, você suspende o aleitamento ou esquece de suplementar.** A conduta correta no lactente com ferropriva por inadequação alimentar (aleitamento prolongado sem diversificação, ou excesso de leite de vaca) é **manter o leite materno, diversificar a dieta e suplementar ferro** — nunca suspender o seio. E lembrar da **profilaxia** universal de ferro (seção 3).
+- **Na anemia ferropriva, você suspende o aleitamento ou esquece de suplementar.** A conduta correta no lactente com ferropriva por inadequação alimentar (aleitamento prolongado sem diversificação, ou excesso de leite de vaca) é **manter o leite materno, diversificar a dieta e suplementar ferro** — nunca suspender o seio. E lembrar da **profilaxia** universal de ferro (seção 4).
 
-- **No raquitismo, você trata com fosfato ou esquece que é carência de vitamina D.** O raquitismo carencial clássico é por **deficiência de vitamina D** (pouca exposição solar, baixa oferta); a clínica é **arqueamento de MMII após início da marcha**, alargamento de punhos, rosário raquítico; o laboratório mostra **cálcio normal/baixo, fósforo baixo, fosfatase alcalina alta e PTH alto**, com **vitamina D baixa**; trata-se com **vitamina D** (± cálcio), não com fosfato isolado (seção 5).
+- **No raquitismo, você trata com fosfato ou esquece que é carência de vitamina D.** O raquitismo carencial clássico é por **deficiência de vitamina D** (pouca exposição solar, baixa oferta); a clínica é **arqueamento de MMII após início da marcha**, alargamento de punhos, rosário raquítico; o laboratório mostra **cálcio normal/baixo, fósforo baixo, fosfatase alcalina alta e PTH alto**, com **vitamina D baixa**; trata-se com **vitamina D** (± cálcio), não com fosfato isolado (seção 6).
 
-- **Você confunde marasmo com Kwashiorkor.** Marasmo = magreza extrema, "carinha de velho", **sem edema**. Kwashiorkor = **edema**, dermatose, cabelo despigmentado, hepatomegalia (esteatose) — clássico da vinheta (seção 6).
+- **Você confunde marasmo com Kwashiorkor.** Marasmo = magreza extrema, "carinha de velho", **sem edema**. Kwashiorkor = **edema**, dermatose, cabelo despigmentado, hepatomegalia (esteatose) — clássico da vinheta (seção 7).
 
-**Como zerar:** em toda vinheta de nutrição pergunte — (1) qual a **carência/erro alimentar**? (2) qual a **conduta que MANTÉM o aleitamento** e corrige a falta? (3) o quadro **tem edema** (Kwashiorkor) ou não (marasmo)? As questões ao final batem nesses pontos.`,
+- **Você sabe os prazos do aleitamento, mas não o MANEJO.** É o ponto que derrubou **aleitamento materno e retorno ao trabalho (tier ESSENCIAL, Leonardo)**: a banca não pergunta "até quando amamentar", pergunta **o que fazer** quando a mãe volta a trabalhar, quando a mama ingurgita, quando dói, quando há mastite ou quando o bebê "parece com fome". A resposta correta quase sempre **mantém o peito** e age sobre o esvaziamento (ordenha, pega, livre demanda) — introduzir fórmula é o distrator. A seção 2 traz a fisiologia (prolactina produz, ocitocina ejeta) que faz essas condutas deixarem de ser decoreba, mais os prazos de armazenamento (12 h geladeira / 15 dias freezer) e os direitos legais (120 dias de licença; duas pausas de 30 min até os 6 meses).
+
+**Como zerar:** em toda vinheta de nutrição pergunte — (1) qual a **carência/erro alimentar**? (2) qual a **conduta que MANTÉM o aleitamento** e corrige a falta? (3) o quadro **tem edema** (Kwashiorkor) ou não (marasmo)? (4) se for problema de amamentação, **o que esvazia melhor a mama**? As questões ao final batem nesses pontos.`,
  secoes: [
   {h: `1. Aleitamento materno — o padrão-ouro e seus prazos`, c: `O leite materno é o alimento ideal para o lactente, e os **prazos** são cobrados de forma seca:
 - **Aleitamento materno exclusivo até os 6 meses** (só leite materno, sem água, chá ou outros alimentos).
@@ -2705,7 +2817,35 @@ A mensagem: o AVC agudo salva neurônios; a **prevenção secundária** salva o 
 **Por que é superior:** composição sob medida (proteína de fácil digestão, ácidos graxos para o cérebro), **fatores imunológicos** (IgA secretora, lactoferrina, oligossacarídeos que modelam a microbiota) que reduzem diarreia, otite e infecções respiratórias, além de proteção materna (menos câncer de mama/ovário) e vínculo.
 
 **Contraindicações verdadeiras (raras) — outra pegadinha:** HIV materno (no Brasil, contraindicado), HTLV, uso de **quimioterápicos/radioativos**, algumas drogas, e **galactosemia** no bebê. **Não** são contraindicações: a maioria das infecções comuns, mastite (manter a amamentação), a maioria dos medicamentos. Mãe que retorna ao trabalho deve ser orientada a **ordenhar e estocar** o leite, mantendo o aleitamento.`},
-  {h: `2. Alimentação complementar — quando e como introduzir`, c: `Aos **6 meses**, o leite materno deixa de suprir sozinho energia, ferro e zinco: começa a **alimentação complementar** (não "desmame" — o seio continua).
+  {h: `2. Aleitamento na prática — como o leite é produzido, pega, ordenha, retorno ao trabalho e intercorrências (ponto de erro)`, c: `Saber que "aleitamento exclusivo até 6 meses" é fácil. O que derruba na prova é o **manejo**: a vinheta traz uma mãe com uma dificuldade concreta e quatro condutas parecidas. Para não errar, é preciso entender **como o leite é feito**.
+
+**A fisiologia em duas hormonas.** A sucção do bebê estimula terminações do mamilo e envia um sinal ao hipotálamo, que produz duas respostas:
+- **Prolactina** (hipófise anterior) → **produz** leite. Quanto mais o peito é esvaziado, mais prolactina, mais leite. É por isso que a produção funciona por **oferta e demanda**: mama vazia manda produzir; mama cheia manda parar (há um peptídeo inibidor local no próprio leite acumulado).
+- **Ocitocina** (hipófise posterior) → **ejeta** o leite (reflexo de descida). É sensível à emoção: dor, ansiedade e insegurança **inibem** a ocitocina; ver/ouvir o bebê estimula.
+
+Conclusão prática que resolve metade das questões: **quase todo problema de "pouco leite" se trata esvaziando mais a mama (mamadas frequentes, pega correta, ordenha), não introduzindo fórmula.** Complementar sem necessidade reduz a sucção, reduz a prolactina e derruba de vez a produção — é a profecia autorrealizável do desmame.
+
+**Pega e posicionamento (a causa nº 1 de fissura e de "leite insuficiente").** Sinais de **pega correta**: boca bem aberta abocanhando **a aréola** (não só o mamilo), **lábio inferior evertido**, queixo tocando a mama, mais aréola visível acima do que abaixo da boca, bochechas arredondadas (sem covinhas), sucção lenta e profunda com deglutição audível, e **ausência de dor**. Dor persistente e mamilo saindo achatado/em bico = **pega errada**: corrigir a pega é a conduta, não suspender a mamada.
+
+**Sinais de que o leite está sendo suficiente** (a mãe sempre pergunta): **ganho de peso adequado**, **6 ou mais fraldas bem molhadas por dia**, urina clara, bebê ativo e satisfeito após mamar. Choro, mamadas frequentes e mama "mole" **não** significam leite fraco — aliás, **leite fraco não existe**: o leite do fim da mamada (posterior) é mais gorduroso e é o que sacia, por isso se esvazia **uma mama antes de oferecer a outra**.
+
+**Retorno ao trabalho — a vinheta que mais cai (e que você errou).** A orientação correta **nunca** é "desmamar" nem "iniciar fórmula porque a mãe vai trabalhar". É:
+- **Ordenhar o leite** (manualmente ou com bomba) no trabalho e em casa, começando a formar estoque 2–3 semanas antes do retorno;
+- **Armazenar** em frasco de vidro com tampa plástica, esterilizado: **geladeira até 12 horas** e **congelador/freezer até 15 dias**;
+- **Descongelar/aquecer em banho-maria desligado do fogo** (nunca micro-ondas, que aquece de forma desigual e destrói fatores imunológicos) e **não recongelar**;
+- Oferecer o leite ordenhado em **copinho/colher** (evita "confusão de bicos");
+- **Mamar antes de sair e assim que voltar**, e manter mamadas livres à noite e nos fins de semana;
+- **Direitos legais que a banca cobra:** licença-maternidade de **120 dias** (podendo ser prorrogada para 180 no Programa Empresa Cidadã) e **dois intervalos de 30 minutos por dia** para amamentar **até o bebê completar 6 meses** (CLT, art. 396); creche/sala de apoio à amamentação.
+
+**Intercorrências — o que fazer em cada uma (todas MANTÊM a amamentação):**
+- **Ingurgitamento mamário** (mama tensa, dolorosa, edemaciada, por volta do 3º–5º dia): **ordenhar** o excesso antes da mamada para amolecer a aréola, mamadas frequentes, compressas **frias** entre as mamadas (reduzem edema); analgésico se necessário. Não suspender.
+- **Fissura/trauma mamilar:** corrigir a **pega**, iniciar a mamada pela mama menos dolorida, passar o **próprio leite** no mamilo e deixar secar; não usar cremes desnecessários nem interromper.
+- **Mastite** (dor localizada, área endurecida, hiperemia, **febre e mal-estar**, geralmente unilateral): **manter o esvaziamento** (a estase é o que alimenta o processo), antibiótico com cobertura para **S. aureus** (cefalexina), analgésico e repouso. **Amamentar do lado afetado NÃO é contraindicado** — este é o erro clássico. Se evoluir com flutuação = **abscesso**: drenagem cirúrgica, e ainda assim se mantém a amamentação (na mama contralateral e, após drenagem, também na afetada).
+- **Candidíase mamilar:** dor em queimação/pontadas que persiste **após** a mamada, mamilo róseo e brilhante, com placas na boca do bebê: tratar **mãe e bebê** simultaneamente (nistatina/miconazol), sem interromper.
+- **"Crise de crescimento"** (por volta de 15 dias, 6 semanas e 3 meses): bebê mama muito mais por alguns dias. Conduta: **livre demanda** — em 2–3 dias a produção sobe. Nada de complemento.
+
+**Relactação:** mãe que já desmamou pode voltar a produzir com estímulo frequente (sucção/ordenha), inclusive com translactação (sonda no peito). Ou seja, mesmo o "acabou o leite" tem conduta antes da fórmula.`},
+  {h: `3. Alimentação complementar — quando e como introduzir`, c: `Aos **6 meses**, o leite materno deixa de suprir sozinho energia, ferro e zinco: começa a **alimentação complementar** (não "desmame" — o seio continua).
 
 **Como fazer (Guia Alimentar MS/SBP):**
 - Iniciar com a comida da família **amassada** (não liquidificada/peneirada), oferecendo consistência progressiva; a criança precisa aprender a mastigar.
@@ -2713,14 +2853,14 @@ A mensagem: o AVC agudo salva neurônios; a **prevenção secundária** salva o 
 - Refeições em número crescente ao longo dos meses, respeitando os sinais de fome/saciedade.
 
 **Erros comuns cobrados:** introduzir **açúcar, mel** (risco de botulismo < 1 ano), ultraprocessados, sucos e refrigerantes; usar mamadeira; oferecer leite de vaca integral como bebida principal antes de 1 ano (associa-se à anemia). A regra do Guia: **não oferecer açúcar antes dos 2 anos**.`},
-  {h: `3. Anemia ferropriva — a mais comum e a mais cobrada`, c: `**Por que acontece:** a **deficiência de ferro** é a carência nutricional mais prevalente na infância. O lactente nasce com reservas que se esgotam por volta dos **6 meses**; se a dieta não repõe ferro (aleitamento prolongado **sem diversificação**, introdução alimentar pobre, ou **excesso de leite de vaca** — que tem pouco ferro, e ainda causa microssangramento intestinal e compete com a absorção), instala-se a anemia.
+  {h: `4. Anemia ferropriva — a mais comum e a mais cobrada`, c: `**Por que acontece:** a **deficiência de ferro** é a carência nutricional mais prevalente na infância. O lactente nasce com reservas que se esgotam por volta dos **6 meses**; se a dieta não repõe ferro (aleitamento prolongado **sem diversificação**, introdução alimentar pobre, ou **excesso de leite de vaca** — que tem pouco ferro, e ainda causa microssangramento intestinal e compete com a absorção), instala-se a anemia.
 
 **Clínica:** palidez, irritabilidade, menor apetite, e, se arrastada, **prejuízo do desenvolvimento neuropsicomotor** (o ferro é essencial ao cérebro em formação). Laboratório: anemia **microcítica e hipocrômica**, **ferritina baixa** (marcador de estoque; sobe na inflamação), RDW alto.
 
 **Tratamento (a conduta que a banca cobra):** **manter o aleitamento materno**, **diversificar a alimentação** (carne, feijão, folhas verde-escuras, vitamina C para absorver o ferro não heme) e **suplementar ferro** em dose terapêutica (~3–5 mg/kg/dia de ferro elementar). **Nunca suspender o seio.** Reavaliar a hemoglobina; manter o ferro por alguns meses após normalizar, para repor estoques.
 
 **Profilaxia (PNSF):** suplementação de ferro para lactentes conforme o programa (a partir dos ~3–6 meses até 2 anos, com ajustes para prematuros/baixo peso, que começam mais cedo e em dose maior). É o "pulo do gato" das questões de conduta.`},
-  {h: `4. Vitamina A e o PNSVA — pergunta seca de programa`, c: `A **deficiência de vitamina A** ainda é problema de saúde pública em regiões vulneráveis e causa **xeroftalmia** (a principal causa evitável de cegueira infantil): cegueira noturna, **manchas de Bitot**, ressecamento e ulceração da córnea (ceratomalácia), além de maior gravidade de infecções (sarampo, diarreia).
+  {h: `5. Vitamina A e o PNSVA — pergunta seca de programa`, c: `A **deficiência de vitamina A** ainda é problema de saúde pública em regiões vulneráveis e causa **xeroftalmia** (a principal causa evitável de cegueira infantil): cegueira noturna, **manchas de Bitot**, ressecamento e ulceração da córnea (ceratomalácia), além de maior gravidade de infecções (sarampo, diarreia).
 
 **Programa Nacional de Suplementação de Vitamina A (PNSVA):**
 - **Grupo-alvo:** crianças de **6 a 59 meses** em áreas de risco.
@@ -2728,7 +2868,7 @@ A mensagem: o AVC agudo salva neurônios; a **prevenção secundária** salva o 
 - Também se suplementa em situações específicas (ex.: sarampo grave).
 
 A banca costuma perguntar **faixa etária (6–59 meses)**, **via (oral)** e **intervalo (semestral)** — decorar esses três dados resolve a questão.`},
-  {h: `5. Raquitismo carencial — deficiência de vitamina D (seu ponto de erro)`, c: `**O que é:** falha de **mineralização** da matriz óssea na criança em crescimento, mais comumente por **deficiência de vitamina D** (pouca exposição solar, baixa oferta, pele mais pigmentada, aleitamento exclusivo prolongado sem suplementação de vitamina D). Sem vitamina D, o intestino absorve pouco cálcio → o osso não mineraliza e fica "mole".
+  {h: `6. Raquitismo carencial — deficiência de vitamina D (seu ponto de erro)`, c: `**O que é:** falha de **mineralização** da matriz óssea na criança em crescimento, mais comumente por **deficiência de vitamina D** (pouca exposição solar, baixa oferta, pele mais pigmentada, aleitamento exclusivo prolongado sem suplementação de vitamina D). Sem vitamina D, o intestino absorve pouco cálcio → o osso não mineraliza e fica "mole".
 
 **Clínica (aparece com o crescimento/marcha):**
 - **Arqueamento dos membros inferiores** (geno varo) ou joelho valgo **após o início da marcha** — o peso deforma o osso mal mineralizado.
@@ -2739,7 +2879,7 @@ A banca costuma perguntar **faixa etária (6–59 meses)**, **via (oral)** e **i
 **Tratamento:** repor **vitamina D** (± cálcio conforme a oferta), corrigir a exposição solar/dieta; a resposta à vitamina D é boa no carencial. **Prevenção:** a SBP recomenda **suplementação de vitamina D** para todos os lactentes (desde os primeiros dias/semanas de vida) — dado de prova.
 
 **Diferencial importante:** o **raquitismo hipofosfatêmico** (ligado ao X, perda renal de fosfato) **não** responde só à vitamina D — precisa de **fosfato** (e calcitriol). Por isso o erro clássico é "tratar com fosfato isolado" o carencial (que quer vitamina D) — e vice-versa.`},
-  {h: `6. Desnutrição energético-proteica — marasmo × Kwashiorkor`, c: `A desnutrição grave tem duas faces clássicas (com formas mistas):
+  {h: `7. Desnutrição energético-proteica — marasmo × Kwashiorkor`, c: `A desnutrição grave tem duas faces clássicas (com formas mistas):
 
 - **Marasmo:** deficiência **global** e crônica de energia. Criança **muito magra**, perda intensa de massa muscular e gordura, "**carinha de velho**", nádegas pregueadas, **sem edema**, muito irritada/faminta. É a "fome que aparece".
 
@@ -2748,11 +2888,46 @@ A banca costuma perguntar **faixa etária (6–59 meses)**, **via (oral)** e **i
 **Classificação (OMS):** usa-se **peso/estatura (emagrecimento/wasting)**, **estatura/idade (nanismo/stunting crônico)** e **perímetro braquial**, além da presença de edema, para graduar a gravidade.
 
 **Manejo da desnutrição grave (OMS, resumido):** cuidado por fases — **estabilização** (tratar/prevenir **hipoglicemia, hipotermia, desidratação**; corrigir eletrólitos com cautela; tratar infecção; **não** iniciar dieta hiperproteica agressiva de imediato pelo risco de **síndrome de realimentação**) e depois **reabilitação** (recuperação nutricional gradual, com fórmulas específicas F-75/F-100). A pressa em "engordar" mata; a sequência correta salva.`},
-  {h: `7. Obesidade e DHGNA no adolescente — o outro lado da má nutrição`, c: `Má nutrição também é **excesso**. A **obesidade** infantojuvenil (IMC por idade acima do ponto de corte nas curvas da OMS) associa-se a **resistência insulínica**, dislipidemia, hipertensão e à **doença hepática gordurosa não alcoólica (DHGNA/esteatose)** — hoje a principal causa de doença hepática crônica no adolescente.
+  {h: `8. Obesidade e DHGNA no adolescente — o outro lado da má nutrição`, c: `Má nutrição também é **excesso**. A **obesidade** infantojuvenil (IMC por idade acima do ponto de corte nas curvas da OMS) associa-se a **resistência insulínica**, dislipidemia, hipertensão e à **doença hepática gordurosa não alcoólica (DHGNA/esteatose)** — hoje a principal causa de doença hepática crônica no adolescente.
 
 **Quando suspeitar de DHGNA:** adolescente obeso com **transaminases elevadas** (ALT) e/ou esteatose ao ultrassom; excluir outras hepatopatias. O tratamento base é **mudança de estilo de vida** (dieta, redução de açúcar/ultraprocessados, atividade física, perda de peso gradual) — não há "remédio mágico".
 
-**Rastreio metabólico** no obeso: pressão arterial, glicemia/insulina, perfil lipídico, transaminases. A mensagem de prova: na obesidade, a intervenção de 1ª linha é **comportamental/familiar**, e a esteatose regride com a perda de peso.`}
+**Rastreio metabólico** no obeso: pressão arterial, glicemia/insulina, perfil lipídico, transaminases. A mensagem de prova: na obesidade, a intervenção de 1ª linha é **comportamental/familiar**, e a esteatose regride com a perda de peso.`},
+  {h: `9. Quando não há leite materno — fórmulas e o perigo do leite de vaca`, c: `Quando a amamentação é impossível (contraindicação verdadeira, adoção, falha após todas as tentativas de manejo), a substituição tem regras:
+
+- **0 a 6 meses:** **fórmula infantil de partida** (identificada como "1"), que é leite de vaca modificado — proteína reduzida e ajustada, gordura e ferro corrigidos, sódio reduzido.
+- **6 a 12 meses:** **fórmula de seguimento** ("2"), em conjunto com a alimentação complementar.
+- **Leite de vaca integral antes de 1 ano é desaconselhado** — e essa é uma pergunta recorrente. Motivos: excesso de proteína e sódio (sobrecarga renal), **pouco ferro e ferro de baixa biodisponibilidade**, e **microssangramento intestinal** pela ação da proteína na mucosa do lactente. O resultado é **anemia ferropriva** (liga direto com a seção 4). Se, por questão socioeconômica, não houver alternativa, o MS orienta diluição nos primeiros meses e **suplementação de ferro e vitaminas** obrigatória.
+- **Nunca** usar leite de vaca in natura como bebida principal do lactente, nem "leites" vegetais caseiros (arroz, aveia, amêndoa) como substitutos — causam desnutrição proteico-energética e carências graves.
+
+**Alergia à proteína do leite de vaca (APLV):** o lactente com sangue nas fezes, cólicas, dermatite ou diarreia arrastada pode ter APLV. Conduta: **se em aleitamento materno, MANTER o seio e retirar leite e derivados da DIETA DA MÃE** (nunca desmamar); se em fórmula, trocar por **fórmula extensamente hidrolisada** (ou de aminoácidos nos casos graves) — fórmula de soja e leite de outros mamíferos (cabra) não servem como primeira escolha no lactente pequeno pela reatividade cruzada.`},
+  {h: `10. Os outros micronutrientes que a prova cobra — vitamina D, zinco, iodo e B12`, c: `Além de ferro e vitamina A, quatro carências caem com frequência:
+
+- **Vitamina D:** a SBP recomenda **suplementação de 400 UI/dia desde a primeira semana de vida até os 12 meses**, e **600 UI/dia dos 12 aos 24 meses**, **para TODAS as crianças, inclusive as em aleitamento exclusivo** (o leite materno é pobre em vitamina D). Prematuros podem precisar de doses maiores. Sem essa suplementação instala-se o raquitismo carencial (seção 6). Banho de sol como estratégia isolada não é mais recomendado para lactentes < 6 meses (risco de dano actínico).
+- **Ferro (PNSF):** profilaxia com **1 mg/kg/dia** de ferro elementar do **6º ao 24º mês** para o lactente a termo com peso adequado (ou a partir do 3º mês se a alimentação complementar começou antes / se não estiver em aleitamento exclusivo); **prematuros e/ou baixo peso** começam **aos 30 dias de vida**, com dose maior (2–4 mg/kg/dia conforme o peso ao nascer), por 1 ano, e depois seguem 1 mg/kg/dia no segundo ano. Não confundir com a dose **terapêutica** da anemia instalada (3–5 mg/kg/dia).
+- **Zinco:** a deficiência causa **diarreia prolongada, dermatite periorificial e acral, alopecia, atraso de crescimento e queda da imunidade**. A OMS/MS recomenda **zinco por 10–14 dias em toda diarreia aguda** da criança < 5 anos (reduz duração e gravidade). A forma genética grave é a **acrodermatite enteropática**.
+- **Iodo:** a carência materna/infantil causa **bócio e, no feto, hipotireoidismo com déficit cognitivo (cretinismo)** — a causa mais comum de deficiência intelectual evitável no mundo. Prevenção populacional: **sal iodado**.
+- **Vitamina B12:** filho de **mãe vegana estrita sem suplementação** pode desenvolver, por volta dos 4–6 meses, **hipotonia, regressão do desenvolvimento, palidez e anemia megaloblástica**. Conduta: repor B12 e suplementar a mãe. É uma vinheta clássica que liga nutrição e neurologia.`},
+  {h: `11. Metabolismo: quando a nutrição não explica — suspeitar de erro inato`, c: `Nem toda criança que "não ganha peso" ou "regride" tem carência alimentar. Alguns quadros são **erros inatos do metabolismo (EIM)** — falhas enzimáticas hereditárias que fazem acumular um substrato tóxico ou faltar um produto essencial.
+
+**Quando suspeitar (bandeiras vermelhas):**
+- Recém-nascido que **estava bem** e, após começar a mamar, evolui com **recusa alimentar, vômitos, letargia, hipotonia, taquipneia e coma** — quadro "tipo sepse" que não responde a antibiótico;
+- **Hipoglicemia** de difícil controle, **acidose metabólica com ânion gap alargado**, **hiperamonemia**, cetose desproporcional;
+- **Odor peculiar** (urina em xarope de bordo na leucinose; "pé suado" na acidemia isovalérica);
+- **Regressão de marcos**, convulsões refratárias, hepatomegalia, consanguinidade ou **irmão falecido no período neonatal sem causa esclarecida**.
+
+**Conduta inicial diante da suspeita:** **suspender a oferta da proteína/substrato**, oferecer **glicose endovenosa** para bloquear o catabolismo, corrigir acidose, dosar **amônia, gasometria, glicemia, lactato, cetonas** e colher amostras para triagem ampliada; tratar precipitantes. Ou seja: **jejum do substrato + aporte energético alto**.
+
+**Ponte com a triagem neonatal:** o "teste do pezinho" do SUS, hoje ampliado por etapas, detecta entre outras a **fenilcetonúria** (dieta com restrição de fenilalanina — o não tratamento leva a deficiência intelectual grave), o **hipotireoidismo congênito** (levotiroxina precoce), a **fibrose cística**, a **hiperplasia adrenal congênita**, a **deficiência de biotinidase** e as **hemoglobinopatias**. A mensagem: **o dano é evitável apenas se o tratamento começar nas primeiras semanas** — por isso a coleta ideal é entre o **3º e o 5º dia de vida**.
+
+**Galactosemia** merece destaque porque une os dois temas do módulo: é a rara doença metabólica em que o **leite materno é contraindicado** (a lactose do leite fornece galactose, que se acumula e causa hepatopatia, catarata e sepse por E. coli); usa-se fórmula sem lactose/à base de soja.`},
+  {h: `12. O algoritmo em sete frases (leve isto para a prova)`, c: `- **Toda vinheta de nutrição começa perguntando: a conduta MANTÉM o aleitamento?** Na dúvida entre alternativas, a que suspende o seio quase sempre está errada (exceções verdadeiras: HIV/HTLV, galactosemia, quimioterápico/radioativo).
+- **Mãe voltando ao trabalho** = ordenha + armazenamento (12 h geladeira / 15 dias freezer) + copinho + direito a 2 pausas de 30 min até os 6 meses. Nunca "iniciar fórmula".
+- **Dor, fissura, ingurgitamento, mastite** = corrigir pega e **esvaziar** a mama; mastite ainda amamenta, com antibiótico anti-estafilocócico.
+- **Lactente pálido, com leite de vaca em excesso ou dieta pobre** = ferropriva: manter seio, diversificar e **suplementar ferro 3–5 mg/kg/dia**; profilaxia é 1 mg/kg/dia dos 6 aos 24 meses (prematuro começa aos 30 dias).
+- **Pernas arqueadas após a marcha + FA alta, fósforo baixo, PTH alto** = raquitismo carencial → **vitamina D** (e lembre: profilaxia 400 UI/dia desde a 1ª semana).
+- **Tem edema?** Kwashiorkor. **Não tem, é só magreza extrema?** Marasmo. Na grave, primeiro estabilizar (hipoglicemia, hipotermia, desidratação, infecção) e realimentar **devagar**.
+- **Recém-nascido "séptico" que não responde a antibiótico, com hipoglicemia/acidose/hiperamonemia** = pense **erro inato**: cortar o substrato e infundir glicose.`}
  ],
  flashcards: [
   {p: `Prazos do aleitamento (SBP/OMS)?`, r: `Exclusivo até 6 meses; complementado até 2 anos ou mais.`},
@@ -2765,7 +2940,24 @@ A banca costuma perguntar **faixa etária (6–59 meses)**, **via (oral)** e **i
   {p: `Tratamento do raquitismo carencial x hipofosfatêmico?`, r: `Carencial: vitamina D (± cálcio). Hipofosfatêmico (ligado ao X): fosfato + calcitriol (não responde só a vit. D).`},
   {p: `O que define o Kwashiorkor?`, r: `Edema (+ dermatose, cabelo despigmentado, hepatomegalia); marasmo é magreza extrema SEM edema.`},
   {p: `Maior risco ao realimentar a desnutrição grave?`, r: `Síndrome de realimentação (hipofosfatemia/hipocalemia); iniciar dieta gradual, corrigir hipoglicemia/hipotermia/desidratação primeiro.`},
-  {p: `1ª linha no adolescente obeso com DHGNA?`, r: `Mudança de estilo de vida (dieta, atividade física, perda de peso); esteatose regride com emagrecimento.`}
+  {p: `1ª linha no adolescente obeso com DHGNA?`, r: `Mudança de estilo de vida (dieta, atividade física, perda de peso); esteatose regride com emagrecimento.`},
+  {p: `Qual hormônio PRODUZ e qual EJETA o leite?`, r: `Prolactina produz (estimulada pelo esvaziamento); ocitocina ejeta (inibida por dor e ansiedade).`},
+  {p: `Sinais de pega correta?`, r: `Boca bem aberta na aréola, lábio inferior evertido, queixo tocando a mama, mais aréola acima que abaixo, sucção lenta com deglutição e SEM dor.`},
+  {p: `Como saber se o leite é suficiente?`, r: `Ganho de peso adequado e 6+ fraldas bem molhadas por dia — não pelo choro nem pela mama "mole".`},
+  {p: `Tempo de armazenamento do leite ordenhado?`, r: `Geladeira até 12 horas; freezer até 15 dias. Descongelar em banho-maria fora do fogo; nunca micro-ondas, nunca recongelar.`},
+  {p: `Direitos legais da mãe que amamenta (CLT)?`, r: `Licença de 120 dias (180 no Empresa Cidadã) e dois intervalos de 30 minutos por dia até o bebê completar 6 meses.`},
+  {p: `Conduta na mastite puerperal?`, r: `MANTER a amamentação/esvaziamento + antibiótico anti-estafilocócico (cefalexina) + analgesia; drenar se abscesso.`},
+  {p: `Conduta no ingurgitamento mamário?`, r: `Ordenhar para amolecer a aréola, mamadas frequentes e compressas FRIAS entre as mamadas.`},
+  {p: `Bebê mamando muito mais por 2–3 dias aos 15 dias/6 semanas/3 meses?`, r: `Crise de crescimento — livre demanda, sem complemento.`},
+  {p: `Profilaxia de vitamina D pela SBP?`, r: `400 UI/dia da 1ª semana aos 12 meses e 600 UI/dia dos 12 aos 24 meses, para TODAS as crianças, inclusive em aleitamento exclusivo.`},
+  {p: `Profilaxia de ferro (PNSF): dose e período?`, r: `1 mg/kg/dia dos 6 aos 24 meses no termo com peso adequado; prematuro/baixo peso inicia aos 30 dias com 2–4 mg/kg/dia.`},
+  {p: `Conduta na APLV do lactente em aleitamento materno?`, r: `Manter o seio e retirar leite e derivados da dieta da MÃE; se em fórmula, usar extensamente hidrolisada (soja não é 1ª escolha).`},
+  {p: `Por que evitar leite de vaca antes de 1 ano?`, r: `Pouco ferro de baixa biodisponibilidade, microssangramento intestinal e sobrecarga proteico-renal → anemia ferropriva.`},
+  {p: `Quando dar zinco na diarreia?`, r: `Toda diarreia aguda em menor de 5 anos: zinco por 10–14 dias (reduz duração e gravidade).`},
+  {p: `Lactente de mãe vegana estrita com hipotonia e regressão aos 4–6 meses?`, r: `Deficiência de vitamina B12 (anemia megaloblástica) — repor no bebê e suplementar a mãe.`},
+  {p: `Bandeiras de erro inato do metabolismo no RN?`, r: `Quadro "tipo sepse" que não responde a antibiótico, hipoglicemia, acidose com ânion gap, hiperamonemia, odor peculiar, irmão falecido sem causa.`},
+  {p: `Conduta inicial na suspeita de erro inato?`, r: `Suspender o substrato (proteína/leite) + glicose EV para bloquear o catabolismo + dosar amônia/gaso/lactato.`},
+  {p: `Qual doença metabólica contraindica o leite materno?`, r: `Galactosemia (usar fórmula sem lactose/soja).`}
  ],
  pegadinhas: [
   `Anemia ferropriva: NUNCA suspender o aleitamento — manter seio + diversificar + suplementar ferro.`,
@@ -2777,18 +2969,33 @@ A banca costuma perguntar **faixa etária (6–59 meses)**, **via (oral)** e **i
   `Na desnutrição grave, não iniciar dieta hiperproteica agressiva de imediato — risco de síndrome de realimentação.`,
   `Excesso de leite de vaca antes de 1 ano → anemia ferropriva (pouco ferro + microssangramento).`,
   `PNSVA é 6–59 meses, oral, semestral; PNSF (ferro) é profilaxia de rotina no lactente.`,
-  `Ferritina é marcador de estoque de ferro, mas sobe na inflamação (pode mascarar ferropenia).`
+  `Ferritina é marcador de estoque de ferro, mas sobe na inflamação (pode mascarar ferropenia).`,
+  `Retorno ao trabalho NÃO é indicação de fórmula nem de desmame — é ordenha + estoque + copinho + pausas legais.`,
+  `Mastite: amamentar do lado afetado é parte do tratamento (a estase piora); suspender é o erro clássico.`,
+  `Leite ordenhado: 12 h na geladeira, 15 dias no freezer; nunca micro-ondas e nunca recongelar.`,
+  `"Leite fraco" não existe — o leite posterior é o gorduroso; esvaziar uma mama antes de oferecer a outra.`,
+  `Dor persistente ao mamar = pega errada; a conduta é corrigir a pega, não interromper.`,
+  `Vitamina D é para TODOS os lactentes, inclusive em aleitamento exclusivo (400 UI/dia desde a 1ª semana).`,
+  `Prematuro/baixo peso começa ferro profilático aos 30 dias, não aos 6 meses.`,
+  `APLV em aleitamento: retirar o leite da dieta da MÃE — nunca desmamar; fórmula de soja não é 1ª escolha.`,
+  `RN com "sepse" que não melhora com antibiótico + hipoglicemia/hiperamonemia: pense erro inato do metabolismo.`,
+  `Galactosemia é a exceção real em que se contraindica o leite materno.`
  ],
  diretrizes: [
   `Sociedade Brasileira de Pediatria — Guias de Aleitamento Materno e de Alimentação da Criança (introdução alimentar; suplementação de vitamina D e ferro).`,
   `Ministério da Saúde — Guia Alimentar para Crianças Brasileiras Menores de 2 Anos; Programa Nacional de Suplementação de Ferro (PNSF); Programa Nacional de Suplementação de Vitamina A (PNSVA).`,
-  `OMS — Manejo da Desnutrição Aguda Grave (F-75/F-100; classificação por peso/estatura, estatura/idade e edema). Material do Drive (Nutrição em Pediatria — ver materiais_drive.md).`
+  `OMS — Manejo da Desnutrição Aguda Grave (F-75/F-100; classificação por peso/estatura, estatura/idade e edema). Material do Drive (Nutrição em Pediatria — ver materiais_drive.md).`,
+  `SBP — Manual de Aleitamento Materno (manejo clínico da lactação, ordenha e armazenamento, intercorrências) e Consenso de Suplementação de Vitamina D e Ferro; MS — Caderno de Atenção Básica "Saúde da Criança: Aleitamento Materno e Alimentação Complementar"; CLT art. 392 e 396 (licença e pausas para amamentação).`,
+  `MS — Programa Nacional de Triagem Neonatal (teste do pezinho ampliado) e SBP — Erros Inatos do Metabolismo: quando suspeitar e conduta inicial. Nelson, Tratado de Pediatria — Nutrição e Distúrbios Metabólicos.`
  ],
  questoes: [
   {enunciado: `Lactente de 11 meses, em aleitamento materno prolongado sem diversificação alimentar adequada, apresenta palidez e anemia microcítica/hipocrômica com ferritina baixa. Qual a conduta correta?`, alternativas: {a: `Suspender o aleitamento e iniciar fórmula`, b: `Manter aleitamento, diversificar a dieta e suplementar ferro`, c: `Apenas orientar dieta, sem suplementar`, d: `Transfusão de concentrado de hemácias`}, correta: "b", comentario: `A anemia ferropriva por inadequação alimentar se trata mantendo o leite materno (que não é o vilão — o problema é a falta de diversificação/fontes de ferro), diversificando a dieta (carne, feijão, folhas, vitamina C) e suplementando ferro terapêutico (~3–5 mg/kg/dia). Suspender o seio é erro clássico. Só orientar dieta, sem repor ferro, não corrige a anemia já instalada. Transfusão só em anemia grave sintomática/instabilidade, não neste caso. Lembrar da profilaxia de ferro (PNSF) como medida universal.`, foco: `Anemia ferropriva — conduta (seu ponto de erro)`},
   {enunciado: `Criança de 18 meses com arqueamento das pernas após início da marcha, alargamento de punhos e rosário raquítico. Exames: cálcio normal-baixo, fósforo baixo, fosfatase alcalina elevada, PTH alto e 25-OH-vitamina D baixa. Qual o tratamento?`, alternativas: {a: `Reposição de vitamina D (± cálcio)`, b: `Fosfato oral isolado`, c: `Restrição de cálcio na dieta`, d: `Bifosfonato`}, correta: "a", comentario: `O quadro clínico e laboratorial é de raquitismo carencial por deficiência de vitamina D (vit. D baixa, fósforo baixo, FA alta, PTH alto por hiperparatireoidismo secundário). O tratamento é repor vitamina D (± cálcio) e corrigir exposição solar/dieta, com boa resposta. Fosfato isolado é o tratamento do raquitismo hipofosfatêmico ligado ao X (que não responde só à vitamina D) — usá-lo aqui é o erro clássico. Restringir cálcio ou dar bifosfonato pioraria/não trata. Prevenção: suplementar vitamina D em todos os lactentes.`, foco: `Raquitismo carencial — vitamina D`},
   {enunciado: `Criança de 2 anos com edema de membros inferiores, dermatose descamativa, cabelo fino e despigmentado e hepatomegalia, em dieta pobre em proteínas. Qual o diagnóstico?`, alternativas: {a: `Marasmo`, b: `Kwashiorkor`, c: `Síndrome nefrótica`, d: `Obesidade`}, correta: "b", comentario: `Edema + dermatose + cabelo despigmentado ("sinal da bandeira") + hepatomegalia (esteatose) em dieta deficiente em proteína caracterizam o Kwashiorkor (desnutrição proteica). O marasmo é magreza extrema, sem edema ("carinha de velho"). A síndrome nefrótica também dá edema, mas o contexto é de proteinúria maciça/hipoalbuminemia renal, não de carência dietética com dermatose e cabelo despigmentado. No manejo, cuidado com a síndrome de realimentação: estabilizar (hipoglicemia, hipotermia, desidratação, infecção) antes da recuperação nutricional gradual.`, foco: `Desnutrição — Kwashiorkor`},
-  {enunciado: `Sobre o Programa Nacional de Suplementação de Vitamina A (PNSVA), assinale a alternativa correta quanto a grupo-alvo, via e intervalo:`, alternativas: {a: `0 a 6 meses, intramuscular, dose única`, b: `6 a 59 meses, via oral, a cada ~6 meses`, c: `2 a 10 anos, via oral, mensal`, d: `Todas as gestantes, via oral, diária`}, correta: "b", comentario: `O PNSVA suplementa crianças de 6 a 59 meses em áreas de risco, com megadose de vitamina A por via oral, em intervalos semestrais (a cada ~6 meses), nas UBS/campanhas. A deficiência de vitamina A causa xeroftalmia (cegueira noturna, manchas de Bitot, ceratomalácia) e agrava infecções (sarampo). As demais opções erram faixa etária, via ou periodicidade. É uma questão de programa: decore grupo-alvo (6–59 m), via (oral) e intervalo (semestral).`, foco: `Vitamina A / PNSVA (programa)`}
+  {enunciado: `Sobre o Programa Nacional de Suplementação de Vitamina A (PNSVA), assinale a alternativa correta quanto a grupo-alvo, via e intervalo:`, alternativas: {a: `0 a 6 meses, intramuscular, dose única`, b: `6 a 59 meses, via oral, a cada ~6 meses`, c: `2 a 10 anos, via oral, mensal`, d: `Todas as gestantes, via oral, diária`}, correta: "b", comentario: `O PNSVA suplementa crianças de 6 a 59 meses em áreas de risco, com megadose de vitamina A por via oral, em intervalos semestrais (a cada ~6 meses), nas UBS/campanhas. A deficiência de vitamina A causa xeroftalmia (cegueira noturna, manchas de Bitot, ceratomalácia) e agrava infecções (sarampo). As demais opções erram faixa etária, via ou periodicidade. É uma questão de programa: decore grupo-alvo (6–59 m), via (oral) e intervalo (semestral).`, foco: `Vitamina A / PNSVA (programa)`},
+  {enunciado: `Mãe de lactente de 4 meses, em aleitamento materno exclusivo, retornará ao trabalho em duas semanas e pergunta o que fazer. Qual a orientação correta?`, alternativas: {a: `Iniciar fórmula infantil e reduzir as mamadas`, b: `Ordenhar e armazenar o leite, mantendo o aleitamento`, c: `Introduzir papa de frutas e água nos intervalos`, d: `Desmamar gradualmente antes do retorno`}, correta: "b", comentario: `Retorno ao trabalho não é indicação de desmame nem de fórmula — é uma questão de manejo. A orientação é começar a ordenhar 2–3 semanas antes, armazenar em frasco de vidro esterilizado (geladeira até 12 horas, freezer até 15 dias), descongelar em banho-maria fora do fogo (nunca micro-ondas, que aquece de forma desigual e destrói fatores imunológicos), oferecer em copinho ou colher para evitar confusão de bicos, mamar antes de sair e ao voltar, e manter livre demanda à noite e nos fins de semana. Vale reforçar os direitos: licença-maternidade de 120 dias (180 no Empresa Cidadã) e dois intervalos de 30 minutos por dia para amamentar até os 6 meses. Introduzir fórmula reduz a sucção, derruba a prolactina e leva ao desmame — exatamente o que se quer evitar. Alimentos e água antes dos 6 meses quebram a exclusividade e aumentam risco de infecção e de anemia.`, foco: `Aleitamento e retorno ao trabalho (ponto de erro)`},
+  {enunciado: `Puérpera de 20 dias com dor em mama direita, área endurecida e hiperemiada, febre de 38,7 °C e mal-estar. Qual a conduta?`, alternativas: {a: `Suspender a amamentação na mama afetada e ordenhar apenas a contralateral`, b: `Manter a amamentação, esvaziar a mama e prescrever cefalexina`, c: `Enfaixar as mamas e iniciar cabergolina`, d: `Compressas quentes e observação, sem antibiótico`}, correta: "b", comentario: `O quadro é mastite puerperal, quase sempre por Staphylococcus aureus, e a estase láctea é o motor do processo — por isso o esvaziamento eficaz (mamada frequente do lado afetado, complementada por ordenha) faz parte do tratamento, junto com antibiótico anti-estafilocócico (cefalexina), analgesia, repouso e hidratação. Suspender a mamada do lado doente aumenta a estase e favorece a evolução para abscesso: é o erro clássico. Enfaixar mamas e usar cabergolina é supressão da lactação, sem indicação aqui. Só compressas e observação subestimam a infecção sistêmica já instalada (febre e mal-estar). Se surgir área flutuante, pensar em abscesso e indicar drenagem — mesmo assim mantendo a amamentação.`, foco: `Intercorrências da amamentação — mastite`},
+  {enunciado: `Recém-nascido a termo, previamente bem, com 4 dias de vida apresenta recusa alimentar, vômitos, letargia e taquipneia após início das mamadas. Gasometria com acidose metabólica e ânion gap elevado, amônia sérica muito aumentada, hemoculturas em andamento e sem melhora com antibiótico. Qual a conduta inicial mais adequada?`, alternativas: {a: `Aumentar a oferta proteica para melhorar o aporte calórico`, b: `Suspender a oferta proteica e infundir glicose endovenosa`, c: `Iniciar corticoide em dose de estresse`, d: `Aguardar o resultado da triagem neonatal para qualquer conduta`}, correta: "b", comentario: `Recém-nascido que estava bem e piora ao iniciar a alimentação, com quadro "tipo sepse" refratário a antibiótico, hipoglicemia/acidose com ânion gap alargado e hiperamonemia, é a apresentação clássica de erro inato do metabolismo (acidemias orgânicas, distúrbios do ciclo da ureia). A conduta imediata é bloquear a via: suspender o substrato proteico e ofertar glicose endovenosa em alta taxa para interromper o catabolismo, além de corrigir a acidose, tratar precipitantes e coletar amônia, gasometria, lactato, cetonas e amostras para triagem ampliada; casos graves de hiperamonemia podem exigir diálise e quelantes de amônia. Aumentar proteína agrava diretamente a intoxicação. Corticoide não tem papel. Esperar a triagem é perder a janela em que o dano neurológico ainda é evitável — o tratamento é empírico e imediato.`, foco: `Erro inato do metabolismo — conduta inicial`}
  ]
 },
 "NEURO|ELA": {
@@ -3359,7 +3566,7 @@ Segunda: **a melhor RCP é a que não precisa acontecer** — reconhecer e trata
 "PED|Cardiologia": {
  titulo: `Cardiopatias congênitas na infância`,
  half: "PED",
- resumo: `Cardiopatia congênita é o defeito de nascimento mais comum e um campo em que a prova adora derrubar quem decorou nomes soltos. Este texto reconstrói o assunto do zero: o que muda no coração de um bebê, por que alguns ficam roxos e outros só cansam para mamar, e um caminho de raciocínio (cianótica x acianótica → shunt → exame → exame de escolha → conduta) que liga as quatro cardiopatias que a banca mais cobra. O objetivo é que você chegue no diagnóstico pela fisiopatologia, não pelo chute.`,
+ resumo: `Cardiopatia congênita é o defeito de nascimento mais comum e um campo em que a prova adora derrubar quem decorou nomes soltos. Este texto reconstrói o assunto do zero: o que muda no coração de um bebê, por que alguns ficam roxos e outros só cansam para mamar, e um caminho de raciocínio (cianótica x acianótica → shunt → exame → exame de escolha → conduta) que liga as quatro cardiopatias que a banca mais cobra. O objetivo é que você chegue no diagnóstico pela fisiopatologia, não pelo chute. O texto avança ainda para a insuficiência cardíaca do lactente, as cardiopatias canal-dependentes (coarctação e o recém-nascido em choque), as arritmias (TSV), miocardite/pericardite, dor torácica e síncope, e as síndromes genéticas com suas cardiopatias.`,
  fontes: `Base: Sociedade Brasileira de Pediatria (SBP) — Cardiologia pediátrica; Nelson Tratado de Pediatria (cardiopatias congênitas); apostila R+ Pediatria MEDGRUPO — Cardiopatias congênitas (ver materiais_drive.md). Diretrizes de manejo do canal arterial e triagem do "teste do coentinho" (oximetria neonatal) do MS/SBP.`,
  notaErro: `A cardiopatia congênita erra por três motivos, e este texto foi montado para desarmar cada um:
 
@@ -3369,7 +3576,11 @@ Segunda: **a melhor RCP é a que não precisa acontecer** — reconhecer e trata
 
 - **Você não sabe a evolução natural de cada uma.** A pergunta final costuma ser de conduta ("fecha sozinho?", "opera quando?", "o que fazer na crise?"). Confundir a CIV pequena (que pode fechar sozinha) com a Tetralogia (que precisa de cirurgia) é o erro que mais custa ponto.
 
-**Como zerar:** decore o fluxograma da seção 8 (roxo x cansado → fluxo pulmonar → 4 nomes) e ancore cada cardiopatia em UM gatilho de conduta. Quem domina "eco é o exame de escolha" + "canal-dependente pede prostaglandina" + "crise hipoxêmica pede joelho-tórax/O2/morfina" acerta a grande maioria das questões deste tema.`,
+- **Você só pensa em cardiopatia quando a criança está roxa.** A maior parte das perguntas de conduta grave, porém, é sobre o bebê **branco**: o lactente em **insuficiência cardíaca** (sua para mamar, taquipneico, **hepatomegalia**, baixo ganho de peso) e o recém-nascido em **choque canal-dependente** (coarctação/obstrução esquerda), que **imita sepse** e morre se receber só volume e antibiótico. As seções 8 e 9 foram escritas para você reconhecer esses dois quadros de olhos fechados — e lembrar que **prostaglandina abre** e **indometacina fecha** o canal.
+
+- **Você não tem um plano para a criança taquicárdica ou que desmaia.** TSV do lactente (FC fixa > 220, QRS estreito → gelo na face, depois adenosina; instável = cardioversão), miocardite pós-viral (taquicardia desproporcional + hepatomegalia + troponina) e síncope **durante o esforço** são pontos em que a banca separa quem tem conduta de quem tem só nome de doença (seções 10 a 12).
+
+**Como zerar:** decore o fluxograma da seção 14 (roxo x cansado → fluxo pulmonar → 4 nomes) e ancore cada cardiopatia em UM gatilho de conduta. Quem domina "eco é o exame de escolha" + "canal-dependente pede prostaglandina" + "crise hipoxêmica pede joelho-tórax/O2/morfina" acerta a grande maioria das questões deste tema. Acrescente três âncoras novas: "hepatomegalia = IC no lactente", "pulso femoral ausente = coarctação" e "FC fixa > 220 no lactente = TSV".`,
  secoes: [
   {h:`1. Comece pelo começo: o que é uma cardiopatia congênita`, c:`**Cardiopatia congênita** é uma malformação na estrutura do coração ou dos grandes vasos que já nasce com a criança (surge na formação do coração, nas primeiras semanas de gestação). É a malformação congênita mais frequente: cerca de **8 a 10 a cada 1.000 nascidos vivos**.
 
@@ -3425,12 +3636,105 @@ A pegadinha máxima do Fallot é a **crise hipoxêmica (crise de cianose)**: o b
 - **ECG:** mostra sobrecarga de câmaras; complementar.
 - **Oximetria de pulso pré e pós-ductal (teste do coraçãozinho / "teste do coentinho"):** triagem neonatal obrigatória, feita entre 24–48 h de vida, para detectar cardiopatias críticas antes da alta. Saturação < 95% ou diferença > 3% entre membro superior direito e inferior é alterada e obriga eco.
 - **Cateterismo cardíaco:** reservado para casos selecionados/intervenção, não é rotina diagnóstica.`},
-  {h:`8. O algoritmo em seis frases (leve para a prova)`, c:`- **Roxo ou cansado?** Roxo = cianótica (shunt D→E). Cansado/suado para mamar = acianótica com hiperfluxo (shunt E→D).
+  {h: `8. Insuficiência cardíaca no lactente — como ela se apresenta (e por que você não a reconhece)`, c: `A insuficiência cardíaca (IC) da criança **não se parece** com a do adulto. O lactente não relata dispneia nem ortopneia: ele **mostra** o cansaço de outro jeito.
+
+**O que é:** incapacidade do coração de entregar débito suficiente. No lactente, a causa mais comum é o **hiperfluxo pulmonar** de uma cardiopatia com shunt E→D grande (CIV ampla, canal AV, PCA volumoso), que costuma se manifestar entre a **6ª e a 8ª semana de vida** — e não ao nascer. Por quê? Porque a **resistência vascular pulmonar do recém-nascido é alta** e vai caindo nas primeiras semanas; quando ela cai, o shunt aumenta e o pulmão "inunda". Esse detalhe fisiológico explica a vinheta clássica do "bebê que nasceu bem e piorou com 1–2 meses".
+
+**A tríade de apresentação:**
+- **Sinais de baixo débito e esforço aumentado ao mamar:** mama pouco e por pouco tempo, **sudorese fria na fronte durante a mamada** (descarga adrenérgica), pausas para respirar, irritabilidade, **baixo ganho de peso** (a criança gasta calorias respirando).
+- **Congestão pulmonar:** **taquipneia**, tiragem, sibilância ("asma cardíaca"), **infecções respiratórias de repetição**.
+- **Congestão sistêmica:** **hepatomegalia** — o sinal mais confiável de congestão no lactente — e edema palpebral. **Turgência jugular e edema de membros praticamente não aparecem** no lactente; procurar por eles é o erro semiológico do tema.
+
+Outros achados: taquicardia persistente, ritmo de galope (B3), cardiomegalia na radiografia com trama vascular pulmonar aumentada.
+
+**Tratamento (base):**
+- **Diurético** — furosemida é o carro-chefe para descongestionar;
+- **Vasodilatador/IECA** (captopril, enalapril) — reduz a pós-carga e o shunt E→D;
+- **Suporte nutricional agressivo** — a criança precisa de **mais calorias em menos volume** (fórmula/leite adensado, às vezes sonda), porque o gasto é alto e a tolerância a volume é baixa;
+- **Digoxina** em casos selecionados; **betabloqueador** (carvedilol) na cardiomiopatia;
+- **Tratar a causa**: corrigir cirurgicamente a cardiopatia é o que resolve. Sem correção no tempo certo, evolui para hipertensão pulmonar e **Eisenmenger** (seção 5).
+
+Regra de ouro para a prova: **lactente que sua e cansa para mamar, com baixo ganho de peso, taquipneia e hepatomegalia = insuficiência cardíaca por cardiopatia com hiperfluxo, até prova em contrário** — não é "só bronquiolite de repetição".`},
+  {h: `9. Coarctação da aorta e as cardiopatias canal-dependentes — o recém-nascido que choca`, c: `Há um grupo de cardiopatias em que o bebê **depende do canal arterial** para sobreviver. Enquanto o canal está aberto (primeiros dias), a criança parece normal; quando ele fecha — tipicamente entre o **3º dia e a 2ª semana** — o quadro despenca. Reconhecer isso é o que separa a alta fatal do diagnóstico salvador.
+
+**Dois tipos de dependência:**
+- **Canal-dependente para o FLUXO PULMONAR** (atresia pulmonar, Fallot extremo, atresia tricúspide): o pulmão só recebe sangue pelo canal. Ao fechar → **cianose intensa progressiva**.
+- **Canal-dependente para o FLUXO SISTÊMICO** (coarctação grave, interrupção do arco aórtico, estenose aórtica crítica, **síndrome de hipoplasia do coração esquerdo**): o corpo abaixo do canal só é perfundido por ele. Ao fechar → **choque**, acidose metabólica, pulsos femorais ausentes, oligúria, palidez acinzentada — um quadro que **imita sepse neonatal**.
+
+**Coarctação da aorta em detalhe.** É um estreitamento da aorta, quase sempre **justaductal** (perto da inserção do canal). Consequências:
+- **Hipertensão nos membros superiores** e **hipofluxo nos inferiores** → **pulsos femorais fracos ou ausentes**, **diferença de PA > 20 mmHg** entre braço e perna, extremidades inferiores frias, atraso do pulso femoral em relação ao radial ("delay braquiofemoral").
+- Na criança maior: HAS de difícil controle, cefaleia, claudicação nas pernas, sopro sistólico interescapular e, na radiografia, **erosões costais (rib notching)** pela circulação colateral e o **sinal do "3"** no contorno aórtico.
+- **Associações:** **valva aórtica bicúspide** (a mais frequente) e **síndrome de Turner** — toda menina baixa com pescoço alado e HAS pede aferição de pulsos e PA nos quatro membros.
+
+**Conduta na suspeita de cardiopatia canal-dependente (a sequência que salva):**
+1. **Prostaglandina E1 (alprostadil) em infusão contínua** para **reabrir/manter o canal** — é o passo que estabiliza. Efeitos adversos a antecipar: **apneia** (deixar material de intubação à mão), febre, hipotensão, rubor.
+2. Suporte: acesso, corrigir acidose e hipoglicemia, evitar **oxigênio em excesso** (o O₂ é vasodilatador pulmonar e ajuda a fechar o canal — nas obstruções esquerdas, hiperoxigenar rouba fluxo do corpo para o pulmão e piora o choque);
+3. **Ecocardiograma** de urgência e transferência para centro cirúrgico.
+
+**Não confunda:** **prostaglandina ABRE** o canal (cardiopatia canal-dependente); **indometacina/ibuprofeno FECHAM** (PCA sintomática do prematuro). Trocar os dois é o erro mais caro do tema.
+
+**Triagem que evita a tragédia:** o **teste do coraçãozinho** (oximetria pré e pós-ductal entre 24 e 48 h de vida) existe justamente para pegar essas cardiopatias críticas **antes** do fechamento do canal e da alta.`},
+  {h: `10. Arritmias na criança — a taquicardia supraventricular e o que fazer`, c: `Nem toda criança taquicárdica está com febre ou desidratada. A pergunta útil é: **a frequência é compatível com resposta fisiológica?**
+
+- **Taquicardia sinusal:** FC alta mas **variável**, com onda P normal, e sempre uma causa (febre, dor, anemia, desidratação, sepse). Em lactente costuma ficar **abaixo de 220 bpm**; em criança maior, abaixo de 180.
+- **Taquicardia supraventricular (TSV):** a arritmia sintomática mais comum na infância. FC **fixa, sem variação com o choro ou o estímulo**, tipicamente **acima de 220 bpm no lactente** (pode chegar a 280–300), **QRS estreito**, P ausente ou anormal. O mecanismo mais comum é a **reentrada** (via acessória, como na Wolff-Parkinson-White). O lactente não se queixa: fica **pálido, irritado, mama mal, sudoreico** e, se a arritmia se arrasta por horas, evolui para **insuficiência cardíaca**.
+
+**Conduta na TSV:**
+- **Estável:** **manobras vagais** — no lactente, **saco com gelo/água gelada sobre a face por 15–20 segundos** (reflexo de mergulho); na criança maior, Valsalva. Se falhar: **adenosina EV em bolus rápido** (dose inicial 0,1 mg/kg, seguida de flush de soro, podendo dobrar), em veia calibrosa e com monitorização — a adenosina bloqueia o nó AV e "corta" o circuito de reentrada.
+- **Instável** (hipotensão, má perfusão, rebaixamento, IC): **cardioversão elétrica sincronizada** (0,5–1 J/kg, podendo aumentar para 2 J/kg) — não perder tempo com fármacos.
+- **Nunca** usar **verapamil em lactente** (risco de colapso hemodinâmico); compressão ocular também é proscrita.
+
+**Bradiarritmias:** no recém-nascido, o **bloqueio atrioventricular total congênito** associa-se ao **lúpus materno** (anticorpos anti-Ro/SSA atravessando a placenta) — vinheta clássica.
+
+**QT longo:** síncope ou parada durante esforço, susto ou natação, com história familiar de morte súbita/afogamento; o gatilho é a torsades de pointes. Evitar fármacos que prolongam QT; betabloqueador é a base do tratamento.`},
+  {h: `11. Miocardite, pericardite e cardiomiopatias — quando o problema é o músculo`, c: `Nem toda insuficiência cardíaca da criança vem de malformação.
+
+**Miocardite:** inflamação do miocárdio, geralmente **viral** (enterovírus/coxsackie, adenovírus, parvovírus B19, e também vírus respiratórios). O quadro típico é **criança previamente hígida** que, dias após um episódio febril/gastrointestinal/respiratório, evolui com **cansaço, dor torácica, taquicardia desproporcional à febre**, hipotensão, hepatomegalia e sinais de IC. Achados: **cardiomegalia** na radiografia, **baixa voltagem e alterações difusas de ST-T** no ECG, **troponina elevada**, função ventricular deprimida ao eco. Tratamento é de **suporte** (diurético, inotrópico, IECA quando estabilizado, arritmias tratadas; casos graves vão a ECMO/transplante) — **não** se usa corticoide de rotina. A pegadinha: esse quadro é rotulado como sepse ou gastroenterite, e a criança recebe volume em excesso, o que piora a congestão.
+
+**Pericardite:** dor torácica que **piora ao deitar e melhora inclinando o tronco para a frente**, atrito pericárdico, **supradesnivelamento difuso de ST** (côncavo) com infra de PR. Se houver derrame volumoso: **tamponamento** — hipotensão, bulhas abafadas, turgência jugular (tríade de Beck), **pulso paradoxal** — que é emergência de **pericardiocentese**.
+
+**Cardiomiopatias:** **dilatada** (a mais comum na infância; pós-miocardite, doenças metabólicas/mitocondriais, distrofias musculares como **Duchenne**, quimioterapia com antraciclina); **hipertrófica** (genética, autossômica dominante — causa importante de **morte súbita no atleta jovem**, sopro que **aumenta com Valsalva**); **restritiva** (rara, pior prognóstico).
+
+**Endocardite infecciosa:** febre prolongada em criança com cardiopatia congênita ou cateter; hemoculturas + ecocardiograma (critérios de Duke). A profilaxia antibiótica hoje é **restrita** a grupos de alto risco (prótese valvar, endocardite prévia, cardiopatia cianótica não corrigida ou correção recente com material protético) e para procedimentos **dentários com manipulação gengival/mucosa** — não é mais "para toda cardiopatia".`},
+  {h: `12. Dor torácica e síncope — separar o cardíaco do banal`, c: `Duas queixas frequentes e quase sempre benignas — mas em que a prova cobra a capacidade de achar a exceção.
+
+**Dor torácica:** na criança, a imensa maioria é **musculoesquelética** (costocondrite, reprodutível à palpação), respiratória (asma, pneumonia) ou funcional/ansiosa. **Sinais de alarme para causa cardíaca:** dor **desencadeada pelo esforço**, associada a **síncope ou palpitação**, com febre e sinais de IC (miocardite/pericardite), em criança com **cardiopatia conhecida**, doença falciforme, uso de cocaína, ou **história familiar de morte súbita/cardiomiopatia**. Nesses casos: ECG, radiografia e ecocardiograma.
+
+**Síncope:** a mais comum é a **vasovagal (neurocardiogênica)** — em pé por muito tempo, ambiente quente, dor, emoção; tem **pródromos** (calor, náusea, escurecimento visual, palidez, sudorese), recuperação **rápida e completa**, sem sequelas. Conduta: hidratação, sal, evitar gatilhos, deitar com pernas elevadas ao pródromo.
+
+**Bandeiras vermelhas de síncope cardíaca (decore):**
+- Ocorre **durante o esforço** (não após);
+- **Sem pródromo**, com trauma pela queda;
+- Precedida de **palpitação** ou dor torácica;
+- Em **decúbito** ou desencadeada por susto/barulho/imersão (QT longo);
+- **História familiar** de morte súbita antes dos 50 anos, afogamento inexplicado, cardiomiopatia ou canalopatia;
+- Exame com **sopro** ou ECG alterado.
+
+Diante de qualquer uma delas: **ECG de 12 derivações** (procurar QT longo, pré-excitação/WPW, hipertrofias, Brugada) e **ecocardiograma**, com restrição de esforço até esclarecer. Convulsão é o principal diferencial: na síncope pode haver abalos breves (síncope convulsiva), mas sem período pós-ictal prolongado nem liberação esfincteriana típica.`},
+  {h: `13. Cardiopatia e síndrome genética — as associações que a banca adora`, c: `Cerca de 25–30% das cardiopatias congênitas vêm acompanhadas de outra síndrome. Reconhecer a face leva ao coração:
+
+- **Síndrome de Down (trissomia do 21):** ~40–50% têm cardiopatia; a mais característica é o **defeito do septo atrioventricular (canal AV total)**, seguida de CIV. Todo recém-nascido com Down precisa de **ecocardiograma**, mesmo assintomático — e a hipertensão pulmonar se instala mais precocemente nesses pacientes.
+- **Síndrome de Turner (45,X):** **coarctação da aorta** e **valva aórtica bicúspide**; risco de dilatação/dissecção de aorta na vida adulta.
+- **Síndrome de Williams (deleção 7q11):** **estenose aórtica supravalvar** (e estenoses de ramos pulmonares), com **hipercalcemia** e personalidade hipersociável.
+- **Síndrome de DiGeorge / 22q11 (velocardiofacial):** malformações **troncoconais** — tetralogia de Fallot, tronco arterioso, interrupção do arco aórtico —, com **hipocalcemia** (hipoparatireoidismo) e **hipoplasia tímica/imunodeficiência T**.
+- **Síndrome de Marfan:** **dilatação da raiz da aorta** e prolapso mitral; risco de dissecção.
+- **Síndrome de Noonan:** **estenose pulmonar valvar** (valva displásica) e cardiomiopatia hipertrófica.
+- **Rubéola congênita:** **PCA** e estenose de ramo pulmonar (com catarata e surdez).
+- **Diabetes materno:** maior risco de cardiopatia em geral e de **cardiomiopatia hipertrófica transitória** do RN; **lúpus materno** → **bloqueio AV congênito**.
+
+Uso prático: se a vinheta descreve a síndrome, ela quase sempre está pedindo a cardiopatia associada — e vice-versa.`},
+  {h:`14. O algoritmo em doze frases (leve para a prova)`, c:`- **Roxo ou cansado?** Roxo = cianótica (shunt D→E). Cansado/suado para mamar = acianótica com hiperfluxo (shunt E→D).
 - **Cianose que NÃO melhora com O2** no recém-nascido = cardiopatia (teste da hiperóxia), pense transposição/Fallot.
 - **Sopro holossistólico em borda esternal esquerda baixa** = CIV (a mais comum); pequena fecha sozinha, grande opera.
 - **Cianótica + coração em bota + crise de cianose** = Tetralogia de Fallot; crise → joelho-tórax + O2 + morfina.
 - **Recém-nascido gravíssimo cianótico dependente de mistura** = transposição/canal-dependente → **prostaglandina E1** para manter o canal aberto.
-- **Exame que confirma qualquer uma** = **ecocardiograma**.`}
+- **Exame que confirma qualquer uma** = **ecocardiograma**.
+- **Recém-nascido em choque na 1ª–2ª semana, pulsos femorais ausentes** = coarctação/obstrução esquerda canal-dependente → **prostaglandina**, nunca só volume e antibiótico.
+- **Lactente que sua para mamar, taquipneico, com hepatomegalia e baixo ganho de peso** = insuficiência cardíaca → diurético + IECA + adensamento calórico (hepatomegalia é o sinal de congestão na criança, não a estase jugular).
+- **Lactente com FC ~ 280 bpm, QRS estreito e sem variação** = taquicardia supraventricular → gelo na face (manobra vagal); instável = cardioversão sincronizada.
+- **Criança com quadro viral que evolui com IC, taquicardia desproporcional e cardiomegalia** = miocardite.
+- **Síncope ao ESFORÇO, com palpitação prévia ou história familiar de morte súbita jovem** = investigar (ECG, eco) — não é vasovagal.
+- **Cardiopatia + síndrome genética** = Down/DSAV, Turner/coarctação, Williams/estenose aórtica supravalvar, 22q11/troncoconais, Marfan/dilatação de aorta.`}
  ],
  flashcards: [
   {p:`Malformação congênita mais comum?`, r:`Cardiopatia congênita (~8–10/1.000 nascidos vivos).`},
@@ -3444,7 +3748,26 @@ A pegadinha máxima do Fallot é a **crise hipoxêmica (crise de cianose)**: o b
   {p:`Conduta na crise hipoxêmica do Fallot?`, r:`Posição joelho-tórax, oxigênio, morfina; hidratar, considerar betabloqueador.`},
   {p:`Como manter o canal arterial aberto numa cardiopatia canal-dependente?`, r:`Prostaglandina E1 (alprostadil) em infusão.`},
   {p:`Como fechar o canal arterial no prematuro?`, r:`Inibidores de prostaglandina: indometacina ou ibuprofeno (ou cirurgia).`},
-  {p:`Inversão tardia do shunt (E→D vira D→E) com cianose = ?`, r:`Síndrome de Eisenmenger (janela cirúrgica perdida).`}
+  {p: `Inversão tardia do shunt (E→D vira D→E) com cianose = ?`, r: `Síndrome de Eisenmenger (janela cirúrgica perdida).`},
+  {p: `Por que a IC do shunt E→D aparece só com 6–8 semanas?`, r: `A resistência vascular pulmonar do RN é alta e cai nas primeiras semanas; quando cai, o shunt aumenta e o pulmão congestiona.`},
+  {p: `Sinal mais confiável de congestão sistêmica no lactente?`, r: `Hepatomegalia (turgência jugular e edema de membros quase não aparecem).`},
+  {p: `Tríade clínica da IC do lactente?`, r: `Sudorese e cansaço às mamadas com baixo ganho de peso + taquipneia + hepatomegalia.`},
+  {p: `Base do tratamento da IC no lactente?`, r: `Diurético (furosemida) + IECA + suporte calórico adensado; corrigir a cardiopatia é o definitivo.`},
+  {p: `Recém-nascido em choque na 1ª–2ª semana com pulsos femorais ausentes?`, r: `Coarctação/obstrução esquerda canal-dependente — iniciar prostaglandina E1 (imita sepse).`},
+  {p: `Principal efeito adverso da prostaglandina E1?`, r: `Apneia (também febre, hipotensão, rubor) — ter material de intubação disponível.`},
+  {p: `Por que evitar hiperóxia na obstrução esquerda canal-dependente?`, r: `O oxigênio vasodilata o pulmão e ajuda a fechar o canal, roubando fluxo sistêmico e piorando o choque.`},
+  {p: `Achados radiológicos da coarctação na criança maior?`, r: `Erosões costais (rib notching) e sinal do "3" no contorno aórtico; PA maior nos braços que nas pernas.`},
+  {p: `Associações da coarctação?`, r: `Valva aórtica bicúspide e síndrome de Turner.`},
+  {p: `Como diferenciar TSV de taquicardia sinusal no lactente?`, r: `TSV: FC > 220 bpm, fixa, sem variação, QRS estreito, sem causa; sinusal: variável, com causa (febre, dor, desidratação).`},
+  {p: `Conduta na TSV estável do lactente?`, r: `Manobra vagal com gelo na face; se falhar, adenosina EV em bolus rápido (0,1 mg/kg) com flush.`},
+  {p: `Conduta na TSV instável?`, r: `Cardioversão elétrica sincronizada (0,5–1 J/kg); nunca verapamil em lactente.`},
+  {p: `Bloqueio AV total congênito associa-se a quê?`, r: `Lúpus materno (anticorpos anti-Ro/SSA).`},
+  {p: `Criança previamente hígida com IC após quadro viral, troponina alta e cardiomegalia?`, r: `Miocardite viral — tratamento de suporte (sem corticoide de rotina).`},
+  {p: `Tríade de Beck do tamponamento?`, r: `Hipotensão, bulhas abafadas e turgência jugular (+ pulso paradoxal) — pericardiocentese.`},
+  {p: `Causa cardíaca clássica de morte súbita no atleta jovem?`, r: `Cardiomiopatia hipertrófica (sopro que aumenta com Valsalva).`},
+  {p: `Bandeiras vermelhas de síncope cardíaca?`, r: `Durante o esforço, sem pródromo, com palpitação, em decúbito, ou história familiar de morte súbita — pedir ECG e eco.`},
+  {p: `Cardiopatia mais associada à síndrome de Down?`, r: `Defeito do septo atrioventricular (canal AV total).`},
+  {p: `Williams, DiGeorge/22q11 e Noonan: qual a cardiopatia?`, r: `Williams = estenose aórtica supravalvar; 22q11 = malformações troncoconais (Fallot, tronco arterioso); Noonan = estenose pulmonar valvar.`}
  ],
  pegadinhas: [
   `Cianose que NÃO melhora com oxigênio = cardiopatia (teste da hiperóxia); a de causa pulmonar melhora.`,
@@ -3452,19 +3775,35 @@ A pegadinha máxima do Fallot é a **crise hipoxêmica (crise de cianose)**: o b
   `O exame de escolha é sempre o ecocardiograma — não caia em "radiografia" ou "ECG" como confirmatórios.`,
   `Na crise hipoxêmica do Fallot a posição é joelho-tórax (não Trendelenburg nem sentado).`,
   `Prostaglandina ABRE o canal (cardiopatia canal-dependente); indometacina/ibuprofeno FECHAM (PCA do prematuro) — não troque.`,
-  `Transposição dos grandes vasos: recém-nascido a termo, cianose grave nas primeiras horas — é emergência, não "aguardar".`
+  `Transposição dos grandes vasos: recém-nascido a termo, cianose grave nas primeiras horas — é emergência, não "aguardar".`,
+  `IC do lactente se procura pela HEPATOMEGALIA — turgência jugular e edema de membros praticamente não existem nessa idade.`,
+  `Bebê que nasceu bem e cansou com 1–2 meses: é a queda fisiológica da resistência pulmonar aumentando o shunt, não "bronquiolite de repetição".`,
+  `RN em choque na 1ª–2ª semana com acidose e pulsos femorais ausentes imita sepse — pense canal-dependente e inicie prostaglandina.`,
+  `Nas obstruções esquerdas, oxigênio em excesso PIORA (fecha o canal e rouba fluxo sistêmico).`,
+  `Prostaglandina causa apneia: prepare a via aérea antes de infundir.`,
+  `Sempre afira PA e pulsos nos QUATRO membros na suspeita de coarctação (e em toda menina com Turner).`,
+  `TSV do lactente: gelo na face, não compressão ocular; verapamil é proibido nessa idade.`,
+  `Miocardite recebendo volume como se fosse desidratação é o erro que mata — taquicardia desproporcional + hepatomegalia devem acender o alerta.`,
+  `Síncope DURANTE o esforço nunca é vasovagal até prova em contrário.`,
+  `Profilaxia de endocardite hoje é restrita a alto risco (prótese, endocardite prévia, cianótica não corrigida) em procedimentos dentários — não é para toda cardiopatia.`,
+  `Todo recém-nascido com síndrome de Down precisa de ecocardiograma, mesmo sem sopro.`
  ],
  diretrizes: [
   `Sociedade Brasileira de Pediatria (SBP) — Departamento de Cardiologia; triagem neonatal por oximetria de pulso ("teste do coraçãozinho").`,
   `Nelson — Tratado de Pediatria: cardiopatias congênitas cianóticas e acianóticas.`,
-  `Ministério da Saúde / SBP — Manejo do canal arterial e cardiopatias críticas do recém-nascido. Apostila R+ Pediatria MEDGRUPO — "Cardiopatias congênitas" (ver materiais_drive.md).`
+  `Ministério da Saúde / SBP — Manejo do canal arterial e cardiopatias críticas do recém-nascido. Apostila R+ Pediatria MEDGRUPO — "Cardiopatias congênitas" (ver materiais_drive.md).`,
+  `PALS/AHA — algoritmo de taquicardia com pulso na criança (manobras vagais, adenosina, cardioversão sincronizada) e Diretriz Brasileira de Arritmias Cardíacas (SBC) — taquiarritmias na infância.`,
+  `SBC/SBP — Diretriz de Insuficiência Cardíaca na criança; Miocardite e pericardite (diagnóstico e suporte); AHA — profilaxia de endocardite infecciosa (grupos de alto risco).`
  ],
  questoes: [
   {enunciado:`Lactente de 3 meses, a termo, com sudorese e cansaço às mamadas, baixo ganho de peso e infecções respiratórias de repetição. Ausculta: sopro holossistólico em borda esternal esquerda baixa. Não há cianose. Qual o diagnóstico mais provável?`, alternativas:{a:`Tetralogia de Fallot`, b:`Comunicação interventricular`, c:`Transposição dos grandes vasos`, d:`Coarctação da aorta`}, correta:"b", comentario:`O quadro é acianótico com sinais de hiperfluxo pulmonar/insuficiência cardíaca (cansaço e sudorese às mamadas, baixo ganho ponderal, pneumonias de repetição) + sopro holossistólico em borda esternal esquerda baixa = CIV, a cardiopatia congênita mais comum e clássica desse padrão (shunt esquerda→direita). Tetralogia de Fallot e transposição são cianóticas (shunt direita→esquerda) — aqui não há cianose. Coarctação daria diferença de pulsos/pressão entre membros superiores e inferiores, não esse sopro. Confirmação: ecocardiograma. CIV pequena pode fechar sozinha até os 2 anos; a grande, com repercussão como esta, costuma exigir correção cirúrgica.`, foco:`Reconhecer a acianótica pelo padrão de hiperfluxo (ponto de erro)`},
   {enunciado:`Recém-nascido a termo, com 8 horas de vida, apresenta cianose intensa e generalizada que NÃO melhora com oferta de oxigênio a 100%. Ausculta cardíaca sem sopro exuberante. Qual a hipótese e a medida imediata mais importante?`, alternativas:{a:`Pneumonia neonatal; iniciar antibiótico`, b:`Transposição dos grandes vasos; iniciar prostaglandina E1`, c:`CIV; observar, pode fechar sozinha`, d:`Sepse; expandir com cristaloide`}, correta:"b", comentario:`Cianose grave e precoce no recém-nascido a termo que não responde ao oxigênio (teste da hiperóxia negativo) aponta para cardiopatia cianótica crítica, sendo a transposição dos grandes vasos a causa clássica nas primeiras horas de vida. A sobrevida depende de mistura entre as circulações, então a medida que salva é manter o canal arterial aberto com prostaglandina E1 (alprostadil) até a correção. A cianose pulmonar (pneumonia/sepse) melhoraria com O2. CIV é acianótica e não explica o quadro. Confundir cianose cardíaca com pulmonar e ofertar só O2 é o erro que atrasa o tratamento.`, foco:`Teste da hiperóxia e cardiopatia canal-dependente (ponto de erro)`},
   {enunciado:`Menino de 18 meses com cardiopatia cianótica conhecida, ao chorar fica subitamente muito roxo, hiperpneico e irritado. Qual a conduta inicial na crise?`, alternativas:{a:`Colocar em posição joelho-tórax, oxigênio e morfina`, b:`Sentar a criança e ofertar diurético`, c:`Posição de Trendelenburg e adrenalina`, d:`Fazer expansão volêmica rápida e furosemida`}, correta:"a", comentario:`É a crise hipoxêmica da Tetralogia de Fallot: espasmo da via de saída do ventrículo direito aumenta o shunt direita→esquerda. A posição joelho-tórax aumenta a resistência vascular sistêmica e reduz o shunt, aliviando a cianose; associa-se oxigênio e morfina (quebra a hiperpneia e o espasmo), hidratação e, se necessário, betabloqueador. Diurético e Trendelenburg não têm papel na crise; adrenalina pioraria o espasmo infundibular. Saber a sequência joelho-tórax + O2 + morfina é o que a banca cobra.`, foco:`Manejo da crise hipoxêmica (pegadinha clássica)`},
   {enunciado:`Diante de um lactente com sopro cardíaco, qual exame é o de escolha para confirmar o diagnóstico anatômico de uma cardiopatia estrutural?`, alternativas:{a:`Radiografia de tórax`, b:`Eletrocardiograma`, c:`Ecocardiograma com Doppler`, d:`Cateterismo cardíaco`}, correta:"c", comentario:`O ecocardiograma com Doppler é o exame de escolha: mostra a anatomia do defeito, a direção e a magnitude do shunt e a função ventricular, de forma não invasiva. A radiografia e o ECG dão pistas (coração em bota, sobrecarga de câmaras, hiperfluxo/hipofluxo) mas não confirmam a anatomia. O cateterismo fica para casos selecionados ou intervenção, não para diagnóstico de rotina. Trocar o eco por radiografia/ECG é o erro típico deste tema.`, foco:`Exame de escolha em cardiopatia (ponto de erro)`},
-  {enunciado:`Recém-nascido prematuro com sopro contínuo "em maquinaria" infraclavicular esquerdo e pulsos amplos. Ecocardiograma confirma persistência do canal arterial com repercussão. Qual a opção farmacológica para promover o fechamento?`, alternativas:{a:`Prostaglandina E1`, b:`Indometacina ou ibuprofeno`, c:`Adenosina`, d:`Digoxina isolada`}, correta:"b", comentario:`No prematuro, o fechamento farmacológico do canal arterial é feito com inibidores da síntese de prostaglandina — indometacina ou ibuprofeno —, pois é a prostaglandina que mantém o canal aberto. A prostaglandina E1 faz o oposto (mantém o canal aberto, usada em cardiopatias canal-dependentes) e seria um erro grave aqui. Adenosina trata taquiarritmia; digoxina isolada não fecha o canal. O par a fixar: prostaglandina ABRE, indometacina/ibuprofeno FECHAM.`, foco:`Farmacologia do canal arterial (ponto de erro)`}
+  {enunciado:`Recém-nascido prematuro com sopro contínuo "em maquinaria" infraclavicular esquerdo e pulsos amplos. Ecocardiograma confirma persistência do canal arterial com repercussão. Qual a opção farmacológica para promover o fechamento?`, alternativas:{a:`Prostaglandina E1`, b:`Indometacina ou ibuprofeno`, c:`Adenosina`, d:`Digoxina isolada`}, correta:"b", comentario:`No prematuro, o fechamento farmacológico do canal arterial é feito com inibidores da síntese de prostaglandina — indometacina ou ibuprofeno —, pois é a prostaglandina que mantém o canal aberto. A prostaglandina E1 faz o oposto (mantém o canal aberto, usada em cardiopatias canal-dependentes) e seria um erro grave aqui. Adenosina trata taquiarritmia; digoxina isolada não fecha o canal. O par a fixar: prostaglandina ABRE, indometacina/ibuprofeno FECHAM.`, foco:`Farmacologia do canal arterial (ponto de erro)`},
+  {enunciado: `Lactente de 7 semanas, previamente bem, apresenta há duas semanas sudorese e pausas durante as mamadas, taquipneia, ganho de peso insuficiente e fígado a 4 cm do rebordo costal. Sopro holossistólico em borda esternal esquerda baixa. Qual o diagnóstico e a conduta inicial?`, alternativas: {a: `Bronquiolite viral; suporte e inalação`, b: `Insuficiência cardíaca por shunt esquerda-direita; diurético, IECA e adensamento calórico`, c: `Refluxo gastroesofágico; medidas posturais`, d: `Cardiopatia cianótica; prostaglandina E1`}, correta: "b", comentario: `A vinheta reúne a tríade da insuficiência cardíaca do lactente: esforço às mamadas com sudorese e baixo ganho ponderal, congestão pulmonar (taquipneia) e congestão sistêmica (hepatomegalia — o sinal mais confiável nessa idade, já que turgência jugular e edema de membros praticamente não aparecem). O sopro holossistólico em borda esternal esquerda baixa aponta CIV, e o momento é típico: a resistência vascular pulmonar cai nas primeiras semanas, o shunt esquerda-direita aumenta e a criança descompensa entre a 6ª e a 8ª semana. O tratamento inicial é descongestionar com diurético, reduzir a pós-carga com IECA e garantir aporte calórico adensado, encaminhando para correção cirúrgica. Bronquiolite não explica hepatomegalia nem o sopro e não cursa com falha de crescimento progressiva. Refluxo não dá taquipneia com hepatomegalia. Prostaglandina é para cardiopatia canal-dependente, e esta criança não é cianótica nem está em choque.`, foco: `Insuficiência cardíaca do lactente (ponto de erro)`},
+  {enunciado: `Recém-nascido a termo com 6 dias de vida chega ao pronto-socorro pálido, moteado, taquipneico, com má perfusão, acidose metabólica e pulsos femorais não palpáveis; pulsos braquiais amplos. Qual a conduta imediata?`, alternativas: {a: `Antibiótico de amplo espectro e expansão volêmica isolados`, b: `Infusão de prostaglandina E1`, c: `Oxigênio a 100% em capacete`, d: `Indometacina endovenosa`}, correta: "b", comentario: `Recém-nascido que descompensa entre o 3º dia e a 2ª semana, justamente quando o canal arterial fecha, com choque, acidose e pulsos femorais ausentes, tem obstrução do coração esquerdo canal-dependente — coarctação grave, interrupção do arco ou hipoplasia do coração esquerdo. O que estabiliza é reabrir o canal com prostaglandina E1 em infusão contínua, antecipando a apneia como efeito adverso. Antibiótico e volume são adjuvantes razoáveis (o quadro imita sepse e a sepse não está excluída), mas isoladamente deixam o bebê morrer da causa real. Oxigênio a 100% piora: o O2 vasodilata o leito pulmonar e favorece o fechamento do canal, desviando fluxo do corpo para o pulmão. Indometacina faz exatamente o oposto do necessário — fecha o canal, sendo indicada na PCA sintomática do prematuro. Confirmar com ecocardiograma e transferir para centro cirúrgico.`, foco: `Cardiopatia canal-dependente e coarctação (ponto de erro)`},
+  {enunciado: `Lactente de 3 meses, irritado e pálido há algumas horas, mamando mal. FC 280 bpm, sem variação com o choro, QRS estreito, PA mantida e perfusão adequada. Qual a conduta inicial?`, alternativas: {a: `Compressa gelada sobre a face (manobra vagal)`, b: `Verapamil endovenoso`, c: `Cardioversão elétrica sincronizada imediata`, d: `Expansão volêmica e antitérmico`}, correta: "a", comentario: `Frequência fixa acima de 220 bpm no lactente, sem variação com estímulo e com QRS estreito, é taquicardia supraventricular por reentrada, e não taquicardia sinusal (que varia e sempre tem causa como febre, dor ou desidratação). Como a criança está estável, começa-se por manobra vagal: no lactente, a mais eficaz é aplicar saco com gelo/água gelada sobre a face por 15 a 20 segundos, provocando o reflexo de mergulho. Se não reverter, adenosina endovenosa em bolus rápido seguida de flush, em veia calibrosa e sob monitorização. Verapamil é contraindicado no lactente pelo risco de colapso hemodinâmico. Cardioversão sincronizada fica reservada à instabilidade (hipotensão, má perfusão, rebaixamento). Volume e antitérmico tratariam uma taquicardia sinusal, que não é o caso. Se a arritmia se prolongar, a criança evolui para insuficiência cardíaca — por isso reverter é prioridade.`, foco: `Taquicardia supraventricular do lactente`}
  ]
 },
 
