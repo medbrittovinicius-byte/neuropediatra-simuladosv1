@@ -5627,3 +5627,707 @@ window.REVISAO_MODULOS["PED|Infecto / respiratório / pele"] = {
   }
  ]
 };
+
+/* ===================================================================
+   Aprofundamento de 18/08/2026 — tarefa diária de estudo.
+   Blocos ADITIVOS: acrescentam seções, flashcards, pegadinhas e questões
+   aos módulos existentes, sem apagar nada do conteúdo anterior.
+   Temas do dia (maior taxa de erro no ranking unificado de fragilidades):
+   Demências (47%), Neuropatias periféricas (39%) e HIC / emergências neuro (33%).
+   =================================================================== */
+(function(){
+ var M = window.REVISAO_MODULOS;
+
+ /* ---------------- 1) NEURO|Demências ---------------- */
+ var d = M["NEURO|Demências"];
+ if(d){
+  d.fontes += ` Aprofundamento de 18/08/2026: Tratado de Neurologia da ABN 3ª ed., cap. 96 (Demências — abordagem e testes), cap. 99 (Demência Frontotemporal, p.1420) e cap. 101 (Comprometimento Cognitivo Vascular, p.1444); Merritt 13ª ed., Seção 2 (Delirium; Demência e Perda de Memória) e Seção 6 (Demência); Adams & Victor 12ª ed. — "Delirium and Other Acute Confusional States" e "Dementia and the Neurology of Aging"; Sanvito — exame das funções corticais superiores (linguagem, praxia, gnosia). Critérios NIA-AA (Alzheimer), critérios de Rascovsky (DFT comportamental) e VASCOG/NINDS-AIREN (cognitivo vascular).`;
+
+  d.notaErro += `
+
+**Aprofundamento de 18/08/2026 (por que este módulo cresceu).** No ranking unificado de fragilidades, **Demências é o domínio com maior taxa de erro entre os que ainda não estavam completos: 47% (7 erros de Vinicius, 7/15 questões)**. Relendo os itens errados, o padrão mudou: você já domina a hidrocefalia de pressão normal (que era o buraco antigo), mas continua caindo em quatro pontos que o texto original só tocava de leve. Foram acrescentadas as seções 12 a 16, cada uma amarrada a um tropeço concreto:
+
+- **Você confunde delirium, demência e depressão sob pressão** — e a prova adora o idoso que "ficou confuso no hospital". A seção 12 dá o critério que separa os três em uma frase cada (atenção × memória × esforço) e o CAM, que é o instrumento que a banca cobra.
+- **Você trata "demência vascular" como sinônimo de "vários AVCs"** e perde os casos de infarto estratégico único e de doença de pequenos vasos, que são a forma mais comum. A seção 13 refaz o tema por mecanismo, incluindo CADASIL (o jovem com AVCs e enxaqueca com aura).
+- **Você rotula Alzheimer todo idoso que perde memória** e não reconhece a demência frontotemporal fora do estereótipo "desinibido": as variantes de linguagem (afasia progressiva primária) passam batidas. Seção 14.
+- **Você não sabe o que cada teste mede**, então erra quando a questão dá um MEEM alto num paciente com queixa real (MEEM é insensível para disfunção executiva; MoCA e fluência pegam) ou pergunta sobre biomarcador liquórico. Seções 15 e 16, esta última sobre comprometimento cognitivo leve — o degrau anterior à demência, que a prova cobra como "ainda não é demência".
+
+**Como zerar o erro:** antes de escolher a resposta, faça sempre esta sequência de três filtros — (1) é agudo e flutuante com desatenção? → delirium, procure a causa; (2) se é crônico, o que veio PRIMEIRO (memória, comportamento, linguagem, marcha, alucinação/parkinsonismo)? → isso define o tipo; (3) há causa reversível ou tratável na mesa (B12, TSH, sífilis, HPN, autoimune)? Só depois de passar pelos três é que a resposta "Alzheimer" pode ser marcada.`;
+
+  d.secoes.push({
+   h: `12. Delirium, demência e depressão — as três confusões que a prova cobra`,
+   c: `Imagine três idosos que chegam com a mesma queixa da família: "ele está confuso". São três doenças diferentes, com condutas opostas, e a prova separa as três com **uma pergunta cada**.
+
+**Delirium (estado confusional agudo).** A pergunta é: **começou de repente e o nível de atenção oscila ao longo do dia?** O delirium é uma **falência aguda e global do cérebro** — como uma queda de energia na casa inteira. O defeito central **não é a memória, é a ATENÇÃO**: o paciente não consegue sustentar o foco, perde o fio da conversa, e por isso parece "esquecido". Ele tem **flutuação** (fica bem de manhã e agitado à noite — o "sundowning"), **alteração do nível de consciência** (sonolento ou hipervigilante) e frequentemente **alucinações visuais e inversão do ciclo sono-vigília**.
+
+O ponto que muda a conduta: **delirium é sempre sintoma de outra coisa**. Ele é a forma que o cérebro do idoso tem de dizer que existe infecção urinária, pneumonia, retenção urinária, fecaloma, distúrbio hidroeletrolítico, dor, abstinência ou — a causa mais frequente e mais evitável — um **fármaco novo**. Diante de delirium, a resposta certa quase nunca é "iniciar haloperidol": é **procurar e tratar a causa**, revisar a prescrição (anticolinérgicos, benzodiazepínicos, opioides, corticoide), reorientar, restaurar sono, óculos e prótese auditiva, retirar sondas e mobilizar. Antipsicótico entra só se houver agitação com risco, em dose baixa e por pouco tempo.
+
+O instrumento que a banca cobra é o **CAM (Confusion Assessment Method)**: exige (1) **início agudo ou curso flutuante** E (2) **desatenção**, mais (3) **pensamento desorganizado** OU (4) **alteração do nível de consciência**. Decore assim: **1 e 2 obrigatórios, mais um dos outros dois**. E guarde o subtipo que mais se perde: o **delirium hipoativo** — o idoso quieto, sonolento, "comportado" — é o mais comum no hospital, o mais subdiagnosticado e o de **pior prognóstico**. Quem só procura o paciente agitado deixa passar a maioria.
+
+**Demência.** A pergunta é: **é crônico, progressivo, e a atenção está preservada no início?** O paciente com demência responde ao que se pergunta, mantém o foco na conversa, mas **não retém a informação nova** (Alzheimer) ou mudou de personalidade (frontotemporal). Não flutua ao longo do dia (exceto na demência com corpos de Lewy — e é justamente por isso que ela é confundida com delirium). Não há rebaixamento do nível de consciência.
+
+**Depressão (a "pseudodemência" depressiva).** A pergunta é: **como ele se comporta durante o teste?** O deprimido **reclama muito da memória** (o paciente com Alzheimer minimiza, é a família que se queixa), responde **"não sei"** e desiste rapidamente em vez de confabular, tem **início mais datável**, humor rebaixado, anedonia, despertar precoce, e — o dado de ouro — **melhora com o tratamento do humor**. Na prática de prova: queixa desproporcional ao desempenho + "não sei" + humor deprimido = pense depressão; queixa minimizada pelo paciente + esforço genuíno com respostas erradas + anosognosia = pense demência.
+
+**Cuidado com a armadilha da sobreposição:** as três coexistem. Ter demência é o **maior fator de risco para delirium**, e um episódio de delirium acelera o declínio cognitivo. Por isso a frase que resolve a maioria das questões é: **"todo declínio cognitivo de instalação aguda é delirium até prova em contrário — e delirium se investiga, não se rotula"**.`
+  });
+
+  d.secoes.push({
+   h: `13. Comprometimento cognitivo vascular — muito além de "vários AVCs"`,
+   c: `Este é o segundo tipo de demência mais comum, e o mais mal compreendido. A imagem que a maioria carrega — "o paciente teve vários derrames e foi ficando demente" — corresponde a **apenas uma das formas**, e nem é a mais frequente.
+
+**A ideia central.** O cérebro precisa de fluxo. Quando a doença vascular danifica o tecido, a cognição cai. O que muda entre as formas é **onde** e **como** o vaso adoece:
+
+- **Demência multi-infarto:** vários infartos corticais de vasos médios/grandes. É o quadro clássico "em degraus" — piora abrupta, platô, nova piora — com **sinais focais** entre os degraus (hemiparesia, afasia, hemianopsia).
+- **Infarto estratégico único:** **um só** infarto, pequeno, mas num ponto crítico — tálamo (sobretudo o tálamo dorsomedial/paramediano), giro angular, núcleo caudado, joelho da cápsula interna. O paciente fica subitamente amnésico e apático depois de um AVC "pequeno". A prova adora este caso porque contraria a intuição de que precisa de muito dano.
+- **Doença de pequenos vasos (subcortical isquêmica) — a forma MAIS comum:** hipertensão e diabetes de longa data espessam as arteríolas perfurantes; o resultado é **leucoaraiose** (desmielinização difusa da substância branca periventricular) somada a **infartos lacunares**. Aqui **não há degraus**: a progressão é **insidiosa**, muito parecida com Alzheimer — e é por isso que se erra.
+- **Hemorrágica / angiopatia amiloide cerebral:** microssangramentos lobares e hemorragias corticais no idoso, muitas vezes **junto** com patologia de Alzheimer (a mesma proteína beta-amiloide se deposita nos vasos). Suspeite quando a RM com sequência de suscetibilidade (SWI/T2*) mostra microbleeds **lobares** (poupando os núcleos da base — estes seriam de origem hipertensiva).
+
+**O retrato clínico que separa vascular de Alzheimer.** Na doença de pequenos vasos, o que domina **não é a amnésia** — é a **síndrome disexecutiva com lentificação**: o paciente fica lento para pensar (bradifrenia), perde iniciativa e planejamento, tem dificuldade em tarefas de alternância e atenção dividida, mas **a memória de reconhecimento é relativamente preservada** (ele lembra se você der pistas — no Alzheimer, a pista não ajuda, porque a informação nunca foi armazenada). Somam-se três marcadores que valem ouro na prova: **alteração precoce da marcha** (passos curtos, base alargada, "marcha magnética" — a chamada apraxia da marcha), **urgência/incontinência urinária precoce** e **labilidade emocional / choro e riso imotivados** (paralisia pseudobulbar), além de sinais piramidais e reflexos primitivos.
+
+**Repare na armadilha aqui:** marcha alterada + incontinência + declínio cognitivo é exatamente a **tríade de Hakim-Adams da hidrocefalia de pressão normal** (seção 7). Os dois quadros convivem no mesmo paciente idoso e hipertenso. O que decide é a **imagem**: na HPN há **ventriculomegalia desproporcional à atrofia** (índice de Evans > 0,3) com apertamento dos sulcos altos; na vascular, o que domina é **hiperintensidade difusa da substância branca e lacunas**, com ventrículos alargados **proporcionais** à atrofia. E, na dúvida, o **tap test** responde: melhora da marcha aponta HPN.
+
+**CADASIL — o caso do jovem.** Sempre que a questão trouxer **adulto jovem (30–50 anos), com história familiar forte, enxaqueca com aura desde cedo, AVCs subcorticais de repetição sem fatores de risco clássicos, distúrbio de humor e declínio cognitivo**, com RM mostrando hiperintensidades extensas da substância branca **com predileção pelos polos temporais anteriores e cápsula externa**, o nome é **CADASIL** — arteriopatia autossômica dominante por mutação no gene **NOTCH3**. É a doença de pequenos vasos hereditária, e o achado dos polos temporais é o detalhe que a banca usa como chave.
+
+**Conduta.** Não existe tratamento específico que reverta a lesão: o tratamento é **controle agressivo dos fatores de risco vasculares** (pressão, diabetes, lipídios, tabagismo, fibrilação atrial), prevenção secundária de AVC e reabilitação. Os anticolinesterásicos têm benefício modesto e não são indicação formal — exceto quando há doença mista (Alzheimer + vascular), situação frequente e que, na vida real, é a regra e não a exceção.`
+  });
+
+  d.secoes.push({
+   h: `14. Demência frontotemporal por dentro — as três variantes que a prova troca`,
+   c: `A demência frontotemporal (DFT) é a principal causa de demência **antes dos 65 anos**, disputando com o Alzheimer de início precoce. O erro clássico é reconhecê-la só no estereótipo do paciente desinibido — e perder as duas variantes de **linguagem**, que a prova cobra cada vez mais.
+
+**O que acontece no cérebro.** A degeneração começa nos lobos **frontal** e **temporal anterior** — as áreas do comportamento social, do julgamento e da linguagem — e **poupa o hipocampo no início**. Daí a regra que explica tudo: **na DFT, a memória episódica é relativamente preservada no começo; o que muda é quem a pessoa é, ou como ela fala**. O substrato é o depósito de **tau** ou de **TDP-43** (não de amiloide), e cerca de 40% têm história familiar — os genes mais cobrados são *MAPT*, *GRN* e a expansão **C9orf72**, esta última a ponte com a **ELA** (o mesmo gene causa DFT, ELA ou ambas na mesma família).
+
+**Variante 1 — comportamental (a mais comum, ~60%).** Os critérios de Rascovsky pedem **pelo menos 3 de 6** características precoces e persistentes:
+
+- **Desinibição** (comentários inadequados, perda do decoro social, impulsividade, gastos, roubos "bobos" em loja).
+- **Apatia ou inércia** (perda de iniciativa — frequentemente confundida com depressão e tratada como tal por meses).
+- **Perda de empatia** (indiferença ao sofrimento dos próximos; a família diz "ele ficou frio").
+- **Comportamento perseverativo, estereotipado ou compulsivo** (rituais, colecionismo, repetir frases, andar sempre o mesmo trajeto).
+- **Hiperoralidade e mudança alimentar** (compulsão por doces, comer demais, colocar coisas na boca).
+- **Perfil neuropsicológico disexecutivo** com memória episódica e visuoespacial relativamente poupadas.
+
+Repare que quase todos são **queixas do informante, não do paciente** — a **anosognosia** é total. Por isso a seção 2 insiste: sem história colateral, este diagnóstico não se faz.
+
+**Variante 2 — afasia progressiva primária não fluente/agramática.** A fala fica **laboriosa, entrecortada, com erros de gramática** (omite preposições e verbos auxiliares) e **apraxia de fala** (dificuldade em programar o movimento articulatório). A compreensão de palavras isoladas está preservada; falha a compreensão de frases sintaticamente complexas. Atrofia frontal inferior esquerda / insular — a região de Broca.
+
+**Variante 3 — demência semântica (afasia progressiva primária variante semântica).** O oposto: a fala é **fluente, gramatical e abundante**, mas **vazia de conteúdo** — o paciente perde o **significado** das palavras. Ele não sabe mais o que é "garfo": pergunta "garfo? o que é garfo?". Há **anomia grave**, erros de compreensão de palavra única e prosopagnosia; atrofia do **polo temporal anterior**, tipicamente à esquerda. É a variante mais confundida com Alzheimer, porque o paciente "esquece nomes" — mas no Alzheimer o paciente sabe o que é o objeto e não acha a palavra; na semântica, ele **perdeu o conceito**.
+
+**Como não trocar DFT com Alzheimer na prova:**
+
+- **Idade:** DFT tipicamente 45–65 anos; Alzheimer geralmente > 65.
+- **Primeiro sintoma:** DFT = comportamento ou linguagem; Alzheimer = memória episódica recente e desorientação espacial.
+- **Consciência do problema:** DFT = anosognosia precoce e marcante; Alzheimer inicial = alguma crítica preservada.
+- **Imagem:** DFT = atrofia frontal e temporal anterior (assimétrica); Alzheimer = atrofia hipocampal/temporal medial e parietal.
+- **Um detalhe que vale ponto:** na DFT, procure **sinais de neurônio motor** (fasciculações, atrofia, disartria) — a associação DFT-ELA existe e piora muito o prognóstico.
+
+**Tratamento.** Aqui há duas pegadinhas importantes. Primeiro: **anticolinesterásicos NÃO são indicados na DFT** — não há déficit colinérgico primário, e podem **piorar o comportamento**; a memantina também não mostrou benefício. Segundo: o manejo dos sintomas comportamentais é primariamente **não farmacológico** (estruturar rotina, remover gatilhos, orientar a família, proteger o patrimônio e avaliar capacidade civil e direção); quando é preciso medicar, os **ISRS** (sertralina, trazodona, citalopram) são a escolha para desinibição, compulsão e hiperoralidade — **antipsicóticos ficam para último caso**, em dose baixa, pelo risco de parkinsonismo e eventos vasculares.`
+  });
+
+  d.secoes.push({
+   h: `15. Testes de cabeceira e biomarcadores — o que cada exame realmente mede`,
+   c: `Muita questão se decide não pelo diagnóstico, mas por **qual instrumento usar** — e cada teste tem um ponto cego que a banca explora.
+
+**MEEM (Mini-Exame do Estado Mental), 0–30 pontos.** É o rastreio mais usado no Brasil. Avalia orientação (10), registro (3), atenção e cálculo (5), evocação (3), linguagem e praxia construtiva (9). Três limitações que viram questão:
+
+- **É fortemente influenciado pela escolaridade.** Não existe um único ponto de corte: usam-se cortes ajustados (grosso modo, em torno de **≥ 24 para escolaridade alta, ~18–24 para escolaridade média e ~13–17 para analfabetos/baixa escolaridade**). Marcar "MEEM < 24 = demência" para um analfabeto é erro clássico.
+- **É insensível para disfunção EXECUTIVA e para casos leves.** Um professor universitário no início de um Alzheimer, ou um paciente com demência vascular subcortical, pode tirar 28–30 e mesmo assim estar doente. Um MEEM normal **não exclui** declínio cognitivo quando há queixa consistente.
+- **Não avalia bem função frontal** — não tem fluência, nem alternância, nem julgamento.
+
+**MoCA (Montreal Cognitive Assessment), 0–30.** Mais sensível para **comprometimento cognitivo leve** e para o perfil **executivo/vascular**, porque inclui trilhas (alternância), cópia do cubo, relógio, abstração e fluência. Corte usual **≥ 26** (adiciona-se 1 ponto se escolaridade ≤ 12 anos). Quando a questão descrever "queixa cognitiva com MEEM normal", a resposta esperada é **aprofundar com MoCA / avaliação neuropsicológica**, não "tranquilizar o paciente".
+
+**Testes rápidos que valem por si:**
+
+- **Teste do relógio:** pede-se desenhar um relógio, marcar todos os números e cravar um horário (classicamente 11h10). Testa planejamento, visuoespacial e função executiva de uma vez. É muito sensível e leva um minuto.
+- **Fluência verbal:** "diga o maior número de animais em 1 minuto" (fluência semântica; normal ≥ 13–15 com escolaridade média) e "palavras começadas por F/A/S" (fluência fonêmica, mais frontal). Queda desproporcional da **fluência fonêmica** aponta frontal/vascular; queda da **semântica** aponta temporal (Alzheimer, demência semântica).
+- **Evocação com pista (o teste que separa Alzheimer de subcortical):** dê 5 palavras, distraia, peça para lembrar. Se o paciente **não lembra e a pista/reconhecimento também não ajuda**, o defeito é de **armazenamento** → padrão hipocampal, Alzheimer. Se ele **não lembra espontaneamente mas acerta com pista ou reconhecendo numa lista**, o defeito é de **recuperação** → padrão subcortical/frontal (vascular, Parkinson, depressão). Este único teste resolve muitas questões.
+
+**Exames laboratoriais mínimos (rastreio de causas reversíveis, obrigatório em todo caso novo):** hemograma, glicemia, ureia/creatinina, sódio/cálcio, TSH, **vitamina B12** (e homocisteína/ácido metilmalônico se limítrofe), enzimas hepáticas, **sorologia para sífilis (VDRL/treponêmico)** e **HIV** — e ácido fólico conforme o contexto. **Neuroimagem estrutural (TC ou, preferencialmente, RM) é indicada em todo paciente com demência de investigação inicial**, para excluir hematoma subdural crônico, tumor, hidrocefalia e doença vascular.
+
+**Biomarcadores (nível de aprofundamento que a residência já cobra).** A lógica atual é o modelo **A/T/N**:
+
+- **A (amiloide):** LCR com **beta-amiloide 42 BAIXA** (porque a proteína fica "presa" nas placas do cérebro e some do liquor — é contraintuitivo e por isso cai em prova) ou PET-amiloide positivo.
+- **T (tau):** LCR com **tau fosforilada (p-tau) ALTA**; PET-tau.
+- **N (neurodegeneração):** tau total alta, atrofia hipocampal na RM, hipometabolismo temporoparietal no **PET-FDG**.
+
+Guarde o padrão do Alzheimer numa linha: **Aβ42 baixa + p-tau alta** (razão tau/Aβ42 elevada). No PET-FDG, **hipometabolismo temporoparietal e cíngulo posterior** é Alzheimer; **hipometabolismo frontal e temporal anterior** é DFT; **hipometabolismo occipital com preservação relativa do cíngulo posterior (sinal da ilha cingulada)** sugere corpos de Lewy — e neste último o exame com maior valor é o **cintilografia com MIBG cardíaco** ou o **DAT-scan** alterado. Exames de LCR e PET **não são rotina** no rastreio: entram em casos atípicos, de início precoce ou com dúvida diagnóstica relevante.`
+  });
+
+  d.secoes.push({
+   h: `16. Comprometimento cognitivo leve (CCL) — o degrau antes da demência`,
+   c: `Existe um estágio intermediário entre o envelhecimento normal e a demência, e a prova cobra exatamente a linha que os separa.
+
+**A definição, em quatro requisitos:** (1) há **queixa cognitiva** (do paciente ou do informante); (2) há **declínio objetivo** documentável em testes, abaixo do esperado para idade e escolaridade; (3) as **atividades instrumentais de vida diária estão essencialmente preservadas** — ele ainda administra o dinheiro, os remédios e o transporte, talvez com mais esforço; e (4) **não há demência** (não há perda de independência funcional).
+
+**A palavra-chave é FUNCIONALIDADE.** É ela que decide entre CCL e demência, não a nota do teste. Se o paciente parou de administrar as próprias medicações, errou contas, se perdeu num trajeto conhecido, deixou de cozinhar com segurança — **cruzou a linha e é demência**. Se ele só demora mais e ainda dá conta, é CCL. Esta é a pergunta que a banca esconde no enunciado com uma frase discreta do tipo "mantém suas atividades habituais" ou "a esposa passou a administrar as medicações".
+
+**Subtipos e o que eles preveem:**
+
+- **CCL amnéstico** (o defeito principal é memória episódica) — maior risco de conversão para **doença de Alzheimer**.
+- **CCL não amnéstico** (defeito executivo, de linguagem ou visuoespacial) — pode evoluir para **DFT, corpos de Lewy ou vascular**, conforme o domínio afetado.
+- Pode ainda ser **de domínio único ou múltiplos domínios** (múltiplos domínios converte mais rápido).
+
+**Prognóstico que vale número:** cerca de **10–15% dos pacientes com CCL convertem para demência por ano** (contra ~1–2% ao ano na população idosa geral). Mas — e este é o detalhe humano e de prova — **uma parte reverte para o normal**, sobretudo quando a causa era depressão, apneia do sono, fármaco (anticolinérgico, benzodiazepínico), hipotireoidismo ou déficit de B12. Por isso o CCL **exige a mesma investigação de causas reversíveis** que a demência.
+
+**Conduta.** Não há fármaco aprovado para CCL: **anticolinesterásicos não estão indicados** (não previnem conversão e trazem efeitos adversos) — este é o ponto que a prova cobra. O que se faz é: tratar agressivamente os **fatores de risco vasculares**, retirar medicações deletérias, tratar depressão e apneia do sono, prescrever **atividade física aeróbica regular** (a intervenção com melhor evidência), estímulo cognitivo e social, sono e dieta, e **reavaliar formalmente em 6–12 meses** para documentar a trajetória. Traduzindo para a lógica de prova: diante de "idoso com queixa de memória, testes levemente alterados e vida independente", a resposta certa raramente é medicar — é **investigar reversíveis, orientar risco vascular e reavaliar**.`
+  });
+
+  d.flashcards.push(
+   {p:`Quais são os dois critérios OBRIGATÓRIOS do CAM para delirium?`, r:`(1) Início agudo OU curso flutuante e (2) desatenção — ambos obrigatórios; mais pensamento desorganizado OU alteração do nível de consciência. O defeito central do delirium é a ATENÇÃO, não a memória.`},
+   {p:`Qual subtipo de delirium é o mais comum, o mais subdiagnosticado e o de pior prognóstico?`, r:`O delirium HIPOATIVO — o idoso quieto e sonolento, que parece "comportado". Quem só procura o agitado deixa passar a maioria dos casos.`},
+   {p:`Como diferenciar defeito de armazenamento (Alzheimer) de defeito de recuperação (vascular/subcortical) à beira do leito?`, r:`Pela evocação COM PISTA: se a pista/reconhecimento não ajuda, é armazenamento (hipocampal, Alzheimer); se o paciente acerta quando recebe pista ou reconhece numa lista, é recuperação (frontal/subcortical, vascular, depressão).`},
+   {p:`Qual é a forma MAIS comum de comprometimento cognitivo vascular, e ela progride em degraus?`, r:`A doença de pequenos vasos (subcortical isquêmica: leucoaraiose + lacunas). NÃO progride em degraus — é insidiosa, o que a faz ser confundida com Alzheimer. Domina a síndrome disexecutiva com lentificação, alteração de marcha e urgência urinária precoces.`},
+   {p:`Adulto jovem com enxaqueca com aura, AVCs subcorticais de repetição, história familiar e RM com hiperintensidades nos polos temporais anteriores — diagnóstico e gene?`, r:`CADASIL — arteriopatia autossômica dominante por mutação no gene NOTCH3. O acometimento dos polos temporais anteriores e da cápsula externa é a chave de imagem.`},
+   {p:`Microbleeds LOBARES no idoso (poupando núcleos da base) sugerem o quê? E se fossem profundos?`, r:`Lobares = angiopatia amiloide cerebral (associada ao Alzheimer). Profundos/em núcleos da base e tálamo = origem hipertensiva.`},
+   {p:`Quais os 6 critérios de Rascovsky da DFT comportamental (precisa de 3)?`, r:`Desinibição; apatia/inércia; perda de empatia; comportamento perseverativo/compulsivo; hiperoralidade e mudança alimentar (compulsão por doces); perfil disexecutivo com memória e visuoespacial preservadas.`},
+   {p:`Fala fluente e gramatical porém vazia, com perda do SIGNIFICADO das palavras ("garfo? o que é garfo?") — qual diagnóstico e qual a atrofia?`, r:`Demência semântica (APP variante semântica), com atrofia do polo temporal anterior (tipicamente esquerdo). Difere do Alzheimer: aqui o conceito se perdeu, não só a palavra.`},
+   {p:`Por que anticolinesterásico NÃO é indicado na demência frontotemporal?`, r:`Porque não há déficit colinérgico primário na DFT (o substrato é tau/TDP-43) — e podem PIORAR o comportamento. Para desinibição/compulsão, a escolha são os ISRS; antipsicótico é último caso.`},
+   {p:`Qual gene liga demência frontotemporal e ELA na mesma família?`, r:`A expansão de repetições em C9orf72 (os outros genes cobrados são MAPT e GRN). Sempre procure fasciculações e sinais de neurônio motor no paciente com DFT.`},
+   {p:`Por que um MEEM de 29 não exclui demência?`, r:`Porque o MEEM é insensível para disfunção executiva e para casos leves, e sofre forte influência da escolaridade. Diante de queixa consistente com MEEM normal, aprofunde com MoCA/avaliação neuropsicológica.`},
+   {p:`Qual é o padrão liquórico da doença de Alzheimer?`, r:`Beta-amiloide 42 BAIXA (fica retida nas placas e some do liquor) + tau fosforilada ALTA (razão tau/Aβ42 elevada). Modelo A/T/N.`},
+   {p:`PET-FDG: hipometabolismo temporoparietal × frontal/temporal anterior × occipital — o que cada um sugere?`, r:`Temporoparietal e cíngulo posterior = Alzheimer; frontal e temporal anterior = DFT; occipital com "sinal da ilha cingulada" = corpos de Lewy (apoiado por DAT-scan e MIBG cardíaco alterados).`},
+   {p:`O que separa comprometimento cognitivo leve de demência?`, r:`A FUNCIONALIDADE: no CCL as atividades instrumentais (dinheiro, medicações, transporte) permanecem essencialmente preservadas. Perdeu independência = demência.`},
+   {p:`Qual é a taxa anual de conversão do CCL para demência, e qual o tratamento farmacológico indicado?`, r:`10–15% ao ano (contra 1–2% na população idosa geral). NÃO há fármaco indicado — anticolinesterásico não previne conversão; a conduta é investigar reversíveis, risco vascular, exercício aeróbico e reavaliar em 6–12 meses.`}
+  );
+
+  d.pegadinhas.push(
+   `Delirium tem como defeito central a ATENÇÃO (não a memória) e é sempre sintoma de outra coisa — procure infecção, fármaco novo, retenção urinária, fecaloma e distúrbio metabólico antes de medicar.`,
+   `Delirium hipoativo (idoso quieto e sonolento) é o mais comum e o de pior prognóstico — não confunda "comportado" com "estável".`,
+   `Na depressão, o paciente RECLAMA muito da memória e responde "não sei"; no Alzheimer, ele minimiza (anosognosia) e quem se queixa é a família.`,
+   `Demência vascular não é só "degraus": a forma mais comum (pequenos vasos) é INSIDIOSA e imita Alzheimer — o que denuncia é disfunção executiva, marcha alterada e urgência urinária precoces.`,
+   `Marcha + incontinência + cognição também é a tríade da HPN — o que separa é a imagem (ventriculomegalia desproporcional × leucoaraiose/lacunas) e o tap test.`,
+   `Infarto ESTRATÉGICO ÚNICO (tálamo, giro angular, caudado) pode causar demência sem "vários AVCs".`,
+   `CADASIL: jovem + enxaqueca com aura + AVCs subcorticais + polos temporais anteriores na RM = NOTCH3.`,
+   `Na DFT a memória episódica é relativamente PRESERVADA no início — o que muda é o comportamento ou a linguagem; e a anosognosia é a regra (sem informante, não se faz o diagnóstico).`,
+   `Anticolinesterásico é contraindicado na DFT (pode piorar o comportamento) e não é indicado no CCL — ambos são erros frequentes de conduta em prova.`,
+   `MEEM sofre forte influência da escolaridade e não tem ponto de corte único; MEEM normal NÃO exclui demência leve ou disfunção executiva.`,
+   `No LCR do Alzheimer, o beta-amiloide 42 está BAIXO (não alto) — a proteína fica presa nas placas cerebrais.`,
+   `A linha entre CCL e demência é a FUNCIONALIDADE, não a nota do teste.`
+  );
+
+  d.questoes.push(
+   {
+    enunciado: `Mulher de 82 anos, com doença de Alzheimer leve, é internada por fratura de fêmur. No 2º dia de pós-operatório, a enfermagem relata que ela está sonolenta durante o dia, não completa as frases, perde o fio da conversa e à noite ficou agitada, dizendo ver crianças no quarto. Usa oxibutinina para bexiga hiperativa e recebeu morfina. Está afebril; sonda vesical de demora instalada. Qual a conduta inicial mais apropriada?`,
+    alternativas: {
+     a: `Iniciar haloperidol em horário fixo`,
+     b: `Investigar causas e revisar a prescrição, com medidas não farmacológicas`,
+     c: `Introduzir donepezila para a demência de base`,
+     d: `Prescrever benzodiazepínico noturno para regular o sono`
+    },
+    correta: `b`,
+    comentario: `O quadro é delirium sobreposto a demência: instalação aguda (2º dia de pós-operatório), curso flutuante (sonolenta de dia, agitada à noite), desatenção evidente (não completa frases, perde o fio) e alucinações visuais — preenche o CAM, cujos itens obrigatórios são justamente início agudo/flutuação e desatenção. O ponto que a questão testa é que delirium não é diagnóstico final, e sim um sinal de que existe outra coisa acontecendo: aqui há pelo menos três candidatos evidentes na própria prescrição e nos dispositivos — a OXIBUTININA (anticolinérgico, uma das classes que mais precipitam delirium no idoso), a MORFINA (opioide) e a SONDA VESICAL (ITU e desconforto), sem contar dor mal controlada, distúrbio hidroeletrolítico, anemia pós-operatória e privação de sono. A conduta correta é, portanto, investigar (exame físico, revisão de dispositivos, eletrólitos, função renal, hemograma, urina) e sobretudo revisar a prescrição, retirando anticolinérgicos e ajustando o opioide, associado às medidas não farmacológicas de eficácia comprovada: reorientação, restaurar óculos e prótese auditiva, mobilização precoce, higiene do sono, presença de familiar e retirada de sonda assim que possível. A alternativa "a" erra porque antipsicótico não trata a causa, não encurta o delirium e aumenta mortalidade e eventos cerebrovasculares no idoso com demência — ele é reservado para agitação com risco iminente, em dose baixa e por poucos dias, e nunca em horário fixo como primeira medida. A "c" é inadequada porque anticolinesterásico não trata delirium (estudos são negativos) e o momento de iniciar terapia para a demência de base não é durante uma descompensação aguda. A "d" é a pior de todas: benzodiazepínico é ele próprio um dos principais precipitantes de delirium no idoso — só tem lugar quando o delirium é por abstinência de álcool ou de benzodiazepínico. Guarde a frase que resolve a maioria dessas questões: todo declínio cognitivo de instalação AGUDA é delirium até prova em contrário, e delirium se investiga, não se rotula.`,
+    foco: `Delirium sobreposto à demência: investigar causa e retirar fármaco, não sedar (ponto de erro)`
+   },
+   {
+    enunciado: `Homem de 58 anos é trazido pela esposa. Há 18 meses tornou-se socialmente inadequado: faz comentários constrangedores, gasta compulsivamente, come doces o dia inteiro e perdeu o interesse pelos netos. Não se considera doente. Foi demitido por conduta. No consultório está desinibido, mas orienta-se no tempo e no espaço e evoca 3/3 palavras após 5 minutos. RM mostra atrofia frontal e temporal anterior bilateral, assimétrica. Qual a melhor conduta medicamentosa para os sintomas comportamentais?`,
+    alternativas: {
+     a: `Donepezila`,
+     b: `Haloperidol`,
+     c: `Sertralina`,
+     d: `Memantina`
+    },
+    correta: `c`,
+    comentario: `O caso é a variante comportamental da demência frontotemporal e preenche os critérios de Rascovsky com folga: desinibição, apatia/perda de empatia, comportamento compulsivo, hiperoralidade com preferência por doces e perfil disexecutivo — tudo isso com memória episódica preservada (evoca 3/3), idade abaixo dos 65 anos, anosognosia completa e atrofia frontotemporal anterior assimétrica na imagem. Esse conjunto já elimina Alzheimer, no qual a queixa inicial seria amnésia episódica com atrofia temporal medial. Para os sintomas comportamentais da DFT, a evidência disponível favorece os ISRS — sertralina, citalopram, trazodona —, que reduzem desinibição, compulsões, estereotipias e hiperoralidade, provavelmente por corrigir a deficiência serotoninérgica frontal característica da doença. A donepezila (alternativa "a") está errada e é o distrator mais tentador: não há déficit colinérgico primário na DFT (o substrato é tau ou TDP-43, não amiloide com denervação colinérgica como no Alzheimer), os estudos são negativos e há relatos consistentes de PIORA da agitação e da desinibição — prescrevê-la aqui é agir contra o mecanismo da doença. A memantina ("d") também foi testada em ensaios controlados na DFT e não demonstrou benefício, com sinal de piora cognitiva em alguns desfechos. O haloperidol ("b") é reservado para agitação grave com risco iminente e em curto prazo: antipsicóticos nessa população trazem risco de parkinsonismo, quedas, eventos cerebrovasculares e aumento de mortalidade, e nunca são a primeira escolha farmacológica. Vale ainda lembrar que, antes de qualquer fármaco, o manejo é não farmacológico e social: estruturar rotina, remover gatilhos, proteger o patrimônio da família, avaliar capacidade civil e suspender a direção veicular — e procurar fasciculações e sinais de neurônio motor, porque a DFT pode vir acompanhada de ELA (expansão C9orf72), o que muda radicalmente o prognóstico.`,
+    foco: `DFT comportamental: ISRS sim, anticolinesterásico não (ponto de erro)`
+   },
+   {
+    enunciado: `Homem de 74 anos, hipertenso e diabético mal controlados há 20 anos, evolui há 3 anos com lentificação do pensamento, perda de iniciativa, dificuldade para planejar tarefas, urgência urinária e quedas por marcha de passos curtos e base alargada. Chora com facilidade. MEEM 26; na evocação, lembra 1/3 espontaneamente e 3/3 com pistas. RM: hiperintensidades confluentes de substância branca periventricular e múltiplas lacunas; ventrículos alargados de forma proporcional à atrofia cortical. Qual o diagnóstico mais provável?`,
+    alternativas: {
+     a: `Doença de Alzheimer típica`,
+     b: `Hidrocefalia de pressão normal`,
+     c: `Comprometimento cognitivo vascular subcortical`,
+     d: `Demência com corpos de Lewy`
+    },
+    correta: `c`,
+    comentario: `Todos os elementos apontam para doença de pequenos vasos — a forma mais comum de comprometimento cognitivo vascular e a que menos se parece com o estereótipo dos "degraus". O motor é a arteriolosclerose das perfurantes causada por hipertensão e diabetes de longa data, que produz leucoaraiose confluente e lacunas; o resultado clínico é uma síndrome disexecutiva com bradifrenia (lentificação, perda de iniciativa, falha de planejamento), somada à tríade de marcha alterada, urgência urinária precoce e labilidade emocional por paralisia pseudobulbar. O detalhe mais elegante do caso está no teste de memória: o paciente lembra 1/3 sozinho, mas 3/3 com pistas — isso é defeito de RECUPERAÇÃO, típico do padrão frontal/subcortical, e não defeito de armazenamento. Na doença de Alzheimer ("a"), a pista não resgata a informação, porque ela nunca foi consolidada pelo hipocampo; além disso, o Alzheimer típico abre com amnésia episódica e desorientação, e não com marcha e urgência urinária nos primeiros anos. A hidrocefalia de pressão normal ("b") é o distrator forte, porque a tríade de Hakim-Adams é quase a mesma — mas nela a imagem mostra ventriculomegalia DESPROPORCIONAL à atrofia (índice de Evans > 0,3, sulcos altos apagados), e aqui os ventrículos estão alargados de forma proporcional à atrofia, ou seja, ex-vacuo; esse detalhe é decisivo porque a ventriculomegalia ex-vacuo não responde a derivação. A demência com corpos de Lewy ("d") exigiria flutuação cognitiva marcada, alucinações visuais bem formadas e precoces, parkinsonismo e transtorno comportamental do sono REM, ausentes no caso. A conduta que fecha o raciocínio é importante: não há droga que reverta a lesão vascular — o tratamento é controle agressivo de pressão, glicemia, lipídios e tabagismo, prevenção secundária de AVC, reabilitação da marcha e prevenção de quedas, lembrando ainda que doença mista (vascular + Alzheimer) é a regra no idoso muito velho.`,
+    foco: `Vascular subcortical × Alzheimer × HPN: evocação com pista e proporção ventrículo/atrofia`
+   }
+  );
+ }
+})();
+
+(function(){
+ var M = window.REVISAO_MODULOS;
+
+ /* ---------------- 2) NEURO|Neuropatias periféricas ---------------- */
+ var n = M["NEURO|Neuropatias periféricas"];
+ if(n){
+  n.fontes += ` Aprofundamento de 18/08/2026: Tratado de Neurologia da ABN 3ª ed., cap. 112 (Abordagem Clínica das Neuropatias Periféricas, p.1603), cap. 114 (Radiculopatias e Plexopatias, p.1634), cap. 122 (Neuropatias em Doenças Sistêmicas, Carenciais e Tóxico-Metabólicas, p.1722) e cap. 182 (Estratégia Terapêutica da Dor Neuropática, p.2546); Merritt 13ª ed., Seção 12 — Doenças Neuromusculares (mononeuropatias por compressão; eletrodiagnóstico); Adams & Victor 12ª ed. — "Diseases of the Peripheral Nerves" (mononeuropatias, mononeurite múltipla e neuropatias carenciais); Sanvito — semiologia da força segmentar, reflexos, dermátomos e manobras de compressão.`;
+
+  n.notaErro += `
+
+**Aprofundamento de 18/08/2026 (por que este módulo cresceu).** No ranking unificado, **Neuropatias periféricas está com 39% de taxa de erro (7 erros: 5 de Vinicius e 2 de Ana Teresa)** — o terceiro domínio mais falho do site. A releitura dos itens errados mostra que o problema saiu das doenças "com nome" (Guillain-Barré, CMT, hanseníase, que o texto já cobria bem) e migrou para a **etapa anterior**: reconhecer **que tipo de lesão** o caso descreve. Por isso foram acrescentadas as seções 11 a 15:
+
+- **Você chama de "polineuropatia" tudo o que formiga.** Se o déficit segue **um nervo só** (mononeuropatia), **vários nervos isolados e assimétricos** (mononeurite múltipla), **uma raiz** (radiculopatia) ou **um plexo**, a doença por trás é completamente diferente — e a conduta também. As seções 11, 12 e 15 dão o mapa topográfico que separa esses quatro padrões.
+- **Você confunde os territórios de mão e pé.** Mediano × ulnar × radial; fibular × L5. Trocar isso muda o diagnóstico inteiro, e é a pergunta mais barata que a banca faz. Seção 11 traz o "quem faz o quê" de cada nervo, com o sinal que denuncia cada um.
+- **Mononeurite múltipla passa como polineuropatia.** É o erro mais caro do tema, porque mononeurite múltipla é **vasculite até prova em contrário** — uma urgência que exige biópsia e imunossupressão. Seção 12.
+- **Você não sabe ler o laudo da ENMG** e, quando a questão dá "velocidade de condução reduzida com bloqueio" ou "amplitude reduzida com velocidade normal", perde o ponto que estava de graça. Seção 14 traduz o laudo em três frases.
+- **Você esquece as carenciais e tóxicas**, que são as causas mais tratáveis e as que mais aparecem em prova de residência (B12, B1, B6, álcool, isoniazida, quimioterápicos). Seção 13.
+
+**Como zerar o erro:** antes de dar nome à doença, responda quatro perguntas na ordem — (1) **qual é o padrão espacial?** (um nervo / vários nervos assimétricos / simétrico distal em bota e luva / uma raiz / um plexo); (2) **qual é o tempo?** (dias = agudo/GBS; semanas-meses = CIDP, vasculite, tóxica; anos = hereditária, diabética); (3) **é axonal ou desmielinizante?**; (4) **que fibras?** (motora, sensitiva grossa, sensitiva fina, autonômica). Com essas quatro respostas, a lista de diagnósticos possíveis cai de cinquenta para três.`;
+
+  n.secoes.push({
+   h: `11. Mononeuropatias por compressão — o mapa que resolve mão e pé`,
+   c: `Uma **mononeuropatia** é a lesão de **um único nervo**. Quase sempre a causa é mecânica: o nervo passa por um túnel estreito, um osso ou um ponto superficial, e ali é comprimido. O raciocínio é simples e sempre o mesmo: **o déficit desenha o território daquele nervo — nem mais, nem menos**. Se o déficit ultrapassa o território, não é mononeuropatia (é raiz, plexo ou polineuropatia).
+
+**Mediano no punho — síndrome do túnel do carpo (a mais comum de todas).** O nervo mediano atravessa um túnel osteofibroso fechado pelo ligamento transverso do carpo, junto com nove tendões flexores. Qualquer coisa que aumente o volume ali (edema, tenossinovite, uso repetitivo, gravidez, hipotireoidismo, obesidade, diabetes, artrite reumatoide, amiloidose, acromegalia) comprime o nervo.
+
+- **Sintoma:** parestesia e dor nos **3 primeiros dedos e metade radial do 4º**, com **piora noturna** clássica — o paciente acorda "sacudindo a mão" (o sinal do flick). A dor pode irradiar para o antebraço, o que confunde com radiculopatia cervical.
+- **Sinal-chave que separa do resto:** a **eminência tenar** atrofia (o abdutor curto do polegar), e a **sensibilidade da região tenar/palma proximal é POUPADA** — porque o ramo cutâneo palmar sai **antes** do túnel e passa por fora dele. Se a palma proximal também está dormente, a lesão é mais alta.
+- Manobras: Tinel (percussão) e Phalen (flexão do punho por 60 s) reproduzem os sintomas.
+- **Tratamento:** órtese noturna em posição neutra, tratar a causa de base, infiltração de corticoide em casos selecionados; **cirurgia (liberação do retináculo)** se houver déficit motor/atrofia, alteração sensitiva persistente ou falha do tratamento conservador. Diante de sintomas bilaterais em jovem, pense em causa sistêmica.
+
+**Ulnar no cotovelo (túnel cubital) — a segunda mais comum.** O ulnar passa por trás do epicôndilo medial, muito superficial (é o "osso da alegria").
+
+- **Território:** **5º dedo e metade ulnar do 4º**, com fraqueza dos **interósseos** (afastar e juntar os dedos), do adutor do polegar e dos lumbricais mediais.
+- **Sinais que valem ouro:** **mão em garra ulnar** (hiperextensão de metacarpofalângicas com flexão de interfalângicas nos 4º e 5º dedos), atrofia do **1º espaço interósseo dorsal** (o "vale" entre polegar e indicador) e o **sinal de Froment** — ao pedir para segurar um papel entre polegar e indicador, o paciente flete a falange distal do polegar, porque compensa o adutor paralisado com o flexor longo (mediano).
+- **O "paradoxo da garra ulnar":** quanto **mais alta** a lesão, **menos** garra — porque o flexor profundo dos dedos também paralisa e não há como fletir as interfalângicas. Garra exuberante = lesão baixa (punho, canal de Guyon).
+
+**Radial — a "mão caída" (paralisia do sábado à noite).** O radial contorna a diáfise umeral no sulco espiral; dormir com o braço sobre o encosto de uma cadeira ou sobre o parceiro (paralisia dos namorados), ou uma fratura de úmero, o lesa ali.
+
+- **Quadro:** **fraqueza da extensão do punho e dos dedos** (punho caído) e do supinador; hipoestesia no dorso da mão, no primeiro espaço interósseo.
+- **A chave que a prova cobra:** o **tríceps é POUPADO** nas lesões no sulco espiral (seus ramos saem antes) — se o tríceps estiver fraco, a lesão é mais proximal (axila, muleta) ou é radicular (C7). E o **reflexo braquiorradial** costuma estar diminuído.
+- Não confunda com AVC: na mão caída periférica **não há alteração de face nem de fala**, e o padrão é de nervo, não piramidal.
+
+**Fibular comum no joelho — o "pé caído" (a mononeuropatia mais comum do membro inferior).** O nervo contorna a cabeça da fíbula, onde é praticamente subcutâneo: cruzar as pernas por muito tempo, emagrecimento rápido, gesso, posição de cócoras prolongada ou cirurgia comprimem ali.
+
+- **Quadro:** **impossibilidade de dorsiflexão e eversão do pé** (marcha escarvante/em "steppage" — o paciente levanta muito o joelho para não arrastar a ponta do pé) e hipoestesia no dorso do pé e face lateral da perna.
+- **A distinção que decide a questão — fibular × radiculopatia L5:** ambas dão pé caído. O que separa é a **inversão do pé** (tibial posterior, nervo tibial, raiz L5) e a **abdução do quadril** (glúteo médio, L5): na **lesão do fibular**, a inversão está **preservada**; na **radiculopatia L5**, a inversão está **fraca**, costuma haver **dor lombar irradiada** e o déficit sensitivo segue o dermátomo até o hálux. O reflexo aquileu (S1) está normal nas duas.
+- Tratamento: retirar a compressão, órtese suropodálica (AFO) para a marcha, fisioterapia; a recuperação costuma ser boa quando a lesão é desmielinizante focal (neuropraxia).
+
+**Meralgia parestésica.** Compressão do **nervo cutâneo femoral lateral** no ligamento inguinal (obesidade, gestação, cinto/roupa apertada, cirurgia). Dá **queimação e hipoestesia na face anterolateral da coxa**, **sem qualquer fraqueza e sem alteração de reflexo** — é puramente sensitiva. É benigna e melhora com perda de peso e retirada da compressão; a ausência total de déficit motor é o que a diferencia de radiculopatia L2-L3.`
+  });
+
+  n.secoes.push({
+   h: `12. Mononeurite múltipla — o padrão que significa vasculite até prova em contrário`,
+   c: `Este é o padrão mais perigoso do módulo, e o mais frequentemente confundido com polineuropatia. Entendê-lo pode salvar um rim, um pulmão — ou a vida.
+
+**O que é.** **Mononeurite (ou mononeuropatia) múltipla** é o acometimento **sequencial, assimétrico e de nervos individuais**, um de cada vez, em tempos diferentes. A história típica é: "há três semanas caiu o pé direito; ontem começou a fraqueza da mão esquerda". Repare que o paciente consegue **nomear os nervos**: fibular à direita, ulnar à esquerda. Isso é o oposto da polineuropatia, que é **simétrica, distal e gradual** ("bota e luva", começando pelos pés, dos dois lados juntos).
+
+**Por que isso importa tanto.** O nervo periférico é irrigado por pequenos vasos, os **vasa nervorum**. Quando uma **vasculite** oclui esses vasinhos, o nervo infarta — e infartos são **focais e aleatórios**, exatamente como o padrão clínico descreve. Ou seja, mononeurite múltipla é a tradução neurológica de **isquemia de pequenos vasos**. A dor costuma ser intensa e de início abrupto ("como se tivesse levado um choque"), porque é um infarto de nervo.
+
+**Um alerta técnico importante:** se a doença continua por semanas e vários nervos vão sendo acometidos, os déficits **confluem** e o quadro passa a **parecer simétrico**, imitando polineuropatia. Por isso a **história do início** é decisiva — pergunte sempre "como começou, e em que ordem?".
+
+**As causas que a prova cobra:**
+
+- **Vasculites primárias:** poliarterite nodosa (clássica, com dor, febre, perda de peso, hipertensão e comprometimento renal), granulomatose com poliangiite (ANCA-c/PR3, com acometimento de vias aéreas e rim), granulomatose eosinofílica com poliangiite (Churg-Strauss — asma + eosinofilia + neuropatia; associação altamente cobrada) e poliangiite microscópica.
+- **Vasculite secundária a doença sistêmica:** artrite reumatoide, lúpus, síndrome de Sjögren, crioglobulinemia (esta muito ligada à **hepatite C**).
+- **Diabetes** (a causa mais comum na prática, incluindo a amiotrofia diabética / neuropatia proximal assimétrica dolorosa).
+- **Infecciosas:** **hanseníase** — no Brasil, é a principal causa infecciosa de mononeurite múltipla e um diagnóstico de notificação compulsória; também HIV, hepatite B e C, doença de Lyme.
+- **Infiltrativas:** linfoma, amiloidose, sarcoidose.
+- **Neuropatia hereditária com susceptibilidade à pressão (HNPP)**, por deleção do PMP22 — o espelho genético do CMT1A (que é duplicação do mesmo gene): paralisias recorrentes e indolores após compressões triviais.
+
+**Como investigar.** Mononeurite múltipla exige investigação rápida e ampla: hemograma com **eosinófilos**, VHS e PCR, **ANCA**, FAN, fator reumatoide, complemento, **crioglobulinas**, sorologias (HIV, hepatites B e C, VDRL), glicemia/HbA1c, eletroforese de proteínas e imunofixação, e **ENMG** (que confirma o padrão axonal multifocal assimétrico e ajuda a escolher o local da biópsia). O padrão-ouro diagnóstico é a **biópsia de nervo (geralmente o sural) com músculo adjacente**, mostrando infiltrado inflamatório transmural e necrose fibrinoide dos vasos epineurais.
+
+**Como tratar.** Se há vasculite sistêmica, o tratamento é **imunossupressão precoce e agressiva** — corticoide em dose alta (frequentemente pulsoterapia) associado a **ciclofosfamida** ou **rituximabe**, conforme a vasculite — e o atraso custa nervo definitivamente perdido, já que o dano é axonal isquêmico e a regeneração é lenta (cerca de 1 mm/dia) e incompleta. Na hanseníase, o tratamento é a poliquimioterapia com manejo dos estados reacionais (corticoide para a reação tipo 1/neurite; talidomida para o eritema nodoso hansênico, jamais em mulher em idade fértil sem controle rigoroso). No diabetes, controle glicêmico e manejo da dor.
+
+**A frase para levar à prova:** *déficit assimétrico, doloroso, em nervos nomeáveis e em tempos diferentes = mononeurite múltipla = procure vasculite (e, no Brasil, hanseníase) agora*.`
+  });
+
+  n.secoes.push({
+   h: `13. Neuropatias carenciais e tóxicas — as causas que você pode reverter`,
+   c: `Esta é a família de neuropatias que mais aparece em prova de residência, porque são **tratáveis** — e o que a banca quer saber é se você lembra de procurá-las.
+
+**Vitamina B12 (cobalamina) — a mais cobrada.** A B12 é cofator na síntese de mielina; sua falta produz uma lesão que **não fica só no nervo periférico**. O quadro completo chama-se **degeneração combinada subaguda da medula**, e o nome descreve exatamente a armadilha: combina
+
+- **neuropatia periférica** (parestesias distais, arreflexia) com
+- **acometimento do cordão posterior** (perda de propriocepção e vibração, **Romberg positivo**, marcha atáxica "batendo os pés") e
+- **acometimento do trato corticoespinhal** (fraqueza, **espasticidade, Babinski**).
+
+Ou seja: um paciente com **arreflexia (nervo) E Babinski (piramidal) ao mesmo tempo** — combinação aparentemente contraditória que é a assinatura da B12. Some a isso **anemia megaloblástica com macrocitose e neutrófilos hipersegmentados**, glossite e alterações cognitivas/psiquiátricas. Causas: anemia perniciosa (autoanticorpos anti-fator intrínseco/anti-célula parietal), gastrectomia e cirurgia bariátrica, dieta vegana estrita, **uso crônico de metformina e de inibidores de bomba de prótons**, doença ileal. Dois detalhes que decidem questão: **os sintomas neurológicos podem existir com hemograma NORMAL** (não espere a anemia para tratar) e, se a B12 estiver limítrofe, dosam-se **homocisteína e ácido metilmalônico** (ambos elevados na deficiência de B12; na de folato, só a homocisteína sobe). E a pegadinha maior: **repor ácido fólico isoladamente corrige a anemia e mascara/precipita a piora neurológica** — sempre reponha B12 antes ou junto.
+
+**Tiamina (B1) — beribéri e Wernicke.** Deficiência ligada a alcoolismo, desnutrição, hiperêmese gravídica, cirurgia bariátrica e nutrição parenteral sem reposição. Dá **polineuropatia sensitivo-motora dolorosa, axonal, distal** (beribéri seco), podendo somar insuficiência cardíaca de alto débito (beribéri úmido). O que não se pode perder é a **encefalopatia de Wernicke** — confusão, oftalmoparesia/nistagmo e ataxia — que exige **tiamina parenteral ANTES de qualquer glicose**, porque a glicose consome o pouco de tiamina restante e precipita o quadro.
+
+**Piridoxina (B6) — a vitamina de mão dupla.** Aqui está uma das pegadinhas mais elegantes da neurologia: **falta e excesso de B6 causam neuropatia**. A **falta** ocorre classicamente com **isoniazida** (por isso se prescreve piridoxina profilática no tratamento da tuberculose, sobretudo em desnutridos, gestantes, etilistas, diabéticos e portadores de HIV) e cursa com polineuropatia e crises. O **excesso** (megadoses de suplemento, acima de ~50–200 mg/dia por tempo prolongado) causa uma **neuronopatia sensitiva** — degeneração dos gânglios da raiz dorsal — com **ataxia sensitiva grave e força preservada**, muitas vezes irreversível.
+
+**Álcool.** Polineuropatia **axonal, sensitivo-motora, distal e dolorosa**, com componente de fibras finas (queimação nos pés) — resultado do efeito tóxico direto do etanol somado à carência de tiamina e outras vitaminas do complexo B. Tratamento: abstinência e reposição vitamínica.
+
+**Fármacos que a prova cobra (decore por mecanismo):**
+
+- **Isoniazida** → depleta B6 → neuropatia axonal (previna com piridoxina).
+- **Vincristina** → toxicidade axonal por lesão de microtúbulos; **catastrófica em portador de CMT** — cheque neuropatia hereditária antes de quimioterapia.
+- **Cisplatina/oxaliplatina** → **neuronopatia sensitiva** (gânglio da raiz dorsal): ataxia sensitiva, arreflexia, força preservada; a oxaliplatina dá ainda parestesia desencadeada pelo frio.
+- **Taxanos (paclitaxel)** → neuropatia sensitiva dolorosa dose-dependente.
+- **Metronidazol e nitrofurantoína** em uso prolongado; **amiodarona**; **talidomida**; **dapsona** (esta com padrão predominantemente **motor**, uma exceção útil); **linezolida**.
+- **Metformina** → indireta, por má absorção de B12.
+
+**Metais e ocupacionais:** **chumbo** (neuropatia **motora** que classicamente poupa sensibilidade e dá punho caído bilateral, com anemia e linha gengival), **arsênico** (neuropatia dolorosa aguda com linhas de Mees nas unhas, após sintomas gastrointestinais), **tálio** (neuropatia dolorosa com **alopecia**), **mercúrio** e **n-hexano** (solventes, "cola de sapateiro").
+
+**Uremia e hipotireoidismo** completam a lista das metabólicas: a urêmica é axonal distal e melhora com diálise adequada/transplante; a do hipotireoidismo com frequência se manifesta como **síndrome do túnel do carpo bilateral**.
+
+**Conclusão prática:** em toda polineuropatia sem causa óbvia, o painel mínimo é **glicemia de jejum/HbA1c (e teste de tolerância se normal), B12 com metilmalônico, TSH, função renal e hepática, eletroforese de proteínas com imunofixação, VHS/FAN, HIV e VDRL** — mais história ocupacional, etílica e a **revisão completa da lista de medicamentos**. Cerca de um quarto das polineuropatias permanece idiopático mesmo após tudo isso, mas a busca é obrigatória porque as tratáveis estão todas nesta lista.`
+  });
+
+  n.secoes.push({
+   h: `14. A ENMG traduzida — lendo o laudo sem decorar tabelas`,
+   c: `A eletroneuromiografia assusta, mas responde a **três perguntas**, e é só isso que a prova cobra.
+
+**Pergunta 1 — o problema é do nervo, do músculo ou da junção?** Este é o papel da **agulha (eletromiografia)**. Em lesão **neurogênica**, o músculo desnervado fica irritável (fibrilações e ondas positivas em repouso) e, na tentativa de compensar, os axônios sobreviventes brotam e adotam fibras órfãs — o resultado são potenciais de unidade motora **grandes, largos e polifásicos**, em número reduzido (recrutamento diminuído, com frequência de disparo aumentada). Em lesão **miopática**, ocorre o inverso: as unidades ficam **pequenas, curtas e polifásicas**, com recrutamento **precoce e completo** (precisa recrutar muitas unidades para pouca força). Já a **junção neuromuscular** não se avalia assim: usa-se **estimulação repetitiva** — decremento > 10% na baixa frequência sugere **miastenia gravis**; incremento > 60–100% após exercício/alta frequência sugere **Lambert-Eaton**.
+
+**Pergunta 2 — é axonal ou desmielinizante?** Este é o coração do tema, e a regra tem uma lógica física simples. Pense no nervo como um **fio elétrico**: o **axônio é o cobre**, a **mielina é a capa isolante que dá velocidade**.
+
+- **Se o problema é a capa (desmielinizante),** o sinal fica **lento**: **velocidade de condução muito reduzida**, **latências distais prolongadas**, **ondas F ausentes ou atrasadas** (a onda F testa o segmento proximal, o mais precoce no Guillain-Barré) e, sobretudo, os achados que denunciam desmielinização **adquirida**: **bloqueio de condução** e **dispersão temporal** (a amplitude cai e o potencial se alarga quando se estimula proximalmente). As amplitudes permanecem relativamente preservadas no início.
+- **Se o problema é o cobre (axonal),** o que se perde é **quantidade de fio**: **amplitude reduzida** dos potenciais (motor CMAP e sensitivo SNAP), com **velocidade normal ou apenas discretamente reduzida** (nunca abaixo de ~70–75% do limite inferior), e a agulha mostra desnervação (fibrilações) e reinervação crônica.
+
+Uma distinção fina que separa hereditário de adquirido: na **desmielinização hereditária (CMT1A)** a lentificação é **uniforme e simétrica** em todos os nervos, **sem bloqueio de condução**; na **adquirida (GBS/CIDP)** ela é **irregular, multifocal, com bloqueios e dispersão**. Essa frase única já resolve a diferenciação CMT × CIDP que o módulo destaca como ponto de erro.
+
+**Pergunta 3 — qual é a topografia?** Comparando os nervos e os músculos estudados, a ENMG diz se o padrão é **distal e simétrico** (polineuropatia), **focal em um tronco nervoso** (mononeuropatia — e localiza o ponto exato da compressão, por exemplo lentificação isolada através do túnel do carpo ou do cotovelo), **multifocal assimétrico** (mononeurite múltipla) ou **por miótomo com potencial sensitivo NORMAL** (radiculopatia).
+
+**O truque do potencial sensitivo (SNAP), que vale muitos pontos:** o corpo celular do neurônio sensitivo fica no **gânglio da raiz dorsal**, que está **fora** da medula, **depois** da raiz. Portanto:
+
+- Em lesão **pré-ganglionar** (radiculopatia, avulsão de raiz), o axônio periférico continua conectado ao seu corpo celular e **o SNAP permanece NORMAL**, mesmo com o paciente dormente naquele dermátomo.
+- Em lesão **pós-ganglionar** (plexopatia, mononeuropatia, polineuropatia), o SNAP **é reduzido ou ausente**.
+
+Ou seja: **dormência com SNAP normal = raiz; dormência com SNAP alterado = plexo ou nervo**. É o exame que decide entre hérnia de disco e plexopatia quando a clínica é ambígua.
+
+**Um cuidado temporal que a prova adora:** a ENMG **não é imediata**. Fibrilações levam de **2 a 3 semanas** para aparecer, e as alterações do Guillain-Barré podem estar **normais nos primeiros dias** — inclusive o LCR, cuja dissociação proteinocitológica costuma surgir **após a primeira semana**. Portanto, ENMG e liquor normais **não afastam Guillain-Barré** nas primeiras 48–72 h: o diagnóstico é clínico e o tratamento não espera exame.`
+  });
+
+  n.secoes.push({
+   h: `15. Radiculopatias e plexopatias — o que NÃO é polineuropatia`,
+   c: `Fechando o mapa topográfico: antes da polineuropatia e antes do nervo, existem a **raiz** e o **plexo**. Confundi-los é a origem de boa parte dos erros do domínio.
+
+**Radiculopatia (a raiz).** Cada raiz carrega um **miótomo** (grupo muscular) e um **dermátomo** (faixa de pele). A lesão típica é a **hérnia de disco** ou a **espondilose**, e a marca registrada é a **dor irradiada em faixa que piora com manobras que aumentam a pressão** (tosse, espirro, Valsalva) e com as manobras de estiramento (Lasègue no membro inferior, Spurling no pescoço).
+
+Os padrões cervicais que caem em prova:
+
+- **C5:** deltoide e abdução do ombro; reflexo bicipital; dor na face lateral do braço.
+- **C6:** bíceps e extensores do punho; reflexo **bicipital e braquiorradial**; parestesia no **polegar**.
+- **C7:** **tríceps**, flexores do punho e extensores dos dedos; reflexo **tricipital**; parestesia no **dedo médio**. É a radiculopatia cervical mais comum.
+- **C8:** músculos intrínsecos da mão; parestesia no **5º dedo** (cuidado: parece ulnar — mas a radiculopatia poupa o SNAP e costuma ter dor cervical irradiada).
+
+E os lombossacros:
+
+- **L4:** quadríceps, extensão do joelho; **reflexo patelar**; dor na face anterior da coxa até o maléolo medial.
+- **L5:** **dorsiflexão do hálux** e do pé, **inversão** e **abdução do quadril**; **reflexos normais**; dormência no dorso do pé até o hálux. É a mais comum, e o pé caído aqui vem **com** inversão fraca (diferente do fibular).
+- **S1:** flexão plantar (andar na ponta dos pés), **reflexo aquileu abolido**; dormência na face lateral do pé e 5º dedo.
+
+Duas emergências não podem escapar: a **síndrome da cauda equina** (dor lombar com **retenção urinária**, **anestesia em sela**, déficit em múltiplas raízes e perda do tônus esfincteriano — cirurgia de urgência) e a **compressão medular** (que dá sinais **piramidais** abaixo do nível, nível sensitivo e disfunção esfincteriana).
+
+**Plexopatias (o plexo).** No plexo, várias raízes se misturam antes de formar os nervos. Por isso o déficit **não respeita nem dermátomo, nem território de nervo único** — é o padrão "misturado", e o **SNAP está alterado** (lesão pós-ganglionar).
+
+- **Plexopatia braquial superior (Erb-Duchenne, C5-C6):** braço aduzido, rodado internamente e antebraço pronado — a clássica "posição de gorjeta do garçom". Na criança, é a lesão obstétrica do parto com distocia de ombro.
+- **Plexopatia braquial inferior (Klumpke, C8-T1):** **mão em garra** por acometimento dos intrínsecos, podendo somar **síndrome de Horner** (ptose, miose, anidrose) quando há avulsão de T1 — e este último achado deve sempre levantar a suspeita de **tumor de Pancoast** (câncer de ápice pulmonar) no adulto fumante com dor no ombro e mão fraca.
+- **Neuralgia amiotrófica (síndrome de Parsonage-Turner):** quadro muito característico e cobrado — **dor intensa e súbita no ombro**, que dura dias, seguida, quando a dor cede, de **fraqueza e atrofia** de músculos da cintura escapular (com frequência escápula alada por lesão do nervo torácico longo). Costuma vir dias após infecção viral, vacina ou cirurgia. É autolimitada, com recuperação lenta ao longo de meses; o tratamento é analgesia, corticoide precoce em alguns casos e fisioterapia.
+- **Plexopatia lombossacra:** hematoma de psoas (anticoagulados), tumor pélvico, radioterapia prévia, e a **amiotrofia diabética** (neuropatia proximal diabética) — homem de meia-idade, diabético, com **dor intensa em coxa, perda de peso e fraqueza proximal assimétrica** que começa unilateral; o prognóstico é de recuperação parcial em meses com controle glicêmico e analgesia.
+
+**A regra de três frases para a prova:**
+
+- **Nervo:** déficit desenha o território de um nervo; SNAP alterado.
+- **Raiz:** dor irradiada em faixa, piora com Valsalva/Lasègue, déficit por miótomo/dermátomo; **SNAP NORMAL**.
+- **Plexo:** déficit "misturado" que ultrapassa nervo e raiz isolados; SNAP alterado; procure trauma, tumor, radioterapia, hematoma ou Parsonage-Turner.`
+  });
+
+  n.flashcards.push(
+   {p:`Por que a sensibilidade da eminência tenar é POUPADA na síndrome do túnel do carpo?`, r:`Porque o ramo cutâneo palmar do mediano sai ANTES do túnel e passa por fora dele. Se a palma proximal está dormente, a lesão do mediano é mais alta.`},
+   {p:`O que é o sinal de Froment e o que ele indica?`, r:`Ao segurar um papel entre polegar e indicador, o paciente flete a falange distal do polegar (usa o flexor longo, do mediano) para compensar o adutor do polegar paralisado — indica lesão do nervo ULNAR.`},
+   {p:`Por que quanto mais ALTA a lesão ulnar, MENOS garra aparece?`, r:`Porque o flexor profundo dos dedos (4º e 5º) também paralisa, e sem ele não há como fletir as interfalângicas. Garra exuberante = lesão baixa (punho/canal de Guyon).`},
+   {p:`Mão caída com tríceps preservado — onde está a lesão?`, r:`Nervo radial no sulco espiral do úmero ("paralisia do sábado à noite"): os ramos do tríceps saem antes. Tríceps fraco aponta lesão mais proximal (axila) ou radiculopatia C7.`},
+   {p:`Pé caído: como diferenciar lesão do fibular comum de radiculopatia L5?`, r:`Pela INVERSÃO do pé e pela abdução do quadril: preservadas no fibular, fracas na L5. A L5 ainda costuma ter dor lombar irradiada; o reflexo aquileu (S1) é normal nas duas.`},
+   {p:`Queimação e hipoestesia na face anterolateral da coxa, sem fraqueza e sem alteração de reflexo — diagnóstico?`, r:`Meralgia parestésica (compressão do nervo cutâneo femoral lateral no ligamento inguinal). É puramente sensitiva — a ausência de déficit motor a separa de radiculopatia L2-L3.`},
+   {p:`Déficit assimétrico, doloroso, em nervos nomeáveis e em tempos diferentes — que padrão é esse e o que significa?`, r:`Mononeurite múltipla — infarto de nervos por oclusão dos vasa nervorum. É VASCULITE até prova em contrário (e, no Brasil, hanseníase). Exige investigação e imunossupressão precoces.`},
+   {p:`Asma + eosinofilia + mononeurite múltipla = ?`, r:`Granulomatose eosinofílica com poliangiite (Churg-Strauss). Outras vasculites cobradas: poliarterite nodosa, granulomatose com poliangiite (ANCA-PR3) e crioglobulinemia (ligada à hepatite C).`},
+   {p:`Qual é o padrão-ouro diagnóstico da mononeurite múltipla vasculítica?`, r:`Biópsia de nervo (sural) com músculo adjacente, mostrando infiltrado inflamatório transmural e necrose fibrinoide dos vasos epineurais.`},
+   {p:`Arreflexia e Babinski no MESMO paciente — em que deficiência isso é a assinatura?`, r:`Deficiência de vitamina B12 (degeneração combinada subaguda): combina neuropatia periférica (arreflexia), cordão posterior (Romberg, perda vibratória) e trato corticoespinhal (Babinski, espasticidade).`},
+   {p:`Por que NUNCA repor ácido fólico isolado na suspeita de deficiência de B12?`, r:`Porque o folato corrige a anemia megaloblástica e mascara o déficit, permitindo (ou precipitando) a progressão da lesão neurológica, que pode ficar irreversível. Reponha B12 antes ou junto.`},
+   {p:`Falta e excesso de qual vitamina causam neuropatia — e com que quadros?`, r:`Piridoxina (B6): a FALTA (clássica com isoniazida) dá polineuropatia axonal e crises; o EXCESSO (megadoses) dá neuronopatia sensitiva com ataxia grave e força preservada, frequentemente irreversível.`},
+   {p:`Quais quimioterápicos causam neuronopatia sensitiva (gânglio da raiz dorsal) e qual causa dano axonal grave em portadores de CMT?`, r:`Cisplatina e oxaliplatina causam neuronopatia sensitiva (ataxia sensitiva com força preservada; oxaliplatina dá parestesia ao frio). A VINCRISTINA é a catastrófica no CMT — cheque neuropatia hereditária antes.`},
+   {p:`Neuropatia predominantemente MOTORA com punho caído bilateral, anemia e linha gengival — qual metal?`, r:`Chumbo. Outras: arsênico (dolorosa aguda, linhas de Mees), tálio (dolorosa com alopecia) e n-hexano (solventes).`},
+   {p:`ENMG: amplitude reduzida com velocidade normal × velocidade muito lenta com bloqueio de condução — o que é cada um?`, r:`Amplitude reduzida com velocidade preservada = AXONAL (perdeu "cobre"). Velocidade muito lenta, latências longas, ondas F atrasadas com bloqueio e dispersão = DESMIELINIZANTE ADQUIRIDA (GBS/CIDP).`},
+   {p:`Como a ENMG separa CMT1A de CIDP, sendo ambas desmielinizantes?`, r:`No CMT1A (hereditário) a lentificação é UNIFORME e simétrica, SEM bloqueio de condução; na CIDP (adquirida) é irregular, multifocal, COM bloqueio e dispersão temporal.`},
+   {p:`Paciente dormente num dermátomo mas com potencial sensitivo (SNAP) NORMAL — onde está a lesão?`, r:`Na RAIZ (lesão pré-ganglionar): o gânglio da raiz dorsal fica fora da medula, então o axônio periférico segue íntegro. SNAP alterado indica lesão pós-ganglionar (plexo ou nervo).`},
+   {p:`Em quanto tempo aparecem fibrilações na EMG — e o que isso implica no Guillain-Barré?`, r:`2 a 3 semanas. Por isso ENMG e liquor (dissociação proteinocitológica só após ~1 semana) podem ser NORMAIS nas primeiras 48–72 h: o diagnóstico de GBS é clínico e o tratamento não espera exame.`},
+   {p:`Dor intensa e súbita no ombro seguida, dias depois, de fraqueza e atrofia da cintura escapular — diagnóstico?`, r:`Neuralgia amiotrófica (síndrome de Parsonage-Turner), frequentemente pós-viral, pós-vacinal ou pós-cirúrgica. Autolimitada, com recuperação lenta em meses.`},
+   {p:`Mão em garra com síndrome de Horner no adulto fumante — o que investigar?`, r:`Plexopatia braquial inferior (Klumpke, C8-T1) por tumor de Pancoast (câncer de ápice pulmonar). Peça imagem de tórax.`}
+  );
+
+  n.pegadinhas.push(
+   `Na síndrome do túnel do carpo a palma proximal/tenar é POUPADA na sensibilidade (o ramo cutâneo palmar passa por fora do túnel) — se estiver dormente, a lesão é mais alta.`,
+   `Túnel do carpo bilateral em jovem ou sem esforço repetitivo: procure causa sistêmica (hipotireoidismo, gravidez, diabetes, artrite reumatoide, amiloidose, acromegalia).`,
+   `Mão caída com TRÍCEPS PRESERVADO = radial no sulco espiral; tríceps fraco = lesão proximal ou raiz C7.`,
+   `Pé caído com inversão preservada = fibular no joelho; pé caído com inversão FRACA e abdução do quadril fraca = radiculopatia L5.`,
+   `Mononeurite múltipla NÃO é polineuropatia: é assimétrica, dolorosa e sequencial — significa vasculite (ou hanseníase) e exige investigação urgente, não observação.`,
+   `Se a mononeurite múltipla evolui muito, os déficits confluem e o quadro IMITA polineuropatia simétrica — por isso pergunte sempre "como começou e em que ordem?".`,
+   `B12: os sintomas neurológicos podem ocorrer com hemograma NORMAL — não espere anemia para tratar; e nunca reponha folato isolado (mascara e piora o quadro neurológico).`,
+   `B6 tem toxicidade em dose alta: megadoses causam neuronopatia sensitiva com ataxia grave e força preservada — "vitamina não é inócua".`,
+   `Sempre prescreva piridoxina junto com isoniazida em pacientes de risco (desnutridos, gestantes, etilistas, diabéticos, HIV).`,
+   `Antes de quimioterapia com vincristina, pergunte por pé cavo e história familiar: neuropatia hereditária (CMT) transforma a droga em catástrofe.`,
+   `ENMG normal nas primeiras 48–72 h NÃO exclui Guillain-Barré (fibrilações levam 2–3 semanas; a dissociação proteinocitológica surge após a 1ª semana).`,
+   `SNAP normal em território dormente aponta lesão PRÉ-ganglionar (raiz) — é o exame que separa hérnia de disco de plexopatia.`,
+   `Dor lombar com retenção urinária + anestesia em sela = síndrome da cauda equina = cirurgia de urgência, não analgesia ambulatorial.`
+  );
+
+  n.questoes.push(
+   {
+    enunciado: `Homem de 54 anos, asmático de difícil controle e com rinossinusite crônica, iniciou há 6 semanas dor súbita e intensa na perna direita seguida de queda do pé direito. Há 10 dias surgiu fraqueza da mão esquerda, com dificuldade para afastar os dedos. Perdeu 6 kg. Hemograma com 18% de eosinófilos. Qual a hipótese diagnóstica e a conduta?`,
+    alternativas: {
+     a: `Polineuropatia diabética; controle glicêmico`,
+     b: `Mononeurite múltipla por vasculite; investigação e imunossupressão`,
+     c: `Síndrome de Guillain-Barré; imunoglobulina`,
+     d: `Radiculopatias lombar e cervical; fisioterapia`
+    },
+    correta: `b`,
+    comentario: `O padrão descrito é o de mononeurite múltipla, e reconhecê-lo é o que salva o paciente: os déficits são assimétricos, dolorosos, em nervos que se pode NOMEAR (fibular à direita, ulnar à esquerda) e instalados em tempos diferentes — nada a ver com a progressão simétrica e distal "em bota e luva" da polineuropatia. O mecanismo explica a apresentação: a vasculite oclui os vasa nervorum e cada nervo sofre um infarto focal, aleatório e doloroso. O contexto fecha o diagnóstico etiológico: asma de difícil controle, rinossinusite, sintomas constitucionais e eosinofilia acentuada compõem a granulomatose eosinofílica com poliangiite (Churg-Strauss), na qual a neuropatia é uma das manifestações mais frequentes e precoces. A conduta é investigação imediata e ampla (ANCA, VHS/PCR, FAN, crioglobulinas, sorologias para HIV e hepatites B e C, glicemia, eletroforese de proteínas, ENMG e, idealmente, biópsia de nervo sural com músculo adjacente procurando necrose fibrinoide) seguida de imunossupressão precoce com corticoide em dose alta associado a ciclofosfamida ou rituximabe — o atraso custa axônios que não voltam, já que a regeneração é de cerca de 1 mm/dia e incompleta. A alternativa "a" ignora que o paciente não é diabético e que a neuropatia diabética clássica é simétrica e distal. A "c" é o distrator perigoso: o Guillain-Barré é uma paralisia ascendente SIMÉTRICA com arreflexia global, evoluindo em dias, e não déficits focais assimétricos em semanas — e imunoglobulina não trata vasculite. A "d" desconsidera que radiculopatias produzem dor irradiada em faixa com déficit por miótomo e dermátomo, além de não explicar eosinofilia, emagrecimento e asma. Guarde a frase: déficit assimétrico, doloroso, em nervos nomeáveis e em tempos diferentes é vasculite até prova em contrário — e, no Brasil, hanseníase entra sempre no diferencial.`,
+    foco: `Mononeurite múltipla = vasculite (padrão espacial, ponto de erro do domínio)`
+   },
+   {
+    enunciado: `Mulher de 61 anos, gastrectomia parcial há 8 anos e uso crônico de metformina e omeprazol, queixa-se há 1 ano de formigamento nos pés e desequilíbrio no escuro. Ao exame: perda de sensibilidade vibratória e proprioceptiva nos pés, Romberg positivo, reflexos aquileus abolidos e sinal de Babinski bilateral. Hemograma normal, VCM 92. Qual a melhor conduta diagnóstica?`,
+    alternativas: {
+     a: `Dosar B12 sérica e, se limítrofe, ácido metilmalônico e homocisteína`,
+     b: `Iniciar ácido fólico e reavaliar em 3 meses`,
+     c: `Solicitar ressonância de coluna lombar`,
+     d: `Iniciar pregabalina e encaminhar à fisioterapia`
+    },
+    correta: `a`,
+    comentario: `A combinação de arreflexia (lesão do nervo periférico) com sinal de Babinski (lesão do trato corticoespinhal) no MESMO paciente é aparentemente contraditória e é justamente a assinatura da degeneração combinada subaguda por deficiência de vitamina B12: a carência compromete simultaneamente o nervo periférico, os cordões posteriores (daí a perda vibratória e proprioceptiva, o Romberg positivo e a piora no escuro, quando falta a compensação visual) e o trato corticoespinhal. O contexto de risco é exuberante — gastrectomia (perda de fator intrínseco e de superfície absortiva), metformina (reduz absorção ileal de B12) e inibidor de bomba de prótons (reduz a liberação da B12 dos alimentos) —, uma combinação frequentíssima na prática. O detalhe que a questão testa é que o hemograma NORMAL e o VCM de 92 não afastam nada: as manifestações neurológicas podem preceder em muito a anemia megaloblástica, e esperar a macrocitose é o erro que permite a lesão se tornar irreversível. Por isso a conduta é dosar a B12 e, diante de valor limítrofe (zona cinzenta em torno de 200–400 pg/mL, comum e enganosa), confirmar com os metabólitos que se acumulam antes: ácido metilmalônico e homocisteína, ambos elevados na deficiência de B12 (na de folato, só a homocisteína sobe). A alternativa "b" é a mais perigosa da prova: repor folato isolado corrige a anemia e mascara o quadro, podendo precipitar a progressão neurológica. A "c" investiga um compartimento errado — a lesão medular aqui é metabólica e difusa nos cordões posteriores e laterais (se houvesse imagem, seria RM de coluna CERVICAL/torácica com o sinal em "V invertido" na T2), e uma RM lombar jamais explicaria Babinski. A "d" trata sintoma sem procurar a causa reversível, além de não abordar o risco de progressão. Complete o raciocínio buscando a etiologia (anticorpos anti-fator intrínseco e anti-célula parietal) e repondo B12 parenteral precocemente — quanto mais tempo de sintoma, menor a chance de recuperação completa.`,
+    foco: `B12: arreflexia + Babinski, e por que nunca repor folato isolado (causa reversível)`
+   }
+  );
+ }
+})();
+
+(function(){
+ var M = window.REVISAO_MODULOS;
+
+ /* ---------------- 3) NEURO|HIC / emergências neuro ---------------- */
+ var h = M["NEURO|HIC / emergências neuro"];
+ if(h){
+  h.fontes += ` Aprofundamento de 18/08/2026: Tratado de Neurologia da ABN 3ª ed., cap. 84 — Estado de Mal Epiléptico (p.1197), cap. 22 — Transtornos do Nível de Consciência (p.462), cap. 163 — Hipertensão Intracraniana em Terapia Intensiva Neurológica (p.2243) e cap. 171 — Hipertensão Intracraniana Idiopática (p.2359); Merritt 13ª ed., Seção 2 (Torpor e Coma; Morte Encefálica), Seção 5 (Neurotrauma) e Seção 14 (Hidrocefalia e Edema Cerebral); Adams & Victor 12ª ed. — "Coma and Related Disorders of Consciousness" e "Epilepsy and Other Seizure Disorders" (status epilepticus); Sanvito — exame pupilar, reflexos de tronco e padrões respiratórios. Critérios de Friedmann (HIC idiopática) e diretrizes de estado de mal epiléptico (AES/ILAE).`;
+
+  h.notaErro += `
+
+**Aprofundamento de 18/08/2026 (por que este módulo cresceu).** Este domínio aparece com **33% de taxa de erro (10 erros: 9 de Vinicius e 1 de Leonardo)** e é, de longe, o mais heterogêneo do site — reúne HIC, coma, morte encefálica, insônia, metanol e encefalopatia hepática. A análise dos itens errados mostrou que o texto original cobria bem o que havia sido cobrado antes, mas deixava de fora **três emergências que a prova cobra com frequência alta** e um pedaço da semiologia que amarra tudo. Foram acrescentadas as seções 11 a 15:
+
+- **Estado de mal epiléptico** (seção 11) não estava no módulo, e é a emergência neurológica mais **tempo-dependente** depois do AVC. O erro típico é subdosar o benzodiazepínico e depois "esperar para ver" — cada minuto de crise custa neurônio.
+- **Você reconhece a HIC, mas não nomeia a herniação** (seção 12). Quando a questão descreve pupila dilatada de um lado com hemiparesia contralateral, ou rebaixamento com pupilas médias e fixas, ela está pedindo o **tipo** de hérnia, porque é isso que define a urgência e a conduta.
+- **HIC idiopática (pseudotumor cerebri)** (seção 13) é o oposto exato da HIC do trauma — mulher jovem, obesa, com cefaleia e papiledema, TC normal — e a punção lombar, que na HIC com massa é **proibida**, aqui é **diagnóstica e terapêutica**. Essa inversão é a armadilha favorita da banca, e explica erros seus na seção 4.
+- **O exame do comatoso** (seção 14) é o que transforma "paciente em coma" em topografia. Sem ele, você não consegue decidir entre causa estrutural e tóxico-metabólica — que é exatamente o que as questões perguntam.
+- **Síndrome neuroléptica maligna e síndrome serotoninérgica** (seção 15) aparecem como "febre + rigidez + confusão" e são confundidas entre si e com meningite; o tratamento de uma quase mata na outra.
+
+**Como zerar o erro:** diante de qualquer emergência neurológica, siga sempre a mesma espinha — (1) **ABC e glicemia capilar** (hipoglicemia imita tudo); (2) **é estrutural ou tóxico-metabólico?** (assimetria e reflexos de tronco decidem — seção 14); (3) **há sinal de herniação?** (pupila, nível de consciência, postura — seção 12) → se sim, medidas de HIC **agora**, imagem em seguida; (4) **o relógio está correndo?** (crise > 5 min = tratar; AVC = trombólise; meningite = antibiótico antes da imagem). Ordem errada, mesmo com o diagnóstico certo, é resposta errada em prova e em plantão.`;
+
+  h.secoes.push({
+   h: `11. Estado de mal epiléptico — a emergência em que o relógio é o tratamento`,
+   c: `**O conceito, e por que ele mudou.** Antigamente se ensinava que estado de mal epiléptico era crise com mais de 30 minutos. A definição operacional atual é muito mais curta e mais útil: **crise convulsiva com duração ≥ 5 minutos, ou duas ou mais crises sem recuperação da consciência entre elas**. A mudança tem uma razão biológica: a maioria das crises tônico-clônicas espontâneas para sozinha em 1–2 minutos; se passou de 5, é improvável que pare, e o cérebro já entrou num processo autossustentado.
+
+**Por que o tempo importa tanto (o mecanismo que justifica a pressa).** Durante a crise prolongada, os receptores **GABA-A** — o alvo dos benzodiazepínicos — são **internalizados** (retirados da membrana sináptica), enquanto receptores **NMDA excitatórios** são recrutados para a superfície. Traduzindo: **quanto mais tempo a crise dura, menos o benzodiazepínico funciona** e mais a crise se autoalimenta. Simultaneamente, a hiperatividade neuronal consome ATP, o cálcio entra na célula e dispara cascatas excitotóxicas; após cerca de 30 minutos, começa **morte neuronal** mesmo com oxigenação e pressão preservadas. Some as consequências sistêmicas — hipertermia, acidose lática, rabdomiólise com lesão renal, aspiração, arritmias — e fica claro por que estado de mal tem mortalidade em torno de 20%.
+
+**A sequência do tratamento (isto é o que a prova cobra):**
+
+- **0–5 min — estabilizar.** ABC, oxigênio, monitorização, acesso venoso, **glicemia capilar** (hipoglicemia é causa reversível e imita tudo). Se etilista/desnutrido, **tiamina antes da glicose**. Colher eletrólitos, cálcio, magnésio, função renal e hepática, hemograma, níveis de fármacos antiepilépticos, toxicológico e beta-hCG.
+- **5–20 min — 1ª linha: BENZODIAZEPÍNICO EM DOSE PLENA.** É aqui que se perde a maioria dos pacientes e das questões: o erro clássico não é escolher a droga errada, é **subdosar**. Opções: **diazepam 0,15–0,2 mg/kg IV (até 10 mg)**, **midazolam 10 mg IM** (ótimo quando não há acesso — comprovadamente tão eficaz quanto o IV) ou **lorazepam 0,1 mg/kg IV (até 4 mg)**, este o preferido internacionalmente pela duração de ação. Pode-se repetir **uma vez**. Depois disso, **não insista** com mais benzodiazepínico: só acrescenta depressão respiratória sem controlar a crise (é a internalização do GABA-A em ação).
+- **20–40 min — 2ª linha: antiepiléptico de manutenção IV.** Escolha uma: **fenitoína 20 mg/kg** (ou fosfenitoína 20 mg PE/kg, mais segura), **ácido valproico 40 mg/kg**, **levetiracetam 60 mg/kg** ou fenobarbital 15 mg/kg. O ensaio ESETT mostrou **eficácia equivalente** entre fenitoína, valproato e levetiracetam — então a escolha se dá pelo **perfil de efeito adverso e comorbidade**: evite fenitoína em cardiopata/instável (hipotensão, arritmia — infunda no máximo a 50 mg/min com monitor) e nunca em soro glicosado (precipita); evite valproato em hepatopata, na suspeita de doença mitocondrial e na gestante; levetiracetam é o mais seguro em interação e função hepática.
+- **> 40 min — estado de mal REFRATÁRIO: anestesia geral e via aérea definitiva.** Intubação e infusão contínua de **midazolam, propofol ou tiopental**, com **EEG contínuo** buscando supressão de crises (e, conforme o caso, padrão de surto-supressão). Aqui o paciente é de UTI.
+- **> 24 h de anestésico sem controle = estado de mal SUPERREFRATÁRIO** — investigar agressivamente encefalite autoimune (anti-NMDA!), infecção do SNC e causas metabólicas raras.
+
+**Sempre pergunte "por que ele está convulsionando?".** As causas mudam a conduta: **suspensão abrupta de antiepiléptico** (a mais comum em epiléptico conhecido), álcool e abstinência, AVC, TCE, tumor, infecção do SNC (meningite/encefalite herpética — considere **aciclovir empírico**), distúrbios metabólicos (hiponatremia, hipoglicemia, hipocalcemia, uremia), intoxicações (cocaína, tricíclicos, isoniazida — esta responde à **piridoxina**) e, na gestante, **eclâmpsia**, cuja droga é o **sulfato de magnésio**, não o benzodiazepínico.
+
+**A armadilha final — o estado de mal NÃO CONVULSIVO.** Um paciente que teve crise convulsiva controlada, mas **não recupera a consciência** após 20–30 minutos, pode estar em estado de mal não convulsivo: a crise continua no EEG sem manifestação motora evidente (às vezes só desvio ocular, nistagmo, automatismos ou piscar). Isso responde por parte importante dos comas inexplicados na UTI. A conduta correta diante de "não acordou depois da crise" é **EEG urgente**, não simplesmente "aguardar o período pós-ictal".`
+  });
+
+  h.secoes.push({
+   h: `12. As herniações cerebrais — reconhecer cada síndrome pelo que a questão descreve`,
+   c: `O crânio é uma caixa rígida dividida por duas "lonas" de dura-máter: a **foice** (entre os hemisférios) e a **tenda do cerebelo** (entre cérebro e fossa posterior). Quando um compartimento ganha volume, o tecido é empurrado por baixo ou através dessas bordas. Isso é **herniação** — e cada rota produz uma síndrome reconhecível.
+
+**1. Herniação subfalcina (cingulada) — a mais comum e a mais precoce.** O giro do cíngulo desliza por **baixo da foice** para o outro lado. Na imagem, aparece como **desvio da linha média**. Muitas vezes é assintomática; quando comprime a **artéria cerebral anterior**, causa infarto com **fraqueza da perna contralateral** e incontinência. É o aviso de que existe efeito de massa significativo.
+
+**2. Herniação uncal (transtentorial lateral) — a que a prova mais descreve.** O **úncus** do lobo temporal desce pela borda da tenda. A sequência é quase sempre a mesma e vale decorar:
+
+- **Primeiro sinal: pupila DILATADA e pouco reativa do MESMO lado da lesão** (midríase ipsilateral). O motivo é anatômico: as fibras parassimpáticas do **III nervo** correm na **superfície externa** do nervo e são as primeiras a ser comprimidas. Por isso "pupila que dilata antes de o olho desviar" é o alarme mais precoce.
+- **Depois: ptose e desvio do olho "para baixo e para fora"** (paralisia completa do III par).
+- **Rebaixamento da consciência progressivo** (compressão do sistema reticular ativador do mesencéfalo).
+- **Hemiparesia CONTRALATERAL** (compressão do pedúnculo cerebral) — mas atenção ao **falso localizatório clássico**: quando o mesencéfalo é empurrado contra a borda oposta da tenda (**entalhe de Kernohan**), a hemiparesia surge **IPSILATERAL** à lesão. Nesse caso, quem diz o lado certo é a **pupila**, não a força.
+- Sem tratamento: postura de **descerebração**, hipertensão com bradicardia (Cushing) e parada respiratória. Pode ainda infartar a **artéria cerebral posterior** comprimida, gerando hemianopsia.
+
+**3. Herniação central (transtentorial descendente).** O diencéfalo desce em bloco. A progressão é **rostrocaudal**: primeiro sonolência com **pupilas pequenas e reativas** e respiração de **Cheyne-Stokes**; depois **pupilas médias e fixas** (mesencéfalo) com **hiperventilação neurogênica**; então postura em **descerebração**, respiração apnêustica (ponte) e, por fim, **respiração atáxica de Biot** e apneia (bulbo). Reconhecer em que degrau o paciente está é reconhecer quanto tempo resta.
+
+**4. Herniação tonsilar (das amígdalas cerebelares pelo forame magno).** A mais letal e a mais rápida. As amígdalas comprimem o **bulbo**, onde ficam os centros respiratório e cardiovascular: o paciente evolui com **rigidez de nuca, torcicolo, soluços, bradicardia, hipertensão e parada respiratória súbita**. É exatamente o desfecho temido de uma **punção lombar feita em paciente com massa e HIC** — e é por isso que a seção 4 insiste na imagem antes da punção nos casos de risco.
+
+**5. Herniação transcalvária (por defeito ósseo/craniectomia) e ascendente (massa de fossa posterior empurrando o cerebelo para cima pela tenda)** completam a lista; esta última pode surgir quando se drena uma hidrocefalia sem tratar a massa infratentorial.
+
+**O que fazer quando a herniação está acontecendo (medidas de resgate, em minutos):**
+
+- **Cabeceira 30°, cabeça na linha média** (não obstruir o retorno venoso jugular); tratar dor, febre, agitação e crises.
+- **Terapia hiperosmolar imediata**: **salina hipertônica** (ex.: 3% ou bolus de 23,4% em acesso central) ou **manitol 0,5–1 g/kg**, mantendo normovolemia e monitorando sódio e osmolaridade.
+- **Hiperventilação transitória** para PaCO2 de 30–35 mmHg — vasoconstrição imediata que "compra minutos" a caminho do centro cirúrgico; **nunca é rotina nem tratamento sustentado**, porque a mesma vasoconstrição causa isquemia.
+- **Neurocirurgia de urgência**: drenagem do hematoma, craniectomia descompressiva ou derivação ventricular externa se houver hidrocefalia.
+
+**E o que NÃO fazer:** **corticoide não trata edema citotóxico** (o do AVC e o do trauma) — ele só serve para o edema **vasogênico** de tumor e abscesso; usar dexametasona no AVC extenso é erro clássico e associa-se a pior desfecho. E **não faça punção lombar** diante de sinais de herniação.`
+  });
+
+  h.secoes.push({
+   h: `13. Hipertensão intracraniana idiopática (pseudotumor cerebri) — a HIC ao contrário`,
+   c: `Esta é a HIC que **não tem massa**, e que por isso inverte quase todas as regras aprendidas até aqui. É também um tema de altíssima frequência em prova.
+
+**Quem é a paciente.** O retrato clássico é **mulher em idade fértil, obesa ou com ganho recente de peso**. Quando o enunciado descrever exatamente isso com cefaleia, ligue o alerta.
+
+**O que ela sente.**
+
+- **Cefaleia diária, holocraniana, que piora ao deitar, pela manhã e com Valsalva** (padrão de hipertensão intracraniana).
+- **Zumbido pulsátil** (som do sangue nas veias sob pressão) — sintoma muito característico e frequentemente esquecido.
+- **Obscurecimentos visuais transitórios**: apagamentos da visão que duram segundos, tipicamente ao mudar de posição. São o sinal de que o **nervo óptico está sofrendo** e o principal indicador de risco.
+- **Diplopia horizontal** por **paresia do VI par** — o **falso sinal localizatório** por excelência: o VI nervo é o mais longo e o mais vulnerável ao aumento de pressão, e sua paralisia **não indica lesão pontina**.
+- **Não há** rebaixamento de consciência, nem déficit focal, nem crise — se houver, o diagnóstico é outro.
+
+**O que se vê no exame.** O achado que define é o **papiledema bilateral** (disco óptico com bordas borradas e elevadas na fundoscopia). É por isso que a **fundoscopia é obrigatória** em toda cefaleia com bandeira vermelha. A avaliação oftalmológica precisa incluir **campo visual computadorizado**, porque a perda começa pela periferia e pelo aumento da mancha cega, com a acuidade central preservada até tarde — o paciente pode estar perdendo visão sem perceber.
+
+**Como se diagnostica (critérios de Friedmann, na prática):**
+
+1. **Papiledema** (ou, na forma sem papiledema, paresia do VI par).
+2. **Exame neurológico normal**, salvo o VI par.
+3. **Neuroimagem normal** — e aqui a **RM com venografia (venorressonância)** é obrigatória, porque a principal condição a excluir é a **trombose venosa cerebral**, que produz quadro idêntico. Achados sugestivos na RM (não obrigatórios): sela vazia, achatamento posterior do globo ocular, distensão do espaço perineural do nervo óptico, estenose dos seios transversos.
+4. **Liquor de composição NORMAL** (celularidade e proteínas normais — se houver células ou proteína alta, pense em meningite crônica, carcinomatose, sarcoidose).
+5. **Pressão de abertura elevada na punção lombar: > 25 cmH2O** em adultos (> 28 em crianças), medida em decúbito lateral com as pernas estendidas.
+
+**A grande inversão que a prova cobra:** na HIC **com massa**, a punção lombar é **contraindicada** (risco de herniação tonsilar). Na HIC **idiopática**, depois de imagem normal, a punção é **indispensável** — é ela que faz o diagnóstico (mede a pressão) e ainda alivia os sintomas. Ou seja, a mesma "HIC" tem condutas opostas conforme haja ou não efeito de massa. Guarde: **imagem primeiro, sempre; a punção só é segura quando a imagem é normal**.
+
+**Causas secundárias a procurar antes de dizer "idiopática":** trombose venosa cerebral, **fármacos** — tetraciclinas e derivados (doxiciclina, minociclina), **excesso de vitamina A e isotretinoína**, corticoide (sobretudo na **retirada**), hormônio de crescimento, lítio, nitrofurantoína —, além de anemia grave, apneia obstrutiva do sono, lúpus, doença renal, hipoparatireoidismo e doença de Addison. Em adolescente com acne em uso de isotretinoína ou doxiciclina, a associação é praticamente uma questão pronta.
+
+**Tratamento (a ordem importa).**
+
+- **Perda de peso** é a intervenção com maior impacto na doença idiopática (mesmo 5–10% do peso melhora significativamente) e **retirar o fármaco causador**, quando houver.
+- **Acetazolamida** é a primeira linha farmacológica: inibe a anidrase carbônica no plexo coroide e **reduz a produção de liquor**. Efeitos adversos que aparecem em prova: parestesias, disgeusia (gosto metálico com bebidas gaseificadas), acidose metabólica hiperclorêmica, nefrolitíase. Topiramato é alternativa (inibe anidrase carbônica, ajuda na cefaleia e favorece perda de peso). Furosemida é adjuvante.
+- **Punções lombares de repetição** aliviam temporariamente, mas não são estratégia de manutenção.
+- **Quando há perda visual progressiva apesar do tratamento clínico — é urgência oftalmológica**: indica-se **fenestração da bainha do nervo óptico** (quando o problema dominante é a visão) ou **derivação lomboperitoneal/ventriculoperitoneal** (quando a cefaleia e a pressão dominam); em casos com estenose de seio venoso documentada, o **stent venoso** é opção.
+
+**A frase para levar:** *na HIC idiopática, o que ameaça o paciente não é a cefaleia — é a cegueira*. Toda a urgência do manejo se organiza em torno do campo visual.`
+  });
+
+  h.secoes.push({
+   h: `14. O exame do paciente em coma — cinco minutos que definem a topografia`,
+   c: `Consciência tem dois componentes: **estar desperto** (função do **sistema reticular ativador ascendente**, no tronco encefálico) e **estar ciente** (função dos **hemisférios cerebrais**). Para haver coma, é preciso, portanto, uma de duas coisas: uma **lesão no tronco** (pequena que seja) ou um **acometimento difuso e bilateral dos hemisférios** (uma lesão hemisférica unilateral **não** causa coma — a não ser que provoque herniação e comprima o tronco). Essa frase sozinha já explica metade do exame.
+
+**A pergunta que organiza tudo: é ESTRUTURAL ou TÓXICO-METABÓLICO?**
+
+- **Estrutural** (AVC, hemorragia, tumor, abscesso, trauma): tende a ser **assimétrico** (pupilas diferentes, hemiparesia, desvio do olhar), tem **sinais focais** e frequentemente **reflexos de tronco anormais** de forma seletiva.
+- **Tóxico-metabólico** (intoxicação, hipoglicemia, uremia, hepática, hiponatremia, sepse, hipóxia): tende a ser **simétrico e difuso**, com **reflexos de tronco PRESERVADOS** (sobretudo o fotomotor) apesar do coma profundo, e frequentemente com **mioclonias, asterixis ou tremor**.
+
+Essa é a regra de ouro: **coma profundo com pupilas que ainda reagem à luz aponta causa metabólica ou tóxica**. As exceções que a prova adora são poucas e devem ser decoradas: **opioide** (pupilas puntiformes, que respondem à naloxona), **anticolinérgico** (midríase fixa, pele seca e quente, delirium), **barbitúrico em dose alta e hipotermia grave** (podem abolir reflexos e imitar morte encefálica — daí serem critérios de exclusão obrigatórios no protocolo).
+
+**As cinco estações do exame:**
+
+**1. Nível de consciência e Escala de Coma de Glasgow.** Abertura ocular (4), resposta verbal (5), resposta motora (6); mínimo 3, máximo 15. Coma corresponde a **GCS ≤ 8**, que é também o gatilho clássico para via aérea definitiva. Registre sempre a **melhor resposta** e descreva o que o paciente faz — "localiza a dor" diz mais que um número.
+
+**2. Pupilas — o exame mais informativo, porque as vias pupilares são resistentes ao metabólico.**
+
+- **Puntiformes e reativas:** lesão **pontina** (hemorragia) ou **opioide**.
+- **Midríase unilateral fixa:** compressão do **III par** — **herniação uncal** até prova em contrário. Urgência absoluta.
+- **Médias (4–6 mm) e fixas:** lesão **mesencefálica**.
+- **Midríase bilateral fixa:** hipóxia grave, intoxicação por anticolinérgicos/simpaticomiméticos, ou lesão mesencefálica extensa.
+- **Anisocoria com ptose e miose (Horner):** pense em **dissecção carotídea** ou lesão do tronco/hipotálamo.
+
+**3. Motricidade ocular — o teste do tronco.**
+
+- **Reflexo oculocefálico ("olhos de boneca")**: gire a cabeça e os olhos devem se mover na direção oposta, conjugadamente. Presente = tronco íntegro. **NÃO faça se houver suspeita de lesão cervical.**
+- **Reflexo oculovestibular (prova calórica com água gelada)**: no paciente comatoso com tronco íntegro, a irrigação com água fria produz **desvio tônico dos olhos para o lado irrigado** (sem nistagmo — o nistagmo depende do córtex e some no coma). Ausência de resposta indica lesão de tronco (ou intoxicação/ototoxicidade).
+- **Desvio conjugado do olhar:** na lesão **hemisférica**, os olhos "olham para a lesão" (e para o lado oposto à hemiparesia); na lesão **pontina**, os olhos "olham para a hemiparesia".
+
+**4. Padrão motor e posturas.** **Decorticação** (flexão dos membros superiores, extensão dos inferiores) indica lesão **acima** do mesencéfalo — é a menos grave das duas. **Descerebração** (extensão e pronação de tudo) indica lesão do **mesencéfalo/ponte** — mais grave. A progressão de decorticação para descerebração significa **deterioração rostrocaudal** e exige ação imediata.
+
+**5. Padrão respiratório.** **Cheyne-Stokes** (crescendo-decrescendo com apneias) = disfunção difusa hemisférica ou diencefálica, também comum em insuficiência cardíaca. **Hiperventilação neurogênica central** = mesencéfalo. **Apnêustica** (pausa inspiratória prolongada) = ponte. **Atáxica de Biot** (irregular, caótica) = **bulbo** — pré-agônica, intubação imediata.
+
+**O que fazer antes de qualquer coisa (o "coma cocktail"):** ABC com proteção da via aérea, **glicemia capilar** (e glicose IV se hipoglicemia — precedida de **tiamina** no etilista/desnutrido), **naloxona** se houver suspeita de opioide com pupilas puntiformes e depressão respiratória, tratar hipotermia e hipertermia, colher eletrólitos, função renal e hepática, amônia, gasometria, toxicológico, hemograma e culturas. Se houver febre com rigidez de nuca, **antibiótico empírico não espera imagem nem punção**. Neuroimagem urgente se houver qualquer assimetria, história de trauma, anticoagulação ou dúvida.
+
+**Não confunda coma com seus imitadores.** A **síndrome do encarceramento (locked-in)** — lesão da base da ponte, geralmente por oclusão da artéria basilar — deixa o paciente **plenamente consciente**, mas apenas com movimentos verticais dos olhos e piscar; é o diagnóstico mais cruel de perder, e por isso **sempre peça ao paciente aparentemente comatoso que olhe para cima e pisque**. O **mutismo acinético** (lesão frontal medial bilateral) mantém vigília sem iniciativa. O **estado vegetativo/vigília sem resposta** tem ciclo sono-vigília e olhos abertos sem conteúdo de consciência. E há a causa **psicogênica**, que se denuncia por resistência ativa à abertura ocular, desvio do olhar para longe do examinador e prova calórica com nistagmo **preservado** (porque o córtex está funcionando).`
+  });
+
+  h.secoes.push({
+   h: `15. Febre + rigidez + confusão: neuroléptica maligna, serotoninérgica e seus vizinhos`,
+   c: `Três emergências chegam com a mesma tríade — **febre, alteração de consciência e rigidez** — e o tratamento de uma é quase o oposto do da outra. Separá-las é uma habilidade de plantão e um item recorrente de prova. A pergunta que separa é sempre: **qual droga foi introduzida ou retirada nos últimos dias, e como estão os reflexos e as pupilas?**
+
+**Síndrome neuroléptica maligna (SNM).** Ocorre por **bloqueio dopaminérgico**: introdução ou aumento de **antipsicótico** (típicos como haloperidol são os clássicos, mas os atípicos também causam), antieméticos dopaminérgicos (**metoclopramida**, prometazina) — ou, o inverso que muita gente esquece, **retirada abrupta de levodopa/agonista dopaminérgico** no parkinsoniano.
+
+- **Instalação lenta:** dias a 1–2 semanas.
+- **Rigidez "em cano de chumbo"** — intensa, generalizada, **sem tremor associado**, e com **reflexos NORMAIS ou diminuídos**.
+- **Hipertermia alta (> 40 °C)**, disautonomia (taquicardia, pressão lábil, sudorese profusa), rebaixamento de consciência.
+- **Laboratório:** **CPK muito elevada** (frequentemente > 1.000, podendo passar de 10.000), leucocitose, acidose e **risco de rabdomiólise com insuficiência renal aguda** — a principal causa de morte.
+- **Tratamento:** suspender o agente causador (ou **reintroduzir a levodopa**, se a causa foi a retirada), suporte intensivo com **resfriamento e hidratação vigorosa** para proteger o rim, benzodiazepínico para agitação e rigidez; nos casos graves, **dantrolene** (relaxante que age no retículo sarcoplasmático do músculo) e/ou **bromocriptina/amantadina** (agonistas dopaminérgicos que repõem o que foi bloqueado).
+
+**Síndrome serotoninérgica.** Ocorre por **excesso de serotonina**: início ou aumento de ISRS, IRSN, tricíclico, tramadol, linezolida, triptanos, lítio, ondansetrona, MDMA — e sobretudo **combinações** (o exemplo clássico é ISRS + tramadol, ou ISRS + inibidor da MAO).
+
+- **Instalação rápida:** horas (tipicamente < 24 h após a mudança da dose).
+- **O achado que decide o diagnóstico: HIPER-reflexia e CLÔNUS**, especialmente clônus do tornozelo, e **mioclonias** — é o oposto da SNM, onde os reflexos não estão vivos.
+- **Midríase**, sudorese, hiperperistaltismo com **diarreia** (a SNM não dá diarreia), tremor, agitação.
+- **Tratamento:** suspender os serotoninérgicos, suporte, **benzodiazepínico** generosamente (controla agitação, rigidez e hipertermia) e, nos casos moderados a graves, **cipro-heptadina** (antagonista 5-HT2A). Evite antipsicóticos com ação dopaminérgica potente — podem piorar.
+
+**A tabela mental de três linhas:** *SNM = dias, rigidez em cano de chumbo, reflexos normais/baixos, CPK altíssima, causada por bloqueio dopaminérgico.* *Serotoninérgica = horas, clônus e hiper-reflexia, midríase e diarreia, causada por excesso de serotonina.* *Hipertermia maligna = minutos após anestésico halogenado ou succinilcolina, rigidez massetérica, hipercapnia — e o tratamento é dantrolene.*
+
+**Os vizinhos que completam o diferencial:**
+
+- **Meningite/encefalite:** febre com rigidez de **nuca** (não dos membros), cefaleia, alteração de consciência — a rigidez é cervical e há sinais meníngeos. Diante de dúvida, **antibiótico empírico e aciclovir não esperam**.
+- **Catatonia maligna:** clinicamente quase indistinguível da SNM; sugere-se pela história psiquiátrica com negativismo, mutismo e posturas mantidas antes do quadro. Responde a **benzodiazepínico** e, nos casos refratários, à **eletroconvulsoterapia**.
+- **Crise anticolinérgica:** "quente como uma fornalha, seco como um osso, vermelho como uma beterraba, cego como um morcego, louco como um chapeleiro" — pele **seca** (na serotoninérgica e na SNM o paciente sua muito), retenção urinária, midríase.
+- **Crise tireotóxica (tempestade tireoidiana)** e **sepse** fecham o diferencial e devem ser rastreadas sempre.
+
+**A regra final que resolve a maioria dos casos:** diante de febre + rigidez + confusão, **peça a lista de medicações dos últimos 14 dias, examine os REFLEXOS e as PUPILAS, e dose a CPK**. Reflexos vivos com clônus e midríase = serotoninérgica. Rigidez plástica com reflexos normais e CPK nas alturas = neuroléptica maligna. Rigidez de nuca com febre = infecção do SNC até prova em contrário.`
+  });
+
+  h.flashcards.push(
+   {p:`Qual é a definição operacional atual de estado de mal epiléptico e por que ela encurtou?`, r:`Crise ≥ 5 minutos, ou crises repetidas sem recuperação da consciência. Encurtou porque a maioria das crises cessa em 1–2 min e, além de 5 min, o processo se torna autossustentado (internalização de receptores GABA-A e recrutamento de NMDA).`},
+   {p:`Qual é o erro mais comum no tratamento do estado de mal, e qual a 1ª linha correta?`, r:`SUBDOSAR o benzodiazepínico. 1ª linha: diazepam 0,15–0,2 mg/kg IV, midazolam 10 mg IM ou lorazepam 0,1 mg/kg IV — em dose plena, repetindo no máximo uma vez.`},
+   {p:`Quais são as opções de 2ª linha no estado de mal e como escolher entre elas?`, r:`Fenitoína/fosfenitoína 20 mg/kg, valproato 40 mg/kg ou levetiracetam 60 mg/kg — eficácia equivalente (ESETT). Escolha pelo perfil: evite fenitoína no cardiopata, valproato no hepatopata e na gestante; levetiracetam é o mais seguro.`},
+   {p:`Paciente teve crise controlada mas não recupera a consciência após 30 minutos. Conduta?`, r:`EEG urgente — suspeitar de estado de mal NÃO CONVULSIVO, e não simplesmente atribuir ao período pós-ictal.`},
+   {p:`Qual é o PRIMEIRO sinal da herniação uncal e por quê?`, r:`Midríase pouco reativa IPSILATERAL à lesão, porque as fibras parassimpáticas do III nervo correm na superfície externa e são comprimidas primeiro.`},
+   {p:`O que é o entalhe de Kernohan e por que ele engana?`, r:`Compressão do pedúnculo cerebral CONTRALATERAL contra a borda da tenda, produzindo hemiparesia IPSILATERAL à lesão (falso localizatório). Nesse caso, quem indica o lado correto é a PUPILA.`},
+   {p:`Qual herniação é a mais letal e qual procedimento pode precipitá-la?`, r:`A tonsilar (amígdalas cerebelares pelo forame magno), que comprime o bulbo — bradicardia, hipertensão e parada respiratória súbita. Pode ser precipitada por punção lombar em paciente com massa e HIC.`},
+   {p:`Corticoide trata qual tipo de edema cerebral?`, r:`Apenas o edema VASOGÊNICO (tumor, abscesso). NÃO trata edema citotóxico do AVC e do trauma — e piora o desfecho nesses casos.`},
+   {p:`Retrato clássico da hipertensão intracraniana idiopática?`, r:`Mulher em idade fértil, obesa ou com ganho de peso recente, com cefaleia postural, zumbido pulsátil, obscurecimentos visuais transitórios, papiledema bilateral e possível paresia do VI par — com neuroimagem normal.`},
+   {p:`Na HIC idiopática, qual o valor de pressão de abertura liquórica exigido, e por que a punção aqui é obrigatória?`, r:`> 25 cmH2O no adulto (> 28 em crianças). A punção é diagnóstica (mede a pressão e mostra liquor de composição normal) e terapêutica — o oposto da HIC com massa, em que é contraindicada. Só é segura porque a imagem foi normal.`},
+   {p:`Qual exame de imagem é obrigatório antes de rotular HIC como idiopática, e o que ele exclui?`, r:`RM com VENOGRAFIA — exclui trombose venosa cerebral, que produz quadro idêntico.`},
+   {p:`Cite fármacos que causam pseudotumor cerebri secundário.`, r:`Tetraciclinas (doxiciclina, minociclina), excesso de vitamina A e ISOTRETINOÍNA, corticoide (sobretudo na retirada), hormônio de crescimento, lítio e nitrofurantoína.`},
+   {p:`Qual é a 1ª linha farmacológica da HIC idiopática e seu mecanismo? E o que ameaça de fato o paciente?`, r:`Acetazolamida — inibe a anidrase carbônica no plexo coroide e reduz a produção de liquor; junto com perda de peso. O que ameaça não é a cefaleia, é a CEGUEIRA: o manejo se organiza em torno do campo visual.`},
+   {p:`Coma profundo com reflexo fotomotor PRESERVADO sugere o quê?`, r:`Causa tóxico-metabólica (as vias pupilares são resistentes ao insulto metabólico). Exceções a decorar: opioide (miose), anticolinérgico (midríase fixa), barbitúrico em dose alta e hipotermia grave.`},
+   {p:`Desvio conjugado do olhar: lesão hemisférica × pontina?`, r:`Na hemisférica, os olhos "olham para a lesão" (e para longe da hemiparesia); na pontina, os olhos "olham para a hemiparesia".`},
+   {p:`Decorticação × descerebração: onde está cada lesão?`, r:`Decorticação (flexão dos MMSS) = acima do mesencéfalo, menos grave. Descerebração (extensão e pronação) = mesencéfalo/ponte, mais grave. A progressão de uma para a outra indica deterioração rostrocaudal.`},
+   {p:`Respiração atáxica de Biot indica lesão onde?`, r:`No BULBO — padrão pré-agônico, exige intubação imediata. (Cheyne-Stokes = difusa/diencefálica; hiperventilação neurogênica = mesencéfalo; apnêustica = ponte.)`},
+   {p:`Como não perder a síndrome do encarceramento (locked-in)?`, r:`Peça ao paciente aparentemente comatoso que OLHE PARA CIMA e PISQUE — na lesão da base da ponte (oclusão da basilar), ele está plenamente consciente e só consegue movimentos verticais dos olhos.`},
+   {p:`Síndrome neuroléptica maligna × serotoninérgica: qual o sinal do exame que separa as duas?`, r:`Os REFLEXOS: na serotoninérgica há HIPER-reflexia e CLÔNUS (mais mioclonias, midríase e diarreia); na SNM há rigidez "em cano de chumbo" com reflexos normais ou diminuídos e CPK muito elevada.`},
+   {p:`Tratamento específico da SNM e da síndrome serotoninérgica?`, r:`SNM: suspender o bloqueador dopaminérgico (ou reintroduzir levodopa), hidratação e resfriamento, benzodiazepínico, dantrolene e/ou bromocriptina/amantadina. Serotoninérgica: suspender serotoninérgicos, benzodiazepínico e cipro-heptadina.`}
+  );
+
+  h.pegadinhas.push(
+   `Crise que passou de 5 minutos JÁ é estado de mal — não espere 30 minutos para tratar.`,
+   `O erro mais comum no estado de mal é subdosar o benzodiazepínico; depois de duas doses plenas, passe para a 2ª linha em vez de repetir benzo (o GABA-A já foi internalizado).`,
+   `Não recuperou a consciência 30 min após a crise: peça EEG — estado de mal NÃO convulsivo é causa frequente de coma inexplicado na UTI.`,
+   `Na gestante com crise, a droga é SULFATO DE MAGNÉSIO (eclâmpsia), não benzodiazepínico; na crise por isoniazida, é PIRIDOXINA.`,
+   `Nunca infunda fenitoína em soro glicosado (precipita) nem acima de 50 mg/min (hipotensão e arritmia).`,
+   `Herniação uncal: a PUPILA dilata do lado da lesão — e, se houver entalhe de Kernohan, a hemiparesia é ipsilateral e engana; confie na pupila.`,
+   `Paralisia do VI par é falso localizatório tanto na HIC do trauma quanto na idiopática — não indica lesão pontina.`,
+   `Corticoide só serve para edema VASOGÊNICO (tumor/abscesso); no AVC e no trauma é inútil e deletério.`,
+   `Hiperventilação é resgate de minutos para herniação a caminho do bloco — nunca terapia sustentada (causa isquemia).`,
+   `HIC com massa: punção lombar PROIBIDA. HIC idiopática com imagem normal: punção OBRIGATÓRIA (diagnóstica e terapêutica) — a mesma "HIC" com condutas opostas.`,
+   `Antes de rotular "idiopática", exclua trombose venosa cerebral com venorressonância e pergunte por doxiciclina, isotretinoína e vitamina A.`,
+   `Na HIC idiopática o risco é a CEGUEIRA: campo visual seriado manda mais que a intensidade da cefaleia; perda visual progressiva = cirurgia (fenestração ou derivação).`,
+   `Coma profundo com pupilas reativas = pense metabólico/tóxico; assimetria pupilar = pense estrutural e urgente.`,
+   `Sempre peça ao "comatoso" que olhe para cima e pisque — locked-in é o diagnóstico mais cruel de se perder.`,
+   `Febre + rigidez + confusão: cheque REFLEXOS. Clônus e hiper-reflexia = serotoninérgica (horas, cipro-heptadina); rigidez plástica com CPK altíssima = neuroléptica maligna (dias, dantrolene/bromocriptina).`,
+   `Suspender abruptamente levodopa no parkinsoniano pode causar síndrome neuroléptica maligna — o tratamento é reintroduzir a levodopa.`
+  );
+
+  h.questoes.push(
+   {
+    enunciado: `Homem de 34 anos, epiléptico, é trazido em crise tônico-clônica generalizada contínua há 12 minutos. Recebeu diazepam 10 mg IV há 4 minutos e, há 1 minuto, mais 10 mg, sem cessar a crise. PA 130x80, SatO2 94% com máscara, glicemia capilar 118. Qual a conduta imediata?`,
+    alternativas: {
+     a: `Repetir diazepam 10 mg IV`,
+     b: `Iniciar antiepiléptico de 2ª linha em dose de ataque`,
+     c: `Intubar e iniciar propofol contínuo`,
+     d: `Aguardar 10 minutos e reavaliar`
+    },
+    correta: `b`,
+    comentario: `O paciente está em estado de mal epiléptico (crise ≥ 5 minutos) e já recebeu a primeira linha de forma adequada: duas doses plenas de benzodiazepínico. A conduta correta é passar imediatamente à segunda linha, com dose de ATAQUE de um antiepiléptico intravenoso — fenitoína/fosfenitoína 20 mg/kg, ácido valproico 40 mg/kg ou levetiracetam 60 mg/kg, cuja eficácia foi demonstrada equivalente no ensaio ESETT, de modo que a escolha se faz pelo perfil de segurança e pelas comorbidades (evitar fenitoína no cardiopata ou instável, valproato no hepatopata e na gestante). A alternativa "a" é o erro mais frequente do tema e tem explicação fisiopatológica: durante a crise prolongada, os receptores GABA-A são internalizados e retirados da membrana sináptica enquanto receptores NMDA excitatórios são recrutados, de modo que doses adicionais de benzodiazepínico perdem eficácia progressivamente e só acrescentam depressão respiratória — por isso a regra é no máximo duas doses plenas. A alternativa "c" antecipa uma etapa: anestesia geral com propofol e via aérea definitiva é o tratamento do estado de mal REFRATÁRIO, ou seja, aquele que persiste após primeira e segunda linhas adequadas, geralmente além de 40 minutos, e deve ser feito com EEG contínuo em UTI; pular a segunda linha submete o paciente a intubação e riscos evitáveis. A alternativa "d" é a mais deletéria: cada minuto adicional de crise significa consumo de ATP, influxo de cálcio e excitotoxicidade, com morte neuronal a partir de cerca de 30 minutos, além de hipertermia, acidose lática, rabdomiólise e arritmias — a mortalidade do estado de mal gira em torno de 20% e correlaciona-se diretamente com a duração. Em paralelo à segunda linha, é obrigatório perguntar POR QUE ele está convulsionando: no epiléptico conhecido, a causa mais comum é a suspensão ou má aderência ao antiepiléptico, mas é preciso descartar infecção do SNC, distúrbios metabólicos, intoxicação e lesão estrutural nova.`,
+    foco: `Estado de mal: quando parar o benzodiazepínico e passar à 2ª linha (ponto de erro)`
+   },
+   {
+    enunciado: `Mulher de 27 anos, IMC 36, com cefaleia holocraniana diária há 3 meses, pior ao deitar e ao tossir, associada a zumbido pulsátil e episódios de escurecimento visual de poucos segundos ao levantar. Faz uso de isotretinoína para acne. Exame: papiledema bilateral e diplopia horizontal por paresia do VI par à direita; restante normal. TC de crânio sem alterações. Qual a conduta?`,
+    alternativas: {
+     a: `Tratar como enxaqueca crônica e reavaliar em 8 semanas`,
+     b: `Ressonância com venografia e, se normal, punção lombar com medida da pressão`,
+     c: `Punção lombar imediata, sem outros exames de imagem`,
+     d: `Iniciar dexametasona e solicitar angiotomografia arterial`
+    },
+    correta: `b`,
+    comentario: `O quadro é o retrato da hipertensão intracraniana idiopática: mulher jovem e obesa, cefaleia com padrão de hipertensão intracraniana (piora ao deitar e com Valsalva), zumbido pulsátil, obscurecimentos visuais transitórios, papiledema bilateral e paresia do VI par como falso sinal localizatório — e ainda um gatilho farmacológico clássico, a isotretinoína (assim como tetraciclinas, excesso de vitamina A, retirada de corticoide, hormônio de crescimento e nitrofurantoína). A conduta obedece a uma ordem que é justamente o que a questão testa. Primeiro imagem, e não qualquer imagem: a TC normal não basta, porque a principal condição a excluir é a TROMBOSE VENOSA CEREBRAL, que produz quadro clinicamente idêntico e pode passar despercebida na TC sem contraste — daí a exigência de RM com VENOGRAFIA, que ainda pode mostrar sela vazia, achatamento posterior dos globos e estenose de seios transversos. Só depois de excluída lesão estrutural e trombose é que se faz a punção lombar, que aqui é indispensável e dupla: mede a pressão de abertura (critério diagnóstico: > 25 cmH2O no adulto, em decúbito lateral) e documenta liquor de composição normal, afastando meningite crônica, carcinomatose e sarcoidose. Note a inversão que a banca explora: na HIC com efeito de massa a punção é proibida pelo risco de herniação tonsilar, ao passo que na idiopática, com imagem normal, ela é obrigatória — a mesma "HIC" com condutas opostas. A alternativa "c" erra exatamente nessa ordem, puncionando antes de excluir trombose e massa. A "a" ignora bandeiras vermelhas inequívocas (papiledema, VI par, obscurecimentos visuais) e, ao adiar oito semanas, arrisca perda visual permanente — porque o que ameaça essa paciente não é a cefaleia, é a cegueira, e o seguimento se faz com campo visual computadorizado seriado. A "d" trata um edema vasogênico que não existe e investiga o compartimento arterial, quando o problema é venoso/pressórico; corticoide, aliás, tanto pode causar o quadro na retirada quanto atrapalhar o controle de peso. Fechado o diagnóstico, o tratamento é suspender a isotretinoína, perda de peso e acetazolamida, reservando fenestração da bainha do nervo óptico ou derivação para a perda visual progressiva.`,
+    foco: `HIC idiopática: venografia antes da punção, e a inversão da regra "não puncionar" (ponto de erro)`
+   }
+  );
+ }
+})();
