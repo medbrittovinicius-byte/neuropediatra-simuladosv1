@@ -6331,3 +6331,662 @@ Essa é a regra de ouro: **coma profundo com pupilas que ainda reagem à luz apo
   );
  }
 })();
+
+/* ============================================================================
+   Estudo de 19/08/2026 — módulo NOVO: PED|Outros
+   Motivo: domínio com 50% de taxa de erro agregada (3/6), 12 blocos já publicados
+   e NENHUM módulo de estudo até hoje. Fragilidades individuais: Vinicius 33% em
+   "Imunologia / Imunodeficiências (deficiência seletiva de IgA)"; Ana Teresa 67%
+   em "Infecções respiratórias/ORL".
+   ============================================================================ */
+window.REVISAO_MODULOS["PED|Outros"] = {
+ titulo: `Imunodeficiências, vias aéreas superiores e outros temas de fronteira da Pediatria`,
+ half: `PED`,
+ resumo: `Esta é a "gaveta" onde caem os temas que não têm domínio próprio no site — e, justamente por isso, é onde se erra mais (50% de taxa de erro agregada). Os 12 blocos já publicados aqui se concentram em três famílias que a SUS-BA cobra todo ano: **erros inatos da imunidade** (deficiência de IgA, imunodeficiência combinada grave), **infecções de vias aéreas superiores / ORL** (faringoamigdalite, otite, sibilância do lactente) e **gastroenterologia** (doença inflamatória intestinal). Este texto reconstrói as três do zero: como o sistema imune funciona e onde ele quebra, por que a maior parte das dores de garganta não precisa de antibiótico (e quais precisam), e como reconhecer a criança cuja diarreia crônica não é funcional.`,
+ fontes: `Base: Sociedade Brasileira de Pediatria (SBP) — Departamentos de Alergia e Imunologia, Otorrinolaringologia e Gastroenterologia; Grupo Brasileiro de Imunodeficiências (BRAGID) — sinais de alerta e fluxo de investigação; classificação da IUIS (International Union of Immunological Societies) para erros inatos da imunidade; Infectious Diseases Society of America (IDSA) — faringite estreptocócica; American Academy of Pediatrics (AAP) — otite média aguda e bronquiolite; critérios de Porto (ESPGHAN) para doença inflamatória intestinal pediátrica; Nelson — Tratado de Pediatria (Imunologia, Otorrinolaringologia e Gastroenterologia). Material do Drive: "Tópicos em Pediatria", aula de Infectologia/exantemáticas e aula de Gastroenterologia (R+ Pediatria MEDGRUPO) — ver materiais_drive.md.`,
+ notaErro: `Este domínio é a **maior taxa de erro com módulo inexistente** do site: 50% (3 erros em 6 questões), com 12 blocos já publicados e nenhum texto de apoio até hoje. Dois registros individuais explicam o padrão:
+
+- **Vinicius — 33% (1/3) em "Imunologia / Imunodeficiências (deficiência seletiva de IgA)".** O erro típico aqui não é não saber o que é IgA; é **não saber o que muda na prática**. A banca não pergunta a definição — ela pergunta a consequência: por que essa criança pode ter **anafilaxia numa transfusão**, por que a **sorologia de doença celíaca dá falso-negativo** nela, e por que **NÃO se dá imunoglobulina** para repor IgA. Quem decorou só "é a imunodeficiência primária mais comum" acerta uma questão em três.
+- **Ana Teresa — 67% (2/3) em "Infecções respiratórias/ORL".** Aqui o erro é o oposto: excesso de decoreba solta e falta de **critério**. A pergunta real da banca é sempre "**esta criança precisa de antibiótico ou não?**" — e a resposta vem de escores e de critérios etários (McIsaac na faringite; idade + lateralidade + gravidade na otite), não da impressão de "garganta feia".
+
+Há ainda um terceiro grupo, sem fragilidade registrada mas com **dois blocos reais de SUS-BA** caídos aqui: **doença inflamatória intestinal**. O erro previsível é tratar como "diarreia crônica inespecífica" e não perceber que, na criança, a **falha de crescimento pode preceder o sintoma intestinal**.
+
+**Como zerar o erro:** diante de qualquer caso desta gaveta, faça três perguntas na ordem —
+
+- **(1) A infecção é "demais"?** Muitas, graves demais, persistentes demais, em local incomum ou por germe incomum → pense em imunodeficiência e deixe o **padrão do germe** dizer qual braço do sistema imune falhou (seção 4). Se o quadro começou **antes dos 6 meses** com candidíase, diarreia e déficit de crescimento, é emergência (SCID).
+- **(2) Existe um critério objetivo que decide o antibiótico?** Faringite → **McIsaac** + teste rápido/cultura. Otite → **idade, lateralidade e gravidade**. Sinusite → **os três padrões temporais**. Se você respondeu "achei que estava bacteriano", a resposta está errada (seção 8 e 9).
+- **(3) A queixa crônica está custando crescimento?** Diarreia/dor abdominal com **queda de percentil, anemia, VHS/PCR altas e puberdade atrasada** não é funcional — é orgânica até prova em contrário, e a **calprotectina fecal** é o divisor de águas (seção 11).
+
+As quatro questões ao final batem exatamente nesses pontos: IgA e suas armadilhas, faringite e o escore, o lactente com linfopenia (SCID) e a criança que parou de crescer (DII).`,
+ secoes: [
+  {
+   h: `1. Por que esta aula existe e como usá-la`,
+   c: `Todo tema do site é classificado automaticamente num "domínio" (Neonatologia, Cardiologia, Epilepsia...). Quando um tema não encaixa em nenhum, ele cai em **"Outros"** — e é isso que aconteceu com 12 blocos já publicados. Só que "Outros" não é uma bagunça aleatória: olhando os temas que caíram aqui, eles se agrupam com clareza em **três famílias**, todas de alto valor para a prova da SUS-BA:
+
+- **Imunologia — erros inatos da imunidade** (deficiência seletiva de IgA, imunodeficiência combinada grave, "erro inato da imunidade"): 3 blocos, incluindo questões reais de 2025 e 2026.
+- **Infecções de vias aéreas superiores e ORL** (faringoamigdalite estreptocócica, otite, sibilância do primeiro episódio, coqueluche): 4 blocos.
+- **Gastroenterologia — doença inflamatória intestinal**: 2 blocos reais (2021 e 2025).
+
+O restante são hóspedes ocasionais: dermatite atópica e varicela. Esta aula cobre as três famílias principais do zero e fecha com um resumo prático dos hóspedes. Trate-a como três aulas encadeadas: se você está com pouco tempo, vá direto às seções 5 (IgA), 8 (faringite) e 11 (DII) — são as que correspondem aos seus erros registrados.`
+  },
+  {
+   h: `2. Comece pelo começo: o sistema imune em quatro peças`,
+   c: `Imagine o corpo como um castelo. Ele tem quatro linhas de defesa, e cada erro inato da imunidade é a falha de **uma** delas — por isso o tipo de infecção denuncia qual peça quebrou.
+
+**Peça 1 — as muralhas (barreiras).** Pele íntegra, muco, cílios do epitélio respiratório, acidez gástrica. Não são "imunidade" no sentido celular, mas quando falham (queimadura, cateter, fibrose cística) a criança adoece muito, sem ter imunodeficiência nenhuma.
+
+**Peça 2 — a guarda rápida (imunidade INATA).** Age em minutos, sempre do mesmo jeito, sem memória. Composta por:
+- **Fagócitos** — neutrófilos e macrófagos, que engolem o micróbio e o matam dentro de si usando uma "explosão" de radicais livres (o **burst oxidativo**, feito pela enzima NADPH oxidase).
+- **Complemento** — uma cascata de ~30 proteínas do plasma que, ativada, marca o micróbio para ser comido (opsonização), chama células (quimiotaxia) e, no final, monta um "furador de parede" chamado **complexo de ataque à membrana (C5–C9)**. Esse furador é essencial contra bactérias de parede fina como a **Neisseria**.
+- Células NK, que matam células infectadas por vírus.
+
+**Peça 3 — o exército especializado (imunidade ADAPTATIVA).** Demora dias na primeira vez, mas é específica e **guarda memória**. Dois braços:
+- **Linfócitos B → anticorpos (imunoglobulinas).** São proteínas que grudam no micróbio e o neutralizam/opsonizam. Essenciais contra **bactérias encapsuladas** (pneumococo, Haemophilus, meningococo), porque a cápsula dessas bactérias impede que o fagócito as agarre — só o anticorpo resolve.
+- **Linfócitos T.** O **CD4 (auxiliar)** é o maestro: sem ele, nem o B faz anticorpo direito nem o macrófago mata bem. O **CD8 (citotóxico)** mata células infectadas por vírus e fungos intracelulares.
+
+**Peça 4 — as imunoglobulinas, uma a uma (isto cai).**
+- **IgG** — a mais abundante no sangue, a única que **atravessa a placenta** (no 3º trimestre), a que dá proteção de longo prazo.
+- **IgA** — a imunoglobulina das **mucosas**. Na secreção (saliva, lágrima, leite materno, muco respiratório e intestinal) ela circula como **dímero com componente secretor**, que a protege das enzimas digestivas. É a "sentinela de fronteira": impede que o micróbio sequer grude na mucosa.
+- **IgM** — a **primeira** a ser produzida numa infecção nova; pentamérica, ótima ativadora de complemento. Não atravessa placenta — por isso **IgM positiva no recém-nascido significa infecção do próprio bebê** (peça-chave nas congênitas).
+- **IgE** — alergia e parasitas.
+
+**Um detalhe fisiológico que explica metade dos casos: a hipogamaglobulinemia fisiológica do lactente.** O bebê nasce com a IgG da mãe, que vai desaparecendo; a produção própria só engrena aos poucos. O resultado é um **vale de anticorpos entre 3 e 6 meses de vida**. É por isso que (a) defeitos de anticorpo costumam se manifestar **depois dos 6 meses**, quando a IgG materna acabou, e (b) o prematuro, que recebeu menos IgG (a transferência é no 3º trimestre), fica mais vulnerável. Guarde essa linha do tempo: **doença antes dos 6 meses = suspeite de defeito de célula T/combinado; depois dos 6 meses = suspeite de defeito de anticorpo.**`
+  },
+  {
+   h: `3. Quando suspeitar de um erro inato da imunidade`,
+   c: `Toda criança pequena tem infecções de repetição — de 6 a 8 resfriados por ano é **normal**, mais ainda se frequenta creche. O que não é normal é a infecção ser **"demais"** em algum dos cinco eixos abaixo. Guarde-os como um filtro:
+
+- **Demais em número:** ≥ 2 pneumonias, ≥ 8 otites ou ≥ 2 sinusites graves num ano.
+- **Demais em gravidade:** ≥ 2 infecções profundas/invasivas (meningite, osteomielite, sepse, abscesso visceral).
+- **Demais em persistência:** infecção que só melhora com antibiótico **intravenoso** ou que exige ≥ 2 meses de tratamento sem resposta; candidíase oral persistente **depois de 1 ano de idade**.
+- **Demais em local:** abscesso **hepático**, abscessos cutâneos profundos e recorrentes, infecção em sítio incomum.
+- **Demais em germe:** micro-organismos **oportunistas** (Pneumocystis jirovecii, Aspergillus, Serratia, Burkholderia, Nocardia, micobactérias atípicas) ou **doença causada pela própria vacina** (BCGíte disseminada, poliomielite vacinal).
+
+E há sinais que valem por si só, sem contar infecções:
+
+- **Falha de crescimento com diarreia crônica** no lactente — combinação clássica da imunodeficiência combinada grave.
+- **História familiar** de imunodeficiência ou de morte de lactente por infecção; **consanguinidade**.
+- **Queda tardia do coto umbilical** (> 30 dias) com onfalite e ausência de pus, apesar de leucocitose enorme — deficiência de adesão leucocitária.
+- **Ausência de tonsilas e de linfonodos palpáveis** num menino com otites de repetição — agamaglobulinemia de Bruton (sem células B, o tecido linfoide não se desenvolve).
+- **Eczema + plaquetopenia com plaquetas pequenas** em menino — síndrome de Wiskott-Aldrich.
+- **Convulsão hipocalcêmica no recém-nascido + cardiopatia conotruncal** — síndrome de DiGeorge (deleção 22q11).
+- **Ataxia progressiva + telangiectasias na conjuntiva** — ataxia-telangiectasia (com IgA baixa e alfafetoproteína alta).
+
+**Antes de tudo, porém: pense em imunodeficiência SECUNDÁRIA, que é muito mais comum que a primária.** HIV, desnutrição grave, corticoide/imunossupressor em uso, síndrome nefrótica e enteropatia perdedora de proteína (perdem imunoglobulina pela urina/fezes), neoplasia, quimioterapia, asplenia/esplenectomia e doença falciforme (asplenia funcional). **Sorologia/carga viral para HIV faz parte da investigação inicial de qualquer suspeita** — errar isso é errar o caso inteiro.`
+  },
+  {
+   h: `4. O mapa mestre: o germe denuncia o braço que falhou`,
+   c: `Esta é a tabela mental que resolve a maioria das questões. Leia o caso, veja **qual germe e em que idade**, e o diagnóstico se estreita sozinho.
+
+- **Defeito de ANTICORPO (células B) — o mais comum.** Início **após os 6 meses** (quando some a IgG materna). Infecções **sinopulmonares de repetição** por **bactérias encapsuladas**: pneumococo, Haemophilus influenzae, Moraxella — otites, sinusites, pneumonias, com evolução para **bronquiectasias** se não tratado. Também **giardíase** crônica e, na agamaglobulinemia, **encefalite por enterovírus**. Exemplos: deficiência de IgA, agamaglobulinemia de Bruton, imunodeficiência comum variável.
+- **Defeito de CÉLULA T ou COMBINADO — o mais grave.** Início **precoce, antes dos 3–6 meses**. Infecções **oportunistas**: candidíase oral/esofágica que não cura, **pneumonia por Pneumocystis jirovecii**, citomegalovírus, vírus respiratórios prolongados, **BCGíte** após a vacina, diarreia crônica e **déficit de crescimento**. Ausência de sombra tímica no raio-X. Exemplo maior: **imunodeficiência combinada grave (SCID)** — emergência pediátrica.
+- **Defeito de FAGÓCITO.** **Abscessos** de pele, linfonodos e vísceras (fígado!), pneumonias, osteomielite, por germes **catalase-positivos**: **Staphylococcus aureus**, Serratia, Burkholderia, Nocardia e **Aspergillus**. Cicatrização ruim, gengivite grave. Exemplos: doença granulomatosa crônica, deficiência de adesão leucocitária (esta com **leucocitose alta e ausência de pus**, porque o neutrófilo não consegue sair do vaso), neutropenia congênita.
+- **Defeito de COMPLEMENTO.** Duas caras, conforme a parte da cascata:
+  - **Componentes terminais (C5–C9) e properdina:** **infecções por Neisseria de repetição** — meningococcemia/meningite recorrente é praticamente diagnóstico. Conduta: vacinar contra meningococo **ACWY e B** e considerar profilaxia.
+  - **Componentes iniciais (C1q, C2, C4):** infecções por piogênicos + **quadro lúpus-símile** (o complemento inicial serve para limpar imunocomplexos; sem ele, eles se depositam).
+
+Duas frases para levar: **"encapsulado depois dos 6 meses = anticorpo"**, **"oportunista antes dos 6 meses = célula T"**, **"abscesso com catalase-positivo = fagócito"**, **"Neisseria de repetição = complemento terminal"**.`
+  },
+  {
+   h: `5. Deficiência seletiva de IgA — a mais comum e a mais mal compreendida (seu ponto de erro)`,
+   c: `**O que é.** É a imunodeficiência primária **mais frequente do mundo** (cerca de 1 em cada 500 a 700 pessoas de origem europeia). A definição, que a banca cobra com precisão, é: **IgA sérica abaixo de 7 mg/dL, com IgG e IgM normais, em paciente com 4 anos ou mais**, após excluir outras causas de hipogamaglobulinemia. Os dois detalhes que fazem a questão:
+
+- **O corte de idade (≥ 4 anos) é obrigatório.** Abaixo disso, a IgA ainda pode simplesmente não ter amadurecido — chamamos de **atraso maturacional transitório**, e muitas dessas crianças normalizam. Diagnosticar "deficiência de IgA" num lactente é erro conceitual.
+- **É "seletiva":** só a IgA está baixa. Se **IgG também estiver baixa**, o diagnóstico muda para **imunodeficiência comum variável (ICV)** — e a conduta muda junto (a ICV recebe imunoglobulina; a deficiência de IgA, não).
+
+**O que acontece na prática.** A maioria — provavelmente **dois terços ou mais** — é **completamente assintomática** e só é descoberta por acaso. Nos sintomáticos, o quadro reflete a perda da sentinela de mucosa:
+- **Infecções sinopulmonares de repetição** (otites, sinusites, pneumonias) por encapsulados.
+- **Giardíase** e diarreia recorrente.
+- **Atopia** (asma, rinite, dermatite atópica) mais frequente.
+- **Autoimunidade** — e esta é a associação mais cobrada: **doença celíaca**, diabetes tipo 1, tireoidite, artrite idiopática juvenil e lúpus.
+- Uma minoria **evolui para ICV** ao longo dos anos — por isso o seguimento com dosagem periódica de imunoglobulinas.
+
+**As três armadilhas que decidem a questão (memorize):**
+
+- **1) Reação transfusional anafilática.** Alguns desses pacientes produzem **anticorpos anti-IgA**. Se receberem hemocomponente contendo IgA do doador, podem ter **anafilaxia grave**. Conduta: transfundir **hemácias lavadas** ou componentes de **doador também deficiente de IgA**. Numa questão, "criança com deficiência de IgA que fez choque durante transfusão" tem essa e só essa resposta.
+- **2) Falso-negativo na sorologia de doença celíaca.** O rastreio padrão de celíaca é o **antitransglutaminase tecidual da classe IgA**. Num paciente sem IgA, esse exame vem **negativo mesmo com a doença presente**. Conduta: dosar **IgA total junto com a sorologia** (é por isso que os protocolos pedem as duas coisas) e, se houver deficiência, usar marcadores da classe **IgG** (antitransglutaminase IgG, antipeptídeo deamidado de gliadina IgG) ou partir para a biópsia.
+- **3) Não se repõe IgA.** A imunoglobulina humana intravenosa é composta essencialmente de **IgG**, e praticamente não contém IgA — logo **não corrige a deficiência**; pior, em quem tem anti-IgA, pode **desencadear anafilaxia**. Portanto: **imunoglobulina NÃO é o tratamento da deficiência seletiva de IgA**. O tratamento é: tratar as infecções quando ocorrem, considerar antibiótico profilático em casos selecionados de infecção muito recorrente, rastrear autoimunidade (sobretudo celíaca) e orientar sobre a transfusão.
+
+**Vacinas:** normais, **inclusive as de vírus vivo** — a criança com deficiência seletiva de IgA tem células T e IgG preservadas. Isso a separa das imunodeficiências celulares/combinadas, onde vacina viva é proibida.`
+  },
+  {
+   h: `6. As outras imunodeficiências que caem na prova, uma a uma`,
+   c: `**Agamaglobulinemia ligada ao X (doença de Bruton).** Mutação no gene **BTK**: a célula B não amadurece. **Menino**, sintomas **após os 6 meses**, otites/sinusites/pneumonias/diarreia por encapsulados e giardíase; risco de **encefalite crônica por enterovírus**. Sinal de exame quase patognomônico: **tonsilas ausentes e linfonodos não palpáveis** (não há tecido linfoide B). Laboratório: **todas as classes de imunoglobulina baixas** e **células B (CD19) praticamente ausentes** na imunofenotipagem. Tratamento: **imunoglobulina de reposição para o resto da vida** + antibiótico das intercorrências. **Proibida vacina viva**, sobretudo poliovírus oral.
+
+**Imunodeficiência comum variável (ICV).** A mais comum das imunodeficiências primárias **sintomáticas**. Começa tarde (segunda a terceira década, às vezes na adolescência). **IgG baixa** + IgA e/ou IgM baixas, com **células B presentes** mas resposta vacinal ruim. Além das infecções, chama atenção pelo que vem junto: **bronquiectasias**, **autoimunidade** (citopenias), **granulomas**, doença intestinal e **risco aumentado de linfoma**. Tratamento: imunoglobulina de reposição.
+
+**Imunodeficiência combinada grave (SCID) — a emergência.** Ausência funcional de células T (com ou sem B e NK). Lactente com **candidíase oral persistente, diarreia crônica, déficit de crescimento, pneumonia intersticial (Pneumocystis), infecções virais arrastadas** e **ausência de sombra tímica**. O achado laboratorial de triagem mais barato e mais esquecido: **linfopenia** — em lactente, **linfócitos totais abaixo de ~2.500–3.000/mm³ é anormal** e obriga investigação (o valor normal do lactente é bem mais alto que o do adulto; ler a referência do adulto é o erro clássico). No Brasil, a **triagem neonatal ampliada com TREC** (círculos de excisão do receptor de células T) permite diagnóstico antes dos sintomas. Três condutas que **salvam ou matam**:
+- **Nunca administrar vacinas vivas** (BCG, rotavírus, poliomielite oral, tríplice viral) — causam doença vacinal disseminada.
+- **Nunca transfundir hemocomponente não irradiado e não leucodepletado** — os linfócitos do doador causam **doença do enxerto contra hospedeiro** fatal.
+- **Tratamento definitivo: transplante de células-tronco hematopoéticas**, com resultado muito melhor se feito **antes dos 3–4 meses de vida**; enquanto isso, profilaxia com sulfametoxazol-trimetoprima (contra Pneumocystis), imunoglobulina e isolamento.
+
+**Síndrome de DiGeorge (deleção 22q11).** Falha do desenvolvimento das 3ª e 4ª bolsas faríngeas: **timo hipoplásico** (defeito de células T, geralmente parcial), **paratireoides hipoplásicas** (→ **hipocalcemia neonatal com convulsão**), **cardiopatia conotruncal** (tetralogia de Fallot, tronco arterioso, interrupção do arco aórtico), fenda palatina, fácies característica e dificuldades de aprendizagem. A tríade "**convulsão hipocalcêmica + sopro cardíaco + infecções**" no recém-nascido é a assinatura de prova.
+
+**Doença granulomatosa crônica (DGC).** Defeito da **NADPH oxidase**: o neutrófilo engole, mas não mata germes **catalase-positivos**. Abscessos recorrentes (pele, linfonodos e **fígado**), pneumonia por **Aspergillus**, osteomielite, **BCGíte**, granulomas que podem obstruir esôfago/ureter. Diagnóstico: **teste do burst oxidativo (DHR por citometria de fluxo** ou o antigo NBT). Tratamento: profilaxia contínua com sulfametoxazol-trimetoprima + itraconazol, interferon-gama, e transplante nos casos graves.
+
+**Deficiência de adesão leucocitária (LAD).** O neutrófilo não consegue aderir ao endotélio e sair do vaso. Resultado paradoxal: **leucocitose muito alta no sangue e ausência de pus na lesão**, **queda tardia do coto umbilical (> 30 dias)** com onfalite, periodontite grave, feridas que não cicatrizam.
+
+**Wiskott-Aldrich.** Ligada ao X: **eczema + plaquetopenia com plaquetas de volume pequeno + infecções** (e risco de autoimunidade e linfoma). O tamanho pequeno da plaqueta é o detalhe que separa da PTI.
+
+**Ataxia-telangiectasia.** Ponte com a Neurologia: **ataxia cerebelar progressiva** desde o início da marcha + **telangiectasias oculares/cutâneas** + **infecções sinopulmonares** com **IgA baixa** + **alfafetoproteína elevada** + alta sensibilidade à radiação e risco de neoplasia.`
+  },
+  {
+   h: `7. Como investigar, passo a passo — e o que nunca fazer`,
+   c: `A investigação é escalonada: começa barata e fica cara só se necessário.
+
+- **Passo 1 — hemograma completo com diferencial.** Já responde muito: **linfopenia** (pense SCID no lactente), **neutropenia**, **plaquetopenia com plaquetas pequenas** (Wiskott-Aldrich), corpúsculos de Howell-Jolly (asplenia). É o exame mais subutilizado do tema.
+- **Passo 2 — dosagem de imunoglobulinas IgG, IgA, IgM e IgE**, sempre lidas em **valores de referência POR IDADE**. Este é o erro laboratorial mais comum do tema: uma IgG de 400 mg/dL é francamente baixa num escolar, mas pode ser esperada aos 4 meses (o vale fisiológico).
+- **Passo 3 — avaliar a FUNÇÃO do anticorpo, não só o nível.** Medir os **títulos pós-vacinais**: resposta a antígenos **proteicos** (tétano, difteria) e, acima dos 2 anos, a antígenos **polissacarídicos** (pneumocócica 23-valente). Isoemaglutininas (anti-A/anti-B) também avaliam resposta a polissacarídeo. Uma criança pode ter IgG normal e mesmo assim **não responder** — é isso que define alguns defeitos.
+- **Passo 4 — complemento:** **CH50** (via clássica) e **AH50** (via alternativa), além de C3 e C4. Um CH50 igual a zero aponta deficiência de um componente da via clássica/terminal.
+- **Passo 5 — função do fagócito:** **DHR/NBT** (burst oxidativo) se houver abscessos e germes catalase-positivos.
+- **Passo 6 — imunofenotipagem linfocitária** (CD3, CD4, CD8, CD19, CD16/56) e, conforme o caso, testes genéticos. Aqui se separa Bruton (CD19 ausente) de ICV (CD19 presente) e se confirma SCID.
+- **Em paralelo, sempre: sorologia/carga viral para HIV**, avaliação nutricional e revisão de medicamentos imunossupressores. Imunodeficiência secundária é mais comum que primária.
+
+**As três proibições que a banca adora cobrar:**
+- **Vacina de vírus/bactéria VIVA** (BCG, rotavírus, poliomielite oral, tríplice viral, varicela, febre amarela) em suspeita de defeito **celular/combinado** ou de fagócito (BCG) — pode causar doença vacinal disseminada. Nos defeitos **puros de anticorpo**, o risco maior é a poliomielite oral.
+- **Hemocomponente não irradiado / não leucodepletado** em defeito celular — risco de doença do enxerto contra hospedeiro.
+- **Adiar o encaminhamento no lactente com suspeita de SCID.** Cada semana conta: o transplante feito antes dos 3–4 meses tem sobrevida muito superior.`
+  },
+  {
+   h: `8. Faringoamigdalite: a pergunta é "precisa de antibiótico?" (ponto de erro de ORL)`,
+   c: `**O ponto de partida.** Mais de **70% a 80% das faringites em crianças são virais** (rinovírus, adenovírus, influenza, EBV, enterovírus). O único agente bacteriano que se persegue rotineiramente é o **Streptococcus pyogenes (estreptococo beta-hemolítico do grupo A)**, responsável por **15–30%** dos casos em escolares.
+
+**Por que tratar, afinal?** Não é para "curar mais rápido" (o benefício sintomático é de ~1 dia). O motivo principal é **prevenir a febre reumática**, o que é possível se o antibiótico começar **até o 9º dia** do início dos sintomas. Também reduz transmissão (o paciente deixa de transmitir em ~24 h de antibiótico) e complicações supurativas. **Atenção:** o antibiótico **NÃO previne a glomerulonefrite pós-estreptocócica** — esta é uma pegadinha clássica.
+
+**A idade filtra.** Estreptococo do grupo A é **incomum abaixo dos 3 anos**, e **febre reumática praticamente não ocorre nessa faixa**. Portanto, lactente com faringite é quase sempre viral, e testar/tratar rotineiramente nessa idade não é indicado.
+
+**O que fala a favor de estreptococo:** início **abrupto**, febre alta, **odinofagia intensa**, exsudato tonsilar, **adenomegalia cervical ANTERIOR dolorosa**, petéquias no palato, cefaleia, **dor abdominal e vômitos**, exantema escarlatiniforme com língua em framboesa.
+**O que fala contra (= viral):** **tosse, coriza, rouquidão, conjuntivite, aftas/úlceras orais, diarreia**. A presença de tosse e coriza é um dos sinais negativos mais fortes.
+
+**O escore de Centor modificado por McIsaac** (some os pontos):
+- Febre > 38 °C — **1**
+- **Ausência** de tosse — **1**
+- Adenomegalia cervical anterior dolorosa — **1**
+- Exsudato ou edema tonsilar — **1**
+- Idade 3–14 anos — **+1**; 15–44 anos — **0**; ≥ 45 anos — **−1**
+
+Interpretação prática: **0–1 ponto** → não testar, não tratar (é viral). **2–3 pontos** → **testar** (teste rápido de antígeno ou cultura) e tratar só se positivo. **≥ 4 pontos** → testar; muitos serviços tratam empiricamente em cenário de alta prevalência. O escore existe justamente porque **o exame de garganta sozinho não distingue** viral de bacteriano — e essa é a razão de fundo dos erros neste tema.
+
+**O detalhe que a banca cobra sobre o teste rápido:** ele tem **alta especificidade** (positivo = trate) mas **sensibilidade menor**. Por isso, **em criança, um teste rápido NEGATIVO deve ser confirmado por cultura de orofaringe** antes de descartar (no adulto, geralmente não é necessário, pela menor consequência).
+
+**Tratamento (decore as doses):**
+- **Penicilina G benzatina IM em dose única** — **600.000 UI** se peso < 27 kg; **1.200.000 UI** se ≥ 27 kg. É a opção que garante adesão.
+- **Amoxicilina VO 50 mg/kg/dia por 10 dias** (pode ser em dose única diária, máx. 1 g) — a mais usada na prática.
+- **Alérgicos à penicilina:** cefalosporina de 1ª geração (se a alergia não for anafilática) ou **macrolídeo** (azitromicina 12 mg/kg/dia por 5 dias; claritromicina).
+- **Os 10 dias são inegociáveis** para erradicação e prevenção da febre reumática — parar quando melhora (3º–5º dia) é o erro mais comum da vida real.
+- **Não usam-se** sulfametoxazol-trimetoprima nem tetraciclinas (não erradicam o estreptococo).
+
+**Diferenciais que caem:**
+- **Mononucleose infecciosa (EBV):** adolescente, fadiga marcante, **adenomegalia cervical POSTERIOR/generalizada**, **esplenomegalia**, exsudato tonsilar exuberante, **linfócitos atípicos**, transaminases elevadas. Se receber **amoxicilina/ampicilina, faz exantema** (não é alergia verdadeira). Orientar **evitar esporte de contato** por risco de rotura esplênica.
+- **Herpangina (Coxsackie):** vesículas/úlceras no **palato mole e pilares posteriores**; se houver lesões em mãos e pés, é a síndrome mão-pé-boca.
+- **PFAPA:** episódios **regulares como um relógio** (a cada 3–6 semanas) de febre alta + aftas + faringite + adenite, criança **perfeitamente bem entre os episódios**, e **resposta dramática a uma dose única de corticoide**. Autolimitada com a idade.
+- **Abscesso peritonsilar:** trismo, **voz de "batata quente"**, desvio da úvula, abaulamento unilateral — precisa de drenagem.
+- **Difteria:** criança não vacinada, **pseudomembrana branco-acinzentada aderente que sangra ao ser removida**, "pescoço de touro", toxemia — antitoxina é a prioridade.`
+  },
+  {
+   h: `9. Otite média aguda e rinossinusite: critérios que decidem o antibiótico`,
+   c: `**Otite média aguda (OMA) — o que é.** Coleção no ouvido médio **com sinais agudos de inflamação**. O diagnóstico exige otoscopia: o achado **mais específico** é o **abaulamento da membrana timpânica** (ou otorreia aguda não relacionada a otite externa). **Hiperemia isolada não fecha diagnóstico** — a membrana fica vermelha só de a criança chorar. Agentes: **pneumococo, Haemophilus influenzae não tipável e Moraxella catarrhalis**.
+
+**Quando tratar com antibiótico (critério por idade, lateralidade e gravidade):**
+- **< 6 meses:** **sempre** antibiótico.
+- **6 a 23 meses:** antibiótico se **bilateral** ou se **grave** (otalgia moderada/intensa, otalgia ≥ 48 h, temperatura ≥ 39 °C, otorreia).
+- **≥ 2 anos:** antibiótico se **grave**; nos casos leves e unilaterais, é aceitável a **observação vigilante por 48–72 h** com analgesia, desde que haja garantia de reavaliação.
+- A **analgesia** (dibuprofeno/paracetamol) é obrigatória em todos, tratando-se ou não com antibiótico.
+
+**Qual antibiótico.** **Amoxicilina 40–50 mg/kg/dia** é a primeira escolha; usa-se **dose alta (80–90 mg/kg/dia)** quando há risco de pneumococo resistente (< 2 anos, creche, uso de antibiótico nos últimos 30 dias). Trocar para **amoxicilina-clavulanato** quando: uso recente de antibiótico, **falha após 48–72 h**, ou **síndrome otite-conjuntivite** (típica de Haemophilus não tipável). Duração: **10 dias em < 2 anos** ou casos graves; **5–7 dias** em maiores.
+
+**Não confundir com otite média com efusão (OME/secretora):** líquido no ouvido médio **sem** sinais agudos — a criança tem hipoacusia e sensação de ouvido tampado, mas **não** tem dor nem febre. **Não usa antibiótico** nem corticoide; conduta é observar. Se persistir **> 3 meses**, bilateral, com perda auditiva relevante, discutir **tubo de ventilação** — e nesse período vigiar linguagem e desempenho escolar.
+
+**Rinossinusite bacteriana aguda.** O resfriado comum dura ~10 dias e melhora; a suspeita bacteriana nasce de **três padrões temporais** — decore-os, porque é assim que a questão vem escrita:
+- **Persistente:** sintomas (secreção nasal e/ou tosse diurna) por **mais de 10 dias sem melhora**.
+- **Grave:** **febre ≥ 39 °C com secreção nasal purulenta por pelo menos 3 dias consecutivos**, criança prostrada.
+- **Piora bifásica ("dupla piora"):** o quadro estava melhorando e **volta a piorar** por volta do 6º–7º dia.
+Tratamento: **amoxicilina** (± clavulanato conforme fatores de risco), 10–14 dias. **Radiografia de seios da face não é necessária** para o diagnóstico na criança.
+
+**As complicações que não se pode perder (e que fazem ponte com a Neurologia):**
+- **Celulite periorbitária (pré-septal)** — edema e hiperemia palpebral, mas **acuidade visual, motricidade ocular e reflexo pupilar NORMAIS**, sem dor à movimentação: trata-se com antibiótico.
+- **Celulite orbitária (pós-septal)** — **proptose, oftalmoplegia, dor à movimentação ocular, alteração visual**: é emergência → **tomografia de órbitas e seios + antibiótico intravenoso**, avaliação oftalmológica e otorrinolaringológica.
+- **Mastoidite** (deslocamento do pavilhão auricular, apagamento do sulco retroauricular), **trombose de seio cavernoso**, **abscesso epidural/subdural** e **tumor de Pott** (osteomielite do frontal com edema flutuante na testa).`
+  },
+  {
+   h: `10. Sibilância do lactente: o primeiro episódio não é asma`,
+   c: `Um dos blocos reais desta gaveta trata do **primeiro episódio de sibilância no lactente**, e o erro clássico é tratá-lo como crise de asma.
+
+**Bronquiolite viral aguda** é o **primeiro episódio de sibilância em menor de 2 anos** (na prática, sobretudo abaixo de 12 meses), precedido por **pródromo de vias aéreas superiores** (coriza, tosse, febre baixa) e seguido de taquipneia, tiragem, sibilos e/ou estertores finos. Agente principal: **vírus sincicial respiratório**; também rinovírus, metapneumovírus, adenovírus.
+
+**A fisiopatologia explica o tratamento.** A obstrução na bronquiolite é por **edema, necrose epitelial e rolha de muco** — não por broncoespasmo puro, como na asma. Por isso:
+- **Broncodilatador não é rotina** (não muda desfecho; pode-se tentar e manter só se houver resposta objetiva documentada).
+- **Corticoide não funciona** na bronquiolite típica — nem oral, nem inalatório, nem no primeiro episódio.
+- **Antibiótico não** (a menos que haja infecção bacteriana comprovada).
+- **Fisioterapia respiratória de rotina não** está indicada.
+- **O que funciona é suporte:** oxigênio se saturação **< 90–92%**, **higiene nasal com soro fisiológico**, hidratação (fracionar ou usar sonda/via venosa se houver dificuldade de mamar), monitorização e — em casos selecionados — **cânula nasal de alto fluxo**. Solução salina hipertônica pode ser considerada em internados.
+
+**Quem interna / quem é de risco:** idade **< 3 meses**, prematuridade, cardiopatia congênita com repercussão, doença pulmonar crônica, imunodeficiência, doença neuromuscular, apneia, desidratação, hipoxemia, desconforto importante.
+
+**Quando pensar em asma.** A partir do **terceiro episódio** de sibilância recorrente, sobretudo com **atopia pessoal (dermatite atópica) ou parental**, eosinofilia e sibilância fora de resfriados — é aí que o **índice preditivo de asma** entra e que o corticoide inalatório passa a fazer sentido. E lembre dos diferenciais que não são nem uma coisa nem outra: **corpo estranho** (início súbito, sibilância assimétrica), **refluxo/aspiração**, **fibrose cística**, **anel vascular**, **cardiopatia com hiperfluxo**, **displasia broncopulmonar**.`
+  },
+  {
+   h: `11. Doença inflamatória intestinal na criança: quando a diarreia crônica custa crescimento`,
+   c: `Dois blocos reais da SUS-BA caíram nesta gaveta com esse tema — vale a pena dominá-lo.
+
+**O que é.** Inflamação crônica e imunomediada do trato digestivo, com duas doenças principais: **doença de Crohn** e **retocolite ulcerativa (RCU)**. Cerca de **25% dos casos começam antes dos 18 anos**, e a apresentação pediátrica costuma ser **mais extensa e mais agressiva** que a do adulto.
+
+**Quando suspeitar (os sinais de alarme que separam do funcional):**
+- **Diarreia crônica > 4 semanas**, dor abdominal recorrente, **sangue nas fezes**, urgência e **tenesmo**.
+- **Queda de percentil de peso e estatura**, **atraso puberal** — na criança, a **falha de crescimento pode aparecer ANTES dos sintomas intestinais**, sobretudo no Crohn. Este é o ponto pediátrico que mais cai.
+- **Dor noturna que acorda**, despertar para evacuar, febre recorrente.
+- **Anemia ferropriva**, VHS/PCR elevadas, **hipoalbuminemia**, trombocitose.
+- **Doença perianal** (fissuras profundas, plicomas, fístulas, abscessos) — praticamente assina Crohn.
+- **Manifestações extraintestinais:** artrite periférica ou sacroileíte, **eritema nodoso**, pioderma gangrenoso, **uveíte/episclerite**, aftas orais, **colangite esclerosante primária** (mais ligada à RCU).
+
+**Crohn × RCU — o contraste que decide a questão:**
+- **Crohn:** pode acometer **da boca ao ânus**, com lesões **salteadas** ("pedras de calçamento") e inflamação **transmural** — daí as complicações **fístula, estenose e abscesso**. Sítio típico: **íleo terminal e cólon direito**. Histologia: **granuloma não caseoso** (presente em minoria, mas muito específico). Doença perianal comum. Sorologia: **ASCA** mais frequente. Sangramento visível é menos comum que na RCU.
+- **RCU:** acomete **apenas o cólon**, começando **no reto** e ascendendo de forma **contínua**, com inflamação restrita a **mucosa/submucosa**. Sintomas: **diarreia com sangue e muco, tenesmo**. Complicação temida: **megacólon tóxico**. Sorologia: **p-ANCA** mais frequente. **A colectomia total cura** a doença intestinal (o que não acontece no Crohn).
+
+**Como investigar:**
+- **Calprotectina fecal** — proteína liberada por neutrófilos na luz intestinal. É o **divisor de águas entre orgânico e funcional**: normal, torna DII muito improvável; elevada, obriga a seguir a investigação. Barato, não invasivo, altíssimo valor em prova e na prática.
+- Hemograma, VHS, PCR, albumina, ferritina, função hepática; coprocultura, pesquisa de parasitas e **toxina de Clostridioides difficile** para excluir colite infecciosa.
+- **Endoscopia digestiva alta + ileocolonoscopia com biópsias múltiplas** (mesmo de segmentos macroscopicamente normais) — pelos **critérios de Porto (ESPGHAN)**, a **endoscopia alta é obrigatória em criança**, porque o Crohn pediátrico frequentemente acomete o trato superior.
+- **Enterografia por ressonância** para avaliar delgado, estenoses e fístulas, sem radiação.
+
+**Diferenciais que a banca usa:** colite infecciosa (aguda, coprocultura positiva), **proctocolite alérgica do lactente** (bebê **bem, ganhando peso**, com raias de sangue nas fezes, geralmente em aleitamento materno — resolve com exclusão de leite de vaca da dieta materna), **doença celíaca**, tuberculose intestinal, doença de Behçet, e — em quadro grave de início muito precoce (< 6 anos) — **erro inato da imunidade** (a "DII de início muito precoce" pode ser a primeira manifestação de imunodeficiência, o que fecha o círculo com a primeira metade desta aula).
+
+**Tratamento, em linhas gerais:** o objetivo pediátrico é **remissão + crescimento e puberdade normais**. A **nutrição enteral exclusiva por 6–8 semanas** induz remissão no Crohn pediátrico tão bem quanto o corticoide **e sem prejudicar o crescimento** — é a terapia mais caracteristicamente pediátrica do tema. Corticoide para indução nos demais casos; **azatioprina/mercaptopurina ou metotrexato** para manutenção; **anti-TNF (infliximabe, adalimumabe)** nas formas graves, fistulizantes ou corticodependentes; **5-ASA** tem papel sobretudo na RCU. Suplementar ferro, vitamina D e cálcio; rastrear tuberculose latente antes do anti-TNF.`
+  },
+  {
+   h: `12. Os hóspedes rápidos desta gaveta: coqueluche, varicela e dermatite atópica`,
+   c: `**Coqueluche (Bordetella pertussis).** Três fases: **catarral** (1–2 semanas, parece resfriado — é a fase **mais contagiosa** e a única em que o antibiótico muda a evolução), **paroxística** (acessos de tosse em salva seguidos de **guincho inspiratório** e vômito pós-tosse; a criança fica bem entre as crises) e **convalescença**. **No lactente < 3 meses o quadro é atípico e mais grave**: pode não ter guincho e apresentar-se com **apneia, cianose ou morte súbita** — é a faixa que interna e morre. Laboratório sugestivo: **leucocitose com LINFOCITOSE absoluta** (quanto maior, pior o prognóstico; hiperleucocitose > 50.000 associa-se a hipertensão pulmonar). Tratamento e quimioprofilaxia dos contatos: **azitromicina** (macrolídeo de escolha no lactente pequeno; a eritromicina em < 1 mês associa-se a estenose hipertrófica do piloro). Prevenção: **penta/DTP no calendário** + **dTpa na gestante a partir da 20ª semana**, em toda gestação — a estratégia que protege o recém-nascido antes de ele poder ser vacinado ("estratégia do casulo").
+
+**Varicela.** Exantema **polimórfico e pruriginoso**, com lesões em **diferentes estágios ao mesmo tempo** (mácula, pápula, vesícula, crosta) e distribuição **centrípeta**, incluindo couro cabeludo e mucosas. Transmite desde **1–2 dias antes** do exantema até todas as lesões estarem em crosta. Complicação mais comum: **infecção bacteriana secundária de pele** (S. aureus, S. pyogenes — atenção à celulite/fasceíte); outras: **ataxia cerebelar aguda** (benigna, pós-infecciosa), encefalite, pneumonia (mais no adolescente/adulto). **Aciclovir** não é rotina em criança hígida; é indicado em **> 12 anos, segundo caso no domicílio, doença cutânea/pulmonar crônica, uso de corticoide ou salicilato, imunossuprimidos** e casos graves. **Nunca usar AAS** (síndrome de Reye). Profilaxia pós-exposição: **vacina até 5 dias** em suscetíveis elegíveis, ou **imunoglobulina específica (VZIG)** em imunossuprimidos, gestantes suscetíveis e recém-nascidos de mãe que teve varicela de 5 dias antes a 2 dias depois do parto.
+
+**Dermatite atópica do lactente.** Doença **crônica, recidivante e pruriginosa**, com barreira cutânea defeituosa (**filagrina**) + inflamação Th2. Distribuição pela idade: **lactente** → face (poupando o maciço central), couro cabeludo e superfícies **extensoras**; **criança maior/adolescente** → **dobras flexurais** (fossas antecubital e poplítea), pescoço, mãos, com liquenificação. **O prurido é o sintoma cardinal** — "eczema que não coça" merece outro diagnóstico. Tratamento, na ordem: **hidratante emoliente em quantidade generosa e todos os dias** (a base de tudo, inclusive na fase sem lesão), banhos curtos e mornos com sabonete suave, **corticoide tópico de potência adequada ao local** nas crises (baixa potência na face/dobras), inibidores de calcineurina (tacrolimo/pimecrolimo) como poupadores de corticoide, controle de fatores irritantes. **Dieta de exclusão não é indicada de rotina** — só se houver alergia alimentar comprovada. Antibiótico apenas se houver **infecção secundária** (crostas melicéricas, S. aureus); atenção ao **eczema herpético** (erupção variceliforme de Kaposi: vesículas monomórficas dolorosas com febre → aciclovir sistêmico, é emergência).`
+  },
+  {
+   h: `13. O algoritmo final desta gaveta (leve para a prova)`,
+   c: `- **Infecção "demais"** (número, gravidade, persistência, local ou germe) → pense em imunodeficiência. Comece por **hemograma + imunoglobulinas com referência POR IDADE + sorologia de HIV**.
+- **O germe diz o braço:** encapsulado após 6 meses = **anticorpo**; oportunista antes de 6 meses = **célula T/SCID**; abscesso por catalase-positivo = **fagócito**; **Neisseria** de repetição = **complemento terminal**.
+- **Deficiência seletiva de IgA:** IgA < 7 mg/dL, IgG/IgM normais, **≥ 4 anos**. A maioria é assintomática. Lembre das três consequências: **anafilaxia transfusional** (usar hemácias lavadas), **falso-negativo da sorologia IgA de celíaca** (usar marcadores IgG) e **NÃO se repõe com imunoglobulina**.
+- **Lactente com linfopenia, candidíase persistente, diarreia e déficit de crescimento** = **SCID** → nada de vacina viva, nada de sangue não irradiado, encaminhar **hoje** para transplante.
+- **Faringite:** calcule o **McIsaac**. 0–1 não testa; 2–3 testa; ≥ 4 testa/trata. **Teste rápido negativo em criança → cultura.** Tratamento: **penicilina benzatina dose única** ou **amoxicilina 10 dias**. O antibiótico previne **febre reumática**, não glomerulonefrite.
+- **Otite média aguda:** antibiótico sempre em **< 6 meses**; em **6–23 meses** se bilateral ou grave; em **≥ 2 anos** se grave. **Amoxicilina**, com clavulanato se falha, uso recente de antibiótico ou síndrome otite-conjuntivite. Efusão sem inflamação aguda = **não trata**.
+- **Rinossinusite bacteriana:** persistente > 10 dias, grave (febre ≥ 39 °C + secreção purulenta ≥ 3 dias) ou **dupla piora**. Diferencie **celulite pré-septal** (visão e motricidade normais) de **orbitária** (proptose/oftalmoplegia → tomografia + antibiótico venoso).
+- **Primeiro episódio de sibilância em lactente com pródromo viral = bronquiolite:** suporte, oxigênio se SatO₂ < 90–92%, **sem corticoide, sem antibiótico, broncodilatador não é rotina**.
+- **Diarreia crônica com sangue, dor e QUEDA DE CRESCIMENTO** = DII até prova em contrário → **calprotectina fecal**, depois **endoscopia alta + ileocolonoscopia com biópsias** (critérios de Porto). Crohn: boca-ânus, salteado, transmural, perianal, granuloma. RCU: reto ascendente, contínuo, mucosa, sangue e muco.`
+  }
+ ],
+ flashcards: [
+  { p: `Definição laboratorial e etária da deficiência seletiva de IgA`, r: `IgA sérica < 7 mg/dL, com IgG e IgM normais, em paciente com ≥ 4 anos (abaixo disso pode ser atraso maturacional transitório).` },
+  { p: `Por que a deficiência de IgA causa reação transfusional grave?`, r: `Alguns pacientes produzem anticorpos anti-IgA e fazem anafilaxia ao receber hemocomponente com IgA — usar hemácias lavadas ou doador IgA-deficiente.` },
+  { p: `Por que a sorologia de doença celíaca pode falhar na deficiência de IgA?`, r: `O antitransglutaminase padrão é da classe IgA — dá falso-negativo. Usar marcadores da classe IgG (ou biópsia). Sempre dosar IgA total junto com a sorologia.` },
+  { p: `Imunoglobulina intravenosa trata deficiência seletiva de IgA?`, r: `Não. A IVIG é essencialmente IgG, não repõe IgA e pode desencadear anafilaxia em quem tem anti-IgA.` },
+  { p: `Padrão de infecção que aponta defeito de anticorpo`, r: `Bactérias encapsuladas (pneumococo, Haemophilus) em vias aéreas, começando APÓS os 6 meses (quando some a IgG materna); giardíase.` },
+  { p: `Padrão de infecção que aponta defeito de complemento terminal (C5–C9)`, r: `Infecções recorrentes por Neisseria (meningococo) — vacinar ACWY e B.` },
+  { p: `Três proibições no lactente com suspeita de SCID`, r: `Nada de vacina viva (BCG, rotavírus, VOP), nada de hemocomponente não irradiado (risco de GVHD) e nada de atraso no encaminhamento ao transplante.` },
+  { p: `Achado de hemograma que rastreia SCID no lactente`, r: `Linfopenia — linfócitos totais < ~2.500–3.000/mm³ em lactente é anormal (a referência do adulto é mais baixa e induz ao erro). Triagem neonatal por TREC.` },
+  { p: `Sinal de exame quase patognomônico da agamaglobulinemia de Bruton`, r: `Ausência de tonsilas e de linfonodos palpáveis em menino com infecções após os 6 meses; CD19 ausente, todas as imunoglobulinas baixas.` },
+  { p: `Componentes do escore de McIsaac (Centor modificado)`, r: `Febre > 38 °C, ausência de tosse, adenomegalia cervical anterior dolorosa, exsudato/edema tonsilar, idade 3–14 anos (+1). 0–1 não testa; 2–3 testa; ≥ 4 testa/trata.` },
+  { p: `Teste rápido negativo para estreptococo em criança: e agora?`, r: `Confirmar com cultura de orofaringe — a sensibilidade do teste rápido é limitada (a especificidade é alta, então positivo já trata).` },
+  { p: `O antibiótico da faringite estreptocócica previne o quê?`, r: `Febre reumática (se iniciado até o 9º dia) e complicações supurativas — NÃO previne glomerulonefrite pós-estreptocócica.` },
+  { p: `Doses da penicilina benzatina na faringite estreptocócica`, r: `600.000 UI IM dose única se < 27 kg; 1.200.000 UI se ≥ 27 kg. Alternativa: amoxicilina 50 mg/kg/dia por 10 dias.` },
+  { p: `Critérios de antibiótico na otite média aguda`, r: `Sempre em < 6 meses; em 6–23 meses se bilateral ou grave; em ≥ 2 anos se grave. Caso leve unilateral ≥ 6 meses pode ser observado 48–72 h.` },
+  { p: `Os três padrões temporais da rinossinusite bacteriana aguda`, r: `Persistente (> 10 dias sem melhora), grave (febre ≥ 39 °C + secreção purulenta ≥ 3 dias) e dupla piora (melhora seguida de piora).` },
+  { p: `Celulite pré-septal x orbitária`, r: `Pré-septal: visão, pupila e motricidade ocular normais. Orbitária: proptose, oftalmoplegia e dor à movimentação → tomografia + antibiótico venoso (emergência).` },
+  { p: `Tratamento da bronquiolite viral aguda`, r: `Suporte: oxigênio se SatO₂ < 90–92%, higiene nasal, hidratação. Sem corticoide, sem antibiótico; broncodilatador não é rotina.` },
+  { p: `Marcador não invasivo que separa DII de dor abdominal funcional`, r: `Calprotectina fecal elevada indica inflamação intestinal orgânica; normal torna DII improvável.` },
+  { p: `Sinal pediátrico que pode PRECEDER os sintomas intestinais no Crohn`, r: `Falha de crescimento / queda de percentil e atraso puberal.` },
+  { p: `Crohn x RCU em uma linha`, r: `Crohn: boca ao ânus, salteado, transmural (fístula/estenose), perianal, granuloma não caseoso, ASCA. RCU: só cólon, do reto e contínuo, mucosa, sangue e muco, p-ANCA, megacólon tóxico; colectomia cura.` },
+  { p: `Terapia de indução tipicamente pediátrica no Crohn`, r: `Nutrição enteral exclusiva por 6–8 semanas — induz remissão como o corticoide e favorece o crescimento.` },
+  { p: `Laboratório sugestivo de coqueluche e antibiótico de escolha`, r: `Leucocitose com linfocitose absoluta; azitromicina (também para quimioprofilaxia dos contatos). Prevenção-chave: dTpa na gestante ≥ 20 semanas.` }
+ ],
+ pegadinhas: [
+  `Deficiência de IgA só se diagnostica a partir dos 4 anos — antes disso pode ser atraso maturacional transitório.`,
+  `Se a IgG também estiver baixa, não é deficiência seletiva de IgA: é imunodeficiência comum variável (e esta, sim, recebe imunoglobulina).`,
+  `Imunoglobulina intravenosa NÃO trata deficiência de IgA — e pode causar anafilaxia em quem tem anti-IgA.`,
+  `Sorologia de celíaca negativa em paciente com deficiência de IgA não exclui a doença: repetir com marcadores da classe IgG.`,
+  `Valores de imunoglobulina devem ser lidos na referência POR IDADE — a IgG do lactente de 3–6 meses é fisiologicamente baixa (vale materno).`,
+  `Linfopenia em lactente é bandeira vermelha de SCID; a referência do adulto (1.000–1.500) engana, pois o lactente normal tem linfócitos bem mais altos.`,
+  `Vacina viva e sangue não irradiado matam o paciente com SCID — a pergunta "qual conduta é contraindicada?" costuma ser essa.`,
+  `Imunodeficiência secundária (HIV, desnutrição, corticoide, nefrótica) é mais comum que a primária — sempre testar HIV.`,
+  `Faringite com tosse, coriza, rouquidão ou conjuntivite é viral: não testar, não tratar.`,
+  `Estreptococo do grupo A é incomum antes dos 3 anos, e febre reumática praticamente não ocorre nessa faixa.`,
+  `Teste rápido NEGATIVO em criança exige cultura; teste rápido POSITIVO já basta para tratar.`,
+  `Parar o antibiótico da faringite ao melhorar (5º dia) não erradica o estreptococo — são 10 dias, ou benzatina dose única.`,
+  `Amoxicilina em mononucleose causa exantema — não é alergia à penicilina.`,
+  `Hiperemia isolada da membrana timpânica não fecha otite média aguda: o achado específico é o abaulamento.`,
+  `Otite média com efusão (sem sinais agudos) não leva antibiótico nem corticoide.`,
+  `No primeiro episódio de sibilância do lactente, corticoide não funciona — é bronquiolite, não asma.`,
+  `Dor abdominal crônica com queda de percentil, anemia e PCR alta não é funcional: investigue DII com calprotectina fecal.`,
+  `Na criança, a endoscopia digestiva ALTA também é obrigatória na investigação de DII (critérios de Porto) — não basta a colonoscopia.`,
+  `Sangue nas fezes de lactente que está bem e ganhando peso, em aleitamento materno, sugere proctocolite alérgica — não DII.`,
+  `Nunca prescrever AAS na varicela ou influenza (síndrome de Reye).`
+ ],
+ diretrizes: [
+  `Grupo Brasileiro de Imunodeficiências (BRAGID) / SBP — Departamento de Alergia e Imunologia: sinais de alerta para erros inatos da imunidade e roteiro de investigação laboratorial escalonada.`,
+  `IUIS (International Union of Immunological Societies) — classificação atualizada dos erros inatos da imunidade.`,
+  `Ministério da Saúde — Triagem Neonatal Biológica ampliada (TREC/KREC para SCID e agamaglobulinemia) e Programa Nacional de Imunizações (contraindicação de vacinas vivas em imunodeprimidos).`,
+  `IDSA — Guideline for the Diagnosis and Management of Group A Streptococcal Pharyngitis; SBP — Diretriz de faringotonsilites na infância (escore de McIsaac, teste rápido e cultura).`,
+  `American Academy of Pediatrics (AAP) — Diagnosis and Management of Acute Otitis Media; AAP — Clinical Practice Guideline: Bronchiolitis; SBP — Documento Científico de Otorrinolaringologia Pediátrica.`,
+  `Critérios de Porto revisados (ESPGHAN) para diagnóstico de doença inflamatória intestinal na criança e no adolescente; SBP — Departamento de Gastroenterologia.`,
+  `Nelson — Tratado de Pediatria: seções de Imunologia (erros inatos da imunidade), Otorrinolaringologia e Gastroenterologia. Material do Drive: "Tópicos em Pediatria", aula de Infectologia e aula de Gastroenterologia (R+ Pediatria MEDGRUPO) — ver materiais_drive.md.`
+ ],
+ questoes: [
+  {
+   enunciado: `Menina de 8 anos, com sinusites de repetição, é investigada e apresenta IgA sérica de 4 mg/dL com IgG e IgM normais. Meses depois, é internada por anemia e recebe concentrado de hemácias, evoluindo com broncoespasmo, hipotensão e urticária nos primeiros minutos da transfusão. Qual a conduta para transfusões futuras?`,
+   alternativas: {
+    a: `Iniciar imunoglobulina intravenosa mensal`,
+    b: `Transfundir hemácias lavadas ou de doador IgA-deficiente`,
+    c: `Pré-medicar com corticoide e manter o hemocomponente habitual`,
+    d: `Transfundir plasma fresco congelado no lugar das hemácias`
+   },
+   correta: `b`,
+   comentario: `O quadro é deficiência seletiva de IgA (IgA < 7 mg/dL com IgG e IgM normais, em paciente com mais de 4 anos), a imunodeficiência primária mais comum. Parte desses pacientes desenvolve anticorpos ANTI-IgA; ao receber um hemocomponente que contenha IgA do doador, monta uma reação anafilática — exatamente o que ocorreu. A conduta definitiva é remover a IgA do produto transfundido: hemácias LAVADAS ou componentes de doador também deficiente de IgA. A imunoglobulina intravenosa é composta essencialmente de IgG, não repõe IgA e, pelo traço de IgA que contém, pode PIORAR o risco anafilático — logo, não é tratamento desta condição (ela é o tratamento da agamaglobulinemia e da imunodeficiência comum variável, em que a IgG está baixa). Pré-medicar não protege contra anafilaxia mediada por anti-IgA. Plasma fresco é ainda mais rico em IgA, portanto seria a pior escolha. Guarde as três consequências práticas da deficiência de IgA que a banca cobra: anafilaxia transfusional, falso-negativo da sorologia IgA de doença celíaca (usar marcadores IgG) e ausência de indicação de imunoglobulina.`,
+   foco: `Deficiência de IgA: as consequências práticas, não a definição (seu ponto de erro)`
+  },
+  {
+   enunciado: `Menino de 7 anos com dor de garganta e febre de 38,5 °C iniciadas há 1 dia, sem tosse, com exsudato em amígdalas e linfonodos cervicais anteriores dolorosos. O teste rápido para estreptococo do grupo A é negativo. Qual a conduta?`,
+   alternativas: {
+    a: `Coletar cultura de orofaringe e aguardar o resultado`,
+    b: `Descartar etiologia bacteriana e tratar apenas sintomas`,
+    c: `Iniciar azitromicina por 3 dias`,
+    d: `Iniciar amoxicilina-clavulanato por 7 dias`
+   },
+   correta: `a`,
+   comentario: `O escore de McIsaac aqui é 5 (febre > 38 °C, ausência de tosse, adenomegalia cervical anterior dolorosa, exsudato tonsilar e idade entre 3 e 14 anos), ou seja, probabilidade alta de estreptococo do grupo A. O detalhe que a questão testa é a característica do teste rápido de antígeno: ele tem ALTA especificidade (positivo confirma e autoriza tratar) mas sensibilidade limitada. Por isso, na CRIANÇA, um teste rápido negativo com clínica sugestiva deve ser confirmado por CULTURA de orofaringe antes de se descartar a etiologia bacteriana — a consequência de não tratar um estreptococo é a febre reumática, e o antibiótico ainda previne o evento se iniciado até o 9º dia, o que dá tempo de esperar a cultura. Descartar de imediato (alternativa b) assume uma sensibilidade que o teste não tem. Azitromicina por 3 dias não é esquema adequado (seriam 5 dias, e macrolídeo é reservado a alérgicos à penicilina); amoxicilina-clavulanato tem espectro desnecessário — o estreptococo do grupo A nunca foi resistente à penicilina, e o esquema correto seria penicilina benzatina em dose única ou amoxicilina por 10 dias. Lembre também: o antibiótico previne febre reumática, mas NÃO previne a glomerulonefrite pós-estreptocócica.`,
+   foco: `Faringite: escore, propriedade do teste rápido e esquema correto (ponto de erro em ORL)`
+  },
+  {
+   enunciado: `Lactente de 4 meses, em investigação por candidíase oral persistente, diarreia crônica e ganho de peso insuficiente, apresenta pneumonia intersticial. Hemograma: leucócitos 5.400/mm³ com 1.800 linfócitos/mm³. Raio-X de tórax sem sombra tímica. Qual conduta está CONTRAINDICADA?`,
+   alternativas: {
+    a: `Profilaxia com sulfametoxazol-trimetoprima`,
+    b: `Transfusão de hemácias não irradiadas`,
+    c: `Reposição de imunoglobulina intravenosa`,
+    d: `Encaminhamento para transplante de células-tronco`
+   },
+   correta: `b`,
+   comentario: `O conjunto — início antes dos 6 meses, candidíase persistente, diarreia crônica, déficit de crescimento, pneumonia intersticial (pense em Pneumocystis jirovecii), ausência de sombra tímica e, sobretudo, LINFOPENIA (1.800 linfócitos/mm³ é francamente baixo para um lactente, cujo valor normal supera 3.000) — define imunodeficiência combinada grave (SCID), uma emergência pediátrica. Sem linfócitos T funcionantes, o paciente não rejeita os linfócitos do doador: hemocomponentes NÃO irradiados provocam doença do enxerto contra hospedeiro transfusional, quase sempre fatal. Por isso, todo hemocomponente deve ser irradiado, leucodepletado e CMV-negativo. As outras três condutas estão corretas: sulfametoxazol-trimetoprima é a profilaxia padrão contra Pneumocystis, a imunoglobulina supre a ausência de anticorpos funcionantes e o transplante de células-tronco hematopoéticas é o tratamento definitivo, com sobrevida muito superior quando realizado antes dos 3–4 meses de vida. A outra proibição absoluta, que a banca alterna com esta, é a vacina de agente vivo (BCG, rotavírus, poliomielite oral, tríplice viral). Erro clássico: ler a linfopenia com a referência do adulto e considerá-la normal.`,
+   foco: `SCID: reconhecer a linfopenia do lactente e as duas proibições (vacina viva e sangue não irradiado)`
+  },
+  {
+   enunciado: `Menino de 11 anos com dor abdominal recorrente e diarreia há 8 meses, às vezes com sangue, acordando à noite para evacuar. Caiu do percentil 50 para o percentil 10 de estatura e não iniciou a puberdade. Hemoglobina 9,8 g/dL, VHS 62 mm/h, albumina 2,9 g/dL. Qual o próximo exame mais adequado?`,
+   alternativas: {
+    a: `Teste respiratório para supercrescimento bacteriano`,
+    b: `Calprotectina fecal`,
+    c: `Radiografia de abdome`,
+    d: `Teste terapêutico com dieta sem lactose`
+   },
+   correta: `b`,
+   comentario: `Todos os sinais de alarme de organicidade estão presentes: duração maior que 4 semanas, sangue nas fezes, dor que desperta à noite, anemia, provas inflamatórias muito elevadas, hipoalbuminemia e — o dado mais pediátrico de todos — queda de percentil estatural com atraso puberal, que no Crohn frequentemente PRECEDE os sintomas intestinais. Isso afasta dor abdominal funcional e aponta doença inflamatória intestinal. A calprotectina fecal é o exame não invasivo que confirma inflamação intestinal e seleciona quem deve ir para a endoscopia: elevada, indica prosseguir; normal, torna DII improvável. Depois dela, o padrão-ouro é a ileocolonoscopia COM endoscopia digestiva alta e biópsias múltiplas (critérios de Porto/ESPGHAN — na criança a avaliação do trato superior é obrigatória, porque o Crohn pediátrico o acomete com frequência), complementada por enterografia por ressonância. Teste respiratório para supercrescimento e dieta sem lactose investigam causas funcionais/disabsortivas leves e apenas atrasariam o diagnóstico. Radiografia de abdome só teria papel na suspeita de obstrução ou megacólon tóxico, que não é o caso.`,
+   foco: `DII pediátrica: falha de crescimento como sinal precoce e o papel da calprotectina fecal`
+  }
+ ]
+};
+
+/* ============================================================================
+   Estudo de 19/08/2026 — APROFUNDAMENTO: PED|Reumato / vasculites
+   Motivo: 16% de taxa de erro (2 erros, Vinicius) e módulo abaixo do padrão-ouro
+   (1.430 palavras contra ~1.650 do módulo de Vertigem). Tema reforçado pelo
+   simulado de 18/08/2026 (bloco REAL SUS-BA 2025 — "vasculite febril da primeira
+   infância"). Nada foi removido: só acréscimo de seções 10–16, flashcards,
+   pegadinhas, diretrizes e 4 questões novas.
+   ============================================================================ */
+(function(){
+ var M = window.REVISAO_MODULOS;
+ var r = M["PED|Reumato / vasculites"];
+ if(!r) return;
+
+ r.fontes += ` Aprofundamento de 19/08/2026: American Heart Association (AHA) — Scientific Statement on Kawasaki Disease (algoritmo da forma incompleta, escore Z das coronárias e resistência à imunoglobulina); critérios SLICC/ACR-EULAR 2019 para lúpus eritematoso sistêmico e critérios EULAR/ACR para dermatomiosite juvenil; critérios de Kocher para artrite séptica do quadril; SBP — Departamentos de Reumatologia e de Ortopedia Pediátrica; Ministério da Saúde — nota técnica sobre Síndrome Inflamatória Multissistêmica Pediátrica (SIM-P/MIS-C); Nelson — Tratado de Pediatria (Reumatologia, Vasculites e Doenças Autoinflamatórias). Ver materiais_drive.md.`;
+
+ r.notaErro += `
+
+**Aprofundamento de 19/08/2026 (por que este módulo cresceu).** Este domínio está com **16% de taxa de erro (2 erros de Vinicius em 12 questões)** e era um dos módulos mais curtos do site — abaixo do padrão do módulo de Vertigem. Revendo o que já foi cobrado aqui e o bloco real da SUS-BA 2025 ("vasculite febril da primeira infância", que caiu no simulado de ontem), ficaram faltando **quatro pedaços que a banca cobra e o texto não tinha**:
+
+- **O exame físico da criança com queixa articular** (seção 10). Antes de saber qual doença é, é preciso saber se **é artrite mesmo** — e a maior parte dos erros de raciocínio começa aí, confundindo artralgia com artrite e dor mecânica com dor inflamatória.
+- **O triângulo artrite séptica × sinovite transitória × leucemia** (seção 11). Este é o cenário mais perigoso da pediatria reumatológica, porque **duas das três pontas são emergências** e a conduta errada (corticoide antes de excluir leucemia; observar em vez de puncionar o quadril) causa dano permanente.
+- **Lúpus juvenil e dermatomiosite juvenil** (seções 12 e 13) simplesmente não estavam no módulo, e são as duas doenças do tecido conjuntivo mais cobradas depois da AIJ.
+- **A Kawasaki "de segunda camada"** (seção 14): laboratório de apoio, algoritmo da **forma incompleta**, **resistência à imunoglobulina**, estratificação coronariana por escore Z, e as duas armadilhas práticas — **adiar vacinas de vírus vivo por 11 meses** após a imunoglobulina e diferenciar de **SIM-P/MIS-C**.
+
+**Como zerar o erro:** ao ler um caso deste domínio, corra sempre pelo mesmo trilho — (1) **é artrite ou é artralgia?** (edema/calor/limitação decidem); (2) **é aguda ou crônica?** (aguda e monoarticular febril = artrite séptica até prova em contrário; crônica ≥ 6 semanas = AIJ); (3) **excluí leucemia?** (dor óssea noturna, VHS alta com plaquetas baixas, citopenias → **nunca comece corticoide antes do hemograma/mielograma**); (4) **o relógio está correndo?** (Kawasaki até o 10º dia; quadril séptico é drenagem no mesmo dia). As questões novas ao final batem exatamente nesses quatro pontos.`;
+
+ r.secoes.push({
+  h: `10. Antes do diagnóstico: como examinar a criança com queixa articular`,
+  c: `Metade dos erros deste domínio nasce antes do diagnóstico — nasce na descrição do achado. Duas distinções organizam tudo.
+
+**Artralgia × artrite.** **Artralgia** é apenas dor referida na articulação. **Artrite** é um achado **objetivo**: exige **aumento de volume (derrame ou espessamento sinovial)** ou, na ausência dele, **pelo menos dois** entre limitação de amplitude, dor à mobilização e calor local. Guarde os "3 A": **Aumento de volume, Aumento de temperatura, Amplitude reduzida**. Isso importa porque quase todos os critérios diagnósticos (AIJ, lúpus, febre reumática) exigem **artrite**, não artralgia — e a banca escreve "dor articular" de propósito para ver se você conta como critério.
+
+**Dor inflamatória × dor mecânica.** É a pergunta que separa reumatologia de ortopedia:
+- **Inflamatória:** pior **ao acordar**, com **rigidez matinal** que dura dezenas de minutos, e que **MELHORA com o movimento** ao longo do dia. Vem com calor, edema e provas inflamatórias altas.
+- **Mecânica:** pior **ao fim do dia e com a atividade**, melhora com repouso, sem rigidez matinal significativa. Pensa-se em sobrecarga, displasia, epifisiólise, osteocondrites (Osgood-Schlatter, Perthes).
+- **Dor noturna que ACORDA a criança** não é nem uma nem outra: é bandeira vermelha de **neoplasia** (leucemia, osteossarcoma, sarcoma de Ewing) ou **osteomielite**. Nunca a normalize como "dor do crescimento" — esta é bilateral, vespertina/noturna nas pernas, alivia com massagem, **nunca causa claudicação, edema ou febre**, e o exame é rigorosamente normal.
+
+**Pistas do exame que valem diagnóstico:**
+- **A criança que não anda ou claudica:** localize a dor (quadril dói referido no joelho e na coxa — quadril séptico frequentemente se apresenta como "dor no joelho"). Peça para andar sempre; observar a marcha é obrigatório.
+- **Postura antálgica do quadril** em **flexão, abdução e rotação externa**: é a posição que maximiza o volume da cápsula e alivia a pressão — sugere derrame (séptico ou sinovite transitória).
+- **Atrofia do quadríceps e discrepância de comprimento dos membros** indicam doença **crônica** (a articulação inflamada acelera o crescimento da epífise adjacente): quer dizer que aquela artrite tem meses, não dias — o que empurra para AIJ.
+- **Rash, aftas, alopecia, fenômeno de Raynaud, telangiectasias periungueais, nódulos subcutâneos, fraqueza muscular proximal** — o exame de pele e músculo é parte do exame articular, não um extra.
+- **Pesquisar entesite** (dor na inserção do tendão calcâneo/fáscia plantar) e **dor sacroilíaca** em menino maior de 6 anos: aponta para o subtipo **artrite relacionada a entesite** da AIJ (o equivalente pediátrico das espondiloartrites, ligado ao HLA-B27, com risco de **uveíte anterior AGUDA e sintomática** — o oposto da uveíte silenciosa da forma oligoarticular).`
+ });
+
+ r.secoes.push({
+  h: `11. O triângulo perigoso: artrite séptica × sinovite transitória × leucemia`,
+  c: `Diante de uma criança com **monoartrite aguda**, três diagnósticos disputam — e dois deles são emergências.
+
+**1) Artrite séptica — a que não pode esperar.** Infecção bacteriana dentro da articulação (mais comum: **Staphylococcus aureus**; abaixo de 4 anos, considerar **Kingella kingae**; em não vacinados, Haemophilus; em adolescentes sexualmente ativos, gonococo). Quadro: **início agudo, febre, articulação única** (quadril e joelho lideram), dor **intensa mesmo em repouso**, **recusa total de apoiar o peso**, e — o sinal mais útil — **dor exagerada a qualquer movimentação passiva, mesmo mínima**. A criança está prostrada e irritada.
+
+Os **critérios de Kocher** (para quadril) estimam a probabilidade: **febre > 38,5 °C**, **recusa de apoiar o peso**, **VHS > 40 mm/h** e **leucócitos > 12.000/mm³**. Com 3 ou 4 critérios, a probabilidade de artrite séptica é alta (>90%); com 0–1, é baixa. A PCR elevada agrega valor.
+
+Conduta: **ultrassonografia** para confirmar derrame, **artrocentese** (líquido com **> 50.000 células**, predomínio de neutrófilos, glicose baixa, Gram e cultura), **hemoculturas**, e **antibiótico intravenoso** logo após a coleta. **No quadril, a drenagem cirúrgica é urgente** — a pressão intra-articular e as enzimas bacterianas destroem a cartilagem em horas e podem causar **necrose avascular da cabeça femoral**. Atraso aqui é sequela permanente.
+
+**2) Sinovite transitória do quadril — a mais comum e a benigna.** Menino de 3 a 8 anos, **1 a 2 semanas após uma infecção de vias aéreas**, com claudicação e dor no quadril/coxa/joelho. A diferença clínica que mais ajuda: ele **claudica, mas APOIA o peso**; está **afebril ou com febre baixa**, com bom estado geral; provas inflamatórias normais ou pouco alteradas. Trata-se com anti-inflamatório e repouso, resolve em 1–2 semanas. Sempre reavaliar: se piorar ou febre subir, reconsiderar séptica.
+
+**3) Leucemia disfarçada de artrite — a armadilha que muda o prognóstico.** Até 1 em cada 4 crianças com leucemia linfoblástica aguda abre o quadro com queixa musculoesquelética, e o rótulo inicial de "AIJ" é comum. Suspeite quando:
+- **Dor desproporcional ao achado articular**, **dor óssea fora da articulação** (metáfises, coluna) e **dor noturna que acorda**.
+- **Estado geral ruim, palidez, sangramento, adenomegalia, hepatoesplenomegalia**.
+- Laboratório com **dissociação**: **VHS muito alta com plaquetas baixas ou normais-baixas** (na AIJ ativa espera-se trombocitose), **LDH e ácido úrico elevados**, qualquer **citopenia** — inclusive um hemograma "quase normal" com neutropenia relativa.
+
+**A regra de ouro, que a banca cobra como conduta:** **nunca inicie corticoide numa suspeita de doença reumatológica antes de excluir leucemia**. O corticoide reduz parcialmente os blastos, **mascara o diagnóstico**, atrasa o tratamento correto e **piora o prognóstico oncológico**. Diante de qualquer bandeira vermelha, o exame que antecede o corticoide é o **hemograma com esfregaço** e, se houver dúvida, o **mielograma**.`
+ });
+
+ r.secoes.push({
+  h: `12. Lúpus eritematoso sistêmico juvenil`,
+  c: `**O que é.** Doença autoimune sistêmica por **imunocomplexos**: autoanticorpos contra componentes do próprio núcleo celular formam complexos que se depositam em vasos e membranas basais (rim, pele, serosas, sistema nervoso), ativam complemento e causam inflamação. Cerca de **15–20% dos casos começam antes dos 18 anos**, e o lúpus juvenil é **mais grave** que o do adulto: mais **nefrite**, mais acometimento **neuropsiquiátrico** e mais necessidade de imunossupressão pesada. Predomina em **meninas na puberdade** (relação ~5:1 nessa faixa).
+
+**Quando suspeitar.** Adolescente com **febre prolongada, fadiga, emagrecimento** e qualquer combinação de:
+- **Pele:** **rash malar em asa de borboleta que POUPA os sulcos nasolabiais** (detalhe que a banca usa para diferenciar de dermatite seborreica), fotossensibilidade, lúpus discoide, alopecia não cicatricial, **úlceras orais/nasais tipicamente INDOLORES**, em palato.
+- **Articulações:** artrite **não erosiva**, poliarticular, simétrica — dói muito, mas não deforma.
+- **Serosas:** pleurite, pericardite.
+- **Sangue:** **anemia hemolítica com Coombs direto positivo**, **leucopenia/linfopenia**, **plaquetopenia** (um lúpus pode se apresentar como "PTI" isolada por meses).
+- **Rim:** **proteinúria, hematúria, cilindros hemáticos, hipertensão** — a nefrite é o principal determinante de prognóstico e frequentemente é **assintomática**, por isso **urina tipo I e relação proteína/creatinina fazem parte de toda avaliação**.
+- **Neuropsiquiátrico:** **convulsão, psicose**, cefaleia refratária, coreia, mielite, alteração cognitiva.
+- **Vascular:** fenômeno de Raynaud, livedo, tromboses (pensar em **síndrome antifosfolípide** associada).
+
+**Os autoanticorpos, e para que serve cada um:**
+- **FAN (antinuclear):** muito **sensível, pouco específico** — serve para **triagem**. Um FAN negativo torna lúpus bastante improvável; um FAN positivo isolado, em criança saudável, **não faz diagnóstico** (é comum na população geral e após infecções).
+- **Anti-DNA dupla-hélice:** **específico**, associa-se à **nefrite** e **acompanha a atividade** da doença (sobe nos surtos).
+- **Anti-Sm:** o mais **específico** de todos, mas pouco sensível.
+- **Anti-histona:** sugere **lúpus induzido por fármaco**.
+- **Anti-Ro (SSA) e anti-La (SSB):** ligados a fotossensibilidade, lúpus cutâneo subagudo e — ponto pediátrico clássico — ao **lúpus neonatal**: a mãe (às vezes assintomática) transfere anticorpos pela placenta e o bebê nasce com **rash anular fotossensível e citopenias transitórias** (somem em 6–8 meses, junto com o anticorpo materno) e, o que é permanente e grave, **bloqueio atrioventricular total congênito** — que exige marca-passo.
+- **Complemento C3 e C4 CONSUMIDOS (baixos)** indicam **atividade**; junto com o anti-DNA em ascensão, é o par que se usa para monitorar surtos.
+
+**Nefrite lúpica.** A **biópsia renal** classifica (ISN/RPS I a VI) e define o tratamento; a **classe IV (proliferativa difusa)** é a mais comum e a de pior prognóstico, exigindo indução com corticoide em altas doses associado a **micofenolato ou ciclofosfamida**. Toda criança com lúpus deve fazer **urina e pressão arterial em cada consulta**.
+
+**Tratamento, em linhas gerais:** **hidroxicloroquina para todos** (reduz surtos, protege o rim, melhora sobrevida — não é "só para a pele"), fotoproteção rigorosa, corticoide na menor dose possível, imunossupressor conforme o órgão acometido, vacinação em dia (evitando vacinas vivas sob imunossupressão) e vigilância de infecção — que, junto com a nefrite, é a principal causa de morte.`
+ });
+
+ r.secoes.push({
+  h: `13. Dermatomiosite juvenil`,
+  c: `**O que é.** Uma **vasculopatia inflamatória** que atinge **músculo e pele** ao mesmo tempo — o alvo é o pequeno vaso (capilar) do endomísio e da derme. É a miopatia inflamatória mais comum da infância, com pico entre 5 e 10 anos.
+
+**Como se apresenta — dois pilares que precisam coexistir:**
+
+- **Fraqueza muscular PROXIMAL, simétrica e insidiosa.** A criança passa a ter dificuldade para **subir escadas, levantar do chão, pentear o cabelo**; pode surgir **sinal de Gowers** (escalar o próprio corpo para levantar). Se há disfagia e voz anasalada, a musculatura faríngea está acometida — risco de **broncoaspiração**, sinal de gravidade. Diferente do adulto, dor muscular é comum.
+- **Lesões cutâneas quase patognomônicas:**
+  - **Heliotropo:** coloração **violácea nas pálpebras superiores**, com edema.
+  - **Pápulas de Gottron:** placas eritemato-violáceas **sobre as articulações metacarpofalângicas e interfalângicas**, cotovelos e joelhos (**sobre** as articulações — o lúpus poupa as articulações e atinge o dorso dos dedos entre elas: esse é o diferencial fino).
+  - **Telangiectasias periungueais** com cutícula distrófica, rash em "V" do decote e em xale.
+  - **Calcinose** — depósitos de cálcio no subcutâneo, que podem ulcerar; é **muito mais frequente na criança** que no adulto e está ligada a **diagnóstico e tratamento tardios**.
+
+**Diagnóstico.** **Enzimas musculares elevadas** (CK, mas também **aldolase, LDH, AST/ALT** — atenção: transaminases altas aqui vêm do músculo, e a criança já foi investigada como "hepatite" mais de uma vez), **ressonância magnética de coxas** mostrando **edema muscular** (é o melhor exame não invasivo e guia a biópsia), eletroneuromiografia com padrão miopático, **capilaroscopia periungueal** alterada, e biópsia muscular nos casos duvidosos. Anticorpos específicos de miosite (anti-MDA5, anti-NXP2, anti-TIF1-gama) ajudam a prever fenótipo.
+
+**Duas diferenças em relação ao adulto que valem ponto:**
+- Na criança, a dermatomiosite **NÃO tem associação com neoplasia** (no adulto, sim, e a investigação de câncer é obrigatória).
+- Na criança, a **calcinose** e a **vasculopatia gastrointestinal** (dor abdominal, risco de úlcera e perfuração) são as complicações características.
+
+**Tratamento:** **corticoide em dose alta + metotrexato precoce** (a associação inicial reduz sequelas), imunoglobulina nos casos refratários ou com acometimento cutâneo grave, fotoproteção, fisioterapia desde o início. Tratar **cedo e por tempo suficiente** é o que previne a calcinose.
+
+**Diferenciais:** **distrofia muscular de Duchenne** (menino, fraqueza proximal com pseudo-hipertrofia de panturrilhas, CK altíssima, **sem lesão de pele** e sem sinais inflamatórios), miosite viral aguda (benigna, após influenza, dor em panturrilhas), miopatia por corticoide, hipotireoidismo e lúpus com miosite.`
+ });
+
+ r.secoes.push({
+  h: `14. Kawasaki, segunda camada: laboratório, forma incompleta, resistência à imunoglobulina e MIS-C`,
+  c: `A seção 5 deu o essencial. Aqui vai o que a banca cobra quando quer separar quem estudou.
+
+**O laboratório de apoio (e o detalhe do tempo).** Nenhum exame faz o diagnóstico, mas o conjunto sustenta a suspeita: **leucocitose com neutrofilia**, **VHS e PCR muito elevadas**, **anemia normocítica**, **hipoalbuminemia**, **transaminases elevadas**, **hiponatremia**, **piúria estéril** (leucócitos na urina sem bactéria — origem uretral) e **hidropisia de vesícula** na ultrassonografia. O detalhe de cronologia que cai: **a trombocitose é TARDIA** — nos primeiros dias as plaquetas são normais ou até baixas, e só **a partir da segunda semana** sobem, às vezes acima de 1.000.000/mm³. Portanto, "plaquetas normais no 5º dia" **não afasta** Kawasaki. Outro achado muito sugestivo em país que vacina com BCG, como o Brasil: **reativação/eritema da cicatriz do BCG**.
+
+**Kawasaki incompleta (atípica) — o algoritmo.** Mais comum em **lactentes < 6 meses** e em maiores de 5 anos, e paradoxalmente **a que mais faz aneurisma**, porque é a que se trata tarde. O raciocínio da AHA: diante de **febre ≥ 5 dias (ou ≥ 7 dias em lactente) com apenas 2 ou 3 dos critérios clínicos**, dose **PCR e VHS**. Se **PCR ≥ 3 mg/dL e/ou VHS ≥ 40 mm/h**, procure **critérios laboratoriais suplementares** — considera-se positivo com **3 ou mais** entre: **albumina ≤ 3 g/dL, anemia para a idade, ALT elevada, plaquetas ≥ 450.000 após o 7º dia, leucócitos ≥ 15.000/mm³ e ≥ 10 leucócitos por campo na urina**. Com 3 ou mais desses, ou com **ecocardiograma alterado**, **trate**. Em lactente com febre inexplicada ≥ 7 dias, o ecocardiograma entra mesmo sem critérios clínicos.
+
+**Resistência à imunoglobulina.** Cerca de **10 a 20%** dos pacientes **mantêm ou voltam a ter febre 36 horas após o término da infusão** — é a definição de resistência, e esses são os de maior risco coronariano. Conduta: **segunda dose de imunoglobulina 2 g/kg**, e/ou **corticoide** (pulso de metilprednisolona ou prednisolona associada), e **infliximabe** nos refratários. Fatores de risco para resistência e para aneurisma: **idade < 1 ano**, sexo masculino, **febre prolongada antes do tratamento**, PCR muito alta, **albumina e plaquetas baixas** e sódio baixo.
+
+**AAS: duas doses, dois objetivos.** Na fase aguda, dose **anti-inflamatória** (30–50 mg/kg/dia no protocolo mais usado no Brasil; até 80–100 mg/kg/dia em outros), mantida até **48–72 h sem febre**; depois, dose **antiagregante** (3–5 mg/kg/dia) por **6 a 8 semanas** — ou **indefinidamente** se houver alteração coronariana.
+
+**Seguimento coronariano pelo escore Z** (diâmetro da coronária corrigido para a superfície corporal): **< 2 = normal**; **2 a < 2,5 = dilatação**; **2,5 a < 5 = aneurisma pequeno**; **5 a < 10 = médio**; **≥ 10 (ou ≥ 8 mm absoluto) = aneurisma GIGANTE**, que exige **anticoagulação plena (varfarina ou heparina de baixo peso) associada ao AAS** por risco de trombose e infarto do miocárdio — sim, infarto em criança. Ecocardiograma no diagnóstico, com 1–2 semanas e com 4–6 semanas (mais frequente se alterado).
+
+**Duas armadilhas práticas que a prova adora:**
+- **Vacinas de vírus vivo (tríplice viral e varicela) devem ser ADIADAS por 11 meses** após a imunoglobulina — os anticorpos passivos neutralizam o vírus vacinal e a vacina não "pega". Se foi aplicada antes, precisa ser repetida.
+- **Vacinar contra influenza** (e manter varicela em dia quando possível) na criança que ficará em uso prolongado de AAS, pelo risco de **síndrome de Reye**.
+
+**Kawasaki × SIM-P (MIS-C).** Sobrepõem-se, mas há um perfil: a **SIM-P** ocorre **2 a 6 semanas após infecção por SARS-CoV-2**, em crianças **mais velhas (mediana ~8–9 anos)** e adolescentes, com **sintomas gastrointestinais proeminentes** (dor abdominal intensa que simula apendicite, vômitos, diarreia), **choque e disfunção miocárdica** mais frequentes, **linfopenia** marcada e elevações muito altas de **ferritina, D-dímero, troponina e BNP**. O tratamento também usa imunoglobulina, mas com **corticoide associado** com muito mais frequência. Já a Kawasaki clássica é doença de **< 5 anos**, sem esse contexto epidemiológico e com menos choque.`
+ });
+
+ r.secoes.push({
+  h: `15. As que aparecem menos, mas caem: outras vasculites e as febres periódicas`,
+  c: `**Poliarterite nodosa (vasos médios).** Febre, emagrecimento, **mialgia intensa**, **livedo reticular**, **nódulos subcutâneos dolorosos**, **mononeurite múltipla** (pé ou mão caído de instalação súbita), dor abdominal isquêmica e **hipertensão arterial** por acometimento renal. Angiografia mostra **microaneurismas**. Na criança, a **forma cutânea** é a mais frequente e costuma vir **após infecção estreptocócica** — o que a coloca no diferencial da febre reumática e da vasculite por IgA. Não há acometimento glomerular (é vaso médio) nem ANCA.
+
+**Arterite de Takayasu (grandes vasos).** Adolescente do sexo feminino com **hipertensão de difícil controle**, **assimetria de pressão arterial entre os braços**, **pulsos diminuídos ou ausentes** ("doença sem pulso"), sopros vasculares, claudicação de membros e sintomas constitucionais. A hipertensão costuma vir de **estenose de artéria renal**. Diagnóstico por **angiotomografia/angiorressonância** de aorta e ramos. **É a segunda causa de hipertensão renovascular em criança no Brasil** e frequentemente convive com tuberculose — investigar.
+
+**Vasculites associadas a ANCA.** Pequenos vasos, com **glomerulonefrite rapidamente progressiva** como marca. **Granulomatose com poliangiite** (c-ANCA/anti-PR3): trato respiratório **superior** destrutivo — sinusite crônica, perfuração de septo, **nariz em sela** — mais nódulos/cavidades pulmonares e hemorragia alveolar. **Poliangiite microscópica** (p-ANCA/anti-MPO): síndrome pulmão-rim sem granuloma. **Granulomatose eosinofílica com poliangiite (Churg-Strauss)**: **asma grave + eosinofilia** + neuropatia.
+
+**Doença de Behçet.** **Úlceras orais recorrentes** (obrigatórias) + **úlceras genitais**, uveíte posterior/panuveíte, lesões cutâneas tipo eritema nodoso ou pseudofoliculite, **teste de patergia** positivo, e risco de **trombose venosa** e acometimento do sistema nervoso.
+
+**Febres periódicas (doenças autoinflamatórias).** Aqui não há autoanticorpo nem linfócito autorreativo: o problema é a **imunidade INATA disparando sozinha**. Duas caem:
+- **PFAPA** — a mais comum na infância. Episódios **regulares como um relógio, a cada 3 a 6 semanas**, de **febre alta + aftas + faringite + adenite cervical**, com a criança **absolutamente bem entre os episódios** e crescimento normal. O achado que confirma na prática: **resposta dramática a uma dose única de prednisona** (a febre cede em horas). É autolimitada, tende a desaparecer com a idade; tonsilectomia é opção em casos selecionados.
+- **Febre familiar do Mediterrâneo (FMF)** — ancestralidade mediterrânea (árabes, judeus sefarditas, armênios, turcos), mutação no gene **MEFV** (pirina). Crises **curtas, de 1 a 3 dias**, de **febre com serosite**: **dor abdominal intensa que simula abdome agudo** (muitos já foram apendicectomizados), pleurite, monoartrite, e **erisipela-símile** no tornozelo. A complicação que define o prognóstico é a **amiloidose AA** com insuficiência renal — evitável com **colchicina contínua**, que é o tratamento.`
+ });
+
+ r.secoes.push({
+  h: `16. Algoritmo ampliado — as dez frases finais`,
+  c: `- **Confirme que é artrite** (aumento de volume, calor, amplitude reduzida) antes de aplicar qualquer critério; "dor articular" isolada não conta.
+- **Dor inflamatória** melhora com o movimento e tem rigidez matinal; **dor mecânica** piora com a atividade; **dor que acorda à noite** é bandeira vermelha de neoplasia ou osteomielite.
+- **Monoartrite aguda febril com recusa de apoiar o peso** = **artrite séptica** até prova em contrário → ultrassom, **artrocentese**, hemoculturas, antibiótico venoso e, no quadril, **drenagem urgente** (critérios de Kocher estimam a probabilidade).
+- **Claudica mas apoia o peso, após virose, afebril e com provas normais** = **sinovite transitória** → anti-inflamatório e reavaliação.
+- **Nunca inicie corticoide** numa suspeita reumatológica antes de **excluir leucemia** — dor óssea noturna, citopenias, LDH alto e VHS alta com plaquetas baixas são o alerta.
+- **Febre ≥ 5 dias em < 5 anos** com conjuntivite não exsudativa, mucosite, extremidades, exantema e adenomegalia = **Kawasaki** → **imunoglobulina 2 g/kg + AAS até o 10º dia**; se a febre voltar 36 h depois da infusão, é **resistência** → segunda dose ± corticoide ± infliximabe. **Adie vacinas vivas por 11 meses.**
+- **Febre prolongada com poucos critérios + PCR/VHS altas** → aplique o algoritmo da **Kawasaki incompleta** (3 ou mais critérios laboratoriais suplementares, ou eco alterado, autorizam tratar). **Trombocitose é achado da 2ª semana** — sua ausência precoce não afasta nada.
+- **Púrpura palpável em membros inferiores com plaquetas normais** = **vasculite por IgA** → vigiar **rim** (anos) e **invaginação**.
+- **Adolescente com febre, rash malar que poupa sulcos nasolabiais, artrite não erosiva, citopenias e urina alterada** = **lúpus juvenil** → FAN para triagem, **anti-DNA dupla-hélice e complemento consumido** para atividade, **biópsia renal** define o tratamento; hidroxicloroquina para todos.
+- **Fraqueza proximal + heliotropo + pápulas de Gottron** = **dermatomiosite juvenil** → CK/aldolase, **ressonância de coxas**, corticoide **com metotrexato precoce** para evitar **calcinose**; na criança, não há associação com câncer.`
+ });
+
+ r.flashcards.push(
+  { p: `Definição objetiva de artrite (o que a banca exige)`, r: `Aumento de volume articular OU pelo menos dois entre: limitação de amplitude, dor à mobilização e calor local. Artralgia isolada não é artrite.` },
+  { p: `Critérios de Kocher para artrite séptica do quadril`, r: `Febre > 38,5 °C, recusa de apoiar o peso, VHS > 40 mm/h e leucócitos > 12.000/mm³ — 3 a 4 critérios indicam alta probabilidade.` },
+  { p: `Sinovite transitória x artrite séptica: o dado clínico mais útil`, r: `Na sinovite transitória a criança claudica mas APOIA o peso e está afebril/bem; na séptica há recusa total de apoio, febre e dor a qualquer mobilização passiva.` },
+  { p: `Achados que sugerem leucemia numa "artrite"`, r: `Dor óssea noturna que acorda, dor desproporcional, citopenias, LDH e ácido úrico altos, e VHS muito alta com plaquetas baixas (na AIJ ativa haveria trombocitose).` },
+  { p: `Regra de conduta obrigatória antes do corticoide em suspeita reumatológica`, r: `Excluir leucemia (hemograma com esfregaço, e mielograma se houver dúvida) — o corticoide mascara os blastos e piora o prognóstico oncológico.` },
+  { p: `Rash malar do lúpus: o detalhe diferencial`, r: `Poupa os sulcos nasolabiais (a dermatite seborreica os acomete).` },
+  { p: `Qual autoanticorpo serve para triagem e quais para atividade/especificidade no lúpus?`, r: `FAN é sensível (triagem, negativo praticamente exclui); anti-DNA dupla-hélice é específico e acompanha atividade/nefrite; anti-Sm é o mais específico; C3/C4 consumidos indicam atividade.` },
+  { p: `Anticorpo materno associado a bloqueio atrioventricular congênito`, r: `Anti-Ro (SSA) — lúpus neonatal: rash e citopenias transitórios, mas bloqueio AV total permanente.` },
+  { p: `Classe de nefrite lúpica mais comum e de pior prognóstico`, r: `Classe IV (proliferativa difusa) — indução com corticoide em alta dose + micofenolato ou ciclofosfamida.` },
+  { p: `As duas lesões cutâneas quase patognomônicas da dermatomiosite juvenil`, r: `Heliotropo (violáceo periorbital) e pápulas de Gottron (SOBRE as articulações dos dedos, cotovelos e joelhos).` },
+  { p: `Melhor exame não invasivo na dermatomiosite juvenil`, r: `Ressonância magnética de coxas mostrando edema muscular — confirma e guia a biópsia.` },
+  { p: `Duas diferenças da dermatomiosite da criança em relação à do adulto`, r: `Na criança NÃO há associação com neoplasia, e a calcinose (ligada a tratamento tardio) é muito mais frequente.` },
+  { p: `Quando as plaquetas sobem na doença de Kawasaki?`, r: `A partir da 2ª semana — plaquetas normais nos primeiros dias NÃO afastam o diagnóstico.` },
+  { p: `Definição de resistência à imunoglobulina na Kawasaki e conduta`, r: `Febre persistente ou recorrente 36 h após o término da infusão; conduta: 2ª dose de IVIG 2 g/kg, ± corticoide, ± infliximabe.` },
+  { p: `Escore Z coronariano: o que caracteriza aneurisma gigante e o que ele exige?`, r: `Escore Z ≥ 10 (ou ≥ 8 mm) — exige anticoagulação plena (varfarina/HBPM) associada ao AAS, por risco de trombose e infarto.` },
+  { p: `Por quanto tempo se adiam vacinas de vírus vivo após imunoglobulina na Kawasaki?`, r: `11 meses — os anticorpos passivos neutralizam o vírus vacinal; se aplicada antes, repetir.` },
+  { p: `SIM-P (MIS-C) x Kawasaki clássica`, r: `SIM-P: criança mais velha, 2–6 semanas após SARS-CoV-2, sintomas gastrointestinais intensos, choque e disfunção miocárdica, linfopenia e ferritina/D-dímero/troponina muito altos.` },
+  { p: `Achado semiológico da arterite de Takayasu`, r: `Assimetria de pressão arterial entre os braços, pulsos ausentes ("doença sem pulso") e hipertensão por estenose de artéria renal, em adolescente do sexo feminino.` },
+  { p: `PFAPA: o que confirma na prática?`, r: `Episódios regulares a cada 3–6 semanas de febre + aftas + faringite + adenite, criança bem entre eles, com resposta dramática a uma dose única de prednisona.` },
+  { p: `Febre familiar do Mediterrâneo: complicação temida e tratamento`, r: `Amiloidose AA com insuficiência renal; prevenida pela colchicina contínua.` },
+  { p: `Subtipo de AIJ do menino maior com entesite: qual uveíte?`, r: `Artrite relacionada a entesite (HLA-B27) — uveíte anterior AGUDA e SINTOMÁTICA (o oposto da uveíte silenciosa da forma oligoarticular).` }
+ );
+
+ r.pegadinhas.push(
+  `"Dor articular" não é artrite — os critérios (AIJ, lúpus, febre reumática) exigem artrite objetiva.`,
+  `Quadril séptico frequentemente se queixa de dor no JOELHO — sempre examine o quadril e observe a marcha.`,
+  `Criança que claudica mas apoia o peso e está afebril = sinovite transitória; recusa total de apoio com febre = séptica (drenar o quadril hoje).`,
+  `Nunca inicie corticoide antes de excluir leucemia: ele mascara blastos e piora o prognóstico oncológico.`,
+  `VHS muito alta com plaquetas baixas é dissociação suspeita de leucemia — na AIJ ativa espera-se trombocitose.`,
+  `"Dor do crescimento" é bilateral, sem edema, sem febre e sem claudicação; dor que acorda à noite nunca é dor do crescimento.`,
+  `Trombocitose na Kawasaki é da 2ª semana — plaquetas normais no 5º dia não afastam o diagnóstico.`,
+  `Febre que volta 36 h após a imunoglobulina não é "recaída viral": é resistência à IVIG e exige segunda dose.`,
+  `Após imunoglobulina, vacinas de vírus vivo ficam adiadas por 11 meses (e devem ser repetidas se aplicadas antes).`,
+  `Piúria estéril e reativação da cicatriz do BCG apoiam Kawasaki — não busque infecção urinária nem BCGíte.`,
+  `FAN positivo isolado em criança saudável não faz diagnóstico de lúpus; FAN negativo é que torna o lúpus improvável.`,
+  `Úlceras orais do lúpus são tipicamente INDOLORES e no palato — perguntar por dor faz perder o critério.`,
+  `Nefrite lúpica costuma ser assintomática: urina tipo I e pressão arterial em toda consulta.`,
+  `Transaminases elevadas na dermatomiosite vêm do MÚSCULO — investigar "hepatite" atrasa o diagnóstico.`,
+  `Pápulas de Gottron ficam SOBRE as articulações dos dedos; o lúpus poupa as articulações e atinge o espaço entre elas.`,
+  `Dermatomiosite da criança não tem associação com câncer (a do adulto tem) — não peça rastreamento oncológico de rotina.`,
+  `Hipertensão grave em adolescente com pulsos assimétricos = Takayasu, não hipertensão essencial.`
+ );
+
+ r.diretrizes.push(
+  `American Heart Association — Diagnosis, Treatment and Long-Term Management of Kawasaki Disease: algoritmo da forma incompleta, definição de resistência à IVIG e classificação coronariana por escore Z.`,
+  `Critérios de classificação ACR/EULAR 2019 (e SLICC) para lúpus eritematoso sistêmico; classificação ISN/RPS da nefrite lúpica.`,
+  `Critérios de classificação EULAR/ACR para miopatias inflamatórias idiopáticas e dermatomiosite juvenil.`,
+  `Critérios de Kocher e protocolos de artrite séptica pediátrica (SBP / Sociedade Brasileira de Ortopedia e Traumatologia).`,
+  `Ministério da Saúde — Nota técnica e definição de caso da Síndrome Inflamatória Multissistêmica Pediátrica associada à COVID-19 (SIM-P).`,
+  `Critérios de classificação para PFAPA e febres periódicas hereditárias (Eurofever/PRINTO).`
+ );
+
+ r.questoes.push(
+  {
+   enunciado: `Menino de 5 anos com febre de 39 °C há 1 dia e dor intensa no quadril direito; recusa-se a ficar em pé e chora a qualquer mobilização passiva do quadril. VHS 68 mm/h, leucócitos 17.400/mm³, PCR 12 mg/dL. Ultrassonografia mostra derrame articular. Qual a conduta?`,
+   alternativas: {
+    a: `Anti-inflamatório e reavaliação em 48 horas`,
+    b: `Artrocentese com cultura e antibiótico venoso, com drenagem cirúrgica`,
+    c: `Corticoide oral e ressonância magnética eletiva`,
+    d: `Imobilização com tração e analgesia`
+   },
+   correta: `b`,
+   comentario: `O caso preenche os quatro critérios de Kocher — febre > 38,5 °C, recusa de apoiar o peso, VHS > 40 mm/h e leucócitos > 12.000/mm³ —, o que confere probabilidade acima de 90% de artrite séptica; o derrame ao ultrassom fecha o cenário. A dor a qualquer mobilização passiva, mesmo mínima, é o sinal semiológico que diferencia da sinovite transitória, na qual a criança claudica mas APOIA o peso, está afebril ou subfebril e tem provas inflamatórias normais. A conduta é artrocentese (líquido com mais de 50.000 células e predomínio de neutrófilos, com Gram e cultura), hemoculturas e antibiótico venoso cobrindo Staphylococcus aureus — lembrando de Kingella kingae abaixo dos 4 anos. No QUADRIL, especificamente, a drenagem cirúrgica é urgente: a pressão intra-articular somada às enzimas bacterianas destrói a cartilagem em horas e pode causar necrose avascular da cabeça femoral, sequela permanente. Anti-inflamatório e reavaliação tratariam sinovite transitória, que não é o caso; corticoide é contraindicado antes de excluir infecção e neoplasia; imobilização isolada não trata infecção. Lembre ainda que dor de quadril na criança costuma ser referida no joelho — sempre examinar o quadril.`,
+   foco: `Artrite séptica x sinovite transitória: critérios de Kocher e urgência do quadril`
+  },
+  {
+   enunciado: `Menina de 4 anos com dor em joelhos e tornozelos há 6 semanas, dor noturna que a acorda, palidez e febre intermitente. Hemograma: Hb 8,2 g/dL, leucócitos 4.100/mm³, plaquetas 98.000/mm³; VHS 78 mm/h, LDH 1.240 U/L. Qual conduta é a mais adequada?`,
+   alternativas: {
+    a: `Iniciar prednisona por suspeita de artrite idiopática juvenil`,
+    b: `Investigar leucemia com esfregaço e mielograma antes de qualquer corticoide`,
+    c: `Iniciar naproxeno e reavaliar em 6 semanas`,
+    d: `Solicitar FAN e iniciar metotrexato`
+   },
+   correta: `b`,
+   comentario: `Há bandeiras vermelhas que retiram o caso do território da AIJ: dor NOTURNA que acorda a criança, palidez, e sobretudo a dissociação laboratorial — VHS muito elevada acompanhada de ANEMIA, LEUCOPENIA e PLAQUETOPENIA, além de LDH alta. Na artrite idiopática juvenil ativa espera-se o oposto no que diz respeito às plaquetas: trombocitose de fase aguda. Citopenias com provas inflamatórias altas em criança com queixa musculoesquelética apontam para leucemia linfoblástica aguda, que abre o quadro com sintoma articular em cerca de um quarto dos casos. A conduta obrigatória é investigar antes de tratar: esfregaço de sangue periférico e mielograma. Iniciar prednisona (alternativa a) é o erro mais grave possível — o corticoide reduz parcialmente os blastos, mascara o diagnóstico, dificulta a classificação imunofenotípica e piora o prognóstico oncológico. Naproxeno apenas atrasaria seis semanas; FAN com metotrexato pressupõe um diagnóstico reumatológico que não pode ser assumido. A regra a memorizar: nenhuma criança recebe corticoide por suspeita reumatológica antes de a leucemia estar excluída.`,
+   foco: `Leucemia disfarçada de AIJ: nunca corticoide antes de excluir (ponto de erro)`
+  },
+  {
+   enunciado: `Lactente de 7 meses com febre há 8 dias, exantema em tronco e irritabilidade, sem outros critérios clínicos. PCR 9 mg/dL, VHS 62 mm/h, albumina 2,8 g/dL, Hb 8,9 g/dL, leucócitos 18.200/mm³, plaquetas 520.000/mm³, urina com 15 leucócitos por campo e cultura negativa. Qual a conduta?`,
+   alternativas: {
+    a: `Tratar como doença de Kawasaki incompleta com imunoglobulina e AAS`,
+    b: `Antibiótico para infecção urinária`,
+    c: `Aguardar o surgimento de mais critérios clínicos`,
+    d: `Corticoide isolado e reavaliação em 72 horas`
+   },
+   correta: `a`,
+   comentario: `Trata-se do algoritmo da Kawasaki incompleta, o cenário que mais produz aneurisma justamente por ser o que se trata tarde — e cuja maior incidência é em lactentes abaixo de 6 a 12 meses. O caminho da AHA: febre por pelo menos 5 dias (aqui 8, e em lactente vale considerar febre inexplicada de 7 dias mesmo sem critérios) com apenas 2 ou 3 critérios clínicos, seguida de PCR maior ou igual a 3 mg/dL e/ou VHS maior ou igual a 40 mm/h — ambas presentes. Passa-se então aos critérios laboratoriais suplementares, e bastam três: aqui há cinco (albumina 2,8 ou seja menor ou igual a 3; anemia para a idade; leucócitos acima de 15.000; plaquetas acima de 450.000 após o 7º dia; e piúria com mais de 10 leucócitos por campo). Está autorizado tratar com imunoglobulina 2 g/kg e AAS, e fazer ecocardiograma. A piúria estéril é achado da própria doença, de origem uretral, e não infecção urinária — a cultura negativa confirma. Esperar mais critérios (alternativa c) é exatamente o erro que ultrapassa o 10º dia e custa as coronárias. Corticoide isolado não é o tratamento inicial padrão. Note que a trombocitose só apareceu na segunda semana, como é típico: plaquetas normais nos primeiros dias jamais afastam Kawasaki.`,
+   foco: `Kawasaki incompleta no lactente: usar o algoritmo laboratorial em vez de esperar critérios`
+  },
+  {
+   enunciado: `Menina de 13 anos com febre, emagrecimento, artrite em mãos e joelhos, eritema malar poupando os sulcos nasolabiais e úlceras indolores no palato. Exames: Hb 9,0 g/dL com Coombs direto positivo, plaquetas 92.000/mm³, urina com proteinúria e cilindros hemáticos, C3 e C4 baixos. Qual exame define a conduta terapêutica?`,
+   alternativas: {
+    a: `Fator antinuclear (FAN)`,
+    b: `Biópsia renal`,
+    c: `Anti-Sm`,
+    d: `Ultrassonografia de rins e vias urinárias`
+   },
+   correta: `b`,
+   comentario: `O quadro é lúpus eritematoso sistêmico juvenil: adolescente com sintomas constitucionais, artrite, rash malar que poupa os sulcos nasolabiais (o que o separa da dermatite seborreica), úlceras orais indolores em palato, anemia hemolítica com Coombs positivo, plaquetopenia, sedimento urinário ativo com cilindros hemáticos e complemento consumido. O que determina o prognóstico e, portanto, a intensidade do tratamento, é a NEFRITE — e é a biópsia renal que a classifica pelo sistema ISN/RPS, definindo se o caso exige apenas hidroxicloroquina e corticoide em dose baixa ou indução com corticoide em alta dose associado a micofenolato ou ciclofosfamida (caso das classes proliferativas, sobretudo a classe IV, a mais comum e mais grave). O FAN é apenas triagem: sensível e pouco específico, já se presume positivo aqui e não muda conduta. O anti-Sm é altamente específico, mas confirma o diagnóstico, não gradua o rim; quem acompanha atividade é o anti-DNA dupla-hélice junto do complemento consumido, ambos já sugestivos no caso. A ultrassonografia avalia anatomia, não a lesão glomerular. Ponto prático: em toda consulta de lúpus juvenil pede-se urina e mede-se pressão arterial, porque a nefrite costuma ser silenciosa.`,
+   foco: `Lúpus juvenil: a nefrite decide o tratamento e quem a classifica é a biópsia`
+  }
+ );
+})();
