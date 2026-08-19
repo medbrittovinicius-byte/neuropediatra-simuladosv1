@@ -1,0 +1,651 @@
+{
+ "date": "2026-08-19",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (VPPB de canal horizontal) [RE: ranking unificado #1]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 54 anos de idade, procura a unidade de pronto atendimento relatando que, há cinco dias, apresenta episódios súbitos de tontura rotatória intensa, com duração de cerca de 30 a 40 segundos, desencadeados sempre que se vira na cama, tanto para a direita quanto para a esquerda, e também ao se deitar. Entre as crises fica bem, mas mantém sensação de insegurança. Nega hipoacusia, zumbido, plenitude auricular, cefaleia, diplopia ou disartria. Nega uso de medicamentos. Ao exame, a manobra de Dix-Hallpike, realizada bilateralmente, não desencadeia nistagmo nem sintomas. Com a paciente em decúbito dorsal e a cabeça fletida a 30 graus, a rotação lateral da cabeça para a direita provoca vertigem intensa com nistagmo horizontal batendo para o solo, e a rotação para a esquerda provoca nistagmo horizontal também batendo para o solo, porém de menor intensidade. O restante do exame neurológico, incluindo marcha, pares cranianos, cerebelo e teste de impulso cefálico, está normal.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o quadro clínico e os achados semiológicos, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Vertigem posicional paroxística benigna de canal semicircular lateral",
+      "b": "Neurite vestibular direita",
+      "c": "Vertigem posicional de origem central",
+      "d": "Doença de Ménière em fase inicial"
+     },
+     "correta": "a",
+     "comentario": "O padrão descrito é o de uma síndrome vestibular episódica DESENCADEADA pela posição: crises de segundos, sempre provocadas por mudança de decúbito, com intervalos assintomáticos e exame neurológico normal — a assinatura da vertigem posicional paroxística benigna. O ponto que diferencia esta apresentação da forma clássica é a topografia: o Dix-Hallpike (que testa o canal posterior) foi NEGATIVO bilateralmente, e o nistagmo só apareceu no teste de rolamento em decúbito dorsal (supine roll test), que é o teste específico do canal semicircular lateral/horizontal. Nistagmo puramente HORIZONTAL, bilateral, que muda de direção conforme o lado para o qual se roda a cabeça, é incompatível com canal posterior (cujo nistagmo é vertical-torcional, up-beating e geotrópico no Dix-Hallpike). A neurite vestibular está descartada porque produz síndrome vestibular AGUDA CONTÍNUA, com dias de tontura persistente, nistagmo espontâneo unidirecional que não muda de sentido e teste de impulso cefálico positivo — aqui o impulso cefálico é normal e não há sintoma fora das crises. Ménière exige crises ESPONTÂNEAS de 20 minutos a 12 horas acompanhadas de sintomas auditivos (hipoacusia flutuante de baixas frequências, zumbido, plenitude aural), todos ausentes. Vertigem posicional central deve ser lembrada quando o nistagmo é puramente vertical para baixo (down-beat), não fatigável, desproporcional ao sintoma ou acompanhado de outros sinais de fossa posterior — nada disso está presente. Pérola de prova: cerca de 10 a 20% das vertigens posicionais são de canal lateral, e elas são a principal causa de 'VPPB que não melhora com Epley'.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Considerando o padrão do nistagmo obtido no teste de rolamento, indique o lado acometido e o mecanismo fisiopatológico correspondente:",
+     "alternativas": {
+      "a": "Lado esquerdo, por cupulolitíase",
+      "b": "Lado esquerdo, por canalolitíase",
+      "c": "Lado direito, por cupulolitíase",
+      "d": "Lado direito, por canalolitíase"
+     },
+     "correta": "d",
+     "comentario": "Duas regras resolvem a questão. Primeira: a DIREÇÃO do nistagmo em relação ao solo define o mecanismo. Nistagmo GEOTRÓPICO (batendo para o solo, como no caso) indica partículas livres dentro do lúmen do canal — canalolitíase. Nistagmo APOGEOTRÓPICO (batendo para o teto) indica partículas aderidas à cúpula ou alojadas no braço anterior do canal — cupulolitíase. Segunda: a INTENSIDADE define o lado. Na forma geotrópica, o lado acometido é aquele em que o nistagmo é MAIS INTENSO — no caso, a direita —, porque a rotação para o lado doente gera fluxo ampulípeto (excitatório) na crista do canal horizontal, obedecendo à segunda lei de Ewald, segundo a qual, no canal lateral, o estímulo ampulípeto é mais potente que o ampulífugo. Na forma apogeotrópica a regra se INVERTE: o lado acometido é o do nistagmo menos intenso. Por isso as opções que apontam o lado esquerdo estão erradas (inverteriam a lateralização e levariam à manobra terapêutica no sentido errado), e as que falam em cupulolitíase estão erradas porque exigiriam nistagmo apogeotrópico, tipicamente mais duradouro (acima de um minuto) e sem período de latência. Pegadinha clássica: na cupulolitíase, além da inversão da regra da intensidade, o nistagmo praticamente não fatiga com a repetição, enquanto na canalolitíase ele fatiga e tem latência curta.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica de primeira escolha para o caso:",
+     "alternativas": {
+      "a": "Manobra liberatória de Semont",
+      "b": "Manobra de Epley",
+      "c": "Betaistina por trinta dias",
+      "d": "Manobra de rolamento (Lempert/barbecue) de 270 a 360 graus"
+     },
+     "correta": "d",
+     "comentario": "O tratamento da vertigem posicional é o reposicionamento das otocônias, e cada canal tem a sua manobra. Para o canal lateral em forma geotrópica, a manobra de escolha é o rolamento de Lempert (barbecue roll), em que o paciente gira 90 graus por vez, do lado acometido em direção ao lado são, completando 270 a 360 graus; a alternativa é a manobra de Gufoni. A manobra de Epley é o tratamento do canal POSTERIOR e não conduz as partículas do canal horizontal — aplicá-la aqui explica o clássico 'paciente que não melhorou'. A manobra de Semont também se destina ao canal posterior, sendo especialmente empregada quando há cupulolitíase desse canal, e igualmente não resolve o acometimento lateral. A betaistina não tem papel no tratamento da vertigem posicional: é droga usada na doença de Ménière, e supressores vestibulares (anti-histamínicos, benzodiazepínicos) devem ser evitados ou usados por poucos dias, pois atrasam a compensação central e não alteram a história natural. Pérolas: a taxa de sucesso do reposicionamento no canal lateral é menor que no posterior (cerca de 50 a 75% na primeira sessão), pode ser necessário repetir em dias consecutivos, e a orientação de manter a cabeça elevada por 48 horas não tem evidência robusta. Recorrência em 12 meses ocorre em torno de 15 a 30%, e casos recorrentes ou refratários pedem investigação de vitamina D baixa, osteopenia e traumatismo craniano prévio.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 137 — Vertigem Posicional; complementar com Merritt (13ª ed.), Seção 2 — Tontura, Vertigem e Perda Auditiva.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Oncologia (neuroblastoma com síndrome opsoclonia-mioclonia) [RE: ranking unificado #2]",
+   "tier": "MÉDIO",
+   "vinheta": "Menina, 18 meses de idade, previamente hígida e com desenvolvimento neuropsicomotor normal, é levada ao pronto-socorro pela terceira vez em três semanas. A mãe relata irritabilidade extrema, choro inconsolável, regressão da marcha (voltou a engatinhar) e, nos últimos dez dias, movimentos oculares rápidos, caóticos e em todas as direções, que persistem durante o sono, além de abalos musculares breves e irregulares nos membros e no tronco. Nega febre, vômitos, trauma ou uso de medicamentos. Ao exame, apresenta ataxia axial grave com impossibilidade de permanecer sentada sem apoio, hipotonia e os movimentos descritos; ao exame do abdome, palpa-se massa endurecida em flanco esquerdo, de superfície irregular. A dosagem de ácido vanilmandélico e de ácido homovanílico urinários está muito elevada.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico, indique a principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Síndrome de Guillain-Barré, variante Miller-Fisher",
+      "b": "Encefalite de tronco encefálico de Bickerstaff",
+      "c": "Ataxia cerebelar aguda pós-infecciosa",
+      "d": "Síndrome opsoclonia-mioclonia de origem paraneoplásica"
+     },
+     "correta": "d",
+     "comentario": "A associação de movimentos oculares caóticos, multidirecionais, sem intervalo intersacádico e que PERSISTEM DURANTE O SONO, com mioclonias e ataxia grave, além de irritabilidade e regressão de marcos, constitui uma síndrome neurológica muito característica da infância; em criança pequena, ela obriga à busca imediata de tumor de crista neural, e a massa abdominal com catecolaminas urinárias elevadas confirma a origem. O mecanismo é imunomediado: anticorpos antitumorais reagem de forma cruzada com antígenos neuronais cerebelares e de tronco. Ataxia cerebelar aguda pós-infecciosa é o diferencial mais frequente na faixa etária, mas segue um quadro infeccioso (classicamente varicela) em uma a três semanas, tem ataxia como sintoma dominante SEM opsoclonia nem irritabilidade extrema, e evolui com melhora espontânea em semanas. Encefalite de Bickerstaff cursa com oftalmoparesia, ataxia e rebaixamento do nível de consciência com hiperreflexia, e não com movimentos oculares caóticos. A variante Miller-Fisher apresenta a tríade oftalmoplegia, ataxia e ARREFLEXIA, tipicamente após infecção, com anticorpo anti-GQ1b — não há mioclonias nem opsoclonia. Pérola: cerca de metade dos casos dessa síndrome na infância tem tumor de crista neural subjacente, e o tumor associado costuma ser pequeno, localizado e de BOM prognóstico oncológico — o que reforça a necessidade de procurá-lo ativamente mesmo quando o exame abdominal é pouco expressivo.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame complementar mais adequado para localizar e estadiar a lesão suspeitada:",
+     "alternativas": {
+      "a": "Punção lombar com pesquisa de bandas oligoclonais",
+      "b": "Cintilografia com metaiodobenzilguanidina (MIBG)",
+      "c": "Tomografia computadorizada de crânio sem contraste",
+      "d": "Eletroencefalograma de vigília e sono"
+     },
+     "correta": "b",
+     "comentario": "A cintilografia com metaiodobenzilguanidina marcada com iodo-123 é o exame funcional de escolha: a metaiodobenzilguanidina é análoga da noradrenalina e é captada por tecidos derivados da crista neural, de modo que identifica tanto o tumor primário quanto metástases ósseas e medulares em um único exame de corpo inteiro, com sensibilidade em torno de 90%. Ela integra o sistema de estadiamento e o escore de Curie, usado para resposta ao tratamento; a avaliação se completa com tomografia ou ressonância do sítio primário (definindo os fatores de risco definidos por imagem, os IDRF), aspirados e biópsias de medula óssea bilaterais e pesquisa de amplificação do gene MYCN. O eletroencefalograma seria útil se a suspeita fosse crise epiléptica, mas as mioclonias descritas não são epilépticas e o traçado costuma ser normal ou apenas lentificado. A punção lombar com bandas oligoclonais pode mostrar pleocitose linfocitária discreta e expansão de linfócitos B, achado de apoio, mas não localiza nem estadia a neoplasia. A tomografia de crânio é frequentemente solicitada na emergência para afastar lesão expansiva ou hemorragia, e costuma ser normal aqui, não contribuindo para o diagnóstico definitivo. Pegadinha: em cerca de 10% dos casos o tumor não capta metaiodobenzilguanidina, e nesses a investigação prossegue com tomografia, ressonância e PET-TC com flúor-18-fluordesoxiglicose.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada e o prognóstico esperado:",
+     "alternativas": {
+      "a": "Ressecção isolada do tumor, com resolução neurológica completa esperada",
+      "b": "Ressecção do tumor associada a imunoterapia, com risco de sequela neurocognitiva",
+      "c": "Quimioterapia em altas doses isolada, com prognóstico neurológico reservado",
+      "d": "Observação clínica, por se tratar de quadro autolimitado"
+     },
+     "correta": "b",
+     "comentario": "O tratamento tem dois eixos que precisam caminhar juntos. O eixo oncológico é a ressecção do tumor, com ou sem quimioterapia conforme o grupo de risco. O eixo neurológico exige IMUNOTERAPIA, porque a síndrome é autoimune e não regride apenas com a retirada do tumor: usam-se corticosteroide ou hormônio adrenocorticotrófico, imunoglobulina endovenosa e, nos casos refratários ou recidivantes, rituximab, em esquemas escalonados. A opção de ressecção isolada é o erro clássico, pois a maioria das crianças mantém ou recidiva os sintomas neurológicos após a cirurgia. Quimioterapia isolada em altas doses não corresponde ao tratamento padrão de um tumor que, nessa apresentação, costuma ser de baixo risco e localizado, e desconsidera a imunoterapia. Observar é inaceitável: o atraso terapêutico é o principal determinante de sequela. Quanto ao prognóstico, há um paradoxo importante para a prova: a sobrevida ONCOLÓGICA é excelente (acima de 90%), mas 60 a 80% das crianças evoluem com sequelas neurológicas ou do neurodesenvolvimento — déficit cognitivo, distúrbio de linguagem, alterações comportamentais e do sono —, e o risco é maior quanto mais tardio o início do tratamento e quanto mais recorrências ocorrerem. Por isso, acompanhamento neuropsicológico e estimulação precoce fazem parte do plano terapêutico desde o diagnóstico.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 90 — Encefalites Autoimunes e Síndromes Paraneoplásicas; complementar com o Manual de Oncologia Pediátrica da SBP (sinais de alerta de câncer na infância).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (hemorragia intraparenquimatosa hipertensiva cerebelar) [RE: cota individual — Ana Teresa]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 66 anos de idade, hipertenso há 20 anos com controle irregular e abandono do anti-hipertensivo há seis meses, é trazido ao pronto-socorro 90 minutos após início súbito de cefaleia occipital intensa, vômitos repetidos e incapacidade de permanecer em pé. Ao exame de admissão, encontra-se vígil, orientado, com Escala de Coma de Glasgow 13, PA = 212x118 mmHg, FC = 58 bpm. Não há déficit motor nos membros, mas apresenta nistagmo horizontal, dismetria à direita e ataxia axial grave, com impossibilidade de sedestação sem apoio. A tomografia de crânio sem contraste mostra imagem espontaneamente hiperdensa no hemisfério cerebelar direito, com diâmetro máximo de 3,8 cm, apagamento do quarto ventrículo e dilatação inicial dos ventrículos laterais e do terceiro ventrículo. Durante a avaliação, o paciente evolui com sonolência progressiva e Glasgow 11.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico e do exame de imagem, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Infarto cerebelar no território da artéria cerebelar posteroinferior",
+      "b": "Hemorragia subaracnóidea por ruptura de aneurisma sacular",
+      "c": "Hemorragia intraparenquimatosa hipertensiva de hemisfério cerebelar",
+      "d": "Trombose de seio transverso com infarto venoso"
+     },
+     "correta": "c",
+     "comentario": "A combinação de hipertensão crônica mal controlada, instalação SÚBITA de cefaleia occipital com vômitos, ataxia axial incapacitante sem hemiparesia e, sobretudo, imagem espontaneamente HIPERDENSA no parênquima cerebelar na tomografia sem contraste fecha o diagnóstico de hemorragia intraparenquimatosa. A hiperdensidade espontânea é sangue agudo (60 a 90 unidades Hounsfield); um infarto da artéria cerebelar posteroinferior daria HIPOdensidade, que além disso costuma ser sutil ou ausente nas primeiras horas, e o quadro clínico incluiria com frequência sinais de tronco (síndrome de Wallenberg). Hemorragia subaracnóidea aneurismática produz sangue nas cisternas da base e nos sulcos, não uma massa parenquimatosa focal, e a apresentação típica é cefaleia em trovoada com rigidez de nuca e frequentemente rebaixamento imediato. Trombose de seio transverso evolui de forma subaguda, ao longo de dias, com cefaleia progressiva, papiledema e eventual infarto venoso hemorrágico que não respeita território arterial, além de exigir sinais de trombose na fase venosa da imagem. Pérola: o cerebelo responde por cerca de 10% das hemorragias intraparenquimatosas, mas concentra desproporcionalmente as indicações cirúrgicas, porque a fossa posterior é um compartimento inextensível — daí a deterioração rápida deste paciente.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o mecanismo vascular classicamente responsável pelo sangramento descrito:",
+     "alternativas": {
+      "a": "Angiopatia amiloide cerebral",
+      "b": "Lipo-hialinose de pequenas artérias perfurantes",
+      "c": "Ruptura de aneurisma sacular de artéria de grande calibre",
+      "d": "Malformação arteriovenosa com nidus superficial"
+     },
+     "correta": "b",
+     "comentario": "A hemorragia intraparenquimatosa relacionada à hipertensão arterial crônica decorre da degeneração da parede das pequenas artérias perfurantes, com lipo-hialinose e necrose fibrinoide, além dos microaneurismas de Charcot-Bouchard; os sítios preferenciais são exatamente os territórios dessas perfurantes: putame (35 a 50%), tálamo, ponte e cerebelo (ramos perfurantes das artérias cerebelares, sobretudo da cerebelar superior). A angiopatia amiloide cerebral é a principal causa de hemorragia em idosos NORMOTENSOS, mas produz hematomas LOBARES, corticossubcorticais, poupando estruturas profundas e o cerebelo, e associa-se a micro-hemorragias corticais e siderose superficial nas sequências de suscetibilidade da ressonância. O aneurisma sacular rompe preferencialmente no espaço subaracnóideo, e não no parênquima, embora possa haver hematoma parenquimatoso associado em aneurismas de artéria cerebral média. A malformação arteriovenosa é causa importante em pacientes JOVENS, sem fatores de risco vasculares, muitas vezes com história de crises epilépticas ou cefaleia prévia, e o sangramento não segue a topografia das perfurantes. Regra prática de prova: hematoma profundo (putame, tálamo, ponte, cerebelo) em hipertenso = doença de pequenos vasos; hematoma lobar em idoso normotenso = angiopatia amiloide; hematoma em jovem = investigar malformação, uso de simpaticomiméticos ou trombose venosa.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Considerando a evolução clínica e os achados tomográficos, indique a conduta prioritária neste momento:",
+     "alternativas": {
+      "a": "Derivação ventricular externa isolada, sem abordar o hematoma",
+      "b": "Manitol endovenoso e observação clínica seriada",
+      "c": "Evacuação cirúrgica por craniectomia suboccipital",
+      "d": "Trombólise endovenosa com alteplase"
+     },
+     "correta": "c",
+     "comentario": "Esta é uma das poucas situações em que a cirurgia na hemorragia intracerebral tem indicação consensual e classe de recomendação forte. As diretrizes de AVC hemorrágico (AHA/ASA, 2022) recomendam evacuação cirúrgica IMEDIATA do hematoma cerebelar quando há deterioração neurológica, compressão do tronco encefálico ou hidrocefalia por obstrução do quarto ventrículo, e o diâmetro maior que 3 cm é o marcador clássico de risco. O paciente reúne os três critérios: caiu de Glasgow 13 para 11, tem quarto ventrículo apagado e hidrocefalia incipiente, com hematoma de 3,8 cm. A derivação ventricular externa isolada é insuficiente e potencialmente perigosa nesse cenário, pois trata a hidrocefalia mas não descomprime a fossa posterior, podendo favorecer herniação ascendente transtentorial; ela é adjuvante, não substitutiva. Manitol e observação atrasariam a única medida que altera desfecho, e o manitol tem papel apenas de ponte em minutos até a sala cirúrgica. Trombólise é formalmente CONTRAINDICADA — o evento é hemorrágico, e a alteplase agravaria o sangramento. Complemente a conduta com controle pressórico: nas primeiras horas, a meta é reduzir a pressão sistólica para a faixa de 130 a 140 mmHg de forma suave (evitando quedas maiores que 90 mmHg em relação à basal, pelo risco de piora do desfecho demonstrado no ATACH-2 e no INTERACT), reverter anticoagulação se houver, manter normoglicemia e normotermia e evitar profilaxia antiepiléptica de rotina.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 159 — Manejo Crítico do AVC; complementar com a AHA/ASA Guideline for the Management of Spontaneous Intracerebral Hemorrhage (2022).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Imunologia (erros inatos da imunidade) [REAL: SUS-BA R+ Pediatria 2021]",
+   "tier": "MÉDIO",
+   "vinheta": "Menino, 9 meses de idade, é levado à Unidade Básica de Saúde por apresentar candidíase oral, complicando estomatites que ocorrem pela terceira vez em 80 dias. Mãe teve pré-natal completo sem intercorrências. Nasceu a termo, com 4.100 g, sem intercorrências neonatais e evoluiu bem. Tem vacinação atualizada. Nos últimos 5 meses, apresentou vários episódios de IVAS, tendo evoluído, em quatro deles, para otite média, além de uma pneumonia, resolvidos com antibioticoterapia. No momento, seu peso está um pouco abaixo do Percentil 50 (zero no escore z) para sua idade. Ao exame, algumas vezes, apresentou tosse produtiva. Observa-se candidíase na cavidade oral, sem hipertrofia de amígdalas. Pele apresenta assaduras. Gânglios impalpáveis. Ausculta respiratória mostra roncos disseminados em ambos os hemitóraces. Os dados vitais estão normais e não há outras alterações ao exame segmentar.",
+   "perguntas": [
+    {
+     "enunciado": "Identifique, entre os sinais apresentados, os que indicam a necessidade de investigação de possível erro inato da imunidade nessa criança:",
+     "alternativas": {
+      "a": "Um episódio de pneumonia e vários episódios de IVAS.",
+      "b": "Candidíase com estomatite persistente e quatro episódios de otite média.",
+      "c": "Candidíase com estomatite persistente e um episódio de pneumonia.",
+      "d": "Um episódio de pneumonia e quatro episódios de otite média."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A questão testa os sinais de alerta para erros inatos da imunidade, na versão adaptada para crianças. Dois deles estão claramente presentes: candidíase oral persistente ou recorrente após o primeiro ano de vida — ou, como aqui, monilíase de repetição acompanhando estomatites, indicando falha da imunidade celular ou de barreira — e OITO ou mais otites em um ano, sendo que quatro otites em cinco meses configura frequência muito acima do esperado e é o critério quantitativo do caso. Ausência de amígdalas e de linfonodos palpáveis é outro dado sugestivo mencionado no enunciado, típico de defeitos de anticorpos. A alternativa que cita apenas pneumonia e infecções de vias aéreas superiores está incorreta porque episódios repetidos de infecção viral de vias aéreas superiores são a normalidade da faixa etária, sobretudo com convívio coletivo, e não constituem sinal de alerta isoladamente. As opções que combinam UM episódio de pneumonia com outro achado também falham: o critério exige DUAS ou mais pneumonias em um ano, e um único episódio não pontua. Pérola: no lactente pequeno, o dado de maior peso não é apenas o número de infecções, mas a presença de agentes oportunistas, a falha em erradicar a infecção com antibiótico adequado, o déficit ponderal e a história familiar de óbito precoce.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Identifique que exame permite triar, mais precocemente no recém-nascido, alguns erros inatos da imunidade:",
+     "alternativas": {
+      "a": "Contagem de CD4 e CD8.",
+      "b": "Tipagem linfocitária.",
+      "c": "Dosagem de Imunoglobulinas séricas.",
+      "d": "Dosagem de TREC e KREC."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] TRECs (círculos de excisão do receptor de células T) e KRECs (círculos de excisão do receptor de células B, do rearranjo kappa) são subprodutos circulares de DNA gerados durante o rearranjo dos receptores de linfócitos T no timo e de linfócitos B na medula óssea. Sua quantificação por reação em cadeia da polimerase pode ser feita na MESMA gota de sangue seco em papel-filtro do teste do pezinho, permitindo triagem populacional neonatal presintomática: TREC baixo ou indetectável sugere imunodeficiência combinada grave e outras linfopenias T; KREC baixo sugere agamaglobulinemia e defeitos de células B. Essa é a chave da pergunta — 'mais precocemente no recém-nascido' significa triagem neonatal universal, e não exame diagnóstico. Tipagem linfocitária e contagem de CD4 e CD8 são exames de confirmação, feitos por citometria de fluxo em sangue total após a triagem alterada ou diante de suspeita clínica; não servem como rastreamento populacional. A dosagem de imunoglobulinas séricas tem interpretação limitada no recém-nascido, porque a IgG detectada é majoritariamente MATERNA, transferida por via transplacentária no terceiro trimestre, e só cai ao nadir fisiológico entre 3 e 6 meses. Pérola: a triagem por TREC e KREC transforma a imunodeficiência combinada grave em emergência tratável, pois o transplante de células-tronco hematopoéticas realizado antes dos 3,5 meses e antes da primeira infecção grave eleva a sobrevida para mais de 90%.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o momento mais precoce para encaminhar para investigação especializada a criança que apresenta sinal de alerta para erros inatos da imunidade:",
+     "alternativas": {
+      "a": "Após os 6 meses de vida.",
+      "b": "Após o primeiro ano de vida.",
+      "c": "Desde o nascimento.",
+      "d": "Após a primeira semana de vida."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O princípio que a banca cobra é o da suspeição sem idade mínima: havendo sinal de alerta, o encaminhamento à investigação especializada deve ocorrer DESDE O NASCIMENTO, sem esperar que a criança acumule infecções ou atinja determinada idade. As formas mais graves — imunodeficiência combinada grave, defeitos de fagócitos, imunodeficiências com desregulação imune — manifestam-se justamente nos primeiros meses e têm mortalidade elevada no primeiro ano se não tratadas; adiar o diagnóstico significa perder a janela do transplante e permitir sequelas orgânicas irreversíveis, como bronquiectasias. Por isso as alternativas que estabelecem marcos temporais (6 meses, primeira semana, primeiro ano) estão erradas: elas transformariam um critério clínico em critério cronológico e retardariam a assistência. Vale lembrar sinais que exigem ação imediata no período neonatal: queda tardia do coto umbilical com leucocitose importante (defeito de adesão leucocitária), linfopenia persistente em hemograma neonatal, tetania com cardiopatia conotruncal e hipoplasia tímica (síndrome de deleção 22q11), diarreia crônica com déficit de crescimento, complicação após vacina de agente vivo como BCG, e história familiar de óbito infantil por infecção. Conduta prática: enquanto se investiga, contraindicar TODAS as vacinas de agentes vivos e transfundir apenas hemocomponentes irradiados, filtrados e negativos para citomegalovírus.\n📚 Leitura sugerida (bloco): Guia Prático de Diagnóstico e Tratamento dos Erros Inatos da Imunidade (BRAGID/SBP) — 10 sinais de alerta e fluxo de triagem por TREC/KREC.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença do Neurônio Motor (ELA) [REAL: SUS-BA R+ 2026]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 58 anos de idade, previamente hígido, é avaliado por fraqueza progressiva no braço direito há 9 meses. O quadro iniciou com dificuldade para manipular objetos e evoluiu para atrofia da musculatura da mão. Nos últimos 3 meses notou fasciculações no braço e ombro direitos, além de cãibras. Relata também episódios de engasgo com líquidos e uma fala \"arrastada\". Ao exame neurológico, observa-se atrofia e fasciculações em músculos da mão e antebraço direito, fraqueza muscular assimétrica (força grau 3/5 no membro superior direito e 4/5 no esquerdo). Os reflexos profundos estão aumentados em todos os membros, com clônus no tornozelo direito. O reflexo cutâneo-plantar é extensor à direita (sinal de Babinski). A sensibilidade e a função cerebelar estão normais.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, indique o diagnóstico mais provável para o quadro clínico apresentado:",
+     "alternativas": {
+      "a": "Esclerose múltipla, forma primariamente progressiva.",
+      "b": "Miastenia gravis, forma generalizada.",
+      "c": "Mielopatia cervical espondilótica com compressão medular.",
+      "d": "Esclerose Lateral Amiotrófica (ELA)."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ 2026] O achado que define o caso é a coexistência de sinais de neurônio motor INFERIOR (atrofia, fasciculações, cãibras, fraqueza) e de neurônio motor SUPERIOR (hiperreflexia difusa, clônus, Babinski) na AUSÊNCIA de qualquer alteração sensitiva, cerebelar, visual ou esfincteriana, com progressão em meses e distribuição assimétrica que se espalha para regiões contíguas — a assinatura clínica da doença do neurônio motor. A esclerose múltipla primariamente progressiva costuma cursar com mielopatia progressiva, mas quase sempre acompanha sinais sensitivos, disfunção urinária e lesões desmielinizantes na ressonância, e não produz atrofia com fasciculações. Miastenia gravis é doença da junção neuromuscular: dá fraqueza FLUTUANTE com fatigabilidade, ptose e diplopia, sem atrofia precoce, sem fasciculações e com reflexos NORMAIS ou reduzidos — nunca hiperreflexia com Babinski. Mielopatia cervical espondilótica é o grande mimetizador e pode dar neurônio motor inferior no nível da compressão com neurônio superior abaixo, mas não explica o comprometimento BULBAR (engasgo e disartria), que está acima do nível cervical, e habitualmente cursa com alteração de sensibilidade vibratória e dor cervical. Pegadinha de prova: procure sempre o nível 'que não fecha' — aqui, a disfagia com disartria denuncia acometimento acima da medula cervical.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante do caso clínico, indique a estrutura neurológica comprometida, evidenciada pelos episódios de engasgo e fala \"arrastada\" do paciente:",
+     "alternativas": {
+      "a": "Junção neuromuscular da musculatura orofaríngea, com bloqueio da transmissão colinérgica.",
+      "b": "Gânglios da base, com disfunção dos circuitos extrapiramidais responsáveis pela coordenação motora.",
+      "c": "Cerebelo, com incoordenação dos movimentos da musculatura orofaríngea e laríngea.",
+      "d": "Núcleos dos nervos cranianos motores no tronco encefálico (comprometimento bulbar)."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ 2026] Disartria e disfagia com engasgo traduzem comprometimento da musculatura inervada pelos nervos cranianos bulbares — trigêmeo motor, facial, glossofaríngeo, vago e hipoglosso —, cujos núcleos motores estão no tronco encefálico. Na doença do neurônio motor, esses núcleos degeneram (componente de neurônio motor inferior, produzindo língua atrófica e fasciculante, voz anasalada), e a via corticobulbar também se perde (componente de neurônio motor superior, produzindo reflexo mandibular exaltado, labilidade emocional e voz espástica). Gânglios da base produzem hipofonia e fala monótona do parkinsonismo, mas acompanhadas de bradicinesia, rigidez e tremor, ausentes aqui. Cerebelo produz fala ESCANDIDA ou explosiva, sempre com ataxia apendicular e de marcha — e o enunciado afirma explicitamente que a função cerebelar está normal. Junção neuromuscular explicaria disfagia flutuante, mas, como discutido, não gera hiperreflexia, Babinski nem atrofia com fasciculações. Pérola prognóstica: o início bulbar, ou o surgimento precoce de sintomas bulbares, é fator de pior prognóstico, com sobrevida mediana menor, e antecipa a discussão sobre gastrostomia — indicada antes que a capacidade vital forçada caia abaixo de 50% do previsto — e sobre ventilação não invasiva.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Diante do caso clínico, indique o exame complementar antes da confirmação diagnóstica:",
+     "alternativas": {
+      "a": "Análise do Líquido Cefalorraquidiano (LCR).",
+      "b": "Eletroneuromiografia (ENMG).",
+      "c": "Ressonância magnética de crânio e coluna cervical.",
+      "d": "Biópsia muscular."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ 2026] A eletroneuromiografia é o exame que confirma o componente de neurônio motor inferior de forma objetiva e, sobretudo, demonstra que ele é DIFUSO, atingindo regiões clinicamente ainda poupadas. Procura-se denervação ativa (fibrilações e ondas positivas) somada a reinervação crônica (potenciais de unidade motora de grande amplitude, longa duração e polifásicos) em múltiplas regiões corporais — bulbar, cervical, torácica e lombossacra —, com condução sensitiva preservada e sem bloqueios de condução motora. É esse achado que sustenta os critérios de El Escorial revisados e os critérios de Gold Coast. A ressonância de crânio e coluna cervical é obrigatória na investigação, mas seu papel é EXCLUIR mimetizadores (compressão medular, lesão desmielinizante, siringomielia); ela não confirma a doença, tanto que costuma ser normal. Biópsia muscular só se justifica quando há suspeita de miopatia, e mostraria apenas atrofia neurogênica inespecífica. O líquido cefalorraquidiano é usado para descartar processos inflamatórios ou infecciosos e é tipicamente normal ou com discreta hiperproteinorraquia. Pegadinha de prova: nenhum exame isolado 'dá' o diagnóstico — ele é clínico-eletrofisiológico, com exclusão obrigatória de mimetizadores tratáveis, entre eles a neuropatia motora multifocal com bloqueio de condução, que responde a imunoglobulina.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 108 — Esclerose Lateral Amiotrófica; complementar com o PCDT do Ministério da Saúde para Esclerose Lateral Amiotrófica.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição/Obesidade e Saúde Coletiva (hipertensão arterial e cirurgia bariátrica na adolescência) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, 11 anos de idade, é levada ao Ambulatório com queixa de excesso de peso. Nasceu a termo, com peso e altura adequados à idade gestacional. Não foi amamentada ao seio, utilizando mingaus desde o nascimento, e introduzindo novos alimentos a partir dos cinco meses de vida. Nega antecedentes patológicos pessoais. Tem avô e tio obesos. A família passou a considerar o sobrepeso a partir dos 8 anos de idade, quando a criança passou a se isolar dos colegas e se recusar a sair e praticar atividades físicas. Atualmente, o recordatório alimentar mostra ingestão excessiva de fast food e sobrecarga de carboidratos, além de não ter horário regular para as refeições. Ao exame, o Índice de Massa Corpórea: 22,2 (de acordo com a curva de IMC para adolescentes do sexo feminino). PA: 110x78 mmHg. Apresenta bom estado geral. Sem outras alterações ao exame segmentar, além do excesso de panículo adiposo.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o critério antropométrico que define o diagnóstico nutricional de obesidade na faixa de 5 a 19 anos, segundo as curvas da Organização Mundial da Saúde adotadas pelo Ministério da Saúde:",
+     "alternativas": {
+      "a": "Índice de massa corporal para a idade acima do escore z +2",
+      "b": "Relação cintura-estatura acima de 0,5",
+      "c": "Peso para a idade acima do percentil 97",
+      "d": "Índice de massa corporal para a idade acima do escore z +1"
+     },
+     "correta": "a",
+     "comentario": "Nas curvas da Organização Mundial da Saúde adotadas pelo Ministério da Saúde e pelo SISVAN, o índice antropométrico de escolha para avaliar excesso de peso na faixa de 5 a 19 anos é o índice de massa corporal para a idade, e os pontos de corte são: acima do escore z +1 até +2 corresponde a sobrepeso, acima de +2 até +3 corresponde a obesidade e acima de +3 corresponde a obesidade grave. Por isso o corte que define obesidade é o escore z maior que +2 (equivalente ao percentil 97). O escore z +1 é o limiar de SOBREPESO, não de obesidade — trocar os dois é o erro mais comum. Peso para a idade é indicador impróprio nessa faixa etária, porque não distingue excesso de gordura de estatura elevada e, por norma do SISVAN, deixa de ser utilizado como índice de classificação após os 10 anos. A relação cintura-estatura acima de 0,5 é marcador útil de adiposidade CENTRAL e de risco cardiometabólico, com boa correlação com resistência insulínica, mas não é o critério diagnóstico de obesidade. Pérolas de prova: abaixo de 5 anos, o índice utilizado é o índice de massa corporal para a idade com cortes diferentes (acima de +2 já é sobrepeso e acima de +3 é obesidade), e a avaliação deve sempre incluir estatura para a idade, pois a criança obesa com BAIXA estatura levanta suspeita de causa endócrina, como hipotireoidismo, hipercortisolismo ou deficiência de hormônio de crescimento.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Na faixa etária pediátrica, a definição de hipertensão arterial corresponde à:",
+     "alternativas": {
+      "a": "Pressão arterial sistólica e/ou diastólica superiores ao percentil 90 para a idade, gênero e estatura, em ao menos duas ocasiões.",
+      "b": "Pressão arterial sistólica e/ou diastólica superiores ao percentil 95 para a idade, gênero e estatura, em ao menos três ocasiões.",
+      "c": "Pressão arterial sistólica e/ou diastólica que persiste igual ou acima do percentil 95 para a idade, gênero e estatura, em ao menos duas ocasiões.",
+      "d": "Pressão arterial sistólica e/ou diastólica que persiste igual ou acima do percentil 95 para a idade, gênero e estatura, em ao menos três ocasiões."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A definição pediátrica de hipertensão arterial exige três elementos simultâneos, e é justamente a combinação deles que a banca cobra: valor IGUAL OU MAIOR que o percentil 95, referenciado a idade, sexo e ESTATURA, confirmado em TRÊS ocasiões distintas. A estatura entra na tabela porque a pressão arterial normal varia com o tamanho corporal, e ignorá-la superestima a hipertensão em crianças altas e a subestima em crianças baixas. As alternativas erradas alteram um elemento de cada vez: a que exige apenas duas ocasiões descreve o número insuficiente de medidas e transformaria variação transitória ou efeito do jaleco branco em diagnóstico; a que usa 'superiores ao percentil 95' exclui indevidamente os valores exatamente iguais ao percentil, que já são diagnósticos; e a que combina percentil 90 com duas ocasiões descreve, na verdade, o limiar de pressão ELEVADA (a antiga pré-hipertensão), definida entre o percentil 90 e o 95. Pérolas complementares: em adolescentes a partir de 13 anos, a diretriz da Academia Americana de Pediatria de 2017 passou a usar valores absolutos, alinhados ao adulto — pressão elevada a partir de 120x80 mmHg, hipertensão estágio 1 a partir de 130x80 mmHg e estágio 2 a partir de 140x90 mmHg. Diante de hipertensão confirmada, investigar causas secundárias é obrigatório quanto mais jovem a criança e mais grave o valor, e o rastreamento inclui função renal, ultrassonografia de rins e vias urinárias e ecocardiograma para hipertrofia ventricular esquerda.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Com relação à cirurgia bariátrica na faixa etária pediátrica, pode se dizer que:",
+     "alternativas": {
+      "a": "A indicação cirúrgica dispensa a presença de comorbidades associadas à obesidade.",
+      "b": "A cirurgia pode ser feita em obesos mórbidos antes da maturidade óssea.",
+      "c": "A cirurgia só é liberada para pacientes após 16 anos de idade.",
+      "d": "A tendência à autoagressão e depressão diminuem com cirurgia, pela melhora da autoestima."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O gabarito segue a normativa brasileira (Resolução CFM 2.172/2017 e a regulamentação do Ministério da Saúde), que estabelece idade mínima de 16 anos para a cirurgia bariátrica, com consentimento dos responsáveis, equipe multiprofissional e avaliação de risco-benefício individualizada; entre 16 e 18 anos exige-se ainda consolidação das cartilagens epifisárias documentada. A alternativa que autoriza a cirurgia antes da maturidade óssea contraria diretamente essa exigência, cujo objetivo é evitar comprometimento do crescimento linear e da mineralização óssea em fase de estirão. Dispensar comorbidades também está errado: a indicação exige índice de massa corporal acima de 40 kg/m², ou acima de 35 kg/m² na presença de comorbidade grave — diabetes tipo 2, apneia obstrutiva do sono moderada a grave, hipertensão, esteato-hepatite com fibrose, doença articular incapacitante —, sempre após falha documentada de pelo menos dois anos de tratamento clínico e comportamental adequado. Por fim, afirmar que autoagressão e depressão DIMINUEM com a cirurgia é justamente o oposto do alerta da literatura: embora haja melhora inicial da qualidade de vida e da autoestima, o risco de comportamento autolesivo, ideação suicida e uso abusivo de álcool AUMENTA no seguimento pós-operatório de adolescentes, o que torna obrigatório o acompanhamento psiquiátrico e psicológico de longo prazo. Pérola: o pilar do tratamento continua sendo a mudança de estilo de vida com abordagem familiar na Atenção Primária, e o pediatra deve rastrear ativamente resistência insulínica, dislipidemia, doença hepática gordurosa e sofrimento psíquico decorrente de bullying.\n📚 Leitura sugerida (bloco): Manual de Orientação do Departamento de Nutrologia da SBP — Obesidade na Infância e Adolescência; complementar com a Resolução CFM 2.172/2017 (cirurgia bariátrica) e a Diretriz Brasileira de Hipertensão Arterial (capítulo pediátrico).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Epilepsia (primeira crise tônico-clônica generalizada) [REAL: SUS-BA R+ Clínica Médica 2021]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 20 anos de idade, estava acompanhada da mãe no metrô quando apresentou perda da consciência, seguida de rigidez muscular, abalos musculares difusos e perda esfincteriana. A equipe do metrô iniciou rapidamente os primeiros socorros, colocando algo macio sob a cabeça da paciente até cessarem os abalos, que duraram cerca de um minuto. A mãe ficou bastante assustada e relatou que a paciente era portadora de diabetes mellitus tipo 1. Nega outras comorbidades. Nunca havia apresentado quadro semelhante. Neste momento, a paciente encontra-se ainda inconsciente, com ventilação espontânea.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a alternativa mais adequada em relação ao quadro:",
+     "alternativas": {
+      "a": "A etiologia mais provável nesse caso é hiperglicemia.",
+      "b": "O \"grito epiléptico\" ocorre durante a fase clônica da crise.",
+      "c": "Neste momento, provavelmente, a paciente se encontra em uma crise de ausência.",
+      "d": "O quadro obrigatoriamente envolveu ambos os hemisférios cerebrais."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2021] Uma crise tônico-clônica com perda de consciência desde o início, rigidez seguida de abalos difusos e liberação esfincteriana é, por definição da classificação da ILAE, uma crise de início generalizado, com envolvimento bilateral e sincrônico de redes corticais e subcorticais desde o começo — daí a afirmação correta. A hiperglicemia não é a etiologia mais provável: em diabético tipo 1, a causa metabólica clássica de crise é a HIPOglicemia; a hiperglicemia pode causar crises, mas caracteristicamente no estado hiperosmolar não cetótico e, quando o faz, produz tipicamente crises focais motoras, muitas vezes epilepsia parcial contínua. Crise de ausência é um evento breve, de segundos, com interrupção da atividade e olhar fixo, sem componente motor tônico-clônico e SEM confusão pós-ictal — é incompatível com uma paciente inconsciente após um minuto de abalos. O 'grito epiléptico' é um erro clássico de prova: ele ocorre na fase TÔNICA, pela contração da musculatura expiratória contra a glote fechada, e não na fase clônica. Pérola: nem toda crise é epilepsia. Uma primeira crise provocada por causa aguda reversível (hipoglicemia, hiponatremia, abstinência alcoólica, intoxicação) NÃO define epilepsia e não indica antiepiléptico de manutenção.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a principal conduta que deve ser tomada nesse momento:",
+     "alternativas": {
+      "a": "Colocar água com açúcar ou líquido adocicado sob a língua da paciente.",
+      "b": "Colocar a paciente lateralizada em posição de recuperação.",
+      "c": "Encaminhar a paciente para o pronto-socorro.",
+      "d": "Auxiliar a ventilação através de dispositivo bolsa-válvula-máscara."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2021] A crise já cessou e a paciente está no período pós-ictal: inconsciente, porém com ventilação espontânea. A prioridade absoluta é proteção da via aérea, e a medida mais eficaz e imediata é a lateralização em posição de recuperação, que reduz o risco de broncoaspiração de secreções e de conteúdo gástrico e mantém a língua afastada da parede posterior da faringe. Ventilação com bolsa-válvula-máscara está indicada apenas se houver apneia, hipoventilação ou hipoxemia significativa — a paciente ventila espontaneamente, e ventilar sob pressão positiva sem indicação aumenta a insuflação gástrica e o risco de aspiração. Colocar qualquer substância na boca de paciente inconsciente é conduta formalmente proscrita, com risco direto de aspiração e obstrução; a máxima de primeiros socorros 'nada na boca durante e após a crise' vale inclusive para o açúcar. Encaminhar ao pronto-socorro é necessário, mas é conduta subsequente, não a prioridade do momento: a sequência correta é estabilizar (posição de recuperação, checar via aérea e respiração, medir glicemia capilar) e então transportar. Pérola de prova: contenção física durante a crise e introdução de objetos na boca causam mais lesões — luxação de ombro, fratura dentária, laceração de língua — do que a própria crise.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o exame complementar e a medicação mais adequada nesse momento:",
+     "alternativas": {
+      "a": "Tomografia de crânio, diazepam intravenoso.",
+      "b": "Glicemia capilar, glucagon subcutâneo.",
+      "c": "Eletroencefalograma, diazepam intravenoso.",
+      "d": "Glicemia capilar, insulina subcutânea."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2021] Em toda crise convulsiva, a glicemia capilar é o exame de beira de leito obrigatório e imediato, porque a hipoglicemia é a causa metabólica mais frequente, é rapidamente reversível e, se não corrigida, produz lesão neuronal permanente. Na paciente com diabetes tipo 1, inconsciente e sem acesso venoso disponível no ambiente extra-hospitalar, a reposição é feita com glucagon por via subcutânea ou intramuscular (1 mg em adultos), que mobiliza o glicogênio hepático; assim que houver acesso, faz-se glicose hipertônica endovenosa. O eletroencefalograma tem papel na investigação posterior do risco de recorrência, não na emergência, e o diazepam não está indicado porque a crise JÁ CESSOU — benzodiazepínico se reserva a crise em curso ou a estado de mal (crise com mais de 5 minutos ou crises repetidas sem recuperação da consciência), e usá-lo aqui apenas aprofundaria a depressão respiratória. Tomografia de crânio faz parte da avaliação de primeira crise no adulto, sobretudo com déficit focal, trauma, imunossupressão ou recuperação incompleta, mas de novo não é a medida do momento nem justifica o diazepam. Insulina é a conduta mais perigosa possível, pois agravaria a hipoglicemia. Pérola: hipoglicemia sustentada pode simular AVC com hemiparesia — meça sempre a glicemia antes de rotular o quadro.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 79 — Definição e Classificação das Crises e das Epilepsias, e cap. 84 — Estado de Mal Epiléptico.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Hematologia (anemia hemolítica no lactente / doença falciforme) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "MÉDIO",
+   "vinheta": "Menino, 8 meses de vida, é conduzido à UBS com história de palidez, irritabilidade e dificuldade para ganhar peso. Tem ficado mais cansado durante as mamadas e, nas últimas semanas, surgiram manchas arroxeadas em seus braços e pernas. O exame físico mostra criança ativa, com palidez intensa e hepatoesplenomegalia.",
+   "perguntas": [
+    {
+     "enunciado": "Indique três diagnósticos possíveis para o caso apresentado:",
+     "alternativas": {
+      "a": "Anemia falciforme; Anemia de Fanconi; Beta-talassemia Major.",
+      "b": "Esferocitose hereditária; Anemia megaloblástica; Anemia de Fanconi.",
+      "c": "Beta-talassemia Major; Esferocitose hereditária; Hemofilia.",
+      "d": "Hemofilia; Anemia hemolítica autoimune; Anemia falciforme."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O caso combina anemia intensa, hepatoesplenomegalia e MANCHAS ARROXEADAS, ou seja, plaquetopenia associada — é essa terceira variável que elimina a maioria das opções. Anemia falciforme manifesta-se a partir do segundo semestre, quando a hemoglobina fetal cai, com anemia hemolítica crônica, esplenomegalia nessa fase precoce (antes da autoesplenectomia), dactilite e déficit ponderal, podendo ter plaquetopenia em contexto de sequestro esplênico. Beta-talassemia maior também se expressa após os 6 meses, com anemia grave dependente de transfusão, hepatoesplenomegalia por hematopoese extramedular e hiperesplenismo com consumo plaquetário. Anemia de Fanconi é falência medular constitucional e cursa com PANcitopenia — daí a palidez com equimoses — além de baixa estatura, manchas café com leite e malformações de polegar e rádio. As demais combinações incluem sempre alguma doença que não fecha com o conjunto: hemofilia é coagulopatia de fatores, causa hemartrose e hematomas profundos, mas NÃO produz anemia hemolítica nem hepatoesplenomegalia; anemia megaloblástica raramente é essa apresentação nessa idade e não dá visceromegalia importante; esferocitose costuma cursar com anemia mais leve, icterícia e esplenomegalia, sem plaquetopenia. Pérola: em lactente com palidez e visceromegalia, sempre pergunte a idade de início — antes dos 6 meses aponta para causas congênitas com expressão precoce; após os 6 meses, para as hemoglobinopatias, pela troca da hemoglobina fetal.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Considerando os exames laboratoriais: Hemoglobina: 7 g/dL; Hematócrito: 20%; Reticulócitos: 10%; Bilirrubina Indireta: 3 mg/dL. Indique o exame que confirmará a principal suspeita diagnóstica no caso descrito:",
+     "alternativas": {
+      "a": "Dosagem de ácido fólico.",
+      "b": "Imunofenotipagem.",
+      "c": "Solubilidade de hemoglobina.",
+      "d": "Teste de quebra cromossômica."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Os exames caracterizam anemia HEMOLÍTICA: hemoglobina de 7 g/dL com reticulócitos de 10% (resposta medular vigorosa, portanto medula funcionante) e bilirrubina indireta elevada (produto da degradação da hemoglobina). Isso afasta imediatamente a falência medular, na qual os reticulócitos estariam BAIXOS, e direciona para hemoglobinopatia. O teste de solubilidade da hemoglobina detecta a polimerização da hemoglobina S em meio redutor e é o exame de triagem clássico dessa hipótese, sendo depois confirmado pela eletroforese de hemoglobina ou por cromatografia líquida de alta eficiência, que mostra o padrão FS na doença falciforme. A imunofenotipagem por citometria de fluxo investiga leucemias e linfomas, hipótese improvável diante de reticulocitose alta e ausência de blastos. A dosagem de ácido fólico avaliaria anemia megaloblástica, que cursa com reticulócitos BAIXOS e macrocitose. O teste de quebra cromossômica com diepoxibutano ou mitomicina C é o exame confirmatório da anemia de Fanconi, coerente com a hipótese de falência medular — mas, de novo, incompatível com a reticulocitose. Pérola de saúde pública: no Brasil, a doença falciforme é detectada pela triagem neonatal desde 2001, e um caso que chega sintomático aos 8 meses sugere falha na cobertura ou na busca ativa do resultado alterado, o que é motivo de investigação do serviço.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Confirmada a principal suspeita diagnóstica, indique a medida profilática que mais reduz a mortalidade nos primeiros anos de vida:",
+     "alternativas": {
+      "a": "Esplenectomia eletiva no primeiro ano de vida",
+      "b": "Antibiótico apenas nos episódios febris documentados",
+      "c": "Penicilina V oral profilática diária até os 5 anos",
+      "d": "Quelação de ferro iniciada logo após o diagnóstico"
+     },
+     "correta": "c",
+     "comentario": "A principal causa de óbito precoce na doença falciforme é a infecção invasiva por germes encapsulados, especialmente Streptococcus pneumoniae, consequência da asplenia funcional que se instala nos primeiros anos por infartos esplênicos de repetição. A profilaxia com penicilina V oral, iniciada até os 2 a 3 meses de idade e mantida diariamente até os 5 anos, reduziu a incidência de sepse pneumocócica em cerca de 84% no estudo PROPS, e é a intervenção isolada de maior impacto na sobrevida; ela caminha junto com a vacinação ampliada (pneumocócicas conjugada e polissacarídica, meningocócicas, Haemophilus influenzae tipo b e influenza anual) e com a educação da família para procurar atendimento imediato diante de FEBRE, que nesses pacientes é sempre emergência. Tratar somente os episódios febris já instalados desconsidera que a sepse pneumocócica pode ser fulminante em horas. A quelação de ferro só é indicada quando há sobrecarga por transfusões crônicas, geralmente após cerca de 10 a 20 concentrados de hemácias ou ferritina persistentemente acima de 1000 ng/mL — iniciá-la ao diagnóstico é errado e tóxica. Esplenectomia eletiva no primeiro ano não é conduta padrão e agravaria o risco infeccioso; ela se reserva a sequestros esplênicos graves e recorrentes, após vacinação adequada. Complementos do cuidado: ácido fólico diário, hidroxiureia para redução de crises vaso-oclusivas e de síndrome torácica aguda, e Doppler transcraniano anual a partir dos 2 anos para rastrear risco de acidente vascular cerebral.\n📚 Leitura sugerida (bloco): Ministério da Saúde — Doença Falciforme: Diretrizes Básicas da Linha de Cuidado; complementar com o Flashcard/Préteste de Hemostasia e doenças hematológicas na Pediatria (Drive do Vinicius): https://drive.google.com/file/d/1SXA0UfQwBDVutRPRd04Fpmi6DvrzW87t/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias (síndrome de vasoconstrição cerebral reversível)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 34 anos de idade, no 12º dia de puerpério de parto vaginal sem intercorrências, procura a emergência após o quarto episódio, em cinco dias, de cefaleia de instalação explosiva, que atinge intensidade máxima em menos de um minuto e dura de uma a três horas. Os episódios foram desencadeados por esforço evacuatório, tosse e banho quente. Entre as crises fica assintomática. Nega febre, rigidez de nuca, uso de drogas ilícitas ou descongestionantes nasais; fez uso de bromocriptina por dois dias para supressão da lactação. Exame neurológico sem déficits focais, fundo de olho normal, PA = 138x86 mmHg. Tomografia de crânio sem contraste normal; punção lombar com pressão de abertura, celularidade, proteína e glicose normais e ausência de xantocromia. A angiorressonância arterial mostra estenoses segmentares multifocais alternadas com dilatações, em segmentos proximais e distais das artérias cerebrais anteriores, médias e posteriores, bilateralmente.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico e dos exames, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Síndrome de vasoconstrição cerebral reversível",
+      "b": "Hemorragia subaracnóidea com angiografia inicial negativa",
+      "c": "Cefaleia pós-punção dural",
+      "d": "Vasculite primária do sistema nervoso central"
+     },
+     "correta": "a",
+     "comentario": "A tríade que define o caso é: cefaleia em trovoada RECORRENTE (mais de um episódio com pico em menos de um minuto), gatilhos característicos (Valsalva, esforço, banho, atividade sexual, emoção) e imagem arterial com estenoses segmentares multifocais 'em colar de contas'. O puerpério e o uso de agentes vasoativos, como a bromocriptina e os inibidores da recaptação de serotonina, são os precipitantes clássicos. Vasculite primária do sistema nervoso central é o principal diferencial, mas seu curso é INSIDIOSO, em semanas a meses, com cefaleia surda progressiva, déficits focais acumulados, alterações cognitivas e, sobretudo, líquor INFLAMATÓRIO (pleocitose e hiperproteinorraquia) — aqui o líquor é rigorosamente normal, o que é forte argumento contra vasculite. Hemorragia subaracnóidea aneurismática é obrigatoriamente lembrada em toda cefaleia em trovoada, mas não explica episódios repetidos ao longo de dias com paciente bem entre eles, e foi afastada pela tomografia normal somada a líquor sem hemácias e sem xantocromia dentro da janela adequada. Cefaleia pós-punção dural é postural (piora em ortostase, alivia em decúbito), tem instalação gradual e, no caso, a punção foi realizada DEPOIS do início das cefaleias, além de o parto ter sido vaginal sem raquianestesia relatada. Pérola: até 30 a 40% dos pacientes têm angiografia normal nos primeiros dias — a vasoconstrição costuma atingir o pico entre a segunda e a terceira semana.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta complementar que confirma definitivamente a hipótese diagnóstica:",
+     "alternativas": {
+      "a": "Realizar biópsia leptomeníngea e cortical",
+      "b": "Repetir a angiorressonância arterial em 12 semanas",
+      "c": "Pesquisar anticorpos antifosfolípides séricos",
+      "d": "Repetir a punção lombar em 48 horas"
+     },
+     "correta": "b",
+     "comentario": "O adjetivo 'reversível' não é retórico: ele é o critério diagnóstico definitivo. A confirmação exige demonstrar a NORMALIZAÇÃO das estenoses arteriais em até 12 semanas do início dos sintomas, o que separa definitivamente esta entidade da vasculite, na qual as alterações persistem ou progridem. Por isso a repetição da angiorressonância nesse intervalo é a conduta correta. A biópsia leptomeníngea e cortical é o padrão-ouro da vasculite primária do sistema nervoso central, mas é invasiva, tem sensibilidade de apenas 50 a 75% pelo caráter segmentar das lesões e seria inadequada e arriscada aqui, num quadro cujo perfil clínico-liquórico já aponta para outra direção. Anticorpos antifosfolípides investigam trombofilia e podem ser relevantes em eventos isquêmicos recorrentes, mas não explicam nem confirmam vasoconstrição segmentar reversível. Repetir a punção lombar em 48 horas não agrega: o líquor já foi normal, e a repetição não modifica a hipótese. Pérola prática: o escore RCVS2 (baseado em cefaleia em trovoada recorrente, vasoconstritor desencadeante, sexo feminino, ausência de aneurisma e hemorragia subaracnóidea de convexidade) permite diferenciar de vasculite com alta acurácia já na admissão. Atenção às complicações: hemorragia subaracnóidea da convexidade em até um terço dos casos, hemorragia intraparenquimatosa e infartos isquêmicos de zona limítrofe, estes últimos mais tardios, na segunda semana.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais apropriada:",
+     "alternativas": {
+      "a": "Nimodipino e retirada dos agentes vasoativos",
+      "b": "Anticoagulação plena com heparina",
+      "c": "Ciclofosfamida endovenosa mensal",
+      "d": "Pulsoterapia com metilprednisolona"
+     },
+     "correta": "a",
+     "comentario": "O tratamento apoia-se em duas medidas: suspender todo agente vasoconstritor ou serotoninérgico — no caso, a bromocriptina, mas também triptanos, ergotamínicos, descongestionantes nasais, anfetaminas, cocaína e canabinoides — e introduzir um bloqueador de canal de cálcio, sendo o nimodipino o mais usado, com controle dos gatilhos (repouso relativo, evitar Valsalva e esforço, analgesia adequada, controle pressórico evitando picos). A pulsoterapia com corticoide é não apenas ineficaz como potencialmente DELETÉRIA: séries mostram que o uso de glicocorticoide se associou a pior desfecho funcional nessa síndrome, e essa é justamente a armadilha da questão, pois o corticoide seria o tratamento se o diagnóstico fosse vasculite. Anticoagulação plena não tem indicação e aumenta o risco das complicações hemorrágicas próprias da doença. Ciclofosfamida é imunossupressor reservado à vasculite primária do sistema nervoso central comprovada, sem qualquer papel aqui. Prognóstico: a maioria dos pacientes tem recuperação completa em semanas, com recorrência baixa (menos de 5%), mas cerca de 10% evoluem com déficit permanente por infarto ou hemorragia — por isso a monitorização nas primeiras duas semanas é essencial.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 32 — Cefaleia na Unidade de Emergência; complementar com a Classificação Internacional das Cefaleias (ICHD-3), item 6.7.3.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia (reanimação neonatal e Apgar) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, nascido de parto cesariano por apresentar idade gestacional de 42 semanas e 3 dias (de acordo com a ultrassonografia), nasceu cianótico e hipoativo, apresentando Apgar de 4 no primeiro minuto, cianótico, com Frequência Cardíaca: 80 bpm, respiração irregular, com débil flexão de membros, com reação facial ao estímulo táctil. Observou-se presença de líquido amniótico meconial.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando as recomendações do Ministério da Saúde e da Sociedade Brasileira de Pediatria, para a atenção ao recém-nascido, responda: Assegurado o aquecimento, o próximo passo a ser seguido é:",
+     "alternativas": {
+      "a": "Iniciar ventilação por pressão positiva.",
+      "b": "Secar o recém-nascido com compressas.",
+      "c": "Instalar oxímetro de pulso.",
+      "d": "Posicionar a cabeça e aspirar as vias aéreas."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Os passos iniciais da reanimação neonatal seguem uma sequência mnemônica fixa, a ser cumprida em até 30 segundos: prover calor, posicionar a cabeça em leve extensão, aspirar as vias aéreas SE necessário, secar e desprezar os campos úmidos, e reposicionar a cabeça. Assegurado o aquecimento — o que o enunciado explicitamente informa —, o passo imediatamente seguinte é posicionar a cabeça e, neste caso, aspirar boca e narinas, conduta justificada porque há líquido amniótico meconial e o recém-nascido não está vigoroso (respiração irregular, tônus débil, frequência cardíaca de 80 bpm). Secar antes de posicionar inverte a sequência preconizada. Instalar o oxímetro de pulso é etapa da monitorização que se segue quando há necessidade de ventilação ou de oxigênio suplementar, e não substitui os passos iniciais. Iniciar ventilação com pressão positiva imediatamente ignora que os passos iniciais podem, por si, restabelecer a respiração — embora, se após eles a frequência cardíaca permanecer abaixo de 100 bpm ou a respiração seguir irregular ou em apneia, a ventilação com pressão positiva deva começar no chamado Minuto de Ouro. Atualização importante: a aspiração traqueal SISTEMÁTICA sob visualização direta em recém-nascido não vigoroso com mecônio foi ABANDONADA; ela só é considerada se houver obstrução de via aérea impedindo ventilação eficaz.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando as recomendações do Ministério da Saúde e da Sociedade Brasileira de Pediatria, para a atenção ao recém-nascido, indique o meio de avaliação mais adequado para definir e decidir as manobras de reanimação neonatal:",
+     "alternativas": {
+      "a": "Ausculta precordial.",
+      "b": "Oximetria do pulso.",
+      "c": "Monitoração cardíaca.",
+      "d": "Palpação do cordão umbilical."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A frequência cardíaca é o principal determinante das decisões durante a reanimação neonatal, e o método mais confiável e rápido para avaliá-la é o monitor cardíaco com três eletrodos, recomendado sempre que houver necessidade de ventilação com pressão positiva. Ele detecta a frequência em poucos segundos e não sofre com má perfusão periférica. A oximetria de pulso é indispensável para titular a oferta de oxigênio segundo os alvos de saturação pré-ductal por minuto de vida, mas demora mais para captar sinal e SUBESTIMA a frequência cardíaca em situações de vasoconstrição, choque e bradicardia — exatamente os cenários da reanimação. A ausculta precordial é o método clínico aceitável quando não há monitor disponível, contando os batimentos em 6 segundos e multiplicando por 10, porém interrompe as manobras e tem menor acurácia, tendendo a subestimar a frequência. A palpação do cordão umbilical é o método menos confiável de todos, subestimando a frequência cardíaca em proporção significativa dos casos e podendo levar a intervenções desnecessárias ou a atraso na intervenção necessária. Pérola: os pontos de corte que comandam a conduta são frequência cardíaca abaixo de 100 bpm (ventilação com pressão positiva) e abaixo de 60 bpm após ventilação adequada com cânula traqueal (massagem cardíaca coordenada 3:1 e, persistindo, adrenalina).",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando as recomendações do Ministério da Saúde e da Sociedade Brasileira de Pediatria, para a atenção ao recém-nascido, responda: Informe os critérios utilizados para definir o Escore de Apgar no recém-nascido:",
+     "alternativas": {
+      "a": "Pulso, Frequência Respiratória, Cor da Pele, Tônus Muscular e Reatividade.",
+      "b": "Frequência Cardíaca, aspecto das extremidades, Respiração, Reatividade e Movimentação ativa.",
+      "c": "Frequência Cardíaca, Reatividade, Frequência Respiratória, Tônus muscular e Choro.",
+      "d": "Pulso, Irritabilidade reflexa, Cor da pele, Choro e Atividade."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O escore de Apgar avalia cinco parâmetros, cada um pontuado de 0 a 2, no primeiro e no quinto minutos de vida (e a cada 5 minutos até 20 minutos se o quinto minuto for menor que 7): frequência cardíaca, esforço respiratório, tônus muscular, irritabilidade reflexa e cor. A banca optou pela formulação que traduz esses cinco itens com sinônimos consagrados do acrônimo inglês APGAR — Appearance (cor da pele), Pulse (pulso, ou seja, frequência cardíaca), Grimace (irritabilidade reflexa), Activity (atividade, ou seja, tônus muscular) e Respiration (aqui expressa como choro, isto é, esforço respiratório). As demais opções falham por misturar itens fora da lista ou por repetir a mesma dimensão duas vezes: uma delas troca esforço respiratório por 'frequência respiratória', parâmetro numérico que não integra o escore; outra inclui simultaneamente reatividade e choro além de tônus, deixando a cor de fora; e outra reduz a cor a 'aspecto das extremidades', o que descreve apenas a acrocianose e não a avaliação global da coloração, além de duplicar reatividade e movimentação ativa. Pérola conceitual, muito cobrada: o Apgar NÃO define o início da reanimação, que se baseia em três perguntas iniciais (gestação a termo, respirando ou chorando, tônus em flexão) e depois na frequência cardíaca; o escore serve para descrever a resposta às manobras e tem valor prognóstico quando permanece baixo aos 5, 10 e 20 minutos. Também não é isoladamente critério de asfixia perinatal, que exige acidemia metabólica em gasometria de cordão, disfunção orgânica e encefalopatia.\n📚 Leitura sugerida (bloco): Diretrizes da Sociedade Brasileira de Pediatria — Reanimação do Recém-Nascido maior ou igual a 34 semanas (Programa de Reanimação Neonatal); complementar com o Flashcard de Reanimação Neonatal e PCR (Drive do Vinicius): https://drive.google.com/file/d/1lQDZ-aXmmrhWhbUcQ_NCXQ5v8yPtMJEV/view",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Junção Neuromuscular (síndrome miastênica de Lambert-Eaton)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 62 anos de idade, tabagista de 40 anos-maço, procura ambulatório de neurologia por fraqueza progressiva há quatro meses, com dificuldade para levantar-se de cadeiras baixas e subir escadas. Refere que, ao iniciar a marcha, sente as pernas 'travadas', mas percebe leve melhora após alguns minutos caminhando. Queixa-se ainda de boca seca persistente, constipação e disfunção erétil de início recente. Nega diplopia; a esposa refere discreta queda palpebral ao fim do dia. Ao exame, há fraqueza proximal simétrica de cinturas pélvica e escapular (grau 4-/5), sem atrofia significativa; os reflexos patelares e aquileus estão abolidos, mas reaparecem transitoriamente após 15 segundos de contração isométrica voluntária máxima do quadríceps. Sensibilidade normal. Radiografia de tórax sem alterações evidentes.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Síndrome miastênica de Lambert-Eaton",
+      "b": "Polimiosite",
+      "c": "Miastenia gravis generalizada",
+      "d": "Polineuropatia sensitivo-motora paraneoplásica"
+     },
+     "correta": "a",
+     "comentario": "Três elementos, tomados em conjunto, apontam para o defeito PRÉ-sináptico da junção neuromuscular: fraqueza proximal de predomínio em membros inferiores, disautonomia (boca seca, constipação, disfunção erétil) e, sobretudo, a facilitação pós-exercício — reflexos abolidos que REAPARECEM após contração voluntária sustentada. O mecanismo é o autoanticorpo contra canais de cálcio dependentes de voltagem do tipo P/Q no terminal pré-sináptico: a liberação de acetilcolina cai, mas o exercício acumula cálcio intracelular e restaura temporariamente a transmissão. Miastenia gravis é o principal diferencial, mas nela a fraqueza é FLUTUANTE com piora ao esforço (fatigabilidade, não facilitação), o acometimento ocular e bulbar é precoce e proeminente, os reflexos são normais e não há disautonomia. Polimiosite dá fraqueza proximal, porém com elevação importante de creatinoquinase, mialgia frequente, reflexos preservados e nenhuma disautonomia nem facilitação. Polineuropatia paraneoplásica sensitivo-motora cursaria com queixas SENSITIVAS proeminentes (parestesias, dor, ataxia sensitiva) e predomínio distal, o oposto do descrito. Pérola: em cerca de 50 a 60% dos casos há neoplasia subjacente, quase sempre carcinoma de pequenas células do pulmão, e os sintomas neurológicos costumam preceder o diagnóstico do tumor em meses a poucos anos — como sugerem, aqui, o tabagismo pesado e a idade.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o achado eletrofisiológico esperado que sustenta a hipótese diagnóstica:",
+     "alternativas": {
+      "a": "Padrão miopático com potenciais de curta duração e fibrilações abundantes",
+      "b": "Incremento da amplitude do potencial motor após estimulação repetitiva de alta frequência",
+      "c": "Bloqueio de condução motora fora de sítios habituais de compressão",
+      "d": "Decremento maior que 10% da amplitude na estimulação repetitiva de baixa frequência"
+     },
+     "correta": "b",
+     "comentario": "O marcador eletrofisiológico é a FACILITAÇÃO: amplitude basal do potencial de ação muscular composto acentuadamente reduzida em repouso e incremento superior a 60% (classicamente maior que 100%) após 10 segundos de exercício voluntário máximo ou após estimulação repetitiva de alta frequência (20 a 50 Hz). Esse é exatamente o correlato neurofisiológico do reflexo que reaparece depois da contração. O decremento maior que 10% na estimulação repetitiva de baixa frequência (2 a 3 Hz) é o achado da miastenia gravis, defeito PÓS-sináptico — vale notar a pegadinha: o decremento em baixa frequência também pode aparecer na doença pré-sináptica, e por isso o que discrimina é o incremento em alta frequência, sobre uma amplitude basal muito baixa. Padrão miopático com fibrilações aponta miopatia inflamatória, incompatível com a disautonomia e a facilitação. Bloqueio de condução motora fora de sítios de compressão é a assinatura da neuropatia motora multifocal, doença puramente motora e assimétrica, de distribuição por tronco nervoso, com reflexos preservados. Confirmação sorológica: anticorpo anti-canal de cálcio P/Q positivo em 85 a 90% dos casos. Pegadinha adicional: o teste do gelo e o anti-receptor de acetilcolina pertencem à investigação da miastenia gravis, não desta entidade.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta prioritária a ser adotada após a confirmação diagnóstica:",
+     "alternativas": {
+      "a": "Tomografia de tórax para rastreamento de neoplasia oculta",
+      "b": "Timectomia videoassistida",
+      "c": "Ressonância magnética de crânio com contraste",
+      "d": "Piridostigmina em dose máxima tolerada"
+     },
+     "correta": "a",
+     "comentario": "Confirmado o diagnóstico, a prioridade absoluta é a busca ativa do tumor associado, pois em cerca de metade dos casos há carcinoma de pequenas células do pulmão, e tratar o tumor melhora também a síndrome neurológica. A tomografia de tórax é o primeiro exame; se negativa em paciente de alto risco (tabagista, idade acima de 50 anos, escore DELTA-P elevado), procede-se ao PET-TC e repete-se o rastreamento a cada 3 a 6 meses por pelo menos dois anos. A timectomia é tratamento da miastenia gravis com timoma ou da forma generalizada anti-receptor de acetilcolina positiva em pacientes jovens — o timo não tem papel nesta síndrome. Piridostigmina pode ser usada como adjuvante sintomático, mas a resposta é apenas parcial e ela não é a prioridade nem o tratamento de base; o fármaco sintomático de escolha é a amifampridina (3,4-diaminopiridina), que bloqueia canais de potássio, prolonga a despolarização do terminal e aumenta a liberação de acetilcolina. Ressonância de crânio não tem papel — o quadro não é central. Complementos terapêuticos quando o controle é insuficiente: prednisona e azatioprina; imunoglobulina ou plasmaférese nos casos graves ou de instalação rápida. Cuidado prático de prova: esses pacientes têm sensibilidade exagerada a bloqueadores neuromusculares, o que exige atenção especial em anestesia.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 111 — Síndrome Miastênica de Lambert-Eaton e Síndromes Miastênicas Congênitas.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição (desnutrição aguda grave edematosa)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 19 meses de idade, é trazido pela avó à Unidade Básica de Saúde porque está \"inchado\" há cerca de três semanas. Foi amamentado apenas até os 4 meses e, desde então, alimenta-se predominantemente de mingau de água com açúcar e de chá, com raríssima oferta de carnes, ovos ou leguminosas. Ao exame, encontra-se apático, chora fraco, recusa alimentos oferecidos, apresenta edema depressível bilateral em dorso dos pés e pernas, cabelos finos, quebradiços e descorados, com faixas claras alternadas, dermatose descamativa em nádegas e região perineal com áreas de erosão, além de hepatomegalia a 4 cm do rebordo costal direito. Peso para estatura em escore z igual a -2,4 e perímetro braquial de 11,8 cm. Temperatura axilar de 35,7 °C.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Desnutrição aguda grave na forma edematosa",
+      "b": "Enteropatia perdedora de proteínas",
+      "c": "Síndrome nefrótica idiopática",
+      "d": "Desnutrição aguda grave na forma não edematosa"
+     },
+     "correta": "a",
+     "comentario": "O achado que define a forma clínica é o EDEMA bilateral depressível de origem nutricional, acompanhado do conjunto clássico: apatia e anorexia intensas, alterações de cabelo (fino, quebradiço, descorado, com o sinal da bandeira, que registra períodos alternados de melhor e pior aporte), dermatose descamativa com áreas erosadas e hepatomegalia por esteatose. Ele decorre da queda da pressão oncótica por hipoalbuminemia, somada a estresse oxidativo, alteração de permeabilidade capilar e retenção de sódio. Importante: pelo critério da Organização Mundial da Saúde, a presença de edema bilateral já classifica a criança como desnutrição aguda GRAVE, independentemente do escore z — por isso o valor de -2,4 não deve tranquilizar; ao contrário, o edema mascara o déficit real de massa. A forma não edematosa cursa com emagrecimento extremo, perda de panículo adiposo e do coxim de Bichat, costelas salientes, nádegas em bolsa de tabaco, criança tipicamente irritada e com FOME preservada, e ausência de edema, hepatomegalia e alterações de pele e cabelo. Síndrome nefrótica produziria edema de início periorbitário, ascite e proteinúria maciça, sem as alterações de fâneros nem o contexto alimentar descrito. Enteropatia perdedora de proteínas causaria diarreia crônica com hipoalbuminemia, mas é rara e não explica o conjunto. Pérola: o perímetro braquial abaixo de 11,5 cm entre 6 e 59 meses é critério isolado de desnutrição aguda grave, e o valor de 11,8 cm aqui já se aproxima perigosamente desse corte.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o achado laboratorial esperado que sustenta a forma clínica identificada:",
+     "alternativas": {
+      "a": "Hipoalbuminemia",
+      "b": "Leucocitose com desvio à esquerda",
+      "c": "Hipercalcemia",
+      "d": "Hiperalbuminemia"
+     },
+     "correta": "a",
+     "comentario": "A hipoalbuminemia é o correlato laboratorial esperado e explica diretamente o edema: a albumina responde pela maior parte da pressão oncótica do plasma, e sua queda desloca líquido para o interstício. Nessa forma de desnutrição, a síntese hepática de proteínas viscerais está reduzida por falta de substrato proteico e por adaptação metabólica, ao mesmo tempo em que a esteatose hepática se instala pela incapacidade de exportar triglicerídeos na forma de lipoproteínas — o que explica a hepatomegalia descrita. A hiperalbuminemia é fisiologicamente incompatível com o quadro e só apareceria, artificialmente, em hemoconcentração grave. A hipercalcemia não faz parte do quadro; ao contrário, espera-se encontrar hipocalcemia, hipomagnesemia, hipopotassemia e hipofosfatemia, além de deficiências de zinco, selênio, vitamina A e ferro, com o detalhe fisiopatológico de que o sódio corporal TOTAL está aumentado apesar de a natremia sérica ser frequentemente baixa. Leucocitose com desvio à esquerda é achado inespecífico e enganoso nesse contexto: a criança gravemente desnutrida tem imunidade comprometida e frequentemente NÃO monta resposta inflamatória, podendo cursar com infecção grave sem febre (a temperatura de 35,7 °C do caso é sinal de alarme) e sem leucocitose. Por isso, a conduta padrão é presumir infecção e iniciar antibiótico de amplo espectro na admissão de toda criança com desnutrição aguda grave complicada.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a conduta nutricional inicial mais adequada, considerando o protocolo do Ministério da Saúde e da Organização Mundial da Saúde:",
+     "alternativas": {
+      "a": "Fórmula de estabilização com baixa carga proteica e energética, sem ferro",
+      "b": "Fórmula de reabilitação de alta densidade energética desde a admissão",
+      "c": "Dieta hiperproteica livre associada a diurético de alça",
+      "d": "Ferro oral em dose plena imediatamente após a admissão"
+     },
+     "correta": "a",
+     "comentario": "O tratamento hospitalar da desnutrição aguda grave é dividido em fases, e a armadilha da questão é justamente antecipar a fase de reabilitação. Na fase de ESTABILIZAÇÃO, das primeiras 24 a 48 horas até cerca de 7 dias, usa-se a fórmula F-75 (aproximadamente 75 kcal e 0,9 g de proteína por 100 mL), oferecida em pequenos volumes frequentes, com o objetivo de manter a criança viva e restaurar a homeostase metabólica, NÃO de recuperar peso. Nessa fase seguem-se os passos preconizados: tratar e prevenir hipoglicemia e hipotermia, corrigir desidratação com solução de baixa osmolaridade e rica em potássio (o ReSoMal), repor potássio e magnésio, iniciar antibiótico presumido, repor micronutrientes e ofertar vitamina A. A fórmula de alta densidade energética (F-100) e o alimento terapêutico pronto para uso pertencem à fase de reabilitação, que só começa após o retorno do apetite e o desaparecimento do edema; introduzi-los precocemente precipita a síndrome de realimentação, com queda abrupta de fósforo, potássio e magnésio, arritmia e insuficiência cardíaca — causa clássica de morte nas primeiras 48 horas. O ferro é FORMALMENTE adiado até a fase de reabilitação, porque na fase aguda o ferro livre aumenta o estresse oxidativo e favorece a proliferação bacteriana. Diurético é contraindicado: o edema é oncótico e hipovolêmico do ponto de vista intravascular, e o diurético precipitaria colapso circulatório. Pérola: o retorno do apetite é o melhor sinal clínico de transição segura entre as fases.\n📚 Leitura sugerida (bloco): Nutrição em Pediatria na Prática Clínica (Sarni, 2021) — capítulo de desnutrição energético-proteica, no Drive do Vinicius: https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view ; complementar com o Manual do Ministério da Saúde para o manejo hospitalar da desnutrição grave (10 passos da OMS).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Medula, Cauda Equina e Dor Lombar (compressão medular epidural metastática)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 68 anos de idade, em acompanhamento por adenocarcinoma de próstata diagnosticado há dois anos, procura a emergência por dor torácica dorsal em faixa, contínua, com três semanas de evolução, que piora em decúbito e o desperta durante a madrugada, sem relação clara com esforço. Nas últimas 48 horas evoluiu com dificuldade progressiva para deambular e, hoje, com incapacidade de urinar espontaneamente. Ao exame, apresenta dor à percussão dos processos espinhosos de T5 e T6, paraparesia de grau 3/5 simétrica, hiperreflexia patelar e aquileia, reflexo cutâneo-plantar em extensão bilateralmente, nível sensitivo em T6 e globo vesical palpável. O tônus do esfíncter anal está preservado.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Síndrome da cauda equina por hérnia discal extrusa",
+      "b": "Polirradiculoneuropatia desmielinizante inflamatória aguda",
+      "c": "Compressão medular epidural de origem metastática",
+      "d": "Mielite transversa idiopática"
+     },
+     "correta": "c",
+     "comentario": "O caso reúne a tríade que define compressão medular em paciente oncológico: dor axial local que precede o déficit em semanas e piora em DECÚBITO (característica que a distingue da dor mecânica, a qual melhora ao deitar), déficit motor bilateral progressivo e disfunção esfincteriana tardia. O exame confirma lesão de neurônio motor SUPERIOR abaixo do nível lesado (hiperreflexia, Babinski bilateral) com nível sensitivo bem definido em T6, indicando comprometimento medular torácico, e não radicular. Síndrome da cauda equina cursaria com neurônio motor INFERIOR — arreflexia, hipotonia, atrofia —, anestesia em sela e perda do tônus esfincteriano, além de acometer raízes lombossacras, e não o segmento torácico. Mielite transversa idiopática é possível topograficamente, mas é diagnóstico de exclusão, instala-se tipicamente em horas a poucos dias, associa-se a pródromo infeccioso e líquor inflamatório, e não explica a dor axial percussiva de três semanas em paciente com neoplasia conhecida. Polirradiculoneuropatia inflamatória aguda produz fraqueza ascendente com ARREFLEXIA global, sem nível sensitivo e com esfíncteres habitualmente poupados. Pérola epidemiológica: os tumores que mais causam compressão medular são mama, pulmão e próstata; a coluna torácica é o segmento mais acometido (cerca de 60 a 70%), e a metástase é quase sempre óssea vertebral com invasão do espaço epidural.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame de imagem mais adequado para a investigação:",
+     "alternativas": {
+      "a": "Tomografia computadorizada da coluna torácica sem contraste",
+      "b": "Ressonância magnética de toda a coluna vertebral, com contraste",
+      "c": "Cintilografia óssea de corpo inteiro",
+      "d": "Radiografia simples da coluna torácica em duas incidências"
+     },
+     "correta": "b",
+     "comentario": "A ressonância magnética é o exame de escolha por definir com precisão a extensão do tumor epidural, o grau de compressão do cordão medular, a presença de alteração de sinal intramedular (edema ou mielomalácia, com valor prognóstico) e o acometimento vertebral e paravertebral. O detalhe cobrado é que ela deve abranger TODA a coluna — cervical, torácica e lombossacra —, porque até um terço dos pacientes apresenta lesões epidurais em MÚLTIPLOS níveis, muitas delas assintomáticas, e essa informação muda o planejamento cirúrgico e o campo de radioterapia. A radiografia simples só mostra alterações quando já há destruição de 30 a 50% do osso trabecular, é normal em boa parte dos casos e nunca visualiza o conteúdo do canal. A cintilografia óssea detecta atividade osteoblástica e ajuda no estadiamento sistêmico, mas tem baixa especificidade e não avalia compressão neural. A tomografia é útil para julgar a estabilidade e a arquitetura óssea, e é a alternativa quando há contraindicação à ressonância (marca-passo incompatível, claustrofobia grave), idealmente como mielotomografia — mas não substitui a ressonância como primeira escolha. Pegadinha de prova: nenhum exame deve atrasar a corticoterapia, que é iniciada com base na suspeita clínica.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta que deve ser instituída imediatamente, antes mesmo da confirmação por imagem:",
+     "alternativas": {
+      "a": "Analgesia com opioide e reavaliação ambulatorial em sete dias",
+      "b": "Aguardar a biópsia da lesão para definir o tratamento",
+      "c": "Dexametasona em dose alta por via endovenosa",
+      "d": "Radioterapia paliativa iniciada em até 72 horas"
+     },
+     "correta": "c",
+     "comentario": "Compressão medular metastática é EMERGÊNCIA oncológica, e o corticoide deve ser iniciado assim que a suspeita clínica se estabelece, sem esperar a imagem. A dexametasona reduz o edema vasogênico peritumoral, alivia a dor e melhora a função neurológica; o esquema clássico usa dose de ataque endovenosa (16 mg, podendo chegar a 96 mg em casos com déficit grave e rapidamente progressivo) seguida de manutenção com desmame após o tratamento definitivo. Radioterapia é parte essencial do tratamento definitivo, mas iniciar somente em 72 horas seria tardio e, sobretudo, não substitui a corticoterapia imediata; além disso, pacientes com instabilidade vertebral, compressão por fragmento ósseo, tumor radiorresistente ou paraplegia de instalação recente têm melhor desfecho com descompressão CIRÚRGICA seguida de radioterapia, conforme demonstrado no estudo de Patchell. Aguardar biópsia é inaceitável: cada hora de atraso reduz a chance de recuperação da marcha. Analgesia isolada com reavaliação em uma semana consolidaria o déficit. Pérola prognóstica decisiva: o preditor mais forte de deambulação após o tratamento é a capacidade de deambular NO MOMENTO do diagnóstico — cerca de 80% dos que chegam andando permanecem andando, contra menos de 10% dos que chegam plégicos. Por isso, dor axial nova ou progressiva em paciente oncológico deve ser investigada antes que surja o déficit motor.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 156 — Metástases e Doença Leptomeníngea; complementar com Merritt (13ª ed.), Seção 15 — Doenças da Medula Espinal.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Desenvolvimento e Puericultura na Atenção Primária (vigilância do desenvolvimento no lactente)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, 9 meses de idade, comparece à consulta de rotina na Unidade Básica de Saúde acompanhada da mãe. Nasceu a termo, com peso adequado para a idade gestacional, sem intercorrências perinatais, e recebeu aleitamento materno exclusivo até os 6 meses, quando iniciou alimentação complementar. Está com o calendário vacinal em dia. A mãe informa que a criança senta sem apoio e permanece sentada brincando, transfere objetos de uma mão para a outra, pega pequenos pedaços de alimento entre o polegar e a lateral do indicador, emite sons repetitivos como \"dadada\" e \"bababa\", vira-se ao ouvir a voz da mãe e chora quando pessoas desconhecidas se aproximam. O peso está no escore z 0 e a estatura no escore z -0,5. A mãe pergunta se já pode substituir o leite materno por leite de vaca integral, pois voltará a trabalhar em dois meses.",
+   "perguntas": [
+    {
+     "enunciado": "Diante dos dados apresentados, indique a avaliação correta do desenvolvimento desta criança:",
+     "alternativas": {
+      "a": "Sinais precoces sugestivos de transtorno do neurodesenvolvimento",
+      "b": "Desenvolvimento adequado para a faixa etária",
+      "c": "Atraso do desenvolvimento da linguagem",
+      "d": "Atraso do desenvolvimento motor grosseiro"
+     },
+     "correta": "b",
+     "comentario": "Todos os marcos descritos são exatamente os esperados para essa faixa etária. Motor grosseiro: sentar sem apoio é adquirido entre 6 e 8 meses, e permanecer sentada brincando confirma controle de tronco adequado. Motor fino: a transferência de objetos entre as mãos surge por volta dos 6 meses, e a preensão em pinça inferior — polegar contra a lateral do indicador — aparece entre 8 e 9 meses, evoluindo para a pinça superior (polpa a polpa) por volta dos 10 a 12 meses. Linguagem: o balbucio canônico com sílabas repetidas está presente e é o marco esperado, e a resposta à voz materna indica audição funcional. Social: a ansiedade diante de estranhos surge entre 6 e 9 meses e representa um MARCO POSITIVO, pois demonstra vínculo estabelecido e discriminação entre figura de referência e desconhecido — não é sinal de problema. Não há, portanto, atraso motor grosseiro (a criança senta e não se espera que ande nessa idade), nem atraso de linguagem (o balbucio está presente; palavras com significado só são esperadas por volta dos 12 meses), nem sinais de transtorno do neurodesenvolvimento, que incluiriam ausência de resposta ao nome, ausência de contato visual, ausência de sorriso social e de gestos como apontar. Pérola prática: o crescimento também está adequado, e o registro dos marcos na Caderneta da Criança em toda consulta é o que permite detectar precocemente desvios.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o sinal de alerta do desenvolvimento que, se presente nessa faixa etária, indicaria necessidade de investigação, segundo a vigilância preconizada na Caderneta da Criança:",
+     "alternativas": {
+      "a": "Não reagir ao próprio nome nem localizar a fonte sonora",
+      "b": "Não subir escadas alternando os pés",
+      "c": "Não andar sem apoio",
+      "d": "Não falar duas palavras com significado"
+     },
+     "correta": "a",
+     "comentario": "A vigilância do desenvolvimento compara o observado com o esperado PARA A IDADE, e um marco é considerado sinal de alerta apenas quando já deveria ter sido adquirido. Aos 9 meses, a criança deve reagir ao próprio nome, localizar a fonte sonora e voltar-se para quem a chama; a ausência dessa resposta é alerta importante e obriga a investigar deficiência auditiva — verificando o resultado da triagem auditiva neonatal e solicitando avaliação audiológica — e também a considerar transtorno do neurodesenvolvimento, sendo a ausência de resposta ao nome um dos sinais mais precoces e mais valorizados. As demais opções descrevem marcos de idades POSTERIORES, e cobrá-los aos 9 meses geraria falso alarme: andar sem apoio é esperado entre 12 e 15 meses, com preocupação real apenas após os 18 meses; falar duas palavras com significado é esperado por volta dos 12 a 15 meses; e subir escadas alternando os pés é marco de 3 anos. Pérolas: os sinais de alerta que exigem encaminhamento imediato em qualquer idade incluem PERDA de marcos já adquiridos (regressão), assimetria persistente de movimentos ou preferência manual antes de 1 ano (sugerindo lesão focal), persistência de reflexos primitivos além do tempo esperado e perímetro cefálico cruzando linhas de percentil. Em prematuros, todos os marcos devem ser avaliados pela idade CORRIGIDA até os 2 anos.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante da pergunta da mãe sobre o retorno ao trabalho e a alimentação da criança, indique a orientação correta a ser dada na Atenção Primária:",
+     "alternativas": {
+      "a": "Substituir o leite materno por leite de vaca integral diluído, mantendo a alimentação complementar",
+      "b": "Iniciar leite de vaca integral acrescido de açúcar e cereal para garantir o ganho de peso",
+      "c": "Suspender o aleitamento materno e introduzir fórmula infantil de seguimento em substituição às refeições",
+      "d": "Manter o aleitamento materno com ordenha e armazenamento do leite, adiando o leite de vaca integral para após o primeiro ano"
+     },
+     "correta": "d",
+     "comentario": "A recomendação do Ministério da Saúde e da Organização Mundial da Saúde é aleitamento materno exclusivo até os 6 meses e continuado até 2 anos ou mais, com alimentação complementar adequada — o retorno ao trabalho não é motivo para desmame. A orientação correta inclui ensinar a técnica de ordenha, o armazenamento seguro do leite humano (até 12 horas na geladeira ou 15 dias no congelador, oferecido em copo ou colher, sem mamadeira) e informar sobre os direitos assegurados por lei: licença-maternidade, dois intervalos de 30 minutos para amamentar até o filho completar 6 meses e estabilidade no emprego, além do direito a creche em determinadas situações. O leite de vaca integral não deve ser introduzido antes dos 12 meses, porque tem excesso de proteína e de sódio com sobrecarga renal, baixo teor e baixa biodisponibilidade de ferro, e associa-se a microssangramento intestinal — sendo, portanto, fator de risco para anemia ferropriva; diluí-lo apenas piora, pois reduz ainda mais a densidade energética. Suspender o aleitamento e substituir refeições por fórmula de seguimento contraria a recomendação e desestrutura a alimentação complementar já iniciada. Acrescentar açúcar é formalmente contraindicado: o Guia Alimentar para Crianças Menores de 2 Anos veda açúcar, mel, adoçantes e ultraprocessados antes dos 2 anos, pela associação com cárie, obesidade e formação de preferência por sabor doce.\n📚 Leitura sugerida (bloco): Ministério da Saúde — Guia Alimentar para Crianças Brasileiras Menores de 2 Anos e Caderneta da Criança (vigilância do desenvolvimento); complementar com o Manual de Aleitamento Materno da SBP.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtornos do Movimento (paralisia supranuclear progressiva)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 69 anos de idade, é levado ao ambulatório pela filha por quedas de repetição há 20 meses, todas para trás e sem aviso prévio, algumas com traumatismo craniano. Associadamente, apresenta lentidão dos movimentos, fala arrastada e engasgos com líquidos. A filha relata dificuldade para descer escadas e para localizar os alimentos no prato, além de comportamento apático alternado com impulsividade. Ao exame, chama atenção fácies de espanto com redução do piscamento, retrocolo, bradicinesia simétrica sem tremor de repouso e rigidez axial maior que a apendicular. Há limitação do olhar conjugado vertical, sobretudo para baixo, que é vencida com a manobra oculocefálica passiva, e lentificação das sacadas verticais. Fez uso de levodopa 1000 mg/dia por quatro meses, sem benefício. A ressonância magnética mostra atrofia do mesencéfalo com aspecto de \"beija-flor\" no corte sagital mediano.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Degeneração corticobasal",
+      "b": "Atrofia de múltiplos sistemas, variante parkinsoniana",
+      "c": "Doença de Parkinson idiopática",
+      "d": "Paralisia supranuclear progressiva"
+     },
+     "correta": "d",
+     "comentario": "O caso reúne os quatro pilares clássicos: quedas precoces e para TRÁS no primeiro ano de doença, paralisia supranuclear do olhar vertical, rigidez AXIAL predominante com retrocolo e ausência de resposta à levodopa em dose plena e por tempo adequado. A ressonância acrescenta o sinal do beija-flor (atrofia mesencefálica com preservação relativa da ponte, no corte sagital), altamente sugestivo. Doença de Parkinson idiopática é excluída por vários critérios de exclusão presentes: quedas no primeiro ano, ausência de tremor de repouso, simetria dos sinais, rigidez axial maior que a apendicular, disfagia precoce e, decisivamente, falha da levodopa — na doença de Parkinson a resposta é robusta e sustentada por anos. Atrofia de múltiplos sistemas parkinsoniana cursa com disautonomia proeminente e precoce (hipotensão ortostática sintomática, retenção ou incontinência urinária), estridor laríngeo e sinais cerebelares, além do sinal da 'cruz na ponte'; nada disso é descrito. Degeneração corticobasal é marcadamente ASSIMÉTRICA e traz sinais corticais — apraxia ideomotora, mioclonia focal, distonia de membro, fenômeno do membro alienígena e perda sensitiva cortical. Pérola: o distúrbio do olhar pode ser sutil no início, aparecendo primeiro como lentificação das SACADAS verticais e como dificuldade para descer escadas ou encontrar comida no prato, exatamente como relatado.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o mecanismo molecular subjacente à doença descrita:",
+     "alternativas": {
+      "a": "Deposição extracelular de peptídeo beta-amiloide",
+      "b": "Expansão instável de repetições CAG com poliglutamina",
+      "c": "Acúmulo intraneuronal e glial de proteína tau de 4 repetições",
+      "d": "Agregação de alfa-sinucleína em corpos de Lewy"
+     },
+     "correta": "c",
+     "comentario": "Trata-se de uma TAUPATIA primária, com agregação de tau hiperfosforilada de 4 repetições (4R) em neurônios e, caracteristicamente, também em células gliais — os tufos astrocitários são a marca histopatológica, ao lado dos emaranhados neurofibrilares globosos e das inclusões oligodendrogliais em espiral. A distribuição envolve globo pálido, núcleo subtalâmico, substância negra, colículo superior e núcleos pontinos, o que explica a combinação de parkinsonismo axial com distúrbio do olhar vertical. Alfa-sinucleína define as SINUCLEINOPATIAS — doença de Parkinson, demência com corpos de Lewy e atrofia de múltiplos sistemas (nesta, como inclusões gliais citoplasmáticas) —, todas com resposta ao menos inicial à levodopa nas formas parkinsonianas, o que não ocorre aqui. Beta-amiloide extracelular caracteriza a doença de Alzheimer, cujo quadro nuclear é amnéstico e não motor. Expansão CAG com poliglutamina corresponde à doença de Huntington e a várias ataxias espinocerebelares, que cursam com coreia ou ataxia e história familiar autossômica dominante. Pérola diagnóstica: outra taupatia 4R é a degeneração corticobasal, e as duas compartilham espectro clínico-patológico, o que explica a sobreposição de fenótipos e a dificuldade do diagnóstico em vida, formalizada nos critérios do MDS de 2017.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais apropriada para o caso:",
+     "alternativas": {
+      "a": "Toxina botulínica nos músculos esternocleidomastóideos",
+      "b": "Estimulação cerebral profunda do núcleo subtalâmico",
+      "c": "Reabilitação multiprofissional com foco na prevenção de quedas e na disfagia",
+      "d": "Rivastigmina transdérmica em dose plena"
+     },
+     "correta": "c",
+     "comentario": "Não existe terapia modificadora de doença; o cuidado é sintomático e, sobretudo, preventivo de complicações — que são a real causa de morte, por broncoaspiração, fraturas e imobilidade. A abordagem correta é multiprofissional: fisioterapia e terapia ocupacional para equilíbrio, adaptação domiciliar e uso de andador com peso anterior (o andador comum favorece a queda para trás), fonoaudiologia para disfagia e disartria, avaliação nutricional com discussão precoce de gastrostomia, e uso de prismas ou apoio visual para a limitação do olhar. Um teste terapêutico de levodopa em dose adequada é recomendado, pois uma minoria tem resposta parcial, mas ele já foi feito e falhou. A estimulação cerebral profunda do núcleo subtalâmico é indicada na doença de Parkinson idiopática com flutuações motoras e boa resposta à levodopa; nos parkinsonismos atípicos é ineficaz e pode piorar equilíbrio e cognição, sendo contraindicada. A rivastigmina tem indicação na demência da doença de Parkinson e na demência com corpos de Lewy; aqui não melhora a marcha e pode agravar quedas. A toxina botulínica cervical é tratamento da distonia cervical idiopática e seria contraproducente no retrocolo desta doença, com risco de agravar a disfagia. Prognóstico: sobrevida mediana de 6 a 9 anos a partir do início dos sintomas.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 68 — Parkinsonismo Atípico; complementar com os critérios diagnósticos do MDS-PSP (2017).",
+     "dificuldade": "moderada"
+    }
+   ]
+  }
+ ]
+}
