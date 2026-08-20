@@ -1,0 +1,651 @@
+{
+ "date": "2026-08-20",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Neuroinfecção (meningite bacteriana / doença meningocócica) [REAL: SUS-BA R+ 2026]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 54 anos de idade, é trazido ao pronto-socorro com história de febre alta (39,5℃), cefaleia intensa e vômitos há 24 horas. Nas últimas horas, evoluiu com confusão mental e rigidez de nuca. Ao exame, apresenta-se sonolento, com sinais de Kernig e Brudzinski positivos. Petéquias difusas são notadas no tronco e em membros inferiores. PA = 90x50 mmHg; FC = 120 bpm. Uma punção lombar é realizada de imediato e aguarda-se o resultado.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, indique o achado mais provavelmente encontrado no Gram do líquor:",
+     "alternativas": {
+      "a": "Cocos gram positivos em cadeias.",
+      "b": "Cocobacilos gram positivos.",
+      "c": "Cocobacilos gram negativos.",
+      "d": "Diplococos gram negativos."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ 2026] A associação de síndrome meníngea febril de instalação em menos de 24 horas com exantema petequial difuso e instabilidade hemodinâmica é a assinatura clínica da doença meningocócica, e Neisseria meningitidis aparece no Gram do líquor como diplococo GRAM-NEGATIVO, muitas vezes intracelular dentro de neutrófilos. O mecanismo do exantema é a invasão endotelial direta pelo meningococo somada à liberação maciça de endotoxina (lipo-oligossacarídeo), que ativa a cascata de coagulação — por isso petéquia e choque andam juntos aqui.\nCocos gram-positivos EM CADEIAS descrevem estreptococos; o agente relevante de meningite dessa família é o pneumococo, que ao Gram é diplococo gram-POSITIVO lanceolado, e cursa tipicamente com foco parameníngeo (otite, sinusite, pneumonia), não com púrpura fulminante.\nCocobacilos gram-POSITIVOS remetem a Listeria monocytogenes, agente de extremos de idade (<1 mês, >50 anos), gestantes e imunossuprimidos, cujo quadro costuma incluir rombencefalite e líquor com predomínio linfomonocitário — não é o padrão petequial-hiperagudo aqui.\nCocobacilos gram-NEGATIVOS correspondem a Haemophilus influenzae, hoje raro após a vacina Hib e associado a otite/epiglotite, sem púrpura.\nPérola de prova: a punção lombar não deve atrasar o antibiótico; e a suspeita de doença meningocócica é de NOTIFICAÇÃO COMPULSÓRIA IMEDIATA (até 24 h), com quimioprofilaxia de contatos íntimos (rifampicina 600 mg 12/12 h por 2 dias no adulto)."
+    },
+    {
+     "enunciado": "Diante do caso clínico, indique a conduta terapêutica imediata, considerando os protocolos do Ministério da Saúde:",
+     "alternativas": {
+      "a": "Ceftriaxona e vancomicina.",
+      "b": "Penicilina cristalina em altas doses.",
+      "c": "Ceftriaxona e ampicilina.",
+      "d": "Apenas dexametasona, enquanto espera o resultado do líquor."
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ 2026] O gabarito oficial da banca é a associação de cefalosporina de 3ª geração com ampicilina — a lógica é a cobertura empírica ampla enquanto o líquor não volta: a ceftriaxona cobre meningococo, pneumococo e Haemophilus, e a ampicilina acrescenta Listeria monocytogenes, cuja cobertura passa a ser recomendada a partir dos 50 anos de idade, exatamente a faixa deste paciente (54 anos). Antibiótico em meningite bacteriana é medida tempo-dependente: cada hora de atraso piora desfecho, e a dose deve ser plena, com penetração liquórica garantida.\nCeftriaxona + vancomicina é o esquema clássico onde a prevalência de pneumococo com resistência intermediária/plena à penicilina é alta (padrão norte-americano); é defensável clinicamente, mas não é o par escolhido pela banca, que seguiu a lógica de idade >50 anos e cobertura de Listeria.\nPenicilina cristalina isolada só se justifica DEPOIS de identificado meningococo sensível — usá-la empiricamente deixa descoberto pneumococo resistente e Listeria.\nDexametasona isolada é erro grave: o corticoide (0,15 mg/kg 6/6 h por 4 dias) é adjuvante, administrado JUNTO ou pouco antes da primeira dose de antibiótico, com benefício mais claro na meningite pneumocócica — nunca substitui a antibioticoterapia.\nPegadinha frequente: em paciente com sinal focal, papiledema, imunossupressão ou rebaixamento importante, colhe-se hemocultura, inicia-se o antibiótico e SÓ ENTÃO faz-se TC antes da punção."
+    },
+    {
+     "enunciado": "Diante do caso clínico, indique a complicação provavelmente presente no caso:",
+     "alternativas": {
+      "a": "Coagulação Intravascular Disseminada (CIVD).",
+      "b": "Púrpura Trombocitopênica Trombótica (PTT).",
+      "c": "Síndrome Hemolítico-Urêmica (SHU).",
+      "d": "Vasculite leucocitoclástica cutânea."
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ 2026] Petéquias difusas que confluem em púrpura, associadas a hipotensão e taquicardia numa meningococcemia, traduzem coagulação intravascular disseminada: a endotoxina meningocócica ativa o fator tecidual, consome fatores e plaquetas e gera trombose microvascular com sangramento simultâneo. O laboratório mostra plaquetopenia, TP/TTPa alargados, fibrinogênio baixo e D-dímero muito elevado. A forma extrema é a púrpura fulminante com necrose hemorrágica de adrenais (síndrome de Waterhouse-Friderichsen), que cursa com insuficiência adrenal aguda e choque refratário a volume.\nA PTT é caracterizada pela pêntade clássica (anemia hemolítica microangiopática, plaquetopenia, febre, alteração neurológica e disfunção renal) por deficiência de ADAMTS13, com coagulograma tipicamente NORMAL — o que a distingue da CIVD, e não há relação com exantema petequial infeccioso hiperagudo.\nA SHU associa anemia hemolítica, plaquetopenia e insuficiência renal aguda, precedida por diarreia sanguinolenta por E. coli produtora de toxina Shiga; falta o pródromo entérico e há disfunção renal dominante, ausente aqui.\nA vasculite leucocitoclástica dá púrpura palpável em membros inferiores, de curso subagudo e sem choque.\nPérola: em púrpura fulminante avalia-se deficiência de complemento terminal (C5-C9) e indica-se vacinação meningocócica (ACWY e B) além da quimioprofilaxia dos contatos.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 140 — Meningite Bacteriana Aguda; complementar com o Guia de Vigilância em Saúde do Ministério da Saúde, capítulo de Doença Meningocócica (notificação imediata e quimioprofilaxia de contatos)."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia (prematuridade tardia) [RE cota individual: Leonardo]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Recém-nascido do sexo masculino, com 35 semanas e 2 dias de idade gestacional pela data da última menstruação confirmada por ultrassonografia de primeiro trimestre, peso de nascimento 2.480 g, adequado para a idade gestacional, nascido de parto cesáreo por trabalho de parto prematuro em mãe de 29 anos, sem intercorrências no pré-natal e com sorologias negativas. Apgar 8 e 9. Encontra-se em alojamento conjunto com 36 horas de vida. A equipe de enfermagem registra que o bebê 'dorme muito', pega o peito por poucos minutos e solta, já perdeu 9% do peso de nascimento e apresentou uma glicemia capilar de 38 mg/dL antes da última mamada. Ao exame: ativo quando estimulado, hipotônico em relação aos recém-nascidos de termo do berçário, sem desconforto respiratório, temperatura axilar 36,2°C, icterícia visível em face e tronco. A mãe pergunta quando poderá ir para casa, pois tem outros dois filhos pequenos.",
+   "perguntas": [
+    {
+     "enunciado": "Com base na idade gestacional ao nascimento, indique a classificação correta deste recém-nascido:",
+     "alternativas": {
+      "a": "Prematuro tardio.",
+      "b": "Prematuro moderado.",
+      "c": "Termo precoce.",
+      "d": "Prematuro extremo."
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "A classificação da prematuridade por idade gestacional é assunto recorrente e deve ser memorizada com precisão: prematuro EXTREMO abaixo de 28 semanas; MUITO prematuro de 28 a 31 semanas e 6 dias; prematuro MODERADO de 32 a 33 semanas e 6 dias; prematuro TARDIO de 34 semanas a 36 semanas e 6 dias. Com 35 semanas e 2 dias, este recém-nascido é prematuro tardio — a categoria mais numerosa, responsável por cerca de 70 a 75% de todos os nascimentos prematuros.\nPrematuro moderado exigiria idade gestacional entre 32 e 33 semanas e 6 dias, faixa em que o recém-nascido raramente vai para alojamento conjunto sem suporte.\nTermo PRECOCE é a designação para nascimentos entre 37 semanas e 38 semanas e 6 dias, e não se aplica a quem nasceu antes de 37 semanas; a nomenclatura completa do termo inclui ainda termo pleno (39 a 40 semanas e 6 dias), termo tardio (41 semanas a 41 semanas e 6 dias) e pós-termo (42 semanas ou mais).\nPrematuro extremo se refere a menos de 28 semanas, situação de altíssimo risco e incompatível com o quadro descrito.\nPérola de prova: o prematuro tardio tem aparência enganosamente semelhante à do recém-nascido de termo, o que gera subestimação do risco — sua morbidade (hipotermia, hipoglicemia, icterícia, dificuldade alimentar, desconforto respiratório e reinternação) é significativamente maior que a do termo, e a mortalidade neonatal chega a ser cerca de três vezes superior. Lembrar também da classificação por PESO: baixo peso abaixo de 2.500 g, muito baixo peso abaixo de 1.500 g e extremo baixo peso abaixo de 1.000 g."
+    },
+    {
+     "enunciado": "Diante da icterícia observada com 36 horas de vida, indique a conduta diagnóstica mais adequada:",
+     "alternativas": {
+      "a": "Solicitar apenas o teste de Coombs direto.",
+      "b": "Dosar bilirrubina total e frações e plotar em nomograma por hora de vida.",
+      "c": "Solicitar ultrassonografia de abdome para avaliar vias biliares.",
+      "d": "Dosar TSH e T4 livre em caráter de urgência."
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "A avaliação correta da icterícia neonatal exige quantificar a bilirrubina e interpretá-la em função da HORA DE VIDA, plotando o valor no nomograma de Bhutani, que estratifica o risco em zonas (baixo, intermediário-baixo, intermediário-alto e alto risco) e orienta o intervalo de reavaliação. A inspeção visual e as zonas de Kramer são grosseiras e subestimam sistematicamente a bilirrubina, sobretudo em pele mais pigmentada e sob luz artificial. As frações importam: predomínio de bilirrubina INDIRETA é o esperado nesta fase, e um valor de bilirrubina direta acima de 1 mg/dL ou acima de 20% do total muda completamente o raciocínio, apontando colestase.\nO Coombs direto isolado é insuficiente: sem o valor da bilirrubina não há como decidir sobre fototerapia, e o Coombs faz parte da investigação etiológica (junto com tipagem sanguínea da mãe e do bebê, hematócrito e reticulócitos) apenas quando a icterícia é precoce ou intensa.\nA ultrassonografia de abdome investiga colestase e atresia de vias biliares, cenário de icterícia PROLONGADA além de 14 dias com colúria e acolia fecal — não faz sentido com 36 horas de vida.\nA dosagem de TSH e T4 livre em urgência não se justifica: o hipotireoidismo congênito causa icterícia PROLONGADA, e o rastreio é feito pela triagem neonatal entre 3 e 5 dias de vida.\nPérolas: o prematuro tardio tem risco aumentado de hiperbilirrubinemia por imaturidade da glicuroniltransferase, meia-vida eritrocitária mais curta e ingestão oral insuficiente com aumento da circulação êntero-hepática; por isso os limiares de fototerapia são MAIS BAIXOS que os do termo. Icterícia nas primeiras 24 horas é sempre patológica."
+    },
+    {
+     "enunciado": "Considerando o conjunto do quadro, indique a conduta mais apropriada quanto à alta hospitalar:",
+     "alternativas": {
+      "a": "Alta com 48 horas de vida, com retorno agendado em 15 dias.",
+      "b": "Alta imediata, com orientação de exposição solar diária e livre demanda.",
+      "c": "Adiar a alta até sucção efetiva com ganho documentado e reavaliar a bilirrubina, com retorno em 48 horas.",
+      "d": "Alta com prescrição de fórmula infantil em substituição ao peito materno."
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "Este recém-nascido reúne todos os marcadores de alta insegura no prematuro tardio: sucção ineficaz, perda ponderal de 9% (limiar de alerta é 7 a 10%), episódio de hipoglicemia (abaixo de 40 a 47 mg/dL conforme a hora de vida), instabilidade térmica limítrofe e icterícia já visível com 36 horas. A conduta é adiar a alta até que haja alimentação efetiva documentada, estabilidade térmica e glicêmica sem intervenção e definição do risco de hiperbilirrubinemia, garantindo reavaliação presencial em 48 horas após a alta. Apoio estruturado à amamentação, com avaliação da pega, ordenha e eventual complementação com leite materno ordenhado, é parte central do plano.\nAlta com 48 horas e retorno em 15 dias é a receita clássica de reinternação: o pico da bilirrubina ocorre entre o 5º e o 7º dia no prematuro tardio, e a taxa de reinternação nesse grupo é cerca de duas a três vezes maior que a do termo, sendo icterícia e dificuldade alimentar as causas principais.\nExposição solar como tratamento de icterícia é conduta ULTRAPASSADA e não recomendada, pelo risco de queimadura, hipertermia e desidratação, e por não substituir a fototerapia.\nSubstituir o peito por fórmula é erro grave: a dificuldade do prematuro tardio é de imaturidade da coordenação sucção-deglutição-respiração e resolve-se com suporte à lactação, não com desmame; a substituição compromete a proteção imunológica e o vínculo, além de não ser necessária.\nPérola: o prematuro tardio deve ser acompanhado com atenção especial ao neurodesenvolvimento — apresenta risco aumentado de dificuldades escolares e de transtornos do neurodesenvolvimento em comparação com o recém-nascido de termo, e as consultas de puericultura devem usar a idade CORRIGIDA nos dois primeiros anos.\n📚 Leitura sugerida (bloco): videoaula de Neonatologia do R+ Pediatria MEDGRUPO no seu Drive (https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view); complementar com o manual 'Atenção à Saúde do Recém-Nascido' do Ministério da Saúde, volumes 1 e 2 (critérios de alta segura e manejo da icterícia neonatal) e o documento científico da SBP sobre o prematuro tardio."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroimunologia (espectro da neuromielite óptica)",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 34 anos de idade, parda, procura o pronto-socorro por perda visual dolorosa no olho direito há 5 dias, com acuidade de conta-dedos, e refere que há 7 meses teve episódio semelhante no olho esquerdo, do qual recuperou parcialmente. Há 2 dias evoluiu com fraqueza progressiva dos membros inferiores, retenção urinária e nível sensitivo em T6. Ao exame: paraparesia grau 2, hiper-reflexia com Babinski bilateral, e defeito pupilar aferente relativo à direita. A ressonância de coluna mostra lesão medular contígua estendendo-se de T3 a T9, com realce pelo gadolínio; a ressonância de encéfalo não preenche critérios de disseminação espacial. O líquor mostra 30 células/mm³ com predomínio linfocitário e proteína de 78 mg/dL.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando a apresentação clínica e os achados de imagem, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Espectro da neuromielite óptica.",
+      "b": "Esclerose múltipla remitente-recorrente.",
+      "c": "Encefalomielite disseminada aguda.",
+      "d": "Mielite transversa idiopática."
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "A combinação de neurite óptica grave e recorrente com mielite LONGITUDINALMENTE EXTENSA (lesão contígua que atravessa três ou mais corpos vertebrais, aqui de T3 a T9) é o achado cardinal do espectro da neuromielite óptica. O mecanismo é a agressão mediada por autoanticorpo IgG contra a aquaporina-4, o canal de água mais expresso nos pés astrocitários perivasculares — daí a astrocitopatia com predileção por nervo óptico, medula central, área postrema e diencéfalo, e a desmielinização ser secundária, não primária.\nA esclerose múltipla remitente-recorrente cursa com lesões medulares CURTAS (um a dois segmentos) e periféricas no corte axial, encéfalo com lesões periventriculares ovoides perpendiculares aos ventrículos (dedos de Dawson) e bandas oligoclonais em mais de 85% — nada disso está presente, e a neurite óptica costuma ser unilateral e com boa recuperação.\nA encefalomielite disseminada aguda é tipicamente monofásica, mais comum em crianças, pós-infecciosa ou pós-vacinal, com encefalopatia obrigatória e lesões encefálicas extensas e mal delimitadas — não há encefalopatia nem curso monofásico aqui.\nA mielite transversa idiopática é diagnóstico de exclusão e não explica os dois episódios prévios de neurite óptica.\nPegadinha clássica: pleocitose acima de 50 células com neutrófilos e proteína alta favorece a neuromielite óptica sobre a esclerose múltipla, na qual o líquor costuma ser pouco inflamatório."
+    },
+    {
+     "enunciado": "Indique o exame complementar de maior valor para a confirmação etiológica do quadro:",
+     "alternativas": {
+      "a": "Pesquisa de bandas oligoclonais no líquor.",
+      "b": "Dosagem sérica de anticorpo anti-MOG.",
+      "c": "IgG antiaquaporina-4 sérica por ensaio celular.",
+      "d": "Potencial evocado visual com P100 alargada."
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "O exame confirmatório é a pesquisa da IgG antiaquaporina-4 no SORO, e o método importa: o ensaio baseado em células (cell-based assay, com células transfectadas expressando a aquaporina-4 em conformação nativa) tem sensibilidade em torno de 75-80% e especificidade acima de 99%, muito superior ao ELISA e à imunofluorescência indireta em tecido, que geram falso-positivos em títulos baixos. A soropositividade fecha o diagnóstico já com uma única característica clínica central, segundo os critérios internacionais de 2015.\nAs bandas oligoclonais estão ausentes na maioria dos pacientes com neuromielite óptica (positivas em menos de 20%) e, quando presentes, são transitórias — são úteis para esclerose múltipla, não aqui.\nO anti-MOG é o exame do diagnóstico diferencial (MOGAD), que também dá neurite óptica bilateral e mielite extensa, mas com preferência por acometimento do nervo óptico anterior com edema de papila, conus medullaris e melhor resposta ao corticoide; deve ser solicitado se a antiaquaporina-4 vier negativa, nunca antes dela nesta apresentação.\nO potencial evocado visual documenta lesão da via óptica e ajuda a demonstrar disseminação, mas é inespecífico quanto à etiologia — não separa desmielinização inflamatória de outras causas.\nPérola: a soropositividade define doença RECORRENTE e contraindica alta hospitalar sem plano de imunossupressão de manutenção."
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada para o episódio agudo:",
+     "alternativas": {
+      "a": "Metilprednisolona endovenosa seguida de plasmaférese.",
+      "b": "Interferona beta-1a subcutânea.",
+      "c": "Fingolimode por via oral.",
+      "d": "Natalizumabe endovenoso mensal."
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "O tratamento do surto grave é pulsoterapia com metilprednisolona 1 g/dia por 3 a 5 dias e, diante de resposta insuficiente — como se espera numa mielite extensa com paraparesia grau 2 e amaurose —, escalonamento precoce para plasmaférese (5 a 7 sessões em dias alternados). O racional é remover o autoanticorpo circulante e componentes do complemento; há evidência de que o início da plasmaférese nos primeiros dias correlaciona-se com melhor recuperação funcional, motivo pelo qual muitos serviços não esperam completar o pulso para indicá-la.\nA interferona beta-1a é droga modificadora de esclerose múltipla e, na neuromielite óptica, PIORA a doença, aumentando a frequência de surtos — é um erro clássico e cobrado.\nO fingolimode também está associado a exacerbação grave da neuromielite óptica e não tem papel no surto agudo, por ser terapia de manutenção.\nO natalizumabe, além de não tratar o evento agudo, igualmente se associa a piora nesta doença.\nPara manutenção, as opções com ensaio clínico randomizado positivo são eculizumabe, inebilizumabe e satralizumabe; na indisponibilidade, azatioprina, micofenolato ou rituximabe, sempre com corticoide de sobreposição nos primeiros meses. Nunca suspender a imunossupressão abruptamente — o risco de surto de rebote é alto.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 88 — Espectro da Neuromielite Óptica (complementar com o cap. 91 — MOGAD e GFAP para o diagnóstico diferencial)."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Gastroenterologia/Hepatologia (hepatite viral aguda) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 8 anos de idade, é levado à UPA devido a náuseas, vômitos e prurido intenso. Há relato de febre, cansaço e anorexia nas últimas semanas. Refere fezes esbranquiçadas. Os pais negam histórico médico significativo. Ao exame, observa-se pele e escleróticas ictéricas; há hepatomegalia dolorosa.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico, indique a principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Cálculos biliares.",
+      "b": "Hepatite Aguda Viral.",
+      "c": "Intoxicação exógena.",
+      "d": "Colestase familiar."
+     },
+     "correta": "b",
+     "dificuldade": "facil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O caso descreve a evolução típica da hepatite viral aguda na criança: fase prodrômica de semanas com febre, astenia, anorexia, náuseas e vômitos, seguida de fase ictérica com colúria, acolia fecal ('fezes esbranquiçadas'), prurido e hepatomegalia dolorosa. No Brasil, em escolar previamente hígido e sem comorbidades, o agente mais provável é o vírus da hepatite A, de transmissão fecal-oral, ligado a condições de saneamento — daí sua importância como marcador socioambiental.\nCálculos biliares são incomuns nessa idade e, quando ocorrem, associam-se a hemólise crônica (doença falciforme, esferocitose), nutrição parenteral prolongada, obesidade ou uso de ceftriaxona; a apresentação seria de dor em cólica no hipocôndrio direito, sem pródromo de semanas com febre e anorexia.\nA intoxicação exógena — paracetamol em dose tóxica, ervas, amanita — cursa com instalação abrupta após exposição identificável, aminotransferases em níveis muito elevados (frequentemente acima de 3.000 U/L) e risco precoce de insuficiência hepática; não há história de exposição aqui.\nA colestase familiar progressiva manifesta-se no lactente ou pré-escolar, com prurido desproporcional, curso CRÔNICO e falha de crescimento, não como episódio agudo aos 8 anos com pródromo febril.\nPérolas: a hepatite A é de notificação compulsória, tem vacina no calendário do SUS aos 15 meses (dose única), e nas crianças menores de 6 anos costuma ser anictérica e oligossintomática — o que sustenta a transmissão silenciosa em creches. O diagnóstico se confirma pelo anti-HAV IgM."
+    },
+    {
+     "enunciado": "Com base no caso, identifique um diagnóstico diferencial possível:",
+     "alternativas": {
+      "a": "Colelitíase.",
+      "b": "Pancreatite.",
+      "c": "Fibrose cística.",
+      "d": "Uso de medicamentos."
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O gabarito da banca aponta a colelitíase como diferencial mais direto porque ela reproduz o eixo sindrômico central do caso — icterícia COLESTÁTICA com acolia fecal e prurido. Quando um cálculo migra para o colédoco, a obstrução biliar extra-hepática gera exatamente esse padrão, com elevação de bilirrubina direta, fosfatase alcalina e gama-GT, e a ultrassonografia diferencia rapidamente as duas situações.\nA pancreatite pode acompanhar a coledocolitíase, mas seu quadro dominante é dor epigástrica intensa irradiada para o dorso com elevação de amilase e lipase — não é icterícia com acolia como manifestação principal, e não explicaria o pródromo de semanas.\nA fibrose cística pode cursar com doença hepatobiliar, porém como manifestação crônica e habitualmente em criança já com diagnóstico prévio, sintomas respiratórios de repetição, esteatorreia e déficit de crescimento; a triagem neonatal (dosagem de tripsinogênio imunorreativo) tornaria muito improvável um primeiro diagnóstico aos 8 anos por icterícia isolada.\nO uso de medicamentos (hepatite medicamentosa) é diferencial legítimo na prática, mas o enunciado afirma que os pais negam histórico médico significativo, o que enfraquece essa hipótese — foi o distrator mais 'discutível' da questão.\nPérola de prova: diante de icterícia na criança, o primeiro passo do raciocínio é separar predomínio de bilirrubina INDIRETA (hemólise, distúrbios de conjugação) de DIRETA (hepatocelular ou obstrutivo), e só depois seguir para a etiologia."
+    },
+    {
+     "enunciado": "Sobre os exames a serem solicitados, é correto afirmar:",
+     "alternativas": {
+      "a": "Hemograma não tem utilidade para o diagnóstico.",
+      "b": "Ultrassonografia de abdome total é imprescindível nesse momento.",
+      "c": "Espera-se elevações combinadas da Fosfatase alcalina e Gama GT.",
+      "d": "Elevações das aminotransferases não indicam, necessariamente, lesão hepática."
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O componente colestático do quadro — prurido intenso e fezes esbranquiçadas — traduz-se laboratorialmente na elevação COMBINADA de fosfatase alcalina e gama-glutamiltransferase. A associação das duas é o que dá especificidade hepatobiliar: a fosfatase alcalina isolada é pouco confiável na criança, pois aumenta fisiologicamente com o crescimento ósseo, e é a gama-GT elevada em conjunto que confirma a origem biliar.\nDizer que o hemograma não tem utilidade é incorreto: ele auxilia no raciocínio ao mostrar leucopenia com linfocitose relativa (comum nas viroses), ao afastar anemia hemolítica como causa de icterícia e ao avaliar plaquetas, cuja queda sinaliza hipertensão portal ou gravidade.\nA ultrassonografia não é 'imprescindível NESTE momento' — o quadro clínico é altamente sugestivo de hepatite viral e a conduta inicial é sorológica e laboratorial; a ultrassonografia entra se houver dúvida sobre obstrução biliar, suspeita de colelitíase ou evolução atípica. Esse foi o distrator que exigiu atenção ao advérbio.\nA afirmação sobre aminotransferases inverte um conceito básico: alanina-aminotransferase (ALT/TGP) é bastante específica do hepatócito, e aspartato-aminotransferase (AST/TGO), embora presente também em músculo, coração e hemácias, eleva-se em conjunto na lesão hepática — na hepatite viral aguda espera-se ALT em níveis de centenas a milhares.\nPérola: os marcadores de GRAVIDADE não são as aminotransferases, e sim o tempo de protrombina/RNI e a presença de encefalopatia — RNI acima de 1,5 com encefalopatia define insuficiência hepática aguda e indica transferência para centro com transplante.\n📚 Leitura sugerida (bloco): videoaula de Gastroenterologia do R+ Pediatria MEDGRUPO no seu Drive (https://drive.google.com/file/d/1rIrgkiZ_nqlMcMBeZ6RLspQk90rW_S3w/view); complementar com o Guia de Vigilância em Saúde do Ministério da Saúde, capítulo de Hepatites Virais (notificação, sorologias e medidas de controle)."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropatias Periféricas (neuropatia da hanseníase / mononeuropatia múltipla)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 41 anos de idade, lavrador, procedente do sertão da Bahia, procura a unidade básica por dificuldade progressiva para segurar objetos com a mão direita há 8 meses e queimaduras repetidas nos dedos que ele não percebe no momento em que ocorrem. Refere ainda formigamento no pé esquerdo e quedas do chinelo. Ao exame: três placas eritêmato-acastanhadas infiltradas no tronco e no braço direito, com bordas mal definidas, e madarose do terço lateral das sobrancelhas; hipoestesia térmica e dolorosa nas placas; garra ulnar à direita com atrofia de interósseos; nervo ulnar direito e fibular comum esquerdo palpáveis, espessados e dolorosos; pé esquerdo caído com marcha escarvante. Reflexos profundos preservados nos demais segmentos e ausência de déficit motor proximal.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o padrão de acometimento neurológico e os achados cutâneos, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Amiloidose familiar por transtirretina.",
+      "b": "Vasculite sistêmica com mononeurite múltipla.",
+      "c": "Doença de Charcot-Marie-Tooth tipo 1A.",
+      "d": "Hanseníase."
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "O quadro reúne três achados que, juntos, praticamente selam o diagnóstico de hanseníase: lesão cutânea com PERDA DE SENSIBILIDADE TÉRMICA E DOLOROSA, espessamento de troncos nervosos periféricos palpáveis e comprometimento assimétrico de nervos em territórios distintos (ulnar à direita, fibular comum à esquerda), configurando mononeuropatia múltipla. O mecanismo é o tropismo do Mycobacterium leprae pela célula de Schwann e por regiões corporais mais frias, o que explica a preferência por nervos superficiais em trajetos de baixa temperatura — ulnar no cotovelo, fibular na cabeça da fíbula, mediano no punho, tibial posterior no tornozelo e o ramo auricular magno.\nA amiloidose por transtirretina produz polineuropatia SIMÉTRICA, comprimento-dependente, com disautonomia proeminente (hipotensão postural, diarreia alternada com constipação) e cardiopatia infiltrativa, sem lesão de pele hipoestésica nem nervo espessado doloroso.\nA vasculite sistêmica também causa mononeurite múltipla, mas de instalação aguda/subaguda, dolorosa, com marcadores inflamatórios elevados e manifestações sistêmicas (perda ponderal, púrpura palpável, alteração renal) — não cursa com madarose nem placas anestésicas.\nA doença de Charcot-Marie-Tooth 1A é hereditária, de início na infância/adolescência, simétrica, com pé cavo, atrofia em 'garrafa de champanhe invertida' e história familiar.\nPegadinha: em áreas endêmicas, todo espessamento de nervo periférico com hipoestesia deve ser investigado como hanseníase, mesmo sem lesão cutânea (forma neural pura)."
+    },
+    {
+     "enunciado": "Indique o exame complementar mais adequado para a confirmação etiológica e a classificação operacional do caso:",
+     "alternativas": {
+      "a": "Baciloscopia de raspado intradérmico em esfregaço.",
+      "b": "Eletroneuromiografia de quatro membros.",
+      "c": "Ressonância magnética do plexo braquial.",
+      "d": "Dosagem sérica de anticorpo anti-PGL-1."
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "A baciloscopia do raspado intradérmico, colhida em sítios padronizados (lóbulos das orelhas, cotovelos e lesão ativa), é o exame complementar recomendado pelo Ministério da Saúde: um índice baciloscópico positivo classifica o caso obrigatoriamente como MULTIBACILAR, o que muda o esquema e o tempo de poliquimioterapia. Neste paciente, com mais de cinco lesões e mais de um tronco nervoso acometido, a classificação já é multibacilar pelo critério clínico, e a baciloscopia positiva apenas a reforça — vale lembrar que baciloscopia NEGATIVA não exclui a doença.\nA eletroneuromiografia documenta e quantifica o dano axonal e os bloqueios, sendo útil para monitorar neurite e para a forma neural pura, mas não estabelece a etiologia — o achado de mononeuropatia múltipla é inespecífico.\nA ressonância do plexo braquial pode mostrar espessamento e realce dos nervos, porém não é exame de rotina, é de custo alto e igualmente inespecífica.\nO anti-PGL-1 tem boa correlação com carga bacilar em multibacilares e utilidade em estudos de contatos, mas não é exame diagnóstico isolado na rotina do SUS, e é frequentemente negativo nas formas paucibacilares.\nPérola de prova: o diagnóstico da hanseníase é essencialmente CLÍNICO, firmado por qualquer um dos três sinais cardinais — lesão com alteração de sensibilidade, espessamento neural com comprometimento de função, ou baciloscopia positiva."
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada neste momento:",
+     "alternativas": {
+      "a": "Poliquimioterapia paucibacilar por 6 meses.",
+      "b": "Poliquimioterapia única por 12 meses associada a prednisona.",
+      "c": "Talidomida isolada em dose plena.",
+      "d": "Rifampicina em dose única para todos os contatos."
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "O paciente tem doença multibacilar (mais de cinco lesões e mais de um tronco nervoso acometido) e, sobretudo, NEURITE com dano funcional instalado — garra ulnar e pé caído. A conduta é dupla e simultânea: poliquimioterapia única (rifampicina, dapsona e clofazimina) por 12 doses mensais supervisionadas, conforme o esquema atual do Ministério da Saúde, MAIS corticoterapia com prednisona 1 mg/kg/dia em redução lenta e programada, por pelo menos 3 a 6 meses, para conter o processo inflamatório do nervo. Neurite é urgência em hanseníase: o retardo do corticoide converte déficit reversível em incapacidade permanente.\nA poliquimioterapia paucibacilar por 6 meses está indicada para casos com até cinco lesões e um único tronco nervoso — subtratar um multibacilar leva a recidiva.\nA talidomida é o tratamento de escolha da reação tipo 2 (eritema nodoso hansênico) em homens, mas é ineficaz para o dano neural isolado e não substitui o corticoide na neurite; além disso é absolutamente contraindicada em mulheres em idade fértil sem contracepção rigorosa.\nA rifampicina em dose única é a quimioprofilaxia dos CONTATOS, medida de saúde pública importante e que deve ser feita em paralelo, mas não trata o doente-índice.\nPérola: a hanseníase é de notificação compulsória e exige avaliação neurológica simplificada com grau de incapacidade física no diagnóstico, a cada consulta e na alta.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 148 — Neuropatia na Hanseníase; complementar com o PCDT Hanseníase do Ministério da Saúde (esquema PQT-U, manejo de estados reacionais e avaliação neurológica simplificada)."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nefrologia (hidronefrose antenatal / refluxo vesicoureteral) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "ALTO",
+   "vinheta": "Recém-nascido nas primeiras horas de vida, de parto natural, a termo e sem intercorrências, tem uma história de que, na 20ª semana da gestação, apresentou, na ultrassonografia pré-natal, uma dilatação renal de 5 mm, unilateral. Novo exame ultrassonográfico, na 32ª semana, evidenciou dilatação renal, no mesmo lado, de 11 mm, com volume do líquido amniótico normal. Ao nascimento, foi verificado que o cordão umbilical apresentava artéria umbilical única.",
+   "perguntas": [
+    {
+     "enunciado": "O achado renal no período intrauterino indica o diagnóstico de:",
+     "alternativas": {
+      "a": "Cisto renal.",
+      "b": "Hidronefrose.",
+      "c": "Malformação renal.",
+      "d": "Megaureter obstrutivo."
+     },
+     "correta": "b",
+     "dificuldade": "facil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Dilatação da pelve renal identificada em ultrassonografia pré-natal define, por si só, HIDRONEFROSE antenatal — o termo é descritivo do achado de imagem, não da causa. A quantificação usa o diâmetro anteroposterior da pelve renal: no segundo trimestre, valores de 4 a 7 mm são considerados leves, 7 a 10 mm moderados e acima de 10 mm graves; no terceiro trimestre, os limiares sobem para 7, 7 a 15 e acima de 15 mm. Este feto progrediu de 5 mm na 20ª semana para 11 mm na 32ª, ou seja, dilatação persistente e em progressão, o que obriga investigação pós-natal.\nCisto renal tem aparência ultrassonográfica distinta — imagem anecoica arredondada, sem comunicação com o sistema coletor —, e não é o que a descrição de 'dilatação renal' progressiva indica.\n'Malformação renal' é termo genérico demais e não corresponde a um diagnóstico ultrassonográfico específico; a hidronefrose é apenas uma das apresentações do amplo grupo das anomalias congênitas do rim e do trato urinário (CAKUT).\nMegaureter obstrutivo é uma CAUSA possível de hidronefrose, e não o achado propriamente dito; além disso, seu diagnóstico exige demonstração da dilatação ureteral (acima de 7 mm), não descrita no enunciado.\nPérolas: o volume de líquido amniótico NORMAL é um dado tranquilizador, pois oligoidrâmnio no segundo/terceiro trimestre sugere obstrução baixa grave ou disfunção renal bilateral, com risco de hipoplasia pulmonar. A artéria umbilical única é marcador de malformações associadas, sobretudo do trato urinário, e reforça a necessidade de investigação."
+    },
+    {
+     "enunciado": "Indique a mais provável causa do quadro apresentado:",
+     "alternativas": {
+      "a": "Ectopia ureteral.",
+      "b": "Refluxo vesicoureteral.",
+      "c": "Válvula de uretra posterior.",
+      "d": "Estenose da junção ureterovesical."
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O gabarito da banca é refluxo vesicoureteral, causa responsável por cerca de 10 a 20% das hidronefroses antenatais e que deve ser lembrada especialmente quando a dilatação é UNILATERAL, variável entre exames e sem sinais de obstrução fixa. O mecanismo é a incompetência do mecanismo valvular da junção ureterovesical: o trajeto submucoso do ureter é curto demais para ser comprimido durante o enchimento e a micção, permitindo o retorno retrógrado da urina — e é justamente esse caráter intermitente que explica dilatações que oscilam de tamanho.\nA ectopia ureteral (ureter que desemboca fora do trígono) associa-se classicamente a sistema duplicado e, em meninas, a gotejamento urinário contínuo apesar de micções normais; é causa incomum e o enunciado não traz esses elementos.\nA válvula de uretra posterior é obstrução BAIXA, exclusiva do sexo masculino, e cursa com hidronefrose BILATERAL, bexiga espessada e de paredes trabeculadas, ureteres dilatados e, frequentemente, oligoidrâmnio — incompatível com acometimento unilateral e líquido amniótico normal.\nA estenose da junção ureterovesical produz megaureter obstrutivo primário, com ureter distal muito dilatado e pelve dilatada, achado que teria sido descrito.\nPérola de prova: a causa mais FREQUENTE de hidronefrose antenatal, no conjunto geral, é a estenose da junção ureteropélvica (cerca de 10 a 30%), e a mais comum de todas as alterações é a hidronefrose transitória/fisiológica, que se resolve espontaneamente — mas o refluxo é a resposta esperada quando a banca destaca unilateralidade com progressão e marcador de malformação associado."
+    },
+    {
+     "enunciado": "Para classificar a doença quanto à gravidade e ao prognóstico, o principal exame a ser realizado, após o nascimento, é:",
+     "alternativas": {
+      "a": "Clearance de creatinina.",
+      "b": "Uretrocistografia miccional.",
+      "c": "Ultrassonografia de vias urinárias.",
+      "d": "Tomografia Computadorizada de vias urinárias."
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A ultrassonografia de vias urinárias é o exame INICIAL obrigatório após o nascimento: não invasiva, sem radiação, permite medir o diâmetro anteroposterior da pelve, avaliar espessura e diferenciação do parênquima, dilatação de cálices e de ureteres, e o aspecto da bexiga — dados que definem a gravidade pela classificação da Sociedade de Urologia Fetal ou pelo sistema UTD (Urinary Tract Dilation) e orientam toda a sequência da investigação. Detalhe cronológico muito cobrado: deve ser feita APÓS as primeiras 48 horas de vida, porque a oligúria fisiológica do recém-nascido subestima a dilatação e gera falso-negativo; a exceção é a suspeita de obstrução bilateral grave ou válvula de uretra posterior, em que se examina imediatamente.\nO clearance de creatinina no recém-nascido é pouco informativo nos primeiros dias, pois a creatinina reflete a função MATERNA e só se equilibra ao longo das primeiras semanas; não classifica gravidade estrutural.\nA uretrocistografia miccional é o exame que CONFIRMA e gradua o refluxo vesicoureteral (graus I a V), mas é invasivo, envolve sondagem e radiação, e sua indicação é reservada aos casos com dilatação significativa persistente na ultrassonografia, dilatação ureteral, alterações vesicais ou infecção urinária febril — não é o primeiro passo.\nA tomografia expõe a radiação desnecessária, tem baixa resolução funcional e não faz parte da propedêutica inicial dessa condição.\nPérolas: a cintilografia renal com DMSA avalia cicatriz e função relativa, enquanto o DTPA/MAG-3 avalia drenagem e obstrução. A conduta na maioria dos casos leves é conservadora, com ultrassonografias seriadas, e a antibioticoprofilaxia fica reservada a situações de risco selecionadas, como refluxo de alto grau.\n📚 Leitura sugerida (bloco): videoaula de Nefrologia (ITU/hidronefrose) do R+ Pediatria MEDGRUPO no seu Drive (https://drive.google.com/file/d/1KuvXkP9naQp1_JIcYrTNEDsoqD5K3DXG/view); complementar com o documento científico da SBP sobre hidronefrose antenatal e o consenso UTD para classificação da dilatação do trato urinário."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Demências (demência frontotemporal, variante comportamental)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 61 anos de idade, bancário aposentado, é trazido pela esposa por mudança de personalidade nos últimos 2 anos. Passou a fazer comentários constrangedores sobre a aparência de estranhos, gastou as economias da família em compras por impulso e perdeu completamente o interesse pelos netos, de quem antes era muito próximo. Come compulsivamente doces, chegando a comer alimentos do prato dos outros, e desenvolveu o hábito rígido de caminhar sempre pelo mesmo percurso no mesmo horário. Ao exame: orientado no tempo e no espaço, repete listas de palavras com desempenho apenas discretamente abaixo do esperado e lembra o caminho de casa sem dificuldade; falha em testes de fluência verbal e de inibição de resposta; não há tremor, rigidez ou alteração da marcha. Rastreio laboratorial e sorologias sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o perfil clínico e neuropsicológico, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Demência frontotemporal, variante comportamental.",
+      "b": "Doença de Alzheimer de início precoce.",
+      "c": "Comprometimento cognitivo vascular subcortical.",
+      "d": "Transtorno afetivo bipolar de início tardio."
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "O caso preenche o núcleo diagnóstico da variante comportamental da demência frontotemporal: desinibição social precoce, apatia com perda de empatia, comportamento perseverante/ritualístico, hiperoralidade com preferência por doces e disfunção executiva com RELATIVA PRESERVAÇÃO da memória episódica e das habilidades visuoespaciais. São necessários três desses seis domínios para o diagnóstico possível. O substrato é a degeneração lobar frontotemporal, com acúmulo de proteína tau, TDP-43 ou FUS, e atrofia de córtex pré-frontal medial, orbitofrontal e insular — regiões da cognição social.\nA doença de Alzheimer de início precoce começa por déficit de memória episódica de codificação, com falha que NÃO melhora com pistas semânticas, e desorientação topográfica precoce; aqui o paciente lembra o caminho de casa e tem aprendizado apenas discretamente reduzido, o que vai contra.\nO comprometimento cognitivo vascular subcortical exige fatores de risco, evolução em degraus ou lentamente progressiva com lentificação psicomotora, alterações de marcha precoces e leucoaraiose — nada disso está descrito.\nO transtorno bipolar de início tardio poderia explicar impulsividade e gastos, mas cursa em episódios com retorno ao funcionamento basal, sem declínio executivo progressivo, sem hiperoralidade e sem perda de empatia sustentada.\nPegadinha: até 40% dos casos têm história familiar, e mutações em C9orf72, MAPT e GRN podem cursar com sobreposição de doença do neurônio motor — vale perguntar por fasciculações e disfagia."
+    },
+    {
+     "enunciado": "Indique o achado de neuroimagem estrutural mais esperado neste caso:",
+     "alternativas": {
+      "a": "Atrofia hipocampal medial simétrica desproporcional.",
+      "b": "Múltiplos infartos lacunares em núcleos da base.",
+      "c": "Hipersinal periventricular confluente em T2/FLAIR.",
+      "d": "Atrofia frontal e temporal anterior assimétrica."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "A ressonância na variante comportamental mostra atrofia dos lobos frontais (sobretudo região orbitofrontal e cingulado anterior) e dos polos temporais anteriores, tipicamente ASSIMÉTRICA e com predomínio à direita nos casos de maior alteração da conduta social. Quando a ressonância é ainda pouco expressiva no início, o FDG-PET revela hipometabolismo frontotemporal, servindo como critério de diagnóstico provável associado ao quadro clínico.\nA atrofia hipocampal medial desproporcional (escala de Scheltens) é o marcador estrutural da doença de Alzheimer; pode haver algum grau de atrofia hipocampal na demência frontotemporal, mas nunca desproporcional em relação ao acometimento frontal.\nInfartos lacunares múltiplos em núcleos da base caracterizam a doença de pequenos vasos e correspondem ao comprometimento cognitivo vascular, com síndrome disexecutiva, marcha a pequenos passos e incontinência precoce.\nO hipersinal periventricular confluente (leucoaraiose extensa, Fazekas 3) igualmente aponta doença de pequenos vasos, e não degeneração lobar.\nPérolas: a atrofia do polo temporal anterior ESQUERDO com perda do conhecimento de palavras e objetos caracteriza a variante semântica; a atrofia peri-silviana esquerda com agramatismo e apraxia de fala caracteriza a variante não fluente. Biomarcadores de amiloide negativos ajudam a afastar Alzheimer nos casos duvidosos."
+    },
+    {
+     "enunciado": "Indique a abordagem farmacológica inicial mais apropriada para os sintomas comportamentais:",
+     "alternativas": {
+      "a": "Donepezila em dose crescente.",
+      "b": "Haloperidol em dose baixa contínua.",
+      "c": "Inibidor seletivo de recaptação da serotonina.",
+      "d": "Memantina como monoterapia."
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "Não há tratamento modificador de doença na demência frontotemporal; o manejo é sintomático e centrado no comportamento, e os inibidores seletivos de recaptação da serotonina (sertralina, citalopram, escitalopram, fluoxetina, trazodona) são a primeira escolha farmacológica, com benefício descrito sobre desinibição, compulsão alimentar, estereotipias e impulsividade. Antes de qualquer medicamento, intervenções não farmacológicas — estruturação de rotina, retirada de acesso a cartões e dinheiro, adaptação ambiental e orientação ao cuidador — são obrigatórias, e a perda de crítica costuma exigir discussão precoce sobre curatela e cessação da direção veicular.\nA donepezila NÃO tem benefício demonstrado nesta doença e pode PIORAR a desinibição e a agitação, porque o déficit colinérgico central característico do Alzheimer não é o mecanismo predominante aqui.\nO haloperidol contínuo deve ser evitado: antipsicóticos típicos aumentam risco de parkinsonismo, quedas e mortalidade em demências; se um antipsicótico for indispensável, prefere-se atípico em dose mínima e por tempo limitado.\nA memantina foi testada em ensaio randomizado nesta população e não mostrou eficácia, com sinal de piora cognitiva em alguns desfechos.\nPérola: a sobrevida média é de 6 a 11 anos do início dos sintomas e cai substancialmente quando há doença do neurônio motor associada.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 99 — Demência Frontotemporal; complementar com o cap. 106 — Tratamento dos Transtornos Comportamentais nas Demências."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Alergia/Gastroenterologia (alergia à proteína do leite de vaca) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "MÉDIO",
+   "vinheta": "Menina, 6 meses, em aleitamento materno exclusivo, com história de sangramento nas fezes e dificuldade de ganhar peso, é encaminhada ao pediatra. A criança, após excluídas outras possibilidades, teve suspeita de Alergia à Proteína do Leite de Vaca.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o teste diagnóstico a ser realizado, nesse caso:",
+     "alternativas": {
+      "a": "Colonoscopia.",
+      "b": "Biópsia intestinal.",
+      "c": "Teste de provocação oral.",
+      "d": "Trânsito Intestinal Contrastado."
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O teste de provocação oral é o padrão-ouro para o diagnóstico de alergia à proteína do leite de vaca, e o motivo é conceitual: nas formas NÃO mediadas por IgE — como a proctocolite alérgica descrita aqui, com sangue nas fezes em lactente em aleitamento exclusivo e bom estado geral — não existe exame laboratorial capaz de confirmar o diagnóstico. IgE específica e teste cutâneo de puntura só têm valor nas formas mediadas por IgE (urticária, angioedema, anafilaxia, vômitos imediatos) e, nas não mediadas, resultam negativos. A sequência correta é: dieta de exclusão por 2 a 4 semanas com resolução dos sintomas, seguida de reintrodução controlada (provocação) com retorno dos sintomas — sem esse fechamento, corre-se o risco de manter dietas restritivas desnecessárias por anos.\nA colonoscopia pode mostrar hiperplasia nodular linfoide e infiltrado eosinofílico, mas é invasiva, exige sedação e fica reservada a casos atípicos, refratários ou com sangramento importante que levante suspeita de doença inflamatória intestinal.\nA biópsia intestinal tem papel na investigação de enteropatia induzida por proteína alimentar com má absorção grave ou na suspeita de doença celíaca, não na proctocolite típica.\nO trânsito intestinal contrastado avalia anatomia e motilidade e não tem qualquer utilidade diagnóstica em alergia alimentar.\nPérola: a proctocolite alérgica é a apresentação mais comum em lactentes amamentados, cursa com sangue vivo em pequena quantidade nas fezes, criança eutrófica e ativa, e responde à exclusão de leite e derivados da dieta MATERNA."
+    },
+    {
+     "enunciado": "Sendo confirmada a suspeita, indique a conduta adequada:",
+     "alternativas": {
+      "a": "Excluir o aleitamento materno e utilizar fórmulas alimentares de aminoácidos.",
+      "b": "Excluir o aleitamento materno e utilizar fórmulas alimentares com proteína hidrolisada.",
+      "c": "Manter aleitamento materno e introduzir novos alimentos, retirando da dieta da mãe leite e derivados.",
+      "d": "Manter aleitamento materno e adiar a introdução de novos alimentos, retirando da dieta da mãe leite e derivados."
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A conduta correta preserva o aleitamento materno e retira leite de vaca e derivados da dieta da MÃE, porque as proteínas do leite ingeridas por ela passam para o leite materno em pequenas quantidades e são suficientes para sensibilizar o lactente predisposto. A resposta clínica costuma ocorrer em 2 a 4 semanas. Simultaneamente, aos 6 meses, a introdução da alimentação complementar deve seguir NORMALMENTE, no tempo preconizado — apenas evitando leite de vaca e derivados.\nExcluir o aleitamento materno e passar a fórmula de aminoácidos é conduta desproporcional: a fórmula de aminoácidos é reservada às formas graves, à falha do extensamente hidrolisado, à anafilaxia e à enteropatia com comprometimento nutricional importante — e, ainda assim, apenas para crianças que NÃO estão em aleitamento materno.\nSubstituir o peito por hidrolisado protéico repete o mesmo erro conceitual: desmamar é a última coisa a se fazer, pois o leite materno mantém proteção imunológica, é o padrão-ouro nutricional e permite o controle da alergia com uma simples modificação da dieta materna.\nAdiar a introdução de novos alimentos é conduta ANTIQUADA e hoje contraindicada: retardar a introdução de alimentos potencialmente alergênicos não previne alergia e pode até aumentar o risco de sensibilização, além de comprometer o aporte de ferro e zinco, cujas reservas se esgotam por volta dos 6 meses.\nPérola: quando a mãe faz dieta de exclusão de leite e derivados, é obrigatória a suplementação de cálcio (cerca de 1.000 mg/dia) e de vitamina D."
+    },
+    {
+     "enunciado": "Indique a idade na qual a maioria das crianças acometidas com a Alergia à Proteína do Leite de Vaca terá desenvolvido tolerância ao leite:",
+     "alternativas": {
+      "a": "2 anos.",
+      "b": "3 anos.",
+      "c": "5 anos.",
+      "d": "18 meses."
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O gabarito é 3 anos: a alergia à proteína do leite de vaca tem prognóstico favorável, e a maioria das crianças desenvolve tolerância por volta dos 3 anos de idade — cerca de 50% ao final do primeiro ano nas formas não mediadas por IgE, 75% aos 2 anos e mais de 85 a 90% aos 3 anos. Esse é o motivo pelo qual a reavaliação periódica com teste de provocação oral, em intervalos de 6 a 12 meses, é parte obrigatória do seguimento: manter a dieta de exclusão além do necessário traz prejuízo nutricional, social e financeiro.\nAos 2 anos boa parte já tolera, mas ainda não se atingiu o patamar de 'maioria consolidada' que a questão pede, e essa foi a alternativa que mais atraiu quem lembrava o número parcial.\nAos 5 anos praticamente todos os casos não mediados por IgE já se resolveram; esse prazo mais longo corresponde a um subgrupo específico — as formas mediadas por IgE com títulos altos e persistentes, que podem se estender até a adolescência.\n18 meses é prazo curto demais para caracterizar tolerância da maioria e reflete confusão com a orientação de reavaliar a dieta periodicamente.\nPérolas: a proctocolite alérgica é a forma de melhor prognóstico e habitualmente se resolve ainda no primeiro ano; a FPIES (síndrome da enterocolite induzida por proteína alimentar) tem apresentação dramática, com vômitos profusos 1 a 4 horas após a ingestão, palidez e letargia, podendo simular sepse ou abdome agudo, e também tende a se resolver nos primeiros anos. Um erro comum de prova é confundir alergia à proteína do leite de vaca com intolerância à lactose — esta é um distúrbio enzimático, sem mecanismo imunológico, extremamente rara como forma primária em lactentes.\n📚 Leitura sugerida (bloco): 'Nutrição em Pediatria na Prática Clínica' (Sarni, 2021) no seu Drive (https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view), capítulo de alergia alimentar; complementar com o Consenso Brasileiro sobre Alergia Alimentar (ASBAI/SBP) e o Guia Prático de Atualização da SBP sobre APLV."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas (hemorragia subaracnóidea) [REAL: SUS-BA R+ Clínica Médica 2021]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 53 anos de idade, dá entrada no pronto-socorro queixando-se de cefaleia intensa, holocraniana, 10/10 na escala de dor, há cerca de 4 horas, associada a náuseas e vômitos. Nega comorbidades. Tabagista de 30 anos/maço. Sinais vitais: T. Axilar = 36,8°C; FC = 106 bpm; PA = 174x102 mmHg. Ao exame, apresenta-se com fácies de dor, corada, lúcida e orientada, com pupilas isocóricas e fotorreagentes, sem sinais focais. Apresenta discreta rigidez nucal. Ausculta cardiorrespiratória e exame abdominal sem achados. Realizada TC de crânio sem contraste, evidenciando hiperdensidade nas cisternas basais.",
+   "perguntas": [
+    {
+     "enunciado": "Identifique a alternativa com a informação mais adequada em relação ao diagnóstico do caso:",
+     "alternativas": {
+      "a": "O quadro sugere um sangramento entre a dura-máter e a aracnoide.",
+      "b": "O quadro provavelmente decorreu da ruptura de um aneurisma adquirido.",
+      "c": "O achado tomográfico permite classificar o quadro na escala de Hunt e Hess em grau 2.",
+      "d": "A tomografia sugere uma hemorragia subaracnoide não aneurismática."
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2021] Cefaleia em trovoada 10/10 com pico em segundos, rigidez nucal e hiperdensidade nas CISTERNAS BASAIS na tomografia sem contraste configuram hemorragia subaracnóidea, e a causa não traumática responsável por cerca de 85% dos casos é a ruptura de aneurisma sacular. O adjetivo 'adquirido' está correto: o aneurisma sacular não é congênito, e sim adquirido ao longo da vida por estresse hemodinâmico em bifurcações arteriais, com fatores de risco modificáveis como tabagismo (presente aqui, 30 anos/maço) e hipertensão arterial.\nSangramento entre a dura-máter e a aracnoide descreve o hematoma SUBDURAL, cuja imagem é uma coleção em crescente que acompanha a convexidade e cruza suturas — não é o padrão cisternal descrito.\nA classificação de Hunt e Hess é CLÍNICA, não tomográfica; a escala que usa a tomografia é a de Fisher (modificada). Além disso, a paciente lúcida com cefaleia intensa e rigidez nucal, sem déficit focal, corresponde a Hunt e Hess grau 2 pelo quadro clínico — o erro da alternativa está em atribuir a graduação ao achado de imagem.\nA hemorragia perimesencefálica não aneurismática tem sangue restrito à cisterna pré-pontina/interpeduncular, curso benigno e angiografia negativa; a distribuição difusa em cisternas basais aqui aponta o contrário.\nPegadinha: tomografia normal com forte suspeita clínica obriga punção lombar em busca de xantocromia, cuja sensibilidade cresce após 12 horas do início da dor."
+    },
+    {
+     "enunciado": "Com base no quadro, indique o exame complementar padrão-ouro para a avaliação etiológica:",
+     "alternativas": {
+      "a": "Exame do líquor.",
+      "b": "Angiorressonância cerebral.",
+      "c": "PET scan.",
+      "d": "Angiografia cerebral."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2021] O padrão-ouro para definir a etiologia da hemorragia subaracnóidea é a angiografia cerebral digital com subtração, capaz de identificar aneurismas pequenos (abaixo de 3 mm), definir colo, tamanho e relação com ramos perfurantes, avaliar circulação colateral e, no mesmo tempo, permitir o tratamento endovascular. Quando a primeira angiografia é negativa em paciente com padrão difuso de sangramento, repete-se o exame em 7 a 14 dias, pois o vasoespasmo ou o trombo intra-aneurismático podem ocultar a lesão.\nO exame do líquor tem papel DIAGNÓSTICO (xantocromia) quando a tomografia é normal e a suspeita persiste, mas não localiza nem caracteriza a fonte do sangramento — não é exame etiológico.\nA angiorressonância é não invasiva e útil em rastreamento de aneurismas em assintomáticos com história familiar, porém tem resolução espacial inferior e perde aneurismas pequenos; na fase aguda, quando não se faz a angiografia digital de imediato, a angiotomografia é a alternativa preferida, com sensibilidade acima de 95% para aneurismas maiores de 4 mm.\nO PET scan não tem qualquer papel na investigação de hemorragia subaracnóidea aguda; sua indicação é metabólica/oncológica.\nPérola: o tratamento definitivo do aneurisma roto — clipagem ou embolização com molas — deve ocorrer idealmente nas primeiras 24 a 72 horas, pois o pico de ressangramento é nas primeiras 24 horas e a mortalidade do ressangramento supera 50%."
+    },
+    {
+     "enunciado": "Diante do caso, identifique o tratamento mais adequado, neste momento:",
+     "alternativas": {
+      "a": "A paciente deve ser mantida em hipotensão arterial leve para evitar ressangramento.",
+      "b": "A paciente deveria receber transfusão de plaquetas, se estiver em uso de antiagregante plaquetário.",
+      "c": "A paciente deve, inicialmente, ser mantida preferencialmente em euvolemia.",
+      "d": "Deverá ser iniciado nimodipino 60 mg a cada 4 horas, caso a paciente apresente vasoespasmo."
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2021] O manejo inicial da hemorragia subaracnóidea aneurismática prevê EUVOLEMIA como meta volêmica. A antiga estratégia do 'triplo H' (hipertensão, hipervolemia e hemodiluição) foi abandonada: a hipervolemia profilática aumenta edema pulmonar e complicações cardíacas sem reduzir isquemia tardia. Mantém-se normovolemia, controle da dor, repouso, profilaxia de ressangramento com controle pressórico (PAS abaixo de 160 mmHg até a exclusão do aneurisma) e nimodipino oral.\nManter hipotensão arterial LEVE é conduta perigosa: reduzir demais a pressão de perfusão cerebral, num cérebro com autorregulação comprometida e risco de vasoespasmo, precipita isquemia cerebral tardia. O alvo é evitar picos hipertensivos, não induzir hipotensão.\nA transfusão de plaquetas em usuário de antiagregante não é recomendada de rotina — o estudo PATCH, em hemorragia intracerebral espontânea, mostrou PIORA de desfecho funcional com essa prática; a indicação restringe-se a plaquetopenia significativa ou a situações cirúrgicas específicas.\nO erro da alternativa do nimodipino está no 'caso apresente vasoespasmo': o nimodipino 60 mg via oral a cada 4 horas por 21 dias é PROFILÁTICO e prescrito a TODOS os pacientes desde o diagnóstico, com benefício demonstrado sobre desfecho neurológico, e não como resgate após o vasoespasmo instalado.\nPérola: o vasoespasmo sintomático concentra-se entre o 4º e o 14º dia, e o rastreio é feito com Doppler transcraniano seriado.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 57 — Hemorragia Subaracnóidea; complementar com o cap. 32 — Cefaleia na Unidade de Emergência (abordagem da cefaleia em trovoada)."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas / Exantemáticas (mpox) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "ALTO",
+   "vinheta": "A varíola dos macacos é transmitida pelo vírus monkeypox, que pertence ao gênero orthopoxvírus. É considerada uma zoonose viral (o vírus é transmitido aos seres humanos a partir de animais) com sintomas muito semelhantes aos observados em pacientes com varíola, embora seja clinicamente menos grave. A Organização Mundial da Saúde descreve quadros diferentes de sintomas para casos suspeitos, prováveis e confirmados.",
+   "perguntas": [
+    {
+     "enunciado": "Quanto à ocorrência de varíola do macaco em crianças pode se dizer que:",
+     "alternativas": {
+      "a": "Diferentemente de varicela, as lesões já surgem como vesículas.",
+      "b": "Diferentemente da varicela, as lesões crostosas não são infectantes.",
+      "c": "É doença autolimitada, cujos sintomas duram de 2 a 4 semanas.",
+      "d": "Um contato casual na escola, por exemplo, é capaz de transmitir a doença."
+     },
+     "correta": "c",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A mpox é doença autolimitada na grande maioria dos casos, com duração habitual de 2 a 4 semanas, e o tratamento é essencialmente de suporte — analgesia, hidratação, cuidado das lesões e prevenção de infecção bacteriana secundária. Antivirais como o tecovirimat ficam reservados a doença grave, imunossuprimidos, crianças pequenas, gestantes e lesões em sítios de risco (olhos, boca, região anogenital).\nA afirmação de que as lesões 'já surgem como vesículas' é falsa: a erupção da mpox é MONOMÓRFICA e evolui de forma sincrônica pelos estágios de mácula, pápula, vesícula, pústula e crosta — começa como mácula, e não como vesícula. Aliás, esse é o contraste clássico com a varicela, cujo exantema é POLIMÓRFICO ('céu estrelado'), com lesões em diferentes estágios ao mesmo tempo.\nDizer que as crostas não são infectantes é perigoso e incorreto: o material das crostas contém vírus viável, e o paciente é considerado transmissor até que TODAS as crostas caiam e haja reepitelização completa — daí a orientação de isolamento prolongado.\nA transmissão exige contato PRÓXIMO e prolongado — contato direto com lesões, fluidos corporais, secreções respiratórias em contato face a face sustentado, ou fômites como roupas e roupas de cama contaminadas; contato casual de escola não é considerado exposição de risco.\nPérolas: a linfadenopatia proeminente é o achado que ajuda a diferenciar mpox de varíola e de varicela; período de incubação de 5 a 21 dias; notificação imediata."
+    },
+    {
+     "enunciado": "A realização de exame para confirmar ou descartar a doença, deve ser conduta indicada se o quadro cutâneo for acompanhado por:",
+     "alternativas": {
+      "a": "Linfadenopatia, febre acima de 38,5°C, náuseas e prurido generalizado.",
+      "b": "Linfadenopatia, febre acima de 38,5°C, cefaleia e dores musculares.",
+      "c": "Cefaleia, prurido generalizado, náuseas e dores musculares.",
+      "d": "Tontura, febrícula e dor nos locais das lesões."
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A definição de caso suspeito adotada pela OMS e reproduzida pelo Ministério da Saúde combina erupção cutânea aguda com pelo menos um dos sinais e sintomas do pródromo característico: LINFADENOPATIA (cervical, submandibular, axilar ou inguinal), febre acima de 38,5°C, cefaleia, mialgia, dor lombar e astenia. A alternativa correta reúne exatamente esses elementos, e a chave discriminante é a linfadenopatia associada à febre alta e às queixas sistêmicas.\nA opção que troca cefaleia e mialgia por náuseas e PRURIDO generalizado descaracteriza o quadro: prurido intenso e difuso é muito mais típico da varicela, e náusea não integra a definição de caso.\nA combinação sem linfadenopatia (cefaleia, prurido, náuseas e mialgia) perde justamente o achado semiológico que distingue a mpox das demais viroses exantemáticas — a adenomegalia foi, historicamente, o critério clínico usado para separá-la da varíola.\nTontura, febrícula e dor local são inespecíficos e não preenchem definição de caso suspeito.\nSobre o diagnóstico laboratorial: a confirmação é por PCR em tempo real do material das LESÕES — swab vigoroso do teto ou da base da vesícula/pústula, ou a própria crosta —, e não por sorologia, que sofre reação cruzada entre ortopoxvírus e tem valor limitado.\nPérola de prova: casos em crianças, gestantes e imunossuprimidos têm maior risco de complicações (encefalite, pneumonite, ceratite com cegueira, sepse bacteriana secundária) e devem ser acompanhados de perto."
+    },
+    {
+     "enunciado": "Para definição do caso após exposição a material contaminado, o prazo de contato, de acordo com a Organização Mundial de Saúde (OMS), é de no máximo:",
+     "alternativas": {
+      "a": "2 semanas, antes do início dos sintomas.",
+      "b": "1 semana, antes do início dos sintomas.",
+      "c": "3 dias, antes do início dos sintomas.",
+      "d": "2 dias, antes do início dos sintomas."
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O critério epidemiológico adotado pela OMS para a definição de caso suspeito de mpox considera exposição — contato físico próximo com caso suspeito/provável/confirmado, contato sexual, ou contato com materiais contaminados, como roupas de cama e utensílios — nos 21 dias que antecedem o início dos sintomas para o vínculo epidemiológico amplo; especificamente para o contato com MATERIAL contaminado, o intervalo considerado pela banca, conforme a nota técnica vigente à época, é de até 1 semana antes do início dos sintomas. É um item de memorização pura de definição de caso, e por isso classificado como difícil.\nDuas semanas superestima o prazo previsto para essa situação específica de exposição a fômites.\nTrês dias e dois dias são intervalos curtos demais e incompatíveis com o período de incubação da doença, que varia de 5 a 21 dias — se o prazo de rastreio de exposição fosse menor que a incubação mínima, praticamente nenhum caso seria capturado pela definição.\nRaciocínio útil para a prova: sempre que uma alternativa propuser janela de exposição MENOR que o período de incubação mínimo da doença, ela pode ser descartada por incoerência interna.\nPérolas: a mpox é de notificação IMEDIATA (em até 24 horas) no Brasil; o isolamento do caso mantém-se até a queda de todas as crostas com reepitelização; a vacinação com vacina de terceira geração (MVA-BN) é dirigida a grupos de risco e a profilaxia pós-exposição idealmente ocorre nos primeiros 4 dias após o contato; e o manejo domiciliar exige orientação sobre roupas de cama, toalhas e superfícies, além de cobrir as lesões e evitar contato com animais.\n📚 Leitura sugerida (bloco): videoaula de Infectologia/exantemáticas do R+ Pediatria MEDGRUPO no seu Drive (https://drive.google.com/file/d/1ayloTkRXLIY0gA34-LDh7q546oquQs6h/view); complementar com o Guia de Vigilância em Saúde do Ministério da Saúde e as notas técnicas do MS/OMS sobre mpox (definições de caso, coleta por PCR de lesão e medidas de isolamento)."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropediatria específica (paralisia flácida aguda / poliomielite) [REAL: SUS-BA R1 Acesso Direto 2023]",
+   "tier": "ALTO",
+   "vinheta": "Criança, 5 anos de idade, iniciou quadro febril agudo seguido de cefaleia e mialgias. Foi levada ao Hospital de Doenças Infectocontagiosas, onde teve o diagnóstico de meningite viral, tendo alta com três dias por apresentar-se bem na evolução. Já em casa, sete dias após a alta, passa a apresentar perda súbita de força muscular em perna direita, com flacidez muscular. Em três dias não houve progressão, mas também não houve melhora. Os reflexos osteotendíneos estão diminuídos e a sensibilidade está preservada. Membro inferior esquerdo e demais dados do exame neurológico atual sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Quanto ao diagnóstico de poliomielite viral no quadro, pode-se dizer que:",
+     "alternativas": {
+      "a": "O quadro clínico é incompatível, pois não houve contactantes com sintomas de poliomielite.",
+      "b": "O quadro clínico é compatível, embora a paralisia mais comum na poliomielite seja espástica.",
+      "c": "O quadro clínico é compatível com a Síndrome de Guillain-Barré, com quadro típico dessa condição.",
+      "d": "O quadro clínico é compatível e deve ser considerado como poliomielite até ser afastada a doença."
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R1 Acesso Direto 2023] Toda paralisia flácida aguda em menor de 15 anos, qualquer que seja a hipótese inicial, deve ser considerada e investigada COMO POLIOMIELITE ATÉ QUE SE PROVE O CONTRÁRIO — essa é a definição operacional da vigilância epidemiológica brasileira, com notificação compulsória IMEDIATA e coleta de duas amostras de fezes (a primeira nos primeiros 14 dias do início do déficit, com intervalo mínimo de 24 horas entre elas). O quadro descrito é o clássico padrão bifásico: fase virêmica febril com meningite asséptica, breve melhora e, depois, instalação súbita de paralisia assimétrica.\nA ausência de contactantes sintomáticos não afasta nada: a maioria das infecções pelo poliovírus é ASSINTOMÁTICA (cerca de 72%) ou cursa apenas como doença febril inespecífica, e menos de 1% evolui para a forma paralítica.\nA paralisia da poliomielite é FLÁCIDA e assimétrica, porque a lesão é do neurônio motor inferior nos cornos anteriores da medula — dizer que a paralisia mais comum é espástica inverte a fisiopatologia.\nA síndrome de Guillain-Barré é o principal diferencial, mas o padrão típico dela é fraqueza SIMÉTRICA e ascendente, com arreflexia global, frequentes parestesias e dissociação proteinocitológica no líquor; aqui o déficit é assimétrico, restrito a um membro, com sensibilidade preservada e precedido de meningite asséptica.\nPegadinha: sensibilidade PRESERVADA é o dado que aponta para corno anterior; envolvimento sensitivo empurra o raciocínio para neuropatia ou mielite."
+    },
+    {
+     "enunciado": "Quanto à situação da poliomielite viral no Brasil, pode-se afirmar que:",
+     "alternativas": {
+      "a": "Encontra-se erradicada, porém com taxas de cobertura vacinal reduzidas, o que pode reintroduzir a doença no país.",
+      "b": "Encontra-se controlada, com casos apenas episódicos, devido à baixa cobertura vacinal dos últimos anos.",
+      "c": "Encontra-se erradicada e, considerando os riscos vacinais, não há indicação de vacina.",
+      "d": "Encontra-se em fase pré-epidêmica, pois casos episódicos já indicam risco de disseminação."
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R1 Acesso Direto 2023] O Brasil não registra caso autóctone de poliomielite por poliovírus selvagem desde 1989 e recebeu o certificado de eliminação nas Américas em 1994; a doença está, portanto, ERRADICADA no território nacional. O problema atual é a queda das coberturas vacinais, que em vários anos recentes ficou abaixo dos 95% preconizados, criando bolsões de suscetíveis e risco real de reintrodução a partir de países onde o poliovírus selvagem ainda circula (Afeganistão e Paquistão) ou de poliovírus derivados de vacina circulantes.\nDizer que a doença está apenas 'controlada, com casos episódicos' é factualmente incorreto — não há casos autóctones, e essa formulação confunde erradicação com controle.\nA ideia de que não há indicação de vacina por 'riscos vacinais' é o erro conceitual mais grave: enquanto houver circulação viral em qualquer parte do mundo, a suspensão da vacinação levaria à reintrodução; a erradicação global ainda não foi alcançada e a manutenção da alta cobertura é justamente o que sustenta a situação atual.\nAfirmar 'fase pré-epidêmica com casos episódicos' pressupõe casos que não existem no país.\nPérola: desde 2024 o Ministério da Saúde adota esquema exclusivamente com VIP (vacina inativada) — três doses aos 2, 4 e 6 meses e reforço aos 15 meses —, eliminando progressivamente a VOP do calendário de rotina; a poliomielite é doença de notificação compulsória imediata."
+    },
+    {
+     "enunciado": "Quanto à vacina mais empregada no Brasil para prevenção da poliomielite, pode-se afirmar que:",
+     "alternativas": {
+      "a": "É feita de vírus mortos e pode complicar com a Síndrome de Guillain-Barré.",
+      "b": "É feita com vírus vivos, provocando complicações raras por mutação viral.",
+      "c": "É feita com DNA viral isolado e pode desencadear reações autoimunes.",
+      "d": "É feita com RNA viral isolado e pode desencadear reações autoimunes."
+     },
+     "correta": "b",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R1 Acesso Direto 2023] O gabarito reflete a vacina oral (VOP, de Sabin), historicamente a mais empregada no Brasil nas campanhas de massa: contém poliovírus VIVO ATENUADO e sua complicação característica é a poliomielite associada à vacina, decorrente da reversão do vírus atenuado à neurovirulência por mutação — evento raro, na ordem de 1 caso a cada 2,4 milhões de doses, mais frequente após a primeira dose e em imunodeprimidos. Justamente por isso o país migrou para o esquema sequencial e, desde 2024, para o esquema exclusivamente inativado.\nA vacina de vírus MORTOS é a VIP (de Salk), inativada, aplicada por via intramuscular; ela não causa poliomielite vacinal e não tem associação estabelecida com síndrome de Guillain-Barré — a alternativa mistura duas vacinas diferentes e atribui a ela um evento adverso que não lhe pertence.\nNão existe vacina antipoliomielítica composta por DNA viral isolado; além disso, o poliovírus é um vírus de RNA de fita simples positiva, o que torna a afirmação duplamente incorreta.\nTambém não há vacina antipólio de RNA isolado em uso no calendário, e reações autoimunes não são o perfil de evento adverso descrito para nenhuma das duas formulações.\nPérola de prova: a VOP tem a vantagem da imunidade de mucosa intestinal e da imunização de contatos por disseminação fecal-oral, mas é contraindicada em imunodeprimidos e em contactantes domiciliares de imunodeprimidos — nesses casos, apenas VIP.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 173 — Epilepsia na Infância e cap. 174 — Síndrome do Lactente Hipotônico (abordagem da fraqueza aguda na criança); complementar com o Guia de Vigilância em Saúde do Ministério da Saúde, capítulo de Poliomielite/Paralisia Flácida Aguda, e com o Calendário Nacional de Vacinação (esquema VIP)."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Saúde Coletiva / Ética (síndrome da morte súbita do lactente e Comitês de Prevenção do Óbito Infantil e Fetal) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "ESSENCIAL",
+   "vinheta": "O termo “Síndrome de Morte Súbita na Infância” diz respeito à morte repentina de uma criança com idade inferior a 12 meses, para a qual, mesmo após investigação do caso, não foi encontrado quadro clínico de doença nem causas que possam explicar o óbito. A denominação deve ficar restrita aos casos completamente estudados, o que inclui exame post mortem com necropsia completa, sendo preferível definir os casos com características semelhantes, porém incompletamente estudados, como morte (por causa) indeterminada, para fins de emissão da Declaração de Óbito, com o intuito de se formar uma casuística fidedigna, a fim de dimensionar o problema.",
+   "perguntas": [
+    {
+     "enunciado": "São fatores de risco para a síndrome de “Morte Súbita na Infância”:",
+     "alternativas": {
+      "a": "Idade materna acima de 40 anos; dormir em decúbito ventral.",
+      "b": "Tabagismo materno na gravidez; pós-maturidade.",
+      "c": "Pós-maturidade; dormir em decúbito ventral.",
+      "d": "Baixo peso ao nascer; superaquecimento."
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A questão é difícil porque cada alternativa mistura um fator VERDADEIRO com um FALSO, e só uma traz os dois corretos. Baixo peso ao nascer (e prematuridade) e superaquecimento — excesso de agasalho, cobertores pesados, temperatura ambiente elevada, cabeça coberta — são fatores de risco clássicos e ambos verdadeiros. O modelo fisiopatológico aceito é o do 'risco triplo': lactente vulnerável (imaturidade dos centros de controle cardiorrespiratório e do despertar, com disfunção serotoninérgica do bulbo), em período crítico do desenvolvimento (2 a 4 meses), exposto a um estressor externo (posição prona, superaquecimento, obstrução de via aérea por superfície macia).\nA alternativa com idade materna acima de 40 anos erra no primeiro item: o risco associa-se a mãe JOVEM, adolescente ou com menos de 20 anos, e não à idade materna avançada — embora dormir em decúbito ventral esteja certíssimo.\nA que traz tabagismo materno acerta esse ponto (o tabagismo na gestação e a exposição passiva pós-natal são dos fatores mais fortes e evitáveis), mas erra ao citar pós-maturidade, que não é fator de risco.\nA opção que combina pós-maturidade com decúbito ventral repete o mesmo erro da pós-maturidade.\nPérolas para a prova: a campanha internacional 'Back to Sleep' reduziu a mortalidade em mais de 50%; recomenda-se dormir em decúbito DORSAL, em colchão firme, no berço no quarto dos pais (compartilhar o quarto, mas NÃO a cama), sem travesseiros, protetores de berço ou objetos macios; o aleitamento materno e o uso da chupeta na hora de dormir são fatores PROTETORES."
+    },
+    {
+     "enunciado": "A idade associada à maior incidência da Síndrome da Morte Súbita na Infância ocorre:",
+     "alternativas": {
+      "a": "Até 7 dias.",
+      "b": "Até 30 dias.",
+      "c": "Em menores de 2 meses.",
+      "d": "Em menores de 4 meses."
+     },
+     "correta": "d",
+     "dificuldade": "facil",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O pico de incidência da síndrome da morte súbita do lactente concentra-se entre 2 e 4 meses de idade, com cerca de 90% dos casos ocorrendo antes dos 6 meses — daí a resposta 'em menores de 4 meses'. Essa janela coincide com o período de maior imaturidade dos mecanismos de despertar e de controle autonômico cardiorrespiratório, exatamente quando o lactente já rola no berço mas ainda não tem controle cervical suficiente para se desobstruir.\nAté 7 dias corresponde ao período neonatal PRECOCE, cuja mortalidade é dominada por prematuridade extrema, asfixia perinatal, malformações congênitas e infecções — por definição, essas mortes têm causa identificável e não configuram morte súbita inexplicada.\nAté 30 dias abrange todo o período neonatal, e o mesmo raciocínio se aplica: a mortalidade neonatal tem causas majoritariamente esclarecidas.\n'Menores de 2 meses' fica aquém do pico e deixa de fora justamente o intervalo de maior risco (2 a 4 meses).\nPérolas de saúde coletiva: a mortalidade infantil se divide em neonatal precoce (0 a 6 dias), neonatal tardia (7 a 27 dias) e pós-neonatal ou infantil tardia (28 dias a 11 meses e 29 dias) — a síndrome da morte súbita é causa importante justamente no componente PÓS-NEONATAL, que é o mais sensível a ações de atenção primária e a condições socioeconômicas. No Brasil, o coeficiente de mortalidade infantil é expresso por mil nascidos vivos e é um dos indicadores mais usados para avaliar condições de vida e acesso a serviços de saúde."
+    },
+    {
+     "enunciado": "Em nosso país, cabe aos “Comitês de Prevenção do Óbito Infantil e Fetal” a tarefa de identificar e investigar os óbitos nesse período, permitindo o conhecimento do perfil de morbimortalidade dessa população. Sabe-se que têm atuação em vários níveis. Identifique a alternativa correta em relação aos níveis de atuação desses Comitês:",
+     "alternativas": {
+      "a": "Apenas estadual.",
+      "b": "Apenas municipal.",
+      "c": "Estadual e municipal.",
+      "d": "Estadual, municipal e hospitalar."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Os Comitês de Prevenção do Óbito Infantil e Fetal atuam em três níveis — ESTADUAL, MUNICIPAL e HOSPITALAR (podendo haver ainda o nível regional) —, conforme o Manual de Vigilância do Óbito Infantil e Fetal e do Comitê de Prevenção do Óbito Infantil e Fetal, do Ministério da Saúde. A lógica dessa arquitetura é que cada nível enxerga uma parte do problema: o hospitalar identifica falhas assistenciais internas com rapidez, o municipal articula a rede de atenção e a atenção primária, e o estadual consolida dados, apoia tecnicamente e propõe políticas.\nRestringir a atuação ao nível 'apenas estadual' esvaziaria a capacidade de identificar falhas locais no cuidado, que é onde a maior parte das mortes evitáveis se define.\n'Apenas municipal' ignora o papel de consolidação, apoio técnico e formulação de políticas do nível estadual.\n'Estadual e municipal' é a alternativa mais atraente, e foi provavelmente a que mais dividiu os candidatos, mas deixa de fora exatamente o comitê HOSPITALAR — instância decisiva porque a maioria dos óbitos infantis e fetais ocorre dentro de serviços de saúde e a investigação imediata do caso, com discussão da equipe assistencial, é o que produz mudança de processo.\nPontos que caem muito em prova: os óbitos infantis e fetais são de NOTIFICAÇÃO COMPULSÓRIA e devem ser investigados em até 120 dias; o objetivo dos comitês é EDUCATIVO e de vigilância, jamais punitivo ou de responsabilização individual, garantindo o sigilo das informações; a investigação classifica os óbitos quanto à EVITABILIDADE (lista brasileira de causas de mortes evitáveis por intervenções do SUS); e o Comitê é órgão de caráter interinstitucional, multiprofissional e confidencial.\n📚 Leitura sugerida (bloco): 'Manual de Vigilância do Óbito Infantil e Fetal e do Comitê de Prevenção do Óbito Infantil e Fetal' (Ministério da Saúde, 2ª ed.); complementar com o documento científico da SBP sobre sono seguro e prevenção da morte súbita do lactente, e com o material 'Tópicos em Pediatria' do seu Drive (https://drive.google.com/file/d/1Kv_fDM9e_G0IOc7u311JTb2oEqreHP1c/view)."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (neurite vestibular) [RE ranking unificado #1]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 46 anos de idade, procura a emergência por tontura rotatória CONTÍNUA que começou há 48 horas e não cede em nenhuma posição, acompanhada de náuseas intensas, vômitos e desequilíbrio. Refere quadro de coriza e odinofagia na semana anterior. Nega perda auditiva, zumbido, cefaleia, diplopia, disartria ou dormência. Ao exame: nistagmo horizonto-rotatório espontâneo, unidirecional, com fase rápida batendo para a esquerda em qualquer direção do olhar e que se intensifica ao remover a fixação visual; consegue caminhar com auxílio, com desvio para a direita; força, sensibilidade, pares cranianos e prova índex-nariz sem alterações; audiometria de emergência normal. Pressão arterial 128x78 mmHg, sem fatores de risco cardiovascular conhecidos.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o padrão temporal e os achados do exame, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Vertigem posicional paroxística benigna de canal posterior.",
+      "b": "Neurite vestibular.",
+      "c": "Infarto cerebelar da artéria cerebelar inferior posterior.",
+      "d": "Doença de Ménière em crise."
+     },
+     "correta": "b",
+     "dificuldade": "moderada",
+     "comentario": "O caso é uma síndrome vestibular aguda: tontura CONTÍNUA por mais de 24 horas, com náuseas, intolerância ao movimento e nistagmo espontâneo. Nesse contexto, o quadro precedido de infecção de vias aéreas superiores, com nistagmo horizonto-rotatório UNIDIRECIONAL que obedece à lei de Alexander (aumenta ao olhar na direção da fase rápida) e se acentua sem fixação, sem sintomas auditivos e sem sinais de tronco/cerebelo, caracteriza a neurite vestibular — inflamação, provavelmente pós-viral por reativação de herpes-vírus, do nervo vestibular superior. O desequilíbrio é para o lado hipofuncionante (direita), oposto à fase rápida do nistagmo.\nA vertigem posicional paroxística benigna produz crises BREVES, de segundos, DESENCADEADAS por mudança de posição da cabeça, com nistagmo transitório e fatigável às manobras posicionais — é episódica, não contínua, e não deixa o paciente vomitando por 48 horas ininterruptas.\nO infarto cerebelar é o diferencial que não pode ser perdido, mas costuma cursar com nistagmo que muda de direção conforme o olhar, incapacidade absoluta de deambular mesmo com apoio, desvio skew, dismetria ou outros sinais de tronco; a ausência de todos eles, num paciente sem fatores de risco, afasta razoavelmente essa hipótese.\nA doença de Ménière exige sintomas AUDITIVOS — hipoacusia flutuante em frequências baixas, zumbido e plenitude aural — e crises que duram de 20 minutos a 12 horas, não dias.\nPegadinha: o nistagmo de origem periférica é sempre unidirecional e suprimido pela fixação; o central é o contrário."
+    },
+    {
+     "enunciado": "Indique a combinação de achados esperada ao aplicar o protocolo HINTS neste paciente:",
+     "alternativas": {
+      "a": "Head impulse alterado, nistagmo unidirecional e skew ausente.",
+      "b": "Head impulse normal, nistagmo que muda de direção e skew presente.",
+      "c": "Head impulse normal, nistagmo unidirecional e skew ausente.",
+      "d": "Head impulse alterado, nistagmo vertical puro e skew presente."
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "O protocolo HINTS (Head Impulse, Nystagmus, Test of Skew) só é válido na síndrome vestibular AGUDA com nistagmo espontâneo e, quando aplicado por examinador treinado, supera a ressonância com difusão feita nas primeiras 48 horas para detectar acidente vascular cerebral de fossa posterior. O padrão PERIFÉRICO — que é o esperado aqui — reúne teste de impulso cefálico ALTERADO (sacada de refixação presente ao girar rapidamente a cabeça para o lado lesado, indicando falha do reflexo vestíbulo-ocular), nistagmo unidirecional que não muda de direção com o olhar, e ausência de desvio skew ao teste de cobertura alternada.\nA combinação head impulse normal, nistagmo que muda de direção e skew presente é exatamente o padrão CENTRAL — 'INFARCT' —, que obriga neuroimagem e investigação vascular imediata.\nHead impulse NORMAL com nistagmo unidirecional e skew ausente é uma combinação preocupante: o reflexo vestíbulo-ocular preservado numa síndrome vestibular aguda sugere origem central, pois lesão periférica significativa deveria alterá-lo.\nNistagmo vertical PURO (para cima ou para baixo) é sinal central por definição, jamais periférico, e o desvio skew indica lesão de vias otolíticas do tronco encefálico.\nPérola: o teste de impulso cefálico normal na síndrome vestibular aguda é o achado isolado com maior valor preditivo POSITIVO para acidente vascular cerebral. Um erro clássico é aplicar o HINTS em paciente com tontura episódica ou sem nistagmo — nesse cenário o protocolo perde validade e induz falsa segurança."
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada após as primeiras 48 horas:",
+     "alternativas": {
+      "a": "Manobra de reposicionamento de Epley.",
+      "b": "Dimenidrinato por via oral por 30 dias.",
+      "c": "Betaistina em dose alta por tempo indeterminado.",
+      "d": "Reabilitação vestibular precoce."
+     },
+     "correta": "d",
+     "dificuldade": "moderada",
+     "comentario": "O tratamento decisivo da neurite vestibular é a reabilitação vestibular iniciada PRECOCEMENTE, com exercícios de adaptação do reflexo vestíbulo-ocular, habituação e estabilização do olhar. O mecanismo é a compensação central: o sistema nervoso recalibra a assimetria de informação entre os labirintos, e essa plasticidade é acelerada pelo movimento e RETARDADA pelo repouso e pelos sedativos vestibulares. Por isso os supressores vestibulares (anti-histamínicos, benzodiazepínicos, antieméticos) devem ser restritos aos primeiros 1 a 3 dias, apenas para controlar vômitos incoercíveis, e suspensos assim que possível.\nA manobra de Epley trata a vertigem posicional paroxística benigna de canal posterior, deslocando otocônias de volta ao utrículo; não tem qualquer efeito numa neuropatia inflamatória do nervo vestibular.\nDimenidrinato por 30 dias é justamente o erro mais comum na prática: prolonga a tontura, atrasa a compensação e acrescenta sonolência e risco de queda, sobretudo em idosos.\nA betaistina tem evidência fraca e inconsistente nesta indicação; seu uso mais defendido é na doença de Ménière, e ainda assim com resultados conflitantes em ensaios recentes.\nSobre corticoide: metilprednisolona nos primeiros dias acelera a recuperação da função vestibular medida por prova calórica, mas sem benefício claro em desfecho clínico de longo prazo — a conduta é individualizada e o antiviral isolado não tem benefício demonstrado.\nPérola: tontura persistente por meses após o evento agudo, agravada por movimento e estímulos visuais complexos, sugere tontura postural-perceptual persistente, que se trata com reabilitação, inibidor de recaptação de serotonina e terapia cognitivo-comportamental.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 135 — Síndrome Vestibular Aguda; complementar com o cap. 192 — Reabilitação de Distúrbios Vestibulares e do Equilíbrio."
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências Pediátricas / Endocrinologia (cetoacidose diabética no adolescente)",
+   "tier": "ALTO",
+   "vinheta": "Adolescente do sexo masculino, 13 anos de idade, é levado ao pronto-socorro por dor abdominal difusa e vômitos há 12 horas. A mãe relata que, nas últimas três semanas, ele passou a acordar várias vezes à noite para urinar, bebe água constantemente e emagreceu cerca de 6 kg apesar de comer muito. Nas últimas horas ficou sonolento e com a respiração 'estranha'. Ao exame: sonolento mas responsivo a comando verbal, mucosas secas, enchimento capilar de 3 segundos, frequência cardíaca 128 bpm, pressão arterial 96x60 mmHg, respiração profunda e ritmada a 32 incursões por minuto, hálito com odor adocicado, abdome difusamente doloroso sem defesa. Glicemia capilar 480 mg/dL. Gasometria arterial: pH 7,05; bicarbonato 6 mEq/L; pCO2 18 mmHg. Sódio 132 mEq/L, potássio 5,2 mEq/L. Cetonúria 3+. Peso 45 kg.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o quadro clínico e os exames apresentados, indique o diagnóstico:",
+     "alternativas": {
+      "a": "Estado hiperglicêmico hiperosmolar.",
+      "b": "Acidose lática por hipoperfusão.",
+      "c": "Intoxicação aguda por salicilato.",
+      "d": "Cetoacidose diabética."
+     },
+     "correta": "d",
+     "dificuldade": "facil",
+     "comentario": "O diagnóstico exige a tríade: hiperglicemia (acima de 200 mg/dL), acidose metabólica (pH abaixo de 7,3 ou bicarbonato abaixo de 15 a 18 mEq/L) e cetose (cetonúria ou cetonemia) — os três estão presentes de forma inequívoca. O mecanismo é a deficiência absoluta de insulina com excesso de hormônios contrarreguladores (glucagon, cortisol, catecolaminas, hormônio do crescimento), que promove lipólise e oxidação de ácidos graxos no fígado, gerando corpos cetônicos. A respiração de Kussmaul é a compensação respiratória (note a pCO2 de 18 mmHg, adequada para o bicarbonato de 6), o hálito adocicado é a acetona exalada, e a dor abdominal com vômitos é manifestação da própria cetoacidose — pode simular abdome agudo cirúrgico e é armadilha clássica.\nO estado hiperglicêmico hiperosmolar cursa com glicemia muito mais alta (acima de 600 mg/dL), osmolalidade acima de 320 mOsm/kg, desidratação profunda e cetose MÍNIMA ou ausente, com pH acima de 7,3 — é raro na criança e mais ligado ao diabetes tipo 2.\nA acidose lática por hipoperfusão produziria acidose com ânion gap elevado, mas sem hiperglicemia acentuada nem cetonúria 3+, e o paciente não está em choque descompensado.\nA intoxicação por salicilato dá distúrbio MISTO — alcalose respiratória por estímulo direto do centro respiratório somada a acidose metabólica —, com zumbido, hipertermia e glicemia habitualmente normal ou baixa.\nPérola: poliúria, polidipsia, polifagia e perda de peso em três semanas é a apresentação inaugural típica do diabetes tipo 1, e até 30 a 40% dos casos novos abrem com cetoacidose."
+    },
+    {
+     "enunciado": "Segundo os critérios gasométricos habituais, indique a classificação de gravidade deste episódio:",
+     "alternativas": {
+      "a": "Grave.",
+      "b": "Moderada.",
+      "c": "Leve.",
+      "d": "Não caracteriza cetoacidose."
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "A classificação de gravidade da cetoacidose diabética na criança e no adolescente, conforme a ISPAD e a SBD, baseia-se no pH venoso e no bicarbonato: LEVE quando pH abaixo de 7,3 ou bicarbonato abaixo de 18; MODERADA quando pH abaixo de 7,2 ou bicarbonato abaixo de 10; GRAVE quando pH abaixo de 7,1 ou bicarbonato abaixo de 5. Com pH de 7,05 e bicarbonato de 6, o paciente é classificado como GRAVE pelo critério do pH — e vale a regra prática de que, quando pH e bicarbonato apontam para categorias diferentes, prevalece a MAIS grave.\nClassificar como moderada exigiria pH entre 7,1 e 7,2, faixa acima da encontrada.\nClassificar como leve exigiria pH entre 7,2 e 7,3, o que subestimaria grosseiramente o risco e poderia levar a manejo em unidade sem monitorização adequada.\nDizer que não caracteriza cetoacidose ignora os três pilares diagnósticos presentes.\nA classificação não é acadêmica: a forma grave define local de tratamento (unidade com capacidade de monitorização neurológica horária e acesso rápido a terapia intensiva), frequência das reavaliações e vigilância para a complicação mais temida, o EDEMA CEREBRAL — responsável por cerca de 60 a 90% das mortes por cetoacidose na faixa pediátrica, com incidência de 0,3 a 1% dos episódios. Fatores associados a edema cerebral: idade menor, cetoacidose como apresentação inicial, acidose grave, ureia elevada, pCO2 muito baixa, queda rápida da osmolalidade e uso de bicarbonato.\nPérola: o sódio deve ser interpretado CORRIGIDO para a hiperglicemia (somar cerca de 1,6 mEq/L de sódio para cada 100 mg/dL de glicose acima de 100); um sódio corrigido que não sobe durante o tratamento é sinal de alarme para edema cerebral."
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica inicial mais adequada:",
+     "alternativas": {
+      "a": "Expansão com solução salina isotônica e insulina regular endovenosa contínua iniciada após 1 hora, sem bolus.",
+      "b": "Bolus endovenoso de insulina regular 0,1 U/kg seguido de infusão contínua.",
+      "c": "Bicarbonato de sódio endovenoso imediato para corrigir o pH.",
+      "d": "Insulina regular subcutânea a cada 2 horas até normalizar a glicemia."
+     },
+     "correta": "a",
+     "dificuldade": "dificil",
+     "comentario": "A sequência correta é reidratar primeiro e só depois insulinizar. Inicia-se expansão com solução salina isotônica a 0,9%, 10 a 20 mL/kg na primeira hora (reservando os volumes maiores para choque franco), e a insulina regular endovenosa em infusão contínua a 0,05 a 0,1 U/kg/h começa APÓS 1 a 2 horas de hidratação. O racional é fisiopatológico: a insulina precoce desloca glicose, água e potássio para o intracelular, derrubando abruptamente a osmolalidade plasmática num cérebro já adaptado à hiperosmolalidade — mecanismo do edema cerebral. A reposição de potássio deve começar assim que houver diurese e o potássio estiver abaixo de 5,5 mEq/L: o potássio sérico deste paciente (5,2) está falsamente 'normal-alto', pois há déficit corporal total mascarado pela acidose e pela insulinopenia, e ele despencará com a insulina.\nO bolus inicial de insulina foi ABANDONADO nas diretrizes pediátricas justamente por aumentar o risco de queda osmótica rápida e de hipocalemia, sem benefício na resolução da acidose.\nO bicarbonato de sódio está contraindicado de rotina: piora a acidose liquórica paradoxal, agrava a hipocalemia, desloca a curva de dissociação da hemoglobina e associa-se a edema cerebral — só se considera em pH abaixo de 6,9 com instabilidade hemodinâmica refratária.\nA insulina subcutânea intermitente tem absorção errática no paciente desidratado e mal perfundido, e não permite o ajuste fino necessário; protocolos com análogos ultrarrápidos subcutâneos existem apenas para cetoacidose LEVE, sem vômitos e com boa perfusão.\nPérolas: quando a glicemia atinge cerca de 250 a 300 mg/dL, acrescenta-se glicose à solução (soro glicofisiológico) e MANTÉM-SE a insulina, pois o alvo é resolver a cetose e a acidose, não apenas a glicemia; a reidratação deve ser feita em 24 a 48 horas, de forma lenta; o critério de resolução é pH acima de 7,3, bicarbonato acima de 15 e ânion gap normalizado, quando então se faz a transição para insulina subcutânea com sobreposição de 15 a 30 minutos antes de desligar a infusão.\n📚 Leitura sugerida (bloco): videoaula de Endocrinologia do R+ Pediatria MEDGRUPO no seu Drive (https://drive.google.com/file/d/1DfkaSxC7e73geDJxpMCfbVbx-VX53efB/view); complementar com as Diretrizes da Sociedade Brasileira de Diabetes (capítulo de crises hiperglicêmicas na criança e no adolescente) e o consenso ISPAD sobre cetoacidose diabética e estado hiperglicêmico hiperosmolar."
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtorno de insônia (neuro-correlato do sono) [RE ranking unificado #2]",
+   "tier": "MÉDIO",
+   "vinheta": "Mulher, 52 anos de idade, professora, queixa-se de demorar mais de uma hora para adormecer e de acordar às 4 h da manhã sem conseguir voltar a dormir, cinco noites por semana, há cerca de 8 meses. Relata cansaço diurno, irritabilidade, dificuldade de concentração nas aulas e preocupação constante, ao longo do dia, sobre 'como será a noite'. Deita-se às 21 h para 'tentar compensar', assiste televisão na cama e confere as horas no celular várias vezes durante a noite. Nega ronco alto, engasgos noturnos, pausas respiratórias presenciadas, cochilos irresistíveis ao volante, desconforto ou urgência de movimentar as pernas ao deitar. Índice de massa corporal 24 kg/m², exame físico e triagem para depressão sem alterações relevantes; usa zolpidem de forma intermitente há 5 meses, com eficácia decrescente.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o quadro apresentado, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Síndrome das pernas inquietas.",
+      "b": "Apneia obstrutiva do sono.",
+      "c": "Transtorno de insônia crônica.",
+      "d": "Transtorno do ritmo circadiano do tipo fase atrasada."
+     },
+     "correta": "c",
+     "dificuldade": "moderada",
+     "comentario": "O diagnóstico é clínico e exige três elementos simultâneos: queixa de dificuldade de iniciar ou manter o sono, oportunidade e circunstância ADEQUADAS para dormir, e prejuízo diurno atribuído ao sono — todos presentes. O caso ilustra bem o modelo dos três Ps de Spielman: fatores predisponentes (hiperalerta constitucional), precipitantes (estresse) e, sobretudo, PERPETUANTES — antecipar a noite com ansiedade, ir para a cama cedo demais, permanecer deitada acordada, assistir televisão na cama e monitorar o relógio. É o condicionamento negativo cama-vigília que cronifica o quadro.\nA síndrome das pernas inquietas exige urgência de mover as pernas com desconforto que piora ao repouso e à noite e alivia com o movimento — a paciente nega explicitamente esse sintoma cardinal.\nA apneia obstrutiva do sono cursa com ronco alto, pausas presenciadas, engasgos noturnos, sonolência diurna excessiva e costuma associar-se a obesidade, hipertensão e circunferência cervical aumentada; aqui o índice de massa corporal é normal e todos os marcadores estão negativos, tornando a polissonografia desnecessária de rotina.\nNo transtorno de fase atrasada o paciente dorme tarde e acorda tarde, mas com sono de QUALIDADE E DURAÇÃO NORMAIS quando livre de horários impostos — o conflito é com a agenda social, não com a capacidade de dormir; esta paciente desperta precocemente e não recupera o sono nos fins de semana.\nPegadinha: despertar precoce isolado deve levantar a hipótese de depressão, mas a triagem negativa e a ausência de anedonia e humor deprimido afastam essa via aqui."
+    },
+    {
+     "enunciado": "Indique o critério de frequência e duração exigido para caracterizar a forma crônica do quadro:",
+     "alternativas": {
+      "a": "Ao menos três noites por semana, por pelo menos três meses.",
+      "b": "Todas as noites, por pelo menos um mês.",
+      "c": "Ao menos duas noites por semana, por pelo menos seis semanas.",
+      "d": "Qualquer frequência, desde que por mais de duas semanas."
+     },
+     "correta": "a",
+     "dificuldade": "moderada",
+     "comentario": "Tanto a Classificação Internacional dos Transtornos do Sono (ICSD-3) quanto o DSM-5 exigem, para o transtorno de insônia crônica, sintomas em pelo menos TRÊS noites por semana durante pelo menos TRÊS meses, com prejuízo diurno associado. A paciente relata cinco noites por semana há oito meses, preenchendo folgadamente o critério. Abaixo desse limiar temporal, fala-se em insônia de curta duração (aguda), geralmente ligada a um estressor identificável e frequentemente autolimitada.\nExigir sintomas TODAS as noites por um mês é critério inexistente e excessivamente restritivo: pacientes com insônia crônica costumam ter noites intercaladas de sono razoável, e isso não descaracteriza o diagnóstico.\nDuas noites por semana por seis semanas fica aquém tanto na frequência quanto na duração exigidas, e classificaria como crônico um quadro ainda agudo.\n'Qualquer frequência por mais de duas semanas' corresponde a insônia aguda, sem os critérios de cronicidade.\nPérolas: o diagnóstico é CLÍNICO — polissonografia não é indicada de rotina na insônia e só entra quando se suspeita de apneia, movimentos periódicos de membros, parassonia complexa ou quando há falha terapêutica inexplicada. O diário de sono por 1 a 2 semanas é a ferramenta de escolha para caracterizar o padrão e, depois, para calcular a restrição de tempo na cama. A actigrafia é alternativa útil, sobretudo para suspeita de transtorno circadiano."
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica de primeira linha para esta paciente:",
+     "alternativas": {
+      "a": "Zolpidem em uso contínuo por doze meses.",
+      "b": "Clonazepam ao deitar, em dose fixa.",
+      "c": "Difenidramina noturna de forma regular.",
+      "d": "Terapia cognitivo-comportamental para insônia."
+     },
+     "correta": "d",
+     "dificuldade": "dificil",
+     "comentario": "A terapia cognitivo-comportamental para insônia é o tratamento de primeira linha recomendado por todas as diretrizes atuais (American Academy of Sleep Medicine, European Sleep Research Society), com eficácia igual à medicação no curto prazo e SUPERIOR na manutenção após o término. Seus componentes são restrição de tempo na cama, controle de estímulos (usar a cama só para dormir e sexo, sair do quarto se não adormecer em cerca de 20 minutos, horário fixo de despertar), reestruturação cognitiva das crenças catastróficas sobre o sono, técnicas de relaxamento e higiene do sono — esta última, sozinha, é insuficiente e não deve ser oferecida como tratamento isolado. No caso, os comportamentos perpetuantes descritos são exatamente os alvos da intervenção.\nZolpidem contínuo por doze meses reproduz o problema que a paciente já apresenta: tolerância com perda de eficácia, risco de dependência, parassonias complexas (sonambulismo, comer dormindo, dirigir dormindo), quedas e prejuízo cognitivo; hipnóticos devem ser usados por períodos curtos e, preferencialmente, associados à terapia.\nO clonazepam é benzodiazepínico de meia-vida longa, com sedação residual diurna, risco de quedas e fraturas em mulheres nessa faixa etária e piora de apneia — é escolha inadequada para insônia crônica.\nA difenidramina é anti-histamínico com efeito anticolinérgico marcante: boca seca, retenção urinária, constipação, confusão e associação com declínio cognitivo em uso prolongado, além de tolerância ao efeito sedativo em poucos dias.\nPérolas: quando a medicação é necessária, prefere-se hipnótico não benzodiazepínico por tempo curto, doxepina em dose baixa para insônia de manutenção ou antagonistas do receptor de orexina; a retirada do zolpidem deve ser gradual, com a terapia já em curso.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 73 — Insônia (complementar com o cap. 71 — Fisiologia do Sono e a Seção 16 do Merritt, 13ª ed. — Transtornos das Funções Autonômicas e do Sono)."
+    }
+   ]
+  }
+ ]
+}
