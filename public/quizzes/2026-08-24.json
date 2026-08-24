@@ -1,0 +1,651 @@
+{
+ "date": "2026-08-24",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Neuroinfecção (hidrocefalia por parasitose de cisternas basais) [RE ranking unificado #1: Vinicius, 100% de erro, 3/3]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 41 anos de idade, trabalhador rural natural do sudoeste da Bahia, procura o pronto-socorro com cefaleia holocraniana progressiva há 2 meses, vômitos predominantemente matinais e episódios de obscurecimento visual transitório. Nas últimas duas semanas, os familiares notaram marcha instável e lentificação do pensamento. Ao exame: consciente, orientado, papiledema bilateral, sem rigidez de nuca, sem déficit motor focal e sem alteração de pares cranianos. A tomografia de crânio mostra dilatação simétrica dos ventrículos laterais e do terceiro ventrículo, com múltiplas imagens císticas lobuladas, sem escólex identificável, ocupando as cisternas basais e a fissura silviana à direita. O líquido cefalorraquidiano tem 40 células/mm³ (78% linfócitos, 12% eosinófilos), proteína de 120 mg/dL e glicose de 38 mg/dL (glicemia simultânea de 96 mg/dL).",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o quadro clínico, o perfil do líquor e o padrão de imagem descrito, a hipótese diagnóstica mais provável é:",
+     "alternativas": {
+      "a": "Meningite criptocócica",
+      "b": "Meningite tuberculosa da base",
+      "c": "Cisto aracnóideo gigante da fissura silviana",
+      "d": "Neurocisticercose extraparenquimatosa, forma racemosa"
+     },
+     "correta": "d",
+     "comentario": "A combinação de hipertensão intracraniana subaguda (cefaleia progressiva, vômitos matinais, papiledema, obscurecimentos visuais), hidrocefalia comunicante e cistos LOBULADOS, SEM escólex, ocupando cisternas basais e fissura silviana é a assinatura da forma extraparenquimatosa (racemosa) da infecção pela larva da Taenia solium. Nessa forma, a larva perde o escólex e cresce como membrana em cachos nos espaços liquóricos, provocando aracnoidite basal e bloqueio da reabsorção liquórica — daí a hidrocefalia. A eosinofilia liquórica (12%) é uma pista excelente, pois pouquíssimas infecções do SNC a produzem. Meningite criptocócica cursa com líquor de padrão semelhante (linfocitário, glicose baixa), mas não gera cistos lobulados nas cisternas e o achado típico é a tinta da China/antígeno criptocócico positivo, geralmente em imunossuprimido. A meningite tuberculosa também acomete a base e causa hidrocefalia, mas o padrão é de exsudato basal captante e espessamento leptomeníngeo, não cistos lobulados, e não cursa com eosinofilia. Cisto aracnóideo é uma lesão única, congênita, de conteúdo liquórico puro, com líquor NORMAL — incompatível com pleocitose e hipoglicorraquia. Pegadinha clássica: a ausência de escólex NÃO afasta o diagnóstico — na forma racemosa ele tipicamente não existe.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Diante da suspeita levantada, o achado que confere maior peso diagnóstico segundo os critérios diagnósticos vigentes é:",
+     "alternativas": {
+      "a": "Imunodiagnóstico por immunoblot (EITB) reagente no líquor",
+      "b": "Presença de eosinofilia no líquido cefalorraquidiano",
+      "c": "Calcificações musculares em 'grãos de arroz' na radiografia de coxas",
+      "d": "Prova tuberculínica fortemente reatora"
+     },
+     "correta": "a",
+     "comentario": "Nos critérios de Del Brutto (revisados em 2017), o imunodiagnóstico por immunoblot/EITB (enzyme-linked immunoelectrotransfer blot) para detecção de anticorpos anticisticerco é critério MAIOR, e nas formas extraparenquimatosas a pesquisa no líquor tem rendimento particularmente alto, porque a carga antigênica em contato com o compartimento liquórico é grande (ao contrário da lesão única calcificada, em que a sorologia costuma ser negativa). A eosinofilia liquórica é apenas um critério MENOR/sugestivo — reforça a suspeita, mas isolada não fecha diagnóstico e ocorre também em outras helmintíases neurotrópicas (angiostrongilíase, gnatostomíase, esquistossomose). As calcificações musculares em 'grão de arroz' são um dado epidemiológico/complementar (indicam cisticercose sistêmica) e entram como critério menor, não maior. A prova tuberculínica reatora não tem valor discriminatório na população brasileira adulta, em que a positividade é altíssima, e apontaria para outro diagnóstico. Pérola de prova: os critérios se organizam em absolutos (escólex visível, histologia, fundoscopia com larva subretiniana), maiores (imagem sugestiva, EITB, resposta ao cisticida) e menores/epidemiológicos, e o diagnóstico definitivo exige 1 absoluto OU 2 maiores + 1 menor + 1 epidemiológico.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Estabelecido o diagnóstico, a conduta inicial mais adequada para este paciente é:",
+     "alternativas": {
+      "a": "Prescrever corticoide isolado por seis semanas e reavaliar a imagem",
+      "b": "Iniciar albendazol em dose única e alta, sem outras medidas",
+      "c": "Derivar o líquor (derivação ventricular) e iniciar corticoide, associando o antiparasitário depois",
+      "d": "Realizar punções lombares evacuativas seriadas como tratamento definitivo"
+     },
+     "correta": "c",
+     "comentario": "Na forma extraparenquimatosa com hidrocefalia e papiledema, a prioridade absoluta é o controle da hipertensão intracraniana: derivação liquórica (ventriculoperitoneal ou ventriculostomia endoscópica do terceiro ventrículo) associada a corticoide em dose alta. Só depois de controlada a pressão intracraniana é que se introduz o esquema antiparasitário — e, nessa forma, ele é PROLONGADO (albendazol, frequentemente combinado a praziquantel, por semanas a meses, com cobertura contínua de corticoide), porque a morte larval maciça agrava a aracnoidite e pode precipitar deterioração aguda. Corticoide isolado controla a inflamação, mas não desobstrui a circulação liquórica nem elimina o parasito — é medida incompleta. Albendazol em dose única e sem corticoide é o erro mais perigoso da questão: dispara reação inflamatória em paciente que já tem hidrocefalia. Punções lombares seriadas não são tratamento definitivo e, na presença de hidrocefalia obstrutiva com papiledema, podem ser deletérias. Prognóstico: a forma racemosa tem mortalidade significativamente maior que a parenquimatosa e frequentemente exige revisões de derivação.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 145 — Neurocisticercose; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 9 — Infecções do SNC.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas regionais (surto febril agudo por protozoário de veiculação alimentar) [RE ranking unificado #2: Ana Teresa, 100% de erro, 3/3]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 9 anos de idade, residente em município do baixo sul da Bahia, é levado à unidade de pronto atendimento com febre alta e contínua há 12 dias, mal-estar, cefaleia e mialgia. A mãe relata que, na mesma semana, outros cinco familiares e vizinhos que participaram de uma festa comunitária adoeceram com quadro semelhante; todos consumiram caldo de cana artesanal e açaí batido no local. Ao exame: febril (39,1 °C), edema bilateral e simétrico das pálpebras, linfonodomegalia cervical e axilar generalizada, fígado a 3 cm e baço a 2 cm do rebordo costal, e frequência cardíaca de 148 bpm, desproporcional à temperatura. Hemograma: leucócitos 12.400/mm³ com linfocitose e presença de linfócitos atípicos; plaquetas 190.000/mm³. Eletrocardiograma com extrassístoles ventriculares frequentes e alteração difusa da repolarização ventricular.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico, do contexto epidemiológico e dos achados descritos, a principal hipótese diagnóstica é:",
+     "alternativas": {
+      "a": "Leishmaniose visceral",
+      "b": "Mononucleose infecciosa pelo vírus Epstein-Barr",
+      "c": "Doença de Chagas aguda por transmissão oral",
+      "d": "Febre maculosa brasileira"
+     },
+     "correta": "c",
+     "comentario": "O caso reúne o conjunto que define a forma aguda adquirida por via alimentar: surto FAMILIAR com múltiplos casos simultâneos após consumo de alimento artesanal (caldo de cana, açaí), febre prolongada, edema PALPEBRAL bilateral (sinal de Romaña quando a porta de entrada é ocular, mas na via oral o edema de face é frequente e difuso), linfonodomegalia generalizada, hepatoesplenomegalia, linfocitose com linfócitos atípicos e — o dado mais grave — sinais precoces de MIOCARDITE, com taquicardia desproporcional à febre e arritmia ventricular. Essa forma, ligada a alimentos contaminados por triatomíneos ou suas dejeções, é a que predomina hoje no Brasil, sobretudo na Amazônia e no Nordeste, e tem letalidade maior que a vetorial clássica justamente pela alta carga parasitária. Leishmaniose visceral cursa com febre irregular prolongada, palidez, pancitopenia, hiperglobulinemia e esplenomegalia VOLUMOSA — e não em surtos alimentares agudos. Mononucleose infecciosa também dá linfocitose atípica e linfonodomegalia, mas com faringoamigdalite exsudativa proeminente, sem surto alimentar e sem miocardite com arritmia. Febre maculosa brasileira evolui em dias com exantema maculopapular que atinge palmas e plantas, plaquetopenia acentuada e insuficiência renal, com história de contato com carrapatos, e não com alimento compartilhado.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "O exame mais adequado para confirmar o diagnóstico nesta fase da doença é:",
+     "alternativas": {
+      "a": "Sorologia IgG por ensaio imunoenzimático",
+      "b": "Xenodiagnóstico artificial",
+      "c": "Reação em cadeia da polimerase em aspirado de medula óssea",
+      "d": "Pesquisa direta do parasito no sangue periférico (exame a fresco e gota espessa)"
+     },
+     "correta": "d",
+     "comentario": "Na fase AGUDA há parasitemia patente, o que torna o exame parasitológico DIRETO o método de escolha: pesquisa a fresco entre lâmina e lamínula, gota espessa ou esfregaço corado, com sensibilidade alta nos primeiros 30 a 60 dias de sintomas, além de ser rápido, barato e disponível na rede pública. Métodos de concentração (Strout, micro-hematócrito) aumentam o rendimento quando a pesquisa direta é negativa. A sorologia IgG é o método da fase CRÔNICA: na fase aguda pode ainda ser negativa (a soroconversão leva semanas) e, quando positiva, não distingue infecção recente de antiga — é o distrator mais escolhido. O xenodiagnóstico e a hemocultura em meios específicos são métodos INDIRETOS, de baixa sensibilidade e resultado demorado (semanas), reservados a pesquisa e a situações excepcionais. A reação em cadeia da polimerase é útil, sobretudo em imunossuprimidos e no controle pós-tratamento, mas em aspirado de MEDULA ÓSSEA o exame descrito corresponde à investigação de leishmaniose visceral — troca de doenças clássica. Regra mnemônica de prova: fase aguda procura o PARASITO; fase crônica procura o ANTICORPO (com dois testes sorológicos de princípios diferentes).",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Definido o diagnóstico, a conduta correta em relação ao tratamento e à vigilância é:",
+     "alternativas": {
+      "a": "Iniciar antimonial pentavalente e incluir o caso na notificação semanal negativa",
+      "b": "Prescrever doxiciclina e manter o paciente em isolamento respiratório por 7 dias",
+      "c": "Iniciar benznidazol imediatamente e realizar a notificação compulsória de forma imediata",
+      "d": "Manter apenas suporte clínico, pois o tratamento específico só está indicado na fase crônica"
+     },
+     "correta": "c",
+     "comentario": "Na fase aguda, o tratamento etiológico é MANDATÓRIO e deve ser iniciado o quanto antes: benznidazol (5 a 10 mg/kg/dia, dividido em 2 a 3 tomadas, por 60 dias, com doses pediátricas mais altas por quilo do que as do adulto), tendo o nifurtimox como alternativa. Quanto mais precoce, maior a taxa de cura parasitológica, que na fase aguda pode ultrapassar 60% a 80% e cai drasticamente na fase crônica indeterminada. A doença é de notificação COMPULSÓRIA IMEDIATA (em até 24 horas) na forma aguda, exatamente porque cada caso pode sinalizar um surto de veiculação alimentar que exige investigação da fonte, busca ativa de outros casos e bloqueio — o que já se antecipa aqui, com seis pessoas doentes. Antimonial pentavalente é o tratamento das leishmanioses. Doxiciclina trata riquetsioses, e isolamento respiratório não tem cabimento numa doença sem transmissão interpessoal por via aérea. Afirmar que só se trata na fase crônica inverte completamente a lógica terapêutica e é o erro mais perigoso: retardar o tratamento no paciente com miocardite aguda aumenta a letalidade. Este paciente deve ainda ser internado para monitorização cardíaca, dada a arritmia ventricular.\n📚 Leitura sugerida (bloco): Ministério da Saúde — Protocolo Clínico e Diretrizes Terapêuticas da Doença de Chagas e capítulo 'Doença de Chagas Aguda' do Guia de Vigilância em Saúde (MS).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Epilepsia (epilepsia focal farmacorresistente de origem temporal) [RE cota individual: Leonardo, 33% de erro, 1/3; ângulo inédito]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 27 anos de idade, é encaminhada ao ambulatório por crises que começaram aos 12 anos. Descreve uma sensação de 'aperto que sobe do estômago para a garganta', seguida de parada do que está fazendo, olhar fixo e movimentos repetitivos de mastigação e de manipulação de objetos com a mão esquerda; o marido observa que, durante as crises, o membro superior direito assume postura rígida e fletida. Os episódios duram cerca de 90 segundos e são seguidos por 10 minutos de confusão, com dificuldade para nomear objetos. Apresenta 4 a 6 episódios por mês, apesar do uso regular de carbamazepina e lamotrigina, ambas em doses máximas toleradas e comprovadas por níveis séricos. História de crise febril prolongada aos 11 meses de vida. Exame neurológico intercrítico normal.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando a semiologia da crise e os sinais de lateralização, a região mais provavelmente envolvida é:",
+     "alternativas": {
+      "a": "Região mesial do lobo temporal direito",
+      "b": "Região mesial do lobo temporal esquerdo",
+      "c": "Região mesial do lobo frontal direito",
+      "d": "Região occipital esquerda"
+     },
+     "correta": "b",
+     "comentario": "A aura epigástrica ascendente com automatismos oroalimentares e manuais é a assinatura semiológica das crises originadas no complexo amígdalo-hipocampal. A lateralização se faz por duas regras clássicas de prova: (1) a postura DISTÔNICA de um membro é CONTRALATERAL ao foco — aqui, membro superior direito rígido aponta para o hemisfério esquerdo; (2) os automatismos manuais são IPSILATERAIS ao foco — mão esquerda, hemisfério esquerdo. O terceiro dado é decisivo: a dificuldade para nomear objetos no período pós-ictal (disfasia pós-ictal) indica envolvimento do hemisfério DOMINANTE, que em cerca de 95% dos destros é o esquerdo. Portanto, foco à esquerda, e não à direita. Origem frontal mesial produziria crises breves (menos de 30 segundos), muito frequentes, noturnas, com automatismos hipercinéticos/bipedais e recuperação rápida, sem confusão pós-ictal prolongada. Origem occipital cursaria com alucinações visuais elementares, amaurose ictal ou desvio ocular, ausentes aqui. A crise febril prolongada no primeiro ano é o antecedente clássico associado à esclerose hipocampal, fechando a coerência do caso.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "O exame com maior probabilidade de demonstrar o substrato estrutural responsável pelo quadro é:",
+     "alternativas": {
+      "a": "Tomografia computadorizada de crânio com contraste",
+      "b": "Eletroencefalograma interictal de rotina, de 30 minutos",
+      "c": "Ressonância magnética com protocolo dedicado, incluindo cortes coronais finos em T2/FLAIR",
+      "d": "Tomografia por emissão de pósitrons com fluordesoxiglicose em período interictal"
+     },
+     "correta": "c",
+     "comentario": "O substrato mais provável é a esclerose hipocampal, e o exame capaz de demonstrá-la é a ressonância magnética com PROTOCOLO DE EPILEPSIA: cortes coronais finos perpendiculares ao eixo longo do hipocampo, em T2 e FLAIR, procurando atrofia hipocampal, hipersinal em T2/FLAIR e perda da arquitetura interna das digitações. Uma ressonância 'de rotina' pode ser laudada como normal em até um terço desses casos — daí a importância de o pedido especificar o protocolo. A tomografia tem resolução insuficiente para o hipocampo e serve apenas para excluir grandes lesões ou calcificações. O eletroencefalograma interictal de 30 minutos pode mostrar espículas temporais anteriores, mas é um exame FUNCIONAL: não demonstra o substrato lesional e tem sensibilidade limitada em registro único. O PET-FDG interictal, que mostra hipometabolismo temporal, é ferramenta valiosa da investigação PRÉ-CIRÚRGICA, sobretudo quando a ressonância é negativa, mas não é o exame de primeira escolha para revelar a lesão. Pegadinha frequente: confundir exame que localiza função (EEG, PET, SPECT ictal) com exame que mostra lesão (RM).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Considerando que a paciente mantém crises apesar de dois esquemas adequadamente escolhidos, tolerados e utilizados, a conduta correta é:",
+     "alternativas": {
+      "a": "Associar um terceiro fármaco e reavaliar apenas após dois anos de observação",
+      "b": "Encaminhar a um centro de referência para investigação pré-cirúrgica de epilepsia",
+      "c": "Iniciar dieta cetogênica como próxima etapa terapêutica",
+      "d": "Implantar estimulador do nervo vago de imediato"
+     },
+     "correta": "b",
+     "comentario": "A definição de farmacorresistência da ILAE é objetiva: falha de DOIS esquemas antiepilépticos apropriadamente escolhidos, tolerados e usados (em monoterapia ou combinação) em alcançar liberdade sustentada de crises. A paciente preenche o critério, e o encaminhamento para investigação pré-cirúrgica não é uma medida de exceção — é a conduta padrão, porque na epilepsia do lobo temporal mesial com esclerose hipocampal a cirurgia (amigdalo-hipocampectomia seletiva ou lobectomia temporal anterior) alcança 60% a 80% de liberdade de crises, muito acima do acréscimo de um terceiro fármaco, cuja chance de controle cai para menos de 5% a 10%. Associar um terceiro fármaco e esperar dois anos apenas adia o tratamento efetivo e prolonga o risco de morte súbita inesperada em epilepsia (SUDEP), de traumas e de comprometimento cognitivo e psicossocial. A dieta cetogênica tem seu papel principal em epilepsias generalizadas e encefalopatias epilépticas da infância, não como próximo passo aqui. A estimulação do nervo vago é terapia PALIATIVA, reservada a quem não é candidato à ressecção ou falhou nela — oferecê-la antes da investigação inverte a ordem correta. Nota adicional: carbamazepina é adequada para crises focais, mas em mulher em idade fértil vale discutir interação com contraceptivos e planejamento reprodutivo.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 81 — Tratamento Medicamentoso das Epilepsias, e cap. 79 — Definição e Classificação das Crises e das Epilepsias.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neurodesenvolvimento (atraso de linguagem com prejuízo sociocomunicativo no segundo ano) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 2 anos de idade, é levado ao pediatra por sua mãe, preocupada porque o menor não fala nem atende quando é chamado pelo nome. O menor fica agitado com barulhos altos, não demonstra interesse em brincar com outras crianças, evita o contato visual e apresenta comportamentos repetitivos como alinhar brinquedos em filas. Relata Testes de Triagem Neonatal sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Quanto à epidemiologia da principal suspeita diagnóstica desse quadro clínico, é correto afirmar que:",
+     "alternativas": {
+      "a": "Acomete igualmente meninos e meninas.",
+      "b": "Acomete apenas crianças com histórico familiar.",
+      "c": "A prevalência é baixa e não costuma ser identificada até a adolescencia.",
+      "d": "É mais prevalente em meninos, com uma proporção de, aproximadamente, 4:1."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O quadro descrito — ausência de fala funcional, não responder ao próprio nome, desinteresse por pares, contato visual evitativo, hipersensibilidade auditiva e comportamento repetitivo de alinhar objetos — configura a suspeita de transtorno do espectro autista. A predominância no sexo masculino é bem estabelecida, com razão em torno de 4:1 (algumas séries falam de 3:1 a 4:1). Esse dado tem consequência prática relevante: acredita-se que meninas sejam SUBDIAGNOSTICADAS, por apresentarem com mais frequência 'camuflagem social' e interesses restritos socialmente aceitáveis, o que atrasa o reconhecimento. Dizer que acomete igualmente ambos os sexos contraria toda a literatura epidemiológica. Afirmar que só ocorre com história familiar é falso: a herdabilidade é alta e há forte agregação familiar, mas a maioria dos casos é esporádica, sem antecedente conhecido. Dizer que a prevalência é baixa e o diagnóstico só ocorre na adolescência também é incorreto: as estimativas atuais giram em torno de 1 a 2% (nos Estados Unidos, cerca de 1 em 36 crianças), e os sinais são identificáveis já entre 12 e 24 meses, com diagnóstico estável a partir dos 2 anos. Rastreio: M-CHAT-R/F aos 18 e aos 24 meses, conforme recomendação da Sociedade Brasileira de Pediatria.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Nesse caso, indique a possível causa contribuinte para os sintomas descritos:",
+     "alternativas": {
+      "a": "Exposição a substâncias tóxicas durante a gravidez.",
+      "b": "Distúrbios do metabolismo na fase intrauterina.",
+      "c": "Interação de fatores genéticos e ambientais.",
+      "d": "Infecção na fase intrauterina."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O modelo etiológico aceito é MULTIFATORIAL: uma base genética forte (herdabilidade estimada entre 50% e 90%, com centenas de genes de risco, variantes de novo, variações no número de cópias e síndromes monogênicas associadas, como X frágil, esclerose tuberosa e Rett) que interage com fatores ambientais pré e perinatais — idade paterna e materna avançadas, prematuridade extrema, baixo peso, exposição intrauterina ao ácido valproico, diabetes gestacional e infecções maternas com resposta inflamatória. Nenhum fator isolado explica a maioria dos casos, e é justamente essa interação que a banca cobra. Exposição a substâncias tóxicas na gestação, distúrbios metabólicos intrauterinos e infecções congênitas são, cada um isoladamente, apenas PARTE do componente ambiental — escolher qualquer um deles reduz indevidamente um fenômeno multifatorial a uma causa única, e nenhum deles está sequer relatado nesta história. Ponto importante para orientar famílias: não há qualquer evidência científica de associação causal com vacinas, e essa é uma das perguntas mais frequentes no consultório e em provas de saúde coletiva. Registre-se também que triagem neonatal normal, como no caso, não afasta o diagnóstico — o teste do pezinho não rastreia essa condição.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique o exame que mais será útil na investigação inicial do caso apresentado:",
+     "alternativas": {
+      "a": "Cariótipo.",
+      "b": "Sorologias.",
+      "c": "Audiometria.",
+      "d": "Pesquisa de substâncias tóxicas."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Diante de uma criança que não fala e não atende ao chamado, a primeira obrigação clínica é AFASTAR DEFICIÊNCIA AUDITIVA — o diagnóstico diferencial mais importante e o mais tratável. Por isso a avaliação auditiva formal (audiometria comportamental por observação/condicionada na faixa etária, complementada por emissões otoacústicas e potencial evocado auditivo de tronco encefálico quando necessário) é o exame inicial obrigatório em todo atraso de linguagem, mesmo com triagem neonatal auditiva prévia normal, já que existem perdas auditivas de instalação PÓS-NATAL (citomegalovírus congênito, meningite, otite média com efusão persistente, ototoxicidade, causas genéticas de expressão tardia). O cariótipo tem baixo rendimento como exame de primeira linha; hoje, quando há indicação genética, o exame preferencial é o microarranjo cromossômico (CGH-array) e a pesquisa de X frágil, reservados a casos com dismorfismos, deficiência intelectual ou história familiar. Sorologias não se justificam sem sinais de infecção congênita (o menor é hígido, com triagem normal). Pesquisa de substâncias tóxicas não tem qualquer indicação neste contexto. Mensagem final: nenhum exame CONFIRMA o diagnóstico — ele é clínico —, os exames servem para excluir diferenciais e buscar etiologia.\n📚 Leitura sugerida (bloco): SBP — Manual de Orientação 'Transtorno do Espectro Autista' (Departamento Científico de Pediatria do Desenvolvimento e Comportamento) e Caderneta da Criança / Instrumento de Vigilância do Desenvolvimento do Ministério da Saúde.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuro-oncologia e cuidados de suporte [REAL: SUS-BA R+ Clínica Médica 2025]",
+   "tier": "MÉDIO",
+   "vinheta": "Homem, 62 anos de idade, com diagnóstico de glioblastoma multiforme há 10 meses, previamente tratado com cirurgia, radioterapia e quimioterapia com temozolomida, comparece ao ambulatório com quadro de cefaleia intensa, piora progressiva nas últimas semanas, associada a episódios de confusão mental, estando restrito ao leito ou na cadeira de rodas todo o tempo. O exame neurológico revela hemiparesia direita e papiledema. A família relata que o paciente se tornou mais sonolento e não consegue se alimentar. A ressonância magnética recente mostra crescimento tumoral significativo com edema peritumoral.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique a conduta mais adequada no momento:",
+     "alternativas": {
+      "a": "Aumento da dose de temozolomida.",
+      "b": "Introdução de dexametasona em altas doses.",
+      "c": "Cirurgia de urgência para descompressão tumoral.",
+      "d": "Início de morfina para controle da dor."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2025] O quadro é de hipertensão intracraniana por edema PERITUMORAL (vasogênico), traduzido por cefaleia progressiva, papiledema, sonolência e piora do déficit focal. O corticoide — dexametasona é o preferido por baixa atividade mineralocorticoide e meia-vida longa — age exatamente sobre esse mecanismo, restaurando a integridade da barreira hematoencefálica tumoral e reduzindo o extravasamento de plasma; a melhora clínica costuma começar em 24 a 48 horas. Aumentar a temozolomida não faz sentido: trata-se de progressão sob tratamento, e o efeito antitumoral, ainda que houvesse, levaria semanas — não resolve a urgência e acrescenta mielotoxicidade. Cirurgia de urgência para descompressão é desproporcional em paciente com doença amplamente progressiva e péssimo status funcional; a reoperação em glioblastoma recidivado só se cogita em pacientes com bom desempenho e lesão ressecável. Morfina controla dor, mas a cefaleia aqui é sintoma da hipertensão intracraniana: tratar apenas com opioide mascara o mecanismo e agrava a sonolência e a hipoventilação. Pérola: em edema vasogênico tumoral, corticoide funciona; manitol é medida de resgate de curtíssimo prazo, e corticoide NÃO é indicado no edema citotóxico do acidente vascular cerebral isquêmico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando a nutrição desse paciente, diante do estágio da doença, a conduta mais adequada é:",
+     "alternativas": {
+      "a": "Manter dieta oral e suplementação nutricional via oral.",
+      "b": "Iniciar nutrição enteral imediata via sonda nasogástrica.",
+      "c": "Fazer suplementação parenteral total para manter o estado nutricional.",
+      "d": "Introduzir cuidados de suporte com foco na prevenção de desconforto."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2025] O paciente está em fase avançada e progressiva de uma doença incurável, restrito ao leito, sonolento e sem capacidade de alimentar-se. Nesse cenário, a evidência é consistente: nutrição artificial não prolonga sobrevida nem melhora qualidade de vida, e acrescenta riscos (broncoaspiração, diarreia, desconforto, contenção, infecção de cateter). O objetivo do cuidado migra da tentativa de reverter a doença para a prevenção de desconforto — higiene oral cuidadosa, alimentação de conforto em pequenas quantidades conforme aceitação e desejo, controle de sintomas e comunicação com a família. Manter dieta oral com suplementação ignora que o paciente já não consegue se alimentar e expõe a risco de aspiração. Sonda nasogástrica 'imediata' é intervenção desproporcional que não modifica desfecho nessa fase. Nutrição parenteral total é a opção mais agressiva e iatrogênica, com risco de sepse relacionada a cateter e distúrbios metabólicos, sem benefício. Ponto ético central: a decisão não é 'fazer ou não fazer nada', e sim substituir intervenções fúteis por cuidados ativos de conforto, com decisão compartilhada e registro em prontuário.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Com base na Escala de Performance da Eastern Cooperative Oncology Group (ECOG), a classificação funcional do paciente é:",
+     "alternativas": {
+      "a": "ECOG 0.",
+      "b": "ECOG 1.",
+      "c": "ECOG 4.",
+      "d": "ECOG 5."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2025] A escala ECOG vai de 0 a 5: 0 = totalmente ativo, sem restrição; 1 = restrição a atividades físicas extenuantes, mas deambula e realiza trabalho leve; 2 = deambula e é capaz de autocuidado, porém incapaz de qualquer trabalho, fora do leito mais de 50% do tempo de vigília; 3 = capaz apenas de autocuidado limitado, confinado ao leito ou cadeira mais de 50% do tempo; 4 = completamente incapaz, sem qualquer autocuidado, totalmente confinado ao leito ou cadeira; 5 = óbito. O enunciado diz explicitamente que o paciente está 'restrito ao leito ou na cadeira de rodas TODO o tempo' e não consegue se alimentar — descrição textual do ECOG 4. ECOG 0 e ECOG 1 descrevem pacientes ativos ou com restrição mínima, incompatíveis com o caso. ECOG 5 corresponde ao óbito, distrator clássico usado para punir a leitura apressada. Utilidade prática: ECOG maior ou igual a 3 costuma contraindicar quimioterapia sistêmica e é um dos principais gatilhos para indicação formal de cuidados paliativos exclusivos; a escala de Karnofsky é a alternativa (ECOG 4 corresponde a Karnofsky 10-20%).\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 155 — Neoplasias Primárias do SNC, e Parte 22 — Cuidados Paliativos em Neurologia.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Dermatologia e Alergia (eczema pruriginoso do lactente com xerose) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "MÉDIO",
+   "vinheta": "Lactente masculino, 2 meses de idade, é levado ao Ambulatório com lesões de pele avermelhadas em face, além de micropápulas em lobo da orelha esquerda, observadas há aproximadamente, cinco dias. A genitora informa que tem observado o bebê mais inquieto; nega outras alterações. O bebê usa aleitamento materno exclusivo. Para higiene, utiliza sabonete neutro. Nega febre e outras alterações. No momento, ativo, hidratado, afebril; sem outras alterações ao exame, exceto ressecamento na pele da face, principalmente, nas regiões malares.",
+   "perguntas": [
+    {
+     "enunciado": "Indique qual a faixa etária de surgimento da principal suspeita diagnóstica para casos como este:",
+     "alternativas": {
+      "a": "Antes dos 5 anos de idade.",
+      "b": "Durante a adolescência.",
+      "c": "No período neonatal.",
+      "d": "Na fase escolar."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O quadro descrito — eczema em face com predomínio malar, xerose cutânea, prurido traduzido pela irritabilidade e curso subagudo em lactente — corresponde à dermatite atópica. A epidemiologia é bem definida: cerca de 60% dos casos se iniciam no PRIMEIRO ANO de vida e aproximadamente 85% a 90% até os 5 anos, o que torna a alternativa correta a mais abrangente e verdadeira. Início 'no período neonatal' (primeiros 28 dias) é possível, porém incomum, e lesões faciais nesse período sugerem mais frequentemente dermatite seborreica infantil (crostas amareladas, gordurosas, em couro cabeludo e sulcos nasogenianos, tipicamente SEM prurido) — o principal diferencial. Início na fase escolar ou na adolescência ocorre em minoria dos casos e caracteriza formas de início tardio, exigindo reavaliação diagnóstica. A doença faz parte da marcha atópica: dermatite atópica no lactente, depois alergia alimentar, asma e rinite alérgica, com história familiar de atopia em boa parte dos casos. Fisiopatologia essencial para a prova: disfunção da barreira epidérmica, com mutações no gene da filagrina, perda de água transepidérmica e inflamação de perfil Th2.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique a principal medida terapêutica para o caso:",
+     "alternativas": {
+      "a": "Hidratação tópica.",
+      "b": "Corticoterapia tópica.",
+      "c": "Uso de emolientes.",
+      "d": "Dieta hipoalergênica."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O pilar do tratamento — e a medida que sustenta todas as demais — é a restauração da barreira cutânea por meio da HIDRATAÇÃO tópica regular e abundante, aplicada logo após o banho morno e curto, com reaplicações ao longo do dia. Ensaios clínicos mostram que a hidratação reduz a frequência de exacerbações, diminui a necessidade de corticoide tópico e melhora o prurido. A corticoterapia tópica é reservada às lesões INFLAMATÓRIAS ativas, em cursos curtos, preferindo-se baixa potência (hidrocortisona 1%) na face e em lactentes, pelo risco de atrofia e absorção sistêmica — é tratamento da crise, não a medida principal de manutenção. 'Uso de emolientes' descreve, na prática, a mesma intervenção da alternativa correta, e a banca considerou 'hidratação tópica' como a resposta esperada, o que evidencia uma sobreposição infeliz entre as opções — em prova, deve-se marcar a formulação mais abrangente. Dieta hipoalergênica NÃO está indicada de rotina: restrições dietéticas empíricas na mãe que amamenta ou no lactente não têm respaldo, comprometem o estado nutricional e podem até favorecer o desenvolvimento de alergia alimentar verdadeira — só se cogitam diante de manifestações claras e após investigação apropriada.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique as regiões mais frequentemente afetadas por essa doença, em crianças maiores:",
+     "alternativas": {
+      "a": "Região malar.",
+      "b": "Regiões palmares.",
+      "c": "Couro cabeludo e região frontal.",
+      "d": "Dobras do pescoço, do joelho e antebraço."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A topografia MUDA com a idade, e essa migração é um dos pontos mais cobrados: na fase do lactente (até cerca de 2 anos), o eczema predomina em face (bochechas/região malar), couro cabeludo e superfícies EXTENSORAS dos membros, poupando caracteristicamente o maciço central da face e a área da fralda; na fase infantil (2 anos até a puberdade), passa a predominar nas dobras — FLEXURAS antecubitais e poplíteas, pescoço, punhos e tornozelos; na fase do adolescente e adulto, acomete flexuras, mãos, pálpebras e região periorbital, com liquenificação proeminente. Marcar 'região malar' é responder com a fase do lactente, e não com a de crianças maiores — é a armadilha da questão. Acometimento palmar isolado deve levantar outros diagnósticos, como dermatite de contato ou escabiose. Couro cabeludo e região frontal apontam para dermatite seborreica. Sinais associados úteis à beira do leito: prega de Dennie-Morgan, palidez centrofacial, xerose difusa, pitiríase alba e dermografismo branco.\n📚 Leitura sugerida (bloco): SBP — Guia Prático de Atualização 'Dermatite Atópica' (Departamento Científico de Alergia) e Consenso Brasileiro de Dermatite Atópica (SBD/ASBAI).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias (cefaleia primária com sintomas neurológicos focais transitórios e risco vascular) ",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 29 anos de idade, tabagista de 10 cigarros por dia, em uso de contraceptivo oral combinado há 2 anos, procura a unidade básica de saúde relatando episódios recorrentes, cerca de três por mês, que começam com pontos luminosos cintilantes que se expandem lentamente em zigue-zague pelo campo visual esquerdo ao longo de aproximadamente 25 minutos, deixando uma área escura no centro. Logo após o desaparecimento dos sintomas visuais, instala-se dor hemicraniana direita, pulsátil, de forte intensidade, com náusea, fotofobia e piora ao subir escadas, com duração de 12 a 20 horas. Entre os episódios permanece assintomática. Exame neurológico e fundoscopia normais. Pressão arterial de 128x82 mmHg.",
+   "perguntas": [
+    {
+     "enunciado": "A hipótese diagnóstica que melhor explica o quadro é:",
+     "alternativas": {
+      "a": "Ataque isquêmico transitório de circulação posterior",
+      "b": "Crise epiléptica focal de origem occipital",
+      "c": "Cefaleia primária com sintomas visuais precedentes típicos",
+      "d": "Cefaleia primária sem sintomas neurológicos precedentes"
+     },
+     "correta": "c",
+     "comentario": "O quadro preenche os critérios da ICHD-3 para cefaleia primária precedida de aura visual típica: sintomas visuais POSITIVOS (cintilações em zigue-zague, o clássico espectro de fortificação) seguidos de sintoma negativo (escotoma), com instalação GRADUAL ao longo de 5 a 60 minutos, reversibilidade completa e cefaleia subsequente com características típicas (unilateral, pulsátil, forte, piora ao esforço, náusea e fotofobia). O mecanismo é a depressão alastrante cortical, uma onda de despolarização que percorre o córtex occipital a 2-3 mm por minuto — exatamente a velocidade que explica a marcha visual de minutos. O ataque isquêmico transitório instala-se de forma SÚBITA (segundos), produz sintomas predominantemente NEGATIVOS (perda visual, hemianopsia) e raramente é seguido de cefaleia pulsátil estereotipada e recorrente por anos. A crise epiléptica occipital dura tipicamente segundos a 2-3 minutos, com alucinações visuais coloridas e circulares, muitas vezes com desvio ocular, e não com marcha de 25 minutos. A forma sem aura, por definição, não tem sintomas neurológicos precedentes — o enunciado os descreve com clareza. Vale lembrar: a aura pode ocorrer sem cefaleia subsequente (aura isolada/acefálgica), o que não descaracteriza o diagnóstico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "O elemento semiológico que melhor diferencia esses episódios de um evento isquêmico transitório é:",
+     "alternativas": {
+      "a": "A progressão gradual dos sintomas positivos ao longo de vários minutos",
+      "b": "A duração inferior a 60 minutos",
+      "c": "A presença de náusea acompanhando o quadro",
+      "d": "O acometimento de apenas um hemicampo visual"
+     },
+     "correta": "a",
+     "comentario": "O discriminador de maior valor é a MARCHA: os sintomas se espalham progressivamente pelo campo visual em minutos e são POSITIVOS (fenômenos que se acrescentam à visão — luzes, cintilações, linhas em zigue-zague). Isso reflete uma onda de despolarização que avança pelo córtex, e não uma oclusão vascular. O evento isquêmico transitório é de instalação abrupta, com déficit máximo desde o início e sintomas negativos (perda de campo, escurecimento). A duração inferior a 60 minutos NÃO diferencia: a maioria dos ataques isquêmicos transitórios também dura menos de uma hora — é justamente por isso que o critério temporal é o distrator mais tentador da questão. A náusea pode acompanhar isquemia de fossa posterior e, portanto, tampouco discrimina. O acometimento de um hemicampo é comum às duas condições e sequer é específico. Regra prática de prova: 'positivo e progressivo = aura; negativo e súbito = isquemia'. Atenção ao sinal de alarme: aura sempre no MESMO lado, atípica, prolongada além de 60 minutos ou de início após os 50 anos obriga investigação com neuroimagem.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Considerando o perfil de risco desta paciente, a conduta prioritária é:",
+     "alternativas": {
+      "a": "Prescrever ácido acetilsalicílico 100 mg ao dia e manter a medicação em uso",
+      "b": "Iniciar propranolol como profilaxia e manter a medicação em uso",
+      "c": "Solicitar angiorressonância antes de qualquer mudança terapêutica",
+      "d": "Suspender o contraceptivo combinado e orientar a cessação do tabagismo"
+     },
+     "correta": "d",
+     "comentario": "A associação de aura + estrogênio exógeno + tabagismo é a tríade de maior preocupação vascular na mulher jovem. A aura por si só já cerca de dobra o risco de acidente vascular cerebral isquêmico; o contraceptivo combinado multiplica esse risco, e o tabagismo o potencializa de forma sinérgica, com estimativas de risco relativo próximas de 7 a 10 vezes quando os três coexistem. Por isso, nos Critérios Médicos de Elegibilidade da Organização Mundial da Saúde, cefaleia primária COM aura é CATEGORIA 4 (risco inaceitável) para contraceptivos combinados, em qualquer idade — a conduta é suspender e migrar para método sem estrogênio (progestágeno isolado, DIU de cobre ou DIU com levonorgestrel), além de intervenção antitabágica. Propranolol é uma opção profilática razoável para a frequência das crises, mas mantê-lo com o contraceptivo não corrige o risco vascular — e betabloqueador não protege contra o evento isquêmico. Ácido acetilsalicílico não tem indicação em prevenção primária nessa paciente e não neutraliza o risco do estrogênio. Solicitar angiorressonância antes de agir posterga uma medida custo-zero e de benefício imediato, num exame neurológico normal.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 37 — Migrânea, e cap. 44 — Situações Especiais (infância, mulher, idoso); complementar com os Critérios Médicos de Elegibilidade para uso de contraceptivos (OMS/MS).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infectologia e Emergências (síndrome febril multissistêmica pós-infecciosa no escolar) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 5 anos de idade, comparece à UPA, com história de coriza há 4 dias, febre e dificuldade respiratória há 3 dias, queixando-se de dor abdominal e náuseas, além de cefaleia contínua. Houve um episódio de vômito. No momento apresenta-se hipoativo, hidratado, taquipneico, com saturação de oxigênio: 90% e temperatura: 37,9 ºC. Observa-se hiperemia ocular bilateral e exantema plano em membros e tronco, não pruriginoso. Sem alterações à ausculta e à palpação.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso, indique o exame mais importante a ser realizado nesse momento:",
+     "alternativas": {
+      "a": "Hemograma.",
+      "b": "Teste para COVID-19",
+      "c": "Radiografia de tórax.",
+      "d": "Velocidade de Hemossedimentação."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A banca constrói o caso para que o candidato reconheça um quadro multissistêmico pós-infeccioso relacionado ao SARS-CoV-2 e, portanto, o exame de maior impacto imediato é a confirmação etiológica — teste para COVID-19 (RT-PCR e/ou sorologia, sendo a SOROLOGIA especialmente relevante, pois na síndrome inflamatória pós-infecciosa o RT-PCR costuma já estar negativo e o anticorpo positivo, refletindo infecção prévia de 2 a 6 semanas). O resultado altera conduta, define notificação e orienta a investigação subsequente. O hemograma é útil e será solicitado (espera-se linfopenia, neutrofilia e, por vezes, plaquetopenia), mas é inespecífico e não define o diagnóstico. A radiografia de tórax tem valor limitado diante de ausculta normal, embora a hipoxemia com ausculta limpa mereça atenção; ela não distingue as hipóteses em jogo. A velocidade de hemossedimentação é um marcador inflamatório inespecífico, de cinética lenta, que não orienta a decisão aguda — hoje se prefere proteína C reativa, ferritina, dímero-D, troponina e peptídeo natriurético cerebral para estratificar gravidade nesse cenário. Atenção ao dado que mais preocupa neste paciente: saturação de 90% com ausculta normal.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando a sintomatologia descrita, o diagnóstico provável é:",
+     "alternativas": {
+      "a": "Sarampo.",
+      "b": "Pneumonia.",
+      "c": "Doença de Kawasaki.",
+      "d": "Síndrome Inflamatória Multissistêmica Pediátrica."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Os critérios da Organização Mundial da Saúde e do Ministério da Saúde para a síndrome inflamatória multissistêmica pediátrica exigem: criança ou adolescente de 0 a 19 anos com febre por 3 dias ou mais, associada a pelo menos dois de cinco grupos de sinais (exantema ou conjuntivite não purulenta ou sinais de inflamação mucocutânea; hipotensão ou choque; disfunção miocárdica/pericardite/coronariopatia; coagulopatia; manifestações gastrointestinais agudas), com marcadores inflamatórios elevados e evidência de infecção ou contato com SARS-CoV-2, na ausência de outra causa evidente. O caso traz febre, exantema, hiperemia conjuntival bilateral e sintomas gastrointestinais — combinação que fecha o quadro. Sarampo cursa com exantema morbiliforme de progressão craniocaudal, tosse intensa, coriza, conjuntivite e manchas de Koplik, com pródromo catarral mais exuberante e sem dor abdominal proeminente. Pneumonia isolada não explica exantema nem conjuntivite, e a ausculta está limpa. Doença de Kawasaki é o diferencial mais difícil e há sobreposição real, mas ela predomina em menores de 5 anos, exige 5 dias de febre com quatro dos cinco critérios clássicos e raramente cursa com dor abdominal intensa e choque — ao contrário da síndrome pós-infecciosa, que atinge escolares e adolescentes e tem apresentação gastrointestinal e cardíaca dominante.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Além das medidas de suporte respiratório, essa criança necessitará de:",
+     "alternativas": {
+      "a": "Antibióticos e hospitalização.",
+      "b": "Medicações sintomáticas e hospitalização.",
+      "c": "Corticosteroide e observação por 6 horas.",
+      "d": "Antibióticos e observação por 12 horas."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A resposta oficial da banca privilegia dois pontos inegociáveis: a criança PRECISA ser hospitalizada (saturação de 90%, hipoatividade, quadro multissistêmico em evolução) e, no momento inicial descrito, o tratamento é de suporte e sintomático, enquanto se completa a investigação. A hospitalização permite monitorização cardíaca, ecocardiograma para avaliar coronárias e função ventricular, e dosagem seriada de marcadores. Antibiótico não está indicado por não haver foco bacteriano definido e a ausculta estar normal — embora, na prática, cobertura empírica seja frequentemente iniciada até se afastar sepse, o que a banca não considerou como resposta. Observação por 6 ou 12 horas em unidade de pronto atendimento é conduta insuficiente e potencialmente perigosa: a deterioração hemodinâmica costuma ocorrer entre o 4º e o 6º dia de febre. Quanto ao corticosteroide, ele efetivamente compõe o tratamento imunomodulador estabelecido (metilprednisolona associada ou não a imunoglobulina intravenosa 2 g/kg) — mas a alternativa que o cita o associa a 'observação por 6 horas', o que a invalida. A letalidade é baixa (1% a 2%) quando o reconhecimento é precoce.\n📚 Leitura sugerida (bloco): Ministério da Saúde — Nota Técnica sobre Síndrome Inflamatória Multissistêmica Pediátrica associada à COVID-19, e SBP — Documento Científico do Departamento de Reumatologia sobre SIM-P.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Demências (síndrome de marcha, urgência urinária e declínio cognitivo com ventriculomegalia)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 74 anos de idade, é trazido pela filha por dificuldade progressiva para caminhar há 14 meses. Descreve marcha lenta, de base alargada, com passos curtos e arrastados, 'como se os pés estivessem colados ao chão', com dificuldade especial para iniciar a marcha e para virar. Sofreu três quedas no último ano. Há 4 meses passou a apresentar urgência urinária com escapes. A filha nota também lentificação do raciocínio e menor iniciativa, embora ele reconheça pessoas e acontecimentos recentes quando lembrado. Miniexame do Estado Mental: 23/30, com prejuízo em atenção e evocação livre e desempenho preservado no reconhecimento. Ao exame, não há tremor de repouso nem rigidez em roda denteada nos membros. Ressonância magnética: ventriculomegalia com índice de Evans de 0,38, ângulo caloso agudo e apagamento dos sulcos na convexidade alta, com alargamento das cisuras silvianas.",
+   "perguntas": [
+    {
+     "enunciado": "O diagnóstico mais provável é:",
+     "alternativas": {
+      "a": "Hidrocefalia crônica do adulto de pressão normal",
+      "b": "Doença de Alzheimer em fase moderada",
+      "c": "Doença de Parkinson idiopática",
+      "d": "Ventriculomegalia por atrofia cortical difusa (hidrocefalia ex-vácuo)"
+     },
+     "correta": "a",
+     "comentario": "A tríade de Hakim-Adams — distúrbio da marcha (apraxia de marcha, magnética, de base alargada), incontinência urinária e comprometimento cognitivo subcortical/frontal — associada a ventriculomegalia desproporcional à atrofia é o quadro clássico. Os achados de imagem são particularmente fortes: índice de Evans maior que 0,30, ÂNGULO CALOSO AGUDO (menor que 90 graus) e o padrão DESPROPORCIONAL, com apagamento dos sulcos na convexidade alta e alargamento das cisuras silvianas (o chamado padrão DESH). Na doença de Alzheimer, o déficit é predominantemente amnéstico e de CODIFICAÇÃO — o paciente não se beneficia de pistas e falha também no reconhecimento, o oposto do descrito; além disso, a marcha é preservada até fases avançadas. Na doença de Parkinson idiopática, esperaríamos tremor de repouso assimétrico, rigidez apendicular em roda denteada e boa resposta à levodopa; aqui o parkinsonismo é da metade inferior do corpo, sem sinais apendiculares. Na hidrocefalia ex-vácuo, os ventrículos crescem porque o parênquima encolhe — os sulcos ficam ALARGADOS de forma difusa, inclusive na convexidade alta, e o ângulo caloso é obtuso. Pérola: a marcha é o sintoma que aparece primeiro e o que mais responde ao tratamento.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Entre os exames abaixo, o que melhor prediz a resposta ao tratamento definitivo é:",
+     "alternativas": {
+      "a": "Medida isolada da pressão de abertura na punção lombar",
+      "b": "Punção lombar evacuativa com retirada de 30 a 50 mL de líquor e avaliação da marcha antes e depois",
+      "c": "Cintilografia de perfusão cerebral (SPECT)",
+      "d": "Dosagem liquórica de proteína tau fosforilada e beta-amiloide 1-42"
+     },
+     "correta": "b",
+     "comentario": "O teste de maior valor prognóstico é o tap test: retirada de 30 a 50 mL de líquor por punção lombar, com avaliação objetiva e quantitativa da marcha (tempo e número de passos no teste de levantar e andar, velocidade em 10 metros) imediatamente antes e algumas horas a dias depois. Melhora significativa tem alto valor PREDITIVO POSITIVO para boa resposta à derivação; um teste negativo, entretanto, não exclui, e nesses casos a drenagem lombar externa prolongada (por 48 a 72 horas) ou a medida da resistência à drenagem liquórica aumentam a acurácia. A pressão de abertura, por definição da síndrome, é NORMAL (tipicamente entre 5 e 18 cmH2O) — medi-la isolada não prediz nada, e esperar pressão elevada é justamente o erro conceitual mais comum. O SPECT de perfusão pode mostrar padrões inespecíficos, sem poder preditivo estabelecido. Os biomarcadores liquóricos de tau e amiloide servem para investigar doença de Alzheimer concomitante — dado prognóstico interessante, pois a comorbidade reduz a resposta —, mas não são o exame que prediz o resultado da derivação. Cuidado com outra pegadinha: a coexistência de patologia de Alzheimer é frequente e não contraindica por si só a cirurgia.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Sobre o tratamento e o prognóstico desta condição, é correto afirmar que:",
+     "alternativas": {
+      "a": "A acetazolamida é o tratamento de escolha na maioria dos casos",
+      "b": "O comprometimento cognitivo é o domínio com maior probabilidade de melhora após a cirurgia",
+      "c": "A derivação ventriculoperitoneal melhora a marcha com maior probabilidade do que a cognição",
+      "d": "A idade acima de 70 anos contraindica formalmente o procedimento cirúrgico"
+     },
+     "correta": "c",
+     "comentario": "O tratamento é a derivação ventriculoperitoneal com válvula, preferencialmente programável, e a hierarquia de resposta é consistente na literatura: a MARCHA é o domínio que mais e mais rapidamente melhora (60% a 80% dos pacientes bem selecionados), seguida pela incontinência urinária; a cognição é a que menos responde, sobretudo quando o declínio já é prolongado ou há patologia degenerativa associada. Daí a importância do diagnóstico precoce — quanto menor a duração dos sintomas e quanto mais a marcha predomina sobre a demência, melhor o desfecho. A acetazolamida reduz a produção liquórica e tem papel na hipertensão intracraniana idiopática, não nessa condição, em que a evidência de benefício é frágil. Afirmar que a cognição é o domínio que mais melhora inverte a hierarquia e é o distrator central. A idade avançada NÃO é contraindicação formal: a doença é justamente do idoso, e séries mostram benefício acima dos 80 anos em pacientes selecionados — o que pesa é comorbidade, expectativa de vida e resposta ao tap test, não o número da idade. Complicações a conhecer: hematoma subdural por hiperdrenagem (mais frequente com válvulas de pressão fixa), infecção e obstrução do cateter.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 102 — Hidrocefalia de Pressão Normal; complementar com Merritt (13ª ed.), Seção 14 — Hidrocefalia e Edema Cerebral.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências (reação sistêmica grave de hipersensibilidade após alimento) [REAL: SUS-BA R+ Pediatria 2021]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 5 anos de idade, chega à emergência com dificuldade para respirar, placas eritematosas disseminadas, sendo algumas coalescentes, além de vômitos e dor abdominal. Familiares informam que a menor havia lanchado empada de camarão, mas essa não foi a primeira vez que havia ingerido tal alimento, e que a menor nunca apresentou alergias, embora o pai e o irmão sejam asmáticos.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do relato, indique a suspeita diagnóstica (denominação do quadro):",
+     "alternativas": {
+      "a": "Anafilaxia.",
+      "b": "Edema de glote.",
+      "c": "Urticária colinérgica.",
+      "d": "Alergia alimentar."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O diagnóstico é clínico e se estabelece quando há início agudo de acometimento de PELE/MUCOSAS associado a comprometimento respiratório ou cardiovascular, ou quando, após exposição a alérgeno provável, surgem dois ou mais sistemas acometidos. Aqui coexistem pele (placas eritematosas coalescentes), via aérea (dificuldade respiratória) e trato gastrointestinal (vômitos e dor abdominal) minutos após alimento suspeito — três sistemas, diagnóstico fechado. 'Edema de glote' descreve apenas um COMPONENTE possível do quadro (edema de via aérea superior), não a síndrome, e não explica o exantema disseminado nem os sintomas digestivos. Urticária colinérgica é desencadeada por elevação da temperatura corporal (exercício, banho quente, estresse), com micropápulas de 1 a 3 mm circundadas por halo eritematoso, sem relação com alimento e sem repercussão sistêmica grave. 'Alergia alimentar' é o mecanismo/contexto, não a denominação da emergência — marcar essa opção é o erro mais frequente, por ser tecnicamente verdadeira porém insuficiente. Dois detalhes importantes do enunciado: exposições prévias sem reação são a REGRA (é preciso sensibilização anterior), e história familiar de atopia aumenta o risco, mas não é obrigatória.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Diante do relato, identifique a célula onde inicialmente ocorre o processo fisiopatológico que resulta no quadro clínico descrito:",
+     "alternativas": {
+      "a": "Linfócito.",
+      "b": "Mastócito.",
+      "c": "Neutrófilo.",
+      "d": "Plasmócito."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Trata-se de hipersensibilidade do tipo I (imediata) de Gell e Coombs. Na sensibilização prévia, o plasmócito produz IgE específica, que se fixa aos receptores de alta afinidade (FcεRI) na superfície de MASTÓCITOS teciduais e basófilos. Na reexposição, o alérgeno faz ligação cruzada entre duas moléculas de IgE, desencadeando degranulação MASTOCITÁRIA com liberação imediata de histamina, triptase, prostaglandinas, leucotrienos e fator ativador de plaquetas — responsáveis por vasodilatação, aumento da permeabilidade capilar, broncoconstrição e hipermotilidade intestinal, exatamente o que se vê no caso. O linfócito T participa da orquestração da resposta Th2 e da produção de interleucinas 4, 5 e 13, e o linfócito B/plasmócito produz a IgE — mas o evento efetor INICIAL da crise é a degranulação do mastócito. O neutrófilo é célula da resposta inata antibacteriana e da hipersensibilidade do tipo III, sem papel primário aqui. Aplicação prática: a TRIPTASE sérica, liberada pelo mastócito, é o marcador laboratorial que confirma retrospectivamente o episódio quando colhida entre 30 minutos e 3 horas do início dos sintomas, comparada a uma amostra basal posterior.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante do relato, determine a medicação (droga) indicada para uso imediato e a via preferencial de administração, nesse caso:",
+     "alternativas": {
+      "a": "Adrenalina por via subcutânea.",
+      "b": "Adrenalina por via intramuscular.",
+      "c": "Metilprednisolona por via intravenosa.",
+      "d": "Metilprednisolona por via intramuscular."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A adrenalina é a ÚNICA droga que reverte todos os mecanismos da reação — vasoconstrição por efeito alfa-1 (corrige hipotensão e edema de mucosa), broncodilatação e inibição da degranulação mastocitária por efeito beta-2, e inotropismo e cronotropismo por efeito beta-1 — e não tem contraindicação absoluta nessa situação. A via correta é INTRAMUSCULAR, na face ANTEROLATERAL DA COXA (músculo vasto lateral), na dose de 0,01 mg/kg da solução 1:1000, máximo de 0,3 mg em crianças e 0,5 mg em adolescentes/adultos, repetível a cada 5 a 15 minutos. A via intramuscular nessa localização atinge pico plasmático mais rápido e mais alto do que a via SUBCUTÂNEA, cuja absorção é lenta e ainda mais errática quando já há vasoconstrição periférica — por isso a via subcutânea foi abandonada e é o distrator clássico. Corticosteroides, por qualquer via, têm início de ação de 4 a 6 horas: não servem para o resgate imediato e sua utilidade na prevenção da reação bifásica é hoje questionada; anti-histamínicos aliviam apenas prurido e urticária. Nunca retardar a adrenalina para 'tentar' outra droga — o atraso é o principal fator associado a óbito. Após a estabilização, observar por 4 a 6 horas (ou mais, se reação grave) e prescrever dispositivo autoinjetável, quando disponível, com plano de ação por escrito.\n📚 Leitura sugerida (bloco): 'Choque em Pediatria' (material do Drive) — https://drive.google.com/file/d/11Wx8xIUFnHO1M-dvnxHASuSgNWNSz9H8/view — complementado pelo Guia Prático de Anafilaxia da ASBAI/SBP.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropediatria específica (lactente hipotônico com doença do neurônio motor inferior)",
+   "tier": "MÉDIO",
+   "vinheta": "Lactente do sexo masculino, 4 meses de idade, filho de pais primos em primeiro grau, é levado à consulta porque 'é muito molinho'. Nasceu a termo, com boa vitalidade. Sustentou brevemente a cabeça aos 3 meses e depois perdeu essa habilidade; não rola e não alcança objetos. Mama com dificuldade e se cansa. Ao exame: alerta, com contato visual vivo, mímica facial preservada e sorriso social presente; choro fraco; hipotonia axial e apendicular graves, com postura em 'rã' e queda completa da cabeça à tração; ausência de reflexos profundos nos quatro membros; fasciculações da língua em repouso; respiração paradoxal com tórax em formato de sino. Não há hepatoesplenomegalia, dismorfismos ou catarata.",
+   "perguntas": [
+    {
+     "enunciado": "A hipótese diagnóstica mais provável é:",
+     "alternativas": {
+      "a": "Encefalopatia hipóxico-isquêmica perinatal",
+      "b": "Distrofia muscular congênita",
+      "c": "Atrofia muscular espinhal 5q, forma de início precoce",
+      "d": "Síndrome miastênica congênita"
+     },
+     "correta": "c",
+     "comentario": "O caso reúne todos os marcadores de doença do neurônio motor INFERIOR do corno anterior da medula: fraqueza e hipotonia graves com AREFLEXIA global, fasciculações de língua (denervação de núcleos motores bulbares), padrão respiratório paradoxal com tórax em sino (diafragma relativamente poupado e intercostais fracos) e — o dado que mais orienta a prova — COGNIÇÃO E CONTATO SOCIAL PRESERVADOS, com olhar vivo e mímica facial normal. A consanguinidade aponta para herança autossômica recessiva. Na encefalopatia hipóxico-isquêmica, haveria intercorrência perinatal, comprometimento do nível de consciência e do contato, e os reflexos tendem a estar vivos com sinais de neurônio motor superior. Distrofia muscular congênita cursa com hipotonia e fraqueza, mas costuma haver contraturas e reflexos preservados ou reduzidos, sem fasciculações de língua, e a creatinofosfoquinase é elevada. Síndrome miastênica congênita produz fraqueza FLUTUANTE e fatigável, com ptose e oftalmoparesia frequentes — a oftalmoparesia é justamente o que NÃO se vê nas doenças do corno anterior, cuja motricidade ocular é poupada. Pegadinha clássica: hipotonia com alerta preservado sugere causa periférica; hipotonia com torpor sugere causa central.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "O exame que confirma o diagnóstico é:",
+     "alternativas": {
+      "a": "Teste genético para deleção homozigótica do éxon 7 do gene SMN1",
+      "b": "Biópsia muscular com imuno-histoquímica",
+      "c": "Eletroneuromiografia com estimulação repetitiva",
+      "d": "Dosagem sérica de creatinofosfoquinase"
+     },
+     "correta": "a",
+     "comentario": "O diagnóstico é genético e a confirmação se faz pela pesquisa de deleção homozigótica do éxon 7 do gene SMN1, presente em cerca de 95% dos casos (os demais são heterozigotos compostos, com deleção em um alelo e mutação de ponto no outro, exigindo sequenciamento). O mesmo exame quantifica as cópias do gene parálogo SMN2, o principal modificador fenotípico: quanto mais cópias, mais tardio o início e mais leve o curso — informação que orienta prognóstico e escolha terapêutica. A biópsia muscular mostraria atrofia em grupos de fibras, padrão neurogênico, mas é invasiva e foi ABANDONADA como confirmação desde a disponibilidade do teste molecular. A eletroneuromiografia pode demonstrar padrão neurogênico com potenciais de fibrilação, mas a estimulação repetitiva é o exame da junção neuromuscular, não do corno anterior — é o distrator que testa se o candidato localizou corretamente a lesão. A creatinofosfoquinase pode estar discretamente elevada, mas nunca é diagnóstica e valores muito altos apontariam para miopatia/distrofinopatia. Nota de saúde pública: a triagem neonatal para esta doença já foi incorporada em vários países e é objeto de ampliação do painel brasileiro.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Em relação à conduta e ao prognóstico, é correto afirmar que:",
+     "alternativas": {
+      "a": "Não há tratamento modificador disponível, cabendo apenas cuidados de suporte",
+      "b": "A corticoterapia contínua é a única medida que altera a história natural",
+      "c": "A piridostigmina é o tratamento sintomático de escolha",
+      "d": "As terapias modificadoras devem ser iniciadas o mais precocemente possível, antes da perda motora se consolidar"
+     },
+     "correta": "d",
+     "comentario": "Esta é a maior mudança de paradigma da neuropediatria recente. Existem hoje três terapias modificadoras aprovadas — nusinersena (oligonucleotídeo antissense intratecal, que aumenta a inclusão do éxon 7 no transcrito do SMN2), risdiplam (modulador de splicing por via oral) e a terapia gênica com onasemnogeno abeparvoveque (vetor adeno-associado AAV9 endovenoso) —, e o determinante mais forte de resposta é o TEMPO: o neurônio motor perdido não se recupera, de modo que iniciar antes da instalação da fraqueza (ou o mais precocemente possível) muda o desfecho de forma dramática, permitindo aquisição de marcos motores nunca vistos na história natural. Dizer que só há cuidados de suporte reflete a literatura anterior a 2016 e é hoje incorreto — embora o suporte (ventilação não invasiva, manejo nutricional, fisioterapia respiratória, prevenção de escoliose) permaneça essencial e complementar. Corticoide altera a história natural na distrofinopatia de Duchenne, não aqui — é a troca de doenças mais explorada em prova. Piridostigmina é sintomático de doenças da junção neuromuscular. Sem tratamento, a forma de início precoce leva a insuficiência respiratória e óbito habitualmente antes dos 2 anos.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 174 — Síndrome do Lactente Hipotônico, e cap. 109 — Atrofia Muscular Espinhal 5q.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Oncologia (dor óssea noturna com palidez e visceromegalia no escolar) [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "MÉDIO",
+   "vinheta": "Menino, 7 anos de idade, previamente hígido, chega à UPA apresentando dor em membros inferiores há 2 semanas, que o desperta à noite. A mãe refere cansaço fácil e palidez. Nega trauma recente. Ao exame: criança pálida, com equimoses em membros inferiores e aumento discreto de fígado e baço.",
+   "perguntas": [
+    {
+     "enunciado": "Com base na história e no exame físico descritos, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Púrpura trombocitopênica idiopática.",
+      "b": "Anemia ferropriva.",
+      "c": "Leucemia aguda.",
+      "d": "Febre reumática."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O caso reúne a tríade que caracteriza falência medular por infiltração: anemia (palidez, cansaço fácil), plaquetopenia (equimoses sem trauma) e sinal de doença infiltrativa (hepatoesplenomegalia), somada ao sintoma de maior valor preditivo na faixa etária — DOR ÓSSEA que desperta à noite e é desproporcional ao exame. Essa dor decorre da expansão da medula pela proliferação blástica e da infiltração do periósteo, sendo um dos sinais de alerta de câncer infantil mais cobrados. A púrpura trombocitopênica imune explica as equimoses, mas cursa com criança em bom estado geral, sem palidez, sem dor óssea e SEM visceromegalia — a presença de hepatoesplenomegalia praticamente a exclui. Anemia ferropriva justificaria palidez e cansaço, jamais equimoses nem dor óssea noturna. Febre reumática cursa com artrite migratória de grandes articulações, febre, cardite e história de faringoamigdalite estreptocócica prévia — não há febre nem artrite objetiva no caso. A leucemia linfoblástica aguda é a neoplasia mais frequente da infância (cerca de 25% a 30% de todos os cânceres pediátricos), com pico entre 2 e 5 anos.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o principal mecanismo fisiopatológico envolvido neste caso:",
+     "alternativas": {
+      "a": "Proliferação de linfócitos maduros na medula óssea.",
+      "b": "Substituição da medula óssea normal por células imaturas.",
+      "c": "Hemólise autoimune com destruição eritrocitária periférica.",
+      "d": "Deficiência de ferro e eritropoiese ineficaz."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O mecanismo é a expansão clonal de precursores hematopoéticos IMATUROS (blastos) que ocupam progressivamente o espaço medular e suprimem a hematopoese normal, gerando a tríade citopênica: anemia, plaquetopenia e neutropenia funcional (mesmo com leucometria global alta). Daí decorrem palidez, sangramento cutâneo-mucoso e infecções de repetição. A proliferação de linfócitos MADUROS caracteriza a leucemia linfocítica crônica, doença do adulto idoso e praticamente inexistente na infância — o adjetivo 'maduros' é a armadilha semântica da questão. Hemólise autoimune produz anemia com reticulocitose, icterícia, bilirrubina indireta elevada, haptoglobina baixa e teste de Coombs direto positivo, mas não causa plaquetopenia isolada com dor óssea (exceto na rara síndrome de Evans, que tampouco explica a dor óssea). Deficiência de ferro cursa com microcitose, hipocromia, ferritina baixa e plaquetas normais ou até elevadas. Diagnóstico de confirmação: mielograma com pelo menos 20% de blastos, complementado por imunofenotipagem, citogenética e biologia molecular, que definem o subtipo e o risco.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica preconizada em situações semelhantes:",
+     "alternativas": {
+      "a": "Reposição de Ferro.",
+      "b": "Quimioterapia.",
+      "c": "Anti-inflamatório não hormonal.",
+      "d": "Corticosteroide + analgésicos."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O tratamento é a QUIMIOTERAPIA sistêmica em protocolo multiagente e prolongado, organizado em fases — indução da remissão, consolidação/intensificação e manutenção —, com duração total de aproximadamente 2 a 3 anos e profilaxia do sistema nervoso central com quimioterapia intratecal. Os resultados são dos melhores da oncologia pediátrica: sobrevida livre de eventos superior a 85% na leucemia linfoblástica aguda de risco padrão em centros adequados. Reposição de ferro é irrelevante e potencialmente danosa: a anemia não é carencial. Anti-inflamatório não hormonal apenas mascara a dor óssea e, além disso, agrava o risco hemorrágico numa criança já plaquetopênica. Corticosteroide isolado com analgésicos é a opção mais perigosa da lista, por dois motivos: corticoide é parte do protocolo, mas administrado ANTES do diagnóstico definitivo pode lisar blastos, dificultar a interpretação do mielograma e atrasar a classificação de risco, além de precipitar síndrome de lise tumoral. Mensagem de saúde pública: o encaminhamento imediato a centro de oncologia pediátrica é determinante do prognóstico, e a Lei nº 12.732/2012 assegura início do tratamento em até 60 dias — prazo que, em leucemia aguda, deve ser de dias.\n📚 Leitura sugerida (bloco): 'Flashcard/Préteste — Hemostasia e doenças na Pediatria' (material do Drive) — https://drive.google.com/file/d/1SXA0UfQwBDVutRPRd04Fpmi6DvrzW87t/view — e SBP, Manual 'Sinais e Sintomas de Alerta para o Câncer na Criança e no Adolescente'.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (prevenção secundária após evento menor de circulação anterior)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 70 anos de idade, hipertenso e dislipidêmico, ex-tabagista, procura atendimento. Há 5 dias apresentou perda visual monocular indolor à direita, descrita como 'uma cortina que desceu', com duração de 6 minutos e recuperação completa. Há 2 dias teve episódio de fala arrastada e fraqueza no membro superior esquerdo, com melhora parcial em algumas horas. Ao exame atual: discreta paresia facial central à esquerda e força grau 5-/5 no membro superior esquerdo, com pontuação de 1 na escala de acidente vascular cerebral do National Institutes of Health. A ressonância magnética mostra pequeno infarto cortical recente no território superficial da artéria cerebral média direita. A angiotomografia de vasos cervicais evidencia estenose de 80% na origem da artéria carótida interna direita e de 30% à esquerda. Eletrocardiograma em ritmo sinusal; monitorização de 24 horas sem arritmias.",
+   "perguntas": [
+    {
+     "enunciado": "O mecanismo fisiopatológico mais provável dos eventos descritos é:",
+     "alternativas": {
+      "a": "Cardioembolia a partir de fibrilação atrial paroxística",
+      "b": "Embolia arterioarterial originada em placa aterosclerótica",
+      "c": "Oclusão de arteríola perfurante por lipo-hialinose",
+      "d": "Vasoespasmo segmentar reversível"
+     },
+     "correta": "b",
+     "comentario": "A sequência é típica: perda visual monocular transitória à direita (território da artéria oftálmica, primeiro ramo da carótida interna direita) seguida, dias depois, de déficit hemisférico direito com repercussão à esquerda. Dois territórios distintos, porém ambos supridos pela MESMA carótida interna, com estenose grave ipsilateral e infarto CORTICAL (superficial) na ressonância: o mecanismo é embolia de artéria para artéria, a partir de placa instável na bifurcação carotídea. A cardioembolia produziria infartos em territórios vasculares DIFERENTES e frequentemente bilaterais, e o eletrocardiograma e a monitorização não mostraram arritmia — embora, num evento realmente criptogênico, a monitorização prolongada por semanas fosse indicada. A doença de pequenos vasos por lipo-hialinose gera infartos LACUNARES profundos (cápsula interna, tálamo, ponte), com síndromes lacunares puras e sem sinais corticais como disartria com paresia facial associada a infarto cortical na imagem — e jamais explicaria a amaurose fugaz. Vasoespasmo reversível cursa com cefaleia em trovoada recorrente, ausente aqui. Pérola: amaurose fugaz é sinal de alarme carotídeo e obriga imagem dos vasos cervicais com urgência.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando o grau de estenose, a sintomatologia e o baixo comprometimento neurológico atual, o momento mais adequado para a revascularização carotídea é:",
+     "alternativas": {
+      "a": "Nas primeiras 24 horas, em caráter de emergência",
+      "b": "Somente se houver recorrência de sintomas sob tratamento clínico",
+      "c": "Após 3 meses de tratamento clínico otimizado",
+      "d": "Preferencialmente dentro das duas primeiras semanas após o evento"
+     },
+     "correta": "d",
+     "comentario": "Em estenose carotídea SINTOMÁTICA de 70% a 99%, a revascularização (endarterectomia como padrão, ou angioplastia com stent em casos selecionados) reduz de forma robusta o risco de recorrência, e o benefício é fortemente TEMPO-DEPENDENTE: o risco de novo evento é máximo nos primeiros dias e a análise conjunta dos grandes ensaios mostrou que operar dentro de 2 semanas reduz o número necessário para tratar de forma expressiva, ao passo que a cirurgia realizada após 12 semanas perde grande parte do benefício. Por isso a janela recomendada é de até 14 dias em pacientes com déficit leve e estáveis, como este (NIHSS 1). Operar em 24 horas não é o padrão: em infarto recente há risco de lesão de reperfusão e transformação hemorrágica, e a cirurgia hiperaguda só se cogita em situações específicas, como isquemia flutuante ou em crescendo. Esperar 3 meses desperdiça o período de maior risco. Aguardar recorrência é conduta expectante inaceitável diante de estenose de 80% sintomática. Detalhe importante: a estenose contralateral de 30% é ASSINTOMÁTICA e de baixo grau — não tem indicação cirúrgica, apenas tratamento clínico.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Além do procedimento de revascularização, a terapia clínica que deve ser instituída inclui:",
+     "alternativas": {
+      "a": "Estatina de alta potência, antiagregação plaquetária e controle pressórico",
+      "b": "Anticoagulação plena com varfarina, com meta de INR entre 2 e 3",
+      "c": "Dupla antiagregação plaquetária por 12 meses, sem uso de estatina",
+      "d": "Apenas controle pressórico rigoroso, com meta abaixo de 120x80 mmHg desde o primeiro dia"
+     },
+     "correta": "a",
+     "comentario": "A prevenção secundária da aterotrombose de grandes vasos assenta-se em três pilares: estatina de ALTA potência (atorvastatina 40-80 mg ou rosuvastatina 20-40 mg), com meta de LDL-colesterol abaixo de 70 mg/dL — e abaixo de 55 mg/dL nas diretrizes mais recentes para muito alto risco —, antiagregação plaquetária e controle dos fatores de risco (pressão arterial, diabetes, tabagismo, atividade física). A anticoagulação com varfarina NÃO é superior à antiagregação na doença aterosclerótica de grande vaso e aumenta o risco hemorrágico; sua indicação é o cardioembolismo, sobretudo a fibrilação atrial. A dupla antiagregação tem papel apenas por período CURTO (21 a 90 dias) após evento menor ou ataque isquêmico transitório de alto risco, e mantê-la por 12 meses eleva sangramentos sem ganho; além disso, dispensar a estatina é erro grave, pois ela estabiliza a placa e reduz eventos independentemente do colesterol basal. Reduzir a pressão de forma agressiva já no primeiro dia após infarto cerebral pode comprometer a perfusão da penumbra — a redução é gradual, iniciada após as primeiras 24 a 48 horas, com metas progressivas.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 52 — Prevenção do AVC, e cap. 58 — AIT e AVC Menor.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Cardiologia (sopro neonatal com gradiente de pulsos entre membros) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "MÉDIO",
+   "vinheta": "Recém-nascido, no segundo dia de vida apresenta sopro sistólico leve, audível na axila esquerda e frequência menor em pulsos nos membros inferiores. Nasceu a termo, com peso adequado para a idade gestacional.",
+   "perguntas": [
+    {
+     "enunciado": "Observa-se divergência maior que 20 mmHg entre a Pressão Arterial aferida no membro superior direito e nos membros inferiores. Diante do caso, indique o diagnóstico provável:",
+     "alternativas": {
+      "a": "Coarctação da Aorta.",
+      "b": "Comunicação Interatrial.",
+      "c": "Comunicação Interventricular.",
+      "d": "Persistência do Canal Arterial."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O achado que fecha o diagnóstico é o GRADIENTE pressórico maior que 20 mmHg entre membro superior direito e membros inferiores, associado a pulsos femorais diminuídos e sopro audível no dorso/axila — a obstrução da aorta, tipicamente justaductal, reduz a perfusão distal e cria hipertensão proximal. A aferição no braço DIREITO é proposital: a subclávia direita nasce antes da coarctação, sendo o local que melhor evidencia o gradiente. Comunicação interatrial costuma ser silenciosa no período neonatal, com sopro sistólico ejetivo pulmonar suave e desdobramento fixo de B2, sem alteração de pulsos. Comunicação interventricular gera sopro holossistólico rude em borda esternal esquerda baixa, que geralmente só aparece após a queda da resistência pulmonar (2ª a 6ª semana), sem gradiente entre membros. Persistência do canal arterial produz sopro contínuo 'em maquinaria' com pulsos AMPLOS e pressão divergente — exatamente o oposto do descrito. Sinal de alarme: em coarctação crítica, o fechamento do canal arterial nos primeiros dias precipita choque cardiogênico, e a manutenção da patência com prostaglandina E1 é medida salvadora até a correção.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Observa-se divergência maior que 20 mmHg entre a pressão arterial aferida no membro superior direito e nos membros inferiores. Indique a consequência fisiopatológica da alteração básica dessa doença:",
+     "alternativas": {
+      "a": "Hipertensão dos membros inferiores.",
+      "b": "Hipertrofia do ventrículo esquerdo.",
+      "c": "Má perfusão pulmonar.",
+      "d": "Cardiomegalia."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A obstrução mecânica ao fluxo aórtico impõe aumento crônico da PÓS-CARGA ao ventrículo esquerdo, que responde com hipertrofia CONCÊNTRICA — a consequência fisiopatológica direta e mais precoce. Com o tempo, essa hipertrofia evolui para disfunção diastólica e, se não corrigida, para dilatação e insuficiência cardíaca; no neonato com forma crítica, o quadro pode se instalar de forma abrupta. 'Hipertensão dos membros INFERIORES' inverte a fisiologia: a hipertensão é PROXIMAL (membros superiores, cabeça e pescoço) e a hipotensão é distal, com claudicação, pulsos fracos e, na criança maior, circulação colateral intercostal responsável pelas erosões costais no 'sinal de Roesler'. Má perfusão pulmonar não faz parte do mecanismo: a circulação pulmonar não é obstruída, e a lesão é da via de saída sistêmica. Cardiomegalia é um achado radiológico TARDIO e inespecífico, consequência da descompensação, não a alteração fisiopatológica básica — é o distrator que confunde consequência final com mecanismo. Complicações de longo prazo a lembrar: hipertensão arterial persistente mesmo após correção, aneurismas do polígono de Willis e valva aórtica bicúspide associada em até 50% a 85% dos casos.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Observa-se divergência maior que 20 mmHg entre a pressão arterial aferida no membro superior direito e nos membros inferiores. Identifique a conduta terapêutica quando essa alteração é diagnosticada como moderada a grave, em bebês e crianças pequenas:",
+     "alternativas": {
+      "a": "Correção cirúrgica.",
+      "b": "Angioplastia com balão.",
+      "c": "Tratamento conservador – observar.",
+      "d": "Angioplastia com implante de stent."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] Em recém-nascidos, lactentes e crianças pequenas com obstrução moderada a grave, o tratamento de escolha é a CORREÇÃO CIRÚRGICA — habitualmente ressecção do segmento estreitado com anastomose término-terminal ampliada, por toracotomia esquerda, com excelentes resultados a longo prazo e menores taxas de recoarctação nessa faixa etária. A angioplastia com balão isolada é reservada principalmente à RECOARCTAÇÃO após cirurgia ou a situações de estabilização em pacientes de alto risco; como tratamento primário no lactente apresenta maior índice de reestenose e de formação de aneurisma. A angioplastia com implante de STENT é uma excelente opção, porém em crianças maiores, adolescentes e adultos — o stent não acompanha o crescimento do vaso, o que exige redilatações e, por isso, contraindica seu uso eletivo em bebês. Tratamento conservador só se aplica a gradientes leves e pacientes assintomáticos, com acompanhamento; observar uma obstrução moderada a grave é conduta inaceitável, pelo risco de insuficiência cardíaca, hipertensão irreversível e óbito. Medida pré-operatória essencial no neonato dependente do canal: infusão de prostaglandina E1.\n📚 Leitura sugerida (bloco): Aula 'Cardiopatias congênitas' do R+ PEDIATRIA MEDGRUPO (material do Drive) — https://drive.google.com/file/d/1x1mvuTc7zSmYjdHwK5PqK9aEZxSp7pO7/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Emergências Neurológicas e Ética (determinação de perda irreversível das funções encefálicas)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 34 anos de idade, vítima de traumatismo cranioencefálico grave em acidente motociclístico há 4 dias, encontra-se internado em unidade de terapia intensiva, sob ventilação mecânica. A sedação com midazolam e fentanil foi suspensa há 36 horas e os níveis já não são detectáveis; não recebeu bloqueador neuromuscular. Ao exame: escala de coma de Glasgow 3, temperatura axilar de 36,4 °C, pressão arterial média de 72 mmHg em uso de noradrenalina em dose baixa, sódio sérico de 149 mEq/L, sem acidose ou distúrbio metabólico grave. A tomografia de crânio mostra edema encefálico difuso com apagamento das cisternas da base.",
+   "perguntas": [
+    {
+     "enunciado": "Antes de iniciar formalmente os procedimentos de determinação diagnóstica, é obrigatório assegurar:",
+     "alternativas": {
+      "a": "Um período mínimo de 24 horas com escala de coma de Glasgow 3",
+      "b": "Causa conhecida, irreversível e capaz de justificar o quadro, tratamento e observação por período mínimo, e exclusão de fatores confundidores",
+      "c": "A realização prévia de eletroencefalograma sem atividade elétrica",
+      "d": "Autorização judicial ou consentimento formal da família para iniciar a avaliação"
+     },
+     "correta": "b",
+     "comentario": "Os pré-requisitos são a etapa mais cobrada e a mais frequentemente errada. A Resolução CFM 2.173/2017 exige: (1) causa do coma conhecida, irreversível e capaz de explicar o quadro; (2) ausência de fatores tratáveis que possam confundir o exame — hipotermia (temperatura deve ser maior que 35 °C), hipotensão (pressão arterial sistólica de pelo menos 100 mmHg ou pressão arterial média de pelo menos 65 mmHg, podendo-se usar vasopressor), intoxicação exógena, uso de sedativos e bloqueadores neuromusculares, distúrbios hidroeletrolíticos, ácido-básicos ou endócrinos graves; (3) tratamento e observação em ambiente hospitalar por, no mínimo, 6 horas (ou 24 horas quando a causa for encefalopatia hipóxico-isquêmica). O paciente descrito preenche todos: causa traumática definida, 4 dias de evolução, sedação suspensa e indetectável, normotermia e pressão adequada com vasopressor — o uso de noradrenalina não impede o protocolo. Exigir 24 horas de Glasgow 3 não é regra da resolução. O eletroencefalograma é uma das opções de exame complementar, realizado DEPOIS dos exames clínicos, não antes. E não se exige autorização judicial nem consentimento familiar para DETERMINAR o diagnóstico — a família deve ser informada de todo o processo, e o consentimento é necessário apenas para a doação de órgãos.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Durante a avaliação clínica, o achado COMPATÍVEL com o diagnóstico em questão é:",
+     "alternativas": {
+      "a": "Presença de reflexo corneopalpebral bilateral",
+      "b": "Reflexo de tosse presente à aspiração traqueal profunda",
+      "c": "Movimentos respiratórios espontâneos durante o teste de apneia, com PaCO2 de 58 mmHg",
+      "d": "Presença de reflexos tendinosos profundos e de movimentos de origem medular"
+     },
+     "correta": "d",
+     "comentario": "Este é o ponto que mais gera insegurança à beira do leito e mais aparece em prova. A determinação avalia exclusivamente funções do ENCÉFALO (hemisférios e tronco encefálico); a medula espinhal pode permanecer funcionante. Portanto, reflexos tendinosos profundos, reflexo cutâneo-plantar, reflexos de retirada, sinal de Babinski, tremores, movimentos de flexão dos membros e até o chamado 'sinal de Lázaro' (elevação dos braços e adução) são automatismos MEDULARES, compatíveis com o diagnóstico e não o invalidam. Já os demais achados listados são INCOMPATÍVEIS: o reflexo corneopalpebral depende do trigêmeo e do facial (ponte); o reflexo de tosse depende do glossofaríngeo e do vago (bulbo); qualquer movimento respiratório espontâneo durante o teste de apneia demonstra função do centro respiratório bulbar e encerra o protocolo com resultado negativo. Detalhe do teste de apneia: ele é considerado positivo (compatível) quando NÃO há qualquer movimento respiratório com PaCO2 superior a 55 mmHg. Os demais reflexos de tronco a testar são o fotomotor, o oculocefálico e o oculovestibular (prova calórica).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Para a determinação diagnóstica, a norma brasileira vigente exige:",
+     "alternativas": {
+      "a": "Dois exames clínicos realizados por médicos diferentes e capacitados, um teste de apneia e um exame complementar comprobatório",
+      "b": "Um único exame clínico completo e um eletroencefalograma sem atividade elétrica cerebral",
+      "c": "Três exames clínicos sucessivos, dispensando exame complementar",
+      "d": "Apenas o teste de apneia com resultado positivo, realizado por um intensivista"
+     },
+     "correta": "a",
+     "comentario": "A Resolução CFM 2.173/2017 estabelece um conjunto obrigatório e indivisível: DOIS exames clínicos realizados por dois médicos diferentes e especificamente capacitados — um deles necessariamente neurologista, neurocirurgião, neurologista pediátrico, intensivista, intensivista pediátrico ou emergencista —, sendo que nenhum deles pode integrar equipe de transplante; UM teste de apneia; e UM exame complementar que comprove ausência de atividade encefálica (eletroencefalograma), de perfusão sanguínea encefálica (arteriografia, doppler transcraniano, cintilografia) ou de atividade metabólica. O intervalo mínimo entre os dois exames clínicos varia com a idade: 1 hora acima de 2 anos, 12 horas dos 2 meses aos 2 anos incompletos e 24 horas dos 7 dias aos 2 meses incompletos. As alternativas com um único exame clínico, com três exames clínicos sem complementar, ou apenas com teste de apneia descrevem protocolos de outros países ou versões antigas — no Brasil, o exame complementar é SEMPRE obrigatório, diferentemente de várias diretrizes internacionais, em que é opcional. Concluído o protocolo, a hora do óbito é a do último procedimento, e a família deve ser comunicada; a manutenção do suporte após a determinação só se justifica no contexto de doação de órgãos.\n📚 Leitura sugerida (bloco): Resolução CFM nº 2.173/2017 (íntegra e anexos) e Tratado de Neurologia da ABN (3ª ed., 2025), cap. 22 — Transtornos do Nível de Consciência.",
+     "dificuldade": "moderada"
+    }
+   ]
+  }
+ ]
+}
