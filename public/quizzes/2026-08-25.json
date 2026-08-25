@@ -1,0 +1,651 @@
+{
+ "date": "2026-08-25",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Neuroimunologia (primeiro evento desmielinizante com acometimento do nervo óptico) [RE ranking unificado #1: Vinicius, 100% de erro, 3/3]",
+   "tier": "ALTO",
+   "vinheta": "Mulher de 28 anos procura o pronto-atendimento por dor à movimentação do olho direito iniciada há 5 dias, seguida de embaçamento visual progressivo do mesmo olho. Nega febre, trauma ou uso de medicamentos. Ao exame: acuidade visual 20/200 à direita e 20/20 à esquerda, dessaturação para o vermelho à direita, defeito pupilar aferente relativo à direita e fundoscopia com papila de aspecto normal. Restante do exame neurológico sem déficits. Ressonância magnética de encéfalo: quatro lesões ovoides periventriculares e uma justacortical em T2/FLAIR, sendo uma delas com realce pelo gadolínio, além de hipersinal do nervo óptico direito. Líquor: 4 células/mm³, proteína 38 mg/dL, glicose normal, com bandas oligoclonais presentes apenas no líquor.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico, dos achados de imagem e do perfil liquórico, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Esclerose múltipla remitente-recorrente",
+      "b": "Neuropatia óptica isquêmica anterior não arterítica",
+      "c": "Neuropatia óptica hereditária de Leber",
+      "d": "Doença do espectro da neuromielite óptica"
+     },
+     "correta": "a",
+     "comentario": "A combinação de neurite óptica retrobulbar típica (dor à movimentação ocular, perda visual subaguda, dessaturação para o vermelho, defeito pupilar aferente relativo e fundo de olho normal — 'o paciente não vê nada e o médico também não') com lesões desmielinizantes disseminadas no espaço e bandas oligoclonais restritas ao líquor caracteriza esclerose múltipla. Pelos critérios de McDonald 2017, a disseminação no espaço está cumprida por lesões em pelo menos duas de quatro topografias típicas (periventricular, justacortical/cortical, infratentorial e medular) — aqui, periventricular e justacortical —, e a disseminação no tempo pode ser substituída pela presença de bandas oligoclonais exclusivas do líquor, o que permite fechar o diagnóstico já no primeiro evento clínico. A neuropatia óptica isquêmica anterior não arterítica ocorre em pacientes mais velhos, com fatores de risco vasculares, é indolor, tem instalação súbita ao acordar e cursa obrigatoriamente com edema de papila — o fundo de olho normal a exclui. A doença do espectro da neuromielite óptica costuma produzir neurite óptica mais grave, frequentemente bilateral ou com acometimento quiasmático e extenso (mais de metade do nervo), com lesões encefálicas em topografias atípicas (área postrema, diencéfalo periependimário) e, sobretudo, bandas oligoclonais habitualmente ausentes — sua presença aponta fortemente para esclerose múltipla. A neuropatia óptica hereditária de Leber acomete predominantemente homens jovens, é indolor, bilateral e sequencial, e não produz lesões desmielinizantes com realce nem bandas oligoclonais.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Considerando os critérios diagnósticos vigentes, indique o achado que, neste caso, supre a exigência de disseminação no tempo:",
+     "alternativas": {
+      "a": "Realce por gadolínio da lesão sintomática",
+      "b": "Presença de lesão justacortical",
+      "c": "Bandas oligoclonais restritas ao líquor",
+      "d": "Defeito pupilar aferente relativo"
+     },
+     "correta": "c",
+     "comentario": "Desde a revisão de 2017 dos critérios de McDonald, a presença de bandas oligoclonais de IgG exclusivas do líquor (ou seja, ausentes no soro pareado) substitui formalmente a demonstração de disseminação no tempo em um paciente com síndrome clínica isolada típica e disseminação no espaço já preenchida. Esse é justamente o ponto que permite antecipar o diagnóstico — e o tratamento — em meses ou anos. O realce pelo gadolínio só cumpre disseminação no tempo quando coexistem, no mesmo exame, lesões captantes e não captantes; se a única lesão captante for a sintomática, ela não pode ser usada para esse fim, pois representa o próprio evento agudo em curso. A lesão justacortical conta para disseminação no ESPAÇO, não no tempo — é um erro clássico de prova trocar os dois eixos. O defeito pupilar aferente relativo é um sinal semiológico de lesão assimétrica da via óptica anterior: confirma que há neuropatia óptica e que ela é unilateral ou assimétrica, mas não tem qualquer papel na temporalidade da doença. Vale lembrar que bandas oligoclonais são encontradas em 85-95% dos pacientes com esclerose múltipla, mas não são patognomônicas: aparecem também em neurossífilis, neurossarcoidose, doenças do tecido conjuntivo e infecções crônicas do sistema nervoso central, o que reforça a necessidade de contexto clínico compatível.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada para esta paciente:",
+     "alternativas": {
+      "a": "Observação clínica com nova ressonância em 12 meses",
+      "b": "Prednisona oral em dose baixa por 14 dias",
+      "c": "Plasmaférese como medida inicial",
+      "d": "Pulsoterapia com metilprednisolona seguida de terapia modificadora da doença"
+     },
+     "correta": "d",
+     "comentario": "O manejo tem dois tempos distintos. No surto agudo, indica-se metilprednisolona endovenosa 1 g/dia por 3 a 5 dias, que acelera a recuperação visual sem alterar o desfecho visual final; em seguida, como o diagnóstico de esclerose múltipla já está fechado, inicia-se terapia modificadora da doença, cujo objetivo é reduzir a taxa de surtos e o acúmulo de incapacidade — há evidência consistente de que o início precoce muda a história natural. A observação com reavaliação em 12 meses seria aceitável apenas em uma síndrome clinicamente isolada de baixo risco, sem lesões desmielinizantes e sem bandas oligoclonais, o que não é o caso: esta paciente tem alto risco de conversão em curto prazo, e adiar equivale a permitir dano axonal irreversível. A plasmaférese é reservada aos surtos graves refratários à pulsoterapia (geralmente após 3 a 5 dias sem resposta), não sendo medida de primeira linha. A prednisona oral em dose baixa é a armadilha clássica: no estudo Optic Neuritis Treatment Trial, o corticoide oral em dose baixa isolado não trouxe benefício e associou-se a MAIOR taxa de recorrência de neurite óptica do que o placebo — deve ser evitado. Pérola: em toda neurite óptica, pesquisar sorologias para anti-AQP4 e anti-MOG quando o quadro for atípico (bilateral, muito grave, com edema de papila importante, recorrente ou corticodependente).\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), caps. 85-87 — Esclerose Múltipla (epidemiologia, diagnóstico e tratamento); complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 10 — Doenças Desmielinizantes e Inflamatórias, e com os critérios de McDonald 2017.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Oncologia (lactente com hepatomegalia de crescimento rápido e nódulos cutâneos) [RE ranking unificado #2: Vinicius, 100% de erro, 3/3]",
+   "tier": "MÉDIO",
+   "vinheta": "Lactente de 3 meses, sexo feminino, previamente hígida, é levada ao pronto-socorro pelos pais por aumento progressivo e rápido do volume abdominal nas últimas três semanas, associado a desconforto respiratório leve por elevação diafragmática. A mãe notou também o surgimento de pequenos nódulos subcutâneos azulados, endurecidos e indolores, no tronco e no dorso. Ao exame: bom estado geral, corada, sem febre; fígado palpável a 7 cm do rebordo costal direito, de consistência aumentada; nódulos cutâneos de 0,5 a 1 cm conforme descrito; sem adenomegalias periféricas e sem sinais neurológicos focais. Ultrassonografia de abdome: massa sólida heterogênea de 3 cm em topografia suprarrenal esquerda, com hepatomegalia difusa e nodular. Mielograma bilateral: infiltração por células pequenas e redondas em menos de 10% dos elementos nucleados. Pesquisa de amplificação de MYCN: negativa.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando a idade, a topografia da lesão primária e o padrão de disseminação descrito, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Tumor de Wilms",
+      "b": "Neuroblastoma",
+      "c": "Leucemia mieloide aguda congênita",
+      "d": "Hepatoblastoma"
+     },
+     "correta": "b",
+     "comentario": "O quadro é o de um tumor de células pequenas, redondas e azuis originado na crista neural, com sítio primário em suprarrenal — a topografia mais frequente — e disseminação para fígado, pele e medula óssea, combinação característica do estágio MS (antigo 4S) do lactente. Os nódulos subcutâneos azulados, descritos classicamente como aspecto de 'muffin de mirtilo', traduzem infiltração cutânea e são quase específicos dessa apresentação na primeira infância. O tumor de Wilms é intrarrenal, cursa com massa de flanco que NÃO cruza a linha média, frequentemente com hematúria e hipertensão, tem pico entre 2 e 5 anos e não produz nódulos cutâneos nem infiltração medular como padrão. O hepatoblastoma origina-se no próprio fígado, apresenta-se como massa hepática focal com alfafetoproteína muito elevada, e não explica a massa suprarrenal nem o acometimento medular. A leucemia mieloide aguda congênita pode dar nódulos cutâneos (leucemia cutis) e hepatoesplenomegalia, mas cursa com citopenias no sangue periférico, blastos mieloides circulantes e infiltração medular maciça, não com massa suprarrenal sólida e infiltração medular inferior a 10%. Pérolas do neuroblastoma: é o tumor sólido extracraniano mais comum da infância, com idade mediana de diagnóstico em torno de 18 meses, e pode se manifestar por síndromes paraneoplásicas (opsoclonia-mioclonia, diarreia secretora por VIP) ou por síndrome de Horner e proptose com equimose periorbitária ('olhos de guaxinim') nas metástases orbitárias.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame laboratorial que melhor apoia a confirmação bioquímica da hipótese diagnóstica:",
+     "alternativas": {
+      "a": "Dosagem de renina plasmática",
+      "b": "Cariótipo em sangue periférico",
+      "c": "Alfafetoproteína sérica",
+      "d": "Ácido vanilmandélico e ácido homovanílico urinários"
+     },
+     "correta": "d",
+     "comentario": "As células do neuroblastoma derivam da crista neural simpática e sintetizam catecolaminas, cujos metabólitos — ácido vanilmandélico e ácido homovanílico — são excretados na urina e estão elevados em 90-95% dos casos, servindo tanto para apoiar o diagnóstico quanto para monitorar resposta e recidiva. A alfafetoproteína é o marcador do hepatoblastoma e dos tumores de células germinativas (saco vitelínico), e sua normalidade ajuda a afastar essas hipóteses; convém lembrar que a alfafetoproteína é fisiologicamente alta no recém-nascido e cai ao longo do primeiro ano, o que exige valores de referência ajustados à idade. A renina plasmática seria investigada em hipertensão renovascular ou em hiperaldosteronismo — a hipertensão do neuroblastoma, quando ocorre, decorre de compressão vascular renal ou de secreção de catecolaminas, e não se diagnostica por renina. O cariótipo em sangue periférico avalia anomalias cromossômicas constitucionais; no neuroblastoma o que importa é a genética TUMORAL, obtida do tecido: amplificação de MYCN (o marcador prognóstico mais robusto, presente em 20-25% dos casos e associado a doença agressiva), ploidia do DNA e alterações segmentares como del(1p) e ganho de 17q. Complementam o estadiamento a cintilografia com MIBG (marcada com iodo-123), a tomografia ou ressonância do sítio primário e o aspirado/biópsia de medula óssea bilateral.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando o estadiamento e o perfil biológico descritos, indique a conduta e o prognóstico esperados:",
+     "alternativas": {
+      "a": "Quimioterapia de alta intensidade seguida de transplante autólogo de células-tronco",
+      "b": "Observação clínica com vigilância ativa",
+      "c": "Ressecção cirúrgica ampla imediata do tumor primário e das metástases hepáticas",
+      "d": "Radioterapia hepática como tratamento inicial de rotina"
+     },
+     "correta": "b",
+     "comentario": "Esta é a grande peculiaridade do neuroblastoma e o ponto mais cobrado deste bloco: o estágio MS (antigo 4S) — lactente com menos de 12-18 meses, tumor primário localizado e metástases restritas a pele, fígado e medula óssea com menos de 10% de infiltração, sem amplificação de MYCN — tem prognóstico excelente, com sobrevida acima de 90%, e apresenta regressão espontânea em grande parte dos casos, por maturação ou apoptose das células tumorais. A conduta padrão nesses pacientes assintomáticos é a observação vigilante, reservando-se quimioterapia em baixas doses ou radioterapia hepática em dose baixa apenas para o subgrupo que desenvolve hepatomegalia maciça com repercussão — insuficiência respiratória por elevação diafragmática, compressão de veia cava, coagulopatia ou insuficiência renal (a chamada síndrome de Pepper). Quimioterapia de alta intensidade com transplante autólogo, ácido retinoico e imunoterapia anti-GD2 é o tratamento do grupo de ALTO risco (estágio M com MYCN amplificado ou criança maior), e aplicá-la aqui seria expor a lactente a toxicidade grave sem ganho. Ressecção ampla imediata das metástases hepáticas não é factível nem indicada, e a cirurgia do primário é feita eletivamente quando necessário. Radioterapia hepática de rotina não se justifica pelo risco de toxicidade tardia em um tumor que tende a involuir. Erro clássico: equiparar 'doença metastática' a 'alto risco' — no neuroblastoma, o risco é definido por idade, estágio INRG, histologia de Shimada e biologia tumoral, não pela extensão isolada.\n📚 Leitura sugerida (bloco): material do Drive do Vinicius — 'Tópicos em Pediatria' (https://drive.google.com/file/d/1Kv_fDM9e_G0IOc7u311JTb2oEqreHP1c/view); complementar com o manual 'Diagnóstico Precoce do Câncer na Criança e no Adolescente' (INCA/Ministério da Saúde) e com o documento científico da SBP sobre sinais de alerta em oncologia pediátrica.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (cefaleia progressiva com crise focal e lesão que não respeita território arterial)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher de 34 anos, tabagista, em uso de contraceptivo oral combinado há 3 anos, é levada ao pronto-socorro após crise motora focal em membro superior direito com evolução para crise tônico-clônica bilateral. Refere cefaleia holocraniana de intensidade crescente há 8 dias, pior ao deitar-se e ao fazer esforço evacuatório, sem melhora com analgésicos comuns. Ao exame: consciente, orientada, discreta paresia braquial direita, papiledema bilateral à fundoscopia, sem rigidez de nuca. Tomografia de crânio sem contraste: área hipodensa parassagital esquerda com focos hiperdensos de permeio, edema local e hiperdensidade espontânea alongada na topografia do seio sagital superior.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando a apresentação clínica e os achados tomográficos, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Hipertensão intracraniana idiopática",
+      "b": "Infarto arterial da artéria cerebral média esquerda",
+      "c": "Encefalite herpética",
+      "d": "Trombose venosa cerebral"
+     },
+     "correta": "d",
+     "comentario": "Três elementos apontam para trombose venosa cerebral: a cefaleia subaguda progressiva com sinais de hipertensão intracraniana (piora ao decúbito e à manobra de Valsalva, papiledema), a crise epiléptica precoce e, principalmente, uma lesão parenquimatosa com transformação hemorrágica que NÃO respeita território arterial — a topografia parassagital corresponde à drenagem do seio sagital superior. A hiperdensidade espontânea alongada no seio (sinal da corda densa) e o contexto protrombótico (contraceptivo combinado + tabagismo) fecham o raciocínio. O infarto arterial de cerebral média produz déficit súbito, máximo no início, com hipodensidade em território arterial definido (córtex insular, ínsula, gânglios da base) e crise epiléptica é incomum na fase hiperaguda. A hipertensão intracraniana idiopática cursa com cefaleia e papiledema, mas por definição exige neuroimagem SEM lesão parenquimatosa e sem trombose venosa — é diagnóstico de exclusão, e a lesão hemorrágica aqui a afasta. A encefalite herpética tipicamente cursa com febre, alteração de comportamento e lesão temporal mesial/frontobasal, ausentes no caso. Pérola de prova: cefaleia é o sintoma mais frequente da trombose venosa (presente em cerca de 90%) e pode ser a única manifestação, inclusive em trovoada.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame complementar de escolha para confirmar a suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Punção lombar com medida da pressão de abertura",
+      "b": "Angiorressonância venosa de crânio",
+      "c": "Angiotomografia arterial de crânio",
+      "d": "Doppler transcraniano"
+     },
+     "correta": "b",
+     "comentario": "A confirmação exige um estudo dedicado ao sistema venoso: angiorressonância venosa (ou, alternativamente, angiotomografia em fase venosa), que demonstra a falha de enchimento no seio acometido — o clássico sinal do delta vazio quando há contraste. A ressonância convencional associada ao estudo venoso ainda permite avaliar o parênquima e datar o trombo pelo padrão de sinal. A angiotomografia ARTERIAL avalia o polígono de Willis e vasos cervicais; pode até flagrar um trombo venoso incidentalmente, mas não é o exame direcionado e frequentemente perde tromboses corticais ou de seios menores. A punção lombar com manometria demonstraria pressão elevada, mas é inespecífica, não define a causa e, na presença de lesão parenquimatosa com efeito de massa, deve ser postergada até a neuroimagem afastar risco de herniação; seu papel na trombose venosa é terapêutico/diagnóstico apenas em casos selecionados de hipertensão intracraniana isolada. O Doppler transcraniano avalia fluxo arterial intracraniano e não tem acurácia para trombose de seios durais. Vale lembrar que o dímero-D elevado apoia a suspeita, mas um dímero-D normal NÃO exclui trombose venosa cerebral, sobretudo naquela que se apresenta como cefaleia isolada de longa duração.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Definido o diagnóstico, indique a conduta terapêutica mais adequada neste momento:",
+     "alternativas": {
+      "a": "Apenas suporte clínico, sem anticoagulação",
+      "b": "Anticoagulação plena com heparina",
+      "c": "Trombólise endovenosa com alteplase",
+      "d": "Antiagregação plaquetária com ácido acetilsalicílico"
+     },
+     "correta": "b",
+     "comentario": "O tratamento de escolha é a anticoagulação plena — heparina de baixo peso molecular ou heparina não fracionada — e, este é o ponto testado, a presença de infarto venoso com transformação hemorrágica NÃO contraindica a anticoagulação. O sangramento é consequência da hipertensão venosa retrógrada; recanalizar o seio é o que interrompe o mecanismo, e os ensaios (ISCVT, estudos de Einhäupl e de de Bruijn) mostraram segurança e benefício mesmo nesse cenário. Depois da fase aguda, mantém-se anticoagulação oral por 3 a 12 meses, conforme o fator de risco identificado, e indefinidamente em trombofilias graves. A trombólise endovenosa sistêmica não tem indicação estabelecida e, diante de hemorragia intraparenquimatosa, é francamente deletéria; trombólise/trombectomia endovascular ficam restritas a casos refratários com deterioração apesar de anticoagulação adequada (o ensaio TO-ACT não demonstrou superioridade da abordagem endovascular de rotina). A antiagregação é insuficiente para trombo venoso e não tem respaldo. Suspender ou não iniciar a anticoagulação por causa do sangramento é justamente o erro clássico que a questão cobra. Medidas associadas: antiepiléptico para quem já teve crise, tratar a causa (suspender o contraceptivo combinado, cessar tabagismo, investigar trombofilia e neoplasia) e, na hipertensão intracraniana refratária com risco visual, considerar derivação ou descompressão.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 55 — Trombose Venosa Cerebral (p.853); complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 4 — Doenças Vasculares Cerebrais.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecções respiratórias altas e ORL (otalgia febril com deslocamento do pavilhão auricular) [RE cota individual: Ana Teresa, 67% de erro, 2/3; ângulo inédito]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino de 3 anos foi atendido há 12 dias na unidade básica de saúde com febre, otalgia à direita e abaulamento da membrana timpânica, tendo iniciado amoxicilina por via oral. Houve melhora parcial nos primeiros dias, mas há 48 horas retornou a febre, agora de 39,2 °C, com otalgia intensa e otorreia purulenta pelo conduto direito. Ao exame: criança irritada, prostrada; região retroauricular direita com edema, hiperemia e dor intensa à palpação; apagamento do sulco retroauricular e pavilhão auricular direito deslocado para frente, para fora e para baixo. Otoscopia à direita: conduto com secreção purulenta abundante e queda da parede posterossuperior. Sem rigidez de nuca, sem déficits neurológicos e sem paresia facial.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando a evolução e os achados do exame físico, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Otite externa aguda difusa",
+      "b": "Parotidite aguda supurativa",
+      "c": "Adenite retroauricular reacional",
+      "d": "Mastoidite aguda"
+     },
+     "correta": "d",
+     "comentario": "A tríade que define mastoidite aguda é edema/hiperemia retroauricular com dor, apagamento do sulco retroauricular e protrusão do pavilhão auricular — exatamente o descrito —, em criança com otite média aguda que não resolveu ou que piorou após melhora inicial. A queda da parede posterossuperior do conduto é sinal de osteíte da mastoide e reforça o diagnóstico. Fisiopatologicamente, a mastoide é uma extensão pneumatizada do ouvido médio; quando a drenagem pelo aditus ad antrum se bloqueia, o processo evolui de mastoidite 'de vizinhança' (presente em quase toda otite média) para empiema e depois osteíte com destruição dos septos ósseos — é a complicação supurativa intratemporal mais frequente da otite média aguda. A otite externa aguda difusa cursa com dor à tração do pavilhão e à pressão do trago, conduto edemaciado e hiperemiado, tipicamente sem febre alta e sem deslocamento do pavilhão para fora; o edema é do conduto, não retroauricular. A parotidite aguda supurativa desloca o LÓBULO da orelha para cima e para fora, com tumefação centrada no ângulo da mandíbula e saída de pus pelo ducto de Stensen à expressão da glândula — topografia diferente. A adenite retroauricular reacional produz linfonodo móvel, bem delimitado, sem apagamento do sulco (que fica preservado) e sem otorreia purulenta associada. Pegadinha: o sulco retroauricular PRESERVADO fala contra mastoidite; seu apagamento é o sinal semiológico que separa as duas hipóteses.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame de imagem mais adequado para avaliar a extensão do processo e detectar complicações:",
+     "alternativas": {
+      "a": "Tomografia computadorizada de ossos temporais com contraste",
+      "b": "Timpanometria com pesquisa de reflexo estapediano",
+      "c": "Ultrassonografia de partes moles retroauriculares",
+      "d": "Radiografia simples de mastoides em incidência de Schüller"
+     },
+     "correta": "a",
+     "comentario": "A tomografia de ossos temporais com contraste é o exame de escolha: demonstra a opacificação das células mastóideas, a coalescência com destruição dos septos ósseos (que diferencia a mastoidite coalescente da simples opacificação inflamatória) e, principalmente, as complicações que mudam a conduta — abscesso subperiosteal, abscesso de Bezold (dissecção para o pescoço através da ponta da mastoide), erosão do tegmen tympani com abscesso epidural ou intraparenquimatoso e trombose do seio sigmoide. Quando há suspeita de complicação intracraniana ou de trombose venosa, complementa-se com ressonância magnética e estudo venoso. A radiografia em incidência de Schüller é de baixa sensibilidade, hoje praticamente abandonada, e um exame normal não afasta doença coalescente. A ultrassonografia pode identificar coleção subperiosteal superficial, mas não avalia osso nem o compartimento intracraniano, o que a torna insuficiente na suspeita de complicação. A timpanometria avalia a complacência da membrana timpânica e é ferramenta de otite média com efusão em ambulatório, sem qualquer papel na urgência de uma criança séptica com suspeita de complicação supurativa. Agentes mais frequentes a considerar na antibioticoterapia: Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus, Haemophilus influenzae não tipável e, nos casos crônicos, Pseudomonas aeruginosa e anaeróbios.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada neste momento:",
+     "alternativas": {
+      "a": "Manter amoxicilina por via oral por mais dez dias",
+      "b": "Prescrever corticoide oral e analgesia em domicílio",
+      "c": "Internação hospitalar, antibioticoterapia endovenosa e avaliação otorrinolaringológica",
+      "d": "Iniciar gotas otológicas com ciprofloxacino isoladamente"
+     },
+     "correta": "c",
+     "comentario": "Mastoidite aguda é emergência infecciosa: a conduta é internar, colher culturas (inclusive da otorreia), iniciar antibiótico endovenoso de amplo espectro com boa penetração — ceftriaxona, ou cefepima/ceftazidima quando houver risco de Pseudomonas, associando vancomicina ou clindamicina se houver suspeita de S. aureus resistente ou de complicação intracraniana — e acionar a otorrinolaringologia. Muitos casos sem coleção respondem ao tratamento clínico associado a miringotomia com ou sem tubo de ventilação, que drena o ouvido médio e fornece material para cultura; a mastoidectomia fica reservada aos casos com abscesso subperiosteal, mastoidite coalescente com destruição óssea, falha do tratamento clínico em 48 horas ou complicação intracraniana. Manter amoxicilina oral é justamente o erro que a questão cobra: o paciente já falhou com esse esquema, a penetração oral é insuficiente no osso comprometido e o atraso favorece a progressão para paralisia facial, labirintite, meningite, abscesso cerebral e trombose do seio sigmoide. Corticoide com analgesia domiciliar não trata a infecção e mascara a evolução. Gotas otológicas isoladas atuam apenas topicamente no conduto e não alcançam o processo mastóideo — são adjuvantes na otorreia, nunca terapia principal. Pérola preventiva: a incidência de mastoidite caiu com a vacinação antipneumocócica conjugada, e o diagnóstico correto da otite média aguda (com critérios de abaulamento timpânico) e o tratamento adequado da criança de risco continuam sendo a melhor profilaxia.\n📚 Leitura sugerida (bloco): material do Drive do Vinicius — videoaula 'Infecções respiratórias' do R+ PEDIATRIA MEDGRUPO (https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view); complementar com o Tratado de Pediatria da SBP (capítulo de otite média aguda e complicações) e com a diretriz da American Academy of Pediatrics para diagnóstico e manejo da otite média aguda.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Epilepsia (crise convulsiva prolongada sem resposta às medidas iniciais na emergência)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem de 45 anos, com epilepsia estrutural pós-traumática e uso irregular da medicação, chega ao pronto-socorro em atividade convulsiva contínua. A equipe do serviço pré-hospitalar administrou duas doses de diazepam 10 mg por via endovenosa durante o transporte. Já na sala de emergência, recebeu fenitoína 20 mg/kg em infusão adequada. Passados 40 minutos do início do quadro, mantém abalos tônico-clônicos generalizados. Ao exame: PA 155x95 mmHg, FC 122 bpm, SatO2 91% em máscara com reservatório, temperatura 37,9 °C, glicemia capilar 118 mg/dL. Sem sinais de trauma agudo.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando a evolução temporal e a resposta às medidas já instituídas, indique a classificação correta do quadro:",
+     "alternativas": {
+      "a": "Estado de mal epiléptico estabelecido",
+      "b": "Estado de mal epiléptico super-refratário",
+      "c": "Crises agrupadas em salva",
+      "d": "Estado de mal epiléptico refratário"
+     },
+     "correta": "d",
+     "comentario": "A definição operacional atual (ILAE 2015) fixa dois tempos: t1 aos 5 minutos, a partir do qual a crise tônico-clônica é considerada estado de mal e deve ser tratada; e t2 aos 30 minutos, a partir do qual há risco de lesão neuronal. A gradação terapêutica é o que define os rótulos: estado de mal ESTABELECIDO é aquele que persiste após o benzodiazepínico em dose adequada; REFRATÁRIO é o que persiste após benzodiazepínico E um antiepiléptico de segunda linha em dose plena — exatamente a situação descrita, com diazepam seguido de fenitoína 20 mg/kg sem controle; SUPER-REFRATÁRIO é o que persiste ou recorre após 24 horas de anestésico endovenoso em infusão contínua, patamar ainda não atingido aqui. Crises agrupadas em salva (cluster) são crises repetidas com recuperação da consciência entre elas, o que não ocorre no caso, em que a atividade é contínua. Reconhecer o estágio importa porque cada patamar tem conduta própria e porque a mortalidade sobe progressivamente — cerca de 10-20% no estabelecido e acima de 30-40% no refratário. Erro clássico de prova: chamar de refratário todo estado de mal que 'demora a ceder', sem verificar se a segunda linha foi de fato administrada em dose de carga plena.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica imediata mais adequada:",
+     "alternativas": {
+      "a": "Repetir bolus de benzodiazepínico endovenoso",
+      "b": "Administrar segunda dose de carga de fenitoína",
+      "c": "Infusão contínua de midazolam com intubação orotraqueal",
+      "d": "Iniciar carbamazepina por sonda nasogástrica"
+     },
+     "correta": "c",
+     "comentario": "No estado de mal refratário, a conduta é escalonar para anestésico endovenoso em infusão contínua — midazolam, propofol ou tiopental — obrigatoriamente com via aérea definitiva, ventilação mecânica e monitorização em terapia intensiva. O objetivo é interromper a atividade elétrica sustentada antes que a lesão neuronal excitotóxica se estabeleça; quanto mais tempo a crise dura, mais os receptores GABA-A são internalizados e menos o benzodiazepínico funciona, o que explica a falha das doses repetidas. Repetir bolus de benzodiazepínico após duas doses adequadas apenas soma depressão respiratória sem ganho terapêutico — é justamente o fenômeno de farmacorresistência tempo-dependente. Nova dose de carga de fenitoína expõe a hipotensão, bradiarritmia e síndrome da luva púrpura sem evidência de benefício; no máximo, admite-se dose adicional de 5-10 mg/kg quando a carga inicial foi incompleta, o que não é o caso. Carbamazepina por sonda é inadequada: absorção enteral lenta e imprevisível em paciente convulsivando, sem formulação endovenosa e sem papel na urgência. Vale lembrar do ensaio ESETT, que mostrou eficácia equivalente entre fosfenitoína, levetiracetam e valproato como segunda linha — a escolha recai sobre disponibilidade e perfil de efeitos adversos. Medidas paralelas obrigatórias: proteger via aérea, oxigenar, corrigir glicemia e distúrbios eletrolíticos e buscar a causa (tomografia, líquor se houver febre, dosagem de níveis séricos e rastreio toxicológico).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Após o controle dos abalos com o anestésico endovenoso, indique o exame que deve ser instituído para guiar a condução do caso:",
+     "alternativas": {
+      "a": "Tomografia de crânio seriada a cada 6 horas",
+      "b": "Dosagem seriada de creatinofosfoquinase",
+      "c": "Eletroencefalograma contínuo",
+      "d": "Monitorização invasiva da pressão intracraniana"
+     },
+     "correta": "c",
+     "comentario": "O desaparecimento dos abalos não significa o fim das crises. Até 20-48% dos pacientes que tiveram estado de mal convulsivo evoluem para estado de mal NÃO convulsivo — dissociação eletroclínica —, e a única forma de detectá-lo é a monitorização eletroencefalográfica contínua, que também é usada para titular o anestésico até o alvo desejado (supressão de crises ou padrão surto-supressão) e para guiar o desmame. É por isso que todo paciente que permanece em coma ou sem recuperação do nível de consciência após uma crise prolongada tem indicação de EEG contínuo. Tomografia seriada de rotina não acrescenta: a imagem deve ser feita uma vez para investigar etiologia estrutural e repetida apenas se houver deterioração ou novo déficit focal. A creatinofosfoquinase pode estar elevada por rabdomiólise e ajuda a estimar risco de lesão renal aguda, mas é marcador de complicação sistêmica, não de atividade epiléptica. A monitorização da pressão intracraniana é reservada a lesões estruturais com risco de hipertensão intracraniana (traumatismo grave, hemorragia com efeito de massa), não sendo indicada rotineiramente no estado de mal. Pérola: paciente que 'parou de convulsionar' mas não acorda em 20-30 minutos deve ser considerado em estado de mal não convulsivo até prova eletroencefalográfica em contrário.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 84 — Estado de Mal Epiléptico (p.1197); complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 8 — Epilepsia e Distúrbios Paroxísticos, e com a definição operacional da ILAE (2015).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia (irritabilidade e tremores no filho de mãe com doença metabólica) [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Recém-nascido do sexo masculino, com idade gestacional de 36 semanas, nascido de parto cesáreo eletivo, filho de mãe com diabetes mellitus tipo 1, mal controlado durante a gestação. Peso ao nascer 2.600 g. Evoluiu bem nas primeiras horas, em alojamento conjunto. Com 36 horas de vida, a equipe foi chamada porque \"o bebê está muito irritado, com choro agudo e tremores finos de extremidades, principalmente durante a manipulação\". Está mamando pouco. Ao exame físico: temperatura = 36,7 °C; FC = 170 bpm; FR = 58 irpm. Perfusão periférica preservada, sem sinais de desconforto respiratório. Tônus global discretamente aumentado, hiperreflexia osteotendínea, alguns episódios breves de movimentos clônicos em membros superiores. Auscultas cardíaca e pulmonar sem alterações. Exames laboratoriais: glicemia = 78 mg/dL; sódio = 138 mEq/L; potássio = 4,5 mEq/L; cálcio total = 6,5 mg/dL; cálcio iônico = 0,80 mmol/L; fósforo = 7,0 mg/L; magnésio = 1,2 mg/dL.",
+   "perguntas": [
+    {
+     "enunciado": "Diante dos dados, indique a causa do quadro clínico apresentado:",
+     "alternativas": {
+      "a": "Hipocalcemia.",
+      "b": "Hipernatremia.",
+      "c": "Hipoglicemia.",
+      "d": "Hipofosfatemia."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O recém-nascido apresenta o quadro clássico de hiperexcitabilidade neuromuscular — choro agudo, tremores desencadeados pela manipulação, hipertonia, hiperreflexia e movimentos clônicos — e o laboratório mostra cálcio total de 6,5 mg/dL e, sobretudo, cálcio IÔNICO de 0,80 mmol/L, valores francamente baixos. Define-se hipocalcemia neonatal como cálcio total abaixo de 8 mg/dL (ou abaixo de 7 mg/dL no pré-termo) e cálcio iônico abaixo de 1,0-1,1 mmol/L; o cálcio iônico é a fração biologicamente ativa e o parâmetro mais fidedigno, especialmente quando há alteração de albumina ou do equilíbrio acidobásico. A hipoglicemia é a armadilha esperada nesta vinheta, porque o filho de mãe diabética é o protótipo do hiperinsulinismo transitório; entretanto, a glicemia é de 78 mg/dL, normal, e além disso a hipoglicemia do filho de mãe diabética predomina nas primeiras 12 horas de vida, não com 36 horas. A hipernatremia está descartada com sódio de 138 mEq/L, valor normal, e cursaria com desidratação, febre e letargia. A hipofosfatemia não existe aqui: o fósforo está ALTO, e a hiperfosfatemia é justamente coerente com o hipoparatireoidismo funcional, já que o PTH baixo reduz a fosfatúria. Note ainda o magnésio de 1,2 mg/dL, também reduzido — a hipomagnesemia perpetua a hipocalcemia por inibir a secreção e a ação periférica do PTH, e precisa ser corrigida para que o cálcio responda.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o mecanismo fisiopatológico que explica, mais adequadamente, esse distúrbio nas primeiras 48-72 horas de vida:",
+     "alternativas": {
+      "a": "Hiperparatireoidismo transitório neonatal por excesso de PTH materno.",
+      "b": "Hipoparatireoidismo funcional transitório com redução da resposta de PTH.",
+      "c": "Aumento da reabsorção intestinal de cálcio mediada por vitamina D placentária.",
+      "d": "Perda renal excessiva de sódio por imaturidade tubular."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Durante a vida intrauterina o cálcio é transferido ativamente pela placenta contra gradiente, mantendo o feto em relativa hipercalcemia; esse ambiente SUPRIME a paratireoide fetal. Ao nascimento, o aporte placentário cessa abruptamente, mas a glândula permanece hiporresponsiva por alguns dias — é o hipoparatireoidismo funcional transitório —, e o nadir do cálcio ocorre entre 24 e 72 horas de vida, exatamente a janela do caso. No filho de mãe diabética o fenômeno é amplificado: o mau controle glicêmico materno cursa com hipomagnesemia materna e fetal, e o magnésio baixo prejudica ainda mais a secreção de PTH, somando-se à prematuridade tardia (36 semanas) como fator de risco. Perda renal de sódio por imaturidade tubular ocorre no prematuro extremo e causaria hiponatremia, não presente aqui. Hiperparatireoidismo neonatal por excesso de PTH materno é conceitualmente invertido: o PTH materno não atravessa a placenta, e quando a mãe tem HIPERparatireoidismo o feto fica cronicamente hipercalcêmico e desenvolve hipocalcemia neonatal TARDIA por supressão ainda mais intensa — mas o mecanismo não é 'excesso de PTH' no neonato. Aumento da reabsorção intestinal de cálcio mediada por vitamina D placentária elevaria o cálcio, contrariando o achado. Pérola de prova: hipocalcemia PRECOCE (primeiras 72 h) associa-se a prematuridade, asfixia perinatal e filho de mãe diabética; hipocalcemia TARDIA (após o 3º-7º dia) sugere alta carga de fosfato na dieta (leite de vaca não modificado), hipoparatireoidismo verdadeiro, síndrome de DiGeorge/deleção 22q11 e deficiência de vitamina D.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta mais adequada neste momento, diante desta situação:",
+     "alternativas": {
+      "a": "Introduzir fórmula infantil de alto teor proteico para corrigir rapidamente o distúrbio.",
+      "b": "Iniciar solução de glicose a 10% em bolus rápido, sem suplementação.",
+      "c": "Administrar solução de soro fisiológico 0,9% em bolus de 20 mL/kg, rapidamente.",
+      "d": "Realizar infusão lenta de gluconato de cálcio a 10% por via EV, com monitorização cardíaca, seguida de suplementação oral."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Diante de hipocalcemia SINTOMÁTICA (tremores, hiperexcitabilidade, movimentos clônicos), a correção é endovenosa: gluconato de cálcio a 10%, 1 a 2 mL/kg (equivalente a 9-18 mg/kg de cálcio elementar), diluído e infundido LENTAMENTE em 10 a 30 minutos, obrigatoriamente sob monitorização cardíaca pelo risco de bradicardia e assistolia com a infusão rápida. Dois cuidados práticos são cobrados em prova: o acesso deve ser confiável e de preferência central, pois o extravasamento causa necrose tecidual e calcificação subcutânea; e a infusão em veia umbilical mal posicionada pode gerar necrose hepática. Após o bolus, mantém-se cálcio de manutenção — endovenoso contínuo ou por via oral — e, se houver hipomagnesemia associada, como neste caso (magnésio 1,2 mg/dL), é indispensável repor sulfato de magnésio, pois sem isso a hipocalcemia é refratária. Glicose a 10% em bolus trataria hipoglicemia, que não existe aqui (glicemia 78 mg/dL), e o bolus rápido de glicose ainda provoca hiperinsulinismo rebote. Soro fisiológico 20 mL/kg é expansão volêmica para choque hipovolêmico; a criança tem perfusão preservada e a conduta não corrige o distúrbio. Fórmula de alto teor proteico é inadequada e potencialmente danosa: fórmulas com relação cálcio-fósforo desfavorável e alta carga de fosfato pioram a hipocalcemia — a lógica correta é justamente reduzir o aporte de fosfato. Todo filho de mãe diabética merece protocolo de vigilância nas primeiras 48 horas: glicemias seriadas, atenção a hipocalcemia e hipomagnesemia, policitemia, hiperbilirrubinemia, macrossomia com risco de tocotraumatismo e rastreio de malformações, com destaque para as cardíacas e a síndrome de regressão caudal.\n📚 Leitura sugerida (bloco): material do Drive do Vinicius — videoaula de 'Neonatologia' do R+ PEDIATRIA MEDGRUPO (https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view); complementar com o Tratado de Pediatria da SBP (capítulo de distúrbios metabólicos do recém-nascido) e com a Atenção à Saúde do Recém-Nascido — Guia para os Profissionais de Saúde (Ministério da Saúde).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropatias Periféricas (parestesias distais de predomínio noturno em doença metabólica crônica) [REAL: SUS-BA R+ 2024]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 60 anos de idade, com diagnóstico de Diabetes Mellitus tipo 2, há 15 anos, procura a UBS queixando-se de formigamento e sensação de dormência nos pés, piorando ao longo dos últimos meses. As queixas pioram à noite. Relata também dificuldade em controlar a glicemia apesar de estar seguindo as orientações da dieta e tomando a medicação prescrita. Ao exame físico, observa-se sensibilidade cutânea plantar reduzida e Reflexo Aquileu reduzido bilateralmente. (Considerar as Diretrizes da Sociedade Brasileira de Diabetes.)",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico, indique o mecanismo fisiopatológico, predominante, da queixa atual:",
+     "alternativas": {
+      "a": "Microaneurisma perineurais.",
+      "b": "Compressão axonal.",
+      "c": "Desmielinização dos axônios periféricos.",
+      "d": "Esclerose dos neurônios sensoriais."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ 2024] A polineuropatia distal simétrica do diabético é a complicação neurológica mais prevalente da doença (30-50% após 10-15 anos) e resulta da hiperglicemia crônica agindo por várias vias convergentes — via dos polióis com acúmulo de sorbitol, produtos finais de glicação avançada, estresse oxidativo e isquemia dos vasa nervorum —, com dano à bainha de mielina e degeneração axonal de fibras finas e grossas, em padrão comprimento-dependente (por isso começa nos pés, 'em bota', e só depois atinge as mãos, 'em luva'). A banca adotou a desmielinização das fibras periféricas como mecanismo predominante. Microaneurismas perineurais não são a lesão descrita na neuropatia diabética; microaneurismas são a marca da retinopatia, e a alternativa explora essa confusão de território. Compressão axonal descreve mononeuropatias por aprisionamento (túnel do carpo, ulnar no cotovelo) — mais frequentes no diabético, é verdade, mas focais e assimétricas, incompatíveis com o acometimento simétrico e distal descrito. Esclerose dos neurônios sensoriais corresponderia a uma ganglionopatia (neuronopatia sensitiva), que cursa com ataxia sensitiva marcante e distribuição não comprimento-dependente, inclusive de face e tronco. Chave semiológica do caso: piora noturna, hipoestesia plantar e reflexo aquileu reduzido bilateralmente — o aquileu é o primeiro a se perder.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a abordagem terapêutica de primeira linha para o quadro descrito:",
+     "alternativas": {
+      "a": "Administração de opioides de ação central como o tramadol.",
+      "b": "Utilização de agentes antioxidantes como a vitamina E.",
+      "c": "Prescrição de anticonvulsivantes como a gabapentina.",
+      "d": "Reposição de vitamina B12 – cianocobalamina."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ 2024] Para a dor neuropática da polineuropatia diabética, as diretrizes da Sociedade Brasileira de Diabetes e os consensos internacionais colocam como primeira linha os ligantes da subunidade alfa-2-delta dos canais de cálcio (pregabalina, gabapentina), os inibidores da recaptação de serotonina e noradrenalina (duloxetina, venlafaxina) e os antidepressivos tricíclicos (amitriptilina, nortriptilina) — a escolha se faz pelas comorbidades e pelo perfil de efeitos adversos. Junto disso, e igualmente essencial, está o controle glicêmico otimizado, única medida que atua sobre a progressão da neuropatia. A vitamina E como antioxidante não tem evidência de benefício clínico relevante; o ácido alfa-lipoico tem alguma evidência, mas não é primeira linha. Opioides como o tramadol ficam reservados a casos refratários e por tempo limitado, pelo risco de dependência, tolerância e piora funcional — colocá-los como primeira linha é erro conceitual frequente. A reposição de cianocobalamina só se justifica quando há deficiência documentada de vitamina B12, situação que deve ser ativamente pesquisada no diabético em uso crônico de metformina (a metformina reduz a absorção ileal de B12), mas não é tratamento da dor neuropática em si. Pérola: o exame de rastreio anual recomendado é simples — monofilamento de 10 g associado a diapasão de 128 Hz, reflexo aquileu e sensibilidade dolorosa.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Pelo mesmo mecanismo fisiopatológico da queixa atual, é provável encontrar:",
+     "alternativas": {
+      "a": "Diarreia e disfunção erétil.",
+      "b": "Dispneia e incontinência urinária.",
+      "c": "Disfagia e afasia.",
+      "d": "Ataxia e tosse."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ 2024] A mesma lesão de fibras finas amielínicas e pouco mielinizadas que produz a dor e a hipoestesia distal atinge as fibras autonômicas, gerando a neuropatia autonômica diabética. Suas manifestações mais características são gastrointestinais (gastroparesia com saciedade precoce e vômitos, diarreia diabética noturna alternando com constipação) e geniturinárias (disfunção erétil, ejaculação retrógrada, bexiga neurogênica com resíduo pós-miccional). A disfunção erétil é, em muitos homens, a primeira manifestação autonômica. Ataxia e tosse compõem quadro de acometimento de fibras grossas com ganglionopatia e comprometimento vagal — combinação típica de outras etiologias (neuronopatia paraneoplásica, síndrome de Sjögren), não da neuropatia diabética clássica. Disfagia e afasia são manifestações centrais: afasia é sinal cortical hemisférico dominante, incompatível com lesão de nervo periférico. Dispneia e incontinência urinária formam um par inespecífico, e a dispneia não é manifestação direta de neuropatia autonômica. Ainda no espectro autonômico, cobram-se em prova a hipotensão ortostática sem taquicardia compensatória, a taquicardia sinusal fixa em repouso, a hipoglicemia sem sintomas de alerta (unawareness) e a isquemia miocárdica silenciosa — esta última com forte impacto prognóstico e que justifica avaliação cardiovascular ativa nesses pacientes.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 122 — Neuropatias em Doenças Sistêmicas, Carenciais e Tóxico-Metabólicas (p.1722) e cap. 182 — Estratégia Terapêutica da Dor Neuropática (p.2546); complementar com as Diretrizes da Sociedade Brasileira de Diabetes (capítulo de neuropatia diabética).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecções respiratórias (tosse paroxística com guincho no lactente jovem) [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "ALTO",
+   "vinheta": "Lactente de 3 meses, sexo feminino, é levada à UPA com história de tosse há duas semanas. Inicialmente, a tosse era esporádica, mas, nos últimos 5 dias tornou-se intensa, ocorrendo em crises, seguida por um ruído inspiratório alto (guincho) e, por vezes, vômitos. A mãe nega febre. O calendário vacinal do bebê está em dia. Ao exame, o bebê está apirético, mas, durante a consulta, apresenta uma crise de tosse paroxística, ficando cianótico (azulado) por alguns segundos. A ausculta pulmonar nos intervalos da tosse é limpa. Hemograma revela: leucócitos = 25.000/mm³ (linfócitos = 75%, neutrófilos = 20%).",
+   "perguntas": [
+    {
+     "enunciado": "Identifique o agente etiológico mais provável com base no quadro descrito:",
+     "alternativas": {
+      "a": "Haemophilus influenzae tipo b.",
+      "b": "Mycoplasma pneumoniae.",
+      "c": "Corynebacterium diphtheriae.",
+      "d": "Bordetella pertussis."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Todos os elementos do caso apontam para coqueluche: tosse com mais de duas semanas de evolução, que passou de esporádica (fase catarral) a paroxística com guincho inspiratório e vômitos pós-tussígenos (fase paroxística), ausência de febre, ausculta pulmonar limpa entre as crises e leucocitose com LINFOCITOSE absoluta — um padrão hematológico bastante característico, já que a toxina pertussis inibe a migração dos linfócitos para os tecidos linfoides, retendo-os na circulação. Haemophilus influenzae tipo b causa doença invasiva (meningite, epiglotite, pneumonia, artrite séptica) com febre e toxemia, quadro incompatível com a criança apirética e com ausculta limpa. Corynebacterium diphtheriae produz a difteria, com placas pseudomembranosas acinzentadas e aderentes em orofaringe, adenomegalia cervical volumosa ('pescoço taurino') e complicações miocárdicas e neurológicas por exotoxina — não há tosse paroxística com guincho. Mycoplasma pneumoniae causa a pneumonia atípica de escolares e adolescentes, com tosse seca arrastada, febre baixa e dissociação clínico-radiológica, sendo raro e clinicamente distinto nessa faixa etária. Atenção ao detalhe que a banca explora em outra pergunta do mesmo bloco: 'calendário vacinal em dia' aos 3 meses significa apenas uma dose de pentavalente aos 2 meses — proteção ainda insuficiente. A coqueluche é doença de notificação compulsória, e no lactente com menos de 6 meses concentra-se a maior letalidade, com risco de apneia, hipertensão pulmonar e leucocitose extrema (acima de 50.000-100.000/mm³), esta última fator prognóstico adverso que pode indicar exsanguineotransfusão ou leucoaférese.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o mecanismo que causa a principal característica clínica desta doença:",
+     "alternativas": {
+      "a": "Invasão bacteriana direta do parênquima pulmonar.",
+      "b": "Obstrução brônquica por excesso de muco espesso.",
+      "c": "Ação de toxinas bacterianas no epitélio respiratório.",
+      "d": "Reação de hipersensibilidade e inflamação."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A coqueluche é uma doença essencialmente TOXINA-MEDIADA. A Bordetella pertussis adere ao epitélio ciliado da árvore respiratória por meio de adesinas (hemaglutinina filamentosa, pertactina, fímbrias) e libera um arsenal de toxinas: a citotoxina traqueal destrói as células ciliadas e paralisa o transporte mucociliar, tornando a tosse o único mecanismo de clareamento — daí a tosse paroxística exaustiva, em salvas, até o esvaziamento completo do ar pulmonar, seguido do guincho inspiratório ao passar o ar por uma glote parcialmente fechada; a toxina pertussis (uma ADP-ribosiltransferase) produz a linfocitose e contribui para a sensibilização; e a adenilato-ciclase hemolisina inibe a função de neutrófilos e macrófagos. É justamente por a doença ser toxina-mediada que o antibiótico, embora essencial para reduzir a transmissão, POUCO altera a duração da tosse depois de instalada a fase paroxística — conceito muito cobrado. Obstrução brônquica por muco espesso é o mecanismo da fibrose cística e da bronquiolite, não da coqueluche, cuja ausculta permanece limpa. Invasão direta do parênquima ocorre nas pneumonias bacterianas típicas, com consolidação e febre alta, ausentes aqui; a Bordetella permanece na superfície epitelial e raramente invade. Reação de hipersensibilidade e inflamação descreve o mecanismo da asma, com sibilância e resposta a broncodilatador, o que não corresponde ao quadro.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Identifique a principal razão da suscetibilidade desta criança à doença:",
+     "alternativas": {
+      "a": "O esquema vacinal não está completo.",
+      "b": "A imunidade da criança ainda não responde à vacina.",
+      "c": "A vacina pentavalente não oferece proteção contra esta doença.",
+      "d": "A imunidade conferida pela vacina não é absoluta."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A pegadinha está na expressão 'calendário vacinal em dia'. Aos 3 meses de idade, estar em dia significa ter recebido apenas a PRIMEIRA dose da pentavalente (DTP + Hib + hepatite B), aplicada aos 2 meses; o esquema primário só se completa aos 4 e aos 6 meses, com reforços de DTP aos 15 meses e aos 4 anos. Uma única dose confere proteção parcial e insuficiente — por isso a criança está em dia e, ainda assim, suscetível. Dizer que a imunidade vacinal 'não é absoluta' é verdadeiro como afirmação geral (a proteção da vacina de células inteiras é alta mas não total, e decai com o tempo), mas não é a razão PRINCIPAL neste caso, em que o esquema simplesmente ainda não foi concluído. Afirmar que a criança 'ainda não responde à vacina' é incorreto: o lactente responde adequadamente ao componente pertussis a partir dos 2 meses — essa limitação de resposta se aplica a vacinas polissacarídicas não conjugadas em menores de 2 anos, não à DTP. Dizer que a pentavalente não protege contra coqueluche é factualmente errado, pois o 'P' da penta é justamente o componente pertussis. A estratégia complementar decisiva é a vacinação da gestante com dTpa a cada gestação, entre 20 e 36 semanas (idealmente até a 36ª), que transfere anticorpos maternos e protege o lactente exatamente nesta janela vulnerável dos primeiros meses, além da estratégia de cocoon (vacinar contactantes). Manejo: azitromicina é o macrolídeo de escolha em menores de 1 mês (pelo risco de estenose hipertrófica do piloro com eritromicina), com internação para vigilância de apneia nos lactentes jovens, e quimioprofilaxia dos contatos domiciliares e de alto risco.\n📚 Leitura sugerida (bloco): material do Drive do Vinicius — videoaula de 'Imunização / calendário vacinal' do R+ PEDIATRIA MEDGRUPO (https://drive.google.com/file/d/1haGRHKys0_ENxZ4Yp_gs7HJUNm8ES9RA/view); complementar com o Guia de Vigilância em Saúde do Ministério da Saúde (capítulo de coqueluche) e com o Calendário Nacional de Vacinação do PNI.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias e dor craniofacial (dor facial paroxística desencadeada por estímulos na idosa) [REAL: SUS-BA R1 Acesso Direto 2023]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 76 anos de idade, procura atendimento na UBS por episódios de dor intensa em hemiface esquerda, principalmente em região maxilar e de mandíbula, graduando até 8/10 na escala de dor. O quadro se repete há 3 anos, associado à sensação de choques e é precipitado pela mastigação ou frio. Tem hipertensão arterial sistêmica em uso de hidroclorotiazida e enalapril. Ao exame, apresenta-se em bom estado geral, com sinais vitais estáveis, com alodínia térmica em hemiface esquerda. Demais exames segmentares sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o caso clínico descrito, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Nevralgia do nervo facial.",
+      "b": "Nevralgia do nervo trigêmeo.",
+      "c": "Cefaleia em salvas.",
+      "d": "Arterite de células gigantes."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R1 Acesso Direto 2023] O quadro reúne todos os elementos da classificação ICHD-3 para neuralgia do trigêmeo: dor unilateral, paroxística, de segundos a dois minutos, em choque ou pontada, restrita ao território de um ou mais ramos do trigêmeo (aqui V2 e V3, o que é a distribuição mais comum), desencadeada por estímulos inócuos como mastigar, falar, escovar os dentes ou receber vento frio no rosto, e com exame neurológico intercrise normal. A alodínia (dor provocada por estímulo não doloroso) traduz sensibilização das vias trigeminais. A neuralgia do nervo facial não é entidade da classificação — o facial é essencialmente motor, e sua lesão produz paralisia facial, não dor paroxística em território maxilar/mandibular; existe a neuralgia do gânglio geniculado (síndrome de Ramsay Hunt/Hunt), mas cursa com otalgia profunda e vesículas no conduto auditivo. Cefaleia em salvas é dor orbitária/periorbitária unilateral, com duração de 15 a 180 minutos, marcada por agitação psicomotora e por sinais autonômicos ipsilaterais (lacrimejamento, hiperemia conjuntival, rinorreia, ptose e miose), todos ausentes aqui, e acomete preferencialmente homens jovens. Arterite de células gigantes é o diferencial 'de não perder' em idosos com dor craniofacial: cursa com cefaleia temporal contínua, claudicação de mandíbula, artéria temporal endurecida e dolorosa, sintomas sistêmicos e VHS/PCR elevados, com risco de amaurose — perfil totalmente distinto da dor em choque gatilhada aqui descrita.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "O exame complementar mais adequado para o diagnóstico etiológico nesse caso:",
+     "alternativas": {
+      "a": "Ressonância magnética de crânio.",
+      "b": "Tomografia computadorizada de crânio.",
+      "c": "Biópsia de artéria temporal.",
+      "d": "Eletroencefalograma."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R1 Acesso Direto 2023] O diagnóstico da neuralgia do trigêmeo é clínico; a neuroimagem serve para definir a ETIOLOGIA e separar as três formas reconhecidas pela ICHD-3: clássica (compressão neurovascular com alteração morfológica da raiz, tipicamente pela artéria cerebelar superior), secundária (esclerose múltipla, tumor do ângulo pontocerebelar, malformação arteriovenosa) e idiopática. A ressonância magnética, preferencialmente com sequências volumétricas finas para fossa posterior e estudo angiográfico, é o exame de escolha porque avalia simultaneamente a raiz do nervo, o conflito vasculonervoso e as causas secundárias — informação que muda a conduta, já que a descompressão microvascular só se aplica ao conflito demonstrado. A tomografia tem baixa resolução para fossa posterior e para nervo craniano, servindo apenas para lesões ósseas ou grandes massas. O eletroencefalograma avalia atividade epileptiforme cortical e nada acrescenta a uma dor neuropática de nervo craniano — não confundir paroxismo doloroso com crise epiléptica. A biópsia de artéria temporal seria o exame confirmatório da arterite de células gigantes, diagnóstico já afastado clinicamente. Sinais de alerta que obrigam busca ativa de causa secundária: idade jovem, dor bilateral, déficit sensitivo objetivo no território trigeminal, reflexo corneano abolido, acometimento de outros nervos cranianos e refratariedade ao tratamento clínico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante do quadro, indique a melhor opção terapêutica para controle da dor:",
+     "alternativas": {
+      "a": "Tramadol e oxigenioterapia.",
+      "b": "Analgésico comum e escalonar para opioides, conforme resposta.",
+      "c": "Carbamazepina, oxcarbamazepina ou gabapentina.",
+      "d": "Analgésico comum associado à corticoterapia."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R1 Acesso Direto 2023] A neuralgia do trigêmeo responde a bloqueadores de canais de sódio, e não a analgésicos comuns: carbamazepina (200-1200 mg/dia) e oxcarbazepina são a primeira linha, com resposta inicial em 70-90% dos pacientes — a resposta é tão característica que tem valor diagnóstico. Gabapentina, lamotrigina, baclofeno e, mais recentemente, o botulínico e a fenitoína endovenosa em crise são opções de segunda linha ou de associação. Nos refratários, o encaminhamento é cirúrgico: descompressão microvascular (melhor durabilidade, indicada quando há conflito vasculonervoso e o paciente tolera craniotomia) ou procedimentos percutâneos/radiocirurgia. Tramadol com oxigenioterapia é o pacote da cefaleia em salvas mal aplicado — oxigênio a 100% em alto fluxo aborta a salva, mas não tem qualquer efeito sobre a neuralgia trigeminal. Escalonar analgésico comum para opioide é conduta de dor nociceptiva (escada analgésica da OMS) e falha na dor neuropática paroxística, além de expor a idosa a sedação, constipação e quedas. Corticoide não tem papel aqui — seria útil na arterite de células gigantes, o diferencial excluído. Cuidados práticos na paciente idosa em uso de hidroclorotiazida: a carbamazepina pode causar hiponatremia (por efeito antidiurético) e o risco soma-se ao do tiurético, além de neutropenia, hepatotoxicidade e da necessidade de pesquisar HLA-B*15:02 em descendentes de asiáticos pelo risco de síndrome de Stevens-Johnson — monitorar sódio e hemograma.\n📚 Leitura sugerida (bloco): Merritt, Tratado de Neurologia (13ª ed.), Seção 7 — Cefaleia e Síndromes Dolorosas (neuralgias cranianas); complementar com a Classificação Internacional das Cefaleias (ICHD-3), item 13.1 — Neuralgia do trigêmeo, e com o Tratado de Neurologia da ABN (3ª ed., 2025), cap. 182 — Estratégia Terapêutica da Dor Neuropática (p.2546).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências e Cirurgia Pediátrica (massa abdominal cilíndrica com evacuação sanguinolenta no lactente) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 20 meses, é levado à Emergência com relato de que, no dia anterior, apresentou 4 episódios diarreicos, com fezes amolecidas acompanhados de vômitos (2 episódios) e dor abdominal, sem comprometimento da atividade da criança. Contudo, amanheceu abatido e \"esquentado\" e sem aceitar alimentos. Há algumas horas as fezes estão sanguinolentas, gelatinosas; e os vômitos se tornaram frequentes e esverdeados. Mantém diurese, embora reduzida. Ao exame, apresenta-se hipoativo com temperatura de 37,7 °C. Abdome globoso, reativo à palpação, apresentando massa palpável cilíndrica, em flanco direito e hipocôndrio direito à direita.",
+   "perguntas": [
+    {
+     "enunciado": "Com base nos dados clínicos, indique a principal suspeita diagnóstica nesse caso:",
+     "alternativas": {
+      "a": "Tumor de Wilms.",
+      "b": "Semioclusão intestinal por Ascaris.",
+      "c": "Peritonite infecciosa.",
+      "d": "Intussuscepção de alças intestinais."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A tríade clássica é dor abdominal em cólica intermitente (com o lactente encolhendo as pernas e alternando com períodos de calma ou apatia), massa palpável em forma de salsicha no quadrante superior direito e fezes em 'geleia de framboesa' — resultado da congestão venosa e da isquemia da mucosa invaginada, com eliminação de muco e sangue. O caso reúne os três elementos, e os vômitos que se tornaram BILIOSOS (esverdeados) confirmam obstrução intestinal instalada. O tumor de Wilms cursa com massa de flanco firme, lisa, que classicamente não cruza a linha média, descoberta com frequência em criança assintomática ou com hematúria e hipertensão — não produz vômitos biliosos agudos nem fezes em geleia. Peritonite infecciosa apresentaria abdome tenso, rígido, com descompressão dolorosa, toxemia e febre alta, e não massa cilíndrica bem definida; o abdome descrito é reativo, não em tábua. Semioclusão por Ascaris ocorre em criança com alta carga parasitária, produzindo massa mal definida, distensão e eliminação de vermes, sem enterorragia em geleia. Pérola epidemiológica: mais de 75% das intussuscepções em lactentes são idiopáticas, atribuídas à hipertrofia das placas de Peyer após infecção viral (adenovírus, rotavírus); acima dos 2-3 anos, ou nas formas recorrentes, deve-se procurar ativamente um ponto de partida patológico — divertículo de Meckel, pólipo, duplicação intestinal, linfoma ou púrpura de Henoch-Schönlein.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Com base nos dados clínicos, indique os exames essenciais para a resolução desse caso:",
+     "alternativas": {
+      "a": "Ultrassonografia de abdome total e Enema contrastado.",
+      "b": "Radiografia simples de abdome e Enema contrastado.",
+      "c": "Hemogasometria e Ultrassonografia de abdome total.",
+      "d": "Hemograma e Radiografia simples de abdome."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A palavra-chave do enunciado é 'resolução': a banca quer o par que diagnostica E trata. A ultrassonografia de abdome é o exame inicial de escolha, com sensibilidade e especificidade próximas de 100% em mãos experientes, mostrando os sinais do 'alvo'/'donut' no corte transversal e do 'pseudorrim' no corte longitudinal; é rápida, isenta de radiação e ainda avalia sinais de sofrimento de alça e líquido livre. O enema contrastado (com bário, com solução hidrossolúvel ou, preferencialmente hoje, o enema pneumático guiado por fluoroscopia ou ultrassonografia) é simultaneamente diagnóstico e TERAPÊUTICO, com taxa de redução de 80-90%. Hemograma e radiografia simples são inespecíficos: a radiografia pode sugerir obstrução ou ausência de ar no quadrante inferior direito, mas é normal em parcela relevante dos casos e não resolve nada. Hemogasometria com ultrassonografia avalia repercussão metabólica e faz o diagnóstico, porém não oferece a etapa terapêutica cobrada. Radiografia simples com enema contém a etapa terapêutica, mas troca o exame diagnóstico de escolha por um de baixa acurácia. Contraindicações formais à redução por enema, que devem ser afastadas antes: perfuração intestinal (pneumoperitônio), peritonite estabelecida e instabilidade hemodinâmica/choque — nesses casos a conduta é cirúrgica, com ressuscitação volêmica, antibiótico e laparotomia. Após a redução bem-sucedida, mantém-se observação hospitalar pelo risco de recorrência, que gira em torno de 10%, maior nas primeiras 24-48 horas.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Com base nos dados clínicos, identifique a faixa etária mais frequente de apresentação do diagnóstico principal:",
+     "alternativas": {
+      "a": "acima de 12 anos.",
+      "b": "6 meses a 3 anos.",
+      "c": "3 a 5 anos.",
+      "d": "0 a 6 meses."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Atenção: esta é uma questão com gabarito oficial controverso, e vale estudá-la exatamente por isso. A banca considerou correta a alternativa '0 a 6 meses', privilegiando o recorte do lactente jovem — de fato, séries mostram que o PICO de incidência ocorre entre 5 e 9 meses de idade, com a maior concentração de casos no primeiro ano de vida, o que dá alguma sustentação à escolha oficial. A literatura pediátrica clássica (Nelson, Tratado de Pediatria da SBP), porém, descreve a faixa de maior frequência como 6 meses a 3 anos, e cerca de 60% dos casos ocorrem antes de 1 ano e 80-90% antes de 2 anos — por isso muitos consideram '6 meses a 3 anos' a resposta mais defensável. A recomendação prática para a prova é conhecer os dois recortes e reconhecer o intervalo em que a banca ancora a resposta; se houver ambiguidade, o dado seguro e universal é 'lactente, com pico no primeiro ano de vida, entre 5 e 9 meses'. As faixas de 3 a 5 anos e acima de 12 anos estão claramente incorretas: nessas idades a intussuscepção é rara e, quando ocorre, exige busca obrigatória por ponto de partida patológico (linfoma intestinal é o principal em adolescentes). Registre ainda o dado epidemiológico relevante: a vacina de rotavírus atualmente em uso no Brasil (monovalente humana, aos 2 e 4 meses) associa-se a um risco absoluto muito pequeno de intussuscepção, concentrado nos primeiros 7 dias após a primeira dose — razão pela qual existem limites máximos de idade para início (até 3 meses e 15 dias) e conclusão (até 7 meses e 29 dias) do esquema.\n📚 Leitura sugerida (bloco): material do Drive do Vinicius — videoaula de 'Cirurgia pediátrica' do R+ PEDIATRIA MEDGRUPO (https://drive.google.com/file/d/1UWvf5j5zhrBqeAs2Trbbc_bxHQ1DS1_u/view); complementar com o Tratado de Pediatria da SBP (capítulo de abdome agudo na infância).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Demências (declínio cognitivo de instalação em semanas com mioclonias e ataxia)",
+   "tier": "ALTO",
+   "vinheta": "Homem de 63 anos é trazido pela filha por perda cognitiva de instalação rápida: há 3 meses começou com esquecimentos e dificuldade de encontrar palavras, e nas últimas semanas passou a apresentar desorientação, alucinações visuais e importante lentificação, com fala hoje quase ausente. Associadamente, apresenta abalos musculares breves e involuntários, espontâneos e desencadeados por estímulos sonoros, além de marcha instável de base alargada. Ao exame: mutismo acinético incipiente, mioclonias multifocais, ataxia apendicular e sinais piramidais bilaterais. Ressonância magnética em difusão: hipersinal cortical em fita nas regiões frontoparietais e nos núcleos caudado e putâmen, sem realce. Eletroencefalograma: complexos periódicos de ondas agudas a cerca de 1 Hz. Líquor acelular, com proteína 14-3-3 positiva e RT-QuIC positivo.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o conjunto clínico, de imagem, eletroencefalográfico e liquórico, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Encefalite autoimune anti-LGI1",
+      "b": "Demência com corpos de Lewy",
+      "c": "Doença de Creutzfeldt-Jakob esporádica",
+      "d": "Encefalopatia de Hashimoto"
+     },
+     "correta": "c",
+     "comentario": "A tríade que define a suspeita é demência rapidamente progressiva (meses, não anos), mioclonias e ataxia, acrescida de sinais piramidais e evolução para mutismo acinético. Os exames complementares fecham o quadro: o hipersinal em difusão com padrão de fita cortical associado ao acometimento de caudado e putâmen é altamente sugestivo (sensibilidade superior a 90% quando lido por examinador experiente); os complexos periódicos de ondas agudas a 1 Hz são clássicos, embora apareçam em cerca de dois terços dos casos e geralmente em fase mais avançada; e o RT-QuIC positivo no líquor tem especificidade próxima de 99%. A encefalite anti-LGI1 é o principal mimetizador: também causa demência rapidamente progressiva, mas cursa tipicamente com crises distônicas faciobraquiais, hiponatremia e hipersinal em T2/FLAIR nos hipocampos e amígdalas, sem fita cortical em difusão nem RT-QuIC positivo — e, ao contrário desta, responde à imunoterapia, motivo pelo qual deve ser sempre buscada. A demência com corpos de Lewy tem flutuação cognitiva, alucinações visuais bem formadas, parkinsonismo e transtorno comportamental do sono REM, mas evolui em ANOS, e mioclonias com ataxia progressiva não fazem parte do núcleo sindrômico. A encefalopatia de Hashimoto (encefalopatia responsiva a esteroide associada à tireoidite) cursa com anticorpos antitireoperoxidase em títulos altos, curso flutuante com episódios semelhantes a AVC e resposta dramática ao corticoide, sem os achados de difusão e de RT-QuIC descritos.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Entre os exames complementares realizados, indique aquele que apresenta a maior especificidade diagnóstica:",
+     "alternativas": {
+      "a": "Complexos periódicos ao eletroencefalograma",
+      "b": "Proteína 14-3-3 no líquor",
+      "c": "RT-QuIC no líquor",
+      "d": "Hipersinal cortical em difusão"
+     },
+     "correta": "c",
+     "comentario": "O RT-QuIC (real-time quaking-induced conversion) detecta a capacidade da proteína priônica patológica de induzir a conversão de substrato recombinante, ou seja, testa a atividade priônica em si, e não um marcador indireto de dano neuronal — daí a especificidade em torno de 98-99% e a sensibilidade de 90-95%, o que o tornou critério diagnóstico maior nos consensos atuais e o exame que mais mudou a acurácia pré-mortem nos últimos anos. A proteína 14-3-3 é apenas um marcador inespecífico de destruição neuronal rápida: eleva-se também em encefalite herpética, AVC extenso, estado de mal epiléptico e neoplasias do sistema nervoso central, e por isso perdeu peso como critério isolado. Os complexos periódicos de ondas agudas generalizados são sugestivos, mas aparecem em cerca de 65% dos casos, costumam surgir tardiamente e podem ocorrer em encefalopatias tóxico-metabólicas graves e na intoxicação por lítio ou baclofeno. O hipersinal cortical em difusão é o achado de imagem de melhor desempenho e frequentemente o primeiro a aparecer, mas depende de leitura experiente e pode ser mimetizado por estado de mal epiléptico, encefalite e encefalopatia hipóxica. Ponto de prova: o diagnóstico DEFINITIVO só é possível por exame neuropatológico com imuno-histoquímica para proteína priônica; a combinação clínica + RT-QuIC estabelece o diagnóstico 'provável' e, na prática, suficiente para conduzir o caso.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta mais adequada após o estabelecimento do diagnóstico:",
+     "alternativas": {
+      "a": "Cuidados de suporte, orientação familiar e notificação compulsória",
+      "b": "Aciclovir endovenoso empírico por 21 dias",
+      "c": "Pulsoterapia com corticoide e imunoglobulina endovenosa",
+      "d": "Inibidor de colinesterase e memantina em dose plena"
+     },
+     "correta": "a",
+     "comentario": "Não há terapia que modifique o curso das doenças priônicas: a conduta é sintomática (clonazepam ou levetiracetam para as mioclonias, controle da agitação, prevenção de broncoaspiração, cuidados nutricionais e de pele), com abordagem paliativa precoce, apoio à família e planejamento de cuidados de fim de vida — a sobrevida mediana da forma esporádica é de cerca de 4 a 6 meses, com mais de 90% de óbito em um ano. No Brasil, as doenças priônicas humanas integram a lista de notificação compulsória, e a comunicação à vigilância epidemiológica é obrigatória. A imunoterapia com corticoide e imunoglobulina é o tratamento das encefalites autoimunes; sua indicação empírica só se justifica ENQUANTO essas hipóteses estiverem em aberto — uma vez confirmado o RT-QuIC, mantê-la não traz benefício e expõe a riscos. Inibidor de colinesterase e memantina são fármacos da doença de Alzheimer e não têm eficácia demonstrada aqui. Aciclovir cobre encefalite herpética, hipótese incompatível com o líquor acelular, com a ausência de febre e com o padrão de imagem descrito. Cuidados práticos importantes: os príons resistem à autoclavagem convencional, ao formol e ao álcool, exigindo protocolos específicos de descontaminação de instrumentais neurocirúrgicos e de material de biópsia; contato social comum, entretanto, não transmite a doença, informação que costuma tranquilizar bastante a família.\n📚 Leitura sugerida (bloco): Merritt, Tratado de Neurologia (13ª ed.), Seção 6 — Demência (doenças priônicas) e Seção 9 — Infecções do SNC; complementar com o Tratado de Neurologia da ABN (3ª ed., 2025), cap. 96 — Demências (p.1375), e com o Guia de Vigilância em Saúde do Ministério da Saúde (capítulo de doenças priônicas).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Saúde Coletiva e Puericultura (exposição a dispositivos digitais na primeira infância) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 15 meses, é levado à consulta de Puericultura, sem queixas. Sua mãe levou também o irmão de 6 anos e, durante a anamnese, o bebê estava inquieto e tentando pegar o celular em que o irmão digitava. A genitora reclama com o filho mais velho, para que entregue o aparelho ao bebê a fim de que este permaneça quieto. Esta situação levou o médico a questionar sobre uso de celular e outras telas pelas crianças e constatou que o bebê assiste à TV por longo período, sentado no carrinho, acompanhado de seu irmão e, sempre que \"necessário\", utiliza também os vídeos musicais infantis disponíveis no celular, principalmente quando está fora de casa.",
+   "perguntas": [
+    {
+     "enunciado": "A recomendação da Sociedade Brasileira de Pediatria (SBP), quanto à exposição de telas durante a primeira infância, é:",
+     "alternativas": {
+      "a": "Não é recomendada a exposição de menores de dois anos a telas.",
+      "b": "Exposição a telas para menores de dois anos somente deve ocorrer às refeições.",
+      "c": "Exposição de menores de dois anos a telas deve ser limitado a 1 hora por semana.",
+      "d": "É admissível o uso de telas com videoclipes infantis a partir dos 9 meses de idade."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O manual de orientação da Sociedade Brasileira de Pediatria sobre saúde digital ('Menos telas, mais saúde') é explícito: crianças menores de 2 anos NÃO devem ser expostas a telas, nem passivamente. A justificativa é neurobiológica — nessa fase o cérebro depende de interação humana responsiva, manipulação de objetos reais e experiência sensório-motora tridimensional para construir linguagem, função executiva e vínculo; a tela é bidimensional, não responde contingentemente e compete com essas experiências. Há ainda o 'efeito de déficit de vídeo': antes dos 2-3 anos a criança não transfere para o mundo real o que aprende na tela. A recomendação da Organização Mundial da Saúde é coincidente, e a American Academy of Pediatrics abre exceção apenas para videochamada supervisionada com familiares. Limitar a 1 hora por semana em menores de 2 anos não corresponde a nenhuma diretriz — a orientação é de exposição zero, não de tempo reduzido. Admitir videoclipes a partir dos 9 meses contraria frontalmente a recomendação e ignora o período de maior vulnerabilidade. Exposição às refeições é a pior das opções: o uso de tela durante as refeições associa-se a comer sem percepção de saciedade, recusa alimentar, seletividade e risco aumentado de obesidade, sendo desaconselhado em QUALQUER idade. A vinheta traz um segundo problema, comum na prática: o uso da tela como pacificador emocional, que compromete o desenvolvimento da autorregulação da criança.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "De acordo com a SBP, crianças entre 6 e 10 anos de idade devem ter o tempo de uso de telas (sempre com supervisão) limitado ao máximo de:",
+     "alternativas": {
+      "a": "6 horas/dia.",
+      "b": "2 horas/dia.",
+      "c": "3 horas/dia.",
+      "d": "4 horas/dia."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A escala recomendada pela Sociedade Brasileira de Pediatria é progressiva e vale memorizar em bloco, pois cai com frequência: menores de 2 anos — nenhuma exposição; 2 a 5 anos — no máximo 1 hora por dia, sempre com supervisão e conteúdo de qualidade; 6 a 10 anos — no máximo 2 horas por dia, com supervisão; 11 a 18 anos — no máximo 2 a 3 horas por dia, com atenção redobrada a redes sociais, jogos e conteúdos inadequados, e nunca virando a noite conectado. As demais alternativas (3, 4 e 6 horas por dia) excedem largamente o recomendado para escolares e correspondem, na prática, à média real de exposição de muitas crianças brasileiras — o que explica a plausibilidade das opções e a necessidade de conhecer o número oficial. Orientações complementares que integram a mesma recomendação: nada de telas na primeira hora após acordar nem na hora que antecede o sono (a luz azul suprime a melatonina e retarda o início do sono); nada de telas durante as refeições; nada de televisão, computador ou celular no quarto de dormir; garantir pelo menos 1 hora diária de atividade física e brincadeira ao ar livre; e estabelecer um plano familiar de uso de mídias, com o adulto servindo de modelo — a exposição parental excessiva é um dos maiores preditores da exposição infantil.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "São apontados como efeitos do uso excessivo de telas em crianças:",
+     "alternativas": {
+      "a": "Convulsões e irritabilidade.",
+      "b": "Apatia e convulsões.",
+      "c": "Apatia e depressão.",
+      "d": "Irritabilidade, ansiedade e depressão."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O uso excessivo de telas associa-se a um conjunto amplo e bem documentado de desfechos negativos, e a alternativa correta reúne os três domínios mais consistentes na literatura: irritabilidade (inclusive com comportamento de abstinência ao ser interrompido), ansiedade e sintomas depressivos, estes últimos particularmente ligados ao uso de redes sociais em pré-adolescentes e adolescentes, por comparação social, cyberbullying e privação de sono. Somam-se atraso de linguagem em menores de 3 anos, déficit de atenção, sedentarismo com sobrepeso e obesidade, miopia (por menor tempo ao ar livre e excesso de trabalho visual de perto) e alterações posturais. As alternativas que incluem CONVULSÕES estão incorretas como efeito geral: a epilepsia fotossensível é uma condição rara, presente em uma pequena fração de pessoas com epilepsia, na qual estímulos luminosos intermitentes podem deflagrar crises — é um gatilho em indivíduos predispostos, não um efeito do uso excessivo de telas na população pediátrica. A alternativa que traz apatia com depressão captura só parte do quadro e troca irritabilidade e ansiedade — os sintomas mais frequentemente descritos — por apatia, que não é o achado predominante. Na consulta de puericultura, a orientação prática é registrar o tempo de tela como um sinal vital do estilo de vida, junto com sono, atividade física e alimentação, e pactuar metas com a família em vez de apenas proibir.\n📚 Leitura sugerida (bloco): manual de orientação da Sociedade Brasileira de Pediatria '#MenosTelas #MaisSaúde' (Grupo de Trabalho Saúde na Era Digital); complementar com as diretrizes da OMS sobre atividade física, comportamento sedentário e sono em menores de 5 anos, e com o material do Drive do Vinicius — 'Tópicos em Pediatria' (https://drive.google.com/file/d/1Kv_fDM9e_G0IOc7u311JTb2oEqreHP1c/view).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtornos do Movimento (distonia, tremor e alteração comportamental no adulto jovem com hepatopatia)",
+   "tier": "MÉDIO",
+   "vinheta": "Homem de 22 anos, estudante, é levado ao ambulatório pelos pais por queda importante do rendimento acadêmico no último ano, irritabilidade e episódios de choro fácil. Passou a apresentar fala arrastada, dificuldade para escrever e um tremor amplo, de grande amplitude, que surge quando mantém os braços estendidos e abduzidos, e que se acentua com o esforço. Ao exame: disartria, distonia orofacial com sorriso forçado e persistente, rigidez apendicular leve e marcha discretamente instável. Exames: AST 92 U/L, ALT 78 U/L, bilirrubinas normais, plaquetas 118.000/mm³, ultrassonografia com fígado de contornos irregulares. Sem uso de álcool, drogas ou medicamentos.",
+   "perguntas": [
+    {
+     "enunciado": "Diante da associação de manifestações neuropsiquiátricas e hepáticas em paciente jovem, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Doença de Huntington de início juvenil",
+      "b": "Doença de Wilson",
+      "c": "Parkinsonismo induzido por fármacos",
+      "d": "Distonia generalizada de início precoce por mutação em DYT1"
+     },
+     "correta": "b",
+     "comentario": "Adulto jovem com transtorno do movimento (tremor em bater de asas, distonia, disartria, rigidez), alteração comportamental e evidência de hepatopatia crônica tem doença de Wilson até prova em contrário. Trata-se de doença autossômica recessiva por mutação do gene ATP7B, que codifica uma ATPase transportadora de cobre hepática; a falha na excreção biliar de cobre e na incorporação à ceruloplasmina leva ao acúmulo tóxico no fígado e, depois, em cérebro (com predileção pelos núcleos lenticulares), córnea e rins. O sorriso forçado (riso sardônico) e o tremor em bater de asas são descrições clássicas de prova. A doença de Huntington juvenil (variante de Westphal) manifesta-se com rigidez, bradicinesia e crises epilépticas mais do que com coreia, mas cursa com forte história familiar de transmissão autossômica dominante e não explica hepatopatia nem plaquetopenia. A distonia DYT1 tem início na infância, geralmente em membro inferior, com progressão para generalização, e não cursa com alteração cognitiva, comportamental ou hepática. Parkinsonismo induzido por fármacos exige exposição a bloqueadores dopaminérgicos (antipsicóticos, metoclopramida, flunarizina, cinarizina), explicitamente negada. Pérola: em TODO paciente com menos de 40-50 anos com transtorno do movimento inexplicado, ou com hepatopatia sem causa definida, a doença de Wilson deve ser rastreada — é uma das poucas causas TRATÁVEIS de parkinsonismo/distonia, e o atraso diagnóstico custa sequelas irreversíveis.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a investigação laboratorial inicial mais adequada para confirmar a hipótese:",
+     "alternativas": {
+      "a": "Ceruloplasmina sérica e cobre urinário de 24 horas",
+      "b": "Dosagem isolada do cobre sérico total",
+      "c": "Biópsia de músculo esquelético",
+      "d": "Pesquisa de expansão de trinucleotídeos CAG"
+     },
+     "correta": "a",
+     "comentario": "A triagem se faz com ceruloplasmina sérica (tipicamente reduzida, abaixo de 20 mg/dL, e frequentemente abaixo de 10 mg/dL) somada ao cobre urinário de 24 horas (elevado, em geral acima de 100 µg/24 h nos sintomáticos), interpretados em conjunto porque nenhum dos dois isoladamente é suficiente. Completam a avaliação o exame com lâmpada de fenda para anéis de Kayser-Fleischer — presentes em praticamente 100% dos pacientes com manifestações NEUROLÓGICAS, ainda que em apenas metade dos que se apresentam só com hepatopatia — e, quando persiste dúvida, a dosagem de cobre no tecido hepático (acima de 250 µg/g de peso seco) ou o teste genético do ATP7B. O cobre sérico TOTAL isolado é armadilha: como a maior parte do cobre circulante está ligada à ceruloplasmina, ele costuma estar baixo ou normal na doença de Wilson, e um resultado 'normal' induz a falso descarte — o que interessa é o cobre livre (não ligado à ceruloplasmina), calculado ou medido. A pesquisa de expansão CAG investiga a doença de Huntington, hipótese já afastada. A biópsia muscular avalia miopatias e doenças mitocondriais, sem qualquer papel aqui. Atenção a duas limitações: a ceruloplasmina é proteína de fase aguda e pode estar falsamente normal na inflamação, na gravidez e no uso de estrogênio; e pode estar baixa na acerulplasminemia hereditária, na síndrome nefrótica e na desnutrição.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a abordagem terapêutica mais adequada para o caso:",
+     "alternativas": {
+      "a": "Aplicação isolada de toxina botulínica na musculatura distônica",
+      "b": "Levodopa em dose plena com escalonamento rápido",
+      "c": "Corticoterapia prolongada em dose imunossupressora",
+      "d": "Quelante de cobre e dieta pobre em cobre"
+     },
+     "correta": "d",
+     "comentario": "O tratamento é vitalício e tem duas frentes: remover o cobre acumulado e impedir novo acúmulo. Usam-se quelantes — D-penicilamina ou trientina, esta última mais bem tolerada e hoje preferida em muitos serviços — e/ou sais de zinco, que bloqueiam a absorção intestinal de cobre por indução de metalotioneína e são a escolha para manutenção e para pacientes pré-sintomáticos; associa-se dieta com restrição de alimentos ricos em cobre (fígado, frutos do mar, castanhas, cogumelos, chocolate). Um alerta clássico de prova: a D-penicilamina pode causar PIORA NEUROLÓGICA PARADOXAL no início do tratamento em 10-20% dos pacientes com apresentação neurológica, o que justifica escalonamento lento de dose ou a preferência inicial por trientina/zinco nesse perfil; ela também exige suplementação de piridoxina e vigilância para proteinúria, citopenias e reações autoimunes. Levodopa não corrige o mecanismo (a lesão é estrutural, pós-sináptica, nos núcleos da base) e não é o tratamento da doença. Corticoterapia prolongada não tem indicação nesta doença de acúmulo metabólico. Toxina botulínica isolada é apenas sintomática para a distonia focal e não impede a progressão sistêmica nem a hepatopatia. Complementos obrigatórios do manejo: rastreamento de irmãos e familiares de primeiro grau (a doença é autossômica recessiva e o diagnóstico pré-sintomático permite tratamento antes de qualquer lesão), acompanhamento hepatológico e indicação de transplante hepático na insuficiência hepática fulminante ou na cirrose descompensada.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 67 — Doenças com Acúmulo de Cobre (Wilson) e Outros (p.987); complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 11 — Distúrbios do Movimento.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Doenças exantemáticas (erupção vesicopustulosa polimórfica febril no escolar) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "MÉDIO",
+   "vinheta": "Menino, 6 anos de idade, foi levado à UPA apresentando erupções cutâneas pruriginosas e história de febre que durou cerca de três dias. Sua mãe relata que o menor não estava bem; e que observou pequenas bolhas na pele do filho, as quais começaram no tronco e se disseminaram. As primeiras bolhas aumentaram de tamanho, tornaram-se amareladas e evoluíram para feridas com crostas. Não sabe informar sobre exposição a contatos com quadro semelhante. Ao exame, estado geral mantido; subfebril no momento. Verifica-se presença de lesões maculares com microbolhas, algumas lesões com bolhas de tamanhos diferentes, umbilicadas, além de algumas lesões crostosas pelo corpo.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do quadro clínico, indique a principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Impetigo.",
+      "b": "Sarampo.",
+      "c": "Varicela.",
+      "d": "Roséola."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O achado que fecha o diagnóstico é o POLIMORFISMO REGIONAL: máculas, pápulas, vesículas, pústulas e crostas coexistindo na mesma área do corpo, descrição clássica de 'céu estrelado'. Some-se a isso o prurido intenso, a distribuição centrífuga com início no tronco e na face (progredindo para as extremidades) e o pródromo febril curto, e temos varicela, causada pelo vírus varicela-zóster. O sarampo cursa com pródromo catarral exuberante — febre alta, tosse, coriza e conjuntivite —, manchas de Koplik na mucosa jugal e exantema MACULOPAPULAR morbiliforme de progressão craniocaudal, que descama em farelo; não forma vesículas. O impetigo é infecção bacteriana superficial por Staphylococcus aureus ou Streptococcus pyogenes, com lesões localizadas, geralmente periorificiais, e crostas melicéricas cor de mel, sem o polimorfismo generalizado nem o quadro sistêmico; pode, no entanto, ser uma COMPLICAÇÃO da varicela por infecção secundária das lesões escoriadas. A roséola infantil (exantema súbito, por herpes-vírus humano 6) acomete lactentes de 6 a 24 meses e tem apresentação inversa: 3 a 5 dias de febre alta que cessa ABRUPTAMENTE e é seguida pelo aparecimento de exantema maculopapular róseo no tronco — não há vesículas. Duas pérolas de prova: a varicela é contagiosa desde 1 a 2 dias antes do exantema até que todas as lesões estejam em crosta, e a lesão umbilicada também aparece no molusco contagioso, que, entretanto, é indolor, sem febre e de evolução crônica.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o método preferencial para confirmar o diagnóstico nesse caso:",
+     "alternativas": {
+      "a": "Dermatoscopia com biópsia.",
+      "b": "Inspeção das lesões cutâneas e história clínica.",
+      "c": "Dosagem de anticorpos específicos.",
+      "d": "Cultura de sangue."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O diagnóstico da varicela é eminentemente CLÍNICO: a combinação de exantema vesicular pruriginoso com lesões em diferentes estágios evolutivos na mesma região corporal é suficientemente característica para dispensar exames em uma criança imunocompetente com quadro típico. Hemocultura não tem papel: o vírus não é isolado dessa forma, e a hemocultura só se justifica na suspeita de complicação bacteriana invasiva, como sepse por Streptococcus pyogenes, complicação temida da varicela. Dermatoscopia com biópsia é procedimento invasivo, desnecessário e reservado a casos atípicos em imunocomprometidos; historicamente usava-se o esfregaço de Tzanck (células gigantes multinucleadas), hoje substituído pela PCR. A dosagem de anticorpos específicos serve para avaliar estado imune — por exemplo, ao definir se um contactante suscetível precisa de profilaxia, ou na triagem pré-transplante e em gestantes expostas —, mas é de pouca utilidade no diagnóstico agudo, pois a IgM tem sensibilidade limitada e a soroconversão é tardia. Quando o diagnóstico laboratorial é realmente necessário (imunossuprimidos, formas graves, varicela neonatal, dúvida com herpes-zóster disseminado ou com mpox), o exame de escolha atual é a PCR do raspado da base da vesícula ou do líquido vesicular, com alta sensibilidade e especificidade e resultado rápido.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Sobre a evolução da doença, pode-se afirmar:",
+     "alternativas": {
+      "a": "Desenvolve imunidade permanente.",
+      "b": "Pode evoluir para infecções secundárias.",
+      "c": "Pode progredir para infecção crônica.",
+      "d": "Melhora rápida, sem complicações."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A complicação mais frequente da varicela na criança imunocompetente é a infecção bacteriana secundária das lesões cutâneas, favorecida pela escoriação decorrente do prurido, e causada sobretudo por Staphylococcus aureus e Streptococcus pyogenes — vai do impetigo e da celulite até quadros graves como fasciite necrotizante, piomiosite, artrite séptica e sepse com choque tóxico. Justamente por isso, a orientação inclui unhas curtas, banhos, higiene das lesões, anti-histamínico para o prurido e vigilância de sinais de alerta (retorno da febre após defervescência, dor desproporcional, eritema em expansão). A afirmação de que 'desenvolve imunidade permanente' é a alternativa mais sedutora e falha por um detalhe conceitual importante: a infecção confere imunidade duradoura contra novo episódio de varicela, mas o vírus permanece LATENTE nos gânglios sensitivos das raízes dorsais e pode reativar-se anos depois como herpes-zóster — ou seja, a proteção não é absoluta nem definitiva no sentido de erradicar o vírus. Progredir para infecção crônica não descreve a varicela: a infecção aguda se resolve, o que persiste é a latência, conceito distinto de cronicidade ativa. Afirmar melhora rápida e sem complicações ignora tanto a infecção bacteriana secundária quanto as complicações neurológicas (ataxia cerebelar aguda, a mais comum, e encefalite), a pneumonia varicelosa (mais grave em adolescentes, adultos e gestantes), a síndrome de Reye associada ao uso de AAS — motivo pelo qual o salicilato é formalmente contraindicado — e as formas graves do imunossuprimido, do recém-nascido e da gestante.\n📚 Leitura sugerida (bloco): material do Drive do Vinicius — videoaula de 'Infectologia / exantemáticas' do R+ PEDIATRIA MEDGRUPO (https://drive.google.com/file/d/1ayloTkRXLIY0gA34-LDh7q546oquQs6h/view); complementar com o Guia de Vigilância em Saúde do Ministério da Saúde (capítulo de varicela/herpes-zóster) e com o Calendário Nacional de Vacinação (tetraviral aos 15 meses e varicela aos 4 anos).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (hipoacusia unilateral progressiva com desequilíbrio e sinais de ângulo pontocerebelar)",
+   "tier": "ALTO",
+   "vinheta": "Mulher de 52 anos relata, há cerca de 2 anos, dificuldade progressiva para ouvir com o ouvido direito, acompanhada de zumbido contínuo do mesmo lado. Queixa-se de não conseguir entender a conversa ao telefone com esse ouvido, embora perceba que 'escuta o som'. Refere ainda sensação de desequilíbrio leve e constante ao caminhar, sem crises rotatórias e sem quedas. Nos últimos meses notou dormência na bochecha direita. Ao exame: hipoestesia em hemiface direita com reflexo corneano diminuído à direita, sem paresia facial; prova de Romberg com desvio à direita; head impulse test com sacada de correção à direita. Audiometria: perda auditiva neurossensorial à direita, com índice de reconhecimento de fala desproporcionalmente ruim em relação aos limiares tonais.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o padrão evolutivo e os achados de exame, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Neurite vestibular",
+      "b": "Vertigem posicional paroxística benigna",
+      "c": "Doença de Ménière",
+      "d": "Schwannoma vestibular"
+     },
+     "correta": "d",
+     "comentario": "A chave está no padrão temporal e na topografia. Hipoacusia neurossensorial unilateral LENTAMENTE progressiva com zumbido, desequilíbrio contínuo sem crises rotatórias e, sobretudo, discriminação vocal desproporcionalmente ruim para o grau de perda tonal caracterizam lesão RETROCOCLEAR. O acometimento do V nervo (hipoestesia facial e reflexo corneano reduzido) indica que a lesão cresceu no ângulo pontocerebelar e comprime estruturas vizinhas — o schwannoma vestibular é a neoplasia mais frequente dessa região (cerca de 80% dos tumores do ângulo pontocerebelar) e origina-se das células de Schwann do ramo vestibular do VIII nervo. A doença de Ménière produz crises RECORRENTES de vertigem de 20 minutos a 12 horas, com hipoacusia flutuante de baixas frequências, plenitude aural e zumbido, e não causa déficit trigeminal. A neurite vestibular é uma síndrome vestibular AGUDA, monofásica, com vertigem intensa por dias e melhora gradual em semanas, sem perda auditiva — a presença de hipoacusia progressiva a exclui. A vertigem posicional paroxística benigna dá crises de segundos deflagradas por mudança de posição da cabeça, com audição normal e exame neurológico normal. Pegadinha frequente: a perda do reflexo corneano é o sinal precoce de comprometimento trigeminal em tumores do ângulo pontocerebelar, e a paresia facial só aparece tardiamente, pois o VII é notavelmente resistente à compressão lenta.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame complementar de escolha para confirmar a hipótese diagnóstica:",
+     "alternativas": {
+      "a": "Videonistagmografia com prova calórica",
+      "b": "Ressonância magnética com gadolínio focada no conduto auditivo interno",
+      "c": "Potencial evocado auditivo de tronco encefálico",
+      "d": "Tomografia computadorizada de crânio sem contraste"
+     },
+     "correta": "b",
+     "comentario": "A ressonância magnética com contraste e cortes finos direcionados ao conduto auditivo interno e ao ângulo pontocerebelar é o padrão-ouro: detecta lesões intracanaliculares de poucos milímetros, mostra a típica massa que se estende do conduto para a cisterna com aspecto de 'cone de sorvete' e realce intenso, e diferencia de meningioma (que tem base dural e cauda dural) e de cisto epidermoide (que restringe à difusão e não realça). A tomografia sem contraste tem baixa sensibilidade para tumores pequenos, sofre com artefato ósseo da fossa posterior e só evidencia lesões maiores ou o alargamento do poro acústico. A videonistagmografia com prova calórica quantifica a hipofunção vestibular periférica, útil para documentar o déficit e planejar reabilitação, mas não identifica a causa. O potencial evocado auditivo de tronco tem boa sensibilidade para tumores GRANDES (prolongamento da onda V e do intervalo I-V), mas escapa até 30% dos tumores intracanaliculares pequenos; antes da difusão da ressonância era o rastreio, hoje foi superado. Regra prática de prova: toda hipoacusia neurossensorial ASSIMÉTRICA ou unilateral progressiva, e todo zumbido pulsátil ou unilateral persistente, exige ressonância para excluir lesão retrococlear.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando que a lesão identificada mede 9 mm, é intracanalicular e a paciente mantém audição funcional, indique a conduta mais adequada:",
+     "alternativas": {
+      "a": "Observação com ressonância magnética seriada",
+      "b": "Ressecção microcirúrgica imediata por via retrossigmoide",
+      "c": "Manobra de reposicionamento otolítico",
+      "d": "Corticoterapia em pulso por cinco dias"
+     },
+     "correta": "a",
+     "comentario": "Schwannomas vestibulares pequenos, intracanaliculares e pouco sintomáticos podem ser conduzidos com vigilância ativa ('wait and scan'): boa parte cresce muito lentamente (média de 1 a 2 mm por ano) e uma fração permanece estável ou até regride, de modo que tratar de imediato exporia a paciente a riscos desnecessários de perda auditiva e de lesão do nervo facial. A reavaliação por imagem é feita geralmente em 6 a 12 meses e depois anualmente, com audiometria seriada; a intervenção é indicada diante de crescimento documentado, sintomas progressivos, compressão de tronco encefálico ou hidrocefalia. As opções terapêuticas são radiocirurgia estereotáxica (preferida em tumores até 2,5-3 cm, com ótimo controle local e maior preservação auditiva e facial) e microcirurgia (para tumores maiores ou com efeito de massa). Ressecção imediata em lesão de 9 mm assintomática do ponto de vista compressivo é sobretratamento. Corticoide em pulso não tem papel em tumor benigno de crescimento lento — seria conduta de surto desmielinizante ou de perda auditiva súbita idiopática. Manobra de reposicionamento otolítico trata vertigem posicional paroxística benigna, mecanismo completamente distinto. Vale registrar que schwannomas vestibulares BILATERAIS são o marcador diagnóstico da neurofibromatose tipo 2, situação que exige aconselhamento genético e abordagem terapêutica própria.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 138 — Síndrome Vestibular Crônica (p.1925) e cap. 155 — Neoplasias Primárias do SNC (p.2131); complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 2 — Tontura, Vertigem e Perda Auditiva.",
+     "dificuldade": "dificil"
+    }
+   ]
+  }
+ ]
+}
