@@ -1,0 +1,651 @@
+{
+ "date": "2026-08-28",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (síndrome vestibular aguda de causa central) [RE ranking unificado #1: Vinicius, 100% de erro, 3/3]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 61 anos de idade, hipertenso e tabagista, é levado à emergência por tontura rotatória contínua iniciada há 10 horas, com náuseas, vômitos e incapacidade de permanecer em pé sem apoio. Nega perda auditiva, zumbido, cefaleia ou dor cervical. Ao exame: nistagmo espontâneo horizontal que bate para a direita ao olhar para a direita e para a esquerda ao olhar para a esquerda, pouco modificado pela remoção da fixação visual; teste de impulso cefálico sem sacada de correção para nenhum dos lados; discreta dissociação vertical dos olhos ao teste de cobertura alternada. Força, sensibilidade e prova índex-nariz sem alterações; a marcha é impossível sem sustentação bilateral. Tomografia de crânio sem contraste, realizada na admissão, não mostra alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o padrão do nistagmo e os demais achados oculomotores, indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Vertigem posicional paroxística benigna de canal horizontal.",
+      "b": "Neurite vestibular à direita.",
+      "c": "Acidente vascular cerebral de fossa posterior.",
+      "d": "Doença de Ménière em crise."
+     },
+     "correta": "c",
+     "comentario": "A tríade oculomotora aqui é inteiramente central. Nistagmo que MUDA DE DIREÇÃO conforme a direção do olhar (bate para a direita ao olhar à direita e para a esquerda ao olhar à esquerda) indica disfunção do integrador neural do tronco/cerebelo, e não uma lesão vestibular periférica, que produz nistagmo unidirecional obedecendo à lei de Alexander. Some-se a isso o teste de impulso cefálico NORMAL na vigência de síndrome vestibular aguda franca — achado paradoxal e altamente suspeito, porque a lesão periférica necessariamente compromete o reflexo vestíbulo-ocular do lado acometido — e a dissociação vertical ao cover test (skew deviation), que traduz desequilíbrio das vias otolíticas no tronco encefálico. A incapacidade de deambular mesmo com apoio (ataxia axial desproporcional) reforça a origem central. A neurite vestibular é descartada justamente pelo impulso cefálico normal e pelo nistagmo que troca de direção. A vertigem posicional paroxística benigna cursa com crises de segundos desencadeadas por mudança de decúbito, nunca com sintoma contínuo de 10 horas. A doença de Ménière exige episódios recorrentes de 20 minutos a 12 horas acompanhados de hipoacusia flutuante, zumbido e plenitude aural, ausentes no caso. Pegadinha clássica: a tomografia normal NÃO exclui infarto — sua sensibilidade para isquemia de fossa posterior nas primeiras horas é inferior a 20%.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o achado do exame que, isoladamente, mais aumenta a probabilidade de causa central neste paciente:",
+     "alternativas": {
+      "a": "Teste de impulso cefálico sem sacada corretiva.",
+      "b": "Nistagmo espontâneo em posição primária do olhar.",
+      "c": "Vômitos repetidos e intensos.",
+      "d": "Idade acima de 60 anos com fatores de risco vascular."
+     },
+     "correta": "a",
+     "comentario": "No protocolo HINTS (Head Impulse, Nystagmus, Test of Skew), aplicável somente à síndrome vestibular aguda contínua, o padrão central é o mnemônico INFARCT: Impulse Normal, Fast-phase Alternating, Refixation on Cover Test. Dos três componentes, o impulso cefálico NORMAL é o de maior peso isolado: se o reflexo vestíbulo-ocular está íntegro, a via periférica está íntegra, e a lesão tem de ser central. Estudos com neurologistas treinados mostram sensibilidade do HINTS em torno de 96-100% e especificidade próxima de 96% para AVC na síndrome vestibular aguda, superando a ressonância com difusão realizada nas primeiras 24-48 horas, que pode ser falso-negativa em até 15-20% dos infartos pequenos de tronco. Os vômitos intensos não discriminam nada: são igualmente exuberantes na neurite vestibular. O nistagmo espontâneo em posição primária ocorre nas duas situações — o que importa é a sua DIREÇÃO e o comportamento com a fixação, não a sua mera presença. A idade e os fatores de risco aumentam a probabilidade pré-teste, mas não substituem o exame: o erro clássico é rotular como central todo idoso vascular e como periférico todo jovem, quando o exame oculomotor é muito mais informativo do que o perfil demográfico.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta mais adequada neste momento:",
+     "alternativas": {
+      "a": "Alta com dimenidrinato e retorno ambulatorial em 7 dias.",
+      "b": "Internação com ressonância magnética de encéfalo com difusão e investigação de AVC.",
+      "c": "Manobra de reposicionamento de Epley no leito.",
+      "d": "Corticoterapia oral em curso curto e observação domiciliar."
+     },
+     "correta": "b",
+     "comentario": "Reconhecido o padrão central, o paciente entra na via de AVC agudo: internação em unidade com monitorização, ressonância magnética com sequência de difusão (o exame de escolha, com a ressalva de que um resultado negativo precoce não exclui e deve ser repetido em 48-72 horas se a suspeita persistir), angiotomografia ou angiorressonância de vasos cervicais e intracranianos — a dissecção de artéria vertebral é causa frequente em pacientes mais jovens — além de eletrocardiograma, ecocardiograma e rastreio de fibrilação atrial. O risco maior é o infarto cerebelar extenso, que pode evoluir com edema, hidrocefalia obstrutiva e herniação nas primeiras 72 horas, exigindo craniectomia descompressiva ou derivação ventricular; por isso a alta é inaceitável. Dar alta com supressor vestibular é o erro mais grave da questão, e o dimenidrinato ainda mascara o exame nas reavaliações. A manobra de Epley trata a vertigem posicional de canal posterior e não tem indicação em síndrome vestibular contínua. Corticoide oral é discutido na neurite vestibular, mas nem lá modifica desfecho funcional a longo prazo, e aqui seria tratar o diagnóstico errado. Pérola: em pacientes com sintoma vestibular agudo, sempre pesquisar dor cervical ou occipital, sinal de alerta para dissecção vertebral.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 135 — Síndrome Vestibular Aguda; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 2 — Tontura, Vertigem e Perda Auditiva.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Imunologia (imunodeficiência primária humoral) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "MÉDIO",
+   "vinheta": "Menina, 2 anos de idade, é levada ao ambulatório pediátrico, encaminhada pela UBS, por apresentar infecções respiratórias recorrentes, incluindo otites frequentes. A mãe relata que desde o nascimento a menor apresenta espirros e coriza constantes. Além disso, já ocorreram vários quadros de pneumonia e um de diarreia, sem necessidade de internação. Nega alterações dermatológicas. Foi amamentada até os 18 meses e, atualmente, tem dieta semelhante à da família, com proteínas animais, frutas e legumes, diariamente. Reside em rua calçada, com saneamento; nega mofo e umidade em casa. Faz acompanhamento na UBS, mas continua apresentando infecções muito frequentes, que não respondem bem aos tratamentos convencionais. É filha única, não frequenta creche e não há história familiar. Ao exame físico, é uma criança em bom estado geral e nutricional, sem outras alterações no momento, exceto condutos auditivos hiperemiados.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a suspeita diagnóstica mais provável para justificar as infecções recorrentes nessa criança:",
+     "alternativas": {
+      "a": "Alergia alimentar.",
+      "b": "Deficiência de vitamina C.",
+      "c": "Deficiência seletiva de imunoglobulina A.",
+      "d": "Insalubridade ambiental."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A banca constrói o caso eliminando sistematicamente as causas ambientais e nutricionais: saneamento adequado, ausência de mofo, dieta variada, criança eutrófica, sem creche e sem irmãos — ou seja, retira a explicação mais comum para infecções de repetição em pré-escolares, que é a exposição aumentada. Restam infecções recorrentes de mucosas, sobretudo respiratórias altas e otites, com sintomas riníticos persistentes e um episódio de diarreia, exatamente o perfil da deficiência de imunoglobulina A, o erro inato da imunidade mais frequente, com prevalência aproximada de 1 em 500 a 1 em 700 indivíduos. Sua definição é imunoglobulina A sérica abaixo de 7 mg/dL com imunoglobulinas G e M normais, em maiores de 4 anos — motivo pelo qual, aos 2 anos, a confirmação exige repetir a dosagem, já que valores baixos podem ser transitórios pela maturação imunológica. A deficiência dessa imunoglobulina secretora explica a vulnerabilidade específica das superfícies mucosas. Alergia alimentar não produz pneumonias de repetição nem otites. Insalubridade ambiental foi explicitamente afastada na anamnese. Deficiência de vitamina C (escorbuto) cursaria com gengivorragia, petéquias, dor óssea e irritabilidade, em criança com dieta pobre — o oposto do descrito. Pérola: a associação com doença celíaca, tireoidite e outras autoimunidades é frequente e deve ser rastreada.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante desse caso clínico, indique o exame mais útil para confirmar a suspeita clínica:",
+     "alternativas": {
+      "a": "Dosagem de IgE total.",
+      "b": "Dosagem sérica de imunoglobulinas.",
+      "c": "Dosagem sérica de ácido ascórbico.",
+      "d": "Dosagem de IgE e testes cutâneos alimentares."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A confirmação exige a dosagem sérica quantitativa das imunoglobulinas — A, G, M e, idealmente, das subclasses de IgG —, comparada com valores de referência para a IDADE, ponto que a prova cobra com frequência, pois a interpretação com tabela de adulto gera erro sistemático em lactentes e pré-escolares. Espera-se imunoglobulina A indetectável ou muito baixa com as demais classes normais. A investigação básica de infecções de repetição inclui ainda hemograma completo com diferencial (avalia neutropenia e linfopenia), radiografia de tórax e, conforme a suspeita, resposta de anticorpos a vacinas proteicas e polissacarídicas, dosagem de complemento e subpopulações linfocitárias. Vale lembrar que o teste de triagem neonatal ampliado com TREC e KREC detecta linfopenias T e B graves, mas não identifica esta deficiência. Dosagem de IgE e testes cutâneos alimentares investigam alergia mediada por IgE, hipótese já afastada. Ácido ascórbico investiga escorbuto, sem correspondência clínica. IgE total isolada é inespecífica: eleva-se em atopia, parasitoses e em síndromes com hiper-IgE, e não confirma nem exclui o quadro em questão.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o tratamento mais adequado para essa criança, no caso de confirmação da principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Administração regular de imunoglobulina intravenosa.",
+      "b": "Uso contínuo de anti-histamínicos para controle alérgico.",
+      "c": "Uso profilático de antibióticos para prevenir infecções.",
+      "d": "Uso de dosagem terapêutica de vitamina C."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O manejo é de suporte, porque não existe reposição possível da imunoglobulina deficiente: a maioria dos pacientes é assintomática e apenas acompanhada; nos sintomáticos com infecções bacterianas frequentes, como esta criança, a conduta reconhecida é antibioticoprofilaxia, além de tratamento vigoroso das infecções agudas, imunizações em dia (incluindo pneumocócica e influenza) e vigilância de autoimunidade e atopia associadas. O ponto de prova mais importante, e o motivo pelo qual a alternativa da imunoglobulina intravenosa é o distrator mais atraente, é que a reposição está CONTRAINDICADA nesta condição: o preparado contém traços de imunoglobulina A, e uma parcela dos pacientes desenvolve anticorpos anti-IgA, com risco de reação anafilática grave. Pela mesma razão, esses pacientes exigem cuidado especial em transfusões de hemocomponentes, preferindo-se produtos lavados ou de doadores também deficientes. Anti-histamínico contínuo trata rinite alérgica coexistente, mas não previne pneumonias nem otites, e seria tratar apenas um sintoma. Vitamina C em dose terapêutica não tem qualquer papel imunológico comprovado nesse contexto. Prognóstico: a maior parte das crianças tem evolução benigna, e uma minoria evolui para imunodeficiência comum variável, o que justifica reavaliação periódica das imunoglobulinas.\n📚 Leitura sugerida (bloco): documentos científicos do Departamento de Alergia e Imunologia da Sociedade Brasileira de Pediatria (10 sinais de alerta para erros inatos da imunidade); apoio geral em 'Tópicos em Pediatria' — https://drive.google.com/file/d/1Kv_fDM9e_G0IOc7u311JTb2oEqreHP1c/view",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtorno de insônia (neuro-correlato do sono) [RE ranking unificado #2: Vinicius, 100% de erro, 3/3]",
+   "tier": "MÉDIO",
+   "vinheta": "Homem, 44 anos de idade, motorista de aplicativo, relata dificuldade para manter o sono há cerca de dois anos, com despertares às 3 h da manhã e sono não reparador quase todas as noites. Há 18 meses recebeu prescrição de zolpidem 10 mg à noite, que inicialmente resolveu a queixa; nos últimos meses passou a usar 15 a 20 mg para obter o mesmo efeito. Há três semanas tentou interromper a medicação por conta própria e teve três noites de piora acentuada, com quase nenhum sono, ansiedade e taquicardia, retomando o comprimido. Nega ronco alto, pausas respiratórias presenciadas, cochilos irresistíveis ao volante ou desconforto nas pernas ao deitar. Índice de massa corporal 26 kg/m², circunferência cervical 38 cm, exame físico e rastreio para depressão sem alterações relevantes. Não consome álcool; toma dois cafés pela manhã.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o mecanismo que melhor explica a intensa piora do sono nas três noites que se seguiram à interrupção da medicação:",
+     "alternativas": {
+      "a": "Deficiência aguda de melatonina endógena.",
+      "b": "Desmascaramento de apneia obstrutiva do sono previamente controlada.",
+      "c": "Atraso de fase do ritmo circadiano.",
+      "d": "Tolerância ao agonista do receptor GABA-A com fenômeno de rebote."
+     },
+     "correta": "d",
+     "comentario": "O zolpidem é um agonista não benzodiazepínico seletivo da subunidade alfa-1 do receptor GABA-A (fármaco Z). O uso noturno continuado promove regulação adaptativa do receptor — tolerância —, evidenciada aqui pela necessidade de escalonar a dose de 10 para 15-20 mg. Quando o agonista é retirado abruptamente, o sistema GABAérgico fica transitoriamente hipofuncionante frente a um tônus excitatório inalterado, e o resultado é insônia de rebote: uma piora que ultrapassa a gravidade basal da queixa e que tipicamente dura de poucas noites a duas semanas, acompanhada de ansiedade e hiperatividade adrenérgica, exatamente como descrito. Esse rebote é a principal armadilha clínica, porque o paciente e o médico o interpretam como prova de que 'a medicação era necessária', perpetuando o uso. A apneia obstrutiva é improvável: não há ronco, pausas presenciadas, sonolência ao volante, obesidade nem circunferência cervical aumentada — e, se existisse, o zolpidem tenderia a piorá-la, não a mascará-la ao ser retirado. O atraso de fase circadiano se manifesta por dificuldade de INICIAR o sono com despertar tardio e sono de duração normal quando o horário é livre, o que não corresponde ao despertar precoce descrito. Não existe entidade clínica de deficiência aguda de melatonina precipitada por suspensão de fármaco Z.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o instrumento de avaliação inicial mais apropriado para caracterizar objetivamente o padrão de sono deste paciente:",
+     "alternativas": {
+      "a": "Teste das latências múltiplas do sono.",
+      "b": "Polissonografia de noite inteira em laboratório.",
+      "c": "Dosagem seriada de cortisol salivar noturno.",
+      "d": "Diário de sono por duas semanas."
+     },
+     "correta": "d",
+     "comentario": "O transtorno de insônia é um diagnóstico CLÍNICO, e o instrumento de primeira linha para documentar horários de deitar e levantar, latência para o início do sono, despertares, tempo total de sono e eficiência do sono é o diário de sono preenchido prospectivamente por uma a duas semanas — recomendação explícita da American Academy of Sleep Medicine e da Associação Brasileira do Sono. Ele também revela comportamentos perpetuadores que a anamnese isolada perde, como tempo excessivo na cama e horários irregulares, e serve de linha de base para medir a resposta ao tratamento. A actigrafia é o complemento objetivo quando há dúvida sobre a percepção do sono ou suspeita de transtorno do ritmo circadiano. A polissonografia NÃO está indicada na avaliação de rotina da insônia: reserva-se aos casos com suspeita de apneia obstrutiva, movimentos periódicos dos membros, parassonias complexas, epilepsia noturna ou insônia refratária ao tratamento adequado — nada disso presente aqui, e pedi-la de rotina é erro conceitual cobrado com frequência. O teste das latências múltiplas avalia sonolência excessiva e é ferramenta de narcolepsia e hipersonias, não de insônia. O cortisol salivar noturno investiga hipercortisolismo e não caracteriza padrão de sono.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a estratégia terapêutica mais adequada para este paciente:",
+     "alternativas": {
+      "a": "Manter o hipnótico na dose atual e acrescentar antipsicótico sedativo.",
+      "b": "Substituir por benzodiazepínico de meia-vida longa em dose plena.",
+      "c": "Suspender imediatamente o hipnótico e aguardar remissão espontânea.",
+      "d": "Redução gradual e programada do hipnótico associada a terapia cognitivo-comportamental."
+     },
+     "correta": "d",
+     "comentario": "A conduta correta combina duas frentes simultâneas. Primeira: a desprescrição precisa ser GRADUAL — o esquema mais usado reduz cerca de 25% da dose a cada uma ou duas semanas, podendo alongar-se ainda mais nas etapas finais, justamente para evitar o rebote que já fez este paciente fracassar sozinho. Segunda: a retirada só se sustenta se o tratamento de primeira linha da insônia crônica for instalado em paralelo — a terapia cognitivo-comportamental para insônia, que reúne restrição de tempo na cama, controle de estímulos, reestruturação cognitiva das crenças sobre o sono e higiene do sono, com eficácia superior à farmacoterapia no seguimento longo e sem rebote ao término. Programas breves e formatos digitais têm eficácia demonstrada e reduzem o problema de acesso a terapeutas. Trocar por benzodiazepínico de meia-vida longa apenas transfere a dependência para uma molécula com mais sedação residual diurna — inaceitável em um motorista profissional, com risco ocupacional e medicolegal — e maior risco cognitivo. Suspender de forma abrupta reproduz exatamente o rebote já vivido e destrói a adesão. Antipsicótico sedativo (quetiapina e afins) não tem indicação formal para insônia primária e agrega ganho de peso, síndrome metabólica e sintomas extrapiramidais. Alternativas farmacológicas com melhor perfil, quando ainda necessárias, incluem doxepina em dose baixa e os antagonistas duplos de orexina.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 73 — Insônia (com base fisiológica no cap. 71 — Fisiologia do Sono).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia (icterícia com prova de Coombs positiva) [REAL: SUS-BA R+ Pediatria 2021]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino nascido de parto natural, com idade gestacional de 36 semanas e 5 dias, pesando 2.800 g, apresenta, dezesseis horas após o nascimento, icterícia que atinge a zona II de Kramer. Está ativo, sugando o seio adequadamente e já eliminou mecônio. Os exames mostram sangue tipo B positivo do recém-nascido; e a mãe tem sangue O positivo. Coombs direto positivo; bilirrubinas totais: 9,2 mg/dL; bilirrubina indireta: 8,8 mg/dL.",
+   "perguntas": [
+    {
+     "enunciado": "Identifique a extensão anatômica que corresponde à zona afetada pela icterícia:",
+     "alternativas": {
+      "a": "Cabeça e tórax.",
+      "b": "Membros apenas.",
+      "c": "Tórax e membros superiores.",
+      "d": "Pescoço e membros superiores."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] As zonas de Kramer descrevem a progressão craniocaudal da icterícia neonatal e permitem uma estimativa grosseira do nível de bilirrubina à beira do leito: zona I, cabeça e pescoço, cerca de 4 a 8 mg/dL; zona II, tronco até o umbigo, aproximadamente 5 a 12 mg/dL; zona III, do umbigo aos joelhos e cotovelos, 8 a 16 mg/dL; zona IV, antebraços e pernas, 11 a 18 mg/dL; zona V, mãos e pés, acima de 15 mg/dL. A zona II, portanto, corresponde a cabeça e tronco até a cicatriz umbilical — o que a alternativa correta traduz como cabeça e tórax. O valor medido de 9,2 mg/dL é coerente com a faixa esperada. É indispensável saber, porém, que a avaliação visual é apenas triagem: subestima valores em recém-nascidos de pele mais pigmentada e perde acurácia sob fototerapia, de modo que a decisão terapêutica deve sempre apoiar-se na bilirrubina sérica total ou transcutânea plotada em nomograma por hora de vida, como o de Bhutani. As demais alternativas descrevem distribuições que não correspondem a nenhuma zona da classificação, já que a progressão é obrigatoriamente craniocaudal e contínua: não existe icterícia que poupe a cabeça e acometa apenas membros.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Identifique a alternativa que apresenta a melhor categorização do quadro ictérico descrito:",
+     "alternativas": {
+      "a": "Hiperbilirrubinemia por condição metabólica.",
+      "b": "Hiperbilirrubinemia hemolítica.",
+      "c": "Icterícia por amamentação.",
+      "d": "Hiperbilirrubinemia fisiológica."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] Dois elementos definem a natureza hemolítica: o aparecimento da icterícia com dezesseis horas de vida, ou seja, ANTES de 24 horas — critério que por si só classifica a icterícia como não fisiológica e obriga a investigação —, e a incompatibilidade ABO com Coombs direto POSITIVO, mãe O e recém-nascido B, situação em que anticorpos maternos anti-B da classe IgG atravessam a placenta e revestem as hemácias fetais, provocando hemólise. O predomínio de bilirrubina indireta (8,8 de 9,2 mg/dL) confirma tratar-se de hiperbilirrubinemia não conjugada. A icterícia fisiológica surge após 24 a 36 horas, atinge o pico entre o terceiro e o quinto dia no recém-nascido a termo, não ultrapassa habitualmente 12 a 13 mg/dL e regride em uma a duas semanas — o tempo de instalação já a exclui. A icterícia associada ao aleitamento manifesta-se em duas formas: a precoce, por baixa ingesta e aumento da circulação êntero-hepática nos primeiros dias, e a tardia, do leite materno, que aparece após a primeira semana e pode prolongar-se — nenhuma delas cursa com Coombs positivo, e o recém-nascido descrito suga bem e já eliminou mecônio. Condições metabólicas, como hipotireoidismo congênito e galactosemia, produzem icterícia PROLONGADA, não precoce. Prematuro tardio, como este, tem risco adicional pela imaturidade da glicuroniltransferase.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Identifique a conduta terapêutica indicada, nesse momento, para esse recém-nascido:",
+     "alternativas": {
+      "a": "Banhos de sol.",
+      "b": "Fenobarbital.",
+      "c": "Fototerapia.",
+      "d": "Exsanguineotransfusão."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A fototerapia é o tratamento de escolha. Atua por fotoisomerização da bilirrubina não conjugada na pele, convertendo-a em lumirrubina e em fotoisômeros hidrossolúveis, excretáveis pela bile e pela urina sem necessidade de conjugação hepática. A eficácia depende de irradiância adequada (ao menos 30 microwatts por centímetro quadrado por nanômetro na fototerapia intensiva), comprimento de onda na faixa azul de 460 a 490 nanômetros, distância adequada e máxima superfície corporal exposta, com proteção ocular. Em recém-nascido com doença hemolítica e 16 horas de vida, o limiar de indicação é mais baixo, pois a curva de Bhutani e as diretrizes consideram a hemólise fator de risco maior. A exsanguineotransfusão fica reservada a níveis muito superiores, à falha da fototerapia intensiva ou a sinais de encefalopatia bilirrubínica aguda — hipotonia, letargia, sucção débil, choro agudo, opistótono —, e não se justifica com 9,2 mg/dL. O fenobarbital induz a glicuroniltransferase, mas tem início de ação lento, sedação e não faz parte do manejo agudo. Banho de sol é formalmente CONTRAINDICADO: risco de queimadura, hipotermia e desidratação, com eficácia não controlável. Monitorar hematócrito, reticulócitos e bilirrubina seriada, mantendo aleitamento e hidratação, e vigiar anemia tardia nas semanas seguintes.\n📚 Leitura sugerida (bloco): videoaula de Neonatologia (R+ Pediatria MEDGRUPO) — https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view ; complementar com o documento científico da Sociedade Brasileira de Pediatria sobre icterícia neonatal e uso de fototerapia.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroimunologia (manifestação neurológica do lúpus de mecanismo trombótico) [RE cota individual: Leonardo, 33% de erro]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 29 anos de idade, com lúpus eritematoso sistêmico diagnosticado há 6 anos (artrite e rash malar prévios, sem nefrite), em uso regular de hidroxicloroquina, é atendida por instalação súbita de fraqueza no dimídio esquerdo e desvio da rima labial, há 5 horas. Refere duas perdas gestacionais no segundo trimestre e um episódio de trombose venosa profunda em membro inferior direito há 3 anos. Ao exame: afebril, sem rash ativo, sem artrite, hemiparesia esquerda de predomínio braquiofacial, com hiper-reflexia e Babinski à esquerda; sem alteração do nível de consciência ou do comportamento. Exames: plaquetas 96.000/mm³, complemento C3 e C4 normais, anti-DNA de dupla hélice negativo, VHS discretamente elevada; tempo de tromboplastina parcial ativada prolongado que não corrige com plasma normal. Ressonância de encéfalo com restrição à difusão em território superficial da artéria cerebral média direita.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o mecanismo que melhor explica o evento neurológico agudo desta paciente:",
+     "alternativas": {
+      "a": "Trombose arterial por anticorpos antifosfolípides.",
+      "b": "Embolia séptica a partir de endocardite bacteriana.",
+      "c": "Encefalite autoimune mediada por anticorpo antineuronal.",
+      "d": "Vasculite cerebral primária do lúpus em atividade."
+     },
+     "correta": "a",
+     "comentario": "A chave está na dissociação entre a atividade lúpica e o evento neurológico. Complemento NORMAL, anti-DNA de dupla hélice NEGATIVO, ausência de rash e de artrite indicam doença imunologicamente quiescente — não é um surto inflamatório. Em contrapartida, reúnem-se os marcadores clássicos do mecanismo trombótico: perdas fetais de segundo trimestre, trombose venosa profunda prévia, plaquetopenia moderada e, sobretudo, tempo de tromboplastina parcial ativada prolongado que NÃO corrige na mistura com plasma normal — o comportamento típico de um inibidor, no caso o anticoagulante lúpico, e não de deficiência de fator. A síndrome antifosfolípide é a causa mais frequente de acidente vascular cerebral em pacientes com lúpus, e o infarto de território arterial definido, como aqui, é a sua assinatura. A vasculite cerebral primária do lúpus é rara, costuma acompanhar doença sistêmica em franca atividade com consumo de complemento, e produz lesões multifocais em territórios variados, muitas vezes com realce leptomeníngeo. Encefalite autoimune se manifestaria com quadro subagudo de alteração comportamental, crises e disautonomia, não com déficit focal hiperagudo. Endocardite exigiria febre e sopro; vale lembrar que a endocardite de Libman-Sacks, não infecciosa, também se associa a antifosfolípides e pode ser fonte embólica — motivo pelo qual o ecocardiograma faz parte da investigação.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o requisito laboratorial necessário para confirmar o diagnóstico suspeitado:",
+     "alternativas": {
+      "a": "Obter biópsia leptomeníngea e cortical com sinais de arterite.",
+      "b": "Repetir a positividade dos testes após intervalo mínimo de 12 semanas.",
+      "c": "Documentar consumo de C3 e C4 em duas amostras consecutivas.",
+      "d": "Demonstrar bandas oligoclonais restritas ao líquor."
+     },
+     "correta": "b",
+     "comentario": "Os critérios de classificação da síndrome antifosfolípide exigem, além do critério clínico (trombose vascular confirmada por imagem ou histologia, ou morbidade gestacional definida), a persistência do critério laboratorial: anticoagulante lúpico, anticardiolipina IgG ou IgM em títulos médios a altos, ou anti-beta-2-glicoproteína I IgG ou IgM, positivos em DUAS ou mais ocasiões com intervalo de pelo menos 12 semanas. Essa exigência existe porque infecções agudas, neoplasias e fármacos produzem positividades transitórias sem qualquer significado trombótico — testar uma única vez e rotular o paciente é erro frequente, com consequência pesada, já que implica anticoagulação por tempo indefinido. Atenção também ao fato de que a anticoagulação em curso interfere na dosagem do anticoagulante lúpico, o que exige interpretação cuidadosa do momento da coleta. Consumo de complemento marcaria atividade lúpica inflamatória, que é justamente o que este caso não tem. Bandas oligoclonais restritas ao líquor pertencem ao arsenal da esclerose múltipla e de processos inflamatórios do sistema nervoso central, sem papel diagnóstico aqui. A biópsia cerebral é reservada às raras suspeitas de vasculite primária do sistema nervoso central com investigação não invasiva inconclusiva, e seria desproporcional e desnecessária diante de um quadro laboratorial tão sugestivo.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta de prevenção secundária mais adequada após a fase aguda:",
+     "alternativas": {
+      "a": "Anticoagulação oral com varfarina, alvo de INR entre 2 e 3.",
+      "b": "Ácido acetilsalicílico 100 mg ao dia isoladamente.",
+      "c": "Anticoagulante oral direto, como a rivaroxabana.",
+      "d": "Pulsoterapia com metilprednisolona seguida de ciclofosfamida."
+     },
+     "correta": "a",
+     "comentario": "Diante de trombose ARTERIAL em síndrome antifosfolípide, a prevenção secundária é anticoagulação plena e por tempo indefinido com antagonista da vitamina K, mantendo o INR entre 2 e 3 — alvos mais altos, entre 3 e 4, são discutidos em eventos arteriais recorrentes apesar de anticoagulação adequada, mas não são o padrão inicial e custam mais sangramento. Ponto de prova recorrente e de grande relevância prática: os anticoagulantes orais diretos NÃO devem ser usados na síndrome antifosfolípide, sobretudo na tripla positividade e nos eventos arteriais. O ensaio TRAPS, com rivaroxabana, foi interrompido precocemente por excesso de eventos tromboembólicos e o cenário se repetiu em estudos posteriores, motivando alertas regulatórios formais. Antiagregação isolada é insuficiente após um evento arterial estabelecido — pode ser considerada em profilaxia primária de portadores assintomáticos de perfil de alto risco, junto com hidroxicloroquina e controle rigoroso dos fatores de risco cardiovascular. Pulsoterapia com corticoide e ciclofosfamida é o tratamento da manifestação lúpica INFLAMATÓRIA, como a psicose lúpica ou a mielite, e aqui seria imunossuprimir sem alvo, expondo a paciente a toxicidade e a risco infeccioso sem qualquer benefício sobre o mecanismo trombótico. Manter a hidroxicloroquina é recomendável, pelo efeito antitrombótico adjuvante.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 166 — Aspectos Neurológicos das Doenças Reumatológicas (complementar com o cap. 49 — Vasculites do Sistema Nervoso).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nefrologia (perda progressiva de função renal na infância) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 5 anos de idade, foi levado à consulta por apresentar cansaço fácil, palidez, diminuição do apetite e da diurese e 'inchaço' nas pernas nas últimas semanas. Foi observado que a urina está 'espumosa'. Há alguns meses, apresentou um episódio de infecção urinária, tratado com antibiótico. Ao exame físico, o estado geral está mantido; pressão arterial 120x80 mmHg; há palidez cutâneo-mucosa e discreto edema periférico, principalmente em membros inferiores. Exames laboratoriais: hemoglobina 9,8 g/dL; creatinina 2,5 mg/dL; ureia 65 mg/dL; urina tipo I com proteinúria ++ e hematúria microscópica; ultrassonografia de rins e vias urinárias com rins de tamanho reduzido e aumento da ecogenicidade parenquimatosa.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável para esse caso:",
+     "alternativas": {
+      "a": "Síndrome nefrótica.",
+      "b": "Insuficiência renal aguda.",
+      "c": "Insuficiência renal crônica.",
+      "d": "Nefrite lúpica."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O achado que fecha o raciocínio é ultrassonográfico: rins REDUZIDOS de tamanho e com hiperecogenicidade parenquimatosa traduzem fibrose e perda de massa renal, alterações que levam meses a anos para se estabelecer e que distinguem cronicidade de agudização. A esse marcador somam-se anemia normocrômica, decorrente da queda de eritropoetina, pressão arterial de 120x80 mmHg — muito acima do percentil 95 para um menino de 5 anos —, retenção nitrogenada e sintomas urêmicos arrastados. O antecedente de infecção urinária febril prévia sugere nefropatia de refluxo com cicatriz renal, causa clássica de doença renal crônica nessa faixa etária, ao lado das anomalias congênitas do rim e do trato urinário. Na lesão renal AGUDA, os rins costumam ter tamanho normal ou aumentado, sem anemia estabelecida nem hipertensão crônica, e há em geral um fator precipitante recente — desidratação, nefrotoxina, sepse. A síndrome nefrótica exige proteinúria maciça, hipoalbuminemia e edema generalizado com anasarca, e a proteinúria de duas cruzes com hematúria e função renal deteriorada não compõe esse quadro. A nefrite lúpica é rara antes dos 10 anos, predomina no sexo feminino e viria acompanhada de manifestações sistêmicas — febre, artrite, rash — e consumo de complemento, ausentes na descrição.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Identifique os exames adicionais que devem ser solicitados para melhor avaliar o quadro descrito:",
+     "alternativas": {
+      "a": "Tomografia computadorizada de abdome e teste de função hepática.",
+      "b": "Gasometria arterial e cintilografia renal.",
+      "c": "Biópsia renal e teste de tolerância à glicose.",
+      "d": "Dosagem de potássio e de albumina séricos, e clearance de creatinina."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Estabelecida a cronicidade, a prioridade é estadiar a função e detectar as complicações que ameaçam a vida a curto prazo. O clearance de creatinina, ou a estimativa da taxa de filtração glomerular pela fórmula de Schwartz — que usa a estatura e a creatinina —, define o estágio da doença e orienta todas as demais condutas. O potássio identifica hipercalemia, a complicação metabólica de maior letalidade imediata, com risco de arritmia. A albumina avalia o estado nutricional e o componente de perda proteica, além de ser preditor prognóstico. O conjunto completo inclui ainda cálcio, fósforo, paratormônio, bicarbonato, hemograma e ferritina, para rastrear o distúrbio mineral e ósseo, a acidose metabólica e a anemia. A gasometria é útil, mas a cintilografia com DMSA documenta cicatriz renal e tem papel na definição etiológica, não na avaliação metabólica urgente — por isso o par proposto é menos adequado. A biópsia renal tem baixo rendimento em rins pequenos e fibróticos, com risco aumentado de sangramento, e o teste de tolerância à glicose não se aplica. A tomografia de abdome expõe a contraste iodado um paciente com função renal muito reduzida, e provas hepáticas não guardam relação com o quadro.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Nesse caso, a conduta terapêutica a longo prazo deve incluir:",
+     "alternativas": {
+      "a": "Anti-hipertensivos, suplementação de eritropoetina e restrição proteica.",
+      "b": "Cirurgia renal corretiva para aumentar a função residual.",
+      "c": "Imunossupressores para evitar progressão da doença.",
+      "d": "Antivirais e vacinas para prevenção de infecções."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O tratamento conservador da doença renal crônica pediátrica apoia-se em três pilares presentes na alternativa correta. Primeiro, o controle rigoroso da pressão arterial, preferencialmente com inibidor da enzima conversora de angiotensina ou bloqueador do receptor de angiotensina, que reduzem a proteinúria e retardam a progressão — o ensaio ESCAPE mostrou que manter a pressão em alvos mais baixos preserva função renal em crianças. Segundo, o tratamento da anemia com agente estimulador da eritropoese, após correção do ferro, com alvos de hemoglobina que evitam tanto a anemia sintomática quanto os riscos de correção excessiva. Terceiro, a orientação nutricional com ingesta proteica controlada e adequada à faixa etária, jamais restritiva a ponto de comprometer o crescimento, com atenção a sódio, potássio e fósforo. Completam o cuidado o bicarbonato para a acidose, quelantes de fósforo e vitamina D ativa para o distúrbio mineral e ósseo, e o hormônio de crescimento quando há déficit estatural, além do preparo precoce para terapia renal substitutiva. Antivirais não têm indicação; a vacinação — incluindo hepatite B em esquema reforçado — é importante, mas não é a conduta principal. Imunossupressores tratam glomerulopatias em atividade, não a fibrose estabelecida. Não há cirurgia capaz de recuperar néfrons perdidos, embora a correção de uropatia obstrutiva, quando presente, seja indispensável.\n📚 Leitura sugerida (bloco): videoaula de Nefrologia pediátrica (R+ Pediatria MEDGRUPO) — https://drive.google.com/file/d/1KuvXkP9naQp1_JIcYrTNEDsoqD5K3DXG/view ; complementar com as diretrizes KDIGO para doença renal crônica.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença do Neurônio Motor [REAL: SUS-BA R+ Clínica Médica 2021]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 58 anos de idade, procura atendimento ambulatorial por queixa de fraqueza em membro superior direito, há alguns meses, associada a fasciculações. De antecedentes, possui hipotireoidismo, em uso de levotiroxina. Ao exame físico, lúcida e orientada, com sinais vitais estáveis. Exame neurológico com força muscular grau III em membro superior direito, presença de fasciculações, hiperreflexia e hipotrofia muscular. Força muscular grau IV nos demais membros, com sinal de Babinski bilateral. Sensibilidade preservada. Presença de fasciculações em língua. Demais exame segmentar sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável para a paciente:",
+     "alternativas": {
+      "a": "Esclerose lateral amiotrófica.",
+      "b": "Síndrome de Eaton-Lambert.",
+      "c": "Síndrome de Guillain-Barré atípica.",
+      "d": "Esclerose múltipla."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2021] O caso reúne a assinatura da doença do neurônio motor: sinais de neurônio motor SUPERIOR (hiper-reflexia e Babinski bilateral) coexistindo, no mesmo segmento e em segmentos distintos, com sinais de neurônio motor INFERIOR (hipotrofia, fraqueza grau III e fasciculações, inclusive na língua, que localiza o comprometimento no núcleo do hipoglosso, no bulbo), tudo isso com sensibilidade rigorosamente preservada. Essa dissociação — via motora difusamente doente e via sensitiva intacta — é o que praticamente fecha o diagnóstico à beira do leito. A síndrome de Eaton-Lambert é doença da junção neuromuscular pré-sináptica, por anticorpos contra canais de cálcio dependentes de voltagem, cursa com fraqueza proximal, arreflexia que MELHORA após exercício (facilitação) e disautonomia, frequentemente como síndrome paraneoplásica do carcinoma de pequenas células — não produz Babinski nem fasciculações de língua. A síndrome de Guillain-Barré é polirradiculoneuropatia aguda, ascendente, com ARREFLEXIA e componente sensitivo, instalada em dias a quatro semanas, e não em meses. A esclerose múltipla evolui em surtos, acomete vias sensitivas, nervo óptico e cerebelo, e não causa denervação com fasciculações linguais. Pérola: fasciculação isolada em paciente jovem e ansioso, sem fraqueza nem atrofia, costuma ser síndrome de fasciculações benignas — o que assusta e obriga a investigar é a fasciculação acompanhada de perda de força e amiotrofia.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Identifique o exame mais acurado para definição diagnóstica do caso:",
+     "alternativas": {
+      "a": "Anticorpo contra o receptor de acetilcolina.",
+      "b": "Estudo do líquor.",
+      "c": "Eletroneuromiografia.",
+      "d": "Ressonância nuclear magnética de crânio e coluna cervical."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2021] A eletroneuromiografia é o exame que sustenta o diagnóstico, porque demonstra denervação ativa (fibrilações e ondas positivas) e reinervação crônica (potenciais de unidade motora de grande amplitude e longa duração, com recrutamento reduzido) em múltiplas regiões corporais — bulbar, cervical, torácica e lombossacra —, ao mesmo tempo em que mostra condução sensitiva NORMAL. É exatamente essa distribuição multissegmentar que os critérios de El Escorial revisados e, mais recentemente, os critérios de Gold Coast exigem, permitindo diagnóstico com acometimento de neurônio motor superior e inferior em uma única região quando há confirmação eletrofisiológica em outras. A ressonância de crânio e coluna cervical é indispensável, mas com papel de EXCLUSÃO: serve para afastar mielopatia compressiva cervical, que pode simular a combinação de sinais piramidais nos membros inferiores com amiotrofia nos superiores — não confirma coisa alguma, e essa é a distinção que a questão cobra. O estudo do líquor é normal na doença do neurônio motor e presta-se a afastar processos inflamatórios ou infecciosos. O anticorpo antirreceptor de acetilcolina é o exame da miastenia gravis, doença da junção neuromuscular que cursa com fatigabilidade, ptose e diplopia, sem sinais piramidais e sem amiotrofia com fasciculações.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando a principal hipótese diagnóstica, indique a conduta terapêutica mais adequada:",
+     "alternativas": {
+      "a": "Fingolimode.",
+      "b": "Riluzol.",
+      "c": "Piridostigmina.",
+      "d": "Imunoglobulina."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2021] O riluzol é a única droga com efeito modificador de doença consolidado e disponível no Brasil pelo Protocolo Clínico e Diretrizes Terapêuticas do Ministério da Saúde. Atua reduzindo a excitotoxicidade glutamatérgica — inibe a liberação pré-sináptica de glutamato e bloqueia canais de sódio dependentes de voltagem — e proporciona ganho médio de sobrevida da ordem de dois a três meses ou o adiamento da traqueostomia; benefício modesto, mas real, e maior quando iniciado precocemente. A edaravona é outra opção aprovada em alguns países, com benefício restrito a subgrupos selecionados. É essencial lembrar que o cuidado central desta doença é multidisciplinar: ventilação não invasiva iniciada precocemente (guiada por capacidade vital forçada, pressão inspiratória máxima e sintomas noturnos) é a intervenção que mais impacta sobrevida e qualidade de vida; acrescentam-se gastrostomia oportuna diante de disfagia e perda ponderal, fisioterapia respiratória e motora, fonoaudiologia, manejo da sialorreia e da labilidade emocional, e discussão precoce de diretivas antecipadas de vontade. A piridostigmina trata sintomaticamente a miastenia gravis. O fingolimode é imunomodulador da esclerose múltipla. A imunoglobulina é usada na síndrome de Guillain-Barré e na polineuropatia desmielinizante inflamatória crônica — nenhuma delas altera o curso da doença do neurônio motor.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 108 — Esclerose Lateral Amiotrófica; complementar com o PCDT do Ministério da Saúde para a doença.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Endocrinologia e Crescimento (desaceleração do crescimento com idade óssea atrasada) [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 10 anos de idade, vai à UBS porque, segundo a sua mãe, 'tem crescido muito devagar'. Nasceu de parto normal, com peso e comprimento normais. Há 2 anos apresenta ganho de estatura menor que 4 cm por ano. Exame físico: proporções corporais preservadas, sem dismorfismos. Pele seca, fácies apática, frequência cardíaca de 60 bpm. Idade óssea atrasada em 3 anos.",
+   "perguntas": [
+    {
+     "enunciado": "Diante desse quadro, identifique a principal hipótese diagnóstica a ser investigada:",
+     "alternativas": {
+      "a": "Síndrome de Turner.",
+      "b": "Deficiência de hormônio do crescimento (GH).",
+      "c": "Doença celíaca.",
+      "d": "Hipotireoidismo."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A pista decisiva é a associação entre desaceleração acentuada da velocidade de crescimento — menos de 4 cm por ano em escolar, quando o esperado nessa faixa é de 5 a 7 cm por ano — e sinais clínicos de hipofunção tireoidiana: pele seca, fácies apática e bradicardia com 60 bpm em uma criança de 10 anos. A idade óssea muito atrasada, três anos abaixo da cronológica, indica maturação esquelética retardada, característica das causas endócrinas de baixa estatura, e traz a boa notícia do potencial de recuperação. A doença celíaca é diferencial importante e também produz baixa estatura, mas costuma acompanhar-se de sintomas gastrointestinais, distensão abdominal, anemia ferropriva refratária ou irritabilidade, e não explica pele seca com bradicardia. A síndrome de Turner deve ser lembrada em toda menina com baixa estatura e é a causa que a banca frequentemente cobra, porém cursa com estigmas — pescoço alado, tórax em escudo, cúbito valgo, implantação baixa dos cabelos — e a idade óssea costuma estar apenas discretamente atrasada; o enunciado afasta explicitamente dismorfismos. A deficiência de hormônio do crescimento também atrasa a idade óssea, mas não produz pele seca, apatia e bradicardia, e é diagnóstico de exclusão que só se investiga depois de afastar hipotireoidismo, doença celíaca e outras doenças crônicas.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Identifique o principal mecanismo responsável pela baixa estatura da paciente:",
+     "alternativas": {
+      "a": "Hipercatabolismo e aumento da velocidade de crescimento.",
+      "b": "Redução do metabolismo celular e da maturação óssea.",
+      "c": "Aumento da secreção de GH e IGF-1.",
+      "d": "Deficiência de testosterona e estrogênio."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Os hormônios tireoidianos são permissivos para o crescimento linear em vários níveis. Na placa de crescimento, a triiodotironina age diretamente sobre os condrócitos, promovendo a transição da zona proliferativa para a hipertrófica e a subsequente ossificação endocondral; sem ela, a maturação da cartilagem estanca e a idade óssea se atrasa. Sistemicamente, esses hormônios elevam a taxa metabólica basal e a síntese proteica, e ainda modulam o eixo somatotrófico, estimulando a secreção de hormônio do crescimento e a geração hepática de IGF-1 — de modo que a hipofunção tireoidiana produz uma resistência funcional ao próprio eixo de crescimento. O somatório dessas ações explica por que a criança cresce pouco apesar de nutrição adequada, e por que a reposição costuma deflagrar um crescimento de recuperação vigoroso. A alternativa que fala em aumento de hormônio do crescimento e IGF-1 descreve o oposto do que ocorre, e cursaria com aceleração do crescimento, como no gigantismo. A deficiência de esteroides sexuais afeta o estirão puberal e a fusão epifisária, não a fase pré-puberal aqui em curso, e produziria atraso puberal, sem os sinais metabólicos descritos. Hipercatabolismo com aumento da velocidade de crescimento é internamente contraditório e corresponde ao tireotóxico, que cresce depressa e antecipa a idade óssea.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica de escolha para a paciente:",
+     "alternativas": {
+      "a": "Reposição de levotiroxina, com acompanhamento clínico e laboratorial.",
+      "b": "Uso de esteroides anabolizantes e dieta hipercalórica.",
+      "c": "Suplementação de vitamina D e cálcio.",
+      "d": "Administração de hormônio do crescimento recombinante."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O tratamento é a reposição com levotiroxina por via oral, em jejum, com dose ajustada por peso e idade — nesta faixa etária, algo em torno de 3 a 4 microgramas por quilo por dia, bem abaixo dos 10 a 15 microgramas por quilo do recém-nascido —, com titulação guiada por TSH e T4 livre a cada 4 a 6 semanas até a normalização e, depois, a cada 6 a 12 meses, acompanhando também velocidade de crescimento e maturação óssea. Antes de iniciar, confirmar o diagnóstico com TSH e T4 livre e definir a etiologia; na faixa escolar, a causa mais frequente é a tireoidite crônica autoimune de Hashimoto, identificada pelos anticorpos antitireoperoxidase e antitireoglobulina. Dois alertas relevantes: a reposição pode desencadear crescimento de recuperação intenso com avanço rápido da idade óssea, e há relatos de pseudotumor cerebral e de piora transitória do desempenho escolar quando a correção é muito abrupta em hipotireoidismos de longa data. Hormônio do crescimento recombinante não tem indicação enquanto houver hipofunção tireoidiana não tratada, e sua eficácia depende de eutireoidismo. Esteroides anabolizantes aceleram a fusão das epífises e comprometem a estatura final, além de virilizarem. Vitamina D e cálcio tratam raquitismo carencial, que cursaria com deformidades ósseas, alargamento de punhos e fosfatase alcalina elevada — quadro distinto.\n📚 Leitura sugerida (bloco): videoaula de Endocrinologia pediátrica — hipotireoidismo, baixa estatura e puberdade (R+ Pediatria MEDGRUPO) — https://drive.google.com/file/d/1DfkaSxC7e73geDJxpMCfbVbx-VX53efB/view",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Junção Neuromuscular (forma ocular pura)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 32 anos de idade, professora, procura o ambulatório por queda da pálpebra direita e visão dupla intermitentes, há 4 meses. Refere que os sintomas praticamente não existem ao acordar, surgem no fim da tarde e pioram muito quando corrige provas por tempo prolongado; melhoram após alguns minutos de repouso com os olhos fechados. Nega dor ocular, cefaleia, disfagia, disartria, fraqueza em membros ou dispneia. Ao exame: ptose à direita que se acentua após 60 segundos de olhar sustentado para cima, diplopia binocular em várias direções do olhar, pupilas isocóricas e fotorreagentes, sem proptose. Força e reflexos normais nos quatro membros, sensibilidade preservada, sem alteração de pares cranianos baixos. A aplicação de compressa gelada sobre a pálpebra por 2 minutos reduziu visivelmente a ptose.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Ptose senil por desinserção da aponeurose.",
+      "b": "Paralisia do III nervo craniano por aneurisma.",
+      "c": "Oftalmopatia de Graves.",
+      "d": "Miastenia gravis ocular."
+     },
+     "correta": "d",
+     "comentario": "Três elementos compõem o quadro clássico: fatigabilidade (sintomas ausentes ao acordar, presentes ao fim do dia e desencadeados pelo uso prolongado), melhora com repouso e comprometimento oculomotor variável, sem envolvimento pupilar. A poupança pupilar é decisiva: na junção neuromuscular estão os receptores nicotínicos da musculatura esquelética, ao passo que a inervação pupilar é autonômica, com receptores muscarínicos — daí a regra prática de que a doença nunca altera a pupila. O teste do gelo positivo, com redução da ptose após resfriamento, tem sensibilidade em torno de 80-90% na forma ocular e apoia o diagnóstico à beira do leito, pois o frio inibe a acetilcolinesterase e prolonga a ação da acetilcolina na fenda. A paralisia do III nervo por aneurisma de comunicante posterior é emergência, mas cursa com dor, instalação súbita, ptose fixa e, caracteristicamente, MIDRÍASE — a pupila normal aqui a torna improvável. A oftalmopatia de Graves produz proptose, retração palpebral (o oposto de ptose), sinal de lid lag e restrição da motilidade por miopatia restritiva, com sintomas persistentes e não flutuantes. A ptose por desinserção aponeurótica é indolor e estável ao longo do dia, típica de idosos e usuários crônicos de lente de contato, e não causa diplopia.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o exame de maior sensibilidade para confirmar o diagnóstico caso a sorologia inicial resulte negativa:",
+     "alternativas": {
+      "a": "Ressonância magnética de órbitas com contraste.",
+      "b": "Estimulação nervosa repetitiva de nervo ulnar.",
+      "c": "Eletromiografia de fibra única.",
+      "d": "Potencial evocado visual."
+     },
+     "correta": "c",
+     "comentario": "A investigação inicial é sorológica: anticorpo antirreceptor de acetilcolina, positivo em cerca de 85% das formas generalizadas, mas em apenas 45-60% das formas puramente oculares — motivo pelo qual a soronegatividade é comum justamente neste cenário. Quando a sorologia é negativa, o exame de maior sensibilidade é a eletromiografia de fibra única, que atinge 90-95% de sensibilidade na forma ocular quando realizada em músculo frontal ou orbicular do olho, ao demonstrar aumento do jitter e bloqueios de transmissão. A estimulação nervosa repetitiva é mais disponível e específica, mas pouco sensível: na forma ocular, o decremento maior que 10% em nervos de membros é encontrado em menos de 30% dos casos, porque o músculo testado sequer é o sintomático — testar ulnar ou acessório em paciente com sintoma exclusivamente ocular é a armadilha da questão. Vale lembrar a pesquisa de anticorpo anti-MuSK (mais associado a fraqueza bulbar e cervical) e anti-LRP4 nos soronegativos. A ressonância de órbitas é útil para excluir lesão compressiva ou processo orbitário, mas é normal na doença da junção. O potencial evocado visual avalia a via óptica e teria papel em neurite óptica, não em distúrbio da motricidade extrínseca.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta complementar obrigatória após a confirmação diagnóstica:",
+     "alternativas": {
+      "a": "Punção lombar para estudo do líquor.",
+      "b": "Biópsia muscular de deltoide.",
+      "c": "Tomografia computadorizada de tórax.",
+      "d": "Cintilografia de perfusão miocárdica."
+     },
+     "correta": "c",
+     "comentario": "Todo paciente com diagnóstico confirmado deve ser submetido a imagem de mediastino — tomografia computadorizada de tórax, ou ressonância — para pesquisa de timoma, presente em cerca de 10-15% dos casos e cuja identificação muda a conduta, pois indica timectomia com finalidade oncológica em qualquer faixa etária. Em pacientes soropositivos com menos de 50-65 anos e doença generalizada, a timectomia também tem indicação terapêutica, sustentada pelo ensaio MGTX, que demonstrou menor escore clínico e menor necessidade de prednisona em três anos. Complementa-se a avaliação inicial com rastreio de tireoidopatia autoimune e de outras doenças autoimunes associadas, além de checagem de fármacos capazes de descompensar a transmissão neuromuscular — aminoglicosídeos, macrolídeos, fluoroquinolonas, betabloqueadores, magnésio parenteral e contraste iodado. O tratamento inicia-se com piridostigmina; corticoide em dose baixa e crescente é acrescentado nos casos oculares refratários e reduz a taxa de generalização, que ocorre em cerca de metade dos pacientes, tipicamente nos dois primeiros anos. Punção lombar não tem papel diagnóstico. Biópsia muscular investiga miopatias inflamatórias ou distrofias, com histologia normal aqui. Cintilografia miocárdica não guarda relação com o quadro.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 110 — Miastenia Grave Adquirida (e cap. 111 para as síndromes miastênicas congênitas e de Lambert-Eaton).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição (anemia carencial do lactente) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, 9 meses de idade, foi trazida à UBS por sua mãe, pois tem observado cansaço, fraqueza e palidez na pele, nas últimas semanas. Além disso, está irritadiça e com apetite reduzido. Sua mãe também percebeu que a bebê parece estar crescendo mais lentamente do que o esperado para sua idade. Relata que a introdução de alimentos sólidos na dieta da criança tem sido difícil. Foi exclusivamente amamentada até os 6 meses, no entanto houve dificuldade em introduzir alimentos sólidos depois disso, continuando a priorizar o leite materno. Ao exame, a criança está em regular estado geral, com peso e altura logo abaixo da linha do percentil 50 nos dois parâmetros. Apresenta desenvolvimento neuropsicomotor compatível com a idade, embora pouco ativa aos estímulos. Há palidez cutâneo-mucosa. Após avaliação clínico-laboratorial, foi confirmada a suspeita de anemia ferropriva.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a causa mais provável da anemia, nessa criança:",
+     "alternativas": {
+      "a": "Inadequação alimentar.",
+      "b": "Deficiência enzimática.",
+      "c": "Hipovitaminose.",
+      "d": "Distúrbio da lactação."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A explicação está na fisiologia das reservas de ferro. O recém-nascido a termo nasce com estoque suficiente para cerca de 4 a 6 meses; a partir daí, a demanda imposta pelo crescimento rápido só é atendida pela alimentação complementar. O leite materno tem baixa concentração de ferro — em torno de 0,3 a 0,4 mg por litro — embora com biodisponibilidade elevada, de aproximadamente 50%, graças à lactoferrina; ainda assim, sozinho, não cobre a necessidade após o sexto mês. Esta lactente permaneceu priorizando o leite materno e não recebeu carne, vísceras, feijão e demais fontes, configurando exatamente a inadequação alimentar apontada no gabarito, causa mais frequente de anemia ferropriva na faixa de 6 a 24 meses no Brasil. Hipovitaminose é termo genérico e não explica anemia microcítica com esse contexto; a deficiência de vitamina B12 ou folato causaria anemia MACROcítica e ocorreria em lactente de mãe vegetariana estrita não suplementada. Distúrbio da lactação não é uma entidade que produza anemia ferropriva, e o enunciado indica que a amamentação transcorreu adequadamente. Deficiência enzimática, como a de glicose-6-fosfato desidrogenase ou a de piruvato quinase, causa anemia hemolítica, com icterícia, reticulocitose e por vezes esplenomegalia — quadro distinto do descrito, que é insidioso e carencial.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Identifique os resultados de exames mais importantes para confirmar a suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Contagem de eritrócitos reduzida e ferro sérico baixo.",
+      "b": "Hemoglobina baixa e níveis reduzidos de ferro sérico.",
+      "c": "Hemoglobina baixa e hematócrito baixo.",
+      "d": "Volume globular médio e contagem de eritrócitos reduzidos."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A questão exige separar o que DEFINE anemia do que define a sua ETIOLOGIA. Hemoglobina baixa — abaixo de 11 g/dL para crianças de 6 a 59 meses, conforme a Organização Mundial da Saúde — estabelece a anemia; o ferro sérico reduzido aponta a carência marcial como causa. Por isso o par escolhido pela banca reúne uma variável de cada eixo. Hemoglobina e hematócrito baixos, na alternativa incorreta, são redundantes: ambos apenas confirmam anemia, sem dizer o porquê. Contagem de eritrócitos reduzida com ferro baixo é opção inferior porque o número de hemácias é parâmetro pouco sensível na ferropenia, que classicamente cursa com hemácias pequenas e pálidas e contagem por vezes preservada ou até elevada. Volume globular médio e contagem de eritrócitos reduzidos deixam de fora qualquer marcador de ferro. Na prática, o exame de maior acurácia é a FERRITINA, que reflete os estoques e se altera primeiro na sequência da depleção — reservas caem, depois cai o ferro sérico com aumento da capacidade total de ligação e queda da saturação de transferrina, e só ao final cai a hemoglobina. Atenção à armadilha: ferritina é proteína de fase aguda e pode estar falsamente normal ou elevada na vigência de infecção ou inflamação, cenário em que a proteína C reativa e o receptor solúvel de transferrina ajudam. No hemograma, esperam-se microcitose, hipocromia e RDW elevado.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada nessa situação:",
+     "alternativas": {
+      "a": "Manter aleitamento materno como principal alimento e introduzir suplemento de ferro.",
+      "b": "Suspender o leite materno e introduzir fórmula e alimentos sólidos ricos em ferro.",
+      "c": "Suspender o leite materno e introduzir fórmula com cereais e alimentos ricos em ferro.",
+      "d": "Manter aleitamento materno, orientar introdução de alimentos variados e suplementar ferro."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A conduta correta reúne as três frentes necessárias e não abre mão de nenhuma: manter o aleitamento materno, que segue recomendado até os 2 anos ou mais; corrigir a causa, orientando alimentação complementar adequada e variada, com carnes, vísceras, leguminosas e vegetais verde-escuros, acompanhados de fonte de vitamina C para aumentar a absorção do ferro não heme; e tratar a anemia já instalada com sulfato ferroso em dose TERAPÊUTICA, de 3 a 5 mg de ferro elementar por quilo por dia, mantido por 3 a 6 meses — o suficiente para normalizar a hemoglobina e ainda repor os estoques, pois interromper assim que a hemoglobina normaliza é erro clássico que leva à recidiva. A alternativa que mantém o leite materno como principal alimento e apenas suplementa ferro falha justamente no ponto central: não corrige a inadequação alimentar, que é a causa. As duas alternativas que suspendem o leite materno estão erradas por princípio, pois a amamentação não causou a anemia e sua interrupção retiraria proteção imunológica e vínculo. Orientações complementares: evitar leite de vaca antes de 1 ano, não oferecer leite ou chá junto às refeições principais, já que cálcio, fitatos e taninos inibem a absorção, e reavaliar a hemoglobina em 30 a 60 dias, esperando elevação de pelo menos 1 g/dL. Lembrar da profilaxia universal com ferro preconizada pelo Ministério da Saúde e pela Sociedade Brasileira de Pediatria a partir dos 3 aos 6 meses, conforme o caso.\n📚 Leitura sugerida (bloco): Nutrição em Pediatria na Prática Clínica (Sarni, 2021), capítulos de anemia ferropriva e alimentação complementar — https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Medula, Cauda Equina e Dor Lombar (coleção purulenta do espaço epidural)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 57 anos de idade, diabético em uso irregular de metformina, chega ao pronto-socorro com dor lombar intensa e progressiva há 9 dias, que agora o impede de deitar-se e o desperta à noite. Há 4 dias notou dificuldade para subir escadas e, nas últimas 12 horas, passou a apresentar urgência urinária seguida de retenção, com globo vesical palpável. Fez tratamento de furúnculo em coxa direita há 3 semanas, com drenagem ambulatorial e sem antibiótico. Ao exame: temperatura axilar 38,4 °C, dor exuberante à percussão dos processos espinhosos de T11 a L1, paraparesia grau III proximal e distal, hiper-reflexia patelar e aquileia bilateral, nível sensitivo tátil e térmico em T12. Exames: leucócitos 18.900/mm³ com desvio à esquerda, proteína C reativa 220 mg/L, velocidade de hemossedimentação 96 mm/h, glicemia 288 mg/dL.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Espondilodiscite tuberculosa crônica.",
+      "b": "Mielite transversa idiopática.",
+      "c": "Hérnia discal lombar extrusa.",
+      "d": "Abscesso epidural espinhal."
+     },
+     "correta": "d",
+     "comentario": "A tríade clássica é dor raquidiana localizada, febre e déficit neurológico, e este paciente apresenta as três, na sequência temporal esperada: dor axial intensa, depois radiculopatia ou paresia, depois disfunção esfincteriana e paralisia. Somem-se os fatores de risco: diabetes descompensado, o mais frequente de todos, e uma porta de entrada cutânea recente tratada sem antibiótico — o agente é Staphylococcus aureus em cerca de dois terços dos casos, por disseminação hematogênica. Os marcadores inflamatórios muito elevados, sobretudo velocidade de hemossedimentação acima de 90 mm/h, reforçam a suspeita: a proteína C reativa e a hemossedimentação são as ferramentas de triagem mais sensíveis quando a suspeita existe. A hérnia discal extrusa pode causar dor e até síndrome de cauda equina, mas não produz febre, leucocitose com desvio nem elevação tão intensa dos marcadores inflamatórios; além disso, a compressão de cauda equina daria arreflexia e paraparesia FLÁCIDA, e não a hiper-reflexia com nível sensitivo aqui descrita, que localiza a lesão acima do cone medular. A espondilodiscite tuberculosa (mal de Pott) tem curso arrastado de semanas a meses, com emagrecimento, sudorese noturna e frequentemente gibosidade — o quadro de 9 dias com quadro toxêmico não combina. A mielite transversa idiopática é afebril, com marcadores inflamatórios sistêmicos normais e dor axial muito menos protagonista.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame de escolha para confirmar o diagnóstico:",
+     "alternativas": {
+      "a": "Ressonância magnética de coluna com gadolínio.",
+      "b": "Tomografia computadorizada de coluna sem contraste.",
+      "c": "Cintilografia óssea trifásica.",
+      "d": "Radiografia simples de coluna dorsolombar."
+     },
+     "correta": "a",
+     "comentario": "A ressonância magnética com contraste paramagnético é o exame de escolha, com sensibilidade superior a 90%: delimita a extensão da coleção no espaço epidural, distingue flegmão de coleção francamente purulenta pelo padrão de realce (periférico em anel na coleção organizada, homogêneo no flegmão), avalia a compressão medular e detecta espondilodiscite e abscesso de psoas associados. Um ponto operacional decisivo é solicitar o estudo de TODA a coluna, e não apenas do segmento sintomático, porque lesões salteadas em outro nível ocorrem em cerca de 10-15% dos casos e mudam a estratégia cirúrgica. A tomografia sem contraste avalia bem o osso, mas é insuficiente para caracterizar coleção epidural e compressão do saco dural; a mielotomografia só se justifica quando a ressonância é contraindicada, como em portadores de dispositivos incompatíveis. A radiografia simples é normal nas primeiras duas a três semanas, pois a erosão de placa terminal só aparece quando já há perda óssea significativa, e um exame normal transmite falsa segurança — armadilha frequente. A cintilografia é sensível, mas inespecífica e demorada, sem definição anatômica para planejamento cirúrgico. Antes de iniciar antibiótico, colher no mínimo duas hemoculturas, positivas em cerca de 60% dos casos.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada neste momento:",
+     "alternativas": {
+      "a": "Descompressão cirúrgica de urgência com antibioticoterapia endovenosa.",
+      "b": "Imobilização com colete e analgesia multimodal isoladas.",
+      "c": "Antibiótico oral ambulatorial e reavaliação em 48 horas.",
+      "d": "Corticoterapia em altas doses e observação clínica."
+     },
+     "correta": "a",
+     "comentario": "Diante de déficit neurológico instalado e progressivo — paraparesia com nível sensitivo e retenção urinária —, a conduta é drenagem cirúrgica de urgência (laminectomia descompressiva com desbridamento) associada a antibioticoterapia endovenosa empírica que cubra Staphylococcus aureus resistente à meticilina, habitualmente vancomicina combinada a uma cefalosporina de terceira ou quarta geração, ajustada depois pelas culturas e mantida por 6 a 8 semanas. O determinante prognóstico mais importante é o TEMPO entre a instalação do déficit e a descompressão: pacientes operados nas primeiras 24 a 36 horas têm chance substancialmente maior de recuperação, ao passo que paraplegia estabelecida por mais de 48 horas costuma ser irreversível. Tratamento clínico isolado só se considera em pacientes SEM déficit neurológico, com agente identificado e possibilidade de monitorização rigorosa — não é o caso. Antibiótico oral ambulatorial é inaceitável em quadro toxêmico com compressão medular. Corticoide não faz parte do tratamento e agrava a infecção e o descontrole glicêmico, ao contrário do que ocorre na compressão medular neoplásica, comparação que a banca gosta de explorar. Imobilização e analgesia são medidas de suporte que jamais substituem a descompressão. Completar com controle glicêmico intensivo e pesquisa de focos secundários, incluindo ecocardiograma para endocardite.\n📚 Leitura sugerida (bloco): Merritt, Tratado de Neurologia (13ª ed.), Seção 15 — Doenças da Medula Espinal; complementar com Adams & Victor, Principles of Neurology (12ª ed.), capítulo sobre doenças da medula espinal.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Puericultura na Atenção Primária (avaliação do desenvolvimento e calendário vacinal) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, 80 dias de vida, nascida de parto natural, sem intercorrências, em comunidade rural, é levada para a UBS pela primeira vez. É a segunda filha. Está em aleitamento materno exclusivo, mamando religiosamente a cada 4 horas. Há queixa de choro frequente e dejeções a cada mamada. Ao exame, peso: 4.500 g; comprimento: 58,5 cm; perímetro cefálico: 39 cm. Sorri a estímulos; marcha reflexa ausente; quando deitada, ao ser puxada para a posição sentada a cabeça pende. Exame segmentar não mostra alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o significado dos achados quanto ao desenvolvimento neuropsicomotor, nessa criança:",
+     "alternativas": {
+      "a": "Atraso no desenvolvimento.",
+      "b": "Presença de reflexos patológicos.",
+      "c": "Falta de estímulo neurossensorial.",
+      "d": "Desenvolvimento normal para a idade."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A questão testa dois conhecimentos ao mesmo tempo: os marcos esperados aos 80 dias, ou seja, cerca de 2 meses e meio, e o cronograma de desaparecimento dos reflexos primitivos. O sorriso social já é esperado e está presente — é o marco positivo da faixa. A marcha reflexa, ou reflexo de deambulação automática, está fisiologicamente AUSENTE nessa idade, pois desaparece por volta de 4 a 8 semanas de vida; sua persistência é que seria anormal, e a banca inverte a expectativa do candidato desatento. O head lag, isto é, a cabeça que pende ao tracionar a criança para sentar, é esperado até cerca de 3 a 4 meses, quando o controle cervical se completa — aos 80 dias não configura atraso algum. Não há, portanto, nenhum reflexo patológico descrito: reflexo patológico seria a persistência de primitivos além do prazo, assimetria de reflexos ou hipertonia com sinais piramidais. Também não há elementos para falar em privação de estímulo, e o crescimento é adequado. Pérola prática: no acompanhamento do desenvolvimento pela Caderneta da Criança, o que orienta a conduta é a presença dos marcos esperados para a faixa e a busca ativa de sinais de alerta, evitando tanto o rótulo precipitado de atraso quanto a falsa tranquilização.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Quanto aos sintomas relacionados à alimentação, indique a orientação adequada:",
+     "alternativas": {
+      "a": "Informar sobre as dejeções da bebê, orientar a dieta materna e oferecer mamadas a cada 3 horas.",
+      "b": "Inserir alimentos obstipantes na dieta materna e oferecer mamadas a cada 3 horas.",
+      "c": "Informar sobre as dejeções da bebê; orientar a dieta materna e oferecer mamadas em livre demanda.",
+      "d": "Retirar alimentos laxantes da dieta materna e oferecer mamadas em livre demanda."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Duas mensagens estruturam a resposta. A primeira é que evacuar a cada mamada, com fezes amolecidas e amareladas, é o padrão NORMAL do lactente em aleitamento materno exclusivo, e decorre do reflexo gastrocólico exuberante e do efeito osmótico da lactose; a conduta é informar e tranquilizar a mãe, sem qualquer intervenção dietética restritiva. A segunda é que a amamentação deve ser em LIVRE DEMANDA, e não em horários rígidos — o intervalo fixo de 4 horas relatado pela mãe é justamente o comportamento a ser corrigido, pois reduz o número de mamadas, compromete o esvaziamento da mama, diminui a oferta do leite posterior, mais calórico, e é causa frequente de choro por fome e de baixo ganho ponderal. O ganho de peso desta criança, aliás, está no limite inferior do adequado, o que reforça a orientação. As alternativas que propõem manter mamadas de 3 em 3 horas mantêm o mesmo erro conceitual do horário rígido. Excluir alimentos da dieta materna sem indicação — a menos que haja suspeita fundamentada de alergia à proteína do leite de vaca, com sangue nas fezes, dermatite ou desaceleração ponderal — é prática difundida e sem respaldo, que empobrece a nutrição da nutriz e pode levar ao desmame precoce. Manter o aleitamento exclusivo até os 6 meses e complementado até 2 anos ou mais é a recomendação do Ministério da Saúde e da Sociedade Brasileira de Pediatria.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique as vacinas que devem ser administradas, nesse momento, de acordo com o Programa Nacional de Imunizações:",
+     "alternativas": {
+      "a": "BCG, anti-Rotavírus, Pentavalente e anti-Polio (VIP).",
+      "b": "BCG, anti-Hepatite B e anti-Rotavírus.",
+      "c": "BCG, anti-Hepatite B, anti-Rotavírus, Pentavalente e anti-Polio (VIP).",
+      "d": "BCG, anti-Rotavírus, Pentavalente, anti-Polio (VIP) e anti-pneumocócica."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Trata-se de vacinação de resgate em criança de 80 dias que nunca compareceu à unidade. Como está atrasada, aplica-se de imediato tudo o que estaria previsto até essa idade. A BCG é dose única e pode ser feita até antes dos 5 anos em quem não a recebeu ao nascer. Aos 2 meses estão previstas pentavalente (difteria, tétano, coqueluche, Haemophilus influenzae tipo b e hepatite B), poliomielite inativada, pneumocócica 10-valente e rotavírus. O rotavírus é o item mais sensível do calendário: a primeira dose tem prazo máximo em 3 meses e 15 dias de vida, e a segunda até 7 meses e 29 dias — aos 80 dias ainda está dentro da janela, mas por pouco, o que torna a aplicação imediata mandatória. A pneumocócica é justamente o que diferencia a alternativa correta da mais próxima, e a sua omissão é o erro mais comum. A hepatite B isolada não precisa ser repetida separadamente porque já está contida na pentavalente, o que elimina as alternativas que a listam à parte. Pontos que a banca costuma explorar: a meningocócica C entra aos 3 meses, portanto ainda não neste momento; não há intervalo mínimo entre vacinas de antígenos diferentes, podendo todas ser aplicadas no mesmo dia em sítios distintos; e vacinas de vírus vivo não injetáveis, como o rotavírus, não têm restrição de intervalo entre si.\n📚 Leitura sugerida (bloco): videoaula de Imunização e calendário vacinal (R+ Pediatria MEDGRUPO) — https://drive.google.com/file/d/1haGRHKys0_ENxZ4Yp_gs7HJUNm8ES9RA/view ; conferir sempre a versão vigente do Calendário Nacional de Vacinação do Ministério da Saúde.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroinfecção (coleção supurativa subdural pós-sinusite)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Adolescente do sexo masculino, 17 anos de idade, previamente hígido, é levado ao pronto-socorro por cefaleia holocraniana intensa, febre de 39 °C e vômitos há 3 dias. Há duas semanas vinha em tratamento domiciliar de quadro de obstrução nasal, dor e edema em região frontal, com secreção purulenta, sem melhora. Nas últimas 8 horas apresentou uma crise tônico-clônica focal com generalização secundária, iniciada por versão cefálica e clonias em membro superior esquerdo, e permanece sonolento. Ao exame: Glasgow 13, rigidez de nuca, edema e dor à palpação da região frontal direita, hemiparesia esquerda grau IV, sem papiledema. Exames: leucócitos 22.400/mm³ com desvio à esquerda, proteína C reativa 260 mg/L.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Encefalite herpética.",
+      "b": "Trombose de seio cavernoso.",
+      "c": "Empiema subdural intracraniano.",
+      "d": "Meningite meningocócica."
+     },
+     "correta": "c",
+     "comentario": "A combinação de sinusite frontal mal tratada, febre alta, sinais meníngeos, crise epiléptica focal e déficit focal em adolescente do sexo masculino é o retrato da coleção purulenta entre a dura-máter e a aracnoide. A sinusite frontal é a origem em mais da metade dos casos nessa faixa etária, por tromboflebite retrógrada das veias emissárias ou por erosão da parede posterior do seio; quando a infecção também compromete o osso frontal, forma-se o edema subperiosteal que produz a chamada 'tumefação de Pott'. O ponto discriminante é a presença de sinais FOCAIS e de crise epiléptica — que ocorrem em cerca de metade a dois terços dos pacientes com empiema — enquanto a meningite bacteriana pura tipicamente produz síndrome meníngea difusa sem déficit lateralizado, e o rápido agravamento resulta da tromboflebite cortical e do efeito de massa em um espaço sem barreiras anatômicas, o que explica a disseminação veloz pela convexidade. A meningite meningocócica costuma ter início hiperagudo, exantema petequial ou purpúrico e não se explica pela sinusite arrastada. A trombose de seio cavernoso cursa com quemose, proptose, oftalmoplegia dolorosa e alteração do V1-V2, ausentes aqui. A encefalite herpética é subaguda, com febre, confusão, alterações comportamentais e de memória, afasia e crises, mas sem foco sinusal supurado nem leucocitose sistêmica dessa magnitude.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta diagnóstica inicial mais adequada:",
+     "alternativas": {
+      "a": "Ressonância magnética de encéfalo com contraste, antes de qualquer punção lombar.",
+      "b": "Eletroencefalograma prolongado à beira do leito.",
+      "c": "Radiografia de seios da face em incidências de Caldwell e Waters.",
+      "d": "Punção lombar imediata para estudo do líquor."
+     },
+     "correta": "a",
+     "comentario": "Diante de rebaixamento do nível de consciência, crise epiléptica focal e déficit neurológico focal, a neuroimagem precede obrigatoriamente a punção lombar — são exatamente as situações listadas nas diretrizes da Infectious Diseases Society of America e da European Society of Clinical Microbiology para tomografia prévia, dado o risco de herniação na presença de lesão com efeito de massa. A ressonância com contraste, com sequências de difusão, é o método de maior acurácia: mostra coleção em crescente ao longo da convexidade ou da foice, com realce da membrana e restrição à difusão que a diferencia de derrame subdural estéril e de higroma, além de detectar coleções pequenas e parafalcinas que a tomografia perde. Se a ressonância não estiver disponível de imediato, a tomografia com contraste é aceitável como triagem, mas com sensibilidade menor. Ponto crítico: no empiema, o líquor costuma ser inespecífico — pleocitose modesta, proteína elevada e cultura habitualmente NEGATIVA — de modo que a punção não confirma o diagnóstico e ainda expõe o paciente a risco. O eletroencefalograma tem papel posterior, na suspeita de estado de mal não convulsivo. A radiografia de seios da face foi superada pela tomografia e não avalia o compartimento intracraniano. Antibiótico empírico não deve ser retardado pela realização dos exames.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica definitiva mais adequada:",
+     "alternativas": {
+      "a": "Antibiótico endovenoso isolado por 21 dias.",
+      "b": "Drenagem neurocirúrgica associada a antibiótico endovenoso prolongado.",
+      "c": "Punções evacuadoras seriadas por via lombar.",
+      "d": "Corticoterapia isolada em altas doses até a resolução do edema."
+     },
+     "correta": "b",
+     "comentario": "O empiema subdural é uma emergência neurocirúrgica. O tratamento definitivo é o esvaziamento da coleção — craniotomia, que oferece melhor limpeza e menor taxa de reoperação, ou trepanações múltiplas nos pacientes muito instáveis — combinado à erradicação do foco sinusal, frequentemente no mesmo tempo cirúrgico com a otorrinolaringologia. O esquema antibiótico empírico deve cobrir estreptococos do grupo anginosus, estafilococos e anaeróbios: cefalosporina de terceira geração associada a metronidazol, acrescentando vancomicina quando há risco de estafilococo resistente à meticilina, com duração habitual de 4 a 6 semanas guiada pela cultura e pela imagem de controle. Anticonvulsivante profilático é recomendado pela alta incidência de crises. Antibiótico isolado reserva-se a coleções muito finas, sem efeito de massa e em paciente neurologicamente íntegro, com vigilância clínica e radiológica estreita — não se aplica a um paciente com Glasgow 13, hemiparesia e crise. Punção lombar evacuadora não drena o espaço subdural e é potencialmente fatal aqui. Corticoide isolado não trata a infecção; pode ser usado por curto período apenas como adjuvante do edema e do desvio de linha média, sempre sob antibiótico e após o controle cirúrgico do foco. Mesmo com tratamento adequado, a mortalidade permanece em torno de 10-15%, e sequelas neurológicas e epilepsia residual são frequentes.\n📚 Leitura sugerida (bloco): Merritt, Tratado de Neurologia (13ª ed.), Seção 9 — Infecções do Sistema Nervoso Central; complementar com Tratado de Neurologia da ABN (3ª ed., 2025), cap. 140 — Meningite Bacteriana Aguda.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia (icterícia persistente com hiperbilirrubinemia direta)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Lactente do sexo feminino, 7 semanas de vida, nascida a termo com peso adequado, é levada à consulta porque a icterícia iniciada na primeira semana nunca desapareceu. A mãe refere que, nas duas últimas semanas, as fezes ficaram progressivamente mais claras, quase brancas, e a urina escureceu, manchando a fralda. Está em aleitamento materno exclusivo, mama bem e ganhou 620 g no último mês. Ao exame: ictérica ++/4, ativa, fígado palpável a 3 cm do rebordo costal direito, de consistência levemente aumentada, baço não palpável; nota-se massa arredondada, pouco dolorosa, em hipocôndrio direito. Exames: bilirrubina total 9,4 mg/dL, bilirrubina direta 6,1 mg/dL, alanina aminotransferase 168 U/L, gama-glutamil transferase 420 U/L, tempo de protrombina normal.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a hipótese diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Icterícia do leite materno.",
+      "b": "Incompatibilidade Rh não tratada.",
+      "c": "Deficiência de glicose-6-fosfato desidrogenase.",
+      "d": "Cisto de colédoco."
+     },
+     "correta": "d",
+     "comentario": "O primeiro passo do raciocínio é reconhecer que se trata de COLESTASE: bilirrubina direta de 6,1 mg/dL, isto é, acima de 1 mg/dL e correspondendo a mais de 20% da total, com acolia fecal, colúria e elevação desproporcional da gama-glutamil transferase. Toda icterícia que persiste além de 14 dias de vida obriga a dosar bilirrubinas fracionadas — regra de ouro que a prova cobra com frequência e cujo descumprimento atrasa diagnósticos com janela terapêutica curta. Dentro das causas obstrutivas, a tríade clássica de icterícia, massa palpável em hipocôndrio direito e dor abdominal é descrita no cisto de colédoco, embora a tríade completa apareça em menos de 20% dos casos; a apresentação em lactentes costuma ser justamente colestase com massa palpável, predominando no sexo feminino, em proporção aproximada de 3 ou 4 para 1. A icterícia do leite materno é de padrão INDIRETO, com fezes e urina normais e criança hígida, e jamais cursa com acolia — confundir as duas é o erro mais grave possível nesse cenário, porque adia a investigação. A incompatibilidade Rh produz hemólise com hiperbilirrubinemia indireta nos primeiros dias, com anemia e Coombs positivo. A deficiência enzimática eritrocitária também gera hemólise com bilirrubina indireta, tipicamente desencadeada por infecção, naftalina ou fármacos oxidantes.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame inicial de escolha para a investigação desse quadro:",
+     "alternativas": {
+      "a": "Biópsia hepática percutânea.",
+      "b": "Tomografia computadorizada de abdome com contraste.",
+      "c": "Ultrassonografia abdominal.",
+      "d": "Cintilografia hepatobiliar com fenobarbital."
+     },
+     "correta": "c",
+     "comentario": "A ultrassonografia é o exame inicial obrigatório na colestase neonatal: não irradia, é disponível, e responde às perguntas que orientam a sequência da investigação. Ela identifica a dilatação cística da via biliar, define o tipo segundo a classificação de Todani — sendo o tipo I, a dilatação fusiforme ou sacular do colédoco, responsável por cerca de 80% dos casos —, avalia o parênquima hepático e a vesícula, e ainda procura os sinais que apontariam para o principal diferencial, a atresia de vias biliares: vesícula ausente ou diminuta após jejum, sinal do cordão triangular e ausência de dilatação de vias biliares. Recomenda-se realizar com jejum de 4 horas para adequada distensão vesicular. A colangiorressonância complementa a definição anatômica antes da cirurgia. A tomografia com contraste expõe a criança a radiação ionizante e a contraste iodado sem ganho diagnóstico nesta etapa. A biópsia hepática tem papel quando a ultrassonografia não esclarece e persiste a dúvida com atresia biliar ou com hepatites neonatais, mas nunca é o primeiro exame. A cintilografia hepatobiliar tem baixa especificidade, exige preparo prévio de vários dias e vem perdendo espaço; um exame sem excreção intestinal não distingue obstrução de disfunção hepatocelular grave. Enquanto isso, colher também sorologias, triagem metabólica, alfa-1-antitripsina e função tireoidiana.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica definitiva para esta lactente:",
+     "alternativas": {
+      "a": "Observação clínica seriada até os 2 anos de idade.",
+      "b": "Ressecção cirúrgica completa com derivação bilioentérica.",
+      "c": "Drenagem percutânea guiada por imagem, com cateter de demora.",
+      "d": "Ácido ursodesoxicólico contínuo e reavaliação anual."
+     },
+     "correta": "b",
+     "comentario": "O tratamento é cirúrgico e consiste na EXCISÃO COMPLETA do cisto com reconstrução do trânsito biliar, habitualmente por hepaticojejunostomia em Y de Roux. A ressecção total é imperativa porque o epitélio biliar remanescente mantém risco de colangiocarcinoma: o risco na população acometida é muito superior ao da população geral, sobe com a idade ao diagnóstico e não é eliminado por procedimentos de simples drenagem interna, motivo pelo qual a antiga cistoenterostomia sem excisão foi abandonada. Além da malignização, a história natural inclui colangite de repetição, pancreatite, litíase, ruptura e cirrose biliar secundária. A fisiopatologia mais aceita é a junção pancreatobiliar anômala, com canal comum longo que permite refluxo de suco pancreático para a via biliar, gerando inflamação crônica e dilatação. Observar até os 2 anos deixa a criança exposta a todas essas complicações e a um risco oncológico crescente. Drenagem percutânea com cateter de demora é medida temporária, aplicável apenas a quadros infecciosos graves com paciente instável, e não trata a lesão. Ácido ursodesoxicólico melhora o fluxo biliar e é adjuvante em colestases, mas não resolve obstrução anatômica. Sempre lembrar da suplementação das vitaminas lipossolúveis A, D, E e K e do uso de fórmula com triglicerídeos de cadeia média enquanto persistir a colestase.\n📚 Leitura sugerida (bloco): videoaula de Gastroenterologia pediátrica (R+ Pediatria MEDGRUPO) — https://drive.google.com/file/d/1rIrgkiZ_nqlMcMBeZ6RLspQk90rW_S3w/view ; complementar com o documento científico da Sociedade Brasileira de Pediatria sobre colestase neonatal (investigação da icterícia além de 14 dias).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropediatria específica (síndrome neurocutânea com manchas hipercrômicas)",
+   "tier": "MÉDIO",
+   "vinheta": "Menino, 7 anos de idade, é encaminhado do ambulatório de pediatria por dificuldade escolar e manchas na pele presentes desde os primeiros anos de vida. A mãe, de 34 anos, tem manchas semelhantes e nódulos cutâneos móveis no tronco. Ao exame: oito máculas acastanhadas de bordos regulares, medindo entre 8 e 20 mm, no tronco e nos membros; efélides em regiões axilares e inguinais; perímetro cefálico no percentil 97; estatura no percentil 15. Exame neurológico sem déficit motor ou sensitivo; avaliação pedagógica mostra dificuldade específica em leitura e atenção, com quociente intelectual dentro da normalidade. A avaliação oftalmológica com lâmpada de fenda identificou pequenos nódulos pigmentados na íris, bilateralmente. Acuidade visual e fundo de olho normais.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Síndrome de Legius.",
+      "b": "Neurofibromatose tipo 1.",
+      "c": "Complexo esclerose tuberosa.",
+      "d": "Síndrome de McCune-Albright."
+     },
+     "correta": "b",
+     "comentario": "O paciente preenche com folga os critérios diagnósticos: seis ou mais máculas café com leite maiores que 5 mm em pré-púberes (ele tem oito, de 8 a 20 mm), efélides em regiões de dobra — o sinal de Crowe —, dois ou mais nódulos de Lisch, que são hamartomas melanocíticos da íris visíveis apenas à lâmpada de fenda, e um parente de primeiro grau afetado. Bastam dois critérios; ele tem quatro. Macrocefalia, estatura abaixo da média e transtornos específicos de aprendizagem com quociente intelectual normal são parte do fenótipo, presentes em cerca de metade das crianças, e frequentemente a queixa que leva ao diagnóstico. A doença decorre de variantes patogênicas no gene NF1, no cromossomo 17q11.2, que codifica a neurofibromina, uma proteína ativadora de GTPase que regula negativamente a via RAS — sua perda libera a proliferação celular. A herança é autossômica dominante com penetrância praticamente completa e cerca de metade dos casos surge por mutação nova. O complexo esclerose tuberosa cursa com máculas HIPOcrômicas em folha de freixo, angiofibromas faciais, placa de Shagreen e epilepsia de início precoce. A síndrome de McCune-Albright associa mancha café com leite de bordos irregulares, displasia fibrosa poliostótica e puberdade precoce. A síndrome de Legius, por mutação em SPRED1, imita as manchas e as efélides, mas NÃO tem nódulos de Lisch nem neurofibromas — é o principal diferencial e a pegadinha do caso.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame de rastreio anual mais importante nesta faixa etária:",
+     "alternativas": {
+      "a": "Tomografia computadorizada de crânio anual.",
+      "b": "Avaliação oftalmológica anual.",
+      "c": "Ressonância magnética de encéfalo anual de rotina.",
+      "d": "Eletroencefalograma anual de vigília e sono."
+     },
+     "correta": "b",
+     "comentario": "O seguimento é essencialmente clínico e anual, com atenção a quatro eixos: avaliação oftalmológica completa, medida da pressão arterial, avaliação do crescimento e da puberdade, e exame da coluna e do neurodesenvolvimento. A avaliação oftalmológica anual até por volta dos 8 a 10 anos é a de maior rendimento porque o glioma de via óptica — o tumor mais frequente da doença, presente em cerca de 15% das crianças — costuma manifestar-se antes dos 6 anos e pode ser detectado por queda de acuidade, discromatopsia, defeito pupilar aferente ou proptose antes de qualquer sintoma referido pela criança. A ressonância NÃO é indicada como rastreio de rotina em pacientes assintomáticos: reserva-se aos que apresentam alteração no exame oftalmológico, sinais neurológicos focais, crises, cefaleia progressiva, macrocrania de progressão rápida ou puberdade precoce, que pode sinalizar comprometimento quiasmático-hipotalâmico. A tomografia é ainda menos apropriada: baixo rendimento para lesões de via óptica e irradiação cumulativa em uma população com predisposição tumoral geneticamente determinada — erro grave. O eletroencefalograma só se justifica diante de eventos paroxísticos suspeitos, já que epilepsia ocorre em apenas 4-7% dos casos. Aferir a pressão arterial é obrigatório pelo risco de estenose de artéria renal e de feocromocitoma.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a orientação mais adequada a ser dada à família quanto ao prognóstico e ao acompanhamento:",
+     "alternativas": {
+      "a": "Indicação de exérese profilática de todas as lesões cutâneas antes da puberdade.",
+      "b": "Alta definitiva do serviço, sem necessidade de seguimento.",
+      "c": "Acompanhamento multidisciplinar contínuo e aconselhamento genético, com risco de 50% para cada gestação.",
+      "d": "Restrição escolar e encaminhamento a ensino especial substitutivo."
+     },
+     "correta": "c",
+     "comentario": "A herança é autossômica dominante: com um genitor afetado, o risco de recorrência é de 50% a cada gestação, independentemente do sexo, e a expressividade é muito variável dentro da mesma família — dois irmãos com a mesma variante podem ter gravidades bem diferentes, o que precisa ser explicitado no aconselhamento. O seguimento é vitalício e multidisciplinar (neurologia, oftalmologia, dermatologia, ortopedia, genética e apoio psicopedagógico). Sinais de alarme a ensinar à família: dor persistente ou noturna em um neurofibroma plexiforme, crescimento rápido de uma lesão ou surgimento de déficit neurológico, que sugerem transformação em tumor maligno da bainha de nervo periférico, complicação que ocorre em 8-13% ao longo da vida. Escoliose, hipertensão arterial, pseudoartrose da tíbia e puberdade precoce completam a lista de vigilância. As máculas não desaparecem — ao contrário, tendem a aumentar em número e tamanho, e os neurofibromas cutâneos surgem e proliferam na puberdade e na gestação, sob influência hormonal. A exérese profilática indiscriminada é inviável e desnecessária: opera-se o que dói, o que compromete função ou o que gera prejuízo estético relevante. A dificuldade de aprendizagem exige adaptações e apoio pedagógico dentro da escola regular, com inclusão, e não ensino substitutivo; o quociente intelectual costuma ser normal, como neste paciente.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 180 — Síndromes Neurocutâneas; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 19 — Neurologia Pediátrica.",
+     "dificuldade": "moderada"
+    }
+   ]
+  }
+ ]
+}
