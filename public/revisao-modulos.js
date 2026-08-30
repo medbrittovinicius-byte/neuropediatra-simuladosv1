@@ -8667,3 +8667,682 @@ Conduta: **ultrassonografia** para confirmar derrame, **artrocentese** (líquido
    {"enunciado": "Adolescente de 14 anos, obeso, com PA de 138/86 mmHg em três consultas distintas, com técnica e manguito adequados. Assintomático, exame normal, pulsos femorais amplos e simétricos. Como classificar e qual a conduta inicial?", "alternativas": {"a": "Pressão elevada; apenas reavaliar em 6 meses", "b": "Hipertensão estágio 1; iniciar mudanças de estilo de vida e investigar lesão de órgão-alvo", "c": "Hipertensão estágio 2; iniciar anti-hipertensivo imediatamente", "d": "Sem alteração; valores normais para a idade"}, "correta": "b", "comentario": "A partir dos 13 anos, a classificação pediátrica abandona os percentis e passa a usar os pontos de corte de adulto — essa transição é o ponto exato que a questão testa. Assim, 138/86 mmHg em um adolescente de 14 anos configura hipertensão estágio 1 (130/80 a 139/89 mmHg), e o diagnóstico está confirmado porque houve elevação em três ocasiões distintas com técnica adequada, o que também descarta o efeito do avental branco e o erro de manguito (manguito pequeno superestima a pressão e é a causa número um de falso diagnóstico). A conduta correta é a da alternativa b: iniciar mudanças de estilo de vida (dieta tipo DASH, restrição de sódio, atividade física regular, perda ponderal, higiene do sono) e, ao mesmo tempo, investigar — urinálise, creatinina, eletrólitos, perfil lipídico, glicemia, ultrassonografia renal com Doppler e ecocardiograma para pesquisar hipertrofia ventricular esquerda, que é a lesão de órgão-alvo mais relevante nessa faixa e, se presente, indica tratamento medicamentoso. A alternativa a subclassifica: pressão elevada seria ≥ p90 e < p95 (ou 120/80 a 129/79 no adolescente), e o simples reagendamento em 6 meses perde a janela de prevenção. A alternativa c superclassifica: estágio 2 exigiria ≥ 140/90 nessa faixa etária; medicamento entra se houver sintomas, estágio 2, causa secundária, diabetes, doença renal crônica, lesão de órgão-alvo ou falha das medidas não farmacológicas — nenhum critério presente aqui de saída. A alternativa d simplesmente ignora os cortes vigentes. Duas regras para levar: em criança abaixo dos 13 anos a classificação é por percentil de idade, sexo e ESTATURA, e a estatura é a variável mais esquecida; e vale a regra de ouro pediátrica — quanto mais nova a criança e mais grave a hipertensão, maior a chance de causa secundária, sendo a doença do parênquima renal a mais comum em toda a infância e a coarctação a causa cardiológica que não se pode perder (por isso palpar femorais e medir a pressão nos quatro membros). Se fosse necessário medicamento, as primeiras linhas seriam IECA/BRA, bloqueador de canal de cálcio ou tiazídico — betabloqueador não é primeira escolha na criança.", "foco": "HAS pediátrica: transição dos percentis para os cortes de adulto aos 13 anos e conduta por estágio (lacuna do módulo)"}
   );
 })();
+/* ============================================================================
+   APROFUNDAMENTO 2026-08-30 — PED|Neurodesenvolvimento
+   Motivo: único par de módulos PED| ainda abaixo do padrão-ouro (1.8k palavras,
+   8 seções, 3 questões). Tema ESSENCIAL, presente nas provas reais analisadas.
+   Nada foi removido: apenas acréscimo de seções, flashcards, pegadinhas,
+   diretrizes e questões novas.
+   ========================================================================== */
+(function(){
+  var n = window.REVISAO_MODULOS["PED|Neurodesenvolvimento"];
+  if(!n) return;
+
+  n.secoes.push({
+    h: "9. Como o cérebro se monta — por que a palavra-chave é PRECOCE",
+    c: `Antes de decorar critérios, entenda o terreno. O cérebro do bebê não nasce pronto: ele nasce com um **excesso** de neurônios e, sobretudo, com um excesso gigantesco de **sinapses**. Entre o final da gestação e os 2-3 anos de vida acontece uma explosão de sinaptogênese — o córtex chega a ter cerca do **dobro** das sinapses de um adulto. Depois vem a fase oposta, a **poda sináptica** (pruning): as conexões que são usadas se fortalecem e se mielinizam; as que não são usadas são eliminadas.
+
+Pense em uma cidade sendo construída com estradas de terra ligando todos os pontos com todos. Com o tempo, as estradas por onde passam carros viram asfalto (mielinização) e as que ninguém usa somem no mato (poda). **O uso define a arquitetura final.** É por isso que existe uma **janela crítica**: a mesma estimulação que remodela profundamente um cérebro de 2 anos quase não move um cérebro de 12.
+
+Isso tem três consequências diretas para a prova:
+
+- **Intervenção precoce funciona** — não porque "cura" o transtorno, mas porque atua enquanto a arquitetura ainda está sendo esculpida. Por isso a conduta correta na suspeita de TEA é **iniciar a intervenção sem esperar o diagnóstico fechado**.
+- **Privação faz mal de verdade** — negligência grave, institucionalização precoce e surdez não tratada produzem atrasos que imitam transtornos primários.
+- **Nem todo atraso é transtorno** — atraso é um **descritor** ("está abaixo do esperado agora"); transtorno é uma condição do neurodesenvolvimento, de início na infância, **persistente** e com **prejuízo funcional**. A banca adora oferecer um rótulo definitivo para um quadro que ainda é "atraso a esclarecer".
+
+Um detalhe que quase sempre é cobrado de forma indireta: os transtornos do neurodesenvolvimento são **altamente comórbidos entre si**. Cerca de metade das crianças com TEA preenche também critérios de TDAH; deficiência intelectual e transtorno de linguagem andam juntos; TDAH e transtorno específico da aprendizagem se sobrepõem com muita frequência. O DSM-5 **permite** o diagnóstico simultâneo de TEA e TDAH (o DSM-IV proibia — essa mudança é a pegadinha).`
+  });
+
+  n.secoes.push({
+    h: "10. TEA — critérios completos, níveis de suporte e o que vem depois da audiometria",
+    c: `O diagnóstico de TEA é **clínico** (não existe exame que fecha o diagnóstico) e exige duas colunas simultâneas:
+
+**Coluna A — déficit persistente na comunicação e interação social**, em três aspectos (todos os três precisam estar presentes):
+
+- **reciprocidade socioemocional**: não compartilha interesses, não responde ao chamado, conversa "de mão única";
+- **comunicação não verbal**: contato visual pobre, gestos ausentes, expressão facial pouco modulada, não aponta para mostrar (o "apontar protodeclarativo" ausente é um dos marcadores mais precoces);
+- **desenvolver e manter relacionamentos**: dificuldade com brincadeira imaginativa e faz-de-conta, pouco interesse por pares.
+
+**Coluna B — padrões restritos e repetitivos**, com pelo menos **2 de 4**:
+
+- estereotipias motoras ou fala repetitiva (**ecolalia**, enfileirar objetos, flapping);
+- insistência em rotinas, sofrimento desproporcional a mudanças, rituais;
+- interesses fixos e de intensidade anormal;
+- **hiper ou hiporreatividade sensorial** (tapar os ouvidos com o liquidificador, indiferença à dor, fascínio por luzes/texturas).
+
+Além disso: sintomas presentes **desde o período precoce do desenvolvimento** (podem só se manifestar quando a demanda social aumenta), **prejuízo funcional** e não melhor explicados por deficiência intelectual isolada.
+
+O DSM-5-TR abandonou os subtipos antigos (autismo clássico, Asperger, TID-SOE) e passou a graduar por **níveis de suporte**, especificados **separadamente** para a coluna A e para a coluna B: **nível 1** (exige apoio), **nível 2** (apoio substancial), **nível 3** (apoio muito substancial). Também se especifica se há comprometimento intelectual, comprometimento de linguagem, condição médica/genética associada e catatonia. Repare: **o nível não é "gravidade do autismo" genérica — é necessidade de suporte**, e é dado em dois eixos.
+
+**Investigação depois de descartar surdez.** A ordem correta é: (1) **avaliação auditiva** — audiometria/BERA, porque surdez neurossensorial imita TEA de forma quase perfeita; (2) **avaliação visual**; (3) só então investigação etiológica. A etiologia é genética em boa parte dos casos e a linha de frente atual é o **CGH-array (microarranjo cromossômico)**, com pesquisa de **X frágil**, e cariótipo apenas quando há dismorfismos que sugerem aneuploidia. **RM de crânio e EEG não são de rotina** — pede-se EEG se houver suspeita de crise ou **regressão de linguagem** (afastar síndrome de Landau-Kleffner), e RM se houver micro/macrocefalia, exame neurológico focal ou crises. Triagem metabólica só quando há regressão, consanguinidade, visceromegalia ou traços dismórficos.`
+  });
+
+  n.secoes.push({
+    h: "11. TEA — o que realmente funciona, o que não funciona e os direitos da criança",
+    c: `**O que funciona.** A base do tratamento é **intervenção comportamental e educacional intensiva e precoce**, entregue por equipe interdisciplinar (fonoaudiologia, terapia ocupacional, psicologia, psicopedagogia) e — ponto que a banca valoriza — **mediada pelos pais**, porque a generalização do ganho acontece na rotina de casa. Os modelos com melhor evidência são a **análise do comportamento aplicada (ABA)** e as intervenções naturalísticas do desenvolvimento, como o **Modelo Denver de Intervenção Precoce (ESDM)**, além de treino de comunicação (incluindo comunicação alternativa/aumentativa — PECS, pranchas — que **não atrasa a fala**, ao contrário do mito).
+
+**Farmacologia — o ponto onde mais se erra.** Nenhum medicamento trata o núcleo do TEA (nem a dificuldade social, nem os comportamentos repetitivos). Os únicos aprovados são **risperidona** e **aripiprazol**, e a indicação é **irritabilidade, agressividade e autoagressão** associadas ao TEA. Metilfenidato pode ser usado para o TDAH comórbido (com resposta menor e mais efeitos adversos que no TDAH isolado); ISRS podem ajudar ansiedade/rituais em maiores. Antes de medicar comportamento, procure **causa orgânica de dor**: constipação, otite, cárie, refluxo e dor dentária são causas clássicas de "piora comportamental súbita" numa criança que não verbaliza dor.
+
+**O que não funciona (e é distrator de prova).** Dieta sem glúten e sem caseína, megadoses de vitaminas, oxigenoterapia hiperbárica, quelação de metais pesados, secretina e canabidiol para o núcleo do transtorno — **sem evidência**; a quelação chega a ser perigosa. E, para deixar registrado porque ainda aparece: **vacinas não causam autismo** — o estudo original foi fraudulento e retratado, e coortes com milhões de crianças não mostraram associação.
+
+**Direitos (cai em Saúde Coletiva).** A **Lei 12.764/2012** (Lei Berenice Piana) institui a Política Nacional de Proteção dos Direitos da Pessoa com TEA e determina que, **para todos os efeitos legais, a pessoa com TEA é considerada pessoa com deficiência** — isso destrava BPC (se houver critério de renda), acompanhante especializado na escola e prioridade de atendimento. A **Lei 13.977/2020** (Lei Romeo Mion) criou a **CIPTEA** (carteira de identificação). A rede de referência no SUS é o **CER** (Centro Especializado em Reabilitação) e, quando há sofrimento psíquico, o **CAPSi**.`
+  });
+
+  n.secoes.push({
+    h: "12. TDAH — os critérios operacionais que a banca cobra número por número",
+    c: `TDAH não é "criança agitada". É um transtorno de **funções executivas** — o conjunto de operações do córtex pré-frontal que sustenta atenção, inibição de resposta, memória de trabalho e regulação do esforço. Estudos de neuroimagem mostram maturação cortical **atrasada** (não ausente) em regiões pré-frontais, o que explica por que muitos sintomas atenuam na vida adulta.
+
+Os critérios do DSM-5-TR — decore os números, porque a questão costuma girar em torno de um deles:
+
+- **Sintomas**: pelo menos **6 de 9** de desatenção e/ou **6 de 9** de hiperatividade-impulsividade. Em **adolescentes ≥17 anos e adultos**, o corte cai para **5 de 9**.
+- **Duração**: pelo menos **6 meses**, em grau inconsistente com o nível de desenvolvimento.
+- **Idade de início**: vários sintomas presentes **antes dos 12 anos** (o DSM-IV exigia antes dos 7 — a mudança é pegadinha frequente).
+- **Pervasividade**: sintomas em **dois ou mais ambientes** (casa, escola, trabalho, com amigos). É o critério que mais reprova diagnósticos apressados: a criança que só desorganiza em casa provavelmente tem outro problema.
+- **Prejuízo** claro no funcionamento social, acadêmico ou ocupacional.
+- **Exclusão**: não ocorre exclusivamente durante esquizofrenia/psicose e não é melhor explicado por outro transtorno mental.
+
+**Apresentações**: predominantemente desatenta, predominantemente hiperativa-impulsiva e combinada. A apresentação desatenta é a mais subdiagnosticada, especialmente **em meninas** — a criança não incomoda, só "vive no mundo da lua", perde material e não termina tarefa. Uma vinheta de menina de 9 anos com queda de rendimento, letra desorganizada e "sonhadora" é TDAH desatento até prova em contrário, não preguiça nem depressão automática.
+
+**Como se avalia na prática**: história com os pais + **relato escolar** (indispensável, é o que documenta o segundo ambiente) + escalas padronizadas (SNAP-IV, Vanderbilt, Conners) — que **auxiliam, não diagnosticam** — + exame clínico e avaliação de comorbidades. **Não existe exame complementar diagnóstico**: EEG, neuroimagem e testes computadorizados de atenção não fecham nem excluem TDAH. Pedir "EEG para confirmar TDAH" é alternativa errada garantida.`
+  });
+
+  n.secoes.push({
+    h: "13. O que IMITA TDAH — os diferenciais que salvam a questão",
+    c: `Antes de rotular, exclua o que é tratável de outro jeito. Este bloco é o que separa quem estudou de quem decorou:
+
+- **Apneia obstrutiva do sono (SAOS)** — hipertrofia de adenoides e amígdalas. A criança dorme mal, ronca, respira pela boca, e de dia fica **hiperativa e desatenta** (na criança, a privação de sono cursa com hiperatividade, não com sonolência como no adulto). Adenotonsilectomia melhora os sintomas de desatenção. **Sempre pergunte sobre ronco.**
+- **Deficiência de ferro / anemia ferropriva** — cursa com desatenção, irritabilidade e queda de rendimento; a ferritina baixa também está ligada à síndrome das pernas inquietas.
+- **Hipertireoidismo** — inquietação, tremor, taquicardia, perda de peso, queda escolar.
+- **Epilepsia de ausência** — "desligamentos" de 5 a 15 segundos, dezenas de vezes ao dia, com parada da atividade e piscamento, **provocáveis por hiperventilação** e com EEG de ponta-onda a 3 Hz. É o único diferencial em que o EEG é útil. Diferença clínica: a ausência é **abrupta, breve e não responde a chamado**; a desatenção do TDAH é gradual e a criança "volta" se você chamar.
+- **Déficit auditivo ou visual** — a criança que não escuta a professora parece desatenta.
+- **Deficiência intelectual ou altas habilidades** — nos dois extremos, a demanda escolar está desajustada e gera desatenção situacional. Pista: sintomas só na escola.
+- **Transtorno de ansiedade, depressão e transtorno de estresse pós-traumático** — desatenção secundária à ruminação. Pista: início mais tardio, mudança do padrão prévio.
+- **Violência, negligência e ambiente caótico** — a "hiperatividade" pode ser hipervigilância. É obrigatório investigar maus-tratos quando a história muda de forma abrupta.
+- **Fármacos** — corticoide, broncodilatador beta-2 agonista, antihistamínico de primeira geração, excesso de cafeína.
+
+Regra de ouro para a vinheta: se os sintomas começaram **depois** de um evento (mudança, luto, doença, medicação nova) ou existem em **um único ambiente**, o diagnóstico provavelmente **não** é TDAH.`
+  });
+
+  n.secoes.push({
+    h: "14. TDAH — farmacologia completa, monitorização e os mitos desarmados",
+    c: `**Tratamento é multimodal**: psicoeducação da família e da escola, adequações pedagógicas (sentar à frente, dividir tarefas, tempo estendido), treinamento parental em manejo comportamental e, quando indicado, medicação. Em **pré-escolares (4-5 anos)**, a primeira linha é **treinamento parental comportamental**, e o metilfenidato só entra se não houver resposta. A partir da idade escolar, o **estimulante é a intervenção isolada mais eficaz**.
+
+**Estimulantes (1ª linha)**
+
+- **Metilfenidato** — inibe a recaptação de **dopamina e noradrenalina** na fenda sináptica pré-frontal (não age em serotonina, não age em GABA, não é agonista direto). Formulações: **imediata** (Ritalina, 3-5 h, 2-3 tomadas/dia) e **liberação prolongada** (LA ~8 h, OROS/Concerta ~10-12 h, dose única matinal — melhor adesão e menos estigma na escola).
+- **Lisdexanfetamina** (Venvanse) — pró-fármaco da dexanfetamina, ativado por hidrólise nas hemácias; duração ~13 h.
+
+**Não estimulantes (2ª linha ou quando há contraindicação/abuso/tique)**
+
+- **Atomoxetina** — inibidor seletivo da recaptação de **noradrenalina**; efeito pleno só em **4-6 semanas**; útil quando há ansiedade, tiques ou risco de desvio de estimulante; alerta de ideação suicida e de hepatotoxicidade rara.
+- **Clonidina e guanfacina** de liberação prolongada — agonistas alfa-2; ajudam impulsividade, tiques e insônia; efeito adverso principal é sedação e hipotensão.
+- **Bupropiona** e antidepressivos tricíclicos são alternativas de exceção.
+
+**Efeitos adversos habituais dos estimulantes** (esta lista é a resposta certa quando a alternativa distratora traz "convulsão", "hipertermia maligna" ou "discinesia"): **redução do apetite**, **insônia inicial**, **cefaleia**, dor abdominal, irritabilidade no fim do efeito (**rebote**), leve aumento de FC e PA, e discreta **desaceleração do crescimento** (da ordem de 1-2 cm no acumulado, com tendência a recuperação). Tiques podem piorar, mas o antigo dogma de que estimulante é proibido em Tourette **caiu** — usa-se com monitorização.
+
+**Monitorização obrigatória**: peso, estatura e curva a cada consulta; pressão arterial e frequência cardíaca; sono e apetite; rendimento escolar por relato do professor. Antes de iniciar, faça anamnese e exame cardiovascular procurando **cardiopatia estrutural, arritmia e morte súbita familiar precoce** — ECG **não** é obrigatório de rotina, só se a triagem clínica for positiva.
+
+**Os mitos, desarmados um a um**: (1) metilfenidato **não** tem alto risco de dependência em uso terapêutico supervisionado — ao contrário, tratar o TDAH **reduz** o risco futuro de transtorno por uso de substâncias, porque reduz impulsividade e fracasso escolar (a via oral tem farmacocinética lenta e não produz o pico de recompensa da via inalatória/injetável, que é o que gera adição); (2) não "vira zumbi" — se a criança fica apática, a dose está alta e deve ser reduzida; (3) não é para "criança normal ficar mais inteligente"; (4) **férias de medicação** não são obrigatórias — podem ser consideradas quando o prejuízo é só acadêmico ou para recuperar apetite, mas não quando há prejuízo social e risco de acidentes.`
+  });
+
+  n.secoes.push({
+    h: "15. Deficiência intelectual — investigação etiológica escalonada e as síndromes que caem",
+    c: `A deficiência intelectual (DI) exige **três** critérios: (1) déficit em funções intelectuais (raciocínio, resolução de problemas, aprendizagem) confirmado por avaliação clínica **e** testagem padronizada; (2) déficit em **funcionamento adaptativo** nos domínios conceitual, social e prático; (3) início no período do desenvolvimento. Ponto importante do DSM-5: **a gravidade (leve, moderada, grave, profunda) é definida pelo funcionamento adaptativo, não pelo número do QI** — o QI perde precisão nos extremos inferiores. Em menores de 5 anos usa-se o termo **atraso global do desenvolvimento** (atraso em ≥2 domínios), que é um diagnóstico provisório.
+
+**Investigação etiológica — a ordem importa.** Primeiro anamnese detalhada (pré-natal, exposição a álcool, intercorrências perinatais, consanguinidade, história familiar, regressão), exame físico com busca ativa de **dismorfismos, manchas cutâneas e visceromegalia**, e medida de perímetro cefálico. Depois:
+
+- **Avaliação auditiva e visual** — sempre primeiro, mesmo aqui.
+- **CGH-array (microarranjo cromossômico)** — exame de **primeira linha** para DI/atraso global de causa não esclarecida (rendimento diagnóstico bem superior ao cariótipo).
+- **Pesquisa de X frágil** (expansão CGG no gene FMR1) — em ambos os sexos, principalmente com história familiar.
+- **Cariótipo** — quando o fenótipo sugere aneuploidia (Down, Turner).
+- **Triagem metabólica ampliada** — se houver regressão, crises, consanguinidade, odor característico, descompensação com jejum/infecção.
+- **RM de crânio** — se micro/macrocefalia, exame neurológico focal, crises, regressão ou dismorfismo.
+- **TSH, T4 livre e chumbo sérico** conforme suspeita.
+
+**Síndromes que a banca repete**: **X frágil** (macrorquidia pós-púbere, face alongada, orelhas grandes, ansiedade social e comportamento autístico — causa hereditária mais comum de DI); **Down** (trissomia do 21; rastrear **hipotireoidismo, cardiopatia, instabilidade atlantoaxial, otite serosa e leucemia**); **Prader-Willi** (hipotonia e dificuldade de sucção no neonato, depois hiperfagia e obesidade — deleção paterna 15q); **Angelman** (mesma região, herança **materna**; riso imotivado, ataxia, epilepsia, ausência de fala); **Williams** (personalidade hipersociável, estenose aórtica supravalvar, hipercalcemia); **Rett** (meninas, gene MECP2; regressão após 6-18 meses com perda do uso das mãos e estereotipia de "lavar as mãos", desaceleração do crescimento cefálico); **síndrome alcoólica fetal** (fissuras palpebrais curtas, filtro liso, lábio superior fino — causa **prevenível** mais comum de DI).`
+  });
+
+  n.secoes.push({
+    h: "16. A criança que não fala — linguagem, apraxia e mutismo seletivo",
+    c: `"Não fala" é uma queixa, não um diagnóstico. O raciocínio deve percorrer, nesta ordem:
+
+**1. Ouve?** Audiometria/BERA antes de qualquer outra coisa. Otite média serosa de repetição, muito comum entre 1 e 4 anos, produz perda condutiva flutuante e atraso de linguagem reversível.
+
+**2. Compreende?** Aqui está a bifurcação mais útil da prova. Se a **compreensão está preservada** (aponta o que você pede, obedece comando simples, brinca de faz-de-conta, usa gestos para se comunicar) e a criança é socialmente interessada, o quadro tende a ser um **atraso ou transtorno do desenvolvimento da linguagem (TDL)** — antigamente "distúrbio específico de linguagem". Se a **compreensão também está ruim** e falta reciprocidade social, o desconfiômetro aponta para **TEA** ou **deficiência intelectual**.
+
+**3. Como é a fala que existe?** Fala escassa, inconsistente, com erros que mudam de tentativa para tentativa, esforço visível para "encaixar" o som e sequência de sílabas difícil → **apraxia de fala na infância** (problema de planejamento motor da fala, não de músculo nem de linguagem). Fala presente com trocas sistemáticas de fonemas (o "r" pelo "l") → transtorno fonológico. Fala normal com fluência interrompida → gagueira do desenvolvimento (a maioria remite; encaminhar se persistir além de 6-12 meses, se houver tensão/esquiva ou história familiar).
+
+**4. Fala em algum lugar?** A criança que conversa normalmente em casa e é **completamente muda na escola**, por mais de 1 mês, tem **mutismo seletivo** — que é classificado como um transtorno de **ansiedade**, não de linguagem nem de birra. Tratamento é psicoterapia comportamental com exposição gradual; ISRS em casos refratários. É clássico da prova apresentar "criança que não fala com a professora" e oferecer TEA como distrator.
+
+**5. Perdeu o que já tinha?** Qualquer **regressão de linguagem** — a criança falava 20 palavras e parou — é sinal de alerta maior. Investiga TEA com regressão, **síndrome de Landau-Kleffner** (afasia epiléptica adquirida, EEG em sono obrigatório), doenças metabólicas/neurodegenerativas e, no contexto certo, perda auditiva progressiva.
+
+**Marcos de linguagem de bolso** (para saber quando o atraso existe): balbucio canônico por volta dos 6-7 meses; **primeira palavra com significado por volta dos 12 meses**; **aponta para mostrar aos 12-15 meses**; ~10-20 palavras aos 18 meses; **junta duas palavras aos 24 meses** e é compreendida por estranhos em cerca de metade do tempo; frases de 3 palavras aos 3 anos, com ~75% de inteligibilidade; discurso praticamente inteligível aos 4 anos. **Não balbuciar aos 12 meses, não apontar aos 12-15 meses, nenhuma palavra aos 16-18 meses e nenhuma combinação de duas palavras aos 24 meses são red flags que exigem investigação — não "esperar amadurecer".**`
+  });
+
+  n.secoes.push({
+    h: "17. Aprendizagem e coordenação — dislexia, discalculia e TDC",
+    c: `**Transtorno específico da aprendizagem** é o diagnóstico da criança com **inteligência preservada, oportunidade educacional adequada, visão e audição normais**, que mesmo assim não aprende um domínio específico. Exige dificuldade persistente por **pelo menos 6 meses apesar de intervenção dirigida**, desempenho substancialmente abaixo do esperado para a idade e prejuízo acadêmico. Especificadores:
+
+- **com prejuízo na leitura (dislexia)** — o mais cobrado. O déficit central é de **consciência fonológica**: a criança não decompõe a palavra em sons e por isso não faz a correspondência grafema-fonema. Lê devagar, adivinha pela primeira sílaba, troca letras espelhadas, soletra mal e a compreensão sofre por consumo de recursos na decodificação. **Não é problema de visão** e **não se trata com lentes coloridas ou exercícios oculares** — trata-se com intervenção fonológica sistemática e explícita, além de adaptações (tempo estendido, prova oral, texto em áudio).
+- **com prejuízo na expressão escrita (disgrafia/disortografia)**.
+- **com prejuízo na matemática (discalculia)** — dificuldade com senso numérico, fatos aritméticos e cálculo.
+
+**Transtorno do desenvolvimento da coordenação (TDC, "dispraxia")** — a criança desastrada: demora a amarrar sapato, escreve com letra ilegível e dor na mão, cai muito, é a última escolhida no time, tem dificuldade com talher, bicicleta e recorte. É um transtorno do neurodesenvolvimento legítimo, com prejuízo em atividades de vida diária e desempenho escolar, e o tratamento é **terapia ocupacional/fisioterapia com abordagem orientada à tarefa**. Antes de fechar, é preciso excluir doença neuromuscular — e aqui mora a pegadinha grave: **menino com quedas frequentes, dificuldade para subir escadas, marcha anserina, panturrilhas hipertrofiadas e sinal de Gowers não tem TDC, tem distrofia muscular de Duchenne** — peça **CPK** antes de encaminhar para "coordenação motora". Também é preciso excluir ataxia, paralisia cerebral leve (diplegia espástica discreta) e frouxidão ligamentar.
+
+Regra prática de encaminhamento: dificuldade acadêmica isolada → avaliação psicopedagógica e escolar; dificuldade acadêmica **com** desatenção em dois ambientes → investigar TDAH junto; dificuldade motora que **piora** com o tempo → é neurologia, não é TDC.`
+  });
+
+  n.secoes.push({
+    h: "18. Enurese — os três mecanismos, a avaliação e o tratamento passo a passo",
+    c: `**Definição operacional (ICCS/DSM-5):** perda de urina durante o sono, em criança com **idade ≥5 anos**, com frequência de pelo menos **2 episódios por semana durante 3 meses** (ou prejuízo clinicamente significativo). Antes dos 5 anos não se diagnostica — é continência ainda em maturação.
+
+**As duas classificações que a banca cruza:**
+
+- **Primária × secundária**: primária = a criança **nunca** teve um período seco prolongado; secundária = voltou a molhar **após pelo menos 6 meses** de controle. A secundária pede busca ativa de gatilho — **diabetes mellitus (poliúria, polidipsia, emagrecimento), diabetes insípido, ITU, constipação, oxiuríase, apneia do sono, abuso sexual, chegada de irmão, separação dos pais**.
+- **Monossintomática × não monossintomática**: monossintomática = **só molha à noite**, sem nenhum sintoma diurno. Não monossintomática = há urgência, aumento ou redução da frequência miccional, manobras de contenção (agachar sobre o calcanhar — sinal de Vincent), jato fraco, esforço, gotejamento, incontinência diurna. **Essa é a distinção que muda a conduta**: o quadro não monossintomático exige investigar **disfunção do trato urinário inferior**, e a prioridade passa a ser tratar a bexiga hiperativa/disfunção miccional e a **constipação** (a ampola retal cheia comprime a bexiga — a "síndrome bexiga-intestino" é a causa reversível mais esquecida).
+
+**Por que a criança molha — os três mecanismos, que precisam coexistir para o acidente acontecer:**
+
+1. **Poliúria noturna** — falta do pico noturno de **vasopressina (ADH)**, então o rim produz volume grande de urina diluída durante o sono. É o alvo da desmopressina.
+2. **Capacidade vesical noturna reduzida / hiperatividade detrusora** — a bexiga contrai antes de encher.
+3. **Limiar de despertar elevado** — a criança **não acorda** com a bexiga cheia. É o alvo do alarme. Há forte agregação familiar (se ambos os pais tiveram, o risco chega a ~70%).
+
+**Avaliação:** história (incluindo hábito intestinal e escala de Bristol), exame físico com inspeção da região lombossacra (procurar **tufo de pelos, lipoma, fóvea, desvio de sulco interglúteo** — disrafismo oculto) e exame neurológico dos membros inferiores, **diário miccional de 48-72 h**, **EAS/urina I** (glicosúria, densidade, sinais de infecção) e urocultura se indicado. **Ultrassom de vias urinárias** só nos casos não monossintomáticos, refratários ou com suspeita anatômica. **Uretrocistografia miccional não é exame de rotina de enurese.**
+
+**Tratamento, na ordem:**
+
+- **Medidas comportamentais / uroterapia padrão (1ª linha sempre):** tratar a constipação, ingesta hídrica concentrada de manhã e à tarde com **redução de líquidos nas 2 h antes de dormir**, evitar cafeína e bebida com gás à noite, esvaziar a bexiga imediatamente antes de deitar, micção em horários regulares (~5-7 vezes/dia), postura adequada no vaso com apoio dos pés, calendário de noites secas com **reforço positivo**. **Nunca punir, humilhar ou responsabilizar a criança** — a culpa piora o quadro e é alternativa errada em qualquer prova.
+- **Alarme de enurese** — maior taxa de cura sustentada e **menor recidiva** ao suspender; requer família motivada e 8-16 semanas de uso.
+- **Desmopressina** — análogo do ADH, resposta rápida, ideal para poliúria noturna documentada, para viagens/acampamentos e quando o alarme não é viável; **recidiva alta ao suspender** e exige **restrição hídrica noturna** pelo risco de **hiponatremia/intoxicação hídrica**.
+- **Oxibutinina/anticolinérgico** — para o componente de bexiga hiperativa (não monossintomática), associado.
+- **Imipramina** — reserva, por **cardiotoxicidade** em superdosagem; exige cautela e ECG em alguns protocolos.`
+  });
+
+  n.secoes.push({
+    h: "19. Sono, tiques e o resto do neurodesenvolvimento que cai em prova",
+    c: `**Sono.** O sono é onde o cérebro consolida o que aprendeu, e o sono ruim se disfarça de transtorno do neurodesenvolvimento.
+
+- **SAOS pediátrica** — ronco habitual, pausas presenciadas, respiração bucal, sono agitado, sudorese noturna, enurese e, de dia, **hiperatividade/desatenção** e queda escolar. Causa mais comum: **hipertrofia adenotonsilar**. Padrão-ouro diagnóstico: polissonografia. Tratamento: **adenotonsilectomia**.
+- **Terror noturno × pesadelo** — a distinção clássica. O **terror noturno** é parassonia de sono **não REM**, ocorre no **primeiro terço da noite**, a criança grita, senta, sua, taquicárdica, **não reconhece os pais, não é consolável** e **não lembra** do episódio pela manhã. O **pesadelo** é REM, ocorre na **segunda metade da noite**, a criança **acorda de fato, reconhece, é consolável e relata o sonho**. Conduta no terror noturno: **explicar, não acordar, garantir segurança do ambiente e regularizar o sono** — não medicar.
+- **Sonambulismo** — mesma família não REM; conduta é segurança (travas, escadas) e higiene do sono.
+- **Síndrome das pernas inquietas** — necessidade de mover as pernas ao repouso, pior à noite, alívio com movimento; forte associação com **ferritina baixa (< 50 ng/mL)** e com TDAH. Dose ferro e suplemente.
+- **Higiene do sono** que a prova cobra: horário regular, quarto escuro e fresco, sem telas 1-2 h antes, sem cafeína, rotina previsível de preparo.
+
+**Tiques e síndrome de Tourette.** Tique é movimento ou vocalização súbita, rápida, recorrente, não rítmica, precedida por **urgência premonitória** e **suprimível temporariamente** (com desconforto crescente) — é isso que o diferencia de coreia, mioclonia e estereotipia. Classificação: **transtorno de tique provisório** (< 1 ano), **transtorno de tique motor ou vocal persistente** (> 1 ano, só um tipo) e **Tourette** (**tiques motores múltiplos E pelo menos um vocal**, ambos em algum momento, por **mais de 1 ano**, início antes dos 18 anos). Pico entre 8 e 12 anos, com melhora na adolescência tardia na maioria. Comorbidades quase obrigatórias: **TDAH e TOC**. Tratamento: se não há prejuízo, **psicoeducação apenas**; se há, **terapia comportamental (CBIT/reversão de hábito)** é a primeira linha; farmacologia (agonistas alfa-2 como clonidina/guanfacina, ou antipsicóticos como risperidona/aripiprazol) só quando o prejuízo é importante. Estereotipia, por contraste, é rítmica, prolongada, começa antes dos 3 anos, ocorre em estados de excitação e **não tem urgência premonitória** — típica do TEA.
+
+**Paralisia cerebral, para não confundir**: é um transtorno **motor** por lesão **não progressiva** do encéfalo imaturo. Aparece como atraso motor com **alteração de tônus e reflexos**, persistência de reflexos primitivos e assimetrias — coisas que **não** existem no TEA nem no TDAH. Diante de atraso motor com espasticidade, hiperreflexia ou preferência manual antes de 1 ano, pense em lesão do SNC, não em transtorno comportamental.`
+  });
+
+  n.secoes.push({
+    h: "20. Algoritmo final — da queixa à conduta em cinco perguntas",
+    c: `Use sempre esta sequência diante de qualquer vinheta de neurodesenvolvimento:
+
+**1) O domínio afetado é qual?** Social/comunicação → eixo TEA. Atenção/impulso → eixo TDAH. Intelecto global e adaptação → DI. Linguagem isolada → TDL. Motor → TDC/paralisia cerebral/doença neuromuscular. Acadêmico específico → transtorno da aprendizagem. Continência → enurese/disfunção miccional.
+
+**2) É atraso, transtorno ou regressão?** Regressão nunca é observada; investiga sempre (EEG, RM, metabólico).
+
+**3) Já descartei o que imita?** **Audição** e **visão** primeiro, sempre. Depois: sono/SAOS, ferro/ferritina, tireoide, epilepsia de ausência, ambiente (negligência, violência, escola inadequada), fármacos.
+
+**4) O critério formal está preenchido?** TEA = coluna A completa **+** 2 de 4 da coluna B, início precoce, prejuízo. TDAH = 6/9 (ou 5/9 se ≥17 anos), ≥6 meses, início **< 12 anos**, **≥2 ambientes**, prejuízo. DI = intelecto **+** adaptativo **+** início no desenvolvimento. Enurese = **≥5 anos**, ≥2 episódios/semana, 3 meses.
+
+**5) Qual a conduta de menor risco e maior evidência?**
+- TEA → **iniciar intervenção precoce sem esperar o diagnóstico definitivo**; medicação só para irritabilidade/agressividade.
+- TDAH → multimodal; pré-escolar = treino parental primeiro; escolar = estimulante + suporte escolar; monitorar peso, estatura, PA e sono.
+- DI/atraso global → audição/visão, **CGH-array + X frágil**, estimulação e inclusão escolar.
+- Enurese → **comportamental sempre**, depois alarme (cura sustentada) ou desmopressina (resposta rápida); tratar constipação; nunca punir.
+- Tiques → psicoeducação; se prejuízo, terapia comportamental antes do fármaco.
+
+E uma última salvaguarda: em **prematuro**, corrija a idade até cerca de 2 anos antes de chamar qualquer coisa de atraso.`
+  });
+
+  n.flashcards.push(
+    {p:"Quantos sintomas o DSM-5-TR exige para TDAH, até que idade devem ter iniciado e em quantos ambientes?", r:"6 de 9 (desatenção e/ou hiperatividade-impulsividade); 5 de 9 se ≥17 anos. Início antes dos 12 anos, ≥6 meses de duração, em ≥2 ambientes, com prejuízo funcional."},
+    {p:"O DSM-5 permite diagnosticar TEA e TDAH na mesma criança?", r:"Sim. O DSM-IV proibia; o DSM-5 permite o diagnóstico simultâneo — e a comorbidade é frequente (cerca de metade dos casos de TEA)."},
+    {p:"Como o DSM-5-TR gradua o TEA?", r:"Por níveis de necessidade de suporte (1 = exige apoio, 2 = apoio substancial, 3 = apoio muito substancial), especificados SEPARADAMENTE para o domínio social e para o domínio dos comportamentos repetitivos."},
+    {p:"Qual o exame genético de primeira linha na investigação de TEA/atraso global/deficiência intelectual?", r:"CGH-array (microarranjo cromossômico), com pesquisa de X frágil. Cariótipo só se o fenótipo sugerir aneuploidia. RM e EEG não são de rotina."},
+    {p:"Quais medicamentos são aprovados no TEA e para quê?", r:"Risperidona e aripiprazol — apenas para irritabilidade, agressividade e autoagressão. Nenhum fármaco trata o núcleo social ou os comportamentos repetitivos."},
+    {p:"Quais são os não estimulantes para TDAH e quando preferi-los?", r:"Atomoxetina (inibidor da recaptação de noradrenalina, efeito pleno em 4-6 semanas) e clonidina/guanfacina de liberação prolongada. Preferidos com ansiedade, tiques importantes, risco de desvio do estimulante ou contraindicação."},
+    {p:"Qual o tratamento de primeira linha do TDAH em pré-escolar de 4-5 anos?", r:"Treinamento parental em manejo comportamental. Metilfenidato só se não houver resposta."},
+    {p:"Cite quatro condições que imitam TDAH.", r:"Apneia obstrutiva do sono (hipertrofia adenotonsilar), deficiência de ferro, hipertireoidismo e epilepsia de ausência. Somam-se déficit auditivo/visual, ansiedade/depressão e negligência/violência."},
+    {p:"Como diferenciar clinicamente ausência típica de desatenção do TDAH?", r:"A ausência é abrupta, dura 5-15 s, a criança não responde ao chamado, ocorre dezenas de vezes ao dia e é provocada por hiperventilação (EEG com ponta-onda 3 Hz). A desatenção do TDAH é gradual e a criança 'volta' se chamada."},
+    {p:"Quais sinais fazem 'não falar' virar red flag imediato?", r:"Não balbuciar aos 12 meses, não apontar para mostrar aos 12-15 meses, nenhuma palavra aos 16-18 meses, não juntar duas palavras aos 24 meses e QUALQUER regressão de linguagem."},
+    {p:"O que é mutismo seletivo e em que categoria diagnóstica se encaixa?", r:"Criança que fala normalmente em alguns contextos (casa) e não fala em outros (escola) por mais de 1 mês. É um transtorno de ANSIEDADE, não de linguagem; trata-se com terapia comportamental de exposição gradual."},
+    {p:"Enurese monossintomática × não monossintomática: por que importa?", r:"Monossintomática = só perda noturna. Não monossintomática = há sintomas diurnos (urgência, manobras de contenção, jato fraco, incontinência) e exige investigar disfunção do trato urinário inferior e tratar constipação antes de tudo."},
+    {p:"Quais os três mecanismos fisiopatológicos da enurese noturna?", r:"Poliúria noturna por falta do pico de vasopressina (alvo da desmopressina), capacidade vesical noturna reduzida/hiperatividade detrusora (alvo do anticolinérgico) e limiar de despertar elevado (alvo do alarme)."},
+    {p:"Alarme × desmopressina na enurese: qual a diferença prática?", r:"O alarme tem maior taxa de cura sustentada e menor recidiva, mas exige 8-16 semanas e família motivada. A desmopressina age rápido (ideal para viagens), mas recidiva muito ao suspender e exige restrição hídrica noturna pelo risco de hiponatremia."},
+    {p:"Terror noturno × pesadelo: como separar?", r:"Terror noturno = sono não REM, primeiro terço da noite, criança não reconhece os pais, não é consolável e não lembra. Pesadelo = REM, segunda metade da noite, acorda, reconhece, é consolável e relata o sonho."},
+    {p:"O que define síndrome de Tourette?", r:"Tiques motores MÚLTIPLOS e pelo menos UM tique vocal, ambos presentes em algum momento, por mais de 1 ano, com início antes dos 18 anos. Comorbidades quase obrigatórias: TDAH e TOC."},
+    {p:"Menino desastrado com quedas frequentes e dificuldade para subir escadas — o que dosar antes de rotular transtorno da coordenação?", r:"CPK. Panturrilhas hipertrofiadas, marcha anserina e sinal de Gowers apontam distrofia muscular de Duchenne, não TDC."},
+    {p:"Qual a causa hereditária mais comum de deficiência intelectual e qual a causa prevenível mais comum?", r:"Hereditária: síndrome do X frágil (expansão CGG no FMR1). Prevenível: síndrome alcoólica fetal."},
+    {p:"Que lei brasileira equipara a pessoa com TEA à pessoa com deficiência?", r:"Lei 12.764/2012 (Berenice Piana) — Política Nacional de Proteção dos Direitos da Pessoa com TEA. A Lei 13.977/2020 (Romeo Mion) criou a CIPTEA."},
+    {p:"Em prematuro, até quando usar idade corrigida para avaliar o neurodesenvolvimento?", r:"Até cerca de 2 anos de idade cronológica. Antes disso, avaliar por idade cronológica gera falso diagnóstico de atraso."}
+  );
+
+  n.pegadinhas.push(
+    "TDAH exige início antes dos 12 anos (não 7, que era o DSM-IV) e sintomas em ≥2 ambientes.",
+    "DSM-5 PERMITE diagnosticar TEA e TDAH juntos — o DSM-IV é que proibia.",
+    "Nível de suporte no TEA (1/2/3) é especificado separadamente para o domínio social e para o repetitivo — não é uma 'gravidade' única.",
+    "CGH-array (microarranjo) é o exame genético de 1ª linha em TEA/atraso global — não cariótipo. RM e EEG não são rotina.",
+    "Não existe exame que diagnostique TDAH: EEG, neuroimagem e testes computadorizados não confirmam nem excluem.",
+    "Criança que ronca e é hiperativa de dia: pense SAOS por hipertrofia adenotonsilar antes de rotular TDAH.",
+    "Na criança, privação de sono causa HIPERATIVIDADE (no adulto, sonolência) — inverte a intuição.",
+    "Tratar o TDAH com estimulante REDUZ o risco futuro de uso de substâncias; não aumenta.",
+    "Efeitos adversos do metilfenidato: anorexia, insônia, cefaleia, dor abdominal, rebote — não convulsão nem hipertermia.",
+    "ECG não é obrigatório antes de estimulante: só se a triagem clínica de cardiopatia/arritmia/morte súbita familiar for positiva.",
+    "Enurese só se diagnostica a partir dos 5 anos, com ≥2 episódios/semana por 3 meses.",
+    "Enurese com sintomas diurnos (não monossintomática) muda a conduta: investigar disfunção miccional e tratar constipação primeiro.",
+    "Desmopressina exige restrição hídrica noturna — risco de hiponatremia/intoxicação hídrica.",
+    "Enurese secundária pede busca de gatilho: diabetes, ITU, constipação, apneia, abuso sexual, estressor familiar.",
+    "Terror noturno: não acordar a criança, não medicar — explicar, garantir segurança e regularizar o sono.",
+    "Mutismo seletivo é transtorno de ANSIEDADE, não TEA nem transtorno de linguagem.",
+    "Dislexia é déficit de consciência fonológica: não se trata com lente colorida nem exercício ocular.",
+    "Piora comportamental súbita em criança com TEA que não verbaliza: procurar dor (constipação, otite, cárie, refluxo) antes de medicar.",
+    "Estimulante em Tourette não é mais proibido — usa-se com monitorização dos tiques.",
+    "Vacinas não causam autismo — o estudo original foi fraudulento e retratado.",
+    "Estereotipia (TEA) não tem urgência premonitória nem é suprimível; tique tem ambos."
+  );
+
+  n.diretrizes.push(
+    "American Academy of Pediatrics (AAP) — Clinical Practice Guideline for the Diagnosis, Evaluation and Treatment of ADHD in Children and Adolescents.",
+    "American Academy of Pediatrics (AAP) — Identification, Evaluation and Management of Children with Autism Spectrum Disorder.",
+    "Brasil — Lei 12.764/2012 (Política Nacional de Proteção dos Direitos da Pessoa com TEA) e Lei 13.977/2020 (CIPTEA).",
+    "Ministério da Saúde — Diretrizes de Atenção à Reabilitação da Pessoa com TEA e rede CER/CAPSi.",
+    "International Children's Continence Society (ICCS) — Management of Monosymptomatic and Non-monosymptomatic Nocturnal Enuresis (uroterapia, alarme, desmopressina).",
+    "Sociedade Brasileira de Pediatria — Documentos Científicos de Neurodesenvolvimento, Sono na Infância e Enurese."
+  );
+
+  n.questoes.push(
+    {
+      enunciado: "Menino de 8 anos é levado por queda de rendimento escolar. A professora relata que ele não termina tarefas, perde material e conversa fora de hora; em casa a mãe descreve o mesmo padrão há mais de um ano, com dificuldade para organizar a mochila. Não há regressão de marcos, a interação social é adequada e ele tem amigos. Audiometria e acuidade visual normais. Qual conduta é a mais adequada para prosseguir?",
+      alternativas: {
+        a: "Eletroencefalograma para confirmar o diagnóstico",
+        b: "Aplicar escalas com pais e professores e avaliar comorbidades",
+        c: "Ressonância magnética de crânio",
+        d: "Iniciar metilfenidato e reavaliar em 30 dias"
+      },
+      correta: "b",
+      comentario: "O caso preenche o esqueleto do TDAH: sintomas por mais de 6 meses, com início antes dos 12 anos, presentes em DOIS ambientes (casa e escola) e com prejuízo funcional claro. O diagnóstico é inteiramente clínico e depende de documentar a pervasividade — por isso a conduta correta é obter relato estruturado dos pais E do professor, com escalas padronizadas (SNAP-IV, Vanderbilt, Conners), e rastrear comorbidades, que são a regra e não a exceção: transtorno específico da aprendizagem, ansiedade, transtorno opositor-desafiador, distúrbio do sono e deficiência de ferro. As escalas auxiliam e quantificam, mas não fecham diagnóstico sozinhas. A alternativa a erra em um ponto que a banca ama: NÃO existe exame complementar que diagnostique TDAH — EEG, neuroimagem e testes computadorizados de atenção não confirmam nem excluem. O EEG só entraria se houvesse suspeita de crises de ausência, que se apresentariam como desligamentos abruptos de 5 a 15 segundos, dezenas de vezes ao dia, provocáveis por hiperventilação e com a criança não respondendo ao chamado — nada disso está descrito. A alternativa c indica RM sem nenhum critério para tal: neuroimagem entra com exame neurológico focal, crises, regressão de marcos ou alteração do perímetro cefálico. A alternativa d pula etapas: medicar antes de confirmar critérios e antes de mapear comorbidades é o caminho para tratar a coisa errada; além disso, o tratamento é multimodal e a intervenção escolar e o treino parental fazem parte dele desde o início. Guarde os números: 6 de 9 sintomas (5 de 9 a partir dos 17 anos), duração mínima de 6 meses, início antes dos 12 anos e presença em pelo menos 2 ambientes.",
+      foco: "TDAH: diagnóstico clínico, pervasividade em 2 ambientes e ausência de exame confirmatório (lacuna do módulo)"
+    },
+    {
+      enunciado: "Menina de 6 anos apresenta perdas urinárias noturnas quatro vezes por semana desde sempre, sem nunca ter tido período seco. Durante o dia, a mãe refere urgência, episódios de perda em pequena quantidade e o hábito de agachar sobre o calcanhar. Evacua a cada três dias, com fezes endurecidas. Exame físico e urina I normais. Qual a conduta inicial mais apropriada?",
+      alternativas: {
+        a: "Prescrever desmopressina ao deitar",
+        b: "Solicitar uretrocistografia miccional",
+        c: "Tratar a constipação e iniciar uroterapia",
+        d: "Indicar alarme de enurese"
+      },
+      correta: "c",
+      comentario: "A pista está nos sintomas diurnos: urgência, perdas em pequena quantidade e manobra de contenção (agachar sobre o calcanhar, o sinal de Vincent) classificam o quadro como enurese NÃO monossintomática, associada a disfunção do trato urinário inferior. E há constipação evidente. Essa combinação define a síndrome bexiga-intestino: a ampola retal cheia comprime e irrita a bexiga, reduz a capacidade funcional e desencadeia contrações não inibidas do detrusor. Tratar o intestino sozinho já resolve uma fração expressiva desses casos, e sem isso qualquer outra medida tende a falhar. Por isso a conduta inicial é desimpactar e regularizar o hábito intestinal e instituir uroterapia padrão: micções em intervalos regulares (5 a 7 por dia), postura adequada no vaso com apoio dos pés, ingesta hídrica concentrada de manhã e à tarde com redução nas 2 horas antes de deitar, esvaziamento antes de dormir e reforço positivo com calendário de noites secas — nunca punição. A alternativa a erra porque a desmopressina foi desenhada para o componente de poliúria noturna da enurese MONOSSINTOMÁTICA; aqui o problema é vesical e intestinal, e ainda exigiria restrição hídrica pelo risco de hiponatremia. A alternativa b indica um exame invasivo sem indicação: uretrocistografia miccional não é exame de rotina de enurese, ficando reservada a suspeita de refluxo vesicoureteral ou válvula de uretra posterior. A alternativa d propõe o alarme, que é excelente — mas para a forma monossintomática e depois das medidas comportamentais; aplicá-lo antes de tratar a constipação em um quadro não monossintomático é receita de falha e frustração. Regra final: idade mínima de 5 anos para diagnosticar, classifique em primária/secundária E monossintomática/não monossintomática, e comportamental é sempre a primeira linha.",
+      foco: "Enurese não monossintomática e síndrome bexiga-intestino: tratar constipação e uroterapia antes de fármaco ou alarme (lacuna do módulo)"
+    },
+    {
+      enunciado: "Menino de 2 anos e 6 meses é trazido porque não fala palavras com significado. Não aponta para mostrar objetos, não responde ao ser chamado pelo nome, alinha carrinhos por longos períodos, tapa os ouvidos com o liquidificador e não brinca de faz-de-conta. Nasceu a termo, sem intercorrências. A avaliação auditiva foi normal. Qual a conduta mais adequada neste momento?",
+      alternativas: {
+        a: "Encaminhar para intervenção precoce interdisciplinar e solicitar CGH-array",
+        b: "Solicitar ressonância magnética de crânio e eletroencefalograma",
+        c: "Iniciar risperidona em dose baixa",
+        d: "Reavaliar em seis meses, pois a fala pode surgir espontaneamente"
+      },
+      correta: "a",
+      comentario: "O quadro fecha as duas colunas do TEA: déficit de comunicação e interação social (não aponta para mostrar, não atende pelo nome, não faz faz-de-conta) e padrões restritos e repetitivos com alteração sensorial (alinhar carrinhos, hiperreatividade auditiva). A audiometria já foi feita e é normal — ou seja, a etapa obrigatória de descartar surdez, que imita autismo, está cumprida. A partir daí, duas coisas caminham juntas. Primeiro, e mais importante: iniciar imediatamente intervenção precoce interdisciplinar, mediada pela família, sem esperar o diagnóstico ser formalmente fechado — a janela de plasticidade e poda sináptica está aberta agora, e é isso que muda o prognóstico funcional. Segundo, a investigação etiológica de primeira linha, que hoje é o CGH-array (microarranjo cromossômico), acompanhado da pesquisa de X frágil; o cariótipo ficou reservado para fenótipos que sugerem aneuploidia. A alternativa b pede exames que não são de rotina: RM entra com micro ou macrocefalia, exame neurológico focal ou crises; EEG entra com suspeita de crise ou com regressão de linguagem, hipótese em que se investiga síndrome de Landau-Kleffner — nada disso está na vinheta, que descreve atraso e não regressão. A alternativa c medica sem alvo: risperidona e aripiprazol são aprovados no TEA apenas para irritabilidade, agressividade e autoagressão, e nenhum fármaco atua sobre o núcleo social ou os comportamentos repetitivos; ademais, a criança não apresenta comportamento agressivo. A alternativa d é o erro clássico e o mais custoso: nenhuma palavra aos 16 a 18 meses, ausência de apontar aos 12 a 15 meses e ausência de resposta ao nome são sinais de alerta que exigem ação, nunca conduta expectante. Esperar para ver desperdiça exatamente o período em que a intervenção rende mais.",
+      foco: "TEA: intervenção precoce sem esperar diagnóstico fechado e CGH-array como genética de 1ª linha (lacuna do módulo)"
+    },
+    {
+      enunciado: "Menino de 5 anos, com hipertrofia adenotonsilar conhecida, é encaminhado por hiperatividade, impulsividade e desatenção na pré-escola. A mãe relata ronco alto todas as noites, pausas respiratórias presenciadas, sono agitado, respiração bucal e episódios de perda urinária noturna que haviam cessado aos 4 anos. Qual a hipótese que melhor explica o conjunto e orienta a conduta?",
+      alternativas: {
+        a: "Transtorno do espectro autista",
+        b: "Apneia obstrutiva do sono",
+        c: "Transtorno de déficit de atenção e hiperatividade",
+        d: "Transtorno de ansiedade generalizada"
+      },
+      correta: "b",
+      comentario: "Ronco habitual, pausas presenciadas, respiração bucal e sono agitado em criança com hipertrofia adenotonsilar formam o retrato da apneia obstrutiva do sono pediátrica. O detalhe que amarra tudo é o comportamento diurno: na criança, ao contrário do adulto, a privação e a fragmentação do sono se manifestam como HIPERATIVIDADE, impulsividade e desatenção, e não como sonolência — por isso a SAOS é o grande imitador do TDAH nessa faixa etária, e por isso a pergunta sobre ronco é obrigatória em toda avaliação de desatenção. O retorno da enurese fecha o raciocínio: trata-se de enurese secundária, já que houve pelo menos seis meses de controle prévio, e a SAOS é uma das causas clássicas, por aumento da pressão negativa intratorácica, alteração do despertar e liberação de peptídeo natriurético atrial com poliúria noturna. O diagnóstico de referência é a polissonografia e o tratamento de escolha na criança com hipertrofia adenotonsilar é a adenotonsilectomia, que costuma melhorar tanto os sintomas noturnos quanto o comportamento diurno e a enurese. A alternativa a não se sustenta: não há déficit de reciprocidade social nem comportamentos restritos e repetitivos, que são as duas colunas exigidas para TEA. A alternativa c é o distrator principal, e é justamente o erro que a questão quer capturar: os sintomas comportamentais existem, mas têm causa identificável e reversível, e rotular TDAH antes de tratar a apneia leva a medicar uma criança que precisava de cirurgia. Vale lembrar que o próprio critério de TDAH exclui sintomas melhor explicados por outra condição. A alternativa d não explica ronco, pausas nem enurese. Guarde a lista de imitadores do TDAH: apneia obstrutiva do sono, deficiência de ferro, hipertireoidismo, epilepsia de ausência, déficit auditivo ou visual, ansiedade e depressão, e negligência ou violência doméstica.",
+      foco: "SAOS como imitador de TDAH e causa de enurese secundária: excluir antes de rotular (lacuna do módulo)"
+    }
+  );
+
+  n.notaErro += `
+
+**Complemento de 30/08/2026 — por que este módulo foi aprofundado hoje.** Nenhum tema de Pediatria com erro registrado tinha módulo abaixo do padrão; os dois únicos módulos \`PED|\` ainda rasos eram este e Desenvolvimento/puericultura. Como o painel ainda mostra **0 erros em 9 questões** suas neste domínio, a prioridade aqui é **prevenir o erro futuro**, e o risco concentra-se em quatro lugares que as novas seções cobrem:
+
+- **Números dos critérios.** A banca não pergunta "o que é TDAH", pergunta se você sabe que são **6/9 sintomas** (5/9 a partir dos 17 anos), **início antes dos 12 anos** (não 7) e **≥2 ambientes**. Errar aqui é errar por decoreba incompleta, não por raciocínio (seção 12).
+- **Confundir causa reversível com transtorno.** O erro mais caro do tema é rotular TDAH numa criança que ronca, ou TEA numa criança que não ouve. A seção 13 lista os imitadores; a regra que zera esse erro é sempre passar por **audição, visão e sono** antes do rótulo.
+- **Conduta fora de ordem.** Três ordens precisam estar automáticas: no TEA, **intervenção precoce antes do diagnóstico fechado** e **audiometria antes de genética**; na DI/atraso global, **CGH-array antes de cariótipo**; na enurese, **comportamental e constipação antes de alarme ou fármaco**.
+- **Mitos oferecidos como alternativa.** Metilfenidato causando dependência, vacina causando autismo, dieta sem glúten tratando TEA, lente colorida tratando dislexia, EEG confirmando TDAH — todos são distratores plantados. As seções 11 e 14 os desarmam um a um.
+
+**Como zerar:** diante da vinheta, responda em voz alta as cinco perguntas da seção 20 (domínio afetado → atraso/transtorno/regressão → já excluí o que imita? → critério formal preenchido? → conduta de maior evidência). As quatro questões novas ao final treinam exatamente os quatro pontos acima.`;
+
+})();
+
+/* ============================================================================
+   APROFUNDAMENTO 2026-08-30 — PED|Desenvolvimento / puericultura
+   Motivo: segundo módulo PED| abaixo do padrão-ouro (2.3k palavras, 10 seções,
+   3 questões). Tema ESSENCIAL e presente no simulado de hoje (bloco real
+   SUS-BA R+ Pediatria 2024 — Saúde Coletiva e Puericultura).
+   Somente acréscimos: nada foi removido.
+   ========================================================================== */
+(function(){
+  var p = window.REVISAO_MODULOS["PED|Desenvolvimento / puericultura"];
+  if(!p) return;
+
+  p.secoes.push({
+    h: "11. Como o crescimento acontece — as três fases e quem manda em cada uma",
+    c: `Crescer não é um processo único: são **três motores diferentes** que se revezam ao longo da vida (é o modelo ICP, de Karlberg — infância, criança, puberdade). Entender qual motor está ligado explica por que uma criança desnutrida aos 6 meses tem um problema diferente da que estaciona aos 8 anos.
+
+- **Fase de lactente (do nascimento aos ~2-3 anos).** É a fase mais rápida da vida extrauterina e o motor principal é a **nutrição** (com insulina e IGF-1 nutricional). O eixo GH/IGF-1 ainda é secundário. Consequência prática: **desnutrição, doença crônica e negligência afetam o crescimento muito mais nesta fase**, e é aqui que o lactente "encontra o seu canal" — ele pode cruzar percentis para cima ou para baixo até cerca dos 2-3 anos até se acomodar no canal determinado pela genética.
+- **Fase de criança (dos ~3 anos até a puberdade).** Motor: **hormônio de crescimento (GH) e IGF-1**, com permissão obrigatória do **hormônio tireoidiano**. Velocidade estável, de **5 a 7 cm/ano**, caindo lentamente até um mínimo pré-puberal de ~4-5 cm/ano. É a fase mais "regular" e, por isso, a mais reveladora: **desaceleração nessa fase é anormal e obriga a pensar em hipotireoidismo, deficiência de GH, doença celíaca, doença renal crônica e uso de corticoide**.
+- **Fase puberal.** Motor: **esteroides sexuais somados ao GH**. O estirase acelera para **8 a 12 cm/ano** (pico maior nos meninos), e os mesmos esteroides que aceleram o crescimento são os que **fecham as cartilagens epifisárias** — por isso puberdade precoce faz a criança ser a mais alta da turma e o adulto mais baixo da família.
+
+Duas âncoras numéricas que a prova cobra direto: o **peso de nascimento dobra por volta dos 4-5 meses e triplica aos 12 meses**; o **comprimento aumenta ~50% no primeiro ano** (de ~50 para ~75 cm) e a **estatura ao nascer dobra por volta dos 4 anos**. O **perímetro cefálico** cresce cerca de **12 cm no primeiro ano** (~2 cm/mês no 1º trimestre, 1 cm/mês no 2º e 0,5 cm/mês no 2º semestre), refletindo o crescimento do encéfalo.
+
+E a regra de bolso para estatura: **1 ano ≈ 75 cm; 4 anos ≈ 100 cm; depois some ~6 cm por ano.** Serve de checagem rápida quando a vinheta dá um valor e você precisa julgar se ele é plausível.`
+  });
+
+  p.secoes.push({
+    h: "12. Velocidade de crescimento, canal e estatura-alvo — o trio que separa variante de doença",
+    c: `Um valor isolado de estatura diz pouco. O que diz muito é o **comportamento da curva ao longo do tempo**. Três ferramentas:
+
+**1) Velocidade de crescimento.** É a estatura ganha por unidade de tempo, calculada em intervalo de **pelo menos 6 meses** (idealmente 12) — abaixo disso, o erro de medida e a sazonalidade do crescimento distorcem tudo. Valores de referência: ~25 cm no 1º ano, ~12 cm no 2º, ~8 cm no 3º, depois **5-7 cm/ano** até a puberdade. **Velocidade baixa é o sinal mais sensível de doença**, mesmo com estatura ainda dentro da normalidade.
+
+**2) Canal de crescimento.** Depois dos 2-3 anos, a criança saudável cresce **paralelamente** a um percentil (ou a um valor de escore Z), o seu canal. **Cruzar canais para baixo é alerta** — e este é o ponto que a banca esconde: uma criança no percentil 25 que estava no 75 pode estar doente, ainda que o percentil 25 seja "normal". O inverso (cruzar para cima após os 3 anos) sugere obesidade, puberdade precoce ou excesso de hormônio.
+
+**3) Estatura-alvo (alvo genético).** A fórmula que cai:
+
+- **Menino:** (estatura da mãe **+ 13** + estatura do pai) ÷ 2
+- **Menina:** (estatura do pai **− 13** + estatura da mãe) ÷ 2
+
+O resultado tem uma faixa de ± 8,5 cm (aproximadamente ± 2 desvios-padrão). Serve para responder à pergunta central: **a criança é baixa para a população ou baixa para a própria família?**
+
+**As duas variantes normais que a prova adora contrapor:**
+
+- **Baixa estatura familiar:** pais baixos, **estatura-alvo baixa**, **velocidade de crescimento normal**, **idade óssea igual à cronológica**, puberdade em idade normal. A criança é baixa e será um adulto baixo — dentro do previsto pela família. Conduta: **acompanhar, não investigar exaustivamente**.
+- **Atraso constitucional do crescimento e da puberdade:** frequentemente há **história familiar de "pai que cresceu tarde" / mãe com menarca tardia**, velocidade de crescimento normal ou levemente baixa, **idade óssea ATRASADA em relação à cronológica** e puberdade que chega depois — mas a **estatura final é normal** (a idade óssea atrasada significa "sobra cartilagem", ou seja, sobra tempo de crescer). Conduta: tranquilizar e acompanhar.
+
+**Quando é doença**: velocidade de crescimento baixa, cruzamento de canais para baixo, desproporção entre segmentos (displasias ósseas), estatura muito abaixo do alvo familiar, dismorfismos, ou o padrão que resolve muita questão — **criança baixa e GORDINHA sugere causa endócrina (hipotireoidismo, deficiência de GH, Cushing); criança baixa e MAGRA sugere causa nutricional ou doença crônica** (celíaca, doença inflamatória intestinal, DRC, cardiopatia).`
+  });
+
+  p.secoes.push({
+    h: "13. Os índices antropométricos do Ministério da Saúde — pontos de corte que caem literalmente",
+    c: `A Caderneta da Criança usa as curvas da OMS e classifica por **escore Z**, com quatro índices. Saber qual índice usar para qual pergunta é meio caminho:
+
+- **Peso para a idade (P/I)** — índice de triagem geral; mistura peso e altura, então **não distingue** desnutrição aguda de crônica. Usado até 10 anos.
+- **Estatura para a idade (E/I)** — o **melhor indicador de desnutrição crônica** e de história nutricional pregressa. Baixa estatura = **nanismo nutricional/stunting**.
+- **Peso para a estatura (P/E)** — o **melhor indicador de desnutrição AGUDA** (emagrecimento/wasting) e também de excesso de peso em menores de 5 anos.
+- **IMC para a idade (IMC/I)** — índice preferencial para diagnosticar sobrepeso e obesidade, e o único usado dos 5 aos 19 anos junto com E/I.
+
+**Pontos de corte por escore Z (crianças menores de 5 anos), do jeito que o MS escreve:**
+
+Para **P/I**: < −3 = peso muito baixo para a idade; ≥ −3 e < −2 = baixo peso; ≥ −2 e ≤ +2 = peso adequado; > +2 = peso elevado.
+
+Para **E/I**: < −3 = estatura muito baixa; ≥ −3 e < −2 = baixa estatura; ≥ −2 = estatura adequada.
+
+Para **P/E e IMC/I (menores de 5 anos)**: < −3 = magreza acentuada; ≥ −3 e < −2 = magreza; ≥ −2 e ≤ +1 = **eutrofia**; > +1 e ≤ +2 = **risco de sobrepeso**; > +2 e ≤ +3 = **sobrepeso**; > +3 = **obesidade**.
+
+**Dos 5 aos 19 anos os cortes de excesso de peso mudam** (é a pegadinha mais frequente do bloco): > +1 = **sobrepeso**; > +2 = **obesidade**; > +3 = **obesidade grave**. Ou seja, o mesmo escore Z +2,5 é "sobrepeso" no lactente e "obesidade" no escolar. E magreza continua < −2, magreza acentuada < −3.
+
+**A equivalência que resolve as questões de interpretação:** escore Z **0 = mediana = percentil 50**; **Z −2 ≈ percentil 3**; **Z +2 ≈ percentil 97**; Z −1 ≈ P15; Z +1 ≈ P85; Z −3 ≈ P0,1. E a definição técnica que a banca cobra em frase: **escore Z é o número de desvios-padrão que a medida da criança está acima ou abaixo da mediana da população de referência** — percentil é a **posição relativa** ("X% das crianças estão abaixo dela"). São escalas diferentes para a mesma informação; o escore Z é preferido porque é **linear**, permite descrever valores extremos (um percentil "abaixo de 0,1" não discrimina, mas Z −4 e Z −5 sim) e permite cálculos estatísticos.
+
+**Desnutrição grave — os dois fenótipos clássicos:** **marasmo** (déficit energético global, criança emaciada, "cara de velho", **sem edema**, apetite preservado) e **kwashiorkor** (déficit predominantemente proteico, **edema bilateral de extremidades**, hepatomegalia por esteatose, lesões de pele em "tinta descascada", cabelo despigmentado — sinal da bandeira, apatia e anorexia). O **edema bilateral define kwashiorkor independentemente do peso** — e por isso mesmo o peso pode enganar. Na desnutrição grave, cuidado com a **síndrome de realimentação** (hipofosfatemia, hipocalemia, hipomagnesemia) e trate a hipoglicemia, a hipotermia e a infecção antes de correr para ganhar peso.`
+  });
+
+  p.secoes.push({
+    h: "14. Perímetro cefálico — micro e macrocefalia sem decoreba",
+    c: `O perímetro cefálico (PC) é medido na **maior circunferência occipito-frontal** e deve ser aferido em **todas as consultas até os 2 anos** (a SBP recomenda manter até os 3). Ele é um proxy do volume encefálico: em criança pequena, com suturas ainda abertas, **o crânio acompanha o cérebro**.
+
+**Definições:** **microcefalia** = PC < −2 escores Z para idade e sexo; **microcefalia grave** = < −3. **Macrocefalia** = PC > +2. Ponto crítico: o **valor isolado importa menos que a curva** — um PC no Z −1,8 estável em criança saudável com pais de cabeça pequena é diferente de um PC que **cruza canais para baixo** em três consultas.
+
+**Microcefalia** pode ser **congênita** (presente ao nascimento, apontando para causa pré-natal: infecções congênitas do grupo STORCH — com destaque, no Brasil, para **Zika** e para **citomegalovírus** e toxoplasmose; síndromes genéticas; álcool na gestação; disrupções vasculares) ou **adquirida/pós-natal** (o crânio nasce normal e desacelera: encefalopatia hipóxico-isquêmica, meningite, desnutrição grave, síndrome de Rett, erros inatos do metabolismo). Investigação: sorologias/investigação de infecção congênita conforme o caso, **neuroimagem** (a ultrassonografia transfontanela é o primeiro passo enquanto a fontanela está aberta; a TC mostra bem calcificações; a RM caracteriza malformações), fundo de olho, triagem auditiva e avaliação genética.
+
+**Macrocefalia** exige separar três coisas: (1) **macrocefalia familiar benigna** — meça a cabeça dos pais, é a causa mais comum, com desenvolvimento normal e curva paralela; (2) **hidrocefalia** — PC cruzando canais **para cima**, **fontanela tensa e abaulada**, suturas separadas, **olhar "em sol poente"**, irritabilidade, vômitos, veias do couro cabeludo ingurgitadas — é emergência de imagem; (3) **coleção subdural / hematoma** — em lactente, levanta a hipótese de **traumatismo craniano abusivo (síndrome do bebê sacudido)**, sobretudo com hemorragias retinianas e história inconsistente; e **megalencefalia** (síndromes de crescimento excessivo, neurofibromatose, doenças metabólicas).
+
+**Fontanelas**, que caem junto: a **anterior (bregmática)** é romboide e fecha entre **9 e 18 meses** (algumas fontes aceitam até 24); a **posterior (lambdoide)** é triangular e fecha até **2 meses**. **Fechamento precoce** ou fontanela pequena com crista palpável na sutura → pensar em **craniossinostose** (crânio de formato anômalo, com deformidade característica conforme a sutura acometida). **Fechamento tardio ou fontanela ampla** → **hipotireoidismo congênito**, raquitismo, trissomia do 21, hipertensão intracraniana, osteogênese imperfeita. **Fontanela abaulada e tensa** = hipertensão intracraniana; **fontanela deprimida** = desidratação.`
+  });
+
+  p.secoes.push({
+    h: "15. O prematuro — idade corrigida, catch-up e o seguimento que a prova cobra",
+    c: `Avaliar prematuro com idade cronológica é o erro mais barato de evitar e um dos mais cobrados.
+
+**Idade corrigida** = idade cronológica **menos** as semanas que faltaram para 40 semanas. Exemplo: bebê nascido com 32 semanas, hoje com 6 meses de vida cronológica → faltaram 8 semanas (2 meses) → **idade corrigida de 4 meses**. É por essa idade que se avaliam **marcos do desenvolvimento e curvas de crescimento**, tipicamente **até os 2 anos** (alguns serviços mantêm até 3 anos para prematuros extremos). Duas exceções importantes: **o calendário vacinal segue a idade CRONOLÓGICA** (vacina-se pela data de nascimento, sem corrigir) e a introdução alimentar costuma ser guiada pela idade corrigida e pela prontidão neurológica.
+
+**Curvas.** Para o crescimento intrauterino e para o prematuro internado usam-se curvas específicas (**Fenton**, **Intergrowth-21st**); após o termo corrigido, migra-se para as curvas da OMS aplicadas à idade corrigida.
+
+**Catch-up.** O prematuro saudável tende a recuperar o canal: **perímetro cefálico** primeiro (nos primeiros meses), depois **peso**, depois **estatura**, na maioria até 2-3 anos. Falha de catch-up é sinal de alerta nutricional ou de doença de base. Por outro lado, **catch-up excessivamente rápido**, com ganho de peso desproporcional, associa-se a risco cardiometabólico futuro (programação metabólica) — por isso a meta é crescimento adequado, não "engordar o máximo possível".
+
+**O seguimento ambulatorial do prematuro (follow-up) tem itens obrigatórios que caem em prova:**
+
+- **Retinopatia da prematuridade** — triagem oftalmológica em recém-nascidos com **< 32 semanas ou < 1500 g** (ou maiores com fatores de risco), primeiro exame entre 4 e 6 semanas de vida ou 31-32 semanas de idade pós-menstrual, com seguimento seriado.
+- **Triagem auditiva** — obrigatória em todos; no prematuro e no que passou por UTI, com fatores de risco, usa-se **PEATE/BERA** (não apenas emissões otoacústicas), e há necessidade de **monitoramento auditivo** ao longo dos primeiros anos pelo risco de perda tardia.
+- **Anemia da prematuridade** — suplementação de **ferro** iniciada mais cedo e em dose maior que a do termo, conforme peso de nascimento, além de vitamina D.
+- **Palivizumabe/imunização passiva contra VSR** — conforme critérios do Ministério da Saúde (prematuros < 29 semanas no primeiro ano; cardiopatas e portadores de doença pulmonar da prematuridade até 2 anos), durante a sazonalidade.
+- **Neurodesenvolvimento** — vigilância ativa por idade corrigida, atenção a **paralisia cerebral (diplegia espástica é o padrão clássico da leucomalácia periventricular)**, déficits sensoriais e, mais tarde, dificuldades de aprendizagem e TDAH, cuja incidência é maior nessa população.`
+  });
+
+  p.secoes.push({
+    h: "16. Alimentação na puericultura — aleitamento, introdução alimentar e suplementos",
+    c: `**Definições da OMS (a banca pergunta o nome exato):**
+
+- **Aleitamento materno exclusivo** — só leite materno, direto ou ordenhado, **sem nenhum outro líquido ou sólido**, exceto medicamentos, vitaminas e sais de reidratação oral. **Água, chá e suco quebram a exclusividade.**
+- **Aleitamento materno predominante** — leite materno + água/chás/sucos.
+- **Aleitamento materno complementado** — leite materno + alimentos sólidos/semissólidos.
+- **Aleitamento materno misto/parcial** — leite materno + outro leite.
+
+**Recomendação:** aleitamento **exclusivo até os 6 meses** e **complementado até 2 anos ou mais**.
+
+**Contraindicações absolutas ao aleitamento** (lista curta e cobrada): **HIV** e **HTLV** maternos (no Brasil), **galactosemia clássica** no bebê, uso materno de **antineoplásicos e radiofármacos**, e alguns psicotrópicos específicos. **Não são contraindicação**: hepatite B (amamenta, com vacina e imunoglobulina ao RN), hepatite C (salvo fissura sangrante), tuberculose materna (amamenta com máscara e tratamento), CMV em RN a termo, mastite (amamenta, inclusive na mama afetada), dengue, covid-19.
+
+**Introdução alimentar (Guia Alimentar para Crianças Brasileiras Menores de 2 Anos, MS):** começa aos **6 meses**, com a comida **da família**, amassada com o garfo — **nunca liquidificada nem peneirada**. Oferecer os grupos: cereal/tubérculo, leguminosa (feijão), proteína animal e legume/verdura, além de fruta nos lanches. Evoluir a consistência progressivamente até chegar à comida da família aos 12 meses. **Proibições até 2 anos: açúcar, mel** (risco de **botulismo do lactente** — este é ainda mais rígido, proibido no primeiro ano), refrigerante, ultraprocessados, embutidos e excesso de sal. Não forçar; a criança regula a quantidade, o adulto decide o que e quando (divisão de responsabilidade). **Adiar alimentos alergênicos NÃO previne alergia** — pelo contrário, a introdução oportuna (inclusive de ovo e amendoim) é protetora.
+
+**Suplementação (SBP/MS) — números que caem:**
+
+- **Vitamina D**: **400 UI/dia do primeiro mês (a partir da primeira semana) até 12 meses**; **600 UI/dia dos 12 aos 24 meses** — para **todas** as crianças, inclusive as em aleitamento exclusivo, independentemente da exposição solar. Prematuros podem exigir doses maiores.
+- **Ferro profilático**: **1 mg/kg/dia** dos **3** aos 24 meses para o lactente a termo com peso adequado (o MS traz também o esquema a partir dos 6 meses conforme a versão do caderno — conheça a lógica: a reserva hepática de ferro do termo dura cerca de 4 a 6 meses). Para **prematuros e baixo peso**, começa no **1º mês** com doses maiores (2 a 4 mg/kg/dia conforme o peso de nascimento).
+- **Vitamina A** e **vitamina K** têm programas próprios (megadose de vitamina A em áreas de risco; vitamina K intramuscular ao nascer para prevenir a doença hemorrágica do recém-nascido).
+
+**Sinais de pega correta** (cai como imagem ou descrição): boca bem aberta, lábio inferior evertido, queixo tocando a mama, aréola mais visível acima que abaixo, bochechas arredondadas, sucção lenta e profunda com deglutição audível. Pega incorreta → fissura, dor e baixa transferência de leite.`
+  });
+
+  p.secoes.push({
+    h: "17. A Caderneta e as triagens neonatais — o que cada 'teste' pega e quando fazer",
+    c: `As triagens são um bloco de perguntas quase garantido. O truque é lembrar **o que cada uma detecta** e **a janela de tempo**.
+
+- **Teste do pezinho (triagem neonatal biológica).** Coleta de sangue do calcanhar **entre 48 horas e o 5º dia de vida** (a coleta muito precoce dá falso-negativo para hipotireoidismo e falso-positivo para 17-OH-progesterona; a tardia atrasa o tratamento da fenilcetonúria). O painel básico do SUS detecta: **fenilcetonúria, hipotireoidismo congênito, doença falciforme e outras hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita, deficiência de biotinidase e toxoplasmose congênita**. A **Lei 14.154/2021** ampliou o programa para até 50 doenças, em implantação escalonada por etapas. Racional: são doenças **graves, tratáveis, com período assintomático inicial** e cujo tratamento precoce muda o desfecho — critério clássico de rastreamento.
+- **Teste da orelhinha (triagem auditiva neonatal).** Idealmente ainda na maternidade, **até o 1º mês**. Usa **emissões otoacústicas evocadas** como método inicial no RN sem fator de risco; nos que têm fator de risco (UTI > 5 dias, prematuridade, hiperbilirrubinemia com exsanguineotransfusão, infecção congênita, uso de aminoglicosídeo, malformação craniofacial, história familiar), usa-se **PEATE/BERA**, porque as emissões não detectam **neuropatia auditiva** (a cóclea funciona, a via não). Falha → reteste e encaminhamento; **diagnóstico até 3 meses e intervenção até 6 meses** é a meta que muda o prognóstico de linguagem.
+- **Teste do olhinho (reflexo vermelho).** Ainda na maternidade e **repetido nas consultas de puericultura** (SBP: pelo menos 2-3 vezes ao ano nos primeiros 3 anos). **Reflexo ausente, assimétrico ou esbranquiçado (leucocoria) é anormal e exige oftalmologista com urgência** — detecta **catarata congênita, glaucoma congênito e retinoblastoma**, além de opacidades de córnea e retinopatia da prematuridade avançada.
+- **Teste do coraçãozinho (oximetria de pulso).** Entre **24 e 48 horas de vida**, em RN ≥ 34 semanas, com medida da **saturação em membro superior direito (pré-ductal) e em um membro inferior (pós-ductal)**. **Alterado** se saturação < 95% em qualquer membro **ou** diferença ≥ 3% entre eles. Repete em 1 hora; se persistir, **ecocardiograma em até 24 horas**. Detecta **cardiopatias congênitas críticas dependentes de canal arterial** — não detecta todas (as não cianóticas escapam, por isso a **ausculta e a palpação dos pulsos femorais** continuam obrigatórias).
+- **Teste da linguinha (protocolo de avaliação do frênulo lingual).** Obrigatório por lei em todos os RN; identifica **anquiloglossia** que interfira na amamentação.
+
+**A Caderneta da Criança** é o instrumento oficial que reúne tudo isso: curvas de crescimento, marcos do desenvolvimento por faixa etária com os sinais de alerta, calendário vacinal, registro das triagens, orientações de alimentação, sono seguro e prevenção de acidentes. Nas questões de Saúde Coletiva, a resposta correta quase sempre passa por **registrar e usar a Caderneta**, não por pedir exames.`
+  });
+
+  p.secoes.push({
+    h: "18. Aconselhamento antecipatório — sono seguro, acidentes, sol, saúde bucal",
+    c: `Puericultura não é só medir: metade da consulta é **orientação antecipatória**, ou seja, falar do risco **antes** de ele acontecer, na idade em que ele aparece.
+
+**Sono seguro e prevenção da morte súbita do lactente (SMSL).** A regra é decorável e cai literalmente:
+
+- **Dormir em decúbito DORSAL** (de barriga para cima) em todas as sonecas, até 1 ano — foi a medida que derrubou a mortalidade.
+- **Superfície firme**, no **berço próprio**, **no mesmo quarto dos pais até 6-12 meses** (compartilhar quarto protege; **compartilhar cama não** — cama compartilhada aumenta o risco, sobretudo com pais fumantes, que ingeriram álcool ou em sofá).
+- **Berço limpo**: sem travesseiro, sem protetor de berço, sem almofadas, sem cobertores soltos, sem brinquedos.
+- **Evitar superaquecimento** e **evitar tabagismo na gestação e no domicílio**.
+- **Aleitamento materno e vacinação em dia protegem**; oferecer chupeta na hora de dormir, após a amamentação estabelecida, tem efeito protetor.
+
+**Prevenção de acidentes por faixa etária** (a lógica é acompanhar o desenvolvimento motor):
+
+- **0-6 meses:** quedas do trocador e da cama, sufocação no leito, queimadura por líquido quente no colo, **transporte no bebê-conforto voltado para trás**.
+- **6-12 meses (senta, pega, leva à boca):** **corpo estranho e engasgo** (uva inteira, pipoca, amendoim, moeda, pilha-botão), queimadura por puxar toalha de mesa, intoxicação por produto de limpeza ao alcance, afogamento em balde e banheira.
+- **1-4 anos (anda, corre, explora):** afogamento (piscina cercada em quatro lados), atropelamento, queda de janela e escada (grades e portões), intoxicação exógena (medicamento é a principal causa), queimadura em cabo de panela.
+- **Escolar e adolescente:** trânsito, bicicleta com capacete, esporte, afogamento em rio e mar, violência e uso de substâncias.
+- **Cadeirinha:** bebê-conforto voltado para trás até o limite do fabricante; cadeirinha; **assento de elevação** até 1,45 m de altura ou 10 anos; **banco traseiro** até 10 anos.
+
+**Sol e pele:** evitar exposição solar direta em **menores de 6 meses** (sombra e roupa; protetor só em áreas pequenas quando inevitável); após 6 meses, protetor solar, chapéu e evitar o horário entre 10 e 16 h.
+
+**Saúde bucal:** limpeza da gengiva desde antes dos dentes; **escovação com creme dental fluoretado (1000-1450 ppm) desde o primeiro dente**, em quantidade de "grão de arroz" até 3 anos e "grão de ervilha" depois; **primeira consulta odontológica no primeiro ano de vida**; **não adoçar chupeta nem mamadeira** e evitar mamadeira noturna após a erupção dentária (cárie de mamadeira). **Erupção dentária**: primeiros incisivos centrais inferiores por volta dos **6-8 meses**, com **20 dentes decíduos completos por volta dos 30 meses**; regra prática — número de dentes ≈ idade em meses − 6.
+
+**Telas:** evitar completamente antes dos 2 anos (SBP e AAP), no máximo 1 h/dia entre 2 e 5 anos, sempre acompanhado — o argumento não é moral, é de desenvolvimento: tempo de tela desloca interação face a face, que é o insumo da linguagem.`
+  });
+
+  p.secoes.push({
+    h: "19. Instrumentos de avaliação do desenvolvimento — qual usar e para quê",
+    c: `A prova diferencia **vigilância** de **triagem** de **diagnóstico**, e essa distinção é o coração das questões de Saúde Coletiva:
+
+- **Vigilância do desenvolvimento** é o processo **contínuo**, feito em **toda** consulta de puericultura: perguntar as preocupações dos pais, checar marcos e fatores de risco, observar a criança e registrar na Caderneta. Não precisa de instrumento formal.
+- **Triagem (rastreamento)** é a aplicação de um **instrumento padronizado** em momentos definidos, mesmo sem queixa. Rastreio positivo **não** dá diagnóstico: indica avaliação aprofundada.
+- **Diagnóstico** é a avaliação especializada, multiprofissional.
+
+**Instrumentos que aparecem em prova:**
+
+- **Caderneta da Criança (MS)** — marcos por faixa etária com sinais de alerta; é o instrumento oficial da APS brasileira.
+- **Denver II** — triagem clássica dos quatro domínios (motor grosseiro, motor fino-adaptativo, linguagem, pessoal-social) de 0 a 6 anos. É **triagem, não teste de QI nem diagnóstico**.
+- **ASQ-3 (Ages and Stages Questionnaires)** e **SWYC** — questionários respondidos pelos pais, aplicáveis em rastreio populacional.
+- **M-CHAT-R/F** — rastreio específico de **autismo**, aplicado aos **18 e aos 24 meses** (a AAP recomenda rastrear TEA nessas duas idades, além da vigilância em todas as consultas). Positivo → entrevista de seguimento (o "F" de follow-up) e, se persistir, encaminhamento **com início simultâneo da intervenção**.
+- **Escalas Bayley** — avaliação diagnóstica do desenvolvimento em serviço especializado (não é rastreio de APS).
+
+**Periodicidade de consultas (MS/SBP)** — o mínimo preconizado no primeiro ano: primeira consulta **na primeira semana de vida** (idealmente até o 5º dia, aproveitando a coleta do pezinho), depois **1, 2, 4, 6, 9 e 12 meses**; no segundo ano, aos **18 e 24 meses**; a partir daí, **anual** até a adolescência (com reforço na fase puberal). Crianças de risco (prematuro, baixo peso, gemelar, mãe adolescente, baixa escolaridade materna, vulnerabilidade social) devem ter **calendário mais frequente**.
+
+**Conduta diante de atraso — a sequência que o MS preconiza:** (1) verificar se há **fator de risco** e se a queixa se confirma no exame; (2) **descartar causas reversíveis**: audição, visão, anemia/ferro, desnutrição, doença crônica, uso de medicações e, sempre, **contexto de negligência ou violência**; (3) **orientar estimulação em casa**, com orientação concreta aos cuidadores; (4) **reavaliar em 30 dias**; (5) **encaminhar** se mantiver o atraso, se houver **sinal de alerta**, **regressão** ou alteração no exame neurológico. Note que "solicitar bateria de exames" quase nunca é a resposta certa em uma questão de APS: a conduta é **estimular, reavaliar e encaminhar** — e encaminhar **não** significa parar de acompanhar na atenção básica.`
+  });
+
+  p.secoes.push({
+    h: "20. Algoritmo final da consulta de puericultura — em sete movimentos",
+    c: `Roteiro que funciona tanto na prática quanto para destravar qualquer vinheta:
+
+**1) Escutar a preocupação dos pais.** Preocupação parental com o desenvolvimento tem alto valor preditivo — nunca descarte com "é normal, espere".
+
+**2) Medir e plotar.** Peso, estatura/comprimento (deitado até 2 anos, em pé depois) e **perímetro cefálico até 2 anos**. Plote na curva da OMS — em prematuro, use **idade corrigida**. Olhe a **tendência**, não só o ponto: cruzar canais para baixo é alerta mesmo dentro da faixa normal.
+
+**3) Classificar por escore Z.** Escolha o índice certo: E/I para crônico, P/E para agudo, IMC/I para excesso. Lembre que **eutrofia em < 5 anos é Z entre −2 e +1** e que os cortes de excesso mudam aos 5 anos.
+
+**4) Avaliar o desenvolvimento por domínio.** Motor grosseiro, motor fino, linguagem e pessoal-social. Cheque os marcos-âncora: **sorriso social ~2 meses; sustenta a cabeça ~3-4 meses; rola ~4-6; senta sem apoio ~6-8; pinça ~9-10; anda sem apoio ~12-15 (limite 18); primeira palavra ~12; duas palavras juntas ~24; frase de 3 palavras ~36.** Confira os reflexos primitivos e a **ausência de preferência manual antes de 1 ano** (preferência precoce = alerta de hemiparesia).
+
+**5) Rastrear o que precisa ser rastreado naquela idade.** Triagens neonatais na primeira consulta; **reflexo vermelho** em todas; **M-CHAT aos 18 e 24 meses**; anemia conforme protocolo local; pressão arterial a partir dos 3 anos; visão a partir dos 3-4 anos; rastreio de dislipidemia e de risco cardiometabólico conforme fatores de risco.
+
+**6) Vacinar e conferir a Caderneta.** Vacina atrasada se aproveita a consulta; prematuro vacina pela idade **cronológica**.
+
+**7) Orientar antes de precisar.** Alimentação da faixa etária, suplementação de **ferro e vitamina D**, sono seguro em decúbito dorsal, prevenção de acidentes daquela idade, saúde bucal, telas e vínculo/estimulação — e agendar o retorno.
+
+**Sinais de alerta que quebram o roteiro e exigem ação imediata em qualquer idade:** **regressão de marco já adquirido**, ausência de contato visual ou de resposta ao nome, **perímetro cefálico cruzando canais** (para cima ou para baixo), **assimetria persistente** de movimento ou tônus, persistência de reflexo primitivo além da janela, **preferência manual antes de 1 ano**, e **desaceleração de peso ou estatura** cruzando dois canais.`
+  });
+
+  p.flashcards.push(
+    {p:"Qual a fórmula da estatura-alvo (alvo genético) para menino e para menina?", r:"Menino: (altura da mãe + 13 + altura do pai) ÷ 2. Menina: (altura do pai − 13 + altura da mãe) ÷ 2. Faixa de ± 8,5 cm."},
+    {p:"Qual a velocidade de crescimento normal entre os 3 anos e a puberdade, e por que ela importa mais que a estatura isolada?", r:"5 a 7 cm/ano. A velocidade baixa é o sinal mais sensível de doença, aparecendo antes de a estatura sair da faixa normal — mas exige intervalo de pelo menos 6 meses para ser calculada."},
+    {p:"Baixa estatura familiar × atraso constitucional: o que separa os dois?", r:"A idade óssea. Na baixa estatura familiar ela é IGUAL à cronológica e a estatura final é baixa (como a dos pais). No atraso constitucional ela é ATRASADA, a puberdade vem tarde e a estatura final é normal."},
+    {p:"Criança baixa e gordinha × criança baixa e magra: o que cada padrão sugere?", r:"Baixa e gordinha → causa endócrina (hipotireoidismo, deficiência de GH, Cushing). Baixa e magra → causa nutricional ou doença crônica (celíaca, DII, doença renal crônica, cardiopatia)."},
+    {p:"Qual índice antropométrico indica desnutrição crônica e qual indica a aguda?", r:"Estatura para idade (E/I) = crônica (stunting). Peso para estatura (P/E) = aguda (wasting). Peso para idade (P/I) é triagem geral e não distingue as duas."},
+    {p:"Em menores de 5 anos, qual a faixa de escore Z de IMC/I que define eutrofia, risco de sobrepeso, sobrepeso e obesidade?", r:"Eutrofia: ≥ −2 e ≤ +1. Risco de sobrepeso: > +1 e ≤ +2. Sobrepeso: > +2 e ≤ +3. Obesidade: > +3. Dos 5 aos 19 anos os cortes mudam: > +1 sobrepeso, > +2 obesidade, > +3 obesidade grave."},
+    {p:"A que percentis correspondem os escores Z de −2, 0 e +2?", r:"Z −2 ≈ percentil 3; Z 0 = mediana = percentil 50; Z +2 ≈ percentil 97."},
+    {p:"Marasmo × kwashiorkor: qual o achado que define?", r:"O EDEMA bilateral de extremidades define kwashiorkor (déficit proteico, hepatomegalia por esteatose, lesões cutâneas, cabelo despigmentado, apatia). Marasmo é emaciação sem edema, com apetite preservado."},
+    {p:"Como se define microcefalia e macrocefalia, e o que vale mais que o valor isolado?", r:"Microcefalia: PC < −2 escores Z (grave < −3). Macrocefalia: > +2. Mais importante que o valor isolado é a TENDÊNCIA — cruzar canais para cima ou para baixo."},
+    {p:"Quando fecham as fontanelas anterior e posterior, e o que sugere fechamento tardio?", r:"Posterior até 2 meses; anterior entre 9 e 18 meses. Fechamento tardio ou fontanela ampla sugere hipotireoidismo congênito, raquitismo, trissomia do 21 ou hipertensão intracraniana. Fechamento precoce sugere craniossinostose."},
+    {p:"Como se calcula a idade corrigida do prematuro e para que ela NÃO é usada?", r:"Idade cronológica menos as semanas que faltaram para 40 semanas; usada para marcos e curvas até cerca de 2 anos. NÃO se usa para o calendário vacinal, que segue a idade cronológica."},
+    {p:"Quais os critérios de triagem de retinopatia da prematuridade?", r:"Recém-nascidos com < 32 semanas ou < 1500 g (ou maiores com fatores de risco), primeiro exame entre 4 e 6 semanas de vida ou 31-32 semanas de idade pós-menstrual, com seguimento seriado."},
+    {p:"O que quebra o aleitamento materno EXCLUSIVO?", r:"Qualquer líquido ou sólido além do leite materno — inclusive água, chá e suco. São permitidos apenas medicamentos, vitaminas e sais de reidratação oral."},
+    {p:"Cite as contraindicações absolutas ao aleitamento materno no Brasil.", r:"HIV e HTLV maternos, galactosemia clássica no bebê, uso materno de antineoplásicos e radiofármacos. Hepatite B, hepatite C, tuberculose tratada, mastite e covid-19 NÃO contraindicam."},
+    {p:"Doses de suplementação de vitamina D e ferro no lactente a termo (SBP/MS).", r:"Vitamina D: 400 UI/dia do 1º mês aos 12 meses e 600 UI/dia dos 12 aos 24 meses, para todos. Ferro profilático: 1 mg/kg/dia dos 3 (ou 6, conforme a versão) aos 24 meses; prematuro/baixo peso começa no 1º mês com 2 a 4 mg/kg/dia."},
+    {p:"Por que o mel é proibido no primeiro ano de vida?", r:"Risco de botulismo do lactente — esporos de Clostridium botulinum germinam no intestino imaturo. Açúcar e ultraprocessados são evitados até os 2 anos."},
+    {p:"Quando se colhe o teste do pezinho e o que o painel básico do SUS detecta?", r:"Entre 48 h e o 5º dia de vida. Detecta fenilcetonúria, hipotireoidismo congênito, doença falciforme/hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita, deficiência de biotinidase e toxoplasmose congênita. A Lei 14.154/2021 amplia para até 50 doenças."},
+    {p:"Quando o teste do coraçãozinho é considerado alterado?", r:"Saturação < 95% em membro superior direito ou membro inferior, OU diferença ≥ 3% entre eles, entre 24 e 48 h de vida. Repete em 1 h; se persistir, ecocardiograma em até 24 h."},
+    {p:"Por que no RN com fator de risco a triagem auditiva usa PEATE/BERA e não emissões otoacústicas?", r:"Porque as emissões otoacústicas avaliam a cóclea e não detectam neuropatia auditiva (via retrococlear), frequente em prematuros, hiperbilirrubinemia grave e uso de aminoglicosídeos."},
+    {p:"Quais as medidas de sono seguro para prevenir a morte súbita do lactente?", r:"Decúbito dorsal em toda soneca até 1 ano, superfície firme, berço próprio no quarto dos pais até 6-12 meses (sem cama compartilhada), berço sem travesseiro/protetor/cobertor solto, evitar superaquecimento e tabagismo; aleitamento, vacinação e chupeta ao dormir protegem."},
+    {p:"Em que idades se aplica o M-CHAT-R/F e o que fazer se for positivo?", r:"Aos 18 e aos 24 meses. Positivo indica entrevista de seguimento e, mantendo-se positivo, encaminhamento — com início SIMULTÂNEO da intervenção precoce, sem esperar diagnóstico fechado."},
+    {p:"Qual a sequência de conduta da APS diante de atraso do desenvolvimento?", r:"Confirmar a queixa → descartar causas reversíveis (audição, visão, anemia, desnutrição, negligência) → orientar estimulação em casa → reavaliar em 30 dias → encaminhar se persistir, houver sinal de alerta, regressão ou alteração neurológica."},
+    {p:"Regra prática do número de dentes decíduos e quando se completam.", r:"Número de dentes ≈ idade em meses − 6. Primeiros incisivos centrais inferiores aos 6-8 meses; os 20 decíduos completos por volta dos 30 meses."}
+  );
+
+  p.pegadinhas.push(
+    "Peso dobra aos 4-5 meses e TRIPLICA aos 12 meses; comprimento aumenta ~50% no 1º ano; PC cresce ~12 cm no 1º ano.",
+    "Velocidade de crescimento exige intervalo mínimo de 6 meses — calcular em 2 ou 3 meses gera resultado sem valor.",
+    "Cruzar canais de crescimento antes dos 2-3 anos pode ser fisiológico (a criança busca seu canal); depois disso, é alerta.",
+    "Idade óssea IGUAL à cronológica = baixa estatura familiar; idade óssea ATRASADA = atraso constitucional (estatura final normal).",
+    "Eutrofia em menores de 5 anos é escore Z de IMC/I entre −2 e +1 (não até +2) — e os cortes de excesso mudam aos 5 anos.",
+    "Edema bilateral define kwashiorkor independentemente do peso; na desnutrição grave, tratar hipoglicemia, hipotermia e infecção antes de forçar ganho de peso (síndrome de realimentação).",
+    "Perímetro cefálico é obrigatório em toda consulta até 2 anos; macrocefalia com fontanela tensa e olhar em sol poente é hidrocefalia, não variante familiar.",
+    "Prematuro: idade CORRIGIDA para marcos e curvas; idade CRONOLÓGICA para vacinas.",
+    "Água e chá quebram o aleitamento materno exclusivo — 'predominante' é o termo para leite materno + água/chá.",
+    "Hepatite B e C, tuberculose tratada e mastite NÃO contraindicam amamentação; HIV e HTLV contraindicam no Brasil.",
+    "Mel é proibido no primeiro ano (botulismo do lactente); açúcar e ultraprocessados, até 2 anos.",
+    "Adiar alimentos alergênicos NÃO previne alergia — a introdução oportuna é protetora.",
+    "Vitamina D 400 UI/dia é para TODAS as crianças até 12 meses, inclusive em aleitamento exclusivo e com boa exposição solar.",
+    "Teste do pezinho colhido antes de 48 h dá falso-negativo para hipotireoidismo congênito e falso-positivo para hiperplasia adrenal.",
+    "Emissões otoacústicas não detectam neuropatia auditiva — RN de risco exige PEATE/BERA.",
+    "Teste do coraçãozinho não detecta cardiopatia acianótica: palpar pulsos femorais continua obrigatório.",
+    "Reflexo vermelho ausente ou leucocoria = urgência oftalmológica (retinoblastoma, catarata, glaucoma congênito).",
+    "Compartilhar QUARTO protege contra morte súbita; compartilhar CAMA aumenta o risco.",
+    "Preferência manual definida antes de 1 ano é sinal de alerta (hemiparesia), não sinal de habilidade precoce.",
+    "Em questão de APS, a conduta ao atraso é estimular, reavaliar em 30 dias e encaminhar — não 'solicitar bateria de exames'."
+  );
+
+  p.diretrizes.push(
+    "Ministério da Saúde — Guia Alimentar para Crianças Brasileiras Menores de 2 Anos (2019) e Guia Alimentar para a População Brasileira.",
+    "Brasil — Lei 14.154/2021 (ampliação do Programa Nacional de Triagem Neonatal) e Lei 12.303/2010 (triagem auditiva neonatal obrigatória).",
+    "Ministério da Saúde — Manual de Triagem Neonatal Biológica e protocolo de oximetria de pulso (teste do coraçãozinho) em RN ≥ 34 semanas.",
+    "Sociedade Brasileira de Pediatria — Guias Práticos de Atualização: suplementação de vitamina D e ferro, seguimento do prematuro, sono seguro e prevenção de acidentes.",
+    "American Academy of Pediatrics — Bright Futures (periodicidade de consultas e rastreios) e Safe Sleep Recommendations.",
+    "Organização Mundial da Saúde/UNICEF — definições de aleitamento materno e padrões de crescimento infantil (2006/2007)."
+  );
+
+  p.questoes.push(
+    {
+      enunciado: "Menina de 7 anos é levada por baixa estatura. Está no percentil 5 desde os 3 anos, com curva paralela ao canal, e cresceu 6 cm no último ano. Mãe tem 1,52 m e pai 1,63 m. Exame físico normal, sem estigmas sindrômicos, ainda pré-púbere. Radiografia de mão e punho mostra idade óssea de 7 anos. Qual a conclusão mais provável?",
+      alternativas: {
+        a: "Deficiência de hormônio de crescimento",
+        b: "Baixa estatura familiar",
+        c: "Atraso constitucional do crescimento",
+        d: "Hipotireoidismo adquirido"
+      },
+      correta: "b",
+      comentario: "Três dados fecham o caso. Primeiro, a velocidade de crescimento é normal: 6 cm no último ano está dentro da faixa esperada de 5 a 7 cm/ano para a fase de criança, e a curva vem paralela ao canal desde os 3 anos, sem cruzar percentis para baixo. Segundo, a estatura-alvo é baixa: para menina, (altura do pai − 13 + altura da mãe) ÷ 2 = (163 − 13 + 152) ÷ 2 = 151 cm, ou seja, a criança está crescendo exatamente para onde a genética aponta. Terceiro, a idade óssea é IGUAL à cronológica — é esse achado que sela o diagnóstico de baixa estatura familiar e afasta o atraso constitucional. A conduta é acompanhar com medidas seriadas e tranquilizar, sem investigação hormonal extensa. A alternativa a é improvável: deficiência de GH cursa com velocidade de crescimento BAIXA, cruzamento de canais para baixo, idade óssea atrasada e frequentemente fenótipo de criança baixa e gordinha, com face imatura e adiposidade central — nada disso está presente. A alternativa c descreve o atraso constitucional, cuja marca registrada é a idade óssea ATRASADA em relação à cronológica (sobra cartilagem, sobra tempo de crescer), com puberdade tardia e estatura final normal; aqui a idade óssea é concordante, o que exclui a hipótese. A alternativa d também não se sustenta: o hipotireoidismo adquirido reduz a velocidade de crescimento e atrasa a idade óssea, tipicamente com ganho de peso, bradicardia, pele seca, constipação e queda de rendimento — e a desaceleração faria a curva cruzar canais. Fixe a tríade que resolve praticamente toda vinheta de baixa estatura: velocidade de crescimento, estatura-alvo e idade óssea.",
+      foco: "Baixa estatura familiar × atraso constitucional × causa patológica: estatura-alvo, velocidade e idade óssea (lacuna do módulo)"
+    },
+    {
+      enunciado: "Recém-nascido a termo, com 36 horas de vida, assintomático, é submetido à oximetria de pulso de rotina antes da alta. Saturação de 97% no membro superior direito e 92% no membro inferior. Qual a conduta correta?",
+      alternativas: {
+        a: "Considerar normal e liberar a alta",
+        b: "Repetir a oximetria em uma hora",
+        c: "Iniciar prostaglandina E1 imediatamente",
+        d: "Solicitar radiografia de tórax e eletrocardiograma"
+      },
+      correta: "b",
+      comentario: "O teste do coraçãozinho é a oximetria de pulso feita entre 24 e 48 horas de vida em recém-nascidos com 34 semanas ou mais, com medida pré-ductal (membro superior direito) e pós-ductal (um dos membros inferiores). Considera-se ALTERADO quando a saturação é menor que 95% em qualquer dos dois locais OU quando há diferença igual ou maior que 3% entre eles. Aqui a diferença é de 5% e a saturação pós-ductal é 92% — duas condições alteradas. O protocolo determina REPETIR o exame em uma hora, porque parte dos resultados iniciais se normaliza com a transição circulatória neonatal, e só se a alteração persistir na segunda medida é que se indica ecocardiograma em até 24 horas. A alternativa a ignora o critério e libera um recém-nascido com possível cardiopatia congênita crítica dependente do canal arterial, cuja apresentação clássica é justamente a deterioração súbita em casa, no fechamento do canal, entre o 2º e o 14º dia. A alternativa c antecipa demais: a prostaglandina E1 mantém o canal arterial pérvio e é intervenção salvadora, mas se indica diante de cardiopatia crítica confirmada ou fortemente suspeita em recém-nascido sintomático — não em um bebê assintomático com um único rastreio alterado, até porque a droga tem efeitos adversos relevantes, como apneia, hipotensão e febre. A alternativa d pede exames que não fazem parte do fluxo: a radiografia e o eletrocardiograma têm baixa sensibilidade para cardiopatia crítica e o exame confirmatório é o ecocardiograma. Duas ressalvas para levar: o teste não detecta cardiopatias acianóticas, como a comunicação interventricular e a coarctação de aorta em algumas apresentações, de modo que a ausculta cardíaca e a palpação dos pulsos femorais permanecem obrigatórias antes da alta.",
+      foco: "Teste do coraçãozinho: critério de alteração e fluxo correto (repetir em 1 h, depois ecocardiograma) — lacuna do módulo"
+    },
+    {
+      enunciado: "Lactente de 6 meses, nascido a termo, em aleitamento materno exclusivo, com crescimento e desenvolvimento adequados, comparece à consulta de puericultura. A mãe pergunta o que oferecer a partir de agora. Qual orientação está correta?",
+      alternativas: {
+        a: "Iniciar alimentos amassados com garfo e manter suplementação de vitamina D",
+        b: "Oferecer papas liquidificadas e suco natural coado entre as refeições",
+        c: "Adiar ovo e peixe até 12 meses para reduzir risco de alergia",
+        d: "Substituir uma mamada por fórmula infantil para garantir ferro"
+      },
+      correta: "a",
+      comentario: "A recomendação do Guia Alimentar para Crianças Brasileiras Menores de 2 Anos é iniciar a alimentação complementar aos 6 meses, mantendo o aleitamento materno até 2 anos ou mais, com a comida da própria família AMASSADA COM O GARFO — nunca liquidificada nem peneirada, porque a consistência importa para o desenvolvimento da mastigação, para a densidade energética e para a aceitação de texturas. Oferecem-se os grupos alimentares: cereal ou tubérculo, leguminosa, proteína animal e legume/verdura, com fruta nos lanches. A suplementação de vitamina D continua: 400 UI por dia até os 12 meses e 600 UI por dia dos 12 aos 24 meses, para todas as crianças, independentemente da exposição solar. Também se mantém ou se institui o ferro profilático conforme o protocolo adotado, já que as reservas hepáticas do recém-nascido a termo se esgotam por volta dos 4 a 6 meses. A alternativa b erra duas vezes: a papa liquidificada contraria a orientação de consistência e o suco, mesmo natural, é desaconselhado antes de 1 ano, pois desloca o leite materno, oferece açúcar livre, dilui a densidade nutricional e favorece cárie. A alternativa c reproduz uma recomendação já abandonada: adiar alimentos potencialmente alergênicos NÃO previne alergia alimentar, e a evidência atual aponta o contrário — a introdução oportuna, dentro da janela dos 6 meses, é protetora, inclusive para ovo e amendoim. A alternativa d é desnecessária e prejudicial: substituir mamada por fórmula em criança em aleitamento exclusivo com crescimento adequado reduz a produção materna sem benefício, e a prevenção da anemia se faz com suplementação medicamentosa de ferro e alimentos-fonte, não com fórmula. Guarde ainda as proibições: mel no primeiro ano, pelo risco de botulismo do lactente, e açúcar, refrigerante, embutidos e ultraprocessados até os 2 anos.",
+      foco: "Introdução alimentar aos 6 meses, consistência, suplementação e o mito de adiar alergênicos (lacuna do módulo)"
+    },
+    {
+      enunciado: "Menino de 9 meses, nascido com 30 semanas e 1200 g, está com 3 meses de idade corrigida. Não sustenta bem a cabeça em prono, mantém as mãos predominantemente fechadas e apresenta discreta hipertonia de membros inferiores ao exame. Sorriu socialmente aos 2 meses de idade corrigida. Qual a conduta mais adequada?",
+      alternativas: {
+        a: "Tranquilizar, pois pela idade cronológica o desenvolvimento é adequado",
+        b: "Encaminhar para estimulação precoce e manter vigilância neurológica",
+        c: "Solicitar cariótipo e triagem metabólica ampliada",
+        d: "Reavaliar apenas na consulta dos 12 meses"
+      },
+      correta: "b",
+      comentario: "Duas coisas precisam ser feitas em sequência nesta vinheta. A primeira é corrigir a idade: nascido com 30 semanas, faltaram 10 semanas para as 40, de modo que aos 9 meses cronológicos ele tem cerca de 6,5 meses corrigidos — e o enunciado já informa que a avaliação está sendo feita em 3 meses de idade corrigida em relação aos marcos citados, o que reforça que a comparação deve ser sempre com a idade corrigida, até cerca de 2 anos. A segunda é interpretar o exame, e é aqui que está o ponto: sustentação cefálica pobre em prono, mãos persistentemente fechadas além do 3º ao 4º mês e, sobretudo, HIPERTONIA de membros inferiores não são atraso benigno — são sinais neurológicos. O prematuro extremo tem risco elevado de leucomalácia periventricular, cuja tradução clínica clássica é a diplegia espástica, com acometimento predominante dos membros inferiores. Diante disso, a conduta correta é encaminhar imediatamente para estimulação precoce, que não depende de diagnóstico fechado e atua na janela de maior plasticidade, mantendo vigilância neurológica seriada e, conforme a evolução, avaliação por neurologia e neuroimagem. A alternativa a comete o erro inverso ao mais comum: usar a idade cronológica para tranquilizar, quando ela deveria ser corrigida — e, ainda que os marcos motores fossem compatíveis, a alteração de TÔNUS não se explica por prematuridade e nunca deve ser normalizada. A alternativa c parte para investigação genética e metabólica sem indicação: nesse contexto, com fator de risco perinatal claro e quadro motor compatível com lesão adquirida, a prioridade não é etiologia genética; cariótipo e triagem metabólica entram quando há dismorfismos, regressão, consanguinidade ou ausência de causa perinatal. A alternativa d posterga três meses de uma janela crítica, o erro mais custoso do tema. Regra final: em prematuro, corrija a idade — mas alteração de tônus, assimetria e persistência de reflexos primitivos são alertas que nenhuma correção de idade explica.",
+      foco: "Prematuro: idade corrigida para marcos, mas alteração de tônus é sinal neurológico e exige estimulação precoce (lacuna do módulo)"
+    }
+  );
+
+  p.notaErro += `
+
+**Complemento de 30/08/2026 — por que este módulo foi aprofundado hoje.** Além de continuar sem erro registrado no painel (**0/6**), este domínio **caiu no simulado de hoje** num bloco de questão real (SUS-BA R+ Pediatria 2024, "Saúde Coletiva e Puericultura") e era, junto com Neurodesenvolvimento, o único módulo \`PED|\` ainda abaixo do padrão dos demais. A ausência de erro aqui não é segurança: é **pouca exposição**. As lacunas que as novas seções fecham são exatamente onde a banca costuma cobrar:
+
+- **Números e cortes.** A questão não pergunta "o que é escore Z", pergunta se **eutrofia em < 5 anos é entre −2 e +1** (e não até +2), e se você sabe que **os cortes de excesso mudam aos 5 anos**. O mesmo vale para as doses de **vitamina D (400/600 UI)** e **ferro (1 mg/kg/dia; 2-4 no prematuro)**, para a janela do **pezinho (48 h a 5º dia)** e para o critério do **coraçãozinho (< 95% ou diferença ≥ 3%)**. Errar aqui é errar por detalhe, e detalhe se resolve relendo a seção 13 e a 17.
+- **Tendência × ponto isolado.** O erro conceitual mais caro do tema é julgar a criança por um valor. **Velocidade de crescimento** e **cruzamento de canais** valem mais que o percentil do dia (seção 12) — e o mesmo raciocínio vale para o perímetro cefálico (seção 14).
+- **Prematuro.** Corrigir a idade é automático, mas a armadilha real é a inversa: **alteração de tônus, assimetria e reflexo primitivo persistente não são explicados por prematuridade** e exigem ação (seção 15 e questão nova 4). E vacina **não** se corrige.
+- **Conduta de APS.** Em bloco de Saúde Coletiva, a resposta correta quase nunca é "pedir exames": é **usar a Caderneta, orientar estimulação, reavaliar em 30 dias e encaminhar diante de sinal de alerta ou regressão** (seção 19).
+- **Recomendações que mudaram.** Adiar alergênico não previne alergia; suco não é recomendado antes de 1 ano; papa não se liquidifica; compartilhar quarto protege, mas cama não. Distratores desatualizados são o recheio das alternativas erradas (seções 16 e 18).
+
+**Como zerar:** rode mentalmente os sete movimentos da seção 20 em toda vinheta de puericultura — escutar, medir e plotar, classificar por escore Z, avaliar por domínio, rastrear o que a idade pede, vacinar/conferir a Caderneta, orientar. As quatro questões novas treinam os quatro pontos acima.`;
+
+})();
