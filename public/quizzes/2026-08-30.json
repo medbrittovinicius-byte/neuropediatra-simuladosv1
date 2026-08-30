@@ -1,0 +1,651 @@
+{
+ "date": "2026-08-30",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (canalolitíase do canal semicircular anterior) [RE: ranking unificado #1 — Vinicius, 100% de erro]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 58 anos de idade, refere, há três semanas, episódios de tontura rotatória de poucos segundos, desencadeados ao deitar-se, ao levantar-se da cama e ao inclinar a cabeça para trás para pendurar roupa no varal. Nega hipoacusia, zumbido, plenitude auricular, cefaleia ou qualquer déficit focal. O exame neurológico geral é normal, sem dismetria e sem alteração da marcha. Na manobra de Dix-Hallpike à direita, com a cabeça pendente, surge, após 3 segundos de latência, nistagmo predominantemente vertical batendo para baixo, com pequeno componente torcional, que dura cerca de 20 segundos e se reduz nitidamente à repetição da manobra. O teste de impulso cefálico é normal e não há desalinhamento vertical dos olhos.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável para o caso descrito:",
+     "alternativas": {
+      "a": "Nistagmo de posicionamento de origem central por lesão de fossa posterior",
+      "b": "Migrânea vestibular",
+      "c": "Neurite vestibular em fase de compensação",
+      "d": "Canalolitíase do canal semicircular anterior"
+     },
+     "correta": "d",
+     "comentario": "A vertigem posicional paroxística benigna é causada por otocônios deslocados da mácula utricular para dentro de um canal semicircular; a direção do nistagmo denuncia qual canal está envolvido, porque o nistagmo bate no plano do canal estimulado. No canal posterior (85-90% dos casos) o nistagmo é vertical para CIMA com torção para a orelha testada; no canal anterior, muito mais raro, a mesma manobra de Dix-Hallpike produz nistagmo vertical para BAIXO (downbeat) com componente torcional pequeno ou até ausente — exatamente o descrito. A latência de poucos segundos, a duração inferior a um minuto e a fatigabilidade são a assinatura da canalolitíase.\nO nistagmo de posicionamento CENTRAL é o principal diferencial e deve ser afastado, mas ele caracteristicamente aparece sem latência, persiste enquanto a posição é mantida, não fatiga e costuma vir acompanhado de outros sinais de fossa posterior (dismetria, marcha atáxica, oftalmoparesia) — nenhum presente aqui. A neurite vestibular não produz crises posicionais de segundos: cursa com síndrome vestibular AGUDA contínua, de dias, com nistagmo espontâneo horizonto-rotatório unidirecional e teste de impulso cefálico ALTERADO (aqui está normal). A migrânea vestibular gera crises de minutos a horas, tipicamente com fotofobia, fonofobia ou história de migrânea, e não o padrão posicional puro de segundos com fatigabilidade.\nPérola de prova: sempre que houver downbeat na Dix-Hallpike, pense em duas coisas — canal anterior (periférico, benigno) ou lesão central da junção bulbo-cervical/cerebelo. São os atributos temporais do nistagmo (latência, duração, fatigabilidade), e não a direção isolada, que separam um do outro.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o achado que, no caso apresentado, mais fortemente afasta uma origem central para o nistagmo de posicionamento:",
+     "alternativas": {
+      "a": "A normalidade do teste de impulso cefálico",
+      "b": "A presença de componente vertical batendo para baixo",
+      "c": "A latência de instalação, a curta duração e a fatigabilidade à repetição",
+      "d": "A ausência de hipoacusia associada"
+     },
+     "correta": "c",
+     "comentario": "A tríade latência + paroxismo curto (menos de 1 minuto) + fatigabilidade traduz a física do otocônio: o debris leva alguns segundos para começar a se mover na endolinfa, gera uma corrente que cessa quando ele atinge a posição mais baixa do canal e se dispersa a cada repetição, reduzindo a resposta. Nenhum mecanismo central reproduz esse comportamento — por isso esse conjunto é o discriminador de maior peso à beira do leito.\nO componente vertical para baixo, sozinho, NÃO ajuda: é justamente o achado ambíguo, compartilhado pelo canal anterior e pelas lesões de fossa posterior (malformação de Chiari, degeneração cerebelar, lesões da junção craniocervical). Usar a direção como critério isolado é a pegadinha clássica. A ausência de hipoacusia afasta doença de Ménière e labirintite, mas não distingue periférico de central, já que a maioria das causas centrais também cursa com audição normal. O impulso cefálico normal é esperado tanto na canalolitíase quanto em causa central — aliás, na síndrome vestibular aguda é o impulso cefálico NORMAL que levanta a suspeita de AVC (protocolo HINTS), de modo que aqui ele não tranquiliza.\nRegra prática: no nistagmo posicional, cheque sempre se há nistagmo espontâneo, se há mudança de direção com a direção do olhar, se há outros sinais cerebelares e se a resposta fatiga. Quando o quadro não fecha ou não responde às manobras, a neuroimagem passa a ser obrigatória.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica inicial mais adequada:",
+     "alternativas": {
+      "a": "Repouso absoluto no leito por 72 horas",
+      "b": "Manobra de reposicionamento com a cabeça profundamente pendente (deep head-hanging)",
+      "c": "Betaistina em dose plena por 30 dias",
+      "d": "Ressonância magnética de encéfalo antes de qualquer manobra"
+     },
+     "correta": "b",
+     "comentario": "O tratamento é mecânico, não farmacológico: manobras de reposicionamento devolvem o otocônio ao utrículo. Para o canal anterior, a manobra de escolha é a de cabeça profundamente pendente (deep head-hanging, de Yacovino), que tem a vantagem de não exigir a identificação prévia do lado acometido — útil porque, nesse canal, o componente torcional costuma ser fraco ou ausente e a lateralização é insegura. Alternativa aceita é a manobra de Epley reversa. As taxas de resolução em 1 a 2 sessões são altas.\nA betaistina e outros supressores vestibulares (dimenidrinato, meclizina, benzodiazepínicos) são inadequados: não removem o debris, atrasam a compensação central e, em idosos, aumentam sedação e risco de queda; se usados, devem ficar restritos a poucos dias e à náusea intensa. A ressonância de rotina antes da manobra não se justifica quando o padrão temporal é tipicamente periférico — a imagem fica reservada aos casos com nistagmo sem latência/não fatigável, sinais neurológicos associados ou falha após manobras adequadas. Repouso absoluto é contraproducente: não acelera a resolução e retarda a compensação vestibular; orienta-se, ao contrário, retomar a movimentação normal.\nPérola: após a manobra, uma tontura residual leve por alguns dias é comum e não significa falha; reavalie em 1 semana com nova Dix-Hallpike para documentar a conversão para negativa.\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 137 — Vertigem Posicional (complementar com o cap. 20 — Tonturas e Vertigem, para a semiologia do nistagmo).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Medula, Cauda Equina e Dor Lombar (lesão medular central traumática sobre canal estenótico) [RE: ranking unificado #2 — Vinicius, 100% de erro]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 66 anos de idade, com cervicalgia crônica e queixa de mãos \"desajeitadas\" há dois anos, sofre queda da própria altura com impacto na região frontal e hiperextensão do pescoço. Chega à emergência com tetraparesia de instalação imediata, desproporcionalmente mais intensa nos membros superiores (força grau 2/5 proximal e 1/5 nas mãos) do que nos inferiores (grau 4/5), hipoestesia térmica e dolorosa em faixa nos membros superiores, preservação relativa da sensibilidade vibratória e proprioceptiva, e retenção urinária. A radiografia simples da coluna cervical não mostra fratura nem luxação.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a síndrome medular que melhor explica o quadro:",
+     "alternativas": {
+      "a": "Síndrome medular central traumática sobre canal cervical estenótico",
+      "b": "Síndrome de Brown-Séquard por hemissecção medular",
+      "c": "Síndrome da artéria espinhal anterior",
+      "d": "Plexopatia braquial bilateral por estiramento"
+     },
+     "correta": "a",
+     "comentario": "A marca dessa síndrome é a fraqueza desproporcionalmente maior nos membros SUPERIORES que nos inferiores, com perda dissociada da sensibilidade (termoalgésica comprometida, cordão posterior preservado) e disfunção esfincteriana variável. O mecanismo clássico é trauma em hiperextensão em coluna já estenótica por espondilose, com pinçamento entre osteófitos anteriores e ligamento amarelo redundante posteriormente — por isso a radiografia pode ser normal, sem fratura nem luxação, que é a pegadinha do caso. A explicação topográfica clássica atribui o padrão à somatotopia do trato corticoespinhal (fibras cervicais mediais) e ao comprometimento preferencial da substância cinzenta central e das fibras espinotalâmicas decussantes.\nBrown-Séquard é descartada porque produz achado CRUZADO: paresia e perda proprioceptiva ipsilaterais à lesão com perda termoalgésica contralateral — não há lateralização aqui. A síndrome da artéria espinhal anterior compromete os dois terços anteriores da medula, causando tetraparesia com perda termoalgésica e PRESERVAÇÃO proprioceptiva, mas sem o gradiente braço-perna característico e habitualmente com instalação vascular abrupta, muitas vezes após cirurgia de aorta ou hipotensão. Plexopatia braquial bilateral não explica a retenção urinária nem o comprometimento dos membros inferiores.\nPérola de prova: idoso + queda com impacto na fronte + tetraparesia \"de braços\" + radiografia normal = lesão medular central até prova em contrário. O diagnóstico é clínico e a imobilização deve preceder qualquer transporte.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame de imagem que deve ser priorizado para caracterizar a lesão:",
+     "alternativas": {
+      "a": "Eletroneuromiografia dos quatro membros",
+      "b": "Radiografia dinâmica em flexão e extensão",
+      "c": "Ressonância magnética da coluna cervical",
+      "d": "Tomografia computadorizada de crânio isolada"
+     },
+     "correta": "c",
+     "comentario": "A ressonância magnética é o único método que mostra diretamente o parênquima medular: edema/contusão em hipersinal T2, extensão longitudinal da lesão, grau de estenose do canal, hérnia discal traumática, hematoma epidural e lesão ligamentar. Além do valor diagnóstico, tem valor prognóstico — a extensão do hipersinal e a presença de hemorragia intramedular correlacionam-se com pior recuperação. A tomografia da coluna é complementar e útil para o osso, mas não substitui a RM.\nA tomografia de CRÂNIO isolada avalia o traumatismo cranioencefálico, que pode coexistir pelo impacto frontal, mas não responde à pergunta medular e sozinha deixaria passar a lesão que explica o déficit. A eletroneuromiografia não tem papel na fase aguda: as alterações de denervação levam de 2 a 3 semanas para aparecer, e o exame não localiza a compressão. A radiografia dinâmica em flexão-extensão é formalmente contraindicada no paciente com déficit neurológico agudo e suspeita de instabilidade, por risco de agravar a lesão; quando indicada, é apenas tardiamente, em paciente sem déficit e já fora do colar.\nPegadinha frequente: \"radiografia normal\" não exclui lesão medular — o conceito de SCIWORA (lesão medular sem anormalidade radiográfica), classicamente descrito em crianças, também se aplica ao idoso espondilótico. Mantenha a imobilização cervical até a RM.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta inicial mais adequada no atendimento hospitalar:",
+     "alternativas": {
+      "a": "Tração cervical com halo craniano de imediato",
+      "b": "Reabilitação motora isolada, sem imagem adicional",
+      "c": "Imobilização cervical, suporte hemodinâmico com alvo de pressão arterial média e avaliação neurocirúrgica precoce",
+      "d": "Metilprednisolona em altas doses por 48 horas como conduta padrão"
+     },
+     "correta": "c",
+     "comentario": "O cuidado agudo da lesão medular traumática se apoia em três pilares: imobilização/alinhamento, prevenção da lesão secundária e definição cirúrgica. A prevenção da lesão secundária é essencialmente hemodinâmica e respiratória — evitar hipotensão e hipoxemia, com alvo de pressão arterial média em torno de 85-90 mmHg nos primeiros dias, já que o choque neurogênico (bradicardia com hipotensão por perda do tônus simpático em lesões acima de T6) reduz a perfusão medular. A avaliação neurocirúrgica precoce define se há compressão persistente a ser descomprimida; a tendência atual favorece a descompressão precoce (primeiras 24 horas) quando há compressão demonstrada, embora, sem instabilidade, a decisão seja individualizada.\nA metilprednisolona em altas doses NÃO é mais conduta padrão: os ensaios NASCIS mostraram benefício marginal e discutível, as diretrizes atuais não a recomendam de rotina, e há aumento de pneumonia, sepse e sangramento digestivo. Tração com halo se destina a luxações/fraturas com desalinhamento — aqui não há fratura nem luxação, e a tração em coluna espondilótica após hiperextensão pode piorar a lesão. Reabilitação isolada sem imagem seria negligenciar uma compressão potencialmente tratável; a reabilitação entra, e precocemente, mas depois da estabilização e da definição anatômica.\nPrognóstico: a recuperação costuma ser descendente — primeiro membros inferiores, depois bexiga, depois membros superiores, com as mãos sendo a última e mais incompleta.\n\n📚 Leitura sugerida (bloco): Merritt, Tratado de Neurologia (13ª ed.), Seção 15 — Doenças da Medula Espinal e Seção 2 — Síndromes Raquimedulares Agudas; complementar com o Tratado de Neurologia da ABN (3ª ed., 2025), cap. 114 — Radiculopatias e Plexopatias.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias (cefaleia trigêmino-autonômica sintomática por dissecção carotídea) [RE: cota individual — Ana Teresa, 67% de erro]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 44 anos de idade, tabagista, procura o ambulatório por crises de dor excruciante retro-orbitária à esquerda, com 45 a 60 minutos de duração, até três vezes ao dia, há seis semanas, acompanhadas de lacrimejamento, obstrução nasal ipsilateral e intensa inquietação motora durante a dor. Relata que tudo começou dois dias depois de um episódio de cervicalgia lateral esquerda súbita, surgida durante treino de musculação. Ao exame, FORA das crises, mantém ptose discreta e miose à esquerda, sem anidrose facial; o restante do exame neurológico é normal.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a hipótese que melhor explica o conjunto do quadro:",
+     "alternativas": {
+      "a": "Neuralgia do trigêmeo de primeira divisão",
+      "b": "Cefaleia trigêmino-autonômica sintomática por dissecção da artéria carótida interna",
+      "c": "Cefaleia em salvas episódica primária",
+      "d": "Hemicrania paroxística crônica"
+     },
+     "correta": "b",
+     "comentario": "O fenótipo da dor é perfeitamente trigêmino-autonômico: dor unilateral orbitária/retro-orbitária, muito intensa, com sintomas autonômicos ipsilaterais e agitação. O que muda tudo é o exame FORA da crise: síndrome de Horner PERSISTENTE, parcial (ptose e miose SEM anidrose facial), precedida de cervicalgia súbita após esforço, em tabagista. Esse conjunto aponta lesão do plexo simpático pericarotídeo — a dissecção da carótida interna comprime as fibras simpáticas pós-ganglionares que sobem com a carótida; como as fibras sudomotoras da face acompanham a carótida EXTERNA, a anidrose está ausente, e é justamente essa dissociação que localiza a lesão.\nNa cefaleia em salvas primária o Horner, quando existe, é transitório e restrito à crise (raramente persiste após muitos anos de doença); um Horner que se mantém no intervalo é bandeira vermelha e obriga investigação. A neuralgia do trigêmeo é descartada pela duração: são choques de segundos, deflagrados por gatilhos cutâneos, sem lacrimejamento proeminente e sem inquietação. A hemicrania paroxística tem crises muito mais curtas (2-30 minutos) e muito mais frequentes (mais de 5/dia), com resposta absoluta à indometacina — critério que também serve de teste diagnóstico.\nPérola: as bandeiras vermelhas que obrigam imagem numa suspeita de salvas são Horner persistente, alteração de pares cranianos, início após os 50 anos, padrão sempre no mesmo lado sem remissão e resposta atípica ao tratamento.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame de imagem mais adequado para confirmar a suspeita:",
+     "alternativas": {
+      "a": "Tomografia de crânio sem contraste",
+      "b": "Polissonografia noturna",
+      "c": "Punção lombar com medida da pressão de abertura",
+      "d": "Angiorressonância cervical com sequência T1 com supressão de gordura"
+     },
+     "correta": "d",
+     "comentario": "A sequência T1 com supressão de gordura no pescoço é o exame de maior acurácia para o hematoma de parede arterial: mostra o sinal em crescente hiperintenso na parede do vaso, achado praticamente patognomônico da dissecção, geralmente melhor visível entre o 3º e o 30º dia. A angiorressonância complementa mostrando estenose afilada em \"chama de vela\", pseudoaneurisma ou oclusão. A angiotomografia é alternativa aceitável e mais disponível na urgência, mas a supressão de gordura é a marca da questão.\nA tomografia de crânio sem contraste serve para hemorragia e efeito de massa; numa dissecção sem infarto ela é tipicamente normal e daria falsa segurança. A punção lombar seria adequada para hipertensão intracraniana idiopática ou hemorragia subaracnóidea com TC normal — nenhuma delas produz Horner com esse fenótipo de dor, e puncionar antes da imagem vascular só atrasaria o diagnóstico. A polissonografia investiga cefaleia hípnica e apneia do sono, que podem agravar cefaleias, mas não explicam Horner nem cervicalgia súbita.\nDetalhe importante: a dissecção é uma das principais causas de AVC isquêmico em adultos jovens (até 20-25% dos casos abaixo dos 45 anos), e o intervalo entre a dor e o evento isquêmico pode ser de horas a semanas — daí a urgência de fechar o diagnóstico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada para este paciente:",
+     "alternativas": {
+      "a": "Trombólise endovenosa imediata",
+      "b": "Sumatriptano oral 50 mg no início de cada crise",
+      "c": "Corticoide oral isolado por 14 dias",
+      "d": "Antitrombótico e, para as crises de dor, oxigênio a 100% sob máscara com reservatório"
+     },
+     "correta": "d",
+     "comentario": "Há duas frentes: tratar a causa e abortar a dor. Para a dissecção cervical extracraniana, a conduta é antitrombótica — antiagregação ou anticoagulação, com estudos (CADISS, TREAT-CAD) mostrando eficácia comparável e baixa taxa de recorrência, sendo a antiagregação a escolha mais frequente por segurança. Para a crise, o oxigênio a 100% em alto fluxo (12-15 L/min por 15 minutos, máscara com reservatório e sem reinalação) é abortivo de primeira linha, sem risco vascular — vantagem decisiva aqui.\nO sumatriptano é errado por dois motivos: a via ORAL tem farmacocinética lenta demais para uma crise de 45-60 minutos (a via correta na salvas é a subcutânea) e, sobretudo, os triptanos são vasoconstritores e devem ser evitados diante de doença arterial aguda como a dissecção. O corticoide isolado pode servir como ponte por alguns dias nas salvas primárias, mas não trata a dissecção e não é abortivo de crise. A trombólise não tem indicação: não há infarto cerebral instalado e, na presença de dissecção com hematoma de parede, a decisão é individualizada e não automática.\nOrientação complementar: evitar manipulação cervical e esforços com Valsalva, suspender tabagismo e reavaliar a imagem em 3-6 meses, quando a maioria das dissecções recanaliza. O Horner pode permanecer como sequela sem significar má evolução.\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 39 — Cefaleias Trigeminoautonômicas e cap. 32 — Cefaleia na Unidade de Emergência; complementar com o cap. 46 — Doenças Arteriais Cervicais (dissecção).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (isquemia de horário indeterminado ao despertar) [REAL: SUS-BA R+ 2025]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 68 anos de idade, com histórico de hipertensão e diabetes mellitus tipo 2, é admitido no Pronto-Socorro. Deitou-se para cochilar e, ao despertar, apresentava fraqueza do lado direito do corpo e dificuldade para falar. No exame neurológico, apresenta disartria e hemiplegia direita. A tomografia de crânio, sem contraste, é realizada e não mostra sinais de hemorragia intracraniana. A glicemia capilar é de 145 mg/dL, e os sinais vitais estão estáveis.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o caso, em relação ao manejo, é correto:",
+     "alternativas": {
+      "a": "Realizar ressonância magnética com perfusão para avaliar \"mismatch\" perfusão-difusão e definir a melhor conduta.",
+      "b": "Considerar o início dos sintomas e o momento em que o paciente acordou, descartando-se trombólise e indicando terapia endovascular.",
+      "c": "Estimar que, como o paciente cochilou, deve estar na janela terapêutica e realizar trombólise ou terapia endovascular.",
+      "d": "Realizar angiotomografia para avaliar áreas de penumbra e possibilidade de trombólise ou terapia endovascular."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ 2025] Quando o paciente acorda com o déficit, o horário de início é indeterminado e o \"último momento visto bem\" passa a ser o instante em que ele foi dormir — o que inviabiliza usar o relógio como critério. A solução moderna é substituir o tempo pelo TECIDO: imagem avançada que estime quanto ainda é penumbra salvável. A ressonância com difusão/perfusão permite dois critérios validados — o mismatch DWI-FLAIR (lesão visível na difusão e ainda não visível no FLAIR indica evento com menos de ~4,5 horas, base do estudo WAKE-UP) e o mismatch perfusão-difusão (core pequeno com área hipoperfundida ampla, base dos estudos DAWN e DEFUSE-3 para trombectomia até 16-24 horas).\nDescartar automaticamente a trombólise apenas porque o horário é desconhecido está errado: é exatamente essa a população que a neuroimagem avançada resgata para o tratamento. Assumir que \"cochilou, logo está na janela\" é presumir o que não se sabe e expor o paciente ao risco de hemorragia sem base. A angiotomografia isolada mostra o vaso ocluído e a circulação colateral, mas NÃO mede penumbra — para isso é preciso mapa de perfusão (TC de perfusão ou RM de perfusão); é o erro conceitual mais cobrado nessa questão.\nPérola: nas 24 horas de janela estendida, a seleção por imagem é obrigatória; fora dela, nenhum benefício foi demonstrado e o risco de transformação hemorrágica supera o ganho.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "A conduta mais adequada em relação à meta pressórica, nesse momento, é:",
+     "alternativas": {
+      "a": "Permitir uma pressão arterial de até 200x120 mmHg.",
+      "b": "Reduzir a pressão arterial para menos de 160x100 mmHg.",
+      "c": "Manter a pressão arterial abaixo de 140x90 mmHg.",
+      "d": "Manter a pressão arterial abaixo de 180x110 mmHg."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ 2025] No paciente candidato a reperfusão, a meta é manter a pressão arterial abaixo de 185x110 mmHg antes do trombolítico e abaixo de 180x105 mmHg nas 24 horas seguintes — daí a alternativa que aponta o patamar de 180x110 mmHg ser a correta neste enunciado. A lógica é dupla: pressão muito alta aumenta o risco de transformação hemorrágica após a reperfusão, mas pressão baixa demais reduz a perfusão da penumbra, que depende passivamente da pressão sistêmica porque a autorregulação está perdida na área isquêmica.\nBaixar para menos de 140x90 mmHg na fase aguda é prejudicial: a queda abrupta reduz o fluxo colateral e pode expandir o infarto — meta desse nível só se aplica à hemorragia intraparenquimatosa aguda (alvo de sistólica em torno de 140 mmHg) e à prevenção secundária tardia. Permitir até 200x120 mmHg seria aceitável apenas para quem NÃO é candidato a reperfusão, situação em que se tolera hipertensão permissiva até 220x120 mmHg; não é o caso, pois este paciente está em investigação para tratamento. A meta de 160x100 mmHg não corresponde a nenhuma recomendação da fase aguda e cai no mesmo problema de redução excessiva.\nDetalhe prático: quando é preciso reduzir, prefira drogas tituláveis e de meia-vida curta (labetalol, nicardipina, esmolol) e evite quedas superiores a 15% no valor basal.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Em relação à meta glicêmica, nas primeiras 24 horas, a conduta mais adequada é:",
+     "alternativas": {
+      "a": "Manter a glicemia acima de 200 mg/dL, para evitar hipoglicemia.",
+      "b": "Manter hiperglicemia permissiva, sem intervenções, até 200 mg/dL.",
+      "c": "Controlar, rigorosamente, a glicemia, mantendo-a entre 140 e 180 mg/dL.",
+      "d": "Manter a glicemia abaixo de 100 mg/dL, com insulina em BIC."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ 2025] A faixa recomendada na fase aguda do AVC isquêmico é 140-180 mg/dL. Hiperglicemia persistente piora o desfecho por vários mecanismos: acidose láctica no tecido isquêmico, aumento do estresse oxidativo, disfunção endotelial, maior edema e maior risco de transformação hemorrágica pós-trombólise; além disso, glicemia elevada na admissão é marcador independente de pior prognóstico funcional.\nBuscar glicemia abaixo de 100 mg/dL com insulina em infusão contínua é justamente o que o ensaio SHINE testou e não confirmou: o controle intensivo não melhorou o desfecho em 90 dias e aumentou de forma significativa a hipoglicemia grave, que por si só agrava a lesão neuronal e pode mimetizar novo déficit focal. Manter deliberadamente a glicemia acima de 200 mg/dL para \"evitar hipoglicemia\" inverte a lógica e expõe o paciente ao dano da hiperglicemia. A hiperglicemia permissiva sem qualquer intervenção também é inadequada — o alvo existe e deve ser perseguido com insulina, preferencialmente por protocolo.\nPérola de prova: a glicemia capilar é obrigatória ANTES de qualquer decisão terapêutica no déficit focal agudo, porque a hipoglicemia é o grande \"stroke mimic\" — e trombolisar um paciente hipoglicêmico é erro grave.\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 51 — Tratamento da Fase Aguda do AVC Isquêmico (complementar com o cap. 159 — Manejo Crítico do AVCi e com a Diretriz de AVC do Ministério da Saúde).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroinfecção (leucoencefalopatia multifocal progressiva no HIV avançado)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 38 anos de idade, com HIV diagnosticado há 6 anos e má adesão à terapia antirretroviral, apresenta, há 8 semanas, hemiparesia direita de instalação insidiosa e lentamente progressiva, associada a dificuldade crescente para nomear objetos. Nega febre, cefaleia, rigidez de nuca e crises epilépticas. Exames: CD4 de 60 células/mm³ e carga viral de 180.000 cópias/mL. A ressonância mostra lesões confluentes da substância branca subcortical parieto-occipital esquerda, hipointensas em T1 e hiperintensas em T2/FLAIR, com envolvimento das fibras em U, sem efeito de massa e sem realce pelo gadolínio.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Encefalite por citomegalovírus",
+      "b": "Leucoencefalopatia multifocal progressiva",
+      "c": "Linfoma primário do sistema nervoso central",
+      "d": "Neurotoxoplasmose"
+     },
+     "correta": "b",
+     "comentario": "A combinação de imunossupressão profunda (CD4 abaixo de 100), déficit focal SUBAGUDO e progressivo ao longo de semanas, ausência de febre e, sobretudo, o padrão de imagem — lesão exclusivamente de substância branca, sem efeito de massa e sem realce, acometendo as fibras em U subcorticais — é a assinatura da desmielinização por reativação do poliomavírus JC nos oligodendrócitos. A ausência de realce reflete a ausência de resposta inflamatória, coerente com a imunossupressão.\nA neurotoxoplasmose é o principal diferencial nesse nível de CD4, mas cursa com lesões que fazem EFEITO DE MASSA, realce anelar, edema perilesional e localização preferencial nos núcleos da base e junção córtico-subcortical, com instalação mais rápida (dias) e frequentemente febre e cefaleia. O linfoma primário do SNC também realça (habitualmente de forma homogênea ou anelar irregular), tem efeito de massa, tende a ser periventricular e cursa com restrição à difusão pela alta celularidade. A encefalite por citomegalovírus produz quadro difuso — encefalopatia, delirium, ventriculoencefalite com realce ependimário —, muitas vezes com retinite associada e CD4 abaixo de 50, e não déficit focal isolado com essa imagem.\nPegadinha clássica: quando a lesão do paciente com HIV NÃO realça e NÃO faz efeito de massa, pense em desmielinização por vírus JC; quando realça e empurra estruturas, pense em toxoplasmose ou linfoma.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame que confirma o agente etiológico:",
+     "alternativas": {
+      "a": "Espectroscopia por ressonância magnética",
+      "b": "Citologia oncótica do líquor",
+      "c": "Sorologia IgG para Toxoplasma gondii no soro",
+      "d": "Pesquisa de DNA do vírus JC no líquor por PCR"
+     },
+     "correta": "d",
+     "comentario": "A PCR para vírus JC no líquor é o exame confirmatório: tem especificidade muito alta (acima de 95%) e, associada ao quadro clínico e ao padrão radiológico típico, dispensa a biópsia cerebral, que era o padrão-ouro histórico. A sensibilidade varia (70-90%) e cai bastante em pacientes já em terapia antirretroviral eficaz, de modo que uma PCR negativa em contexto muito sugestivo não exclui o diagnóstico e pode exigir repetição ou biópsia.\nA sorologia IgG para toxoplasma no soro é um dado epidemiológico de exposição prévia, positiva na maioria da população brasileira; ela ajuda pelo valor preditivo NEGATIVO (IgG negativo torna neurotoxoplasmose improvável), mas jamais confirma doença ativa e não diz nada sobre a lesão descrita. A citologia oncótica do líquor tem baixa sensibilidade para linfoma primário do SNC — a pesquisa mais útil nessa suspeita seria PCR para EBV no líquor associada à citometria de fluxo. A espectroscopia oferece dados de apoio (relação colina/NAA, presença de lipídios/lactato) e ajuda a diferenciar tumor de infecção, mas é complementar e não identifica agente.\nPérola: no líquor da leucoencefalopatia por JC a celularidade e a bioquímica costumam ser normais ou quase normais — um líquor \"limpo\" em paciente com lesão de substância branca e imunossupressão reforça a suspeita em vez de afastá-la.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica que mais impacta o prognóstico:",
+     "alternativas": {
+      "a": "Metotrexato em altas doses",
+      "b": "Ganciclovir endovenoso",
+      "c": "Sulfadiazina com pirimetamina e ácido folínico",
+      "d": "Iniciar ou otimizar imediatamente a terapia antirretroviral"
+     },
+     "correta": "d",
+     "comentario": "Não existe antiviral específico contra o vírus JC com eficácia comprovada — cidofovir, citarabina, mefloquina e mirtazapina foram testados sem benefício consistente. O único tratamento que altera a história natural é a reconstituição imunológica: a terapia antirretroviral eficaz reduz a mortalidade e estabiliza ou melhora o déficit em boa parte dos casos. Deve ser iniciada ou ajustada com urgência, com genotipagem quando houver falha virológica prévia, e o regime deve priorizar boa penetração no sistema nervoso central.\nSulfadiazina com pirimetamina e ácido folínico é o tratamento da neurotoxoplasmose — apropriado para lesões com realce anelar e efeito de massa, não para este padrão; aliás, uma prova terapêutica antitoxoplasma com reavaliação de imagem em 10-14 dias é conduta razoável quando a dúvida persiste, mas não é o que este caso pede. Metotrexato em altas doses é o esquema do linfoma primário do SNC. Ganciclovir trata doença por citomegalovírus.\nAtenção à armadilha do seguimento: em 10-20% dos casos, semanas após o início da antirretroviral, surge a forma inflamatória de reconstituição imune, com piora clínica, aparecimento de realce e edema na imagem — nessa situação, mantém-se a antirretroviral e associa-se corticoide, e não se deve interpretar a piora como falha do tratamento.\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 142 — AIDS e Sistema Nervoso; complementar com o Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos (Ministério da Saúde).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Epilepsia (planejamento reprodutivo e teratogenicidade dos fármacos anticrise)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 24 anos de idade, com epilepsia generalizada idiopática desde os 15 anos, em uso de ácido valproico 1.000 mg/dia, está sem crises há 3 anos. Procura o ambulatório informando que pretende engravidar nos próximos meses. Usa contraceptivo oral combinado, não tem comorbidades e o exame neurológico é normal. O eletroencefalograma mais recente mostra complexos ponta-onda generalizados a 4 Hz, sem alterações focais.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o principal risco fetal associado ao fármaco em uso:",
+     "alternativas": {
+      "a": "Síndrome de abstinência neonatal grave",
+      "b": "Defeito de fechamento do tubo neural e prejuízo do neurodesenvolvimento",
+      "c": "Hipoplasia do esmalte dentário",
+      "d": "Cardiopatia conotruncal"
+     },
+     "correta": "b",
+     "comentario": "O valproato é o fármaco anticrise de maior risco teratogênico: eleva a taxa de malformações maiores para cerca de 10% (contra 2-3% da população geral), com destaque para os defeitos de fechamento do tubo neural (espinha bífida, cujo risco é da ordem de 1-2%), além de fenda oral, malformações cardíacas e hipospádia. Igualmente importante — e frequentemente esquecido — é o efeito sobre o neurodesenvolvimento: exposição intrauterina associa-se a redução média do QI verbal e a maior risco de transtorno do espectro autista, com relação dose-dependente. Por isso as agências regulatórias restringiram formalmente seu uso em mulheres em idade fértil sem programa de prevenção de gravidez.\nHipoplasia de esmalte dentário e alterações dentárias são associadas classicamente à fenitoína, não ao valproato. Síndrome de abstinência neonatal é o quadro esperado com opioides e benzodiazepínicos em uso materno crônico, não com anticrises de uso ambulatorial. Cardiopatia conotruncal remete a outras exposições e à microdeleção 22q11, e ainda que malformações cardíacas ocorram com valproato, elas não são o risco emblemático nem o mais cobrado.\nDado prático: o risco cresce claramente acima de 700-800 mg/dia, mas não existe dose comprovadamente segura — a conduta é evitar o fármaco, não apenas reduzi-lo.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta farmacológica mais adequada antes da concepção:",
+     "alternativas": {
+      "a": "Substituir por lamotrigina, com titulação lenta e monitorização de nível sérico",
+      "b": "Suspender toda a medicação até o fim do primeiro trimestre",
+      "c": "Manter o mesmo fármaco, apenas reduzindo a dose para 500 mg/dia",
+      "d": "Substituir por fenitoína"
+     },
+     "correta": "a",
+     "comentario": "A troca deve ser feita ANTES da concepção, com titulação lenta do novo fármaco e retirada gradual do anterior, garantindo um período de sobreposição e de estabilidade sem crises antes de liberar a gestação. Lamotrigina e levetiracetam são as opções com melhor perfil de segurança gestacional nos registros de gravidez (EURAP e outros), com taxas de malformação próximas às da população geral. Na epilepsia generalizada idiopática, a lamotrigina é escolha razoável, com a ressalva de que pode agravar mioclonias em alguns pacientes — nesse caso, o levetiracetam é preferível.\nApenas reduzir a dose não resolve: o risco de malformação e de prejuízo cognitivo persiste, ainda que menor, e reduzir a dose de quem está controlado pode reabrir crises. Suspender toda a medicação é perigoso — crises tônico-clônicas na gestação associam-se a hipóxia fetal, trauma, descolamento placentário e risco de morte súbita na epilepsia; a regra é manter o controle com o fármaco mais seguro, na menor dose eficaz, preferencialmente em monoterapia. A fenitoína é ainda menos adequada: também é teratogênica (síndrome hidantoínica fetal), tem farmacocinética não linear e ligação proteica que dificulta o ajuste na gestação, e é ineficaz — podendo até agravar — em síndromes generalizadas com mioclonias e ausências.\nPonto adicional: a lamotrigina sofre indução de glicuronidação pelo estrogênio, então o contraceptivo oral combinado reduz seus níveis; ao suspender a pílula para engravidar, o nível sobe e pode causar toxicidade — daí a necessidade de monitorização sérica.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a orientação complementar correta para o planejamento pré-concepcional:",
+     "alternativas": {
+      "a": "Suplementar ácido fólico antes da concepção e durante o primeiro trimestre",
+      "b": "Programar cesariana eletiva de rotina",
+      "c": "Suspender o ácido fólico por reduzir o limiar convulsivo",
+      "d": "Contraindicar formalmente o aleitamento materno"
+     },
+     "correta": "a",
+     "comentario": "A suplementação de ácido fólico deve começar pelo menos 1 a 3 meses ANTES da concepção e seguir por todo o primeiro trimestre, período em que ocorre o fechamento do tubo neural (até a 4ª semana pós-concepção). Em mulheres com epilepsia em uso de anticrises, as recomendações variam de 0,4-1 mg/dia até 4-5 mg/dia nas situações de maior risco, como uso prévio de valproato, antecedente de filho com defeito de tubo neural ou politerapia. Iniciar folato só quando a gravidez é descoberta é tarde demais — outra pegadinha frequente.\nA ideia de que o folato reduz o limiar convulsivo é um mito de prova: não há evidência que sustente suspendê-lo, e o benefício de prevenção de defeito de tubo neural é muito bem estabelecido. Contraindicar o aleitamento é incorreto: a passagem dos anticrises pelo leite é pequena para a maioria dos fármacos e os benefícios da amamentação superam o risco, com vigilância para sonolência e ganho ponderal do lactente. A cesariana eletiva de rotina não se justifica — a maioria das mulheres com epilepsia tem parto vaginal sem intercorrências, e a via de parto segue indicação obstétrica; a cesariana fica reservada a crises frequentes não controladas, estado de mal ou incapacidade de cooperar no trabalho de parto.\nOutras orientações: manter sono adequado, evitar suspensão abrupta de medicação, dosar níveis séricos a cada trimestre (a depuração de lamotrigina e levetiracetam aumenta muito na gestação) e registrar a gestação em programas de acompanhamento.\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 81 — Tratamento Medicamentoso das Epilepsias (seção de epilepsia na mulher e gestação); complementar com o PCDT de Epilepsia do Ministério da Saúde.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtornos do Movimento (hipercinesia unilateral secundária a descompensação metabólica)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 71 anos de idade, com diabetes mellitus tipo 2 e má adesão ao tratamento, é levada à emergência por movimentos involuntários amplos, contínuos, irregulares e sem finalidade no hemicorpo esquerdo, iniciados há 4 dias e que desaparecem durante o sono. Está lúcida, orientada, sem déficit de força, sem sinais meníngeos e afebril. Exames: glicemia de 620 mg/dL, cetonúria negativa, osmolalidade sérica de 305 mOsm/kg e hemoglobina glicada de 13%. A tomografia mostra hiperdensidade no putame direito; a ressonância revela hiperintensidade em T1 na mesma topografia, sem restrição à difusão e sem realce.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Acidente vascular cerebral lacunar do putame",
+      "b": "Coreia de Sydenham de apresentação tardia",
+      "c": "Hemicoreia-hemibalismo por hiperglicemia não cetótica",
+      "d": "Discinesia tardia induzida por neuroléptico"
+     },
+     "correta": "c",
+     "comentario": "A tríade que fecha o diagnóstico é: hipercinesia unilateral de instalação subaguda, hiperglicemia acentuada SEM cetose e hiperintensidade em T1 no estriado contralateral aos movimentos. O mecanismo proposto envolve depleção de GABA e alteração do metabolismo energético dos neurônios estriatais em estado hiperosmolar, com desinibição do circuito subtalâmico-palidal; o hipersinal em T1 tem sido atribuído a acúmulo de proteínas ligadas a manganês, mineralização ou hemorragia petequial, e é característico o suficiente para nomear a condição em provas.\nO AVC lacunar do putame poderia causar hemibalismo, mas produziria restrição à difusão na fase aguda (ausente aqui) e hipossinal — não hipersinal — em T1; além disso, a lesão vascular geralmente cursa com déficit motor associado. A coreia de Sydenham ocorre semanas após infecção estreptocócica, quase sempre em crianças e adolescentes, é habitualmente bilateral e não tem esse padrão de imagem. A discinesia tardia por neuroléptico é bilateral, predominantemente orobucolingual, tem instalação insidiosa após meses de exposição e não se associa a lesão estriatal em T1 nem a hiperglicemia.\nPérola: coreia de início agudo/subagudo no adulto obriga a checar glicemia, função tireoidiana, sorologia para HIV e sífilis, anticorpos antifosfolípides e policitemia — a glicemia é o teste mais barato e o mais frequentemente esquecido.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o achado de imagem que mais sustenta a hipótese diagnóstica:",
+     "alternativas": {
+      "a": "Restrição à difusão em território da artéria lenticuloestriada",
+      "b": "Realce leptomeníngeo difuso",
+      "c": "Hiperintensidade em T1 no núcleo lenticular contralateral aos movimentos",
+      "d": "Atrofia acentuada do núcleo caudado"
+     },
+     "correta": "c",
+     "comentario": "O hipersinal espontâneo em T1 no putame/globo pálido contralateral, sem contraste e sem restrição à difusão, é o marcador radiológico típico e pode preceder a normalização clínica em meses. Na tomografia, corresponde à hiperdensidade estriatal descrita no caso. É importante saber que esse achado pode persistir por semanas a meses mesmo depois que os movimentos cessam, e que sua regressão não é necessária para considerar boa resposta terapêutica.\nRestrição à difusão em território lenticuloestriado indicaria infarto agudo, hipótese que a evolução em 4 dias com movimentos contínuos e sem déficit motor torna improvável e que o hipersinal em T1 contradiz. Realce leptomeníngeo difuso aponta processo infeccioso ou neoplásico das meninges — incompatível com paciente afebril, lúcida e sem sinais meníngeos. Atrofia do núcleo caudado com dilatação dos cornos frontais é o marcador de doença de Huntington, que cursa com coreia BILATERAL de progressão em anos, alterações comportamentais e declínio cognitivo, além de história familiar.\nDiferencial de imagem que vale registrar: outras causas de hipersinal em T1 nos núcleos da base incluem encefalopatia hepática crônica (depósito de manganês), nutrição parenteral prolongada, calcificações e hemorragia subaguda — o contexto clínico é o que decide.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica inicial:",
+     "alternativas": {
+      "a": "Trombólise endovenosa imediata",
+      "b": "Corticoterapia em pulso por 5 dias",
+      "c": "Controle glicêmico intensivo, associando antidopaminérgico se houver risco de lesão",
+      "d": "Levodopa em dose plena"
+     },
+     "correta": "c",
+     "comentario": "O tratamento é a correção da causa: hidratação e insulinoterapia com normalização glicêmica progressiva resolvem os movimentos em dias a semanas na maioria dos casos, com prognóstico geralmente bom. Quando a hipercinesia é intensa a ponto de gerar exaustão, rabdomiólise, lesões traumáticas ou impedir a alimentação, associa-se um bloqueador dopaminérgico — haloperidol, risperidona ou, preferencialmente em idosos, um depletor de dopamina como a tetrabenazina — em curso curto e com atenção a parkinsonismo iatrogênico e prolongamento do intervalo QT.\nA levodopa faria o oposto do desejado: aumenta a transmissão dopaminérgica e tende a agravar a coreia; seu papel é em síndromes hipocinéticas. Corticoterapia em pulso seria apropriada em coreia autoimune (lúpus, síndrome antifosfolípide, coreia paraneoplásica ou por anticorpos antineuronais), mas aqui não há dado clínico ou laboratorial que aponte mecanismo inflamatório, e o corticoide agravaria a hiperglicemia — combinação particularmente ruim. Trombólise não tem indicação: não há evento isquêmico agudo demonstrado e a janela e os critérios não se aplicam.\nSeguimento: reavaliar em 4-8 semanas; movimentos que persistem além de 3 meses apesar de glicemia controlada devem motivar reinvestigação, incluindo pesquisa de causas autoimunes e vasculares.\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), caps. 62-64 — Coreias, Transtornos do Movimento Secundários e Induzidos por Drogas; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 11 — Distúrbios do Movimento.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Nervos cranianos e Neuropatias Periféricas (paresia mímica de padrão periférico)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 35 anos de idade, previamente hígido, acorda com desvio da rima labial para a direita, incapacidade de fechar o olho esquerdo e apagamento do sulco nasogeniano à esquerda, instalados ao longo de 24 horas. Refere dor retroauricular à esquerda nas 48 horas prévias e alteração do paladar nos dois terços anteriores da língua. Não há hipoacusia, vertigem, vesículas no pavilhão auricular ou no conduto, nem qualquer outro déficit focal. Ao exame, não consegue enrugar a fronte à esquerda e o restante do exame neurológico é normal.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a topografia da lesão responsável pelo quadro:",
+     "alternativas": {
+      "a": "Junção neuromuscular da musculatura mímica",
+      "b": "Trato corticobulbar contralateral",
+      "c": "Nervo facial em seu trajeto periférico",
+      "d": "Núcleo do trigêmeo no tronco encefálico"
+     },
+     "correta": "c",
+     "comentario": "A chave semiológica é o acometimento do andar SUPERIOR da face: a impossibilidade de enrugar a fronte e de ocluir o olho indica lesão do neurônio motor inferior, ou seja, do nervo facial em seu trajeto periférico (núcleo no tronco ou nervo propriamente dito). A explicação anatômica é que a porção do núcleo facial que inerva a fronte recebe projeção corticobulbar BILATERAL, enquanto a porção inferior recebe projeção predominantemente contralateral.\nPor isso, lesão do trato corticobulbar (AVC, por exemplo) produz paresia facial CENTRAL, que poupa a fronte e permite fechar o olho — o oposto do descrito; e costuma vir acompanhada de outros sinais no mesmo hemicorpo. O núcleo do trigêmeo é sensitivo para a face e motor para a mastigação; sua lesão causaria hipoestesia facial e fraqueza para morder, não paresia mímica. Doença da junção neuromuscular pode causar fraqueza facial, mas seria tipicamente bilateral, flutuante, com fatigabilidade, ptose e diplopia associadas, e não se instalaria em 24 horas com dor retroauricular e disgeusia.\nOs achados acessórios do caso reforçam a topografia e ajudam a localizar o segmento: a disgeusia nos dois terços anteriores da língua indica comprometimento do nervo corda do tímpano, ramo do facial que se junta a ele no canal facial — portanto lesão proximal à saída desse ramo.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o achado que, se estivesse presente, mudaria o diagnóstico para síndrome de Ramsay Hunt:",
+     "alternativas": {
+      "a": "Vesículas no conduto auditivo externo com hipoacusia e vertigem",
+      "b": "Disgeusia nos dois terços anteriores da língua",
+      "c": "Dor retroauricular isolada",
+      "d": "Hiperacusia por comprometimento do músculo estapédio"
+     },
+     "correta": "a",
+     "comentario": "A síndrome de Ramsay Hunt é a reativação do vírus varicela-zóster no gânglio geniculado. O que a define e a separa da paralisia idiopática é o herpes-zóster ótico: vesículas dolorosas na concha auricular, no conduto auditivo externo, no pavilhão ou até no palato, frequentemente com envolvimento do VIII par — hipoacusia neurossensorial, zumbido e vertigem —, porque o gânglio geniculado é vizinho ao nervo vestibulococlear no canal auditivo interno.\nDor retroauricular isolada ocorre em cerca de metade das paralisias faciais idiopáticas e não distingue as duas entidades; costuma preceder a paresia em 24-48 horas. Disgeusia também é comum na forma idiopática e apenas localiza o segmento lesado, sem apontar etiologia. Hiperacusia por paresia do estapédio igualmente ocorre em ambas e serve para localizar a lesão acima da emergência do nervo estapédio, não para diferenciar causa.\nA distinção tem consequência prática: Ramsay Hunt tem prognóstico pior — recuperação completa em cerca de 50-60% dos casos contra 85% na forma idiopática — e exige antiviral em dose plena associado ao corticoide, idealmente nas primeiras 72 horas. Vale lembrar ainda que paralisia facial periférica BILATERAL muda completamente o raciocínio e obriga a investigar doença de Lyme, sarcoidose, síndrome de Guillain-Barré e HIV.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica inicial mais adequada:",
+     "alternativas": {
+      "a": "Prednisona por via oral iniciada nas primeiras 72 horas, com proteção ocular",
+      "b": "Descompressão cirúrgica do canal facial de imediato",
+      "c": "Aciclovir isolado, sem corticoide",
+      "d": "Aguardar 30 dias e reavaliar antes de qualquer tratamento"
+     },
+     "correta": "a",
+     "comentario": "O corticoide oral é a única intervenção com benefício consistente na paralisia facial idiopática: prednisona (habitualmente 60 mg/dia por 5-7 dias, com ou sem redução gradual, ou 1 mg/kg/dia) iniciada nas primeiras 72 horas aumenta significativamente a chance de recuperação completa e reduz sequela e sincinesias. A proteção ocular é igualmente obrigatória e frequentemente esquecida nas provas: lubrificante durante o dia, pomada e oclusão à noite, para evitar ceratite de exposição e úlcera de córnea, já que o paciente não fecha a pálpebra e pode ter redução do lacrimejamento.\nAntiviral isolado não se justifica: em quadro sem vesículas, a monoterapia antiviral não demonstrou benefício. A associação de antiviral ao corticoide é considerada em casos graves (paresia completa), com ganho modesto, e é obrigatória quando há zóster ótico. Aguardar 30 dias desperdiça a janela terapêutica — o benefício do corticoide depende do início precoce, idealmente em até 72 horas. Descompressão cirúrgica é procedimento excepcional, discutido apenas em casos com degeneração eletroneurográfica superior a 90% nas primeiras duas semanas, em centros com experiência, e nunca como conduta inicial.\nPrognóstico e sinais de alerta: a maioria começa a melhorar em 2-3 semanas e recupera em até 3 meses. Ausência de qualquer recuperação após 3-4 meses, progressão do déficit por mais de três semanas, recorrência no mesmo lado ou envolvimento de outros pares cranianos obrigam neuroimagem para excluir lesão estrutural, como tumor de parótida ou do osso temporal.\n\n📚 Leitura sugerida (bloco): Merritt, Tratado de Neurologia (13ª ed.), Seção 12 — Doenças Neuromusculares (paralisia de Bell e neuropatias cranianas); complementar com Sanvito, Propedêutica Neurológica Básica (2ª ed.), capítulo de nervos cranianos (VII par).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Saúde Coletiva e Puericultura (política pública de atenção integral aos primeiros anos de vida) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Uma Unidade Básica de Saúde (UBS) está se preparando para implementar um programa abrangente de atenção à Primeira Infância com base no Marco Legal da Primeira Infância. Este programa visa melhorar a saúde e o desenvolvimento dessa parcela da população.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a faixa etária que compreende a Primeira Infância:",
+     "alternativas": {
+      "a": "Do nascimento até 1 ano de idade.",
+      "b": "Do nascimento até 6 anos de idade.",
+      "c": "Dos 3 aos 6 anos de idade.",
+      "d": "Do nascimento até 3 anos de idade."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A Lei 13.257/2016 define a primeira infância como o período que abrange os primeiros SEIS anos completos, ou seja, os 72 primeiros meses de vida. A escolha dessa janela não é arbitrária: é o período de maior velocidade de formação de sinapses, de mielinização e de plasticidade dependente de experiência, em que o cuidado responsivo, o vínculo, a nutrição e a proteção contra o estresse tóxico produzem o maior retorno em desenvolvimento — base do argumento econômico e sanitário da lei.\nAs demais alternativas correspondem a recortes de outras políticas ou a limites usados em outros contextos. \"Dos 3 aos 6 anos\" corresponde grosseiramente à pré-escola na educação básica, não à definição legal. \"Até 1 ano\" é o período da vigilância da mortalidade infantil e do calendário vacinal mais intenso, mas não define primeira infância. \"Até 3 anos\" é o corte usado internacionalmente para os \"primeiros mil dias\" ampliados (da gestação aos 2 anos) e para creche, e é a pegadinha mais atrativa da questão.\nO Marco Legal organiza políticas intersetoriais — saúde, educação, assistência social, cultura e justiça —, prevê ações como o Programa Criança Feliz/visitas domiciliares, licença-paternidade ampliada em empresas do Programa Empresa Cidadã e atenção especial a crianças afastadas do convívio familiar e a filhos de mulheres privadas de liberdade.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o período mínimo recomendado de aleitamento materno exclusivo, segundo a Organização Mundial da Saúde (OMS):",
+     "alternativas": {
+      "a": "Até 6 meses.",
+      "b": "Até 1 mês.",
+      "c": "Até 4 meses.",
+      "d": "Até 12 meses."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A recomendação da OMS, adotada pelo Ministério da Saúde e pela Sociedade Brasileira de Pediatria, é aleitamento materno EXCLUSIVO até os 6 meses completos — sem água, chás, sucos ou qualquer outro alimento —, com introdução da alimentação complementar a partir dos 6 meses e manutenção do aleitamento até 2 anos ou mais. O leite materno fornece água suficiente mesmo em climas quentes, o que derruba o mito do chá e da água nos primeiros meses.\nUm mês é insuficiente sob qualquer critério e não corresponde a recomendação alguma. Quatro meses é a pegadinha histórica: corresponde à antiga recomendação de \"4 a 6 meses\", revista pela OMS em 2001 após revisão sistemática mostrar menos infecções gastrintestinais e nenhum prejuízo de crescimento com a exclusividade até os 6 meses; ainda hoje é o limite inferior aceito em algumas sociedades europeias para introdução alimentar, mas não é a recomendação da OMS. Doze meses ultrapassa o período de exclusividade — aos 12 meses a criança já deve estar em alimentação complementar consolidada, participando das refeições da família, com o leite materno mantido como complemento.\nPontos de prova associados: a introdução alimentar deve ser oportuna (aos 6 meses), com alimentos amassados e não liquidificados, oferta de água nos intervalos, sem açúcar até os 2 anos e sem ultraprocessados — conforme o Guia Alimentar para Crianças Brasileiras Menores de 2 Anos.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "De acordo com o Programa Amamenta e Alimenta Brasil, do Ministério da Saúde, o período mínimo recomendado para manter o aleitamento materno como sendo importante para assegurar nutrição adequada na Primeira Infância é de:",
+     "alternativas": {
+      "a": "36 meses ou mais.",
+      "b": "12 meses ou mais.",
+      "c": "6 meses ou mais.",
+      "d": "24 meses ou mais."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A recomendação consolidada é manter o aleitamento materno por 2 anos ou mais, com exclusividade nos 6 primeiros meses. No segundo ano de vida, o leite materno ainda contribui de forma expressiva para as necessidades energéticas e é fonte importante de proteína, cálcio, vitamina A e ácidos graxos essenciais, além de manter a proteção imunológica e o vínculo. O Programa Amamenta e Alimenta Brasil integra as antigas estratégias Rede Amamenta Brasil e ENPACS, e qualifica a atenção básica para promover a amamentação e a alimentação complementar saudável.\nSeis meses corresponde apenas ao período de EXCLUSIVIDADE, não ao tempo total de amamentação — confundir os dois é o erro mais comum. Doze meses é o corte usado por algumas sociedades de outros países e é atrativo, mas fica aquém da recomendação brasileira e da OMS. Trinta e seis meses não corresponde a nenhuma recomendação formal; a amamentação pode se estender além dos 2 anos por escolha da díade, mas não é o mínimo preconizado.\nPara a prova, vale fixar a estrutura: exclusivo até 6 meses; complementado até 2 anos ou mais; introdução alimentar aos 6 meses; e as contraindicações verdadeiras ao aleitamento no Brasil são poucas — HIV, HTLV 1 e 2, uso de antineoplásicos e radiofármacos, e galactosemia clássica no lactente.\n\n📚 Leitura sugerida (bloco): \"Nutrição em Pediatria na Prática Clínica\" (Sarni, 2021), capítulos de aleitamento materno e alimentação complementar — https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view ; complementar com a Lei 13.257/2016 (Marco Legal da Primeira Infância).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Adolescência e Ginecologia (ausência de menarca em atleta com baixo peso) [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "MÉDIO",
+   "vinheta": "Adolescente, sexo feminino, 15 anos de idade, é trazida ao ambulatório pela mãe devido à ausência de menstruação. A mãe informa que a filha nunca menstruou; que pratica balé clássico em nível competitivo, treinando 4 horas por dia, 6 dias por semana. A mãe também menciona que a filha é muito rigorosa com a alimentação para manter o peso. Ao exame, a adolescente está em bom estado geral, com peso de 42 kg e altura de 1,65 m (IMC = 15,4 kg/m²). O desenvolvimento mamário é completo (Tanner M5) e os pelos pubianos também (Tanner P5). O restante do exame físico é normal.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a condição mais provável que explica a ausência de menstruação nessa paciente:",
+     "alternativas": {
+      "a": "Imperfuração do hímen.",
+      "b": "Amenorreia hipotalâmica funcional.",
+      "c": "Síndrome dos Ovários Policísticos (SOP).",
+      "d": "Síndrome de Turner."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O caso reúne os três elementos da chamada tríade da atleta: baixa disponibilidade energética (treino extenuante somado a restrição alimentar), disfunção menstrual e risco de comprometimento da massa óssea. O IMC de 15,4 kg/m² está muito abaixo do percentil 3 para a idade, e o desenvolvimento puberal completo (M5 P5) mostra que houve exposição estrogênica prévia adequada — ou seja, o eixo funcionou e depois foi suprimido, o padrão típico da causa funcional hipotalâmica.\nSíndrome de Turner é descartada pelo exame: cursa com baixa estatura (aqui a altura é de 1,65 m), disgenesia gonadal com ausência ou parada do desenvolvimento mamário e estigmas como pescoço alado, tórax em escudo e cúbito valgo. Imperfuração himenal produz criptomenorreia — dor pélvica cíclica progressiva, massa hipogástrica por hematocolpo e abaulamento azulado do hímen ao exame —, nada disso presente. A síndrome dos ovários policísticos caracteriza-se por oligomenorreia com hiperandrogenismo (hirsutismo, acne) e associa-se com frequência a sobrepeso e resistência insulínica, quadro oposto ao descrito.\nPérola: nesse contexto, é obrigatório afastar gravidez com beta-hCG antes de qualquer outra investigação, e a avaliação deve incluir busca ativa de transtorno alimentar, com abordagem multiprofissional.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o mecanismo fisiopatológico central que leva à supressão do ciclo menstrual desta adolescente:",
+     "alternativas": {
+      "a": "Produção excessiva de andrógenos pelos ovários, que impede a ovulação.",
+      "b": "Defeito genético nos ovários que os impede de responder ao FSH e LH.",
+      "c": "Obstrução mecânica do fluxo menstrual na saída do útero.",
+      "d": "Balanço energético negativo que suprime a pulsatilidade do GnRH no hipotálamo."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O déficit energético crônico é percebido pelo hipotálamo por meio de sinalizadores metabólicos — queda da leptina produzida pelo tecido adiposo, elevação da grelina e do peptídeo YY, aumento do cortisol — que reduzem a atividade dos neurônios de kisspeptina e, com isso, a pulsatilidade do GnRH. Sem pulsos adequados de GnRH, a hipófise não libera LH e FSH em padrão fisiológico, o folículo não amadurece, não há produção estrogênica suficiente nem pico de LH, e o ciclo não ocorre. É um hipogonadismo HIPOgonadotrófico funcional e, por definição, reversível.\nObstrução mecânica corresponde às causas anatômicas de amenorreia (hímen imperfurado, septo vaginal transverso, agenesia mülleriana), em que o eixo hormonal está íntegro e a paciente tem dor cíclica. Excesso de andrógenos ovarianos descreve a fisiopatologia da síndrome dos ovários policísticos, com LH tipicamente elevado e relação LH/FSH aumentada — o oposto do padrão esperado aqui, em que as gonadotrofinas estão baixas ou inapropriadamente normais. Defeito gonadal primário caracteriza a insuficiência ovariana, que cursa com FSH e LH ELEVADOS e estradiol baixo, padrão hipergonadotrófico.\nConsequência clínica relevante: o hipoestrogenismo prolongado na adolescência compromete o pico de massa óssea, que se consolida majoritariamente até o início da terceira década — daí o risco de osteopenia e fraturas por estresse.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o principal foco do tratamento para a adolescente, visando à normalização da sua função menstrual e a proteção da saúde óssea a longo prazo:",
+     "alternativas": {
+      "a": "Terapia de reposição hormonal com estrogênio e progesterona.",
+      "b": "Aumento da ingestão calórica e redução da intensidade do esforço físico.",
+      "c": "Uso de medicamentos indutores da ovulação.",
+      "d": "Administração de TSH."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O tratamento é a correção da causa: restabelecer a disponibilidade energética, aumentando a ingestão calórica e reduzindo a carga de treino, com acompanhamento nutricional e psicológico. Restaurado o balanço energético e recuperado o peso, a pulsatilidade do GnRH retorna e a menstruação volta espontaneamente na maioria das adolescentes, com recuperação também da densidade mineral óssea — resultado que nenhuma intervenção farmacológica isolada reproduz.\nA reposição hormonal com estrogênio e progesterona não é a primeira escolha: induz sangramento de privação e dá a falsa impressão de melhora, mascarando o marcador clínico mais útil do sucesso do tratamento, que é o retorno espontâneo do ciclo; além disso, o contraceptivo oral combinado não demonstrou recuperar a massa óssea nessa população. Fica reservada para casos selecionados, com hipoestrogenismo persistente apesar da recuperação nutricional, preferindo-se estradiol transdérmico com progestágeno cíclico. Indutores de ovulação tratam infertilidade em quem deseja gestar e não têm qualquer papel numa adolescente com causa funcional reversível. TSH é hormônio de dosagem diagnóstica, não terapêutica — a reposição, quando indicada, seria de levotiroxina, e nada no caso sugere hipotireoidismo.\nComplemento: garantir ingestão de cálcio (1.300 mg/dia nessa faixa etária) e vitamina D, e considerar densitometria óssea quando a amenorreia se estende por 6 meses ou mais.\n\n📚 Leitura sugerida (bloco): videoaula de Endocrinologia (puberdade e crescimento) do R+ Pediatria MEDGRUPO — https://drive.google.com/file/d/1DfkaSxC7e73geDJxpMCfbVbx-VX53efB/view ; complementar com o Manual de Orientação da SBP sobre saúde de adolescentes atletas.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição e Metabolismo Ósseo (deformidade de membros inferiores com fosfato baixo) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 18 meses, é trazido ao ambulatório de referência porque apresenta arqueamento de membros inferiores. A genitora informa ter observado que essa característica tem aumentado, após a criança deambular. Sem outras queixas. Foi alimentado, exclusivamente, com leite materno até 6 meses, passando a complementar com novos alimentos, e come de tudo, atualmente. Usou suplementação com vitaminas A e D, segundo orientação do pediatra. Ao exame, encontra-se no percentil 50 para o peso e no percentil 5 para altura. Está em bom estado geral, ativo, com dados vitais normais; corado. A única anormalidade perceptível ao exame segmentar é o arqueamento dos membros inferiores com geno varo.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável para o caso:",
+     "alternativas": {
+      "a": "Deficiência na oferta de Vitamina D.",
+      "b": "Deficiência na absorção de colecalciferol.",
+      "c": "Hipofosfatemia genética primária.",
+      "d": "Osteodistrofia."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] Três dados dirigem o raciocínio: a criança recebeu suplementação adequada de vitamina D, tem alimentação variada e não apresenta sinais sistêmicos, mas exibe deformidade progressiva de membros inferiores com desproporção entre peso (percentil 50) e estatura (percentil 5). Esse é o perfil do raquitismo hipofosfatêmico hereditário — na forma mais comum, ligada ao X, por mutação no gene PHEX, com excesso de FGF23 que aumenta a perda renal de fosfato e inibe a 1-alfa-hidroxilase renal. O resultado é hipofosfatemia isolada com cálcio normal, mineralização óssea deficiente e deformidade que se acentua justamente quando a criança começa a andar e a carga axial aumenta.\nOsteodistrofia (renal) é descartada pela ausência de doença renal crônica, que traria retardo de crescimento acentuado, anemia, hipertensão e alterações do cálcio e do fósforo com hiperparatireoidismo secundário. Deficiência de OFERTA de vitamina D não se sustenta: a criança foi suplementada conforme orientação, e o raquitismo carencial costuma vir acompanhado de irritabilidade, sudorese, atraso do fechamento da fontanela, rosário raquítico e hipocalcemia com risco de tetania e convulsão. Deficiência de ABSORÇÃO de colecalciferol exigiria doença disabsortiva (fibrose cística, doença celíaca, colestase), que cursaria com diarreia crônica, esteatorreia e desnutrição — ausentes num menino em bom estado geral e com peso preservado.\nPérola: raquitismo com boa oferta de vitamina D e sem hipocalcemia obriga a pensar em causa renal de perda de fosfato.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Especifique o resultado esperado dos exames solicitados, para a confirmação da principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Cálcio sérico baixo; Fosfato normal; Fosfatase alcalina normal; aminoácidos na urina normal.",
+      "b": "Cálcio sérico normal; Fosfato baixo; Fosfatase alcalina elevada; aminoácidos na urina elevados.",
+      "c": "Cálcio sérico baixo; Fosfato normal; Fosfatase alcalina elevada; aminoácidos na urina elevados.",
+      "d": "Cálcio sérico normal; Fosfato baixo; Fosfatase alcalina elevada; aminoácidos na urina normal."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O perfil bioquímico é a essência da questão. Na perda renal isolada de fosfato mediada por FGF23, o cálcio sérico é NORMAL (não há hiperparatireoidismo secundário significativo), o fosfato é BAIXO por perda tubular, a fosfatase alcalina está ELEVADA como marcador da atividade osteoblástica frente à mineralização deficiente, e os aminoácidos urinários são NORMAIS, porque o defeito tubular é seletivo para o fosfato.\nA alternativa com aminoacidúria elevada descreve a síndrome de Fanconi renal — disfunção tubular proximal GLOBAL, com perda de fosfato, glicose, bicarbonato e aminoácidos, causando raquitismo, acidose tubular e glicosúria com glicemia normal. É a distratora mais bem construída, porque compartilha o fósforo baixo e a fosfatase alcalina alta; o discriminador é exatamente a aminoacidúria. As duas alternativas com cálcio baixo e fosfato normal apontam para o raquitismo carencial e para os distúrbios da vitamina D, em que a hipocalcemia leva a hiperparatireoidismo secundário — e nesse caso o fosfato tende a cair também, pela ação fosfatúrica do PTH. A opção com fosfatase alcalina normal é incompatível com raquitismo ativo em qualquer etiologia.\nExames complementares úteis: reabsorção tubular de fosfato reduzida (TmP/TFG baixo), 25-OH-vitamina D normal, PTH normal ou discretamente elevado, FGF23 elevado, e radiografia de punhos e joelhos com metáfises alargadas, em taça e com bordas desfiadas.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o tratamento farmacológico para a condição apresentada no caso:",
+     "alternativas": {
+      "a": "Calcitriol.",
+      "b": "Colecalciferol.",
+      "c": "Fosfato.",
+      "d": "Paratormônio."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O tratamento clássico repõe justamente o que se perde: fosfato oral em múltiplas tomadas diárias (4 a 6 vezes, pela meia-vida curta e pela absorção limitada), habitualmente associado a calcitriol para compensar a inibição da 1-alfa-hidroxilase pelo FGF23 e para evitar hiperparatireoidismo secundário induzido pela reposição de fosfato. O gabarito oficial isola o fosfato como resposta porque ele é o elemento essencial e específico do esquema — o calcitriol sozinho não corrige a hipofosfatemia.\nCalcitriol isolado, portanto, é insuficiente: seria adequado no raquitismo dependente de vitamina D tipo 1 (deficiência de 1-alfa-hidroxilase). Paratormônio não tem indicação — ao contrário, o PTH agrava a perda renal de fosfato, e o hiperparatireoidismo secundário é uma complicação a ser evitada no seguimento. Colecalciferol trata e previne o raquitismo carencial, mas nesta criança os estoques de vitamina D já estão adequados e a suplementação isolada não corrige o defeito tubular.\nAtualização importante: o burosumabe, anticorpo monoclonal anti-FGF23, é hoje o tratamento de escolha em várias diretrizes para a forma ligada ao X, com melhor cicatrização radiológica, melhor crescimento e menos complicações (nefrocalcinose e hiperparatireoidismo) do que o esquema convencional. O seguimento exige monitorar cálcio urinário, PTH, função renal e ultrassonografia renal, e a correção ortopédica das deformidades é considerada após otimização clínica.\n\n📚 Leitura sugerida (bloco): \"Nutrição em Pediatria na Prática Clínica\" (Sarni, 2021), capítulo de raquitismo e metabolismo ósseo — https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view ; complementar com o Manual de Orientação da SBP sobre deficiência de vitamina D.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências (choque hipovolêmico em criança com diarreia sanguinolenta) [REAL: SUS-BA R+ Pediatria 2021]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 2 anos, é levado a uma UBS com quadro diarreico há uma semana, com 6 a 7 dejeções ao dia, com fezes semilíquidas com rajas de sangue. Há vômitos e dor abdominal, e a temperatura mantém-se em torno de 37,5°C. A genitora observou que ele não urina há, aproximadamente, 8 horas e procurou a UBS. Usou antitérmicos e não vem aceitando a solução reidratante caseira. Ao exame: letárgico; apresenta estado geral comprometido; temperatura de 37,4°C; frequência cardíaca de 70 bpm; enchimento capilar acima de 6 segundos. Há palidez cutâneo-mucosa e distensão abdominal discreta. Reage à palpação abdominal não permitindo a palpação profunda. Houve três tentativas de punção venosa periférica, sem êxito.",
+   "perguntas": [
+    {
+     "enunciado": "Identifique a alternativa que apresenta os dois agentes etiológicos mais prováveis:",
+     "alternativas": {
+      "a": "Rotavírus e Campylobacter.",
+      "b": "Escherichia coli e Shigella.",
+      "c": "Escherichia coli e Rotavírus.",
+      "d": "Shigella e Salmonella."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O quadro é de diarreia INVASIVA (disenteria): fezes com sangue, dor abdominal, vômitos e febre baixa. Os agentes bacterianos invasivos clássicos na infância são Shigella, Escherichia coli (nas variantes êntero-invasiva e êntero-hemorrágica), Salmonella, Campylobacter e Yersinia. A banca considerou como par mais provável E. coli e Shigella, coerente com o perfil epidemiológico brasileiro em menores de 5 anos e com a gravidade do quadro.\nO par Shigella e Salmonella tem ambos os agentes plausíveis, mas foi preterido pelo gabarito oficial. Os pares que incluem rotavírus são os mais facilmente descartáveis pelo raciocínio fisiopatológico: o rotavírus causa diarreia SECRETORA/osmótica, aquosa e volumosa, tipicamente com vômitos proeminentes e febre, mas SEM sangue nas fezes, porque não invade a mucosa — invadir e ulcerar a mucosa colônica é o que produz sangue e muco. Campylobacter é invasivo e possível, mas está pareado ao rotavírus na alternativa, o que a inviabiliza.\nAlerta clínico importante: diante de E. coli êntero-hemorrágica (O157:H7 e outras produtoras de toxina Shiga), o antibiótico deve ser EVITADO, porque aumenta a liberação de toxina e o risco de síndrome hemolítico-urêmica — que deve ser suspeitada se surgirem oligúria, palidez, edema e plaquetopenia. Nas disenterias por Shigella com sinais de gravidade, ao contrário, o antibiótico está indicado (ciprofloxacino ou ceftriaxona, conforme perfil local).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta correta para administrar hidratação, no momento:",
+     "alternativas": {
+      "a": "Realizar punção intraóssea.",
+      "b": "Tentar aceitação oral fracionada.",
+      "c": "Obter acesso venoso central.",
+      "d": "Realizar dissecção de vaso periférico."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A criança está em choque descompensado: letargia, enchimento capilar acima de 6 segundos, oligoanúria de 8 horas e bradicardia — sinal particularmente ominoso na criança, porque indica descompensação avançada e precede a parada cardiorrespiratória. A regra do PALS é clara: se o acesso venoso periférico não é obtido em até 90 segundos ou após 2 a 3 tentativas na criança gravemente enferma, deve-se puncionar a via INTRAÓSSEA imediatamente. Ela é rápida (segundos), tem alta taxa de sucesso, permite infusão de cristaloides, sangue e todos os fármacos de emergência, e o sítio preferencial é a face ântero-medial da tíbia proximal.\nO acesso venoso central exige tempo, treinamento e material específico, tem maior taxa de complicações e não é a primeira escolha na emergência pediátrica com choque instalado. Insistir na via oral é inadequado e perigoso: a criança está letárgica, com risco de broncoaspiração e já em falha da terapia de reidratação oral — a oferta oral é o plano B da desidratação sem choque, não da criança em choque. A dissecção venosa é procedimento demorado, quase abandonado na prática pediátrica de urgência, e foi substituída justamente pela via intraóssea.\nDetalhe de prova: as contraindicações à intraóssea são fratura no osso escolhido, infecção ou queimadura no sítio de punção, osteogênese imperfeita e tentativa prévia no mesmo osso — nenhuma presente aqui.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique, entre as alternativas apresentadas, a solução para reidratação e o volume (mL/kg) a ser infundido inicialmente:",
+     "alternativas": {
+      "a": "Solução Glicofisiológica 1:1 – 50 mL/kg.",
+      "b": "Solução Fisiológica 0,9% – 20 mL/kg.",
+      "c": "Solução Fisiológica 0,9% – 10 mL/kg.",
+      "d": "Solução Glicofisiológica 1:4 – 20 mL/kg."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] No choque hipovolêmico pediátrico, a expansão inicial é feita com cristaloide isotônico — soro fisiológico 0,9% ou Ringer lactato — na dose de 20 mL/kg, infundidos rapidamente (em 5 a 20 minutos, com push manual ou bolsa pressurizada), com reavaliação clínica após cada alíquota. A resposta é medida por perfusão, nível de consciência, frequência cardíaca e diurese; podem ser necessárias até 3 alíquotas (60 mL/kg) na primeira hora, sempre monitorando sinais de sobrecarga como estertores, hepatomegalia e piora do desconforto respiratório.\nDez mL/kg é a dose reduzida reservada a situações específicas — recém-nascidos, cardiopatas, desnutridos graves e suspeita de cetoacidose diabética —, em que a expansão rápida aumenta risco de edema pulmonar ou cerebral; não é o caso deste lactente. As soluções glicofisiológicas são inadequadas para expansão: soluções hipotônicas se distribuem para o intracelular, expandem mal o intravascular e aumentam o risco de hiponatremia iatrogênica com edema cerebral. Além disso, o volume de 50 mL/kg citado corresponde ao esquema antigo de reidratação venosa em fases, não à expansão do choque.\nComplemento: na criança desnutrida grave, o protocolo muda — a expansão é mais lenta e cuidadosa, com solução específica, pelo risco de insuficiência cardíaca. Após a estabilização, mantém-se hidratação de manutenção, corrige-se distúrbio eletrolítico e retoma-se a alimentação precocemente, além de zinco por 10-14 dias conforme recomendação do Ministério da Saúde.\n\n📚 Leitura sugerida (bloco): \"Choque em Pediatria\" (material do Drive) — https://drive.google.com/file/d/11Wx8xIUFnHO1M-dvnxHASuSgNWNSz9H8/view ; complementar com o Manual de Manejo da Diarreia Aguda na Infância do Ministério da Saúde.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nefrologia (edema com proteinúria maciça e hipoalbuminemia na escolar) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 6 anos de idade, foi trazida à Emergência com \"inchaço\" no rosto há, aproximadamente, uma semana, que progrediu para as pernas e abdome. Refere cansaço e urina espumosa. Ao exame, apresenta edema periocular, em membros inferiores e ascite moderada. Exames laboratoriais mostram: albumina sérica de 2,0 g/dL; proteinúria de 4+; colesterol total de 300 mg/dL; ureia de 50 mg/dL; creatinina de 0,7 mg/dL; PA: 90/60 mmHg.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o caso clínico, em relação à epidemiologia do diagnóstico mais provável, é correto afirmar:",
+     "alternativas": {
+      "a": "É igualmente comum em meninos e meninas, em todas as idades.",
+      "b": "Ocorre predominantemente em adolescentes.",
+      "c": "Ocorre apenas em crianças com doenças congênitas.",
+      "d": "É mais comum em meninos do que em meninas, entre 2 e 8 anos."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O quadro é a tétrade clássica: edema, proteinúria maciça, hipoalbuminemia (abaixo de 2,5 g/dL) e hiperlipidemia. Na faixa etária pré-escolar e escolar, a forma idiopática por lesões mínimas responde por cerca de 85-90% dos casos e tem predomínio no sexo masculino, na proporção aproximada de 2:1, com pico de incidência entre 2 e 8 anos — exatamente a descrição da alternativa correta. A hiperlipidemia decorre do aumento compensatório da síntese hepática de lipoproteínas frente à queda da pressão oncótica.\nAfirmar distribuição igual entre os sexos e em todas as idades contraria os dados epidemiológicos e apaga a informação que orienta a conduta empírica na criança. Restringir a ocorrência a doenças congênitas é incorreto: as formas congênitas (tipo finlandês, por mutação em NPHS1) existem, mas se manifestam nos primeiros 3 meses de vida e são raras. Predomínio em adolescentes também é falso — nessa faixa a proporção entre os sexos se aproxima e cresce a participação de outras histologias, como glomeruloesclerose segmentar e focal e glomerulonefrite membranosa, além de causas secundárias como lúpus.\nDado útil: a pressão arterial normal (90/60 mmHg), a creatinina normal e a ausência de hematúria macroscópica reforçam a forma idiopática e afastam síndrome nefrítica, em que se esperaria hipertensão, hematúria e queda da função renal.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Nesse caso, indique o mecanismo fisiopatológico subjacente mais provável:",
+     "alternativas": {
+      "a": "Disfunção tubular renal, levando à perda de proteína.",
+      "b": "Ativação de sistema imune, causando lesão glomerular.",
+      "c": "Diminuição da síntese hepática de albumina.",
+      "d": "Alteração genética em proteínas do colágeno glomerular."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A hipótese fisiopatológica consagrada envolve desregulação imunológica, com participação de linfócitos T e produção de um fator circulante de permeabilidade que lesa os podócitos, provocando apagamento difuso dos processos podocitários — visível apenas à microscopia eletrônica, o que explica o nome \"lesões mínimas\", já que a microscopia óptica é praticamente normal. Evidências indiretas fortes desse mecanismo são a resposta dramática ao corticoide e à ciclofosfamida e os relatos recentes de anticorpos antinefrina em parte dos pacientes.\nAlteração genética do colágeno glomerular descreve a síndrome de Alport (mutações do colágeno tipo IV), que cursa com hematúria persistente, surdez neurossensorial e alterações oculares, evoluindo para doença renal crônica — perfil distinto do apresentado. Disfunção tubular causa proteinúria de baixo peso molecular, de pequena magnitude, associada a glicosúria, aminoacidúria e acidose (síndrome de Fanconi), e não a proteinúria maciça seletiva de albumina. Redução da síntese hepática de albumina inverte a causalidade: o fígado, na verdade, AUMENTA a síntese proteica em resposta à perda urinária, mas não consegue compensá-la — a hipoalbuminemia é consequência da perda renal, não de falência hepática.\nPara a prova: proteinúria nefrótica na criança é maior que 50 mg/kg/dia ou relação proteína/creatinina urinária acima de 2,0 mg/mg em amostra isolada.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Quanto ao comportamento dessa criança, a longo prazo, após estabilização do quadro clínico, a conduta mais importante será:",
+     "alternativas": {
+      "a": "Terapia com ciclosporina para prevenir recidivas.",
+      "b": "Suspensão dos corticosteroides imediatamente.",
+      "c": "Realização de biópsia renal anual para avaliação de progressão.",
+      "d": "Monitoramento da pressão arterial e de proteinúria regularmente."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A doença é recidivante em 60-80% das crianças, e o seguimento ambulatorial se organiza em torno de dois marcadores simples e baratos: pressão arterial e proteinúria, esta última monitorada em casa com fita reagente na primeira urina da manhã, o que permite detectar recidiva precocemente e iniciar o corticoide antes que o edema se instale. Completam o seguimento a vigilância de crescimento, de efeitos adversos do corticoide, do estado vacinal (incluindo pneumocócica e varicela) e o alerta para complicações agudas, como peritonite bacteriana espontânea e eventos tromboembólicos.\nSuspender o corticoide imediatamente após a remissão é errado e é a principal causa de recidiva precoce: o esquema inicial preconizado é prednisona 60 mg/m²/dia (máximo 60 mg) por 4-6 semanas, seguida de 40 mg/m² em dias alternados por mais 2-5 meses, com retirada gradual. A ciclosporina não é profilaxia de rotina — é poupador de corticoide reservado a casos corticodependentes, recidivantes frequentes ou corticorresistentes, e exige monitorização de nível sérico, função renal e pressão arterial pelo risco de nefrotoxicidade. Biópsia renal anual não se justifica: na criança de 2 a 8 anos com apresentação típica, a biópsia sequer é feita antes do tratamento, ficando indicada apenas em casos atípicos (menor de 1 ano ou maior de 12 anos, hematúria macroscópica, hipertensão, complemento baixo, insuficiência renal) ou na corticorresistência.\n\n📚 Leitura sugerida (bloco): videoaula de Nefrologia do R+ Pediatria MEDGRUPO — https://drive.google.com/file/d/1KuvXkP9naQp1_JIcYrTNEDsoqD5K3DXG/view ; complementar com as diretrizes KDIGO para síndrome nefrótica na infância.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecções Respiratórias (taquipneia afebril com conjuntivite no primeiro trimestre de vida) [REAL: SUS-BA R+ Pediatria 2022]",
+   "tier": "ALTO",
+   "vinheta": "Menina, 6 semanas de vida, nascida de parto natural a termo, sem intercorrências, é levada à UBS com relato de que, há uma semana, vem cursando com coriza e lacrimejamento; e que, há aproximadamente 48 horas, apresenta respiração rápida. Nega febre. Ao exame, ativa, hidratada, temperatura de 37,2ºC; taquipneica (FR: 55 ipm). Observa-se hiperemia conjuntival bilateral, com lacrimejamento e coriza fluida. Ausculta cardíaca mostra-se normal; campos pulmonares apresentam murmúrio vesicular bem distribuído, com crépitos disseminados e raros sibilos. Abdome globoso, timpânico, sem visceromegalias.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando os achados e a epidemiologia, indique o diagnóstico desse caso:",
+     "alternativas": {
+      "a": "Bronquite.",
+      "b": "Bronquiolite.",
+      "c": "Traqueobronquite.",
+      "d": "Pneumonia."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O critério operacional da OMS, adotado pelo Ministério da Saúde, define pneumonia na criança pela presença de tosse ou dificuldade respiratória associada a TAQUIPNEIA — e o ponto de corte para menores de 2 meses é frequência respiratória igual ou maior que 60 irpm, e igual ou maior que 50 irpm para lactentes de 2 a 11 meses. A criança tem 6 semanas, com FR de 55 irpm e crépitos disseminados à ausculta, o que caracteriza acometimento alveolar/intersticial difuso, sustentando o diagnóstico de pneumonia.\nBronquite e traqueobronquite são diagnósticos de via aérea alta e média, essencialmente clínicos e de curso benigno, que não costumam cursar com crépitos disseminados nem com taquipneia significativa nessa idade — além de serem entidades pouco usadas em lactentes jovens. A bronquiolite é a distratora mais forte: também acomete lactentes, cursa com taquipneia e sibilos e é a principal causa de sibilância no primeiro ano. Contra ela pesam a ausência de febre, o pródromo de conjuntivite arrastada de uma semana, o predomínio de crépitos sobre os sibilos e, sobretudo, a idade e a epidemiologia do caso; a bronquiolite típica é precedida de coriza com febre baixa e tem sibilância como achado dominante.\nPérola: contar a frequência respiratória durante um minuto inteiro, com a criança calma, é o gesto semiológico mais custo-efetivo da atenção primária pediátrica.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando os achados e a epidemiologia, identifique o agente mais provável:",
+     "alternativas": {
+      "a": "Chlamydia trachomatis.",
+      "b": "Streptococcus do grupo B.",
+      "c": "Vírus Sincicial Respiratório.",
+      "d": "Moraxella catarrhalis."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] A tríade que define a pneumonia afebril do lactente por Chlamydia trachomatis é: idade entre 2 e 19 semanas (pico entre 4 e 12), quadro AFEBRIL e conjuntivite prévia ou concomitante. A transmissão é vertical, na passagem pelo canal de parto — e o caso registra parto natural. A tosse costuma ser em acessos (coqueluchoide, mas sem guincho), há taquipneia com crépitos, e o hemograma classicamente mostra EOSINOFILIA, achado que praticamente sela o diagnóstico. A radiografia revela hiperinsuflação com infiltrado intersticial bilateral.\nO vírus sincicial respiratório é o agente da bronquiolite e é o mais comum globalmente nessa faixa, mas cursa com febre em boa parte dos casos, sibilância dominante e não explica a conjuntivite arrastada de uma semana. Streptococcus do grupo B é agente clássico de sepse e pneumonia NEONATAL precoce (primeiras 72 horas) ou tardia, com quadro grave, febril ou hipotérmico, e não este quadro insidioso e afebril numa criança em bom estado geral. Moraxella catarrhalis é agente de otite média e sinusite, não de pneumonia afebril do lactente.\nDetalhe: a profilaxia ocular com nitrato de prata ou eritromicina ao nascer previne a conjuntivite gonocócica, mas NÃO previne a colonização respiratória por clamídia — por isso a pneumonia pode ocorrer mesmo em recém-nascidos que receberam o método de Credé.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Considerando os achados e a epidemiologia, indique o tratamento farmacológico recomendado para essa criança:",
+     "alternativas": {
+      "a": "Eritromicina.",
+      "b": "Amoxicilina + Clavulanato.",
+      "c": "Aciclovir.",
+      "d": "Salbutamol."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2022] O tratamento é com macrolídeo: eritromicina 50 mg/kg/dia divididos em 4 tomadas por 14 dias, sendo a azitromicina (20 mg/kg/dia por 3 dias) alternativa aceita e mais confortável. Macrolídeos são a escolha porque a clamídia é bactéria intracelular obrigatória, sem parede celular convencional, o que a torna insensível a betalactâmicos, que agem justamente na síntese da parede.\nAmoxicilina com clavulanato, portanto, não cobre o agente — seria a escolha para pneumonia bacteriana típica, geralmente febril, com consolidação lobar e leucocitose com neutrofilia. Salbutamol trata broncoespasmo; embora haja raros sibilos, o mecanismo aqui é inflamatório intersticial, e broncodilatador não é recomendado sequer na bronquiolite, em que revisões sistemáticas não demonstraram benefício consistente. Aciclovir trata infecção herpética, que no lactente jovem se apresenta como quadro sistêmico grave, com vesículas, hepatite ou encefalite — nada disso presente.\nAlerta de segurança que costuma ser cobrado: o uso de eritromicina em lactentes com menos de 6 semanas associa-se a aumento do risco de estenose hipertrófica de piloro, e a família deve ser orientada a procurar atendimento se surgirem vômitos em jato. Além disso, o diagnóstico obriga a rastrear e tratar a mãe e o parceiro, por se tratar de infecção sexualmente transmissível com transmissão vertical.\n\n📚 Leitura sugerida (bloco): videoaula de Infecções Respiratórias (bronquiolite e pneumonia) do R+ Pediatria MEDGRUPO — https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view ; complementar com as Diretrizes Brasileiras de Pneumonia Adquirida na Comunidade em Pediatria (SBP).",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Endocrinologia e Neonatologia (crise adrenal perdedora de sal com genitália atípica)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Recém-nascida de 12 dias de vida, nascida a termo em domicílio, é levada à emergência por vômitos repetidos, recusa alimentar e sonolência há 48 horas. A família não compareceu à unidade de saúde para a triagem neonatal. Ao nascimento, foi notada genitália atípica, com aumento do clitóris e fusão das pregas labioescrotais, sem gônadas palpáveis. Ao exame: hipoativa, desidratada, tempo de enchimento capilar de 4 segundos, perda de 14% do peso de nascimento. Exames: sódio de 118 mEq/L, potássio de 7,2 mEq/L, glicemia de 42 mg/dL, bicarbonato de 12 mEq/L e ureia elevada.",
+   "perguntas": [
+    {
+     "enunciado": "Indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Diabetes insipidus nefrogênico",
+      "b": "Estenose hipertrófica do piloro",
+      "c": "Hiperplasia adrenal congênita por deficiência de 21-hidroxilase",
+      "d": "Sepse neonatal tardia com choque"
+     },
+     "correta": "c",
+     "comentario": "A combinação de virilização da genitália externa em recém-nascido 46,XX (clitoromegalia e fusão labioescrotal com gônadas NÃO palpáveis, o que afasta testículos e sugere sexo genético feminino) com crise perdedora de sal entre o 7º e o 14º dia — hiponatremia, hipercalemia, hipoglicemia e acidose metabólica — é a apresentação clássica da forma clássica perdedora de sal da hiperplasia adrenal congênita, responsável por cerca de 75% dos casos de deficiência de 21-hidroxilase. O bloqueio enzimático reduz cortisol e aldosterona e desvia os precursores para a via androgênica, virilizando o feto do sexo feminino ainda no útero.\nEstenose hipertrófica do piloro também cursa com vômitos no primeiro mês, mas o distúrbio é oposto: alcalose metabólica hipoclorêmica e HIPOcalêmica, com vômitos em jato não biliosos, criança faminta e oliva palpável — e não explica a genitália atípica. Sepse neonatal tardia é diferencial obrigatório e pode coexistir, mas não justifica sozinha a hipercalemia com hiponatremia grave nem a virilização; a armadilha clássica é tratar como sepse e perder o diagnóstico endocrinológico. Diabetes insipidus nefrogênico cursa com poliúria, HIPERnatremia e desidratação hipertônica, o inverso do quadro.\nPérola: gônadas não palpáveis em recém-nascido com genitália atípica é hiperplasia adrenal congênita até prova em contrário — e é a única causa de genitália atípica que mata na primeira semana de vida.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame laboratorial que confirma a suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Dosagem de cortisol livre urinário de 24 horas",
+      "b": "Dosagem sérica de 17-hidroxiprogesterona",
+      "c": "Teste de estímulo com ACTH em dose baixa após os 6 meses",
+      "d": "Ultrassonografia de abdome com Doppler"
+     },
+     "correta": "b",
+     "comentario": "A 17-hidroxiprogesterona é o substrato imediatamente anterior ao bloqueio enzimático e se acumula de forma expressiva — valores muito elevados na forma clássica confirmam o diagnóstico. É exatamente esse o analito rastreado no teste do pezinho, que a família deste caso não realizou; a triagem neonatal ampliada do SUS inclui a hiperplasia adrenal congênita justamente para permitir o diagnóstico antes da crise. A coleta deve ser feita idealmente após 48 horas de vida, para evitar falso-positivo pela 17-OHP de origem materna e placentária, e valores limítrofes em prematuros e em recém-nascidos estressados exigem repetição. Completam a avaliação sódio, potássio, glicemia, gasometria, renina/atividade de renina plasmática, cortisol e cariótipo com ultrassonografia pélvica.\nCortisol livre urinário de 24 horas é exame de rastreio de hipercortisolismo, inviável e irrelevante em recém-nascido. Ultrassonografia de abdome com Doppler é útil para avaliar útero, gônadas e adrenais como parte da investigação anatômica, mas não confirma o defeito enzimático nem orienta o tratamento imediato. Adiar o teste de estímulo com ACTH para os 6 meses é conduta inaceitável: o teste tem papel nas formas não clássicas de manifestação tardia, e postergar a definição diante de uma crise adrenal é potencialmente fatal.\nAtenção: nunca aguardar o resultado para iniciar o tratamento — colhe-se a amostra e trata-se imediatamente.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta imediata na emergência:",
+     "alternativas": {
+      "a": "Expansão com soro fisiológico 0,9% e hidrocortisona endovenosa",
+      "b": "Fludrocortisona por via oral isoladamente",
+      "c": "Genitoplastia de urgência antes da compensação clínica",
+      "d": "Restrição hídrica e furosemida"
+     },
+     "correta": "a",
+     "comentario": "A crise adrenal é emergência endócrina e o tratamento tem três frentes simultâneas: expansão volêmica com soro fisiológico 0,9% (20 mL/kg, repetindo conforme a resposta), correção da hipoglicemia com glicose e, sobretudo, hidrocortisona endovenosa em dose de estresse (habitualmente 25 mg em bolus no recém-nascido, seguidos de 25-50 mg/m²/dia divididos a cada 6 horas). A hidrocortisona é o corticoide de escolha porque, em doses altas, tem também atividade mineralocorticoide, ajudando a corrigir hiponatremia e hipercalemia. A hipercalemia grave exige monitorização eletrocardiográfica e, se houver alteração de traçado, gluconato de cálcio, insulina com glicose e resina de troca.\nFludrocortisona isolada é insuficiente e inadequada na fase aguda: é comprimido oral, de absorção incerta numa criança que vomita e está hipoperfundida, e não substitui a reposição de glicocorticoide em dose de estresse — ela entra na manutenção, tipicamente 0,1 mg/dia, com suplementação de cloreto de sódio no primeiro ano de vida. Restrição hídrica com furosemida agravaria a hipovolemia e a hiponatremia — essa seria a lógica de uma síndrome de secreção inapropriada de ADH, condição em que a criança está euvolêmica, o oposto do caso. Genitoplastia é decisão eletiva, discutida com equipe multiprofissional e com a família após a estabilização e a definição do cariótipo, e jamais uma medida de urgência.\nOrientação de alta: educação familiar sobre dose de estresse em doença febril, cirurgia ou trauma (habitualmente triplicar a dose oral), hidrocortisona injetável em domicílio e cartão de identificação de insuficiência adrenal.\n\n📚 Leitura sugerida (bloco): videoaula de Endocrinologia do R+ Pediatria MEDGRUPO — https://drive.google.com/file/d/1DfkaSxC7e73geDJxpMCfbVbx-VX53efB/view ; complementar com o Manual Técnico do Programa Nacional de Triagem Neonatal (Ministério da Saúde) e o Consenso da Endocrine Society sobre hiperplasia adrenal congênita.",
+     "dificuldade": "moderada"
+    }
+   ]
+  }
+ ]
+}
