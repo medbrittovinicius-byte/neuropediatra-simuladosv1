@@ -9633,3 +9633,386 @@ Três padrões de erro explicam o que resta:
 **Como zerar.** Use o **funil de cinco perguntas** da última seção: (1) já tem câncer ou está sendo diagnosticada — porque isso decide se a questão é de complicação ou de diagnóstico; (2) onde está a doença — sangue, massa, SNC, osso ou olho; (3) há pista genética escondida; (4) há emergência oncológica em curso; (5) qual é a conduta **do pediatra**. As três questões novas treinam justamente os pontos cegos restantes — histiocitose, toxicidade de quimioterápico e leucemia transitória do Down —, e em todas elas a alternativa errada mais votada seria a que trata demais em vez de reconhecer.`;
 
 })();
+
+/* =======================================================================
+   Estudo 2026-09-02 — Pediatria
+   Aprofundamento de PED|Imunização
+   (taxa de erro agregada 25% — 3/12; Vinicius 3 erros: PFA/pólio 2/3 e PNI 1/3)
+   Subtemas novos: calendário fora do PNI (SBIm/rede privada), dengue, VSR,
+   vacinação do viajante, recusa vacinal e a lei, coberturas/SIPNI e sarampo.
+   ======================================================================= */
+(function(){
+  var v = window.REVISAO_MODULOS["PED|Imunização"];
+  if(!v) return;
+
+  v.secoes.push(
+  {h:"18. O que existe fora do PNI — o calendário da SBIm e a pergunta que os pais fazem no consultório",
+   c:`Até aqui a aula tratou do **Calendário Nacional de Vacinação**, que é o que o Estado oferece de graça e o que a maioria das bancas cobra. Mas existe um segundo calendário, o da **SBIm (Sociedade Brasileira de Imunizações)**, que é mais amplo. Entender a diferença entre os dois não é preciosismo: é o que separa a resposta "certa na prova" da resposta "certa no consultório", e a banca gosta exatamente dessa fronteira.
+
+**Por que os dois calendários são diferentes.** O PNI é uma política pública. Ele decide o que oferecer pensando em três coisas ao mesmo tempo: (1) o quanto a doença pesa no Brasil, (2) o quanto a vacina reduz esse peso **na população** e (3) quanto custa multiplicar isso por milhões de doses. A SBIm é uma sociedade científica: recomenda o que é **melhor para o indivíduo**, sem a restrição orçamentária. Por isso a SBIm quase sempre recomenda **mais doses, mais idades e formulações mais amplas** que o PNI — e isso não significa que o PNI esteja errado. São perguntas diferentes: "o que protege melhor esta criança?" e "o que protege melhor o país com o dinheiro que existe?".
+
+**Analogia útil.** Pense no PNI como o corpo de bombeiros de uma cidade: ele decide onde colocar os quartéis para reduzir o número total de casas queimadas. A SBIm é o consultor que você contrata para a sua casa: vai recomendar extintor em cada cômodo. Nenhum dos dois está mentindo — as escalas é que são diferentes.
+
+**As diferenças que mais caem, uma a uma:**
+
+- **Meningocócica.** O PNI oferece a **meningocócica C conjugada** no lactente (3 e 5 meses, reforço aos 12 meses) e a **ACWY** para adolescentes (faixa de 11 a 14 anos, conforme a nota técnica vigente). A SBIm recomenda **ACWY já a partir dos 3 meses**, substituindo a C, e acrescenta a **meningocócica B**, que **não está no calendário de rotina do SUS** — no serviço público ela fica restrita aos **CRIE**, para grupos de altíssimo risco (asplenia anatômica ou funcional, deficiência de complemento ou de properdina, uso de inibidores do complemento como eculizumabe). Pegadinha clássica: perguntar qual vacina falta em uma criança **esplenectomizada** — a resposta costuma envolver meningo B e pneumocócica 23-valente, ambas fora da rotina e dentro do CRIE.
+- **HPV.** O SUS usa a vacina **quadrivalente** e adotou o **esquema de dose única** para meninas e meninos de **9 a 14 anos**. A regra de dose única **não vale para todo mundo**: pessoas **imunocomprometidas** (HIV, transplantados, pacientes oncológicos) e **vítimas de violência sexual** mantêm **três doses**, em faixa etária ampliada. A rede privada oferece a **nonavalente**, que cobre mais genótipos oncogênicos. Se a questão trouxer uma adolescente HIV+, a resposta quase nunca é "dose única".
+- **Hepatite A.** O PNI dá **uma dose aos 15 meses** (com resgate até antes dos 5 anos). A SBIm recomenda **duas doses**, aos 12 e aos 18 meses. Se a questão pergunta "quantas doses o calendário do Ministério prevê?", quer **uma**; se pergunta "qual o esquema ideal segundo a sociedade", quer **duas**.
+- **Varicela.** O PNI faz a primeira dose dentro da **tetraviral aos 15 meses** e a segunda com **varicela monovalente aos 4 anos**. Ou seja: **são duas doses no SUS** — esse ponto ainda aparece desatualizado em material antigo, que dizia "dose única".
+- **Influenza.** A campanha anual cobre crianças de **6 meses a menores de 6 anos** (além dos demais grupos prioritários). O detalhe que decide questão: **na primovacinação de menores de 9 anos são duas doses com intervalo de 30 dias**; nos anos seguintes, dose única anual. Criança de 3 anos que nunca se vacinou contra influenza precisa de **duas** doses naquele ano.
+- **Dengue.** O Brasil incorporou ao SUS uma **vacina tetravalente atenuada** (TAK-003 / Qdenga), com **duas doses separadas por 3 meses**, inicialmente para a faixa de **10 a 14 anos**, por escassez de doses e por ser a faixa com maior taxa de hospitalização. Por ser **vacina viva**, está contraindicada em **gestantes, lactantes e imunossuprimidos**. Há ainda a vacina de dose única desenvolvida no país (Butantan-DV) em etapa regulatória/de incorporação — confira a nota técnica vigente antes de afirmar disponibilidade. Ponto conceitual importante: a vacina anterior (Dengvaxia, CYD-TDV) só era recomendada para **soropositivos prévios**, porque em soronegativos aumentava o risco de dengue grave — fenômeno de **amplificação dependente de anticorpo**. A TAK-003 não exige sorologia prévia; confundir as duas é erro frequente.
+- **Vírus sincicial respiratório (VSR).** Aqui a lógica muda: a proteção do lactente vem por **imunização passiva** (anticorpo monoclonal — palivizumabe, restrito a prematuros extremos e a cardiopatas/displásicos, e mais recentemente o **nirsevimabe**, de dose única e meia-vida longa) e pela **vacinação da gestante** no terceiro trimestre, que transfere anticorpos pela placenta. Verifique sempre a nota técnica vigente do MS para saber qual estratégia está ativa na sazonalidade. O conceito que a prova cobra é outro e é estável: **monoclonal não é vacina** — não gera memória imunológica, protege por semanas a meses e depende de reaplicação conforme a estratégia.
+- **COVID-19.** Deixou de ser campanha emergencial e passou a integrar a rotina para os grupos definidos pelo MS, com destaque para **crianças de 6 meses a menos de 5 anos** e para imunocomprometidos. As doses mudam com a formulação vigente — memorize o princípio (rotina para os menores e para os de risco), não o número.`},
+
+  {h:"19. Vacinação do viajante — quando a criança sai do lugar, o calendário muda",
+   c:`Assunto que quase nunca aparece na primeira leitura do calendário e cai com frequência crescente, especialmente em provas da Bahia e do Nordeste, por causa do trânsito para áreas de febre amarela e de fronteira.
+
+**A regra de ouro do viajante:** a consulta ideal acontece **4 a 6 semanas antes da viagem**, porque vacinas precisam de tempo para induzir resposta e algumas exigem mais de uma dose. Descobrir isso na véspera do voo é justamente o cenário da questão, e a resposta correta costuma ser "vacinar mesmo assim, aceitando proteção parcial", nunca "não vale mais a pena".
+
+**Febre amarela.** É a única vacina que gera um documento internacional: o **Certificado Internacional de Vacinação ou Profilaxia (CIVP)**, exigido por vários países. Ele passa a valer **10 dias após a primeira dose** — por isso quem viaja em cinco dias não terá certificado válido. Hoje, **uma dose é considerada suficiente para a vida toda** pela OMS e pelo PNI para a maioria das pessoas; crianças vacinadas **antes dos 5 anos** recebem **um reforço**, respeitando o intervalo mínimo de 30 dias. Idade mínima: **9 meses** em rotina; em surto ou viagem inadiável para área de alto risco, pode-se antecipar para **6 meses**, e nesse caso a dose **não conta** para o esquema — precisa ser repetida depois dos 9 meses. Por ser **viva atenuada**, está contraindicada em **menores de 6 meses**, imunossuprimidos graves e em quem tem **anafilaxia a ovo**; na gestante, é postergada sempre que possível. Nutrizes de bebês **menores de 6 meses** devem adiar a vacina (há relato de transmissão do vírus vacinal pelo leite); se a vacinação for inevitável, suspende-se o aleitamento por 10 dias, com ordenha e descarte.
+
+**Poliomielite.** Viajantes para países com circulação de poliovírus podem precisar de **dose adicional** documentada; alguns países exigem comprovante de dose aplicada entre 4 semanas e 12 meses antes da saída.
+
+**Meningocócica ACWY.** É **exigência sanitária** para peregrinos que vão a Meca (Hajj e Umrah) e é fortemente recomendada para viagem ao "cinturão da meningite" africano e para quem vai morar em alojamento coletivo ou universidade no exterior.
+
+**Hepatite A, febre tifoide, raiva e cólera.** Hepatite A entra para destinos com saneamento precário; febre tifoide para o sul da Ásia e regiões de alto risco; **raiva pré-exposição** para viagens longas a áreas rurais com acesso difícil a serviço de saúde ou para crianças pequenas, que costumam não relatar mordidas de morcego ou de cão. Atenção: fazer a profilaxia **pré**-exposição **não dispensa** a conduta após a mordida — apenas simplifica (dispensa o soro/imunoglobulina e reduz o número de doses).
+
+**Malária não tem vacina de rotina no Brasil** — a proteção do viajante é química e mecânica (repelente, mosquiteiro impregnado, quimioprofilaxia quando indicada). Cair nessa é confundir "área endêmica" com "existe vacina".`},
+
+  {h:"20. Recusa vacinal, hesitação e o que a lei diz — a parte da imunização que não é imunológica",
+   c:`A queda de cobertura vacinal no Brasil a partir de 2016 tem várias causas, e desinformação é só uma delas. A prova costuma testar duas coisas aqui: **como conversar** e **o que a lei permite**.
+
+**Hesitação não é recusa.** A maior parte dos pais que atrasa vacina **não é antivacina**: tem dúvida, medo do evento adverso, dificuldade de horário, perdeu a caderneta ou já teve uma experiência ruim no serviço. Chamar todos de "negacionistas" fecha a porta. A abordagem recomendada é a **entrevista motivacional**: perguntar o que preocupa, validar a preocupação ("é comum a febre depois da tríplice viral, e ela é esperada"), oferecer informação específica em vez de discurso geral, e usar a **linguagem de presunção** — "hoje o Pedro vai tomar duas vacinas" funciona melhor que "o senhor quer vacinar hoje?".
+
+**Erro de comunicação que o próprio profissional comete.** Adiar vacina por motivo falso — resfriado leve, febre baixa, uso de antibiótico, diarreia leve, prematuridade, aleitamento, história familiar de evento adverso, desnutrição — é uma das maiores causas de **oportunidade perdida de vacinação**. A regra prática: **doença leve, com ou sem febre baixa, não contraindica nada**. Só se adia por **doença febril moderada a grave**, e mesmo assim porque atrapalha a avaliação de eventos adversos, não porque a vacina faça mal.
+
+**O que a lei diz.** O **Estatuto da Criança e do Adolescente (ECA), art. 14, §1º**, torna **obrigatória a vacinação** das crianças nos casos recomendados pelas autoridades sanitárias. O **STF** consolidou o entendimento de que o Estado pode determinar a **vacinação compulsória** — o que significa medidas indiretas de indução (restrição de matrícula, condicionalidade de benefícios sociais, multa) e **não** vacinação à força, que continua vedada. Convicção filosófica ou religiosa dos pais **não prevalece** sobre o direito à saúde e à vida da criança, porque o titular do direito é a criança, não o responsável.
+
+**Na prática do consultório:** registre a recusa em prontuário, ofereça material escrito, reagende e, diante de recusa reiterada que configure risco, **comunique o Conselho Tutelar** — não como punição, mas como rede de proteção. O ECA também prevê comunicação pelos estabelecimentos de ensino, e o Bolsa Família tem a caderneta em dia como condicionalidade. Duas frases para levar para a prova: **a vacinação é obrigatória, mas não é forçada**; e **o dever de proteção é da criança, não da vontade dos pais**.`},
+
+  {h:"21. Coberturas, SI-PNI e por que o sarampo volta primeiro — a leitura epidemiológica da vacina",
+   c:`Questão de Saúde Coletiva com roupa de Imunização. O raciocínio é simples e vale para qualquer doença imunoprevenível.
+
+**Imunidade coletiva.** Vacinar um indivíduo protege esse indivíduo. Vacinar **muitos** interrompe a cadeia de transmissão e protege até quem não pode se vacinar (lactente pequeno demais, imunossuprimido, alérgico grave). O limiar depende do **R₀** da doença: quanto mais transmissível, maior a cobertura necessária. O sarampo tem **R₀ entre 12 e 18** — o maior do calendário — e por isso exige cobertura de **≥95% com duas doses**. Coqueluche e poliomielite exigem em torno de 90 a 95%. É por isso que **o sarampo é sempre a primeira doença a voltar** quando a cobertura cai: ele é o "canário na mina" da vigilância.
+
+**Bolsões.** Uma cobertura **nacional** de 90% pode esconder municípios com 60%, e um município com 92% pode esconder dois bairros com 55%. A transmissão não acontece na média, acontece no bolsão. Por isso a resposta correta a uma queda de cobertura raramente é "fazer campanha nacional" e quase sempre é **microplanejamento**: identificar território, buscar os faltosos pelo registro nominal, vacinar na escola, na comunidade, na casa.
+
+**O sistema de informação.** O registro nominal e individualizado do **SI-PNI** (hoje integrado à Rede Nacional de Dados em Saúde/e-SUS) é o que permite calcular cobertura, identificar quem faltou e fazer **busca ativa**. Sem registro não existe busca ativa — só campanha às cegas. É o mesmo princípio da vigilância de PFA já visto na seção 7: **o dado alimenta a ação**.
+
+**A cronologia que a banca gosta.** O Brasil eliminou o sarampo, perdeu a certificação de país livre da doença após os surtos iniciados em 2018-2019 (com forte componente de importação e de bolsões não vacinados) e voltou a ser **recertificado pela OPAS** após período sustentado sem transmissão endêmica. A moral que se cobra: **eliminação não é erradicação**. Enquanto o vírus circular em qualquer lugar do mundo, importação acontece; o que impede o surto é cobertura alta e **homogênea**, mantida todo ano.
+
+**A campanha de Multivacinação.** Todo ano (tipicamente em outubro) o país realiza a campanha de **multivacinação para atualização de caderneta** de crianças e adolescentes até 15 anos incompletos: não é campanha de uma vacina só, é uma varredura de caderneta. É a resposta certa quando a questão descreve "criança com esquema atrasado e mãe que não sabe o que falta".
+
+**Cadeia de frio, em uma linha porque cai:** sala de vacina a **+2 °C a +8 °C**, termômetro de máxima e mínima lido duas vezes ao dia, e **nenhuma vacina de rotina fica no congelador** — congelar produtos adsorvidos em alumínio (dupla adulto, hepatite B) os inutiliza.`}
+  );
+
+  v.flashcards.push(
+    {p:"Esquema de HPV no SUS para 9-14 anos — e para quem a regra não vale?",r:"Dose única na rotina; imunocomprometidos (HIV, transplante, câncer) e vítimas de violência sexual mantêm 3 doses, em faixa etária ampliada."},
+    {p:"Criança de 3 anos, primeira vez que vai receber influenza. Quantas doses neste ano?",r:"Duas, com intervalo de 30 dias (primovacinação em menores de 9 anos). Nos anos seguintes, dose única anual."},
+    {p:"Quantas doses de varicela o calendário do PNI prevê hoje?",r:"Duas: tetraviral aos 15 meses e varicela monovalente aos 4 anos."},
+    {p:"Quantas doses de hepatite A no PNI × na SBIm?",r:"PNI: 1 dose aos 15 meses (resgate até <5 anos). SBIm: 2 doses (12 e 18 meses)."},
+    {p:"Meningocócica B está no calendário de rotina do SUS?",r:"Não. Só em CRIE, para asplenia, deficiência de complemento/properdina e uso de inibidor do complemento."},
+    {p:"Vacina da dengue disponível no SUS: tipo, esquema e contraindicações-chave.",r:"Tetravalente atenuada (TAK-003), 2 doses com 3 meses de intervalo, faixa priorizada de 10-14 anos. Viva: contraindicada em gestante, lactante e imunossuprimido."},
+    {p:"Por que a Dengvaxia exigia sorologia prévia e a TAK-003 não?",r:"Em soronegativos a CYD-TDV aumentava o risco de dengue grave (amplificação dependente de anticorpo). A TAK-003 não tem essa exigência."},
+    {p:"Nirsevimabe e palivizumabe são vacinas?",r:"Não. São anticorpos monoclonais — imunização passiva, sem memória imunológica, com proteção limitada no tempo."},
+    {p:"Em quanto tempo o CIVP da febre amarela passa a ser válido?",r:"10 dias após a primeira dose."},
+    {p:"Idade mínima da febre amarela em rotina e em situação de risco — e o que muda?",r:"9 meses em rotina; pode-se antecipar para 6 meses em surto ou viagem inadiável, mas essa dose não conta e precisa ser repetida após os 9 meses."},
+    {p:"Nutriz de bebê com menos de 6 meses precisa tomar febre amarela: qual a conduta?",r:"Adiar sempre que possível; se inevitável, suspender o aleitamento por 10 dias (ordenha e descarte) pelo risco de transmissão do vírus vacinal pelo leite."},
+    {p:"Vacinação obrigatória significa vacinação à força?",r:"Não. O ECA (art. 14, §1º) e o STF sustentam medidas indiretas de indução (restrições, condicionalidades, multa), nunca coerção física."},
+    {p:"Qual cobertura o sarampo exige e por quê?",r:"≥95% com duas doses, porque o R₀ é de 12 a 18 — o mais alto do calendário."},
+    {p:"Cobertura nacional boa e surto local: qual o conceito e qual a conduta?",r:"Bolsões de baixa cobertura escondidos na média. Conduta: microplanejamento e busca ativa nominal pelo SI-PNI, não campanha genérica."},
+    {p:"Temperatura da sala de vacina e o erro grave mais comum.",r:"+2 °C a +8 °C. Congelar vacinas adsorvidas em alumínio (dupla adulto, hepatite B) as inutiliza."},
+    {p:"Profilaxia pré-exposição de raiva dispensa conduta após a mordida?",r:"Não. Dispensa a imunoglobulina e reduz o número de doses, mas o atendimento pós-exposição continua obrigatório."},
+    {p:"Qual vacina do calendário do viajante gera documento internacional?",r:"Febre amarela — o CIVP (Certificado Internacional de Vacinação ou Profilaxia)."}
+  );
+
+  v.pegadinhas.push(
+    "Aplicar a regra de dose única do HPV a uma adolescente HIV+ — ela precisa de três doses.",
+    "Dizer que varicela no SUS é dose única — são duas (15 meses e 4 anos).",
+    "Dar dose única de influenza a criança de 2-8 anos que nunca se vacinou — a primovacinação exige duas doses com 30 dias de intervalo.",
+    "Exigir sorologia prévia de dengue antes da TAK-003 — essa era a regra da Dengvaxia (CYD-TDV), não da vacina hoje usada no SUS.",
+    "Prescrever vacina de dengue para criança em uso de imunossupressor ou para gestante — é vacina viva.",
+    "Chamar nirsevimabe ou palivizumabe de 'vacina do VSR' e concluir que a criança tem proteção duradoura.",
+    "Achar que o CIVP vale no dia da vacinação — só depois de 10 dias.",
+    "Contar como válida a dose de febre amarela feita aos 6 meses — ela não entra no esquema.",
+    "Vacinar a nutriz de RN com menos de 6 meses contra febre amarela sem orientar sobre o aleitamento.",
+    "Oferecer 'vacina contra malária' ao viajante — a profilaxia é química e mecânica.",
+    "Adiar vacina por resfriado, febre baixa, uso de antibiótico, diarreia leve ou prematuridade — oportunidade perdida, não contraindicação.",
+    "Responder 'campanha nacional' diante de queda localizada de cobertura — a resposta é microplanejamento e busca ativa nominal.",
+    "Confundir eliminação com erradicação: o Brasil pode estar livre do sarampo e continuar sujeito a importação.",
+    "Aceitar recusa vacinal reiterada sem registro em prontuário e sem acionar a rede de proteção quando há risco à criança.",
+    "Guardar vacina adsorvida no congelador 'para durar mais'.",
+    "Esquecer que meningo B e pneumocócica 23-valente, na criança esplenectomizada, saem pelo CRIE e não pela rotina."
+  );
+
+  v.diretrizes.push(
+    "Ministério da Saúde/PNI — Calendário Nacional de Vacinação e notas técnicas de incorporação (dengue, VSR, COVID-19, HPV dose única): sempre conferir a versão vigente.",
+    "SBIm — Calendários de vacinação da criança e do adolescente; Calendário do Viajante.",
+    "OMS/OPAS — Certificado Internacional de Vacinação ou Profilaxia (CIVP) e recomendações de febre amarela.",
+    "ECA (Lei 8.069/1990), art. 14, §1º — obrigatoriedade da vacinação infantil; jurisprudência do STF sobre vacinação compulsória (medidas indiretas, sem coerção física).",
+    "Ministério da Saúde — Manual de Rede de Frio do PNI e Manual dos Centros de Referência para Imunobiológicos Especiais (CRIE)."
+  );
+
+  v.questoes.push(
+    {enunciado:"Adolescente de 12 anos, vivendo com HIV, em uso regular de TARV e com carga viral indetectável, comparece à UBS para atualizar a caderneta. Nunca recebeu vacina contra HPV. Quanto ao esquema de HPV, a conduta correta é:",
+     alternativas:{a:"Dose única, como na rotina.",b:"Duas doses, com intervalo de 6 meses.",c:"Três doses (0, 2 e 6 meses).",d:"Contraindicada pela imunossupressão."},
+     correta:"c",
+     comentario:"A adoção da dose única de HPV no PNI para 9-14 anos vale para a população geral, com base na imunogenicidade robusta e duradoura da vacina em pré-adolescentes imunocompetentes. Ela NÃO se aplica a três grupos: pessoas vivendo com HIV, transplantados e pacientes oncológicos, e vítimas de violência sexual — todos mantêm o esquema de três doses (0, 2 e 6 meses) e faixa etária ampliada, porque a resposta imune é menor e menos durável. Por isso (c). (a) é a armadilha construída sobre a atualização recente do calendário: quem decorou 'agora é dose única' erra aqui. (b) não corresponde a nenhum esquema oficial brasileiro nessa situação. (d) inverte o conceito — a vacina HPV é INATIVADA (partículas semelhantes a vírus, VLP), não contém vírus vivo e portanto é segura e especialmente indicada em imunossuprimidos, que têm maior risco de infecção persistente e de neoplasia associada ao HPV. Regra geral para levar: em vacina inativada, imunossupressão é indicação de reforçar o esquema, não contraindicação; em vacina viva, aí sim é preciso avaliar contraindicação.",
+     foco:"HPV — dose única × esquema ampliado em imunossuprimidos"},
+    {enunciado:"Lactente de 7 meses viajará em 5 dias com a família para área com recomendação de vacina de febre amarela, em viagem inadiável. Nunca recebeu a vacina. A conduta mais adequada é:",
+     alternativas:{a:"Não vacinar e orientar adiar a viagem até os 9 meses.",b:"Vacinar agora e considerar o esquema completo.",c:"Vacinar agora e repetir a dose após os 9 meses.",d:"Vacinar agora e emitir CIVP válido para a viagem."},
+     correta:"c",
+     comentario:"A idade mínima de rotina para a febre amarela é 9 meses, mas em surto ou viagem inadiável para área de risco a dose pode ser antecipada a partir dos 6 meses. O ponto testado é o que acontece com essa dose antecipada: por imaturidade da resposta imune ela NÃO é considerada válida para o esquema e precisa ser repetida após os 9 meses, respeitando intervalo mínimo de 30 dias — daí (c). (a) erra porque a antecipação existe justamente para esse cenário, e deixar de vacinar expõe a criança a uma doença de altíssima letalidade. (b) é o distrator mais votado: vacina, mas dá a dose por definitiva e a criança fica com proteção incerta. (d) erra em dois níveis — o CIVP só se torna válido 10 dias após a aplicação, de modo que uma viagem em 5 dias não estará coberta, e a dose antecipada não gera certificado definitivo. Complemento de prova: abaixo de 6 meses a vacina é formalmente contraindicada, e a nutriz de bebê com menos de 6 meses deve adiar a vacinação pelo risco de transmissão do vírus vacinal pelo leite.",
+     foco:"Febre amarela — antecipação de dose, validade do esquema e do CIVP"},
+    {enunciado:"Município com cobertura vacinal de tríplice viral registrada em 92% no ano anterior apresenta surto de sarampo concentrado em dois bairros periféricos. A medida mais eficaz para interromper a transmissão é:",
+     alternativas:{a:"Campanha nacional de seguimento.",b:"Busca ativa nominal e microplanejamento nos territórios afetados.",c:"Aguardar a campanha de multivacinação de outubro.",d:"Elevar a meta municipal de cobertura para 95%."},
+     correta:"b",
+     comentario:"O sarampo tem R₀ de 12 a 18 e exige cobertura ≥95% com duas doses; uma média municipal de 92% é perfeitamente compatível com bolsões de 55-60% em bairros específicos — e a transmissão acontece no bolsão, não na média. Por isso (b): identificar o território, usar o registro nominal do SI-PNI para saber exatamente quem não recebeu a dose e vacinar onde as pessoas estão (domicílio, escola, equipamentos comunitários), além do bloqueio vacinal dos contatos em até 72 horas. (a) é ação de âmbito e de tempo errados: campanha nacional não corrige heterogeneidade local e demora. (c) espera meses enquanto o vírus circula — em surto, o tempo é a variável crítica. (d) confunde meta com intervenção: elevar o número no papel não vacina ninguém. Pérola: essa mesma lógica explica por que o sarampo é a primeira doença a reaparecer quando a cobertura cai, e por que a OPAS o usa como marcador para certificação e recertificação de eliminação.",
+     foco:"Imunidade coletiva, bolsões e resposta a surto"}
+  );
+
+  v.fontes = (v.fontes||"") + " Aprofundamento de 02/09/2026: Calendário SBIm da criança e do adolescente e Calendário do Viajante (comparados ao PNI); notas técnicas de incorporação do MS (HPV dose única, vacina de dengue TAK-003, estratégias de VSR e COVID-19 pediátrica); OMS/OPAS — CIVP e febre amarela; ECA art. 14 §1º e jurisprudência do STF sobre vacinação compulsória; Manual de Rede de Frio do PNI; Manual dos CRIE; Nelson (capítulo de imunizações) e material de Pediatria do Drive (imunização/calendário vacinal, ver materiais_drive.md).";
+
+  v.notaErro = (v.notaErro||"") + `
+
+**Complemento de 02/09/2026 — o erro que sobra depois que o calendário já está decorado (Vinicius: 3 erros em 12 questões do domínio, sendo 2/3 no bloco de PFA/poliomielite e 1/3 no bloco de PNI).**
+
+Seu padrão de erro em Imunização não é de memória bruta do calendário — as seções 6 a 12 já cobriram isso. O que sobra é **erro de fronteira**, e ele tem três formas:
+
+- **Fronteira entre o PNI e a sociedade científica.** Quando a questão descreve um consultório, e não uma UBS, a resposta correta pode ser a da SBIm (duas doses de hepatite A, ACWY desde os 3 meses, meningo B). Quando descreve o serviço público, é a do PNI. **Antídoto:** antes de responder, leia o cenário e pergunte "quem está pagando esta vacina?". Isso decide entre duas alternativas que parecem ambas certas.
+- **Fronteira entre a regra e a exceção.** Foi exatamente esse o mecanismo dos seus erros anteriores em pólio: você sabia a regra e a questão perguntou a exceção (imunodeprimido, contactante de imunodeprimido, investigação de PFA). A mesma armadilha se repete agora com **HPV dose única × três doses no HIV+**, **influenza dose anual × duas doses na primovacinação abaixo de 9 anos** e **febre amarela definitiva × dose antecipada que não conta**. **Antídoto:** para cada vacina que estudar, force-se a completar a frase "a regra é X, **exceto** em ___". Se não conseguir completar, você não estudou aquela vacina — decorou.
+- **Fronteira entre imunização e saúde coletiva.** Questões que trazem cobertura, surto, bolsão, R₀, busca ativa e recusa vacinal são de Imunização com roupa de Saúde Coletiva, e é ali que se responde "campanha nacional" quando a resposta é "microplanejamento". **Antídoto:** guarde o par de conceitos **a média esconde o bolsão** e **registro nominal permite busca ativa** — quase toda questão desse tipo se resolve com um dos dois.
+
+**Como zerar.** Rode este filtro de quatro perguntas em toda questão de imunização: (1) a vacina é **viva ou inativada**? — isso resolve sozinho a maioria das contraindicações; (2) o cenário é **público ou privado**? — isso decide entre PNI e SBIm; (3) o paciente cai na **regra ou na exceção** (imunossupressão, prematuridade, gestação, viagem, pós-exposição, violência sexual)?; (4) a pergunta é sobre o **indivíduo** ou sobre a **população**? — se for população, pense cobertura, bolsão, R₀ e busca ativa. As três questões novas desta rodada treinam exatamente esses quatro filtros, uma a uma.`;
+
+})();
+
+/* =======================================================================
+   Estudo 2026-09-02 — Pediatria
+   Aprofundamento de PED|Outros
+   (taxa de erro agregada 50% — 3/6; Vinicius 1 erro em imunodeficiências,
+   Ana Teresa 2 erros em infecções respiratórias/ORL)
+   Subtemas novos: dismorfologia e o exame genético certo, erros inatos do
+   metabolismo, colestase do lactente/atresia de vias biliares, escroto agudo
+   e cirurgias ambulatoriais, saúde bucal e flúor.
+   ======================================================================= */
+(function(){
+  var o = window.REVISAO_MODULOS["PED|Outros"];
+  if(!o) return;
+
+  o.secoes.push(
+  {h:"24. Quando a criança 'tem cara de síndrome' — dismorfologia e o exame genético certo",
+   c:`Esta é a gaveta que o pediatra mais evita e a banca mais gosta, porque parece exigir memória enciclopédica. Não exige. Exige **um método** e **cinco ou seis síndromes bem sabidas**.
+
+**O conceito de base.** Um **dismorfismo** é uma variação da forma que se afasta do padrão da população. Sozinho, quase nenhum dismorfismo significa alguma coisa — orelha de implantação um pouco baixa, prega palmar única, clinodactilia do quinto dedo existem em crianças perfeitamente saudáveis. O que muda tudo é a **soma**: **três ou mais** achados menores, ou **um** achado maior (uma malformação de órgão), especialmente se acompanhados de **atraso do desenvolvimento** ou **baixa estatura desproporcional**, colocam a hipótese sindrômica na mesa.
+
+**A analogia.** Pense em cada dismorfismo como uma letra. Uma letra não é palavra. Três ou quatro letras na mesma ordem começam a formar um nome — e é o **conjunto**, o "gestalt", que o geneticista lê. Por isso o exame do dismorfismo é feito **de longe primeiro** (olhar a criança inteira, os pais, as fotos de família) e só depois de perto.
+
+**As síndromes que caem, com a pista que as denuncia:**
+
+- **Síndrome de Down (trissomia do 21).** Hipotonia neonatal, fenda palpebral oblíqua para cima, epicanto, prega palmar transversa única, braquidactilia, clinodactilia, aumento do espaço entre o 1º e o 2º pododáctilos, protrusão lingual. O detalhe genético que decide questão: cerca de 95% são **trissomia livre** (não disjunção, risco associado à idade materna e risco de recorrência ~1%), cerca de 3-4% são **translocação robertsoniana** — e é a translocação que exige **cariótipo dos pais**, porque um genitor portador equilibrado tem risco de recorrência muito alto (e a translocação 21;21 tem risco de 100%). Os 1-2% restantes são **mosaicismo**, com fenótipo em geral mais leve. **Isso significa que o cariótipo é obrigatório em todo recém-nascido com suspeita de Down**, não para "confirmar o óbvio", mas para o aconselhamento genético da família.
+- **Síndrome de Turner (45,X e variantes).** Recém-nascida com **linfedema de mãos e pés** e pescoço alado; depois, **baixa estatura** que se acentua, tórax em escudo, cúbito valgo, ausência de estirão e **amenorreia primária** por disgenesia gonadal. Duas associações que a prova cobra: **coarctação da aorta e valva aórtica bicúspide** (todo caso precisa de ecocardiograma) e **malformação renal em ferradura** (ultrassom). Baixa estatura sem outra causa em menina é indicação de **cariótipo**, mesmo sem os estigmas clássicos.
+- **Síndrome de Noonan.** Fenótipo "tipo Turner", mas **em ambos os sexos, com cariótipo normal**, herança autossômica dominante (PTPN11 e outros genes da via RAS). A cardiopatia típica é **estenose pulmonar valvar** (na Turner é a esquerda, coarctação) — esse contraste é a pegadinha preferida das bancas.
+- **Síndrome de Williams (microdeleção 7q11.23).** Face de "duende", sorriso fácil, sociabilidade excessiva com estranhos, **estenose aórtica supravalvar** e **hipercalcemia** na infância. Criança extremamente sociável com cardiopatia à esquerda: pense Williams.
+- **Síndrome de deleção 22q11 (DiGeorge/velocardiofacial).** O mnemônico clássico **CATCH-22**: **C**ardiopatia conotruncal (tetralogia de Fallot, tronco arterioso, interrupção do arco), **A**nomalias faciais, **T**imo hipoplásico (imunodeficiência de células T — conecta direto com a seção 6 desta aula), **C**lefting (fenda palatina, insuficiência velofaríngea) e **H**ipocalcemia por hipoparatireoidismo. Recém-nascido com convulsão hipocalcêmica e cardiopatia é 22q11 até prova em contrário.
+- **Síndrome do X frágil.** Causa **hereditária** mais comum de deficiência intelectual; meninos com face alongada, orelhas grandes e proeminentes, **macro-orquidismo pós-puberal**, hiperatividade e traços autísticos. Detalhe técnico que cai: é uma **expansão de repetições CGG no gene FMR1** e, por isso, **não é detectada por cariótipo nem por microarray** — exige teste molecular específico.
+- **Prader-Willi e Angelman.** Duas doenças da **mesma região (15q11-q13)** que diferem pelo **imprinting** — qual dos genitores transmitiu. Prader-Willi (alelo paterno ausente): **hipotonia grave e dificuldade de sucção no período neonatal**, seguidas por **hiperfagia e obesidade** na infância, hipogonadismo, baixa estatura. Angelman (alelo materno ausente): atraso grave, **ausência de fala**, ataxia com marcha de braços erguidos, **riso imotivado** e epilepsia. É o exemplo canônico de que o **mesmo locus** dá doenças diferentes conforme a origem parental.
+- **Síndrome de Marfan.** Alta estatura, aracnodactilia, hiperfrouxidão, **ectopia lentis** (luxação do cristalino, tipicamente superotemporal) e **dilatação da raiz da aorta** — que é o que mata. Diagnóstico por critérios de Ghent; conduta que a prova cobra: **ecocardiograma seriado, betabloqueador/losartana e proibição de esporte competitivo e de esforço isométrico**.
+
+**Agora a parte prática: qual exame pedir.** Este é o ponto em que a maioria erra, porque decorou síndromes e não decorou o fluxo.
+
+- **Cariótipo (banda G):** vê **aneuploidias** e **rearranjos grandes** (≥5-10 Mb). É o exame quando a hipótese clínica é **Down, Turner, Klinefelter, Edwards, Patau** — ou seja, quando você já suspeita de um número cromossômico errado. É também o exame que identifica a **translocação**, informação indispensável para o aconselhamento.
+- **FISH ou MLPA:** confirmam uma **microdeleção específica que você já suspeita** (22q11, Williams, Prader-Willi/Angelman). São exames dirigidos: só encontram o que você mandou procurar.
+- **Microarray cromossômico (array-CGH/CMA):** é o **exame de primeira linha** quando há **atraso global do desenvolvimento, deficiência intelectual, transtorno do espectro autista ou múltiplas malformações congênitas SEM hipótese sindrômica definida**. Detecta ganhos e perdas submicroscópicas que o cariótipo não vê. Trocar essa indicação por cariótipo é o erro clássico.
+- **Teste do X frágil (PCR com análise de metilação):** pedido junto com o array em **todo menino com deficiência intelectual sem causa**, porque nem cariótipo nem array o detectam.
+- **Painel gênico ou exoma:** quando o quadro sugere doença monogênica e os anteriores foram normais, ou quando há um grupo bem definido (ciliopatias, RASopatias, epilepsias genéticas).
+
+**E o seguimento de quem já tem o diagnóstico.** A banca adora perguntar a **vigilância na síndrome de Down**, porque é protocolo: **ecocardiograma em todo recém-nascido** (40-50% têm cardiopatia, sendo o defeito do septo atrioventricular o mais típico, e o sopro pode faltar), **TSH ao nascimento e depois periodicamente** (hipotireoidismo é frequente), **hemograma neonatal** (policitemia e a leucemia transitória do recém-nascido, já vista no módulo de Oncologia), **avaliação auditiva e oftalmológica seriadas**, **rastreio de doença celíaca**, atenção à **apneia obstrutiva do sono** (indicação de polissonografia na idade pré-escolar) e à **instabilidade atlantoaxial** — o ponto que decide questão é que **hoje não se faz radiografia de rotina em criança assintomática**; investiga-se quem tem **sinais ou sintomas de mielopatia** (dor cervical, torcicolo, alteração de marcha, sinais piramidais, mudança no controle esfincteriano).`},
+
+  {h:"25. Erros inatos do metabolismo — a criança que descompensa e o pediatra que a salva",
+   c:`Individualmente raros, coletivamente frequentes: em conjunto, os erros inatos do metabolismo (EIM) afetam cerca de 1 em 1.000 a 1 em 2.500 nascidos. Você não precisa saber tratar cada um. Precisa **suspeitar**, **coletar as amostras certas** e **iniciar a conduta de emergência**, que é praticamente a mesma para todos.
+
+**A analogia que organiza tudo.** Imagine uma fábrica com uma esteira de produção. Um EIM é uma máquina quebrada em algum ponto da esteira. Três coisas podem dar errado: (1) **acumula a matéria-prima antes da máquina quebrada** — e essa matéria-prima é tóxica; (2) **falta o produto final** — e o produto final costuma ser energia; (3) **entulha o depósito** com material que não é degradado. Esses três acidentes são exatamente as três grandes categorias de EIM.
+
+**Grupo 1 — doenças de intoxicação.** Aminoacidopatias (fenilcetonúria, **doença do xarope de bordo**), **acidemias orgânicas** (metilmalônica, propiônica, isovalérica) e **defeitos do ciclo da ureia**. O padrão clínico é inconfundível quando você o conhece: **recém-nascido que nasceu bem, mamou bem por 24-72 horas e depois começou a piorar** — recusa alimentar, vômitos, letargia progressiva, hipotonia, convulsão, coma. O intervalo livre existe porque, enquanto a criança estava dentro do útero, a placenta fazia a depuração; a toxina só se acumula depois que a alimentação começa. Odor característico é uma pista de prova: **xarope de bordo/caramelo** (MSUD), **pés suados** (isovalérica), **urina de rato** (fenilcetonúria).
+**Grupo 2 — doenças de déficit energético.** Glicogenoses, defeitos da **β-oxidação de ácidos graxos** (o mais conhecido é a **deficiência de MCAD**), doenças mitocondriais. O gatilho aqui é o **jejum** e o **estresse catabólico** (uma gastroenterite banal, por exemplo). A marca laboratorial da β-oxidação é a **hipoglicemia hipocetótica** — o corpo não consegue queimar gordura, então a glicose cai e, contra toda a expectativa, **não há cetose**. Esse é um dos achados mais cobrados em prova, porque contraria a intuição.
+**Grupo 3 — doenças de moléculas complexas.** Doenças lisossomais (Gaucher, Pompe, mucopolissacaridoses), peroxissomais. Elas **não descompensam agudamente**: o curso é **progressivo**, com organomegalia, traços grosseiros, disostose múltipla, regressão de aquisições. Se a vinheta descreve deterioração ao longo de meses ou anos, e não em horas, é aqui.
+
+**Quando suspeitar — a lista de gatilhos.** Recém-nascido séptico que não melhora com antibiótico e não tem foco; **intervalo livre** seguido de deterioração; **taquipneia sem doença pulmonar** (compensação respiratória de acidose metabólica); hipoglicemia inexplicada ou recorrente; **hiperamonemia**; acidose metabólica com **ânion gap alargado**; convulsão refratária no neonato; **consanguinidade** dos pais; **irmão que morreu no período neonatal sem diagnóstico** ou "de sepse"; regressão do desenvolvimento; descompensações repetidas desencadeadas por jejum ou infecção.
+
+**A tríade laboratorial que separa os grupos, e é o coração da questão:**
+
+- **Amônia muito alta + alcalose respiratória + SEM acidose e SEM cetose** → **defeito do ciclo da ureia**. A amônia estimula o centro respiratório antes de tudo, e por isso o gás mostra alcalose — outro achado contraintuitivo que a banca adora.
+- **Acidose metabólica com ânion gap alargado + cetonúria intensa + amônia moderadamente elevada** → **acidemia orgânica**.
+- **Hipoglicemia + cetonúria ausente ou desproporcionalmente baixa** → **defeito de β-oxidação**.
+- **Hipoglicemia + hepatomegalia + lactato alto** → **glicogenose**.
+
+**O que colher ANTES de tratar (as "amostras críticas").** Este é um ponto de conduta que vale questão inteira: no momento da descompensação, e **antes** de infundir glicose, colha **glicemia, gasometria com ânion gap, lactato, amônia (em gelo, processada rápido), eletrólitos, cetonúria** e **guarde soro e urina congelados** para dosagens especializadas (perfil de acilcarnitinas, aminoácidos plasmáticos, ácidos orgânicos urinários). Se a criança melhorar com o soro glicosado — e ela vai —, as alterações desaparecem e o diagnóstico se perde. **Amostra não colhida é diagnóstico perdido.**
+
+**A conduta de emergência, que é quase universal:**
+
+- **Parar o aporte proteico** (suspender leite e dieta) por 24 a 48 horas — retira-se a matéria-prima da esteira quebrada.
+- **Reverter o catabolismo com glicose em alta taxa de infusão** (soro glicosado com TIG em torno de 8-10 mg/kg/min, ajustada pela glicemia), acrescentando insulina se houver hiperglicemia. O catabolismo é o inimigo: quando o corpo consome a própria proteína muscular, ele alimenta a via bloqueada.
+- **Corrigir a acidose** e manter hidratação e diurese.
+- **Remover a amônia** quando ela está alta: **benzoato de sódio e fenilbutirato** e, quando a amônia é muito elevada (classicamente acima de 500 µmol/L ou refratária), **hemodiálise** — que é muito mais eficaz que a diálise peritoneal.
+- **Cofatores em dose farmacológica** conforme a hipótese: **hidroxicobalamina (B12)** na metilmalônica, **biotina**, **tiamina**, **carnitina**.
+- E, sempre, **acionar o serviço de referência em genética/metabolismo** — nenhuma dessas crianças se resolve na sala de emergência sozinha.
+
+**A ponte com a triagem neonatal.** A Lei 14.154/2021 ampliou o Teste do Pezinho no SUS em **cinco etapas escalonadas**, incluindo progressivamente mais doenças metabólicas, hemoglobinopatias, imunodeficiências (SCID/agamaglobulinemia, que conecta com a seção 6 desta aula) e outras condições. A implantação é progressiva e varia por estado — o que a prova cobra é o **princípio**: a triagem existe para pegar a criança **antes** da descompensação, ela é feita **preferencialmente entre o 3º e o 5º dia de vida**, e um teste alterado **nunca é diagnóstico** — é convocação urgente para confirmação. E o mais importante: **triagem normal não exclui EIM**. Diante de um recém-nascido descompensando com o quadro descrito acima, o pezinho normal não pode tranquilizar ninguém, porque muitas doenças não estão no painel e falsos-negativos existem.`},
+
+  {h:"26. Colestase do lactente — a corrida contra os 60 dias",
+   c:`Se esta aula tivesse uma única frase para salvar um fígado, seria esta: **icterícia que persiste depois dos 14 dias de vida exige dosar bilirrubina direta**. Não "observar", não "tranquilizar a mãe", não "é do leite materno". Dosar.
+
+**Por que a data importa.** A icterícia fisiológica e a icterícia do leite materno são de **bilirrubina indireta** — pigmento que ainda não foi conjugado pelo fígado. Elas são benignas. Já a **bilirrubina direta (conjugada) elevada** significa que o fígado conjugou e **não conseguiu excretar**: é obstrução ou lesão hepatocelular. **Colestase neonatal nunca é fisiológica.** O ponto de corte prático é **bilirrubina direta acima de 1,0 mg/dL** (ou acima de 20% da bilirrubina total quando a total é alta).
+
+**A tríade clínica que você precisa procurar ativamente:** **icterícia persistente**, **acolia fecal** (fezes claras, esbranquiçadas ou acinzentadas — daí a cartela de cores das fezes distribuída na maternidade) e **colúria** (urina escura em um recém-nascido, que normalmente tem urina quase incolor). Hepatomegalia costuma estar presente. Uma mãe que diz "as fezes estão brancas" está fazendo o diagnóstico por você.
+
+**A grande vilã: atresia de vias biliares.** É a principal indicação de transplante hepático na infância e a causa cirúrgica mais importante de colestase neonatal. É um processo **inflamatório e fibrosante progressivo** que oblitera a árvore biliar extra-hepática. O recém-nascido nasce aparentemente bem, com peso normal, e vai ficando ictérico e com fezes claras nas primeiras semanas.
+
+**Por que 60 dias.** O tratamento inicial é a **portoenterostomia de Kasai**, uma cirurgia que reconecta a drenagem biliar a uma alça intestinal. A chance de restabelecer fluxo biliar cai de forma acentuada com a idade da cirurgia: os melhores resultados vêm quando ela é feita **antes dos 45-60 dias de vida**; depois de 90 dias, a taxa de sucesso é baixa e a criança caminha para o transplante. **Nenhum outro diagnóstico da Pediatria depende tanto de o pediatra não esperar.** Por isso a regra: **icterícia + acolia = investigação no mesmo dia**, não "retorno em duas semanas".
+
+**Como investigar.** Bilirrubinas totais e frações, transaminases, **GGT** (tipicamente muito elevada na atresia), tempo de protrombina/INR e albumina (para avaliar função, não só lesão), glicemia. **Ultrassom abdominal em jejum**, procurando a **vesícula ausente ou pequena** e o **sinal do cordão triangular** (área ecogênica no hilo hepático). Depois, conforme o serviço: cintilografia hepatobiliar, **biópsia hepática** (proliferação ductular, plugs biliares, fibrose portal) e **colangiografia intraoperatória**, que é o exame que confirma e já permite operar no mesmo tempo cirúrgico.
+
+**Os diferenciais que a prova cobra, com a pista de cada um:**
+
+- **Cisto de colédoco** — massa palpável e dilatação vista no ultrassom; tratamento cirúrgico.
+- **Infecções congênitas** — CMV, sífilis, toxoplasmose, rubéola: procure petéquias, microcefalia, coriorretinite, hepatoesplenomegalia, alterações ósseas.
+- **Deficiência de alfa-1-antitripsina** — colestase neonatal que depois "some" e reaparece como doença hepática crônica; investigar fenótipo.
+- **Síndrome de Alagille** — a combinação a decorar: **escassez de ductos biliares** + **estenose de ramos da artéria pulmonar** + **vértebras em borboleta** + **embriotoxo posterior** + fácies peculiar (fronte ampla, queixo pontudo).
+- **Galactosemia** — recém-nascido com colestase, hipoglicemia, catarata e **sepse por *E. coli***; a conduta é retirar a lactose imediatamente.
+- **Fibrose cística** — pode se apresentar como colestase e íleo meconial (ver seção 17).
+- **Hipotireoidismo congênito e pan-hipopituitarismo** — causas endócrinas de colestase, com hipoglicemia associada no segundo caso.
+- **Colestase associada à nutrição parenteral** — no prematuro em NP prolongada; conduta é progredir a dieta enteral assim que possível.
+
+**Tratamento de suporte, que vale ponto.** Independentemente da causa, a criança colestática **não absorve gordura nem vitaminas lipossolúveis**. Isso significa: fórmula rica em **triglicerídeos de cadeia média** (que dispensam sal biliar para serem absorvidos), suplementação de **vitaminas A, D, E e K** e atenção especial à **vitamina K**, cuja falta produz sangramento — inclusive intracraniano — em lactente que "só estava amarelinho". Ursodesoxicólico é usado como coadjuvante. E a vigilância nutricional é contínua, porque a desnutrição piora o prognóstico do transplante.`},
+
+  {h:"27. Escroto agudo e as pequenas cirurgias que caem em prova",
+   c:`Uma gaveta pequena, de alto rendimento e com um item que é **emergência cronometrada**.
+
+**Torção testicular.** É a causa de escroto agudo que perde o testículo. O pico é bimodal: **período neonatal** e **puberdade** (por volta de 12-16 anos). Dor **súbita, intensa, unilateral**, muitas vezes com náusea e vômito, podendo acordar o adolescente durante a noite. Ao exame: testículo **elevado e horizontalizado**, **ausência do reflexo cremastérico** (o achado com melhor valor preditivo negativo — se o reflexo está presente, torção é improvável) e ausência do **sinal de Prehn** (elevar o testículo **não** alivia a dor; na epididimite, alivia).
+**A janela.** A taxa de salvamento é alta nas primeiras **6 horas** e cai de forma abrupta depois: em torno de 90-100% em até 6 horas, muito menor entre 12 e 24 horas, e próxima de zero após 24 horas. **A frase que a banca quer ouvir: o Doppler não pode atrasar a exploração cirúrgica.** Diante de quadro clínico típico, a conduta é **exploração imediata**, com orquidopexia bilateral (o defeito anatômico do "badalo de sino" costuma ser bilateral). O Doppler serve para os casos duvidosos, não para confirmar o óbvio.
+**Torção de apêndice testicular (hidátide de Morgagni).** É a causa mais comum de escroto agudo entre **7 e 12 anos**. A dor é mais localizada no polo superior, o início é mais gradual, o reflexo cremastérico está **presente** e o achado patognomônico é o **"blue dot sign"** — um ponto azulado visível por transiluminação no polo superior. Tratamento **conservador**: analgesia e repouso.
+**Epididimite/orquiepididimite.** Início gradual, dor à palpação do epidídimo, **febre e sintomas urinários**, reflexo cremastérico presente, **Prehn positivo**. Em pré-púberes é frequentemente pós-viral ou associada a malformação urinária (investigar); em adolescentes sexualmente ativos, pensar em clamídia e gonococo.
+
+**Hérnia inguinal.** No lactente é praticamente sempre **indireta**, por **persistência do conduto peritônio-vaginal**. Abaulamento inguinal que aparece ao choro e ao esforço e some em repouso. **A regra é operar assim que diagnosticada**, sem esperar — o risco de **encarceramento** é maior justamente nos primeiros meses de vida, e um encarceramento pode comprometer alça e testículo. Hérnia encarcerada, se não houver sinais de estrangulamento, pode ser reduzida com sedação/analgesia e Trendelenburg, seguida de cirurgia programada precoce; havendo sinais de sofrimento (dor intensa, vômitos biliosos, pele eritematosa, criança toxemiada), é cirurgia de urgência.
+**Hidrocele.** Coleção líquida que **transilumina**. A **não comunicante** do recém-nascido é comum e se **reabsorve espontaneamente**, tipicamente até os **12-18 meses** — a conduta é **observar**. A **comunicante** (que aumenta ao longo do dia e diminui à noite) tem a mesma fisiopatologia da hérnia e **precisa de correção cirúrgica**; se persistir depois dos 2 anos, também se opera.
+**Fimose.** Aqui o erro é de conduta, e é o mais cometido: **a aderência bálano-prepucial e a impossibilidade de expor a glande são fisiológicas no lactente e no pré-escolar** — a retração completa só é possível em uma minoria dos meninos no primeiro ano e vai se tornando possível ao longo da infância. **Não se deve forçar a retração** (isso causa fissura, cicatriz e fimose verdadeira, além de risco de parafimose). O tratamento de primeira linha da fimose sintomática é o **corticoide tópico por 4 a 8 semanas** associado a retrações suaves, com boa taxa de sucesso. A **postectomia** fica reservada para fimose cicatricial, **balanopostites de repetição**, infecções urinárias de repetição associadas e **parafimose recorrente**. **Parafimose** — prepúcio retraído que não volta e estrangula a glande — é **emergência**: redução manual com compressão para reduzir o edema, sob analgesia.`},
+
+  {h:"28. Saúde bucal, flúor e o checklist final desta gaveta",
+   c:`**Saúde bucal em cinco parágrafos, porque ela cai em Saúde Coletiva e em Puericultura.**
+
+A **erupção dentária** começa em geral por volta dos 6 meses, com os incisivos centrais inferiores, e a dentição decídua (20 dentes) se completa por volta dos 30 meses. Grandes variações são normais; ausência total de erupção após os 13-18 meses merece avaliação. O que a erupção **não** causa: febre alta, diarreia e convulsão. Atribuir uma febre de 39 °C ao "nascimento do dente" é a forma mais comum de deixar passar uma infecção — irritabilidade, salivação e febre baixa podem acompanhar; o resto tem outra causa.
+
+A **cárie precoce da infância** é a doença crônica mais prevalente da infância e tem um mecanismo simples: **bactérias do biofilme + açúcar frequente = ácido que desmineraliza o esmalte**. O que faz diferença não é tanto a quantidade de açúcar, e sim a **frequência de exposição**. Daí a orientação mais importante da puericultura odontológica: **não oferecer mamadeira com leite ou suco para a criança dormir**, e não usar açúcar antes dos 2 anos.
+
+O **flúor** age formando fluorapatita, mais resistente ao ácido, e favorecendo a remineralização. A recomendação atual — e o ponto que mudou em relação a materiais antigos — é usar **creme dental fluoretado desde a erupção do primeiro dente**, com concentração de **1.000 a 1.450 ppm**, controlando a **quantidade**: um volume equivalente a um **grão de arroz** para crianças **abaixo de 3 anos** e a um **grão de ervilha** dos **3 aos 6 anos**, com escovação supervisionada por adulto e cuspindo sem enxaguar. O risco de **fluorose** (manchas brancas no esmalte permanente) vem da ingestão excessiva **antes dos 6-8 anos**, e é por isso que se controla a quantidade em vez de abolir o flúor. A **primeira consulta odontológica** é recomendada no **primeiro ano de vida**, junto com a erupção do primeiro dente.
+
+Duas questões de traumatismo que caem: **avulsão de dente permanente** é urgência — reimplantar o quanto antes, e se não for possível, transportar o dente em **leite, soro fisiológico ou saliva** (nunca em água nem seco), segurando pela coroa, sem esfregar a raiz. **Dente decíduo avulsionado não se reimplanta**, pelo risco de dano ao germe do permanente.
+
+**Checklist final desta gaveta (o terceiro algoritmo do módulo):**
+
+- **Criança com dismorfismos:** conte os achados. Três menores ou um maior, sobretudo com atraso do desenvolvimento → hipótese sindrômica. Hipótese **definida** → cariótipo (aneuploidia/translocação) ou FISH/MLPA (microdeleção). Hipótese **indefinida** com atraso, deficiência intelectual, TEA ou malformações múltiplas → **microarray**, somando **X frágil** em todo menino. Diagnóstico de Down feito → **cariótipo sempre** (aconselhamento) + eco + TSH + hemograma + audição/visão.
+- **Recém-nascido que nasceu bem e piorou:** pense EIM antes de aceitar "sepse". Colha **glicemia, gasometria, ânion gap, lactato, amônia, cetonúria** e **guarde soro e urina** ANTES da glicose. Trate: **zerar proteína + glicose em alta TIG + corrigir acidose + remover amônia + cofatores**. Amônia alta com alcalose respiratória e sem cetose = **ciclo da ureia**. Hipoglicemia **sem** cetose = **β-oxidação**. Pezinho normal **não exclui**.
+- **Icterícia depois dos 14 dias:** dose **bilirrubina direta**. Direta >1 mg/dL = colestase, e colestase nunca é fisiológica. Acolia + colúria → **atresia de vias biliares até prova em contrário** → ultrassom e encaminhamento **hoje**, porque o Kasai vale antes dos 60 dias. Trate o suporte: **TCM + vitaminas A, D, E, K**.
+- **Dor escrotal aguda:** ausência do reflexo cremastérico e Prehn negativo → **torção**, cirurgia imediata, sem esperar Doppler (janela de 6 horas). Blue dot com reflexo presente → apêndice testicular, conservador. Febre, disúria e Prehn positivo → epididimite.
+- **Abaulamento inguinal no lactente** → hérnia indireta, operar assim que diagnosticada. **Transilumina e não some** → hidrocele: observar até 12-18 meses se não comunicante; operar se comunicante ou persistente após os 2 anos.
+- **Prepúcio que não retrai** no lactente → fisiológico, **não forçar**; se sintomático, **corticoide tópico** primeiro. Prepúcio retraído que não volta e a glande edemacia → **parafimose, emergência**.
+- **Dente e boca:** flúor desde o primeiro dente, quantidade por idade, nada de mamadeira noturna adoçada, primeira consulta no primeiro ano, e febre alta **não** é do dente.`}
+  );
+
+  o.flashcards.push(
+    {p:"Quantos dismorfismos justificam investigar síndrome?",r:"Três ou mais achados menores, ou um achado maior, especialmente com atraso do desenvolvimento ou baixa estatura."},
+    {p:"Por que se pede cariótipo em todo RN com suspeita de Down, se o diagnóstico é clínico?",r:"Para distinguir trissomia livre (~95%, recorrência ~1%) de translocação robertsoniana (~3-4%), que exige cariótipo dos pais e tem risco de recorrência alto (100% na 21;21)."},
+    {p:"Cardiopatia típica da Turner × da Noonan.",r:"Turner: coarctação da aorta e valva aórtica bicúspide (lado esquerdo). Noonan: estenose pulmonar valvar (lado direito)."},
+    {p:"CATCH-22 — o que significa?",r:"Cardiopatia conotruncal, Anomalia facial, Timo hipoplásico (imunodeficiência T), Clefting (fenda palatina) e Hipocalcemia — deleção 22q11."},
+    {p:"Criança extremamente sociável, face de duende, estenose aórtica supravalvar e hipercalcemia.",r:"Síndrome de Williams (microdeleção 7q11.23)."},
+    {p:"Prader-Willi × Angelman: mesma região, o que muda?",r:"15q11-q13 com imprinting. Paterno ausente = Prader-Willi (hipotonia neonatal, depois hiperfagia/obesidade). Materno ausente = Angelman (sem fala, ataxia, riso imotivado, epilepsia)."},
+    {p:"Qual exame genético é primeira linha no atraso global do desenvolvimento sem hipótese sindrômica?",r:"Microarray cromossômico (array-CGH/CMA), somado ao teste do X frágil em meninos."},
+    {p:"Por que o X frágil não sai no cariótipo nem no microarray?",r:"É expansão de repetições CGG no FMR1 — exige PCR com análise de metilação."},
+    {p:"Instabilidade atlantoaxial no Down: radiografia de rotina em assintomático?",r:"Não. Investiga-se quem tem sinais/sintomas de mielopatia (dor cervical, torcicolo, alteração de marcha, sinais piramidais, mudança esfincteriana)."},
+    {p:"RN que nasceu bem, mamou 48h e começou a vomitar, ficar letárgico e taquipneico. Primeira suspeita além de sepse?",r:"Erro inato do metabolismo — o 'intervalo livre' existe porque a placenta depurava a toxina antes do nascimento."},
+    {p:"Amônia muito alta + alcalose respiratória + sem acidose e sem cetose.",r:"Defeito do ciclo da ureia."},
+    {p:"Hipoglicemia SEM cetose: qual grupo de EIM?",r:"Defeito da β-oxidação de ácidos graxos (ex.: deficiência de MCAD) — hipoglicemia hipocetótica."},
+    {p:"O que colher ANTES de infundir glicose na suspeita de EIM?",r:"Glicemia, gasometria com ânion gap, lactato, amônia, eletrólitos, cetonúria — e guardar soro e urina congelados."},
+    {p:"Os quatro pilares do tratamento agudo do EIM.",r:"Suspender proteína, reverter catabolismo com glicose em alta TIG (8-10 mg/kg/min), corrigir acidose, remover amônia (benzoato/fenilbutirato, hemodiálise se muito alta) — mais cofatores."},
+    {p:"Teste do pezinho normal exclui erro inato do metabolismo?",r:"Não. O painel é limitado e há falsos-negativos; a suspeita clínica prevalece."},
+    {p:"Icterícia que persiste após 14 dias de vida: qual a conduta obrigatória?",r:"Dosar bilirrubina direta. Direta >1 mg/dL (ou >20% da total) = colestase, que nunca é fisiológica."},
+    {p:"Tríade clínica da colestase neonatal.",r:"Icterícia persistente + acolia fecal + colúria (com hepatomegalia frequente)."},
+    {p:"Até quando idealmente se faz a portoenterostomia de Kasai?",r:"Antes dos 45-60 dias de vida; após 90 dias a taxa de sucesso é baixa e a criança segue para transplante."},
+    {p:"Achados ultrassonográficos que sugerem atresia de vias biliares.",r:"Vesícula ausente ou pequena em jejum e sinal do cordão triangular no hilo hepático."},
+    {p:"A pêntade da síndrome de Alagille.",r:"Escassez de ductos biliares, estenose de ramos da artéria pulmonar, vértebras em borboleta, embriotoxo posterior e fácies característica."},
+    {p:"Por que o lactente colestático precisa de vitamina K?",r:"Sem bile não absorve gorduras nem vitaminas lipossolúveis — a falta de K causa coagulopatia e sangramento, inclusive intracraniano."},
+    {p:"Melhor achado de exame físico para afastar torção testicular.",r:"Reflexo cremastérico presente (alto valor preditivo negativo); na torção ele está ausente e o sinal de Prehn é negativo."},
+    {p:"Doppler antes da cirurgia na suspeita clínica clara de torção?",r:"Não. O quadro típico indica exploração imediata — a janela de salvamento é de 6 horas."},
+    {p:"Blue dot sign, dor no polo superior, 9 anos, reflexo cremastérico presente.",r:"Torção de apêndice testicular (hidátide de Morgagni) — tratamento conservador."},
+    {p:"Hidrocele não comunicante do RN: operar?",r:"Não. Observar — reabsorve espontaneamente, tipicamente até 12-18 meses. Opera-se a comunicante ou a que persiste após os 2 anos."},
+    {p:"Prepúcio não retrátil em lactente: qual a conduta?",r:"Fisiológico. Não forçar retração; se sintomático, corticoide tópico por 4-8 semanas antes de considerar cirurgia."},
+    {p:"Quantidade de creme dental fluoretado por idade.",r:"Grão de arroz abaixo de 3 anos; grão de ervilha dos 3 aos 6 anos, com 1.000-1.450 ppm, desde o primeiro dente."},
+    {p:"Dente permanente avulsionado: meio de transporte?",r:"Leite, soro fisiológico ou saliva — nunca água nem seco. Decíduo avulsionado não se reimplanta."}
+  );
+
+  o.pegadinhas.push(
+    "Dispensar o cariótipo em RN com fenótipo típico de Down 'porque o diagnóstico é clínico' — perde-se a translocação e o aconselhamento genético.",
+    "Trocar coarctação (Turner) por estenose pulmonar (Noonan) — e vice-versa.",
+    "Pedir cariótipo diante de atraso global do desenvolvimento sem hipótese sindrômica — o exame de primeira linha é o microarray.",
+    "Esquecer o teste do X frágil em menino com deficiência intelectual: nem cariótipo nem array o detectam.",
+    "Fazer radiografia cervical de rotina em criança com Down assintomática.",
+    "Fechar 'sepse neonatal' em RN que nasceu bem, piorou após 48h e não responde ao antibiótico — pense erro inato do metabolismo.",
+    "Infundir glicose antes de colher amônia, gasometria e cetonúria — o diagnóstico desaparece com a melhora.",
+    "Esperar acidose em defeito do ciclo da ureia — o gás mostra alcalose respiratória.",
+    "Esperar cetonúria intensa na hipoglicemia da β-oxidação — ela é hipocetótica, e é isso que denuncia o diagnóstico.",
+    "Tranquilizar a família com teste do pezinho normal diante de descompensação metabólica.",
+    "Chamar de 'icterícia do leite materno' um lactente de 4 semanas sem dosar bilirrubina direta.",
+    "Marcar retorno em duas semanas para criança com icterícia e fezes esbranquiçadas — a atresia de vias biliares é corrida contra os 60 dias.",
+    "Esquecer vitamina K no lactente colestático.",
+    "Pedir Doppler e aguardar resultado em adolescente com dor escrotal súbita e reflexo cremastérico ausente.",
+    "Operar hidrocele não comunicante de recém-nascido.",
+    "Adiar a correção de hérnia inguinal no lactente 'até ficar maior' — o risco de encarceramento é maior justamente nos primeiros meses.",
+    "Forçar a retração do prepúcio do lactente para 'higienizar' — causa fissura, cicatriz e fimose verdadeira.",
+    "Indicar postectomia de rotina para prepúcio não retrátil assintomático antes de tentar corticoide tópico.",
+    "Atribuir febre de 39 °C ao nascimento do dente.",
+    "Suspender o flúor por medo de fluorose — controla-se a quantidade, não se abole o creme fluoretado."
+  );
+
+  o.diretrizes.push(
+    "SBP — Departamentos de Genética, Gastroenterologia, Cirurgia Pediátrica e Saúde Oral: documentos científicos e Manual de Orientação (dismorfologia, colestase neonatal, escroto agudo, saúde bucal).",
+    "SBP/ACMG — indicação do microarray cromossômico como exame de primeira linha em atraso global do desenvolvimento, deficiência intelectual, TEA e malformações múltiplas.",
+    "Lei 14.154/2021 e Ministério da Saúde — ampliação escalonada da Triagem Neonatal (Teste do Pezinho) no SUS.",
+    "NASPGHAN/ESPGHAN — diretriz de avaliação da colestase no lactente (dosar bilirrubina direta em toda icterícia após 14 dias de vida).",
+    "Nelson Textbook of Pediatrics — capítulos de genética clínica, erros inatos do metabolismo, doenças colestáticas do lactente e urologia pediátrica."
+  );
+
+  o.questoes.push(
+    {enunciado:"Recém-nascido a termo, filho de pais consanguíneos, com boa vitalidade ao nascer e sucção adequada, evolui no 3º dia de vida com recusa alimentar, vômitos, letargia e taquipneia. Gasometria: pH 7,49, pCO2 22 mmHg, bicarbonato 17 mEq/L, ânion gap normal. Glicemia 74 mg/dL, lactato normal, cetonúria negativa. O diagnóstico mais provável é:",
+     alternativas:{a:"Sepse neonatal tardia.",b:"Acidemia orgânica.",c:"Defeito do ciclo da ureia.",d:"Deficiência de MCAD."},
+     correta:"c",
+     comentario:"O quadro tem a assinatura clássica do erro inato do metabolismo: recém-nascido que nasceu bem, teve intervalo livre de 48-72 horas (enquanto a placenta depurava, não havia toxina) e deteriorou depois que a alimentação começou. O que separa os grupos é o laboratório. Aqui há ALCALOSE respiratória (pH alto com pCO2 baixa), ânion gap normal, sem cetose, sem hipoglicemia e sem lactato alto — o padrão do defeito do ciclo da ureia, em que a amônia acumulada estimula diretamente o centro respiratório e produz hiperventilação antes de qualquer acidose. Daí (c), e a conduta imediata é dosar amônia. (b) erra porque a acidemia orgânica cursa com acidose metabólica de ânion gap alargado e cetonúria intensa — exatamente o oposto do gás apresentado. (d) erra porque o defeito de β-oxidação se manifesta com hipoglicemia hipocetótica desencadeada por jejum ou infecção, e a glicemia aqui está normal. (a) é o distrator mais perigoso da vida real: sepse é sempre a primeira hipótese e deve ser tratada em paralelo, mas o RN que não melhora com antibiótico, sem foco, com esse padrão gasométrico, exige a segunda hipótese. Conduta prática: colher glicemia, gasometria, lactato, amônia e cetonúria E GUARDAR soro e urina ANTES de infundir glicose; depois suspender proteína, iniciar glicose em alta taxa de infusão e quelantes de amônia, com hemodiálise se a amônia for muito elevada.",
+     foco:"EIM — padrão gasométrico e amostras críticas"},
+    {enunciado:"Lactente de 5 semanas, em aleitamento materno exclusivo, bom ganho ponderal, apresenta icterícia desde a segunda semana. A mãe relata que as fezes estão esbranquiçadas e a urina escura. Exame: icterícia +2/4 e fígado a 3 cm do rebordo costal. A conduta inicial mais adequada é:",
+     alternativas:{a:"Tranquilizar e reavaliar em 2 semanas.",b:"Suspender o aleitamento por 48 horas.",c:"Dosar bilirrubina total e frações e solicitar ultrassom abdominal.",d:"Iniciar fototerapia."},
+     correta:"c",
+     comentario:"Acolia fecal e colúria em lactente ictérico são colestase até prova em contrário, e colestase neonatal NUNCA é fisiológica. O primeiro passo obrigatório é dosar bilirrubina total e frações: direta acima de 1,0 mg/dL (ou acima de 20% da total) confirma colestase e muda todo o raciocínio. Junto, solicita-se ultrassom em jejum procurando vesícula ausente/pequena e o sinal do cordão triangular, além de transaminases, GGT, INR e albumina — e encaminha-se no mesmo dia ao serviço de referência. Por isso (c). (a) é o erro que custa o fígado: a portoenterostomia de Kasai tem melhores resultados antes dos 45-60 dias de vida e taxa de sucesso baixa após 90 dias; duas semanas de espera podem inviabilizar a cirurgia. (b) aplica o teste da icterícia do leite materno, que é de bilirrubina INDIRETA e jamais cursa com acolia — a presença de fezes claras já afasta esse raciocínio. (d) erra o mecanismo: fototerapia atua sobre a bilirrubina indireta e, na colestase, além de inútil, pode causar a 'síndrome do bebê bronzeado'. Complemento: enquanto se investiga, garanta vitaminas lipossolúveis, com atenção especial à vitamina K, cuja deficiência pode causar hemorragia intracraniana no lactente colestático.",
+     foco:"Colestase neonatal — dosar direta, acolia e a janela do Kasai"},
+    {enunciado:"Adolescente de 14 anos acorda às 3h com dor escrotal esquerda súbita e intensa, associada a vômitos. Afebril, sem disúria. Exame: testículo esquerdo elevado e horizontalizado, reflexo cremastérico ausente à esquerda, elevação do testículo não alivia a dor. Chegou ao pronto-socorro às 7h. A conduta correta é:",
+     alternativas:{a:"Ultrassonografia com Doppler antes de qualquer decisão.",b:"Exploração cirúrgica imediata.",c:"Anti-inflamatório e reavaliação em 24 horas.",d:"Antibiótico para epididimite e suspensório escrotal."},
+     correta:"b",
+     comentario:"O quadro é torção testicular em livro-texto: dor súbita e noturna, vômitos, testículo alto e horizontalizado, reflexo cremastérico AUSENTE (o achado de melhor valor preditivo negativo — se estivesse presente, torção seria improvável) e sinal de Prehn negativo (elevar não alivia). O tempo decorrido é de 4 horas, dentro da janela em que a taxa de salvamento gonadal chega a 90-100%; entre 12 e 24 horas ela despenca e após 24 horas é próxima de zero. Por isso (b): exploração cirúrgica imediata, com detorção e orquidopexia BILATERAL, já que a anomalia anatômica em 'badalo de sino' costuma ser dos dois lados. (a) é o erro mais cobrado nas provas: o Doppler tem falso-negativo e, sobretudo, consome o recurso que não pode ser gasto, que é tempo — ele se reserva aos casos duvidosos, nunca ao quadro típico. (c) e (d) tratam os diferenciais errados: torção de apêndice testicular teria dor mais localizada no polo superior, início gradual, blue dot e reflexo cremastérico presente; epididimite teria febre, disúria e Prehn positivo. Pérola final: em recém-nascido a torção pode ser extravaginal e indolor, apresentando-se como massa escrotal endurecida e escurecida — outro pico do quadro bimodal.",
+     foco:"Escroto agudo — torção e a janela de 6 horas"}
+  );
+
+  o.fontes = (o.fontes||"") + " Aprofundamento de 02/09/2026: SBP — Documentos Científicos dos Departamentos de Genética, Gastroenterologia, Cirurgia Pediátrica e Saúde Oral; recomendação SBP/ACMG do microarray cromossômico como primeira linha em atraso do desenvolvimento; Lei 14.154/2021 e material do MS sobre a Triagem Neonatal ampliada; diretrizes NASPGHAN/ESPGHAN de colestase no lactente; Nelson Textbook of Pediatrics (genética clínica, erros inatos do metabolismo, colestase e urologia pediátrica); material de Pediatria do Drive — Tópicos em Pediatria e Nutrição em Pediatria/Sarni (ver materiais_drive.md).";
+
+  o.notaErro = (o.notaErro||"") + `
+
+**Complemento de 02/09/2026 — por que esta gaveta continua com a maior taxa de erro da Pediatria (50%, 3 erros em 6 questões: Vinicius 1 em imunodeficiências, Ana Teresa 2 em infecções respiratórias/ORL).**
+
+Esta é a gaveta dos temas que não têm dono. Ela reúne o que não coube em Neonatologia, em Infecto ou em Nutrição — e é exatamente por isso que ela é a mais errada: **você não estuda "Outros", você tropeça em "Outros"**. As seções novas atacam quatro pontos cegos que compartilham a mesma raiz.
+
+- **Erro por não ter categoria mental para o achado.** Quando a vinheta traz dismorfismos, ou um recém-nascido que descompensa, ou fezes claras, o problema não é a falta de conhecimento — é que **o achado não aciona nenhuma gaveta**, e você acaba escolhendo a alternativa mais familiar (sepse, icterícia do leite materno, "é do dente"). **Antídoto:** memorize os quatro gatilhos que abrem gaveta nova: **três dismorfismos**, **intervalo livre seguido de deterioração**, **icterícia depois dos 14 dias** e **dor escrotal súbita**. Cada um desses quatro tem uma conduta obrigatória de primeira linha, e é ela que a banca pergunta.
+- **Erro por confundir "exame que confirma" com "exame que se pede primeiro".** Foi o mesmo mecanismo do seu erro em deficiência seletiva de IgA (seção 5): saber a doença e errar o fluxo. Aqui ele reaparece três vezes — pedir cariótipo quando o exame de primeira linha é o microarray; pedir Doppler quando a conduta é operar; infundir glicose antes de colher a amostra crítica. **Antídoto:** para cada quadro, treine a pergunta **"o que eu faço ANTES?"**, e não "qual é o diagnóstico?". A prova de residência quase sempre pergunta a conduta inicial.
+- **Erro por subestimar o relógio.** Três dos temas novos são cronometrados: **Kasai antes dos 60 dias**, **torção em até 6 horas**, **amostra metabólica antes da glicose**. Alternativas do tipo "reavaliar em duas semanas", "solicitar exame e aguardar" e "tranquilizar a família" são escritas justamente para quem não sabe que existe um relógio. **Antídoto:** sempre que a alternativa envolver esperar, pergunte-se **o que se perde enquanto espero**. Se a resposta for um órgão, ela está errada.
+- **Erro de ORL por rigidez de critério (ponto de Ana Teresa, 2/3 em infecções respiratórias/ORL).** As seções 8 e 9 já trazem os critérios de otite e faringite; o que falha é a aplicação — dar antibiótico por otalgia sem membrana abaulada, ou por dor de garganta com coriza e tosse (que são sinais **virais** e reduzem o escore de Centor). **Antídoto:** antes de prescrever antibiótico em ORL, verbalize **qual critério objetivo** você está usando. Se não conseguir nomeá-lo, a resposta é observação com analgesia.
+
+**Como zerar.** O checklist da seção 28 é a ferramenta: ele transforma cada gatilho em uma primeira conduta obrigatória, o que neutraliza os três mecanismos de erro ao mesmo tempo — categoria mental, ordem do fluxo e consciência do relógio. As três questões novas foram construídas exatamente sobre esses pontos: em todas, a alternativa errada mais atraente é a que **espera** ou a que **pede o exame errado primeiro**.`;
+
+})();
