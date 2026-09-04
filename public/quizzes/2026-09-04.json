@@ -1,0 +1,651 @@
+{
+ "date": "2026-09-04",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Neuroimunologia (doença desmielinizante com disseminação no tempo e no espaço) [RE ranking unificado #1: Vinicius, 100%] [REAL: SUS-BA R+ Clínica Médica 2022]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 24 anos de idade, é atendida no pronto-socorro queixando-se de dor e diminuição da acuidade visual do olho esquerdo, há 7 dias. Relata ter tido fraqueza no braço direito, há 2 meses, que cessou espontaneamente. Ao exame, sinais vitais estáveis. Ausculta cardíaca e respiratória e abdome sem alterações. Pupilas isocóricas, com reflexo fotomotor direto reduzido e consensual preservado no olho esquerdo. Força muscular grau IV/V em membro superior direito e grau V/V em demais membros.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, com relação ao diagnóstico mais provável, pode se afirmar que esse diagnóstico exige:",
+     "alternativas": {
+      "a": "Que haja a presença de três ou mais eventos sintomáticos.",
+      "b": "Que o intervalo entre os eventos sintomáticos dure, pelo menos, um mês.",
+      "c": "Que todos os eventos sintomáticos sejam documentados com exame de imagem.",
+      "d": "Que cada evento sintomático dure mais de uma semana."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2022] O caso reúne uma neurite óptica retrobulbar à esquerda (dor à movimentação ocular, baixa acuidade e defeito pupilar aferente relativo — o reflexo fotomotor direto reduzido com consensual preservado é a pupila de Marcus Gunn) e, dois meses antes, um déficit motor autolimitado no membro superior direito: dois surtos, em duas topografias diferentes, separados no tempo. Isso é disseminação no espaço e no tempo, o eixo dos critérios de McDonald para esclerose múltipla. Pela definição clássica de surto, cada evento deve durar pelo menos 24 horas (não uma semana), na ausência de febre ou infecção; e dois surtos são considerados distintos quando separados por ao menos 30 dias entre o início de um e o início do outro — é esse o critério cobrado pela banca. Não se exigem três eventos: dois surtos com evidência clínica objetiva de duas lesões já fecham o diagnóstico sem nenhum exame adicional. Tampouco é obrigatório documentar todos os surtos por imagem — a história clínica bem caracterizada de um surto prévio é aceita, embora a ressonância seja usada para demonstrar disseminação quando a clínica isolada não basta. Pérola de prova: nos critérios de 2017, a presença de bandas oligoclonais no líquor pode substituir a disseminação no tempo em quem tem apenas um surto (síndrome clínica isolada) com disseminação no espaço na imagem. Diferenciais que a banca gosta de embutir: neuromielite óptica (neurite óptica grave, bilateral ou com mielite longitudinalmente extensa; anti-AQP4) e MOGAD (papilite com edema de disco, frequentemente bilateral).",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante do caso clínico, com relação aos achados esperados em exames complementares relativos ao diagnóstico mais provável, é de esperar que:",
+     "alternativas": {
+      "a": "Haja bandas policlonais no líquor.",
+      "b": "Haja positividade para o anticorpo antiaquaporina na maioria dos casos.",
+      "c": "Observem-se lesões hiperintensas em T1 e hipointensas em T2 na Ressonância Magnética.",
+      "d": "Haja lesões periventriculares, corticais ou justacorticais, infratentoriais e medulares no Sistema nervoso central."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2022] As quatro topografias típicas da esclerose múltipla na ressonância — periventricular, cortical/justacortical, infratentorial e medular — são exatamente as usadas pelos critérios de McDonald para definir disseminação no espaço: basta lesão em ao menos duas dessas quatro regiões. As placas são hiperintensas em T2/FLAIR (as periventriculares têm o formato ovoide perpendicular aos ventrículos, os 'dedos de Dawson') e, quando crônicas e destrutivas, aparecem como 'buracos negros' hipointensos em T1; lesões ativas realçam pelo gadolínio por quebra de barreira, e a coexistência de lesões captantes e não captantes num mesmo exame demonstra disseminação no tempo. A alternativa que inverte as sequências (hiperintensas em T1 e hipointensas em T2) descreve o oposto do esperado. No líquor, o achado característico são bandas OLIGOclonais de IgG (presentes em cerca de 90% dos casos) ausentes no soro pareado, com índice de IgG elevado — 'bandas policlonais' é um distrator de palavra: a produção policlonal é inespecífica e não tem valor diagnóstico. O anticorpo antiaquaporina-4 é o marcador do espectro da neuromielite óptica, tipicamente negativo na esclerose múltipla; sua positividade, ao contrário, afasta o diagnóstico e muda todo o tratamento. Pérola: a ressonância de medula cervical faz parte da investigação inicial mesmo sem sintomas medulares, porque lesões medulares assintomáticas contam para o espaço e são raras em mimetizadores vasculares como a doença de pequenos vasos.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Diante do caso clínico, identifique a terapia farmacológica mais indicada para modificar o curso da doença:",
+     "alternativas": {
+      "a": "Acetato de glatirâmer.",
+      "b": "Metilprednisolona.",
+      "c": "Riluzole.",
+      "d": "Adalimumabe."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2022] A pergunta pede a terapia MODIFICADORA DO CURSO da doença, e o único imunomodulador de manutenção entre as opções é o acetato de glatirâmer — um polímero sintético de quatro aminoácidos que mimetiza a proteína básica da mielina, desvia a resposta linfocitária para o perfil Th2/regulador e reduz a taxa anualizada de surtos em cerca de 30%, com excelente perfil de segurança (inclusive na gestação). No PCDT brasileiro ele está entre as opções de primeira linha para a forma remitente-recorrente, ao lado das interferonas beta, teriflunomida, fumarato de dimetila e, em atividade alta, fingolimode, natalizumabe, ocrelizumabe e alentuzumabe. A metilprednisolona em pulso (1 g/dia por 3 a 5 dias) é o tratamento do SURTO — abrevia a recuperação da neurite óptica e do déficit motor —, mas não altera a evolução a longo prazo, e por isso não responde ao que foi perguntado. O riluzol é o antiglutamatérgico da esclerose lateral amiotrófica, sem qualquer indicação aqui. O adalimumabe e os demais bloqueadores de TNF-alfa não só são ineficazes como podem DESENCADEAR ou agravar doença desmielinizante — a esclerose múltipla é contraindicação formal ao seu uso, pegadinha recorrente em provas que cruzam reumatologia e neurologia. Pérola: a tendência atual é iniciar terapia de alta eficácia precocemente em quem tem marcadores de mau prognóstico (surto medular ou de tronco, recuperação incompleta, alta carga lesional, lesões captantes).\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 86 — Esclerose Múltipla: diagnóstico (critérios de McDonald) e cap. 87 — Esclerose Múltipla: tratamento; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 10 — Doenças Desmielinizantes e Inflamatórias, e o PCDT de Esclerose Múltipla do Ministério da Saúde (2022).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia (seguimento do pré-termo: causas, idade corrigida e prognóstico) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, nascida com 32 semanas de gestação, foi admitida Unidade de Terapia Intensiva Neonatal (UTIN) onde recebeu cuidados especiais para bebês prematuros. Não se confirmou uma causa para a prematuridade nessa criança. No momento, aos 6 meses de idade, está sendo acompanhada por pediatras e mostra um desenvolvimento neuropsicomotor normal para a sua idade corrigida. Está sorrindo, fazendo contato visual, rolando, pegando objetos, sentando com apoio e balbuciando. Seu peso e crescimento estão dentro dos parâmetros esperados para bebês nascidos prematuramente.",
+   "perguntas": [
+    {
+     "enunciado": "Indique entre as condições seguintes, a causa comum de prematuridade:",
+     "alternativas": {
+      "a": "Herança genética.",
+      "b": "Ganho de peso materno excessivo na gravidez.",
+      "c": "Consumo excessivo de ácido fólico durante a gravidez.",
+      "d": "Infecção viral durante a gravidez."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Entre as opções, a única que figura entre as causas reconhecidas de parto pré-termo é a infecção materna durante a gravidez — infecções virais e, sobretudo, bacterianas (corioamnionite, infecção urinária, vaginose bacteriana, infecções sistêmicas) desencadeiam a cascata inflamatória (IL-1, IL-6, TNF-alfa, prostaglandinas e metaloproteinases) que amadurece o colo, rompe membranas e dispara o trabalho de parto; a infecção/inflamação responde por 25 a 40% dos nascimentos pré-termo espontâneos, com peso ainda maior nos muito prematuros. As demais causas clássicas que a banca costuma listar são gestação múltipla, rotura prematura de membranas, insuficiência cervical, pré-eclâmpsia e restrição de crescimento (pré-termo por indicação médica), sangramentos placentários, malformações uterinas, intervalo interpartal curto, tabagismo e drogas, extremos de idade materna, baixo nível socioeconômico e parto pré-termo prévio (o fator de risco individual mais forte). A herança genética tem papel discreto e indireto (agregação familiar de parto pré-termo, polimorfismos inflamatórios), mas não é 'causa comum'. O ganho de peso materno excessivo associa-se a macrossomia, diabetes gestacional e cesariana, não a prematuridade — o fator nutricional ligado ao pré-termo é o BAIXO peso/IMC materno e o ganho insuficiente. O ácido fólico é protetor (defeitos do tubo neural) e há até dados sugerindo redução de parto pré-termo com suplementação prolongada; o 'consumo excessivo' é distrator sem base. Pérola: prematuro é todo nascido antes de 37 semanas completas; extremo abaixo de 28, muito pré-termo de 28 a 31+6, moderado de 32 a 33+6 e tardio de 34 a 36+6 — esta menina, de 32 semanas, é pré-termo moderada.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a idade corrigida dessa criança, para fins de avaliação de saúde, no momento da consulta atual, considerando como critério a gestação a Termo Pleno:",
+     "alternativas": {
+      "a": "6 meses.",
+      "b": "5 meses.",
+      "c": "4 meses.",
+      "d": "7 meses."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] Idade corrigida = idade cronológica menos o número de semanas que faltaram para o termo. A banca manda usar como referência o TERMO PLENO — pela classificação do ACOG/AAP, termo precoce vai de 37 a 38+6, termo pleno de 39 a 40+6, termo tardio de 41 a 41+6 e pós-termo a partir de 42 semanas —, portanto o cálculo é 40 − 32 = 8 semanas (2 meses) de correção: 6 meses cronológicos − 2 meses = 4 meses de idade corrigida. Se a referência fosse 37 semanas (limite inferior do termo), a correção seria de 5 semanas e a resposta cairia entre 4 e 5 meses; por isso o enunciado especifica o critério — leia sempre o que a banca define. As alternativas 6 e 7 meses ignoram ou invertem a correção. A idade corrigida deve ser usada para avaliar crescimento (peso, comprimento, perímetro cefálico nas curvas da OMS/Intergrowth) e desenvolvimento neuropsicomotor até os 2 anos de idade cronológica em nascidos abaixo de 32-34 semanas (alguns serviços estendem a 3 anos para os extremos), e é justamente por ela que os marcos descritos — sorriso social, contato visual, rolar, pegar objetos, sentar com apoio e balbuciar — estão adequados: correspondem ao esperado para 4 meses (o sentar sem apoio e a transferência de objetos viriam aos 6-7 meses corrigidos). O que NÃO se corrige: o calendário vacinal (segue a idade cronológica, exceto BCG, que espera 2 kg) e a introdução alimentar (individualizada, entre 4 e 6 meses corrigidos). Pérola: o perímetro cefálico é o primeiro parâmetro a atingir a curva do termo, seguido do peso e do comprimento.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o prognóstico esperado na maioria dos casos para o desenvolvimento de crianças prematuras como esta:",
+     "alternativas": {
+      "a": "Desenvolvimento neuropsicomotor igual a crianças nascidas a Termo.",
+      "b": "Probabilidade elevada de desenvolvimento de Autismo.",
+      "c": "Atrasos no desenvolvimento durante a Primeira Infância.",
+      "d": "Desenvolvimento neuropsicomotor prejudicado permanentemente."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A questão pede o prognóstico da MAIORIA dos prematuros 'como esta' — pré-termo moderada (32 semanas), sem causa identificada, sem menção a hemorragia intraventricular, leucomalácia, displasia broncopulmonar ou retinopatia, e já com desenvolvimento normal para a idade corrigida aos 6 meses. Nesse perfil, o desfecho esperado é desenvolvimento neuropsicomotor equivalente ao de crianças a termo: as diferenças de crescimento e de marcos se resolvem ao longo dos dois primeiros anos (por isso a correção é abandonada aos 2 anos), e a maioria alcança escolaridade e cognição dentro da normalidade. O risco de paralisia cerebral, deficiência intelectual e transtornos do neurodesenvolvimento cresce de forma inversa à idade gestacional e concentra-se nos pré-termos extremos (abaixo de 28 semanas), nos de muito baixo peso e nos com lesão cerebral documentada; para 32 semanas a taxa de paralisia cerebral fica em torno de 2-4%, longe de ser 'a maioria'. O risco de autismo está aumentado nos prematuros (cerca de 2 a 3 vezes, mais nos extremos), mas em termos absolutos continua baixo — 'probabilidade elevada' distorce. 'Atrasos na primeira infância' seriam esperados apenas se a criança fosse avaliada pela idade cronológica sem correção — ela é normal para a idade corrigida, e a banca deixa isso explícito. 'Prejuízo permanente' descreve as sequelas da minoria com lesão estabelecida. Pérola de prova: o seguimento do pré-termo inclui triagem auditiva (BERA), fundoscopia para retinopatia (abaixo de 32 semanas ou 1.500 g), ultrassonografia transfontanela, monitorização do crescimento com curvas específicas e vigilância do desenvolvimento pelo menos até a idade escolar, pois dificuldades de aprendizagem, de atenção e de coordenação motora fina são as sequelas 'sutis' mais frequentes, mesmo em quem teve marcos normais.\n\n📚 Leitura sugerida (bloco): videoaula de Neonatologia — R+ Pediatria 2024 MEDGRUPO (https://drive.google.com/file/d/1-wlRGFmly33mycZCXVVyFMgn8hCinZrm/view); complementar com o Manual de Seguimento Ambulatorial do Prematuro de Risco da Sociedade Brasileira de Pediatria e o Manual do Método Canguru do Ministério da Saúde (3ª ed.).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (sintomas residuais por compensação central incompleta após vestibulopatia periférica aguda) [RE ranking unificado #2: Vinicius, 100%]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 39 anos de idade, professora, procura o ambulatório por desequilíbrio persistente. Há seis semanas apresentou vertigem rotatória contínua, com náuseas e vômitos, que durou quatro dias, sem hipoacusia, zumbido ou sintomas neurológicos focais; foi atendida em emergência, tratada com prednisona e dimenidrinato, e a vertigem cedeu. Desde então refere sensação de instabilidade ao virar a cabeça rapidamente, 'as imagens tremem' quando caminha na rua e evita dirigir; mantém dimenidrinato três vezes ao dia e clonazepam à noite. Ao exame: sem nistagmo espontâneo, mesmo com remoção da fixação; teste de impulso cefálico com sacada corretiva evidente nas rotações para a direita; Dix-Hallpike e teste de rolamento negativos bilateralmente; Romberg e coordenação normais; otoscopia sem alterações.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, indique o mecanismo mais provável dos sintomas atuais:",
+     "alternativas": {
+      "a": "Recidiva da lesão vestibular periférica.",
+      "b": "Otolitíase secundária no canal semicircular posterior.",
+      "c": "Déficit dinâmico do reflexo vestíbulo-ocular por compensação central incompleta.",
+      "d": "Tontura postural-perceptual persistente."
+     },
+     "correta": "c",
+     "comentario": "O episódio de seis semanas atrás — vertigem contínua de dias, sem hipoacusia e sem sinais centrais — foi uma neurite vestibular à direita, e o que a paciente descreve agora é o quadro típico de compensação INCOMPLETA. A compensação central corrige bem o desequilíbrio ESTÁTICO (por isso não há mais nistagmo espontâneo, nem com a fixação removida), mas o déficit DINÂMICO do reflexo vestíbulo-ocular para movimentos rápidos da cabeça em direção ao lado lesado persiste: o olho não acompanha a rotação e precisa de uma sacada de correção, que é exatamente o teste de impulso cefálico positivo à direita. Clinicamente isso se traduz em oscilopsia ao caminhar e instabilidade ao virar a cabeça — sintomas provocados por movimento, não espontâneos. A recidiva é rara na neurite (menos de 2%) e cursaria com vertigem contínua e nistagmo espontâneo novos, ausentes aqui. A otolitíase secundária (vertigem posicional após neurite ocorre em 10-15% dos casos, pelo desprendimento de otocônias da mácula utricular isquêmica) é o diferencial mais importante, mas exige vertigem breve e posicional com nistagmo na Dix-Hallpike, que foi negativa. A tontura postural-perceptual persistente exige três meses ou mais de sintomas, predomina em ortostase e com estímulos visuais complexos, e NÃO explica um teste de impulso cefálico anormal, que é sinal de lesão vestibular objetiva. Pérola: os supressores vestibulares (dimenidrinato, benzodiazepínicos) usados por mais de 48-72 horas RETARDAM a compensação central, e este é um dos fatores que mantêm a paciente sintomática.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o exame que melhor quantifica o déficit residual apresentado por esta paciente:",
+     "alternativas": {
+      "a": "Vídeo-teste de impulso cefálico.",
+      "b": "Audiometria tonal com imitanciometria.",
+      "c": "Ressonância magnética de encéfalo com gadolínio.",
+      "d": "Potencial evocado miogênico vestibular."
+     },
+     "correta": "a",
+     "comentario": "O vídeo-teste de impulso cefálico (vHIT) registra, com câmera de alta frequência, o movimento ocular durante impulsos rápidos e imprevisíveis da cabeça e calcula o GANHO do reflexo vestíbulo-ocular de cada canal semicircular (normal acima de 0,8 para os canais horizontais); na hipofunção residual, o ganho fica reduzido à direita e aparecem sacadas de correção — 'overt', visíveis a olho nu depois do impulso, ou 'covert', escondidas durante o movimento, detectáveis só pelo equipamento. É o exame que avalia o sistema em alta frequência, justamente a faixa em que a paciente sente oscilopsia, e serve de linha de base objetiva para a reabilitação. A audiometria seria essencial se houvesse hipoacusia ou zumbido (diferenciando labirintite, doença de Ménière ou schwannoma), mas o quadro é puramente vestibular. A ressonância com gadolínio está indicada quando há sinais centrais, hipoacusia assimétrica ou evolução atípica; aqui o exame neurológico é normal e o impulso cefálico positivo aponta para a periferia — pedi-la de rotina não muda a conduta. O potencial evocado miogênico vestibular avalia os órgãos otolíticos (sáculo pelo cVEMP, utrículo pelo oVEMP), não os canais, e não quantifica o reflexo vestíbulo-ocular dinâmico. Pérola: a prova calórica também demonstra a hipofunção unilateral, porém estimula o canal horizontal em frequência muito baixa (0,003 Hz), longe da faixa funcional dos movimentos cefálicos do dia a dia — por isso pode permanecer alterada mesmo em pacientes já bem compensados, enquanto o vHIT é o que melhor se correlaciona com os sintomas dinâmicos.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta mais adequada para os sintomas residuais desta paciente:",
+     "alternativas": {
+      "a": "Novo ciclo de prednisona por 10 dias.",
+      "b": "Aumentar a dose do dimenidrinato e manter o clonazepam.",
+      "c": "Betaistina em dose alta por seis meses.",
+      "d": "Suspender os supressores vestibulares e iniciar reabilitação vestibular."
+     },
+     "correta": "d",
+     "comentario": "A compensação central depende de ERRO SENSORIAL: o cérebro precisa ser exposto ao conflito entre o sinal vestibular deficitário e a informação visual e proprioceptiva para recalibrar o reflexo vestíbulo-ocular. Por isso a conduta é retirar os supressores (dimenidrinato e clonazepam, que atenuam justamente esse sinal e retardam a plasticidade cerebelar e do núcleo vestibular) e iniciar um programa de reabilitação vestibular — exercícios de adaptação (fixação de alvo com movimentos cefálicos progressivamente mais rápidos), substituição e habituação, além de treino de equilíbrio e marcha, com evidência de nível alto para melhora de oscilopsia, instabilidade e retorno funcional. A prednisona tem seu único espaço nas primeiras 72 horas da fase aguda, quando pode acelerar a recuperação da função calórica (e mesmo isso sem impacto claro na compensação clínica); seis semanas depois não há inflamação a tratar. Aumentar o dimenidrinato é o oposto do indicado: os supressores só têm lugar nos primeiros 2-3 dias, para controlar vômitos, e a manutenção prolongada é reconhecidamente um fator de compensação incompleta. A betaistina tem alguma evidência apenas na doença de Ménière, e mesmo aí é controversa; não acelera a compensação de uma lesão vestibular unilateral estável. Pérola: quando a otolitíase secundária aparece durante a reabilitação, a manobra de reposição resolve e o programa continua — os dois problemas coexistem com frequência.\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 135 — Síndrome Vestibular Aguda e cap. 192 — Reabilitação de Distúrbios Vestibulares e do Equilíbrio; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 2 — Tontura, Vertigem e Perda Auditiva.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Neonatologia / Infecções congênitas (RN pequeno para a idade gestacional com icterícia persistente e hepatoesplenomegalia) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Recém-nascido, 7 dias de vida, nascido \"pequeno para a idade gestacional\", que apresentou icterícia, é trazido ao ambulatório de seguimento do hospital com relato de dificuldade para mamar e consequente baixo ganho de peso. A gravidez foi tranquila, mas, no segundo trimestre, a mãe apresentou febre e uma erupção cutânea discreta, que desapareceu sem tratamento. Ao exame físico, o bebê apresenta manutenção da icterícia com a qual saiu da maternidade, e hepatoesplenomegalia. Diante da história, o pediatra suspeitou de uma infecção congênita e pretende solicitar exames laboratoriais para investigação.",
+   "perguntas": [
+    {
+     "enunciado": "Com base no caso clínico, indique, dentre os mecanismos fisiopatológicos citados, o que mais provavelmente causou a icterícia, nesse contexto:",
+     "alternativas": {
+      "a": "Aumento da produção de hemoglobina fetal.",
+      "b": "Hemólise intrauterina causada pela presença de um agente infeccioso.",
+      "c": "Aumento da reabsorção de bilirrubina intestinal.",
+      "d": "Inibição da síntese de bilirrubina direta pelo fígado."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O quadro — restrição de crescimento, icterícia que persiste além da primeira semana, hepatoesplenomegalia e uma síndrome febril exantemática materna no segundo trimestre — é o protótipo da infecção congênita sintomática, e a principal suspeita é o citomegalovírus, a infecção congênita mais frequente (0,5-1% dos nascidos vivos; 10% sintomáticos ao nascer). A banca escolheu, entre os mecanismos, a HEMÓLISE INTRAUTERINA de causa infecciosa: a infecção fetal disseminada provoca hemólise (com anemia, reticulocitose e eritropoese extramedular, que contribui para a hepatoesplenomegalia), somando-se à hepatite pelo vírus, que dá o componente de bilirrubina direta e a colestase. O 'aumento da produção de hemoglobina fetal' não é mecanismo de icterícia — a hemoglobina fetal é fisiológica e sua substituição é gradual; o que gera bilirrubina é a DESTRUIÇÃO das hemácias, não sua produção. O aumento da reabsorção intestinal (circulação êntero-hepática) é o mecanismo da icterícia do aleitamento materno e do jejum, sem visceromegalia nem restrição de crescimento. A 'inibição da síntese de bilirrubina direta' descreve o defeito de CONJUGAÇÃO (Crigler-Najjar, Gilbert, hipotireoidismo congênito), que produz icterícia indireta isolada, sem hepatoesplenomegalia. Pérola de prova: no citomegalovírus congênito sintomático, os achados clássicos são microcefalia, calcificações PERIVENTRICULARES (no toxoplasma são difusas), petéquias/púrpura ('blueberry muffin'), coriorretinite, hepatoesplenomegalia com icterícia colestática, trombocitopenia e, o mais frequente e mais tardio, a surdez neurossensorial — presente em até metade dos sintomáticos e em 10-15% dos assintomáticos, muitas vezes progressiva.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame mais sensível e específico para confirmar a suspeita diagnóstica de infecção congênita nesse caso:",
+     "alternativas": {
+      "a": "Sorologia lgG e IgM.",
+      "b": "Ressonância magnética de crânio.",
+      "c": "Teste de triagem auditiva neonatal.",
+      "d": "Reação em Cadeia da Polimerase."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O padrão-ouro para o citomegalovírus congênito é a detecção do VÍRUS — por reação em cadeia da polimerase (ou cultura/'shell vial') — na URINA ou na SALIVA do recém-nascido, colhida obrigatoriamente nas primeiras TRÊS SEMANAS de vida (21 dias): depois disso, um resultado positivo não distingue infecção congênita de infecção adquirida no canal de parto ou pelo leite materno, que é benigna no termo. A saliva é prática para triagem, mas deve ser confirmada na urina (risco de contaminação por leite materno de mãe com excreção viral). A sorologia é o exame de menor rendimento: a IgG é materna (passa pela placenta e persiste até 12-18 meses), e a IgM tem sensibilidade de apenas 20-70%, com falso-positivos por fator reumatoide e reações cruzadas — nunca confirma isoladamente. A ressonância (ou a ultrassonografia transfontanela, feita primeiro) avalia calcificações, ventriculomegalia, displasia cortical e leucoencefalopatia e define GRAVIDADE e prognóstico, não diagnóstico. A triagem auditiva é obrigatória e deve ser seguida de BERA seriado, mas é exame de rastreio de sequela, não de confirmação etiológica. Pérola: quando a criança chega após 3 semanas com suspeita retrospectiva, a alternativa é a PCR no cartão do teste do pezinho (sangue seco colhido na primeira semana), com boa especificidade e sensibilidade menor. Para as outras infecções do grupo o raciocínio muda: toxoplasmose usa sorologia pareada com IgM/IgA e PCR do líquor; sífilis, VDRL sérico e liquórico; rubéola, IgM e PCR; Zika, PCR e IgM; herpes, PCR de vesícula e líquor.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o fármaco mais adequado para tratamento desse recém-nascido, caso seja confirmada a principal suspeita diagnóstica:",
+     "alternativas": {
+      "a": "Azitromicina.",
+      "b": "Fluconazol.",
+      "c": "Valganciclovir.",
+      "d": "Cidofovir."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Para o citomegalovírus congênito SINTOMÁTICO (doença moderada a grave: acometimento do sistema nervoso central, coriorretinite, surdez, hepatite, trombocitopenia ou doença multissistêmica), o tratamento de escolha é o valganciclovir oral, 16 mg/kg/dose de 12 em 12 horas, por SEIS MESES, iniciado no primeiro mês de vida — esquema que, no ensaio do Collaborative Antiviral Study Group, reduziu a progressão da perda auditiva e melhorou modestamente o neurodesenvolvimento aos 2 anos em comparação com 6 semanas. O ganciclovir endovenoso (6 mg/kg de 12/12 h) é reservado às primeiras semanas em recém-nascidos graves ou incapazes de usar a via oral, migrando depois para o valganciclovir. Ambos são mielotóxicos: o hemograma deve ser monitorado semanalmente no primeiro mês e depois mensalmente (neutropenia em 20-30%), com transaminases mensais. Não se trata o recém-nascido assintomático (exceto, em alguns protocolos, o que tem perda auditiva isolada), e o tratamento não está indicado após o primeiro mês de vida. O cidofovir é ativo contra o citomegalovírus, mas sua nefrotoxicidade grave o restringe a resistência ao ganciclovir em imunossuprimidos — não é opção neonatal de rotina. A azitromicina é usada na coqueluche e na pneumonia por Chlamydia trachomatis; o fluconazol, em candidíase invasiva neonatal e como profilaxia no prematuro extremo — nenhum tem ação antiviral. Pérola: a orientação materna importa — higiene das mãos e evitar contato com saliva e urina de crianças pequenas reduz a soroconversão na gestação, e o aleitamento é mantido (no termo, a transmissão pelo leite é benigna).\n\n📚 Leitura sugerida (bloco): videoaula de Infecções congênitas / TORCHZ — R+ Pediatria 2024 MEDGRUPO (https://drive.google.com/file/d/1CiChqEowE8tDT6gxfUZ28CbmYkemZLiL/view); complementar com o manual 'Atenção à Saúde do Recém-Nascido — Guia para os Profissionais de Saúde', vol. 2 (Ministério da Saúde), capítulo de infecções congênitas, e o consenso internacional sobre citomegalovírus congênito (Rawlinson et al., Lancet Infectious Diseases, 2017).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença Cerebrovascular (sangramento profundo com extensão ventricular e desvio ocular para baixo) [RE cota individual: Ana Teresa, 67%]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 62 anos de idade, hipertensa com uso irregular de losartana, é trazida ao pronto-socorro 70 minutos após início súbito de cefaleia, vômitos e perda de força no lado esquerdo do corpo. Ao exame: PA 214 x 122 mmHg, FC 68 bpm, sonolenta, abre os olhos ao chamado, obedece a comandos simples. Hemiparesia esquerda completa e proporcionada, hipoestesia acentuada em todo o hemicorpo esquerdo, olhos desviados para baixo e convergidos, pupilas de 2 mm pouco reativas, reflexos exaltados à esquerda com sinal de Babinski. Tomografia de crânio: hematoma de 3,2 cm em região profunda à direita, medial à cápsula interna, com extensão para o terceiro ventrículo e ventrículos laterais. Glicemia 168 mg/dL; INR 1,0; plaquetas 240.000/mm³.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, indique a topografia do sangramento:",
+     "alternativas": {
+      "a": "Putame.",
+      "b": "Tálamo.",
+      "c": "Ponte.",
+      "d": "Cerebelo."
+     },
+     "correta": "b",
+     "comentario": "A combinação que localiza a lesão é o par hemiparesia + HIPOESTESIA proporcionada e acentuada (o tálamo é o grande relé sensitivo) somado ao sinal ocular mais característico das hemorragias talâmicas: olhos desviados PARA BAIXO e para dentro, como se 'olhassem para a ponta do nariz', com pupilas mióticas e pouco reativas — resultado da compressão do teto do mesencéfalo (região pré-tectal) pelo hematoma e pelo sangue ventricular. O local 'medial à cápsula interna, com extensão ao terceiro ventrículo' na tomografia confirma. O putame é a sede mais comum da hemorragia hipertensiva (35-50% dos casos), mas fica LATERAL à cápsula interna, produz hemiparesia com desvio conjugado do olhar PARA O LADO DA LESÃO (paralisia do olhar contralateral) e a hipoestesia é menos proeminente. A hemorragia pontina causa coma precoce, quadriplegia, pupilas puntiformes reativas e ausência de movimentos oculares horizontais, com 'bobbing' ocular — o paciente não obedeceria a comandos. O sangramento cerebelar cursa com vômitos, ataxia de tronco e incapacidade de deambular, sem hemiparesia proporcionada, e na tomografia ocupa a fossa posterior. As quatro topografias compõem as sedes clássicas de ruptura das arteríolas perfurantes com lipo-hialinose e microaneurismas de Charcot-Bouchard: putame (lenticuloestriadas), tálamo (tálamo-perfurantes), ponte (paramedianas da basilar) e cerebelo (ramos da cerebelar superior e ântero-inferior). Pérola: a hemorragia talâmica é a que mais frequentemente se abre para os ventrículos, dada a proximidade com o terceiro ventrículo, o que tem implicações diretas na questão seguinte.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Oito horas após a admissão, a paciente passa a abrir os olhos apenas à dor e desenvolve bradicardia. Indique a complicação mais provável e a conduta indicada:",
+     "alternativas": {
+      "a": "Expansão do hematoma — craniotomia para evacuação.",
+      "b": "Vasoespasmo — nimodipina oral.",
+      "c": "Estado de mal não convulsivo — fenitoína endovenosa.",
+      "d": "Hidrocefalia obstrutiva aguda — derivação ventricular externa."
+     },
+     "correta": "d",
+     "comentario": "Sangue no terceiro ventrículo e nos ventrículos laterais obstrui o aqueduto e o quarto ventrículo e, além disso, bloqueia a reabsorção liquórica nas granulações aracnoides: o resultado é hidrocefalia AGUDA, que surge nas primeiras horas a dias e se manifesta como rebaixamento progressivo do nível de consciência com sinais de hipertensão intracraniana (bradicardia, hipertensão, alterações respiratórias — a tríade de Cushing). A tomografia de controle mostra dilatação ventricular, e a conduta é a derivação ventricular externa, que drena o liquor, reduz a pressão intracraniana e permite monitorizá-la; em casos selecionados a fibrinólise intraventricular (alteplase pelo cateter, protocolo CLEAR III) acelera a limpeza do sangue, ainda sem prova de benefício funcional. A expansão do hematoma é a outra grande causa de deterioração precoce (ocorre em cerca de um terço dos casos nas primeiras 3-6 horas, mais em quem chega com pressão muito alta ou 'spot sign' na angiotomografia), mas a craniotomia para hematomas talâmicos PROFUNDOS não melhora desfecho (estudos STICH I e II) e é evitada — a evacuação cirúrgica tem indicação sólida apenas no hematoma cerebelar com mais de 3 cm, compressão de tronco ou hidrocefalia. Vasoespasmo com nimodipina é raciocínio da hemorragia subaracnóidea aneurismática, não do sangramento intraparenquimatoso. Crises ocorrem em até 10% das hemorragias lobares, mas são raras nas profundas, e a profilaxia anticonvulsivante de rotina não é recomendada — só se trata a crise clínica ou eletrográfica documentada. Pérola: o escore ICH (Glasgow, volume maior ou igual a 30 mL, sangue intraventricular, origem infratentorial e idade maior ou igual a 80 anos) prevê a mortalidade em 30 dias, e a extensão intraventricular por si só é fator independente de mau prognóstico.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Na admissão, indique a meta pressórica mais adequada para esta paciente:",
+     "alternativas": {
+      "a": "Não intervir enquanto a pressão sistólica permanecer abaixo de 220 mmHg.",
+      "b": "Redução intensiva para pressão sistólica abaixo de 120 mmHg.",
+      "c": "Redução para pressão sistólica em torno de 140 mmHg, iniciada nas primeiras duas horas.",
+      "d": "Nitroprussiato até pressão arterial média de 100 mmHg."
+     },
+     "correta": "c",
+     "comentario": "Na hemorragia intraparenquimatosa espontânea de pequeno a moderado volume que chega com sistólica entre 150 e 220 mmHg, a diretriz da AHA/ASA de 2022 recomenda reduzir a pressão sistólica para cerca de 140 mmHg (faixa de 130 a 150), começando dentro de duas horas do início dos sintomas e atingindo a meta em uma hora, com controle SUAVE e sem oscilações — o objetivo é limitar a expansão do hematoma, o principal determinante de piora precoce. As bases são o INTERACT2 (meta 140 x 180: seguro, com tendência a melhor desfecho funcional) e o ATACH-2 (meta 110-139 x 140-179: sem benefício adicional e MAIS eventos renais). Daí o erro da redução intensiva para menos de 120 mmHg — abaixo de 130 há prejuízo renal e risco de hipoperfusão perilesional. Tolerar pressões até 220 mmHg é a permissividade do AVC ISQUÊMICO não trombolisado, cujo racional (manter a penumbra perfundida) não se aplica a um vaso que está sangrando. O nitroprussiato é evitado nas hemorragias cerebrais porque é vasodilatador cerebral direto, eleva a pressão intracraniana e tem efeito rebote; os fármacos preferidos são titulaveis e sem esse efeito: nicardipina ou clevidipina em infusão, labetalol ou, no Brasil, esmolol e metoprolol venoso, com hidralazina como alternativa. Complemento obrigatório da fase aguda: reversão imediata se houver anticoagulante (vitamina K + complexo protrombínico para varfarina; idarucizumabe para dabigatrana; andexanet ou complexo protrombínico para os anti-Xa), glicemia entre 140 e 180 mg/dL, normotermia, cabeceira a 30 graus e NENHUMA transfusão de plaquetas em quem usa antiagregante (estudo PATCH: piora o desfecho).\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 163 — Hipertensão Intracraniana em Terapia Intensiva Neurológica e cap. 158 — Monitorização Multimodal em Terapia Intensiva Neurológica; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 4 — Doenças Vasculares Cerebrais, e a diretriz AHA/ASA 2022 para hemorragia intracerebral espontânea.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Cardiologia (sopro holossistólico rude em borda esternal esquerda com sinais de insuficiência cardíaca no lactente jovem) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "MÉDIO",
+   "vinheta": "Recém-nascida, 15 dias de vida, é levada ao pediatra por apresentar dificuldade respiratória, especialmente ao se alimentar, o que a faz interromper as mamadas frequentemente. A mãe relata que a bebê sua excessivamente. Ao exame físico, apresenta taquipneia e à ausculta mostra sopro cardíaco holossistólico, de timbre rude, mais audível à nível da borda esternal esquerda, nos 2/3 inferiores, sem outros sintomas.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o caso clínico, indique a suspeita diagnóstica mais provável:",
+     "alternativas": {
+      "a": "Comunicação interventricular.",
+      "b": "Persistência do canal arterial.",
+      "c": "Tetralogia de Fallot.",
+      "d": "Estenose pulmonar."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Sopro HOLOSSISTÓLICO, rude, na borda esternal esquerda BAIXA (2/3 inferiores, 4º-5º espaço intercostal), em lactente com sinais de hiperfluxo pulmonar — taquipneia, cansaço e interrupção das mamadas, sudorese ao esforço da alimentação — é a descrição clássica da comunicação interventricular, a cardiopatia congênita mais comum (20-30% do total). O sopro surge quando a resistência vascular pulmonar cai, nas primeiras semanas de vida, permitindo o shunt esquerda-direita; nos defeitos pequenos o sopro é mais rude e alto (o 'muito barulho por nada' da doença de Roger), enquanto nos grandes ele pode ser mais suave, com hiperfonese de P2 e ruflar diastólico mitral por hiperfluxo. A persistência do canal arterial dá sopro CONTÍNUO ('em maquinaria'), infraclavicular esquerdo, com pulsos amplos e pressão de pulso alargada. A tetralogia de Fallot é acianogênica ou cianogênica conforme o grau de obstrução, mas o sopro é sistólico EJETIVO (da estenose infundibular pulmonar) na borda esternal esquerda ALTA, e o quadro é dominado por cianose e crises hipoxêmicas, não por insuficiência cardíaca. A estenose pulmonar produz sopro ejetivo em foco pulmonar com clique protossistólico e irradiação para o dorso, sem sinais de hiperfluxo. Pérola de prova: as quatro cardiopatias acianogênicas de hiperfluxo são comunicação interventricular, comunicação interatrial, canal arterial e defeito do septo atrioventricular; das cianogênicas, os '5 T' — tetralogia, transposição, tronco arterial, tricúspide (atresia) e TAPVR (drenagem anômala total).",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Indique o exame complementar mais importante nesse caso:",
+     "alternativas": {
+      "a": "Eletrocardiograma.",
+      "b": "Ecocardiograma.",
+      "c": "Ressonância Magnética.",
+      "d": "Cintilografia miocárdica."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O ecocardiograma transtorácico com Doppler colorido é o exame que confirma, localiza e dimensiona o defeito septal (perimembranoso, muscular, de via de entrada ou de via de saída), quantifica o shunt (relação Qp/Qs), estima a pressão pulmonar pelo gradiente da regurgitação tricúspide e do próprio defeito (defeito 'restritivo' quando o gradiente é alto — bom sinal), avalia a repercussão nas câmaras esquerdas e procura lesões associadas (canal arterial, comunicação interatrial, coarctação, insuficiência aórtica por prolapso da cúspide). É não invasivo, disponível e definidor de conduta — por isso é o 'mais importante'. O eletrocardiograma e a radiografia de tórax são complementares: mostram sobrecarga biventricular/esquerda e cardiomegalia com trama vascular aumentada nos defeitos grandes, mas não fecham o diagnóstico anatômico. A ressonância cardíaca fica para anatomias complexas, quantificação de shunt em janela acústica ruim ou planejamento cirúrgico avançado. A cintilografia miocárdica avalia perfusão/viabilidade (doença coronariana, Kawasaki com aneurismas) e não tem papel nas cardiopatias septais. Pérola: o cateterismo, antigamente rotina, hoje é reservado à avaliação da resistência vascular pulmonar em pacientes com hipertensão pulmonar de diagnóstico tardio (para saber se ainda são operáveis) e ao fechamento percutâneo de defeitos musculares selecionados.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Quanto à conduta terapêutica para esse caso, é correto afirmar que, na maioria dos casos semelhantes:",
+     "alternativas": {
+      "a": "Diuréticos são medicamentos obrigatórios.",
+      "b": "Está indicado o uso de antibióticos como profilaxia de endocardite.",
+      "c": "Procedimento cirúrgico para correção deve ser realizado prontamente.",
+      "d": "Ocorre correção, sem tratamento, até o segundo ano de vida."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A banca pede o que ocorre 'na MAIORIA dos casos semelhantes', e a resposta é a história natural: 30 a 50% das comunicações interventriculares fecham espontaneamente, a maior parte nos primeiros 2 anos de vida — sobretudo as musculares pequenas (até 80%) e as perimembranosas restritivas, por crescimento do septo e por tecido da valva tricúspide que oclui o defeito. Por isso o manejo inicial do lactente com defeito pequeno a moderado é expectante, com seguimento ecocardiográfico. Os diuréticos (furosemida, associada ou não a espironolactona) e o suporte calórico são usados quando há insuficiência cardíaca sintomática ou déficit de crescimento — situação de parte dos defeitos grandes —, não 'obrigatórios' para todos. A profilaxia antibiótica de endocardite NÃO é recomendada para a comunicação interventricular não corrigida e sem cianose (diretrizes da AHA 2007 e reafirmações posteriores): fica restrita a próteses valvares, endocardite prévia, cardiopatia cianótica não corrigida, defeitos corrigidos com material protético nos primeiros 6 meses e defeito residual junto a prótese. A cirurgia 'pronta' é indicação de exceção: reserva-se aos defeitos grandes com insuficiência cardíaca refratária ou falha de crescimento, aos com hipertensão pulmonar (idealmente antes de 6-12 meses, para evitar doença vascular pulmonar irreversível — a síndrome de Eisenmenger) e aos com insuficiência aórtica por prolapso de cúspide ou estenose infundibular progressiva. Pérola de prova: a relação Qp/Qs maior que 1,5-2:1 e pressão pulmonar elevada são os números que indicam fechamento; comunicação interventricular pequena assintomática no adulto jovem não se opera, apenas se acompanha.\n\n📚 Leitura sugerida (bloco): videoaula de Cardiopatias congênitas — R+ Pediatria 2024 MEDGRUPO (https://drive.google.com/file/d/1x1mvuTc7zSmYjdHwK5PqK9aEZxSp7pO7/view); complementar com o Tratado de Pediatria da Sociedade Brasileira de Pediatria (5ª ed.), seção de Cardiologia — cardiopatias congênitas acianogênicas de hiperfluxo.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Epilepsia (crises focais de início tardio em idoso com sequela vascular e anticoagulação)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 74 anos de idade, com infarto cerebral no território da artéria cerebral média esquerda há 14 meses (sequela: paresia leve do membro superior direito, afasia recuperada), fibrilação atrial em uso de varfarina (INR 2,6) e hipertensão controlada, é trazido pela esposa ao pronto-socorro. Há 3 semanas apresentou episódio de abalos rítmicos da mão direita que, em cerca de um minuto, subiram pelo antebraço e braço, mantendo-se consciente e descrevendo o evento; seguiu-se fraqueza acentuada do braço por 40 minutos, com recuperação completa. Hoje, evento semelhante evoluiu para perda da consciência, enrijecimento e abalos dos quatro membros por 2 minutos, com liberação esfincteriana. Glicemia 112 mg/dL, sódio 139 mEq/L, afebril. Tomografia de crânio: área de encefalomalácia frontotemporal esquerda, sem sangramento ou lesão nova.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, indique o diagnóstico:",
+     "alternativas": {
+      "a": "Epilepsia focal de etiologia estrutural.",
+      "b": "Ataques isquêmicos transitórios de repetição.",
+      "c": "Síncope arrítmica por fibrilação atrial.",
+      "d": "Crise sintomática aguda por novo infarto cerebral."
+     },
+     "correta": "a",
+     "comentario": "Um evento estereotipado que começa na mão e 'sobe' pelo membro em segundos a minutos (marcha jacksoniana) é o protótipo de crise focal motora com origem no córtex motor — aqui, na borda da cicatriz do infarto de artéria cerebral média esquerda. A fraqueza pós-ictal de 40 minutos é a paralisia de Todd, que a banca adora disfarçar de novo evento vascular. Pela definição operacional da ILAE de 2014, epilepsia pode ser diagnosticada após UMA única crise não provocada quando a chance de recorrência em 10 anos é de pelo menos 60% — condição preenchida quando há lesão estrutural epileptogênica, como uma sequela de AVC; o segundo evento, com evolução para tônico-clônica bilateral, apenas reafirma. Trata-se de epilepsia pós-AVC de início tardio (ocorre a partir de 7 dias do evento vascular, com pico entre 6 e 12 meses), a principal causa de epilepsia de início na terceira idade. Ataques isquêmicos transitórios produzem fenômenos NEGATIVOS (perda de força, de sensibilidade, de linguagem), de instalação máxima em segundos e sem progressão sequencial por partes do corpo; abalos rítmicos que 'marcham' são fenômenos positivos, corticais. A síncope arrítmica causa perda de consciência breve, com palidez e recuperação rápida, e pode ter alguns abalos mioclônicos, mas nunca começa com um minuto de clonias focais em paciente consciente nem deixa paresia prolongada. Crise sintomática AGUDA exige uma agressão cerebral nos últimos 7 dias — infarto novo, hemorragia, distúrbio metabólico —, e a tomografia sem lesão nova e os exames normais afastam essa hipótese; a distinção importa porque a crise sintomática aguda não define epilepsia e tem tratamento limitado à fase aguda. Pérola: em anticoagulado com crise nova, a tomografia é obrigatória antes de tudo, pois hemorragia sob varfarina é a primeira coisa a excluir.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Classifique, segundo a ILAE 2017, o primeiro episódio apresentado pelo paciente:",
+     "alternativas": {
+      "a": "Crise generalizada motora tônico-clônica.",
+      "b": "Crise focal disperceptiva com automatismos.",
+      "c": "Crise focal perceptiva motora.",
+      "d": "Crise de início desconhecido, motora."
+     },
+     "correta": "c",
+     "comentario": "A classificação de 2017 da ILAE organiza as crises por três eixos: início (focal, generalizado, desconhecido), nível de consciência nas focais (perceptiva quando a percepção de si e do ambiente é preservada durante todo o evento; disperceptiva quando é comprometida em qualquer momento) e manifestação inicial (motora ou não motora). O primeiro episódio começou em uma parte do corpo (início focal), o paciente permaneceu consciente e capaz de descrever o evento (perceptiva) e a manifestação foi motora clônica com marcha jacksoniana — logo, crise focal perceptiva motora clônica, o antigo 'parcial simples motor'. A crise generalizada motora tônico-clônica descreve o SEGUNDO evento, e ainda assim de forma errada: como ele começou focalmente na mão e depois se generalizou, o termo correto é 'crise focal com evolução para tônico-clônica bilateral' — o termo 'generalizada' fica reservado às crises que já se originam em redes bilaterais, como as da epilepsia generalizada genética. A crise focal disperceptiva com automatismos é a crise típica do lobo temporal mesial (olhar fixo, mastigação, manipulação sem propósito), com comprometimento da percepção, o oposto do relatado. 'Início desconhecido' aplica-se quando não há testemunha ou informação suficiente sobre como a crise começou — não é o caso, já que o próprio paciente narra o início na mão. Pérola de prova: a ILAE recomenda abandonar 'parcial simples/complexa', 'secundariamente generalizada' e 'psicomotora'; e o nível de consciência é classificado pela PERCEPÇÃO, não pela responsividade — um paciente pode ficar imóvel e sem responder e ainda assim ter crise perceptiva, se lembrar de tudo.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o fármaco anticrise mais adequado para iniciar o tratamento deste paciente:",
+     "alternativas": {
+      "a": "Carbamazepina.",
+      "b": "Levetiracetam.",
+      "c": "Fenitoína.",
+      "d": "Fenobarbital."
+     },
+     "correta": "b",
+     "comentario": "Para epilepsia focal no idoso, os fármacos de escolha são levetiracetam e lamotrigina (e, como alternativa, gabapentina), por três motivos que se somam neste caso: eficácia equivalente à carbamazepina nas crises focais (estudos SANAD e KOMET), melhor tolerabilidade e AUSÊNCIA de indução enzimática. O paciente usa varfarina: carbamazepina, fenitoína e fenobarbital são potentes indutores do CYP2C9/3A4, reduzem o efeito anticoagulante (queda do INR, risco de embolia cardioembólica) e, quando suspensos, provocam o efeito inverso, com risco de sangramento; além disso, os indutores aceleram o metabolismo de estatinas e antiarrítmicos, pioram o perfil lipídico e a densidade óssea e, no idoso, causam hiponatremia (carbamazepina), ataxia e sedação. A fenitoína ainda tem cinética não linear (pequenos aumentos de dose disparam o nível sérico), e o fenobarbital é o mais sedativo e o mais associado a queda, depressão e declínio cognitivo — sua indicação hoje é praticamente restrita ao estado de mal e a contextos de baixo recurso. O levetiracetam é iniciado em 500 mg duas vezes ao dia, com ajuste pela função renal, sem interação com a varfarina; seu principal efeito adverso é a irritabilidade/alteração de humor, que deve ser monitorada. Pérola: a lamotrigina teria sido igualmente correta se estivesse entre as opções, com a ressalva da titulação lenta (rash); e o valproato, embora não seja indutor, INIBE o metabolismo da varfarina e a desloca da albumina, aumentando o INR, além de causar tremor e parkinsonismo no idoso. Após uma crise focal com evolução bilateral, o paciente deve ser orientado a não dirigir até ficar pelo menos 12 meses sem crises, conforme a regulamentação do CONTRAN.\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 79 — Definição e Classificação das Crises e das Epilepsias, cap. 80 — Etiologia e Investigação e cap. 81 — Tratamento Medicamentoso das Epilepsias; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 8 — Epilepsia e Distúrbios Paroxísticos.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nefrologia (febre sem foco em lactente com duas infecções urinárias prévias) [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "ALTO",
+   "vinheta": "Menino de 6 meses de idade é levado à UPA com relato de febre alta e irritação há cerca de 36 horas. O exame físico mostra regular estado geral, temperatura de 38,7°C, hidratado e corado, sem alterações ao exame segmentar. A mãe informa episódios de infecção urinária aos 3 meses e há 6 semanas; tratados com sulfametoxazol-trimetoprima e cefalexina, respectivamente.",
+   "perguntas": [
+    {
+     "enunciado": "Com base nos dados, indique o exame que é padrão-ouro para avaliar foco inflamatório renal ativo e sequelas de infecções anteriores:",
+     "alternativas": {
+      "a": "Tomografia de abdome.",
+      "b": "Ultrassonografia de rins e vias urinárias.",
+      "c": "Cintilografia renal com DMSA.",
+      "d": "Radiografia simples de abdome."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A cintilografia renal estática com ácido dimercaptossuccínico marcado com tecnécio-99m (DMSA) é o padrão-ouro tanto para demonstrar pielonefrite AGUDA (áreas de hipocaptação focal ou difusa por inflamação do parênquima, quando feita na fase aguda) quanto para documentar CICATRIZ renal (defeitos de captação persistentes, com retração cortical, quando realizada 4 a 6 meses após o episódio, já que hipocaptações agudas podem regredir). É o único exame entre os listados que 'enxerga' o parênquima funcional. A ultrassonografia é o exame INICIAL em toda primeira infecção febril do lactente (AAP e SBP): avalia dilatação pielocalicial, hidronefrose, duplicidade, espessura de parede vesical e abscesso, mas tem baixa sensibilidade para pielonefrite aguda e para cicatrizes pequenas — não é padrão-ouro para o que a questão pergunta. A tomografia tem sensibilidade para pielonefrite, mas expõe a radiação alta e contraste, sem vantagem sobre o DMSA na criança; fica para complicações (abscesso, obstrução por cálculo). A radiografia simples só detecta cálculos radiopacos e constipação, sem qualquer papel aqui. Pérola de prova: a uretrocistografia miccional, que investiga REFLUXO vesicoureteral, não é mais rotina após a primeira infecção febril — indica-se quando a ultrassonografia é anormal, quando há infecção febril RECORRENTE (como neste menino, com três episódios em seis meses) ou quando o DMSA mostra cicatriz ('abordagem top-down'). Neste caso os três exames acabarão sendo feitos: ultrassonografia agora, uretrocistografia após o tratamento e DMSA tardio.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais apropriada para neste caso:",
+     "alternativas": {
+      "a": "Introduzir ceftriaxona parenteral até resultado da cultura.",
+      "b": "Repetir cefalexina por via oral.",
+      "c": "Suspender antibiótico até confirmação microbiológica.",
+      "d": "Iniciar amoxilina-clavulanato oral por 10 dias."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] Trata-se de um lactente de 6 meses com febre alta sem foco e história de duas infecções urinárias recentes — uma há apenas 6 semanas, tratada com cefalexina. A probabilidade de nova infecção febril (pielonefrite) é alta, e há dois motivos para escolher a via parenteral com cefalosporina de terceira geração após colher urocultura por cateterismo ou punção suprapúbica: a idade (o risco de bacteremia e de cicatriz é maior nos menores de 1 ano, e a via oral é aceita para lactentes acima de 2-3 meses apenas quando estão em bom estado geral, sem vômitos e sem falha prévia) e, sobretudo, a recorrência precoce sob antibióticos de primeira linha, que levanta suspeita de germe resistente (Escherichia coli produtora de betalactamase, Klebsiella, Proteus, enterococo) ou de anomalia estrutural. A ceftriaxona (50-75 mg/kg/dia) cobre os gram-negativos entéricos habituais e permite ajuste após o antibiograma, com passagem para via oral guiada pela cultura ao completar 7 a 14 dias. Repetir a cefalexina — que acabou de falhar ou de permitir recidiva — é a pior escolha. Suspender/aguardar antibiótico em lactente febril com pielonefrite provável aumenta o risco de sepse e de cicatriz renal (o atraso de mais de 48 horas para tratar dobra a chance de cicatriz). A amoxicilina-clavulanato oral seria aceitável em crianças maiores com quadro leve e sem falha prévia, mas as taxas de resistência da E. coli comunitária à amoxicilina superam 40-50% no Brasil, e o clavulanato não resolve as cepas produtoras de betalactamase de espectro estendido. Pérola: a urocultura positiva exige método de coleta adequado — por saco coletor só serve para EXCLUIR infecção; qualquer crescimento em saco coletor deve ser confirmado por cateterismo (mais de 50.000 UFC/mL) ou punção (qualquer crescimento).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a alternativa que apresenta a complicação mais temida de episódios recorrentes de ITU nesta faixa etária:",
+     "alternativas": {
+      "a": "Cálculo vesical.",
+      "b": "Cicatriz renal e hipertensão arterial secundária.",
+      "c": "Pielonefrite aguda sem sequelas.",
+      "d": "Alterações transitórias do pH urinário."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A complicação que justifica toda a investigação por imagem e a preocupação com a recorrência no lactente é a CICATRIZ RENAL (nefropatia de refluxo/pielonefrítica): cada episódio de pielonefrite pode deixar uma área de fibrose cortical, cujo risco é maior quanto menor a idade, quanto maior o atraso no tratamento, quanto mais episódios ocorrem e na presença de refluxo vesicoureteral de alto grau (IV-V) ou de obstrução. As cicatrizes, quando bilaterais ou extensas, evoluem para hipertensão arterial (por ativação do sistema renina-angiotensina nas áreas isquêmicas, em 10-20% dos casos ao longo da vida), proteinúria, glomeruloesclerose segmentar focal secundária por hiperfiltração e doença renal crônica — a nefropatia de refluxo ainda responde por parcela relevante da doença renal terminal em crianças e adultos jovens. 'Pielonefrite aguda sem sequelas' é o desfecho DESEJADO, não uma complicação temida. Cálculo vesical é raro em lactentes e, quando ocorre, associa-se a bexiga neurogênica, corpo estranho ou infecção por germes produtores de urease (Proteus), não sendo o temor principal. Alterações de pH urinário são epifenômenos laboratoriais sem relevância clínica. Pérola de prova: a profilaxia antibiótica contínua (nitrofurantoína ou sulfametoxazol-trimetoprima em dose baixa) reduz recorrências no refluxo de alto grau (estudo RIVUR), mas não comprovadamente as cicatrizes, e aumenta a resistência bacteriana; a correção do refluxo (endoscópica ou reimplante) e o manejo da disfunção vesical e intestinal completam a prevenção.\n\n📚 Leitura sugerida (bloco): videoaula de Nefrologia — ITU e hidronefrose — R+ Pediatria 2024 MEDGRUPO (https://drive.google.com/file/d/1KuvXkP9naQp1_JIcYrTNEDsoqD5K3DXG/view); complementar com o documento científico 'Infecção do Trato Urinário' do Departamento de Nefrologia da Sociedade Brasileira de Pediatria e a diretriz da American Academy of Pediatrics para ITU febril em lactentes de 2 a 24 meses (2011, reafirmada em 2016).",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Cefaleias (cefaleia quase diária com fenótipo migranoso em paciente obesa e asmática)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 36 anos de idade, com índice de massa corporal de 34 kg/m² e asma persistente em uso de budesonida-formoterol, tem crises de cefaleia pulsátil unilateral com náuseas e fotofobia desde os 16 anos, cerca de duas vezes por mês. Nos últimos sete meses, a dor passou a ocorrer em cerca de 20 dias por mês; em 10 a 12 desses dias mantém as características de sempre, e nos demais a dor é bilateral, em peso, de intensidade leve. Usa dipirona em cerca de 6 dias por mês, nunca usou triptano nem analgésico combinado. Nega mudança do padrão da dor com decúbito ou esforço, escurecimento visual transitório ou zumbido pulsátil. Exame neurológico e fundoscopia normais; PA 128 x 82 mmHg.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, indique o diagnóstico:",
+     "alternativas": {
+      "a": "Cefaleia por uso excessivo de medicamentos.",
+      "b": "Cefaleia do tipo tensão crônica.",
+      "c": "Hemicrania contínua.",
+      "d": "Enxaqueca crônica."
+     },
+     "correta": "d",
+     "comentario": "A paciente tem enxaqueca sem aura desde a adolescência e, ao longo de mais de três meses, passou a ter cefaleia em 15 dias ou mais por mês, dos quais pelo menos 8 com fenótipo migranoso (pulsátil, unilateral, com náuseas e fotofobia) — essa é a definição de enxaqueca crônica da ICHD-3, e a coexistência de dias com dor leve e bilateral 'tipo tensão' faz parte do quadro, porque a transformação da enxaqueca episódica em crônica costuma gerar exatamente esse mosaico. A cefaleia por uso excessivo de medicamentos exige consumo de analgésicos simples em 15 ou mais dias por mês (ou 10 ou mais dias para triptanos, opioides, ergotamínicos e combinações) por mais de três meses; com dipirona em 6 dias por mês a paciente está longe do limiar, e essa é a pegadinha central da questão — a cronificação aqui ocorreu sem uso excessivo, o que acontece na maioria dos casos por fatores como obesidade, transtornos do sono e do humor e alta frequência basal de crises. A cefaleia do tipo tensão crônica também tem 15 ou mais dias por mês, mas o fenótipo é bilateral, em pressão, sem náuseas relevantes (no máximo fotofobia OU fonofobia leve) e sem piora com atividade — a presença de 10-12 dias migranosos afasta. A hemicrania contínua é estritamente unilateral, CONTÍNUA (sem intervalos livres), com exacerbações acompanhadas de sinais autonômicos ipsilaterais (lacrimejamento, ptose, congestão nasal) e resposta absoluta à indometacina; o padrão de dias com e sem dor, alternando lados e fenótipos, não se encaixa. Pérola: obesidade e cefaleia diária obrigam a pensar em hipertensão intracraniana idiopática, mas a fundoscopia normal, a ausência de obscurecimentos visuais e de zumbido pulsátil e o padrão típico de enxaqueca tornam a hipótese improvável.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o critério temporal que a ICHD-3 exige para caracterizar a forma crônica da doença desta paciente:",
+     "alternativas": {
+      "a": "Quinze ou mais dias por mês, por mais de seis meses.",
+      "b": "Quinze ou mais dias por mês, por mais de três meses, sendo oito ou mais com fenótipo migranoso.",
+      "c": "Dez ou mais dias por mês, por mais de três meses.",
+      "d": "Oito ou mais dias por mês, por mais de três meses, com uso de analgésico."
+     },
+     "correta": "b",
+     "comentario": "A ICHD-3 (2018) define enxaqueca crônica pela cefaleia (de qualquer tipo) em 15 ou mais dias por mês, durante MAIS DE TRÊS MESES, em paciente com pelo menos cinco crises prévias de enxaqueca, sendo que em 8 ou mais dias por mês a dor preenche critérios de enxaqueca com ou sem aura, ou é aliviada por triptano/ergotamínico quando tratada. Os dois números — 15 e 8 — e o prazo de três meses caem literalmente em prova. 'Seis meses' é o prazo antigo da segunda edição da classificação e da definição de cefaleia crônica diária de Silberstein-Lipton, já abandonado. 'Dez dias' é o limiar de uso excessivo para triptanos e combinações, não de frequência de cefaleia. E 'oito ou mais dias com uso de analgésico' mistura o subcritério dos dias migranosos com um requisito farmacológico inexistente na definição — a enxaqueca crônica independe de medicação, embora quando coexiste uso excessivo a ICHD-3 recomende dar os dois diagnósticos. Do ponto de vista prático, a distinção entre 8-14 dias (enxaqueca episódica de alta frequência) e 15 ou mais (crônica) importa porque a forma crônica tem indicação formal de terapias específicas, como a toxina botulínica (protocolo PREEMPT, 155-195 U em 31 pontos) e os anticorpos anti-CGRP, e porque carrega maior comorbidade psiquiátrica e incapacidade. Pérola: a reversão para a forma episódica após tratamento não anula o diagnóstico prévio — a ICHD-3 orienta manter 'enxaqueca crônica' em remissão.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o fármaco mais adequado para a profilaxia neste caso:",
+     "alternativas": {
+      "a": "Topiramato.",
+      "b": "Propranolol.",
+      "c": "Amitriptilina.",
+      "d": "Ácido valproico."
+     },
+     "correta": "a",
+     "comentario": "A escolha da profilaxia da enxaqueca é guiada pelas comorbidades — o 'perfil do paciente' vale mais do que a eficácia bruta. O topiramato (50-100 mg/dia) tem evidência de nível A na enxaqueca crônica (é, com a toxina botulínica e os anti-CGRP, uma das opções com estudos específicos nessa forma) e promove PERDA de peso, o que o torna a melhor opção em uma paciente com obesidade grau I; seus efeitos adversos a monitorar são parestesias, lentificação cognitiva e lentidão de fala, acidose metabólica e nefrolitíase, além da teratogenicidade (fendas orais) e da redução da eficácia de contraceptivos orais acima de 200 mg. O propranolol é betabloqueador de primeira linha na enxaqueca episódica, mas está CONTRAINDICADO na asma pelo risco de broncoespasmo (bloqueio beta-2), armadilha clássica. A amitriptilina é útil quando há insônia ou depressão, mas causa ganho de peso, sedação e boca seca — o oposto do desejável em uma paciente obesa. O ácido valproico tem nível A, porém provoca ganho ponderal, alopecia, tremor, hepatotoxicidade e é o mais teratogênico dos profiláticos; em mulher em idade fértil deve ser evitado (ANVISA e ABN recomendam contracepção eficaz obrigatória se for usado). Regras gerais que a banca cobra: iniciar em dose baixa, titular lentamente, esperar 8 a 12 semanas antes de julgar eficácia, definir sucesso como redução de 50% dos dias de dor e manter por 6 a 12 meses; associar diário de cefaleia, higiene do sono, atividade aeróbica e perda ponderal, que por si só reduz a frequência das crises na obesidade. Pérola: os anticorpos monoclonais anti-CGRP (erenumabe, fremanezumabe, galcanezumabe) e a toxina botulínica ficam como segunda linha após falha ou intolerância a dois ou três profiláticos orais.\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 37 — Migrânea e cap. 45 — Cefaleia por Uso Excessivo de Medicamentos; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 7 — Cefaleia e Síndromes Dolorosas, e a Classificação Internacional das Cefaleias, 3ª edição (ICHD-3, 2018).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecções respiratórias (primeiro episódio de sibilância com desconforto respiratório em lactente de 6 meses) [REAL: SUS-BA R+ Pediatria 2025]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 6 meses de vida, foi trazido à Emergência com histórico de tosse e coriza há cinco dias, com febre de 37,8°C. Nos últimos dois dias, a tosse piorou, a criança apresenta respiração rápida e chiado no peito. Há dificuldade para se alimentar e a diurese diminuiu nas últimas 24 horas. Nega quadro semelhante, anteriormente. Ao exame, apresentou FR: 60 ipm e SatO₂: 91%; há retrações subcostais e sibilos à ausculta. Orofaringe e otoscopia sem alterações. Exames laboratoriais: Hemograma: Leucócitos totais: 11.000/mm³ (Neutrófilos: 60%, Linfócitos: 30%, Monócitos: 8%). Raio-X de tórax: Hiperinsuflação pulmonar e espessamento peribrônquico.",
+   "perguntas": [
+    {
+     "enunciado": "Em relação à epidemiologia do quadro apresentado, é correto afirmar que:",
+     "alternativas": {
+      "a": "Ocorre, predominantemente, em crianças acima de 5 anos.",
+      "b": "Atinge igualmente adultos e crianças.",
+      "c": "Raramente causa hospitalização.",
+      "d": "É mais comum em menores de 6 meses."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] Pródromo catarral de dias seguido de taquipneia, sibilância, retrações e hipoxemia em um lactente que nunca sibilou, com radiografia mostrando hiperinsuflação e espessamento peribrônquico, é bronquiolite viral aguda — e sua epidemiologia é a de uma doença do LACTENTE JOVEM: cerca de 90% dos casos ocorrem abaixo de 2 anos, com pico de incidência e de gravidade entre 2 e 6 meses, e a maior taxa de hospitalização nos menores de 6 meses (especialmente abaixo de 3 meses), porque as vias aéreas de pequeno calibre são obstruídas com facilidade por edema, muco e restos celulares, e porque a resposta ao vírus sincicial respiratório é predominantemente de células T e neutrófilos, sem a proteção de anticorpos próprios. Não é doença de maiores de 5 anos — nessa faixa, sibilância recorrente sugere asma. Adultos e crianças maiores infectam-se pelo mesmo vírus, mas desenvolvem apenas resfriado ou traqueobronquite, exceto idosos e imunossuprimidos, nos quais o vírus volta a ser grave; a doença 'bronquiolite', portanto, não 'atinge igualmente' as faixas etárias. E está longe de raramente hospitalizar: é a principal causa de internação no primeiro ano de vida (2-3% de todos os lactentes são internados por ela, 50.000 a 80.000 internações/ano no Brasil), com sazonalidade de outono-inverno e demanda de UTI nos prematuros, cardiopatas e pneumopatas. Pérola de prova: o vírus sincicial respiratório responde por 60-80% dos casos, seguido de rinovírus, metapneumovírus, parainfluenza e adenovírus; a reinfecção é a regra ao longo da vida, mas a primeira infecção é a mais grave.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando a faixa etária e a apresentação clínica, indique o principal diagnóstico diferencial a ser considerado nesse caso:",
+     "alternativas": {
+      "a": "Asma brônquica.",
+      "b": "Laringite estridulosa.",
+      "c": "Pneumonia bacteriana.",
+      "d": "Aspiração de corpo estranho."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] A banca considera a pneumonia bacteriana o principal diferencial porque compartilha com a bronquiolite a taquipneia, as retrações, a febre e a hipoxemia no lactente, e porque a distinção muda a conduta (antibiótico ou não). Os elementos que apontam para bronquiolite aqui são o pródromo catarral, a febre BAIXA, a sibilância difusa com hiperinsuflação, o leucograma sem neutrofilia ou desvio, e a radiografia sem consolidação — a pneumonia bacteriana tende a febre alta, toxemia, estertores localizados ou macicez, leucocitose neutrofílica e consolidação lobar/broncograma aéreo; atelectasias subsegmentares da bronquiolite são a grande fonte de confusão radiológica e de antibiótico desnecessário. A asma brônquica não é diagnóstico no PRIMEIRO episódio de sibilância de um lactente de 6 meses: exige recorrência (três ou mais episódios), resposta clara ao broncodilatador e, idealmente, fatores de risco (Índice Preditivo de Asma), sendo uma consideração para o futuro, não o diferencial deste quadro. A laringite estridulosa (crupe) é doença de via aérea ALTA: tosse metálica, rouquidão e ESTRIDOR inspiratório, sem sibilos expiratórios nem hiperinsuflação. A aspiração de corpo estranho ocorre tipicamente entre 1 e 3 anos (a criança que já pega e leva objetos à boca, com dentes molares ausentes), com início súbito, sem pródromo viral, sibilância LOCALIZADA e hiperinsuflação UNILATERAL na radiografia em expiração — um lactente de 6 meses que ainda não senta sozinho e com 5 dias de coriza não se encaixa. Pérola: nos menores de 3 meses, o diferencial da 'pneumonia' inclui a pneumonia afebril por Chlamydia trachomatis (tosse em staccato, conjuntivite prévia, eosinofilia) e a coqueluche (tosse paroxística, linfocitose).",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "No caso de recorrências do quadro clínico, a abordagem terapêutica mais apropriada é:",
+     "alternativas": {
+      "a": "Administração de Palivizumabe.",
+      "b": "Profilaxia com antibióticos.",
+      "c": "Administração de Ribavirina.",
+      "d": "Broncodilatador inalatório de uso contínuo."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2025] O gabarito da banca é o palivizumabe — anticorpo monoclonal humanizado contra a proteína F do vírus sincicial respiratório, administrado por via intramuscular (15 mg/kg) mensalmente, em até 5 doses, durante a sazonalidade, com redução de cerca de 50% das hospitalizações. No SUS (Portaria 522/2013, PCDT do Ministério da Saúde) ele é oferecido a: prematuros com idade gestacional até 28 semanas e 6 dias, no primeiro ano de vida; e crianças com até 2 anos com cardiopatia congênita hemodinamicamente significativa ou displasia broncopulmonar em tratamento nos últimos 6 meses (a Sociedade Brasileira de Pediatria estende a recomendação a prematuros de 29 a 31+6 semanas nos primeiros 6 meses). Importante para a leitura da questão: o palivizumabe é PROFILAXIA de infecção pelo vírus — não trata o episódio nem 'previne recorrências' em lactente hígido; a banca, ao perguntar sobre recorrência, está cobrando qual é a intervenção existente para reduzir novos episódios graves em quem tem indicação. A profilaxia com antibióticos não tem lugar (doença viral) e só seleciona resistência. A ribavirina inalatória tem eficácia duvidosa, custo alto e toxicidade (teratogênica para os cuidadores), sendo reservada a imunossuprimidos graves. O broncodilatador de uso contínuo não altera a evolução da bronquiolite — as diretrizes da Academia Americana de Pediatria (2014) e da Sociedade Brasileira de Pediatria (2017) recomendam NÃO usar beta-2-agonista, adrenalina, corticoide sistêmico/inalatório ou fisioterapia de rotina; o tratamento é suporte: oxigênio se saturação abaixo de 90-92%, hidratação/nutrição (sonda ou venosa se não mamar) e aspiração nasal, com cânula nasal de alto fluxo ou CPAP nos graves. Pérola atual: o nirsevimabe (anticorpo de meia-vida longa, dose única na estação, incorporado ao SUS em 2024-2025 para prematuros e cardiopatas/pneumopatas) e a vacina materna contra o vírus sincicial respiratório (RSVpreF, entre 24 e 36 semanas de gestação, com recomendação da SBIm) são as novas ferramentas de prevenção — atenção às atualizações do calendário do Ministério da Saúde.\n\n📚 Leitura sugerida (bloco): videoaula de Infecções respiratórias (bronquiolite, pneumonia) — R+ Pediatria 2024 MEDGRUPO (https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view); complementar com a Diretriz para o Manejo da Infecção Causada pelo Vírus Sincicial Respiratório (Sociedade Brasileira de Pediatria, 2017) e o PCDT de palivizumabe do Ministério da Saúde.",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropatias Periféricas (parestesias noturnas nos dedos radiais com hipotrofia tenar em trabalhadora manual)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 52 anos de idade, costureira há 30 anos, com hipotireoidismo em uso de levotiroxina, refere há 10 meses dormência e formigamento no polegar, indicador e dedo médio da mão direita, mais intensos à noite, quando acorda e precisa 'sacudir a mão' para aliviar. Há 3 meses passou a deixar cair objetos e tem dificuldade para abotoar roupas. Ao exame: hipotrofia da eminência tenar direita, fraqueza da abdução do polegar, hipoestesia na face palmar do polegar, indicador e médio, com sensibilidade PRESERVADA na região da eminência tenar; percussão do punho reproduz as parestesias; flexão forçada do punho por 60 segundos desencadeia os sintomas. Reflexos bicipital, tricipital e estilorradial normais e simétricos; sem dor cervical; força de flexão do cotovelo e extensão do punho preservadas.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, indique a estrutura acometida:",
+     "alternativas": {
+      "a": "Raiz C6.",
+      "b": "Tronco superior do plexo braquial.",
+      "c": "Nervo mediano no túnel do carpo.",
+      "d": "Nervo ulnar no canal de Guyon."
+     },
+     "correta": "c",
+     "comentario": "O território sensitivo dos três dedos radiais com parestesias noturnas, o alívio ao 'sacudir a mão' (sinal do 'flick'), a reprodução dos sintomas pela percussão do punho (Tinel) e pela flexão forçada (Phalen) e o déficit motor restrito à abdução do polegar com hipotrofia tenar apontam para a compressão do nervo mediano no túnel do carpo — a mononeuropatia compressiva mais comum, favorecida aqui por atividade manual repetitiva e hipotireoidismo (que espessa o tecido conectivo do túnel). O detalhe que fecha o diagnóstico topográfico e que a banca gosta de cobrar é a sensibilidade PRESERVADA sobre a eminência tenar: o ramo cutâneo palmar do mediano sai ANTES do túnel e passa por fora do retináculo dos flexores, portanto é poupado na compressão do carpo — se a região tenar estivesse hipoestésica, a lesão seria proximal (antebraço, plexo ou raiz). A radiculopatia C6 causaria dor cervical irradiada, hipoestesia do polegar e indicador estendendo-se ao antebraço lateral, fraqueza de bíceps e extensores do punho e hiporreflexia bicipital/estilorradial — todos ausentes. A lesão do tronco superior do plexo (C5-C6) produz padrão de Erb, com fraqueza de deltoide, bíceps, supra e infraespinhal, muito além do polegar. O nervo ulnar no canal de Guyon acomete o mínimo e a metade ulnar do anular e os interósseos (fraqueza da abdução dos dedos, sinal de Froment), poupando completamente o polegar sensitivo e o abdutor curto. Pérola: a tríade de fatores de risco 'clássicos' de prova é hipotireoidismo, gestação (edema) e diabetes, além de artrite reumatoide, acromegalia e amiloidose — em todo caso bilateral vale rastrear a doença sistêmica.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o achado esperado na eletroneuromiografia desta paciente:",
+     "alternativas": {
+      "a": "Bloqueio de condução motora do nervo ulnar no cotovelo.",
+      "b": "Potenciais de fibrilação em músculos paravertebrais cervicais e bíceps.",
+      "c": "Redução da amplitude sensitiva do nervo radial superficial.",
+      "d": "Latência sensitiva distal do mediano prolongada, com denervação no abdutor curto do polegar."
+     },
+     "correta": "d",
+     "comentario": "A compressão do mediano no túnel do carpo começa pela desmielinização focal das fibras mais grossas — as sensitivas —, e o primeiro e mais sensível achado é o prolongamento da latência sensitiva distal (ou a redução da velocidade no segmento palma-punho), com técnicas comparativas ainda mais sensíveis (mediano versus ulnar no anular, mediano versus radial no polegar, diferença maior que 0,4-0,5 ms). Com a progressão, a latência motora distal para o abdutor curto do polegar se prolonga (acima de 4,2-4,5 ms) e, na fase grave — a desta paciente, com atrofia e fraqueza —, surge perda axonal, expressa na eletromiografia de agulha por fibrilações, ondas positivas e potenciais de reinervação no abdutor curto do polegar, com o exame dos músculos proximais e dos inervados pelo ulnar normal. O bloqueio de condução do ulnar no cotovelo é o achado da neuropatia ulnar cubital, que não explica sintomas no polegar. Fibrilações em paravertebrais cervicais e bíceps são o padrão da radiculopatia C6 (a denervação dos paravertebrais localiza a lesão proximal ao gânglio da raiz dorsal, onde a condução sensitiva permanece NORMAL apesar da hipoestesia — pérola de neurofisiologia). A amplitude do radial superficial serve justamente como controle interno: espera-se que esteja normal, e sua redução sugeriria polineuropatia ou plexopatia. Complementos: a ultrassonografia do nervo mostra área de secção transversal aumentada (acima de 10-12 mm²) na entrada do túnel e é alternativa validada; a eletroneuromiografia pode ser normal em até 10-15% dos casos leves, sem afastar o diagnóstico clínico.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Diante do déficit motor já instalado, indique a conduta mais adequada:",
+     "alternativas": {
+      "a": "Órtese de punho em posição neutra à noite por três meses.",
+      "b": "Descompressão cirúrgica do túnel do carpo.",
+      "c": "Infiltração local de corticoide.",
+      "d": "Gabapentina em dose progressiva."
+     },
+     "correta": "b",
+     "comentario": "A conduta depende da gravidade. Nos casos leves a moderados (sintomas sensitivos, sem déficit motor), o tratamento inicial é conservador: órtese noturna em posição neutra por 4 a 8 semanas, ajuste ergonômico, tratamento da doença de base e, se insuficiente, infiltração de corticoide, que costuma dar alívio por semanas a meses. Esta paciente, porém, tem sinais de lesão GRAVE: atrofia tenar, fraqueza persistente da abdução do polegar e perda funcional com denervação esperada na eletromiografia — o que indica perda axonal já estabelecida. Nessa fase a única medida que interrompe a progressão e permite alguma recuperação é a descompressão cirúrgica (secção do retináculo dos flexores, aberta ou endoscópica), com resultado tanto melhor quanto mais cedo; adiar com três meses de órtese permite mais degeneração axonal, e a atrofia pode se tornar irreversível. A infiltração de corticoide alivia sintomas sensitivos e serve como teste terapêutico e ponte, mas não reverte atrofia nem trata a compressão estrutural em quadro grave, além de expor a rotura tendínea e lesão do nervo se repetida. A gabapentina é sintomática para dor neuropática e não altera o curso de uma compressão mecânica — seu uso aqui apenas mascararia a progressão. Pérola de prova: os indicadores de cirurgia são atrofia/fraqueza tenar, hipoestesia fixa, denervação na eletromiografia, ausência de resposta sensitiva ao exame e falha de 2-3 meses de tratamento conservador; após a cirurgia, a parestesia noturna cede rapidamente, mas a força e a sensibilidade podem levar meses e permanecer parcialmente comprometidas quando a atrofia é antiga.\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 112 — Abordagem Clínica das Neuropatias Periféricas e cap. 114 — Radiculopatias e Plexopatias (diagnóstico diferencial); complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 12 — Doenças Neuromusculares (mononeuropatias compressivas).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Imunização (vacina de vírus vivo atenuado antes de mudança para área com recomendação: lactente, nutriz e criança não vacinada)",
+   "tier": "ALTO",
+   "vinheta": "Uma família de Salvador vai se mudar, em vinte dias, para município rural da Chapada Diamantina, área com recomendação de vacinação contra febre amarela. Na consulta de puericultura na UBS: a mãe, de 28 anos, nunca vacinada contra febre amarela, amamenta exclusivamente o filho de 4 meses, nascido a termo e com o calendário em dia; o filho de 5 anos tem todas as vacinas do calendário registradas, exceto a de febre amarela; o pai, de 35 anos, recebeu uma dose da vacina aos 20 anos. Ninguém tem imunodeficiência, alergia a ovo ou doença do timo. A equipe precisa definir a conduta vacinal para cada um.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a conduta correta em relação ao lactente de 4 meses:",
+     "alternativas": {
+      "a": "Vacinar agora, pois vai residir em área de risco.",
+      "b": "Não vacinar; orientar proteção por medidas não vacinais.",
+      "c": "Vacinar com dose fracionada.",
+      "d": "Antecipar para os 6 meses, vacinando logo após a chegada."
+     },
+     "correta": "b",
+     "comentario": "A vacina de febre amarela é de vírus vivo atenuado (cepa 17D/17DD) e tem idade MÍNIMA de 9 meses no calendário de rotina do Ministério da Saúde; abaixo de 6 meses ela é CONTRAINDICADA de forma absoluta, porque o risco de encefalite pós-vacinal (doença neurológica associada à vacina) é muito maior no lactente jovem — a imaturidade da barreira hematoencefálica e do sistema imune permite a neuroinvasão do vírus vacinal. Entre 6 e 8 meses a vacina só é usada em situação epidemiológica excepcional (surto/epizootia com recomendação da vigilância local), o que não é o caso de uma mudança para área com recomendação de rotina; portanto 'antecipar para os 6 meses' também está errado, além de deixar a criança desprotegida justamente nos primeiros meses da mudança sem ganho real. Vacinar 'agora' viola o limite de idade. A dose fracionada (1/5 da dose padrão) foi estratégia de emergência de 2018 para adultos e crianças acima de 2 anos em surtos com escassez de vacina, com proteção estimada por pelo menos 8 anos — não se aplica a menores de 2 anos, gestantes, imunossuprimidos ou viajantes internacionais. A conduta é, então, não vacinar o bebê e reduzir a exposição: roupas que cubram braços e pernas, mosquiteiros e telas, repelentes à base de icaridina/DEET (permitidos a partir de 6 meses em concentrações baixas — abaixo dessa idade, apenas medidas físicas), evitando as horas de maior atividade de Haemagogus/Sabethes (transmissão silvestre) e Aedes. Pérola: a criança será vacinada aos 9 meses e receberá o reforço aos 4 anos, conforme o calendário nacional; se o município passar a surto, a antecipação para os 6 meses passa a valer por decisão da vigilância.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta correta em relação à mãe:",
+     "alternativas": {
+      "a": "Vacinar hoje, mantendo a amamentação normalmente.",
+      "b": "Vacinar hoje e suspender a amamentação por 28 dias.",
+      "c": "Contraindicar a vacina enquanto durar a amamentação.",
+      "d": "Adiar a vacinação; se for indispensável vacinar, suspender o aleitamento por 10 dias com ordenha."
+     },
+     "correta": "d",
+     "comentario": "O vírus vacinal da febre amarela pode ser excretado no leite materno e há relatos de encefalite em lactentes jovens amamentados por mães recém-vacinadas. Por isso o Ministério da Saúde orienta: em mulheres que amamentam crianças com MENOS DE 6 MESES, a vacinação deve ser ADIADA até o bebê completar 6 meses; quando não for possível adiar (exposição inevitável em área de transmissão ativa ou viagem inadiável), a mãe pode ser vacinada, mas deve suspender o aleitamento por 10 DIAS após a dose — mantendo a ordenha para preservar a produção e oferecendo leite previamente extraído ou fórmula —, sob orientação sobre o risco. Como a mudança ocorre em 20 dias e o bebê tem 4 meses, a conduta preferencial é adiar por 2 meses e vacinar a mãe assim que o lactente completar 6 meses, avaliando com a vigilância a situação epidemiológica do município; se a equipe julgar a exposição imediata inaceitável, aplica-se a segunda parte da alternativa. Vacinar mantendo a amamentação ignora o risco documentado de transmissão pelo leite. Suspender por 28 dias confunde com o prazo de espera recomendado para GESTAÇÃO após vacinas vivas (30 dias) ou de intervalo entre vacinas vivas parenterais — o período de viremia vacinal é de cerca de 10 dias. A amamentação NÃO é contraindicação por si só: a partir dos 6 meses do lactente a mãe pode ser vacinada normalmente. Pérola de prova: gestantes também não devem receber a vacina (só em surto com exposição inevitável), assim como imunossuprimidos, transplantados, pessoas com doença do timo, alergia grave a ovo (vacinar em CRIE com observação) e maiores de 60 anos sem avaliação de risco-benefício individual, pela maior incidência de doença viscerotrópica associada à vacina.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique o esquema vacinal indicado para a criança de 5 anos:",
+     "alternativas": {
+      "a": "Uma dose agora e reforço em 10 anos.",
+      "b": "Uma dose agora e reforço em 30 dias.",
+      "c": "Dose única, sem reforço.",
+      "d": "Duas doses com intervalo de 4 anos."
+     },
+     "correta": "c",
+     "comentario": "Desde 2017 (adequação à recomendação da OMS de 2013) e com a consolidação no calendário de 2020, o esquema brasileiro da vacina de febre amarela é: crianças que iniciam pela rotina recebem uma dose aos 9 MESES e um REFORÇO aos 4 ANOS (a segunda dose existe porque, quando a primeira é dada no primeiro ano de vida, a soroconversão e a persistência de anticorpos são menores); já quem inicia a vacinação com 5 ANOS OU MAIS recebe DOSE ÚNICA, válida para toda a vida, sem reforço. A criança de 5 anos nunca vacinada, portanto, recebe uma dose e está protegida — o reforço a cada 10 anos era a regra antiga (até 2017) e foi abandonado, embora ainda apareça como distrator. 'Reforço em 30 dias' confunde com o intervalo mínimo entre vacinas vivas parenterais diferentes quando não aplicadas no mesmo dia (tríplice viral e febre amarela em menores de 2 anos devem ser separadas por 30 dias; acima de 2 anos podem ser simultâneas). 'Duas doses com intervalo de 4 anos' é o esquema da criança que começou aos 9 meses, não de quem começa aos 5 anos. Aplicando a mesma regra ao pai: uma dose aos 20 anos é considerada vacinação completa e ele não precisa de reforço — o cartão internacional também passou a ter validade vitalícia desde 2016. Pérola: como a viagem é em 20 dias, a vacina deve ser aplicada pelo menos 10 dias antes da exposição (tempo para soroconversão), e as vacinas de rotina da criança de 5 anos podem ser dadas no mesmo dia, em locais diferentes.\n\n📚 Leitura sugerida (bloco): videoaulas de Imunização — calendário vacinal e vacinas específicas — R+ Pediatria 2024 MEDGRUPO (https://drive.google.com/file/d/1haGRHKys0_ENxZ4Yp_gs7HJUNm8ES9RA/view e https://drive.google.com/file/d/1mZvyeegVAWcyvgwntvwnU2QIU-DcEIA7/view); complementar com o Manual dos Centros de Referência para Imunobiológicos Especiais (6ª ed., Ministério da Saúde) e a Nota Informativa/Informe Técnico da vacina febre amarela do PNI (esquema de dose única e recomendações para nutrizes).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Transtornos do Movimento (urgência de mover as pernas ao repouso noturno em mulher com ferropenia)",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 45 anos de idade, com sangramento menstrual aumentado há um ano por miomatose uterina, procura o ambulatório por dificuldade para adormecer. Relata, há seis meses, uma necessidade irresistível de mexer as pernas, acompanhada de desconforto profundo e mal definido ('como se algo andasse por dentro'), que surge à noite ao deitar ou quando fica sentada por muito tempo, alivia ao caminhar ou esfregar as pernas e volta assim que se acomoda. O marido observa chutes repetidos durante o sono. Sem dor em queimação, sem sintomas diurnos ao caminhar, não usa antidepressivos nem antieméticos. Exame neurológico normal; pulsos periféricos presentes; sem edema ou varizes. Hemoglobina 11,4 g/dL, VCM 76 fL, ferritina 19 ng/mL, creatinina 0,8 mg/dL, glicemia 88 mg/dL, TSH normal.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, indique o diagnóstico:",
+     "alternativas": {
+      "a": "Síndrome das pernas inquietas.",
+      "b": "Polineuropatia de fibras finas.",
+      "c": "Acatisia.",
+      "d": "Cãibras noturnas."
+     },
+     "correta": "a",
+     "comentario": "Os cinco critérios diagnósticos essenciais do Grupo Internacional de Estudo da Síndrome das Pernas Inquietas (2012) estão todos presentes: (1) urgência de mover as pernas, em geral com desconforto, (2) que começa ou piora no repouso, (3) alivia parcial ou totalmente com o movimento, (4) é pior à noite ou ocorre apenas à noite (ritmo circadiano ligado à queda da dopamina noturna) e (5) não é explicado por outra condição. Os chutes repetidos durante o sono são os movimentos periódicos dos membros, presentes em 80-90% dos casos e um critério de apoio. A ferropenia (ferritina 19 ng/mL) é a causa secundária mais frequente e tem base fisiopatológica: o ferro é cofator da tirosina-hidroxilase, e a deficiência de ferro no sistema nervoso central (mesmo com hemoglobina pouco alterada) reduz a síntese de dopamina nas vias diencéfalo-espinhais A11. A polineuropatia de fibras finas causa dor em queimação distal, alodínia e disautonomia, contínua e não aliviada por caminhar — aqui o desconforto é 'profundo', ritmado pelo repouso e sem dor. A acatisia é a inquietação motora generalizada (não só das pernas) induzida por antagonistas dopaminérgicos (antipsicóticos, metoclopramida) ou ISRS, presente o dia inteiro e sem ritmo noturno — a paciente não usa esses fármacos. As cãibras são contrações dolorosas, palpáveis e súbitas de um músculo, com duração de segundos a minutos, aliviadas por alongamento, não por 'andar'; não há urgência de mover nem movimento periódico. Pérola: são outras causas secundárias clássicas a gestação (terceiro trimestre), a doença renal crônica dialítica, a neuropatia e o uso de antidepressivos e anti-histamínicos — e a forma primária tem forte agregação familiar, de início precoce.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o parâmetro laboratorial que define a primeira medida terapêutica nesta paciente:",
+     "alternativas": {
+      "a": "Hemoglobina abaixo de 12 g/dL.",
+      "b": "Vitamina B12 sérica.",
+      "c": "Ferritina abaixo de 75 ng/mL.",
+      "d": "TSH."
+     },
+     "correta": "c",
+     "comentario": "A recomendação das diretrizes (Academia Americana de Medicina do Sono 2024, Fundação da Síndrome das Pernas Inquietas 2018) é dosar ferritina e saturação de transferrina em TODO paciente com o diagnóstico e repor ferro quando a ferritina estiver abaixo de 75 ng/mL (ou a saturação de transferrina abaixo de 20%) — um limiar muito acima do usado para definir ferropenia na população geral (15-30 ng/mL), porque a deficiência de ferro cerebral precede e é mais grave do que a sistêmica, e porque a reposição até esse alvo melhora os sintomas mesmo em quem não tem anemia. Reposição oral (sulfato ferroso 325 mg com vitamina C, em dias alternados, para reduzir o efeito da hepcidina) é a primeira escolha; o ferro intravenoso (carboximaltose férrica 1.000 mg) é indicado se a ferritina estiver abaixo de 100 com intolerância ou má resposta oral, gestação avançada ou má absorção. A hemoglobina é um marcador tardio e insensível: a maioria dos pacientes com pernas inquietas por ferropenia não é anêmica, e usar a anemia como gatilho deixaria sem tratamento justamente o grupo que mais responde. A vitamina B12 e o TSH fazem parte da triagem de causas de neuropatia e de fadiga, mas não determinam a conduta na síndrome — aqui, inclusive, o TSH já é normal. Pérola: a ferritina é reagente de fase aguda; em pacientes com inflamação ou hepatopatia, use a saturação de transferrina, e repita a ferritina 8 a 12 semanas depois de iniciada a reposição. Nesta paciente, tratar a miomatose (a causa da perda) é indissociável do sucesso.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Após correção da ferritina, os sintomas persistem em cinco noites por semana com prejuízo importante do sono. Indique o tratamento farmacológico de primeira linha:",
+     "alternativas": {
+      "a": "Pramipexol à noite.",
+      "b": "Clonazepam ao deitar.",
+      "c": "Levodopa/carbidopa ao deitar.",
+      "d": "Gabapentinoide (pregabalina ou gabapentina) à noite."
+     },
+     "correta": "d",
+     "comentario": "Esta é a mudança de paradigma mais importante do tema nos últimos anos: a diretriz da Academia Americana de Medicina do Sono de 2024 recomenda os ligantes alfa-2-delta — gabapentina enacarbil, gabapentina e pregabalina — como PRIMEIRA LINHA para a síndrome das pernas inquietas crônica persistente, e emite recomendação CONTRA o uso rotineiro dos agonistas dopaminérgicos (pramipexol, ropinirol, rotigotina), até então preferidos. O motivo é a AUGMENTAÇÃO: com o uso continuado de dopaminérgicos, os sintomas passam a começar mais cedo no dia, tornam-se mais intensos, espalham-se para braços e tronco e exigem doses crescentes — fenômeno que atinge a maioria dos pacientes em 10 anos (até 7-8% ao ano com pramipexol) e que é ainda mais rápido e frequente com a levodopa, cujo uso diário está formalmente desaconselhado (reserva-se, no máximo, a uso intermitente, como em viagens longas). Os gabapentinoides não causam augmentação, melhoram simultaneamente o sono e a dor e são preferidos em quem tem insônia, ansiedade ou dor crônica; os cuidados são sedação, tontura, ganho de peso e ajuste renal. O clonazepam melhora a percepção do sono, mas não trata a urgência de mover nem os movimentos periódicos de forma consistente e traz tolerância, dependência e risco de quedas — não é primeira linha em nenhuma diretriz. Pérola de prova: em pacientes já em augmentação sob dopaminérgico, a conduta é reduzir/retirar o agonista lentamente, checar a ferritina de novo e migrar para um gabapentinoide; opioides de baixa dose (oxicodona, metadona) ficam para casos refratários. Fármacos que pioram a síndrome — antidepressivos serotoninérgicos e tricíclicos, anti-histamínicos, metoclopramida e antipsicóticos — devem ser revisados antes de qualquer escalada.\n\n📚 Leitura sugerida (bloco): Merritt, Tratado de Neurologia (13ª ed.), Seção 16 — Transtornos das Funções Autonômicas e do Sono (síndrome das pernas inquietas e movimentos periódicos dos membros) e Seção 11 — Distúrbios do Movimento; complementar com Tratado de Neurologia da ABN (3ª ed., 2025), cap. 71 — Fisiologia do Sono e cap. 73 — Insônia, e a diretriz de prática clínica da American Academy of Sleep Medicine para o tratamento da síndrome das pernas inquietas (2024).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Nutrição (lactente com emagrecimento acentuado sem edema: classificação por perímetro braquial e escolha entre manejo ambulatorial e internação)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menino, 14 meses de idade, morador de comunidade rural do semiárido baiano, é levado à Unidade Básica de Saúde pela avó porque 'não cresce e está só pele e osso'. Foi amamentado até os 3 meses; desde então recebe mingau de farinha de mandioca com água e, raramente, leite em pó diluído. Ao exame: alerta, irritado, interage com a avó; peso 6,6 kg, comprimento 74 cm (peso para comprimento com escore z inferior a −3); perímetro braquial 10,8 cm; pele frouxa em nádegas e coxas, 'face de idoso', sem edema; temperatura axilar 36,4 °C; FR 32 ipm; sem tosse, diarreia, vômitos ou lesões cutâneas; glicemia capilar 78 mg/dL. Oferecido alimento terapêutico pronto para uso, a criança aceita avidamente a porção-teste.",
+   "perguntas": [
+    {
+     "enunciado": "Diante do caso clínico, indique a classificação nutricional:",
+     "alternativas": {
+      "a": "Desnutrição aguda grave não complicada, forma não edematosa.",
+      "b": "Desnutrição aguda moderada.",
+      "c": "Desnutrição aguda grave complicada.",
+      "d": "Desnutrição crônica com baixa estatura."
+     },
+     "correta": "a",
+     "comentario": "Pelos critérios da OMS (2013, atualizados em 2023) adotados pelo Ministério da Saúde e pela Sociedade Brasileira de Pediatria, desnutrição aguda GRAVE em crianças de 6 a 59 meses é definida por QUALQUER um destes: peso para comprimento/estatura com escore z abaixo de −3, perímetro braquial abaixo de 11,5 cm ou edema bilateral simétrico (kwashiorkor). Este menino preenche dois critérios independentes (escore z inferior a −3 e perímetro braquial de 10,8 cm), sem edema — logo, forma NÃO edematosa (marasmo), o fenótipo do 'emagrecimento' com perda de gordura subcutânea e de massa muscular (pele em excesso nas nádegas, face senil) e apetite preservado. A classificação 'não complicada' vem do restante do exame: criança alerta, sem hipotermia (temperatura abaixo de 35,5 °C), sem hipoglicemia (abaixo de 54 mg/dL), sem desidratação, choque, dificuldade respiratória, infecção grave, anemia grave ou lesões cutâneas extensas, e com teste do apetite POSITIVO. A desnutrição aguda moderada corresponde a escore z entre −3 e −2 ou perímetro braquial de 11,5 a 12,4 cm — ambos superados aqui. A forma complicada exigiria alguma das condições clínicas acima ou recusa do alimento terapêutico. A desnutrição crônica (baixa estatura para a idade, escore z abaixo de −2) pode coexistir, mas o comprimento de 74 cm aos 14 meses fica em torno de −1,5 escore z e não define o quadro; o que domina é a perda aguda de peso em relação ao comprimento. Pérola: o perímetro braquial é o indicador mais prático em campo e o melhor preditor isolado de mortalidade; a fita colorida (vermelho abaixo de 11,5 cm, amarelo de 11,5 a 12,4 cm, verde a partir de 12,5 cm) permite triagem por agentes comunitários.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o achado que, se presente, obrigaria a internação desta criança:",
+     "alternativas": {
+      "a": "Escore z de peso para comprimento inferior a −3.",
+      "b": "Teste do apetite negativo.",
+      "c": "Perímetro braquial inferior a 11,5 cm.",
+      "d": "Hemoglobina de 9 g/dL."
+     },
+     "correta": "b",
+     "comentario": "A grande mudança do manejo da desnutrição aguda grave nas últimas duas décadas foi separar as crianças que precisam de hospital das que podem ser tratadas em casa: o modelo de 'manejo comunitário' da OMS/UNICEF (2007, incorporado ao Brasil nas orientações do Ministério da Saúde e da SBP) reserva a internação para a forma COMPLICADA, definida por (1) presença de qualquer sinal de perigo ou complicação médica — hipoglicemia, hipotermia, desidratação ou choque, dificuldade respiratória/pneumonia, infecção grave, anemia grave (hemoglobina abaixo de 4 g/dL), letargia ou inconsciência, lesões cutâneas abertas extensas, edema grave (+++) —, (2) idade abaixo de 6 meses ou (3) TESTE DO APETITE NEGATIVO. O teste do apetite consiste em oferecer, em ambiente tranquilo, uma porção de alimento terapêutico pronto para uso proporcional ao peso e observar se a criança come ao menos a quantidade mínima em 30 minutos: a recusa indica alteração metabólica ou infecção oculta e prediz falha do tratamento domiciliar, sendo por si só critério de admissão. O escore z abaixo de −3 e o perímetro braquial abaixo de 11,5 cm definem GRAVIDADE (é o que faz a criança entrar no programa), mas NÃO obrigam internação quando não há complicações — este é o ponto que a questão testa, pois a resposta intuitiva 'escore z' é a errada. A hemoglobina de 9 g/dL é anemia leve a moderada, esperada na desnutrição; só a anemia grave (abaixo de 4 g/dL, ou abaixo de 6 g/dL com desconforto respiratório) indica internação e transfusão lenta. Pérola: a fase de estabilização hospitalar segue os '10 passos' (tratar/prevenir hipoglicemia, hipotermia, desidratação, corrigir eletrólitos, tratar infecção, corrigir micronutrientes SEM ferro, alimentação cautelosa com F-75, recuperação com F-100/alimento terapêutico, estimulação sensorial e preparo para alta) — e a criança que melhora e recupera o apetite é transferida para o manejo ambulatorial.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica indicada para esta criança, considerando o resultado do teste do apetite:",
+     "alternativas": {
+      "a": "Fórmula F-75 fracionada e sulfato ferroso desde o primeiro dia.",
+      "b": "Dieta hipercalórica caseira, polivitamínico e retorno em 30 dias.",
+      "c": "Internação para fase de estabilização com F-75.",
+      "d": "Alimento terapêutico pronto para uso, amoxicilina por 7 dias e retorno semanal."
+     },
+     "correta": "d",
+     "comentario": "Na desnutrição aguda grave NÃO complicada com teste do apetite positivo, o tratamento é AMBULATORIAL, com três pilares: (1) alimento terapêutico pronto para uso (pasta de amendoim, leite em pó, óleo, açúcar e mistura de vitaminas e minerais, 500 kcal por sachê de 92 g), prescrito em cerca de 150 a 200 kcal/kg/dia — para 6,6 kg, aproximadamente 2 a 2,5 sachês por dia —, oferecido em pequenas porções frequentes, com água livre, mantendo o aleitamento quando existir e sem outros alimentos até a recuperação, porque o produto já contém todos os micronutrientes, inclusive o ferro em quantidade adequada e segura; (2) antibiótico de rotina — amoxicilina oral por 5 a 7 dias —, porque a criança gravemente desnutrida tem infecção bacteriana subclínica frequente e sinais inflamatórios abolidos, e os ensaios (Malawi, Níger) mostraram redução de mortalidade e ganho de peso mais rápido; e (3) seguimento SEMANAL com peso, perímetro braquial, exame clínico e checagem do consumo, mais desparasitação a partir de 12 meses (albendazol), atualização vacinal (sarampo) e vitamina A conforme o programa, até a alta por critério antropométrico (escore z acima de −2 ou perímetro braquial de 12,5 cm em duas medidas consecutivas, sem edema por 2 semanas). A F-75 é a fórmula de ESTABILIZAÇÃO hospitalar (baixa proteína e sódio, 75 kcal/100 mL) — não se usa em casa —, e o sulfato ferroso desde o primeiro dia é erro clássico: o ferro só entra na fase de recuperação (a partir da segunda semana), porque na fase inicial favorece infecção e estresse oxidativo. A dieta caseira hipercalórica com polivitamínico e retorno em 30 dias subestima a gravidade: a mortalidade sem tratamento adequado é de 10 a 20%, e o intervalo de um mês é incompatível com a vigilância necessária. A internação seria a conduta se houvesse complicação ou apetite negativo, o que não é o caso — e internar sem necessidade expõe a infecções hospitalares e afasta a família. Pérola de prova: o alimento terapêutico pronto para uso foi incorporado ao SUS em 2023 pela CONITEC para o tratamento ambulatorial da desnutrição aguda grave em crianças de 6 a 59 meses, o que torna o tema candidato a cair como novidade.\n\n📚 Leitura sugerida (bloco): Nutrição em Pediatria na Prática Clínica (Sarni, 2021), capítulo de desnutrição energético-proteica (https://drive.google.com/file/d/1mlZyknkyAfp-sf5-gclfYNYYdpNpAZ0K/view); complementar com o 'Manual de Atendimento da Criança com Desnutrição Grave em Nível Hospitalar' (Ministério da Saúde) e a diretriz da OMS sobre prevenção e manejo do 'wasting' e do edema nutricional (2023).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Medula, Cauda Equina e Dor Lombar (síndrome do cone medular com eosinofilia em jovem do interior) [REAL: SUS-BA R+ Clínica Médica 2023]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 19 anos de idade, deu entrada no pronto-socorro queixando-se de dificuldade para deambular e ficar de pé, iniciada há 12 dias, associada à dor lombar e dificuldade para urinar e evacuar. Ao exame físico, apresenta-se com sinais vitais estáveis, ausculta cardiorrespiratória normal. Abdome com leve dor à palpação em fossa ilíaca esquerda, sem outros achados. Edema simétrico 2+/4 em membros inferiores. Ao exame neurológico, sem alterações nos nervos cranianos, força muscular preservada em membros superiores e grau 3 em membros inferiores. Reflexos abolidos em membros inferiores e anestesia em sela e região posterior das pernas. Realizados exames: Hb = 11,5 g/dL, Ht = 35%, leucócitos = 10500céls/mm³ (66% de neutrófilos, 19% de linfócitos, 15% de eosinófilos), plaquetas = 400 mil/mm³, FAN não reagente, Fator reumatoide não reagente, sumário de urina sem alterações. Punção liquórica apresentando hiperproteinorraquia, hipercelularidade às custas de linfomononucleares e eosinofilia. Realizada ressonância nuclear magnética de coluna, com evidência de alargamento do cone medular, com captação de contraste.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o quadro clínico descrito, identifique o diagnóstico mais provável para este paciente:",
+     "alternativas": {
+      "a": "Síndrome de Guillain-Barré.",
+      "b": "Mielorradiculopatia esquistossomótica.",
+      "c": "Esclerose múltipla.",
+      "d": "Abscesso em coluna lombar."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2023] Jovem do interior com síndrome do cone medular/cauda equina de instalação subaguda (paraparesia, arreflexia, anestesia em sela, retenção urinária e fecal, dor lombar) somada a EOSINOFILIA no sangue (15%) e no LÍQUOR, hiperproteinorraquia com pleocitose linfomononuclear e ressonância mostrando cone medular alargado e captante: esse conjunto é a assinatura da mielorradiculopatia esquistossomótica, a forma mais frequente e mais grave de neuroesquistossomose, endêmica na Bahia e uma das poucas emergências neurológicas 'regionais' que a banca cobra repetidamente. Os ovos de Schistosoma mansoni chegam ao plexo venoso vertebral (de Batson, sem válvulas) e se alojam preferencialmente no cone e na cauda equina, onde a reação granulomatosa comprime e inflama o tecido nervoso. A síndrome de Guillain-Barré também dá paraparesia arrefléxica e hiperproteinorraquia, mas o líquor tem dissociação proteíno-CITOLÓGICA (proteína alta com células NORMAIS), sem eosinófilos, o nível sensitivo em sela e a disfunção esfincteriana precoce e proeminente são atípicos, e a ressonância medular seria normal (no máximo realce radicular). A esclerose múltipla produz mielite parcial, curta, com sinais de neurônio motor superior (hiperreflexia, Babinski), em geral com lesões encefálicas associadas; arreflexia e eosinofilia a excluem. O abscesso epidural cursa com febre, dor intensa, leucocitose neutrofílica e coleção epidural na imagem, não com alargamento intramedular do cone. Pérola: o edema de membros inferiores e a dor em fossa ilíaca esquerda são pistas para a forma hepatoesplênica/intestinal da esquistossomose de base, e a pesquisa de ovos nas fezes (Kato-Katz) ou a biópsia retal podem confirmar a infecção, mas a ausência de ovos NÃO afasta a forma neurológica.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Considerando o diagnóstico mais provável, identifique a fisiopatogenia envolvida:",
+     "alternativas": {
+      "a": "Reação granulomatosa em torno dos ovos dos parasitas.",
+      "b": "Desmielinização decorrente de reação autoimune.",
+      "c": "Infecção de origem hematogênica ou por contiguidade.",
+      "d": "Reação autoimune geralmente precedida por uma infecção."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2023] O dano neurológico da neuroesquistossomose não é causado pelo verme adulto, e sim pelos OVOS: eles alcançam o espaço perimedular por refluxo venoso através do plexo de Batson (por isso o cone medular e a cauda equina, drenados para as veias mesentéricas e pélvicas, são os alvos preferenciais) e desencadeiam uma reação de hipersensibilidade tardia com formação de granulomas eosinofílicos, edema, vasculite e necrose — daí a eosinofilia periférica e liquórica, o alargamento do cone com realce e a resposta dramática ao corticoide. Há três padrões anatomopatológicos: a forma granulomatosa (massa intramedular ou radicular, a mais comum), a mielítica difusa e a radicular pura. A desmielinização autoimune é o mecanismo da esclerose múltipla e da neuromielite óptica, nas quais não há eosinófilos e o quadro é de neurônio motor superior. A infecção hematogênica ou por contiguidade descreve o abscesso epidural (Staphylococcus aureus vindo de bacteremia, espondilodiscite ou procedimento) — um processo supurativo, com febre e neutrofilia. A reação autoimune precedida por infecção é o mecanismo da síndrome de Guillain-Barré (mimetismo molecular com gangliosídeos após Campylobacter jejuni, citomegalovírus, Zika), que não explica a eosinofilia nem a lesão intramedular captante. Pérola: a sorologia (ELISA) e a pesquisa de anticorpos ou antígenos no líquor apoiam o diagnóstico, mas nenhum teste isolado é definitivo — os critérios são clínico-epidemiológicos: síndrome medular baixa + evidência de exposição/infecção + exclusão de outras causas.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o tratamento mais adequado neste momento:",
+     "alternativas": {
+      "a": "Drenagem da coleção e antibioticoterapia.",
+      "b": "Pulsoterapia com corticoide e imunobiológico.",
+      "c": "Pulsoterapia com corticoide e antiparasitários.",
+      "d": "Imunoglobulina e plasmaférese."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Clínica Médica 2023] O tratamento da mielorradiculopatia esquistossomótica combina duas frentes e deve ser iniciado assim que a suspeita for razoável, sem esperar confirmação parasitológica: CORTICOIDE em dose alta (metilprednisolona 1 g/dia por 5 dias, ou prednisona 1-1,5 mg/kg/dia), mantido por semanas com desmame lento ao longo de 3 a 6 meses, para conter a reação granulomatosa e o edema que estão comprimindo o cone; e ANTIPARASITÁRIO — praziquantel 50-60 mg/kg em dose única (ou dividido em dois dias), repetido em alguns protocolos — para eliminar os vermes adultos e interromper a postura de novos ovos. O prognóstico depende da rapidez: tratado nas primeiras semanas, a maioria recupera a marcha; a demora deixa sequelas esfincterianas e motoras permanentes, e a cirurgia (laminectomia com biópsia) fica restrita aos casos duvidosos ou com deterioração apesar do tratamento clínico. Drenagem e antibiótico tratariam o abscesso epidural, aqui descartado pela ausência de febre e de coleção. Corticoide com imunobiológico é raciocínio para doença desmielinizante ou inflamatória autoimune (e alguns biológicos poderiam até agravar uma infecção parasitária). Imunoglobulina e plasmaférese são os tratamentos da síndrome de Guillain-Barré, que não têm efeito sobre granulomas parasitários. Pérola: neuroesquistossomose é de notificação, e todos os contactantes com exposição a coleções hídricas devem ser rastreados; a reabilitação vesical (cateterismo intermitente) e a profilaxia de trombose e de úlcera de pressão fazem parte do cuidado desde o primeiro dia.\n\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 146 — Neuroesquistossomose (medular); complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 15 — Doenças da Medula Espinal, e o Guia de Vigilância em Saúde do Ministério da Saúde (capítulo de esquistossomose mansoni — formas ectópicas).",
+     "dificuldade": "dificil"
+    }
+   ]
+  }
+ ]
+}
