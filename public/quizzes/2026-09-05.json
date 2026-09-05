@@ -1,0 +1,651 @@
+{
+ "date": "2026-09-05",
+ "titulo": "Simulado Neurologia + Pediatria — Estilo CEREM-BA / ABAEM",
+ "blocos": [
+  {
+   "tema": "Neurologia — Vertigem e Síndromes Vestibulares (vertigem posicional de canal posterior no idoso: tontura residual e prevenção de recorrência) [RE ranking unificado #1: Vinicius, 100% de erro; ângulo inédito]",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 74 anos, hipertensa em uso de losartana e hidroclorotiazida, relata há 5 dias episódios de vertigem rotatória com duração de segundos, desencadeados ao virar-se na cama para a direita e ao estender o pescoço para alcançar uma prateleira, acompanhados de náusea. Refere episódio semelhante há dois anos, que cedeu espontaneamente. Nega hipoacusia, zumbido, cefaleia ou diplopia. Ontem sofreu queda no banheiro ao levantar-se rapidamente. Exame: PA 150x90 mmHg deitada e 144x86 mmHg após 3 minutos em pé; sem nistagmo espontâneo; impulso cefálico normal; marcha sem alterações. Manobra de Dix-Hallpike à direita: após latência de cerca de 4 segundos, surge nistagmo torsional com componente vertical para cima, acompanhado de vertigem intensa, com duração de 25 segundos, que inverte de direção ao retornar à posição sentada e se atenua na repetição da manobra. Dix-Hallpike à esquerda negativa.",
+   "perguntas": [
+    {
+     "enunciado": "Qual é o mecanismo fisiopatológico mais provável dos sintomas?",
+     "alternativas": {
+      "a": "Canalolitíase do canal semicircular posterior direito",
+      "b": "Cupulolitíase do canal semicircular horizontal direito",
+      "c": "Hipofunção vestibular unilateral aguda",
+      "d": "Hipotensão ortostática medicamentosa"
+     },
+     "correta": "a",
+     "comentario": "A alternativa correta é a canalolitíase do canal semicircular posterior direito. Otocônias desprendidas da mácula utricular caem no braço longo do canal posterior (o mais dependente da gravidade) e, quando a cabeça é levada à posição de Dix-Hallpike, deslocam-se pela endolinfa e defletem a cúpula com atraso — daí a LATÊNCIA de segundos, a duração curta (o material se acomoda em menos de 1 minuto), a FATIGABILIDADE à repetição e a inversão do nistagmo ao sentar. O nistagmo torsional-upbeat (polo superior do olho batendo para o ouvido de baixo, componente vertical para cima) é a assinatura do canal posterior, e o lado positivo (direita) é o lado acometido.\nHipotensão ortostática foi ativamente excluída: a queda pressórica foi de 6 mmHg (critério exige queda ≥20 na sistólica ou ≥10 na diastólica em 3 minutos), e hipotensão não produz vertigem rotatória posicional de segundos com nistagmo característico. Hipofunção vestibular unilateral aguda (neurite) cursa com vertigem CONTÍNUA por dias, nistagmo espontâneo horizontal-torsional e impulso cefálico positivo — aqui o exame estático é normal. Cupulolitíase do canal horizontal produz nistagmo HORIZONTAL apogeotrópico, persistente (>1 min, sem fatigabilidade) e é testada pelo roll test em decúbito, não pela Dix-Hallpike.\nPérolas: a VPPB é a causa mais comum de vertigem (prevalência ao longo da vida ~2,4%), o canal posterior responde por 80-90% dos casos, e a recorrência de anos antes é típica. A queda ao levantar deve ser lida como consequência da vertigem posicional em idosa, não como pista de outra doença.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Qual exame complementar está indicado para esta paciente neste momento?",
+     "alternativas": {
+      "a": "Nenhum exame complementar",
+      "b": "Videoteste do impulso cefálico (vHIT)",
+      "c": "Audiometria tonal e imitanciometria",
+      "d": "Ressonância magnética de encéfalo com difusão"
+     },
+     "correta": "a",
+     "comentario": "A resposta é nenhum exame complementar: a vertigem posicional paroxística benigna típica é diagnóstico exclusivamente CLÍNICO, fechado pela história (crises de segundos, posicionais) e pela manobra provocativa positiva com nistagmo característico (latência, duração <1 minuto, fatigabilidade, direção compatível com o canal). A diretriz da AAO-HNS (2017) recomenda explicitamente NÃO solicitar neuroimagem nem testes vestibulares de rotina quando o quadro preenche os critérios diagnósticos.\nA ressonância com difusão seria indicada se houvesse bandeiras vermelhas de vertigem posicional CENTRAL: nistagmo posicional sem latência e sem fatigabilidade, puro vertical (downbeat) ou de direção atípica para o canal testado, persistente enquanto a posição é mantida, ausência de resposta à manobra de reposicionamento, ou sinais neurológicos associados (ataxia, diplopia, disartria). Nada disso está presente. O vHIT avalia o ganho do reflexo vestíbulo-ocular em alta frequência e é útil em neurite vestibular ou vestibulopatia bilateral; na VPPB o reflexo é normal — como o impulso cefálico clínico já mostrou. Audiometria seria pertinente se houvesse hipoacusia ou zumbido flutuante (doença de Ménière) ou hipoacusia unilateral progressiva (schwannoma), negados no caso.\nPérola de prova: solicitar TC ou RM \"para garantir\" numa VPPB típica é considerado erro de conduta nas bancas; o exame só entra quando a manobra é atípica ou falha repetidamente.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "A manobra de Epley à direita é realizada com sucesso, com Dix-Hallpike negativa na reavaliação. A paciente pergunta como evitar novas crises, pois é a segunda em dois anos. A dosagem de 25-hidroxivitamina D é de 14 ng/mL. Qual medida tem a melhor evidência para reduzir a recorrência?",
+     "alternativas": {
+      "a": "Exercícios de Brandt-Daroff diários por tempo indefinido",
+      "b": "Betaistina por três meses",
+      "c": "Suplementação de vitamina D e cálcio",
+      "d": "Restrição de decúbito lateral e cabeceira elevada por 48 horas"
+     },
+     "correta": "c",
+     "comentario": "A alternativa correta é a suplementação de vitamina D e cálcio. As otocônias são cristais de carbonato de cálcio, e a hipovitaminose D associa-se a maior recorrência de VPPB; o ensaio clínico randomizado multicêntrico de Jeong e colaboradores (Neurology, 2020) mostrou que, em pacientes com VPPB e 25-OH-vitamina D <20 ng/mL, a suplementação de vitamina D (400 UI) com carbonato de cálcio (500 mg) 2x/dia reduziu a taxa anual de recorrência em cerca de 24%. É a única intervenção preventiva com evidência de nível 1, e a diretriz da AAO-HNS já recomenda dosar e corrigir a deficiência em casos recorrentes.\nBetaistina é um supressor vestibular fraco sem efeito sobre o mecanismo mecânico das otocônias; a AAO-HNS recomenda CONTRA o uso rotineiro de supressores vestibulares na VPPB, pois não previnem recorrência e retardam a compensação central. As restrições posturais pós-manobra (dormir semissentado, evitar o lado acometido) foram abandonadas: metanálises não mostraram benefício adicional em relação à manobra isolada, e a diretriz recomenda que NÃO sejam prescritas. Os exercícios de Brandt-Daroff são uma forma de habituação com eficácia muito inferior à manobra de reposicionamento; servem, no máximo, como recurso domiciliar quando a manobra não pode ser feita, e não como profilaxia indefinida.\nConteúdo extra: a recorrência da VPPB é de ~15-20% ao ano e ~50% em 10 anos, maior em mulheres, idosos, na forma pós-traumática e na VPPB secundária a neurite ou Ménière. Após a manobra bem-sucedida, 30-60% dos pacientes relatam por dias uma \"tontura residual\" (instabilidade não rotatória, sem nistagmo), que é autolimitada e não indica falha da manobra nem exige nova Epley — só reavaliar se a Dix-Hallpike voltar a ser positiva.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 137 — Vertigem Posicional; complementar com a diretriz AAO-HNS Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (2017).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências / Asma (asma não controlada de difícil tratamento versus asma grave: fatores modificáveis e terapia biológica) [RE cota individual: Leonardo, 67% de erro; ângulo inédito]",
+   "tier": "ALTO",
+   "vinheta": "Menino, 12 anos, com doença obstrutiva das vias aéreas diagnosticada aos 4 anos, em uso de budesonida-formoterol 200/6 µg em pó seco, duas inalações duas vezes ao dia, há 8 meses. Nas últimas 4 semanas: sintomas diurnos em 4 dias por semana, despertares noturnos 2 vezes por semana, uso de salbutamol de resgate 5 vezes por semana e limitação para jogar futebol. Teve 2 exacerbações tratadas com prednisolona oral nos últimos 6 meses. Rinite persistente com obstrução nasal diária, sem tratamento; roncos noturnos; índice de massa corporal no percentil 97. Ao demonstrar o dispositivo, inspira lenta e superficialmente e não prende a respiração; a mãe conta que ele 'esquece' cerca de metade das doses. Espirometria: VEF1 72% do previsto, com aumento de 15% após broncodilatador. Eosinófilos 550/µL; IgE total 820 UI/mL; teste cutâneo positivo para ácaros.",
+   "perguntas": [
+    {
+     "enunciado": "Como se classifica a doença deste paciente neste momento?",
+     "alternativas": {
+      "a": "Asma não controlada de difícil tratamento",
+      "b": "Asma parcialmente controlada",
+      "c": "Asma grave",
+      "d": "Asma controlada com exacerbações intercorrentes"
+     },
+     "correta": "a",
+     "comentario": "A alternativa correta é asma NÃO CONTROLADA de difícil tratamento. A avaliação de controle da GINA considera, nas últimas 4 semanas, quatro itens: sintomas diurnos mais de 2 vezes por semana, qualquer despertar noturno, uso de resgate mais de 2 vezes por semana e qualquer limitação de atividade — 1-2 itens = parcialmente controlada; 3-4 itens = NÃO controlada. O paciente preenche os quatro, além de 2 exacerbações com corticoide oral em 6 meses (marcador de risco futuro). \"Asma de difícil tratamento\" é o termo da GINA/ERS-ATS para asma não controlada apesar de tratamento das etapas 4-5 (aqui: CI em dose média + LABA), ou que exige essas etapas para manter controle, QUANDO ainda existem fatores modificáveis não resolvidos — má técnica inalatória, má adesão, comorbidades não tratadas (rinite, obesidade, apneia do sono, refluxo), exposição ambiental e tabagismo passivo.\n\"Asma grave\" é um subgrupo da asma de difícil tratamento: a que permanece não controlada APESAR de adesão e técnica otimizadas e comorbidades tratadas, ou que piora quando se reduz o tratamento de alta intensidade; corresponde a apenas 3-10% dos asmáticos, e não pode ser rotulada enquanto adesão e técnica não forem corrigidas. \"Parcialmente controlada\" exigiria apenas 1-2 itens positivos. \"Controlada com exacerbações\" é contradição — a presença de 4 itens e de exacerbações define descontrole.\nConteúdo extra: a espirometria com VEF1 reduzido e resposta ao broncodilatador de 15% (≥12% e ≥200 mL) confirma obstrução variável ativa; o padrão eosinofílico com IgE alta e sensibilização a ácaros define o fenótipo alérgico T2-alto, que orientará a escolha do biológico caso a doença se confirme grave. Pérola de prova: em criança \"grave\" que não melhora, mais de 50% dos casos são explicados por técnica ou adesão inadequadas.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Qual é o passo prioritário antes de qualquer escalonamento farmacológico?",
+     "alternativas": {
+      "a": "Aumentar para dose alta de corticoide inalatório com LABA",
+      "b": "Adicionar montelucaste",
+      "c": "Solicitar IgE específica e iniciar omalizumabe",
+      "d": "Revisar técnica inalatória e adesão e tratar a rinite e as comorbidades"
+     },
+     "correta": "d",
+     "comentario": "A resposta é otimizar a base: corrigir a técnica, garantir a adesão e tratar as comorbidades. Há dois erros de técnica evidentes — inspiração LENTA em dispositivo de pó seco (que exige inspiração rápida e profunda para desagregar o pó; a inspiração lenta é a do spray dosimetrado) e ausência de pausa inspiratória —, e a adesão relatada é de ~50%. Cada um deles, isoladamente, explica o descontrole. A rinite alérgica persistente não tratada (corticoide nasal ± anti-histamínico), a obesidade e a suspeita de apneia obstrutiva do sono (roncos) são comorbidades que reduzem a resposta ao tratamento e devem ser abordadas. Também entram aqui o controle ambiental para ácaros e a checagem de tabagismo domiciliar. A GINA recomenda reavaliar em 2-3 meses após essas correções antes de decidir se a asma é realmente grave — e a etapa 4 já é a etapa \"do especialista\" na criança.\nSubir para dose ALTA de CI + LABA sem corrigir a técnica só aumenta a dose depositada na orofaringe e os efeitos adversos (supressão adrenal, desaceleração do crescimento), sem chegar ao pulmão; é o erro mais comum na prática. Montelucaste é opção adicional de menor eficácia que o LABA e tem alerta regulatório (FDA 2020) para eventos neuropsiquiátricos — não é a prioridade em quem nem toma o tratamento atual. Omalizumabe é etapa 5 e só se justifica em asma GRAVE confirmada após otimização; iniciar biológico com adesão de 50% é tratar o fator errado com o recurso mais caro.\nPérola: a tríade \"técnica, adesão, comorbidade\" deve ser conferida em TODA consulta de asma não controlada, e a técnica precisa ser observada diretamente, não apenas perguntada.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Três meses depois, com técnica corrigida e adesão confirmada por contagem de doses, rinite tratada e perda de peso em curso, o paciente mantém 3 dos 4 critérios de descontrole e teve nova exacerbação com corticoide oral. Qual é a conduta mais adequada?",
+     "alternativas": {
+      "a": "Corticoide oral de manutenção em dias alternados",
+      "b": "Imunoterapia com ácaros em substituição ao corticoide inalatório",
+      "c": "Encaminhar ao especialista para avaliação de terapia biológica",
+      "d": "Suspender o LABA e usar corticoide inalatório isolado em dose alta"
+     },
+     "correta": "c",
+     "comentario": "A alternativa correta é o encaminhamento para avaliação de terapia biológica. Uma vez cumprida a otimização (técnica, adesão, comorbidades) e persistindo o descontrole em CI dose média-alta + LABA, a asma passa a ser classificada como GRAVE e o tratamento avança para a etapa 5 da GINA: fenotipagem e biológico, que na faixa pediátrica a partir dos 6 anos inclui o omalizumabe (anti-IgE, para asma alérgica com IgE total entre 30 e 1.500 UI/mL e sensibilização a aeroalérgeno perene — perfil exato deste menino), o mepolizumabe (anti-IL-5, para fenótipo eosinofílico, eosinófilos ≥150-300/µL) e o dupilumabe (anti-IL-4Rα, ≥6 anos, para asma eosinofílica ou dependente de corticoide oral). Os biológicos reduzem exacerbações em 40-60% e permitem retirar o corticoide oral; no SUS, o omalizumabe e o mepolizumabe estão incorporados por PCDT para asma grave.\nO corticoide oral contínuo (mesmo em dias alternados) é a última opção da etapa 5, pelos efeitos adversos cumulativos na criança — supressão adrenal, retardo de crescimento, osteoporose, catarata, obesidade — e os biológicos existem exatamente para evitá-lo. Suspender o LABA é um retrocesso: a adição de LABA ao CI é superior a dobrar a dose de CI em maiores de 5 anos, e o CI em dose alta isolado aumenta efeitos sistêmicos. A imunoterapia com ácaros (sublingual) pode ser considerada como ADJUVANTE em asma alérgica leve a moderada controlada, sendo contraindicada em asma não controlada ou grave, e jamais substitui o corticoide inalatório.\nConteúdo extra: antes do biológico, o especialista costuma confirmar o diagnóstico (espirometria, excluindo disfunção de cordas vocais e outras mimetizadoras), medir FeNO e eosinófilos para fenotipagem e checar a técnica mais uma vez. Pérola de prova: o único biológico com indicação bem estabelecida por IgE e sensibilização é o omalizumabe; os demais são guiados por eosinófilos.\n📚 Leitura sugerida (bloco): GINA — Global Strategy for Asthma Management and Prevention (2024), capítulos \"Assessment of asthma\" e \"Difficult-to-treat and severe asthma\"; complementar com a videoaula \"Emergências respiratórias\" do R+ Pediatria 2024 MEDGRUPO no Drive do Vinicius (https://drive.google.com/file/d/1KBDnpdSl6HD4AEn95UWahWjutRsEUNM4/view).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Medula, Cauda Equina e Dor Lombar (mielopatia compressiva cervical mimetizando doença do neurônio motor: escala mJOA e indicação cirúrgica) [RE ranking unificado #2: Vinicius, 100% de erro; ângulo inédito]",
+   "tier": "ALTO",
+   "vinheta": "Homem, 66 anos, ex-trabalhador rural, procura atendimento por fraqueza e emagrecimento das mãos há 8 meses, com dificuldade para abotoar a camisa, câimbras e contrações musculares visíveis nos antebraços. Nos últimos 3 meses, notou que as pernas ficaram 'duras e pesadas', com marcha lenta, e passou a ter urgência miccional. Nega disartria, disfagia ou dispneia. Ao exame: atrofia dos interósseos e da região hipotenar bilateralmente, fasciculações nos antebraços; reflexo bicipital diminuído com tricipital vivo; reflexos patelares e aquileus exaltados com clônus bilateral; sinal de Hoffmann e sinal de Babinski bilaterais; hipopalestesia nos pés; sensação de choque descendo pela coluna à flexão do pescoço; marcha espástica. Língua sem atrofia ou fasciculações, musculatura facial normal.",
+   "perguntas": [
+    {
+     "enunciado": "Qual é o diagnóstico mais provável?",
+     "alternativas": {
+      "a": "Mielopatia cervical espondilótica",
+      "b": "Siringomielia cervical",
+      "c": "Degeneração combinada subaguda da medula",
+      "d": "Esclerose lateral amiotrófica"
+     },
+     "correta": "a",
+     "comentario": "A alternativa correta é mielopatia cervical espondilótica. O caso reúne sinais de neurônio motor inferior nos membros superiores (atrofia e fasciculações no nível da compressão, por lesão das raízes e do corno anterior cervical) com sinais de neurônio motor superior abaixo dela (espasticidade, hiper-reflexia, clônus, Hoffmann e Babinski) — e é exatamente por isso que mimetiza a ELA. O que desfaz a armadilha são três elementos que a doença do neurônio motor NÃO tem: comprometimento SENSITIVO (hipopalestesia, sinal de Lhermitte), disfunção ESFINCTERIANA (urgência miccional) e o padrão de \"inversão de reflexo\" (bicipital diminuído, do nível C5-C6 comprimido, com tricipital e reflexos abaixo exaltados), que localiza a lesão na medula cervical. A ausência de acometimento bulbar (língua e face normais) reforça a origem medular.\nA ELA é descartada precisamente pela presença de sintomas sensitivos e esfincterianos e pela distribuição segmentar cervical — em ELA a sensibilidade e os esfíncteres são poupados por definição e as fasciculações costumam ser difusas, incluindo a língua. Siringomielia produz a clássica dissociação sensitiva suspensa \"em capa\" (perda termoalgésica com tato e propriocepção preservados) e arreflexia de membros superiores, sem Lhermitte típico. A degeneração combinada subaguda (deficiência de B12) acomete cordões posteriores e laterais com ataxia sensitiva proeminente e polineuropatia, mas não produz atrofia segmentar das mãos com fasciculações nem reflexos invertidos em um nível cervical definido.\nPérola: em todo paciente com \"ELA\" que tenha dor cervical, Lhermitte, alteração sensitiva ou queixa urinária, a RM de coluna cervical é obrigatória antes de fechar o diagnóstico de doença do neurônio motor.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "A ressonância magnética cervical mostra estenose degenerativa em C5-C6 e C6-C7 com compressão medular e hipersinal intramedular focal em T2 no nível C5-C6. A pontuação na escala mJOA (modified Japanese Orthopaedic Association) é 12. Como se classifica a gravidade da mielopatia?",
+     "alternativas": {
+      "a": "A escala não se aplica, pois avalia radiculopatia",
+      "b": "Grave",
+      "c": "Moderada",
+      "d": "Leve"
+     },
+     "correta": "c",
+     "comentario": "A resposta é mielopatia moderada. A escala mJOA vai de 0 a 18 pontos e avalia quatro domínios: função motora dos membros superiores (0-5), função motora dos membros inferiores (0-7), sensibilidade dos membros superiores (0-3) e função esfincteriana (0-3). Os pontos de corte adotados pela diretriz AO Spine/CSRS (2017) e usados nos ensaios clínicos são: LEVE 15-17, MODERADA 12-14 e GRAVE 0-11. Com 12 pontos, o paciente está na faixa moderada, o que tem implicação direta na conduta (ver próxima pergunta).\nClassificar como leve ignoraria o valor numérico e a presença de alterações esfincterianas, que já pontuam perda. Grave exigiria ≤11 pontos. A escala mJOA é específica para MIELOPATIA cervical — para radiculopatia usam-se índices de dor e função como NDI e escala visual analógica; portanto a última alternativa está errada.\nConteúdo extra sobre a imagem: o hipersinal intramedular em T2 no nível da compressão indica edema/gliose e é o achado que sinaliza sofrimento medular; quando se associa a HIPOSSINAL em T1 (mielomalácia/cavitação) o prognóstico de recuperação é pior. Compressão medular assintomática em RM é frequente em idosos e NÃO define doença — o diagnóstico é clínico-radiológico. A ENMG, quando feita, ajuda a separar da ELA: na espondilose a denervação é restrita aos miótomos cervicais comprimidos, enquanto na doença do neurônio motor aparece em regiões não explicáveis pela coluna cervical (língua, paraespinhais torácicos, membros inferiores), com condução sensitiva normal em ambas.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Qual é a conduta mais adequada para este paciente?",
+     "alternativas": {
+      "a": "Colar cervical e fisioterapia, com reavaliação em 6 meses",
+      "b": "Descompressão cirúrgica da medula cervical",
+      "c": "Tração cervical e anti-inflamatório não esteroidal",
+      "d": "Riluzol e acompanhamento neurológico"
+     },
+     "correta": "b",
+     "comentario": "A alternativa correta é a descompressão cirúrgica. Pela diretriz AO Spine/CSRS (Fehlings et al., 2017), a cirurgia é RECOMENDADA para mielopatia cervical degenerativa MODERADA e GRAVE (mJOA ≤14) e para os casos leves com progressão documentada; para mielopatia leve estável, admite-se cirurgia ou tratamento conservador supervisionado com reavaliação estruturada. Este paciente tem doença moderada, história de progressão ao longo de meses (agora com esfíncter e marcha comprometidos) e sinal intramedular — todos argumentos para operar. O objetivo principal da cirurgia é INTERROMPER a progressão; a recuperação do déficit já instalado é parcial, e quanto maior a duração e a gravidade pré-operatória, menor o ganho.\nColar e fisioterapia por 6 meses seriam aceitáveis apenas em mielopatia leve sem progressão — aqui apenas atrasariam a descompressão em uma medula que já mostra sinal de sofrimento. Tração cervical e AINE pertencem ao manejo da cervicalgia/radiculopatia; na mielopatia com estenose a tração não tem benefício e a manipulação (quiropraxia) é formalmente contraindicada, pelo risco de agravamento agudo. Riluzol é fármaco da ELA — diagnóstico já afastado — e o ensaio CSM-Protect não mostrou benefício adicional do riluzol à cirurgia na mielopatia degenerativa.\nPérolas de prova: em canal cervical estenótico, um trauma banal em hiperextensão pode produzir síndrome medular central aguda; e o paciente operado deve saber que a espasticidade e a disfunção de esfíncter podem persistir. Fatores de mau prognóstico: idade avançada, mJOA baixo, duração longa dos sintomas, hipossinal em T1 e atrofia medular.\n📚 Leitura sugerida (bloco): Merritt, Tratado de Neurologia (13ª ed.), Seção 15 — Doenças da Medula Espinal (espondilose cervical); complementar com Tratado de Neurologia da ABN (3ª ed., 2025), cap. 114 — Radiculopatias e Plexopatias, e a diretriz AO Spine/CSRS de mielopatia cervical degenerativa (2017).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecciosas regionais [REAL: SUS-BA R+ Pediatria 2021]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina, 7 anos de idade, é regulada do interior para internamento, com quadro de febre há, aproximadamente, 40 dias, fraqueza, palidez, perda do apetite e do peso, diarreia e aumento do volume abdominal. Ao exame, está hipoativa, febril. Ausculta cardíaca com bulhas rítmicas, taquicárdicas e campos pulmonares com murmúrios vesiculares rudes. Há hepatoesplenomegalia. Os exames laboratoriais mostram: Hemoglobina: 8,2 g/dL; Leucócitos: 1.080/mm³ (linfócitos 60%; segmentados 35%; 1% bastões; 2% eosinófilos); Plaquetas: 50.000/mm³; VHS: 70; Albumina: 2,5 g/dL; Globulina: 3,1 g/dL.",
+   "perguntas": [
+    {
+     "enunciado": "Indique a principal suspeita diagnóstica com base nos dados apresentados:",
+     "alternativas": {
+      "a": "Hepatite crônica.",
+      "b": "Esquistossomose hepatoesplênica.",
+      "c": "Leismaniose visceral.",
+      "d": "Doença hepática autoimune."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] A resposta é leishmaniose visceral (calazar). A banca monta a tétrade clássica da forma clínica: febre PROLONGADA (semanas), hepatoESPLENOmegalia volumosa, PANCITOPENIA (anemia, leucopenia intensa com neutropenia e plaquetopenia) e INVERSÃO da relação albumina/globulina (hipoalbuminemia com hipergamaglobulinemia policlonal), somadas a emagrecimento, palidez e procedência do interior da Bahia — um dos estados de maior incidência do país. O mecanismo é a multiplicação de Leishmania infantum (transmitida pelo flebotomíneo Lutzomyia longipalpis) nos macrófagos do sistema fagocítico mononuclear, com hiperplasia esplênica sequestrando as células do sangue, infiltração medular e ativação policlonal de linfócitos B.\nA hepatite crônica não explica febre de 40 dias nem esplenomegalia com pancitopenia tão marcadas e cursa com transaminases elevadas. A doença hepática autoimune tem hipergamaglobulinemia, mas em geral sem febre prolongada, sem leucopenia grave, e vem com autoanticorpos e transaminases altas. A esquistossomose hepatoesplênica é o grande diferencial regional na Bahia — dá esplenomegalia e hiperesplenismo com citopenias — mas cursa habitualmente AFEBRIL, com eosinofilia na fase aguda, e o fígado tem fibrose periportal (Symmers) com hipertensão portal; a febre prolongada com hipoalbuminemia grave aponta para o calazar.\nPérola: o índice de suspeição deve ser máximo em criança de área endêmica com febre >7 dias e esplenomegalia; a infecção pelo HIV e a desnutrição são fatores de gravidade. Diferenciais que a prova também explora: leucemia aguda (blastos), malária (procedência amazônica), febre tifoide e endocardite.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Identifique o exame considerado padrão ouro para confirmação diagnóstica da principal suspeita:",
+     "alternativas": {
+      "a": "Anátomo-patológico pós-biópsia.",
+      "b": "Parasitológico de fezes.",
+      "c": "Pesquisa direta em material de medula óssea.",
+      "d": "Pesquisa de Anticorpos."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O padrão-ouro é a demonstração direta do parasito — formas amastigotas em macrófagos — no aspirado de medula óssea (ou por cultura em meio NNN do mesmo material). A punção de medula tem sensibilidade de 60-85% e especificidade de 100%, com segurança aceitável mesmo com plaquetopenia; o aspirado ESPLÊNICO é o mais sensível (>95%), mas tem risco de hemorragia e não é rotina no Brasil. A biópsia hepática também pode mostrar amastigotas, com menor sensibilidade.\nO parasitológico de fezes não tem relação com o ciclo da Leishmania, que é intracelular em macrófagos de baço, fígado, medula e linfonodos — serviria para o diferencial de esquistossomose (ovos de S. mansoni). A pesquisa de anticorpos (imunofluorescência indireta, ELISA ou o teste rápido imunocromatográfico rK39) é o método de TRIAGEM mais usado na prática do SUS pela rapidez e sensibilidade alta (rK39 >90% em imunocompetentes), mas não é padrão-ouro: pode ser positiva em infecção assintomática ou passada, negativa no coinfectado por HIV e apresenta reação cruzada com doença de Chagas; o MS aceita sorologia reagente + clínica compatível como critério para iniciar tratamento, sem exigir a medula. O anátomo-patológico pós-biópsia (hepática ou esplênica) é possível, mas invasivo e menos sensível que a pesquisa direta em medula.\nConteúdo extra: a PCR em sangue/medula tem alta sensibilidade e ganha espaço, sobretudo no HIV; hemograma com pancitopenia, VHS muito elevada e inversão albumina/globulina são exames de apoio. A leishmaniose visceral é de notificação compulsória imediata em suspeita, e o caso deve ser investigado em até 7 dias.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Especifique a droga preferencial, disponível no SUS, para o tratamento de pacientes com essa doença:",
+     "alternativas": {
+      "a": "Oxaminiquine.",
+      "b": "Antimoniais pentavalentes.",
+      "c": "Pentamidina.",
+      "d": "Interferon Gama."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2021] O gabarito da banca é o antimoniato de N-metilglucamina (antimonial pentavalente, Glucantime), historicamente o fármaco de primeira escolha do Ministério da Saúde para a leishmaniose visceral: 20 mg/kg/dia de Sb5+ por 20-30 dias, endovenoso ou intramuscular, com monitorização de ECG (prolongamento do QT e arritmias), amilase/lipase, função renal e hepática. É preciso saber, porém, que a anfotericina B LIPOSSOMAL (3-5 mg/kg/dia por 5-7 dias, dose total ≥20 mg/kg) já era, em 2021, a droga de escolha em situações definidas pelo MS — idade <1 ano ou >50 anos, gravidade (escore de risco de óbito), insuficiência renal, hepática ou cardíaca, transplantados, gestantes, coinfecção com HIV, falha ou intolerância ao antimonial — e vem sendo ampliada como primeira linha nas atualizações mais recentes; em prova, siga a redação do enunciado (\"preferencial, disponível no SUS\") e o guia vigente da banca. Esta criança de 7 anos, sem sinais de gravidade descritos, seria elegível ao antimonial.\nInterferon-gama foi usado apenas de forma experimental como adjuvante e não é tratamento. Oxamniquina é esquistossomicida (hoje substituída pelo praziquantel) — o distrator regional. Pentamidina é droga de SEGUNDA linha, de uso restrito e com toxicidade pancreática (diabetes), renal e cardíaca; no Brasil fica reservada a situações especiais, sobretudo na forma tegumentar.\nConteúdo extra: a anfotericina B desoxicolato (1 mg/kg/dia por 14-20 dias) é alternativa quando não há a formulação lipossomal; medidas de suporte (antibiótico na neutropenia febril, transfusão criteriosa, nutrição) reduzem a letalidade, que é maior em <1 ano, com sangramento, icterícia, edema e infecção bacteriana associada. Critério de cura: clínico, com desaparecimento da febre em até 5 dias, regressão da esplenomegalia e recuperação hematológica ao longo de semanas; acompanhamento por 12 meses.\n📚 Leitura sugerida (bloco): Manual de Vigilância e Controle da Leishmaniose Visceral (Ministério da Saúde) e a Nota Informativa do MS sobre uso da anfotericina B lipossomal; complementar com a videoaula \"Infectologia / exantemáticas\" do R+ Pediatria 2024 MEDGRUPO no Drive do Vinicius (https://drive.google.com/file/d/1ayloTkRXLIY0gA34-LDh7q546oquQs6h/view).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuroinfecção (lesões expansivas múltiplas com realce anelar no HIV avançado)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Homem, 34 anos, com infecção pelo HIV diagnosticada há 6 anos e abandono da terapia antirretroviral há cerca de 1 ano, é trazido ao pronto-socorro com cefaleia progressiva há 10 dias, febre baixa e, nos últimos 2 dias, fraqueza do lado esquerdo do corpo e sonolência. Durante a avaliação apresenta crise motora focal no membro superior esquerdo. Exame: sonolento, orientado quando estimulado, hemiparesia esquerda desproporcionada de predomínio braquial, sem rigidez de nuca. Contagem de linfócitos T CD4+ de 48 células/µL; sorologia IgG anti-Toxoplasma gondii reagente. Tomografia de crânio com contraste: três lesões hipodensas com realce anelar, nos núcleos da base à direita e na junção corticossubcortical frontal direita, com edema vasogênico e desvio da linha média de 6 mm.",
+   "perguntas": [
+    {
+     "enunciado": "Qual é o diagnóstico mais provável?",
+     "alternativas": {
+      "a": "Neurotoxoplasmose",
+      "b": "Leucoencefalopatia multifocal progressiva",
+      "c": "Linfoma primário do sistema nervoso central",
+      "d": "Abscesso cerebral bacteriano"
+     },
+     "correta": "a",
+     "comentario": "A alternativa correta é neurotoxoplasmose, a lesão expansiva cerebral mais frequente no HIV avançado no Brasil. O quadro reúne todos os elementos: CD4 <100 (a reativação de cistos latentes de Toxoplasma ocorre quase sempre abaixo desse limiar), IgG anti-Toxoplasma reagente (a doença é REATIVAÇÃO — IgG negativa torna o diagnóstico improvável, embora não impossível), evolução subaguda de dias a semanas com cefaleia, febre, déficit focal e crise, e lesões MÚLTIPLAS com realce anelar e edema, de predileção pelos núcleos da base e pela junção corticossubcortical. O mecanismo é a reativação de bradizoítos enquistados com necrose e inflamação perilesional; a preferência pelos gânglios da base é dica clássica de prova.\nO linfoma primário do SNC (associado ao vírus Epstein-Barr) é o principal diferencial, mas tende a ser lesão ÚNICA, periventricular ou de corpo caloso, com realce mais homogêneo e menor edema para o tamanho — e é o diagnóstico a pensar quando não há resposta ao tratamento empírico. Abscesso bacteriano em imunossuprimido é possível, porém exige foco (otite, sinusite, endocardite, cirurgia) e costuma ser único, com restrição à difusão central; nada no caso aponta para ele. A LEMP (vírus JC) produz lesões de substância branca SEM realce e SEM efeito de massa, com déficit progressivo afebril — o oposto do que a TC mostra.\nPérola: tuberculoma e criptococoma também entram no diferencial de lesão com realce em HIV, mas são menos frequentes e habitualmente vêm com meningite associada; na prática, lesões múltiplas com realce anelar em CD4 <100 e IgG positiva justificam tratar como toxoplasmose até prova em contrário.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Qual é a conduta diagnóstica mais adequada neste momento?",
+     "alternativas": {
+      "a": "Punção lombar com pesquisa de Toxoplasma por PCR no líquor",
+      "b": "Tratamento empírico anti-Toxoplasma com reavaliação por imagem em 10 a 14 dias",
+      "c": "SPECT com tálio ou PET-FDG antes de qualquer tratamento",
+      "d": "Biópsia estereotáxica imediata da lesão"
+     },
+     "correta": "b",
+     "comentario": "A resposta é o tratamento empírico com reavaliação por imagem. Nos protocolos brasileiro (PCDT de manejo da infecção pelo HIV em adultos, MS) e internacionais (CDC/NIH/IDSA), paciente HIV com CD4 <100-200, IgG anti-Toxoplasma positiva e lesões múltiplas com realce recebe tratamento EMPÍRICO; a resposta clínica e radiológica em 10-14 dias (melhora em ~90% dos casos verdadeiros) funciona como confirmação diagnóstica. A biópsia fica reservada para ausência de resposta nesse prazo, deterioração precoce, lesão única com IgG negativa ou forte suspeita de linfoma.\nA biópsia estereotáxica imediata expõe a risco cirúrgico um paciente cuja probabilidade pré-teste de toxoplasmose é altíssima; só entra se o tratamento de prova falhar. A punção lombar está CONTRAINDICADA neste momento: há efeito de massa com desvio de linha média de 6 mm e rebaixamento do nível de consciência, risco de herniação. Além disso, a PCR para Toxoplasma no líquor tem alta especificidade, mas sensibilidade de apenas ~50-60%, de modo que um resultado negativo não excluiria a doença. SPECT com tálio ou PET podem ajudar a separar linfoma (hipercaptante) de toxoplasmose (hipocaptante), mas são exames de segunda linha, pouco disponíveis, e não devem atrasar o início do tratamento.\nConteúdo extra: a RM com contraste é mais sensível que a TC (detecta lesões adicionais e o sinal do \"alvo excêntrico\", relativamente específico de toxoplasmose); a ausência de melhora radiológica em 14 dias, sobretudo com PCR de EBV positiva no líquor quando este puder ser colhido, deve levar à biópsia por suspeita de linfoma.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Iniciou-se sulfadiazina, pirimetamina e ácido folínico, com melhora clínica em uma semana. Em relação à terapia antirretroviral (TARV), qual é a conduta correta?",
+     "alternativas": {
+      "a": "Iniciar a TARV no mesmo dia do início do tratamento da neurotoxoplasmose",
+      "b": "Aguardar a suspensão da profilaxia secundária para iniciar a TARV",
+      "c": "Aguardar o término das 6 semanas de indução para iniciar a TARV",
+      "d": "Iniciar a TARV nas primeiras 2 semanas do tratamento da neurotoxoplasmose"
+     },
+     "correta": "d",
+     "comentario": "A alternativa correta é iniciar a TARV nas primeiras 2 semanas. Para as infecções oportunistas NÃO meníngeas — neurotoxoplasmose incluída — o início precoce da TARV (em até 2 semanas) reduz a mortalidade e a progressão para AIDS sem aumento relevante de síndrome inflamatória da reconstituição imune (SIRI) clinicamente grave; é a recomendação do PCDT do Ministério da Saúde e das diretrizes do CDC/NIH. A exceção importante é a meningite criptocócica (e, com menor força, a meningite tuberculosa), em que o início muito precoce aumentou a mortalidade por SIRI e se recomenda aguardar 4-6 semanas.\nIniciar no MESMO dia é cedo demais para uma lesão expansiva cerebral com edema: recomenda-se estabilizar o quadro e observar a resposta inicial ao tratamento específico antes de somar a TARV, evitando a sobreposição de toxicidades e uma resposta inflamatória intracraniana precoce. Aguardar 6 semanas ou o fim da profilaxia secundária representa atraso injustificado em um paciente com CD4 de 48, sob risco de outras oportunistas.\nConteúdo extra: o esquema de escolha é sulfadiazina + pirimetamina + ÁCIDO FOLÍNICO (leucovorina, e não ácido fólico, que é inativo para contrapor a toxicidade medular da pirimetamina) por pelo menos 6 semanas; sulfametoxazol-trimetoprima é a alternativa recomendada pelo MS quando não há pirimetamina disponível. Segue-se profilaxia secundária (mesmas drogas em dose menor) até CD4 >200 células/µL por ≥6 meses com carga viral suprimida. Corticoide só se houver efeito de massa importante com risco de herniação, e anticonvulsivante apenas para quem teve crise — não profilaticamente. Profilaxia primária com sulfametoxazol-trimetoprima está indicada para todo paciente com CD4 <100 e IgG anti-Toxoplasma positiva.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 142 — AIDS e Sistema Nervoso; complementar com o PCDT para Manejo da Infecção pelo HIV em Adultos (Ministério da Saúde), módulo de infecções oportunistas.",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Emergências Pediátricas (trauma e atendimento pré-hospitalar) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ALTO",
+   "vinheta": "O Serviço de Atendimento Pré-Hospitalar é acionado para um acidente. O primeiro socorrista constata uma cena de acidente de trânsito, envolvendo uma criança de 5 anos. A criança estava no banco traseiro de um veículo que colidiu com outro carro. O impacto foi significativo. A criança está consciente, chorando e queixando-se de dor abdominal. Está presa na cadeirinha do carro. Há danos no veículo.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o caso, o cenário do atendimento e diretrizes do PHTLS e ATLS: Indique o parâmetro a constituir a primeira avaliação na criança:",
+     "alternativas": {
+      "a": "A pulsação da criança.",
+      "b": "A saturação de oxigênio.",
+      "c": "O exame neurológico completo.",
+      "d": "A permeabilidade das vias aéreas e a respiração."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A resposta é a permeabilidade das vias aéreas e a respiração. A avaliação primária do trauma segue a sequência ABCDE (com o X de hemorragia exsanguinante à frente no PHTLS mais recente — XABCDE), e a primeira letra é a via aérea com proteção da coluna cervical, seguida imediatamente da respiração/ventilação. A lógica é hierárquica: a obstrução da via aérea mata em minutos, antes que qualquer outra lesão; e na criança a via aérea é especialmente vulnerável — occipital proeminente que flete o pescoço, língua grande, laringe alta e anterior, traqueia curta e estreita, o que torna a obstrução e a hipóxia as causas mais frequentes de parada cardiorrespiratória no trauma pediátrico. O fato de a criança estar chorando já informa que a via aérea está pérvia neste momento, mas a avaliação deve ser formal e reavaliada continuamente.\nA pulsação pertence ao C (circulação): é o passo seguinte, avaliando pulsos, perfusão capilar e sinais de choque — importante, mas não o primeiro. A saturação de oxigênio é dado do B e depende de oxímetro; nunca substitui o exame clínico da via aérea e da expansibilidade. O exame neurológico completo é o D (disfunção neurológica), feito de modo sumário na avaliação primária (AVDN/Glasgow, pupilas) e detalhado apenas na avaliação secundária.\nPérola: o Triângulo de Avaliação Pediátrica (aparência, trabalho respiratório, circulação da pele) é a impressão inicial em segundos antes do ABCDE; e a criança que chora tem via aérea pérvia, respiração presente e perfusão cerebral suficiente — um \"bom sinal\", mas que não dispensa a sequência.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Considerando o caso, o cenário do atendimento e diretrizes do PHTLS e ATLS, identifique a melhor abordagem para imobilização e transporte da criança para o hospital:",
+     "alternativas": {
+      "a": "Realizar imobilização rígida da coluna cervical e, então, removê-la da cadeirinha.",
+      "b": "Imobilizar a criança na posição em que está e transportá-la na cadeirinha.",
+      "c": "Usar colar cervical na posição em que foi encontrada e transportá-la na cadeirinha.",
+      "d": "Remover a criança da cadeirinha do carro e imobilizá-la na maca, em posição neutra."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O gabarito é realizar a imobilização cervical rígida e, só então, retirar a criança da cadeirinha. O princípio do PHTLS é que, em mecanismo de trauma significativo (colisão com impacto importante e danos no veículo), presume-se lesão de coluna cervical até que se prove o contrário, sobretudo na criança, cuja cabeça proporcionalmente grande e ligamentos frouxos favorecem lesões altas (C1-C3) e a lesão medular sem alteração radiográfica (SCIWORA). A sequência correta é: estabilização manual alinhada da cabeça, colar cervical de tamanho pediátrico, e a seguir a extricação com movimento em bloco para a prancha/dispositivo pediátrico, com coxins sob o tronco (não sob a cabeça) para manter a posição neutra, compensando o occipital proeminente.\nTransportar na cadeirinha, mesmo com colar, é conduta que a banca considera errada: a cadeirinha pode estar danificada, não permite avaliação completa do tronco e do abdome (a criança se queixa de dor abdominal), não garante alinhamento neutro nem o acesso rápido à via aérea, e o PHTLS orienta remover a criança para um dispositivo próprio quando há mecanismo significativo ou necessidade de exame. Remover primeiro e imobilizar depois, em posição neutra na maca, inverte a ordem — a mobilização sem estabilização cervical prévia é exatamente o risco a evitar.\nConteúdo extra: a restrição de movimento da coluna deve ser seletiva — crianças sem dor cervical, sem déficit neurológico, alertas e com mecanismo leve podem ser liberadas por critérios clínicos (PECARN); mas o mecanismo aqui é significativo. A prancha rígida é dispositivo de extricação, não de transporte prolongado (úlceras por pressão, dor); o colar mal ajustado pode obstruir a via aérea ou aumentar a PIC.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Considerando o caso, o cenário do atendimento e diretrizes do PHTLS e ATLS: Indique a conduta apropriada pela equipe de atendimento pré-hospitalar, em relação a avaliação da dor abdominal mencionada pela criança:",
+     "alternativas": {
+      "a": "Pressionar a área abdominal com firmeza para verificar se, realmente, há dor.",
+      "b": "Realizar uma ultrassonografia abdominal, no local do acidente.",
+      "c": "Realizar uma incisão abdominal de emergência para avaliar os órgãos internos.",
+      "d": "Evitar qualquer palpação abdominal e transportar a criança para o hospital."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O gabarito é evitar a palpação abdominal e transportar rapidamente. No pré-hospitalar, a dor abdominal após colisão em criança presa por cinto ou cadeirinha levanta a hipótese de trauma abdominal fechado — lesão de baço ou fígado (os órgãos mais atingidos), lesão de vísceras ocas e mesentério (o \"sinal do cinto de segurança\" associa-se a perfuração intestinal e fratura de Chance da coluna lombar) —, e nada que se faça na cena muda o tratamento dessas lesões; o que define o prognóstico é o tempo até o hospital com capacidade cirúrgica. A palpação repetida e vigorosa é dolorosa, pode agravar sangramento de órgão sólido e atrasa o transporte; observa-se o abdome (distensão, equimoses, marca do cinto) e prioriza-se a estabilização ABCDE e o transporte, com acesso venoso e analgesia a caminho, se possível.\nA ultrassonografia (FAST) tem lugar no hospital (ou em ambulâncias avançadas onde exista o recurso), mas na criança tem sensibilidade limitada para lesões de órgão sólido, e o resultado não altera a decisão de transportar — não deve ser feita na cena atrasando a saída. Pressionar com firmeza \"para verificar se há dor\" é exatamente a manobra a evitar. Incisão abdominal na cena é absurdo cirúrgico: laparotomia é procedimento hospitalar, indicado apenas para instabilidade hemodinâmica refratária ou peritonite, sendo que a maioria das lesões de baço e fígado na criança estável é tratada de forma NÃO operatória.\nConteúdo extra: na criança, a hipotensão é sinal TARDIO de choque (compensação vigorosa por taquicardia e vasoconstrição — perda de 25-30% da volemia antes de cair a PA); taquicardia persistente, enchimento capilar >2 s e pele fria devem ser interpretados como choque. A regra \"load and go\" do PHTLS limita o tempo em cena a cerca de 10 minutos no trauma grave.\n📚 Leitura sugerida (bloco): PHTLS — Atendimento Pré-Hospitalar ao Traumatizado (NAEMT, 9ª ed.), capítulo de trauma pediátrico; complementar com o material \"Choque em Pediatria\" do Drive do Vinicius (https://drive.google.com/file/d/11Wx8xIUFnHO1M-dvnxHASuSgNWNSz9H8/view).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Junção Neuromuscular (doença da placa motora na gestante: pré-eclâmpsia e repercussão no recém-nascido)",
+   "tier": "ESSENCIAL",
+   "vinheta": "Mulher, 29 anos, com doença autoimune da junção neuromuscular generalizada, anticorpo antirreceptor de acetilcolina positivo, diagnosticada há 4 anos, timectomizada, em uso de piridostigmina 60 mg quatro vezes ao dia e prednisona 10 mg/dia, estável há 2 anos. Está na 36ª semana de gestação e é admitida com pressão arterial de 160x110 mmHg, proteinúria de 2+, cefaleia e escotomas cintilantes. Reflexos osteotendíneos vivos. A obstetrícia indica resolução da gestação após estabilização.",
+   "perguntas": [
+    {
+     "enunciado": "Entre as medidas habituais no manejo da pré-eclâmpsia grave, qual deve ser EVITADA nesta paciente?",
+     "alternativas": {
+      "a": "Sulfato de magnésio",
+      "b": "Nifedipino oral",
+      "c": "Resolução da gestação",
+      "d": "Hidralazina endovenosa"
+     },
+     "correta": "a",
+     "comentario": "A alternativa correta é o sulfato de magnésio, que é formalmente CONTRAINDICADO na miastenia gravis. O magnésio reduz a liberação pré-sináptica de acetilcolina (compete com o cálcio nos canais dependentes de voltagem do terminal motor) e diminui a sensibilidade pós-sináptica da placa; em uma paciente cuja margem de segurança da transmissão neuromuscular já está reduzida pelos anticorpos anti-AChR, o resultado pode ser fraqueza generalizada abrupta, insuficiência respiratória e crise miastênica — há relatos de crise após uma única dose de ataque. Para a profilaxia de eclâmpsia na miastênica, as recomendações sugerem levetiracetam ou valproato (fenitoína e benzodiazepínicos também interferem na transmissão e devem ser evitados ou usados com cautela).\nHidralazina e nifedipino são os anti-hipertensivos de escolha da emergência hipertensiva gestacional e não têm efeito clinicamente relevante sobre a placa motora — os bloqueadores de canal de cálcio são citados como potenciais agravantes, mas o nifedipino é considerado aceitável e é preferido ao labetalol, já que betabloqueadores podem piorar a miastenia. A resolução da gestação está indicada pela pré-eclâmpsia grave com sinais premonitórios a termo e não é contraindicada pela miastenia; o parto vaginal é preferido, lembrando que a musculatura lisa uterina não é afetada (a fase expulsiva, que depende de músculo estriado, pode exigir apoio instrumental), e a anestesia regional é a de escolha, evitando bloqueadores neuromusculares e, se inevitáveis, usando doses reduzidas com monitorização.\nPérolas: a miastenia tende a piorar no primeiro trimestre e no puerpério; piridostigmina, prednisona e azatioprina são consideradas compatíveis com a gestação; micofenolato e metotrexato são teratogênicos e devem ser trocados antes da concepção; aminoglicosídeos e fluoroquinolonas são antibióticos a evitar.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "O parto ocorre por via vaginal, com recém-nascido a termo, Apgar 8 e 9, sem malformações. Com 30 horas de vida, o bebê apresenta hipotonia, choro fraco, sucção débil e ptose discreta, sem febre ou instabilidade hemodinâmica. Qual é o diagnóstico mais provável?",
+     "alternativas": {
+      "a": "Síndrome miastênica congênita",
+      "b": "Miastenia neonatal transitória",
+      "c": "Sepse neonatal precoce",
+      "d": "Atrofia muscular espinhal tipo 1"
+     },
+     "correta": "b",
+     "comentario": "A resposta é miastenia neonatal transitória, que acomete 10-20% dos filhos de mães miastênicas. O mecanismo é a passagem TRANSPLACENTÁRIA de IgG anti-AChR materna, que bloqueia os receptores fetais; por isso o quadro é de fraqueza bulbar e generalizada (sucção e deglutição débeis, choro fraco, hipotonia, ptose, ocasionalmente insuficiência respiratória) que surge tipicamente entre 12 e 72 horas de vida — raramente ao nascer, porque a acetilcolina fetal e a anticolinesterase materna ainda circulam — e se resolve à medida que os anticorpos maternos são catabolizados, em geral em 2 a 4 semanas (até 3 meses). O risco não se correlaciona bem com a gravidade materna nem com a timectomia, mas é maior quando há título alto de anticorpos e quando um filho anterior foi afetado.\nA síndrome miastênica congênita é doença GENÉTICA (mutações de subunidades do receptor, colinesterase, rapsina etc.), sem anticorpos, com quadro persistente por toda a vida e sem relação com miastenia materna — em um bebê de mãe anti-AChR positiva, a hipótese transitória é muito mais provável. A atrofia muscular espinhal tipo 1 dá hipotonia com fasciculações de língua, arreflexia e padrão de fraqueza proximal progressiva, sem ptose e sem melhora espontânea; não se manifesta como fraqueza bulbar de início às 30 horas em um bebê previamente normal. Sepse precoce é o diferencial obrigatório de todo RN hipoativo, mas o Apgar normal, a ausência de febre, de instabilidade hemodinâmica e de fatores de risco perinatais, somados à ptose e à mãe miastênica, tornam-na improvável — ainda assim, é razoável colher culturas se houver dúvida.\nPérola: uma forma rara, a artrogripose múltipla congênita fetal, ocorre quando os anticorpos maternos são dirigidos contra a subunidade GAMA (fetal) do receptor, com acinesia intrauterina e contraturas ao nascer.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Qual é a conduta mais adequada para este recém-nascido?",
+     "alternativas": {
+      "a": "Plasmaférese",
+      "b": "Timectomia precoce",
+      "c": "Suporte e neostigmina sob demanda, com resolução espontânea esperada em semanas",
+      "d": "Imunoglobulina endovenosa e corticoide"
+     },
+     "correta": "c",
+     "comentario": "A alternativa correta é o tratamento de suporte com anticolinesterásico sob demanda. Como a doença resulta de anticorpos maternos que serão eliminados naturalmente, o objetivo é atravessar as semanas de fraqueza com segurança: observação em unidade neonatal por pelo menos 48-72 horas (todos os filhos de mães miastênicas, mesmo assintomáticos ao nascer, devem ser observados pelo menos 48-72 h, já que o início pode ser tardio), alimentação por sonda quando a sucção é insuficiente, monitorização respiratória e suporte ventilatório se necessário. A neostigmina (por exemplo, 0,04 mg/kg IM ou piridostigmina oral) 20-30 minutos antes das mamadas melhora a sucção e a deglutição e é retirada progressivamente conforme a recuperação, em geral completa e sem sequelas.\nIVIG e corticoide são reservados aos casos graves com insuficiência respiratória refratária ao anticolinesterásico; em um RN estável hemodinamicamente, sem apneia, seriam excessivos. A plasmaférese tem os mesmos limites e é tecnicamente difícil e arriscada no neonato — também de exceção. A timectomia não faz sentido: o timo do bebê não está produzindo os anticorpos, que são maternos; a timectomia é tratamento da miastenia autoimune do adulto jovem (anti-AChR positiva, generalizada, sobretudo entre 18 e 50-65 anos, conforme o ensaio MGTX), não da forma neonatal transitória.\nConteúdo extra sobre a mãe: o aleitamento é permitido com piridostigmina e prednisona (e a passagem de anticorpos pelo leite é clinicamente irrelevante); o puerpério é período de risco de exacerbação materna, exigindo reavaliação neurológica nas primeiras semanas. Recém-nascidos afetados não desenvolvem miastenia autoimune no futuro por causa desse episódio.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 110 — Miastenia Grave Adquirida (seções sobre gestação e miastenia neonatal); complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 12 — Doenças Neuromusculares.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Endocrinologia (diabetes no adolescente) [REAL: SUS-BA R+ Pediatria 2024]",
+   "tier": "ALTO",
+   "vinheta": "Adolescente, sexo masculino, 15 anos de idade, apresenta polidipsia, poliúria, emagrecimento não intencional e astenia nas últimas semanas, com prejuízo notável na concentração escolar. Nega febre ou outros sintomas sistêmicos. Apresenta IMC de 28 kg/m². Os exames laboratoriais demonstram glicemia de jejum de 180 mg/dL, hemoglobina glicada 10%; Teste de tolerância à glicose oral de 240 mg/dL após 2 horas e cetonúria positiva. Leucograma: 9000 cel/mm³ com diferencial normal. Peptídeo C em jejum: 0,5 ng/dL (VN de 0,9 a 7,1 ng/dL). Outros parâmetros laboratoriais, como função tireoidiana, eletrólitos séricos, hemograma completo e elastase fecal 1 estão normais.",
+   "perguntas": [
+    {
+     "enunciado": "Considerando o quadro clínico e os achados laboratoriais do adolescente, indique o diagnóstico mais provável:",
+     "alternativas": {
+      "a": "Diabetes tipo 2 do tipo MODY (Mature Onset Diabetes of the Young).",
+      "b": "Diabetes do tipo 3 C.",
+      "c": "Cetoacidose diabética.",
+      "d": "Diabetes tipo 1 em fase de descompensação."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A resposta é diabetes mellitus tipo 1 descompensado. A banca dá os critérios diagnósticos de diabetes (glicemia de jejum ≥126 mg/dL, HbA1c ≥6,5%, glicemia de 2 h no TOTG ≥200 mg/dL — qualquer um basta, e aqui todos estão presentes com sintomas clássicos) e depois o dado que define o TIPO: peptídeo C BAIXO (0,5, abaixo do valor de referência), marcador de deficiência de insulina endógena por destruição autoimune das células beta, somado à cetonúria (lipólise por falta de insulina) e ao emagrecimento. O IMC de 28 é uma armadilha deliberada: a obesidade é cada vez mais prevalente e não exclui o tipo 1 — cerca de 1/4 dos adolescentes com DM1 tem sobrepeso ao diagnóstico. Autoanticorpos (anti-GAD65, anti-IA2, anti-insulina, anti-ZnT8) confirmariam a autoimunidade, mas o peptídeo C baixo já orienta.\nMODY (diabetes monogênico de início juvenil) é autossômico dominante, com história familiar em 2-3 gerações, hiperglicemia leve, SEM cetose e com peptídeo C PRESERVADO — e não é \"tipo 2\", como o distrator confunde de propósito. Cetoacidose diabética exige a TRÍADE hiperglicemia + cetose + ACIDOSE (pH <7,3 ou bicarbonato <15-18 mEq/L); o enunciado informa eletrólitos normais e não traz gasometria, acidose nem sinais clínicos (vômitos, dor abdominal, Kussmaul, desidratação) — há cetonúria, mas não cetoacidose. Diabetes tipo 3c é o secundário a doença do pâncreas exócrino (pancreatite crônica, fibrose cística, pancreatectomia), afastado pela elastase fecal normal — exatamente por isso a banca a incluiu.\nPérola: em todo diabetes de início na adolescência com obesidade, o diferencial tipo 1 x tipo 2 se faz por autoanticorpos e peptídeo C; acantose nigricans, hipertensão e dislipidemia apontam para o tipo 2, cetose e perda de peso para o tipo 1.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica mais adequada para o caso:",
+     "alternativas": {
+      "a": "Iniciar hidratação com solução isotônica e insulinoterapia endovenosa (0,1 U/kg em bolus) e com ajuste de dose, conforme necessidade.",
+      "b": "Iniciar monoterapia com metformina 1,0 g/dia para melhorar a sensibilidade à insulina.",
+      "c": "Prescrever agonistas do receptor de GLP-1 para estimular a secreção endógena de insulina.",
+      "d": "Iniciar insulina: 0,5 a 1,0 U/kg de peso ideal/dia, dividida em dose basal de insulina de longa ação e doses pós-prandiais de curta ação, com reajustes."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] O gabarito é o esquema basal-bolus subcutâneo. O diabetes tipo 1 é deficiência absoluta de insulina, e o tratamento desde o diagnóstico é a reposição fisiológica: dose total inicial de 0,5-1,0 U/kg/dia (menor na \"lua de mel\", maior na puberdade, pela resistência insulínica fisiológica do estirão — adolescentes podem precisar de 1,2-1,5 U/kg/dia), dividida em ~40-50% de insulina basal (NPH em 2-3 doses ou análogos de longa ação — glargina, detemir, degludeca) e 50-60% em bolus prandiais de insulina regular ou análogos ultrarrápidos (lispro, asparte, glulisina), ajustados por contagem de carboidratos e glicemia pré-refeição, com automonitorização ou sensor de glicose. É o padrão da SBD e da ISPAD e está disponível no SUS.\nA metformina não trata deficiência de insulina — é sensibilizador para o tipo 2 (pode, no máximo, ser adjuvante em DM1 com obesidade e resistência, nunca monoterapia). Agonistas do GLP-1 dependem de célula beta funcionante para estimular secreção de insulina; num paciente com peptídeo C baixo são ineficazes e não aprovados para DM1. A opção C descreve o protocolo de CETOACIDOSE: hidratação isotônica e insulina endovenosa contínua a 0,1 U/kg/h — e, importante, o bolus inicial de insulina NÃO é recomendado em pediatria (aumenta risco de hipocalemia e de edema cerebral, e a insulina só deve começar 1-2 h após o início da hidratação). Como não há acidose, esse protocolo não se aplica, e a alternativa ainda contém o erro do bolus.\nConteúdo extra: educação em diabetes (hipoglicemia, dias de doença, cetonas), rastreio de doença celíaca e tireoidite autoimune associadas, e metas de HbA1c <7% (ISPAD) fazem parte da prescrição inicial.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique a conduta terapêutica, a longo prazo, para esse paciente:",
+     "alternativas": {
+      "a": "Tratamento focado na resolução espontânea da condição, à medida que o paciente alcança a idade adulta.",
+      "b": "Terapia com insulina ajustada para controle glicêmico com monitoramento regular de hemoglobina glicada.",
+      "c": "Introdução de medidas de suporte, como nutrição especializada e atividade física, como substitutos da terapia medicamentosa.",
+      "d": "Transição para antidiabéticos orais como tratamento definitivo após estabilização inicial."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2024] A resposta é a insulinoterapia por toda a vida, ajustada pela monitorização glicêmica e pela hemoglobina glicada. Como a destruição autoimune das células beta é irreversível, a dependência de insulina é permanente; a HbA1c (reflexo da glicemia média dos últimos 2-3 meses) é dosada a cada 3 meses, com meta <7% para a maioria das crianças e adolescentes (ISPAD 2022 e SBD), individualizada para evitar hipoglicemias graves. O acompanhamento inclui ainda tempo no alvo (70-180 mg/dL, meta >70%) quando há monitorização contínua, ajuste das doses ao crescimento e à puberdade, e rastreio anual de complicações a partir de 2-5 anos de doença ou da puberdade: microalbuminúria, fundo de olho, pressão arterial, lipídios, neuropatia, além de tireoide e doença celíaca.\nA transição para antidiabéticos orais é conceitualmente errada no tipo 1 — não há secreção endógena a estimular nem resistência a corrigir como problema central; suspender a insulina leva à cetoacidose. A \"resolução espontânea\" não existe; o que pode ocorrer nos primeiros meses é a fase de remissão parcial (\"lua de mel\"), com redução transitória das necessidades de insulina (<0,5 U/kg/dia) — que não deve ser confundida com cura, e a insulina não deve ser suspensa. Dieta e exercício são pilares OBRIGATÓRIOS do cuidado, mas complementares, jamais substitutos da insulina.\nConteúdo extra: no adolescente, o exercício exige ajuste de dose e carboidrato pelo risco de hipoglicemia tardia; álcool e transtornos alimentares (omissão de insulina para perder peso — \"diabulimia\") são preocupações específicas da faixa etária; transição planejada para o serviço de adultos e apoio psicossocial melhoram a adesão.\n📚 Leitura sugerida (bloco): Diretriz da Sociedade Brasileira de Diabetes (2023-2024), capítulos de diabetes tipo 1 em crianças e adolescentes e de metas glicêmicas; complementar com a videoaula \"Endocrinologia\" do R+ Pediatria 2024 MEDGRUPO no Drive do Vinicius (https://drive.google.com/file/d/1DfkaSxC7e73geDJxpMCfbVbx-VX53efB/view).",
+     "dificuldade": "facil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Doença do Neurônio Motor (síndrome do neurônio motor inferior de progressão lenta com sinais endócrinos: diferencial da ELA)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 48 anos, refere há 5 anos fraqueza lentamente progressiva das coxas, com dificuldade para subir escadas e levantar-se de cadeiras baixas, câimbras frequentes e tremor postural das mãos presente desde os 30 anos. Nos últimos 2 anos surgiram disartria leve, engasgos ocasionais com líquidos e contrações musculares no queixo ao sorrir. Refere que um tio materno teve 'doença dos músculos' semelhante e faleceu aos 71 anos. Ao exame: ginecomastia bilateral e testículos pequenos; atrofia e fasciculações da língua; fasciculações periorais desencadeadas pelo sorriso; fraqueza proximal simétrica grau 4 nos membros inferiores; reflexos osteotendíneos abolidos; reflexo cutâneo-plantar em flexão; hipopalestesia discreta nos tornozelos. Creatinofosfoquinase de 1.100 U/L; glicemia de jejum de 118 mg/dL.",
+   "perguntas": [
+    {
+     "enunciado": "Qual é o diagnóstico mais provável?",
+     "alternativas": {
+      "a": "Miopatia inflamatória",
+      "b": "Atrofia muscular espinhal tipo 4",
+      "c": "Esclerose lateral amiotrófica de início bulbar",
+      "d": "Atrofia muscular bulboespinhal ligada ao X (doença de Kennedy)"
+     },
+     "correta": "d",
+     "comentario": "A alternativa correta é a atrofia muscular bulboespinhal ligada ao X, ou doença de Kennedy. É uma doença de neurônio motor INFERIOR puro, de progressão muito lenta, causada pela expansão de repetições CAG no gene do receptor de androgênio (cromossomo X), o que explica o conjunto que a caracteriza: homem de meia-idade, fraqueza proximal e bulbar, fasciculações periorais e do queixo ao sorrir (sinal quase patognomônico), tremor de mãos que antecede a fraqueza em anos, CK elevada (frequentemente >1.000), INSENSIBILIDADE parcial aos androgênios com ginecomastia, atrofia testicular e infertilidade, resistência à insulina/diabetes e neuropatia SENSITIVA subclínica (hipopalestesia distal, potenciais sensitivos reduzidos na ENMG). A história do tio materno com sobrevida longa encaixa na herança ligada ao X.\nA ELA bulbar é a armadilha, mas exige sinais de neurônio motor SUPERIOR (hiper-reflexia, Hoffmann, Babinski, espasticidade), progressão rápida (sobrevida mediana de 2-3 anos após início bulbar) e poupa a sensibilidade — aqui há arreflexia difusa, 5 anos de evolução, ginecomastia e alteração sensitiva, tudo contra ELA. A AME tipo 4 (SMN1) também é neurônio motor inferior proximal de início adulto, porém tem herança autossômica recessiva, não afeta a região bulbar de forma proeminente, não cursa com fasciculações periorais, ginecomastia nem neuropatia sensitiva. Miopatia inflamatória produz fraqueza proximal com CK alta, mas SEM fasciculações, sem atrofia de língua e com reflexos preservados até fases tardias, além de responder a imunossupressão.\nPérola: uma parcela relevante dos pacientes com Kennedy recebe inicialmente o rótulo de ELA — a busca ativa de ginecomastia, tremor antigo, fasciculações do queixo e história familiar materna evita esse erro de grande impacto prognóstico.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Qual exame confirma o diagnóstico?",
+     "alternativas": {
+      "a": "Análise da expansão de repetições CAG no gene do receptor de androgênio",
+      "b": "Pesquisa de deleção do éxon 7 do gene SMN1",
+      "c": "Biópsia muscular com imuno-histoquímica",
+      "d": "Eletroneuromiografia com denervação ativa e crônica em três regiões"
+     },
+     "correta": "a",
+     "comentario": "A resposta é o teste genético para a expansão CAG no gene do receptor de androgênio (AR), no cromossomo X: alelos normais têm até cerca de 34-36 repetições e a doença ocorre com ≥38 (a maioria dos pacientes entre 40 e 55). O exame é feito em sangue periférico, tem sensibilidade e especificidade próximas de 100% e dispensa biópsia. O tamanho da expansão correlaciona-se inversamente com a idade de início, mas pouco com a velocidade de progressão.\nA ENMG mostra, de fato, denervação crônica difusa em Kennedy, mas não é confirmatória: denervação em três regiões (critérios de El Escorial/Gold Coast) sustenta ELA e levaria justamente ao diagnóstico ERRADO. O que a ENMG acrescenta no Kennedy é a REDUÇÃO dos potenciais de ação sensitivos (neuronopatia sensitiva do gânglio da raiz dorsal), achado que a ELA não tem e que deve fazer o examinador pensar na doença. A biópsia muscular mostra apenas atrofia neurogênica inespecífica (fibras anguladas, agrupamento de tipos de fibras) e não distingue as doenças de neurônio motor entre si. A deleção do éxon 7 do SMN1 confirma a atrofia muscular espinhal 5q, doença autossômica recessiva que não se acompanha de sinais androgênicos nem de fasciculações periorais.\nConteúdo extra: a doença de Kennedy é uma das doenças por expansão de poliglutamina (como Huntington e várias ataxias espinocerebelares), com toxicidade da proteína mutante no núcleo dos motoneurônios e no músculo; o gene mutante torna o receptor parcialmente insensível ao androgênio, o que explica a ginecomastia (ação relativa de estrogênios), a atrofia testicular e a oligospermia. Testosterona sérica costuma estar normal ou alta.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Qual é a orientação correta sobre prognóstico e aconselhamento genético?",
+     "alternativas": {
+      "a": "Sobrevida próxima da normal; as filhas serão portadoras obrigatórias",
+      "b": "Herança autossômica dominante, com 50% de risco para filhos de ambos os sexos",
+      "c": "Doença não hereditária, por mutação somática",
+      "d": "Sobrevida média de 3 a 5 anos; riluzol indicado"
+     },
+     "correta": "a",
+     "comentario": "A alternativa correta é a de sobrevida próxima da normal com filhas portadoras obrigatórias. A progressão é lenta (declínio funcional de cerca de 2% ao ano), com perda da marcha em média 20 anos após o início, e a expectativa de vida é apenas modestamente reduzida — os riscos maiores são pneumonia aspirativa e fraturas por quedas. Sendo a herança LIGADA AO X RECESSIVA, o homem afetado transmite o X mutante a TODAS as filhas (portadoras obrigatórias, em geral assintomáticas ou com câimbras leves) e a NENHUM filho (que recebe o Y); os netos das filhas terão 50% de risco de doença se homens.\nA sobrevida de 3-5 anos e o riluzol pertencem à ELA — o riluzol não tem indicação nem evidência no Kennedy, e o rótulo prognóstico errado tem enorme impacto sobre planejamento de vida. A herança não é autossômica dominante; o padrão de transmissão pela linhagem materna, com tios maternos afetados e ausência de transmissão pai-filho, é o que a prova espera que o candidato reconheça. Tampouco é doença adquirida ou somática: é germinativa, e o aconselhamento genético da família é parte da conduta.\nConteúdo extra: não há tratamento modificador aprovado; ensaios com leuprorrelina e dutasterida (redução do androgênio, que é o ligante que ativa a proteína tóxica) tiveram resultados modestos e inconsistentes. O manejo é multidisciplinar — fisioterapia sem sobrecarga, fonoaudiologia para a disfagia, rastreio de diabetes e dislipidemia (frequentes), atenção à ginecomastia e à saúde óssea. Exercício de alta intensidade e testosterona exógena devem ser evitados, pois podem agravar a doença.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 206 — Paraparesias Espásticas Hereditárias e Doença do Neurônio Motor (diferenciais da ELA), com o cap. 108 — Esclerose Lateral Amiotrófica; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 12 — Doenças Neuromusculares.",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Infecções respiratórias altas e ORL [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "ESSENCIAL",
+   "vinheta": "Menina de 8 meses é levada à UPA por febre há 3 dias e irritabilidade, com sono agitado e choro frequente. A mãe relata que, há cerca de uma semana, o bebê apresentou nariz entupido, coriza hialina e tosse leve, sintomas que haviam melhorado, quase totalmente, antes da febre reiniciar. Nega vômitos ou diarreia. Alimentação e diurese mantidas, porém, chora ao mamar e ao deitar. A lactente nasceu a termo, sem comorbidades; tem vacinas em dia. Ao exame físico, mostra-se irritada, chorosa, sem sinais de toxemia. Temperatura = 38,7°C; FC = 132 bpm; FR = 32 irpm. Narinas com discreta obstrução, secreção seromucosa. Orofaringe levemente hiperemiada, sem exsudato. Sem linfonodomegalia cervical ou sinais meníngeos. Auscultas cardíaca e pulmonar normais; abdome sem alterações. Otoscopia: à direita – membrana timpânica hiperemiada, abaulada, opaca, sem reflexo luminoso; presença de líquido retrotimpânico visível. À esquerda: membrana íntegra, translúcida, reflexo luminoso preservado.",
+   "perguntas": [
+    {
+     "enunciado": "Com base na situação descrita, indique a explicação fisiopatológica para o surgimento do quadro atual:",
+     "alternativas": {
+      "a": "Colonização da nasofaringe por agente viral de alta replicação.",
+      "b": "Migração de bactérias hematogênicas para o ouvido médio.",
+      "c": "Inflamação viral e infecção secundária da membrana timpânica.",
+      "d": "Edema da mucosa nasal e disfunção da tuba auditiva, havendo contaminação do ouvido médio."
+     },
+     "correta": "d",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A resposta é a disfunção da tuba auditiva secundária ao edema da mucosa nasal, com contaminação do ouvido médio por bactérias da nasofaringe. A história é o roteiro fisiopatológico da otite média aguda: uma infecção viral de vias aéreas superiores produz edema e hipersecreção da mucosa nasofaríngea, obstruindo a tuba auditiva — que no lactente é mais CURTA, mais HORIZONTAL e mais complacente —, o que gera pressão negativa e acúmulo de secreção na orelha média; as bactérias que colonizam a nasofaringe (pneumococo, Haemophilus não tipável, Moraxella) são então aspiradas para essa cavidade fechada e proliferam, produzindo a efusão purulenta, o abaulamento e a dor. O padrão bifásico (\"melhorou e a febre voltou\") é típico.\nA via hematogênica não é o mecanismo habitual da otite média — vale para meningite ou artrite séptica, não para uma infecção de contiguidade pela tuba. A colonização viral da nasofaringe é o gatilho, mas por si só não explica a otite; o distrator descreve o pródromo, não a fisiopatologia da complicação. A membrana timpânica não é o sítio primário da infecção: ela abaula e fica hiperemiada por causa do pus SOB ela, na orelha média; a infecção da própria membrana (miringite) é entidade distinta.\nConteúdo extra: os fatores de risco que a prova cobra são a idade (pico 6-18 meses), a frequência a creche, o tabagismo domiciliar, o uso de chupeta, a mamadeira em decúbito e a ausência de aleitamento materno; a vacina pneumocócica conjugada e a vacina influenza reduzem a incidência. Os critérios diagnósticos da AAP exigem abaulamento moderado/intenso da membrana OU otorreia recente não relacionada a otite externa OU abaulamento leve com otalgia recente e hiperemia intensa — a hiperemia isolada, sem abaulamento, NÃO fecha o diagnóstico (a criança chorando fica com a membrana vermelha).",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o agente etiológico mais frequentemente envolvido nesse tipo de infecção em lactentes:",
+     "alternativas": {
+      "a": "Streptococcus pneumoniae.",
+      "b": "Vírus Sincicial Respiratório.",
+      "c": "Haemophilus influenzae tipo b.",
+      "d": "Moraxella catarrhalis"
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O agente mais frequente é o Streptococcus pneumoniae, responsável por cerca de 30-50% das otites médias agudas bacterianas, seguido pelo Haemophilus influenzae NÃO tipável (25-30%) e pela Moraxella catarrhalis (10-15%). O pneumococo é também o que produz quadros mais febris e dolorosos e o que menos resolve espontaneamente, enquanto Moraxella e Haemophilus têm maior taxa de resolução espontânea. Após a introdução da vacina pneumocócica conjugada, houve queda proporcional do pneumococo e aumento relativo do Haemophilus não tipável em alguns estudos, mas as bancas brasileiras seguem cobrando o pneumococo como principal agente.\nMoraxella catarrhalis é o terceiro agente, quase sempre produtor de betalactamase, mas com alta resolução espontânea. O vírus sincicial respiratório e outros vírus (rinovírus, influenza, adenovírus) são encontrados isoladamente na efusão em ~10-20% dos casos e como copatógenos em muitos outros, mas o \"agente mais frequentemente envolvido\" na otite média aguda com abaulamento purulento é bacteriano. O Haemophilus influenzae tipo b (o encapsulado, causador de meningite e epiglotite) praticamente desapareceu com a vacinação universal e NUNCA foi o principal agente da otite — o Haemophilus da otite é o não tipável; este é o distrator que mais derruba candidatos.\nConteúdo extra: a produção de betalactamase pelo Haemophilus não tipável (~30-40% no Brasil) e pela Moraxella (>90%) justifica a associação de clavulanato quando há falha da amoxicilina, e a resistência do pneumococo à penicilina é vencida com o aumento da dose (veja a próxima questão). Otite com conjuntivite purulenta (\"síndrome otite-conjuntivite\") sugere Haemophilus.",
+     "dificuldade": "facil"
+    },
+    {
+     "enunciado": "Considerando a idade e o quadro clínico apresentados, indique a conduta terapêutica mais adequada:",
+     "alternativas": {
+      "a": "Amoxicilina em dose habitual e timpanostomia.",
+      "b": "Amoxicilina em dose alta e analgesia.",
+      "c": "Corticoide sistêmico e anti-histamínico por 5 dias.",
+      "d": "Cefalosporina e timpanostomia com aspiração da secreção."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A resposta é amoxicilina em dose alta com analgesia. Nesta lactente de 8 meses com otite média aguda UNILATERAL, febre de 38,7 °C e otalgia (choro ao mamar e ao deitar), a diretriz da AAP e o consenso da SBP recomendam tratar com antibiótico: a observação vigilante (\"watchful waiting\") só é opção em maiores de 6 meses com otite unilateral SEM sinais de gravidade (febre <39 °C, otalgia leve por <48 h) e com garantia de reavaliação em 48-72 h — e a banca considera a febre de 3 dias com irritabilidade importante como indicação de tratar. Menores de 6 meses sempre recebem antibiótico. A amoxicilina em dose ALTA (80-90 mg/kg/dia em 2 tomadas, por 10 dias em <2 anos) é a escolha porque vence o pneumococo com sensibilidade reduzida à penicilina, cujo mecanismo (alteração de PBP) é superado por concentração, não por betalactamase. A analgesia (dipirona/paracetamol ou ibuprofeno) é parte obrigatória do tratamento — a dor é o principal sintoma e o antibiótico só a alivia após 24-48 h.\nA dose habitual (40-50 mg/kg/dia) falha contra pneumococo resistente, e a timpanostomia (miringotomia) não é conduta inicial — reserva-se a otite refratária, complicações (mastoidite, paralisia facial), imunodeprimidos ou para coleta de cultura. Corticoide e anti-histamínico não têm benefício na otite média aguda (nem na efusão residual) e apenas expõem a efeitos adversos. Cefalosporina (cefuroxima, ceftriaxona) é segunda linha, para alergia à penicilina não anafilática ou falha; a associação com timpanostomia com aspiração é excesso.\nConteúdo extra: amoxicilina-clavulanato entra se houve amoxicilina nos últimos 30 dias, conjuntivite purulenta associada ou falha em 48-72 h; ceftriaxona IM por 1-3 dias quando há vômitos. Efusão residual persiste em ~50% após 1 mês e em 10% após 3 meses — não retratar; encaminhar se persistir >3 meses com hipoacusia.\n📚 Leitura sugerida (bloco): Diretriz da AAP — The Diagnosis and Management of Acute Otitis Media (2013) e o Tratado de Pediatria da SBP (capítulo de otite média aguda); complementar com a videoaula \"Infecções respiratórias\" do R+ Pediatria 2024 MEDGRUPO no Drive do Vinicius (https://drive.google.com/file/d/1Iq4YCQhEOZCAC1uMZ1ZArRBFyFB51OfW/view).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Demências (síndrome visuoespacial progressiva com memória relativamente preservada)",
+   "tier": "ALTO",
+   "vinheta": "Mulher, 61 anos, professora, é trazida pela filha por dificuldade progressiva há cerca de 2 anos para ler ('perde a linha, as letras se embaralham'), para estacionar o carro, para localizar objetos que estão à sua frente na mesa e para usar o computador. Trocou de óculos três vezes sem melhora; avaliação oftalmológica com acuidade corrigida e fundo de olho normais. Mantém a memória de compromissos e de conversas recentes, orienta-se no tempo e não teve alucinações, flutuações da atenção ou alterações da marcha. Ao exame: descreve elementos isolados de uma figura complexa sem apreender a cena; erra ao alcançar objetos sob controle visual; tem dificuldade para dirigir o olhar voluntariamente para um alvo; acalculia, agrafia, desorientação direita-esquerda e agnosia digital; nomeação e memória de evocação com pistas relativamente preservadas. Sem parkinsonismo, sem mioclonias. Mini-Exame do Estado Mental 22/30, com erros concentrados em cálculo, cópia do desenho e escrita.",
+   "perguntas": [
+    {
+     "enunciado": "Qual é o diagnóstico mais provável?",
+     "alternativas": {
+      "a": "Degeneração corticobasal",
+      "b": "Atrofia cortical posterior (variante visual da doença de Alzheimer)",
+      "c": "Demência com corpos de Lewy",
+      "d": "Doença de Creutzfeldt-Jakob, variante de Heidenhain"
+     },
+     "correta": "b",
+     "comentario": "A alternativa correta é a atrofia cortical posterior (ACP), síndrome neurodegenerativa em que a disfunção começa e predomina nas regiões parieto-occipitais, e cuja patologia subjacente é, em 80-90% dos casos, a doença de Alzheimer. O caso é típico: início antes dos 65 anos (a ACP é a apresentação atípica mais comum da DA de início precoce), queixas visuais complexas com exame oftalmológico normal e trocas repetidas de óculos, e a combinação de síndrome de Bálint (simultanagnosia — descreve partes, não a cena —, ataxia óptica — erra ao alcançar sob visão — e apraxia oculomotora) com síndrome de Gerstmann (acalculia, agrafia, desorientação direita-esquerda, agnosia digital), enquanto a memória episódica e a linguagem ficam relativamente poupadas nos primeiros anos. Os critérios de consenso de Crutch et al. (2017) exigem exatamente esse perfil visuoespacial/visuoperceptivo insidioso e progressivo com preservação relativa das demais funções e exclusão de causa oftalmológica.\nA demência com corpos de Lewy também produz déficit visuoespacial precoce, mas exige as características centrais — flutuação cognitiva, alucinações visuais bem formadas, parkinsonismo e transtorno comportamental do sono REM —, todas negadas. A variante de Heidenhain da doença de Creutzfeldt-Jakob começa com sintomas visuais corticais, porém evolui em SEMANAS a poucos meses, com mioclonias, ataxia e demência rapidamente progressiva — incompatível com 2 anos de curso lento e sem mioclonias. A degeneração corticobasal cursa com apraxia assimétrica, distonia, mioclonia e fenômeno da mão alienígena, com sinais motores proeminentes, ausentes aqui.\nPérola: em paciente com \"problema de visão\" que vários oftalmologistas não explicam, sobretudo com dificuldade de leitura, de dirigir e de achar objetos, pensar em ACP e testar simultanagnosia à beira do leito (figura do \"roubo dos biscoitos\" ou cenas complexas).",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Qual padrão de exames complementares é o esperado nesta síndrome?",
+     "alternativas": {
+      "a": "Hipometabolismo frontotemporal com biomarcadores amiloides negativos",
+      "b": "Redução da captação dopaminérgica estriatal no DaTscan",
+      "c": "Restrição à difusão cortical em fita e proteína 14-3-3 positiva",
+      "d": "Hipometabolismo parieto-occipital e Aβ42 baixo com p-tau elevada no líquor"
+     },
+     "correta": "d",
+     "comentario": "A resposta é hipometabolismo parieto-occipital com biomarcadores de doença de Alzheimer no líquor. A RM mostra atrofia parieto-occipital bilateral, frequentemente mais à direita, com hipocampos relativamente preservados — o inverso da DA amnéstica típica; o PET-FDG revela hipometabolismo posterior (parietal, occipital, temporo-occipital), e os biomarcadores de amiloide e tau (Aβ42 baixo ou razão Aβ42/40 baixa, p-tau181 e tau total elevadas no líquor, ou PET amiloide positivo) confirmam a etiologia Alzheimer na grande maioria dos casos. No esquema ATN (Amiloide/Tau/Neurodegeneração) do NIA-AA, a ACP por DA é A+T+N+ com topografia posterior.\nO padrão frontotemporal com biomarcadores negativos é o da degeneração lobar frontotemporal (variante comportamental ou afasias progressivas), síndromes de apresentação comportamental/linguística, não visuoespacial. Restrição à difusão em fita cortical (sinal do \"cortical ribboning\") com 14-3-3 positiva é a assinatura da doença priônica, e pediria evolução rapidamente progressiva. A redução da captação dopaminérgica estriatal no DaTscan é biomarcador indicativo de demência com corpos de Lewy ou de parkinsonismo degenerativo; na ACP por DA a via nigroestriatal está íntegra.\nConteúdo extra: o exame neuropsicológico formal documenta o predomínio visuoperceptivo/visuoespacial e a preservação relativa de memória e linguagem; campimetria pode mostrar hemianopsia ou déficits inferiores por comprometimento occipital. A minoria dos casos de ACP com biomarcadores de DA negativos deve-se a corpos de Lewy, degeneração corticobasal ou doença priônica — por isso os biomarcadores mudam a conduta e o prognóstico.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Qual é a conduta terapêutica mais adequada?",
+     "alternativas": {
+      "a": "Levodopa em titulação progressiva",
+      "b": "Antipsicótico atípico em dose baixa",
+      "c": "Inibidor da colinesterase com reabilitação e adaptações visuoespaciais",
+      "d": "Nova prescrição de lentes corretivas e reavaliação oftalmológica em 6 meses"
+     },
+     "correta": "c",
+     "comentario": "A alternativa correta é o inibidor da colinesterase (donepezila, rivastigmina ou galantamina) somado a reabilitação e adaptações do ambiente. Como a base patológica é a doença de Alzheimer, o tratamento sintomático segue o da DA — o déficit colinérgico está presente e o benefício, embora modesto e extrapolado dos ensaios da forma amnéstica, é a melhor evidência disponível (memantina pode ser associada nas fases moderada a grave). Tão importante quanto o fármaco é a abordagem não farmacológica dirigida ao déficit visual cortical: terapia ocupacional, uso de recursos auditivos (audiolivros, leitores de tela), redução de estímulos visuais simultâneos, contraste ambiental, marcação de degraus, e a recomendação firme de NÃO DIRIGIR, além de vigilância para depressão e ansiedade, muito prevalentes nessa síndrome de início precoce.\nNovos óculos não corrigem uma disfunção cortical — a paciente já fez isso três vezes sem benefício, e insistir só atrasa o diagnóstico. Levodopa trata parkinsonismo, que não existe aqui; na demência com corpos de Lewy poderia ser considerada, mas esse diagnóstico foi afastado. Antipsicótico atípico não tem indicação na ausência de psicose ou agitação e, em demências, aumenta mortalidade (alerta regulatório) — deve ser evitado, especialmente antes de tentar medidas ambientais.\nConteúdo extra: os anticorpos anti-amiloide (lecanemabe, donanemabe), aprovados para DA sintomática inicial com amiloide confirmado, exigem estadiamento precoce (CCL ou demência leve), genotipagem de APOE ε4 e monitorização por RM das anormalidades de imagem relacionadas ao amiloide (ARIA); a ACP com biomarcadores positivos pode, em princípio, ser elegível, mas a decisão é de centro especializado. A síndrome de Gerstmann completa aponta para o lobo parietal inferior dominante (giro angular).\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 98 — Doença de Alzheimer (apresentações atípicas) e cap. 96 — Demências; complementar com os critérios de consenso de atrofia cortical posterior (Crutch et al., Alzheimer's & Dementia, 2017).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Imunologia / Erros inatos da imunidade (deficiência humoral com ausência de tecido linfoide) [REAL: SUS-BA R+ Pediatria 2026]",
+   "tier": "MÉDIO",
+   "vinheta": "Menino, 6 anos de idade, sem antecedentes familiares relevantes, é levado ao ambulatório com história de otite média, recorrente desde o primeiro ano de vida, além de três episódios de pneumonia nos últimos dois anos. Ao exame físico, ausência de amígdalas e adenoides. Crescimento e desenvolvimento dentro do esperado.",
+   "perguntas": [
+    {
+     "enunciado": "Com base na descrição do caso, indique a hipótese diagnóstica mais provável a ser considerada:",
+     "alternativas": {
+      "a": "Doença ciliar.",
+      "b": "Malformação ectodérmica.",
+      "c": "Erro Inato da Imunidade.",
+      "d": "AIDS congênita."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A resposta é erro inato da imunidade — e o quadro é o protótipo da agamaglobulinemia ligada ao X (doença de Bruton). O menino preenche vários dos \"10 sinais de alerta\" da Jeffrey Modell Foundation/BRAGID: 4 ou mais otites em 1 ano, 2 ou mais pneumonias em 1 ano, infecções recorrentes por bactérias encapsuladas desde o final do primeiro ano de vida (quando os anticorpos maternos transferidos pela placenta desaparecem). O achado-chave é a AUSÊNCIA de amígdalas e adenoides: sem linfócitos B (o defeito na tirosina-quinase de Bruton — BTK — bloqueia a maturação de pré-B para B), não há tecido linfoide secundário formado, e os linfonodos também são minúsculos; é a pista que a banca usa para apontar deficiência humoral. Crescimento e desenvolvimento preservados afastam imunodeficiências combinadas graves, que cursam com falência de crescimento e infecções oportunistas precoces.\nA doença ciliar (discinesia ciliar primária) causa otites e pneumonias recorrentes, mas com tosse produtiva crônica desde o nascimento, sinusite, situs inversus em metade dos casos (Kartagener) e tecido linfoide NORMAL ou hipertrofiado. A AIDS congênita produz infecções oportunistas, candidíase, atraso de crescimento e linfadenopatia/hipertrofia de amígdalas (hiperplasia linfoide), o contrário de amígdalas ausentes. A displasia ectodérmica dá anidrose, hipotricose, hipodontia e febre inexplicada — não otites e pneumonias por encapsulados; a forma com imunodeficiência (NEMO) é raríssima e vem com o fenótipo dérmico.\nPérola: \"ausência de amígdalas\" em prova = agamaglobulinemia; \"amígdalas enormes com infecções\" = HIV ou imunodeficiência comum variável; \"abscessos e granulomas\" = doença granulomatosa crônica; \"Neisseria de repetição\" = deficiência de complemento terminal.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Indique o exame inicial a ser solicitado para esse paciente:",
+     "alternativas": {
+      "a": "Hemograma completo.",
+      "b": "Sorologia para HIV.",
+      "c": "Radiografia de cabeça em AP e de perfil.",
+      "d": "Cariótipo."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] O gabarito da banca é o hemograma completo, seguindo a lógica da investigação ESCALONADA das imunodeficiências: o primeiro nível, disponível em qualquer serviço, é o hemograma com contagem diferencial — ele revela neutropenia (congênita ou cíclica), linfopenia (<2.500-3.000/mm³ no lactente sugere imunodeficiência combinada), plaquetas pequenas e em número reduzido (Wiskott-Aldrich) e eosinofilia (hiper-IgE) — e serve de porta de entrada; no mesmo primeiro nível entram a dosagem de imunoglobulinas (IgG, IgA, IgM) e, quando disponível, a imunofenotipagem de linfócitos, que na agamaglobulinemia mostra IgG, IgA e IgM muito baixas ou indetectáveis e linfócitos B CD19+ <2%. O candidato deve reconhecer que, entre as alternativas dadas, o hemograma é o único exame de triagem imunológica inicial; a dosagem de imunoglobulinas, que seria a resposta \"ideal\", não está listada — clássico da prova: escolher a melhor opção disponível.\nA radiografia de cabeça (cavum) só documentaria a ausência de adenoides já vista clinicamente; a radiografia de tórax teria valor para procurar ausência de timo em combinada grave, mas não é o exame inicial da suspeita humoral. A sorologia para HIV é pertinente no diferencial de qualquer imunodeficiência, mas a ausência de tecido linfoide e a história familiar negativa (e a mãe presumivelmente não infectada) a tornam menos provável — e, em uma criança com agamaglobulinemia, sorologias podem ser FALSO-NEGATIVAS por não produzir anticorpos; a pesquisa teria de ser por carga viral. Cariótipo investiga cromossomopatias, não erros inatos da imunidade (o diagnóstico definitivo é por sequenciamento do gene BTK).\nConteúdo extra: a triagem neonatal por TREC/KREC, incorporada ao teste do pezinho ampliado (Lei 14.154/2021), permite identificar precocemente a imunodeficiência combinada grave (TREC) e a agamaglobulinemia (KREC ausente) antes das infecções.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Em relação à principal suspeita diagnóstica, é correto o que se afirma em:",
+     "alternativas": {
+      "a": "O diagnóstico na maioria das vezes é perinatal.",
+      "b": "O tratamento de controle é sempre de uso contínuo.",
+      "c": "O risco de infecções virais é maior do que o de infecções bacterianas.",
+      "d": "A doença tende a melhorar espontaneamente com a idade."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2026] A afirmativa correta é que o tratamento é CONTÍNUO por toda a vida: reposição de imunoglobulina humana (IVIG 400-600 mg/kg a cada 3-4 semanas, ou subcutânea semanal), com meta de IgG de vale >800-1.000 mg/dL, que reduz drasticamente pneumonias, sepse e meningite e previne a bronquiectasia e a perda auditiva — as sequelas que definem o prognóstico. Somam-se antibióticos precoces e agressivos nas infecções, profilaxia antibiótica em casos selecionados, fisioterapia respiratória e vigilância pulmonar; o transplante de células-tronco não é padrão na agamaglobulinemia, ao contrário das combinadas graves. Como o defeito genético é permanente e as imunoglobulinas infundidas têm meia-vida de ~3 semanas, a interrupção da reposição reexpõe a criança às infecções.\nO diagnóstico NÃO é perinatal na maioria dos casos: o recém-nascido está protegido pela IgG materna e as infecções começam depois dos 6-9 meses; o diagnóstico ocorre em média aos 2-3 anos (mais cedo quando há caso na família ou triagem por KREC). A doença NÃO melhora com a idade — isso vale para a hipogamaglobulinemia TRANSITÓRIA da infância, em que a produção se normaliza até os 2-4 anos, distrator clássico. O risco predominante é de infecções BACTERIANAS por encapsulados (pneumococo, Haemophilus), além de Giardia e micoplasma; as infecções virais em geral são controladas pela imunidade celular preservada — a exceção importante é o ENTEROVÍRUS (meningoencefalite crônica, poliomielite vacinal), razão pela qual a vacina oral da pólio é contraindicada nesses pacientes e em seus contatos domiciliares.\nConteúdo extra: vacinas de vírus vivos (VOP, rotavírus, febre amarela, tríplice viral, varicela, BCG na forma combinada grave) são contraindicadas; as inativadas podem ser feitas, embora com resposta ausente — a proteção vem da imunoglobulina. Autoimunidade e neoplasias linfoides são mais frequentes na imunodeficiência comum variável do que na agamaglobulinemia.\n📚 Leitura sugerida (bloco): Tratado de Pediatria da SBP (capítulo de erros inatos da imunidade) e os \"10 sinais de alerta para imunodeficiência primária\" da Jeffrey Modell Foundation/BRAGID; complementar com a videoaula \"Miscelânea\" do R+ Pediatria 2024 MEDGRUPO no Drive do Vinicius (https://drive.google.com/file/d/1WpVqn3eUO2tszrOrRkx_rgPXrAT4rtuk/view).",
+     "dificuldade": "dificil"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Hipertensão Intracraniana e Emergências Neurológicas (coleção extra-axial aguda pós-traumática com herniação transtentorial e falso sinal de lateralização)",
+   "tier": "ALTO",
+   "vinheta": "Homem, 58 anos, etilista crônico, sofreu queda de escada há 3 horas com traumatismo craniano. À admissão tinha escala de coma de Glasgow 13 e agora apresenta piora: abertura ocular ausente, emite sons incompreensíveis e retira o membro à dor (Glasgow 7). Pupila direita com 6 mm, sem reação à luz; pupila esquerda com 3 mm, fotorreagente. Hemiparesia à DIREITA. Pressão arterial 175x95 mmHg, frequência cardíaca 50 bpm, padrão respiratório irregular. Tomografia de crânio: coleção extra-axial hiperdensa em forma de crescente na convexidade fronto-temporo-parietal DIREITA, com espessura de 14 mm, desvio da linha média de 11 mm e apagamento das cisternas perimesencefálicas. Tempo de protrombina alargado (RNI 1,8) e plaquetas de 95.000/mm³.",
+   "perguntas": [
+    {
+     "enunciado": "Qual é a explicação mais provável para a hemiparesia ser do MESMO lado da lesão?",
+     "alternativas": {
+      "a": "Lesão axonal difusa associada",
+      "b": "Paralisia de Todd após crise focal não presenciada",
+      "c": "Compressão do pedúnculo cerebral contralateral contra a borda da tenda (entalhe de Kernohan)",
+      "d": "Hematoma contralateral não visualizado na tomografia"
+     },
+     "correta": "c",
+     "comentario": "A alternativa correta é o fenômeno de Kernohan (Kernohan-Woltman). Na herniação uncal, o hematoma desloca o úncus do lobo temporal medialmente sobre a incisura da tenda; o primeiro sinal é a midríase IPSILATERAL fixa, pela compressão das fibras parassimpáticas periféricas do III nervo. Em geral o pedúnculo cerebral do MESMO lado é comprimido, produzindo hemiparesia CONTRALATERAL (padrão esperado). Porém, quando o desvio é grande, o mesencéfalo inteiro é empurrado e o pedúnculo CONTRALATERAL é esmagado contra a borda livre da tenda do lado oposto; como o trato corticoespinhal ainda não cruzou nesse nível, o resultado é hemiparesia IPSILATERAL ao hematoma — o \"falso sinal localizatório\" de Kernohan. Regra de prova: a PUPILA é o sinal confiável de lado da lesão; a hemiparesia pode enganar.\nLesão axonal difusa produz coma desde o impacto, com TC pouco expressiva (petéquias na junção córtico-subcortical, corpo caloso e tronco), e não explica lateralização com midríase progressiva em paciente que chegou com Glasgow 13. Um hematoma contralateral oculto é hipótese estatisticamente improvável diante de uma TC que já mostra lesão unilateral com desvio de 11 mm capaz de explicar tudo — e, se existisse, também não daria midríase à direita com hemiparesia direita. A paralisia de Todd é um déficit pós-ictal transitório e não vem acompanhada de midríase fixa, bradicardia e padrão respiratório irregular, que compõem a tríade de Cushing da hipertensão intracraniana crítica.\nPérola: a sequência clássica da herniação uncal é midríase ipsilateral → hemiparesia (contra ou ipsilateral) → rebaixamento → descerebração e alterações respiratórias; a bradicardia com hipertensão indica que a compressão do tronco já está instalada, exigindo intervenção imediata.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Qual achado tomográfico, por si só, define a indicação cirúrgica nesta lesão?",
+     "alternativas": {
+      "a": "Apagamento das cisternas perimesencefálicas",
+      "b": "Qualquer coleção subdural aguda em paciente com coagulopatia",
+      "c": "Espessura maior que 10 mm ou desvio da linha média maior que 5 mm",
+      "d": "Volume estimado acima de 30 mL"
+     },
+     "correta": "c",
+     "comentario": "A resposta é espessura >10 mm ou desvio de linha média >5 mm. Pelas diretrizes cirúrgicas do traumatismo cranioencefálico (Bullock et al., Brain Trauma Foundation), o hematoma subdural agudo deve ser evacuado quando a espessura excede 10 mm OU o desvio da linha média excede 5 mm, independentemente do escore de Glasgow. Além disso, pacientes com hematoma menor que isso devem ser operados se tiverem Glasgow <9 e queda de ≥2 pontos desde o trauma, pupilas assimétricas ou fixas, ou pressão intracraniana >20 mmHg. Nosso paciente preenche o critério radiológico (14 mm e 11 mm) e todos os critérios clínicos.\nO apagamento das cisternas é sinal de hipertensão intracraniana grave e mau prognóstico, mas não é o critério formal de indicação cirúrgica do hematoma subdural (é usado, sim, na decisão de monitorizar a PIC e na classificação de Marshall). O volume >30 mL é o critério do hematoma EXTRADURAL (e do hematoma intraparenquimatoso em algumas situações), não do subdural, cujo critério é a espessura. Nem toda coleção subdural aguda é cirúrgica: hematomas finos (<10 mm) sem desvio em paciente acordado são tratados conservadoramente com TC seriada, mesmo com coagulopatia — esta deve ser corrigida, mas não muda por si o critério.\nConteúdo extra: o subdural agudo é a lesão cirúrgica mais frequente e mais letal do TCE grave (mortalidade de 40-60%), pois vem associado a contusões e lesão parenquimatosa subjacente; o extradural, em contraste, costuma ter melhor prognóstico se operado rápido. O tempo entre a deterioração e a cirurgia é o principal fator prognóstico modificável — idealmente menos de 4 horas. O etilismo e a coagulopatia por hepatopatia aumentam o risco de sangramento e de expansão do hematoma.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Enquanto a equipe neurocirúrgica prepara a evacuação do hematoma, qual é o conjunto de medidas imediatas mais adequado?",
+     "alternativas": {
+      "a": "Punção lombar para drenagem de liquor e alívio da pressão",
+      "b": "Dexametasona 10 mg endovenosa em bolus",
+      "c": "Anti-hipertensivo endovenoso para manter pressão arterial abaixo de 140x90 mmHg",
+      "d": "Cabeceira a 30°, intubação com hiperventilação breve e solução salina hipertônica ou manitol"
+     },
+     "correta": "d",
+     "comentario": "A alternativa correta é o pacote de medidas de controle da hipertensão intracraniana em paciente com sinais de herniação: cabeceira elevada a 30° com cabeça alinhada (favorece o retorno venoso), intubação orotraqueal (Glasgow ≤8 e padrão respiratório irregular) com HIPERVENTILAÇÃO TRANSITÓRIA como ponte até a cirurgia (PaCO2 30-35 mmHg — a hipocapnia induz vasoconstrição cerebral e reduz o volume sanguíneo intracraniano em minutos, mas prolongada causa isquemia; a hiperventilação profilática é contraindicada), e osmoterapia — manitol 0,5-1 g/kg ou salina hipertônica (a solução hipertônica é preferida em hipotensão/hipovolemia, pois o manitol é diurético). Somam-se sedação/analgesia adequadas, normotermia, glicemia controlada e correção URGENTE da coagulopatia (plasma fresco/complexo protrombínico e plaquetas para a cirurgia).\nA dexametasona é INEFICAZ e DELETÉRIA no trauma craniano: o ensaio CRASH (10.000 pacientes) mostrou AUMENTO da mortalidade com metilprednisolona; o corticoide só trata edema VASOGÊNICO tumoral ou de abscesso. Reduzir a pressão arterial é erro grave: com a PIC elevada, a pressão de perfusão cerebral (PAM − PIC) depende da PAM, e a hipertensão com bradicardia é resposta compensatória (Cushing); a Brain Trauma Foundation recomenda manter PAS ≥100-110 mmHg e evitar hipotensão a todo custo. A punção lombar em massa com desvio de 11 mm e cisternas apagadas precipita herniação e é contraindicação absoluta.\nConteúdo extra: profilaxia de crises com fenitoína ou levetiracetam por 7 dias reduz crises precoces (não as tardias) e está indicada no hematoma subdural agudo; a hipotermia profilática não é recomendada; a craniectomia descompressiva pode acompanhar a evacuação quando há edema importante.\n📚 Leitura sugerida (bloco): Tratado de Neurologia da ABN (3ª ed., 2025), cap. 162 — Manejo do Traumatismo Cranioencefálico, e cap. 163 — Hipertensão Intracraniana em Terapia Intensiva Neurológica; complementar com Merritt, Tratado de Neurologia (13ª ed.), Seção 5 — Neurotrauma, e as Guidelines for the Management of Severe TBI (Brain Trauma Foundation, 4ª ed.).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Pediatria — Endocrinologia / Crescimento e Adolescência (baixa estatura com atraso puberal: estatura-alvo e investigação) [REAL: SUS-BA R+ Pediatria 2023]",
+   "tier": "ALTO",
+   "vinheta": "Adolescente, sexo feminino, 15 anos de idade é levada ao Ambulatório. Nasceu a termo, com peso: 2.900 g e comprimento: 48,5 cm. Refere que os marcos do desenvolvimento neuropsicomotor ocorreram em épocas fisiológicas. Nega antecedentes patológicos. Ainda não apresentou menarca. A genitora refere menarca aos 11 anos, assim como a filha mais velha. A mãe mede 1,64 m; o pai mede 1,79 m. O médico observa que a voz da menor tem timbre infantil. Responde, timidamente, às perguntas da anamnese. Pouco participa da conversa e permanece em posição retraída. A curva estatural da Caderneta da criança teve seu último registro aos 2 anos de idade. No momento, a estatura da menor está sobre a curva −3 do escore Z e no gráfico ponderal está entre os escores Z 0 e −2. Ao exame físico, encontra-se em bom estado geral, estágio de desenvolvimento de Tanner M3 P2.",
+   "perguntas": [
+    {
+     "enunciado": "Diante dos dados apresentados, identifique a estatura final, esperada, para essa adolescente:",
+     "alternativas": {
+      "a": "165 ± 10 cm.",
+      "b": "164 ± 10 cm.",
+      "c": "178 ± 10 cm.",
+      "d": "155 ± 10 cm."
+     },
+     "correta": "a",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A resposta é 165 cm. A \"estatura final esperada\" aqui é a ESTATURA-ALVO (canal genético de crescimento), calculada pela média das estaturas dos pais corrigida pelo sexo: para meninas, [(altura da mãe + altura do pai − 13)] ÷ 2; para meninos, [(altura da mãe + altura do pai + 13)] ÷ 2. Assim: (164 + 179 − 13) ÷ 2 = 330 ÷ 2 = 165 cm, com a variação aceita de ±8,5 a ±10 cm (2 desvios-padrão), que a banca apresentou como ±10. A menina, aos 15 anos com estatura em −3 escores Z, está MUITO abaixo do seu canal familiar — o que caracteriza baixa estatura PATOLÓGICA até prova em contrário, e não variante da normalidade (baixa estatura familiar), pois os pais são altos.\n164 cm é a estatura da mãe, e não o cálculo; 178 cm corresponderia à estatura-alvo de um MENINO com os mesmos pais [(164 + 179 + 13) ÷ 2 = 178] — o distrator que pega quem esquece de subtrair os 13 cm; 155 cm seria um erro de cálculo.\nConteúdo extra: os 13 cm representam a diferença média de estatura entre homens e mulheres adultos; a projeção da estatura FINAL também pode ser feita pela idade óssea (Bayley-Pinneau), que aqui exigiria a radiografia de mão e punho. Dados de prova frequentes: é baixa estatura a estatura <−2 escores Z para idade e sexo; velocidade de crescimento <4-5 cm/ano no pré-púbere é sinal de alerta mesmo com estatura normal; e a comparação com a estatura-alvo (estar >1,5-2 DP abaixo do canal familiar) é o que separa baixa estatura familiar de patológica. Também o retardo constitucional do crescimento e da puberdade (\"maturador lento\") teria história familiar de atraso puberal — aqui a mãe e a irmã menstruaram aos 11 anos, o que enfraquece essa hipótese.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Indique os exames necessários para a avaliação adequada dessa adolescente:",
+     "alternativas": {
+      "a": "Idade óssea, Dosagem de estradiol, Velocidade do crescimento.",
+      "b": "Cariótipo, Idade óssea, Dosagem de estradiol, Velocidade do crescimento.",
+      "c": "Cariótipo, Idade óssea, Velocidade do crescimento.",
+      "d": "Cariótipo, Dosagem de estradiol, Velocidade do crescimento."
+     },
+     "correta": "c",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] O gabarito é cariótipo, idade óssea e velocidade de crescimento. Toda MENINA com baixa estatura patológica (−3 Z, muito abaixo da estatura-alvo) deve ter o cariótipo solicitado, mesmo sem estigmas evidentes, porque a síndrome de Turner (45,X e mosaicos) é a causa genética mais frequente de baixa estatura feminina e cursa com amenorreia primária por disgenesia gonadal — a paciente tem 15 anos sem menarca e desenvolvimento puberal incompleto (M3 P2), o que reforça a suspeita; a idade óssea (radiografia de mão e punho esquerdos, método de Greulich-Pyle) distingue baixa estatura com idade óssea atrasada (hipotireoidismo, deficiência de GH, atraso constitucional, doença crônica) da compatível com a cronológica (familiar, displasias), além de permitir a predição de estatura final; e a velocidade de crescimento (medida em pelo menos 6 meses) é o parâmetro dinâmico mais sensível para separar variantes normais de doença — aqui a caderneta não tem registro desde os 2 anos, tornando essa medida essencial.\nAs alternativas que incluem a dosagem de estradiol foram consideradas incorretas pela banca com uma lógica defensável: o exame físico já mostra Tanner M3, ou seja, há ESTROGENIZAÇÃO (o desenvolvimento mamário é a prova biológica de produção de estrogênio), de modo que a dosagem sérica — cuja sensibilidade em fases iniciais da puberdade é baixa e cujos valores variam com o ciclo — não acrescenta informação para a decisão diagnóstica. Em uma investigação hormonal de atraso puberal, os exames com valor seriam LH/FSH (hipergonadotrófico no Turner) e não o estradiol isolado. Excluir o cariótipo (alternativa C) seria o erro mais grave.\nConteúdo extra: a investigação de primeira linha de baixa estatura patológica inclui ainda hemograma, VHS, função renal e hepática, TSH/T4 livre, sorologia para doença celíaca (anti-transglutaminase IgA com IgA total), IGF-1 e, quando indicado, teste de estímulo de GH. No Turner, além da baixa estatura, buscar cardiopatia (coarctação, valva aórtica bicúspide), rim em ferradura, hipoacusia e hipotireoidismo autoimune.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Identifique, entre as alternativas citadas a seguir, a que apresenta o que causa estatura acima do normal para idade:",
+     "alternativas": {
+      "a": "Atraso na puberdade precoce.",
+      "b": "Síndrome de Marfan.",
+      "c": "Síndrome de Noonan.",
+      "d": "Acondroplasia."
+     },
+     "correta": "b",
+     "comentario": "[Questão real — SUS-BA R+ Pediatria 2023] A resposta é a síndrome de Marfan, doença autossômica dominante do tecido conjuntivo por mutação no gene FBN1 (fibrilina-1), que cursa com ALTA estatura, proporções corporais eunucoides (envergadura maior que a altura, segmento inferior longo), aracnodactilia, pectus, escoliose, hipermobilidade, ectopia do cristalino e dilatação da raiz da aorta — esta última a principal causa de morte, exigindo ecocardiograma periódico e betabloqueador/losartana. Os critérios de Ghent revisados (2010) usam o escore sistêmico, a ectopia lentis, a dilatação aórtica e a genética. Outras causas de alta estatura que a prova cobra: síndrome de Klinefelter (47,XXY), homocistinúria (mimetiza Marfan, mas com deficiência intelectual, trombose e cristalino deslocado para BAIXO), síndrome de Sotos, gigantismo hipofisário e alta estatura familiar.\nA acondroplasia é a displasia esquelética mais comum, por mutação ativadora do FGFR3, com baixa estatura DESPROPORCIONADA (membros curtos rizomélicos, macrocefalia, fronte proeminente, mão em tridente) — o oposto. A síndrome de Noonan (RASopatia, gene PTPN11 em ~50%) causa BAIXA estatura, pescoço alado, ptose, hipertelorismo, criptorquidia e estenose pulmonar; é o \"Turner-like\" que acomete ambos os sexos com cariótipo normal e é diferencial direto desta paciente. \"Atraso na puberdade precoce\" é redação sem sentido clínico; o atraso puberal (constitucional) produz estatura baixa para a idade durante a adolescência, com estatura final normal, e a puberdade PRECOCE produz alta estatura transitória na infância com baixa estatura final por fechamento epifisário antecipado — nenhum dos dois dá alta estatura final.\nPérola: em toda alta estatura, o exame do cristalino e o ecocardiograma separam Marfan (cristalino para cima, aorta dilatada) de homocistinúria (cristalino para baixo, trombose) e de Klinefelter (hipogonadismo, ginecomastia).\n📚 Leitura sugerida (bloco): Tratado de Pediatria da SBP (capítulos de crescimento e de puberdade) e o manual \"Avaliação Nutricional da Criança e do Adolescente\" (SBP); complementar com a videoaula \"Endocrinologia (hipotireoidismo, baixa estatura, puberdade)\" do R+ Pediatria 2024 MEDGRUPO no Drive do Vinicius (https://drive.google.com/file/d/1DfkaSxC7e73geDJxpMCfbVbx-VX53efB/view).",
+     "dificuldade": "moderada"
+    }
+   ]
+  },
+  {
+   "tema": "Neurologia — Neuropediatria específica (incoordenação aguda da marcha em pré-escolar após exantema vesicular)",
+   "tier": "MÉDIO",
+   "vinheta": "Menina, 4 anos, previamente hígida, é trazida ao pronto atendimento porque há 2 dias passou a andar com as pernas afastadas, cambaleando e caindo, com tremor das mãos ao tentar pegar brinquedos e fala 'arrastada'. Há 12 dias teve exantema vesicular pruriginoso de distribuição generalizada, em fases evolutivas simultâneas, com febre baixa, que já regrediu com crostas. Está afebril, alerta, brincando, sem cefaleia, vômitos ou sonolência. Exame: ataxia de tronco e de marcha, dismetria na prova índex-nariz, disartria, nistagmo horizontal discreto no olhar lateral; força e reflexos osteotendíneos normais e simétricos; sensibilidade preservada; fundo de olho normal; sem sinais meníngeos; sem movimentos oculares caóticos ou mioclonias.",
+   "perguntas": [
+    {
+     "enunciado": "Qual é o diagnóstico mais provável?",
+     "alternativas": {
+      "a": "Ataxia cerebelar aguda pós-infecciosa",
+      "b": "Tumor de fossa posterior",
+      "c": "Síndrome de Guillain-Barré",
+      "d": "Síndrome opsoclonia-mioclonia"
+     },
+     "correta": "a",
+     "comentario": "A alternativa correta é a ataxia cerebelar aguda pós-infecciosa, a causa mais comum de ataxia aguda na infância (30-50% dos casos), com pico entre 2 e 5 anos. A varicela é o antecedente clássico (cerca de 1 caso para cada 4.000 infecções, surgindo em geral 1-3 semanas após o exantema), seguida de outras viroses e de vacinas. O mecanismo é imunomediado — reação cruzada de anticorpos/células T contra antígenos cerebelares, e não invasão viral direta —, o que explica o início súbito, o acometimento cerebelar isolado (ataxia de tronco e marcha, dismetria, disartria, nistagmo) e, sobretudo, a preservação do nível de consciência e do restante do exame. Uma criança afebril, alerta e brincando, com ataxia pura após varicela recente, é o protótipo desse diagnóstico.\nA síndrome de Guillain-Barré manifesta-se com fraqueza ascendente e ARREFLEXIA; a criança tem força e reflexos normais. A variante de Miller-Fisher poderia mimetizar (ataxia), mas exige oftalmoplegia e arreflexia. A síndrome opsoclonia-mioclonia — marcadora de neuroblastoma em metade dos casos — tem os movimentos oculares caóticos multidirecionais, mioclonias e irritabilidade intensa, explicitamente ausentes. Tumor de fossa posterior (meduloblastoma, astrocitoma cerebelar) causa ataxia SUBAGUDA progressiva com sinais de hipertensão intracraniana (cefaleia matinal, vômitos, papiledema), rigidez de nuca ou paralisia de VI nervo; o início abrupto com fundo de olho normal fala contra.\nDiferenciais que a prova adora: INTOXICAÇÃO exógena (benzodiazepínicos, anticonvulsivantes, álcool, anti-histamínicos) — perguntar sempre por medicamentos em casa —, encefalomielite disseminada aguda (tem encefalopatia e sinais multifocais), labirintite, e cerebelite infecciosa direta com edema. A ausência de encefalopatia é o divisor entre ataxia cerebelar aguda e ADEM/encefalite.",
+     "dificuldade": "moderada"
+    },
+    {
+     "enunciado": "Qual é a conduta diagnóstica mais adequada?",
+     "alternativas": {
+      "a": "Ressonância magnética de encéfalo com contraste, obrigatória antes de qualquer conduta",
+      "b": "Triagem toxicológica urinária como exame inicial obrigatório",
+      "c": "Diagnóstico clínico; neuroimagem apenas se houver achados atípicos",
+      "d": "Punção lombar com PCR para vírus varicela-zóster no liquor"
+     },
+     "correta": "c",
+     "comentario": "A resposta é que o diagnóstico é CLÍNICO, e a neuroimagem fica reservada aos casos atípicos. Quando há o antecedente infeccioso típico, início agudo, ataxia isolada, ausência de encefalopatia, de sinais de hipertensão intracraniana, de sinais focais e de meningismo, a probabilidade de doença estrutural é muito baixa, e a criança pode ser observada. A neuroimagem (preferencialmente RM) está indicada se houver: rebaixamento do nível de consciência, cefaleia/vômitos ou papiledema, sinais focais ou assimétricos, paralisia de nervo craniano, rigidez de nuca, progressão ou ausência de melhora em 1-2 semanas, idade fora do habitual ou ausência de pródromo infeccioso.\nExigir RM com contraste em TODOS os casos gera sedação e custo sem mudar a conduta na apresentação típica; na ataxia pós-infecciosa a RM é normal ou mostra apenas discreto hipersinal cerebelar em T2. A punção lombar não é necessária no quadro típico e, se feita, mostra pleocitose linfocítica discreta e proteína levemente elevada, inespecíficas; a PCR para VZV no liquor costuma ser NEGATIVA, porque o mecanismo é pós-infeccioso, não invasivo — resultado negativo não afasta nem muda o tratamento. A triagem toxicológica é obrigatória quando NÃO há antecedente infeccioso claro, quando há sonolência ou quando existem medicamentos acessíveis em casa; aqui, com varicela documentada há 12 dias e criança alerta, é razoável perguntar ativamente sobre exposição, mas não é o exame inicial obrigatório.\nPérola: em toda ataxia aguda infantil, a pergunta-chave à beira do leito é \"a criança está encefalopática?\" — se sim, o caminho é imagem e liquor (ADEM, encefalite, cerebelite); se não, e há infecção recente, é ataxia cerebelar aguda.",
+     "dificuldade": "dificil"
+    },
+    {
+     "enunciado": "Qual é a conduta terapêutica e o prognóstico esperado?",
+     "alternativas": {
+      "a": "Pulsoterapia com metilprednisolona",
+      "b": "Aciclovir endovenoso por 10 dias",
+      "c": "Imunoglobulina endovenosa",
+      "d": "Observação e suporte, com recuperação completa esperada em semanas a poucos meses"
+     },
+     "correta": "d",
+     "comentario": "A alternativa correta é observação com suporte. A ataxia cerebelar aguda pós-infecciosa é autolimitada: a maioria das crianças melhora em 1-3 semanas e recupera-se completamente em até 2-3 meses (mais de 90% sem sequelas); o manejo consiste em proteger contra quedas, hidratação, retorno gradual às atividades e reavaliação clínica em poucos dias para confirmar a estabilidade ou a melhora. A persistência além de 2-3 meses ou a piora deve motivar reinvestigação (imagem, liquor, pesquisa de neuroblastoma se surgir opsoclonia).\nO aciclovir tem indicação na encefalite por VZV/HSV e na varicela grave ou do imunodeprimido, situações com replicação viral ativa; na ataxia pós-infecciosa o vírus já foi eliminado e o antiviral não altera o curso. A pulsoterapia com metilprednisolona é usada em ADEM, cerebelite grave com edema e ataxias imunomediadas atípicas — e alguns serviços a consideram em casos prolongados —, mas não há evidência de benefício na forma típica, que já melhora sozinha. A imunoglobulina segue o mesmo raciocínio: reservada a ADEM refratária, opsoclonia-mioclonia e Guillain-Barré, não à ataxia cerebelar aguda simples.\nConteúdo extra e saúde pública: a varicela é doença de notificação em casos graves/internados e óbitos, e a prevenção é vacinal — no Calendário Nacional, a vacina varicela é ofertada aos 15 meses (tetraviral) e uma segunda dose aos 4 anos; é vacina de vírus vivo atenuado, contraindicada em imunodeprimidos graves e gestantes. A complicação neurológica mais frequente da varicela é justamente a ataxia cerebelar; a encefalite é mais rara e mais grave. Aspirina é contraindicada na varicela (síndrome de Reye).\n📚 Leitura sugerida (bloco): Merritt, Tratado de Neurologia (13ª ed.), Seção 19 — Neurologia Pediátrica (ataxias agudas da infância); complementar com Tratado de Neurologia da ABN (3ª ed., 2025), cap. 172 — Particularidades do Exame Neurológico da Criança, e o Tratado de Pediatria da SBP (capítulo de varicela e complicações).",
+     "dificuldade": "facil"
+    }
+   ]
+  }
+ ]
+}
